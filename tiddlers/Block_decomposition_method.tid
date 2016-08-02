@@ -1,0 +1,40 @@
+created: 20160714150943046
+creator: guillefix
+modified: 20160715184200482
+modifier: guillefix
+title: Block decomposition method
+
+The ''block decomposition method'' (BDM) is an extension of the [[Coding theorem method]] to measure the complexity of $$N$$-dimensional arrays. As a [[Network]] can be expressed via its [[Adjacency matrix]], which is a 2D array, it can be used to measure [[Network complexity]] as well.
+
+[[Original paper|http://arxiv.org/pdf/1212.6745v4.pdf]]
+
+The measure (which we also call BDM) of complexity of array $$A$$ is defined as:
+
+$$K(A) = \sum\limits_{(r,u) \in \mathcal{A}_{d}} \log_2(n) + K_m (r)$$
+
+where $$\mathcal{A}_d$$ is the set with elements $$(r,u)$$ obtained when decomposing the array into non-overlapping subarrays of side length $$d$$. $$r$$ is one unique square, and $$n$$ is its multiplicity (number of times it appears). $$K_m$$ refers to the estimate of Kolmogorov complexity used in the [[Coding theorem method]]. However, for $$N$$-dimensional arrays, one uses $$N$$-dimensional [[Turing machine]]s, or [[Turmite]]s. Note that $$\log_2(n) $$ is the number of bits needed to specify the number $$n$$. 
+
+In the original paper, a set of 2-dimensional Turing machines was executed to produce all square arrays of size d = 4. This is why
+the BDM is needed in order to decompose objects of larger size into objects for which its Kolmogorov complexity has been
+estimated.
+
+The order of the graph nodes in the adjacency matrix is relevant for
+the complexity retrieved by the BDM. This is especially important in highly symmetrical graphs.
+
+In estimating complexity,
+it is reasonable to consider that the <span style="font-weight:normal;color:#9ED6C7;letter-spacing:0pt;word-spacing:2pt;font-size:14px;text-align:left;font-family:georgia, serif;line-height:1;margin:0px;padding:0px;">complexity of a graph corresponds to the lowest $$K_m$$ value of all permutations of the
+adjacency matrix</span>, as the shortest program generating the simplest adjacency matrix is the shortest program generating
+the graph.
+
+!!!__Normalized BDM__
+
+The chief advantage of a normalised measure is that it enables
+a comparison among objects of different sizes without allowing the size to dominate the measure.
+
+[img[http://i.imgur.com/8iC5ILA.png]]
+
+MaxBDM is calculated approximately, as described in the paper.
+
+!!!__Implementation__
+
+An online implementation and code can be found [[here|http://complexitycalculator.com/]]

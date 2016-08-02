@@ -1,0 +1,40 @@
+created: 20160711224908056
+creator: guillefix
+modified: 20160711224915360
+modifier: guillefix
+title: Examples of finite-state transducers and their simplicity bias
+
+See [[Simplicity bias in finite-state transducers]]
+
+You need to be able to loop around the non-coding region, and around the coding region to get non-trivial designability/complexity plots.
+
+This FST shows a good example of an approximately absorbing region with two non-coding states. The fact that the region is approximately non-absorbing, and as there is a cycle outside that region, means we will get variety in output.
+
+[img[http://i.imgur.com/yoA3f19.jpg]]
+
+FST table:
+
+``0 2 1 1
+0 1 0 1
+1 4 1 0
+1 3 0 0
+2 1 1 1
+2 0 0 0
+3 2 1 0
+3 1 0 0
+4 1 1 0
+4 1 0 0
+0
+1
+2
+3
+4
+``
+
+In this example there is clear bias towards a $$000000...$$ sequence, as there is an absorbing region made entirely of $$0$$-noncoding states. However, the rest of the fst does not have any loop, so there's barely any possibility for variety of outpus, and the designability/complexity plot is trivial.
+
+[img[http://i.imgur.com/IlQBqBy.jpg]]
+
+Here is an example of a FST with an approximately absorbing region with non-coding states that is the whole fst.
+
+[img[http://i.imgur.com/tZ18ciy.jpg]]

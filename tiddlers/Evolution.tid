@@ -1,0 +1,86 @@
+created: 20160303224225485
+creator: guillefix
+modified: 20160721131227751
+modifier: guillefix
+tags: Self-organization [[Biodiversity & evolution]]
+title: Evolution
+
+''Evolution'' ([[wiki|https://en.wikipedia.org/wiki/Evolution]]) is a positive feedback loop: it's all about changes that perpetuate those changes. Whenever you change a gene in such a way that it makes that gene more likely to stick around. But it doesn't need to be a gene. You can make self-sustaining cultural changes, like memes, self-fullfilling prophecies. Of course, positive feedback loops are found in maaany places, and they are indeed one of the main causes of self-organization in complex systems, so it is nice to see that evolution is just an example of one.
+
+Dawkins idea of replicators (see [[his article|http://www.stephenjaygould.org/library/dawkins_replicators.html]]) of course fits well, because replicators are just self-sustaining structures. See also [[Units of evolution: A metaphysical essay|http://philpapers.org/rec/HULUOE]] and [[this|http://innovation.ucdavis.edu/people/publications/22 Griesemer 2000 Selection-1.1-67-80.pdf]], and [[The Elementary Units of Heredity|https://books.google.es/books/about/The_Elementary_Units_of_Heredity.html?id=LQDjcQAACAAJ&redir_esc=y]] cited in his article)
+
+See [[MMathPhys oral presentation]],  [[Evolutionary computing]], [[Genetics]]
+
+!__Evolutionary biology__
+
+Read book: Dawkins - The extended phenotype
+
+[[Evolutionary Dynamics- Exploring the Equations of Life - by Martin A. Nowak|http://www.hup.harvard.edu/catalog.php?isbn=9780674023383]]
+[[slides|http://www.claymath.org/library/academy/LectureNotes/Nowak.pdf]]
+[[website|http://ped.fas.harvard.edu/]]
+[[Evolutionary dynamics on graphs|http://www.nature.com/nature/journal/v433/n7023/abs/nature03204.html]]
+[[djvu|file:///home/guillefix/Dropbox/COSMOS/Biology%20&%20Medicine/Biodiversity%20and%20evolution/%5BMartin_A._Nowak%5D_Evolutionary_Dynamics_Exploring.djvu]]
+
+!!!''[[Modern evolutionary synthesis|https://en.wikipedia.org/wiki/Modern_evolutionary_synthesis]]''
+
+[[History of evolutionary thought]]
+
+!!__Evolution theory__
+
+[[Theoretical evolutionary genetics - Felsenstein (book)|http://evolution.genetics.washington.edu/pgbook/pgbook.html]], [[pdf|chrome-extension://ecnphlgnajanjnkcmbpancdjoidceilk/http://evolution.gs.washington.edu/pgbook/pgbook.pdf]]
+
+[[ON THE FORMALIZATION OF THE EVOLVING TRANSFORMATION SYSTEM MODEL|http://cs.unb.ca/~goldfarb/oleg.pdf]]
+
+[[Evolutionary Theory and Mathematics|http://dynamics.org/Altenberg/PAPERS/]]
+
+[[Mathematical Modeling of Evolution|http://pespmc1.vub.ac.be/MATHME.html]]
+
+[[“The arrival of the fittest”: Toward a theory of biological organization|http://link.springer.com/article/10.1007/BF02458289]]
+
+!!!__[[Neutral theory of evolution]]__
+
+''Kimura's neutral theory of evolution''. He proposed that (at least for molecular evolution) most mutations are neutral, meaning that they don't lead to a change in fitness.
+
+!!!__[[Evolutionary developmental biology]]__
+
+!!__[[Features of evolving systems]]__
+
+!!__[[Effects in evolution]]__
+
+[[Bias in GP maps]], [[Arrival of the frequent]]
+
+!!__Genetic information and evolution__
+
+See [[Genetics]]
+
+[[Genotype-phenotype map]], [[Bias in GP maps]]
+
+[[Discovery of a fundamental limit to the evolution of the genetic code|http://phys.org/news/2016-05-discovery-fundamental-limit-evolution-genetic.html]]
+
+[[Scientists discover the evolutionary link between protein structure and function|http://phys.org/news/2016-05-scientists-evolutionary-link-protein-function.html]]
+
+!__[[Evolutionary computing]]__
+
+!__Evolution in [[Complex systems]]__
+
+!![[Bias in GP maps]]
+
+-----------
+
+Some older disorganized thoughts:
+
+Replicators at different levels.
+
+Multilevel selection may not be necessary. However, it may be useful, it is just different ways of looking at evolution at different levels, depending on which processes are most important: mostly which (approximate) replicators are being looked at
+
+Group, kin, individual, gene etc selections are just different proximate/ultimate levels of causation on the same evolutionary process
+
+-------
+
+People
+
+https://en.wikipedia.org/wiki/Ernst_Mayr
+
+See in wiki article of evolution
+
+[[Statistical Physics of Adaptation|https://journals.aps.org/prx/abstract/10.1103/PhysRevX.6.021036]]

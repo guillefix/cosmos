@@ -1,0 +1,13 @@
+created: 20160629172236722
+creator: guillefix
+modified: 20160629174448805
+modifier: guillefix
+title: Grammar-based compression
+
+[[Approximation algorithms for grammar-based data compression|https://dspace.mit.edu/handle/1721.1/87172]]
+
+smallest grammar problem: find the smallest context-free grammar that generates exactly one given string.
+
+[[Grammar-based code|https://en.wikipedia.org/wiki/Grammar-based_code]]
+
+[[Grammatical codings|http://www.eanw.info/isdatelistvo/Kniga-Scheremet.pdf]]

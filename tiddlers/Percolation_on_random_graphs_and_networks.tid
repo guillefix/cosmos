@@ -1,0 +1,24 @@
+created: 20160611160008532
+creator: guillefix
+modified: 20160611165249847
+modifier: guillefix
+title: Percolation on random graphs and networks
+
+See [[Percolation theory]], [[Random graph]]
+
+See [[the chapter of the book|file:///home/guillefix/Dropbox/COSMOS/Physics/stat%20phys,%20kinetic%20theory,%20chaos,%20dynamical%20sys,%20emergence/Networks/%5BMark_Newman%5D_Networks_An_Introduction(BookZZ.org)%20(randgraph).pdf]].
+
+If we let $$u$$ be the probability that a randomly chosen vertex in the graph does not belong to the giant component, then
+
+[img[http://i.imgur.com/DKYzRPK.png]]
+
+[img[http://i.imgur.com/XLaKJIa.png]]
+
+[img[http://i.imgur.com/SS2eBjf.png]]
+
+[img[http://i.imgur.com/QvqHZDV.png]]
+
+[img[http://i.imgur.com/XHrra74.png]]
+
+See [[this chapter|file:///home/guillefix/Dropbox/COSMOS/Physics/stat%20phys,%20kinetic%20theory,%20chaos,%20dynamical%20sys,%20emergence/Networks/%5BMark_Newman%5D_Networks_An_Introduction%20(randgraph-gen-deg).pdf]] for random graphs with general degree distributions, and [[this chapter|file:///home/guillefix/Documents/%5BMark_Newman%5D_Networks_An_Introduction(percolation).pdf]] for percolations
+

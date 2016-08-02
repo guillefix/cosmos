@@ -1,0 +1,76 @@
+created: 20160128160242610
+creator: guillefix
+modified: 20160511115933609
+modifier: guillefix
+tags: [[Soft matter physics]]
+title: Polymer physics
+
+''Polymer physics'' deals with the [[physical|Physics]] properties of [[Polymer]]s. A ''polymer'' is a molecule composed of a small molecular unit repeating in a chain; usually $$>100$$ units
+
+!__''Polymer statics''__
+
+!!--__Isolated polymer molecule in solution__
+
+!!!__The ''ideal chain''__
+
+<b>Model polymer chain like random walk</b>.
+
+Can include effect of short-range interactions
+
+A variant is the ''Gaussian chain''
+
+!!!__Distribution of segments in the polymer chain__
+
+!!!__''Non-ideal chains''__
+
+!!--__Concentrated solutions and melts__
+
+!!!__Thermodynamic properties__
+
+''Flory-Huggins theory''
+
+__Chemical potential and <b>osmotic pressure</b>__
+
+__Phase separation__
+
+!!--__Polymer gels__
+
+!__''Polymer dynamics''__
+
+!!__Molecular motion of polymers in dilute solution__
+
+!!!__Rouse theory__
+
+!!!__Zimm theory__
+
+!!__Molecular motion in entangled polymer systems__
+
+!![[Rheology]] of polymers
+
+-------
+
+//Books and resources//
+
+http://cbp.tnw.utwente.nl/PolymeerDictaat/
+
+[[Introduction to Polymer Physics - M. Doi|http://www.amazon.com/Introduction-Polymer-Physics-M-Doi/dp/0198517890]]
+
+[[The Theory of Polymer Dynamics  - M. Doi & S.F. Edwards|http://www.amazon.com/Polymer-Dynamics-International-Monographs-Physics/dp/0198520336]]
+
+----------
+
+//People//
+
+S.F. Edwards
+
+P.G. de Gennes
+
+Doi
+
+---------
+
+Viscoelastic fluids
+
+Reptation
+
+cross-linking rubbers

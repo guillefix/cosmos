@@ -1,0 +1,19 @@
+created: 20160701025112507
+creator: guillefix
+modified: 20160704211233278
+modifier: guillefix
+title: Information source
+
+See [[Data transmission]].
+
+An information source is often modelled as a discrete-time stochastic process, so it is a sequence of [[Random variable]]s, taking values in a set called the //source alphabet//.
+
+An stationary information source is one corresponding to an stationary stochastic process, so that any {finite block of random variables} and {any of its time-shift versions} have exactly the same joint distribution
+
+An important property of an information source is its [[Entropy rate]]
+
+!!__Types of information source__
+
+[[Discrete memoryless source]]
+
+[[Markov input process]]

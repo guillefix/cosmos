@@ -1,0 +1,36 @@
+created: 20160623225545675
+creator: guillefix
+modified: 20160703030231419
+modifier: guillefix
+title: Error-correcting code
+
+See [[Coding theory]]
+
+!!__Forward error correction__
+
+[[Forward error correction|https://en.wikipedia.org/wiki/Forward_error_correction]]: forward error correction (FEC) or channel coding[1] is a technique used for controlling errors in data transmission over unreliable or noisy communication channels, where the information flows only one way (see [[here|https://www.youtube.com/watch?v=ydzIhYbG3XI&index=4&list=PLE125425EC837021F]]).. The central idea is the sender encodes the message in a redundant way by using an error-correcting code (ECC). The American mathematician Richard Hamming pioneered this field in the 1940s and invented the first error-correcting code in 1950: the Hamming (7,4) code.[2]
+
+Two way error correction. Things like ARQ (automatic repeat request).
+
+__Main types of FEC codes__:
+
+* Hamming codes
+
+* BCH codes (Reed-Solomon, convolutional coding)
+
+* Turbo codes
+
+* Galleger codes (LDPC)
+
+
+* [[Convolutional code]] [[Convolutional code|https://en.wikipedia.org/wiki/Convolutional_code]] is a type of error-correcting code that generates parity symbols via the sliding application of a boolean polynomial function to a data stream. [[Stability of nonlinear feedback shift registers|http://link.springer.com/article/10.1007%2Fs11432-015-5311-0]]
+
+* [[Block code|https://en.wikipedia.org/wiki/Block_code]] encode data in blocks.
+
+
+See [[http://pfister.ee.duke.edu/thesis/chap1.pdf]], and other chapters.
+
+[[(IC 1.3) Applications of Error-correcting codes|https://www.youtube.com/watch?v=XjSue2cJWOU&index=3&list=PLE125425EC837021F]]
+
+!!__Quantum error correction__
+

@@ -1,0 +1,67 @@
+created: 20160304000137335
+creator: guillefix
+modified: 20160721130857858
+modifier: guillefix
+tags: MMathPhys
+title: MMathPhys oral presentation
+
+<small>The presentation should not be longer than 20-25 minutes and there will be a 5-10 minute discussion session
+after the presentation.  You are free to choose whether you want to give a blackboard presentation or use
+slides.</small> [[Timetable|file:///home/guillefix/Dropbox/Oxford/MMathPhys/oral%20presentation/Oral%20Presentation%20Timetable%20for%20Students.pdf]] My presentation is on Friday 27th May in L5, at 12:30. <mark>Practice it</mark>
+
+
+!!!See slides at [[slides|http://slides.com/guillermovalle/arrival]] for a nice and ordered presentation of the ideas.
+
+!__[[Evolution]]__
+
+[[Modern evolutionary synthesis|https://en.wikipedia.org/wiki/Modern_evolutionary_synthesis]]
+
+[[Contingency, convergence and hyper-astronomical numbers in biological evolution|http://www.sciencedirect.com/science/article/pii/S1369848615001879]] [[Notes on Ard Louis' paper on contingency, convergence and hyper-astronomical numbers in biological evolution]]
+
+[[A.A. Louis: Publications|http://www-thphys.physics.ox.ac.uk/people/ArdLouis/publications.shtml]]
+
+
+<small>
+[[Hunting Darwin's Snark: which maps shall we use?|http://rsfs.royalsocietypublishing.org/content/5/6/20150078.full]]
+</small>
+
+!<big>[[Bias in GP maps]]</big>
+
+{{Bias in GP maps}}
+
+---------------
+
+!!__''[[Genotype-phenotype map]]''__ (GP map)
+
+[img width=400 [http://1.bp.blogspot.com/-T7ODIpnghZ4/UGY43-q09OI/AAAAAAAABgA/5I_P0s_I8A4/s1600/Stadler2002_fig1.png]]
+
+--------------------------
+
+See [[Descriptional complexity]]
+
+Evolutionary Robotics and computing, uses GPMs. See [[Evolutionary computing]] and [[Optimization]] .. See [[References from Complex Behavior in Evolutionary Robotics book]]
+
+------
+
+!!__[[Survival of the flattest]]__
+
+An effect, where //effectively// large neutral spaces are also favoured, but <b>in equilibrium</b>, not out of equilibrium as in the [[Arrival of the frequent]]
+
+-------
+
+__More__
+
+[[Convergent evolution as natural experiment: the tape of life reconsidered|http://rsfs.royalsocietypublishing.org/content/5/6/20150040.full]]
+
+!!!Applications to [[Deep learning]] and [[ANNs|Artificial neural network]]? [[Chico's application to networks|http://www.youtube.com/watch?v=vLYpjUANUdc&feature=youtu.be]]. [[His slides|https://docs.google.com/presentation/d/1l-IgqXy1ZdBn__aBQX0fUH8Z2y6iuogwt753omsiyAw/edit#slide=id.ga17a5664f_0_49]]
+
+!!!Relation b/w bias for simplicity in GP maps, and regularization in [[Machine learning]]. <i class="fa fa-exclamation" aria-hidden="true"></i>
+
+Genotype is the weights of the NN, phenotype is the function the NN approximates. NNs are expected to find "simple" functions much easier then I suppose. In other words, they are able to recognize patterns much more easily if there is actually a pattern (in the sense of a simple pattern..)
+
+--------
+
+-------
+
+__[[Sloppy systems]]__
+

@@ -1,0 +1,45 @@
+created: 20160721131004852
+creator: guillefix
+modified: 20160721131341327
+modifier: guillefix
+title: Origin of bias in GP maps
+
+Trying to explain prevalence of [[genotype-phenotype map bias|Bias in GP maps]]
+
+Ideas:
+
+* ''Constrained and unconstrained parts''. See  [[The organization of biological sequences into constrained and unconstrained parts determines fundamental properties of genotype–phenotype maps|http://rsif.royalsocietypublishing.org/content/12/113/20150724.full]] [[pdf|http://rsif.royalsocietypublishing.org/content/royinterface/12/113/20150724.full.pdf]]
+
+* ''Algorithmic information theory'': Shannon-Fano code, universal probability. See below. See [[draft paper|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/APrioriProbabilityComplexity.pdf]].
+
+* ''Random finite transducer''. See [[Simplicity bias in finite-state transducers]]
+
+!!<i class="fa fa-lightbulb-o" aria-hidden="true"></i> [[Evolving automata]]
+
+See [[Conversation with Chico Camargo on GP map bias - 22/4/2016]]
+
+See also [[Abiogenesis]] and [[Artificial chemistry]]
+
+!!__[[Algorithmic information theory]]__
+
+''[[Levin's coding theorem|http://www.cse.iitk.ac.in/users/satyadev/a10/kolm_3.pdf]]''
+
+[[Shannon-Fano-Elias code and simplicity bias in GP maps]]
+
+[[Discussion on finite state complexity and GP map bias]]
+
+__[[Coding theorem method]]__
+
+__Yuri Manin's ideas__
+
+[[Physics in the world of dieas: Complexity as energy|http://merton.physics.ox.ac.uk/notes/manin.pdf]] [[talk|https://www.merton.ox.ac.uk/event/17th-ockham-lecture-physics-world-ideas-complexity-energy]]
+
+[[Zipf's law and L. Levin's probability distributions|http://arxiv.org/abs/1301.0427]]
+
+[[Complexity vs Energy: Theory of Computation and Theoretical Physics|http://arxiv.org/abs/1302.6695]]
+
+__More__
+
+[[Statistical Physics and Complexity|http://www.ph.ed.ac.uk/icmcs/research-themes/statistical-physics-and-complexity]]
+
+St Anne's college lib has "wild book" (see [[Krohn–Rhodes theory]])! Complexity of cellular automata, applied to life and evolution

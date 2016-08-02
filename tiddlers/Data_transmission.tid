@@ -1,0 +1,57 @@
+created: 20160626193133612
+creator: guillefix
+modified: 20160701141322011
+modifier: guillefix
+tags: [[Information theory]] Communication
+title: Data transmission
+
+See [[Information theory]] for more details. See also [[Communication theory]]
+
+''Data transmission'' refers to the transfer of information from one entity to another, by means of a [[Data transmission system]] .
+
+!!__Data transmission system__
+
+See more here: [[Data transmission system]] 
+
+__Properties of data transmission systems__
+
+* ''Code'' used by the transmitter. See [[Coding theory]].
+
+* [[Entropy rate]] of the transmitter (considered as an [[Information source]]).
+
+* [[Channel capacity]] of the [[Communication channel]]. This quantity gives a limit to the rate at which information can be reliably sent through the channel, as established by the [[Channel coding theorem]].
+
+__Types of communication channel__
+
+* [[Finite state channel]]
+
+__Types of transmitter/receivers__
+
+These are mostly specified by the code they use. In data transmission systems, these are mostly [[Error-correcting code]]s.
+
+!!__Data transmission theory__
+
+The main desired properties of a data transmission system, and thus the main subjects of study are:
+
+* ''Reliability''. How unlikely is the receiver to interpret message wrongly?
+
+* ''Speed''. What is the maximum rate at which information can be sent over the channel? Measured in (bits decoded)/(channel bits sent)
+
+Thus the main problem of study is: for a particular communication channel, find code so that data transmission rate is as high as possible, while receiver receives the information with negligible probability of error.
+
+This is sometimes called "channel coding" because the most reliable code depends on the properties of the channel. This is done by finding codewords (sequences of input values) such that their images are as disjoint as possible. This is equivalent to sphere packing in high dimensions.
+
+The main result in data transmission theory is the [[Channel coding theorem]], which gives a __fundamental limit__ to the data transmission rate that can be achieved by a code, while keeping error rates negligible. This limit turns out to be the [[Channel capacity]].
+
+!!__Data transmission system engineering__
+
+The goals stated above for a data transmission system are achieved in two main ways:
+
+* Design and construction of optimal hardware (see [[Telecommunication engineering|Telecommunication]])
+* Design and use of optimal codes. This is one of the main goals of [[Coding theory]], and in particular of [[Error-correcting code]]s.
+
+----------------------
+
+See [[http://pfister.ee.duke.edu/thesis/chap1.pdf]], and other chapters.
+
+[[Entropy in Compression - Computerphile|https://www.youtube.com/watch?v=M5c_RFKVkko]]

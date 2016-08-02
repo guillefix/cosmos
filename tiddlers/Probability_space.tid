@@ -1,0 +1,13 @@
+created: 20160704165649121
+creator: guillefix
+modified: 20160707162349716
+modifier: guillefix
+tags: [[Probability theory]]
+title: Probability space
+
+https://en.wikipedia.org/wiki/Probability_space
+
+# A [[Measurable space]]
+## A [[Set]], called the [[Sample space]], $$\Omega$$, which is the set of all possible outcomes.
+## A [[Sigma-algebra]], referred to as the set of [[event|Event (probability theory)]]s $$\mathcal{F}$$, where each event is a set containing zero or more [[outcomes|Outcome (probability)]].
+# A [[Probability measure]], which corresponds to the assignment of [[probabilities|Probability]] to the events; that is, a function $$P$$ from events to probabilities.

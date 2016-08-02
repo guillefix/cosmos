@@ -1,0 +1,58 @@
+created: 20160123123601489
+creator: guillefix
+modified: 20160127135324219
+modifier: guillefix
+title: Degree of a vertex (Graph theory)
+
+The ''degree'', $$k_i$$, of a vertex, $$i$$, is the number of edges connected to the vertex. For an undirected graph with $$n$$ vertices, it is related to the adjacency matrix by:
+
+|$$k_i=\sum_{j=1}^n A_{ij}$$|
+
+Also the __total number of edges__ $$m$$ is:
+
+$$2m=\sum_{j=1}^n k_j=\sum_{ij}A_{ij}$$
+
+as each edge has two ends ('stubs').
+
+The __mean degree__, $$c$$ is then:
+
+$$c=\frac{2m}{n}$$. 
+
+"""
+<small>Aside: a node with a "high" degree is sometimes called a 'hub'.</small>
+<small>A network where all nodes have same degree is called 'regular'.</small>
+"""
+
+The number of edges in a complete (i.e. with max # of edges) simple graph can be found by counting the number of edges, where each edge represents a choice of a pair of vertices where the order doesn't matter. The number of such choices is $$\binom{n}{2}$$.
+
+The <big>__density__</big> (or connectance), $$\rho$$, is the fraction of these that are actually present:
+
+$$\rho=\frac{m}{\binom{n}{2}}=\frac{2m}{n(n-1)}=\frac{c}{n-1}\approx\frac{c}{n}$$
+
+the last approx. is for $$n$$ large.
+
+A network is __sparse__ if $$\rho \rightarrow 0$$ as $$n \rightarrow \infty$$. It is __dense__ otherwise. These definitions make sense mathematically when one has a model for an ensemble of graphs, that can be defined for any $$n$$. For an empirical network, one has to situations:
+
+*One has empirical data for the network at different values of $$n$$, and so the behaviour as $$n$$ increased can be deduced.
+
+*One has to find an appropriate model to define an ensemble of random graphs for different values of $$n$$, that somehow captures the type of network of the empirical one.
+
+!!!Directed networks
+
+For directed networks one has two types of degree:
+
+__in-degree__, the number of ingoing edges (sum of a row in adj. matrix)
+
+ __out-degree__, the number of outgoing edges (sum of columns in adj. matrix).
+
+Now the __total number of edges__ $$m$$ is:
+
+$$m=\sum_{j=1}^n k_j^{\text{in}}=\sum_{j=1}^n k_j^{\text{out}}=\sum_{ij}A_{ij}$$
+
+as each edge has one ingoing end and one outgoing end. Clearly then the mean degrees are equal: $$c_{\text{in}}=c_{\text{out}}\equiv c=\frac{m}{n}$$.
+
+In a __weighted network__, one defines the __strength__ of a node as the weighted degree:
+
+$$s_i=\sum_{j=1}^{n}w_{ij}$$,
+
+where $$w_{ij}$$ is the weight matrix.

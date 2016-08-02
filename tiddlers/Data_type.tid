@@ -1,0 +1,30 @@
+created: 20160629002823366
+creator: guillefix
+modified: 20160714125108170
+modifier: guillefix
+tags: Programming
+title: Data type
+
+https://en.wikipedia.org/wiki/Data_type
+
+In computer science and computer [[Programming]], a data type or simply type is a classification identifying one of various types of data, such as real, integer or Boolean, that determines the possible values for that type; the operations that can be done on values of that type; the meaning of the data; and the way values of that type can be stored.
+
+http://programmers.stackexchange.com/questions/291950/are-data-type-declarators-like-int-and-char-stored-in-ram-when-a-c-program-e
+
+[[ Weak And Strong Typing|http://c2.com/cgi/wiki?WeakAndStrongTyping]]
+
+static vs dynamic typing: http://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages (see third answer).
+
+How do compiled dynamically typed languages work? Do they store type data (unlike it says [[here|http://programmers.stackexchange.com/questions/291950/are-data-type-declarators-like-int-and-char-stored-in-ram-when-a-c-program-e]]?)
+
+https://en.wikipedia.org/wiki/Type_inference
+
+http://stackoverflow.com/questions/1393883/why-is-dynamic-typing-so-often-associated-with-interpreted-languages
+
+!!__Data types__
+
+Integer
+
+Float
+
+[[String|String (Computer science)]]

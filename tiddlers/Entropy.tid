@@ -1,0 +1,13 @@
+created: 20160703115637608
+creator: guillefix
+modified: 20160703115828912
+modifier: guillefix
+tags: [[Information measures]] [[Statistical physics]]
+title: Entropy
+type: 
+
+The entropy, $$H(X)$$, of a [[Random variable]], $$X$$, is defined as 
+
+$$H(X) = - \sum_x p(x) \log{p(x)}$$
+
+[[video|https://www.youtube.com/watch?v=6RJP5m3m1XA&index=7&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft]]

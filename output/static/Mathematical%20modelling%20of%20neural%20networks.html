@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.12" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>Mathematical modelling of neural networks: Cosmos — a non-linear personal web notebook</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   "><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible" title="More actions">
+
+
+</button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible" title="Edit this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible" title="Close this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Mathematical modelling of neural networks
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="guillefix.html">
+guillefix
+</a> 18th February 2016 at 12:48am
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"></div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>Deep learning is an area of machine learning that studies learning algorithms with <em>multiple levels of abstraction</em></p><p>Why Deep Learning models perform so well?</p><p>Seems to be a result of:</p><ul><li>Very large datasets</li><li>Increasing computing power</li><li>Flexibility of the models. Lots of parameters when lots of layers. Furthermore multiple layers avoide the curse of dimensionality</li></ul><p>Mathematical difficulty because: Nonlinearly, non-convexity (convex optimization or complex analysis techniques not available), many d.o.f.</p><p><a class="tc-tiddlylink tc-tiddlylink-missing" href="ResultsL.html">ResultsL</a></p><ul><li>Universality</li><li>Loss-function landscape </li></ul><p>Neural network composed of neurons.</p><p>Data into Dendrites, scales. Axom computes (apply nonlinear function) and propagates output trough synapse.</p><p>A <em>multilayer feedforward neural network</em>.</p><p>L+2 layers. L <em>hidden</em></p><p>The neural network is just a funciton from <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>R</mi><mi>N</mi></msup></mrow><annotation encoding="application/x-tex">R^N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.8413309999999999em;"></span><span class="strut bottom" style="height:0.8413309999999999em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord mathit" style="margin-right:0.00773em;">R</span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord mathit" style="margin-right:0.10903em;">N</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span></span> to <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>R</mi><mi>M</mi></msup></mrow><annotation encoding="application/x-tex">R^M</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.8413309999999999em;"></span><span class="strut bottom" style="height:0.8413309999999999em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord mathit" style="margin-right:0.00773em;">R</span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord mathit" style="margin-right:0.10903em;">M</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span></span>, <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>M</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">M=1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.68333em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.10903em;">M</span><span class="mrel">=</span><span class="mord mathrm">1</span></span></span></span></span> wlog..?..</p><p>Training, given dataset of inputs and outputs and want function to map these as well as possibly</p><p>Use Loss function and regulariser (penalization on size of parameters. Could also try to maximize sparsity, Occam's razor, bias towards simpler model. Also makes surface more convex).</p><p>Then minimize <em>empirical risk</em>. To minimize we use stochastic gradient descent.</p><p>Assuming function as being continuity, differentiability, convexity.</p><p>Can a multilayer feedworward network f approximate g arbitrarily well, for a very general g.</p><p><u>Universality</u></p><p>We can't expect f for the model considered (one layer) to approximate any g whatsoever, there are some very pathological functions.We can assume g is continuous, or just Lebesgue measurable (use <a class="tc-tiddlylink-external" href="http://www.jstor.org/stable/85935?seq=1#page_scan_tab_contents" rel="noopener noreferrer" target="_blank">this</a> metric for defining closeness in this case).</p><p>We can show then f can approximate g approximately well.</p><p>Many other models are also known to be universal.</p><p><u>Other minima.</u></p><p>Loss surface is the surface defined by the empirical risk, EM..</p><p>The epigraph is non-convex.</p><p>Local minima o EM are known to abound.</p><p>Results:</p><ul><li>For large-scale neworks most local minima are equivalne and yield similar performance on a test set.</li><li>The probabilliy of finding a bad local minimum is non zero for small networks and decreases quickly with network size. The higher dimension the dimension the lower the probability that all curvatures are positive, so more saddle points and less minima... Hmmmmm</li><li>Struggling to find the global minimum on the training set is not useful in practice and may lead to overfitting.</li></ul><p>Other results: only a few parameters matter.</p><p>The manifold hypothesis: meaningful data often concentrates on a low dimensional manifold, so large amounts of parameters don't matter.</p><p>-—&gt;See dissertation topic proposed by Ard Louis.</p><p>Energy propagating from node i through path j</p><p>Analogy between loss function of neural network and hamiltonian of spin glass. </p><p>(Multilayer: composition of functions.)</p><ul><li>Minimizing the empirical risk is a good idea.</li><li>Neural networks may be over-parametrised. </li><li>But over-parametrisation gives these nice results about local minima </li></ul></div>
+
+
+
+</div>
+
+</p>
+
+</section>
+</body>
+</html>

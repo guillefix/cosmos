@@ -1,0 +1,15 @@
+created: 20160629231824002
+creator: guillefix
+modified: 20160713003638866
+modifier: guillefix
+title: Call stack
+
+The portion of [[allocated memory|Memory allocation]] of a process, where local variables from functions that are being executed are stored.
+
+https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Mips/stack.html
+
+Note the code of the functions themselves is stored in the text section of the allocated memory, the stack stores the local variables that the function is using, as well as some other things, like function arguments, and return addresses. The lifo property of the stack allows the easy implementation of recursive function calls.
+
+If the amount of space taken by the stack goes over a certain set limit, we get an //stack overflow//.
+
+https://www.youtube.com/watch?v=HQ3YI70PDe0

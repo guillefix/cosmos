@@ -1,0 +1,43 @@
+created: 20160626133229233
+creator: guillefix
+modified: 20160627203552988
+modifier: guillefix
+tags: Combinatorics Analysis
+title: Analytic combinatorics
+
+''Analytic combinatorics'' is a calculus (set of mathematical tools) for analyzing properties of large combinatorial structures.
+
+[[Book|http://algo.inria.fr/flajolet/Publications/book.pdf]] [[website of book|http://ac.cs.princeton.edu/10ogf/]] [[videocourse|https://www.youtube.com/playlist?list=PLhsb6tmzSpiwyQCl4jmVPZymDs1MYIa8o]]
+
+[img width=400 class=img-centered [http://i.imgur.com/VMuVMA8.png]]
+
+!!__Symbolic method__
+
+* Define a ''combinatorial class'':
+** Define a //class// of combinatorial objects
+** Define a notion of //size// (and an associated generating function)
+* Use standard operations to develop a //specification// of the structure
+
+Result: A direct derivation of a ''GF equation'' (implicit of explicit), i.e. an equation that the [[Generating function]] must satisfy.
+
+Classic next steps:
+
+* Extract coefficients
+* Use classic asymptotics to estimate coefficients
+
+Result: Asymptotic estimates that quantify the desired properties.
+
+!!!__[[Symbolic method for unlabelled structures]] (Ordinary generating function)__
+
+!!!__[[Symbolic method for labelled structures]] (Exponential generating function)__
+
+
+--------------------------------
+
+__Video course__
+
+[[Analytic Combinatorics, Part II (Analytic Combinatorics)|https://www.youtube.com/playlist?list=PLhsb6tmzSpiwyQCl4jmVPZymDs1MYIa8o]]
+
+In Coursera: [[Analytic Combinatorics|https://www.coursera.org/course/ac]]
+
+Applications: [[Analysis of algorithms]], [[Random deterministic automata]], ...

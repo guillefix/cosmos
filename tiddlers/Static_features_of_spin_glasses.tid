@@ -1,0 +1,41 @@
+created: 20160712140445513
+creator: guillefix
+modified: 20160712140749842
+modifier: guillefix
+title: Static features of spin glasses
+
+Four properties constitute the most prominent static features of materials we have come to call [[Spin glass]]es.
+
+* a cusp in the magnetic susceptibility,
+
+* a rounded maximum but no discontinuities in the specific heat,
+
+* spin freezing below temperature $$T_f$$ , and 
+
+* an absence of spatial long-range order
+
+[[Dilute magnetic alloy]]s at higher concentrations of magnetic impurities were the first experimental examples of spin glasses. Because the spins interact, it was expected the system would have some sort of ordered phase at low temperatures. Indeed a [[Phase transition]] was observed, with a ''susceptibility cusp'' at a particular transition temperature $$T_f$$. The high temperature phase was a [[paramagnetic|Paramagnetism]] phase. Then experiments on the nature of the lower temperature phase were conducted.
+
+There exists a variety of experimental probes that can provide information on what the atomic magnetic moments are doing, and measurements using these probes indicated several things.
+
+* First, the ''spins were “frozen”''; that is, unlike in the high-temperature paramagnetic phase, in which each spin flips and gyrates constantly so that its time-averaged magnetic moment is zero, at low temperatures each spin is more or less stuck in one orientation.
+
+* Second, the ''overall magnetization was zero'', ruling out a ferromagnetic phase. But third, more sensitive probes indicated there was no long-range antiferromagnetic order either: in fact, as near as could be told, the spins seemed to be frozen in random orientations.
+
+However, the phase transition had some more surprises to reveal. Recall that at a phase transition, all the thermodynamic functions behave singularly in one fashion or another. Surely the ''specific heat'', one of the simplest such functions, should show a singularity as well. However, when one measures the specific heat of a typical spin glass, one sees . . . absolutely nothing interesting at all. All you see is a ''broad, smooth, rounded maximum'', which doesn’t even occur at the transition temperature (defined to be where the susceptibility peak occurs). A typical such measurement is shown in figure 4.2.
+
+[img[http://i.imgur.com/b7WYQmz.png]]
+
+So, returning to the topic at hand, we’re faced with the follow-
+ing question: Is there a true thermodynamic phase transition to a
+low-temperature spin glass phase characterized by a new kind of
+magnetic ordering? Or is the spin glass just a kind of magnetic
+analog to an ordinary structural glass, where there is no real
+phase transition and the system simply falls out of equilibrium
+because its intrinsic relaxational timescales exceed our human
+observational timescales? If the latter, then the spins wouldn’t
+really be frozen for eternity; they would just have slowed down
+sufficiently that they appear frozen on any timescale that we can
+imagine.
+
+As of this writing, <span style="color:aqua; font-size:17px">the question remains open.</span>

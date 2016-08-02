@@ -1,0 +1,27 @@
+created: 20160620153009231
+creator: guillefix
+modified: 20160627204359476
+modifier: guillefix
+title: Functional programming on JavaScript
+
+[[Functional programming]] in [[JavaScript]]
+
+[[Array.prototype.map()|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map]]
+
+[[Array.prototype.reduce()|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce]]
+
+[[Promises|https://www.youtube.com/watch?annotation_id=d3718aa0-5465-403b-bd56-2d603793ba62&feature=cards&src_vid=UD2dZw9iHCc&v=2d7s3spWAzo]]
+
+[[Higher-order functions - Part 1 of Functional Programming in JavaScript|https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84]]
+
+[[Streams - FunFunFunction #13|https://www.youtube.com/watch?v=UD2dZw9iHCc&index=11&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84]]
+
+[[Monad|https://www.youtube.com/watch?v=9QveBbn7t_c]]
+
+!!__Libraries__
+
+http://elm-lang.org/
+http://cycle.js.org/
+https://baconjs.github.io/ (also reactive)
+
+!!![[Redux|http://redux.js.org/docs/basics/Store.html]] is a nice functional programming-like framework for [[React|https://facebook.github.io/react/]]. Learn [[redux|https://www.youtube.com/watch?annotation_id=d112cc03-a081-455c-99e4-4f6a60460b90&feature=cards&list=PLuykYQ1am9zY9-O-Y8w7uISxLjQLcPmN4&src_vid=j5a9l1Td2Lo&v=hmwBow1PUuo]].

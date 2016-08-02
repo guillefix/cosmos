@@ -1,0 +1,69 @@
+created: 20160301184702336
+creator: guillefix
+modified: 20160708153113047
+modifier: guillefix
+title: Nonlinear map
+
+[[Oxford notes|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3082/161/main_3.pdf]]
+
+Discrete-time dynamical systems are sometimes called ''maps''. As usual, there are ''linear maps'', which cam be represented by a matrix (plus a constant vector, if the map is affine, instead of just linear). However, most interesting behaviour is observed in ''nonlinear maps'', in which the state at discrete time $$n+1$$ depends on the state at the previous time via a nonlinear function $$f$$:
+
+$$x_{n+1} = f(x_n ; n)$$
+
+where we allow discrete-time dependence of $$f$$. Autonomous maps, won't have such dependence.
+
+-------
+
+!!!__Poincare maps__
+
+Cross-sections of the phase plane of a [[Continuous dynamical system]] that are nowhere tangential to a trajectory are called //Poincare sections//. Trajectories become points in the lower dimensional space of the cross-section, and the dynamical system becomes a discrete //map//, called the ''Poincare map''.
+
+-------
+
+!!__Features of maps__
+
+The equivalent of equilibrium points in dynamical systems are ''fixed points''. A fixed point is one that is mapped to itself.
+
+''Periodic cycles'' are closed orbits (like limit cycles, or orbits, in dynamical systems).
+
+!!!__Stability__
+
+The stability of a fixed a fixed point is determined by its ''multiplier'' (which is just the derivative of the function defining the map $$\lambda = \frac{\partial f}{\partial x}$$) evaluated at the fixed point. A point is stable if $$|\lambda| <1$$, unstable if $$|\lambda| >1$$, and neutrally stable if $$|\lambda| =1$$ (at which point a bifurcation occurs).
+
+One can use the [[Jury test]] to find if the roots of a polynomial are inside the unit circle, which is useful for stability.
+
+The stability of a periodic cycle can be found by multiplying the multiplier evaluated at each of the points in the cycle. These numbers are then called the //characteristic multipliers// or //Floquet exponents//.
+
+!!!__Bifurcations in 1D maps__
+
+* ''Fold bifurcations''. Bifurcations that occur when the multiplier $$\lambda =1$$. Can be:
+
+** Saddle-node
+
+** Transcritical
+
+** Pitchfork
+
+* ''Flip or period-doubling bifurcation''. Occur when the multiplier $$\lambda = -1$$
+
+* ''Hopf bifurcation''. Occur when the multiplier $$\lambda = e^{i\theta}$$ (for a $$\theta \neq 0, \pi$$, I suppose).
+
+One can also have bifurcations of periodic cycles in 2D maps, I think. 
+
+There are also ''global bifurcations'' in periodic maps, some of which are routes that lead to chaos. See [[Nonlinear dynamical systems]] and [[Chaos theory]].
+
+!!!__2D maps__
+
+Local linear stability analysis done by Jacobians, and multipliers are replaced by the Jacobian's eigenvalues which must now be less than one in magnitude for stability. For periodic cycles, one multiples the Jacobians.
+
+Another very interesting feature of nonlinear maps, is that many of them exhibit [[chaos|Chaos theory]].
+
+--------
+
+!!__Examples__
+
+!!!__Henon map__
+
+!!!__Standard (or Chirikov) map__
+
+!!!See more examples of chaotic maps in [[Chaos theory]]

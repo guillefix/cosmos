@@ -1,0 +1,17 @@
+created: 20160713231500397
+creator: guillefix
+modified: 20160713232658555
+modifier: guillefix
+title: Join operation
+
+A ''join'', $$\vee$$ is an [[operation|Operation (Mathematics)]] defined on elements of a [[poset|Partially ordered set]] $$P$$ (not necessarily all of them) defined as:
+
+The join (or //[[Least upper bound]]//) of $$a, b \in P$$ is an element $$a \vee b \in p$$ such that:
+
+:(a) $$a \vee b$$ is an //upper bound// of $$a$$ and $$b$$: thus $$a \preceq a \vee b$$ and $$b \preceq a \vee b$$;
+
+:(b) $$a \vee b$$ is the least such upper bound: i.e., if there exists $$c \in P$$ such that $$a \preceq c$$ and $$b \preceq c$$ then $$a \vee b \preceq c$$.
+
+Note that, if it exists, a join is necessarily unique.
+
+See also [[Lattice (algebraic structure)]]

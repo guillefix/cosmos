@@ -1,0 +1,16 @@
+created: 20160715193059897
+creator: guillefix
+modified: 20160715193324440
+modifier: guillefix
+tags: 
+title: Busy beaver
+
+Note busy beavers are often defined just for [[Turing machine]]s on an input tape which is initially blank.
+
+Applications in [[Coding theorem method]]
+
+-------------------------
+
+https://en.wikipedia.org/wiki/Busy_beaver
+
+[[Understanding proof for Busy Beaver being uncomputable|http://cs.stackexchange.com/questions/52949/understanding-proof-for-busy-beaver-being-uncomputable]]

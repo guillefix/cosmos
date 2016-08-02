@@ -1,0 +1,38 @@
+created: 20160301223751016
+creator: guillefix
+modified: 20160623232420869
+modifier: guillefix
+tags: [[Nonlinear systems]] [[Systems engineering]]
+title: Control theory and control systems
+
+[[Why learn control theory|https://www.youtube.com/watch?v=oBc_BHxw78s]]
+
+[[Signal processing]]
+
+!![[Control theory]]
+
+!!Control systems
+
+Normal control systems are usually classified as linear systems and nonlinear systems.
+
+!!!Switched systems
+
+A switched system consists of continuous-time=discrete-time dynamical subsystems and a rule (supervisor) that determines the switching among them. 
+
+Control techniques by switching among different controllers have been applied extensively in recent years. Indeed, a switched controller can provide a performance improvement over a fixed controller 
+
+Switched systems consist of a decision layer and a control layer. The former is logical, i.e., discrete, and decides at a given time, which subsystem is activated. The latter usually corresponds to a set of normal control systems.
+
+[[Periodicity and chaos from switched Mow systems: Contrasting examples of discretely controlled continuous systems|http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=186313&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D186313]]
+
+[[Controllability and reachability criteria for switched linear systems|http://dx.doi.org/10.1016%2FS0005-1098(01)00267-9]]
+
+Switching in Systems and Control
+
+[[On partitioned controllability of switched linear systems|http://www.sciencedirect.com/science/article/pii/S000510980800383X]]
+
+[[Finite automata approach to observability of switched Boolean control networks|http://www.sciencedirect.com/science/article/pii/S1751570X15000588]]. Boolean control networks I think are [[Boolean network]]s with an external control.
+
+It is pointed out that “One of the major goals of [[Systems biology]] is to develop a control theory for complex biological systems”  [14]
+
+See also [[Robotics]]

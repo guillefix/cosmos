@@ -1,0 +1,33 @@
+created: 20160117215550095
+creator: guillefix
+list-after: Mathematical methods
+modified: 20160703025810853
+modifier: guillefix
+tags: [[Computer Science and IT]] MMathPhys Science
+title: Scientific computing
+
+[[Oxford course|https://www0.maths.ox.ac.uk/courses/course/28839]]
+
+[[Online lectures|https://weblearn.ox.ac.uk/portal/hierarchy/mpls/maths/sci_comp]]
+
+http://colorfulengineering.org/SCICOMP.html
+
+!!Linear algebra
+
+[[Numerical linear algebra]]
+
+!!Optimization
+
+!!Differential Equations
+
+[[Numerical methods for differential equations]]
+
+------------
+
+[[Gentoo Science Overlay|https://github.com/gentoo-science/sci]] has a nice collection of scientific computing software
+
+https://www.enthought.com/
+
+http://scipy.org/
+
+[[A gallery of interesting IPython Notebooks|https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks]]

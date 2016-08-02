@@ -1,0 +1,93 @@
+created: 20160117160137931
+creator: guillefix
+modified: 20160713134126557
+modifier: guillefix
+tags: Physics
+title: Statistical physics
+type: 
+
+''Statistical physics'' deals with the description of systems for which a deterministic description is either useless or impossible, so that one uses a //statistical// description.
+
+Here a //deterministic description// is understood in the context of the relevant physical description. For example Schrodinger's equation is deterministic, if the relevant physical description is the wavefunction. It is non-deterministic if one takes position and/or velocity as the relevant physical descriptions. However, it is known that one can't describe quantum mechanical evolution purely with a statistical theory of position and velocity, without sacrificing some rather well-established physical principles or predictions.
+
+If the system is effectively classical (either because it is macroscopic, or for some other reason, that is probably ultimately related to [[Quantum decoherence]]), the need for a statistical description arises when the system is //sufficiently chaotic//. Most often this requires the system to: have __<big>many</big> components__ and/or __be coupled to a system with <big>many</big> components__.
+
+For this reason, statistical physics is mostly applied to the description of systems of many particles in a gas, liquid or solid; or to one or a few particles coupled to one such large system.
+
+There are two main branches of statistical physics:
+
+<big>[[Equilibrium statistical physics]]</big> deals with such systems at //equilibrium//, that is, when the relevant macroscopic averages of the statistical description don't change with time. In practice, one often has two approaches:
+
+*For a small system coupled to a large chaotic system, one often has to use a probability distribution function over the relevant degrees of freedom (amazingly, for equilibrium, this always takes the form of a [[Boltzmann distribution]].
+
+* For a large system, one can often bypass the distribution function and deal with the relevant averaged quantities directly, resulting in a [[thermodynamic|Thermodynamics]] description.
+
+<big>[[Non-equilibrium statistical physics]]</big> deals with such a system out of equilibrium, so that averages can change in time. This is much harder to do in full generality, as systems offer much more diversity out of equilibrium, as may be expected. One often has three approaches:
+
+*For a small system coupled to a large chaotic system, one has a  [[stochastic process|Stochastic processes]], which describes the evolution under the random influence of the large chaotic system.
+
+*For a large system which is only slightly out of equilibrium, so that relevant macroscopic averages analogous to those used in thermodynamics can still be defined, one can describe the system using [[Non-equilibrium thermodynamics]]
+
+*For a large system that is considerably out of equilibrium, one has to use the tools of [[Kinetic theory]] to describe it. However, if the system is //very// far from equilibrium, even these may be inappropriate, and finding an appropriate description may be extremely hard. An example of this are systems with strong [[Turbulence]]. Our only approaches to understand these systems are often [[phenomenological]].
+
+------------------
+
+See also [[Complex systems]], and [[Sloppy systems]]
+
+[[Entropy, Order Parameters, and Complexity|http://pages.physics.cornell.edu/~sethna/StatMech/EntropyOrderParametersComplexity.pdf]]
+
+[[Long-range interacting systems]]
+
+[[Oxford physics course|https://www-thphys.physics.ox.ac.uk/people/AlexanderSchekochihin/A1/]]
+
+[[Oxford maths course|https://www0.maths.ox.ac.uk/courses/course/28786/material]]
+
+[[Bangalore School on Statistical Physics - V (video lectures)|https://www.youtube.com/playlist?list=PL04QVxpjcnjjoHglJGm-O5YtSbqLtln0g]]
+
+[[Bangalore School on Statistical Physics - VI|https://www.youtube.com/watch?v=Kn6wzdRAdiE&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l]] (I'm on the 1st lecture on [[Long-range interacting systems]]
+
+[[Ergodic theory]]
+
+See about disordered systems in [[Condensed matter physics]], as these are interesting systems studied using statistical physics.
+
+[[Indian Statistical Physics Community Meeting 2016|https://www.youtube.com/playlist?list=PL04QVxpjcnjjPHpsBoYDSnOmLzfzhK5TB]]
+
+[[Interesting papers on statistical physics and complex systems]]
+
+!!![[PRE- More Kaleidoscopes for April 2016|http://journals.aps.org/pre/kaleidoscope/pre/93/4/042404]]
+
+[[Non‐equilibrium thermodynamics: foundations, scope, and extension to the meso‐scale|http://www.nipslab.org/files/Rubi.pdf]]
+
+[[Non-equilibrium thermodynamics - de Groot and Mazur|file:///home/guillefix/Dropbox/COSMOS/Physics/stat%20phys,%20kinetic%20theory,%20chaos,%20dynamical%20sys,%20emergence/%5BS._R._De_Groot,_P._Mazur%5D_Non-equilibrium_thermodynamics.djvu]]
+
+[[Statistical Mechanics II course|http://socrates.berkeley.edu/~jemoore/Moore_group,_UC_Berkeley/Physics_212.html]]
+
+<mark>[[Sethan's Statistical Mechanics: Entropy, Order Parameters, and Complexity|http://pages.physics.cornell.edu/~sethna/StatMech/]]</mark>
+
+[[MIT 8.333 Statistical Mechanics I|https://www.youtube.com/watch?v=4RX_lpoGRBg&list=PLUl4u3cNGP60gl3fdUTKRrt5t_GPx2sRg]]
+
+[[MIT 8.334 Statistical Mechanics II|https://www.youtube.com/watch?v=2MaQKFHqYBw&list=PLUl4u3cNGP63HkEHvYaNJiO0UCUmY0Ts7]]
+
+http://stp.clarku.edu/notes/
+
+[[Statistical physics, Optimization, Inference and Message-Passing algorithms|http://www.lps.ens.fr/~krzakala/LESHOUCHES2013/book.htm]]
+
+--------------------
+
+__Foundations of statistical mechanics__
+
+[[What Is a Macrostate? Subjective Observations and Objective Dynamics|http://arxiv.org/abs/cond-mat/0303625]]
+
+[[The Backwards Arrow of Time of the Coherently Bayesian Statistical Mechanic|http://arxiv.org/abs/cond-mat/0410063]]
+
+[[Ludwig Bltzmann and entropy|http://link.springer.com/article/10.1007%2FBF02835141?LI=true]] Lots os stuff about entropy..
+
+-----------
+
+Philosophy of statistical physics
+
+[[Probability in physics: stochastic, statistical, quantum|http://philsci-archive.pitt.edu/9815/1/wilson.pdf]]
+
+[[Rethinking equlibrium|http://www.romanfrigg.org/writings/rethinking_equilibrium.pdf]]
+
+Book: Ensemble modeling : inference from small-scale properties to large-scale systems

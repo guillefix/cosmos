@@ -1,0 +1,28 @@
+created: 20160308170839993
+creator: guillefix
+modified: 20160713185544222
+modifier: guillefix
+tags: [[Complexity theory]]
+title: Descriptional complexity
+
+//What is the shortest description of an object?// The size of this description, is the ''descriptional complexity''. This general notion may also be called "structural complexity".
+
+See also [[Complexity theory]], for other notions of complexity.
+
+!!__[[Kolmogorov complexity]]__
+
+Based on the minimum size of a program (interpreted by a [[Turing machine]]) that produces (//describes//) the object.
+
+!!__[[Complexity measures based on data compression]]__
+
+!!__[[Automata-based descriptional complexity]]__
+
+!!__[[Entropy-based complexity measures]]__
+
+!!__[[Permutation complexity]]__
+
+!!__[[Network complexity]]__
+
+--------------
+
+YB videos: https://www.youtube.com/watch?v=HWsa_hZ7F3I

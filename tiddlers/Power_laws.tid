@@ -1,0 +1,51 @@
+created: 20160128004110749
+creator: guillefix
+modified: 20160623221957206
+modifier: guillefix
+tags: 
+title: Power laws
+
+[img[power_laws.png]]
+
+See also [[Scale-free networks]]
+
+[[Scanned Notes on Power Laws|http://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3217/8/scanned-notes-power_laws.pdf]]
+
+A //power law// distribution for $$k$$ has the form:
+
+$$p_k=Ck^{-\alpha}$$
+
+where $$\alpha$$ is the exponent,
+
+__[[Normalization of power laws]]__
+
+
+
+__[[Moments of power laws]]__
+
+
+
+__[[Lorenz curves for power law distributions]]__
+
+
+
+[[Zipf, Power-laws, and Pareto - a ranking tutorial|http://www.hpl.hp.com/research/idl/papers/ranking/ranking.html]]
+
+[[http://www.necsi.edu/guide/concepts/powerlaw.html]]
+
+[[Similarity of Symbol Frequency Distributions with Heavy Tails|http://journals.aps.org/prx/abstract/10.1103/PhysRevX.6.021009]]
+
+--------
+
+__Top-heavy distributions__
+
+Power laws often mean that rare events are more likely that one could have thought, because the tail "dies off" more slowly than in, say exponential distributions, like Gaussians
+
+[[More on power laws|http://tuvalu.santafe.edu/~aaronc/courses/7000/csci7000-001_2011_L2.pdf]]
+
+[[Power Law Distributions, 1/f Noise, Long-Memory Time Series|http://bactra.org/notebooks/power-laws.html]]
+
+!!!__[[Power-law distributions in empirical data]]__
+
+[[Similarity of Symbol Frequency Distributions with Heavy Tails|https://journals.aps.org/prx/abstract/10.1103/PhysRevX.6.021009]]
+

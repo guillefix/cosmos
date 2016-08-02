@@ -1,0 +1,43 @@
+created: 20160216111758087
+creator: guillefix
+modified: 20160316190822897
+modifier: guillefix
+title: Nonlinear oscillations
+
+Can analyze using [[Perturbation methods]]. In particular:
+
+* ''Poincaré- Lindstedt method''. Letting dependent variable $$x$$ depend on the independent variable $$t$$ via terms of all orders i.e. $$t$$, $$\epsilon t$$, $$\epsilon^2 t$$, etc. However, these term are forced to only appear together, with the form: $$t+ \epsilon \omega_1 t + \epsilon^2 \omega_2 t +...$$. That is, we just expand the frequency as a perturbation series. A consequence is that constants of integration are not allowed to depend on $$t$$ at any order.
+
+* ''Method of Multiple Scales''. We allow dependent variable $$x$$ depend on the independent variable $$t$$ via terms of all orders i.e. $$t$$, $$\epsilon t$$, $$\epsilon^2 t$$, etc., without any constraint. A consequence is that we can treat these as independent variables, or //scales//. "Constants" of integration can now depend on them (i.e. on the slower scales than the scale corresponding to the order considered)
+
+* ''Krylov-Bogoliubov Method of Averaging''. Assumes that solution, $$x(t)$$ has the form that it has when $$\epsilon=0$$ but the constants of integration can now change with time. As we have two arbitrary time-dependent functions (in the case of a second order ode), we are clearly underdetermining the problem. Therefore Krylov and Bogoliubov added the constraint that the time derivative of $$x(t)$$, i.e. $$\dot{x}(t)$$, also hase the same form as when $$\epsilon=0$$ with the same constants of integration upgraded to the same time-dependent functions. 
+
+For example (for the method of averaging), if $$x(t)=a \cos{(t+\theta)}$$ is the $$\epsilon=0$$ solution, then we require:
+
+* $$x(t)=a(t) \cos{(t+\theta(t))}$$, and
+
+* $$\dot{x}(t)=-a(t) \sin{(t+\theta(t))}$$
+
+[[Duffing oscillator]]
+
+Van der Pol oscillator. [[Paper about it's periodic solutions|https://projecteuclid.org/download/pdf_1/euclid.hmj/1206139799]] Apply method of multiple scales.
+
+!!Relaxation oscillations and transition layers
+
+As an example consider the van der Pol eq. with the nonlinear term very large ($$\Lambda \gg1$$), instead of very small. 
+
+We introduce a variable $$y$$ s.t. eq. becomes $$y'=-x$$. One also shows that $$x$$ evolves to a state of quasi-equilibrium (very quickly on time scale $$1/\Lambda^2$$) given by a curve on y-x plane. Then it moves along that curve, and one finds that the system must do jumps that are also very fast (on time scale $$1/\Lambda^2$$ again) periodically. See plot... Well... I'm ommiting many details. See starting from page 11 on [[notes|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3082/137/main_2.pdf]]
+
+!!Synchronization and coupled oscillators
+
+[[Kuramoto model]]
+
+--------
+
+[[Lecture notes on nonlinear vibrations|http://audiophile.tam.cornell.edu/randdocs/nlvibe52.pdf]]
+
+//Books//:
+
+Nayfeh
+
+Hayashi

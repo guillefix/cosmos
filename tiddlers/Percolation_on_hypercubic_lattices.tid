@@ -1,0 +1,9 @@
+created: 20160611162305071
+creator: guillefix
+modified: 20160611163033174
+modifier: guillefix
+title: Percolation on hypercubic lattices
+
+[[Percolation]] on hypercubic lattices, which can be represented as $$\mathbb{Z}^d$$, where $$d$$ is the dimension of the lattice, and $$\mathbb{Z}$$ is the set of integers of course.
+
+Some mathematical results exist for [[Percolation threshold]]s, and [[Continuity of percolation phase transition]]. In particular, it is known that the percolation threshold at dimension $$d$$ is greater than or equal that of dimension $$d+1$$ for percolation on $$\mathbb{Z}^d$$.

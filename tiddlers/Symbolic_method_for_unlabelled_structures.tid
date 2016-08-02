@@ -1,0 +1,33 @@
+created: 20160626151724971
+creator: guillefix
+modified: 20160628151511570
+modifier: guillefix
+title: Symbolic method for unlabelled structures
+
+The symbolic method of [[Analytic combinatorics]], applied to unlabelled structures. It uses the ''ordinary generating function''. 
+
+See [[here|http://ac.cs.princeton.edu/lectures/lectures13/AC01-OGFs.pdf]] for slides. [[video|https://www.youtube.com/watch?v=ULpHNFtOBBI&list=PLhsb6tmzSpiwyQCl4jmVPZymDs1MYIa8o&index=2]].
+
+[img[http://i.imgur.com/ZWaWWoX.png]]
+
+Elementary identity: $$A(z) = \sum_N{N\geq 0} A_N z^N$$, where $$A_N$$ is the number of objects of size $$N$$
+
+[img[http://i.imgur.com/ZlFLC9Q.png]]
+
+!!!__[[Trees|Tree (combinatorial structure)]] and [[Catalan numbers]]__
+
+[[lecture|https://www.youtube.com/watch?v=C7AXercKXXY&index=3&list=PLhsb6tmzSpiwyQCl4jmVPZymDs1MYIa8o]]
+
+The number of rooted ordered trees of $$n$$ nodes is the $$n$$th Catalan number. Can derive GF by using the fact that "a tree is a node and a sequence of trees". See [[here|https://www.youtube.com/watch?v=C7AXercKXXY&index=3&list=PLhsb6tmzSpiwyQCl4jmVPZymDs1MYIa8o#t=1m18s]].
+
+Can easily extend to binary trees, as done in video
+
+Trees have been related to other combinatorial structures: gambler's ruin sequences, context-free languages, triangulations, ...
+
+!!!__Strings__
+
+[[lecture|https://www.youtube.com/watch?v=C7AXercKXXY&index=3&list=PLhsb6tmzSpiwyQCl4jmVPZymDs1MYIa8o#t=11m30s]]
+
+!!!__Powersets and Multisets__
+
+[[Powersets and Multisets|https://www.youtube.com/watch?v=8maLI42gOJk&list=PLhsb6tmzSpiwyQCl4jmVPZymDs1MYIa8o&index=4]]

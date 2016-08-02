@@ -1,0 +1,26 @@
+created: 20160120185847353
+creator: guillefix
+modified: 20160601171457540
+modifier: guillefix
+tags: Physics
+title: Mechanics
+
+In ''mechanics'', we __describe__ the motion of bodies, and the __causes__ that effect them. This includes the special case where the "motion" is //no motion//, i.e. bodies are stationary.
+
+The description of the motion itself is called ''kinematics''. This just sets up the relevant degrees of freedom, represented as variables in a relevant mathematical form.
+
+The description of the causes, and how these causes effect the motion is called ''dynamics''. These causes are often divided into forces and torques. This description relates the variables describing the motion above, to forces, which should depend on those variables themselves. This means that in dynamics we often have closed equations that we can solve in full generality.
+
+[[Rotational dynamics]]
+
+-------
+
+Another division of the areas of classical mechanics, used mostly in __engineering__ leaves the definition of kinematics the same, but what we referred to as dynamics above is called ''kinetics''
+
+Dynamics then refers to mechanics applied to proper motion only (i.e. not including stationary case). In other words, dynamics is the kinematics and kinetics of proper motion.
+
+Mechanics applied to the stationary case is referred to as ''statics''. In other words, statics is the kinematics and kinetics of static equilibrium.
+
+---------------
+
+See the mechanical universe

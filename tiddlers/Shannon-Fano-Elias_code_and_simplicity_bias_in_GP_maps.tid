@@ -1,0 +1,15 @@
+created: 20160426170232012
+creator: guillefix
+modified: 20160426170233089
+modifier: guillefix
+title: Shannon-Fano-Elias code and simplicity bias in GP maps
+
+Argument from Shannon code before proof of coding theorem in Info theorem book.
+
+constanc c is the description of the program to compute the probability distribution. You input that program, plus the description in the Shannon-Fano code to the Turing machine and it should be able to give you the string you want, so this constitutes a description of the string, and thus its length is an upper bound on the Kolmogorov complexity.
+
+If c is sufficiently small, i.e. the map is simple enough, the bound on the Kolmogorov omplexity will be more stringent, and thus the coding theorem approaches an equality more. 
+
+This argument, however, only explains why if there is bias, in a simple map, one expects the bias to correlate with Kolmogorov complexity. But it doesn't explain why there should be bias in the first place.
+
+My arguments using transducers try to explain both, but it'd be nice to see how these two arguments fit

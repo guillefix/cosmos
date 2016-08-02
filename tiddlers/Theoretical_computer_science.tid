@@ -1,0 +1,53 @@
+created: 20160201145156881
+creator: guillefix
+modified: 20160621133136132
+modifier: guillefix
+tags: [[Computer Science and IT]]
+title: Theoretical computer science
+
+''Computer science'' is what came out of asking: <b>what kind of [[maths|Mathematics]] can actually be //effectively// carried out in the [[physical|Physics]] world?</b> Theoretical computer science, looks at the more theoretical (as opposed to applied) aspects of this question.
+
+The nature of computation by Moore and Mertens (looks like a nice book). [[Good reads page|http://www.goodreads.com/book/show/3043127-the-nature-of-computation]] and [[Amazon page|http://www.amazon.co.uk/The-Nature-Computation-Cristopher-Moore/dp/0199233217]]
+
+[[Oxford course 1st year|http://www.cs.ox.ac.uk/teaching/bacompsci/PreliminaryExaminations/]]
+
+[[Computational learning theory|http://www.cs.ox.ac.uk/teaching/courses/2015-2016/clt/]]
+
+See [[Discrete mathematics]]
+
+----------
+
+[[Structure and interpretation of computer programs|https://mitpress.mit.edu/sicp/full-text/book/book.html]] [[Companion site|https://mitpress.mit.edu/sicp/]]
+
+__Functional programming__
+
+[[Oxford course - func prog|http://www.cs.ox.ac.uk/teaching/courses/2015-2016/fp/]]
+
+http://learnyouahaskell.com/introduction
+
+https://www.haskell.org/
+
+Higher-order functions. Composition.
+
+Examples in JS: .filter, map, reduce
+
+---------
+
+[[Theory of computation]]
+
+
+''[[Church-Turing thesis|https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis]]''
+
+https://www.youtube.com/watch?v=2jz0ugqghys
+
+http://research.cs.queensu.ca/home/akl/cisc879/papers/PAPERS_FROM_MINDS_AND_MACHINES/VOLUME_13_NO_1/V23L84X656370574.pdf This gets quite philosophical of course
+
+https://www.youtube.com/watch?v=92WHN-pAFCs
+
+----------
+
+[[People, Problems, and Proofs|http://www.springer.com/us/book/9783642414213]]
+
+[[Emergence, Complexity and Computation|http://link.springer.com/bookseries/10624]]
+
+[[Philosophy of computer science]]

@@ -1,0 +1,84 @@
+created: 20160712103427225
+creator: guillefix
+modified: 20160717212606350
+modifier: guillefix
+tags: [[Disordered system]]
+title: Random map
+
+//aka random map model, or random mapping//
+
+For each point in phase space, one chooses at random another point in phase space as being its successor in time, i.e. we have a random [[map|Function]], $$T$$, from a finite [[Set]] of $$M$$ points, to itself. It can be shown to be a limiting case of a Kauffman [[Random Boolean network]], with in-degree $$K \rightarrow \infty$$.
+
+To each attractor (labelled by $$s$$), we assign a weight $$W_s$$ corresponding to the fraction of points in its basin of attraction.
+
+See also [[Analytic combinatorics]]
+
+!!__Statistics of attractors__
+
+!!!__Probability distribution of size of basin of attraction__
+
+__Joint probability distribution of two attractor weights__
+
+!!!__Probability distribution of $$Y=\sum\limits_s W_s^2$$__
+
+!!!__Probability that a random map of $$M$$ points is indecomposable (i.e. map has a single attractor)__
+
+$$Q_M = \frac{(M-1)!)}{M^M} \sum\limits_{n=0}^{M-1} \frac{M^n}{n!} \sim \sqrt{\frac{\pi}{2M}}$$
+
+$$\sim$$ is for large $$M$$
+
+Probability that the map is indecomposable and the attractor is of period $$l$$:
+
+$$Q_M(l) = \frac{M!}{(M-l)!M^{l+1}}$$
+
+!!!__Probability distribution of number of attractors__
+
+See [[ Probability Distributions Related to Random Mappings |http://www.jstor.org/stable/2237803?seq=1#page_scan_tab_contents]], [[A Property of Randomness of an Arithmetical Functions|http://digital.library.unt.edu/ark:/67531/metadc100934/]]
+
+The average number of attractors is $$\langle A \rangle = \frac{1}{2} \log{M} + O(1)$$
+
+
+!!__Probabilities related to a point chosen at random__
+
+Probability that a randomly chosen point falls into an attractor of weight $$W$$ and period $$l$$
+
+__Probability that a randomly chosen point ends up on an attractor of weight $$l$$__: 
+
+$$P(l) = \sum\limits_{n \geq l} \frac{\Gamma{(M)}}{\Gamma{(M-n+1)}} \frac{1}{M^n}$$
+
+For large $$M$$, this gives
+
+$$P(l) = \frac{1}{\sqrt{M}} \int_x^\infty e^{-y^2/2} dy $$
+
+where $$l = \sqrt{M} x$$. This gives the average $$\langle l \rangle = \sqrt{M} \sqrt{\frac{\pi}{8}}$$, and variance $$\langle l^2 \rangle - \langle l \rangle^2  = M \left ( \frac{2}{3} - \frac{\pi}{8} \right )$$
+
+!!__Random mappings with constraints, and other extensions__
+
+In [[ Probability Distributions Related to Random Mappings |http://www.jstor.org/stable/2237803?seq=1#page_scan_tab_contents]], some of the above results are extended to the case without self-1-loops, $$T(i) \neq i$$, and where the function is [[one-to-one|Injective function]]
+
+------------------------
+
+[[The random map model: a disordered model with deterministic dynamics|http://jphys.journaldephysique.org/articles/jphys/abs/1987/06/jphys_1987__48_6_971_0/jphys_1987__48_6_971_0.html]]
+
+[[ Probability Distributions Related to Random Mappings |http://www.jstor.org/stable/2237803?seq=1#page_scan_tab_contents]]
+
+[[A Property of Randomness of an Arithmetical Functions|http://digital.library.unt.edu/ark:/67531/metadc100934/]]
+
+[[ The Expected Number of Components Under a Random Mapping Function |http://www.jstor.org/stable/2307900?seq=1#page_scan_tab_contents]]
+
+[[ Probability of Indecomposability of a Random Mapping Function |http://www.jstor.org/stable/2236478?seq=1#page_scan_tab_contents]]
+
+[[Probability Distributions Related to Random Transformations of a Finite Set|https://statistics.stanford.edu/research/probability-distributions-related-random-transformations-finite-set]]
+
+[[Weighted Random Mappings; Properties and Applications.|https://www.researchgate.net/publication/277842846_Weighted_Random_Mappings_Properties_and_Applications]]
+
+[[Some remarks about computer studies of dynamical systems|http://www.sciencedirect.com/science/article/pii/037596018290408X]]
+
+[[Random-Energy Model: Limit of a Family of Disordered Models|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.45.79]]
+ -- [[Random-energy model: An exactly solvable model of disordered systems|http://journals.aps.org/prb/abstract/10.1103/PhysRevB.24.2613]]
+
+[[Random mappings|https://books.google.co.uk/books/about/Random_mappings.html?id=1xPvAAAAMAAJ&redir_esc=y]]
+
+[[Random allocations|https://books.google.co.uk/books?id=jxjvAAAAMAAJ&source=gbs_similarbooks]]
+
+[[Random Forests|https://books.google.co.uk/books?id=wMTUThd-6QEC&source=gbs_similarbooks]]

@@ -1,0 +1,103 @@
+created: 20160428131851288
+creator: guillefix
+modified: 20160607150054129
+modifier: guillefix
+title: Matched asymptotic expansions
+
+Perturbation method to get approximate solutions to ''singular perturbation problems'' of differential equations, often when the small parameter $$\epsilon$$ is multiplying the highest derivative. Then the $$\epsilon=0$$ problem is of lower order, and will in general not be able to satisfy all the boundary conditions of the original problem
+
+If y is the solution to $$D_\epsilon y = 0$$ then one possible behaviour in such cases is that:
+
+* over most of the range $$\epsilon d^k y/dx^k$$ is small, and $$y$$ approximately obeys $$D_0 y = 0$$.
+
+* in certain regions, often near the ends of the range, $$\epsilon d^ky/dx^k$$ is not small, and $$y$$ adjusts itself to the boundary conditions (i.e. $$d^ky/dx^k$$ large in some places).
+
+In fluid dynamics these regions are known as //boundary layers//, in solid mechanics they are known as //edge layers//, in electrodymanics they are known as //skin layers//, etc.
+
+For this reason the subject of matched asymptotic expansions is sometimes called ''boundary-layer theory''.
+
+Boundary layers can also appear in other circumstances, for instance when the perturbation converts a linear DE into a nonlinear one. See the example in question 2 [[here|https://www1.maths.ox.ac.uk/system/files/legacy/12807/C6.3a_13.pdf]] (in that case, the linear problem has a solution with a singularity at $$x=0$$, but the nonlinearity makes $$f(0) \sim \epsilon^{-1/2}$$. See solution in black oxford notebook.
+
+[[Handout from lecture|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3128/11/OHP-HandoutLecture9.pdf]]
+
+!!__Method of matched asymptotic expansions__
+
+:''1.'' Determine the scaling of the boundary layers (e.g. $$x \propto \epsilon$$ or $$\epsilon^{1/2}$$ or ...). <i style="color:yellow;" class="fa fa-exclamation-triangle" aria-hidden="true"></i> Note, it may be appropriate to rescale the dependent variable too! See example in question 2 [[here|https://www1.maths.ox.ac.uk/system/files/legacy/12807/C6.3a_13.pdf]].
+
+:''2.'' __Reescale__ the independent variable in the boundary layer (e.g. $$x=\hat{x}\epsilon$$, or $$\hat{x}\epsilon^{1/2}$$ or ...)
+
+:''3.'' __Find the asymptotic expansions__ of the solutions in the boundary layers and outside the boundary layers (the ''"inner" and "outer" solutions'')
+
+:''4.'' Fix the arbitrary constants in these solutions by
+
+::''(a)'' obeying the boundary conditions (often for inner solutions)
+
+::''(b)'' ''matching'' -- making the inner and outer solutions join up properly in the transition region between them.
+
+<big><i style="color:yellow;" class="fa fa-lightbulb-o" aria-hidden="true"></i></big> __Trick for finding scaling in boundary layer__: in the boundary layer $$d^2y/dx^2$$ is often significant (though not always!). We must increase $$\alpha$$ (where $$x=\hat{x}\epsilon^\alpha$$) until this term balances the <b>largest</b> of the others in the equation.
+
+!!__Matching of asymptotic expansions__
+
+!!!__Prandtl matching rule__
+
+Most elementary.
+
+You simply require
+
+$$\lim_{x_{BL} \rightarrow \infty}y_{BL}(x_{BL}) = \lim_{x_M\rightarrow 0} y_M(x_M)$$
+
+where $$BL$$ and $$M$$ refer to boundary layer, and middle (outer) solutions and variables.
+
+!!!__van Dyke matching rule__
+
+Van Dyke's matching 'rule' usually works (more powerful than Prandtl's) and is much more convenient than the Intermediate variable matching below. The rule is
+
+|$$(m\text{ term inner})(n\text{ term outer}) = (n\text{ term outer})(m\text{ term inner})$$|
+
+<span style="color:magenta;">^^o^^<small>o</small>,,o,,<small>o</small>^^o^^<small>o</small>,,o,,<small>o</small>^^o^^<small>o</small>,,o,,<small>o</small>^^o^^<small>o</small>,,o,,<small>o</small>^^o^^<small>o</small>,,o,,<small>o</small>^^o^^<small>o</small>,,o,,<small>o</small>^^o^^<small>o</small>,,o,,<small>o</small>^^o^^<small>o</small>,,o,,<small>o</small></span>
+
+I.e. in outer expansion, in the outer variables expand to $$n$$ terms; then switch to inner variables and reexpand to $$m$$ terms.The result is the same as first expanding the inner expansion in the inner variables to $$m$$ terms, then switching to outer variables and reexpanding to $$n$$ terms.. <span style="color:bisque;">Hmm, but these expansions are expressed in different variables. I guess, as a last implicit step, I should convert to the same variables to compare.</span> <span style="color:coral;">What's the justification of this rule?</span>
+
+<i style="color:yellow;" class="fa fa-exclamation-triangle" aria-hidden="true"></i> When using this matching rule you must treat log as $$O(1)$$ because of the size of logarithmic terms.
+
+!!!__Intermediate variable matching__
+
+Most advanced and powerful of the methods. More tedious to apply too.
+
+Expansions for two "contiguous" regions should actually have an __overlap__ or __transition region__ where __both expansions are valid__.
+
+For example, suppose there is a boundary layer for $$x=\epsilon \hat{x}$$ for $$\hat{x} = O(1)$$, but the expansion we find is actually valid for $$\hat{x} = o(\epsilon^{-1})$$, i.e., the expansion breaks when $$\hat{x}$$ becomes $$ord(\epsilon^{-1})$$ or larger. Suppose also, that the middle, or outer region is defined for $$x=ord(1)$$, but the expansion is valid for $$x=ord(\epsilon^\alpha)$$, for $$0<\alpha <1$$. Then in any region with $$x=ord(\epsilon^\alpha)$$, for $$0<\alpha <1$$, both expansions are valid, and therefore should __match__ due to the uniqueness of [[Asymptotic approximation]]s.
+
+Note some terms jump order: a term in the examples in the notes comes from the inner expansion of the first-outer term, but it also comes from the outer expansion of the second-inner term. "First-outer" refers to first order in the expansion in outer region. The terms "inner and outer expansion" here refer to the expansion in terms of rescaled variables, but these terms are most often used for the van-Dyke rule where the "outer expansion" refers to the expansion of some term in terms of the outer variable, and similarly for the "inner expansion". The nomenclature he uses, is a bit confusing though.
+
+[img[Selection_197.png]]
+
+!!__Composite expansion__
+
+A ''composite expansion'' is an expansion that is valid across the whole domain. It built as $$y_{BL} + Y_M - \text{overlaps}$$, where $$y_{BL}$$ are the solutions in the boundary layers, $$Y_M$$ are the outer solutions, outside boundary layers, and $$\text{overlaps}$$ are overlaps, removed to avoid double counting. The $$\text{overlaps}$$ term removes the contribution from the inner expansion, when looking at the outer region(s); or the contribution from the outer expansion, when looking at the inner region(s). In practice, this can be done by substracting a term of the form $$(m\text{ term inner})(n\text{ term outer})$$ at the right order.
+
+It is not unique, because it is not in standard Poincare form 
+
+!!__Boundary and transition layers__
+
+__Boundary layers__
+
+[img[Selection_198.png]]
+
+Think of the $$\epsilon = 0$$ problem, and that to have the possibility of a non-trivial boundary layer we need some solution in the inner region which decays as we move towards the outer. In the problem considered in the notes, for example, the non-constant solution in the right-hand "boundary layer" grew exponentially as we moved to the outer, so there could never be a boundary layer at $$x = 1$$.
+
+__Transition or interior layers__
+
+Regions of fast change, not in the boundary, but in the interior of the domain. Finding the position of an interior layer can sometimes be hard.
+
+__Non-linear boundary layers__
+
+__Boundary layer at infinity__
+
+<mark>Revise these</mark>
+
+---------
+
+__Example: van der Pol oscillator__
+
+<mark>Revise this example</mark> pages 36-41

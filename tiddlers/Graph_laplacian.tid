@@ -1,0 +1,41 @@
+created: 20160127131146262
+creator: guillefix
+modified: 20160130151103227
+modifier: guillefix
+title: Graph laplacian
+
+We can describe difussion of a quantity $$\Psi_i$$ associated with node $$i$$ in a network with adjacency matrix $$A$$, with the equation:
+
+$$\frac{\partial \Psi_i}{\partial t}=\sum_j A_{ij}C(\Psi_j-\Psi_i)=C\sum_j (A_{ij}-\delta_{ij}k_j)\Psi_j)$$
+
+where $$C$$ is the diffusion constant. In vector form:
+
+$$\frac{\partial \mathbf{\Psi}}{\partial t}=C(\mathbf{A}-\mathbf{D})\mathbf{\Psi} \equiv -C\mathbf{L}\mathbf{\Psi}$$
+
+where $$\mathbf{D}=diag(k_1,...,k_n)$$ is the diagonal matrix of degrees, and $$L$$ is the (combinatorial) ''graph laplacian'', which is then:
+
+$$
+L_{ij}=
+\begin{cases}
+k_i &\text{if } i=j,\\
+-1 &\text{if }i\neq j \text{ and there is an edge } (i,j),\\
+0 &\text{otherwise}
+\end{cases}
+$$
+
+We can solve this diffusion equation by writting any initial condition as a linear combination of eigenvectors of $$L$$, and the coefficients will then evolve exponentiall with exponents given by the eigenvalues of the matrix.
+
+The graph laplacian can be related to the //edge incidence matrix//, $$\mathbf{B}$$. This is defined by first labelling the ends of each edge as $$1$$ and $$2$$. Then:
+
+$$
+B_{ij}=
+\begin{cases}
++1 &\text{if end 1 of edge i is attached to vertex j,}\\
+-1 &\text{if end 2 of edge i is attached to vertex j,}\\
+0 &\text{otherwise}
+\end{cases}
+$$
+
+Then, $$\mathbf{L}=\mathbf{B}^T\mathbf{B}$$, from which one can show that the eigenvalues of $$\mathbf{L}$$ are not only real (as it is symmetric), but also non-negative. This is an important physical property of the Laplacian, because it means the solutions of the diffusion equation only includes non-diverging solutions, which makes sense since diffusion is constructed to conserve the quantity $$\Psi_i$$.
+
+In particular the vector $$\mathbf{1}=(1,1,1,...)$$ always has eigenvalue $$0$$ (this implies $$\mathbf{L}$$ is singular). It can be shown, that more generally, the number of eigenvectors with $$0$$ eigenvalue is always equal to the number of components in the network. Thus the second eigenvalue of the Laplacian (when arranged in ascending order) is non-zero if and only if the network is connected. This eigenvalue is called the //algebraic connectivity// or //spectral gap//, and is useful in a technique known as spectral partitioning.

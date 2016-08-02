@@ -1,0 +1,9 @@
+created: 20160713232202931
+creator: guillefix
+modified: 20160713233047763
+modifier: guillefix
+title: Least upper bound
+
+Natural extension of the [[join|Join operation]] of two elements to an arbitrary [[Set]] of elements of a [[poset|Partially ordered set]]
+
+Interpreting the [[Partial ordering]] as "less than or equal", it can be understood as the least point that is greater than or equal to all the points in the set.

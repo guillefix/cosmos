@@ -1,0 +1,90 @@
+created: 20160117211501086
+creator: guillefix
+modified: 20160616182916172
+modifier: guillefix
+tags: Welcome
+title: Meta
+
+This tiddler is about this ~TiddlyWiki itself.
+
+[[BACKUPS|http://kosmos.tiddlyspot.com/backup/]]
+
+[[Upgrade TW|http://tiddlywiki.com/upgrade.html]]
+
+[[Creator, he lives in Oxford!|https://twitter.com/Jermolene]]
+
+https://github.com/Jermolene/TiddlyWiki5/issues/2180
+[[plugin or feature request: inner-tiddler-anchors|https://github.com/Jermolene/TiddlyWiki5/issues/1783]]
+
+[[Manual links (for inter-tiddler links)!|http://scroller.tiddlyspot.com/#Linking%20in%20WikiText:%5B%5BLinking%20in%20WikiText%5D%5D%20ButtonWidget]] <mark>Check how to implement this, maybe I need to [[Upgrade TW|http://tiddlywiki.com/upgrade.html]]? </mark>
+
+[[Creating SubStories|http://tiddlywiki.com/#Creating%20SubStories]]
+
+[[Creating A Tabbed ToC|http://tobibeer.github.io/tb5/#Creating%20A%20Tabbed%20ToC]]
+
+[[TiddlyWeb|http://tiddlyweb.com/]]
+
+[[ServerCommand|http://tiddlywiki.com/static/ServerCommand.html]] hmm?
+
+[[Nice collection of plugins|http://tobibeer.github.io/tb5/#]]
+
+<mark>[[WOW TiddlyMap|http://tiddlymap.org/]]</mark>
+
+[[TiddlyClip|http://tiddlyclip.tiddlyspot.com/]]
+
+[[Nice too! Codemirror editor|http://tiddlywiki.com/plugins/tiddlywiki/codemirror/]] <mark>Install this</mark>
+
+!! [[Custom stylesheet]].
+
+In here I have an example of a <big style="color:Aqua">workaround to get javascript working on there</big>. Even though script tags are supposed to be removed, they aren't when inside an `iframe`. However, I need then to substitute document $$\rightarrow$$ window.parent.document to access stuff in our document. Maybe I can define a Javascript Macro like the one below that takes javascript code as input, and does the right things and adds the iframe dressing, etc.! 
+
+Also should think of adding jquery, via a custom plugin..
+
+Trick to embed stuff from other pages using iframes (and position the embedded content correctly). See example [[Apollonian gasket]]
+
+Font Awesome: [[$:/plugins/TheDiveO/FontAwesome/fonts/FontAwesome]] [[TW on Font Awesome for TW|http://thediveo.github.io/TW5FontAwesome/output/fontawesome.html]]
+
+!! Example of custom [[Macro|http://tiddlywiki.com/static/Macros%2520in%2520WikiText.html]]
+
+[[$:/core/modules/macros/testMacro]]
+
+This is an example of a (global) Javascript macro, as one can define local ones. 
+
+To use it, do <<testMacro>> in any tiddler, where this isn't the name of the tiddler, but the name defined inside it in `exports.name = "testMacro";`. It then runs the `exports.run` function.
+
+!!TODO
+
+* Change hosting of linked google photos pictures to something else that is public
+
+* http://blog.jeffreykishner.com/2014/01/23/how-to-incorporate-font-awesome-icons-into-tiddlywiki-5.html
+
+*Create plugin/custom button to add child to tiddler (child defined via tags). I know this is a hierarchical idea, but still useful!
+
+*Also show backlinked stuff.
+
+*Make Table of contents Tiddler
+
+* Add automatic link to wiki page in tiddlers.
+
+* __Scalability?__ There is a server side tiddlywiki apparently. At the moment in 15 days it increased by 1M. Therefore in a month, 2M. Therefore in a year 24M. I think the biggest thing I added was the pdf: [[The Hallmarks of Aging.pdf]]...which increased it by about 5M straight away. Big files, and pictures should be hosted somewhere else and linked.. There are TW with 1000s of tiddlers apparently that go well.
+
+* References. How to add ~LaTeX-like referencing..
+
+* See ~CosmosBrain created in The Brain
+
+* Define `root path` for offline `file://` links!
+
+* Find way of saving current color scheme, and try other ones. Like black on white (better for reading).
+
+* Subdivide tiddlers more.
+
+* Learn more about tiddlywiki and how to hack/modify it.
+
+* TW is kinda a OS on the web, can we give it more features like better window (open tiddler) management, etc. Tiddlers are like files. Shadow tiddlers, macros, etc. are programs.
+
+* Add AI stuff like http://home.ideapad.io and concept map stuff! :) See also http://ideaflowplan.tk/
+
+
+~LaTeX test: $$x^2=3$$
+
+Font Awesome Test: Waving flag: <i class="fa fa-flag"></i>

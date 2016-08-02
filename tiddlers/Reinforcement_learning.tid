@@ -1,0 +1,79 @@
+created: 20160428203926307
+creator: guillefix
+modified: 20160711223151437
+modifier: guillefix
+title: Reinforcement learning
+
+See [[Machine learning]]
+
+https://en.wikipedia.org/wiki/Markov_decision_process
+
+!!__Markov_decision_process: definition__
+
+A Markov decision process is a 5-[[tuple]] $$(S,A,P_\cdot(\cdot,\cdot),R_\cdot(\cdot,\cdot),\gamma)$$, where
+
+* $$S$$ is a finite __set of states__,
+* $$A$$ is a finite __set of actions__ (alternatively, $$A_s$$ is the finite set of actions available from state $$s$$),
+* $$P_a(s,s') = \Pr(s_{t+1}=s' \mid s_t = s, a_t=a)$$ is the probability that action $$a$$ in state $$s$$ at time $$t$$ will lead to state $$s'$$ at time $$t+1$$. I.e. __what happens when you take an action__
+*$$R_a(s,s')$$ is the immediate reward (or expected immediate reward) received after transition to state $$s'$$ from state $$s$$. __What reward you get when something happen__
+*$$\gamma \in [0,1]$$ is the discount factor, which represents the difference in importance between future rewards and present rewards.
+
+(Note: The theory of Markov decision processes does not state that $$S$$ or $$A$$ are finite, but the basic algorithms below assume that they are finite.)
+
+[img widht=400 [https://upload.wikimedia.org/wikipedia/commons/2/21/Markov_Decision_Process_example.png]]
+
+!!__Optimal policy problem__
+
+The core problem of MDPs is to find a "policy" for the decision maker: a function $$\pi$$ that specifies the action $$\pi(s)$$ that the decision maker will choose when in state $$s$$.  <small>Note that once a Markov decision process is combined with a policy in this way, this fixes the action for each state and the resulting combination behaves like a [[Markov chain]]</small>.
+
+The __goal is to choose a policy $$\pi$$ that will maximize__ some cumulative function of the random __rewards__, typically the __expected__ discounted sum over a potentially infinite horizon:
+
+:$$\sum^{\infty}_{t=0} {\gamma^t R_{a_t} (s_t, s_{t+1})} $$ &nbsp;&nbsp;&nbsp;(where we choose $$a_t = \pi(s_t)$$)
+
+where $$\ \gamma \ $$ is the discount factor and satisfies $$0 \le\ \gamma\ < 1$$. (For example, $$ \gamma = 1/(1+r) $$ when the discount rate is r.)  $$ \gamma $$ is typically close to 1.
+
+Because of the Markov property, the optimal policy for this particular problem can indeed be written as a function of $$s$$ only, as assumed above.
+
+
+!!__Learning algorithms__
+
+MDPs can be solved by [[Linear programming]] or [[Dynamic programming]].
+
+__Dynamic programming approach__
+
+The algorithm has the following two kinds of steps, which are repeated in some order for all the states until no further changes take place.
+They are defined recursively as follows:
+
+:$$ \pi(s) := \arg \max_a \left\{ \sum_{s'} P_a(s,s') \left( R_a(s,s') + \gamma V(s') \right) \right\} $$
+
+:$$ V(s) := \sum_{s'} P_{\pi(s)} (s,s') \left( R_{\pi(s)} (s,s') + \gamma V(s') \right) $$
+
+$$V(s)$$ will contain the discounted sum of the rewards to be earned (on average) by following that solution from state $$s$$.
+
+Their order depends on the variant of the algorithm; one can also do them for all states at once or state by state, and more often to some states than others. As long as no state is permanently excluded from either of the steps, the algorithm __will eventually arrive at the correct solution__.
+
+There are variants, in particular ''value iteration'' and ''policy iteration'' described in the Wiki page.
+
+* Trust Region Policy Optimization [1]
+
+* Proximal Policy Optimization (i.e., TRPO, but using a penalty instead of a constraint on KL divergence), where each subproblem is solved with either SGD or L-BFGS
+
+* Cross Entropy Method
+
+[[RL Course by David Silver|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL5X3mDkKaJrL42i_jhE4N-p6E2Ol62Ofa]]
+
+__Deep reinforcement learning__
+
+See Nando's lectures
+
+__OpenAI Gym__
+
+https://gym.openai.com/docs
+
+https://github.com/openai/gym
+
+Example: https://github.com/joschu/modular_rl
+
+[[Pavlov.js - Reinforcement learning using Markov Decision Processes|https://github.com/NathanEpstein/Pavlov.js]]
+
+See also [[Decision theory]]

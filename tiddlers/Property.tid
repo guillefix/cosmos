@@ -1,0 +1,8 @@
+created: 20160708010608118
+creator: guillefix
+modified: 20160708011504441
+modifier: guillefix
+tags: Ontology
+title: Property
+
+An [[Entity]] has a certain ''property'' if it belongs to the [[Set]] that {the [[Concept]] corresponding to that property} represents.

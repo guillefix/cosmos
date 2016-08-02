@@ -1,0 +1,21 @@
+created: 20160613174246483
+creator: guillefix
+modified: 20160613180843043
+modifier: guillefix
+title: Non-self-averaging percolation process
+
+A type of [[Percolation]] process that is non-self-averaging, (often? ,,def. of self-averaging?,,) in the sense that the relative variance of the size of the largest component doesn't vanish in the thermodynamic limit.
+
+* Some types of [[k-vertex rule percolation process]]es [[Continuous Percolation with Discontinuities|http://journals.aps.org/prx/abstract/10.1103/PhysRevX.2.031009]]
+
+** Fractional percolation. Its rule implements a kind of cluster size homophily where clusters of similar sizes are more likely to be connected together. See [[here|http://www.nature.com/articles/ncomms3222]], [[Crackling noise in fractional percolation|https://www.researchgate.net/publication/252325326_Crackling_noise_in_fractional_percolation]]
+
+See also: [[Achlioptas processes are not always self-averaging|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.86.011129]] -- [[Phase transitions in supercritical explosive percolation|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.87.052130]] -- [[Unstable supercritical discontinuous percolation transitions|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.88.042152]]
+
+!!!__Discontinuity in k-vertex rule percolation processes__
+
+O. Riordan and L. Warnke [[showed|http://projecteuclid.org/euclid.aoap/1344614200]] that [[k-vertex rule percolation process]] were continuous, however, it is equally true that certain percolation processes based on picking a fixed number of random vertices are discontinuous. A paradox resolved in [[this paper|http://journals.aps.org/prx/abstract/10.1103/PhysRevX.2.031009]], where they show that some processes, while continuous at exactly the transition point, still exhibit infinitely many discontinuous jumps in an arbitrary vicinity of the transition point: a ''Devil’s staircase''.
+
+This staircase is in fact stochastic, as the jump points and sizes are stochastic random variables. This stochasticity is present even in the thermodynamic limit, and that is what gives rise to the non-self-averaging property.
+
+[img[http://i.imgur.com/s4haYQr.png]]

@@ -1,0 +1,29 @@
+created: 20160426172807368
+creator: guillefix
+modified: 20160426172810957
+modifier: guillefix
+title: Miscellaneous notes from first Nando's first deep learning lecture
+
+Inspiration from neuroscience -> neural networks.
+
+Convolutional network. Matthew Zeiler & Rob Fergus
+
+Supervised vs unsupervised.
+
+A good principle for learning is for the machine trying to reconstruct the things it wants to learn using its neural net. If what it reconstructs doesn't agree with what it then sees, it should learn. This sounds like learning by imitation.
+
+Regularity helps..     
+
+Multimodal, learning combining different kinds of data
+
+Sequence learning and recurrent nets: have memory, can predict sequences (in time say). Can [[parse|https://en.wikipedia.org/wiki/Parsing]] words, and they show that grammar can be learned.
+
+Being able to fill gaps in the information you receive (like our brain does, or like machines do with generative models, which also learn) is useful for decision making, as you can know what to expect, even with incomplete info.
+
+Siamese neuronal network [[Q|http://stats.stackexchange.com/questions/154652/how-does-the-back-propagation-work-in-a-siamese-neural-network]]
+
+Reinforcement learning
+
+Imitation learning
+
+Back-propagation.

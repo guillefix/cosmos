@@ -1,0 +1,15 @@
+created: 20160413110549814
+creator: guillefix
+modified: 20160413110559912
+modifier: guillefix
+title: Mutational robustness
+
+See [[Population genetics]]
+
+[[Neutral evolution of mutational robustness|http://www.pnas.org/content/96/17/9716.full.pdf]]
+
+In evolution of ribozymes in vitro, mutations responsible for an increase in fitness are only a small minority of the total number of accepted mutations (see [[Continuous in vitro evolution of catalytic function.|http://www.ncbi.nlm.nih.gov/pubmed/9110984]]). This fact indicates that, <b>even in adaptive evolution, the majority of point mutations is neutral</b>. This is the basis of [[Kimura's neutral theory of evolution|https://en.wikipedia.org/wiki/Neutral_theory_of_molecular_evolution]], see [[the paper|http://isites.harvard.edu/fs/docs/icb.topic887718.files/kimura.pdf]].
+
+A ''neutral network'' is a collection of mutually neutral genotypes (i.e. producing the same phenotype, whether structure or function), which are connected via single mutational steps; they sometimes form extended networks that permeate large regions of genotype space. A population is ''mutationally robust'' (insensitive against mutations) when it inhabits a highly interconnected region of the network so that most mutations lead to the same neutral network, thus leaving the phenotype unchanged.
+
+In [[Neutral evolution of mutational robustness|http://www.pnas.org/content/96/17/9716.full.pdf]], the authors found analytically, that for a range of population sizes and mutation rates of biological interest, <b>the population's distribution over a neutral network is determined solely by the network's topology</b>.

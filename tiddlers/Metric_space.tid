@@ -1,0 +1,12 @@
+created: 20160713222921853
+creator: guillefix
+modified: 20160713224222342
+modifier: guillefix
+tags: Analysis Topology
+title: Metric space
+
+A [[Set]] with a [[Metric]] function.
+
+It can be used to define notions of [[Convergence]], and [[Open set]]s.
+
+Because a metric space has a natural notion of open set, it also has a natural [[topology|Topological space]]

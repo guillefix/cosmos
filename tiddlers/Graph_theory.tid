@@ -1,0 +1,20 @@
+created: 20160122182424302
+creator: guillefix
+modified: 20160713193854994
+modifier: guillefix
+tags: [[Discrete mathematics]]
+title: Graph theory
+type: application/x-tiddler
+
+Mathematical study of [[Graph]]s
+
+__Isomorphism and automorphism__
+
+http://math.stackexchange.com/questions/790110/whats-the-difference-between-the-automorphism-and-isomorphism-of-graph
+
+[[Graph isomorphism]]
+
+
+[[Graph automorphism]]
+
+See [[here|https://en.wikipedia.org/wiki/Graph_homomorphism]] for definition of graph homomorphism.

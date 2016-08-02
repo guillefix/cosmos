@@ -1,0 +1,7 @@
+created: 20160714013130248
+creator: guillefix
+modified: 20160714013239323
+modifier: guillefix
+title: Hausdorff space
+
+A [[Topological space]] is //Hausdorff//, if for any pair of points $$x, y \in X$$ there exists open sets $$O_1$$ and $$O_2$$ such that $$x \in O_1$$, $$y \in O_2$$ and $$O_1 \cap O_2 = \emptyset$$.

@@ -1,0 +1,35 @@
+created: 20160123142602747
+creator: guillefix
+modified: 20160124132823974
+modifier: guillefix
+title: Path (Graph theory)
+
+A ''path'' (sometimes called a 'walk')in a network is a sequence of of nodes such that every pair of nodes in the sequence is connected by an edge in the network. For directed networks an edge must be traversed in direction of edge; in undirected, in either direction.
+
+//Self avoding paths// (a.k.a 'simple paths')don't traverse the same node or edge twice.
+
+The //length// is the number of time one traverses an edge in a path.
+
+$$A_{ik}A_{kj}$$ is only non-zero if there's a path of length 2 from i to j. The total number of such paths is $$N(2)_{ij}=\sum_{k=1}^{n}A_{ik}A_{kj}=[A^2]_{ij}$$. Similarly, the total number of 3-paths is $$N(3)_{ij}=\sum_{k,l=1}^{n}A_{ik}A_{kl}A_{lj}=[A^3]_{ij}$$. In general $$N(r)_{ij}=[A^r]_{ij}$$. 
+
+__Cycles__ are paths that start and end at same vertex. The number of cycles of length $$r$$ is $$\text{Tr}[A^r]=\sum_i \kappa_i^r$$, where $$\kappa_i$$ is the ith eigenvalue of $$A$$. This can be proved by the //[[Jordan decomposition|https://en.wikipedia.org/wiki/Jordan_normal_form]]// of the matrix if it is diagonalizable (so the nilpotent part is zero, i.e. there is no 1s above the diagonal). Otherwise one can prove this using the //Schur decomposition//
+
+A __simple cycle__ is a self-avoiding cycle.
+
+!!Geodesic path
+
+Shortest path between two points, defining the geodesic distance. They are always self-avoiding because any loop could be removed to make the path shorter. By convention we sometimes assign a distance of $$\infty$$ to unconnected nodes. They are not necessarily unique.
+
+The //diameter// of a graph is the longest geodesic distance between any pair of connected nodes.
+
+!!Eulerian and Hamiltonian paths
+
+An __Eulerian path__ is one that traverses each edge in a network exactly once. It is not self-avoiding in general because a node with a degree higher than two will need to be visited more than once. 
+
+A necessary condition for a graph to have an Eulerian path is that there are zero or two nodes with odd degree, the first case corresponding to beginning and ending the path on the same node, and the second case, beginning and ending on different nodes.
+
+A __Hamiltonian path__ is one that visits each node exactly once. It is self-avoiding because traversing an edge more than once will imply traversing a node more than once.
+
+The general problem of finding Eulerian or Hamiltonian paths in a graph or proving their non-existence is hard and still actively researched. This was used by Euler to solve the famous Konisberg Bridge problem in 1736.
+
+These paths have applications in computer science in: job-sequencing, "garbage collection", and parallel programming.

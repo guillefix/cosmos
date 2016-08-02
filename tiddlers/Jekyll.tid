@@ -1,0 +1,7 @@
+created: 20160627204957352
+creator: guillefix
+modified: 20160627204958635
+modifier: guillefix
+title: Jekyll
+
+To deploy: `bundle exec jekyll serve --watch`

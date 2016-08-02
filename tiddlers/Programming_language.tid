@@ -1,0 +1,42 @@
+created: 20160624010152080
+creator: guillefix
+modified: 20160629230440805
+modifier: guillefix
+title: Programming language
+
+[[Programming]]
+
+!!!Programming language paradigms
+
+[[Programming paradigms|https://en.wikipedia.org/wiki/Programming_paradigm]]
+
+''Imperative'': give instructions to change the state of the program
+
+''Declarative'': just write statements (assertions) of what things do, what functions do they perform. Then the program can take inptus and give outputs by passing inputs through the various nested functions ([[Functional programming]]).
+
+<b>Visual programming languages</b> Nice example: https://vvvv.org/
+
+-------
+
+Most programming languages are context-free. http://stackoverflow.com/questions/898489/what-programming-languages-are-context-free. See [[Theory of computation]]
+
+!!__Programming languages__
+
+!!![[C/C++]]
+
+!!![[Python|Python (programming language)]]
+
+!!![[JavaScript]]
+
+[[Assembly (programming language)]]
+
+--------
+
+Other languages
+
+Go, Lisp, Clojure, 
+
+https://www.rust-lang.org/
+
+[[Esoteric programming languages|https://esolangs.org/wiki/Main_Page]]
+

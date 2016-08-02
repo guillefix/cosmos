@@ -1,0 +1,12 @@
+created: 20160709022008083
+creator: guillefix
+modified: 20160709022049041
+modifier: guillefix
+title: Long short-term memory
+
+A kind of [[Neural networks with memory]]
+
+[[Video|https://www.youtube.com/watch?v=56TYLaQN4N8#t=25m30s]]
+[[Backpropogating an LSTM: A Numerical Example|http://blog.aidangomez.ca/2016/04/17/Backpropogating-an-LSTM-A-Numerical-Example/]]
+
+[img[http://blog.aidangomez.ca/assets/lstm.png]]

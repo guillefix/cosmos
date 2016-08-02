@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.12" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>Katz centrality: Cosmos — a non-linear personal web notebook</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   "><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible" title="More actions">
+
+
+</button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible" title="Edit this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible" title="Close this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Katz centrality
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="guillefix.html">
+guillefix
+</a> 16th February 2016 at 1:08am
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"></div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Measures%2520and%2520metrics%2520for%2520networks.html">Measures and metrics for networks</a></p><p>Katz centrality solves the problem posed above by giving all  vertices a &quot;free&quot; centrality:</p><p><span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="bold">x</mi></mrow><mo>=</mo><mi>α</mi><mrow><mi mathvariant="bold">A</mi></mrow><mrow><mi mathvariant="bold">x</mi></mrow><mo>+</mo><mi>β</mi><mrow><mn mathvariant="bold">1</mn></mrow></mrow><annotation encoding="application/x-tex">\mathbf{x}=\alpha\mathbf{A}\mathbf{x}+\beta \mathbf{1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.69444em;"></span><span class="strut bottom" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord mathbf">x</span></span><span class="mrel">=</span><span class="mord mathit" style="margin-right:0.0037em;">α</span><span class="mord textstyle uncramped"><span class="mord mathbf">A</span></span><span class="mord textstyle uncramped"><span class="mord mathbf">x</span></span><span class="mbin">+</span><span class="mord mathit" style="margin-right:0.05278em;">β</span><span class="mord textstyle uncramped"><span class="mord mathbf">1</span></span></span></span></span></span>   ....Eq. 2</p><p>or rearranging and setting <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>β</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\beta=1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.69444em;"></span><span class="strut bottom" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.05278em;">β</span><span class="mrel">=</span><span class="mord mathrm">1</span></span></span></span></span>, because all we care is about relative centralities:</p><p><span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="bold">x</mi></mrow><mo>=</mo><mi>β</mi><mo>(</mo><mn>1</mn><mo>−</mo><mi>α</mi><mrow><mi mathvariant="bold">A</mi></mrow><msup><mo>)</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mrow><mn mathvariant="bold">1</mn></mrow><mo>=</mo><mo>(</mo><mn>1</mn><mo>−</mo><mi>α</mi><mrow><mi mathvariant="bold">A</mi></mrow><msup><mo>)</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mrow><mn mathvariant="bold">1</mn></mrow></mrow><annotation encoding="application/x-tex">\mathbf{x}=\beta (1-\alpha\mathbf{A})^{-1} \mathbf{1}=(1-\alpha\mathbf{A})^{-1} \mathbf{1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.8141079999999999em;"></span><span class="strut bottom" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="base textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord mathbf">x</span></span><span class="mrel">=</span><span class="mord mathit" style="margin-right:0.05278em;">β</span><span class="mopen">(</span><span class="mord mathrm">1</span><span class="mbin">−</span><span class="mord mathit" style="margin-right:0.0037em;">α</span><span class="mord textstyle uncramped"><span class="mord mathbf">A</span></span><span class="mclose"><span class="mclose">)</span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord">−</span><span class="mord mathrm">1</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mord textstyle uncramped"><span class="mord mathbf">1</span></span><span class="mrel">=</span><span class="mopen">(</span><span class="mord mathrm">1</span><span class="mbin">−</span><span class="mord mathit" style="margin-right:0.0037em;">α</span><span class="mord textstyle uncramped"><span class="mord mathbf">A</span></span><span class="mclose"><span class="mclose">)</span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord">−</span><span class="mord mathrm">1</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mord textstyle uncramped"><span class="mord mathbf">1</span></span></span></span></span></span></p><p>This is the <strong>Katz centrality</strong>. Often one computes this not by inverting the matrix (which requires <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><msup><mi>n</mi><mn>3</mn></msup><mo>)</mo></mrow><annotation encoding="application/x-tex">O(n^3)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.8141079999999999em;"></span><span class="strut bottom" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord"><span class="mord mathit">n</span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord mathrm">3</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mclose">)</span></span></span></span></span> computations), but by iterating using Eq. 2 (which requires just <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>m</mi></mrow><annotation encoding="application/x-tex">m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit">m</span></span></span></span></span> multiplications per step (number of nonzero elements of <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.68333em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit">A</span></span></span></span></span>, often less steps overall).</p><p>A useful extension is to take <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>β</mi><mrow><mn mathvariant="bold">1</mn></mrow><mo>→</mo><mover accent="true"><mrow><mi>β</mi></mrow><mo>⃗</mo></mover></mrow><annotation encoding="application/x-tex">\beta \mathbf{1} \rightarrow \vec{\beta}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.9778799999999999em;"></span><span class="strut bottom" style="height:1.1723199999999998em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.05278em;">β</span><span class="mord textstyle uncramped"><span class="mord mathbf">1</span></span><span class="mrel">→</span><span class="mord accent"><span class="vlist"><span style="top:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="mord textstyle cramped"><span class="mord mathit" style="margin-right:0.05278em;">β</span></span></span><span style="top:-0.26343999999999995em;margin-left:0.16668em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="accent-body accent-vec"><span>⃗</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span></span>, i.e. give each node possibly a different weight maybe expressing some non-network importance</p><hr><p>By Taylor expanding it we can see it is like <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Eigenvector%2520centrality.html">Eigenvector centrality</a>, but taking into account paths of all lengths, but with with a weight.</p></div>
+
+
+
+</div>
+
+</p>
+
+</section>
+</body>
+</html>

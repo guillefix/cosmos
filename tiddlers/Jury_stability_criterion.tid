@@ -1,0 +1,27 @@
+created: 20160518164643903
+creator: guillefix
+modified: 20160518165309801
+modifier: guillefix
+title: Jury stability criterion
+
+One can use the [[Jury test|https://en.wikipedia.org/wiki/Jury_stability_criterion]] to find if the roots of a polynomial are inside the unit circle, which is useful for stability analysis of [[Nonlinear maps]]. This test turns out to be [[useful in stability analysis of discrete time systems|http://nptel.ac.in/courses/108103008/PDF/module3/m3_lec1.pdf]] in [[control theory|Control theory and control systems]].
+
+__Jury test__
+
+Given a quadratic equation of the form:
+
+$$P(\lambda) = \lambda^2 + a_1 \lambda +a_2 =0$$
+
+Both eigenvalues fall within the unit circle //iff// these three conditions hold:
+
+* $$P(+1) >0$$
+
+* $$P(-1) >0$$
+
+* $$a_2<1$$
+
+The way to show this is to divide the problem in two cases (given $$a_1, a_2$$ are real):
+
+* __Eigenvalues real__: Then by a simple diagram, one can show that if the parabola crosses the x-axis, then $$|\lambda_1|$$, $$|\lambda_2|$$<1 is equivalent to $$P(+1) >0$$, $$P(-1) >0$$. Also as $$a_2 = |\lambda_1 \lambda_2|$$ condition three holds.
+
+* __Eigenvalues complex__: Then $$\lambda_1 = \lambda_2^*$$, and $$a_2=\lambda_1\lambda_2 = \lambda_1 \lambda_1^* = |\lambda_1|^2$$. Therefore $$a_2 <1 \Leftrightarrow |\lambda_1| <1$$ (and so $$|\lambda_2| <1$$ too). The two other conditions are immediatelly satisfied because the parabola doesn't cross the axis when eigenvalues are complex.

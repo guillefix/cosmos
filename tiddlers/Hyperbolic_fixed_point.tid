@@ -1,0 +1,7 @@
+created: 20160603170729249
+creator: guillefix
+modified: 20160603171028906
+modifier: guillefix
+title: Hyperbolic fixed point
+
+A fixed point is called hyperbolic if none of the eigenvalues of the Jacobian evaluated at the point have zero real part.

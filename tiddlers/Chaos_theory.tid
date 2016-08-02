@@ -1,0 +1,59 @@
+created: 20160308170111605
+creator: guillefix
+modified: 20160616183358291
+modifier: guillefix
+tags: [[Nonlinear systems]]
+title: Chaos theory
+
+--> See [[Oxford course notes|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3082/141/main_4.pdf]]
+
+!!__Characteristics of chaos__
+
+* Countable infinity of periodic orbits
+
+* Uncountable infinity of aperiodic orbits
+
+* Sensitive dependence on initial conditions. See Lyapunov exponents in [[Nonlinear dynamical systems]]
+
+* A dense orbit, which comes arbitrarily close to all periodic orbits.
+
+__Chaotic [[maps|Nonlinear maps]]__
+
+[[Symbolic dynamics]] can be used to analyze them
+
+* Logistic map
+
+* Binary shift map
+
+* Skinny baker map
+
+* [[Smale horseshoe map]]
+
+__Chaotic [[Nonlinear dynamical systems]]__
+
+* Lorenz system
+
+* Rossler system
+
+* [[Duffing oscillator]]
+
+!!__Routes to chaos__
+
+!!!__Period doubling__
+
+''Sarkovskii's theorem''
+
+Period 3 implies chaos
+
+!!!__Intermittency__
+
+!!!__Blue sky catastrophe__
+
+--------------
+
+Every chaotic dynamical system is a fractal-manufacturing machine
+
+[img[https://pbs.twimg.com/media/Cgg8HmqXIAAn42P.jpg:large]]
+
+
+[[An Introduction to chaotic dynamical systems. Second edition|http://www.nehudlit.ru/books/detail5822.html]]

@@ -1,0 +1,33 @@
+created: 20160623225134278
+creator: guillefix
+modified: 20160704215943918
+modifier: guillefix
+tags: [[Information theory]]
+title: Coding theory
+
+A ''code'' is a representation of data, represented as an injective map between two sets. These sets are often called the //Source alphabet//, and the //code alphabet//, respectively.
+
+''Coding theory'' (and/or //coding methods//) is the study of codes that satisfy certain properties. These properties are often geared towards [[Data transmission]], [[Data compression]], and other areas in [[Information theory]].
+
+!!__Types of codes__
+
+[[Variable-length code]]
+
+!!__Codes for transmission/storage reliability__
+
+Codes that approach the [[Channel capacity]] limit imposed by the [[Channel coding theorem]]
+
+See [[Error-correcting code]]
+
+
+!!__Codes for transmission/storage efficiency__
+
+Codes that approach the //entropy limit// imposed by the [[Source coding theorem]] for lossless codes, or the limits imposed by [[Rate compression theory]] for lossy codes.
+
+See [[Data compression codes]]
+
+-----------------------------
+
+https://www.youtube.com/channel/UCgzV25kcbpkRMfYSNSgCAFA
+
+[[https://www.youtube.com/playlist?list=PL2E3F2883347BB45B]]

@@ -1,0 +1,15 @@
+created: 20160709021949046
+creator: guillefix
+modified: 20160709022036911
+modifier: guillefix
+title: Neural networks with memory
+
+''Memory'' is good for recognizing time sequence data.
+
+''[[Memory networks|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=48m40s]]''. Apply max-margin. [[Actual drescription|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=51m52s]]. [[Paper|http://arxiv.org/pdf/1410.3916v11.pdf]]
+
+[[Time constraints for facts|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=51m52s]]
+
+''[[Recurrent neural nets|https://www.youtube.com/watch?v=56TYLaQN4N8&index=12&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=7m48s]]''. Vanishing gradient problem, naively, RNNs don't give you long term memory.. [[RNNs|Recurrent neural network]]
+
+''Long Short-Term Memory'' ([[LSTM|Long short-term memory]]) was introduced to solve this problem. 

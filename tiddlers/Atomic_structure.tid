@@ -1,0 +1,21 @@
+created: 20160622025432766
+creator: guillefix
+modified: 20160622030656961
+modifier: guillefix
+title: Atomic structure
+
+//Structure of the periodic table//
+
+The periodic table is mostly determines by the electronic structure of atoms (see [[Atomic physics]]). See also [[Chemistry]]
+
+There are three rules of thumb, which were discovered phenomenologically (I think), but are justifiable from quantum mechanics:
+
+''Aufbau principle'': Shells should be filled starting with the lowest available energy state. An entire shell is filled before another shell is started.
+
+''Madelung’s Rule'': The energy ordering is from lowest value of $$n + l$$ to the largest; and when two shells have the same value of $$n + l$$, fill the one with the smaller $$n$$ first.
+
+[img[https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Klechkovski_rule.svg/330px-Klechkovski_rule.svg.png]] (Mandelung's rule)
+
+''[[Hund's rules]]''
+
+[[Teaching Atomic Structure: Madelung’s and Hund’s Rules in One Chart|http://pubs.acs.org/doi/abs/10.1021/ed5009409]]

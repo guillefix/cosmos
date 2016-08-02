@@ -1,0 +1,32 @@
+created: 20160701001010087
+creator: guillefix
+modified: 20160713135505987
+modifier: guillefix
+tags: [[Statistical physics]]
+title: Disordered system
+
+See [[Condensed matter physics]], [[Complex systems]]
+
+A disordered system, I think, is defined as one which has quenched disorder that affects its behaviour. Quenched disorder affects the behaviour if the system is finite, or if the disorder is non-[[Self-averaging]]
+
+[[http://www.sapienza.isc.cnr.it/disordered-systems.html]]
+
+!!!__Disordered system models__
+
+[[Random map]]
+
+[[Random-cluster model]]
+
+[[Spin glass]]
+
+[[Boolean network]]
+
+[[Artificial neural network]]
+
+!!!__[[Self-averaging]]__
+
+[[Random matrix theory]]
+
+[[Free Probability, Random Matrices and Disorder – CME 510|https://www.youtube.com/watch?v=68yy33jOkOs]]
+
+[[Fluctuation-dominated Phase Ordering: Order Parameter Scaling By Mustansir Barma|https://www.youtube.com/watch?v=nsx7TAwETZ8]]

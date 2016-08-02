@@ -1,0 +1,27 @@
+created: 20160426213958429
+creator: guillefix
+modified: 20160426231035774
+modifier: guillefix
+title: Master equation
+
+For discrete space [[Stochastic processes]]
+
+''Discrete time master equation''
+
+For discrete time, probability to be in state $$n$$ at time $$t+\Delta t$$ is:
+
+$$P(n, t+\Delta t) = \sum_{n'} W(n'\rightarrow n)P(n', t)$$
+
+where the $$W(n'\rightarrow n)$$ are the transition probabilities (which can be expressed as a //transition matrix//).
+
+''Continuous time master equation''
+
+For continuous time, we can subtract $$P(n,t)$$ from both sides of the discrete time equation, and divide by $$\Delta t \rightarrow 0$$. Then 
+
+$$\frac{d P(n, t)}{dt} = \sum_{n'} w(n' \rightarrow n) P(n', t) - [\sum_{n'} w(n \rightarrow n')]P(n,t) $$
+
+$$= \sum_{n' \neq n} w(n' \rightarrow n) P(n', t) - [\sum_{n' \neq n} w(n \rightarrow n')]P(n,t) $$
+
+where $$w(n' \rightarrow n) = \lim_{\Delta t \rightarrow 0} \frac{W(n'\rightarrow n)}{\Delta t}$$, and where for the bracketed part we used that probability is conserved (i.e. the particle has to go somewhere), $$\sum_{n'} w(n \rightarrow n') = 1$$, and in the second line we cancelled the $$n' = n$$ terms from both terms.
+
+[[Solve using Fourier series|http://www.youtube.com/watch?v=XfK1y3YRSxE&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l&index=3#t=38m35s]], as if it is in a (discrete) lattice. For more general networks, Fouriers may not be appropriate.. You can then [[use eigenvector methods|http://www.youtube.com/watch?v=XfK1y3YRSxE&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l&index=3#t=58m00s]]

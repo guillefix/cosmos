@@ -1,0 +1,61 @@
+created: 20160407195634148
+creator: guillefix
+modified: 20160426013222229
+modifier: guillefix
+title: Wright-Fisher model
+type: application/x-tiddler
+
+There are many variants.
+
+See [[Population genetics]]
+
+Assumptions:
+
+* Non-overlapping generations
+
+* ...
+
+
+!!__Haploid Wright-Fisher model with ''selection''__
+
+The definition can be found [[here|http://www.stats.ox.ac.uk/~etheridg/orsay/selection.pdf]]:
+
+__Definition__ (Haploid Wright-Fisher model with selection): //In a [[panmictic|https://en.wikipedia.org/wiki/Panmixia]], [[haploid|https://en.wikipedia.org/wiki/Ploidy]] population of constant size $$N$$, where individuals are of type $$a$$ and $$A$$: if generation at time $$t$$ consists of $$k$$ individuals of type $$a$$, and $$N-k$$ of type $$A$$, then, according to the Wright-Fisher model with selection, the generation at time $$t+1$$ is formed by $$N$$ individuals, each of which has a probability to be of type $$a$$ given by://
+
+$$P(\text{type a}) = \frac{k(1+s)}{k(1+s)+N-k}$$
+
+//and is of type $$A$$ otherwise//. The process is called //sampling with replacement//, because we are, in effect, replacing each individual of the previous population by a new one, which follows a given distribution of alleles (type). $$s$$ is called the //selection coefficient//, and $$1+s$$ is the //fitness// of type $$a$$. If, we give a fitness $$1+s'$$ to type $$A$$, then we use
+
+$$P(\text{type a}) = \frac{k(1+s)}{k(1+s)+(N-k)(1+s')}$$
+
+And one can see how this would be generalized for more possible types in the model.
+
+The way this probability comes about is:
+
+* The denominator is just to normalize the probability
+
+* In the numerator, $$k$$ is the number of individuals of type $$a$$. The factors $$(1+s)$$ and $$(1+s')$$ determine the relative average number of offspring per individual. By this I mean that $$\frac{\text{average number of offspring of an type a individual}}{\text{average number of offspring of an type a individual}} = \frac{1+s}{1+s'}$$. The average number of offspring of type $$a$$, for instance is $$P(\text{type a}) N$$, as it is for a Bernoulli distribution (in this case, for the number of $$a$$-type individuals), or a multinomial distribution, if more than two types are being considered.
+
+If $$s=0$$ for all types, selection doesn't play a role, and the model describes ''genetic drift'' only.
+
+!!__Haploid Wright-Fisher model with ''selection and mutation''__
+
+Also described [[here|http://www.stats.ox.ac.uk/~etheridg/orsay/selection.pdf]].
+
+Starting from the same setup as above (for the //Haploid Wright-Fisher model with selection//), the definition for the model with ''mutation'' is:
+
+__Definition__ (Haploid Wright-Fisher model with 'selection and mutation): //If there are $$k$$ individuals of type $$a$$ among parents (and $$N-k$$ individuals of type $$A$$), and we have mutation rates $$\mu_1$$ for $$a \rightarrow A$$, and $$\mu_2$$ for $$A \rightarrow a$$, then, the probability of type $$a$$ <small>(also called the proportion of potential offspring, in frequentist language, used often in biology)</small> is://
+
+$$\psi_k = \frac{k(1+s)(1-\mu_1)}{k(1+s)+N-k} + \frac{(N-k)\mu_2}{k(1+s)+N-k}$$
+
+As above, as each of the individuals in the next generation (//offspring//) have a type independently following this distribution. The number of type $$a$$ offspring follows a binomial distribution $$Bin(N, \psi_k)$$
+
+__Fixation__
+
+!!!__Diffusion approximation__
+
+See [[page 326 in here|http://evolution.gs.washington.edu/pgbook/pgbook.pdf]] for instance
+
+---------
+
+See [[this question|http://math.stackexchange.com/questions/1735065/mean-time-time-until-fixation-in-the-wright-fisher-model]]

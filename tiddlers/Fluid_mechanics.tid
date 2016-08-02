@@ -1,0 +1,25 @@
+created: 20160501190316798
+creator: guillefix
+modified: 20160502115231650
+modifier: guillefix
+tags: Physics Mechanics
+title: Fluid mechanics
+
+The branch of [[Mechanics]] that deals with the motion and the forces that affect ''fluids''
+
+A ''fluid'' is a piece of matter that has no, or negligible, [[elasticity|Viscosity and elasticity]]. This means it flows under virtually any applied force.
+
+There are three main [[phases|Phase transition]] of matter that are fluid:
+
+* ''Liquid''. Fully homogeneous/isotropic [[condensed|Condensed matter physics]] phase composed of atoms.
+
+* ''Gas''. Fully homogeneous/isotropic [[non-condensed|Condensed matter physics]] phase composed of atoms.
+
+* ''Plasma''. Fully homogeneous/isotropic [[non-condensed|Condensed matter physics]] phase composed of ionized atoms and/or other charged particles. See [[Plasma physics]].
+
+More complex fluid phases, often composed of mixtures are called [[complex fluids|Complex fluid dynamics]].
+
+[[Fluid dynamics]] describes the causes of motion, i.e. the forces and torques that can affect fluids, and how these affect their motion. 
+[[Magnetohydrodynamics]] and [[Electrohydrodynamics]] describe the dynamics of an electrically conductive fluid.
+
+[[Fluid kinematics]] (just like kinematics, in [[Mechanics]]) describes the possible motion of fluids.

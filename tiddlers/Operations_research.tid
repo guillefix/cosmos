@@ -1,0 +1,16 @@
+created: 20160122230437606
+creator: guillefix
+modified: 20160628140038190
+modifier: guillefix
+tags: [[Discrete mathematics]] Operations [[Mathematical methods]]
+title: Operations research
+
+[[Operations research|https://en.wikipedia.org/wiki/Operations_research]] is a discipline that deals with the application of advanced analytical methods to help make better decisions.
+
+__Transportation, Assignment, and Transshipment Problems__
+
+(Basically problems in linear programming, a.k.a linear [[optimization|Optimization]])
+
+From Winston's book on OpRes: http://www.producao.ufrgs.br/arquivos/disciplinas/382_winston_cap_7_transportation.pdf
+
+http://uk.mathworks.com/help/optim/ug/linprog.html

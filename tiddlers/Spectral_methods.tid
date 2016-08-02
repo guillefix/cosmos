@@ -1,0 +1,60 @@
+created: 20160219171155815
+creator: guillefix
+modified: 20160219173543479
+modifier: guillefix
+title: Spectral methods
+
+__Fourier spectral discretization__
+
+Finite difference formulas create dispersion effects not found in original PDE. Similar effects seen in crystals, which are discrete by nature.
+
+One way to avoid these, is to let the order of the finite difference formula tend to infinity. We then get ''spectral methods''. Simplest favours are:
+
+* Periodic domains: ''Fourier spectral methods''.
+
+* Non-periodic domains: ''Chebysev spectral methods''.
+
+In the limit of infinite order, those finite differences approach the infinite ''Laurent matrix'' (or Laurent operator).
+
+Suppose we have the values of the solution function $$v$$ on our discrete periodic grid. //Spectral approximations// to $$v'$$, $$w$$ is given by:
+
+$$w=Dv$$
+
+where D here is the ''spectral differentiation matrix''.
+
+The fundamental idea of //spectral collocation methods// is :
+
+1. Interpolate the data by a __global__ interpolant (for example, a periodic trigonometric polynomial):
+
+$$p(x) = \sum_{j=-N/2}^{N/2} a_j e^{ijx}$$
+
+2. Differentiate $$p(x)$$ and evaluate at the grid points.
+
+From properties of exponential, another way to compute the 2nd Fourier spectral derivative is:
+
+1. Given $$u$$, compute its DFT (discrete Fourier transform) `U = fft(u)` (using MATLAB notation for fast Fourier transform (FFT), an efficient algorithm to compute DFT).
+
+2. Multiply by $$-j^2$$: $$W(j) = -j^2 U_j$$.
+
+3. Take the inverse transform `w = ifft(u)`.
+
+Similar ideas lead to the //[[one-way wave equation|https://people.maths.ox.ac.uk/trefethen/pdectb/oneway2.pdf]]//.
+
+//Fill details below from lecture 10, when it's published// (https://www0.maths.ox.ac.uk/courses/course/28839, and [[vid|https://oxforduniversity.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?embedded=1#]]).
+
+!!!__Fourier series__
+
+...
+
+Quadrature: trapezoidal rule $$\Leftrightarrow$$ integrating the interpolant
+
+Rootfinding: via eigenvalues of companion matrix
+
+!!!__Laurent series__
+
+...
+
+
+!!!__Chebysev series__
+
+...

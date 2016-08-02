@@ -1,0 +1,39 @@
+created: 20160609171127026
+creator: guillefix
+modified: 20160616225413102
+modifier: guillefix
+title: Theory of phoretic mechanisms of self-propelled colloids
+
+See [[Clusters, asters, and collective oscillations in chemotactic colloids|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/pre14_chemotaxis.pdf]] for more details. See also [[Phoretic mechanisms of self-propelled colloids]], [[Collective behaviour of active colloids]], [[Diffusiophoresis]], and [[Designing phoretic micro- and nano-swimmers]].
+
+Use normal flux boundary conditions for the [[Diffusion]] of the concentration of product ($$p$$) and substrate ($$s$$), as done in [[Concentration around a self-diffusiophoretic particle]].
+
+Michaels-Menten reaction rate (see [[Enzyme kinetics]]).
+
+Number conservation for the products and substrates, and the assumption that s and p diffuse rapidly compared to the colloid so that time dependencies and advection by flow [ 41 ] can be ignored give:
+
+$$D_p p + D_s s = D_s s_b$$
+
+where $$s_b$$ is the background substrate profile. We thus need to solve for just one of the two concentration fields. This equation comes from the condition that, after reaching the stationary state (assumed fast, by molecules diffusing fast), the flux of products out should equal the net flux of substrate in, i.e. $$D_p \partial_r p = -D_s \partial_r s = \alpha$$ (where $$\alpha$$ is the concentration, see [[here|https://arxiv.org/pdf/1107.3851v1.pdf]] and [[here|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/njp07_design-swimmer.pdf]]). Now integrate w.r.t. $$r$$ over the boundary layer (assumed to be very thin, of size $$\delta \ll a$$, $$a$$ the radius of the colloid) to get $$D_p (p(a+\delta) - p(a)) = -D_s (s(a+\delta)-s(a))$$. Now the concentration of $$p$$ outside the boundary layer is assumed to be very small, while that of $$s$$ is fixed to $$s_b$$. We thus recover the above equation. ,,Because the boundary is very thin $$s$$ and $$p$$ change approximately linearly within it, and the above equation can be interpreted as simply a "discretization" of the equation with derivatives, which actually holds just at the surface. Note that solution of diffusion equation at stationarity in 1D is linear, which helps justify this under the thin boundary approximation.,,
+
+We work first in the <b>linear regime</b> which refers to the limit $$s_b \ll \kappa_1/\kappa_2 = \kappa_M$$. Here, $$\kappa_M$$ is the Michaelis constant, and this regime corresponds to the case where the rate of catalysis is linearly proportional to the substrate concentration (see [[Enzyme kinetics]]). This regime is also called //unsaturated//. Later we look at the saturated regime. See [[Collective behaviour of active colloids]]
+
+The resulting slip velocity (see [[Diffusiophoresis]]) of the fluid at the surface of the colloid (due to to the interaction of the surface with both substrate and products), leads, for spherical colloids, to an angular ($$\mathbf{\omega}$$) and linear ($$\mathbf{v}$$) velocities:
+
+$$\mathbf{\omega} = -\frac{3}{16\pi R} \int \hat{\mathbf{r}} \times \mathbf{v}_{\text{slip}}(\mathbf{r}) d \Omega$$
+
+$$\mathbf{v} = -\frac{1}{4\pi } \int \mathbf{v}_{\text{slip}}(\mathbf{r}) d \Omega$$
+
+,,Again see [[Diffusiophoresis]], these are derived from the reciprocal theorem.,, These can be expressed in terms of coefficients related to the spherical harmonic coefficients (we only include the first few) of the surface activity $$\sigma(\theta, \phi)$$, and motilities $$\mu_p(\theta, \phi)$$ and $$\mu_s(\theta, \phi)$$ (see [[Diffusiophoresis]]):
+
+$$\mathbf{\omega} = \Phi_0 (\sigma, \mu_p, \mu_s) \hat{\mathbf{n}} \times \nabla s$$
+
+$$\mathbf{v} = V_0 (s) \hat{\mathbf{n}} -\alpha_0 \nabla s  -\alpha_1 \hat{\mathbf{n}} \hat{\mathbf{n}} \cdot \nabla s$$
+
+The coefficients $$\Phi_0, \alpha_0$$, etc. take into account the external substrate gradient directly, as well as the effects that the external substrate gradient has on the gradient of products produced by the particle.
+
+Essentially, the different [[Phoretic mechanisms of self-propelled colloids]] correspond to responses in either $$\mathbf{\omega}$$ or $$\mathbf{v}$$ to the external gradient, through different spherical harmonic components.
+
+... if either $$\sigma$$ or $$\mu_p$$ contain all odd or all even harmonics there is no reorientation in response to the gradient ($$\omega = 0$$).
+
+From calculations we find explicit examples of the general __design tip__: slip velocity is maximum when the position where $$\mu_p$$ is maximum coincides with the region where $$p$$ changes most rapidly. To see more about design considerations see [[Designing phoretic micro- and nano-swimmers]].

@@ -1,0 +1,17 @@
+created: 20160707163447085
+creator: guillefix
+modified: 20160707163915441
+modifier: guillefix
+title: Function
+
+A type of [[Relation]] between two [[Set]]s, such that for each element belonging to the set called ''domain'', there is a unique element belonging to the set called ''co-domain''.
+
+!!__Types of function__
+
+* [[Injective function]]
+* [[Surjective function]]
+* [[Bijection]] or bijective function.
+
+----------------
+
+[[Preimage]]

@@ -1,0 +1,30 @@
+created: 20160226112733357
+creator: guillefix
+modified: 20160228222913396
+modifier: guillefix
+tags: Optimization Design
+title: Design optimization
+
+See [[Optimization]]
+
+[[Design optimization|http://uk.mathworks.com/discovery/design-optimization.html]] is the process of finding the best design parameters that satisfy project requirements.
+
+[[Multidisciplinary design optimization|https://en.wikipedia.org/wiki/Multidisciplinary_design_optimization]]
+
+__Topology optimization__
+
+[[ToPy|https://github.com/williamhunter/topy]] Topology optimisation (or optimization, if you prefer) using Python. [[More|http://www.topopt.dtu.dk/?q=node/881]] [[Nice example of application|https://www.youtube.com/watch?v=2_K8h5Zqfn8]]
+
+http://web.solidthinking.com/additive_manufacturing_design?_ga=1.67375703.779924460.1456431417
+
+http://www.cloudtopopt.com/
+
+https://en.wikipedia.org/wiki/Topology_optimization
+
+__3D printing design optimization__
+
+[[Autodesk Within|http://www.autodesk.com/products/within/overview]] https://en.wikipedia.org/wiki/Generative_Design
+
+[[Materialize|https://i.materialise.com/info/file-optimization-guide]]
+
+[[Microsoft netfabb|https://modelrepair.azurewebsites.net/]]

@@ -1,0 +1,36 @@
+created: 20160603003555823
+creator: guillefix
+modified: 20160702154431695
+modifier: guillefix
+tags: [[Materials science]]
+title: Surface science
+
+Surface science is the study of physical and chemical phenomena that occur at the interface of two phases, including solid–liquid interfaces, solid–gas interfaces, solid–vacuum interfaces, and liquid–gas interfaces. It includes the fields of surface chemistry and surface physics.
+
+See [[Materials science]], [[Condensed matter physics]], [[Chemistry]]
+
+https://en.wikipedia.org/wiki/Surface_science
+
+!!__Surface chemistry__
+
+!!__Surface physics__
+
+!!!__Fluid dynamics at interfaces__
+
+See [[Colloid Transport by Interfacial Forces|http://www.annualreviews.org/doi/abs/10.1146/annurev.fl.21.010189.000425]]
+
+[[Interfacial forces]]
+
+__Fluid/fluid interfaces__
+
+Governed mostly by (apparent) discontinuities in stress, particularly surface tension. These are known as "Marangoni effects", or "capillary-driven flow".
+
+__Solid/fluid interfaces__
+
+Governed mostly by slip velocity at the interface.
+
+These are responsible for several of the [[Phoretic mechanisms of colloids]], which cause them to move along gradients of some quantity.
+
+[[Surface tension]]
+
+[[Pervaporation]]

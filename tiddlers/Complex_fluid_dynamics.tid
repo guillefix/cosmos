@@ -1,0 +1,57 @@
+created: 20160118223544883
+creator: guillefix
+modified: 20160602221340641
+modifier: guillefix
+tags: [[Soft Matter Physics]] [[Fluid dynamics]]
+title: Complex fluid dynamics
+
+''Complex fluids'' are fluids with elements (mostly objects suspended in the fluid), whose dynamics couple with the fluid's dynamics, giving a more complex overall behaviour (see [[wiki page|https://en.wikipedia.org/wiki/Complex_fluid]]). Most important types are [[dispersions|Dispersion (Chemistry)]], so that they are composed of two coexisting phases. The main types are:
+
+* Solid--liquid ([[Suspension]]s)
+*solid--gas ([[Granular material]]s, and some [[Fibrous material]]s)
+*liquid--gas ([[Foam]]s)
+*liquid--liquid ([[Emulsion]]s)
+
+See [[Active matter]], for the interesting and important type of complex fluid, composed of active or driven elements.
+
+[[Notes from Paul Dellar's course|http://people.maths.ox.ac.uk/dellar/MMP_NonNewt_HT16.pdf]]
+[[his website|http://people.maths.ox.ac.uk/dellar/MMP_Non_Newt_fluids.html]]
+
+
+• Low Reynolds number hydrodynamics, general mathematical results, flow past a sphere. ''Stresses due to suspended rigid particles''. Calculation of the Einstein viscosity for a dilute suspension
+
+• ''Stresses due to Hookean dumb-bells''. Derivation of the upper convected Maxwell model for a viscoelastic fluid. Properties of such fluids
+
+• Suspensions of orientable particles, Jefferys model, very brief introduction to active suspensions and liquid crystals
+
+!!__Dynamic theory of nematic [[Liquid crystals]]__
+
+Classical models for <b>nematodynamics</b>, dynamics of nematic liquid crystals:
+
+*''Ericksen-Leslie Theory'', in terms of the director field $$\mathbf{n}$$
+*''Beris-Edwards model'', in terms of the full tensorial order parameter $$\mathbf{Q}$$, thus the model is more detailed.
+
+,,Doi theory?,,
+
+
+See also [[Soft matter physics notes|https://www.dropbox.com/s/mw2fc6b6b2rdfm6/Soft%20matter%20physics.pdf?dl=0]]
+
+See Beris A.N. and Edwards B.J., Thermodynamics of Flowing Systems (Oxford University Press) 1994., and I think Doi also has a book on this. See also [[here|http://www.springer.com/cda/content/document/cda_downloaddocument/9783319008578-c2.pdf?SGWID=0-0-45-1418012-p175260985]], and [[here|http://arxiv.org/pdf/1312.5988v2.pdf]].
+
+__''Beris-Edwards equations''__
+
+Contiuum equations of motion of nematic [[Liquid crystals]], in terms of the tensorial order parameter $$\mathbf{Q}$$. 
+
+See [[The Hydrodynamics of Active Systems|https://arxiv.org/abs/1603.00194]].
+
+!!__Suspension dynamics__
+
+[[A physical introduction to suspension dynamics - Guazzelli, Morris|file:///home/guillefix/Dropbox/COSMOS/Physics/Fluid%20mechanics%20and%20thermodynamics/Fluid%20mechanics/%5B%C3%89lisabeth_Guazzelli,_Jeffrey_F._Morris,_Sylvie_P(BookZZ.org).pdf]]
+
+Fluid dynamics of fluid with suspended particles.
+
+The suspended particles will (after a short transient) follow the fluid in its translation, and rotation. However, they can't follow it in its strain deformation. Therefore the strain component of the externally imposed flow finds resistance in the suspended particles (spheres for example), and this resistance means the particles disturb the flow. Because the flow determines the stress tensor, they will affect the stress tensor. In particular, the way the suspended sphere will affect the stress tensor is encoded in the ''stresslet''.
+
+Einstein derived the ''Einstein viscosity'' through dissipation arguments. Part of these is also found in the book. Note that the dissipation is basically the integral of the stress times the strain rate $$\mathbf{\sigma}:\mathbf{e}$$, and is derived in Chapter 1. 
+
+<mark>There are steps in the derivation, that I don't yet quite follow</mark>

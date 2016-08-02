@@ -1,0 +1,23 @@
+created: 20160704223239242
+creator: guillefix
+modified: 20160707185851394
+modifier: guillefix
+tags: Entropy [[Dynamical system]]
+title: Kolmogorov-Sinai entropy
+
+//also called metric or measure-theoretical entropy//
+
+[[Kolmogorov-Sinai entropy|http://www.scholarpedia.org/article/Kolmogorov-Sinai_entropy]]
+
+See the related [[Topological entropy]]
+
+For a [[Measure-theoretical dynamical system]], the metric entropy of the system with respect to a partition $$\alpha$$ is defined to be the [[Entropy rate]] of the [[stochastic process|Stochastic processes]] resulting from the partition.
+
+The metric entropy (aka (Kolmogorov–Sinai or measure-theoretical) is then the supremum of {the metric entropy with respect to $$\alpha$$} over all finite partitions $$\alpha$$.
+
+Metric entropy provides
+the maximum average information per unit of time obtainable per unit of time, from the dynamical system.
+
+See Amigo's book for details. He also gives a good example with the tent map.
+
+Note his notation $$\vee$$ refers to the [[join|https://www.wikiwand.com/en/Join_and_meet]] of two sigma-algebras. See [[here|https://www.wikiwand.com/en/Join_(sigma_algebra)]]

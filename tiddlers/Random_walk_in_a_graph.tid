@@ -1,0 +1,51 @@
+created: 20160127134626130
+creator: guillefix
+modified: 20160210230137714
+modifier: guillefix
+title: Random walk in a graph
+
+A ''random walk'' is a path across a network created by taking repeated random steps. They are usually allowed to traverse edges more than once, and visit vertices more than once. If note it is a //self-avoiding random walk//.
+
+We consider a random walk where at each vertex one will take a step (i.e. walker does not stay in vertex) along each of the edges connected to it, with uniform probability, i.e. with probability $$\frac{1}{k_i}$$, where $$k_i$$ is the [[degree|Degree of a vertex (Graph theory)]]. Thus, on an undirected network we have:
+
+$$p_i(t)=\sum\frac{A_{ij}}{k_j}p_j(t-1)$$
+
+or $$\mathbf{p}(t)=\mathbf{A}\mathbf{D}^{-1}\mathbf{p}(t-1)$$
+
+Where $$p_i(t)$$ is the probability that the walker is at vertex $$i$$ at (discrete) time $$t$$, and where $$\mathbf{D}=diag(k_1,...,k_n)$$. One can also write this relation in terms of the //reduced adjacency matrix//, $$\mathbf{D}^{-1/2}\mathbf{A}\mathbf{D}^{-1/2}$$, and that can be useful sometimes.
+
+We are interested in the limit as $$t \rightarrow \infty$$ where we expect the probability to approach a steady state $$\mathbf{p}(\infty) \equiv \mathbf{p}$$:
+
+$$\mathbf{p}=\mathbf{A}\mathbf{D}^{-1}\mathbf{p}$$, which can be rewritten as $$\mathbf{L}\mathbf{D}^{-1}\mathbf{p}=0$$, so $$\mathbf{D}^{-1}\mathbf{p}$$ is an eigenvector of the [[Graph laplacian]] ($$\mathbf{L}$$) with eigenvalue $$0$$, but we known (see [[Graph laplacian]]) that in a connected network only the vector $$\mathbf{1}=(1,1,1,...)$$ has eigenvalue $$0$$. Therefore $$p \propto k_i$$, so normalizing $$p = \frac{k_i}{\sum_i k_i}=\frac{k_i}{2m}$$ (see [[Degree of a vertex (Graph theory)]])
+
+With a random walk, an interesting question is that of the __mean first passage time__, or the mean number of steps before reaching a certain node, when starting from a given node. To find this we consider an //absorbing random walk//, where a walk that arrives at a certain set of vertices (we will consider just one, call it $$v$$) will stay there.
+
+We can then consider the probability $$p_v(t)$$ of being at vertex $$v$$ at time $$t$$. This is the same as the probability that the first passage time is equal to or less than $$t$$, and thus the probability that it is exactly $$t$$ is $$p_v(t)-p_v(t-1)$$, and the mean first passage time is:
+
+$$\tau =\sum_t^\infty t[p_v(t)-p_v(t-1)]$$
+
+Note that we can't rearrange terms in this sum, because it is not absolutely convergent!
+
+Following the manipulations shown in Newman's book (section 6.14), we get to:
+
+$$\tau = \mathbf{1} \cdot \mathbf{D'}\mathbf{L'}^{-1} \cdot \mathbf{p'}(0)$$
+
+where the prime $$'$$ indicates that the $$v$$th element, or the $$v$$th row and columns have been removed. In particular $$\mathbf{L'}$$ is called the //$$v$$th reduced Laplacian//. This can be re-expressed a bit further, following Newman's book, for computational convenience.
+
+__Resistor networks__
+
+Kirkoff's current law can be written as:
+
+$$\sum_j A_{ij} \frac{V_j-V_i}{R} +I_i=0$$
+
+where $$I_i$$ is an external current applied at some node in the network. This can be written in terms of the [[Graph laplacian]] as:
+
+$$\mathbf{L}\mathbf{V}=R\mathbf{I}$$      $$\quad$$ ($$\dagger$$)
+
+where $$\mathbf{V}$$ is the vector of voltages. $$\mathbf{L}$$ is not invertible, but this cooresponds to the arbitrariness in the value of voltages $$V_i$$, which can be all shifted up and down and still satisfy the equation. This is equivalent to adding a multiple of the $$\mathbf{1}$$ vector, which we know to have a $$0$$ eigenvalue of the [[Graph laplacian]]. However, if we fix the voltage at some node (to be $$0$$ say), then we can remove the corresponding columns and rows from the equation ($$\dagger$$), and the $$0$$ eigenvalue is removed, and the reduced Laplacian is now invertible, so we can get the voltages, and thus the currents!
+
+!!!__Some applications__
+
+Random walk sampling method for social networks
+
+Random walk betweenness measure.

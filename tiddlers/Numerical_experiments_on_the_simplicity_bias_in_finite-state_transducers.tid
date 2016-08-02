@@ -1,0 +1,26 @@
+created: 20160629161247838
+creator: guillefix
+modified: 20160711225919682
+modifier: guillefix
+title: Numerical experiments on the simplicity bias in finite-state transducers
+
+[img[http://i.imgur.com/RX7iOuq.png]]
+Note this is calculated with zlib complexity..
+
+[img width=400 [complexity_transducers.png]]
+
+,,Average bias over 100 samples: 0.74. 74% of the outputs states have most of the inputs.,,
+
+----------------------------
+
+!!See code [[here|https://github.com/guillefix/fst-bias]]
+
+------------------------------------------
+
+I also have got the code working. Due to the way the libraries I'm using works, it has to be done in 5 steps: generating the fst files, converting them, running the fsts on random inputs, counting number of inputs per output, computing complexities of outputs.
+I'm going to write a bash script that calls these in the right order. I'm also using the (modified) Lempel-Ziv complexity measure that you use, that Chico gave me.
+At the moment, the random generation of fsts is done in python. I think this is fine, as the bulk of the computation is the "running" and complexity steps, which are c++. However, I found a C++ library that can randomly generate automata (http://regal.univ-mlv.fr/); I haven't yet managed to make it work, but if we do, it's maybe better to use that one.
+
+From preliminary runs, I have indeed found the c++ to be much faster, so that I could rather quickly run 10^6 input strings on 50 random 5-states transducers. Of those 11-13 showed clear simplicity bias, the rest showing much smaller bias. This was actually using some python code that is now c++, and should now work even better.
+
+Other statistics and complexity measures that we were talking about are yet to be implemented.

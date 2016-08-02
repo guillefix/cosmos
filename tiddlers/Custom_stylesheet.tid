@@ -1,0 +1,70 @@
+created: 20160117153324960
+creator: guillefix
+modified: 20160120192359485
+modifier: guillefix
+tags: $:/tags/Stylesheet
+title: Custom stylesheet
+
+ <!-- <script>
+  $(function() {
+    $( "#slider" ).slider();
+  });
+  </script>
+
+ 
+<div id="slider"></div>-->
+
+<pre>
+html button {
+	background: #222;
+	border-color: #222;
+}
+
+html select {
+  background: #222;
+}
+
+/*
+.subtitle-dark {
+  color: #777;
+}
+*/
+
+html .tc-page-container-wrapper {
+min-height: 100%;
+background: rgba(0, 0, 0, 0.53);
+}
+
+.tc-page-container-wrapper > div {
+min-height: 100vh;
+}
+
+code {
+color: #DBA2B0;
+}
+
+html .tc-tag-label {
+background-color: rgba(227, 230, 101, 0.6);
+}
+
+.img-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+strong {
+color: #A5F7DA;
+}
+
+</pre>
+
+[[Color picker|https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool]]
+
+''Opacity of background''
+
+<input id="opacityInput" type="range">
+<br>
+<span>Opacity: </span><span id="opacityDisplay">50</span>
+
+ <iframe style="display:none;" srcdoc='<script>var a = window.parent.document.getElementById("opacityDisplay"), b = window.parent.document.getElementById("opacityInput"), c=window.parent.document.getElementsByClassName("tc-page-container-wrapper")[0];b.addEventListener("input", function() {a.parentElement.removeChild(a);a =document.createElement("span"); a.innerHTML = b.value; b.parentElement.appendChild(a); console.log(a.innerHtml);c.style.background = "rgba(0, 0, 0, "+(b.valueAsNumber/100).toString()+")";});</script>'></iframe> 

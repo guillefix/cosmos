@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.12" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>Finite-state machine: Cosmos — a non-linear personal web notebook</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   "><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible" title="More actions">
+
+
+</button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible" title="Edit this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible" title="Close this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Finite-state machine
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="guillefix.html">
+guillefix
+</a> 15th July 2016 at 9:30pm
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"></div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Automata%2520theory.html">Automata theory</a></p><p>Finite number of states, transitions between them are followed according to sequentially read (a.k.a. on-line) input string.</p><p>Formally, a finite automaton on an alphabet <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.68333em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit">A</span></span></span></span></span> is a tuple <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>Q</mi><mo separator="true">,</mo><mi>I</mi><mo separator="true">,</mo><mi>F</mi><mo separator="true">,</mo><mi>E</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(Q,I,F,E)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base textstyle uncramped"><span class="mopen">(</span><span class="mord mathit">Q</span><span class="mpunct">,</span><span class="mord mathit" style="margin-right:0.07847em;">I</span><span class="mpunct">,</span><span class="mord mathit" style="margin-right:0.13889em;">F</span><span class="mpunct">,</span><span class="mord mathit" style="margin-right:0.05764em;">E</span><span class="mclose">)</span></span></span></span></span>, where <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>Q</mi></mrow><annotation encoding="application/x-tex">Q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord mathit">Q</span></span></span></span></span> is the set of states, the subsets of <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>Q</mi></mrow><annotation encoding="application/x-tex">Q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord mathit">Q</span></span></span></span></span>, <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>I</mi></mrow><annotation encoding="application/x-tex">I</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.68333em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.07847em;">I</span></span></span></span></span> and <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>F</mi></mrow><annotation encoding="application/x-tex">F</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.68333em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.13889em;">F</span></span></span></span></span>, which are the set of input and final states, respectively. <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>E</mi><mo>⊂</mo><mi>Q</mi><mo>×</mo><mi>A</mi><mo>×</mo><mi>Q</mi></mrow><annotation encoding="application/x-tex">E \subset Q \times A \times Q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.05764em;">E</span><span class="mrel">⊂</span><span class="mord mathit">Q</span><span class="mbin">×</span><span class="mord mathit">A</span><span class="mbin">×</span><span class="mord mathit">Q</span></span></span></span></span> is the set of edges between states, labelled by a letter in the alphabet. The transition encoded by the edge is performed, when the automaton <em>reads</em> the letter, while being at the first state in the transition.</p><h2 class=""><a class="tc-tiddlylink tc-tiddlylink-resolves" href="Deterministic%2520finite%2520automaton.html">Deterministic finite automaton</a></h2><p><strong><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=jb_H7SGOyyI&amp;index=2&amp;list=PL601FC994BDD963E4#t=4m24.7s" rel="noopener noreferrer" target="_blank">Deterministic machine</a></strong>
+<a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=ceNNyyELhu4&amp;list=PL601FC994BDD963E4&amp;index=6" rel="noopener noreferrer" target="_blank">Reversing deterministic machines</a> </p><h2 class="">Non-deterministic finite automaton</h2><p><strong><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=lk3LHnM8SxA&amp;list=PL601FC994BDD963E4&amp;index=8" rel="noopener noreferrer" target="_blank">Non-determinstic finite state machines</a></strong> can have more than one transition that may be done when reading a certain input symbol on a state. They may also have epsilon transitions which can be done without reading a symbol. A string is accepted if there is <em>at least one</em> path through the machine that ends in an accepting state</p><p>Determinsitic equivalent in power to non-determinstic. But non-deterministic sometimes much easier to think with.</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=pYoELTvm8Hg&amp;index=9&amp;list=PL601FC994BDD963E4&amp;spfreload=1#t=4m30s" rel="noopener noreferrer" target="_blank">Convert non-determinsitic machine to deterministic machine</a></p><p>Equivalence between non-deterministic and deterministic machines is the key in proving that regular sets are closed under reversal. </p><p>To construct a FSM that accepts the complement of a regular set, just swap accepting and non-accepting states.</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=24jxBQovUvo&amp;index=16&amp;list=PL601FC994BDD963E4#t=4m43s" rel="noopener noreferrer" target="_blank">Closure under union</a> <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=24jxBQovUvo&amp;index=16&amp;list=PL601FC994BDD963E4#t=5m56s" rel="noopener noreferrer" target="_blank">key point</a></p><p><a class="tc-tiddlylink-external" href="http://www.youtube.com/watch?v=cOyFWkphA04&amp;index=17&amp;list=PL601FC994BDD963E4#t=3m04s" rel="noopener noreferrer" target="_blank">Closure under intersection</a></p><p><a class="tc-tiddlylink-external" href="http://www.youtube.com/watch?v=lP3Lxsf-MNc&amp;list=PL601FC994BDD963E4&amp;index=17#t=5m33s" rel="noopener noreferrer" target="_blank">Why are regular sets called regular?</a> he uses a nice heuristic explanation of the <a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Pumping_lemma_for_regular_languages" rel="noopener noreferrer" target="_blank">pumping lemma</a></p><h3 class="">See also <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Finite-state%2520transducer.html">Finite-state transducer</a></h3><hr><p>Build an fst on the web: <a class="tc-tiddlylink-external" href="http://madebyevan.com/fsm/" rel="noopener noreferrer" target="_blank">http://madebyevan.com/fsm/</a> </p></div>
+
+
+
+</div>
+
+</p>
+
+</section>
+</body>
+</html>

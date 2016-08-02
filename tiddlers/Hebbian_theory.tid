@@ -1,0 +1,23 @@
+created: 20160623233746308
+creator: guillefix
+modified: 20160623234005389
+modifier: guillefix
+title: Hebbian theory
+
+//"Cells that fire together, wire together."// ,,However, this summary should not be taken literally. Hebb emphasized that cell A needs to "take part in firing" cell B, and such causality can only occur if cell A fires just before, not at the same time as, cell B.,,
+
+https://en.wikipedia.org/wiki/Hebbian_theory in [[Neuroscience]]
+
+Hebb's rule, Hebb's postulate, and cell assembly theory. Hebb states it as follows:
+
+<<<
+
+Let us assume that the persistence or repetition of a reverberatory activity (or "trace") tends to induce lasting cellular changes that add to its stability.… When an axon of cell A is near enough to excite a cell B and repeatedly or persistently takes part in firing it, some growth process or metabolic change takes place in one or both cells such that A's efficiency, as one of the cells firing B, is increased. 
+
+<<<
+
+A fires just before, not at the same time as, cell B. This important aspect of causation in Hebb's work foreshadowed what is now known about spike-timing-dependent plasticity, which requires temporal precedence.[3] The theory attempts to explain associative or Hebbian learning, in which simultaneous activation of cells leads to pronounced increases in synaptic strength between those cells, and provides a biological basis for errorless learning methods for education and memory rehabilitation. In the study of neural networks in cognitive function, it is often regarded as the neuronal basis of unsupervised learning.
+
+[[Cell Assembly Signatures Defined by Short-Term Synaptic Plasticity in Cortical Networks|http://www.worldscientific.com/doi/10.1142/S0129065715500264]]
+
+The cell assembly (CA) hypothesis has been used as a conceptual framework to explain how groups of neurons form memories. CAs are defined as neuronal pools with synchronous, recurrent and sequential activity patterns

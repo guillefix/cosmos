@@ -1,0 +1,93 @@
+created: 20160328182624640
+creator: guillefix
+modified: 20160709025510133
+modifier: guillefix
+tags: [[Machine learning]]
+title: Deep learning
+
+Deep learning [[Machine learning]] in a modular way using ''layers'', like in [[Torch|Torch (Deep learning framework)]]. [[Artificial neural network]]s, with many layers..
+
+[[Two+ Minute Papers - How Does Deep Learning Work?|https://www.youtube.com/watch?v=He4t7Zekob0&index=5&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2]]
+-- 
+[[The computer that mastered Go|https://www.youtube.com/watch?v=g-dKXOlsf98]]
+
+[[Oxford course (with video)|https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/]] on lecture 12
+
+The idea is also that layers are //recursive//, i.e. layers can be made up of layers.
+
+!![[New advances in deep learning]]
+
+Dropout. [[usefulness of dropout|https://www.youtube.com/watch?v=NUKp0c4xb8w&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=9#t=50m20s]]
+
+------------------
+
+!!Features of deep learning
+
+[[Artificial neural network]]s with many layers.
+
+__[[Layers for deep learning]]__
+
+----------------
+
+!!Deep learning methods
+
+!!!__Neural networks for spatially structured data__
+
+[[Convolutional neural network]]
+
+[[Multi-scale networks|Deep multi-scale video prediction beyond mean square error|http://arxiv.org/abs/1511.05440]] and [[an application|http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf]].
+
+[[Scene Parsing with Multiscale Feature Learning, Purity Trees, and Optimal Covers|http://arxiv.org/abs/1202.2160]]
+
+http://www.clement.farabet.net/research.html#parsing
+
+[[Computer vision]]
+
+!!!__[[Multi-instance learning]]__
+
+good for generalizing models, ''transfer learning'', ''multi-task learning''. Good when don't have much supervision data.
+
+!!!__[[Neural networks with memory]]__
+
+''Memory'' is good for recognizing time sequence data. See [[Long short-term memory]].
+
+------------------
+
+[[Deep art]]
+
+-----------
+
+!!Deep learning theory
+
+[[Learning theory]]
+
+[[Integrating symbols into deep learning]]
+
+<mark>[[Why Deep Learning Works II: the Renormalization Group|https://charlesmartin14.wordpress.com/2015/04/01/why-deep-learning-works-ii-the-renormalization-group/]]</mark>
+
+<mark>[[WHY DOES UNSUPERVISED DEEPLEARNING WORK?- A PERSPECTIVE FROM GROUP THEORY|http://arxiv.org/pdf/1412.6621v3.pdf]]</mark>
+
+--------
+
+__[[Hardware for deep learning]]__
+
+__[[Software for deep learning]]__
+
+---------
+
+__[[People in deep learning]]__
+
+
+[[History of deep learning]]
+
+-----------
+
+__Books and reources__
+
+[[Deep learning in neural networks: An overview|http://www.sciencedirect.com/science/article/pii/S0893608014002135]]
+
+https://deepmind.com/publications.html
+
+http://www.deeplearningbook.org/
+
+--------------

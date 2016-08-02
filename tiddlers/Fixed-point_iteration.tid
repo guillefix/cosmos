@@ -1,0 +1,33 @@
+created: 20160427183704823
+creator: guillefix
+modified: 20160427192622953
+modifier: guillefix
+title: Fixed-point iteration
+
+faster if expansion sequence is unknown (i.e. we don't know it it's a power series or a log series for instance); slower, if the expansion sequence is known.
+
+For example to find roots of an equation we need to express it as:
+
+$$x^* = g(x^*; \epsilon)$$
+
+where $$x^*$$ is the solution we're looking for. Then starting from a guess $$x_0$$ (which if possible should be chosen to be the solution for $$\epsilon =0$$, so that the solution is right to order 1 at least.), then we iterate:
+
+$$x_{n+1} = g(x_n; \epsilon)$$
+
+and the iterations should get better if $$|g'(x^*; \epsilon)| <1$$ (prime = derivative), and $$x_0$$ is suitably chosen. However, to get asymptotic expansion we actually require $$g'(x^*; \epsilon) \rightarrow 0$$ as $$\epsilon \rightarrow 0$$. In particular, if $$g'(x^*; \epsilon) = o(\epsilon)$$, one gets one term in a power-series expansion, per iteration, as can be seen from argument in notes, where we see that the difference between true answer and answer gets multiplied by $$g'(x^*; \epsilon)$$ at every iteration. If we don't know the order of $$g'(x^*; \epsilon)$$, the way to check if the iteration is right up to some order is to try one more iteration and seeing if the term changes (Though I don't think that's definite proof).
+
+The usual procedure is to place the dominant term of the equation on the $$x_{n+1}$$ side (i.e., the side that will give the new value), so that it can be calculated as a function of the terms on the $$x_n$$ side (i.e., the previously-obtained value). As we will see later, the identity of the dominant term can be adjusted by scaling. I think we place the dominant term of the equation on the $$x_{n+1}$$ side because that ensures we choose that term to be right to first order in the 0th iteration, and so the equation is right to first order. In the simple example of $$x = \pm \sqrt{1-\epsilon x}$$, which comes from $$x^2+\epsilon x -1 =0$$, we selected the $$x^2$$ term, if we had selected the $$\epsilon x$$, we would have to divide by $$\epsilon$$ and the $$\epsilon =0$$ case would not be well defined, indicating that we want to get the dominant term right in the equation. Another way to look at it, is __dominant balance__, by putting the dominant term on the LHS, the  $$x^* = g(x^*; \epsilon)$$ approximately expresses dominant balance!
+
+<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> For the iterative method, different functions $$g$$ may be needed to find different perturbed roots of an algebraic equation, so that condition $$g'(x^*; \epsilon) \rightarrow 0$$ as $$\epsilon \rightarrow 0$$ is satisfied.
+
+The proof that this method works is based on a [[Fixed-point theorem|https://en.wikipedia.org/wiki/Fixed-point_theorem]], in particular on the [[contraction mapping theorem|https://en.wikipedia.org/wiki/Banach_fixed-point_theorem]], also used proof [[Fractal]]s are well defined.
+
+See more at [[Fixed-point iteration|https://en.wikipedia.org/wiki/Fixed-point_iteration]]
+
+[img[http://www.mathsnetalevel.com/images/fixedpointiteration.gif]]
+
+[img[https://metodepuntofijo.files.wordpress.com/2010/03/dibujo3.jpg]]
+
+If |gradient|<1, iteration doesn't converge:
+
+[img[http://wwwf.imperial.ac.uk/metric/metric_public/numerical_methods/iteration/fixed_point_iteration_im3.png]]

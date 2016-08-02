@@ -1,0 +1,9 @@
+created: 20160701124105842
+creator: guillefix
+modified: 20160701124209385
+modifier: guillefix
+title: Source coding theorem
+
+The average length of a [[code|Coding theory]] is bounded below by the entropy of the random variable that models your data.
+
+See [[Data compression]]

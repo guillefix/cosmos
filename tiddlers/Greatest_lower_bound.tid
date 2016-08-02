@@ -1,0 +1,9 @@
+created: 20160713232634054
+creator: guillefix
+modified: 20160713233057164
+modifier: guillefix
+title: Greatest lower bound
+
+Natural extension of the [[meet|Meet operation]] of two elements to an arbitrary [[Set]] of elements of a [[poset|Partially ordered set]]
+
+Interpreting the [[Partial ordering]] as "less than or equal", it can be understood as the greatest point that is less than or equal to all the points in the set.

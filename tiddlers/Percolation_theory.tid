@@ -1,0 +1,54 @@
+created: 20160610235826699
+creator: guillefix
+modified: 20160612000431227
+modifier: guillefix
+title: Percolation theory
+
+The [[mathematical|Mathematics]] theory of [[Percolation]].
+
+!!!__Basic concepts__
+
+//Cluster//: a connected component of the occupied subgraph (the graph obtained after removing edges in the percolation process).
+
+Probability that there exists an infinite cluster.
+
+__Probability that there exists a //giant cluster//__ ,,(or giant component, or giant connected component (GCC)),,, defined as a cluster with size (number of nodes) or [[order|Order notation]] $$O(N)$$, as $$N \rightarrow \infty$$ ($$N$$ is the size of the whole network).
+
+A related, but different quantity is the __probability that a node belongs to a giant cluster__, $$P_\infty$$. Often it's easier to work with $$u$$, the probability that a node is //not// connected to the GCC.
+
+Another property of interesting is the __[[Distribution of sizes for the small clusters in percolation models]]__. A related quantity is the the mean cluster size.
+
+The __two-point correlation function__, $$g_c (r)$$ is defined as the probability that if one point is in a finite cluster then another point a distance $$r$$ away is in the same cluster. This function typically has an exponential decay $$g_c (r) \sim e^{-r/\xi}$$, $$r \rightarrow \infty$$. $$\xi$$ is then the __correlation length__, or connectedness length. Note that the correlation length can also be defined in some other ways that measure the characteristic size of clusters, in particular one can use the radius of gyration to define it.
+
+See [[here|http://physik.uni-graz.at/~cbl/CP1/contents/Texts/sec_3.pdf]]
+
+!!!__[[Percolation on hypercubic lattices]]__
+
+!!!__[[Percolation on Bethe lattices]]__
+
+A model which is particularly tractable analytically.
+
+!!!__[[Percolation on random graphs and networks]]__
+
+!!!__[[Percolation threshold]]s__
+
+There are some exact results for some models, in 2D for the square, triangular, honeycomb and related lattices, but not for many others, like site percolation on the square and honeycomb lattices, and bond percolation on the kagomé lattice.
+
+!!!__[[Continuity of percolation phase transition]]__
+
+
+
+!!!__[[Continuum limit of percolation models]]__
+
+The continuum limit, at the critical point, it is often a [[Conformal field theory]], as percolation models at the critical point are found to have conformal symmetry.
+
+A relatively new method to describe the continuum limit of the critical lattice models is [[Schramm–Loewner evolution]]
+
+!!!__[[Relations between percolation models and Potts models]]__
+
+
+!!!__Infinite clusters__
+
+There are some results on the number of possible infinite clusters which can coexist
+
+[img[http://i.imgur.com/tWnpYRF.png]]

@@ -1,0 +1,26 @@
+created: 20160426170942691
+creator: guillefix
+modified: 20160627204544543
+modifier: guillefix
+title: Sloppy systems
+
+//Sloppy// is the term used to describe a class of complex models exhibiting large parameter uncertainty when fit to data.
+
+the [[Fisher information matrix]] (FIM) can be used to estimate the uncer- tainty in each parameter in our model.
+
+----------------
+
+[[Sloppy Models|http://www.lassp.cornell.edu/sethna/Sloppy/]]
+
+"Many models in biology, engineering and physics have a __very large number of parameters__. Often many of these are only known approximately. Moreover, in John von Neuman's famous quip \with four parameters I can fit an elephant, and with five I can make him wiggle his trunk." suggests that only __a small set of these parameters are actually relevant__? Could there be a fundamental theory of these [[Complex systems]] that allows us to work out what the key parameters are?"
+
+[[Perspective: Sloppiness and emergent theories in physics, biology, and beyond|http://www.physics.byu.edu/faculty/transtrum/pubPDF/JChemPhys143.010901.pdf]]
+[[publication|http://scitation.aip.org/content/aip/journal/jcp/143/1/10.1063/1.4923066]]
+
+[[Parameter Space Compression Underlies Emergent Theories and Predictive Models|http://science.sciencemag.org/content/342/6158/604]]
+
+[[Universally Sloppy Parameter Sensitivities in Systems Biology Models|http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030189]]
+
+[[Sloppy-model universality class and the Vandermonde matrix|http://www.lassp.cornell.edu/sethna/pubPDF/Vandermonde.pdf]]
+
+!!!<mark>[[James Sethna: Sloppy models and how science works (video)|https://www.youtube.com/watch?v=MEmrcYBVSJA]]</mark>

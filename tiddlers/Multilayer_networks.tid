@@ -1,0 +1,24 @@
+created: 20160527160444424
+creator: guillefix
+modified: 20160527161337975
+modifier: guillefix
+tags: 
+title: Multilayer networks
+
+Review paper: https://arxiv.org/abs/1309.7233
+
+When a set of entities interact with each other in complicated patterns that can encompass multiple types of relationships, change in time, and include other types of complications. Such systems include multiple subsystems and layers of connectivity.
+
+[[The structure and dynamics of multilayer networks|https://arxiv.org/abs/1407.0742]]
+
+__Some types__
+
+See paper for details:
+
+* [[Multiplex networks]]
+
+* [[Interdependent networks]]
+
+* Networks of networks
+
+[[Multilayer Networks Library for Python (Pymnet)|http://people.maths.ox.ac.uk/kivela/mln_library/]]

@@ -1,0 +1,15 @@
+created: 20160625130504322
+creator: guillefix
+modified: 20160625132406634
+modifier: guillefix
+title: Fisher information matrix
+
+The ''Fisher information matrix'' (FIM) is the Hessian of the $$\log$$ [[Likelihood function]].
+
+If one [[Taylor expands|Taylor series]] the log-likelihood around a maximum, and keeps only terms up to second-order, we are approximating the peak by a Gaussian peak, and this is what is done to find the FIM
+
+[[Intro to Fisher Matrices|https://www.youtube.com/watch?v=m62I5_ow3O8]]
+
+The [[Covariance matrix]] is the inverse of the Fisher matrix.
+
+$$\chi^2$$ can be calculated as $$\chi^2 = \delta F \delta^T$$, where $$F$$ is the FIM, and $$\delta$$ is a small step in parameter space from the maximum of the likelihood.

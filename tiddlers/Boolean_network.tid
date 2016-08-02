@@ -1,0 +1,40 @@
+created: 20160419204301650
+creator: guillefix
+modified: 20160623233454194
+modifier: guillefix
+title: Boolean network
+
+See [[Dynamical system]] and [[Network theory]]
+
+https://en.wikipedia.org/wiki/Boolean_network
+
+!!!BN simulator on the web! http://rumo.biologie.hu-berlin.de/boolesim/
+[[paper|http://bioinformatics.oxfordjournals.org/content/early/2013/09/28/bioinformatics.btt568.full.pdf]]
+
+!!__[[Dynamics of Boolean networks]]__
+
+
+!!__Statistical mechanics of Boolean networks__
+
+[[Random Boolean network]]
+
+[[Phase Transitions  in  Two-Dimensional Kauffman Cellular Automata|http://www.lps.ens.fr/~derrida/PAPIERS/1986/stauffer-epl-86.pdf]]
+
+[[Phase transition in cellular random Boolean nets |https://hal.inria.fr/file/index/docid/210412/filename/ajp-jphys_1987_48_1_11_0.pdf]]
+
+[[Kauffman's NK Boolean networks|http://pespmc1.vub.ac.be/BOOLNETW.html]]. "Because the regulatory structures at the edge of chaos (K ~ 2) ensure both stability [robustness] and evolutionary improvements [evolvability], they could provide the background conditions for an evolution of genetic cybernetic systems."
+
+See [[Relations between the stability of Boolean networks and percolation|file:///home/guillefix/Dropbox/Oxford/MMathPhys/Complex%20systems/miniproject/relations-stability-boolean(3).pdf]]
+
+------------
+
+[[Boolean Network Robotics as an Intermediate Step in the Synthesis of Finite State Machines for Robot Control|https://mitpress.mit.edu/sites/default/files/titles/content/ecal13/978-0-262-31709-2-ch112.pdf]]
+
+[[Random Networks of Automata: A Simple Annealed Approximation|http://iopscience.iop.org/article/10.1209/0295-5075/1/2/001/meta;jsessionid=EBA1AC96EEA63C2A2B773B11D4DF7732.c3.iopscience.cld.iop.org]]
+
+
+[[Stability in Boolean networks and cellular automata|https://www.youtube.com/watch?v=2owceYMM9rw]]
+
+[[Boolean network models of gene regulation and signal transduction|https://www.youtube.com/watch?v=vA9D727AGHI]]
+
+See also [[Artificial neural network]]

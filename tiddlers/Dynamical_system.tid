@@ -1,0 +1,49 @@
+created: 20160329132546762
+creator: guillefix
+list-after: Topology
+modified: 20160708153046586
+modifier: guillefix
+tags: Mathematics
+title: Dynamical system
+
+//How things move//
+
+A space (in the mathematical sense, for a continuous space, one often uses a [[Manifold]], or a [[Topological space]]), with a [[Function]] (a.k.a. a map) that describes how a point in the space evolves (in "time").
+
+!!__Types of dynamical systems__
+
+[[Measure-theoretical dynamical system]]
+
+[[Topological dynamical system]]
+
+''[[Continuous dynamical system]]'' are dynamical systems where the space is continuous. It is often represented as a system of 1st order O.D.Es. Linear dynamical systems (O.D.E.s linear) are easy to analyze, and can be analyzed by looking at the eigenvalues of the Jacobian.
+
+[[Discrete dynamical system]] are those where the space is discrete. They are often represented as systems of difference equations (see [[Nonlinear maps]]).
+
+[[Measure-theoretical dynamical system]]
+
+[[Topological dynamical system]]
+
+The richest class of dynamical systems are [[Nonlinear system]]s
+
+A dynamical system, whether continuous or discrete, can be partitioned (''coarse-grained''), so that its dynamics can be studied as [[Symbolic dynamics]]. If the system is a [[Probabilistic dynamical system]], then the coarse-graining gives rise to a [[stochastic process|Stochastic processes]]
+
+!!__Deterministic vs probabilistic dynamics__
+
+Dynamical systems generally describe deterministic processes. Probabilistic processes are described as [[Stochastic processes]]. However, these can sometimes be described as deterministic dynamics of probability distributions, or as a probability measure over a deterministic process (i.e. a [[Probabilistic dynamical system]]).
+
+--------------------------
+
+[[See Wiki page for good intro and different kinds|https://en.wikipedia.org/wiki/Dynamical_system_(definition)#Geometrical_cases]]
+
+!!![[Encyclopedia:Dynamical systems|http://www.scholarpedia.org/article/Encyclopedia:Dynamical_systems]]
+
+Dynamical systems on complex space (particularly [[discrete|Discrete dynamical systems]] ones): [[Complex dynamics]]
+
+[[Nonlinear Dynamics 1: Geometry of Chaos by Predrag Cvitanović (ChaosBook course)|http://chaosbook.org/course1/Syllabus.html]]
+
+https://en.wikipedia.org/wiki/Floquet_theory
+
+[[Turing instability|http://www.math.lsa.umich.edu/~rauch/256/turingexample.pdf]]
+
+-------

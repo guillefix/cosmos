@@ -1,0 +1,46 @@
+created: 20160702120828706
+creator: guillefix
+modified: 20160702182822147
+modifier: guillefix
+title: Physical mechanisms of osmosis
+
+[[Physical|Physics]] mechanisms of [[Osmosis]]
+
+!!__Macroscopic/thermodynamic description__
+
+Based on [[Chemical potential]]s, [[Solution (Chemistry)]]
+
+[[The solution-diffusion model: a review|http://www.sciencedirect.com/science/article/pii/037673889500102I]]
+
+!!__Microscopic mechanism__
+
+[[MECHANISM OF OSMOTIC FLOW IN POROUS MEMBRANES|http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1334591/pdf/biophysj00323-0049.pdf]]
+
+The standard chemical potential explanation still holds as part of the mechanism. See [[here|http://physics.stackexchange.com/questions/212183/physic-explanation-to-osmosis?rq=1]]. The energy comes from the expansion of the solute (which works like an ideal gas), just like in [[quasistatic adiabatic expansion|https://www.physicsforums.com/threads/work-done-in-adiabatic-quasistatic-compression.138448/]].
+
+However, the boundary layer given by a [[Diffusio-osmotic|Diffusio-osmosis]] effect, enhances the checmical potential difference at the pore increasing the osmotic pressure. The extra work done in the process, I think, ultimately comes from the fact that the potential energy near the wall is lowered as the solute concentration decreases during the process.
+
+When membrane is semi-permeable (as in [[Osmosis]] proper), then I think that the main effect would be an excluded volume effect (this appears to be indeed the case, at least for purely semi-impermeable membranes see [[Negative osmosis]]), giving rise to an effective repulsive potential, like that in Nelson's Biological physics book, or those that appear in [[Diffusio-osmosis]], or [[Diffusiophoresis]].
+
+See [[Interfacial forces]]
+
+[[Molecular mechanisms of osmosis|http://ajpregu.physiology.org/content/256/4/R801.short]]
+[[Mechanism of osmosis|http://www.sciencedirect.com/science/article/pii/S0085253815326570]]
+
+[[OSMOSIS: A MACROSCOPIC PHENOMENON, A MICROSCOPIC VIEW|http://advan.physiology.org/content/27/1/15.full.pdf+html]]
+
+[[Osmosis is not driven by water dilution|http://sci-hub.cc/10.1016/j.tplants.2012.12.001]], [[here too|http://phys.org/news/2013-04-osmosis-wrong.html#jCp]]. See Nelson's Biological physics book for more details
+
+The mechanism is based on the wall repelling the solute molecules. See analysis [[here|http://nature.berkeley.edu/osterlab/wp-content/uploads/2015/02/Osmosis.pdf]].
+
+Alternative mechanisms: [[Osmosis, colligative properties, entropy, free energy and the chemical potential|http://arxiv.org/abs/1409.3985]]
+[[Osmosis and thermodynamics explained by solute blocking|http://link.springer.com/article/10.1007/s00249-016-1137-y]]
+[[http://www.circle4.com/biophysics/chapters/BioPhysCh05.pdf]]
+
+[[Brownian motion, hydrodynamics, and the osmotic pressure|http://sci-hub.cc/10.1063/1.464105]]
+
+[[Molecular Understanding of Osmosis in Semipermeable Membranes|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.97.024501]]
+
+See also [[Negative osmosis]] for more resources.
+
+[[Osmotic pressure or decompression?|http://link.springer.com/article/10.1134/S1061933X15050154]]

@@ -1,0 +1,41 @@
+created: 20160629171233090
+creator: guillefix
+modified: 20160715171607382
+modifier: guillefix
+tags: Complexity
+title: Kolmogorov complexity
+
+,,//aka algorithmic complexity, although that term may refer to some generalizations of Kolmogorov complexity too, I think//,,
+
+One of the main kinds of [[Descriptional complexity]], based on the minimum size of a program (interpreted by a [[Turing machine]]) that produces (//describes//) the object.
+
+Kolmogorov complexity is central in [[Algorithmic information theory]].
+
+[[Math 574, Lesson 4-3: Kolmogorov Complexity|https://www.youtube.com/watch?v=S31CbvpZBU4]]
+[[other videos|https://www.youtube.com/watch?v=OHCpECIFNxM]]
+
+This is based on describing the information content of a discrete object such as a binary string $$x$$ in terms of the length of the shortest program that generates $$x$$ on universal Turing machine (UTM). This measure is called the Kolmogorov-Chaitin complexity or simply ''Kolmogorov complexity'' $$K(x)$$ of $$x$$.
+
+AIT differs fundamentally from Shannon information theory because the latter is fundamentally a theory about distributions, whereas the former is a theory about the information content of individual objects. Descriptional complexity also differs simplcitly with the notions of complexity in [[Complex systems]].
+
+[[Lecture notes on descriptional complexity and randomness|http://www.cs.bu.edu/~gacs/papers/ait-notes.pdf]]
+
+--> [[Calculating Kolmogorov Complexity from the Output Frequency Distributions of Small Turing Machines|http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096223]] See [[Coding theorem method]]
+
+__Deficiencies of KC__
+
+[img[http://i.imgur.com/Eyx7L1A.png]]
+
+from [[here|https://cs.uwaterloo.ca/~shallit/Papers/auto5.pdf]]
+
+!!!__Paucity theorems__
+
+Simple strings (paucity) are rare among all possible strings
+
+[[The frequent paucity of trivial strings|http://sci-hub.bz/10.1016/j.ipl.2014.05.006]]
+
+---------------
+
+[[ A Computable Measure of Algorithmic Probability by Finite Approximations|http://arxiv.org/abs/1504.06240]]
+
+See [[MMathPhys oral presentation]]

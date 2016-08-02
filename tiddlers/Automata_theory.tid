@@ -1,0 +1,83 @@
+created: 20160308221556384
+creator: guillefix
+modified: 20160715170748857
+modifier: guillefix
+tags: [[Theoretical computer science]]
+title: Automata theory
+
+Related to [[Theory of computation]]. 
+
+[[Automata theory|https://en.wikipedia.org/wiki/Automata_theory]] is the study of abstract machines or automata, as well as the computational problems that can be solved using them
+
+An ''automaton'' (plural: automata or automatons) is a self-operating machine, or a machine or control mechanism designed to follow automatically a predetermined sequence of operations, or respond to predetermined instructions. Automata include [[finite-state machines|Finite-state machine]] , etc.
+
+!!Finite automaton
+
+!!!__Input affects dynamics__
+
+[[Finite-state machine]]
+
+!!!__Input affects initial state__
+
+[[Discrete dynamical system]] (e.g., networks of automata)
+
+!!!__Output__
+
+[[Finite-state transducer]], a FSM with output from transitions.
+
+[[Symbolic dynamics]], [[Discrete dynamical system]] with output from states visited.
+
+!!Ifinite automaton
+
+Finite-state machine + infinite data structure
+
+* {FSM + Stack} <=> [[Pushdown Automata|https://www.youtube.com/watch?v=Iz9x2UOt0xQ]] <=> Context-free grammar
+* [[Linear bounded automaton|https://en.wikipedia.org/wiki/Linear_bounded_automaton]] <=> Context-sensitive grammars
+* {FSM + 2 Stacks} = {FSM + array} = Turing machine
+
+!!__Networks of automata__
+
+!!!__[[Cellular automata]]__
+
+!!!__[[Graph dynamical system]]__
+
+For instance a [[Boolean network]]
+
+
+----------
+
+See [[Formal language]]
+
+[[Computer - Theory of Automata, Formal Languages and Computation|https://www.youtube.com/playlist?list=PL85CF9F4A047C7BF7]]
+
+--------
+
+[[Krohn–Rhodes theory]]
+
+-----------
+
+[[a new approach to formal language theory by kolmogorov complexity|https://arxiv.org/pdf/cs/0110040.pdf]]
+
+[[http://www.eecs.wsu.edu/~ananth/CptS317/Lectures/IntroToAutomataTheory.pdf]]
+
+[[Automata, Computability, and ComplexityOr, Great Ideas in Theoretical Computer Science Spring, 2010|http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-045j-automata-computability-and-complexity-spring-2011/lecture-notes/MIT6_045JS11_lec05.pdf]]
+
+[[Grail: finite automata and regular expressions|http://www3.cs.stonybrook.edu/~algorith/implement/grail/implement.shtml]]
+
+[[FAdo|https://github.com/Glavin001/FAdo]]
+[[Symbolic Manipulation of Code Properties|http://arxiv.org/pdf/1504.04715.pdf]]
+[[FAdo Documentation|http://www.dcc.fc.up.pt/~rvr/FAdo.pdf]]
+
+http://fado.dcc.fc.up.pt/software/
+
+[[pyfst: OpenFst in Python|http://pyfst.github.io/#]]
+
+Build your own finite transducer: http://examples.mikemccandless.com/fst.py?terms=pepe%2F33%0D%0Amoth%2F1%0D%0Apop%2F2%0D%0Astar%2F3%0D%0Astop%2F4%0D%0Atop%2F5%0D%0A&cmd=Build+it%21
+
+https://www.google.es/search?safe=off&q=Automata+Studies&stick=H4sIAAAAAAAAAONgFuLSz9U3SDYsMcwrVkKwc7R4nPLzs4MzU1LLEyuLAdpMsUQoAAAA&sa=X&ved=0ahUKEwiy8aPe1ZvMAhWMSRoKHVBOA0wQxA0IowEwEQ&biw=1605&bih=965
+
+[[FSM in Sage|http://doc.sagemath.org/html/en/reference/combinat/sage/combinat/finite_state_machine.html#sage.combinat.finite_state_machine.FiniteStateMachine]] 
+
+https://en.wikipedia.org/wiki/Alternating_finite_automaton
+
+[[http://www.cmi.ac.in/~kumar/words/]]

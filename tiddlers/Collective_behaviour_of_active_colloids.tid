@@ -1,0 +1,88 @@
+created: 20160609143341887
+creator: guillefix
+modified: 20160617232216629
+modifier: guillefix
+title: Collective behaviour of active colloids
+
+See [[Active colloid]], [[Self-diffusiophoresis]], [[Self-propelled particle]]. See also [[Collective hydrodynamics of active entities]], [[Self-assembly of active colloids]]
+
+!!!<i class="fa fa-star-o" aria-hidden="true"></i> Recent review: [[Emergent behavior in active colloids|http://iopscience.iop.org/article/10.1088/0953-8984/28/25/253001/meta]]
+
+<span style="color:orange;">Dynamic self-organization of motile components</span> can be
+observed in a wide range of length scales, from bird flocks ([[ref|http://www.annualreviews.org/doi/abs/10.1146/annurev-conmatphys-031113-133834]]) to bacterial colonies ([[ref|http://www.tandfonline.com/doi/abs/10.1080/000187300405228]], [[ref|http://www.pnas.org/content/107/31/13626]]) and assemblies of motor and
+structural proteins ([[ref|http://www.springer.com/gp/book/9783540738442]]). The fascination with these phenomena has naturally inspired researchers to use a physical under-standing of motility to engineer complex emergent behaviors in model systems that promise revolutionary advances in technological applications if combined with other novel biomimetic functions, such as signal processing and decision making (see [[Swarm robotics]]), or replication (see [[Self-replication of information-bearing nanoscale patterns|http://www.nature.com/nature/journal/v478/n7368/full/nature10500.html]]).
+
+Biological components pose inevitable limitations on this task, while chemical [ 14 ], mechanical [ 15 ], or externally actuated [ 16 ] imitations appear more promising
+
+,,[[Individual and collective behavior of artificial swimmers: "Janus particles"|https://www.youtube.com/watch?v=vxW7_-ei8Bw]],,
+
+[[Transport and Collective Dynamics in Suspensions of Confined Swimming Particles|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.95.204501]]
+
+[[Emergent, Collective Oscillations of Self-Mobile Particles and Patterned Surfaces under Redox Conditions|http://pubs.acs.org/doi/abs/10.1021/nn101289p]]
+
+[[Emergent Cometlike Swarming of Optically Driven Thermally Active Colloids|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.112.068302]]
+
+__[[Collective behaviour of thermally active colloids]]__. This model doesn't consider the dependence of the interaction on the relative orientation of the colloids. This effect is incorporated in their later model described in the paper on chemotactic colloids, and on [[optically driven thermally active colloids|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/prl14_colloidalswarm.pdf]]
+
+<i class="fa fa-star-o" aria-hidden="true"></i> [[Clusters, asters, and collective oscillations in chemotactic colloids|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/pre14_chemotaxis.pdf]]
+
+!!--__[[Phoretic mechanisms of self-propelled colloids]]__--
+
+//Behaviour of a single chemotactic colloid in an external substrate concentration gradient//
+
+[[Theory of phoretic mechanisms of self-propelled colloids]]
+
+
+* "''Chemotaxis''"
+
+* ''Polar run-and-tumble''
+
+* ''Apolar run-and-tumble''
+
+* ''[[Phoretic response|Phoretic mechanisms of colloids]]''
+
+!!--__Collective behaviour__--
+
+//FROM CHEMOTAXIS TO COLLECTIVE MOTION//
+
+!!!__Effective interactions of active colloids__
+
+* Chemical gradient interactions. Driven by [[Phoretic mechanisms of self-propelled colloids]] and the gradients (in the concentration of substrate or product) produced by the [[Active colloid]].
+
+* [[Hydrodynamic interaction]]s.
+
+They consider the former in the paper, and look at pairwise interactions.
+
+!!!__Stochastic equations of motion__
+
+Constructing a [[Langevin equation]] using the drift terms derived in [[here|Theory of phoretic mechanisms of self-propelled colloids]], which depend on
+
+[img[http://i.imgur.com/ta9XORD.png]]
+
+,,note product gradient: gradient in product concentration,,. Extra terms were added because the coefficients $$\Phi_0, \alpha_0$$, etc. only take an external $$s$$ gradient into account, and now we also have external $$p$$ gradients produced by the other catalytic colloids.
+
+These equations can also be derived phenomenologically following from symmetry principles (see citations in paper), but one doesn't get expressions for the coefficients.
+
+!!!__Concentration fields__
+
+The substrate and product fields ($$s$$, and $$p$$) are themselves determined by the distribution of colloid positions and orientations. The substrate is consumed and the product is generated at the rate
+
+$$Q(\mathbf{r}, t) = \kappa(s) \sum_\alpha \int _{|\mathbf{X}_\alpha|} \delta (\mathbf{r} - \mathbf{r}_\alpha -\mathbf{X}_\alpha) \sigma(\mathbf{X}_\alpha \cdot \hat{\mathbf{n}})$$
+
+Evolution equation of concentration fields is obtained depending on averaged colloid number density and orientation density. The steady state is the considered, and the Fourier transform is applied to obtain information on the length scale of the interaction, expressed in the //screening length//.
+
+Saturated vs unsaturated regime. <mark> MM curve?</mark> Refers to Michaelis-Menten rule in [[Enzyme kinetics]]. Saturated and unstaturated regimes refer to regimes where $$\kappa(s)$$ (which has the MM form) is saturated vs unsaturated.
+
+!!!__Colloid number density $$\rho$$ and orientation density $$\mathbf{w}$$ (averaged equations)__
+
+These are obtained from the Langevin equations above. For the orientational equations, the averaged equation involves higher moments, and a closure condition needs to be imposed to express them in terms of lower moments (mean field approximation). See Supplementary Material in [[paper|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.89.062315]].
+
+The equations for $$\rho$$ and $$\mathbf{w}$$ depend on the gradients of $$s$$ and $$p$$, while the equilibrium $$s$$ and $$p$$ fields depend on $$\rho$$ and $$\mathbf{w}$$. The two equations can be combined to obtain closed equations for $$s$$ and $$p$$ with complicated <b>effective interactions</b>, which give rise to a rich diversity of possible phases, depending on the several parameters in the model. The main two regimes are:
+
+__Unsaturated__
+
+__Saturated__
+
+Formation of asters (i.e. [[star-like|https://en.wiktionary.org/wiki/Aster]] formations, I think)...
+
+

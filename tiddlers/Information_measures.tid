@@ -1,0 +1,27 @@
+created: 20160703115514213
+creator: guillefix
+modified: 20160715193821936
+modifier: guillefix
+tags: [[Information theory]]
+title: Information measures
+
+* [[Entropy]]  
+
+* [[Joint entropy]]
+
+* [[Conditional entropy]]
+
+* [[Mutual information]] (the difference between the entropy and the conditional entropy. I.e the decrease in uncertainty on a random variable when you learn about another random variable. I.e. the information you gain on a random variable from another RV) Measure of dependence.
+* [[Conditional mutual information]]
+  * ''Relative entropy''. Mututal information is a special case. Defines a measure of "distance" between probabiliy distributions. Applications in estimating hypothesis testing errors and in large deviation theory.
+
+[[Shannon's Information Measures|https://www.youtube.com/watch?v=6RJP5m3m1XA&index=7&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft]]
+
+[img[http://i.imgur.com/lFj7iId.png]]
+[[explanation|https://www.youtube.com/watch?v=6RJP5m3m1XA&index=7&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft#t=16m13s]]
+
+[[Continuity of Shannon's Information Measures |https://www.youtube.com/watch?v=L6S2LO7S-7U&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft&index=8]]
+
+[[Some Useful Information Inequalities|https://www.youtube.com/watch?v=tIt4pJAbCDQ&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft&index=13]]
+
+[[Three approaches to the quantitative definition of information|http://www.tandfonline.com/doi/abs/10.1080/00207166808803030?journalCode=gcom20]]

@@ -1,0 +1,31 @@
+created: 20160129140350573
+creator: guillefix
+modified: 20160130130918247
+modifier: guillefix
+title: Transitivity (Graph theory)
+
+Transitivity|Transitivity (Graph theory) (a property of mathematical relations) in a network is usually applied to the relation "is connected by an edge". So a network is transitive if for every u connected to v and v connected to w, then u is connected to w. It's not hard to show that a perfectly transitive network can only have components that are fully connected, or //cliques//.
+
+To be useful for real networks, we talk about //partial// transitivity, or the //level// of transitivity in a network. A way to quantify this is by measuring the number of paths of length-2 that are //closed// (closed here meaning that there is an edge that connects the beginning and ending vertices) compared to the total number of length-2 paths. This is because three vertices in a path of length-2 (a.k.a connected triple) would form a triangle (also known as //closed triad//) if transitivity holds for them.
+
+One can then define the  ''clustering coefficient'', $$C$$, to be the ratio of these two quantities, as a measure of "how often" transitivity holds in the network:
+
+$$C=\frac{\text{number of closed paths of length 2}}{\text{number of paths of length 2}}=\frac{\text{(number of triangles)} \times 6}{\text{number of paths of length 2}}=\frac{\text{(number of triangles)}\times 3}{\text{number of connected triples}}$$
+
+where the 6 and the 3 come from counting the number of length-2 paths starting at the three different vertices of the triangle, where we count the two different directions (6) or not (3). This factor is cancelled by the fact that by definition there are twice as many length-2 paths as connected triples because connected triples don't take direction into account, while length-2 paths do. This last definition is the most common, and can be interpreted as the number of people with a common friend (connected triple) that are also friends (so that they form a triangle).
+
+Another way to define a clustering coefficient would be to average the ''local clustering coefficient'' over all nodes. This quantity is defined, for node $$i$$ as:
+
+$$C_i=\frac{\text{pairs of neighbours of i that are adjacent to each other}}{\text{number of (pairs of (neighbours of i))}}=\frac{2\tau_i}{k_i(k_i-1)}$$
+
+which is defined when the degree $$k_i\geq 2$$. For smaller degree, we can define $$C_i=0$$. The average over this (over nodes in the network), $$C_{WS}$$, then defines also a global measure of transitivity, and was proposed by Watts and Strogatz. It often tends to be dominated by networks with low degree, as the denominator of $$C_i$$ is large.
+
+Furthermore, one can extend the definition of the clustering coefficient beyond simple transitivity, to include the probability that friends of friends of friends are also your friends, and so on. This is equivalent to consider quadrilaterals, pentagons, and other more general //motifs//. apart from triangles. Triangles are often interesting because they are the smallest loops for undirected simple graphs. However, for directed simple graphs, the smallest ones are length-2 loops, and their frequency gives a measure called ''reciprocity''.
+
+For social networks, typical values are $$C=0.1-0.5$$, which is quite high compared to most non-social networks.
+
+Local clustering coefficients can be used to find //structural holes//. That is places in the network where we would expect a link to exist, due to transitivity, but there isn't one. Structural holes are bad for information flow (or other flows) in a network because they limit the paths it can take. However, they are usually good for the node that has low local clustering coefficient because it means that that node has more control over the flow, as most of its neighbours will have to direct their flow through it. Thus local clustering coefficient is sometimes used as a centrality measure in this sense, where a more central node has a lower $$C_i$$ .
+
+Another way to find structural holes is via the redundancy of a node, $$R_i$$, defined as the mean (that is, average over neighbours of i) number of [[neighbours of i] that a neighbour of i is connected to]. This can be shown to be related to $$C_i$$ by:
+
+$$C_i=\frac{R_i}{k_i-1}$$.

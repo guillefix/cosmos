@@ -1,0 +1,35 @@
+created: 20160117215435351
+creator: guillefix
+modified: 20160610235704345
+modifier: guillefix
+tags: MMathPhys [[Condensed matter physics]]
+title: Soft matter physics
+
+''Soft condensed matter'' (often abbreviated to ''soft matter'') is basically all forms of [[condensed matter|Condensed matter physics]] (i.e. many particles more or less bound together (for e.g., by [[Intermolecular forces]])) that isn't a solid, so that it has features that are easily deformable at low energies (room thermal energies).
+This includes [[polymers|Polymer physics]], [[Liquid crystals]], [[complex fluids|Complex fluid dynamics]], [[Granular material]], [[Foam]]s, [[Emulsion]]s, [[Colloid]]s, and many kinds of mixtures, that form mesoscopic structures. Also a lot of stuff in [[life|Biology]] falls under the "soft" category. I like it precisely because of its richness.
+
+Wiki: https://en.wikipedia.org/wiki/Soft_matter
+
+__Typial features__
+
+*Mesoscopic lengthscales
+*Fluctuations ([[Brownian motion]])
+*[[Self-assembly]]. [[Block-copolymer self-assembly]]
+
+[[Statistical physics]] is important, in particular interplay of energy and entropy, reflected in the free energy.
+
+For systems of many particles, one uses [[Statistical field theory]]. Though one can further simplify by ignoring fluctuations, using a [[Mean field theory]].
+
+__[[Soft materials]]__
+
+{{Soft materials}}
+
+A fruitful way of studying phases, is to study the [[phase transitions|Phase transition]] between them.
+
+Universality, coarse-graining, renormalization group. [[Percolation]]
+
+------------
+
+[[Introduction to soft matter physics - 1 by David Pine|https://www.youtube.com/watch?v=kvDxOhEVvpQ&index=26&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l]]
+
+[[Thomas Speck|https://scholar.google.co.uk/citations?hl=en&user=u2KmUD0AAAAJ&view_op=list_works&sortby=pubdate]]

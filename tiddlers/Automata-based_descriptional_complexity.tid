@@ -1,0 +1,55 @@
+created: 20160629171605406
+creator: guillefix
+modified: 20160715193429013
+modifier: guillefix
+title: Automata-based descriptional complexity
+
+A computable class of [[Descriptional complexity]] measures, based on [[automata|Automata theory]]
+
+!!__Automatic complexity__
+
+[[Automatic complexity of strings|https://cs.uwaterloo.ca/~shallit/Papers/auto5.pdf]] smallest number of states of a DFA (deterministic finite automaton) that acceptsxand does not accept any other string of length |x|. Note that a DFA recognizing the singleton language {x} always needs |x|+1 states, which is the reason the definition considers only strings of length |x|. 
+
+!!__Automaticity__
+
+[[AUTOMATIC SEQUENCES |http://catdir.loc.gov/catdir/samples/cam033/2002041262.pdf]]
+
+[[Automaticity I: Properties of a Measure of Descriptional Complexity|http://www.sciencedirect.com/science/article/pii/S002200009690046X]]
+
+[[Automaticity II|https://math.dartmouth.edu/~carlp/PDF/paper113.pdf]]
+
+is an analogous descriptional complexity measure as Automatic complexity but for languages.
+
+!!__Finite state dimension__
+
+The finite-state dimension is defined in terms of computations of finite transducers on infinite sequences,
+
+[[Entropy rates and finite-state dimension|http://www.sciencedirect.com/science/article/pii/S0304397505005797]]
+
+[[Finite-state dimension and real arithmetic ☆|http://www.sciencedirect.com/science/article/pii/S089054010700065X]]
+
+!!__Finite state complexity__
+
+Newest measure in this area.
+
+Paper: http://www.sciencedirect.com/science/article/pii/S0304397511005408
+
+Finite state complexity defines smallest length of input that will produce result under finite transducer (finite state machine with output basically, which i think can describe the GP maps). Then we can apply Ards argument of how many ways of fitting this shortest string in the fixed-length input of interest (say the genotype). This could be the beginning of the formal theory we need! We probably would also want to develop a concept of algorithmic probability (like Salomonoff's) for finite state machines.
+
+[[Finite-State Complexity and Randomness|https://researchspace.auckland.ac.nz/handle/2292/10527]]
+
+[[Finite-State Complexity and the Size of Transducers|http://arxiv.org/pdf/1008.1667.pdf]]
+
+[[Finite state transducer|https://en.wikipedia.org/wiki/Finite_state_transducer]] [[Finite model theory|https://en.wikipedia.org/wiki/Finite_model_theory]]
+
+--------------
+
+//Others//
+
+!!!__NFA based complexity__
+
+[[Approximating the smallest grammar: Kolmogorov complexity in natural models|http://dl.acm.org/citation.cfm?id=510021]]. ,,However, the model allows the advice strings to be over an arbitrary alphabet with no penalty in terms of complexity and, as observed in [8], consequently the NFAs used for compression can always be assumed to consist of only one state... (so not very good measure).,,
+
+!!!__State complexity__
+
+[[State complexity of regular languages|https://www.semanticscholar.org/paper/State-Complexity-of-Regular-Languages-Yu/2efe616ba8b456177e1a1e19e6558b2d7494a854/pdf]]

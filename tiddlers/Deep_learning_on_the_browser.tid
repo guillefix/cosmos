@@ -1,0 +1,13 @@
+created: 20160709021608728
+creator: guillefix
+modified: 20160709021732959
+modifier: guillefix
+title: Deep learning on the browser
+
+<big><i class="fa fa-smile-o" aria-hidden="true"></i>[[Play with a neural network on your browser - Tensorflow Playground!!|http://playground.tensorflow.org/]]<i class="fa fa-smile-o" aria-hidden="true"></i></big>
+
+[img[http://playground.tensorflow.org/preview.png]]
+
+!!![[ConvNetJS|http://cs.stanford.edu/people/karpathy/convnetjs/]]
+
+[[ConvnetJS demo: toy 2d classification with 2-layer neural network|http://cs.stanford.edu/people/karpathy/convnetjs/demo/classify2d.html]]

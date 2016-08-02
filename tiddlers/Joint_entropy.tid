@@ -1,0 +1,11 @@
+created: 20160703120327871
+creator: guillefix
+modified: 20160703121055087
+modifier: guillefix
+title: Joint entropy
+
+In [[Information theory]], the ''joint entropy'' of a pair of [[Random variable]] $$X$$ and $$Y$$ is defined as:
+
+$$H(X,Y) = \sum_{x,y} p(x,y) \log{p(x,y)}$$
+
+[[Joint entropy|https://www.youtube.com/watch?v=6RJP5m3m1XA&index=7&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft#t=6m20s]]

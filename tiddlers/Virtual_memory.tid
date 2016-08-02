@@ -1,0 +1,9 @@
+created: 20160629232118104
+creator: guillefix
+modified: 20160629232234314
+modifier: guillefix
+title: Virtual memory
+
+A representation of a fraction of physical memory in a computer, which is created by the [[Operating system]] for [[Memory allocation]]
+
+[[What is virtual memory, how is it implemented, and why do operating systems use it?|http://www.programmerinterview.com/index.php/operating-systems/how-virtual-memory-works/]]

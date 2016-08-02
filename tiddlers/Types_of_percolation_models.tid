@@ -1,0 +1,70 @@
+created: 20160610232701492
+creator: guillefix
+modified: 20160615222614916
+modifier: guillefix
+title: Types of percolation models
+
+Types of models used in the study of [[Percolation]], and [[Percolation theory]]
+
+!!!__Site percolation__
+
+Remove nodes (each with a given probability; or a fixed fraction. These are the same in the limit of infinte $$N$$). Can have 
+
+* "Random attack". Remove random nodes.
+* "Targeted attack". Remove nodes preferentially by degree, or by other metric. For an application of targeted attacks to the problem of influence maximization see [[Influence maximization in complex networks]].
+
+!!!__Bond percolation__
+
+Remove edges
+
+!!!__K-core percolation__
+
+Prunning process for obtaining K-core of a network: one removes all nodes with fewer than K neighbours, and repeats this process
+
+!!!__[[Explosive percolation]]__
+
+Percolation processes that show a discontinuous, or at least very steep phase transition. 
+
+* Achlioptas process
+* Half-restricted process
+* Spanning cluster-avoiding (SCA) process
+
+
+!!!__[[Bootstrap percolation]]__
+
+http://research.microsoft.com/en-us/um/people/holroyd/boot/
+
+An "infection" process in which nodes become infected if sufficiently many of their neighbors are infected. Related to the Centola-Many threshold model for social contagions.
+
+!!!__Limited path percolation__
+
+One construes "connectivity" as implying that a sufficiently short path still exists after some network components have been removed. To appreciate this idea, imagine trying to navigate a city in which some streets are blocked.
+
+!!!__K-clique percolation__
+
+Percolation of K-cliques (completely connected subgraphs of K nodes) has been used to study the algorithmic detection of dense sets of nodes known as "communities" (see [[Uncovering the overlapping community structure of complex networks in nature and society|http://www.nature.com/nature/journal/v435/n7043/abs/nature03607.html]] [[pdf|http://arxiv.org/pdf/physics/0506133.pdf]]).
+
+!!!__Percolation in [[Multilayer networks]]__
+
+* Percolation in [[Multiplex networks]]
+* Percolation in interdependent networks
+
+!!!__[[Non-self-averaging percolation process]]__
+
+A type of process that is non-self-averaging, in the sense that the relative variance of the size of the largest component doesn't vanish in the thermodynamic limit.
+
+* Fractional percolation
+
+!!!__Correlated percolation__
+
+!!!__[[Directed percolation]]__
+
+Percolation on a directed Network.
+
+!!!__Other__
+
+* Invasive percolation
+* Quorum percolation, and neuropercolation
+* jamming percolation. showing a combination of first-order and second-order transition properties.
+* [[First-passage percolation|https://en.wikipedia.org/wiki/First_passage_percolation]]
+* [[Multi-percolation|https://arxiv.org/abs/1101.0775]]

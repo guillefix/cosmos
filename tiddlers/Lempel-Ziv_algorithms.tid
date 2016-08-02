@@ -1,0 +1,30 @@
+created: 20160627202005587
+creator: guillefix
+modified: 20160709025008073
+modifier: guillefix
+title: Lempel-Ziv algorithms
+
+[[On the Complexity of Finite Sequences|http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1055501&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F18%2F22688%2F01055501]]
+
+[[A Universal Algorithm for Sequential Data Compression (LZ77)|http://lanethames.com/dataStore/ECE/InfoTheory/0337ziv.pdf]]
+
+
+[[Lempel-Ziv algorithms|http://www-math.mit.edu/~shor/PAM/lempel_ziv_notes.pdf]]
+
+[[video|https://www.youtube.com/watch?v=bjDFPuXNf2o]]
+
+---------------
+
+__[[Lempel-Ziv complexity]]__
+
+See also [[Algorithm to compute LZ complexity measure]] for implementation and explanation.
+
+-----------------
+
+[[Elegant Compression in Text (The LZ 77 Method) - Computerphile|https://www.youtube.com/watch?v=goOa3DGezUA]] http://www.data-compression.com/lossless.html
+
+[[The LZ77 Compression Family (Ep 2, Compressor Head)|https://www.youtube.com/watch?v=Jqc418tQDkg]]
+
+__LZW algorithm__
+
+[[Lempel-Ziv-Welch Compression Algorithm - Tutorial|https://www.youtube.com/watch?v=j2HSd3HCpDs]]

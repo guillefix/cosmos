@@ -1,0 +1,32 @@
+created: 20160704222731236
+creator: guillefix
+modified: 20160711224527084
+modifier: guillefix
+tags: Entropy [[Topological dynamics]]
+title: Topological entropy
+
+[[Topological entropy|http://www.scholarpedia.org/article/Topological_entropy]]
+
+[[ Topological entropy video|https://www.youtube.com/embed/uNm4oChL-4k]]
+
+In dynamical systems, complexity is usually measured by
+the topological entropy and reflects roughly speaking, the proliferation of periodic
+orbits with ever longer periods or the number of orbits that can be distinguished
+with increasing precision.
+
+[img[http://i.imgur.com/F0zsmVZ.png]]
+
+See the related [[Kolmogorov-Sinai entropy]]
+
+[[Hans Henrik RUGH - The Milnor-Thurston determinant and the Ruelle transfer operator|https://www.youtube.com/watch?v=rMAtlrOMyYU]]
+
+[[Descriptional complexity]]
+
+For a coarse-grained [[Dynamical system]], described by a transition graph, in turn described by an [[Adjacency matrix]] $$A$$, then the topological entropy $$h$$ is
+
+$$h = \log{\lambda_{\text{max}}}$$
+
+where $$\lambda_{\text{max}}$$ is the maximum eigenvalue of $$A$$ (assumed to be a positive matrix so that Perron-Frobenius applies).
+
+!![[Determinant of a graph]]
+

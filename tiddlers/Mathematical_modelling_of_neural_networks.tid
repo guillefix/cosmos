@@ -1,0 +1,83 @@
+created: 20160217234825266
+creator: guillefix
+modified: 20160217234836307
+modifier: guillefix
+title: Mathematical modelling of neural networks
+
+Deep learning is an area of machine learning that studies learning algorithms with //multiple levels of abstraction//
+
+Why Deep Learning models perform so well?
+
+Seems to be a result of:
+
+*Very large datasets
+*Increasing computing power
+*Flexibility of the models. Lots of parameters when lots of layers. Furthermore multiple layers avoide the curse of dimensionality
+
+Mathematical difficulty because: Nonlinearly, non-convexity (convex optimization or complex analysis techniques not available), many d.o.f.
+
+ResultsL
+
+*Universality
+*Loss-function landscape 
+
+Neural network composed of neurons.
+
+Data into Dendrites, scales. Axom computes (apply nonlinear function) and propagates output trough synapse.
+
+A //multilayer feedforward neural network//.
+
+L+2 layers. L //hidden//
+
+The neural network is just a funciton from $$R^N$$ to $$R^M$$, $$M=1$$ wlog..?..
+
+Training, given dataset of inputs and outputs and want function to map these as well as possibly
+
+Use Loss function and regulariser (penalization on size of parameters. Could also try to maximize sparsity, Occam's razor, bias towards simpler model. Also makes surface more convex).
+
+Then minimize //empirical risk//. To minimize we use stochastic gradient descent.
+
+Assuming function as being continuity, differentiability, convexity.
+
+Can a multilayer feedworward network f approximate g arbitrarily well, for a very general g.
+
+__Universality__
+
+We can't expect f for the model considered (one layer) to approximate any g whatsoever, there are some very pathological functions.We can assume g is continuous, or just Lebesgue measurable (use [[this|http://www.jstor.org/stable/85935?seq=1#page_scan_tab_contents]] metric for defining closeness in this case).
+
+We can show then f can approximate g approximately well.
+
+Many other models are also known to be universal.
+
+__Other minima.__
+
+Loss surface is the surface defined by the empirical risk, EM..
+
+The epigraph is non-convex.
+
+Local minima o EM are known to abound.
+
+Results:
+
+*For large-scale neworks most local minima are equivalne and yield similar performance on a test set.
+
+*The probabilliy of finding a bad local minimum is non zero for small networks and decreases quickly with network size. The higher dimension the dimension the lower the probability that all curvatures are positive, so more saddle points and less minima... Hmmmmm
+
+*Struggling to find the global minimum on the training set is not useful in practice and may lead to overfitting.
+
+Other results: only a few parameters matter.
+
+The manifold hypothesis: meaningful data often concentrates on a low dimensional manifold, so large amounts of parameters don't matter.
+
+---->See dissertation topic proposed by Ard Louis.
+
+Energy propagating from node i through path j
+
+Analogy between loss function of neural network and hamiltonian of spin glass. 
+
+(Multilayer: composition of functions.)
+
+*Minimizing the empirical risk is a good idea.
+*Neural networks may be over-parametrised. 
+*But over-parametrisation gives these nice results about local minima 
+

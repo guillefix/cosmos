@@ -1,0 +1,45 @@
+created: 20160130132407208
+creator: guillefix
+modified: 20160329144210247
+modifier: guillefix
+tags: [[Network theory]]
+title: Small-world model (Network theory)
+
+[[Random graph]] models capture well the small-world properties of real networks (see [[Large-scale structure of networks]]). The mean geodesic distance grows like $$\ln{n}/\ln{c}$$, that is, much more slowly than $$n$$, the number of nodes.
+
+However, they don't capture the high [[transitivity|Transitivity (Graph theory)]] (i.e. high clustering coefficient) of real world networks (where nodes which are neighbours of the same node are more likely to be neighbours of each other, specially true in social networks). One can easily construct models with high transitivity, like the triangular lattice, or the "circle model" where each node is connected to $$c$$ closest nodes, but these don't have small-world properties.
+
+[img width=200 [circle_model.png]]
+
+The ''small-world model'' is a hybrid of the two, so that it displays both high transitivity and short path lengths. It was proposed in 1998 by Watts and Strogatz. The model (Watts-Strogatz version) works by //rewiring// existing edges in a random fashion, becoming so-called //shortcuts//. Another version (Newman-Watts), that is easier to analyze analytically, doesn't rewire edges, but simply adds them (often, we add one, with probability $$p$$, per edge in the circle model network).
+
+[img[small_world_model.png]]
+
+__Degree distribution__
+
+It is a Poisson distribution (in the limit of large $$n$$ I think, right?), just like the random graph. However, it is cutoff at $$c$$, as we don't remove the original circle-model edges.
+
+__Clustering coefficient__
+
+Compute by counting triangles, and triads..
+
+__Mean shortest path__
+
+No exact formula known, but we know scaling of the mean shortest distance, $$l$$:
+
+$$l\approx \frac{n}{c}f(ncp)$$.
+
+which comes from scaling argument...Approximate form for $$f$$ can be found by mean-field methods.
+------
+
+One can see that there is a wide range of values for $$p$$ so that the network exhibits both high clustering and small mean shortest distance, showing that these are not at all incompatible.
+
+[img [small_world_model2.png]]
+
+The conclusion from all this is that:
+
+|A network doesn't need that many shortcuts to have scaling of the geodesic distance that is $$O(\ln{N})$$, instead of $$O(N)$$, i.e. to be a "small-world"|
+
+__Simulating in Matlab__
+
+[[This page|http://uk.mathworks.com/examples/matlab/12163-build-watts-strogatz-small-world-graph-model]] explains how to simulate the code in Matlab.

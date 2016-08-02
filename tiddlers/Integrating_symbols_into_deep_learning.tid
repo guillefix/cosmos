@@ -1,0 +1,57 @@
+created: 20160522140646117
+creator: guillefix
+modified: 20160522141522040
+modifier: guillefix
+title: Integrating symbols into deep learning
+
+[[Deep learning]]
+
+[[Integrating Symbols into Deep Learning|https://www.cs.ox.ac.uk/seminars/1627.html]]
+
+''Abstract of talk'': Computer Science is the symbolic science of programming, incorporating techniques for representing and reasoning about the semantics, correctness and synthesis of computer programs. Recent techniques involving the learning of deep neural networks has challenged the "human programmer" model of Computer Science by showing that bottom-up approaches to program synthesis from sensory data can achieve impressive results ranging from visual scene analysis, expert level play in Atari games and world-class play in complex board games such as Go. Alongside the successes of Deep Learning increasing concerns are being voiced in the public domain concerning the deployment of fully automated systems with unexpected and undesirable behaviours. In this presentation we will discuss the state-of-the-art and future challenges of Machine Learning technologies which promise the transparency of symbolic Computer Science with the power and reach of sub-symbolic Deep Learning. We will discuss both weak and strong integration models for symbolic and sub-symbolic Machine Learning alongside ongoing work on applications in this area. 
+
+Integratint symbols in deep learning talk notes:
+
+* Motivation 
+  ** ''Transparency''. Easily interpretable..
+    *** Comprehensibility test. Given a program, ask questions about it.. How well someone asnwers the questions..
+    *** Depends on how our own human minds work..
+    *** Can we even understand some of the problems..
+    *** Alternative: Machines that teach us how they work would be wonderful, because at the moment we need to make the effor to interpret them.
+  ** Computer science. Clear semantics, verification, etc.
+  ** Deep learning. Very different from rest of CS
+  ** Royal society + others... Public concern
+  ** Neet to integrate CS transparency and power of DL
+* Deduction and programming
+  ** Howard-Curry correspondance. 
+  ** Proofs as programs!
+  ** Used in verification and synthesis of programs
+* Machine learning, deduction and programming
+  ** Logic programming (Kowalski 1975). Program <> set of clauses in logic...
+  ** Inductive logic programming (Shapiro 1982, Muggleton 1991). Start with prior knowledge, hypothesize from data addition to knowledge, if hypothesis is verified as sufficiently valid, you add to your knowledge.
+  ** Inverse resolution (Muggleton and Buntine 1988). Resolution?. 
+  ** Inverse entailment (more efficient). (muggleton 1995)
+  ** Problems with recursion and predicate invention (muggleton et all 2011)
+  ** Meta-interpretative learning (muggleton et al 2015). Make it into higher order logic framework. 
+  ** target theory....
+  ** Hmm, gotta learn more about logic
+* Symbolic and non-symbolic machine learning.
+  ** Neural Turing machines! (Graves et al 2014). NIPS 2015 workshop. Still doesnt make things necessarely transparent..
+  ** Bayesian-neural integration. Sum-Product Markov networks (Domingos 2015)
+  ** ILP-neural integration. Bottom-clause Neural Nets (Garcez 2014)
+* Applications
+  ** Sensory
+    *** Staircase, Euclid project, microbe movies now
+  ** Motor
+    *** UCAI 2013. Build stable wall
+    *** UCAI 2015. Learning efficient strategies.
+  ** Language applications.
+    *** Learning formal grammars (MLJ 2014). 
+    *** Dependent srting transformations (ECAI 2014). Transparent?..
+  ** What next for meta-interpretive learning
+    *** Neuro-logical Turing machines
+    *** Problem decomposition. One of the central issues in programming. Predicate invention is part of this
+    *** Object invention. Intrinsic to learning and perception. Introducing new entities into language. Hard problem to make the meaningful
+    *** Large-scale background knowledge: How can learners scope relevance of background concepts?
+    *** Probabilistic reasoning.Bayesian.. Single examples?
+    *** 

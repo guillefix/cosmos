@@ -1,0 +1,77 @@
+created: 20160711224637776
+creator: guillefix
+modified: 20160713185539205
+modifier: guillefix
+title: More resources in simplicity bias in FSTs
+
+See [[Simplicity bias in finite-state transducers]]
+
+!!!__Statistical properties of FSTs__
+
+[[The graph structure of a deterministic automaton chosen at random |http://arxiv.org/pdf/1504.06238v1.pdf]]
+
+See [[Random deterministic automata]]
+
+!!!__Origin of bias ideas__
+
+[[Topological trace formula]]
+
+[[Random matrix product]]
+
+[[Entropy reduction]]
+
+[[On the entropy of a hidden Markov process|http://sci-hub.cc/10.1016/j.tcs.2008.01.012]]
+
+[[On Grammars, Complexity, and Information Measures of Biological Macromolecules |http://sci-hub.cc/10.1016/0025-5564(80)90004-8]]
+
+[[Activities and Sensitivities in Boolean Network Models]]
+
+!!!__Complexity__
+
+[[Complexity theory]]
+-- [[Descriptional complexity]]
+
+-->[[Entropy and complexity of finite sequences as fluctuating quantities|http://sci-hub.cc/10.1016/S0303-2647(01)00171-X]]
+
+-->[[Lempel-Ziv complexity analysis of one dimensional cellular automata|http://ezproxy-prd.bodleian.ox.ac.uk:2837/content/aip/journal/chaos/25/12/10.1063/1.4936876]]
+
+[[Coding Theorems for Individual Sequences |http://sci-hub.cc/10.1109/TIT.1978.1055911]] . <i class="fa fa-bullhorn" aria-hidden="true" style="color:coral; font-size:20px"></i> His complexity measure looks very similar to the topological entropy defined [[here|Descriptional complexity]].
+
+[[http://arxiv.org/pdf/1512.04270v2.pdf]] . $$\epsilon$$-machines reconstruction or computational mechanics, is a powerful tool in the analysis of complexity, which has been used in a wealth of different theoretical and practical situations.
+
+[[Lempel-Ziv complexity]]
+
+[[Network complexity]]
+
+---------
+
+!!!To look at
+
+[[Entropy of Hidden Markov Processes and Connections to Dynamical Systems: Papers from the Banff International Research Station Workshop|https://books.google.co.uk/books?id=1Zz_zHpfbIAC&dq=Entropy+of+functions+of+finite-state+Markov+chains+Blackwell&source=gbs_navlinks_s]] --
+[[Codes, Systems, and Graphical Models|https://books.google.co.uk/books?id=z2Pd93k0hsoC&dq=Entropy%20of%20functions%20of%20finite-state%20Markov%20chains%20Blackwell&source=gbs_similarbooks]] --
+[[An Introduction to Symbolic Dynamics and Coding|https://books.google.co.uk/books?id=qSkNs3jr-DIC&dq=Entropy%20of%20functions%20of%20finite-state%20Markov%20chains%20Blackwell&source=gbs_similarbooks]] --
+[[Fundamentals of Codes, Graphs, and Iterative Decoding|https://books.google.co.uk/books?id=D0bW8D6BThMC&dq=Entropy%20of%20functions%20of%20finite-state%20Markov%20chains%20Blackwell&source=gbs_similarbooks]] -- 
+[[Topological Entropy and Equivalence of Dynamical Systems|https://books.google.co.uk/books?id=ozdOJ5HyDgQC&dq=Entropy+of+functions+of+finite-state+Markov+chains+Blackwell&source=gbs_book_similarbooks]] --
+[[Symbolic Dynamics and Its Applications|https://books.google.co.uk/books?id=MlocCAAAQBAJ&dq=Entropy%20of%20functions%20of%20finite-state%20Markov%20chains%20Blackwell&source=gbs_similarbooks]] -- 
+[[Ergodic Theory and Topological Dynamics of Group Actions on Homogeneous Spaces|https://books.google.co.uk/books?id=T5NgCaa1j-4C&dq=Entropy%20of%20functions%20of%20finite-state%20Markov%20chains%20Blackwell&source=gbs_similarbooks]] -- 
+[[Substitutions in Dynamics, Arithmetics and Combinatorics|https://books.google.co.uk/books?id=Cmogpq-lSnoC&dq=Entropy%20of%20functions%20of%20finite-state%20Markov%20chains%20Blackwell&source=gbs_similarbooks]] -- 
+[[Combinatorics on Words|https://books.google.co.uk/books?id=X2G5BQAAQBAJ&dq=Entropy%20of%20functions%20of%20finite-state%20Markov%20chains%20Blackwell&source=gbs_similarbooks]] --
+[[Fractal Geometry, Complex Dimensions and Zeta Functions|https://books.google.co.uk/books?id=kurIRPWxR68C&dq=Entropy%20of%20functions%20of%20finite-state%20Markov%20chains%20Blackwell&source=gbs_similarbooks]] --
+[[Dynamics and Randomness|https://books.google.co.uk/books?id=EzOTVDHcKIsC&pg=PA213&lpg=PA213&dq=Entropy+of+functions+of+finite-state+Markov+chains+Blackwell&source=bl&ots=HuvmLJWIzf&sig=rGysf0w5R1B0sQ-Er_7aKwptbvE&hl=en&sa=X&ved=0ahUKEwj2oqWz4NLNAhWBI8AKHc2HB2sQ6AEIODAG#v=onepage&q=Entropy%20of%20functions%20of%20finite-state%20Markov%20chains%20Blackwell&f=false]]
+
+[[Resolving Markov Chains Onto Bernoulli Shifts Via Positive Polynomials|https://books.google.co.uk/books?id=R9hw4RusEYgC&dq=Entropy%20of%20functions%20of%20finite-state%20Markov%20chains%20Blackwell&source=gbs_similarbooks]]
+
+[[Complexity of strings in the class of Markov sources|http://sci-hub.cc/10.1109/TIT.1986.1057210]] -- [[citations|https://scholar.google.co.uk/scholar?cites=12275133346903048487&as_sdt=2005&sciodt=0,5&hl=en]]
+
+[[On the entropy of a hidden Markov process|http://sci-hub.cc/10.1016/j.tcs.2008.01.012]] -- [[citations|https://scholar.google.co.uk/scholar?cites=15970945639303496057&as_sdt=2005&sciodt=0,5&hl=en]]
+
+[[lempel ziv complexity finite state channel|https://scholar.google.co.uk/scholar?hl=en&q=lempel+ziv+complexity+finite+state+channel&btnG=&as_sdt=1%2C5&as_sdtp=]]
+[[lempel ziv complexity markov model|https://scholar.google.co.uk/scholar?q=lempel+ziv+complexity+markov+model&btnG=&hl=en&as_sdt=0%2C5]]
+
+<mark>Check what these are!</mark> [[epsilon machines|https://scholar.google.co.uk/scholar?hl=en&q=epsilon+machines&btnG=&as_sdt=1%2C5&as_sdtp=]]
+
+__Random matrix product__
+
+[[Capacity of finite state channels based on Lyapunov exponents of random matrices|https://scholar.google.co.uk/scholar?cites=16832761267123139480&as_sdt=2005&sciodt=0,5&hl=en]]
+
+[[Basic properties of the projective product with application to products of column-allowable|https://scholar.google.co.uk/scholar?start=30&hl=en&as_sdt=2005&sciodt=0,5&cites=327936507223547539&scipsc=]]

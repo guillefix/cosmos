@@ -1,0 +1,30 @@
+created: 20160429203635064
+creator: guillefix
+modified: 20160506103102219
+modifier: guillefix
+title: Long-range interacting systems
+
+[[Statistical Mechanics of Systems with Long-Range Interactions|https://www.youtube.com/watch?v=0-lKbPDNSGs&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l&index=7]] (on first lect of this part)
+[[book|http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199581931.001.0001/acprof-9780199581931]]
+
+Book: [[Physics of Long-Range Interacting Systems|http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199581931.001.0001/acprof-9780199581931]]
+
+Often take them to have two-body interaction of the form:
+
+<big>$$U(r) \sim \frac{1}{r^{d+\sigma}}$$</big>
+
+where $$d$$ is the dimension.
+
+For $$\sigma \leq 0$$, the systems are //non-additive// (or //non-extensive//), in the sense of [[Statistical physics]], so that, for example, energy is no simply proportional to volume.
+
+!!!__Examples__
+
+
+
+* self-gravitating system ($$\sigma = 2$$)
+
+* dipolar magnets ($$ \sigma =0$$)
+
+* charged plasma
+
+* vortices in 2 dimensions. $$U(r) \sim \ln{r}$$, $$\sigma = -2$$ (effectively)

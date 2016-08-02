@@ -1,0 +1,131 @@
+created: 20160428004022645
+creator: guillefix
+modified: 20160713135155724
+modifier: guillefix
+tags: [[Soft matter physics]] [[Active system]] MMathPhys
+title: Active matter
+
+''Active matter'' refers to a type of [[bulk matter|Bulk matter]], often [[soft condensed matter|Soft matter physics]] that is an [[Active system]], i.e. that it produces its own driving energy (for example, [[self-propelling particles|Self-propelled particle]], and micro-swimmers).
+
+[[Driven matter]] is a closely related type of matter, where the system is externally driven.
+
+[[The Hydrodynamics of Active Systems|https://arxiv.org/abs/1603.00194]]
+
+[[Life at low Reynold's numbers|https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/multiscaleroboticlab-dam/documents/microrobotics/HS2015/Purcell1977.pdf]], see [[Low Reynolds number]]
+
+See also [[Complex fluid dynamics]], [[Colloid physics]]
+
+!!<span style="color:Gold">__Single swimmer hydrodynamics: background__</span>
+
+Swimming at low Reynolds number: ''Stokes equation''
+
+Important consequence for swimmers: ''Scallop theorem'' (see [[Kinematic reversibility in fluid dynamics]])
+
+__Swimmer models__
+
+* Squirmer. ,,[[Swimming efficiency of spherical squirmers: Beyond the Lighthill theory|http://journals.aps.org/pre/pdf/10.1103/PhysRevE.90.012704]],,
+
+!!!__''Far-flow fields''__
+
+,,Used to calculate __hydrodynamic interactions__, for instance,,
+
+Point-force problem for Stokes equation, can be solved using its Green function, often called the ''Oseen tensor'' (see [[here|http://arxiv.org/pdf/1312.6231v1.pdf]]):
+
+<big>$$G_{ij}(\vec{r}) = \frac{1}{8\pi \mu} \left(\frac{\delta_{ij}}{|\vec{r}|}+\frac{r_i r_j}{|\vec{r}|^3}\right)$$</big>
+
+,,where the $$\frac{1}{8\pi \mu}$$ is often omitted in the definition of the Oseen tensor.,,
+
+Using the Green function to construct general solution, one can construct a ''multipole expansion''. As swimmers (in average, in steady state) don't accelerate, the fluid isn't exerting a net force on them, so they can't be exerting a net force on the fluid ([[Netwon's third law]]). Therefore the monopole term (called the ''Stokelet'') isn't present. ,,An exception for this is the relatively large microorganism //Volvox//, for which gravity force is significant, giving a net force to the problem and creating a Stokelet flow,,. Therefore, the dominant term is generally the ''dipolar'' term:
+
+$$v_i (\vec{r}) \approx \frac{\partial G_{ij}}{\partial x_k} (\vec{r}) D_{jk}$$
+
+where $$v_i (\vec{r})$$ is the velocity field, and
+
+$$D_{jk} = - \int f_j \xi_k d\vec{\xi}$$
+
+It is conventional to let:
+
+$$D_{jk} \rightarrow D_{jk} -\frac{1}{3}D_{ii} \delta_{jk} \equiv S_{jk} + T_{jk}$$
+
+where the addition of $$\frac{1}{3}D_{ii}$$ doesn't change the velocity field $$v_i (\vec{r})$$ because $$\vec{\nabla} \cdot \mathbf{G} = \vec{0}$$. $$S_{jk}$$ is called the ''stresslet'', and $$T_{jk}$$ is called the ''rotlet''. The rotlet is zero if the net torque on the fluid is zero, which it is for active microswimmers.
+
+Note that the dipolar flow has __nematic symmetry__; this is important in the collective behavior of active swimmers.
+
+We can have two __kinds of dipolar flow__ around a swimmer:
+
+* ''pusher'', or ''extensive'' <span style="color:Dodgerblue"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>. Like that of the //E. Coli//
+
+* ''puller'', or ''contractile'' <span style="color:Dodgerblue"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <i class="fa fa-long-arrow-left" aria-hidden="true"></i></span>Like that of the //[[Chlamydomonas|https://en.wikipedia.org/wiki/Chlamydomonas]]//. See figure of //chlamydomonas flow//
+
+[img[http://soft-matter.seas.harvard.edu/images/thumb/6/6a/Drescher4.jpg/900px-Drescher4.jpg]]
+//chlamydomonas flow// [[source|http://soft-matter.seas.harvard.edu/index.php/Direct_Measurement_of_the_Flow_Field_around_Swimming_Microorganisms]]
+
+!!<span style="color:Gold">__[[Single microswimmer hydrodynamics: applications]]__</span>
+
+* bacteria <span style="color:LightSalmon">enhance diffusion</span> as a result of the flow fields they produce
+
+* motion of swimmers in background/external flow.
+
+* interactions with surfaces.
+
+!!<span style="color:Gold">__[[Collective hydrodynamics of active entities]]__</span>
+
+* ''Beris-Edwards equations''
+
+* extra stress from active particles, equals the average value of the stresslet, and gives the ''active stress'' $$-\zeta Q_{jk}$$
+
+* Different kinds of instabilities and patterns arise.
+
+!!<span style="color:Gold">__[[Collective hydrodynamics of active entities: applications]]__</span>
+
+* ''active turbulence''
+
+* interactions between topological defects, walls (regions of high bend perturbation), and flows (jets, and vortical).
+
+* ''Lyotropic active nematics'' and ''active anchoring''
+
+* Example system: microtubules and [[Molecular motors]].
+
+!!<span style="color:Gold">__Other applications__</span>
+
+* More general ''[[Active system]]s'' and types of active matter: [[dry systems|Dry active matter]], systems with polar symmetry, density variations, inertia.
+
+* ''Active machines'' and [[Self-assembly]]
+
+* Microswimmers moving in a viscoelastic medium. Living liquid crystals represent a novel system where bacteria swim in a nematic liquid.
+
+* Biological systems (see [[Biological matter]]):
+
+**molecular motors walking along microtubules contribute to cell division resulting from spindle mitosis.
+
+**cytoplasmic streaming, flow driven by the motion of motors along the cell walls, presumably to aid the transport of nutrients around the cell.
+
+** The extent to which hydrodynamics (even at nanometre scales) affects motor motion [74], the way in which multiple motors can combine to move cargo and mechanisms for cargo transport in the crowded cellular environment remain largely unexplored.
+
+** there is increasing evidence that cell motility is linked to the physical environment. Interactions between cells, the spreading of cellular layers and the possible role of flow in [[Morphogenesis]] are also of interest.
+
+* [[Active gel physics|http://www.nature.com/nphys/journal/v11/n2/abs/nphys3224.html]]
+
+[[Physics of Microswimmers – Single Particle Motion and Collective Behavior|http://arxiv.org/pdf/1412.2692v1.pdf]]
+
+[[In pursuit of propulsion at the nanoscale|http://pubs.rsc.org/en/content/articlelanding/2010/sm/b918598d#!divAbstract]]
+
+[[Biphasic, Lyotropic, Active Nematics|http://journals.aps.org/prl/pdf/10.1103/PhysRevLett.113.248303]]
+
+[[Papers on active matter]]
+
+!!__Self organization in active matter__
+
+__Cytoplasmic streaming__
+
+[[A physical perspective on cytoplasmic streaming|http://rsfs.royalsocietypublishing.org/content/5/4/20150030]]
+
+[[Cytoplasmic streaming in plant cells emerges naturally by microfilament self-organization|http://www.pnas.org/content/110/35/14132.full#xref-ref-35-1]]
+
+[[Spontaneous Circulation of Confined Active Suspensions|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.109.168105]]
+
+[[Instabilities, pattern formation, and mixing in active suspensions|http://scitation.aip.org/content/aip/journal/pof2/20/12/10.1063/1.3041776]]
+
+__[[Spindle self-organization]]__
+
+[[Physical basis of spindle self-organization|http://www.pnas.org/content/111/52/18496.short]]

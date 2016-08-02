@@ -1,0 +1,117 @@
+created: 20160119184157236
+creator: guillefix
+modified: 20160329144126120
+modifier: guillefix
+tags: [[Network theory]]
+title: Mathematics of networks
+
+A ''network'' is a collection of ''nodes'' joined by ''edges''. More generally, it is a collection of elements and their interactions. Most of the time, it has 
+the same mathematical structure as a ''graph'', $$G$$, defined as an 
+ordered pair $$(V,E)$$, where:
+
+* $$V=\{i\}$$, a set of ''nodes'' (a.k.a. ''vertices'').
+
+* $$E=\{(i,j) \in V \times V\}$$, a set of ''edges'' (a.k.a. links, tie,
+ etc.)
+
+<small>However, by interpreting an edge as a more general kind of relation, its
+ mathematical structure can be a [[hypergraph|hypergraph]]. One can also have different types of vertices and edges defined for a network.</small>
+
+A ''simple network'' is a binary, undirected network that only has a 
+single edge between a pair of nodes (i.e. no ''multi-edges''), and 
+doesn't have ''self-edges'' (a.k.a. self-loops).
+
+!!!__Types of edges__
+
+|Undirected: $$(i,j) \Leftrightarrow (j,i)$$. |
+|Directed: $$(i,j) \nLeftrightarrow (j,i)$$|
+
+|Weighted: edges can have any real value associated.|
+|Unweighted: can only have 0 or 1 (a.k.a. ''binary'').|
+
+!!!__Representations__ 
+Representations: Edge lists, adjacency matrices<small>(a.k.a. network matrix)</small>.
+
+''Adjacency matrix'' $$A$$
+
+$$A_{ij} = 1 \text{ if edge (j,i) exists}$$. 
+$$A_{ij} = 0 \text{ if edge (j,i) doesn't exist}$$
+
+$$A^T=A$$ if undirected.
+
+$$A$$ describes same network if we permute columns and rows in the same 
+way.
+
+''Weighted adjacency matrix'' (or weight matrix) $$W$$ assigns a weight 
+to edges. Usually weight is a real number: $$w: E \rightarrow 
+\mathbb{R}$$
+
+"Topology" represented by $$A$$. 
+
+"Geometry represented by  $$W$$.
+
+__Cocitation and bibliographic coupling in directed networks__
+
+Two useful matrices, derived from the directed network adjacency matrix 
+$$A$$ are the following (both can be used to define adjacency matrices 
+that are symmetric and thus undirected! $$\leftarrow$$ easier to 
+analyze):
+
+Cocitation matrix: $$C=AA^T$$. Nodes related if there is a node that points to both.
+
+Bibliographic coupling matrix: $$B=A^TA$$. Nodes related if there is a node to which both point.
+
+!!!__Common Types__
+
+Simple network, described above.
+
+''[[Acyclic networks]]'' have no cycles. A [[Directed Acyclic Graph (DAG)|Directed acyclic craph]] is a well known sub-type. 
+
+<span id="hypergraph">[[Hypergraphs]]</span> are sets of 
+elements with 
+[[relations|https://simple.wikipedia.org/wiki/Relation_%28mathematics%29]]
+ that include more than a pair of elements (i.e. they are members of a 
+higher [[cartesian product|https://en.wikipedia.org/wiki/Cartesian_product]]).
+
+Hypergraphs can equivalently be represented as [[Bipartite Networks]], where there are two types of edges (a special case of a //multipartite network//, where there are many types). On the other hand, a //multiplex network// is one that has multiple types of edges.
+
+[[Trees|Tree (Graph Theory)]] are connected (<small>can reach all 
+vertices following edges</small>), undirected networks that 
+contain no closed loops. A //forest// is a disconnected graph whose 
+connected parts are trees.
+
+A [[Planar network]] is a network that can be drawn on a plane without having any edges cross. It is a special case of a [[Spatial network]].
+
+//Temporal networks// are those for which the set of edges and/or nodes varies with a time parameter.
+
+A [[Similarity network]] is one that expressed how similar entities (expressed as the nodes) are. The degree of similarity being the weight of the node.
+
+!!!__Other Mathematical aspects__
+
+The [[degree|Degree of a vertex (Graph theory)]], $$k_i$$, of a vertex, $$i$$, is the number of edges connected to the vertex.
+
+__Paths__
+
+A [[path|Path (Graph theory)]] in a network is a sequence of of nodes such that every pair of nodes in the sequence is connected by an edge in the network.
+
+[[Definition of path, cycle, trail, circuit|http://math.stackexchange.com/questions/655589/what-is-difference-between-cycle-path-and-circuit-in-graph-theory]]
+ Definition is extended to directed case by only permitting traversing 
+in the direction of edge. Note only directed graphs can have 2-cycles.
+
+__Components__
+
+A [[component|Component (Graph theory)]] is a subset of the network for which all pair of vertices have at least one path, and which is maximal (i.e no extra nodes can be added that preserve this property).
+
+__[[Independent paths, connectivity, and cut sets|Independent paths, connectivity, and cut sets (Graph theory)]]__
+
+Number of //independent paths// between two vertices (the //connectivity//) gives measure of how strongly connected they are. Paths can be //vertex-independent// if they share no vertex (other than starting or ending vertices), or //edge-independent// if they share no edge.
+
+A //vertex (edges) cut set// is a set of vertices (edges) that if removed will disconnect a specified pair of vertices. A //minimum cut set// is the smallest such set for the vertices.
+
+__[[Graph laplacian]]__
+
+The graph laplacian is a useful quantity, derived from the adjacency matrix, which can be used to describe diffusion precesses in a network, as well as in problems of random walks, resistor netowkrs, graph partitioning and network connectivity.
+
+__[[Random walks|Random walk in a graph]]__
+
+A //random walk// is a path across a network created by taking repeated random steps. They are usually allowed to traverse edges more than once, and visit vertices more than once. If note it is a //self-avoiding random walk//. They are mathematically connected to resistor networks.

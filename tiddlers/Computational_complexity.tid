@@ -1,0 +1,28 @@
+created: 20160130233608424
+creator: guillefix
+modified: 20160711174302952
+modifier: guillefix
+tags: Algorithms [[Complexity theory]]
+title: Computational complexity
+
+//Algorithmic or computational complexity//
+
+The ''computational complexity'' of an algorithm is an [[asymptotic|Asymptotic approximation]] estimate of how the algorithm's running time scales with the size of its input.
+
+https://en.wikipedia.org/wiki/Computational_complexity_theory
+
+https://www.cs.cmu.edu/~adamchik/15-121/lectures/Algorithmic%20Complexity/complexity.html
+
+__[[Time complexity|https://en.wikipedia.org/wiki/Time_complexity]]__
+
+[[Pseudo-polynomial time|https://en.wikipedia.org/wiki/Pseudo-polynomial_time]]: if its running time is polynomial in the numeric value of the input, but is exponential in the length of the input – the number of bits required to represent it. That is because numerical number $$n$$ is related to number of bits (digits in binary), $$b$$, by $$n=2^b$$.
+
+[[P vs. NP and the Computational Complexity Zoo|https://www.youtube.com/watch?v=YX40hbAHx3s]]
+
+!!!__Kolmogorov complexity__
+
+See [[Algorithmic information theory]]
+
+----------------------
+
+https://www.wikiwand.com/en/Structural_complexity_theory

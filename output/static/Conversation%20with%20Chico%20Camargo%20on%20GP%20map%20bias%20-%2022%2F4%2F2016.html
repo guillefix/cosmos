@@ -1,0 +1,704 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.12" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>Conversation with Chico Camargo on GP map bias - 22/4/2016: Cosmos — a non-linear personal web notebook</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   "><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible" title="More actions">
+
+
+</button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible" title="Edit this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible" title="Close this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Conversation with Chico Camargo on GP map bias - 22/4/2016
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="guillefix.html">
+guillefix
+</a> 18th May 2016 at 5:51pm
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"></div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>Chico Camargo
+Hey man!
+I hadn't seen the recording, that's cool! I'll send you the slides via email. What diagrams do you want, just to make sure I send you the right thing?
+Guillermo Valle Pérez
+4/22, 12:56pm
+Guillermo Valle Pérez
+Well the ones where you show the tree of binary states evolving to other states, and the ones showing the complexity vs frequency for example
+Chico Camargo
+4/22, 12:59pm
+Chico Camargo
+Here's the whole thing - <a class="tc-tiddlylink-external" href="https://docs.google.com/presentation/d/1l-IgqXy1ZdBn__aBQX0fUH8Z2y6iuogwt753omsiyAw/edit?usp=sharing" rel="noopener noreferrer" target="_blank">https://docs.google.com/presentation/d/1l-IgqXy1ZdBn__aBQX0fUH8Z2y6iuogwt753omsiyAw/edit?usp=sharing</a></p><p>29-06-2015 - Evolution 2015 Guaruja
+What Darwin didn't know: natural variation is structured Chico Camargo University of Oxford Evolution 2015 Guarujá, Brazil
+docs.google.com
+Chico Camargo
+4/22, 1:01pm
+Chico Camargo
+Just one thing - recently I've changed my definition of phenotype to something more coarse-grained, so the plots for complexity have changed. But they're fine, the new ones say the same as the old ones. The robustness things, however, don't apply so directly to the new phenotype definition I've been exploring, so I would not include that part about robustness. All the rest is fine!
+Chico Camargo
+4/22, 1:03pm
+Chico Camargo
+Finally, an interesting paper, in case you haven't seen it: 
+<a class="tc-tiddlylink-external" href="http://rsif.royalsocietypublishing.org/content/royinterface/12/113/20150724.full.pdf" rel="noopener noreferrer" target="_blank">http://rsif.royalsocietypublishing.org/content/royinterface/12/113/20150724.full.pdf</a>
+Chico Camargo
+4/22, 1:03pm
+Chico Camargo
+They say some cool stuff there, like &quot;The properties of genotype –phenotype (GP) maps have been studied in great detail for RNA secondary structure. These include a highly biased distribution of genotypes per phenotype, negative correlation of genotypic robustness and evolvability, positive correlation of phenotypic robustness
+and evolvability, shape-space covering, and a roughly logarithmic scaling
+of phenotypic robustness with phenotypic frequency. More recently similar
+properties have been discovered in other GP maps, suggesting that they may
+be fundamental to biological GP maps, in general, rather than specific to the
+RNA secondary structure map.&quot;
+Guillermo Valle Pérez
+4/22, 2:53pm
+Guillermo Valle Pérez
+Yeah i've seen that paper. I've found a way to predict more or less the number of sequences that map to the most frequent sequences, in average over the ensemble of transducers. It's only approximate, but it is about thinking about certain kinds of cycles, and how simpler cycles in the transducer are more probable, so sounds similar to your boolean network cycles thing. 
+It's also related to the idea about constrained and unconstrained parts, which I think is the most fundamental. The idea for transducers is that there are states that give the same output independent of the output (so they are unconstrained). Outputs that admit cycling through these states have most of the input bits unconstrained. Then if one looks at what kinds of cycles there are, one sees that the most probable are the simplest ones, and these correspond to simple outputs
+Guillermo Valle Pérez
+4/22, 2:59pm
+Guillermo Valle Pérez
+It's not totally rigorous, but estimating the probabilities of these cycles roughly gives the right frequency of the most probable strings like 11111111.. 011111111, 101010101... etc
+Chico Camargo
+4/22, 3:02pm
+Chico Camargo
+That is very interesting!
+On the boolean networks it turns out that the probability of a cyclic output is an exponential with the cycle length, but the complexity bias exists even for cycles of the same length
+I still don't understand how the GP map works though, maybe because I don't fully understand what a transducer really is. What is the genotype and the phenotype (and the mapping), in their case?
+Guillermo Valle Pérez
+4/22, 3:04pm
+Guillermo Valle Pérez
+grrwhen i said above &quot;same output independent of the output&quot; i meant &quot;same output independent of the input&quot;...
+Chico Camargo
+4/22, 3:04pm
+Chico Camargo
+Oh yeah I god that grin emoticon
+So, I understand that a finite state transducer is like a finite automaton, but with two tapes: an input tape and an output tape
+reads a tape and writes another
+Guillermo Valle Pérez
+4/22, 3:05pm
+Guillermo Valle Pérez
+<a class="tc-tiddlylink-external" href="http://galaxy.eti.pg.gda.pl/katedry/kiw/pracownicy/Jan.Daciuk/personal/thesis/img74.gif" rel="noopener noreferrer" target="_blank">http://galaxy.eti.pg.gda.pl/katedry/kiw/pracownicy/Jan.Daciuk/personal/thesis/img74.gif</a></p><p>Guillermo Valle Pérez
+4/22, 3:07pm
+Guillermo Valle Pérez
+its a finite state machine. You start at a certain state and move to the state according to the symbol you read and following the transition according to the first symbol in &quot;x/y&quot;. When you follow that transition you print a &quot;y&quot;
+oh sorry
+in that picture i showed you the x and y are swapped
+relative to my convention
+that picture isnt ver good
+wait
+Guillermo Valle Pérez
+4/22, 3:09pm
+Guillermo Valle Pérez
+Guillermo Valle Pérez
+4/22, 3:09pm
+Guillermo Valle Pérez
+thats one of the ones generated by my actual code
+sideways lol
+Chico Camargo
+4/22, 3:09pm
+Chico Camargo
+Beautiful!
+Ok, it's a finite state machine with two tapes, rather than just traversing (and accepting or rejecting) an input string, it translates an input string to an output string
+Guillermo Valle Pérez
+4/22, 3:09pm
+Guillermo Valle Pérez
+so you begin at state 0 and if you see a 0 you go to state 0 printing a 0, and if you see an 1 you go to state 1 also printing a 0
+Chico Camargo
+4/22, 3:09pm
+Chico Camargo
+Cool
+So you randomly generate a finite state transducer, and see how many input words give you each output word?
+Guillermo Valle Pérez
+4/22, 3:10pm
+Guillermo Valle Pérez
+Yep
+Chico Camargo
+4/22, 3:11pm
+Chico Camargo
+And the trends are the same even if you generate a lot of those transducers at random?
+Guillermo Valle Pérez
+4/22, 3:11pm
+Guillermo Valle Pérez
+yeah the more you generate the more the graph seems to be a linear thing with a given spread in the frequency-vs-complexity, like the one i posted
+technically you could enumerate all transducers of a given number of states
+Chico Camargo
+4/22, 3:13pm
+Chico Camargo
+So the trend is there even if you have a single transducer, but it's more obvious if you plot the results for a lot of them, is that what you're saying?
+I have more questions:
+How long are the input strings?
+How long are the output strings?
+You said you can enumerate them. How is the transducer represented?
+I was reading some stuff about formal language theory last night, and it relates so much to that, you have no idea
+Guillermo Valle Pérez
+4/22, 3:14pm
+Guillermo Valle Pérez
+Well, the trend is mostly visible if you plot a lot of them. For a single one I tend to find quite some noise.
+The input strings ive tried are 9-15 bits long,  but they can be anything
+I've made it so that the output strings are the same length as the input. I could make the variable length by adding an &quot;empty&quot; symbol as a possibility
+but havent tried that
+The transducers are represented as strings too I think, but I'm using a finite automaton generator, not generating them on my own
+because it's not that trivial to generate them really uniformly apparently. I think it's because many automatons would be equivalent, and it only generates distinct ones..
+Chico Camargo
+4/22, 3:17pm
+Chico Camargo
+I see
+Guillermo Valle Pérez
+4/22, 3:17pm
+Guillermo Valle Pérez
+Tho I'm not sure how it's generating them under the hood tbh, atm
+Chico Camargo
+4/22, 3:17pm
+Chico Camargo
+Sure
+Guillermo Valle Pérez
+4/22, 3:18pm
+Guillermo Valle Pérez
+and i dont think the answer should be too different if you generated them in a more naive way
+Chico Camargo
+4/22, 3:18pm
+Chico Camargo
+I agree with you
+One thing I'm trying to understand is what space is being mapped to what space
+But I'm slowly getting it
+Any string to any string.
+(well, binary strings in both alphabets, in this case)
+Guillermo Valle Pérez
+4/22, 3:21pm
+Guillermo Valle Pérez
+yeah you can choose any alphabet. But i chose binary. and in my case its any binary string to given length to the same set
+well no there are some strings you can't get in the output
+so the output space is some subset of {1,0}^*
+{1,0}^n, n fixed i mean
+Chico Camargo
+4/22, 3:23pm
+Chico Camargo
+And there are binary strings that can't be generated by that transducer. Sure
+Guillermo Valle Pérez
+4/22, 3:23pm
+Guillermo Valle Pérez
+Yeah
+quite a few actually
+which make sense
+Chico Camargo
+4/22, 3:24pm
+Chico Camargo
+It does.
+Guillermo Valle Pérez
+4/22, 3:24pm
+Guillermo Valle Pérez
+becuase if there is redundancy, the phenotype space must be smaller, for a deterministic map
+smaller than genotype space
+Chico Camargo
+4/22, 3:25pm
+Chico Camargo
+And because each transducer will in fact produce strings of a given shape,
+like &quot;0 1^n 0 1 0^m 1&quot;
+And when you choose the number of states in your transducer.. I would imagine
+I imagine very large transducers would be unnecessarily complex
+Guillermo Valle Pérez
+4/22, 3:27pm
+Guillermo Valle Pérez
+well i choose a small number of states, like 5 so that it's simple
+Chico Camargo
+4/22, 3:28pm
+Chico Camargo
+Yeap
+Guillermo Valle Pérez
+4/22, 3:28pm
+Guillermo Valle Pérez
+I've tried more states and results are not too different, but I worry that I am taking a sample that is much smaller than all possible trandsucers of that size
+With smaller number of states like 2 or 3, maps seem too trivial also
+Chico Camargo
+4/22, 3:30pm
+Chico Camargo
+I'd expect that the complexity bias would become too messy if the transducers were too large: you'd be using a very complex algorithm to map input to output, introducing a lot of complexity into the business
+I find it interesting that when you sample different transducers, you're sampling different GP maps.
+...which is something that can evolve, as well. Just like you can change the parameters of an ODE instead of changing its initial conditions, you can change the GP map instead of its I/O
+Guillermo Valle Pérez
+4/22, 3:32pm
+Guillermo Valle Pérez
+what i can't quite figure is how to relate these results more directly to other results like that of the boolean network or polyominoes. Yeah, in principles these things should map to a transducer, but how simple a transducer, and do they have some features that simply the {ensemble of all transducers} does not capture. I mean this is precisely the same problems with choosing random network null models in network theory..
+Guillermo Valle Pérez
+4/22, 3:32pm
+Guillermo Valle Pérez
+Yeah i also expect more noise for more states..
+Chico Camargo
+4/22, 3:33pm
+Chico Camargo
+So, normally a boolean network is the genotype, so your input string in this case. Same for an RNA sequence. Your transducer would be the actual map
+Guillermo Valle Pérez
+4/22, 3:35pm
+Guillermo Valle Pérez
+&quot;which is something that can evolve&quot;. Yeah the whole reason I did was just in the spirit of null models: see if one expects these features just looking at random simple maps, without any other constraint.
+But I also thought about, why choose the transducers uniformly at random, why not sample them according to the biased output of another transducer, that will produce simpler transducers more often. One can imagine a potentially infinite chain of GP maps determining GP maps, and it'd be interesting to see what one gets..
+Guillermo Valle Pérez
+4/22, 3:35pm
+Guillermo Valle Pérez
+Yeah the whole reason I did -&gt; Yeah the whole reason I did this
+Chico Camargo
+4/22, 3:36pm
+Chico Camargo
+I agree with the spirit of null models: that is totally the point
+Hoho, I know what you mean!
+In fact I think there is something else to it
+Guillermo Valle Pérez
+4/22, 3:37pm
+Guillermo Valle Pérez
+Yeah this looks like whats called hyperparameter optimization in machine learning: when you optimize your machine learning model itself
+Or genetic programming with evolving GP maps, which has also been tried
+Another way to do this would be to make a transducer whose output changes the transducer itself, and see how that evolves
+which tbh sounds like the whole idea of genetic regulatory networks where the phenotype (proteins) in some sense change the GP map (genes-&gt;proteins)
+I guess when one does this one can then still define a meta GP map like what you do in the boolean networks
+Chico Camargo
+4/22, 3:41pm
+Chico Camargo
+I think so
+Coupling GP maps is an interesting idea
+But you've gotta play with the timescales that that involves
+For example
+- also on that potentially infinite chain of GP maps you mentioned:
+Chico Camargo
+4/22, 3:42pm
+Chico Camargo
+So, this chain of GP maps determining GP maps is sequential: once, in the history of life, life &quot;chose&quot; a set of basepairs, A-T, C-G. And it's been working pretty much with all that. And by &quot;choosing&quot; I mean that its rate of change slowed down. It could be from reaching a fitness peak, local or not, but the fact is that it slowed down.
+Then, at some point, life &quot;chose&quot; a genetic code: the way codons map to aminoacids. Once that choice was frozen, life has been working with it ever since.
+Then it chose some protein families. It chose chromosomes. Yada, yada, yada: (pretty much) frozen choices allowing more complex forms to emerge. And you could argue that the genetic code and these other things are still changing, but they're just changing very slowly, while other things change more quickly
+Guillermo Valle Pérez
+4/22, 3:43pm
+Guillermo Valle Pérez
+Hm, I see what you mean
+Chico Camargo
+4/22, 3:43pm
+Chico Camargo
+In a similar fashion, I see that with language. We aren't really changing our alphabet, or our grammar structures anymore, it seems like those evolved once and stopped, but they're just changing slowly. On the other hand, new words still appear all the time
+I think it makes total sense to get the transducer from a set of transducers
+- but if you're picking a simple transducer, you're probably already doing that
+Guillermo Valle Pérez
+4/22, 3:44pm
+Guillermo Valle Pérez
+well im picking simple ones in the sens of small number of states
+Chico Camargo
+4/22, 3:45pm
+Chico Camargo
+If the transducer can really be represented as a string, then I'd be sure of that
+Guillermo Valle Pérez
+4/22, 3:45pm
+Guillermo Valle Pérez
+but i haven tried generating transducers from a transducer
+yet
+but in your example above
+it seems like it would like generating random transducers and then fixing to one. Then using that fixed transducers as maybe a building block out of which new meta transducers can be built...
+tho im not sure i understand where GP maps fit in all the biological examples you mention above
+Chico Camargo
+4/22, 3:49pm
+Chico Camargo
+a GP map is a translation, an I/O machine, a transducer. Something that converts information of a kind into information of another kind
+Guillermo Valle Pérez
+4/22, 3:50pm
+Guillermo Valle Pérez
+first the atcg is an alphabet, not a GP map right? Then it evolved the codon-aminoacid, which i see its a GP map. What is the protein family, and what do the chromosomes have to do with a GP map?
+i mean I would understand that gene-&gt; protein is a GP map. Then protein-&gt;some cellular phenotype is another one..
+Chico Camargo
+4/22, 3:52pm
+Chico Camargo
+Ok, point taken, the ATCG is not a GP map. It is an alphabet.
+Let me put it this way:
+Chico Camargo
+4/22, 3:59pm
+Chico Camargo
+Nature chooses a way store information, then it pretty much settles for that one according to some criteria like thermodynamical stability and to how much information you can store with that system - for instance, ATCG basepairs. Or, another way to store information, aminoacids. So now we have two alphabets, one with four letters, one with ~20.
+Then, once those had been pretty much chosen, eventually nature chose/found a way to translate between them. Or maybe it found the latter alphabet as an outcome of finding the GP map that converts information stored in DNA sequences to information stored in aminoacid sequences. But anyway, it chose the alphabets, then it chose the GP map.
+Focusing on the GP maps: DNA-&gt; Proteins, Protein shape-&gt; Protein function in the cell, gene networks -&gt; cellular phenotype, cell type composition -&gt; tissue structure/function/identity, whatever mapping from one kind of information to another (but just mappings, so nothing about the chromosomes I had mentioned). My point is that I think often nature tries many &quot;transducers&quot;, many I/O machines, and eventually it chooses some of them, and builds on top of them. So the I/O alphabets and GP maps are conserved along evolution.
+In this sense, humans probably use the same cell types as other apes. And we all use the same body plans as other mammals. And the same embryonic development genes as worms. Etc etc downards, ad infinitum.
+Chico Camargo
+4/22, 4:01pm
+Chico Camargo
+I'm saying this because some structures evolve quickly and others don't: in the hierarchy of which genes regulate which other ones, the further up a gene is placed, the less it changes over time: the more conserved it is.
+And I think that makes total sense, considering that it is part of a GP map that was &quot;chosen&quot; long ago
+Guillermo Valle Pérez
+4/22, 4:02pm
+Guillermo Valle Pérez
+and because many things depend on it, it's hard to change right?
+Chico Camargo
+4/22, 4:02pm
+Chico Camargo
+that too
+in theory you could change it, but today that'd mean a drastic reduction on fitness
+it'd be like trying to reinvent the genetic code: it won't work, life relies too much on that
+Guillermo Valle Pérez
+4/22, 4:03pm
+Guillermo Valle Pérez
+that's what I mean, unless you change many things along with it, in just the right ways.. which is highly unlikely
+Chico Camargo
+4/22, 4:03pm
+Chico Camargo
+Exactly
+That'd be like changing the English grammar, or semantics
+On the other hand, if the evolutionary innovation is pretty fresh, there's probably not much relying on it, so it's ok to break it
+Guillermo Valle Pérez
+4/22, 4:06pm
+Guillermo Valle Pérez
+This is just why it's so hard to say switch from qwerty to dvorak keyboards, it's changing your whole word-hand movement GP map, on which your whole internet life depends
+Chico Camargo
+4/22, 4:06pm
+Chico Camargo
+haha
+yeah!
+So, I think the easiest story you can tell is that a transducer is a very simple a GP map, without all the biological details.
+Which features did you say are not captured by the transducers?
+Guillermo Valle Pérez
+4/22, 4:09pm
+Guillermo Valle Pérez
+Well in theory all GP maps should potentially be expressed as transducers, though probably of many more states. Having 5 states is like considering the set of sufficiently coarse-grained biological models I suppose..
+Chico Camargo
+4/22, 4:11pm
+Chico Camargo
+Hm, there is one thing I still don't  see
+What you said resonates very well with the ideas in that paper I sent you: that all these properties come from the sequence nature of genotypes and phenotypes
+or genotypes at least.
+and sequences = I/O strings, great
+Guillermo Valle Pérez
+4/22, 4:13pm
+Guillermo Valle Pérez
+If you consider any number of states, transducers pretty much include everything else.. But I'm only considering simple ones.
+A simple transducer can either be justified as some process during the earliest stages of evolution of some form of life (natural or artificial) where the system itself is actually simple. Say a few dots in game of life, or a few molecules.
+Then the justification to apply to more complex life is probably the same as why we use coarse-grained models: yeah life is full of intricate details, but it is organized in such a way that is approximately simple.
+I think this would like saying complex life is really behainv as a transducer with many many states, but this transducer is coarse-grainable to a transducer of few states.
+This actually agrees nicely with the idea that life current GP maps were in some way determined by previous GP maps, and thus are expected to be simpler than just a random GP map from ATCG to tissue...
+Chico Camargo
+4/22, 4:14pm
+Chico Camargo
+Yeah
+I'm happy with that
+there is only one thing that I still fail to agree/understand
+A transducer translates input to output by treating the input as an (ordered) string: it first reads the first character, then the second, then the third
+And even though the map in the end is from string A to string B, it's calculated from this step-by-step reading
+Guillermo Valle Pérez
+4/22, 4:15pm
+Guillermo Valle Pérez
+that's how it &quot;mechanically&quot; works yeah
+Chico Camargo
+4/22, 4:16pm
+Chico Camargo
+Yeah
+But for example, a gene network. The network, really. It can be written as a string, but you can also do any permutations on the gene order, and that'd give you a different string.
+The GP map for gene networks is also from string to string, but it doesn't rely on reading anything step by step
+and it's harder for me to talk about &quot;what parts of the string are unconstrained&quot;, for instance
+Guillermo Valle Pérez
+4/22, 4:17pm
+Guillermo Valle Pérez
+&quot;written as a string, but you can also do any permutations on the gene order, and that'd give you a different string.&quot; but it'd give you the same network, you mean?
+Chico Camargo
+4/22, 4:17pm
+Chico Camargo
+It'd give you a network that is isomorphic to it (like, B-&gt;A instead of A-&gt;B). That could possibly give you the same phenotype
+or an isomorphic phenotype. Hm
+Guillermo Valle Pérez
+4/22, 4:18pm
+Guillermo Valle Pérez
+but i mean, if you have some map from finite strings to finite strings, it is always in principle writeable as a finite transducer
+Chico Camargo
+4/22, 4:18pm
+Chico Camargo
+Oh. That's true.
+Guillermo Valle Pérez
+4/22, 4:18pm
+Guillermo Valle Pérez
+the transducer may be quite large though
+Chico Camargo
+4/22, 4:18pm
+Chico Camargo
+There's a theorem that does that, right?
+that says that
+shit. That's awesome.
+Guillermo Valle Pérez
+4/22, 4:19pm
+Guillermo Valle Pérez
+yeah... I mean it's kind of floating around the results of turing and church and co. I think
+A Turing machin is just a kind of finite transducer with infinite memory
+so like infinite number of states..
+Chico Camargo
+4/22, 4:20pm
+Chico Camargo
+yeah yeah
+Guillermo Valle Pérez
+4/22, 4:20pm
+Guillermo Valle Pérez
+But the thing is that a map between two finite sets can always be expressible with finite memory
+Chico Camargo
+4/22, 4:20pm
+Chico Camargo
+no, there is, I'm sure
+I read this theorem yesterday, it's all coming back
+Guillermo Valle Pérez
+4/22, 4:20pm
+Guillermo Valle Pérez
+ah cool
+Chico Camargo
+4/22, 4:21pm
+Chico Camargo
+What I actually read:
+Guillermo Valle Pérez
+4/22, 4:21pm
+Guillermo Valle Pérez
+You can make your own! Map any finite set of inputs to any output: <a class="tc-tiddlylink-external" href="http://examples.mikemccandless.com/fst.py?terms=pepe%2F33%0D%0Amoth%2F1%0D%0Apop%2F2%0D%0Astar%2F3%0D%0Astop%2F4%0D%0Atop%2F5%0D%0A&amp;cmd=Build+it" rel="noopener noreferrer" target="_blank">http://examples.mikemccandless.com/fst.py?terms=pepe%2F33%0D%0Amoth%2F1%0D%0Apop%2F2%0D%0Astar%2F3%0D%0Astop%2F4%0D%0Atop%2F5%0D%0A&amp;cmd=Build+it</a>!
+examples.mikemccandless.com
+examples.mikemccandless.com
+Chico Camargo
+4/22, 4:23pm
+Chico Camargo
+There is a correspondence between formal grammars (sets of strings) and automata (that might accept or reject a string, saying that it does or doesn't belong in that grammar).
+Finite grammars map to finite automata,
+Context-free grammars to push-down automata, and so on,
+Until phrase structure grammars that map to Turing machines.
+Grammars and finite automata are slightly different from FST, but I'm sure there must be a version of that theorem that talks about FST.
+Chico Camargo
+4/22, 4:24pm
+Chico Camargo
+Ah brilliant!
+That's really interesting, since any finite set is enumerable (and more specifically enumerable in binary), any finite set can be translated to strings.
+But that alone doesn't mean that you would have any bias of any sort
+Now it's clear to me that it isn't about the sequence order, as in which part comes first, but simply from the hypercube nature of the space of sequences
+Guillermo Valle Pérez
+4/22, 4:31pm
+Guillermo Valle Pérez
+See page 20 of <a class="tc-tiddlylink-external" href="http://web.cs.ucdavis.edu/" rel="noopener noreferrer" target="_blank">http://web.cs.ucdavis.edu/</a>~rogaway/classes/120/spring13/eric-transducers.pdf there it effectively says what we want, that they can encode any map between finite sets
+web.cs.ucdavis.edu
+web.cs.ucdavis.edu
+Guillermo Valle Pérez
+4/22, 4:32pm
+Guillermo Valle Pérez
+what is comes &quot;from the hypercube nature of the space of sequences&quot;?
+Chico Camargo
+4/22, 4:32pm
+Chico Camargo
+yup! I see it
+Guillermo Valle Pérez
+4/22, 4:33pm
+Guillermo Valle Pérez
+Also the bias comes from constraining the maps to be simple in the sense of few states in the fst, I think. Clearly if you considered all possible maps between two sets there wouldn't be bias in average
+i meant: what comes &quot;from the hypercube nature of the space of sequences&quot;?
+my internal fst is making so many mistakes..
+Chico Camargo
+4/22, 4:34pm
+Chico Camargo
+I agree that if you considered all the possible FST you wouldn't get any nice average, you need simple FSTs
+haha have you switched to dvorak?
+Chico Camargo
+4/22, 4:34pm
+Chico Camargo
+What I mean is that the paper I sent you they say:
+&quot;The Fibonacci GP map therefore offers strong evidence that the sequential nature of biological information determines the fundamental structure of GP maps, which in turn has a profound impact on the course of biological evolution.&quot;
+Guillermo Valle Pérez
+4/22, 4:35pm
+Guillermo Valle Pérez
+no i meant internal as in in the brain. I wanted to swithc to dvorak but havent had time tongue emoticon
+Yeah I didn't get that part
+Chico Camargo
+4/22, 4:35pm
+Chico Camargo
+And when they say &quot;the sequential nature&quot;, I think it suggests that the fact that information is stored in ordered sequences. But I think it isn't so much about that
+Guillermo Valle Pérez
+4/22, 4:35pm
+Guillermo Valle Pérez
+Yeah I thought it was more about it having constrained and unconstrained parts
+which doesnt say anything about how the information is stored/read
+Chico Camargo
+4/22, 4:36pm
+Chico Camargo
+Yeah. I think the order doesn't really matter.
+exactly.
+and the unconstrained parts could be in the beginning, middle, end, or just have no order
+Guillermo Valle Pérez
+4/22, 4:37pm
+Guillermo Valle Pérez
+yeah, in fact in the fsts unconstrained parts are not a fixed portion of the input string, but depend on the previous portions of the input string
+Chico Camargo
+4/22, 4:37pm
+Chico Camargo
+as long as you have an unconstrained part whose contribution to the designability of your phenotype size grows exponentially (or just a lot) with the size of the unconstrained part: like 4^L, in the case of RNA, or 2^L in the binary case
+Guillermo Valle Pérez
+4/22, 4:38pm
+Guillermo Valle Pérez
+&quot;An unconstrained part&quot; should more correctly be a property of the FST mechanism than a part of the input string. In the FSTs, an unconstrained part is a state whose outputs are the same irresepective of input.
+Chico Camargo
+4/22, 4:39pm
+Chico Camargo
+indeed
+unconstrained means ignored by the GP map
+Guillermo Valle Pérez
+4/22, 4:40pm
+Guillermo Valle Pérez
+In the case of the FSTs as you grow the length of the input, the input has more chances of looping through these states and everytime you go through it the number of possibilities multiplies by 2, so it grows almost exponentially
+Chico Camargo
+4/22, 4:40pm
+Chico Camargo
+so if the GP map doesn't care about sequence/string order, the unconstrained parts of the genotype won't be ordered, won't be &quot;after a stop codon&quot;
+yeah
+Guillermo Valle Pérez
+4/22, 4:41pm
+Guillermo Valle Pérez
+well there may be some order to them, but may be more complicated and subtle, and not-apparent
+Chico Camargo
+4/22, 4:43pm
+Chico Camargo
+but see, a gene network isn't ordered per se. When you decide to represent it as a string, sure, you've ordered it. For the same GP map, different orderings will produce different transducers, and therefore different orderings of the unconstrained parts, but there is no inherent order on a gene network
+Chico Camargo
+4/22, 4:44pm
+Chico Camargo
+There is, though, an exponential contribution to designability: 3^X, where X is the number of &quot;unconstrained&quot; interactions
+Guillermo Valle Pérez
+4/22, 4:44pm
+Guillermo Valle Pérez
+And you can actually construct GP maps where the bias is towards some designed complex sequence instead of towards simple ones. However these require very special kinds of structures with the sequence coded into it, while a bias towards a simple output requires a simple structure, and thus appears often in FSTs
+Chico Camargo
+4/22, 4:45pm
+Chico Camargo
+precisely.
+Guillermo Valle Pérez
+4/22, 4:46pm
+Guillermo Valle Pérez
+yeah i agree that for the network the output shouldnt depend on the ordering. However, maybe due to the nature of the FST different ordering conventions may need different FSTs
+Chico Camargo
+4/22, 4:46pm
+Chico Camargo
+Yeah
+Guillermo Valle Pérez
+4/22, 4:47pm
+Guillermo Valle Pérez
+&quot;3^X, where X is the number of &quot;unconstrained&quot; interactions&quot;. what are the uncstrained interactions?
+Chico Camargo
+4/22, 4:47pm
+Chico Camargo
+the genotype for a gene network is the network's directed graph
+each link between nodes A and B can be +, -, or non-existent (0). That's what I called 'interactions': these links
+Guillermo Valle Pérez
+4/22, 4:49pm
+Guillermo Valle Pérez
+and it is unconstrained if it doesnt affect the phenotype you define?
+Chico Camargo
+4/22, 4:50pm
+Chico Camargo
+Exactly. When I said &quot;There is, though, an exponential contribution to designability: 3^X, where X is the number of &quot;unconstrained&quot; interactions&quot;, I meant that if there are X interactions that can be a +, a - or an 0 and that won't make a difference for the resulting phenotype, they'll be increasing the designability of that phenotype by 3^X.
+Guillermo Valle Pérez
+4/22, 4:53pm
+Guillermo Valle Pérez
+It'd be interesting to find the actual FST for the network description to cycle/phenotype
+and see if those unconstrained parts can be seen as unconstrained states in the fst
+Chico Camargo
+4/22, 4:54pm
+Chico Camargo
+I mean, if for every GP map there is a FST, it should be
+I'm still pondering
+This sequence story: The cause for all these properties would not be &quot;sequential nature of biological information&quot;, but the fact that in nature you often have unconstrained parts whose contribution to the designability of your phenotype size grows exponentially.
+Guillermo Valle Pérez
+4/22, 4:58pm
+Guillermo Valle Pérez
+Yeah
+Chico Camargo
+4/22, 4:58pm
+Chico Camargo
+Well, it's from the same principles behind PCA, that most things need a short description
+that's sloppiness, essentially
+Guillermo Valle Pérez
+4/22, 4:58pm
+Guillermo Valle Pérez
+PCA?
+Chico Camargo
+4/22, 4:59pm
+Chico Camargo
+Principal Component Analysis. It's a technique that effectively reduces the dimensionality of a dataset by finding a set of axes (the base, in linear algebra terms) where most of the variation in your dataset can be described by the first axes
+Guillermo Valle Pérez
+4/22, 5:00pm
+Guillermo Valle Pérez
+Ah yeah. Yeah I mean, we are trying to find (at least part) of the explanation of the simplicity in the word smile emoticon
+Chico Camargo
+4/22, 5:01pm
+Chico Camargo
+in the word and in the world? wink emoticon
+Guillermo Valle Pérez
+4/22, 5:02pm
+Guillermo Valle Pérez
+haha yeah lucky mistake
+Chico Camargo
+4/22, 5:02pm
+Chico Camargo
+Man, I'm really hungry, I gotta get some lunch
+But let's keep talking about this! This is really exciting, and it's awesome to talk to you about that grin emoticon
+Also, would you send me your code so I play with it as well?
+Guillermo Valle Pérez
+4/22, 5:04pm
+Guillermo Valle Pérez
+Sure, i'll put it on github and share! And yeah we'should talk again
+Chico Camargo
+4/22, 5:04pm
+Chico Camargo
+Sweet!
+See you later then!
+Guillermo Valle Pérez
+4/22, 5:04pm
+Guillermo Valle Pérez
+like emoticon
+Guillermo Valle Pérez
+4/22, 5:18pm
+Guillermo Valle Pérez
+<a class="tc-tiddlylink-external" href="https://github.com/guillefix/fst-bias" rel="noopener noreferrer" target="_blank">https://github.com/guillefix/fst-bias</a></p><p>guillefix/fst-bias
+fst-bias - Code for the exploration of bias for simplicity in the output of random finite state transducers
+github.com
+Chico Camargo
+4/22, 5:52pm
+Chico Camargo
+Cheers!</p></div>
+
+
+
+</div>
+
+</p>
+
+</section>
+</body>
+</html>

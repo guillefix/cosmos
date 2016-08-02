@@ -1,0 +1,36 @@
+created: 20160615140643067
+creator: guillefix
+modified: 20160711234711559
+modifier: guillefix
+title: Activities and Sensitivities in Boolean Network Models
+
+See [[Dynamical Instability in Boolean Networks as a percolation Problem]], [[Boolean network]]
+
+New paper: [[Network Structure and Activity in Boolean Networks|http://link.springer.com/chapter/10.1007%2F978-3-662-47221-7_16]]
+
+[[Activities and Sensitivities in Boolean Network Models|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.93.048701]]
+
+Boolean functions in which few variables have high importance and most other variables have low importance play a role in eliciting order from Boolean networks.
+
+We should mention in passing that much of the discussion in this Letter can be formulated in terms of spectral methods or harmonic analysis on the $$n$$ cube. 
+
+__Boolean function derivative__
+
+[img[http://i.imgur.com/2z9wHHU.png]]
+
+__Activity__
+
+[img[http://i.imgur.com/6lkjX2c.png]]
+
+__Sensitivity__
+
+[img[http://i.imgur.com/3UWrawk.png]]
+[img[http://i.imgur.com/CPR0PI8.png]]
+
+For a random Boolean function with bias $$p$$ (so that each bit in the truth table is $$1$$ with probability $$p$$ and $$0$$ otherwise), the probability that two Hamming neighbors are different is equal to $$2p(1-p)$$, since one can be $$1$$ (with probability $$p$$) and the other 0 (with probability $$1-p$$), and vice versa.
+
+From this one can see that  $$E[\alpha_i^f] = 2p(1-p)$$, and $$E[s^f] = K2p(1-p)$$, where $$E$$ means expectation value w.r.t. the prob. distribution of the truth tables. We can then conclude that highly biased functions ($$p$$ far away from 0.5) are expected to have low average sensitivity. 
+
+For a Boolean function $$f$$, a canalizing variable is a variable that determines (canalizes) the value of $$f$$ if it has a given value. See the article for more precise definition. A random Boolean function with a single canalizing variable, it is shown [[here|http://journals.aps.org/prl/supplemental/10.1103/PhysRevLett.93.048701/influencesupplementarymaterial.pdf]] that the expected activity of the canalizing variable is $$1/2$$, while that of the rest of the variables is $$1/4$$
+
+The average sensitivity (when averaged over all the functions in the network) appears to be a good parameter for predicting whether the dynamics of the Boolean network are ordered or chaotic. This can be observed by looking at Derrida curves.

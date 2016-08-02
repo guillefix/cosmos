@@ -1,0 +1,46 @@
+created: 20160501224802348
+creator: guillefix
+modified: 20160603004106312
+modifier: guillefix
+tags: Mechanics
+title: Bulk matter
+
+''Bulk matter'' refers to a piece of [[matter|https://en.wikipedia.org/wiki/Matter#Based_on_quarks_and_leptons]] composed of sufficiently many building blocks (elementary particles, atoms, molecules, ...) in such a way that __a simple [[statistical|Statistical physics]] description is appropriate__, an bulk properties like temperature, [[Viscosity and elasticity]], etc can be defined. These are also called //material properties// or //macroscopic properties//.
+
+Bulk matter can be either composed of a single [[phase|Phase transition]] or a mixture of phases; see for instance [[dispersions|Dispersion (Chemistry)]].
+
+I use the term "form" of matter to refer to a particular type of bulk matter: either a single phase or a mixture of phases. I also use the world //material// (see [[Materials science]]) mostly to refer to a particular form of matter. I think that "phase" is sometimes used more widely in the same sense as I use the term "form".
+
+__When is a system bulk matter?__
+
+Note that many pieces of matter are formed by components interacting in complicated ways, in such a way that a simple statistical description does not appropriately describe its behaviour for many purposes; for instance, a computer, or a cell. These are in most situations not considered as bulk matter, and should be treated as [[Complex systems]] instead. However, whether a statistical description is appropriate, and therefore whether they are considered bulk matter, really depends on the problem, and so for some problems, these systems can be considered bulk matter (for instance, when studying the overall mechanical strength of a computer system). From here on, "matter" refers to bulk matter, unless otherwise specified. 
+
+!!__Classification__
+
+Bulk matter can be classified depending on whether the phase (see [[Condensed matter physics]] for more detailed explanation):
+
+* is [[condensed or non-condensed|Condensed matter physics]].
+
+* is a [[fluid|Fluid mechanics]], a [[solid|Solid mechanics]], or a [[viscoelastic material|Viscoelasticity]], depending on its [[elasticity|Viscosity and elasticity]] properties. Fluids flow easily, while solids do not.
+
+* [[Hard|Solid-state physics]] vs [[soft|Soft matter physics]], depending on whether the internal degrees of freedom of the material are affected significantly by thermal fluctuations (soft), or not (hard).
+
+!!__Physics__
+
+!!!__Mechanics__
+
+The [[Mechanics]] of most classical types of bulk matter can be macroscopically described via [[Continuum mechanics]], which __describes matter in terms of //continuum equations//__, based on space-time varying //fields// that evolve according to [[Differential equations]].
+
+This is the foundational theory used in [[Mechanical engineering]], and related areas. Continuum equations are also widely used in physics, particularly in [[Solid mechanics]], [[Fluid mechanics]], [[Soft matter physics]], [[Astrophysics]], rheology, etc.
+
+[[Rheology]] is a branch of continuum mechanics that __studies the flow of matter__, primarily in a liquid state, but also as 'soft solids' or solids under conditions in which they respond with plastic flow rather than deforming elastically in response to an applied force. That is, rheology does not study a particular class of bulk matter, but the flow of any bulk matter.
+
+!!!__Thermodynamics__
+
+[[Thermodynamics]] is the classical theory describing the flow of heat through matter. It is often combined with continuum mechanics to explain phenomena such as convection.
+
+!!!__Modern physics__: statistical physics, quantum mechanics
+
+There are many more complex phases of matter particularly in [[soft condensed matter|Soft matter physics]], that go beyond those simply described by continuum equations (although these are still very useful in many of these). Description of these often needs more advanced ideas from [[Statistical physics]].
+
+The microscopic study of matter, as done for example in [[Quantum condensed matter physics]] and [[Statistical physics]], also goes beyond phenomenological and macroscopic descriptions of classical physics and tries to derive materials properties from microscopic physics.

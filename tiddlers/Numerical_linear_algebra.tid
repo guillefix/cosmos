@@ -1,0 +1,23 @@
+created: 20160207143004317
+creator: guillefix
+modified: 20160327181529856
+modifier: guillefix
+tags: [[Scientific computing]]
+title: Numerical linear algebra
+
+[[Oxford course|https://www0.maths.ox.ac.uk/courses/course/28809/material]]
+
+Over and over again we see a pattern like this:
+
+nonlinear ----------linearize & iterate-----------> LINEAR
+
+PDE ------------discretize-------------> ALGEBRA
+
+Because of this, computers have brought linear algebra, and numerical linearalgebra, to the forefront of the mathematical sciences.
+
+Standard algorithms to ''solve linear system'' $$Ax = b$$, i.e. matrix inversion, grow like $$O(N^3)$$. To improve this one can:
+
+* use ''parallel computing'', or 
+* algorithms to ''take advantage of sparsity of matrix'' (many entries are zero)
+
+In recent years flop count is less and less important at the high end (i.e. for many processors) – communication is a bigger bottleneck.

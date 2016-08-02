@@ -1,0 +1,17 @@
+created: 20160709022127356
+creator: guillefix
+modified: 20160709022128333
+modifier: guillefix
+title: Hardware for deep learning
+
+//GPU computing//
+
+CUDA optimization: https://github.com/akrizhevsky/cuda-convnet2
+
+Nice Nvidia hardware for deep learning: https://developer.nvidia.com/devbox
+
+[[NVIDIA GPUs - The Engine of Deep Learning|https://developer.nvidia.com/deep-learning]]
+
+[[Deep learning hardware guide|http://timdettmers.com/2015/03/09/deep-learning-hardware-guide/]]
+
+[[https://www.reddit.com/r/buildapcforme/comments/3vrokm/high_end_pc_for_deep_learning_up_to_3500/|https://www.reddit.com/r/buildapcforme/comments/3vrokm/high_end_pc_for_deep_learning_up_to_3500/]]

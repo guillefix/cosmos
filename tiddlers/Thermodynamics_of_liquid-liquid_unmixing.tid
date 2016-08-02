@@ -1,0 +1,59 @@
+created: 20160209154321350
+creator: guillefix
+modified: 20160331172714664
+modifier: guillefix
+title: Thermodynamics of liquid-liquid unmixing
+
+When two liquids are miscible in all proportions at high temperature, but separate into two distinct phases when the temperature is lowered.
+
+The [[Mean field theory]] for this situation is the ''regular solution model''. This describes the thermodynamics (i.e. equilibrium properties) of the phase separation. The kinetics (i.e. non-equilibrium properties/dynamics) of phase separation are described [[here|Kinetics of liquid-liquid unmixing]].
+
+The important quantity is the //volume fraction//, $$\phi_{A,B}$$, proportional to the probability to find a particle of type A or B at a given point, which may in principle depend on space.
+
+To begin with, we assume it doesn't depend on space, and we assume that the probabilities for neighbours are independent (mean field approximation).
+
+A way to think about this more precisely is imagining all and each of the configurations for unlabelled particles (with finite volume) in a fluid. Now, assume all of these are equally probable, with probability $$1/\Omega$$. Now, for each of these spatial configurations of unlabelled particles, imagine all the possible ways of labelling the particles with A or B. In particular, we assume that for each of these configurations, the labelling of each of the particles is an independent random event, and for each particle there is probability $$\phi_A$$ of labelling it A, and probability $$\phi_B$$ of labelling it B. This doesn't fix the total numbers of A and B, but for large numbers it approximately does so, with errors of $$1/\sqrt{N}$$. Within this approximation we also have $$\phi_i=N_i/N$$ (where $$N_i$$ is the average number of species $$i$$), so that we may call $$\phi$$ a concentration.
+
+We could do it fixing the number of particles of each species, but it's more cumbersome, and not really correct for the case where $$\phi$$s vary in space (because when $$\phi$$ varies in space, we don't assume the numbers are fixed, but only the chemical potentials, and thus the average numbers). If one fixes the number of the species, though, one can approach it as it's done in the derivation of the Flory-Huggins theory in Doi's polymer physics book (to see some notes on an extension to the continuous Gaussian chain, instead of the lattice model).
+
+More importantly, these probabilities are not right because nearby particles are going to interact in our model, so there will be correlations in positions induced by the Boltzmann factors depending on the energies. This is where we make the __mean field approximation__. <mark>We ignore these correlations and assume the probability distributions at each site are independent!</mark>
+
+By decomposing the possible states in this way we have for the entropy ($$A$$ is set of unlabelled arrangements):
+
+$$S=-\sum p\ln{p} = -\sum_{A} \sum_{N_A, N_B} \frac{N!}{N_A!N_B!} (1/\Omega \phi_B^{N_B} \phi_A^{N_A}) \ln{(1/\Omega \phi_B^{N_B} \phi_A^{N_A})} $$
+
+$$=-\ln{\Omega} -\sum_{A} \sum_{N_A, N_B}\frac{N!}{N_A!N_B!} (1/\Omega \phi_B^{N_B} \phi_A^{N_A}) \ln{(\phi_B^{N_B} \phi_A^{N_A})} $$
+
+$$=-\ln{\Omega} -\sum_{N_A, N_B}\frac{N!}{N_A!N_B!} (\phi_B^{N_B} \phi_A^{N_A}) (N_B\ln{\phi_B }+N_A\ln{\phi_A})$$
+
+$$=-\ln{\Omega} -\sum_{N_A} \frac{N!}{N_A!(N-N_A)!}(\phi_B^{N-N_A} \phi_A^{N_A}) ((N-N_A)\ln{\phi_B }+N_A\ln{\phi_A})$$
+
+$$=-\ln{\Omega} -N\phi_B \ln{\phi_B}-N\phi_A \ln{\phi_A}$$
+
+where we used the properties of Binomial distributions and that $$\phi_B+\phi_A=1$$, as there are no other types of particles. Ignoring constants, the entropy per particle is:
+
+$$-\phi_B \ln{\phi_B}-\phi_A \ln{\phi_A}$$
+
+We can write the energy per particle too. We define energies for AA, BB, and AB pairs. We assume, following our mean field approximation that there are a number of A neighbours equal to the expected number of neighbours given by the above scheme, i.e. $$z\phi_A$$, and similarly for B, where $$z$$ is the expected number of neighbours, not caring about label. After some algebra this gives a free energy:
+
+$$\frac{F_{\text{mix}}}{kT}=\phi_A\ln{\phi_A} +\phi_B\ln{\phi_B}+\chi\phi_A\phi_B$$. 
+
+where $$\chi$$ depends on the strength of the interaction energies relative to $$kT$$. This curve has one minimum for high T and two minima for $$\chi\geq 2$$ (where we consider $$F$$ as a function of  $$\phi_A$$ say). When there's one minimum, the system will in general not reach it because $$\phi_A$$ is fixed, and it can be seen geometrically (see soft matter Jones book) that when the curve has positive curvature, then any phase separation will be unfavorable. However, when the two minima appear, it is favorable.
+
+Phase separation refers to a system where there are different spatial regions in the volume of the system with different values for the order parameter, in this case related to $$\phi_A$$. 
+
+[img[liquid-liquid_unmixing.png]] Fig. 1
+
+The curve corresponding to the most favourable concentrations that will coexist in the different regions for the phase separated mixture is called the ''coexistence curve'', or the ''binodal''.
+
+These most favourable concentrations are the ones that when a line is drawn through their corresponding values of F in the curve, the intersection with the line $$\phi=\phi_0$$, the initial concentration, is lowest. See Fig 1.a. This (if there are no degeneracies) can be found by the //double-tangent// construction: by finding a straight line that is tangent to the curve at two points. This condition is derived as follows:
+
+[img[liquid-liquid_unmixing3.png]]
+
+Analyzing the free energy curve and realizing that the separation process is continuous (not a sudden jump), one realizes that depending on where the initial concentration begins, the separation is locally stable or locally unstable (i.e. metastable). This depends on the curvature of the curve as seen in figure 2. As usual the metastable will have a time-scale for overcoming the barrier (exponentially dependent on hight barrier. c.f. [[Kramers rate theory]])
+
+[img[liquid-liquid_unmixing2.png]] Fig. 2
+
+The curve that separates these two regimes, i.e. where $$d^2F/d\phi^2=0$$, is called the ''spinodal''.
+
+A good point to remember is that $$\chi$$, in the simplest case depends on temperature as $$1/T$$, but often the energies of interaction we used in it have entropic contributions, so the temperature dependence is more complicated.

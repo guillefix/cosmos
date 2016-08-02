@@ -1,0 +1,17 @@
+created: 20160713193844469
+creator: guillefix
+modified: 20160714153220758
+modifier: guillefix
+title: Graph automorphism
+
+See [[Graph theory]]
+
+A (graph) ''automorphism'' is an isomorphism from a graph to itself, i.e., where $$G=G'$$.
+
+Automorphisms capture the notion of symmetry for a graph because imposing the above condition of edge preserving is that same than imposing that if we move vertices in a geometrical representation of a graph from their positions to the positions previously occupied by other nodes while carrying their connections with them (because if connections exist between $$i$$ and $$j$$, they must exist between $$f(i)$$ and $$f(j)$$, so that it is a homomorphism, i.e. a structure preserving map), then the new connections will be the same as those of the original graph (because the homomorphism property implies they are a subset of the connections. However, for it to be an isomorphism, the inverse map must also be a homomorphism, so that a connection $$(k,l)$$ must correspond to connections $$(f^{-1}(k), f^{-1}(l))$$, so that it is also a superset, and so the sets of edges are equal).
+
+->Another way of looking at a graph automorphism is as a permutation $$\lambda$$ of the node labels $$V$$, such that a pair of vertices $$(i,j)$$ are connected if and only if $$(\lambda(i), \lambda(j)$$ are connected.
+
+->Yet another way of looking at graph automorphisms is, I think, as symmetries of the [[Adjacency matrix]]. Any permutation of the node labels that leaves the adjacency matrix unchanged is a graph automorphism.
+
+The set of all automorphisms of an object forms a group, called the ''automorphism group''. Intuitively, the size of the auto- morphism group A ( g ) provides a direct measure of the abundance of symmetries in a graph or network. Every graph has a trivial symmetry (the identity) that maps each vertex to itself.

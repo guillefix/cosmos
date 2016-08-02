@@ -1,0 +1,14 @@
+created: 20160131222359508
+creator: guillefix
+modified: 20160131223035217
+modifier: guillefix
+tags: 
+title: Similarity network
+
+A ''Similarity network'' is one that expressed how similar entities (expressed as the nodes) are. The degree of similarity being the weight of the node.
+
+The weight matrix $$A_{ij}$$ represents level of similarity between entities $$i$$ and $$j$$ in the network. A similarity network is almost always complete (the only deviation from completeness is from nodes that can't be compared for some reason).
+
+For example, if we have a matrix of votes, we can define $$A$$ as:
+
+$$A=\frac{\text{times i and j voted same ways}}{\text{total number of times both i and j voted on same measure}}$$

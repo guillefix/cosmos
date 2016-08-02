@@ -1,0 +1,62 @@
+created: 20160223233035839
+creator: guillefix
+modified: 20160223234230086
+modifier: guillefix
+title: Extensions of preferential attachment models (Network theory)
+
+See [[Models of network formation]]
+
+* Edges (like hyperlinks) may also disappear. They may also appear at times after the nodes are added.
+
+* Nodes may also disappear (like websites).
+
+* Preferential attachment could be non-linear on degree, or it could depend on other network property of the node.
+
+* Nodes may have some intrinsic fitness too.
+
+__Models with extra edge addition__
+
+Model can consist of the BA model, but with an extra process carried out at each step. A given number of edges $$w$$ is added to the network between two nodes with a probability proportional to their degree. One can again construct a master equation, and get a power law degree distribution.
+
+Similar models exist that generalize the Price's model instead of BA.
+
+__Edge removal__
+
+Simple model: at each update step we remove $$v$$ edges chosen uniformly at random from set of all edges. The probability that node $$i$$ looses an edge connected to it, for each of these removals, is $$2k_i/\sum_i k_i$$. This is because randomly choosing an edge means randomly choosing a pair of stubs, and $$i$$ will loose an edge when either of these randomly chosen stubs coincides with one of the $$k_i$$ stubs incident to $$i$$. The probability of this happening for each of the randomly chosen stubs is $$k_i/\sum_i k_i$$, and the probability that either stubs is from $$i$$ is $$2k_i/\sum_i k_i-\text{probability both ends on same edge}$$. However the $$\text{probability both ends on same edge}$$ is $$0$$ because the BA network formation model doesn't allow self-edges to form. Therefore we are left with $$2k_i/\sum_i k_i$$, as in Newman's book.
+
+
+__Models with edge addition and removal__
+
+One can also combine the two models above. The master equation in this case, becomes more complicated, because $$p_k$$ now depends on both $$p_{k+1}$$ and $$p_{k-1}$$. Generating function methods need then to be used. Se Newman section 14.4.2 or the paper [[ Exact solutions for models of evolving networks with addition and deletion of nodes|http://arxiv.org/abs/cond-mat/0604069]] for detailed calculation, and a power law degree distribution is still obtained (though with different exponent of course), as long as edge removal rate is not too high.
+
+One can also do analogous for removal and addition of nodes.
+
+__Non-linear preferential attachment__
+
+Attachment probability may depend nonlinearly on degree, i.e. we have a nonlinear attachment kernel.
+
+One can still derive an asymptotic form of the degree distribution for the case $$a_k \propto k^\gamma$$, of interest because empirical networks have shown this form of preferential attachment. For $$1/2 <\gamma <1$$, the degree distribution is no longer a power law, but an "stretched exponential" of the form:
+
+$$p_k \sim k^{-\gamma} \exp{(-\frac{\mu k^{1-\gamma}}{c(1-\gamma)})}$$
+
+This function decays slower than exponential because $$1-\gamma <1$$. There are also similar but more complicated expressions for other $$\gamma$$ in the range $$(0,1)$$.
+
+One can also calculate the case for superlinear preferential attachment with $$\gamma >1$$. In this case it turns out that the behaviour is that a "leader" emerges in the network, gaining a non-zero fraction of all edges, asymptotically, with the rest having degree less than some fixed constant. See [[here|http://www.math.duke.edu/~rtd/math777/Krapivsky.pdf]] for more.
+
+__Nodes with inherent fitness__
+
+Inherent fitness aka attractiveness may vary across nodes in the network.
+
+See [[Bose-Einstein condensation in complex networks|http://barabasi.com/f/91.pdf]] and [[Competition and multiscaling in evolving networks|http://barabasi.com/f/90.pdf]] for a model. In it a fitness value, $$\eta_i$$, is assigned to each node (sampled from a given distribution $$\rho(\eta)$$), and is unchanged thereafter. Now, the attachment kernel depends on $$\eta$$ as well: $$a_k(\eta)$$. The same method used as for the section //Degree distribution as a function of time of creation// above can be used (with $$\eta$$ instead of $$t$$), and a solution can be analytically obtained for the case $$a_k(\eta) = \eta k$$, and a power law distribution is obtained for each $$\eta$$, but not overall, as it depends on what  $$\rho(\eta)$$ is.
+
+In [[Bose-Einstein condensation in complex networks|http://barabasi.com/f/91.pdf]], they show an interesting effects that happens for some choices of $$\rho(\eta)$$, where a few nodes (a constant number of them, so as a fraction, they go as $$1/n$$ and go to 0 as $$n \rightarrow \infty$$ and so don't appear in $$p_k$$) have a degree proportional to $$n$$, and so do contribute to quantities like $$\langle k \rangle$$. This is analogous to Bose condensation. However, it is not known which $$\rho(\eta)$$ will produce condensation, and computer simulations suggest, that whether condensation occurs or not may depend on the fluctuations and thus not be deterministic (see Polya's run; is this at all related to [[Ross–Littlewood paradox|https://en.wikipedia.org/wiki/Ross%E2%80%93Littlewood_paradox]]?
+
+There are also interesting work on the statistics of the node with maximum fitness (which changes more and more rarely as a higher value of $$\eta$$ is sampled at some updates). These follow so-called //record dynamics// [[Slow dynamics from noise adaptation|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.71.1482]].
+
+//More relevant review articles//:
+
+[[Statistical mechanics of complex networks|http://barabasi.com/f/103.pdf]]
+
+[[Complex networks: Structure and dynamics|http://www.sciencedirect.com/science/article/pii/S037015730500462X]]
+
+[[ Evolution of networks|http://arxiv.org/abs/cond-mat/0106144]]

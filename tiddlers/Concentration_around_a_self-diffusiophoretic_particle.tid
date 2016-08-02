@@ -1,0 +1,19 @@
+created: 20160609162252873
+creator: guillefix
+modified: 20160609162305668
+modifier: guillefix
+title: Concentration around a self-diffusiophoretic particle
+
+See [[Self-diffusiophoresis]].
+
+At steady-state, in the reference frame of the object, and neglecting
+distortions induced by the flow (small Peclet number), the solute concentration in the liquid is
+given by
+
+$$D\nabla^2 c = 0$$ (steady state diffusion)
+
+$$-D\mathbf{n}\cdot\nabla c(\mathbf{r}_s) = \alpha(\mathbf{r}_s)$$ 
+
+i.e. the flux of solute is given by some space-dependent function that measures the 'surface activity' at the surface of the colloid,  i.e. the generation or consumption of solute by a chemical reaction. In general,
+describing this process involves additional coupled transport problems for other species involved
+in  the  surface  reactions.) Some variations are needed for the cases of [[Self-electrophoresis]] and [[Self-thermophoresis]]. Approximately, these equations give, $$V\sim \alpha \mu /D$$. In particular, once the surface properties, $$\mu$$ and $$\alpha$$ and the shape are given, the velocity turns out to be independent of the size $$R$$ of the object, showing that this method of propulsion is robust under downscaling.

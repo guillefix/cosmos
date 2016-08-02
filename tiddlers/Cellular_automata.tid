@@ -1,0 +1,148 @@
+created: 20160423233507631
+creator: guillefix
+modified: 20160721133042889
+modifier: guillefix
+tags: [[Complex systems]] [[Automata theory]]
+title: Cellular automata
+
+[[Complex systems]], artificial life in [[Bio-inspired computing]]. See [[Dynamical systems on networks]], [[Discrete dynamical systems]]
+
+[[Cellular automaton|https://en.wikipedia.org/wiki/Cellular_automaton]]
+
+[[Exploring Cellular Automata|https://www.fourmilab.ch/cellab/manual/cellab.html#contents]]
+
+[[Theory of Cellular Automata|https://theory.org/complexity/cdpt/html/node4.html]]
+
+[[Classsification of Cellular Automata|http://www.cs.cmu.edu/~sutner/papers/ecss.pdf]]
+
+[[Computer simulations of cellular automata|http://iopscience.iop.org/article/10.1088/0305-4470/24/5/007/meta]]
+
+[[Automata theory]]
+
+!!__Statistical mechanics of cellular automata__
+
+[[Equivalence of Cellular Automata to Ising Models and Directed Percolation|http://journals.aps.org/prl/pdf/10.1103/PhysRevLett.53.311]]
+
+[[Phase Transitions of Cellular Automata|http://download.springer.com/static/pdf/383/art%253A10.1007%252FBF01309255.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2FBF01309255&token2=exp=1466080666~acl=%2Fstatic%2Fpdf%2F383%2Fart%25253A10.1007%25252FBF01309255.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Farticle%252F10.1007%252FBF01309255*~hmac=03be81353c981a73c9671ca9fbfc4e687fa7c3964255a560d0b111f5c8879f11]] See [[Directed percolation]]
+
+[[Statistical Mechanics of Probabilistic Cellular Automata|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.55.2527]]
+
+[[Universality in Elementary Cellular Automata|http://www.complex-systems.com/pdf/15-1-1.pdf]] proves a conjecture made by Stephen Wolfram in 1985, that an elementary one dimensional cellular automaton known as “Rule 110” is capable of universal computation, i.e. it is a [[Turing machine]] (see [[Theory of computation]])
+
+[[Statistical mechanics of cellular automata|http://www.stephenwolfram.com/publications/academic/statistical-mechanics-cellular-automata.pdf]]
+
+!!![[Computation theory of cellular automata|http://www.stephenwolfram.com/publications/academic/computation-theory-cellular-automata.pdf]]
+
+//A new kind of science// - Stephen Wolfram
+
+[[http://www.paradise.caltech.edu/~cook/papers/index.html]]
+
+[[Game of Life Cellular Automata|http://www.springer.com/gp/book/9781849962162]]
+
+!!!__Elementary cellular automaton__ [[(wiki)|https://en.wikipedia.org/wiki/Elementary_cellular_automaton]]
+
+[[Rule 90|https://en.wikipedia.org/wiki/Rule_90]]
+
+[img width=400 [https://upload.wikimedia.org/wikipedia/commons/5/5b/R090_rand_0.png]]
+
+[[Rule 30|https://en.wikipedia.org/wiki/Rule_30]]
+
+[img width=500 [https://upload.wikimedia.org/wikipedia/commons/d/d9/Rule30-first-500-rows.png]]
+
+!!__Examples__
+
+[[Von Neumann cellular automata|https://en.wikipedia.org/wiki/Von_Neumann_cellular_automaton]] are the original expression of cellular automata, the development of which were prompted by suggestions made to John von Neumann by his close friend and fellow mathematician Stanislaw Ulam. Their original purpose was to provide insight into the logical requirements for machine self-replication and were used in von Neumann's universal constructor.
+
+[img[https://upload.wikimedia.org/wikipedia/commons/5/50/VonNeumann_CA_demo.gif]]
+
+[[Codd's cellular automaton|https://en.wikipedia.org/wiki/Codd%27s_cellular_automaton]] designed to recreate the computation- and construction-universality of von Neumann's CA but with fewer states: 8 instead of 29.
+
+[img[https://upload.wikimedia.org/wikipedia/commons/6/69/Codd_CA_RepeaterEmitter.gif]]
+
+[[Conway's Game of Life|https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life]]
+
+[img[https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif]]
+
+[[Langton's loops|https://en.wikipedia.org/wiki/Langton%27s_loops]] consist of a loop of cells containing genetic information, which flows continuously around the loop and out along an "arm" (or pseudopod), which will become the daughter loop
+
+[img widh=500 [https://upload.wikimedia.org/wikipedia/commons/2/28/Langtons_Loop_Colony.png]]
+
+[[Nobili cellular automata|https://en.wikipedia.org/wiki/Nobili_cellular_automata]] are a variation of von Neumann cellular automata (vNCA), in which additional states provide means of memory and the interference-free crossing of signal.
+
+[img widh=500 [https://upload.wikimedia.org/wikipedia/en/9/98/Lambda-G.png]]
+
+[[Brian's Brain|https://en.wikipedia.org/wiki/Brian%27s_Brain]]
+
+[img[https://upload.wikimedia.org/wikipedia/commons/a/a7/Brian%27s_brain.gif]]
+
+[[Langton's ant|https://en.wikipedia.org/wiki/Langton%27s_ant]]
+
+[img[https://upload.wikimedia.org/wikipedia/commons/f/f9/LangtonsAnt-nColor_LLRRRLRLRLLR_36437.png]]
+
+[img[http://i.imgur.com/YBBk3fl.gif]]
+
+[[Wireworld|https://en.wikipedia.org/wiki/Wireworld]]
+
+[img[https://upload.wikimedia.org/wikipedia/commons/5/5d/Animated_display.gif]]
+
+---------
+
+See also [[Discrete dynamical systems]]
+
+[img[http://www.ddlab.com/gdca_cropped_front_cover.jpg]]
+
+[[http://out.coy.cat/?n=1001010010]]
+
+[[http://out.coy.cat/?n=topkek]]
+
+[[http://out.coy.cat/?n=nicememe]]
+
+http://out.coy.cat/?n=welp
+
+http://out.coy.cat/?n=culo
+
+http://out.coy.cat/?n=bra
+
+http://out.coy.cat/?n=megabra
+
+http://out.coy.cat/?n=asdas
+
+http://out.coy.cat/?n=cate wooow sierpinski
+
+http://out.coy.cat/?n=liborio
+
+http://out.coy.cat/?n=cognio
+
+http://out.coy.cat/?n=black
+
+http://out.coy.cat/?n=extropy
+
+http://out.coy.cat/?n=entropy
+
+http://out.coy.cat/?n=XOXO
+
+http://out.coy.cat/?n=doitforthelulz
+
+http://out.coy.cat/?n=rebroff
+
+http://out.coy.cat/?n=topcate
+
+http://cells.coy.cat/
+
+http://cellularautomata.coy.cat/
+
+http://out.coy.cat/?n=1269489990&s=0
+
+http://out.coy.cat/?n=1269489997&s=0
+
+http://out.coy.cat/?n=1269490006&s=0
+
+http://out.coy.cat/?n=1269490035&s=0
+
+http://out.coy.cat/?n=1269490071&s=0
+
+like the matrix: http://out.coy.cat/rndpat.php?n=1269490075&s=0
+
+http://out.coy.cat/?n=1269490127&s=0
+
+http://psoup.math.wisc.edu/mcell/ca_gallery.html

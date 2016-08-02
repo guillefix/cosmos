@@ -1,0 +1,13 @@
+created: 20160726121357937
+creator: guillefix
+modified: 20160726122105810
+modifier: guillefix
+title: Randomness deficit
+
+The [[Property]] of a [[Set]] of [[string|String (Computer science)]]s that has a distribution of [[Kolmogorov complexities|Kolmogorov complexity]] with an overrepresentation of low-complexity strings, relative to the expected distribution of complexities for a set of string chosen uniformly at random (with fixed length, and alphabet).
+
+A measure of randomness deficit is given by
+
+$$\frac{P_0(\langle K \rangle_s)}{P_0(\langle K \rangle_0)}$$
+
+where $$P_0$$ is the expected distribution of complexities for the uniformly random set of strings, $$\langle K \rangle_s$$ is the mean complexity of the set, and $$\langle K \rangle_0$$ is the mean complexity for the uniformly random set.

@@ -1,0 +1,17 @@
+created: 20160713224720642
+creator: guillefix
+modified: 20160713232907689
+modifier: guillefix
+title: Partial ordering
+
+A ''partial ordering'' on a [[Set]] $$X$$ is a (binary) [[Relation]] on $$X$$, $$\preceq$$ that is:
+
+* ''[[reflexive|Reflexivity]]'': for all $$x \in X, x \preceq x$$.
+* ''antisymmetric'': for all $$x, y \in X$$, if $$x \preceq  y$$, and $$y \preceq  x$$, then $$x=y$$.
+* ''[[transitive|Transitivity]]'': for all $$x, y, z \in X$$, if $$x \preceq y$$ and $$y \preceq z$$, then $$ x \preceq z$$/
+
+A set with a partial ordering is called a [[Partially ordered set]] (or poset).
+
+A [[Pre-order]] is a weaker kind of relation
+
+For many common examples, the [[Partial ordering]] $$\preceq$$ is often interpreted as $$\leq$$ (or less than or equal).

@@ -1,0 +1,65 @@
+created: 20160614150252341
+creator: guillefix
+modified: 20160615151942032
+modifier: guillefix
+tags: 
+title: Dynamical Instability in Boolean Networks as a percolation Problem
+
+[[Dynamical Instability in Boolean Networks as a Percolation Problem|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.109.085701]]
+[[pdf|http://journals.aps.org/prl/pdf/10.1103/PhysRevLett.109.085701]]
+
+[[Phase Transitions in Complex Network Dynamics|http://drum.lib.umd.edu/handle/1903/15248]]
+
+[[A connection between the percolation transition and the onset of chaos in the Kauffman model|http://iopscience.iop.org/article/10.1088/0305-4470/21/10/025/meta]]
+
+[[Percolation and spreading of damage in a simplified Kauffman model|http://www.sciencedirect.com/science/article/pii/0378437188901008]]
+
+[[Activities and Sensitivities in Boolean Network Models|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.93.048701]]
+
+[[Core Percolation and Onset of Complexity in Boolean Networks|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.96.018101]]
+
+Annealed approximation: [[Random Networks of Automata: A Simple Annealed Approximation|http://iopscience.iop.org/article/10.1209/0295-5075/1/2/001/meta]]
+
+Boolean functions in [[Boolean network]]s are represented by a truth table, that in turn can be represented by a $$2^K$$-length vector/string of $$0$$s and $$1$$s, for a $$K$$-input truth table. $$2^K$$ is the number of possible inputs, i.e. the cardinality of the set $$\{1,0\}^K$$. The bit string can be interpreted as a binary decision tree.
+
+!!!__[[Activities and Sensitivities in Boolean Network Models]]__
+
+The average sensitivity (when averaged over all the functions in the network) appears to be a good parameter for predicting whether the dynamics of the Boolean network are ordered or chaotic
+
+[[Activities and Sensitivities in Boolean Network Models|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.93.048701]]
+
+!!!__[[Random Boolean networks: Analogy with percolation (Stauffer)]]__
+
+Some interesting analogies, investigated via computer simulations, between percolation and properties of Kauffman Boolean networks in a 2D lattice
+
+[[Random Boolean networks: Analogy with percolation|http://www.tandfonline.com/doi/abs/10.1080/13642818708215325]]
+
+-----------------------
+
+Connection between sensitivity and complexity of GP map of Boolean networks.. [[MMathPhys oral presentation]]
+
+Relation between Kolmogorov complexity and sensitivity of a Boolean function. 
+
+Sensitivity <> constrained/unconstrained, coding/non-coding, etc.
+
+------------------
+
+//More references//:
+
+<small>
+[[A geometrical interpretation of the chaotic state of inhomogeneous deterministic cellular automata|http://www.sciencedirect.com/science/article/pii/0378437189904433]]
+
+[[The role of certain Post classes in Boolean network models of genetic networks|http://www.pnas.org/content/100/19/10734.short]]
+
+[[Boolean Dynamics with Random Couplings|http://link.springer.com/chapter/10.1007/978-0-387-21789-5_2]]
+
+[[Isomorphism of Quasispecies and Percolation Models|http://www.sciencedirect.com/science/article/pii/S0022519399910366]]
+
+[[Spectral theory for the robustness and dynamical properties of complex networks|http://dl.acm.org/citation.cfm?id=2521256]]
+
+[[Phase Transitions  in  Two-Dimensional Kauffman Cellular Automata|http://www.lps.ens.fr/~derrida/PAPIERS/1986/stauffer-epl-86.pdf]]
+
+[[Phase transition in cellular random Boolean nets |https://hal.inria.fr/file/index/docid/210412/filename/ajp-jphys_1987_48_1_11_0.pdf]]
+
+[[The Physics of Structure Formation: Theory and Simulation|file:///home/guillefix/Dropbox/COSMOS/Physics/stat%20phys,%20kinetic%20theory,%20chaos,%20dynamical%20sys,%20emergence/%5BD._J._Amit__(auth.),__Professor_Dr._Werner_G%C3%BCtti_the%20physics%20of%20structure%20formation.pdf]]
+</small>

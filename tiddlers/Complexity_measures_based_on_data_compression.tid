@@ -1,0 +1,15 @@
+created: 20160707171527782
+creator: guillefix
+modified: 20160707171547797
+modifier: guillefix
+title: Complexity measures based on data compression
+
+See [[Descriptional complexity]], [[Data compression]]
+
+Some measures of descriptional complexity are based on [[Data compression]] techniques, like the [[Lempel-Ziv complexity]].
+
+__Relations to [[Grammar-based compression]]s used in [[Data compression]]__
+
+[[Application of Lempel–Ziv factorization to the approximation of grammar-based compression |http://www.cs.ucr.edu/~stelo/papers/extra/rytter2.pdf]] Relations between LZ-factorizations and grammar-based factorizations (G-factorization). The G-factorization gives an upper bound for the LZ complexity.
+
+See [[this book|https://books.google.co.uk/books?id=OlqrCAAAQBAJ&pg=PA23&lpg=PA23&dq=chomsky+normal+form+g+factorization&source=bl&ots=3vF4ZgeE8o&sig=jJuYvlN0xjsJe2Hd5IWI0JQrVrE&hl=en&sa=X&ved=0ahUKEwjLp-DNncvNAhXjIsAKHSRpBn0Q6AEILDAC#v=onepage&q=chomsky%20normal%20form%20g%20factorization&f=false]] too (same article), and this: [[Grammar Compression, LZ-Encodings, and String Algorithms with Implicit Input|http://dlx.booksc.org/21200000/libgen.scimag21244000-21244999.zip/browse/10.1007/978-3-540-27836-8_5.pdf]].

@@ -1,0 +1,24 @@
+created: 20160329140604439
+creator: guillefix
+modified: 20160629173805186
+modifier: guillefix
+tags: [[Formal system]]
+title: Formal language
+
+Relations to ''compilers'', ''parsers'', etc. Grammars, etc.
+
+A nice new language for this: [[Ohm|https://github.com/cdglabs/ohm#readme]]
+
+See [[Automata theory]], GKeep notes.
+
+''Chomsky hierarchy''. (see also [[Theory of computation]]).
+
+[[Mathematics - Formal Languages and Automata Theory|https://www.youtube.com/playlist?list=PLbMVogVj5nJSMghTc2Qu0tk-lwY4ui7iY]]
+
+[img[http://i.imgur.com/xDA0gCo.png]]
+
+[img[http://i.imgur.com/hBuur1g.png]]
+
+[img[http://i.imgur.com/K5o8OyH.png]]
+
+[img[http://i.imgur.com/pD2JOER.png]]

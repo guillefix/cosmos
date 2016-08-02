@@ -1,0 +1,11 @@
+created: 20160611155551216
+creator: guillefix
+modified: 20160611155559554
+modifier: guillefix
+title: Continuity of percolation phase transition
+
+See [[Percolation theory]]
+
+Continuity of the order parameter $$P_\infty (p)$$ (the probability that an occupied site is in the infinite cluster for a given occupancy $$p$$) at $$p_c$$ is an open mathematical problem in
+the general case, but it is known to hold rigorously in 2D and $$d \geq 19$$ using lace expansion methods ([[Mean-Field Behaviour and the Lace Expansion|http://link.springer.com/chapter/10.1007%2F978-94-015-8326-8_6]]). The conjecture that
+$$P_\infty (p) ( p = p_c ) = 0$$ for $$3 \leq d \leq 18$$ remains however one of the open problems in the field ([[V. Beffara, V. Sidoravicius, Percolation Theory|http://arxiv.org/abs/math/0507220]]).

@@ -1,0 +1,71 @@
+created: 20160303224214410
+creator: guillefix
+modified: 20160629233804737
+modifier: guillefix
+tags: Evolution [[Bio-inspired computing]]
+title: Evolutionary computing
+
+https://en.wikipedia.org/wiki/Evolutionary_computation
+
+See [[Evolution]]
+
+[[Computational intelligence - Scholarpedia|http://www.scholarpedia.org/article/Encyclopedia:Computational_intelligence]]
+
+[[Evolution of evolvability|https://simons.berkeley.edu/talks/lee-altenberg-2014-03-17]] [[Slides|https://simons.berkeley.edu/sites/default/files/docs/1393/slidesaltenberg.pdf]]
+
+[img[Selection_176.png]]
+
+[[Complexity compression and evolution|http://www.cs.mun.ca/~banzhaf/papers/icga95-1.pdf]]
+
+!!__Genetic programming__
+
+https://en.wikipedia.org/wiki/Genetic_programming
+
+https://en.wikipedia.org/wiki/Gene_expression_programming
+
+[[presentation|https://engineering.purdue.edu/~sudhoff/ee630/Lecture02.pdf]]
+
+See Holland's work. For e.g.
+
+Holland, J. H. (1992). Adaptation in Natural and Artificial Systems, MIT Press, Cambridge MA.
+
+[[Three Elements of a Theory of Representations|http://link.springer.com/chapter/10.1007/3-540-32444-5_3]]
+
+
+[[Redundant Representations in Evolutionary Computation|http://www.mitpressjournals.org/doi/abs/10.1162/106365603322519288#.Vx6xwmqKHCI]]
+As a result, uniformly redundant representations do not change the behavior of GAs. Only by increasing r, which means overrepresenting the optimal solution, does GA performance increase. Therefore, non-uniformly redundant representations can only be used advantageously if a-priori information exists regarding the optimal solution.
+
+Bias towards simplicity (see [[MMathPhys oral presentation]]) similar to regularization in [[Machine learning]]?
+
+!!!__Evolvable harware__
+
+https://en.wikipedia.org/wiki/Evolvable_hardware
+
+[[Whatever happened to evolvable hardware?|http://www.eetimes.com/author.asp?section_id=36&doc_id=1266124]]
+
+https://en.wikipedia.org/wiki/Reconfigurable_computing
+
+[[Automated Antenna Design with Evolutionary Algorithms|https://ti.arc.nasa.gov/m/pub-archive/1244h/1244%20(Hornby).pdf]]
+
+!!__Artifical life__
+
+http://www.framsticks.com/
+
+Logos sotware from MIT for agent-based simulation and others
+
+[[Nils Aall Barricelli|http://cultureandcommunication.org/galloway/Barricelli/]]
+
+__Conway's game of life__
+
+http://www.scholarpedia.org/article/Game_of_Life
+
+[[Automata theory]], cellular automata.
+
+Smooth cellular automata: https://www.youtube.com/watch?v=KJe9H6qS82I
+
+[[Life in life|https://www.youtube.com/watch?v=xP5-iIeKXE8]], meta
+
+[[ASCII fluid dynamics|https://www.youtube.com/watch?v=QMYfkOtYYlg]]
+
+
+Benefits of Sexual Reproduction in Evolutionary Computation

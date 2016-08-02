@@ -1,0 +1,46 @@
+created: 20160611121547490
+creator: guillefix
+modified: 20160702115729469
+modifier: guillefix
+tags: Genetics [[Molecular biology]]
+title: DNA
+
+//Desoxyribonucleic acid//
+
+See [[DNA nanotechnology]], [[MMathPhys oral presentation]]
+
+[[https://en.wikipedia.org/wiki/DNA]]
+
+!!__Structure of DNA__
+
+See [[DNA nanotechnology]]
+
+[[The Shape of DNA - Numberphile|https://www.youtube.com/watch?v=AxxnziuL408]]. DNA is a right-handed [[Helix]].
+
+Both strands are right-handed (almost always in biology) (they have to have the same handedness, as can be seen by looking at a cross-section and seeing the cross-sections of the strands, if they were of opposite handedness, they would collide (given the helices have the same radii)). The two strands of DNA also have a direction associated with them (the backbone determines it), and the strands are antiparalel, as seen in animation below
+
+[img width=300 [http://67.media.tumblr.com/7f270f68b777db5c6e82fdb48d447899/tumblr_o9n0tiMWRl1sk2szio2_r1_1280.gif]]
+
+See also [[Chirality in biology]]
+
+Can model DNA as a ribbon, and can define it's torsion. Boundaries of ribbon are the backbone, and they form the same surface that you get by twisting a normal ribbon.
+
+Can also coarse-grain more, and model it as a curve.
+
+Packing of DNA in a cell. See [[here|https://en.wikipedia.org/wiki/Chromosome#/media/File:Chromatin_Structures.png]]
+
+[[How DNA unties its own knots - Numberphile|https://www.youtube.com/watch?v=UkmQNbvlK8s]], using [[Type II topoisomerase|https://en.wikipedia.org/wiki/Type_II_topoisomerase]] (see more [[here|https://www.youtube.com/watch?v=EYGrElVyHnU]]). Drugs that target type II topoisomerase are used as antibiotics, because this enzyme is necessary for the cell to replicate correctly in bacteria. This is because the fact that DNA is a helix, and it forms a loop in bacteria means that when DNA is unzipped by helicase, the two single strand loops are interlinked. Topoisomerase then cuts and stiches DNA in such a way as to unlink them. See [[DNA replication]]
+
+!!__Processes of DNA__
+
+ [[DNA replication]]
+
+!!__Chemistry of DNA__
+
+https://www.technologyreview.com/s/419590/quantum-entanglement-holds-dna-together-say-physicists/
+
+!!__Information in DNA__
+
+[[Genetics]]
+
+[[Second layer of information in DNA confirmed|http://phys.org/news/2016-06-layer-dna.html]]

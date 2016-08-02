@@ -1,0 +1,36 @@
+created: 20160210225307432
+creator: guillefix
+modified: 20160527203033314
+modifier: guillefix
+title: Eigenvector centrality
+
+See [[Measures and metrics for networks]]
+
+The ''eigenvector centrality'' (first defined by Bonacich in 1987), is defined by:
+
+$$\mathbf{A}\mathbf{x}=\kappa_1 \mathbf{x}$$
+
+where $$\mathbf{x}$$ is the vector of centralities, and $$\kappa_1$$ is the largest eigenvalue of $$\mathbf{A}$$. The reason we choose the largest eigenvalue is that this measure can be obtained by starting from any arbitrary centrality measure $$\mathbf{x_0}$$ and getting new centrality measures by requiring that they be equal, for each node, to the sum of centralities of its neighbours, then the centrality corresponding with the eigenvector with the largest eigenvalue emerges exponentially over the others, and in the limit, we get the centrality defined above (up to normalization).
+
+The centrality, then, has the property that it is equal to the sum over centralities of neighbours for each node $$i$$:
+
+$$x_i = \kappa_1^{-1}\sum_j A_{ij} x_j$$ .....Eq. 1
+
+so that a node can be important because it is connected to many nodes, or because it is connected to important nodes, or both.
+
+Eigenvector centrality has problems for directed networks because defined in the natural way, only vertices in strongly connected components (or their out-components) will have non-zero eigenvector centrality. This is because the map described by Eq.1 passes centrality along edges in the direction they point, so the in-component will "loose" all its centrality in the long time limit. 
+
+Katz centrality addresses these problems
+
+~ Need $$G$$ strongly connected for a directed network.
+
+-------
+
+__Perron-Frobenius theorem__
+
+This theorem is related to ergodicity of the map defined by the recursive relation used to define eigenvector centrality <b>[write it here]</b>.
+
+
+<b>[Look at theorem stuff in Newman books, specially relevant footnotes]</b>.
+
+Ensures centralities are positive.

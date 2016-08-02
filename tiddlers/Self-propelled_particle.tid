@@ -1,0 +1,67 @@
+created: 20160602230300188
+creator: guillefix
+modified: 20160617163336698
+modifier: guillefix
+tags: 
+title: Self-propelled particle
+
+An [[active|Active system]] particle, often a [[colloid|Colloid]], or a nanoparticle, that propels itself through a fluid, often via some [[phoretic mechanism|Phoretic mechanisms of colloids]], or via some mechanical propulsion mechanism (the particles are then often called ''microswimmers''). ,,Generally, "active colloid" simply refers to a self-propelled colloid (and similarly with "active particle" in general).,,
+
+"In the current miniaturization race towards small motors and engines, a rapidly expanding subdomain is the quest for autonomous swimmers, able to move in fluids which appear very viscous given the small length scales (low Reynolds number). [[Robotic microswimmer]]s that generate surface distortions is an avenue (e.g. by mimicking sperms [1]), but it seems equally interesting to try to take advantage of physical phenomena that become predominant at small scales. Interfacial [[‘phoretic’ effects|Phoretic mechanisms of colloids]] (electrophoresis, thermophoresis, diffusiophoresis, [2]) by which the gradients of fields (electrostatic potential, temperature, concentration) drive the motion of colloid particles, are from this standpoint a natural avenue given the increased surface to volume ratio of smaller objects. "
+
+!!__Robotic microswimmers__
+
+[[Microscopic artificial swimmers|http://www.nature.com/nature/journal/v437/n7060/full/nature04090.html]]
+
+!!__Phoretic swimmers__
+
+[[Designing phoretic micro- and nano-swimmers]]. A common design for phoretic swimmers is the [[Janus swimmer]] design
+
+[[Self-diffusiophoresis]]
+
+[[Self-electrophoresis]]
+
+[[Self-thermophoresis]]
+
+----------
+
+[[wiki|https://en.wikipedia.org/wiki/Self-propelled_particles]]
+
+https://scholar.google.co.uk/scholar?hl=en&q=self-propelled+particle&btnG=&as_sdt=1%2C5&as_sdtp
+
+!!!Ramin's papers
+
+__Phoretic self-propulsion__
+
+<big><i style="color:aqua;" class="fa fa-check" aria-hidden="true"></i></big>[[Propulsion of a Molecular Machine by Asymmetric Distribution of Reaction Products|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/prl05_motor.pdf]] See [[Self-diffusiophoresis]]
+
+<big><i style="color:aqua;" class="fa fa-check" aria-hidden="true"></i></big>[[Designing phoretic micro- and nano-swimmers|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/njp07_design-swimmer.pdf]] See more at [[Designing phoretic micro- and nano-swimmers]]
+
+__Single phoretic swimmer stochastic dynamics__
+
+<big><i style="color:aqua;" class="fa fa-check" aria-hidden="true"></i></big>[[Self-Motile Colloidal Particles: From Directed Propulsion to Random Walk|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/prl07_exp-swimmer.pdf]] (experiment)
+
+[[Anomalous Diffusion of Symmetric and Asymmetric Active Colloids|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/prl09_flucphor.pdf]]
+
+[[Stochastic dynamics of self-propelled colloids]]
+
+__Self-assembly of phoretic active colloids__
+
+<big><i style="color:aqua;" class="fa fa-check" aria-hidden="true"></i></big>[[Self-assembly of active colloidal molecules with dynamic function|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/pre15_colloidmoleculefunction.pdf]] See [[Self-assembly of active colloids]]
+
+<big><i style="color:aqua;" class="fa fa-check" aria-hidden="true"></i></big> [[Self-Assembly of Catalytically Active Colloidal Molecules: Tailoring Activity Through Surface Chemistry|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/prl14_activemolecules.pdf]] See [[Self-assembly of active colloids]]
+
+
+__Collective behaviour__
+
+<big><i style="color:aqua;" class="fa fa-check" aria-hidden="true"></i></big>[[Clusters, asters, and collective oscillations in chemotactic colloids|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/pre14_chemotaxis.pdf]] See [[Collective behaviour of active colloids]] <mark>There is a lot of different regimes in their complicated mathematical models, and fuller understanding requires going through their models more carefully</mark>
+
+
+<big><i style="color:aqua;" class="fa fa-check" aria-hidden="true"></i></big>[[Emergent Cometlike Swarming of Optically Driven Thermally Active Colloids|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/prl14_colloidalswarm.pdf]]
+
+<big><i style="color:aqua;" class="fa fa-check" aria-hidden="true"></i></big>[[Collective Behavior of Thermally Active Colloids|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/prl12_thermactive.pdf]] See [[Collective behaviour of thermally active colloids]]. 
+__Others__
+
+<big><i style="color:aqua;" class="fa fa-check" aria-hidden="true"></i></big> [[Electrokinetic effects in catalytic platinum-insulator Janus swimmers|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/epl14_salt-janus.pdf]]. See [[Catalytic conductor-insulator Janus swimmer]], [[Electrokinetic effects in catalytic conductor-insulator Janus swimmers]]. See also: [[Locomotion of electrocatalytic nanomotors due to reaction induced charge autoelectrophoresis|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.81.065302]] and [[Self-electrophoresis]]
+
+<big><i style="color:aqua;" class="fa fa-check" aria-hidden="true"></i></big>[[Boundaries can steer active Janus spheres|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/ncomms15_boundary-steering-Janus.pdf]] See [[Boundary effects on the motion of active colloids]]

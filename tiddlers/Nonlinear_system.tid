@@ -1,0 +1,47 @@
+created: 20160117215614659
+creator: guillefix
+modified: 20160708153022058
+modifier: guillefix
+tags: MMathPhys [[Differential equations]]
+title: Nonlinear system
+
+See [[Topics in Nonlinear Dynamics by Balakrishnan|https://www.youtube.com/watch?v=nh4TFzg30eQ&list=PLiUVvsKxTUr7IHEbT0-NPVqKW05CFWCaE]], and [[another lectures by him|https://www.youtube.com/watch?v=EF9T78DPzGg&list=PLVbyDf9daF9tFUpKqKzkzfEg-mRooTVAs]]
+
+''Nonlinear dynamical systems'' (often abreviated to Nonlinear systems) are [[Dynamical system]]s where the O.D.Es or the mapping functions that describe the dynamics are nonlinear. They offer much richer behavior like ''bifurcations'' and ''chaos''. Thus, while, locally, they can be linearized and analyzed by the same linear Jacobian techniques, they require more variety in analysis techniques, such as ''bifurcation theory'', ''Lyanpunov functions'', ''trapping regions'', ''attractors'', and ''chaos theory''. <mark>Make subsections of these and organize better</mark> See Wiggins book, and Strogatz.
+
+!![[Nonlinear continuous dynamical system]]
+
+!!![[Nonlinear oscillations]]
+
+!![[Nonlinear maps]] <small>(aka Nonlinear [[Discrete dynamical system]])</small>
+
+The theory of discrete systems has many analogies to the theory of continuous systems.
+
+!![[Chaos theory]]
+
+------
+
+[[Invariant manifolds in dynamical systems]]
+
+--------
+
+[[Oxford course|https://www0.maths.ox.ac.uk/courses/course/28740]]
+
+[[Strogatz YB lectures|https://www.youtube.com/watch?v=P_YCvTabMO4&index=4&list=PLbN57C5Zdl6j_qJA-pARJnKsmROzPnO9V]]
+
+[[Chaos Journal|http://scitation.aip.org/content/aip/journal/chaos]]
+
+-------
+
+Books
+
+Strogatz Nonlinear systems dynamics and chaos
+
+Deterministic Nonlinear Systems: A Short Course
+Vadim S. Anishchenko, Tatyana E. Vadivasova, Galina I. Strelkova (auth.)
+
+See books in oxford course website
+
+Other lecture notes: http://www.jpoffline.com/physics_docs/y3s5/nlp_lecture_notes.pdf
+
+More LNs: http://14.139.172.204/nptel/CSE/Web/108106024/Module5.pdf

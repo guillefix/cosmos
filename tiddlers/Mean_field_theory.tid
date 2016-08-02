@@ -1,0 +1,15 @@
+created: 20160209154912836
+creator: guillefix
+modified: 20160209155343482
+modifier: guillefix
+title: Mean field theory
+
+[[Statistical field theory]] that ignores fluctuations. I.e. just describes the behaviour of the //mean// quantities of interest. Can get such behaviour by applying the method of steepest descents to the partition function.
+
+__Examples__
+
+[[Regular solution model|Liquid-liquid unmixing]]
+
+[[Bragg-Williams theory]] for binary alloys or Ising model (similar to above).
+
+[[Curie-Weiss theory]] for the paramagnetic-ferromagnetic phase transition.

@@ -1,0 +1,47 @@
+created: 20160207220756324
+creator: guillefix
+modified: 20160511112836755
+modifier: guillefix
+title: Liquid crystals
+
+Liquid crystals correspond to matter in non-isotropic phases, like the nematic, or smectic phases, but which don't have full crystalline order.
+
+See more in Principles of condensed matter physics book, and de Gennes and Prost, "The physics of liquid crystals". [[Liquid crystal theory|http://www.springer.com/cda/content/document/cda_downloaddocument/9783319008578-c2.pdf?SGWID=0-0-45-1418012-p175260985]]
+
+!!__Landau-de Gennes bulk free energy density__
+
+I think derived following Landau's theory of phase transition, when given an order parameter: including terms that satisfy certain symmetries.
+
+$$F_{\text{bulk}} = A Q_{ij} Q_{ji}/2 + B Q_{ij} Q_{jk} Q_{ki}/3 + C (Q_{ij} Q_{ji})^2/4$$
+
+where the order parameter, for uniaxial LCs, is:
+
+$$Q_{ij} = \frac{3q}{2} \langle n_i n_j - \delta_{ij} /3 \rangle$$
+
+where $$q$$ is a scalar indicating the level of ordering (i.e. the variance of individual molecule's direction from the director field  $$\mathbf{n}$$). $$\mathbf{n}$$ is the director (the direction in which the molecules point in average at a given point, where the direction is considered as a ray, i.e. $$\mathbf{n}$$ and $$-\mathbf{n}$$ are physically equivalent.
+
+!!__Generalized elasticity of liquid crystals__
+
+The free energy of distortion (per unit volume) of a liquid crystal has the form:
+
+$$F_d=\frac{1}{2}K_1(\nabla \cdot \mathbf{n})^2+\frac{1}{2}K_2(\mathbf{n}\cdot\nabla \times \mathbf{n})^2+\frac{1}{2}K_3(\mathbf{n}\times (\nabla \times\mathbf{n})^2$$
+
+where $$K_1$$, $$K_2$$, and $$K_3$$ are the elastic constants corresponding to the three types of elastic deformation that alter the long-range order in liquid crystals (and are thus opposed by elastic forces):
+
+*splay
+*twist
+*bend
+
+[img[distortion_types_liquid_crystal.PNG]]
+
+__Friederik transition__
+
+----------
+
+!!!See [[Complex fluid dynamics]] for the dynamics of liquid crystals
+
+-----------
+
+//People//
+
+P.G. de Gennes (see his book on Physics of liquid crystals)

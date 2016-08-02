@@ -1,0 +1,66 @@
+created: 20160623202141721
+creator: guillefix
+modified: 20160719162115543
+modifier: guillefix
+title: Simplicity bias in finite-state transducers
+type: 
+
+An example of [[Simplicity bias in discrete systems]]
+
+See [[Random automata]] and  [[Evolving automata]]
+
+
+
+[[Numerical experiments on the simplicity bias in finite-state transducers]]
+
+On the theory/analysis side, I've been thinking about two questions:
+
+* Understanding the simplicity bias graph, for a particular FST, given its structure.
+
+* Understanding the statistical/average properties of random FSTs.
+
+[[Ideas for understanding the simplicity bias in finite state transducers]]
+
+To have sufficiently high bias, we need a small non-coding loop.
+
+To have varied output, we need loops outside the non-coding regions. This is so that the time spent in non-coding regions can vary for different outputs.
+
+The slope of the designability/complexity plot corresponds approximately to the [[Topological entropy]] of non-coding region. <span>Computed using [[Determinant of a graph]]</span>. <span style="color:coral;">However</span>, there's also a factor due to the conversion between {KC complexity} and {number of bits spent in non-coding region}. For first FST below, for instance, by computing KC for strings like $$10000000000000000...$$ and $$10011110110000000...$$, I found that $$KC \propto 2.7 m$$. Then from topological entropy, which is $$\frac{\log_2{3}}{2}$$, we find $$a \approx (\log_2{3}/2)/2.7 \approx 0.29$$, which is consistent with what I found from the graph, approximately $$(\log_2{100})/23 \approx 0.29$$.
+
+$$LZ < \frac{n-m}{\log_2{(n-m)}} + c$$
+
+$$KC \approx LZ\log_2{n}< \frac{n-m}{\log_2{(n-m)}}\log_2{n} + c'$$
+
+$$P \approx 2^{am+b}$$
+
+$$\log_2{P} \approx am+b$$
+
+$$m \approx \frac{\log_2{P} -b}{a}$$
+
+$$KC < \frac{n-\frac{\log_2{P} -b}{a}}{\log_2{(n-\frac{\log_2{P} -b}{a})}}\log_2{n} + c'$$
+
+Now, this $$P$$ refers to the frequency, which is between $$10^{12} \times 10^{-5} \approx 10^7$$ and $$10^{12} \times 10^{-3} \approx 10^9$$ ($$2^{40} \approx 10^{12}$$)
+
+$$\log_2(40)/\log_2(40-\log_2(10^n)/0.79)$$
+
+If we average this quantity for $$n=7,8,9$$, we get $$(4.8+2+1.55)/3 \approx 2.8$$, which is close to the $$2.7$$ found from estimates above.
+
+See [[this paper|http://arxiv.org/pdf/1311.0822v1.pdf]] about maximum LZ complexity, which goes like $$l/\log{l}$$ where $$l$$ is length of string.
+
+See [[here|https://www.desmos.com/calculator/2wdnnubk30]] for desmos graph.
+
+-------------------------
+
+[[Examples of finite-state transducers and their simplicity bias]]
+
+------------------
+
+See related stuff in [[Descriptional complexity]]
+
+[[Finite state channel]]
+
+[[Information theory]] -- [[Coding theory]] -- [[Algorithmic information theory]]
+
+[[Ergodic theory]] -- [[Topological dynamics]] -- [[Topological entropy]]
+
+[[More resources in simplicity bias in FSTs]]

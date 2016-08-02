@@ -1,0 +1,79 @@
+created: 20160128012455600
+creator: guillefix
+modified: 20160622025319291
+modifier: guillefix
+tags: Physics
+title: Condensed matter physics
+
+''Condensed matter physics'' is the [[Physics]] of condensed matter. Below we look at the different broad types of condensed matter. The properties of condensed matter systems depend, among other things, on the chemical composition of the system (see [[Chemistry]]), and the [[physical laws|Physics]] the chemical components obey.
+
+!!!__Condensed vs non-condensed__
+
+''Condensed matter'' refers to [[Bulk matter]] in a condensed form, i.e. one that is composed of condensed phases. Condensed phases include mainly ''solid'', and ''liquid''. However, generally, it is a phase for which the particles adhere to each other strongly enough (by for example [[Intermolecular forces]] or [[Chemical bonds]]) relative to their kinetic energy so that the system remains approximately bound in the absence of external forces, or where the particles are sufficiently highly concentrated so that they interact strongly (for example non-attracting particles can be forced to condense by confining them in a small volume (or by some external force, like gravity), forcing them to be "nearly touching", as in a liquid or solid).
+
+''//Non-condensed// matter'' has constituents that are barely bound together, if at all, and thus often need to be confined, either naturally, or artificially, to be studied as a whole. The main types are: <b>gases</b> (see [[Fluid mechanics]]), and <b>[[plasmas|Plasma physics]]</b>.
+
+!!!__Solid vs fluid__
+
+A ''solid'' is a form of matter that can resist a considerable amount of stress without flowing (so that its only response is //elastic//).
+
+A ''fluid'' is a form of matter that flows under virtually any amount of stress.
+
+A [[viscoelastic material|Viscoelasticity]] displays solid-like elasticity of short time scales, and fluid-like viscosity on long time scales.
+
+There is really a continuum between these. For instance some [[Rubber]]s are closer to solids, while others are more clearly viscoelastic, depending on the ratio of elastic to viscous [[deformation|https://en.wikipedia.org/wiki/Deformation_(mechanics)]].
+
+!!!__Hard vs soft__
+
+[[Solid-state physics]] studies matter in ''hard form''. Hard forms are characterized by strong inter-particle bonding (often [[Chemical bonds]], when at room temperature). This bonding is strong enough that it makes the relative position of the particles essentially fixed, with thermal fluctuations making particles vibrate only a bit relative to this fixed position. It is also strong enough to resist relatively large external stresses (i.e. it doesn't flow) All forms of hard matter are solids.
+
+[[Soft matter physics]] studies matter in other condensed forms (''soft forms''), where some or all (relative) positional degrees of freedom are "soft", that is, strongly affected by thermal fluctuations, so that they have large variances. It also includes forms with weak bonding so that the material can't resist barely any external stress without flowing. Soft matter can be a solid or a fluid.
+
+Note that given the definition above, one expects an spectrum between the two types of matter, as the definitions involve quantities that can potentially take a continuous of values. Most materials in nature, however, can be classified in one or the other.
+
+One of the most important properties of materials is that they exhibit different ''phases''. These are understood through the study of [[Phase transition]]s. See Paul and Lubenski's book //Principles of condensed matter physics//.
+
+!!!__Condensed forms of matter__
+
+//Hard forms//
+
+* [[Crystalline|https://en.wikipedia.org/wiki/Crystallinity]] solids (crystalline symmetry). See [[Solid-state physics]].
+* [[Amorphous solids|https://en.wikipedia.org/wiki/Amorphous_solid]]; in particular glasses (disordered; statistically homogeneous/isotropic, but positions fixed). See discusion in [[Viscosity and elasticity]].
+* Nuclear matter.
+* Porous solids (see [[Porous material]]).
+* Many [[polymers|Polymer]], particularly plastics, are solids.
+
+//[[Soft forms|Soft materials]]//
+
+{{Soft materials}}
+
+!!!__Non-condensed forms of matter__
+
+* simple gases
+* Simple [[plasmas|Plasma physics]].
+* Quark-gluon plasmas
+* Some types of [[complex fluids|Complex fluid dynamics]] are non-condensed phases, for instance [[Aerosol]]s.
+
+There are also phases of matters that exhibit quantum effects. These are studied (along with other non-quantum phases that nontheless can be understood using quantum mechanics) in [[Quantum condensed matter physics]]
+
+[[Order and disorder|https://en.wikipedia.org/wiki/Order_and_disorder_(physics)]] designate the presence or absence of some symmetry or correlation in a many-particle system. [[Disordered systems|http://www.lpthe.jussieu.fr/~leticia/cargese-lectures.pdf]] See [[here|http://bioserv.mps.ohio-state.edu/~rbund/home/anneal.pdf]] and [[here|http://physics.stackexchange.com/questions/16523/should-annealed-disorder-be-characterized-by-the-average-of-the-partition-functi]], and [[here|https://books.google.co.uk/books?id=Wt804S9FjyAC&pg=PA145&lpg=PA145&dq=%22annealed+disorder%22&source=bl&ots=23hEhpqOgD&sig=7U10nV-RzPNBj7iiehMDZoNmtS4&hl=en&sa=X&ved=0ahUKEwjOgdGQ6bnMAhVsAcAKHTnUCa0Q6AEIVzAJ#v=onepage&q=%22annealed%20disorder%22&f=false]]
+
+* <b>Annelaed disorder</b>: disorder of a system at thermal equilibrium.
+
+* <b>Quenched disorder</b>: disorder of a system in which some variable is out of equilibrium. For instance in glasses.
+
+[[Physics of disordered systems|https://www.lpt.ens.fr/IMG/pdf/journee_meyer_parisi.pdf]]
+
+[[Discussion Meeting: Nonlinear Physics of Disordered Systems: From Amorphous Solids to Complex Flows|https://www.youtube.com/playlist?list=PL04QVxpjcnjhP0xDmdE_dFSaNIM_y3lYj]]
+
+See [[Materials science]] for the __applications__ of the principles of condensed matter physics to understanding and use of the wealth of materials in the world, both natural, and artificial.
+
+For the study of the physics and chemistry at the interface between two phases, see [[Surface science]].
+
+[img width=100 [http://45.media.tumblr.com/445721c345bcad457d093ff9a4e79b48/tumblr_o1ku6soPzW1twd8ddo1_500.gif]]
+
+[[CHANDRASEKHAR LECTURE SERIES|https://www.youtube.com/playlist?list=PL04QVxpjcnjhg4SzXlAyXEvJ2ZA5gqorV]]
+
+[[Strongly correlated systems: From models to materials|https://www.youtube.com/playlist?list=PL04QVxpjcnjiZcPa8AdK6f6IGGb3hAddX]]
+
+[[CMP YB channel|https://www.youtube.com/channel/UCQ92xrVNVgTbq--WQpHPs5Q]]

@@ -1,0 +1,9 @@
+created: 20160714013401154
+creator: guillefix
+modified: 20160714013523027
+modifier: guillefix
+title: Continuous function
+
+A [[Function]] between two [[Topological spaces]] $$f: (X, \tau) \rightarrow (Y, \tau')$$ is ''continuous'' if, for all $$O \in \tau'$$, $$f^{-1} (O) \in \tau$$.
+
+where $$f^{-1}(O)$$ is the [[Preimage]] of the set $$O$$.

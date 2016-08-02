@@ -1,0 +1,39 @@
+created: 20160602235932589
+creator: guillefix
+modified: 20160609173627429
+modifier: guillefix
+title: Designing phoretic micro- and nano-swimmers
+
+See [[Self-diffusiophoresis]]
+
+Small objects can swim by generating around them fields or gradients which in turn induce fluid motion past their surface by phoretic surface effects.
+
+We quantify for arbitrary swimmer shapes and surface patterns, how efficient swimming requires both surface ‘activity’ to generate the fields, and surface ‘phoretic mobility’ (the quantity that determines the direction of the velocity, relative to the driving gradient, which depends on specifics of the solute/surface interactions). We show in particular that
+
+:(i) swimming requires symmetry breaking in either or both of the patterns of ‘activity’ and ‘mobility,’ and
+
+:(ii) for a given geometrical shape and surface pattern, the swimming velocity is size-independent. In addition, for given available surface properties, our calculation framework provides a guide for optimizing the design of swimmers. 
+
+[[Designing phoretic micro- and nano-swimmers (pdf)|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/njp07_design-swimmer.pdf]]
+
+|See [[Self-diffusiophoresis]], and [[Diffusiophoresis]] for theory|
+
+!!Designs of self-diffusiophoretic particles
+
+!!!__Spherical__
+
+__Janus particle__
+
+__Saturn particle__
+
+__Three-slice design__
+
+[img[http://i.imgur.com/vw3Qp4f.png]]
+
+!!!__Thin rod__
+
+Use slender body theory
+
+---------
+
+Is there a way for particles to actively "fight" their rotational diffusion and make them go straight for longer, without an external field?

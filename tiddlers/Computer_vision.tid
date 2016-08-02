@@ -1,0 +1,25 @@
+created: 20160403134855690
+creator: guillefix
+modified: 20160621141634082
+modifier: guillefix
+title: Computer vision
+
+http://www.movidius.com/
+
+[[Convolutional neural network]]
+
+[[Cloud vision API|https://www.youtube.com/watch?v=eve8DkkVdhI]]
+
+[[DenseCap: Fully Convolutional Localization Networks for Dense Captioning|http://cs.stanford.edu/people/karpathy/densecap/]]
+
+[img[http://cs.stanford.edu/people/karpathy/densecap/eg/p8.jpeg]]
+
+[img[http://cs.stanford.edu/people/karpathy/densecap/eg/p12.jpeg]]
+
+[[Multi-scale networks|Deep multi-scale video prediction beyond mean square error|http://arxiv.org/abs/1511.05440]] and [[an application|http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf]].
+
+[[Scene Parsing with Multiscale Feature Learning, Purity Trees, and Optimal Covers|http://arxiv.org/abs/1202.2160]]
+
+http://www.clement.farabet.net/research.html#parsing
+
+''Hand-eye coordination''. See work on grabbing objects in [[Robotics]]

@@ -1,0 +1,21 @@
+created: 20160628151355326
+creator: guillefix
+modified: 20160628152044424
+modifier: guillefix
+title: Tree (combinatorial structure)
+
+A tree is a [[combinatorial|Combinatorics]] structure recursively defined to be {a node and a sequence of trees}. 
+
+See [[Symbolic method for unlabelled structures]]
+
+See also the particular kind: [[Tree (Graph theory)]]
+
+!!Types
+
+* ''Rooted/Unrooted''. Depending on whether a node is distinguished as the "root".
+* ''n-ary'', for instance binary. If each node has $$n$$ children.
+* ''labelled/unlabelled''
+* ''ordered/unordered''. An ordered rooted tree is called //planted//..
+
+[[Graph-Theoretic Concepts in Computer Science: 29th International ..., Volume 29|https://books.google.co.uk/books?id=3OA-5_wx0OoC&pg=PA82&lpg=PA82&dq=%22planted+tree%22+computer+science&source=bl&ots=RdOZUPejtr&sig=8sJU8rm0SxlBX51JyxcLwRLKf_I&hl=en&sa=X&ved=0ahUKEwjmyuiAgsvNAhUsCcAKHTVPDSAQ6AEIIjAB#v=onepage&q=%22planted%20tree%22%20computer%20science&f=false]]
+

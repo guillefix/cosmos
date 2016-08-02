@@ -1,0 +1,47 @@
+created: 20160412183811661
+creator: guillefix
+modified: 20160426131251262
+modifier: guillefix
+title: Mean field approximation to average number of phenotypes discovered in Wright-Fisher model
+
+(See [[Arrival of the frequent]] for context)
+
+See also [[Wright-Fisher model]]
+
+The //Hamming distance// (i.e. the number of differing letters, or mutations) $$d$$ is then distributed binomially:
+
+$$h(d) = \binom{L}{d} \mu^{d} (1-\mu)^{L-d}$$
+
+The expected number of individuals with genotype $$p$$ that arises at generation $$t$$ can be written as:
+
+|$$m_p (t) = \sum_i^N \sum_{d=1}^L h(d) \Phi_p (g_i, s_i, d) = \sum_i^N  \tilde{\Phi_p} (g_i, s_i)$$|Eq.1|
+
+<a id="manual_links"/>
+
+where $$\Phi_d (g_i, s_i, d)$$ is the probability that a $$d$$-fold mutation of genotype $$g_i$$ (selected for reproduction according to fitness $$1+s_i$$) generates an individual with phenotype $$p$$. It takes into account the ''genotype-phenotype map''. $$g_i$$ is the genotype of the $$i$$th member of the population, with a total of $$N$$ members. See derivation of this below:
+
+As the number is distributed binomially, the average number is $$m_p = N(\text{probability for single offspring to get phenotype p})$$. Then we define $$ \tilde{\Phi_p}(g_i, s_i) = (\text{the probability for the single offspring to get to phenotype p}$$ $$\text{given it inherits a mutated version of parent i})$$. Furthermore, $$(\text{probability for single offspring to get phenotype p})$$ = $$ \sum_{i=1}^N (\text{probability of single offspring to get phenotype p through parent } i) $$ = $$\sum_{i=1}^N \tilde{\Phi_p}(g_i, s_i) \times  (\text{probability to inherit from parent } i)$$ =  $$\sum_{i=1}^N \tilde{\Phi_p}(g_i, s_i) \frac{(1+s_i)}{\sum_{j=1}^N (1+s_j)}$$. Finally,
+
+$$m_p = N(\text{probability for single offspring to get phenotype p})$$ = $$\sum_{i=1}^N \tilde{\Phi_p}(g_i, s_i) \frac{N(1+s_i)}{\sum_{j=1}^N (1+s_j)}$$ $$\equiv \sum_{i=1}^N \Phi_p'(g_i, s_i) $$
+
+By fine-graining the transitions from $$g_i$$ to a phenotype-$$p$$ genotype into transitions with particular mutation numbers $$d$$, we can write $$\Phi_p'(g_i, s_i) \equiv \sum_{d=1}^L \Phi_p (g_i, s_i, d)$$, recovering Eq. 1
+
+[#[manual links]] (try to upgrade TW to make this work)
+
+//The actual number of individuals with genotype $$p$$ will follow a binomial distribution// (as explained for a simple case in [[Wright-Fisher model]]), with probability $$m_p(t)/N$$, and number of trials $$N$$. The probability of none of the offspring having phenotype $$p$$ is: $$(1-m_p(t)/N)^N \approx e^{-m_p(t)}$$, the approximation holds for large $$N$$, and may be seen as [[approximating the Binomial distribution by a Poisson distribution|https://en.wikipedia.org/wiki/Binomial_distribution#Poisson_approximation]].
+
+If we __assume__ that $$Ld \ll 1$$, i.e. the average number of mutations per genotype is very small, then $$h(d) \ll h(1)$$ for all $$d>1$$, and $$h(1) \approx L \mu$$ ($$h(0) \approx 1$$ while $$h(0) < 1$$ of course).
+
+With the above assumption that $$Ld \ll 1$$, $$\Phi_p'(g_i, s_i) = \sum_{d=1}^L h(d) \Phi_p (g_i, s_i, d) \approx \Phi_p (g_i, s_i, 0) + \Phi_p (g_i, s_i, 1) L\mu$$. Also, $$\Phi_p (g_i, s_i, 0) = 0$$, if $$p \neq q$$. Next, if we __assume__, $$s_i = 0$$, for all $$i$$ with $$g_i$$ mapping to phenotype $$q$$ (i.e. in space $$\mathcal{N}_q$$), __and__ that it all starts within $$\mathcal{N}_q$$, we have
+
+|$$m_p(t) = \sum_{i=1}^N \Phi_p'(g_i, s_i) \approx \sum_{i=1}^N \Phi_p (g_i, 0, 1) L\mu$$|Eq.2|
+
+We can also __define__ the averaged {expected number of offspring with phenotype $$p$$ at one generation, which inherited from genotype $$g_i$$ at the previous generation via a single mutation}, i.e the average of $$\Phi_p(g_i, 0, 1)$$, over all $$g_i$$ in $$\mathcal{N}_q$$. We will write abuse notation, and use the label $$i$$ in $$g_i$$ to label a genotype in $$\mathcal{N}_q$$, so that $$i = 1, 2, ... N_q$$. The average is then:
+
+$$\Phi_{pq} = \frac{1}{N_q}\sum_{i=1}^{N_q} \Phi_p(g_i, 0, 1)$$
+
+Furtheremore, we should note that, as $$\Phi_p'(g_i, s_i) = \tilde{\Phi_p}(g_i, s_i) \frac{N(1+s_i)}{\sum_{j=1}^N (1+s_j)}$$ (and a similar expression for the $$d$$ dependent quantities). When $$s_i = 0$$, we find $$\Phi_p'(g_i, s_i) = \tilde{\Phi_p}(g_i, s_i)$$, and also, for example, that $$\Phi_p(g_i, 0, 1) = \tilde{\Phi_p}(g_i, 0, 1)$$, where $$\tilde{\Phi_p}(g_i, s_i, d) = (\text{the probability for the single offspring to get to phenotype p}$$ $$\text{given it inherits a mutated version of parent i, via a single-point mutation (d=1)})$$. Thus $$\Phi_{pq}$$ is the average of this probability.
+
+We also define the ''robustness'' of phenotype $$q$$, $$\rho$$ as equal to the average probability over all $$\mathcal{N}_q$$ of a neutral mutation (i.e. one from $$\mathcal{N}_q$$ to $$\mathcal{N}_q$$). Under the approximate assumptions above,  $$\Phi_{qq} \approx \rho$$. If we __assume__ also that the population is large enough (more precisely, we are in the [[Polymorphic limit (Wright-Fisher model)]]), we can use a ''mean field approximation'': approximate $$ \Phi_p (g_i, 0, 1)$$ by $$\Phi_{pq}$$. This approximate works best if the population is large enough that most of the neutral space $$\mathcal{N}_q$$ is populated (or in the author of the paper word's "1-mutant neighbourhood of the population is similar to that of the whole neutral space"). Using this in Eq.2:
+
+|$$m_p(t) \approx L\mu \sum_{i=1}^N \Phi_{pq} = N L\mu \Phi_{pq}$$|Eq.3|

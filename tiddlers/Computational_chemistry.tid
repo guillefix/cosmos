@@ -1,0 +1,46 @@
+created: 20160221175751889
+creator: guillefix
+modified: 20160308174621463
+modifier: guillefix
+tags: Chemistry [[Scientific computing]]
+title: Computational chemistry
+
+__Molecular modelling, dynamics and design__
+
+[[Introduction to molecular dynamics simulation|http://udel.edu/~arthij/MD.pdf]]
+
+[[Video intro to molecular dynamics simulations|https://www.youtube.com/watch?v=lLFEqKl3sm4]] Watch!
+
+Wiki page: https://en.wikipedia.org/wiki/Molecular_dynamics
+
+[[Geometry (energy) optimization|http://homepages.warwick.ac.uk/~masfk/BindingGeometry.pdf]] is a typical feature of these software
+
+//Software//:
+
+[[Gromacs|http://www.gromacs.org/Documentation/Tutorials]]
+
+[[Chimera|http://www.cgl.ucsf.edu/chimera/]] molecular modelling software system. Nice
+
+[[Delphi|http://compbio.clemson.edu/delphi]] Electrostatic fields
+
+[[Ascalaph designer|http://www.biomolecular-modeling.com/Ascalaph/Ascalaph_Designer.html]] and abalone. [[Tutorial|http://www.biomolecular-modeling.com/Ascalaph/Documents/Molecular_drawing.html]]
+
+[[AMBER|http://ambermd.org/#code]]
+
+http://proteopedia.org/wiki/index.php/Molecular_modeling_and_visualization_software
+
+http://nanohub.org/
+
+http://nanohub.org/resources/4540
+
+https://en.wikipedia.org/wiki/Molecule_editor
+
+https://en.wikipedia.org/wiki/List_of_software_for_Monte_Carlo_molecular_modeling
+
+https://en.wikipedia.org/wiki/List_of_software_for_molecular_mechanics_modeling
+
+https://en.wikipedia.org/wiki/List_of_software_for_nanostructures_modeling
+
+http://www.ch.ic.ac.uk/local/organic/mod/software.html
+
+[[Challenges in computer-aided molecule design|http://link.springer.com/article/10.1007/s10822-011-9504-3]]

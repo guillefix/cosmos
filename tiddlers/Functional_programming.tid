@@ -1,0 +1,47 @@
+created: 20160217190302124
+creator: guillefix
+modified: 20160628024558164
+modifier: guillefix
+title: Functional programming
+
+[[Introduction to Functional Programming|https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0]] [[youtube videos|https://www.youtube.com/watch?v=UIUlFQH4Cvo&list=PLTA0Ta9Qyspa5Nayx0VCHj5AHQJqp1clD]]
+
+-------------------
+
+!!!__[[Functional programming in Javascript|https://www.youtube.com/watch?v=1DMolJ2FrNY&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84#t=71.591166]]__
+
+* Higher-order functions: functions that take functions as arguments. Functions are like variables too. Examples:
+
+** Filter
+
+** [[map|https://www.youtube.com/watch?v=bCqtb-Z5YGQ&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&index=2#t=3m20s]]: Transforms arrays
+
+** [[Reduce|https://www.youtube.com/watch?v=Wl98eZpkp-c&index=3&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84#t=4m14s]]: iterates through objects in array, with an //accumulator//. Accumulator can be any data type, [[including objects|https://www.youtube.com/watch?v=1DMolJ2FrNY&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&index=4#t=6m30]]. See [[MDN reference|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce]] too.
+
+** [[Closures|https://www.youtube.com/watch?v=CQqwU2Ixu-U&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&index=5#t=55s]]. Functions can access variables outside its scope
+
+** [[Currying|https://www.youtube.com/watch?v=iZLP4qOwY8I&index=6&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84]]. Decompose a function so that you first call it with an argument that returns a function, which you then call with second argument, etc. [[Basic usage|https://www.youtube.com/watch?v=iZLP4qOwY8I&index=6&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84#t=2m]]. Can use [[lodash|https://lodash.com/]] [[to curry existing functions|https://lodash.com/docs#curry]], see [[an example of using lodash|https://www.youtube.com/watch?v=iZLP4qOwY8I&index=6&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84#t=4m]]
+
+** [[Recursion|https://www.youtube.com/watch?v=k7-N8R0-KY4&index=7&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84#t=0m24.5s]] is when a function calls itself, until it doesn't.
+
+** Promises. Like callbacks but more powerful as they are <b>composable</b>. [[Example|https://www.youtube.com/watch?v=2d7s3spWAzo&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&index=8#t=11m30s]]
+
+* [[Functors|https://www.youtube.com/watch?v=DisD9ftUyCk]]. Objects that hold collections of objects (like arrays) that have the `map()` function so that one can map these collections to other collections of the same size. One can made the analogy more precise between these and functors in [[Category theory]] which is very related to functional programming ideas.
+
+* Monoids.
+
+---------
+
+//Functional programming languages//
+
+[[Clojure|https://www.youtube.com/watch?v=yR9oo0ffJ7I]]
+
+The syntax is so nice. As he says in the vid, there is basically no syntax. It also reminds me of the data structures used for [[CAS|Computer algebra]]s
+
+Lisp
+
+Scala. [[yt vids|https://www.youtube.com/results?search_query=Functional+Programming+Principles+in+Scala]]
+
+Scheme
+
+Haskell. http://learnyouahaskell.com/

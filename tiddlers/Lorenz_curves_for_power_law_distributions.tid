@@ -1,0 +1,31 @@
+created: 20160623212134053
+creator: guillefix
+modified: 20160623212146585
+modifier: guillefix
+title: Lorenz curves for power law distributions
+
+See [[Power laws]]
+
+Another interesting quantity (here applied to networks, though applied to wealth distribution and elsewhere of course) is the fraction of ends of edges $$W$$ that connect to the fraction $$P$$ of nodes when ordered by their degree (i.e. the top $$P*100$$ percent of nodes, by degree). It can be shown that for scale free networks:
+
+$$W=P^{(\alpha-2)/(\alpha-1)}$$
+
+The curves $$W$$ vs. $$P$$ are called Lorenz curves, after Max Lorenz. For example, for the World Wide Web links, $$\alpha \approx 2.2$$ and the curve shows that 50% of links go to the top 2% "richest" pages ("richer" meaning with higher number of links). Actually, as the WWW doesn't follow a perfect power law, the real number is closer to 1.1%
+
+This is related to Gini coefficients. [[More on power laws|http://tuvalu.santafe.edu/~aaronc/courses/7000/csci7000-001_2011_L2.pdf]]
+
+As a comparison, one can calculate the Lorenz curve for a exponential distribution, for example. Both $$W$$ and $$P$$ go like $$e^{-x}$$ for large $$x$$ (i.e. small $$P$$ or $$W$$). Therefore the Lorenz curve (at its extreme) goes like $$P \sim W$$, and so the top $$1\%$$ have just $$1\%$$ of the wealth.
+
+$$W = \int x e^{-x} dx = [x e^{-x}]^{x}_\infty+\int e^{-x} dx$$
+
+$$ =(x +1 )e^{-x} $$
+
+$$P = e^{-x}  $$
+
+$$\therefore W = P-P\ln{P}$$
+
+The typical plot however plots the income of the bottom $$100(1-P)$$ %, i.e. $$1-W$$, vs that percent from the bottom, i.e. $$100(1-P)$$ %. [[Here|http://www.wolframalpha.com/input/?i=plot+1-%28%281-x%29-%281-x%29*ln%28%281-x%29%29%29+for+0%3Cx%3C1]] is the resulting plot in WolframAlpha. This shows that indeed inequality is not exclusive at all to power law distributions. In fact the only distribution with a perfectly equal Lorenz curve, corresponds to when everyone has the same, so the distribution is a Dirac delta centered on a certain point.
+
+However, power law distributions often do show more inequality than exponential distributions. For instance, in power laws a typical situation is the famous "80-20 rule", by which the top 20% have 80% of the income. For exponential distribution, it can be seen from the plot that the top 20% has "only" 65% of the income. //try different exponential distribution, do I get different Lorenz curve, I think I would! So this statement was not very meaningful..//
+
+What preferential attachment (and its resulting power law distributions) does is not make extreme events possible (they are possible in other networks), but it makes them more likely (power law decays less rapidly). In the preferential attachment model, this is because extremes are amplified due to the nature of the model.

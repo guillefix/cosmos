@@ -1,0 +1,11 @@
+created: 20160213121031691
+creator: guillefix
+modified: 20160213122916272
+modifier: guillefix
+title: Pearson coefficients
+
+See section 7.12.2 of Newman book.
+
+It is the number of common neighbours minus the expected number of common neighbours if edges were random ($$k_i k_j /n$$), normalized in a certain way. It is also the covariance between two rows of adjacency matrix divided by the product of their standard deviations:
+
+[img[pearson_coefficient_network.png]]

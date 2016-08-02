@@ -1,0 +1,108 @@
+created: 20160203122534523
+creator: guillefix
+modified: 20160317220426768
+modifier: guillefix
+title: Models of network formation
+
+Models that describe the processes by which a network //forms// or is //generated// are often called ''generative network models''. One of the most famous ones is the "preferential attachment" model.
+
+
+!!__''Preferential attachment''__
+
+<small>related to "rich get richer" idea in economics (Herbert Simon).</small>
+
+ Preferential attachment (also called //cumulative advantage// in older literature) refers to the idea that new nodes in a network //preferentially attach// themselves to some nodes in the existing network rather than others.
+
+The __attachment__ is described in terms of a probability distribution over existing nodes for the creation of an edge. The __preference__ is described by an ''attachment kernel'', $$a_i$$, which is the probabilistic weight of node $$i$$. The probability that a new node connects to existing node $$i$$ is thus:
+
+$$q_i=\frac{a_i}{\sum_i a_i}$$
+
+Different __preference types__ can be considered, the main categories being:
+
+* __Structural properties__. The most common one is degree (higher prefered). These can be expressed in a vector over nodes: $$\vec{\alpha}$$.
+
+* __Other properties__. Most common one is fitness. Fitness refers to some inherent quantity assigned to each node at its creation, and that is independent of network structure. Another example, could be external factors. We can also write these in a vector: $$\vec{\eta}$$.
+
+The attachment kernel is then generally a function of these: $$a_i=a_i(\alpha_i, \eta_i)$$.
+
+Note: We need a //seed network// (initial condition), to get any network out of this model. The network will eventually be independent of the seed, but this can take a <big>very</big> large number of nodes $$N$$, sometimes in the order of billions.
+
+!!!__[[de Solla Price's model]]__ (dSP model)
+
+Proposed in the study of citation networks. 
+
+The main assumption of the model is that the probability of each new edge created whew we add a new node only depends on the degree of that node (on the //in-degree// to be precise, i.e. the number of citations it has). In particular it assumes an //affine preferential attachment//:
+
+$$q_i=\frac{k_i+a}{\sum_i(k_i+a)}=\frac{k_i+a}{N(a+c)}$$
+
+One can write a //master equation// for the degree distribution, which has a steady state (i.e. $$N \rightarrow \infty$$ behavior given by power-law decay with power:
+
+$$\alpha=2+\frac{a}{c}$$.
+
+Thus, many scholars believe that this simple model may describe the fundamental mechanism by which power laws are obtained in many real-world networks.
+
+!!!__Barabási–Albert (BA) model__
+
+Almost a special case of de Solla Price model, but with new assumptions:
+
+* undirected edges
+* exactly $$c$$ new edges per new node.
+* attachment kernel (a.k.) is now exactly proportional to degree (undirected). Note that now degree is always greater than $$c$$. In terms of the parameters of the dSP model, me add an ancillary direction to the edges of the BA model from new to old nodes, then the a.k. is proportional to $$k_i=k_i^{\text{in}}+c$$ where $$k_i$$ is now the total degree, and $$c$$ is the out-degree. We see that $$c$$ plays the role of $$a$$. the exponent for the power-law tail is thus $$\alpha=3$$.
+
+!!!__Other properties of preferential attachment models__
+
+__Degree distribution as a function of time of creation__
+
+Nodes that were added earlier to the network have had more time for new nodes to attach to them, and thus in average have higher in-degree.
+
+This can be shown by starting with a new quantity: the fraction of nodes (<small>in average over the ensemble, so effectively the probabilty </small>) that a node was created at time $$t$$ and has in-degree $$k$$ when the network has $$n$$ vertices, $$p_k(n,t)$$. The "time" $$t$$ $increments by $$1$$ every time we add a node, and thus effectively labels nodes, in the order by which they were added.
+
+One can then write a master equation, noting that no nodes have $$t>n$$, except the new node which has $$t=n+1$$, and also in-degree $$0$$. However the fraction of nodes having any being created at any particular time goes to $$0$$ as $$n \rightarrow \infty$$, and so we change variables to a probability density in $$t$$ by dividing $$p$$ by $$n$$. We also rescale time by dividing by $$n$$ for convenience, and to properly convert the master equation into a differential equation.
+
+__Sizes of in-components__
+
+Can also derive a master equation. See [[homework problem 4|https://www.dropbox.com/s/3j8o9av52umrejp/math-c5-4_4.pdf?dl=0]]
+
+!!!__[[Extensions of preferential attachment models|Extensions of preferential attachment models (Network theory)]]__
+
+* Edges (like hyperlinks) may also disappear. They may also appear at times after the nodes are added.
+
+* Nodes may also disappear (like websites).
+
+* Preferential attachment could be non-linear on degree, or it could depend on other network property of the node.
+
+
+!!!__Vertex copying models__
+
+Kleinberg et al [[have proposed|http://cs.brown.edu/courses/cs253/papers/klein-web.pdf]] a model where new nodes imitate the out-edge configuration of an existing node. This is done by linking to some of that edge's neighbours, while the rest of connections are to randomly chosen nodes in the network. In particular, we first choose a node uniformly at random, and then go through its edges, copying it with probability $$\gamma$$, or ignoring it and choosing a node at random with probability $$1-\gamma$$. Remarkably, the expression for the fraction of nodes with degree $$k$$ when node size is $$n$$ has the same form as in Price's model, but with an $$a$$ give by an expression depending on $$\gamma$$, and thus it also follows a [[power law|Power laws]]. The networks still differ in other structural aspects, in particular regarding correlations.
+
+This model reminds us that just knowing the degree distribution, doesn't tell us the mechanism that gave rise to it. We need more information to make this inference.
+
+In some biological networks (metabolic and protein-protein networks) vertex copying seems to be the most probable explanation for observed power law distributions. The mechanism by which this happens is gene duplication (by which, when copying DNA, a gene is duplicated by mistake) and //point mutations// (a mutation of a single base pair). This, through evolution creates different proteins, which (due to their common origin) are still similar and have a lot of protein-protein interactions in common.
+
+
+//Observations of power law in protein and metabolic networks//:
+
+[[Lethality and centrality in protein networks|http://www.nature.com/nature/journal/v411/n6833/full/411041a0.html]]
+
+[[The large-scale organization of metabolic networks|http://www.nature.com/nature/journal/v407/n6804/full/407651a0.html]]
+
+//Proposed models//
+
+[[A Model of Large-Scale Proteome Evolutionhttp://www.santafe.edu/media/workingpapers/01-08-041.pdf]]
+
+[[ Modeling of protein interaction networks|http://arxiv.org/abs/cond-mat/0108043]]
+
+!!__''Network optimization''__
+
+An alternative networks may "form". Often these are rationally created networks to optimize toward some goal.
+
+__Travel time and cost trade-offs__
+
+A good example is: airline networks where a compromise between lowering cost (so having more central hubs and spokes to fill planes more fully, than flights between two minor destinations) and length of travel (to satisfy customers) is sought.
+
+Ferrer i Cancho have one such simple [[model|http://link.springer.com/chapter/10.1007%2F978-3-540-44943-0_7#page-1]] to find compromises between mean geodesic distance (travel time) and number of edges (cost). They find interesting regimes with local minima with trees with exponential distributions, passing through trees with power law distributions, and finally star graphs, as they varied the parameter controlling the relative importance of the two compromising variables. However, for most values of the parameter, the global minimum was actually the star graph.
+
+An [[alternative model|http://arxiv.org/abs/cond-mat/0603278]] that shows interesting behavior in the global minimum too, by assigning an actual geometric distance to the edges (so that it is a //spatial network//, see [[MMathPhys miniprojects]].Networks). Depending on whether they assigned more importances to travelling times, or to waiting times at nodes, they got more road-like networks (waiting times at intersections negligible) or more airline-like networks (waiting times significant).
+
+See recent research: [[Like air traffic, information flows through neuron 'hubs' in the brain, finds IU study|http://www.eurekalert.org/pub_releases/2016-01/iu-lat012016.php?utm_content=buffer6c26c&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer]]

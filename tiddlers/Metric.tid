@@ -1,0 +1,11 @@
+created: 20160713223554157
+creator: guillefix
+modified: 20160713224125477
+modifier: guillefix
+title: Metric
+
+A ''metric'' on a [[Set]] $$X$$ is a [[map|Function]] $$d: X \times X \rightarrow \mathbb{R}$$ (i.e. from the [[Cartesian square|Cartesian power]] of $$X$$ to the [[Real number]]s), that satisfies the conditions:
+
+* ''symmetry'': $$d(x,y) = d(y,x)$$
+* ''positivity'': $$d(x,y) \geq 0$$, and $$=0$$ if, and only if, $$x=y$$.
+* [[Triangle inequality]]: $$d(x,y) \leq d(x,z) + d(z,y)$$.

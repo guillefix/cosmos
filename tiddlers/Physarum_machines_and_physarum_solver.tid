@@ -1,0 +1,57 @@
+created: 20160326024251377
+creator: guillefix
+modified: 20160623232412206
+modifier: guillefix
+tags: [[MMathPhys miniprojects]] [[Spatial networks]]
+title: Physarum machines and physarum solver
+
+[img[physarum_machines_books.png]]
+
+See Networks miniproject (inoverleaf), pdf here: [[Spatial network optimization with a model of the physarum polycephalum|file:///home/guillefix/Dropbox/Oxford/MMathPhys/Networks/miniproject/896065.pdf]]
+
+
+__Analytical properties of physarum solver__
+
+http://epubs.siam.org/doi/pdf/10.1137/1.9781611974331.ch131
+
+http://arxiv.org/pdf/1101.5249v1.pdf
+
+[[Physarum Can Compute Shortest Paths|https://people.mpi-inf.mpg.de/~mtd/files/physarum_shortest_path.pdf]]
+
+[[PHYSARUM CAN COMPUTE SHORTEST PATHS: A SHORT PROOF|http://www.iasi.cnr.it/~vbonifaci/pub/physarum-ipl.pdf]]
+
+http://arxiv.org/abs/1106.0423
+
+http://arxiv.org/abs/1601.02712
+
+[[On a Natural Dynamics for Linear Programming|http://arxiv.org/abs/1511.07020]]
+
+__Tero's model__
+
+A mathematical model for adaptive transport network in path findingby true slime mold
+
+A Mathematical Study ofPhysarum polycephalum
+
+http://www.ncbi.nlm.nih.gov/pubmed/18415133
+
+__Other models__
+
+[[An Improved Physarum polycephalum Algorithm for the Shortest Path Problem|http://www.hindawi.com/journals/tswj/2014/487069/]]
+
+[[Physarum Learner: A bio-inspired way of learning structure from data|http://www.sciencedirect.com/science/article/pii/S0957417414001274]]
+
+[[An adaptive amoeba algorithm for constrained shortest paths|http://www.sciencedirect.com/science/article/pii/S0957417413005411]]
+
+__Dynamics__
+
+[[Physarum polycephalum Percolation as a Paradigm for Topological Phase Transitions in Transportation Networks|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.109.078103]]
+
+__Experiments__
+
+[[Plasmodial vein networks of the slime mold Physarum polycephalum form regular graphs|http://journals.aps.org/pre/cited-by/10.1103/PhysRevE.82.046113]]
+
+Are motorways rational from slime mould's point of view?
+
+[[Rules for Biologically Inspired Adaptive Network Design|http://science.sciencemag.org/content/327/5964/439.full]]
+
+http://www.nature.com/articles/srep03495

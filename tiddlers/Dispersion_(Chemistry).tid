@@ -1,0 +1,35 @@
+created: 20160509182131033
+creator: guillefix
+modified: 20160511122037571
+modifier: guillefix
+title: Dispersion (Chemistry)
+
+A ''dispersion'' is a [[material|Materials science]] comprising more than one phase where at least one of the phases consists of finely divided phase domains, often in the [[colloidal|Colloid]] size range, dispersed throughout a continuous phase.
+
+A __continuous phase__ is a phase not interrupted in space.
+
+A __dispersed phase__ is a phase constituted of particles of any size and of any nature dispersed in a continuous phase of a different composition.
+
+The __dispersion medium__ is the matrix for the dispersed phase. The dispersion medium is the continuous phase of the dispersion.
+
+Source from IUPAC: [[Terminology of polymers and polymerization processes in dispersed systems (IUPAC Recommendations 2011)*|https://espace.library.uq.edu.au/view/UQ:266979/UQ266979_OA.pdf]]. 
+
+Depending on the size of the particles in the dispersed phase we have:
+
+* [[Solution|Solution (Chemistry)]], for size less than a nanometer.
+* [[Colloid]], for size between a nanometer and a micrometer.
+* Coarse dispersion, for a size larger than a micrometer.
+
+"Dispersion", without adjective, is often used to refer to the colloidal regime.
+
+!!__Dispersion types__
+
+For phases with particles of colloidal size or larger. For smaller sizes, see [[solution|Solution (Chemistry)]].
+
+|Medium|<|Dispersed medium|
+|~|Gas|Liquid|Solid|
+|Continuous medium|Gas|None (because all gases are mutually miscible)|Colloidal: Liquid [[aerosol|Aerosol]]|Colloidal: Solid [[areosol|Aerosol]]. Coarse: [[Dust]]|
+|~|Liquid|If dipersed phase has enough concentration: [[Foam]]|Colloidal: [[Emulsion]]|Colloidal: [[Suspension]]|
+|~|Solid|[[Porous solid|Porous material]] filled with gas. If dipersed phase has enough concentration: solid [[Foam]]|[[Porous solid|Porous material]]  filled with liquid, like [[Gels]]|Colloidal: Solid sol, like [[Cranberry glass|https://en.wikipedia.org/wiki/Cranberry_glass]]. Coarse: [[conglomerates|https://en.wikipedia.org/wiki/Conglomerate_(geology)]]|
+
+See [[https://en.wikipedia.org/wiki/Dispersion_(chemistry)]] for examples.

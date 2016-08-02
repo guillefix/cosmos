@@ -1,0 +1,49 @@
+created: 20160426165349156
+creator: guillefix
+modified: 20160426165657881
+modifier: guillefix
+title: Effects of bias in GP maps
+
+See [[MMathPhys oral presentation]]
+
+!!__[[Arrival of the frequent]]__
+
+: [[The Arrival of the Frequent: How Bias in Genotype-Phenotype Maps Can Steer Populations to Local Optima|http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0086635]] See notes at [[Arrival of the frequent]].
+
+--[[The structure of the genotype–phenotype map strongly constrains the evolution of non-coding RNA|http://rsfs.royalsocietypublishing.org/content/5/6/20150053.full]]. [[See notes|The structure of the genotype-phenotype map strongly constraints the evolution of non-coding RNA]]
+
+[[Probabilistic bias in genotype-phenotype maps|http://ora.ox.ac.uk/objects/uuid:eba8801e-182e-42f5-aa0a-d3d914fd7923]]. See more here: http://dingleresearch.weebly.com/publications.html
+
+[img width=500 [http://d10k7sivr61qqr.cloudfront.net/content/royinterface/11/95/20140249/F3.large.jpg?width=800&height=600&carousel=1]]
+
+<small>Self-assembling polyominoes model: [[A tractable genotype–phenotype map modelling the self-assembly of protein quaternary structure|http://rsif.royalsocietypublishing.org/content/11/95/20140249]]</small>
+
+More.... [[Modeling the evolution of molecular systems from a mechanistic perspective|http://www.cell.com/trends/plant-science/fulltext/S1360-1385%2814%2900063-6]] [[Adaptive dynamics under development-based genotype–phenotype maps|http://www.nature.com/nature/journal/v497/n7449/full/nature12142.html]] [[Why self-incompatibility in the Brassicaceae is totally cool|http://vincentcastric.weebly.com/how-cool-is-si.html]]
+
+!!__Robustness and evolvability__
+
+3. [[The organization of biological sequences into constrained and unconstrained parts determines fundamental properties of genotype–phenotype maps|http://rsif.royalsocietypublishing.org/content/12/113/20150724.full]]. Features observed in several GP maps (including the simple Fibonacci GP map they use as a model):
+
+[[Common features of GP maps]]
+
+[[Genetic correlations greatly increase mutational robustness and can both reduce and enhance evolvability|http://arxiv.org/abs/1505.07821]]
+
+//random null model//: that maintains the number of genotypes mapping to each phenotype, but assigns genotypes randomly
+
+''Genetic correlations''
+
+//neutral correlations// can be quantified by the robustness to mutations, which can be many orders of magnitude larger than that of the null model, and crucially, above the critical threshold for the formation of large neutral networks of mutationally connected genotypes which enhance the capacity for the exploration of phenotypic novelty. Thus <b>neutral correlations increase evolvability</b>.
+
+//non-neutral correlations//: Compared to the null model:
+
+:i) If a particular (non-neutral) phenotype is found once in the 1-mutation neighbourhood of a genotype, then the chance of finding that phenotype multiple times in this neighbourhood is larger than expected;
+
+:ii) If two genotypes are connected by a single neutral mutation, then their respective non-neutral 1-mutation neighbourhoods are more likely to be similar;
+
+:iii) If a genotype maps to a folding or self-assembling phenotype, then its non-neutral neighbours are less likely to be a potentially deleterious non-folding or non-assembling phenotype.
+
+Non-neutral correlations of type i) and ii) reduce the rate at which new phenotypes can be found by neutral exploration, and so may <b>diminish evolvability</b>, while non-neutral correlations of type iii) may instead facilitate evolutionary exploration and so <b>increase evolvability</b>.
+
+!!__[[Examples of GP map bias]]__
+
+{{Examples of GP map bias}}

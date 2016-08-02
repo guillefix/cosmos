@@ -1,0 +1,19 @@
+created: 20160121121903428
+creator: guillefix
+modified: 20160126180306212
+modifier: guillefix
+title: Path integrals for stochastic processes
+
+The Markov property of most stochastic processes means that one can naturally construct a [[Path integral]] description. This can be used to [[draw parallels between stochastic processes and quantum mechanics|Stochastic-quantum analogy]].
+
+__From Langevin equation to path integrals__
+
+We begin with the general Langevin equation with no inertial term, but a deterministic force. We also assume the noise term is [[Gaussian white nosie]]
+
+[[Ito/Stratonovitch dilemma]] and [[Multiplicative noise]]
+
+--------
+
+See also
+
+[[State-dependent diffusion: Thermodynamic consistency and its path integral formulation|journals.aps.org/pre/abstract/10.1103/PhysRevE.76.011123]]

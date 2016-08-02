@@ -1,0 +1,9 @@
+created: 20160713185505498
+creator: guillefix
+modified: 20160713192835399
+modifier: guillefix
+title: Graph
+
+See [[Graph theory]]
+
+A graph $$g$$, consists of a set of vertices $$V$$, and a set of edges $$E \in V \times V $$.

@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.12" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>Ideas for understanding the simplicity bias in finite state transducers: Cosmos — a non-linear personal web notebook</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   "><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible" title="More actions">
+
+
+</button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible" title="Edit this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible" title="Close this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Ideas for understanding the simplicity bias in finite state transducers
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="guillefix.html">
+guillefix
+</a> 5th July 2016 at 5:20pm
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"></div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>See <a class="tc-tiddlylink tc-tiddlylink-missing" href="Simplicity%2520bias%2520in%2520finite%2520state%2520transducers.html">Simplicity bias in finite state transducers</a></p><p>On the second question, there is actually a stumbling block due to the random FST ensemble I'm using, which consists only of accessible FSTs (of given size). Accessible means that any state can be reached from the initial state (so that there are no 'useless' states). This is in contrast to random unrestricted FSTs, where each of the K_i n out-stubs are connected to a state, independently and uniformly at random.. Answering probabilistic questions for the latter is much easier than for accessible FSTs (see attached or <a class="tc-tiddlylink-external" href="http://bit.ly/290fHji" rel="noopener noreferrer" target="_blank">http://bit.ly/290fHji</a>). I guess we could simulate random unrestricted FSTs, though I think accessible FSTs are a more interesting ensemble, because you fix the actual number of states in the automaton. Anyway, there may still be some things to say here, because in the article I attach he finds a way of relating statistics of automata to those of accessible automata, but only asymptotically, and with inequalities. There may be other approaches with <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Analytic%2520combinatorics.html">Analytic combinatorics</a>, but they are potentially quite hard.</p><p>Regarding the first question, I've been refining my ideas about loops of 'noncoding states' (with output symbols being equal). In particular, looking at the experimental results, I've noticed that bias is associated with 'absorbing regions' that contain at least one non-coding state (approximately absorbing regions also show some bias). An absorbing region is a set of states which you can reach, but which you can't leave. Now, I've found two main factors determining the frequency/neutral-set-size/designability (call this NSS) of an output of an FST that contains this:</p><ul><li>The structure of the absorbing region</li><li>The number of steps spent in the absorbing region, call it m.</li></ul><p>Now, I've also found that the NSS is multiplied by 2^(a*m), where a depends on the structure of the absorbing region (in an interesting combinatorial way). So the NSS \propto 2^(a*m). The proportionality constant will depend on the particular string, and the number of noncoding states it passes through, outside the absorbing region (this requires more attention). </p><p>Now, if the m output bits from the absorbing region are composed of a repeating pattern (often the case, but I can think of exceptions..), the Lempel-Ziv complexity C &lt;= n-m + const., where n is the total number of bits, and const is the number of bits in the repeating pattern.</p><p>Under these assumptions, one can see that the frequency of an output obeys P =NSS/2^n &lt;= 2^(-a*C + b), where I lump all the proportionality constants above in b..</p><p>The Fibonacci GP map described in the paper on constrained/unconstrained parts, is actually an example of the simplest kind of FST with the properties above. It can be implemented as a 3-state FST, with an absorbing region consisting of a single non-coding state, and no non-coding states anywhere else. Thus the arguments above work very cleanly. Unfortunately, general FSTs can show more complicated things, like:</p><ul><li>regions, which are not completely absorbing, but still produce bias.</li><li>Several absorbing regions</li><li>Non-coding states outside absorbing regions</li><li>Absorbing regions, which don't produce simple repeating sequences. I think these won't produce as much bias</li></ul><p>All these make complicate the picture, and should be taken into account more fully to improve the argument above. In any case, it makes sense the argument above can't be exact (except for simple cases like Fibonacci GP map), because most FSTs show a complexity/frequency plot which is not perfect, but has some noise.</p><p>Hope that wasn't too long. I think also that all this will be easier to understand with pictures...</p></div>
+
+
+
+</div>
+
+</p>
+
+</section>
+</body>
+</html>

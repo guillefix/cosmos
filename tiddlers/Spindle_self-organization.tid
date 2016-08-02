@@ -1,0 +1,121 @@
+created: 20160510110725669
+creator: guillefix
+modified: 20160602221434186
+modifier: guillefix
+title: Spindle self-organization
+
+See [[Active matter]]
+
+![[Physical basis of spindle self-organization|http://www.pnas.org/content/111/52/18496.short]]
+
+[[Spindle|Spindle (Cell biology)]]
+
+!!__Theory__
+
+Spindle self-organization arises from:
+
+*the local interactions of microtubules, mediated by steric effects, cross-linkers and motors
+* microtubule polymerization dynamics ([[Microtubule]] turnover)
+
+__Microtubules in the spindle are deep within the nematic phase__, as their volume fraction, $$\sim 0.03$$, is well above the volume fraction at which the isotropic phase is expected to lose stability, $$\sim0.01$$. However, their __net polarity varies__ from parallel (with plus end towards center) at the ends, to antiparallel at the middle. __Theory__: The magnitude of the nematic field is taken to be constant throughout the spindle (note: the magnitude, not the direction!), while the magnitude of the polarity field depends on motor activity and self-advection. They do this because they consider the simplest theory that is consistent with all the data.
+
+See [[Supporting infomation (annotated)|]]
+
+Theory based on that developed in this paper:
+[[Fluctuating hydrodynamics and microrheology of a dilute suspension of swimming bacteria|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.80.011917]]. Some parts can be derived using [[Poisson-bracket approach to the dynamics of nematic liquid crystals|https://journals.aps.org/pre/abstract/10.1103/PhysRevE.67.061709]]. 
+
+How changes in volume due to microtubule polymerization (gaining the dimers) can also add to active stress, as in the case of cells growing in tissues: [[Fluidization of tissues by cell division and apoptosis|http://www.pnas.org/content/107/49/20863.abstract]]
+
+!!__Experimental validation__
+
+__Materials and apparatus__
+
+[[LC-PolScope|http://openpolscope.org/docs/OldenbourgLC-PolScopeLabManual2005.pdf]], http://openpolscope.org/. Type of microscope that uses light polarization.
+
+Metaphase arrested spindles assembled in //[[Xenopus laevis|https://en.wikipedia.org/wiki/African_clawed_frog]]// egg extracts.
+
+__Measurement methods__
+
+''LC-PolScope + Image processing'' -> extract spatio-temporal correlation functions from the movies obtained by microscope. Measure:
+
+* Retardance. Gives measure of microtubule density (if microtubules are well aligned, which they are). See [[video|http://movie-usa.glencoesoftware.com/video/10.1073/pnas.1409404111/video-1]]
+*Optical slow axis. Gives measure of microtubule orientation. See [[video|http://movie-usa.glencoesoftware.com/video/10.1073/pnas.1409404111/video-2]]
+
+''Spinning disk confocal microscope'', to record 3D time-lapse movies of spindles labeled with high concentration of fluorescent tubulin. These give 3D measurements of the density. See [[video|http://movie-usa.glencoesoftware.com/video/10.1073/pnas.1409404111/video-3]]
+
+Measuring __stress fluctuations__:
+
+* Passive ''two-point particle displacement mesaurement''. See [[video|http://movie-usa.glencoesoftware.com/video/10.1073/pnas.1409404111/video-4]]
+* Active microrheology measurement of the frequency-dependent shear modulus of the spindle by Shimamoto et al.
+
+obtained two-point particle displacements by tracking single molecules of fluorescently labeled tubulin, computed the two-point correlation between these single molecules along the direction perpendicular to the spindle axis. 
+
+!!!__Internal dynamics of spindle__
+
+[img width = 600 [http://www.pnas.org/content/111/52/18496/F1.large.jpg]]
+http://www.pnas.org/content/111/52/18496/F1.expansion.html
+
+Measuring correlations. In particular, they measure correlations of the fluctuations at each pixel in the image relative to the time-average value of that pixel. This is so that the correlations don't contain information on the more or less steady average spatial structure of the spindle, and so we focus on the fluctuations on top of it. The Fourier transform of an autocorrelation gives the [[Power spectral density]] (PSD), which they use to compare predictions  with experiment. They also use these comparisons to fit the parameters of the theory, as is done in many instances in [[Condensed matter physics]], as they point out. They also show that their parameters are relatively few, showing strong predictive power of the theory, and also meaning that the agreement with experiment is strong validation of the theory.
+
+Measurement results:
+
+* microtubule ''orientation autocorrelation'' (AC) function.
+**Fourier transform of equal-time spatial AC: $$1/q^2$$, where $$q$$ is the [[wave number|https://en.wikipedia.org/wiki/Wavenumber]]. <mark>Why don't we look at $$\omega \rightarrow 0$$ (i.e. time average of signal) in analogy to what we do below?</mark>
+**Fourer transform of time autocorrelation for the $$q \rightarrow 0$$ component (i.e. average over space of fluctuation): $$1/\omega^2$$, where $$\omega$$ is the frequency (Fourier variable).
+**Both of these correspond to linear decay in the real space (space, or time). See comment below
+** They are not compatible with other competing theories <mark>Why?</mark>.
+
+* ''density autocorrelation'' function
+**Fourier transform of equal-time autocorrelation function along direction perpendicular to the spindle axis (wavenumber along this direction is $$q_\perp$$):
+***plateaus for small $$q_\perp$$
+***decays as $$1/q_\perp^4$$ for large $$q_\perp$$.
+**Fourier transform of long-wavelength limit of time autocorrelation function goes like $$1/\omega^2$$ too.
+
+* ''orientation-density cross-correlation'' function
+
+* the ''generation and propagation of stress'' in the spindle.
+**The two-point displacement correlation function decays as the inverse of the particle separation, $$R$$.
+**The two-point displacements exhibit super-diffusive motion with an exponent $$\alpha\approx 1.8$$. When combined with the active microrheology measurements, reveals that stress fluctuations in the spindle increase linearly with time lag.
+
+These are all are consistent with the theory, as can be seen in the figure below:
+
+[img width=600 [http://www.pnas.org/content/111/52/18496/F2.large.jpg]]
+http://www.pnas.org/content/111/52/18496/F2.expansion.html
+
+!!!__Morphology of the spindle__
+
+The calculated orientation of microtubules throughout the spindle quantitatively agrees with their LC-Polscope measurements.
+
+They reproduced the [[observed spatial variation of polarity|http://people.seas.harvard.edu/~jbrugues/Home_files/nucleation_transport_cell_2012.pdf]]
+
+Calculated aspect ratio closely agrees with observation
+
+[img width=500 [http://www.pnas.org/content/111/52/18496/F3.large.jpg]]
+http://www.pnas.org/content/111/52/18496/F3.expansion.html
+
+-------------
+
+__Other spindle phenomenology__ to further investigate using the above theory:
+
+* Fusion of two spindles
+* Response of the spindle to physical perturbations
+* Molecular perturbations, which should act to change the parameters of the theory
+
+---------------
+
+[[Nonequilibrium mechanics of active cytoskeletal networks.|http://www.ncbi.nlm.nih.gov/pubmed/17234946]]
+
+[[Microrheology, Stress Fluctuations, and Active Behavior of Living Cells|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.91.198101]].
+We report:
+
+*the first <b>measurements</b> of {the [__intrinsic strain fluctuations__] of {living cells}} using {a recently developed tracer correlation technique}
+
+* along_with a <b>theoretical framework</b> for {interpreting [such data] in {heterogeneous media with nonthermal driving}}.
+
+The {[fluctuations]’ spatial and temporal correlations} indicate that {the __cytoskeleton__ __can be treated as__ a {__course-grained continuum__ with power-law rheology, driven by a spatially random stress tensor field}}.
+
+{Combined with recent cell rheology results, our data} imply that {{intracellular stress fluctuations have a nearly $$1/\omega^2$$ power spectrum}, as expected for a continuum with a slowly evolving internal prestress.}
+
+<big><i style="color:aqua;" class="fa fa-eye" aria-hidden="true"></i></big> __A $$1/\omega^2$$ spectrum corresponds to a linear decay in time__ of a stress-stress correlation function (see [[WA computation|http://www.wolframalpha.com/input/?i=fourier+transform+of+-sqrt(pi%2F2)+omega+sgn(omega)+%2B5]], notice dividing by $$\omega$$ is like integrating the Fourier transform) within our experimental time window, and would be a natural consequence of //slow// evolution of intracellular stress. Explanation: The stress generation/relaxation may rely on a number of modes with diverse timescales, $$\tau_i$$. In the simplest case, a stress autocorrelation would then be multiexponential, consistent with our result if all $$\tau_i$$ lie well outside of our measurable range. This is because the exponentials appear linear when the exponent $$t/\tau_i \ll 1$$.
+
+[[High-resolution probing of cellular force transmission.|http://www.ncbi.nlm.nih.gov/pubmed/19518758]]

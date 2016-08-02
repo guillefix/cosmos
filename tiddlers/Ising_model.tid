@@ -1,0 +1,19 @@
+created: 20160611124611708
+creator: guillefix
+modified: 20160616183633262
+modifier: guillefix
+tags: [[Statistical physics]]
+title: Ising model
+
+Lattice with spins interacting with nearest neighbours to favour either alignment and anti-alignment, as a minimal model of a ferromagnet. It has many connections with other systems in [[Statistical physics]], and [[Complex systems]], due to the abstract nature of the model.
+
+1D Ising model was solved by Ising and others.
+
+A major breakthrough in statistical physics was the exact solution of the Ising model in two dimensions [107]. Onsager
+gave in 1944 a complete solution of the problem in zero external magnetic field.
+
+But in three dimensions, Istrail has
+shown [108] that essentially all versions of the Ising model are computationally intractable across lattices and thus the
+3D Ising model, in its full, is NP-complete.
+
+For another model with many interesting connections, see [[Spin glass]]

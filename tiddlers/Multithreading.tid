@@ -1,0 +1,15 @@
+created: 20160629235007420
+creator: guillefix
+modified: 20160630000103597
+modifier: guillefix
+title: Multithreading
+
+See [[Concurrent computing]]
+
+[[Introduction to Processes & Threads|https://www.youtube.com/watch?v=hsERPf9k54U]]
+
+Processes are divided into threads, that each has their own [[Call stack]], but which however, share the memory (owned by the process). This can make programs more efficient. For instance, microsoft word may be a single process. However, it may have a thread for reading input, and one for writting to files, and another one for printing to screen. [[Concurrent programming]] designs the program so that these threads may be running for the duration of the process, instead of switching between them. This abstraction of concurrent threads allows for easier design of many large programs. However, it creates some challenges to keep synchronized execution, so that actions between different threads don't mix up. 
+
+For instance, a thread may begin writting ot some object in memory, and the scheduler switches to a different thread, which now begins to write to that object. The result of this may not be as desired, if one didn't take this possibility into account..
+
+A thread that is independent can be called a deamon..

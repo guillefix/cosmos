@@ -1,0 +1,23 @@
+created: 20160613160644032
+creator: guillefix
+modified: 20160613171122914
+modifier: guillefix
+title: Spanning cluster-avoiding process
+
+An ''spanning cluster-avoiding process'' (SCA) is an [[Explosive percolation]] model based on classifying bonds between those that facilitate the creation of the spanning-cluster, and those that don't, and preferentially selecting those that don't. They are similar to [[Achlioptas process]]es ($$m$$-edge processes). However, they don't require the candidate edges to be chosen at random between any pair of nodes, and instead the candidate edges can belong to a predetermined underlying network, common a hypercubic lattice. They are capable of showing discontinuous transitions, [[for certain choices of the number of candidate edges chosen per step|http://science.sciencemag.org/content/339/6124/1185.full]]
+
+The most common spanning cluster-avoiding process (introduced [[here|http://science.sciencemag.org/content/339/6124/1185.full]]) starts by considering a finite hypercubic lattice $$\mathbb{Z}^d$$ in $$d$$ dimensions of size $$N$$ and unoccupied bonds. Then, inspired by the best-of-m model ,,(see [[Tricritical Point in Explosive Percolation|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.106.095703]]),,, the rule of the mode is as follows as follows:
+
+# At each time step t, number of m unoccupied bonds are chosen randomly and classified into two types: bridge and nonbridge bonds. Bridge bonds are those that upon occupation a spanning cluster is formed.
+
+# SCA model avoids bridge bonds to be occupied, and thus one of the nonbridge bonds is randomly selected and occupied. If the m potential bonds are all bridge bonds, then one of them is randomly chosen and occupied.
+
+# Once a spanning cluster is formed, restrictions are no longer imposed on the occupation of bonds.
+
+[[Getting the Jump on Explosive Percolation|http://science.sciencemag.org/content/339/6124/1159]]
+
+[[Avoiding a Spanning Cluster in Percolation Models|http://science.sciencemag.org/content/339/6124/1185]]
+
+These models were introduced to clarify the order of the transition in explosive percolation processes in Euclidean lattices, which had been studied numerically before: ,,[[Explosive Growth in Biased Dynamic Percolation on Two-Dimensional Regular Lattice Networks|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.103.045701]] -- [[Scaling behavior of explosive percolation on the square lattice|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.82.051105]],,. 
+
+Extensive numerical simulations and theoretical results  have shown that the explosive transition in SCA model in the thermodynamic limit, can be either discontinuous or continuous depending on dimension the number of potential bonds $$m$$ (see  [[here|http://science.sciencemag.org/content/339/6124/1185]], [[here|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.106.095703]], and [[ Two Types of Discontinuous Percolation Transitions in Cluster Merging Processes|http://arxiv.org/abs/1404.4470]]).

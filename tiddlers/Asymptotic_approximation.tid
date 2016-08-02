@@ -1,0 +1,55 @@
+created: 20160427201240109
+creator: guillefix
+modified: 20160611154801162
+modifier: guillefix
+title: Asymptotic approximation
+
+[[Handout from lecture|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3128/8/OHPHandoutLecture3.pdf]]
+
+''Convergence'' ...
+
+''Asymptoticness'' ..., is often more useful in practice, because truncated series give good results, while convergent series often don't unless you take many terms
+
+''Asymptotic approximation'' (or ''asymptotic expansion'')... An example is an ''asymptotic power series''
+
+See notes for definitions.
+
+!!__[[Order notation]]__
+
+Big O: $$f=O(g)$$ as $$\epsilon \rightarrow 0$$
+
+ (f could be asymptotic to const*g, or much smaller)
+
+Small o: $$f=o(g)$$
+
+f is strictly much less than g
+
+Strict order: $$f=\text{ord}(g)$$
+
+f is strictly of order g, i.e. asymptotic to some constant times g.
+
+!!__Uniqueness of asymptotic series__
+
+If a function posesses an asymptotic approximation in terms of an asymptotic sequence, then that approximation is unique for that particular sequence.
+
+Note that the uniqueness is for a given sequence. A single function may have many asypmtotic approximations, each in terms of a different sequence.
+
+Note also that the uniqueness is for a given function: two functions may share the same asymptotic approximation, because they differ by a quantity smaller than the last term included. Two functions sharing the same asymptotic power series, as above, can only differ by a quantity which is not analytic, because two analytic functions with the same power series are identical.
+
+Asymptotic approximations can be naively added, subtracted, multiplied or divided, resulting in the correct asymptotic expression for the sum, difference, product or quotient, perhaps based on an enlarged asymptotic sequence.
+
+One asymptotic series can be substituted into another, although care is needed with exponentials.
+
+Asymptotic expansions can be integrated term by term with respect to $$\epsilon$$ resulting in the correct asymptotic expansion of the integral. However, in general they may not be differentiated with safety, i.e., when differentiating there is always the worry that neglected higher-order terms suddenly become important.
+
+!!__Numerical use of divergent series__
+
+''Optimal truncation'': Truncating at the smallest term is known as optimal truncation.
+
+!!__Parametric expansions__
+
+So far we have been considering functions of a single variable as that variable tends to zero. Such problems often occur in ordinary and especially partial differential equations when considering far field behaviour for example, and there are known as //coordinate expansions//.
+
+More common is for the solution of an equation to depend on more than one variable, $$f (x; \epsilon$$) say. Often we have a differential equation in the independent variable $$x$$ which contains a small parameter $$\epsilon$$, hence the name parametric expansion. For functions of two variables the obvious generalisation is to allow the coefficients of the asymptotic expansion to b e functions of the second variable:
+
+$$f(x, \epsilon) \sim \sum_{n=0}^\infty a_n(x) \delta(\epsilon)$$ as $$\epsilon \rightarrow 0$$

@@ -1,0 +1,87 @@
+created: 20160122231301724
+creator: guillefix
+modified: 20160719145651451
+modifier: guillefix
+tags: [[Mathematical software]] [[Philosophy of mathematics]]
+title: AugMath
+
+METEOR IS GOING TO STOP SUPPORTING FREE METEOR.COM HOSTING, CHANGE TO HEROKU OR SOMETHING
+
+__Get examples from here__: https://brilliant.org/
+
+https://keep.google.com/u/0/#search/text=augmath
+
+
+Automatic simplification is kept to a minimum, to allow notation tricks used in practice for manipulation. I the future, a setting for which level of auto simplification is desired should be added.
+
+
+It's hard to practice defensive programming when you are trying to give users so much freedom.
+
+It's interesting how having several different representations of the math (in the latex, the math tree, and the html), I think we can be more efficient by seizing the most appropiate one for each task (like checking some property)
+
+
+__Parsing__
+
+AugMath at the moment does parsing, but without much validation.
+
+
+!!__[[Animating maths]]__
+
+
+__Inputing maths__
+
+http://mathdox.org/formulaeditor/ Check this!!
+
+[[MathQuill|https://github.com/mathquill/mathquill]] Slack channel: https://mathquill.slack.com/messages/mathquill/ See also their [[website|http://mathquill.com/]]
+
+__Displaying maths__
+
+KaTeX, MathJax http://docs.mathjax.org/en/latest/advanced/extension-writing.html https://github.com/mathjax/MathJax-third-party-extensions/tree/master/physics
+
+!!!__Interacting with maths__
+
+[[Maple Clickable maths|http://www.maplesoft.com/products/maple/academic/applications.aspx#]]
+
+|This is just what I meant when I said AugMath aims for Virtual Reality as a platform. And it is awesome: https://vimeo.com/150928998|
+
+[img[http://andsynchrony.net/wp-content/uploads/loop_seq_array.gif]]
+
+---------
+
+__[[Computer algebra system]]__
+
+!!Check [[Ket algebra editor|https://sourceforge.net/projects/ket/]]
+
+
+__Geometry software__
+
+http://www.cinderella.de/tiki-index.php
+
+GeoGebra
+
+__Mathematical document__
+
+https://trac.omdoc.org/OMDoc
+
+__[[Mathematical markup language]]__
+
+__Handwritten math recognition__: https://www.facebook.com/groups/hackathonhackers/permalink/1265209943534488/
+
+http://cat.prhlt.upv.es/mer/
+
+__Other mathematical software__
+
+http://www.matracas.org/sentido/
+
+
+--------
+
+See stuff in GKeep and ~KTreeTop in Dropbox
+
+http://cognitivemedium.com/emm/emm.html
+
+http://immersivemath.com/ila/ch02_vectors/ch02.html
+
+[[Mathematical markup language]]
+
+http://worrydream.com/KillMath/

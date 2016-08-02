@@ -1,0 +1,147 @@
+created: 20160216111411696
+creator: guillefix
+modified: 20160708153009226
+modifier: guillefix
+title: Nonlinear continuous dynamical system
+
+''Continuous dynamical systems'' are systems of 1st order O.D.Es. Linear dynamical systems (O.D.E.s linear) are easy to analyze, and can be analyzed by looking at the eigenvalues of the Jacobian.
+
+''Nonlinear continuous dynamical systems'' are those where the O.D.Es are nonlinear. They offer much richer behavior and thus require more variety in analysis techniques. Locally, however, they can be linearized and analyzed by the same linear Jacobian techniques
+
+//Autonomous// systems are those that don't have explicit time dependence. 
+
+!!!__Phase portrait features and attractors__
+
+''Attractors'' are regions of phase space to which points converge if they begin within a given //basin of attraction//
+
+//Features//:
+
+* Equilibrium points points
+
+* Trapping regions
+
+Only in 2+ D:
+
+* Nullclines, lines where the derivative of one of the variable becomes zero.
+
+* Limit cycles
+
+* Isoclines, lines of equal inclination (equal slope of tangent to trajectory).
+
+Only in 3+ D:
+
+* Strange (chaotic attractors) Attractors. [[Chaos theory]]
+
+!!!__Equilibrium points__
+
+A.k.a. fixed points.
+
+They can be classified by their ''stability'' and other qualitative features. See [[Classification of equilibria in 2D|http://www.math.psu.edu/tseng/class/Math251/Phase_portrait_reference_card.pdf]].
+
+The classification is done by computing the ''Jacobian matrix'' at the fixed point, and looking at the eigenvalues and eigenvectors to see how the flow behaves localy:
+
+[img[fixed_points_classification1.png]]
+
+[img[fixed_points_classification2.png]]
+
+[[More on stability|http://planning.cs.uiuc.edu/node800.html]]
+
+
+__Poincare-Bendixson theorem__, trapping regions. Useful to prove existence of limit cycles in 2D, also makes chaos impossible in 2D. Need at least 3D!.
+
+!!!__Classifications__
+
+Conservative systems:
+
+* Phase space volume conserved (Lioville's theorem)
+
+* There is an energy function (that has to be independent of time, I think) that doesn't change with time.
+
+Non-conservative systems:
+
+* (Strong) Lyapunov function (also non explicitely dependent on time, I think) that is monotone decreasing or increasing with time in some region, except at an equilibrium point.  This region is called the //region of asymptotic stability// for the equilibrium point. Can generalize so that it's only required to be monotone changing in a region enclosing a //trapping region//. Can also have weak Lyapunov functions which are not required to be monotone (i.e. $$\dot{V}<0$$) but only $$\dot{V}\leq 0$$.
+
+
+!!__Bifurcation theory__
+
+__1-dimensional flows__
+
+__Bifurcations__
+
+* ''Saddle-node bifurcation'' (a.k.a fold), stable and unstable nodes collide and anihilate each other.
+
+* ''Transcritical bifurcation'': stable and unstable node collide and interchange stability
+
+* ''Pitchfork bifurcation'': stable (unstable) node becomes unstable (stable) while two stable (unstable) nodes appear, for a supercritical (subcritical).
+** supercritical
+** subcritical
+
+__2-dimensional flows__
+
+* Same as in 1D
+
+* ''Hopf bifurcation''. [[Hopf Bifurcations in 2D|http://www.cds.caltech.edu/archive/help/uploads/wiki/files/179/lecture8As.pdf]]
+
+* Saddle-node bifurcation of limit-cycles
+
+* <b>Global bifurcations</b>:
+**Homoclynic and heteroclynic bifurcations.
+
+__3-dimensional flows__
+
+* Same as in 2D
+
+* Cycle bifurcations
+**''Fold bifurcation'' (saddle-node for cycles)
+**''Flip bifurcation'' (for supercritical: stable cycle becomes unstable and gives rise to a cycle of twice the period, often a Moebius strip, so it requires 3D)
+** ''[[Neimark bifurcation|http://www.scholarpedia.org/article/Neimark-Sacker_bifurcation]]'', or secondary Hopf bifurcation: a stable limit cycle  becomes unstable and a limit cycle around the limit cycle forms: i.e. a trajectory that lives in a torus.
+
+* <b>Global bifurcations</b> (play important role in route to chaos). See pages 259+ in Thompson
+
+** Intermittency and mode-locking. ''Intermittency catastrophe'' Intermittent between two connected attracting regions in an attractor, that become separate attractors at the catastrophic (discontinuous) bifurcation. Just before bifurcation there are still jumps between the still connected attracting regions that technically still become belong to the same attractor. These jumps become less and less frequent. If one of the attracting regions becomes more and more transient (see example of drift ring and saddle-node in Thompson p 259) then we only have one attractor after the bifurcation. This kind of catastrophe is observed in [[maps|Nonlinear maps]]. However, it is also possible in flows and is then called a ''Omega explosion''. See Fig. 13.3 below.
+
+** ''Hysteresis'' and ''blue sky catastrophe''. Blue sky catastrophe refers to the global bifurcation in which a limit cycle disappears discontinuously (at a given control parameter value), when it collides with a saddle equilibrium point.
+
+[img[Omega_explosion.png]]
+
+* ''Bifurcations of chaotic attractors''. Routes to [[chaos|Chaos theory]]
+
+__Other concepts__:
+
+''Global bifurcations'', bifurcations that are not identified by a change localized close to a limit point or cycle. These occur when there is a qualitative change in the topology of invariant manifolds, or in the topology of basins. Global bifurcations can be accompanied, or even caused by local bifurcations.
+
+''Poincare section'', snapshots of phase space of a dynamical system define a map, so that we can use the theory of [[nonlinear maps|Nonlinear maps]], to analyze, for example, chaotic attractors.
+
+''Structural stability'' refers to when a certain qualitative feature (like a type of bifurcation) isn't changed by small perturbation of the equation, by which we mean, addition of small extra terms to the equation.
+
+[[Catastrophe theory]] studies bifurcations and other qualitative phenomena as control parameters are varied.
+
+One can also distinguish: discontinuous (or catastrophic) vs continuous bifurcations. See page 252 of Thompsons book. See also page 257 of that book; one distinguishes ''safe boundaries'', ''dangerous boundaries''.
+
+[img[continuous_vs_discontinuous_bifurcations.png]]
+
+[img[bifurcation_types.png]]
+
+------
+
+Examples:
+
+[[Duffing oscillator]]
+
+''Josephson junction'' <mark>Revise this</mark>
+
+------
+
+//Books//:
+
+Strogatz
+
+Thompson and Stewart. Nonlinear dynamics and chaos <mark>very good</mark>
+
+
+
+------
+
+http://www.scholarpedia.org/article/Canards
+
+http://www.math.harvard.edu/library/sternberg/

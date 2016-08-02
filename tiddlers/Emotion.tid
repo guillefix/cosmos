@@ -1,0 +1,28 @@
+created: 20160511165337813
+creator: guillefix
+modified: 20160516231136766
+modifier: guillefix
+tags: [[Cognitive science]]
+title: Emotion
+
+See this post: https://www.facebook.com/groups/hedonistic.imperative/permalink/10152547241106965/ and movie Phenomenon (1996) Dave says: "it is not emotions we need to control but behaviour. We do not learn from emotions by curbing and suppressing them but by fully experiencing them. "
+
+[[When Emotions Make Better Decisions - Antonio Damasio|https://www.youtube.com/watch?v=1wup_K2WN0I&feature=youtu.be]]
+
+Hm, it seems like emotion is our Q function in [[Reinforcement learning]]. It is kind of a summary of wisdom from past experiencies. Hm this is interesting.. If we are guided by emotions too much then our Q function will learn by trying to amplify the positive emotions it encodes, this may produce a positive feedback loop, which sounds like //addiction// to me. If however, we ignore emotions too much, we are not making use of this awesome machine learning algorithm we have built in in our brain, and may get stalled in philosophical analysis too often in life, by trying to logically deduce everything.
+
+In fact, modern [[Artificial intelligence]] trends seem to show that deep learning, and heuristics based learning are more powerful than the older symbolic/logic approach to AI. However, judging from how our brain works, it appears that the optimal combination may be a combination of the two, using one or the other as appropriate!
+
+[[Antonio Damasio|https://en.wikipedia.org/wiki/Antonio_Damasio]]'s research in neuroscience has shown that emotions play a central role in social cognition and decision-making"
+
+This seems to be related to ''thinking fast & slow'' (<mark>Read that book!</mark>), and also how AIs now seem think more intuitively (so maybe in a sense they have some level of emotion now!).
+
+See this to see how these considerations of thinking fast & slow, heuristically vs deductively, relates to utilitarian ethics issues: [[Facing the unknown: the future of humanity - Nick Bostrom|https://www.youtube.com/watch?v=h9NB0EQ9iQg#t=20m06s]]
+
+--------
+
+[[Wiki: Emotion|https://en.wikipedia.org/wiki/Emotion]]
+
+[img width=500 class=img-centered [https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg]]
+
+Not sure. Hm, of course, this is just a fuzzy representation, but I think I would swap the terror and amazement branch. It'd be interesting to see the logic behind this better though.

@@ -1,0 +1,70 @@
+created: 20160602222354166
+creator: guillefix
+modified: 20160702134126058
+modifier: guillefix
+title: Diffusiophoresis
+
+Diffusiophoresis is the process by which particles move trough a chemical concentration gradient, due to an attractive or repulsive interaction between the particle and the chemical compound. It is a kind of [[phoretic mechanism of colloids|Phoretic mechanisms of colloids]].
+
+[img width=300 [http://www.sas.upenn.edu/~tidema/Images/diffusiophoresis.png]]
+
+Essentially, the surface of the particle, due to [[Intermolecular forces]] (or other entropic forces), can be attracted, or repelled to the solvent molecules. If there is a gradient in the concentration of these, they can exert a net force on the particle causing it to gain a certain velocity (and the particle will exert a force on the fluid, causing it to slip over its surface).
+
+In [[Self-diffusiophoresis]] (a kind of [[self-propulsion|Self-propelled particle]]), the particle itself produces the compound it interacts with.
+
+http://pubs.acs.org/doi/abs/10.1021/la00050a035
+
+https://en.wikipedia.org/wiki/Diffusiophoresis
+
+http://link.springer.com/referenceworkentry/10.1007/978-3-642-27758-0_328-5#page-1
+
+[[Particle motion driven by solute gradients with application to autonomous motion: continuum and colloidal perspectives|http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=7961332&fileId=s0022112010004404]]
+
+__Theory__
+
+When the thickness of the interfacial layer is thin compared to the object,
+the resulting flow is most conveniently described by an effective slip velocity of the liquid past
+the solid at position $$r_s$$ on the surface, proportional to the local gradient of $$c$$. See a simple derivation below (from [[Colloid Transport by Interfacial Forces|http://www.annualreviews.org/doi/abs/10.1146/annurev.fl.21.010189.000425]]).
+
+[img width=600 [http://i.imgur.com/X0Uyz4D.png]]
+
+,,(I think they are missing a d on the bottom in (9)),,
+
+See derivation in the black notebook. Note that at the end you need to use the trick of [[changing order of integration|http://mathinsight.org/double_integral_change_order_integration_examples]], as done in [[Derjaguin's original paper|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/derjaguin1947.pdf]] (on page 7).
+
+
+The general tensorial equation is:
+
+$$\mathbf{v}_s(\mathbf{r}_s) = \mu (\mathbf{r}_s)(\mathbf{I}-\mathbf{n}\mathbf{n}) \cdot \nabla c (\mathbf{r}_s)$$
+
+$$\mu (\mathbf{r}_s)$$ is the local ''surface phoretic mobility'', which depends on the particular interaction between the particle and the solven molecules (through the integral in (9)).
+
+Then using the //reciprocal theorem// (of [[Low Reynolds number]] flows), one can find the velocity of the particle, knowing the slip velocity of the solvent around it. In a given basis, the drift velocity of the colloid, $$\mathbf{V}$$, is then:
+
+$$\mathbf{V}\cdot \hat{\mathbf{f}}_i = - \int \int_S d \mathbf{r}_s \mathbf{n} \cdot \mathbf{\sigma}_i \cdot \mathbf{v}_i$$
+
+where $$\mathbf{\sigma}_i$$
+is the hydrodynamic stress tensor at the surface $$S$$ of an object of the same shape dragged by an applied unit force, $$\hat{\mathbf{f}}_i = \hat{\mathbf{e}}_i$$
+exactly equal to $$\hat{\mathbf{e}}_i$$, in the absence of slip.
+
+In the case of spherical particles, the drift velocity turns out to be simply:
+
+$$\mathbf{V} = -\frac{1}{4\pi} \int \mathbf{v}_s d\Omega$$
+
+For uniform motility, $$\mathbf{v}_s = \mu \nabla_{||}c$$, and so
+
+$$\mathbf{V} = -\mu \nabla_{||}c$$
+
+This simple equation for the velocity is appropriate for the [[Active colloid]]s used in studying the [[Self-assembly of active colloids]].
+
+<mark> See [[Hydrodynamic slip]]</mark>
+
+<mark>In the derivation of equation (9) they assumed that $$\Phi$$ doesn't depend on $$x$$. Is this the reason why a particle without a gradient in $$c$$, even if it has a gradient in its phoretic mobility is predicted to have $$0$$ drift velocity? Would you get a non-zero velocity if you took dependence on $$x$$ of $$\Phi$$ into account?</mark>
+
+See [[Diffusiophoresis caused by gradients of strongly adsorbing solutes|http://pubs.acs.org/doi/abs/10.1021/la00050a035]]
+
+ [[Giant Amplification of Interfacially Driven Transport by Hydrodynamic Slip: Diffusio-Osmosis and Beyond|http://journals.aps.org/prl/pdf/10.1103/PhysRevLett.96.186102]]
+
+[[Diffusiophoresis: Migration of Colloidal Particles in Gradients of Solute Concentration|http://www.tandfonline.com/doi/abs/10.1080/03602548408068407]]
+
+[[Kinetic Phenomena in the boundary layers of liquids 1. the capillary osmosis|http://ezproxy-prd.bodleian.ox.ac.uk:2054/science/article/pii/007968169390023O]]

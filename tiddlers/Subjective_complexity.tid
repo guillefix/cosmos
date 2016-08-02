@@ -1,0 +1,35 @@
+created: 20160727163643486
+creator: guillefix
+modified: 20160802194543043
+modifier: guillefix
+revision: 1
+tags: [[Cognitive science]] Complexity Randomness
+title: Subjective complexity
+type: text/vnd.tiddlywiki
+
+[[Probability, algorithmic complexity, and subjective randomness|https://db.tt/0DPjGssg]] [[local link|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/Griffiths-Tenenbaum-FST-HMM.pdf]]
+
+[[Complexity and the representation of patterned sequences of symbols|http://digitalcollections.library.cmu.edu/awweb/awarchive?type=file&item=38671]]
+
+The development of [[Algorithmic information theory]] has revived some of these ideas, with code lengths playing a central role in recent accounts of human concept learning (Feldman, 2000), subjective randomness (Falk & Konold, 1997), and the role of simplicity in cognition (Chater, 1999).
+
+The role of simplicity (see [[Order]]) in [[learning|Learning theory]] is also important. As discussed in, for instance, [[here|http://digitalcollections.library.cmu.edu/awweb/awarchive?type=file&item=38671]], accounts of our cognitive behavior must take into account the strong prior knowledge that contributes to our inferences. The structures that people find simple form a strict (and flexible) subset of those easily expressed in a computer program.
+
+[[They|https://db.tt/0DPjGssg]] explore the middle ground between Kolmogorov complexity and the arbitrary encoding
+schemes to which Simon (1972) objected. I think, more precisely, they study computable analogs of KC, which are not universal like Turing machines, but which are not as arbitrary as those discussed in Simon's. They also use [[Chomsky's hierarchy]] to organize their computable models.
+
+!!__Subjective randomness__
+
+One important aspect of subjective complexity is subjective randomness (randomness and complexity are essentially the same in [[AIT|Algorithmic information theory]], which uses [[Kolmogorov complexity]]).
+
+The statistical basis of subjective randomness be- comes clear if we view randomness judgments in terms of a signal detection task (cf. Lopes, 1982; Lopes & Oden, 1987). On seeing a stimulus X , we consider two hypotheses: X was produced by a random process, or X was produced by a regular process. Finding regularities is an important part of identifying predictable processes, a fundamental component of induction (Lopes, 1982). The deci- sion about the source of X can be formalized as a Bayesian inference,
+
+$$\frac{P(random|X)}{P(regular|X)} = \frac{\frac{P(X|random)P(random)}{P(X)}}{\frac{P(X|regular)P(regular)}{P(X)}} = \frac{P(X|random)P(random)}{P(X|regular)P(regular)}$$
+
+n which the posterior odds in favor of a random gen- erating process are obtained from the likelihood ratio and the prior odds. The only part of the right hand side of the equation affected by X is the likelihood ratio, which led Griffiths and Tenebaum (2001) to define the ''subjective randomness'' as 
+
+$$\text{random}(X) = \log{\frac{P(X|random)}{P(X|regular)}}$$
+
+By identifying $$-\log_2{P(X|regular)} = K(X)$$, and $$P(X|random) = \left( \frac{1}{2} \right)^{l(X)}$$, we get that $$\text{random}(X) = K(X) - l(X)$$.
+
+The way they <b>model P(X|regular)</b>, is  by using [[Hidden Markov model]]s (HMMs).

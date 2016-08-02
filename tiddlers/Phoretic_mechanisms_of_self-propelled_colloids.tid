@@ -1,0 +1,23 @@
+created: 20160609153412241
+creator: guillefix
+modified: 20160609173643639
+modifier: guillefix
+title: Phoretic mechanisms of self-propelled colloids
+
+[[Phoretic mechanisms|Phoretic mechanisms of colloids]] for [[active colloids|Active colloid]].
+
+Phoretic mechanisms for living organisms (for instance living active colloids like [[Cell]]s) are called [[Taxis]]. See [[Chemotaxis]] for a prominent example. Actually, ''chemotaxis'' is often applied to the phoretic mechanisms of active colloids (when they are originated by a gradient in a chemical concentration). More specifically, //chemotaxis// may be used to refer attraction to higher chemical concentration, while //anti-chemotaxis// would refers to repulsion from it.
+
+!!__Mechanisms__
+
+* "''Chemotaxis''" (in the sense of directional alignment with chemical gradient). The fluid flows set up around the particle can turn its axis of orientation to align parallel or antiparallel to the local gradient; this process has active contributions arising from the chemical reaction as well as passive ones.
+
+* ''Polar run-and-tumble''. The enzymatic rate depends nonlinearly on the local concentration of the substrate with a characteristic Michaelis- Menten form inherited from the underlying catalytic kinetics of the reactions [ 38 ]. The combination of enhanced activity at high concentrations and randomized orientation acts to effectively populate the colloids in “slow” regions [ 39 ].
+
+* ''Apolar run-and-tumble''. An active colloid can also chemotax by a net motion of its center along a gradient in a noise-averaged sen. <mark>I think this is basically polar diffusiophoresis? I.e. the particle is repelled (or attracted) to gradients mostly along its axial direction (due to higher asymmetry in motility).</mark>
+
+* ''[[Phoretic response|Phoretic mechanisms of colloids]]'' (referring to the standard phoretic response, also present in non-active colloids). The colloid moves along an external chemical gradient by diffusiophoresis.
+
+[img class=img-centered [http://i.imgur.com/JLXo6Ql.png]]
+
+!!!__[[Theory of phoretic mechanisms of self-propelled colloids]]__

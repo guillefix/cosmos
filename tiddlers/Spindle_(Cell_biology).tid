@@ -1,0 +1,25 @@
+created: 20160510164014429
+creator: guillefix
+modified: 20160510182013294
+modifier: guillefix
+title: Spindle (Cell biology)
+
+The ''spindle'', or ''spindle apparatus'' is an structure that segregates chromosomes during cell division, and is formed by [[Microtubule]]s, [[Molecular motors]], and hundreds of other proteins. The spindle [[self-organizes|Spindle self-organization]] during division process.
+
+(https://en.wikipedia.org/wiki/Spindle_apparatus)
+
+[img[https://upload.wikimedia.org/wikipedia/commons/2/25/Kinetochore.jpg]]
+
+For the frog //Xenopus laevis//, spindles are on average ~45 microns long, and ~30 microns wide. Microtubules in these spindles have an average length of ~7 microns ([[ref|http://people.seas.harvard.edu/~jbrugues/Home_files/nucleation_transport_cell_2012.pdf]]) and are at a density of ~50-100 microtubules/$$\mu$$m^2, implying that there are ~100,000 ([[ref 1|http://www.ncbi.nlm.nih.gov/pubmed/1238403]], [[ref 2|http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2141625/]]). Microtubules are __polar polymers__ whose minus ends are relatively static and whose plus ends polymerize at a speed of ~10-20 $$\mu$$m/min ([[ref|http://www.ncbi.nlm.nih.gov/pmc/articles/PMC379274/]]). There is no appreciable rate of rescues in these spindles <mark>?</mark> ([[ref|http://people.seas.harvard.edu/~jbrugues/Home_files/nucleation_transport_cell_2012.pdf]]), and the half-life of these microtubules is ~16s, much shorter than the typical lifetime of a spindle -- which can exist for several hours. Microtubules in the spindle interact with each other via motrs and cross-linkers, and continuously slide toward the poles at a rate of ~2.5 $$\mu$$m/min ([[ref 1|http://people.seas.harvard.edu/~jbrugues/Home_files/nucleation_transport_cell_2012.pdf]], [[ref 2|http://www.ncbi.nlm.nih.gov/pubmed/15583027]]) 
+
+[[Nucleation and Transport Organize Microtubules in Metaphase Spindles|http://people.seas.harvard.edu/~jbrugues/Home_files/nucleation_transport_cell_2012.pdf]]
+
+[[Microtubular origin of mitotic spindle form birefringence. Demonstration of the applicability of Wiener's equation.|http://www.ncbi.nlm.nih.gov/pubmed/1238403]]
+
+[[Spindle Assembly in Xenopus Egg Extracts: Respective Roles of Centrosomes and Microtubule Self-Organization|http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2141625/]]
+
+[[Microtubule Plus-End Dynamics in Xenopus Egg Extract Spindles|http://www.ncbi.nlm.nih.gov/pmc/articles/PMC379274/]]
+
+[[Fast Microtubule Dynamics in Meiotic Spindles Measured by Single Molecule Imaging: Evidence That the Spindle Environment Does Not Stabilize Microtubules|http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2808228/]]
+
+[[The kinesin Eg5 drives poleward microtubule flux in Xenopus laevis egg extract spindles.|http://www.ncbi.nlm.nih.gov/pubmed/15583027]] Although mitotic and meiotic spindles maintain a steady-state length during metaphase, their antiparallel microtubules slide toward spindle poles at a constant rate. This "poleward flux" of microtubules occurs in many organisms and may provide part of the force for chromosome segregation. [...] Our results suggest that ensembles of nonprocessive Eg5 motors drive flux in metaphase Xenopus extract spindles.

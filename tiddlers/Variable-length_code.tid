@@ -1,0 +1,26 @@
+created: 20160704205117268
+creator: guillefix
+modified: 20160704215153388
+modifier: guillefix
+tags: [[Coding theory]]
+title: Variable-length code
+
+//aka symbol code//
+
+In a ''variable-length code'', one assigns a //codeword// to each letter in an alphabet. Formally, a variable-length code is a function $$C: \mathcal{X} \rightarrow A^*$$, where $$\mathcal{X}$$ is the source alphabet, and $$A$$ is the code alphabet, and $$\cdot^*$$ is the [[Kleene star]].
+
+The extension of $$C$$ is the natural expension of $$C$$ to $$\mathcal{X} ^*$$
+
+The codewords are all the elements of the codomain of $$C$$.
+
+$$C$$ is ''uniquely decodable'' if $$C^*$$ is [[one-to-one|Injective function]].
+
+[[Prefix code]]
+
+-----------------
+
+[[(IC 2.2) Symbol codes - terminology and notation|https://www.youtube.com/watch?v=V4ztxmE9Sys&list=PLE125425EC837021F&index=8&spfreload=1]]
+
+An example is Morse code
+
+[[Non-commutative Symbolic Coding |http://users.aber.ac.uk/rog/gkl.pdf]]

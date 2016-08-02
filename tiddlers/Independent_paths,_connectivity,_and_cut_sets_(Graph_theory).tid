@@ -1,0 +1,25 @@
+created: 20160125213025454
+creator: guillefix
+modified: 20160125222101129
+modifier: guillefix
+title: Independent paths, connectivity, and cut sets (Graph theory)
+
+Number of ''//independent paths//'' between two vertices (the ''//connectivity//'') gives measure of how strongly connected they are. Paths can be //vertex-independent// if they share no vertex (other than starting or ending vertices), or //edge-independent// if they share no edge.
+
+A //vertex (edges) ''cut set''// is a set of vertices (edges) that if removed will disconnect a specified pair of vertices. A //minimum cut set// is the smallest such set for the vertices. For weighted networks a minimum cut set is the set of such vertices that have the least total weight.
+
+__Menger's theorem__:
+
+If there is no cut set of size less than $$n$$, then there are at least $$n$$ independent paths.
+
+This actually implies that size of the minimum cut set ($$C$$) equals the connectivity of two vertices ($$I$$): $$C>n \Rightarrow I>n$$. $$\neg (C>n) \Leftarrow \neg (I>n)$$. $$C\leq n \Leftarrow I\leq n$$. In particular $$C\leq n \Leftarrow I = n$$. However if $$I = n$$, we need to cut at least $$n$$ vertices/edges, so $$C\geq n$$. $$\therefore C=n=I$$.
+
+The //maximum flow// if the network were made of water pipes between two vertices is the number of edge-independent paths times the maximum flow of a single pipe can sustain, or pipe capacity, $$r$$. Let $$I$$ be size of minimum edge cut set. Clearly, $$Ir$$ is a lower bound for this max flow, since each independent path will independently carry max flow $$r$$.. Also, if we remove an edge that forms part of a path between them, we must decrease the flow by at most $$r$$. Thus, if we remove the $$I$$ edges from the minimum cut set, we decrease the flow by at most $$Ir$$, but this must remove all flow. Hence total capacity is at most $$Ir$$, which is then an upper bound. $$Ir$$ is both an upper and lower bound, and hence the maximum flow must equal $$Ir$$. This is the __max-flow/min-cut theorem__, for special case of the same capacity for all pipes.
+
+The max-flow/min-cut theorem can be generalized to weighted networks. This can be shown by transforming the weighted network into a multigraph.
+
+!!!Applications
+
+This result is useful because some computer algorithms (maximum flow algorithms) can compute maximum flow easily. But, by result above, they also calculate the minimum cut set size, and the connectivity, which can be used to find clusters in networks. This is in fact the current standard numerical method for connectivities and cut sets.
+
+The max-flow/min-cut theorem has been used in a polynomial-time algorithm for finding ground states of the thermal random-field Ising model. See reference [257] in Newman's book.

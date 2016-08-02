@@ -1,0 +1,15 @@
+created: 20160611131651205
+creator: guillefix
+modified: 20160611132020305
+modifier: guillefix
+title: Application of percolation models in topography
+
+[[Topography]] studies features of the surface of the [[Earth|Planet Earth]], as well as other planets. These can be described as //landscapes// [[Percolation]] models and [[Percolation theory]] have been applied to understand these.
+
+A landscape is a height profile usually defined on a square lattice where each cell’s elevation value at position x represents the average elevation over the entire footprint of the cell (site). Now imagine that the water is dripping uniformly over the landscape and fills it from the valleys to the mountains, letting the water flow out through the open boundaries. During the raining, watershed lines may also form which divide the landscape into different drainage basins. These are important in geomorphology in e.g., water management [113] and landslide and flood prevention [114]
+
+it is possible to determine the watershed lines based on the iterative application of invasion percolation [115].
+
+Another kind of percolation that can occur: Raising the water level makes lakes join together, and eventually a lake that spans the whole landscape may form. However, whether the percolation transition is critical or not depends on the properties of the surface landscape (in particular on correlation functions).
+
+These ideas have been applied to study the topography of the Earth, where they found that the present sea level is a critical level in their model. This finding elucidates the origins of the appearance of ubiquitous scaling relations observed in the various terrestrial features on Earth.

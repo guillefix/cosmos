@@ -1,0 +1,168 @@
+created: 20160117160158780
+creator: guillefix
+modified: 20160702171211701
+modifier: guillefix
+tags: MMathPhys [[Statistical physics]]
+title: Non-equilibrium statistical physics
+
+//Resources//
+
+!!!<mark>[[Lecture series by Balakrishnan!|https://www.youtube.com/playlist?list=PLbMVogVj5nJQqNx0ElSk3Ip04Ofg7B22W]]</mark>
+
+[[Notes on Nonequilibrium StatPhys MT2015 Oxford (mostly stochastic processes)|https://files.acrobat.com/a/preview/c7779092-2b46-4bc8-a927-cd5c8c52a279]]
+
+[[Statistical physics -- a second course|http://www.uio.no/studier/emner/matnat/fys/FYS4130/v14/documents/kompendium.pdf]]
+
+[[A Kinetic View of Statistical Physics, P.L. Krapivsky, S. Redner, E. Ben-Naim|file:///home/guillefix/Dropbox/COSMOS/Physics/stat%20phys,%20kinetic%20theory,%20chaos,%20dynamical%20sys,%20emergence/%5BKrapivsky_P.L.,_Redner_S.,_Ben-Naim_E.%5D_A_Kinetic_approach_to_statistical_physics.pdf]]
+
+[[Stochastic Processes in Physics and Chemistry, N. van Kampen|file:///home/guillefix/Dropbox/COSMOS/Physics/David%20Tong%20Lectures/Kinetic%20Theory/Extra%20material/(North-Holland%20personal%20library)%20N.G.%20Van%20Kampen-Stochastic%20Processes%20in%20Physics%20and%20Chemistry-Elsevier%20(2007)%20(1).djvu]]
+
+[[Handbook of stochastic methods - Gardiner |file:///home/guillefix/Dropbox/NewForCosmos/AAA%20MUCH%20NEWER/%5BCrispin_Gardiner%5D_Handbook_of_stochastic_methods(Book4You).djvu]]
+
+
+-------
+''Non-equilibrium Statistical Physics'' is the branch of [[Statistical physics]] that deals with systems out of equilibrium, so that averages can change in time (<mark>Actually not quite: see [[Thermodynamic equilibrium]]</mark>). This is much harder to do in full generality, as systems offer much more diversity out of equilibrium, as may be expected. As said in that page, one often has three approaches:
+
+*For a small system coupled to a large chaotic system, one has a  [[stochastic process|Stochastic processes]], which describes the evolution under the random influence of the large chaotic system.
+
+*For a large system which is only slightly out of equilibrium, so that relevant macroscopic averages analogous to those used in thermodynamics can still be defined, one can describe the system using [[Non-equilibrium thermodynamics]]
+
+*For a large system that is considerably out of equilibrium, one has to use the tools of [[Kinetic theory]] to describe it (or newer approaches, see below). However, if the system is //very// far from equilibrium, even these may be inappropriate, and finding an appropriate description may be extremely hard. An example of this are systems with strong [[Turbulence]]. Our only approaches to understand these systems are often [[phenomenological]].
+
+-------
+
+Related things (also in the course/exam):
+
+* Pattern formation. 
+
+* Synchronization: the [[Kuramoto model]]
+
+-----------------
+
+!!!__Other aspects and approaches__, some of which have lead to the recent understanding of systems very (even arbitrarily) far from equilibrium). In approaximate chronological order:
+
+<b>See overview [[in this lecture|https://www.youtube.com/watch?v=OnZIaNgU7o8&index=8&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l#t=5m0s]]</b>
+
+''Large deviation theory''. 
+Einstein formula (1908)
+
+Application of large deviation theory to dynamics: Onsager (1931)
+
+[[Projector operator method|http://www4.ncsu.edu/~franzen/public_html/CH437/lec8/pdf/projection_1.pdf]]
+
+[[linear response theory|http://www.damtp.cam.ac.uk/user/tong/kintheory/four.pdf]]
+
+[[Nonlinear response theory|http://link.springer.com/article/10.1007%2FBF02846371]] [[Nonlinear Response Theory|http://www.hpcoders.com.au/docs/thesis/node34.html]]
+[[Nonlinear projection operator method|http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1667-15.pdf]]
+[[Zwanzig projection operator|https://en.wikipedia.org/wiki/Zwanzig_projection_operator]]
+
+
+[[Nonequilibrium Equality for Free Energy Differences|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.78.2690]] Jarzynski 1997. Discussed on lecture 3 of Shin-ichi
+
+[[Fluctuation theorem|https://en.wikipedia.org/wiki/Fluctuation_theorem]]
+[[Fluctuation Theorems|https://arxiv.org/abs/0709.3888]] ''Fluctuation theorems'', or fluctuation relations, which have been developed over the past 15 years, have resulted in fundamental breakthroughs in our understanding of how irreversibility emerges from reversible dynamics, and have provided new statistical mechanical relationships for free energy changes. They describe the statistical fluctuations in time-averaged properties of many-particle systems such as fluids driven to nonequilibrium states, and provide some of the very few analytical expressions that describe nonequilibrium states. Quantitative predictions on fluctuations in small systems that are monitored over short periods can also be made, and therefore the fluctuation theorems allow thermodynamic concepts to be extended to apply to finite systems. For this reason, fluctuation theorems are anticipated to play an important role in the design of nanotechnological devices and in understanding biological processes. These theorems, their physical significance and results for experimental and model systems are discussed.
+
+Shin-ichi calls them identities, and explains them on Lecture 4
+
+[[Stochastic thermodynamics|http://iopscience.iop.org/article/10.1088/1367-2630/18/2/020401/meta]] [[Focus on Stochastic Thermodynamics|http://iopscience.iop.org/1367-2630/focus/Focus%20on%20Stochastic%20Thermodynamics]]
+''Stochastic thermodynamics'' has emerged as a framework for describing small driven systems using thermodynamic notions on the level of individual fluctuating trajectories. Topics on the article:
+
+*Stochastic energetics and entropy production along trajectories.
+*Non-equilibrium work and fluctuation-(dissipation)-relations.
+*Efficiency and efficiency at maximum power of heat engines, thermoelectrics and isothermal machines.
+*Thermodynamics of molecular motors.
+*Dissipation, irreversibility and information.
+*Thermodynamics of molecular and cellular information processing.
+
+[[Stochastic thermodynamics: A brief introduction|http://itf.fys.kuleuven.be/~fpspXIII/material/VanDenBroeck_FPSPXIII.pdf]]
+
+[img[http://cms.iopscience.iop.org/alfresco/d/d/workspace/SpacesStore/eaea44bc-496a-11e4-ba5c-29411a5deefe/stochastic_thermodynamics_edfig.gif?guest=true]]
+,,Figure. Artistic view of a driven molecular motor-cargo complex with its trajectories. Image by Daniel Schmidt, University Stuttgart.,,
+
+See also new advancements mentioned in the article on the new theory on the origin of life (linked in [[Abiogenesis]])
+
+[[Shin-ichi Sasa publications|https://scholar.google.co.uk/citations?hl=en&user=ywOAAjkAAAAJ&view_op=list_works&sortby=pubdate]]
+
+[[On Various Questions in Nonequilibrium Statistical Mechanics Relating to Swarms and Fluid Flow|http://www.hpcoders.com.au/docs/thesis/thesis.html]]
+
+<mark>Read Ilya's book on thermodynamics</mark>, where he covers the non-equilibrium part. Also his book on [[Self-organization]], and other books on non-equilibrium statistical physics. See if then I can get a more clear derivation of the Allen-Cahn and Cahn-Hilliard equations in [[Phase transition]], describing general forms of diffusion and phase field evolution.
+
+See also [[Complex systems]], which are often analysed using ideas from nonequilibrium statistical physics.
+
+Fluctuations in nonequilibrium statistical mechanics. One project 
+is about rare event simulations, non-Markovian extensions of large 
+deviation theory, and zero-range processes (Harris, Touchette). A 
+second one is about random packing optimization problems, which have 
+very different solutions depending on the shape of the objects 
+(Baule). 
+
+http://www.research.ed.ac.uk/portal/en/persons/martin-evans(2f8bc4da-9178-4a62-ad41-059a612018c6).html
+
+<mark style="background-color:blue;"><b>[[Stochastic Thermodynamics in Biology|http://agenda.albanova.se/conferenceDisplay.py?confId=4462]]</b></mark>
+
+[[Thermodynamic Costs in Implementing Optimal Estimators|http://agenda.albanova.se/contributionDisplay.py?contribId=255&confId=4462]]  --  [[Kalman filter|https://en.wikipedia.org/wiki/Kalman_filter]]
+[[Dynamics of protein synthesis: transcription, translation, and mRNA degradation|http://agenda.albanova.se/contributionDisplay.py?contribId=251&confId=4462]]
+[[Simple models of evolution with selection and genealogies|http://agenda.albanova.se/contributionDisplay.py?contribId=270&confId=4462]]
+[[Universal constraints for biomolecular systems|http://agenda.albanova.se/contributionDisplay.py?contribId=262&confId=4462]]
+[[Stochastic Thermodynamics of Chemical Networks|http://agenda.albanova.se/contributionDisplay.py?contribId=267&confId=4462]]
+
+[[Stochastic approaches in systems biology.|http://www.ncbi.nlm.nih.gov/pubmed/20836037]] See [[Systems biology]]
+
+[[Stochastic thermodynamics of Langevin systems under time-delayed feedback control: Second-law-like inequalities|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.91.042114]]
+
+[[Stochastic thermodynamics, fluctuation theorems and molecular machines|http://iopscience.iop.org/article/10.1088/0034-4885/75/12/126001/meta]]
+
+<mark><b>Video lecture!</b></mark> [[Udo Seifert - Stochastic thermodynamics 1|https://www.youtube.com/watch?v=YKnP0SJTZfU]]
+[[lecture series (school on thermalization)|https://www.youtube.com/playlist?list=PL04QVxpjcnjhfB35Igp6sijgxjXmLuO9e]]
+
+[[Portrait of Udo Seifert|https://www.youtube.com/watch?v=AIjdqL5kmD0]]
+
+[[More literature on stochastic thermodynamics|http://www.theo2.physik.uni-stuttgart.de/lehre/hauptseminar/SS_14/HS_StochTherm_ss15.pdf]]
+
+[[Martin Z. Bazant|http://www.mit.edu/~bazant/]]
+[[Chemical Kinetics in Nonequilibrium Thermodynamics - Martin Z. Bazant|https://www.youtube.com/watch?v=Vc63enulmYs]]
+
+[[Prof. Dr. Udo Seifert|http://www.theo2.physik.uni-stuttgart.de/mitarbeiter/udoseifert.en.html]]
+
+[[Introduction to stochastic thermodynamics: (prof. dr. M. Esposito) Part1|https://www.youtube.com/watch?v=FDaM-M0G9IM]]
+
+[[The stochastic thermodynamics of a rotating Brownian particle in a gradient flow|http://www.nature.com/articles/srep12266]]:
+
+See stuff in here: [[MMathPhys Condensed Matter and Astrophysics/Plasma Physics/Physics of Continuous Media Strands Short Syllabi|http://www-thphys.physics.ox.ac.uk/people/AlexanderSchekochihin/MMathPhys/cmstrand.html]]
+
+1. Dynamics of Stochastic Processes (12 lectures)
+•    Langevin equation and mean-squared displacement versus time, fundamentals of Molecular Dynamics and Stochastic Rotation Dynamics simulation methods
+•    Probabilistic description of stochastic process, Fokker-Planck equation 
+•    Kramers rate theory, escape probability and first-passage time
+•    Master equation, equilibrium and detailed-balance, fundamentals of Monte Carlo simulation method, chemical reactions, one-step processes (traffic models), fundamentals of Lattice Boltzmann simulation method
+•    Diffusion-reaction processes and pattern formation
+•    Heterogeneous catalysis and the Michaelis-Menten rule in enzymatic reactions 
+•    Rectification of stochastic motion and Brownian ratchets
+
+2. Fluctuations and Response (4 lectures)
+•    Equilibrium fluctuations, correlation functions
+•    Density fluctuations, hydrodynamic fluctuations and the long-time tail
+•    Linear response theory, response function, causality and Kramers-Kronig relations
+•    Fluctuation-dissipation theorem near equilibrium
+•    Small-system (stochastic) thermodynamics, Jarzynskii inequality
+•    Generalised fluctuation-dissipation theorem in nonequilibrium systems
+
+https://scholar.google.co.uk/citations?hl=en&user=1V6ZcgMAAAAJ&view_op=list_works&sortby=pubdate
+
+[[Viewpoint: Debut of a hot “fantastic voyager”|https://physics.aps.org/articles/v3/108]]
+
+[[Open-System Nonequilibrium Steady State:  Statistical Thermodynamics, Fluctuations, and Chemical Oscillations|http://pubs.acs.org/doi/abs/10.1021/jp061858z]]
+
+[[Information in Biological Systems and the Fluctuation Theorem |https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=20&ved=0ahUKEwifmYWol8jMAhUFBsAKHZmvCTY4ChAWCEkwCQ&url=http%3A%2F%2Fwww.mdpi.com%2F1099-4300%2F16%2F4%2F1931%2Fpdf&usg=AFQjCNGMeiDdCzApHxfkwW1U_ognSBRz1Q&sig2=vB4kXTrHMRbUF8DXUVlooQ&bvm=bv.121421273,d.d2s&cad=rja]]
+
+[[Stochastic thermodynamics with information reservoirs|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.90.042150]]
+
+[[Non-equilibrium statistical physics (long lecture series)|https://www.youtube.com/playlist?list=PL04QVxpjcnjjoN7xfc7Vy63uUSkDlOYiU]]
+
+[[Introduction to macroscopic fluctuation theory by Giovanni Jona Lasinio|https://www.youtube.com/watch?v=JJR2C-AlZmg&list=PL04QVxpjcnjjVcqqdkDXybf2g6mfrV0Yv&index=4]]
+
+[[Foundations of Synergetics II: Chaos and Noise|https://books.google.co.uk/books?hl=en&lr=&id=t0OqCAAAQBAJ&oi=fnd&pg=PA2&ots=vdO5l7J-o1&sig=jR7Ri3cRDkRAcWt3GqIddFhfqgE#v=onepage&q&f=false]]
+
+See [[Biophysics]]
+
+[[Non-equilibrium statistical mechanics: from a paradigmatic model to biological transport|http://iopscience.iop.org/article/10.1088/0034-4885/74/11/116601/meta]]

@@ -1,0 +1,67 @@
+created: 20160702011818552
+creator: guillefix
+modified: 20160702190650398
+modifier: guillefix
+title: Negative osmosis
+
+When a flow of liquid occurs through a membrane from a more concentrated solution to a more dilute solution, it is designated as negative osmosis. Compare with (positive) [[Osmosis]]
+
+See [[Physical mechanisms of osmosis]]
+
+!!!See here: http://physics.stackexchange.com/questions/265752/can-osmosis-go-the-other-way/265879#265879
+
+!!![[MECHANISM OF OSMOTIC FLOW IN POROUS MEMBRANES|http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1334591/pdf/biophysj00323-0049.pdf]]
+
+Many standard theoretical calculations of equilibrium osmotic pressure work under very ideal/simplifying assumptions; like the lattice model in Physical biology of the cell book.
+
+Similarly treatments of osmotic flow are often simplified see for instance 
+[[The solution-diffusion model: a review|http://www.sciencedirect.com/science/article/pii/037673889500102I]].
+
+Real life application of osmotic flow need more complete descriptions, which include parameters, which are often measured, mainly the ''reflection coefficient''. Results can often differ (often just quantiatively) from more naive thermodynamic treatments.
+
+When you try to find these parameters theoretically is when you get into the hard part, as a microscopic model is needed, whether based on kinetics, or hydrodynamics. This is where the richness of real-life phenomena comes to light.
+
+Careful theoretical treatment has found negative reflection coefficients to be possible: [[MECHANISM OF OSMOTIC FLOW IN POROUS MEMBRANES|http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1334591/pdf/biophysj00323-0049.pdf]], [[Diffusioosmosis of nonelectrolyte solutions in a fibrous medium|http://www.sciencedirect.com/science/article/pii/S0927775703001444]] However, I think they are only possible for non-perfectly-semipermeable membranes! See below. Actually Anderson's paper agrees! Note that in his figure 5, negative reflection coefficient is found only when the solute is smaller than the pore!
+
+[[Configurational effect on the reflection coefficient for rigid solutes in capillary pores|http://www.sciencedirect.com/science/article/pii/0022519381903210]]
+
+In the case of osmosis of electrolytes, there's more studies: [[Charge-Mosaic Membranes: Enhanced Permeability and Negative Osmosis with a Symmetrical Salt|http://science.sciencemag.org/content/161/3836/70]]
+
+[[Diffusioosmosis of Electrolyte Solutions in a Fine Capillary Tube|http://pubs.acs.org/doi/abs/10.1021/la062683n]]
+
+[[Anomalous osmosis and salt concentration dependence of the reflection coefficient in charged membranes|http://www.sciencedirect.com/science/article/pii/S0376738800821614]]
+
+Although regular osmosis looks at semi-impermeable membranes, similar diffusio-osmotic effects can be studied for membranes where both solute and solvent can go through the pores: 
+
+[[Osmotic Flow through Fully Permeable Nanochannels|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.112.244501]]
+
+[[Drastic alteration of diffusioosmosis due to steric effects|http://pubs.rsc.org/is/content/articlelanding/2015/cp/c5cp05327g#!divAbstract]]
+
+[[Kinetics and thermodynamics across single-file pores: Solute permeability and rectified osmosis|http://scitation.aip.org/content/aip/journal/jcp/110/1/10.1063/1.478118]] (only find negative reflection coefficient (negative diffusion) when the membrane is permeable to solute as well).
+
+--------------------
+
+__Experimental measurements of negative osmosis__
+
+[[NEGATIVE REFLECTION COEEFICIENTS |http://publications.tno.nl/publication/34619959/6PrnBZ/talen-1965-negative.pdf]]
+
+[[Entropy-Driven Pumping in Zeolites and Biological Channels|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.82.3552]] (finds negative osmosis, only when the membrane is permeable to both species)
+
+[[Binary Diffusion and Bulk Flow through a Potential‐Energy Profile: A Kinetic Basis for the Thermodynamic Equations of Flow through Membranes|http://scitation.aip.org/content/aip/journal/jcp/49/6/10.1063/1.1670468]] (finds negative osmosis, only when the membrane is permeable to both species)
+
+	
+Nonequilibrium thermodynamics in biophysics book by Katzir-Katchalsky, Aharon. | Curran, Peter F (in Maths Inst library!)
+
+[[An Experimental Study of Negative Osmosis|http://jes.ecsdl.org/content/61/1/477.short]]
+
+---------------------
+
+[[Anomalous effects during electrolyte osmosis across charged porous membranes|http://www.sciencedirect.com/science/article/pii/0021979782900030]]
+
+[[Osmosis and reverse osmosis in fine-porous charged diaphragms and membranes|http://www.sciencedirect.com/science/article/pii/000186869500246M]]
+
+[[OSMOTIC PRESSURE, ROOT PRESSURE, AND EXUDATION|http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.1921.tb05777.x/full]]
+
+[[Osmotic properties of polyelectrolyte membranes: positive and negative osmosis|http://pubs.acs.org/doi/abs/10.1021/la00029a034]]
+
+[[Theoretical calculation of reflection coefficients of single salt solutions through charged porous membranes|http://www.sciencedirect.com/science/article/pii/S0011916408006577]]

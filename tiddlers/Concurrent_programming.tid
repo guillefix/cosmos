@@ -1,0 +1,13 @@
+created: 20160629231503844
+creator: guillefix
+modified: 20160721011206799
+modifier: guillefix
+title: Concurrent programming
+
+See [[Concurrent computing]], [[Multithreading]]
+
+[[C++ Threading #1: Introduction|https://www.youtube.com/watch?v=Ps8jOj7diA0&list=PL1D3B7D7242B3C224]]
+
+[[Immutable type (programming)]]
+
+[[C++ Lecture Series --- Concurrency --- Part 5 of N --- Promises and Futures|https://www.youtube.com/watch?v=hic5W_UMjqU]] has good outline in description

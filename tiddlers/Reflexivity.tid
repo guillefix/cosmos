@@ -1,0 +1,9 @@
+created: 20160713225530488
+creator: guillefix
+modified: 20160713225722041
+modifier: guillefix
+title: Reflexivity
+
+''Reflexivity'' refers to a property of a binary [[Relation]], $$R$$ on $$X$$:
+
+|for all $$x \in X, x R x$$|

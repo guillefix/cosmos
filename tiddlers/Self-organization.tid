@@ -1,0 +1,38 @@
+created: 20160221175622657
+creator: guillefix
+modified: 20160703124724031
+modifier: guillefix
+tags: [[Complex systems]]
+title: Self-organization
+
+[[Stuart Kauffman Books|https://www.google.es/search?q=S.+A.+Kauffman&gws_rd=cr&ei=IkIZV8PML8i7aqPtuIgC#safe=off&q=Origins+of+Order&stick=H4sIAAAAAAAAAONgFuLQz9U3SK8yMVDiArGMyjOyDI21BBxLSzLyi0LynfLzs_3zcioBqQGUoSoAAAA&tbs=kac:1,kac_so:1]]
+
+Self-organization in non-equilibrium thermodynamics - Book by Prigogine et al
+
+[[Information Measures of Complexity, Emergence,Self-organization, Homeostasis, and Autopoiesis|http://arxiv.org/pdf/1304.1842v3.pdf]]
+
+https://www.youtube.com/watch?v=Ba0zSNYkWtw
+
+--------
+
+http://pcp.vub.ac.be/SELFORG.html
+
+[[The Meaning of Self-organization in Computing|http://pespmc1.vub.ac.be/papers/IEEE.Self-organization.pdf]]. See [[Complexity theory]], [[Complex systems]], [[Sloppy systems]]  Several people at the Free University of Brussels seem to be working on complex systems, from a very holistic approach.
+
+[[Evolution]], and feedback.
+
+How does one define evolving systems that accomplish a desired function? We need the right feedbacks in a complex system. But the answer is not obvious. See [[Evolutionary computing]]
+
+---------
+
+[[On Self-Organizing Systems and Their Environments|http://e1020.pbworks.com/f/fulltext.pdf]]
+
+[[Principles of the self-organizing system|http://csis.pace.edu/~marchese/CS396x/Computing/Ashby.pdf]]
+
+http://bactra.org/thesis/single-spaced-thesis.pdf
+
+[[Self-Organisation of Symbolic Information |https://www.researchgate.net/profile/Rainer_Feistel/publication/273887184_Self-Organisation_of_Symbolic_Information/links/5523a8b60cf2881f4e3a736d.pdf]] See [[Written language]]. [[Selforganization of symbols and information|https://books.google.co.uk/books?hl=en&lr=&id=0Qq3CgAAQBAJ&oi=fnd&pg=PA141&dq=info:gstkuB03TVkJ:scholar.google.com&ots=gk_Vu-OnBX&sig=3tLvITOrRKeS4Bn6TgU1IYtSVFo&redir_esc=y#v=onepage&q&f=false]]
+
+---------
+
+[[Self-organizing map|https://en.wikipedia.org/wiki/Self-organizing_map]] in unsupervised [[Machine learning]]

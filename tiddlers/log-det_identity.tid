@@ -1,0 +1,7 @@
+created: 20160705214130843
+creator: guillefix
+modified: 20160705214249224
+modifier: guillefix
+title: log-det identity
+
+$$\ln{\det{\mathbf{M}}} = \text{tr }{\ln{\mathbf{M}}}

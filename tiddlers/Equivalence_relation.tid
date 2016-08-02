@@ -1,0 +1,11 @@
+created: 20160713230217787
+creator: guillefix
+modified: 20160713230606050
+modifier: guillefix
+title: Equivalence relation
+
+An ''equivalence relation'' is a binary [[Relation]], $$R$$ on a [[Set]] $$X$$ that satisfies:
+
+* [[Reflexivity]]
+* [[Symmetry|Symmetric property]]
+* [[Transitivity]]

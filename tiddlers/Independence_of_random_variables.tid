@@ -1,0 +1,20 @@
+created: 20160702131047142
+creator: guillefix
+modified: 20160702131338246
+modifier: guillefix
+tags: [[Random variable]]
+title: Independence of random variables
+
+See here: [[Chapter 2 Information Measures - Section 2.1 A Independence and Markov Chains|https://www.youtube.com/watch?v=nuJ3jTL5qqM&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft&index=4]]
+
+!!!__Independence of two random variables__
+
+!!!__Mutual independence__
+
+!!!__Pairwise independence__
+
+!!!__Conditional independence__
+
+https://en.wikipedia.org/wiki/Conditional_independence
+
+See [[here|https://www.youtube.com/watch?v=nuJ3jTL5qqM&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft&index=4#t=3m52s]]. Note that his definition is the same as in wiki. Just divide by $$p(y)$$ to see this. His example at the end is rather illustrative too.

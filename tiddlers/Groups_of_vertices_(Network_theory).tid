@@ -1,0 +1,21 @@
+created: 20160210232320413
+creator: guillefix
+modified: 20160210233840158
+modifier: guillefix
+title: Groups of vertices (Network theory)
+
+See [[Measures and metrics for networks]]
+
+Many networks naturally divide into groups. These are substructures that are prominent for some reason. Simple examples are:
+
+*''clique'': a maximal subset of the vertices in an undirected network such that every member of the set is connected by an edge to every other.
+
+*Generalizing the above, a ''k-plex'' of size $$n$$ is a maximal subset of $$n$$ vertices within a network such that each vertex is connected to at least $$n-k$$ of the others. We could define this using //fractions// of others as well.
+
+*A ''k-core'' is a maximal <small>(i.e. it is not a subset of a k-core)</small> subset of vertices such that each is connected to at least $$k$$ others in the subset. A way to find them is to successively remove vertices with degree less than $$k$$.
+
+*''k-clique'': a maximal subset of vertices such that each is no more than a distance $$k$$ away from any of the others via the edges of the network. See also //k-club// and //k-clan//l
+
+Many other definitions related to the idea of "groups"
+
+Generalization of components: ''k-component'' is a maximal subset of nodes such that each is reachable from each of the other by at least $$k$$ vertex-independent paths. Equivalently no vertices in this set can be disconnected by removing less than $$k$$ vertices see [[cut sets|Independent paths, connectivity, and cut sets (Graph theory)]]. A variant can be defined using edge-independent paths.

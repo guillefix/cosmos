@@ -1,0 +1,23 @@
+created: 20160704165153399
+creator: guillefix
+modified: 20160704171355984
+modifier: guillefix
+title: Discrete-time Markov chain
+
+See [[Markov chain]]
+
+[img[http://i.imgur.com/SQZC0oW.png]]
+
+!!__Class structure__
+
+Communicating classes. Set of states that can communicate with each other (which constitutes an [[Equivalence relation]]).
+
+-----------------------
+
+A transition matrix where the whole state space is a communicating class
+
+Stopping time, strong Markov property.
+
+Reccurent vs transient states
+
+Let $$C$$ be a communicating class. Then either all states in $$C$$ are transient or all are recurrent.

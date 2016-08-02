@@ -1,0 +1,14 @@
+created: 20160701032402265
+creator: guillefix
+modified: 20160701032510223
+modifier: guillefix
+tags: Combinatorics
+title: Matroid
+
+//Matroid theory//
+
+A [[matroid|https://en.wikipedia.org/wiki/Matroid]] is a structure that captures and generalizes the notion of linear independence in vector spaces. There are many equivalent ways to define a matroid, the most significant being in terms of independent sets, bases, circuits, closed sets or flats, closure operators, and rank functions.
+
+[[Matroids as a Theory of Independence by Federico Ardila|https://www.youtube.com/watch?v=4EvpzV_3RXI]]
+
+See books on matroid theory

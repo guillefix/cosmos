@@ -1,0 +1,19 @@
+created: 20160611203535105
+creator: guillefix
+modified: 20160611203732560
+modifier: guillefix
+title: Invariant manifolds in dynamical systems
+
+[[Dynamical system]]s
+
+A fixed point (and other structures too, if suitably generalized) of a dynamical system has three kinds of invariant manifolds:
+
+* Unstable manifold
+* Stable manifold
+* Center manifold
+
+See Chapter 3 in Wiggins book.
+
+[[ChaosBook.org chapter Stretch, fold, prune - Stable, unstable manifolds|https://www.youtube.com/watch?v=w72O2xMUlp8]]
+
+[[ChaosBook.org chapter Stretch, fold, prune- Plotting an unstable manifold|https://www.youtube.com/watch?v=4j6iP8yS7HM]]

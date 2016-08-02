@@ -1,0 +1,23 @@
+created: 20160611154626088
+creator: guillefix
+modified: 20160701001303605
+modifier: guillefix
+title: Order notation
+
+See [[notes|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3128/8/OHPHandoutLecture3.pdf]] for defs, [[Asymptotic approximation]]
+
+Big O: $$f=O(g)$$ as $$\epsilon \rightarrow 0$$
+
+ (f could be asymptotic to const*g, or much smaller)
+
+Small o: $$f=o(g)$$
+
+f is strictly much less than g
+
+Strict order: $$f=\text{ord}(g)$$
+
+f is strictly of order g, i.e. asymptotic to some constant times g.
+
+[img[http://i.imgur.com/GGsYuKB.png]]
+
+Also: [[Big theta notation|https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-big-theta-notation]], and Big omega notation.

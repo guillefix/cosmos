@@ -1,0 +1,45 @@
+created: 20160713223337267
+creator: guillefix
+modified: 20160714015226522
+modifier: guillefix
+tags: Topology
+title: Topological space
+
+A ''topological space'' is a [[Set]] $$X$$, with a collection of distinguished [[Subset]]s called [[Open set]]s, called the ''topology'' of the set. These must satisfy:
+
+* the union of an arbitrary collection of open sets is open;
+*  the intersection of any finite collection of open sets is open;
+*  The empty set $$\emptyset$$ and the whole set, $$X$$ itself are both open.
+
+An equivalent definition is that a topological space is a [[Neighbourhood space]] $$(X, \mathcal{N})$$ in which, for all $$x \in X$$ and for all $$N \in  \mathcal{N}(x)$$, there exists $$N_1 \in  \mathcal{N}(x)$$ such that, for all $$y \in N_1, N \in  \mathcal{N}(y)$$.
+
+It can also be shown that: A neighbourhood space $$(X, \mathcal{N})$$ is a topological space if and only if each [[Filter|Filter (Topology)]] $$\mathcal{N}(x)$$ has a [[Filter base]] consisting of [[Open set]]s.
+
+Remark: for family $$C$$ of subsets of a set $$X$$, there exists a unique 'smallest' topology on $$X$$ for which $$C$$ is a [[subbase|Filter subbase]]: namely that topology whose open sets are defined to be all arbitrary unions of the collection of all finite intersections of elements of $$C$$.
+
+!!!__Connections with lattices__
+
+The set of open sets in a topology forms a [[lattice|Lattice (algebraic structure)]], where the partial ordering is set inclusion. Also the set of topologies on a set $$X$$ can also be equipped with a natural lattice structure.
+
+!!!__Analytical properties__
+
+In a topological space one can define fundamental notions of:
+
+* convergence
+* [[continuity|Continuous function]]
+
+These are approached using //neighbourhoods// of a point, which are just open sets that contain that point. The family of neighbourhoods
+
+!!!__Examples of topologies__
+
+[[Product topology]]
+
+[[Discrete topology]]
+
+!!!__Related spaces__
+
+[[Metric space]]
+
+[[Compact space]]
+
+[[Hausdorff space]]

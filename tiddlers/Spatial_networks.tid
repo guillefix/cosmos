@@ -1,0 +1,185 @@
+created: 20160326025023214
+creator: guillefix
+modified: 20160601173308143
+modifier: guillefix
+tags: [[Network science]]
+title: Spatial networks
+
+A ''spatial networks'' is a network that is embedded in some space. This affects our choices of models for random graphs. An example is the [[Planar network]].
+
+Explicitly embedded in space vs. consequences of (implicit) system being embedded in space. For example, network of borders of countries vs. friendship network..
+
+Barthelemy's long review (my Kami file, not sure if it'll work: [[here|https://web.kamihq.com/web/viewer.html?source=filepicker&document_identifier=aoK0luc5BjL3p%2FM0M3KZ7E462JJQ1SiCuceZaDP0qnM&filename=1010.0302v2.pdf]]) Otherwise [[link to original|http://www.stat.berkeley.edu/~aldous/206-SNET/Papers/barthelemy_survey.pdf]]
+
+[[Lecture notes|http://www.stat.berkeley.edu/~aldous/206-SNET/]]
+
+* ''Euler's formula'', $$N - E + F=2$$ already gives many constraints to planar graphs
+
+* ''Voronoi tesellations''
+
+* ''Degree distributions'' (see [[degree|Degree of a vertex (Graph theory)]] can be heterogeneous (like for airline or internet networks). However, more strong spatial constraints can make degree distributions very homogeneous, or even highly peaked, like for road networks. (Dual graph may still have heterogeneous $$p_k$$).
+
+* Spatial networks often have high ''clustering coefficient'' (see [[transitivity|Transitivity (Graph theory)]]), due to closer nodes being likely connected among themselves.
+
+* Spatial constraints usually imply neutral ''assortativity'' (i.e. neither positive or negative [[assortative mixing|Assortative mixing]]).
+
+* ''Spectral graph theory'' has applications to things like stationary states of a random walk and synchronization properties.
+
+* In a lattice, ''betweeness centrality'' depends mostly on spatial position, and is peaked at the barycentre. //Shortcuts// create //anomalies// in this pattern.
+
+* For ''weighted'' spatial networks, an important measure is the correlation of [[strength|Degree of a vertex (Graph theory)]] or //distance strength//* ($$\sim$$ geometry) and [[degree|Degree of a vertex (Graph theory)]]  ($$\sim$$ topology) . * //Distance strength// is the sum of the Euclidean distances between a node and its neighbours.
+
+* ''$$\alpha$$ and $$\gamma$$ indices'' measure things like density, or "meshedness". Also have "ringness".
+
+* ''Detour index'' is ratio of route distance (distance actually following the network) and Euclidean ("straight line") distance between two nodes. The ''accesibility'' is the average of the the detour index for paths leading to a node, measures how easy it is to go to that node. Related to //straightness centrality//. See [[this paper|http://arxiv.org/pdf/1003.3700.pdf]].
+
+* ''Cost'' and ''efficiency'' optimization can determine the structure of a network. Cost can be associated with the total length of the network (compared with the minimum spanning tree), and efficiency may refer to //transport performance// (measures mean shortest distance), or //fault tolerance// (probability of staying connected when removing a node, or an edge).
+
+* ''Community detection'' appropriate to spatial networks is an interesting problem. [[Paper|http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2151742/]] that may be interesting according to review, to try to apply to spatial networks.
+
+* ''Motifs'', subgraphs which are found more often than would be expected (by null random graph model).
+
+__Empirical observation__
+
+Two kinds of spatial network topologies:
+
+* ''Planar networks''
+* ''Non-planar spatial networks''
+
+
+
+Measure strength, clustering coefficients, and betweeness centrality, and their ''correlations'' with degree. Also assortativity. Assortatitvity is flat (i.e no degree-degree correlations) because while often hubs want to preferentially connect to hubs, they can't if spatial constraints don't allow such long (in average) links.
+
+* Larger clustering because close nodes will connect among themselves more.
+
+Anomalies in ''betweeness centrality-$$k$$ correlation''. Fluctuations (for given degree) because of competition of spatial constraints (that want central nodes close to the spatial network barycenter) and degree.
+
+''Topology-traffic correlations''. Nonlinear correlations between non-topological quantities (like strength and distance strength) and topological quantitiy (degree). A superlinear relation of the strength and degree indicates that links connecting to central (high-degree) nodes carry more traffic than average. Spatial constraints tend to cause this because they tend to reduce the number of high node hubs (as long links are costly). However, if the traffic stays the same, it must be distributed among the lesser-degree hubs, and so the increase of traffic with degree is faster. See page 45 of review. This is seen in //strength-driven preferential attachment with spatial selection//, in //airline networks// (and the Newman model that models them), in OTT (optimal traffic tree), 
+
+''Real-world networks''
+
+* ''Transportation networks''
+
+* Infrastructure networks
+
+* Mobility network. Analyzed using ''origin-destination matrix''
+
+* ''Neural networks''
+
+__Models for spatial networks__
+
+''Geometrical random graphs''
+
+* simplest geometric random graph. Nodes randomly distributed on plane, and they link if they are close enough.
+
+* Random geometric graph in hyperbolic space. Gives power law deg. dist. Related to the structure of the internet ''!?''
+
+* Scale free network on a lattice. See the paper. Basically given degrees (like configuration model right?), we then connect nodes on a lattice, giving preference to neighbours, or closer nodes.
+
+* ''Apollonian networks''
+
+''Spatial generalizations of the Erdos-Renyi graph''. [[Random graph]]
+
+* ''Planar Erdos-Renyi graph''
+
+* ''Hidden variable model for spatial networks''. ER graph but probability of connecting depends on fitness, and on distance
+
+* ''Waxman model''. Nodes uniformly distributed in space and connect with probabilty depending on distance (exponentially).
+
+''Spatial small worlds''. The [[Watts-Strogatz model|Small-world model (Network theory)]] in a d-dimensional lattice, and where the probability of making a shortcut may depend on its length (spatial constraint).
+
+''Spatial growth models''. 
+
+* ''Preferential attachment with distance selection''
+
+* ''Growth and local optimization''
+
+''Optimization of spatial networks''
+
+* ''Hubs-and-spokes'' structure appears in either 
+
+** the ''hub location problem'', where the cost of paths is basically given a priori.
+
+**or when optimizing both the total length and the travelling time (and the waiting time matters). This is the Newman et al model.
+
+* From the ''minimum spanning tree'' to the ''shortest path tree''
+
+** The ''Steiner problem''
+
+* //Adding two antagonistic quantities//
+
+
+-------
+
+[[Streets tree networks and urban growth: Optimal geometry for quickest access between a finite-size volume and one point|https://www.researchgate.net/publication/223616901_Streets_tree_networks_and_urban_growth_Optimal_geometry_for_quickest_access_between_a_finite-size_volume_and_one_point]]
+
+The geometric form of the tree network is deduced from a single mechanism. The discovery that the shape of a heat-generating volume can be optimized to minimize the thermal resistance between the volume and a point heat sink, is used to solve the kinematics problem of minimizing the time of travel between a volume (or area) and one point. The optimal path is constructed by covering the volume with a sequence of volume sizes (building blocks), which starts with the smallest size and continues with stepwise larger sizes (assemblies). Optimized in each building block is the overall shape and the angle between constituents. The speed of travel may vary from one assembly size to the next, however, the lowest speed is used to reach the infinity of points located in the smallest volume elements. The volume-to-point path that results is a tree network. A single design principle – the geometric optimization of volume-to-point access – determines all the features of the tree network. 
+
+[[Mathematics and morphogenesis of cities: A geometrical approach|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.83.036106]]
+
+
+----
+
+[[Extracting Hidden Hierarchies in Complex Spatial Networks|https://www.youtube.com/watch?v=BTYMqiemQR4]]
+
+[[See notes|Notes on Extracting Hidden Hierarchies in Complex Spatial Networks video]]
+
+-------
+
+http://named-data.net/wp-content/uploads/2010HyperbolicGeometry.pdf 
+
+__Hyperbolic geometry__
+
+http://arxiv.org/pdf/math-ph/0112039.pdf
+
+http://www.math.miami.edu/~larsa/MTH551/hyplect.pdf
+
+http://www.alcyone.com/max/reference/maths/hyperbolic.html
+
+http://math.oregonstate.edu/home/programs/undergrad/CalculusQuestStudyGuides/vcalc/surface/surface.html
+
+http://eprints.soton.ac.uk/172655/1/2009_PIRT_Barrett.pdf
+
+https://www.math.brown.edu/~rkenyon/papers/cannon.pdf
+
+http://www.springer.com/gb/book/9789048186365
+
+[[Spatial growth of real-world networks|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.69.036103]]
+
+------
+
+!!__Man-made networks__
+
+Evolving Transportation Networks
+
+Measuring the Structure of Road Networks
+
+Exploring the patterns and evolution of self-organized urban street networks through modeling
+
+Time Evolution of Road Networks
+
+
+
+!!__Physical networks__
+
+Granular materials
+
+Polymer networks (blue phases..)
+
+Fiber networks can amplify stress
+
+!!__Biological networks__
+
+Roots, vascularity, leaf venation, physarum networks, neural networks...
+
+!!__Geometrical graphs__
+
+https://en.wikipedia.org/wiki/Outerplanar_graph
+
+https://en.wikipedia.org/wiki/Godfried_Toussaint
+
+''Toussaint hierarchy'' of different kinds of geometric planar graphs. Has been applied to physarum networks
+
+[[Some geometrical and spatial networks examples|http://www.stat.berkeley.edu/~aldous/206-SNET/list_networks.html]]
+
+[[How $$\beta$$-skeletons loose their edges|http://www.stat.berkeley.edu/~aldous/206-SNET/Papers/adamatzky_2013.pdf]]

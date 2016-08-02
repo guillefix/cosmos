@@ -1,0 +1,12 @@
+created: 20160601234834828
+creator: guillefix
+modified: 20160601235353055
+modifier: guillefix
+tags: 
+title: Types of contagions
+
+For [[Simple contagion]]s, a node can get infected by simple exposure to another infected node (possibly with a certain probability or rate). These are mostly //compartmental models//, and their extensions are used to model mostly biological contagions (like infectious diseases), as well as some IT contagions (like computer viruses)
+
+For [[Complex contagion]]s, nodes get infected by more complex processes, often involving several other nodes. These are often used to model more complicated social contagions and phenomena. See [[Social dynamics]]
+
+See also wiki page: [[Complex contagion|https://en.wikipedia.org/wiki/Complex_contagion]]

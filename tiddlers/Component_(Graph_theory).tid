@@ -1,0 +1,24 @@
+created: 20160124133339480
+creator: guillefix
+modified: 20160204130619545
+modifier: guillefix
+title: Component (Graph theory)
+
+A //component// is a subset of the network for which all pair of vertices have at least one path, and which is maximal (i.e no extra nodes can be added that preserve this property). A connected graph has only one component, while a disconnected one has more than one.
+
+The adjacency matrix can always be written in block diagonal form with blocks corresponding to components.
+
+__Components in directed networks__
+
+//Weakly connected components// are components of a directed network ignoring the direction.
+
+//Strongly connected components// have a path between any two vertices //in both directions//.
+
+Acyclical graphs can't have  strongly connected components with >1 vertex since, they would necessarily include a cycle.
+
+"""
+//Out-components// are all the vertices reachable from a certain vertex, including the vertex itself.
+//In-components// are all the vertices from which one can reach a certain vertex, including the vertex itself.
+"""
+
+Both of these are  identical for all vertices in a strongly connected component.

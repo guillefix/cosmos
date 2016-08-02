@@ -1,0 +1,13 @@
+created: 20160117154225904
+creator: guillefix
+list-after: $:/core/ui/SideBar/Open
+modified: 20160622145123804
+modifier: guillefix
+tags: $:/tags/SideBar
+title: Contents
+
+<div class="tc-table-of-contents">
+
+<<toc-selective-expandable 'TableOfContents'>>
+
+</div>

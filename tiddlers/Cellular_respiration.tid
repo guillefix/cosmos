@@ -1,0 +1,47 @@
+created: 20160708155306766
+creator: guillefix
+modified: 20160708162141836
+modifier: guillefix
+title: Cellular respiration
+
+//The way [[cells|Cell]] [[produce energy|Energy production]]//
+
+[[ATP & Respiration: Crash Course Biology #7|https://www.youtube.com/watch?v=00jbG_cfGuQ&list=PL3EED4C1D684D3ADF&index=7]]
+
+Most of the [[Biomolecule]]s that gives us energy are processed and end up as [[Glucose]]
+
+[[Glucose]] + 6 [[Oxygen]] --> 6 [[Carbon dioxide]] + 6 [[Water]] + [[ATP]] ([[Energy]])
+
+!!Cellular respiration stages
+
+!!!__Glycolysis__
+
+Breaking [[Glucose]] into two 3-carbon molecules, called [[Pyruvic acid]]s, or pyruvate molecules. It also uses 2 ATPs, produces 4 ATPs. It also produces NADH
+
+Uses many enzymes, like phosphoglucoisomerase.
+
+It is an anerobic process, as it doesn't need oxygen. If there isn't oxygen the pyrovates undergo [[Fermentation]]. Anaerobic respiration can also produce lactic acid.
+
+However, the next steps in cellular respiration are aerobic and require oxygen.
+
+!!!__Krebs cycle__
+
+Happens inside inner membrane of the [[Mitochondria]]
+
+Pyruvate molecules >> 2 ATP (per glucose) + Energy
+
+First pyruvates are oxydized. One of the three carbons in the chain bonds with 2 oxygens, and leaves as CO,,2,,. It leaves a 2-carbon compound called [[Acetyl coA]] (Acetyl coenzyme A)
+
+Also an NAD+ picks up an H to form NADH
+
+ATP
+
+Form citric acid, from oxaloacetic acid and the Acetyl coA
+
+There's more.... produce NADH and FADH,,2,,
+
+!!!__Electron transport chain__
+
+On membrane
+
+ATP synthase

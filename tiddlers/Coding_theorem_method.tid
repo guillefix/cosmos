@@ -1,0 +1,29 @@
+created: 20160426165616553
+creator: guillefix
+modified: 20160715193300960
+modifier: guillefix
+title: Coding theorem method
+
+See [[MMathPhys oral presentation]], [[Algorithmic information theory]]
+
+Using the coding theorem to estimate the Kolmogorov complexity of short strings. The estimate is defined as:
+
+$$K_m (s) = -\log_2(D(n,k)(s))$$
+
+where
+
+$$D(n,k)(s) : = \frac{|\{T \in (n,k) : T \text{ produces } s\}|}{|\{T \in (n,k) : T \text{ halts}\}|}$$
+
+where $$(n,k)$$ is the set of [[Turing machine]]s with $$n$$ states and $$k$$ letters in the alphabet of the input tape. The Turing machines are fed a blank tape, and whether the program halts is determined using a [[Busy beaver]] function.
+
+An extension to $$N$$-dimensional arrays has been developed using the [[Block decomposition method]]
+
+----------------------
+
+See [[this paper|http://singmann.org/download/publications/2015_gauvrit_et_al_brm.pdf]] and [[this one|http://www.ncbi.nlm.nih.gov/pubmed/24311059]] For some reason this seems to be a popular idea in [[Psychology]].
+
+Using these methods the people at [[Algorithmic nature group|http://algorithmicnature.org/]] made [[The Online Algorithmic Complexity Calculator|http://www.complexitycalculator.com/index.php]]
+
+More: [[Numerical evaluation of algorithmic complexity for short strings: A glance into the innermost structure of randomness|http://cristal.univ-lille.fr/~jdelahay/dnalor/DelahayeZenilNumerical.pdf]]
+
+[[Calculating Kolmogorov Complexity from the Output Frequency Distributions of Small Turing Machines|http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096223]]

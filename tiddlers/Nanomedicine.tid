@@ -1,0 +1,38 @@
+created: 20160128172836135
+creator: guillefix
+modified: 20160629164556735
+modifier: guillefix
+tags: Nanotechnology
+title: Nanomedicine
+
+!!__Nano-drugs delivery systems__
+
+Only 3% of medicines often reach target. Particularly bad with cancer.. We need smart nanosystems. Problem with aggregiation. Use circular DNA wrapped around carbon nanotubes makes it stable in many solution media. Target only cancers with molecule added to DNA.  Add fluerescent moleucle for diagnostic. Then theragnostics, both therapeutics and dignosis on spot.
+
+Can use the wrapping of DNA for other nanoparticles too!
+
+Nanotoxicity and nanowaste are important problems too.
+
+[[A Logic-Gated Nanorobot for Targeted Transport of Molecular Payloads|http://science.sciencemag.org/content/335/6070/831]]
+
+!!__Nano-sensors and diagnostics__
+
+Detect causes of diseases before they are pathological.
+
+!!__Nano-devices for medical surgery__
+
+Nano-needle. Very non-aggresive.
+
+!!__Nanotechnology for regenerative medicine__
+
+3D-printing with cells. We need extracellular matrix (scaffold) to guide stem cells as they develop (in particular when they stop growing).
+
+-----------------------
+
+__Stability of DNA nanomachines in cellular environment__
+
+One of the main challenges in DNA-based nanomedicine! One of the main arguments for approaching nanomedicine with some non-organic materials.
+
+[[Addressing the Instability of DNA Nanostructures in Tissue Culture|http://pubs.acs.org/doi/abs/10.1021/nn503513p]]
+
+[[Stability of DNA Origami Nanoarrays in Cell Lysate|http://pubs.acs.org/doi/abs/10.1021/nl1040836]]

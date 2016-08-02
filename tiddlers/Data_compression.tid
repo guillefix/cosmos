@@ -1,0 +1,37 @@
+created: 20160626192507621
+creator: guillefix
+modified: 20160726122722104
+modifier: guillefix
+title: Data compression
+
+See [[Information theory]]
+
+Data compression refers to the problem of finding a [[code|Coding theory]] that makes the average length of an encoded message as short as possible. This is sometimes called "source coding" because the most compressed code depends on the properties of the [[Information source]] producing the message.
+
+https://en.wikipedia.org/wiki/Data_compression
+
+!!Data compression theory
+
+__Lossless compression__
+
+[[Source coding theorem]]
+
+__Lossy compression__
+
+[[Rate compression theory]]
+
+__Why does data compression work?__
+
+Because real-world data very often has [[Order]] (i.e. structure), and is thus compressible. One measure for such order is [[Randomness deficit]], and one explanation for it is that Nature is algorithmic, i.e. the data we observe often is a result of some (relatively simple) [[algorithm|Algorithms]].
+
+,,[[Compression - Computerphile|https://www.youtube.com/watch?annotation_id=annotation_4140410753&feature=iv&src_vid=goOa3DGezUA&v=Lto-ajuqW3w]] [[Entropy in Compression - Computerphile|https://www.youtube.com/watch?v=M5c_RFKVkko]],,
+
+!![[Data compression codes]]
+
+--------
+
+//Related//
+
+[[Algorithmics on compressed objects]]
+
+[[Compressed sensing]]

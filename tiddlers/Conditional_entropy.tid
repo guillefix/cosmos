@@ -1,0 +1,19 @@
+created: 20160703120559925
+creator: guillefix
+modified: 20160703121224245
+modifier: guillefix
+title: Conditional entropy
+
+In [[Information theory]], the ''conditional entropy'' of a [[Random variable]] $$Y$$, conditioning on another random variable $$X$$, is the average entropy of a random variable conditional on another random variable
+
+$$H(Y|X) = \sum_{x,y} p(x,y) \log{p(y|x)}$$
+
+[[Conditional entropy video|https://www.youtube.com/watch?v=6RJP5m3m1XA&index=7&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft#t=6m49.5s]]
+
+Some results:
+
+$$H(X,Y) = H(X) + H(Y|X) = H(Y) + H(X|Y)$$
+
+Where we use the [[Entropy]] and [[Joint entropy]] of the random variables.
+
+[[Proof|https://www.youtube.com/watch?v=6RJP5m3m1XA&index=7&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft#t=9m55s]]

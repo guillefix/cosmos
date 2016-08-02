@@ -1,0 +1,51 @@
+created: 20160204232816786
+creator: guillefix
+modified: 20160624010407971
+modifier: guillefix
+title: Theory of computation
+
+''Computation'' is the part of [[maths|Mathematics]] that can effectively be carried out in the world
+
+Computation is often studied via mechanistic models like those formalized in [[Automata theory]]. The main models will be explained below, in Models of Computation section.
+
+!!__Language__: 
+
+A [[formal language|https://en.wikipedia.org/wiki/Formal_language]] //is a set of strings of symbols// that may be constrained by rules that are specific to it. These rules can also be expressed as machines, like finite state machines or Turing machines.
+
+Finite state machine<Context-free languages<Turing machines<Undecidable problems (hypercomputation)
+
+See ''Chomsky hierarchy'' in [[Formal systems and semantics]]
+
+https://www.youtube.com/watch?v=ZNBNmxXKmUY&index=7&list=PL601FC994BDD963E4. On Lect 3 part 2/10
+
+!!__[[Computability theory]]__
+
+Computability of functions
+
+!__Models of computation__
+
+See also [[Automata theory]] for more.
+
+!!__[[Finite-state machine]]__
+
+--------
+
+[[Theory of Computation - Fall 2011 (Course)|https://www.youtube.com/watch?v=GP21wU6R0-o&list=PLslgisHe5tBM8UTCt1f66oMkpmjCblzkt]]
+
+[[Theory of Computation|https://www.youtube.com/watch?v=GjHfpQPcQ6g&list=PLTZbNwgO5ebp9eegmCueyI8tVwU3X6NV9]]
+
+[[Theory of Automata, Formal Languages and Computation|https://www.youtube.com/playlist?list=PLwi7ySzY5bVKn6gPAEHzWC0hQ0Q0nvsA6]] lect 1
+
+[[Computability and recursion|http://www.people.cs.uchicago.edu/~soare/History/compute.pdf]]
+
+[[AIT lectures|http://www.cse.iitk.ac.in/users/satyadev/a10/a10.html]]
+
+[[Introduction to computability theory|http://www.mn.uio.no/math/tjenester/kunnskap/kompendier/comptheory.pdf]]
+
+!!!__[[Unconventional computing]]__
+
+--------------
+
+[[Causal Nets or What Is a Deterministic Computation?|http://www.cs.bu.edu/faculty/gacs/papers/causal-nets.pdf]]
+
+[[http://www.cs.bu.edu/~gacs/recent-publ.html]]

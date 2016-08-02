@@ -1,0 +1,28 @@
+created: 20160726113058068
+creator: guillefix
+modified: 20160726194229339
+modifier: guillefix
+tags: Self-organization
+title: Order
+
+//aka structure//
+
+''Order'' is the [[Property]] of a [[System]] that has some properties which are [[Random variable]]s distributed according to a non-uniform [[Probabililty distribution]]. The degree of order can be considered to be the degree to which the distribution is away from a uniform one.
+
+Some quantities/concepts that can be used to measure/describe order are:
+
+* [[Entropy]]
+
+* [[Randomness deficit]]
+
+* [[Sparsity]]
+
+* Compressibility
+
+-----------------------
+
+"Everybody knows that because typical signals have some structure, they can be compressed efficiently without much perceptual loss"
+
+[[The World is Either Algorithmic or Mostly Random|http://fqxi.org/data/essay-contest-files/Zenil_FQXIEssayDigitalAnalo.pdf]]
+
+[[Life as Thermodynamic Evidence of Algorithmic Structure in Natural Environments|http://www.mdpi.com/1099-4300/14/11/2173]]

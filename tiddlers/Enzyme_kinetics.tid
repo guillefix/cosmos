@@ -1,0 +1,15 @@
+created: 20160531113641930
+creator: guillefix
+modified: 20160609162738002
+modifier: guillefix
+title: Enzyme kinetics
+
+__Michaelis-Menten rule__
+
+Derived from kinetic rate equations for a simple catalytic reaction. The rate (per unit volume) of catalysis at equilibrium is:
+
+$$k_{\text{eff}} = \frac{k_2 C_S C_E}{C_S+K_M}$$
+
+__Derivation__
+
+[img[http://i.imgur.com/UtOT13V.png]]

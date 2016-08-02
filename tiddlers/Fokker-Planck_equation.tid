@@ -1,0 +1,79 @@
+created: 20160121121759048
+creator: guillefix
+modified: 20160523232151755
+modifier: guillefix
+title: Fokker-Planck equation
+
+[[Deriving FP eq from Langevin equation|http://www.youtube.com/watch?v=m5RuNNvJdjM&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l&index=6#t=1h13m45s]]. Fokker-Planck equation works for Markov processes in space, so it is derived from the [[Langevin equation]] that ignores inertia.
+
+$$\partial_t P(\vec{r},t)+\vec{\nabla}\cdot[\vec{v}(\vec{r})P(\vec{r},t)-D\vec{\nabla}P(\vec{r},t)]$$
+
+where:
+
+[img[Fokker_Planck.png]]
+
+__Detailed balance and equilibrium__
+
+Setting $$\partial_t P(\vec{r},t) = 0$$ __and__ $$\vec{J}=0$$, and using __Einstein's relation__, we get [[Boltzmann Distribution]].
+
+__N-non-interacting particles__
+
+We get Smoluchowski equation.
+
+__N interacting particles__
+
+We get [[BBGKY hierarchy]], as in [[Kinetic theory]]
+
+__[[Backwards Fokker-Planck equation]]__ Tells you how likely different initial conditions is to arrive at a certain fixed point in the future.
+
+!!Applications of Fokker-Planck equation
+
+__[[First-passage time]]__ Calculation of the mean time required to leave a region.
+
+__[[Kramers rate theory]]__ The rate at which fluctuations push particles over a barrier.
+
+[[Survival probability|http://www.youtube.com/watch?v=YZUYPiDA-iQ&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l&index=4#t=3m36s]] 
+[[Crucial argument: reflecting parts of the trajectory leaves same probability|http://www.youtube.com/watch?v=YZUYPiDA-iQ&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l&index=4#t=20m30s]] See also [[here for nice derivation from boundary conditions|https://www.youtube.com/watch?v=m5RuNNvJdjM&index=6&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l#t=0m30s]]
+
+[img[Selection_194.png]]
+
+__Stationary solution of 1D FP equation__
+
+<div id="stat1dfp">
+[img width=300 class=img-centered [Stationary_solution_to_FP_eq.png]]
+</div>
+
+__[[Brownian ratchets]]__
+
+Assume a periodic potential $$U(x)$$ with a bias:
+
+$$V(x)=U(x)-Fx$$
+
+and assume the solution is periodic:
+
+$$P(x+L)=P(x)$$
+
+This is not the equilibrium solution <small>(which would be an exponential growing P to compensate bias, just as the exponential growth of density in gravity or constant electric field)</small>. Therefore $$J \neq 0$$ even though it is stationary $$\partial_t P=0$$. If we integrate <a href="http://kosmos.tiddlyspot.com#stat1dfp">this</a> from $$0$$ to $$L$$ taking this periodicity into account:
+
+[img[tilting_ratchet1.png]]
+
+The easiest way to calculate escape time from one well to the next is to assume there is one particle per well:
+
+[img[tilting_ratchet2.png]]
+
+The average drift velocity is $$v_{drift} \equiv \frac{L}{T_{esc}}=JL$$.
+
+
+__Fluctuation-driver transport__
+
+Analogous to AC rectification in diodes!
+
+!!__Mathematical properties of FP eq__
+
+__Quantum mechanical analogy__
+
+See [[video|http://www.youtube.com/watch?v=YZUYPiDA-iQ&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l&index=4#t=61m28s]], and the lecture notes!
+
+Also applicable in [[Path integrals for stochastic processes]]
+
+[[Stochastic quantization and path integral formulation of Fokker-Planck equation|http://www.sciencedirect.com/science/article/pii/0375960178902918]]

@@ -1,0 +1,45 @@
+created: 20160701014056208
+creator: guillefix
+modified: 20160705160049700
+modifier: guillefix
+title: Finite state channel
+
+In [[Information theory]], and in particular, [[Data transmission]], a ''finite state channel'' (FSC) is a discrete-time channel where the distribution of the channel output depends on both the channel input and the underlying channel state. This allows the channel output to depend implicitly on previous inputs and outputs via the channel state. 
+
+The channel can be modelled as a stochastic [[Finite-state transducer]].
+
+__See here for more__: http://pfister.ee.duke.edu/thesis/chap4.pdf
+
+[[Entropy and Mutual Information for Markov Channels with General Inputs |http://web.stanford.edu/~glynn/papers/2002/HollidayGoldsmithG02a.pdf]]
+
+Blackwell, Breiman, and Thomasian introduced indecomposable FSC (IFSC) in [7] and proved the natural analogue of the channel coding theorem for them. Birch discusses the achievable information rates of IFSCs in [5], and computes bounds for a few simple examples. 
+
+!!!__Examples of finite state channels__
+
+* Discrete-time [[Linear filter]] channels with AWGN
+* Dicode erasure channel
+* Finite state Z-channel
+
+!!!__[[Trellis diagram]]s__
+
+Similar to the mapping between Boolean lattices and directed percolation. See [[Relations between the stability of Boolean networks and percolation]].
+
+!!!__Definitions and basic properties of FSCs__
+
+[img width=500 [http://i.imgur.com/kUKuIuz.png]]
+
+See [[Markov chain]]
+
+In the thesis he considers a [[Markov input process]] as [[Information source]]
+
+Combining the Markov Input Process and the Finite State Channel, gives a new Markov process over the states given by the cross product of the states of the channel and of the input. They label this new set of states by integers too. This combined process is what they call a <b>Finite state process</b> (FSP).
+
+!!!__[[Entropy rate of a finite state process]]__
+
+See [[Random matrix product]]
+
+[[Capacity of finite state markov channels with general inputs|http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1228304&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F8703%2F27553%2F01228304.pdf%3Farnumber%3D1228304]]
+
+[[A Randomized Approach to the Capacity of Finite-State Channels|http://arxiv.org/pdf/1303.3656v1.pdf]]
+
+[[Capacity, mutual information, and coding for finite-state Markov channels|http://cs-www.cs.yale.edu/homes/yry/readings/wireless/wireless_readings/fsmc.pdf]]

@@ -1,0 +1,11 @@
+created: 20160713224039305
+creator: guillefix
+modified: 20160713224120374
+modifier: guillefix
+title: Triangle inequality
+
+An inequality of by a [[Function]] of two variables:
+
+$$d(x,y) \leq d(x,z) + d(z,y)$$
+
+It is a necessary condition for a [[Metric]]

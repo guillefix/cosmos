@@ -1,0 +1,7 @@
+created: 20160704212916718
+creator: guillefix
+modified: 20160704213018899
+modifier: guillefix
+title: Injective function
+
+An injective function, also called one-to-one, is a function $$F(x)$$ such that $$x \neq y \Rightarrow F(x) \neq F(y)$$.

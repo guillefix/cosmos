@@ -1,0 +1,46 @@
+created: 20160713185432527
+creator: guillefix
+modified: 20160715184454077
+modifier: guillefix
+tags: Complexity [[Network science]]
+title: Network complexity
+
+Measures of [[Complexity]] of a [[Graph]] or [[Network]]
+
+[[Quantitative Measures of Network Complexity|http://link.springer.com/chapter/10.1007%2F0-387-25871-X_5]]
+
+[[What is a complex graph?|http://www.sciencedirect.com/science/article/pii/S0378437108000319]]
+
+!!__[[Algorithmic complexity|Kolmogorov complexity]] of a graph__
+
+[[Correlation of automorphism group size and topological properties with program-size complexity evaluations of graphs and complex networks|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/complexity-of-graphs.pdf]] 
+They show that: <span style="color:pink;">[[Kolmogorov complexity]] can capture group-theoretic and topological properties</span> of abstract and empirical networks, ranging from metabolic to social networks, to small synthetic networks. 
+
+We derive these results via <span style="color:aqua;">two different Kolmogorov complexity approximation methods</span> applied to the adjacency matrices of the graphs and networks. The methods used are the traditional lossless [[compression|Data compression]] approach to Kolmogorov complexity, and a normalised version of a [[Block decomposition method]] ([[BDM|http://arxiv.org/pdf/1212.6745v4.pdf]]) based on algorithmic probability theory. 
+
+!!!__Complexity and edge density__
+
+Complexity is minimal for
+empty or complete graphs
+
+[img[http://i.imgur.com/v2sXtc3.png]]
+
+[[Kolmogorov Random Graphs and the Incompressibility Method|http://epubs.siam.org/doi/abs/10.1137/S0097539797327805]]
+
+!!!__Complexity vs symmetry of the graph__
+
+The symmetry is measured by the cardinality of the [[Graph automorphism]] group. The following plot from empirical complex networks shows that they are indeed negatively correlated. The graph automorphism is normalized, and NBDM refers to the normalized [[BDM|Block decomposition method]].
+
+[img[http://i.imgur.com/H1mbIzL.png]]
+
+!!__[[Information]] content in a graph__
+
+[[Entropy and the Complexity of Graphs Revisited|http://www.mdpi.com/1099-4300/14/3/559]]
+
+[[Information Content of Colored Motifs in Complex Networks|http://www.mitpressjournals.org/doi/abs/10.1162/artl_a_00045#.V4aO-O02fCI]]
+
+!!__[[Symmetry]] of grahs__
+
+[[Emergence of symmetry in complex networks|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.77.066108]]
+
+[[Network quotients: Structural skeletons of complex systems|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.78.046102]]

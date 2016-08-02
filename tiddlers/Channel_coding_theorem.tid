@@ -1,0 +1,15 @@
+created: 20160701123948760
+creator: guillefix
+modified: 20160701141513190
+modifier: guillefix
+title: Channel coding theorem
+
+,,aka noisy-channel coding theorem,,
+
+In information theory, the noisy-channel coding theorem (sometimes Shannon's theorem), establishes that for any given degree of noise contamination of a communication channel, it is possible to communicate discrete data (digital information) nearly error-free up to a computable maximum rate through the channel, called the [[Channel capacity]]. 
+
+In other words, the theorem states that given a noisy channel with channel capacity C and information transmitted at a rate R, then if R<C there exist codes that allow the probability of error at the receiver to be made arbitrarily small. This means that, theoretically, it is possible to transmit information nearly without error at any rate below a limiting rate, C.
+
+,,Long enough code blocks can achieve the channel capacity limits (similar to arguments for understanding entropy by many trials).,,
+
+See [[Data transmission]]

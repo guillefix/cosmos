@@ -1,0 +1,20 @@
+created: 20160623201337903
+creator: guillefix
+modified: 20160623201410889
+modifier: guillefix
+title: Features of evolving systems
+
+Some features that are important in the behaviour of an [[evolving|Evolution]] system.
+
+//Important features//:
+
+* ''Evolvability'' ([[wiki page|https://en.wikipedia.org/wiki/Evolvability]]). May be defined as "the capacity of a system for adaptive evolution"; however, this is often called ''adaptability'' (I think). Evolvability is then defined just as "the number of other phenotypes //potentially// accessible from a phenotype" (see [[this paper|http://rsif.royalsocietypublishing.org/content/11/95/20140249]] or [[Robustness and evolvability: a paradox resolved|http://rspb.royalsocietypublishing.org/content/275/1630/91]])
+
+* ''Modularity''. See [[Self-assembly, modularity, and physical complexity|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.82.026117]], and ''complexity''. [[Homologues, Natural Kinds and the Evolution of Modularity|http://az.oxfordjournals.org/content/36/1/36.abstract]]
+
+*''Robustness''. See [[Mutational robustness]]. [[Environmental robustness|http://www.youtube.com/watch?v=vLYpjUANUdc&feature=youtu.be#t=4m40s]]. There are genotypic and phenotypic robustness. See [[Common features of GP maps]]
+
+
+[[The Evolution of Evolvability  - Dawkins|http://www.notionparallax.co.uk/wordpress/wp-content/uploads/2011/03/Dawkins-1988-Evolution-of-evolvability.pdf]]
+
+[[Evolution of evolvability|https://simons.berkeley.edu/talks/lee-altenberg-2014-03-17]]

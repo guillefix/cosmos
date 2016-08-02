@@ -1,0 +1,30 @@
+created: 20160707171414125
+creator: guillefix
+modified: 20160707171707083
+modifier: guillefix
+title: Entropy-based complexity measures
+
+See [[Descriptional complexity]]
+
+!!__[[Entropy rate]]__
+
+Often defined for a (probabilistic) [[Information source]].
+
+[[Here|https://books.google.co.uk/books?id=Y-FwBPbpnZEC&pg=PA390&lpg=PA390&dq=topological+entropy+lempel+ziv+complexity&source=bl&ots=ZpwVO7C1Z9&sig=1O1bWrg3JvrOvrFgbK9kuksq0hc&hl=en&sa=X&ved=0ahUKEwjnifqH2dzNAhVKDcAKHVNsAdIQ6AEIIzAA#v=onepage&q=topological%20entropy%20lempel%20ziv%20complexity&f=false]] they define a (non-standard) notion of entropy for a specific sequence.
+
+!!__[[Topological entropy]]__
+
+Topological entropy of a string (symbol sequence)
+
+[[Defined here|https://books.google.co.uk/books?id=Y-FwBPbpnZEC&pg=PA390&lpg=PA390&dq=topological+entropy+lempel+ziv+complexity&source=bl&ots=ZpwVO7C1Z9&sig=1O1bWrg3JvrOvrFgbK9kuksq0hc&hl=en&sa=X&ved=0ahUKEwjnifqH2dzNAhVKDcAKHVNsAdIQ6AEIIzAA#v=onepage&q=topological%20entropy%20lempel%20ziv%20complexity&f=false]]
+
+[img[http://i.imgur.com/V3ty0f1.png]]
+
+!!__Metric entropy__
+
+measure-theoretical or
+[[Kolmogorov-Sinai entropy]]
+
+------------------
+
+See [[Entropy  and  complexity  of  finite  sequences  as  fluctuating quantities|http://sci-hub.cc/10.1016/S0303-2647(01)00171-X]]

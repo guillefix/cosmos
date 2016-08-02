@@ -1,0 +1,19 @@
+created: 20160119173946058
+creator: guillefix
+modified: 20160131223422765
+modifier: guillefix
+title: Bipartite Networks
+
+''Bipartite Networks'' have two kinds of nodes, and only connections between unlike nodes.
+
+The equivalent of the adjacency matrix is the ''incidence matrix'', $$B$$
+
+It can be converted into a //unipartite// network by a //''one-mode projection''// where two vertices are connected if they both have a connection to the same vertex of the other group (we could improve this by adding a weight: the number of those vertices (groups) they have in common). 
+
+This projection generally results in an union of //clique//s, i.e. completely connected components.
+
+The adjacency matrix of the projection is (after we remove the diagonal components) $$P=B^TB$$ .
+
+One can also have directed bipartite networks (as in [[Metabolic Networks]]), and weighted bipartite networks.
+
+Hypergraphs can be represented as bipartite Networks. This is done by mapping the different relations in the hypergraph to a second type of node to which the original nodes can belong by being connected by an edge.

@@ -1,0 +1,13 @@
+created: 20160714002209011
+creator: guillefix
+modified: 20160714002531846
+modifier: guillefix
+title: Lattice of subsets
+
+A [[lattice|Lattice (algebraic structure)]]:
+
+* whose members are all the subsets of a [[Set]] $$X$$, i.e. the elements of the [[Power set]] of $$X$$
+
+* The [[Partial ordering]] is defined as [[Set inclusion]], $$\subseteq$$
+
+[img width=300 [https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Hasse_diagram_of_powerset_of_3.svg/640px-Hasse_diagram_of_powerset_of_3.svg.png?1468455817501]]

@@ -1,0 +1,27 @@
+created: 20160707160441575
+creator: guillefix
+modified: 20160714133432725
+modifier: guillefix
+tags: [[Measure theory]]
+title: Measure
+
+A ''measure'' $$\mu$$ on a set $$\Omega$$, with [[Sigma-algebra]] $$\mathcal{A}$$, is a [[Function]] $$\mu: \mathcal{A} \rightarrow [0, \infty]$$, s.t.
+
+# $$\mu(\emptyset)=0$$
+
+# //countable additivity//. $$\mu(\bigcup\limits_{i=1}^{\infty} E_i) = \sum\limits_{i=1}^{\infty} \mu(E_i)$$ for any collection $$E_1, E_2, ... \in \mathcal{A}$$ of pair disjoint sets.
+
+Specifying a measure on a sigma-algebra is simplified by the 
+
+!!Types of measures
+
+* [[Probability measure]]s
+* [[Lebesgue measure]]
+
+------------------
+
+[[Definition|https://www.youtube.com/watch?v=xlfH6Rk2GCM&index=3&list=PL17567A1A3F5DB5E4#t=7m41s]]
+
+[[(PP 1.4) Measure theory: Examples of Measures|https://www.youtube.com/watch?v=TxBLRz-gNq4&list=PL17567A1A3F5DB5E4&index=4]]
+
+[[(PP 1.5) Measure theory: Basic Properties of Measures|https://www.youtube.com/watch?v=ILXe_NsvQ6Q&index=5&list=PL17567A1A3F5DB5E4]]

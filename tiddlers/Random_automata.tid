@@ -1,0 +1,19 @@
+created: 20160624013014557
+creator: guillefix
+modified: 20160629170709992
+modifier: guillefix
+title: Random automata
+
+[[Evolving automata]]
+
+[[Random deterministic automata]]
+
+Random stochastic automata?
+
+[[REGAL: a library to randomly and exhaustively generate automata|https://www.semanticscholar.org/paper/-A-Library-to-Randomly-and-Exhaustively-Generate-Bassino-David/6ac8c2f9b322971488840f86a85022e59ff49444/pdf]] http://regal.univ-mlv.fr/
+[[Enumeration and random generation of possibly incomplete deterministic automata|http://puma.dimai.unifi.it/19_2_3/1.pdf]]
+http://www.swmath.org/software/791
+
+http://fado.dcc.fc.up.pt/
+
+[[Enumeration and Generation of Initially Connected Deterministic Finite Automata |http://www.dcc.fc.up.pt/dcc/Pubs/TReports/TR06/dcc-2006-07.pdf]] (implemented in FAdo).

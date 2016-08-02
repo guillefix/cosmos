@@ -1,0 +1,31 @@
+created: 20160127232535412
+creator: guillefix
+modified: 20160508202151167
+modifier: guillefix
+title: Scale-free networks
+
+Networks with [[power-law|Power laws]] degree distributions are sometimes called ''scale-free networks''. A //power law// degree distribution has the form:
+
+$$p_k=Ck^{-\alpha}$$
+
+where $$\alpha$$ is the exponent, and is found in many examples of real-life networks, and in many other places (see [[Power laws]]). Values $$2<\alpha<3$$ are typical. Also typically, the power law is only obeyed for the tail of the distribution, but not for small values of $$k$$. And typically it is also not obeyed in the high end, for example, due to some cut-off.
+
+__Detecting and visualizing power laws__
+
+The simplest approach is a log-log plot of the histogram of the degree distribution (see [[Large-scale structure of networks]]). One problem is that the tail of the distribution, where the power law is usually followed, often has very few samples, and so statistical fluctuations are relatively larger, and make it hard to judge if the distribution follows a straight line in the log-log plot. Finding the right bin size is a way to improve this, but this is always a matter of compromising larger bins to reduce statistical error on tail, and smaller bins to get more detail of the distribution.
+
+An even better strategy is to increase the size of bins for larger degrees (normalizing by bin size so that the different bins can be compared). A way to do this is with //logarithmic binning//, where each bin is a constant factor larger than the previous bin, often $$2$$.
+
+Another way to detect power laws is by using the //cumulative distribution function//, $$P_k$$, which is the probability that the degree of a vertex is $$k$$ or larger (i.e. $$P_k=\sum_{k'=k}^\infty p_{k'}$$). If $$p_k$$ follows a power law (for $$k>k_{\text{min}}$$ say), then $$P_k$$ also does approximately for those $$k$$ (as can be shown by approximating the sum by an integral), with exponent $$\alpha-1$$. As plotting this function does not require binning (as the noise gets smaller in the cumulative distribution, and is smallest in the tail!), it doesn't throw away information. One way to get this information is via the //ranks// of the vertices, i.e. their position in a list ordered in descending order (this agrees exactly with their cumulative frequency, if no nodes have same degree, and this is approx true for the tail of distribution). These plots are often called //rank/frequency plots//.
+
+One disadvantage of cumulative distribution functions is that nearby points are correlated, and so a linear fit using standard techniques (like least squares) which assume independence of points, give biased answers. In fact this is also true for the degree distribution function itself, although for different reasons ([72,141] in Newman's book).
+
+[72] has many details including a formula for determining $$\alpha$$ from the data directly (the most reliable way), and other useful results and tools.
+
+For more properties see [[Power laws]].
+
+-----------
+
+Another important characteristic of scale-free networks is the clustering coefficient distribution, which decreases as the node degree increases. This distribution also follows a power law. 
+
+[[Wikipedia page|https://en.wikipedia.org/wiki/Scale-free_network]]

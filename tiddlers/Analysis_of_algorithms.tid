@@ -1,0 +1,20 @@
+created: 20160626143336294
+creator: guillefix
+modified: 20160701001241067
+modifier: guillefix
+title: Analysis of algorithms
+
+,,//AofA//,,
+
+Analysis of the [[Computational complexity]] of [[Algorithms]], i.e. find out how much time, and how much memory does an algorithm take to run.
+
+[[Analytic Combinatorics, Part I (Analysis of Algorithms)|https://www.youtube.com/playlist?list=PLhsb6tmzSpixf8y0IG6ckJCNP4Fdjcxxs]]
+
+Already recognized as important by Babbage, Turing. However, the modern field of analysis of algorithms was started by Donald Knuth, who recognized that mathematics had the tools to analyze algorithms. Things like the following are useful tools for this:
+
+* [[Recurrence relation]]s
+* [[Generating function]]s
+* [[Asymptotic analysis]]
+
+Books: four volumes of //The art of computer programming//.
+

@@ -1,0 +1,28 @@
+created: 20160128231618463
+creator: guillefix
+modified: 20160629230742751
+modifier: guillefix
+tags: [[Web development]]
+title: Backend web development
+
+__Frameworks__
+
+node.js
+
+[[Meteor (JS)]]
+
+__Hosting__
+
+[[Nice easy tutorial to deploy meteor apps on DigitalOcean|http://meteortips.com/deployment-tutorial/digitalocean-part-1/]]
+
+__Domains__
+
+[[Setting up DNS records for github pages|https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages]] Remember DNS nameservers are servers that contain DNS records connecting domain names mapped to IP addresses (and more complicated things too). //Domain registrar//s, which let you manage domains you own may offer their own DNS nameservers, or may offer you the capability to use a third-party name server (like [[Namecheap's FreeDNS|https://www.namecheap.com/domains/freedns.aspx]]) to direct domain names to IPs.
+
+[img[http://i.kinja-img.com/gawker-media/image/upload/s--LcGCMziw--/nz6rtxietddjqclusrhc.gif]]
+
+Logstalgia: visualization of http request to a server
+
+--------
+
+http://kubernetes.io/

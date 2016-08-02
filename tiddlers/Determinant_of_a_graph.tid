@@ -1,0 +1,38 @@
+created: 20160711224524069
+creator: guillefix
+modified: 20160711230115138
+modifier: guillefix
+tags: [[Topological entropy]]
+title: Determinant of a graph
+
+[[video|https://www.youtube.com/embed/PvkJYUP9NVY]]
+
+See [[Loop analysis]]
+
+Derived using [[Topological trace formula]]
+
+[img[http://i.imgur.com/EPjKXGk.png]]
+
+gives topological polynomial, which is just the characteristic polynomial of the transition matrix
+
+[[Topological zeta function]]
+
+-------------------
+
+Examples from fsts. See notebook and [[here|Simplicity bias in finite-state transducers]]
+
+__FST 10__
+
+[[http://www.wolframalpha.com/input/?i=1-3z%5E2%3D0]]
+
+Can analyze forward or backward
+
+__FST 21__
+
+[[1-2*z+z^2-2*z^3+2*z^4=0|http://www.wolframalpha.com/input/?i=1-2*z%2Bz%5E2-2*z%5E3%2B2*z%5E4%3D0]]
+
+[[(2^(-log_2(0.59)*40)/2^40)*10^6|http://www.wolframalpha.com/input/?i=(2%5E(-log_2(0.59)*40)%2F2%5E40)*10%5E6]]
+
+[[-log_2(0.59)|http://www.wolframalpha.com/input/?i=-log_2(0.59)]]
+
+[[2.7*log_2 (100)/(37-14)|http://www.wolframalpha.com/input/?i=2.7*log_2+(100)%2F(37-14)]]

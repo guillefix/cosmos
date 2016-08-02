@@ -1,0 +1,17 @@
+created: 20160707175607095
+creator: guillefix
+modified: 20160707190302371
+modifier: guillefix
+title: Measure-theoretical dynamical system
+
+A ''Measure-theoretical dynamical system'' is comprised of:
+
+* a [[Measurable space]]
+* a [[measurable map|Measurable function]]
+* a non-singular [[Measure]]
+
+This space can be considered, without restriction to be a [[Probability space]]. See Amigo's book.
+
+See [[here|https://www.dropbox.com/s/fv3fc6jawf9oswl/%5BManfred_Denker%5D_Ergodic_Theory_on_Compact_Spaces%28BookZZ.org%29.djvu?dl=0]] ([[local|file:///home/guillefix/Dropbox/COSMOS/Mathematics/Ergodic%20theory/%5BManfred_Denker%5D_Ergodic_Theory_on_Compact_Spaces(BookZZ.org).djvu]]).
+
+A [[Dynamical system]] on a [[Measurable space]] has a //natural// or //physical invariant measure//, corresponding to the [[Probability measure]] that numerical simulations of the system would produce asymptotically.

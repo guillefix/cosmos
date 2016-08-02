@@ -1,0 +1,12 @@
+created: 20160508201556662
+creator: guillefix
+modified: 20160601235125516
+modifier: guillefix
+tags: [[Public health]]
+title: Epidemiology
+
+There are many [[Epidemic model|https://en.wikipedia.org/wiki/Epidemic_model]]. Some use simple stochastic compartmental models based on a [[Master equation]] (see [[Simple contagion]]). See [[Epidemics on networks]], for models that include the underlying network structure.
+
+!!__[[Types of contagions]]__
+
+{{Types of contagions}}

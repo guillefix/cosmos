@@ -1,0 +1,17 @@
+created: 20160703012004702
+creator: guillefix
+modified: 20160704230651998
+modifier: guillefix
+title: Entropy reduction
+
+__Ordering in sequence spaces__
+
+A mathematical theory of ordering (with constraints) in sequence spaces was first presented in [7] and [1]. In their setup, an algorithm is sought which “orders” any sequence of length n, i.e., which transforms the sequence x⃗  into the sequence y⃗  (of the same length and with the same symbols in it), such that the number of possible resulting sequences y⃗  is as small as possible. In this sense ordering is a generalization of sorting x⃗ , as this would yield the absolute minimal number of sequences y⃗ .
+
+[[Ordering in Sequence Spaces: An Overview|http://link.springer.com/chapter/10.1007/978-1-4757-6048-4_48]]
+
+[[Creating order in sequence spaces with simple machines|http://www.sciencedirect.com/science/article/pii/089054019090020I]]
+
+[[Entropy reduction, ordering in sequence spaces, and semigroupss of non-negative matrices|http://sci-hub.cc/10.1109/ISIT.1995.550314]] see [[here|https://scholar.google.co.uk/scholar?cites=9597678491629848145&as_sdt=2005&sciodt=0,5&hl=en]]
+
+[[Creating Order and Ballot Sequences|http://link.springer.com/chapter/10.1007/978-3-642-36899-8_36]]

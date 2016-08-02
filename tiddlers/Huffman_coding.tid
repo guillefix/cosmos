@@ -1,0 +1,27 @@
+created: 20160627230719815
+creator: guillefix
+modified: 20160627232155846
+modifier: guillefix
+title: Huffman coding
+
+A code used in [[Data compression]] that is optimal, in the sense that it achieves the entropy limit (within less than one bit).
+
+https://en.wikipedia.org/wiki/Huffman_coding
+
+https://www.cs.cf.ac.uk/Dave/Multimedia/node210.html
+
+!!!__Algorithm__
+
+:1. Initialization: Put all nodes in an OPEN list, keep it sorted at all times (e.g., ABCDE).
+
+:2. Repeat until the OPEN list has only one node left:
+
+::(a) From OPEN pick two nodes having the lowest frequencies/probabilities, create a parent node of them.
+
+::(b) Assign the sum of the children's frequencies/probabilities to the parent node and insert it into OPEN.
+
+::(c) Assign code 0, 1 to the two branches of the tree, and delete the children from OPEN.
+
+In the animation below, the blue nodes are in the //OPEN list//., at every iteration we choose the nodes with the two lowest frequencies within the blue nodes (with preference with those not yet in the tree, if equal frequency).
+
+[img[https://upload.wikimedia.org/wikipedia/commons/a/ac/Huffman_huff_demo.gif]]

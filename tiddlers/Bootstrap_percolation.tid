@@ -1,0 +1,17 @@
+created: 20160615145332818
+creator: guillefix
+modified: 20160615145600174
+modifier: guillefix
+title: Bootstrap percolation
+
+http://research.microsoft.com/en-us/um/people/holroyd/boot/
+
+An "infection" process in which nodes become infected if sufficiently many of their neighbors are infected. Related to the Centola-Many threshold model for social contagions.
+
+[[Bootstrap percolation on spatial networks|http://arxiv.org/abs/1408.1290]] (see [[Spatial networks]]).
+
+[[Bootstrap Percolation - MathWorld|http://mathworld.wolfram.com/BootstrapPercolation.html]]
+
+[img[http://mathworld.wolfram.com/images/gifs/bootperc.gif]]
+
+[[Bootstrap percolation on the random graph |https://arxiv.org/abs/1012.3535]]

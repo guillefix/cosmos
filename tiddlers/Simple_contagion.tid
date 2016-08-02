@@ -1,0 +1,35 @@
+created: 20160601235718481
+creator: guillefix
+modified: 20160602002951947
+modifier: guillefix
+title: Simple contagion
+
+A ''simple contagion'', is a property that spreads between individuals in such a way that an individual can get infected by simple exposure to another infected individual (possibly with a certain probability or rate). These are mostly compartmental models, and their extensions are used to model mostly biological contagions (like infectious diseases), as well as some IT contagions (like computer viruses). Often the model lives on a [[network|Network science]] that determines which individuals (nodes) interact (edges).
+
+Compartmental models are those in which the individuals can be on any of a number of states (often "susceptible", "infected", or "recovered"), and there are certain rules for the contagion.
+
+!!__SI model__
+
+a.k.a susceptible-infected model. Just two states, "susceptible" and "infected". Susceptible individuals can get infected by infected individuals.
+
+__Fully mixed SI model__
+
+Assumes every individual has an equal probability (per unit time, i.e. rate) of meeting any other individual. A description is then made using a pair of [[Rate equation]]s:
+
+$$\frac{d X}{dt} = \beta \frac{S X}{n}$$ or $$\frac{dx}{dt}= \beta s x$$
+
+where $$S$$ and $$X$$ are the average number of susceptible and infected individuals, respectively, in a population of $$n$$ individuals, and $$s=S/n$$ and $$x=X/n$$. Furthermore, $$I+S=n$$ is unchanged in time, so $$s=1-x$$, and the above equation is equivalent to:
+
+$$\frac{dx}{dt}= \beta (1-x) x$$
+
+which is the //logistic growth equation//.
+
+!!__SIR model__
+
+a.k.a susceptible-infected-recovered model or susceptible-infected-removed model. Adds the possibility of recovery (and subsequent immunity). Three states: "susceptible", "infected", and "recovered". Susceptible individuals can get infected by infected individuals. Individuals can recover after some time, and then become immune to new infections.
+
+The model can also be applied to when the third state corresponds to a dead individual, as in this case the individual also doesn't participate in the network of possible infectious transmissions (though there are some subtleties in some cases, see note in page 632 on Newman's book). For this reason the R sometimes refer to "removed", encompassing both cases.
+
+!!__SIS model__
+
+!!__SIRS model__

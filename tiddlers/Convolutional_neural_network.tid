@@ -1,0 +1,57 @@
+created: 20160328184231393
+creator: guillefix
+modified: 20160623235659032
+modifier: guillefix
+title: Convolutional neural network
+
+[[Nando's vid|https://www.youtube.com/watch?v=bEUX_56Lojc&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=10]]
+
+http://cs231n.github.io/
+
+http://cs231n.github.io/convolutional-networks/
+
+http://cs231n.stanford.edu/syllabus.html
+
+!!![[Convnet demo on the web!|http://scs.ryerson.ca/~aharley/vis/conv/]] [[details here|http://scs.ryerson.ca/~aharley/vis/]]
+
+[img[http://scs.ryerson.ca/~aharley/vis/images/convnet_480.png]]
+
+[img[http://deeplearning.net/tutorial/_images/mylenet.png]]
+
+''Convolution''
+
+In The "c1 feature maps" are a set of 2D arrays of neurons. Each array looks for a feature, and a point in the array would represent the location of that feature. To accomplish this, that point of that array is connected to a set of pixels centered in the corresponding point in the input image (an array of pixels). We have much less parameters because for each of these 2D arrays we only specify the parameters for one of the neruons in that array, all other neurons are identical, just connected to displaced sets of pixels.
+
+[[What is convolution|https://www.youtube.com/watch?v=bEUX_56Lojc&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=10#t=14m35s]]. [[Correlation|https://www.youtube.com/watch?v=bEUX_56Lojc&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=10#t=18m39s]]. Flip parameters vector (or array..) and rewrite the correlation, [[we get a convolution|https://www.youtube.com/watch?v=bEUX_56Lojc&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=10#t=21m50s]]. Of course, there's much more to [[convolutions|https://en.wikipedia.org/wiki/Convolution]], including the convolution theorem for e.g.
+
+''Stride'' How much you jump in pixel space (or in previous layer) when you move from one point to another in a feature layer.
+
+Can also expand boundary (//zero padding//) to keep layer gotten by convolution is of same size as original layer.
+
+[[Nice example|https://www.youtube.com/watch?v=bEUX_56Lojc&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=10#t=27m06s]]
+
+[[So many indices!|https://www.youtube.com/watch?v=bEUX_56Lojc&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=10#t=35m06s]]
+
+''Pooling''
+
+[[This is what it does|https://www.youtube.com/watch?v=bEUX_56Lojc&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=10#t=9m56s]]. It downsamples. For memory, and invariance (being more insesitive to perturbations).
+
+We can also apply non-linearities in between layers of course, like for contours enhacement
+
+Use as many of these layers Iconvolutions and poolings) as we can train, 20+ ([[Deep learning]])
+
+At the end we may have a fully connected neural layer, to do the classification, but researchers are questioning if it is that useful..
+
+We may [[visualize the features|https://www.youtube.com/watch?v=bEUX_56Lojc&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=10#t=13m30s]] in the feature maps by visualizing the matrices of parameters.
+
+!!!__Sentence ConvNets__
+
+[[Vid|https://www.youtube.com/watch?v=bEUX_56Lojc&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=10#t=44m55s]]
+
+Sentence DynConvNet
+
+Document models (Misha Denil)
+
+[[Natural language processing]]
+
+[[MatConvNet: CNNs for MATLAB|http://www.vlfeat.org/matconvnet/]]

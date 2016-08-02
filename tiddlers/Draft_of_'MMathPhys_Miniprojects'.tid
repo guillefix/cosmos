@@ -1,0 +1,96 @@
+created: 20160316190048614
+creator: guillefix
+modified: 20160316190048614
+modifier: guillefix
+title: Draft of 'MMathPhys Miniprojects'
+
+!__Nonlinear systems__
+
+The effects of small damping, nonlinearity and forcing on a harmonic oscillator:
+
+$$\ddot{x} + \beta \dot{x} + x + \delta x^3 = \Gamma \cos{\omega t}$$
+
+* The simple harmonic oscillator (forced and damped, in general)
+
+* [[Duffing oscillator]]
+
+** Free (unforced) Duffing oscillator
+
+*** Free undamped Duffing oscillator
+
+*** Free damped Duffing oscillator
+
+** Forced damped Duffing oscillator.
+
+There are potentially $$8$$ qualitatively different forms of the equation, depending of which combination of the $$3$$ parameters considered are non-zero.
+
+The Duffing Equation: Nonlinear Oscillators and their Behaviour
+
+//More papers and references//:
+
+https://en.wikipedia.org/wiki/Intermittency
+
+https://en.wikipedia.org/wiki/Crisis_%28dynamical_systems%29
+
+Y. Ueda, Steady Motions Exhibited by Duffing’s Equation: A Picture Book of Regular And Chaotic Motions
+
+[[Catastrophes with Indeterminate Outcome
+Stewart, H. B. ; Ueda, Y.|http://ezproxy-prd.bodleian.ox.ac.uk:2084/stable/51909?seq=1#page_scan_tab_contents]]
+
+[[EXPLOSION OF STRANGE ATTRACTORS EXHIBITED BY DUFFING'S EQUATION - Yoshisuke Ueda|http://onlinelibrary.wiley.com/doi/10.1111/j.1749-6632.1980.tb29708.x/abstract]]
+
+[[Common dynamical features on periodically driven strictly dissipative oscillators|http://sci-hub.io/http://www.worldscientific.com/doi/abs/10.1142/S0218127493000611]] (introduces torsion and winding numbers)
+
+[[Comparison of bifurcation sets of driven strictly dissipative oscillators|https://link.springer.com/chapter/10.1007%2F978-3-0348-7004-7_41]]
+
+__Wada basins__
+
+https://en.wikipedia.org/wiki/Lakes_of_Wada
+
+[[Wada basin boundaries and basin cells|http://sci-hub.io/10.1016/0167-2789%2895%2900249-9]] [[Other link|http://www.sciencedirect.com/science/article/pii/0167278995002499]]
+
+[[Unpredictable behavior in the Duffing oscillator: Wada basins|http://www.escet.urjc.es/~fisica/investigacion/publications/Papers/2002/aguirre_wadad.pdf]]
+
+[[Testing for Basins of Wada|http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4639726/]]
+
+[[Response Of A Harmonically Excited Hard Duffing Oscillator – Numerical And Experimental Investigation|https://link.springer.com/chapter/10.1007/978-1-4020-9100-1_27]]
+
+[[Experimental investigation of the response of a
+harmonically excited hard Duffing oscillator|http://www.ias.ac.in/article/fulltext/pram/068/01/0099-0104]] From [[here|http://www.ias.ac.in/listing/articles/pram/068/01]]
+
+__Analytical methods__
+
+[[Exact analytical solutions for forced cubic restoring force oscillator|https://link.springer.com/article/10.1007%2Fs11071-015-2486-2]] Uses Jacobi elliptic function (only for undamped Ueda oscillator I think).
+
+[[A comparison of classical and high dimensional harmonic balance approaches for a Duffing oscillator|http://www.sciencedirect.com/science/article/pii/S0021999105004894]]
+
+[[Second order averaging and bifurcations to subharmonics in duffing's equation|http://www.sciencedirect.com/science/article/pii/S0022460X81800302]]
+
+[[Subharmonic Oscillations in Nonlinear Systems|http://ezproxy-prd.bodleian.ox.ac.uk:2837/content/aip/journal/jap/24/5/10.1063/1.1721322]]
+
+[[Chaotic states and routes to chaos in the forced pendulum|http://journals.aps.org/pra/abstract/10.1103/PhysRevA.26.3483]]
+
+[[Organization of periodic orbits in the driven Duffing oscillator|http://journals.aps.org/pra/abstract/10.1103/PhysRevA.38.1566]]
+
+[[Structure in the bifurcation diagram of the Duffing oscillator|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.51.935]]
+
+[[superstructure in the bifurcation set of the duffing equation|http://www.dpi.physik.uni-goettingen.de/~ulli/pdf/PL85.pdf]]
+
+[[General case of crisis-induced intermittency in the Duffing equation|http://www.sciencedirect.com/science/article/pii/037596019390732F]] for double-well Duffing oscillator.
+
+[[On the jump-up and jump-down frequencies of the Duffing oscillator|http://www.sciencedirect.com/science/article/pii/S0022460X08003805]]
+
+More books: 
+
+Chaos in Nonlinear Oscillators: Controlling and Synchronization
+By M Lakshmanan, K Murali
+
+[[Antimonotonicity|http://sci-hub.io/10.1016/0375-9601%2892%2990442-O]] reversal of period-doubling cascades
+
+
+
+------
+
+!__Networks__
+
+//Spatial networks//

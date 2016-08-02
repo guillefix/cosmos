@@ -1,0 +1,15 @@
+created: 20160705164529439
+creator: guillefix
+modified: 20160707172407809
+modifier: guillefix
+title: Permutation complexity
+
+See [[Descriptional complexity]]
+
+See [[Permutation complexity in dynamical systems|file:///home/guillefix/Dropbox/COSMOS/Physics/stat%20phys,%20kinetic%20theory,%20chaos,%20dynamical%20sys,%20emergence/complexity%20theory/(Springer%20Series%20in%20Synergetics)%20Jos%C3%A9%20Amig%C3%B3%20(auth.)-Permutation%20Complexity%20in%20Dynamical%20Systems_%20Ordinal%20Patterns,%20Permutation%20Entropy%20and%20All%20That-Springer-Verlag%20Berlin%20Heidelberg%20(2010).pdf]]
+
+Permutation entropy was introduced in 2002 by C. Bandt and B. Pompe as a
+measure of complexity in time series. In a nutshell, permutation entropy replaces
+the probabilities of length-L symbol blocks in the definition of the Shannon entropy by the probabilities of length-L [[Ordinal pattern]]s.
+
+[[Permutation Complexity Related to the Letter Doubling Map |http://arxiv.org/pdf/1108.3642.pdf]]

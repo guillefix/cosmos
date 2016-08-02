@@ -1,0 +1,19 @@
+created: 20160501135453326
+creator: guillefix
+modified: 20160501170852237
+modifier: guillefix
+title: Collective hydrodynamics of active entities: applications
+
+* ''active turbulence''
+
+* interactions between topological defects, walls (regions of high bend perturbation), and flows (jets, and vortical). 
+
+* velocity-velocity correlation length independent of activity.
+
+* __Application__: microtubules and [[Molecular motors]] (kinesin). Motor clusters attach to tubes creating bridges between them, and sliding them relative to each other. Adding PEG beads gives depletion interaction, and makes tubes come together into bundles, enhancing the effects of their relative sliding.
+
+* ... <mark>Some doubts about some of the applications, and results.</mark>
+
+* ''Lyotropic active nematics'' Lyotropic refers to concentration dependent effects, and in particular we look at the evolution of localized patches of active material surrounded by iosotropic fluid. Evolution governed by Cahn-Hillard equation, with free energy, and extra stress, described in [[Biphasic, Lyotropic, Active Nematics|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.248303]]
+
+* ''Active anchoring'' Anchoring of active nematics at interfaces, due to their activity alone.

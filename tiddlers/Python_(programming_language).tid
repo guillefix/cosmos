@@ -1,0 +1,19 @@
+created: 20160629010236775
+creator: guillefix
+modified: 20160713133951175
+modifier: guillefix
+title: Python (programming language)
+
+__Libraries__
+
+Graphics:
+http://www.pythonware.com/products/pil/
+https://pypi.python.org/pypi/colour/
+
+Maths:
+numpy
+sympy
+https://www.continuum.io/why-anaconda
+
+Others:
+http://blog.rtwilson.com/my-top-5-new-python-modules-of-2015/

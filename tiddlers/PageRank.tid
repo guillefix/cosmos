@@ -1,0 +1,25 @@
+created: 20160210225129035
+creator: guillefix
+modified: 20160426192356949
+modifier: guillefix
+title: PageRank
+
+See [[Measures and metrics for networks]]
+
+There is one potentially undesirable feature of Katz centrality. An important vertex pointing to many vertices makes all those vertices important. The centrality gained by virtue of receiving an edge from a prestigious vertex is diluted by being shared with so many others (think a web directory like Google or Yahoo! pointing to my page. My page is not that central because it's just one of millions). We can solve this by making the centrality derived from neighbours be divided by their out degree:
+
+$$x_i = \alpha \sum_j \frac{A_{ij}}{k^{\text{out}}_j}x_j +\beta$$
+
+or, in matrix form:
+
+$$\mathbf{x}=\alpha \mathbf{A}\mathbf{D}^{-1}\mathbf{x}+\beta \mathbf{1}$$
+
+where undeterminate values $$0/0$$ are defined to be $$0$$. This can also be rearranged to get x and $$\beta=1$$. The result is known as ''PageRank'', the trade name given by Google which uses this measure in their ranking algorithm. 
+
+Just like with Katz centrality, $$\alpha$$ has to be fixed and it must be less than the maximum eigenvalue of $$\mathbf{A}\mathbf{D}^{-1}$$, as if it equal the centralities will blow up, and if it is above the answer turns out to be meaningless. The maximum eigenvalue (at least for an undirected network) is $$1$$ (as can be shown using the [[Perron-Frobenius theorem|https://en.wikipedia.org/wiki/Perron%E2%80%93Frobenius_theorem]], see footnote in page 177 of Newman book, and Meyer - //Matrix analysis and applied linear algebra// book. The theorem is very useful in stochastic processes on networks in general).
+
+Google uses $$\alpha=0.85$$
+
+One can see that this measure is mathematically the same as that gotten by the steady state of a [[random walk in the network|Random walk in a graph]], with an added probability related to the ratio of $$\beta$$ and $$alpha$$ of "teleporting" to another part of the network, so that one doesn't just get stuck in nodes without out-degree in the case of directed networks or that one doesn't just recover the simple //degree centrality// for undirected networks.
+
+

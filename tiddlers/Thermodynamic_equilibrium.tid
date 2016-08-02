@@ -1,0 +1,10 @@
+created: 20160526214345302
+creator: guillefix
+modified: 20160526214504090
+modifier: guillefix
+tags: 
+title: Thermodynamic equilibrium
+
+https://en.wikipedia.org/wiki/Thermodynamic_equilibrium Thermodynamic equilibrium, no net currents (detailed balance)
+
+Linear response theory, deals with near equilibrium systems, where averaged quantities either don't change, or change very slowly, I think. Currents may be non-zero in either case. Kubo formula. Read more [[here|http://www.damtp.cam.ac.uk/user/tong/kintheory/four.pdf]].

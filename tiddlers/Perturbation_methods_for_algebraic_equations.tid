@@ -1,0 +1,57 @@
+created: 20160427180325756
+creator: guillefix
+modified: 20160607001017089
+modifier: guillefix
+title: Perturbation methods for algebraic equations
+
+!!__[[Iterative method|Fixed-point iteration]]__
+
+Faster if expansion sequence is unknown (i.e. we don't know it it's a power series or a log series for instance); slower, if the expansion sequence is known.
+
+$$x_{n+1} = g(x_n; \epsilon)$$
+
+!!__Espansion method__
+
+Pose (guess) expansion. For instance a power series in small parameter, $$\epsilon$$:
+
+$$x=1+\epsilon x_1 + \epsilon^2 x_2 + ...$$ as $$\epsilon \rightarrow 0$$
+
+and substitute in algebraic equation, and equate terms of equal order because <b>asymptotic expansions (using a fixed set of functions of $$\epsilon$$) are unique</b>.
+
+Easier than the iterative method, specially when working to higher orders, but must assume form of expansion.
+
+!!__[[Singular perturbations|Singular perturbations in algebraic equations]]__
+
+When limit problem ($$\epsilon =0$$) differs in an important way from the limit $$\epsilon \rightarrow 0$$). Main method:
+
+''Regularization method'': Scale variables so that the problem becomes regular. 
+
+!!__Non-integral powers__
+
+When power expansion fails (one of the coefficients seems to need to be $$\infty$$..), an expansion in non-integral powers may be necessary.
+
+This happens for example when the roots at limit problem ($$\epsilon =0$$) are a double root. As he says from example given in the notes, we could have guessed that an order $$\epsilon^{1/2}$$ change in $$x$$ would be required to produce and order $$\epsilon$$ change in a function at its minimum. Yeah if we are perturbing the parabola by an order $$\epsilon$$, then the new root would be the same as perturbing $$x$$ in such a way as to get the order $$\epsilon$$ change in the original parabola. At the minimum of the parabola, from Taylor expanding, we see we need a larger $$\epsilon^{1/2}$$ change in $$x$$ to get the  $$\epsilon$$ change in the function.
+
+!!__Finding the right expansion sequence__
+
+We first pose the general expansion:
+
+$$x=1+\delta_1 x_1$$, &nbsp; $$\delta_1(\epsilon) \ll 1$$
+
+Substitute into the algebraic equation, and look for dominant balances in the result. This will involve looking for the largest terms with and without $$\delta_1(\epsilon)$$
+
+Once we have the first, term, we add a term to the expansion:
+
+$$x=1+\delta_1 x_1+\delta_2 x_2$$, &nbsp;  $$\delta_2(\epsilon) \ll \delta_1$$
+
+And we repeat this process
+
+Again, the __[[iterative method|Fixed-point iteration]]__ is very useful when the expansion sequence is not known, and can be faster than the above method involving unknown expansion functions, $$\delta$$.
+
+!!__Logarithms__
+
+Normally appears in transcendental equations.
+
+Use [[iterative method|Fixed-point iteration]] as expansion method is hard to guess.
+
+In his example, "over this range the term $$x$$ is slowly varying while $$e^{-x}$$ is rapidly varying. This suggests rewriting the equation as $$e^{-x} = \frac{\epsilon}{x}$$. I think this is so that we control/determine the faster changing term.

@@ -1,0 +1,7 @@
+created: 20160714001247017
+creator: guillefix
+modified: 20160714001426353
+modifier: guillefix
+title: Upper set
+
+In any [[lattice|Lattice (algebraic structure)]], $$L$$, a subset $$U$$ of $$L$$ is said to be an ''upper set'' if $$a \in U$$ implies that $$b \in U$$ for all $$b \in L$$ satisfying $$a \preceq b$$, where $$\preceq$$ refers to the [[Partial ordering]] defining the lattice.

@@ -1,0 +1,16 @@
+created: 20160628135059543
+creator: guillefix
+modified: 20160628140449934
+modifier: guillefix
+tags: [[Data science]] [[Mathematical methods]]
+title: Sensitivity analysis
+
+[[Sensitivity analysis|https://en.wikipedia.org/wiki/Sensitivity_analysis]] is the study of how the uncertainty in the output of a mathematical model or system (numerical or otherwise) can be apportioned to different sources of uncertainty in its inputs.
+
+[[Global Sensitivity Analysis: The Primer|https://www.amazon.co.uk/Global-Sensitivity-Analysis-Primer-Saltelli/dp/0470059974]]
+
+[[A review on global sensitivity analysis methods|https://hal.archives-ouvertes.fr/hal-00975701/document]]
+
+[[Making sense of global sensitivity analyses|http://www.sciencedirect.com/science/article/pii/S0098300413001702]]
+
+[[Global Sensitivity Analysis|http://pubsonline.informs.org/doi/abs/10.1287/opre.43.6.948]]

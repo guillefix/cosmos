@@ -1,0 +1,73 @@
+created: 20160213161928559
+creator: guillefix
+modified: 20160316210951728
+modifier: guillefix
+title: Assortative mixing
+type: application/x-tiddler
+
+See [[Measures and metrics for networks]]
+
+''Homophily'' or ''assortative mixing'' is a bias in favour of connections between network nodes with some similar characteristics.
+
+__Assortative mixing by enumerative characteristics__
+
+Enumerative (a.k.a categorical) characteristics are those where the possible values don't have any particular metric for being close (i.e. a distance function). Eg.:  gender, school
+
+Measure given by ''modularity'':
+
+$$Q=\frac{1}{2m}\sum_{ij} \left ( A_{ij}-\frac{k_i k_j}{2m} \right) \delta(c_i, c_j)$$
+
+where $$\delta(c_i, c_j)$$ is the Kronecker delta which is 1 if the category of $$i$$, $$c_i$$ is the same as that for $$j$$, and $$0$$ otherwise. Another way to write it turns out to be:
+
+$$Q=\sum_r (e_{rr}-a_r^2)$$
+
+where $$e_{rs}$$ is the fraction of edges that join nodes of type $$r$$ to nodes of type $$s$$, and $$a_r$$ is the fraction of ends of edges attached to nodes of type $$r$$. If we generalize to __weighted networks__ then $$k$$ would be the //strength//, i.e. the weighted degree; and $$e_{rs}$$ would be fraction of edge weights joining nodes in the two sets, and $$a_r$$ would be fraction of //half// the edge weight assigned to nodes in set $$r$$.
+
+This is just equal to the number of edges connecting vertices of alike type, minus the expected such number for a random network (with degrees distributions for each category fixed).
+
+$$B_{ij} = A_{ij}-\frac{k_i k_j}{2m}  $$ is called the //modularity matrix//.
+
+The normalized modularity (normalized by its maximum value when all edges fall between alike edges is called an //assortativity coefficient//.
+
+
+__Assortative mixing by scalar characteristics__
+
+By scalar charactersitics we means does that have a metric that gives a notion of closeness so that two nodes can be approximately alike (age, etc.).
+
+Measure by a [[Pearson coefficient|Pearson coefficients]] (i.e. a normalized covariance) for the correlation of the value of the scalar $$x_i$$ at the two ends of the edge. The covariance turns out to be:
+
+$$Q=\frac{1}{2m}\sum_{ij} \left ( A_{ij}-\frac{k_i k_j}{2m} \right) x_i x_j$$
+
+and one can divide by its max value to get an assortativity coefficient.
+
+If positive assortativity, sometimes the network is said to be //stratified//. Others nonlinear kinds of correlations may not be detected by the Pearson coefficient (for example low and high $$x$$ being more often connected with intermediate $$x$$). Other information theoretic measures may then be used, or a scatter plot of $$x_i$$ vs $$x_j$$ for visual insight, as in figure below:
+
+[img class=img-centered [network_scatter_plot.png]]
+
+<small>Note that in this figure, the values, 9, 10, 11, 12 are bins, and the positions of points (which represent edges, or pairs of nodes) within each bin is just used to visually aid in identifying blocks with more density.</small>
+
+__Assortative mixing by degree__
+
+Degree is special case of scalar because degrees may be close to one another (using usual distance function on integers), so use same formula.
+
+If a network shows assortative mixing by degree, it often displays a core (with high density of nodes) and a periphery (with low) structure See (a). If it shows dissasortative mixing by degree, it often shows star like features and is more uniform See (b).
+
+[img class=img-centered [assortative_dissasortative.png]]
+
+There appears to be another definition of a quantity called ''assortativity'' in this [[review|http://arxiv.org/abs/1010.0302]].
+
+-------
+
+|A network partition with $$Q>0$$ exhibits "assortative mixing"|
+
+|A network partition with $$Q<0$$ exhibits "disassortative mixing"|
+
+Can also rewrite the assortativity coefficient in this case as a Pearson coefficient for the distribution of the "excess degree" of nodes (i.e. follow an edge to a node and look at distribution of remaining stubs). See page 5 in [[notes|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3127/17/4_copy.pdf]].
+
+__Notes:__
+
+Given some network and two partitions (assignment of nodes to categories), we can calculate their modularities, and find which is "more modular"
+
+Maximizing $$G$$ is a good way of finding ''"communities"'' of densely-connected nodes with sparse connections between those sets.
+
+Can define scalar measure of assortativity. See page 3 in [[notes|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3127/17/4_copy.pdf]].

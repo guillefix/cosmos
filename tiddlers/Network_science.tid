@@ -1,0 +1,109 @@
+created: 20160117215514254
+creator: guillefix
+modified: 20160713190201865
+modifier: guillefix
+tags: MMathPhys [[Systems science]]
+title: Network science
+
+//MMathPhys course mostly about Network Theory//
+
+__Books__
+
+[[Networks: An introduction - Newman|https://files.acrobat.com/a/preview/25f27470-e977-4a86-b52a-7c7236ebd0a2]]
+
+See [[books by Barabasi et al.|http://barabasi.com/book/network-science]], it has nice ones.
+
+//Other research articles//
+
+Check wikipedia network science portal and others resources..
+
+~my problem sheets [[here|https://www.dropbox.com/sh/evp1kycu7k3zd6b/AACmUzNOtkkmpJO2FV6nswDva?dl=0]]~
+
+[[Oxford course website|https://www0.maths.ox.ac.uk/courses/course/28833]] and [[blog|http://networksoxford.blogspot.co.uk/]].
+
+Some important classes of networks:
+
+*[[Scale-free networks]]
+* [[small-world networks|Small-world model (Network theory)]]
+* [[Spatial networks]]
+* [[Multilayer networks]]
+* [[Temporal networks]]
+
+,,[[Apollonian networks]],,
+
+-----
+
+!!Empirical study of Networks
+
+-------
+
+!! Fundamentals of network theory
+
+!!![[Mathematics of networks]]
+
+!!![[Measures and metrics for networks]]
+
+!!![[Large-scale structure of networks]]
+
+---------
+
+!!Computer algorithms
+
+!!!Basic concepts of algorithms
+
+!!!Fundamental network algorithms
+
+!!!Matrix algorithms and graph partitioning
+
+-------
+
+!!Network models
+
+!!![[Random graphs|Random graph]]
+
+!!![[Random graphs with general degree distributions]]
+
+!!![[Models of network formation]]
+
+!!!Other network models:
+
+* The [[small-world model|Small-world model (Network theory)]].
+* [[Exponential random graphs]].
+
+-------
+
+!!Processes on networks
+
+!!![[Percolation]] and network resilience.
+
+!!![[Epidemics on networks]]
+
+!!![[Dynamical systems on networks]]
+
+!!!Network search
+
+--------
+
+!!//Further network measures and analytics//
+
+!!![[Community structure in networks]]
+
+!!![[Network complexity]]
+
+--------
+
+//Review articles//
+
+[[Statistical mechanics of complex networks|http://barabasi.com/f/103.pdf]]
+
+[[Complex networks: Structure and dynamics|http://www.sciencedirect.com/science/article/pii/S037015730500462X]]
+
+Others
+
+Many many good references here on ''random and evolving networks'': [[http://www.fzu.cz/~slanina/bookmark_files/bkm3-1.html]]
+
+[[Multilayer networks|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3127/23/community-moremultilayer.pdf]]
+
+[[Multiplexing|https://en.wikipedia.org/wiki/Multiplexing]]
+
+[[Like air traffic, information flows through neuron 'hubs' in the brain, finds IU study|http://www.eurekalert.org/pub_releases/2016-01/iu-lat012016.php?utm_content=buffer6c26c&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer]]

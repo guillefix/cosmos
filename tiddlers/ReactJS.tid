@@ -1,0 +1,49 @@
+created: 20160709133210218
+creator: guillefix
+modified: 20160720113859637
+modifier: guillefix
+title: ReactJS
+
+A framework for [[Frontend web development]]
+
+[[meteor + react|https://www.youtube.com/watch?v=rxR-NWCXKiY&list=PLZqiqJ6M54_hojR8RG4gRIobIZFX0cQve&index=8]]
+
+[[react basics|https://egghead.io/lessons/react-owner-ownee-relationship]]
+
+[[JSX|https://egghead.io/lessons/precompile-jsx]]
+
+!!__Components__
+
+-> Class component. Can have state.
+
+-> Stateless function component. Doesnt have state
+
+!!!__Component properties (props)__
+
+Values and methods passed to a component when we use it (like arguments)
+
+[[vid|https://egghead.io/lessons/react-introduction-to-properties]]
+
+proptypes, default properties
+
+!!!__States__
+
+values and methods managed by the component itself.
+
+[[vid|https://egghead.io/lessons/react-state-basics]]
+
+!!!__References (refs)__
+
+way of referencing an instance of a component from within a react app. It's like a DOM id of a component, that you can use to refer to that component.
+
+[[vid|https://egghead.io/lessons/react-using-refs-to-access-components]]
+
+!!!__Component lifecycle__
+
+Adding or removing components to the dom is called mounting and unmounting. [[vid|https://egghead.io/lessons/react-component-lifecycle-mounting-basics]]
+
+[[updating|https://egghead.io/lessons/react-component-lifecycle-updating]]. Even if we use ``shouldComponentUpdate`` to stop the component from rerendering, the state and props are still updated.
+
+!!!__Higher order components__
+
+[[vid|https://egghead.io/lessons/react-react-fundamentals-higher-order-components-replaces-mixins]]

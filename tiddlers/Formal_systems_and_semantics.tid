@@ -1,0 +1,24 @@
+created: 20160201145228022
+creator: guillefix
+modified: 20160623211931265
+modifier: guillefix
+tags: [[Formal system]]
+title: Formal systems and semantics
+
+''Languages'', ''grammars'', etc.
+
+[[Chomsky hierarchy|https://www.youtube.com/watch?v=224plb3bCog]]
+
+See [[Theory of computation]]
+
+__(Abstract) Rewrite systems__
+
+A set of objects, and a binary operation, $$\rightarrow$$, that tells us how we are allowed to transforms expressions. If these rules act on //terms// out of which an expression can be built, then this is a term rewrite system.
+
+They are non-deterministic Markov algorithms, and they are Turing complete. They are related to normal forms, lambda calculus, and combinatory logic
+
+[[http://www.cs.tau.ac.il/~nachum/papers/survey-draft.pdf]]
+
+[[Formal system]]
+
+[[CM20019—Computation III: Formal Logic and Semantics|http://cs.bath.ac.uk/ag/CM20019/index.html]]

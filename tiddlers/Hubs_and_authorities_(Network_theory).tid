@@ -1,0 +1,29 @@
+created: 20160210225000661
+creator: guillefix
+modified: 20160210225114611
+modifier: guillefix
+title: Hubs and authorities (Network theory)
+
+See [[Measures and metrics for networks]]
+
+One can distinguish two types of important nodes in directed networks. We describe them for the case of an information network, like WWW first:
+
+*//authorities// are nodes that contain useful information on a topic of interest
+*//hubs// are nodes that point us to the best authorities
+
+This idea was implemented by Kleinberg into the //hyperlink-induced topic search// or //HITS// algorithm. The mathematical definitions that tries to capture the above intuition are:
+
+*//authority centrality//: vertex pointed by many hubs (i.e. by many nodes with high hub centrality)
+*//hub centrality//: vertex points to many authorities (i.e. vertices with high authority centrality).
+
+Mathematically,
+
+$$\mathbf{x}=\alpha\mathbf{A}\mathbf{y}$$
+
+$$\mathbf{y}=\beta\mathbf{A}^T\mathbf{x}$$
+
+where $$\mathbf{x}$$ and $$\mathbf{y}$$ are the authority and hub centralities, respectively. These equations combine to show that these centralities are in fact the eigenvectors of $$\mathbf{A}\mathbf{A}^T$$ and $$\mathbf{A}^T\mathbf{A}$$, respectively, with the same eigenvalue (which must be the leading one, suing similar arguments as cases above, and which is equal to $$(\alpha \beta)^{-1}$$. $$\beta$$ (or $$alpha$$, but not both) is a free parameter that can be chosen to be $$1$$ as we don't care about relative centralities. 
+
+This connection means that these centralities are similar to the eigenvector centralities for the cocitation and bibliographic coupling network, respectively (see [[Mathematics of networks]]).
+
+

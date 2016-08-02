@@ -1,0 +1,43 @@
+created: 20160121121935070
+creator: guillefix
+list-after: Discrete mathematics
+modified: 20160717212626908
+modifier: guillefix
+tags: Mathematics Statistics [[Measure theory]]
+title: Probability theory
+
+''Probability Theory'' [[Wiki article|https://en.wikipedia.org/wiki/Probability_theory]]. Mathematica foundations of ''probability''
+
+[[Probability, Mathematical Statistics, Stochastic Processes|http://www.math.uah.edu/stat/index.html]]
+
+[[Probability space|https://en.wikipedia.org/wiki/Probability_space]]
+
+Based on [[Measure theory]]
+
+[[Probability Primer|https://www.youtube.com/playlist?list=PL17567A1A3F5DB5E4]]
+
+[[Probability space]]
+
+!![[Random variable]]
+
+-------
+
+[[Basic results in probability theory]]
+
+--------
+
+!![[Probability distribution function]]
+
+__Cumulative distribution function__
+
+!!!Moments and cumulants
+
+!!!Generating functions
+
+!!!Central Limit Theorem
+
+--------
+
+!!![[Combinatorics]]
+
+Probabilistic method (see book)

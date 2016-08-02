@@ -1,0 +1,33 @@
+created: 20160602225220028
+creator: guillefix
+modified: 20160702163829189
+modifier: guillefix
+title: Osmosis
+
+''Osmosis'' is the spontaneous net movement of solvent molecules through a semi-permeable membrane into a region of higher solute concentration, in the direction that tends to equalize the solute concentrations on the two sides. https://en.wikipedia.org/wiki/Osmosis
+
+[img[http://i.imgur.com/hpT5CCW.png]]
+
+It is often described by a "solvent potential", which is lowered by the addition of solute, and raised by increases in hydrostatic pressure. Thus, the solvent tends to flow from regions of lower to higher solute concentration, and this tendency can be countered by a sufficiently large pressure difference. However, the physical mechanisms that cause this are tricky. See description of mechanisms here: [[Physical mechanisms of osmosis]]
+
+See also [[Osmotic forces]] for more general related effects, caused by interactions of the solute with the boundary
+
+<b>Osmotic pressure</b> is defined as the external pressure required to be applied so that there is no net movement of solvent across the membrane. Osmotic pressure is a colligative property, meaning that the osmotic pressure depends on the molar concentration of the solute but not on its identity.
+
+See [[Fluid mechanics]], [[Thermodynamics]]. See [[Microhydrodynamics]] for other possible osmotic effects, which can also cause pressure gradients.
+
+See also [[Biophysics]]
+
+In [[Reverse osmosis]], the process is reversed by applying a pressure greater than the osmotic pressure. This has applications to desalinization, for instance.
+
+[[The theory of the reverse osmosis separation of solutions using fine-porous membranes|http://www.sciencedirect.com/science/article/pii/0021979780904671]]
+
+http://physics.stackexchange.com/questions/212183/physic-explanation-to-osmosis?rq=1
+
+[[Capillary osmosis through porous partitions and properties of boundary layers of solutions|http://www.sciencedirect.com/science/article/pii/002197977290392X]]
+
+[[Negative osmosis]]
+
+[[Molecular Understanding of Osmosis in Semipermeable Membranes|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.97.024501]]
+
+[[Forward osmosis: Principles, applications, and recent developments|http://sci-hub.cc/10.1016/j.memsci.2006.05.048]]

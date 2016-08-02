@@ -1,0 +1,19 @@
+created: 20160713231040236
+creator: guillefix
+modified: 20160713233626410
+modifier: guillefix
+title: Lattice (algebraic structure)
+
+A ''lattice'' is an [[Algebraic structure]] defined as:
+
+|a [[poset|Partially ordered set]] $$L$$ in which every pair of elements posseses a [[join|Join operation]] and a [[meet|Meet operation]]|
+
+A //unit// element in a lattice $$L$$ is an element $$1$$ such that, for all $$a \in L$$, $$a \preceq 1$$. A //null// element in a lattice $$L$$ is an element $$0$$ such that, for all $$a \in L$$, $$0 \preceq a$$.
+
+The lattice is //complete// if a [[Greatest lower bound]] and a [[Least upper bound]] exist for //every// subset $$S$$ of $$L$$ (all that is guaranteed by the definition of a lattice is that these bounds will exist for all //finite// subsets of L). If these exist, they are denoted as $$\wedge S$$, and $$\vee S$$, respectively.
+
+[img[http://i.imgur.com/eB76RuU.png]]
+
+[img[http://i.imgur.com/S2qDCFr.png]]
+
+[img[http://i.imgur.com/imuGxNU.png]]

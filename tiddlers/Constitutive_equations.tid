@@ -1,0 +1,26 @@
+created: 20160501175235282
+creator: guillefix
+modified: 20160501184220634
+modifier: guillefix
+title: Constitutive equations
+
+([[wiki|https://en.wikipedia.org/wiki/Constitutive_equation]])
+In physics and engineering, a ''constitutive equation'' or ''constitutive relation'' is a relation between two physical quantities (especially kinetic quantities as related to kinematic quantities) that is specific to a material or substance, and approximates the response of that material to external stimuli, usually as applied fields or forces.
+
+They are often just __phenomenological__, because bulk material, or a sufficiently large amount of [[condensed matter|Condensed matter physics]], is a very complex system, made of many interacting particles. However, they should be, in principle, and sometimes are in practice, __derivable from principles of [[Statistical physics]], and often [[Non-equilibrium statistical physics]]__. 
+
+Those constitutive relations that are used in the description of the autonomous __time-evolution__ of a system often need [[Non-equilibrium statistical physics]], as systems that macroscopically (i.e. the relevant averaged quantities) evolve in time are by definition out of equilibrium.
+
+Constitutive relations for driven systems, that are in __quasi-equilibrium__, should be derivable from [[Equilibrium statistical physics]].
+
+!!__Constitutive equations in non-equilibrium__
+
+[[Kinetic theory]] offers a foundation to derive constitutive equations from the microscopic details of the material. However, derivations are often hard, and give only qualitatively correct answers (more precisely, the answers are often correct up to an order $$1$$ constant, because of approximations).
+
+[[Non-equilibrium thermodynamics]] is often based itself on more or less phenomenological principles. However, these principles can be very useful for deriving constitutive relations for large classes of systems.
+
+An example, of one of these principles is the principle that //the rate of entropy production be maximal//. This is used in [[this paper|http://ncmm.karlin.mff.cuni.cz/preprints/11289092919pr19.pdf]] to derive the Allen-Cahn equations used to describe the evolution of phase fields (see [[Phase transition]]).
+
+See [[On thermomechanical restrictions of continua|http://rspa.royalsocietypublishing.org/content/royprsa/460/2042/631.full.pdf]] for the paper proposing the above principle.
+
+//I'm sure there are other approaches, and I should learn more about [[Non-equilibrium statistical physics]] in general, to learn, and organize these important ideas better.//

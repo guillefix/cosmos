@@ -1,0 +1,19 @@
+created: 20160611125934253
+creator: guillefix
+modified: 20160611130025350
+modifier: guillefix
+title: Continuum limit of percolation models
+
+See [[Percolation theory]]
+
+The continuum limit, if it is defined, is often a field theory. In particular, at the critical point, it is often a [[Conformal field theory]], as percolation models at the critical point are found to have conformal symmetry.
+
+John Cardy used this idea to find crossing probabilities between the opposite sides of a conformal rectangle filled with a conformally invariant infinitesimal lattice: [[ Critical Percolation in Finite Geometries|https://arxiv.org/abs/hep-th/9111026]]. Smirnov rigorously proved that Cardy’s conjecture holds for the continuum limit of site percolation on a triangular lattice: [[Critical percolation in the plane: conformal invariance, Cardy's formula, scaling limits|http://www.sciencedirect.com/science/article/pii/S0764444201019917]].
+
+Defining the continuum limit is tricky. See [[ Correlation Functions in Two-Dimensional Critical Systems with Conformal Symmetry. |https://deepblue.lib.umich.edu/handle/2027.42/94010]]. 
+
+,,Only certain CFTs, usually the minimal models, have been observed to possess the right structure to describe a critical lattice model in two dimensions. Due to the relatively few number of such theories, models with the same macroscopic but different microscopic properties are presumed to have identical continuum limits which correspond to the same CFT characterized by the value of the central charge c. This is a restatement of the notion of ''universality'',,
+
+[[Renormalization group]]
+
+A relatively new method to describe the continuum limit of the critical lattice models is [[Schramm–Loewner evolution]]

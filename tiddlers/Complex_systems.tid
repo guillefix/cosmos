@@ -1,0 +1,92 @@
+created: 20160126181154374
+creator: guillefix
+list-after: MMathPhys
+modified: 20160726015833551
+modifier: guillefix
+tags: MMathPhys Complexity
+title: Complex systems
+
+A complex system is a high-dimensional systems where the variables are strongly interdependent.
+
+See [[Complexity theory]] for more discussion on the definition of a ''complex system''.
+
+ -->[[Map of complexity science|http://www.art-sciencefactory.com/complexity-map_feb09.html]]
+
+[[Complex Systems (Mathematics Course at Oxford) blog|http://complex-oxford.blogspot.co.uk/]]
+
+https://en.wikipedia.org/wiki/Complex_system
+https://en.wikipedia.org/wiki/Complex_systems
+
+Features of complex systems: [[Self-organization]] and emergence. [[Evolution]]. Adaptation. Homeostasis, autopesis. Crowd-dynamics, [[chaos|Chaos theory]], order and disorder..
+
+Related: [[Soft matter physics]]. [[Non-equilibrium statistical physics]]
+
+Models and examples: [[Boolean network]], [[Automata|Automata theory]], [[Cellular automata]], [[Biology]], [[Artificial chemistry]], [[Fractal]]s. [[Control theory and control systems]], [[Nonlinear system]]s, [[Networks|Network science]] (in particular [[Dynamical systems on networks]]), [[Social system]], [[Percolation|Percolation theory]], [[Self-organized criticality]], [[Agent-based model]]s
+
+Maybe try to categorize these a bit.
+
+|Interesting idea about emergence and complex systems: [[Sloppy systems]]|
+
+[[Complex Networks and Energy Landscapes|http://doye.chem.ox.ac.uk/projects/networks.html]] See [[Network theory]].
+
+[[Diffusion-limited aggregation]]
+
+[[Percolation]]
+
+[[Netlogo models library|http://ccl.northwestern.edu/netlogo/models/index.cgi]]
+
+-----------
+
+[[ChaosBook.org videos|http://www.cns.gatech.edu/~predrag/courses/PHYS-7224-14/schedule.xml]]
+[[also here|http://www.chaosbook.org/course1/about.html]]
+[[YB channel|https://www.youtube.com/playlist?list=PLVcaOb64gCp8CAL-6KMjTAUfOkr624kLT]]
+
+[[Willi Hans - The nonlinear workbook|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/Willi-Hans%20Steeb-The%20Nonlinear%20Workbook%20%20-World%20Scientific%20Pub%20Co%20Inc%20%25281999%2529.pdf]]
+
+[[Synergetics|http://www.scholarpedia.org/article/Synergetics]]
+
+[[Chaos book|http://www.streamsound.dk/book1/chaos/chaos.html#4/z]]
+
+!!![[Complex Systems: A Survey|http://arxiv.org/abs/1112.1440]]
+
+!!![[Methods and Techniques of Complex Systems Science: An Overview|https://arxiv.org/abs/nlin/0307015]]
+
+[[Power-law Distributions in Empirical Data|http://tuvalu.santafe.edu/~aaronc/powerlaws/]]
+
+[[Statistical physics of social dynamics|http://journals.aps.org/rmp/abstract/10.1103/RevModPhys.81.591]]
+
+[[Part 1 Symbolic Dynamics and One-dimesional Cellular Automata: an Introduction Лекториум|https://www.youtube.com/watch?v=2SIqrz7NtR0]]
+
+http://www.complex-systems.com/
+
+https://theory.org/complexity/
+
+https://en.wikipedia.org/wiki/Homeostasis
+
+https://www.youtube.com/user/StanfordComplexity/feed
+
+[[Computation, Dynamics and the Phase-Transition|https://theory.org/complexity/cdpt/]]
+
+http://www.maths.qmul.ac.uk/research/applied
+
+[[ABDUS SALAM MEMORIAL LECTURE SERIES|https://www.youtube.com/playlist?list=PL04QVxpjcnjj7geONQCwQA654x10gYq2R]]
+
+[[Instituto de Física Interdisciplinar y Sistemas Complejos (IFISC)|https://www.youtube.com/channel/UCoGb45Ht-Wr2s6-3IEyxwuw]]
+
+
+[[Hans J. Herrmann|https://scholar.google.co.uk/citations?user=IuhidDAAAAAJ&hl=en&oi=sra]]
+
+[[Researchers in complex systems|https://scholar.google.co.uk/citations?view_op=search_authors&hl=en&mauthors=label:complex_systems]]
+[[or here actually|https://scholar.google.co.uk/citations?mauthors=complex+systems&hl=en&view_op=search_authors]]
+
+[[Double pendulum android app|https://play.google.com/store/apps/details?id=org.openpipeflow.doubledoublependulum]]
+
+[[How do I explain to non-mathematical people what "non-linear and complex systems" mean?|https://www.quora.com/How-do-I-explain-to-non-mathematical-people-what-non-linear-and-complex-systems-mean]]
+
+[[ Computational Methods for Nonlinear Systems |http://pages.physics.cornell.edu/~myers/teaching/ComputationalMethods/index.html]]
+
+[[http://sethna.lassp.cornell.edu/]]
+
+[[http://cosnet.bifi.es/]]
+
+[[p. grassberger|https://scholar.google.co.uk/citations?user=MBpdE_wAAAAJ&hl=en&oi=sra&cstart=40&pagesize=20]]

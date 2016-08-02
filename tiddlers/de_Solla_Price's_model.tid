@@ -1,0 +1,70 @@
+created: 20160204201143172
+creator: guillefix
+modified: 20160215220236523
+modifier: guillefix
+title: de Solla Price's model
+
+<small>also known as Price's model.</small> The ''de Solla Price's model'' is a model used to explore the effect of preferential attachment in the formation of a network on the structure of the network. See [[Models of network formation]] for more information.
+
+Proposed in the study of citation networks. These have properties:
+
+*New papers <small>almost</small> only cite existing ones. The network is thus <small>approx.</small> a [[directed acyclic graph|Directed acyclic craph]].
+* Node: paper. Edge: citation of a paper to an existing paper.
+
+The model defines the average number of papers cited by a new paper (i.e. the average out-degree) to be $$c$$ (and the distribution around $$c$$ to be sufficiently well-behaved, for instance, the variance should be finite).
+
+The main assumption of the model is that the probability of each new edge created whew we add a new node only depends on the degree of that node (on the //in-degree// to be precise, i.e. the number of citations it has). In particular it assumes an //affine preferential attachment//:
+
+$$q_i=\frac{k_i+a}{\sum_i(k_i+a)}=\frac{k_i+a}{N(a+c)}$$
+
+where$$k_i \equiv k_{i}^{\text{in}}$$ is the in-degree, and we have made use that for directed networks, $$\langle k_{i}^{\text{in}} \rangle =\langle k_i^{\text{out}}\rangle=c$$ . Finally, $$a>0$$ is introduced so that nodes can get edges even if they don't have any in-degree yet (otherwise they will always stay like that, and the model wouldn't really be realistic).
+
+Note that a new paper can cite an existing paper more than one times in this model, but the frequency at which these double-edges occur is low, and in the limit $$N\rightarrow \infty$$ they are subdominant.
+
+$$q_i$$ is the probability that a new edge is connected to node $$i$$. On average $$c$$ edges are added (and the probability over number of edges, whose average is $$c$$, is independent of the probability $$q_i$$), therefore the expected number of edges added to node $$i$$ is $$cq_i$$.  Even though the probabilities for each node getting an edge are not independent, the expected number of edges added over a set of nodes, is the sum of the $$cq_i$$ (see [[Probability theory]] Note 1). In particular, the expected number of edges added to all nodes with in-degree $$k$$, $$Np_k(N)$$ of them (where $$p_k(N)$$ is the degree distribution at the when there are $$N$$ nodes in the network (note that this changes, as we are adding nodes in the process of formation)) is:
+
+$$Np_k(N) c \frac{k+a}{N(a+c)}= c \frac{k+a}{a+c} p_k(N)$$
+
+We can now write a __master equation__, which for $$k\geq 1$$ is:
+
+$$(N+1)p_k (N+1) =Np_k(N)+\frac{c(a+k-1)}{a+c}p_{k-1}(N)-\frac{c(a+k)}{a+c}p_k(N)$$
+
+or in words:
+
+$$\# \text{ with degree k when total is } N+1=\# \text{ with degree k when total was N}$$
+
+$$+\#\text{ with degree k-1 when total was N that gained one edge}$$
+
+$$-\#\text{ with degree k when total was N that gained one edge}$$
+
+The equation for $$k=0$$ is a bit different:
+
+$$(N+1)p_0 (N+1) =Np_0(N)+1-\frac{ca}{a+c}p_0(N)$$
+
+where there are no nodes with degree $$-1$$, and there is an extra $$+1$$ due to the node we just added.
+
+Now, taking the limit $$N \rightarrow \infty$$, and using the shorthand $$p_k :=p_k(\infty)$$, the $$k\geq 1$$  eq. becomes:
+
+$$p_k =\frac{c(a+k-1)}{a+c}p_{k-1}-\frac{c(a+k)}{a+c}p_k=\frac{c}{a+c}((a+k-1)p_{k-1}-c(a+k)p_k)$$
+
+$$p_0=+1-\frac{ca}{a+c}p_0$$
+
+where the terms proportional to $$N$$ have cancelled out.
+
+We can then solve these to get a recursion relation for $$p_k$$ with initial condition $$p_0$$ from the second equation. The solution can then be expressed in terms of Euler Beta functions, which in the asymptotic limit of large $$k$$, give a power-law decay with power:
+
+$$\alpha=2+\frac{a}{c}$$.
+
+Thus, many scholars believe that this simple model may describe the fundamental mechanism by which power laws are obtained in many real-world networks.
+
+__Computer simulation of de Solla Price's model__
+
+See section 14.1.1 of Newman's book.
+
+Straighforward simulation of model is slow. Alternative was proposed by Krapivsky and Redner which follows the following rule
+
+<<<
+With probability $$c/(c+a)$$ choose a vertex in strict proportion to in-degree. Otherwise choose a vertex uniformly at random from the set of all vertices.
+<<<
+
+The trick to do the part of choosing a vertex in proportion to in-degree is done by choosing an edge (stored in a list) with uniform probability and then choosing the vertex it points to, so that the probability of choosing is exactly proportional to how many edges point to it, i.e. its in-degree $$k_{i}$$.

@@ -1,0 +1,24 @@
+created: 20160117213221659
+creator: guillefix
+modified: 20160521205359609
+modifier: guillefix
+tags: Blockchain
+title: Ethereum
+
+[[Dapp developer resources|https://github.com/ethereum/wiki/wiki/Dapp-Developer-Resources]]
+
+''Solidity'' -
+[[Solidity docs|http://solidity.readthedocs.org/en/latest/index.html]] -
+[[Solidity Browser|http://chriseth.github.io/browser-solidity/]] - <small>[[Cosmo|http://cosmo.to/]] (Doesn't really work)</small>
+
+''Local node'' - [[Setting up private network|https://github.com/ethereum/go-ethereum/wiki/Setting-up-private-network-or-local-cluster]] - [[How To Create A Private Ethereum Chain|http://adeduke.com/2015/08/how-to-create-a-private-ethereum-chain/]]
+
+--------------------
+
+Tutorial for a contract example:  https://ethereum.org/token#the-code
+
+''Meteor template'': https://github.com/SilentCicero/meteor-dapp-boilerplate
+
+http://www.ethereumoxford.org/tutorials/Tutorial3.html
+
+''The Wallet: https://github.com/ethereum/mist/releases''

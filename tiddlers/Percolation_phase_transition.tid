@@ -1,0 +1,23 @@
+created: 20160610233126059
+creator: guillefix
+modified: 20160610233352605
+modifier: guillefix
+title: Percolation phase transition
+
+!!!__Giant component and phase transition__
+
+Percolation is the simplest fundamental model in statistical mechanics that exhibits [[phase transitions|Phase transition]] signaled by the emergence of a ''giant connected component'' (or GCC, it is a connected component that contains a finite fraction of the nodes as the network size $$N \rightarrow \infty$$, i.e. it has an "extensive" scaling, in the language of [[Statistical physics]]). The parameter that controls the existence of a GCC is the occupation probability, $$p$$ (or the "attach probability" $$q=1-p$$), the critical value at which the transition happens is called the ''percolation threshold''
+
+In particular, the transition is often a //continuous transition// (2nd oder) with a critical point. Behaviour at this point is thus an example of [[Critical phenomena]], and at this point the system is self-similar (see [[Fractal]]s), and as a consequence, many quantities follow [[Power laws]]. See section 12.2, and exercise 12.12, as well as exercise 2.13 of [[this book|http://pages.physics.cornell.edu/~sethna/StatMech/]].
+
+__Percolation threshold__
+
+For random site percolation on a [[configuration model|Random graphs with general degree distributions]] graph: 
+
+$$p_c = \frac{1}{g'_1(1)} = \frac{\langle k \rangle}{\langle k^2 \rangle - \langle k \rangle}$$
+
+where $$g_1(z)$$ is the generating function of the excess degree distribution. See Newman's book.
+
+Note that even if there is a GCC, its size may be small, so a full understanding of the network's resilience should include the dependence of the size of the GCC with $$p$$.
+
+__[[Critical phenomena in percolation]]__

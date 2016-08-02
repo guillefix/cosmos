@@ -1,0 +1,9 @@
+created: 20160131192906160
+creator: guillefix
+modified: 20160131214820473
+modifier: guillefix
+title: BIOS
+
+__Upgrading bios__
+
+See [[here|https://wiki.ubuntu.com/DellBIOS]] and [[here|http://www.chtaube.eu/computers/freedos/bootable-usb/]] to upgrade bios of a Dell, like mine. Find the BIOS upgrade file [[here|http://www.dell.com/support/home/us/en/04/product-support/product/precision-m6700/drivers/advanced]]. Last updated on January 2016

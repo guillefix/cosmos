@@ -1,0 +1,17 @@
+created: 20160611125747300
+creator: guillefix
+modified: 20160612164326807
+modifier: guillefix
+title: Percolation threshold
+
+See [[Percolation theory]]
+
+The values of percolation thresholds are not universal and generally depend on the structure of the lattice and dimensionality, and are believed to achieve their mean-field values only in the limit of infinite dimension ([[Some Cluster Size and Percolation Problems|http://scitation.aip.org/content/aip/journal/jmp/2/4/10.1063/1.1703745]]). Finding rigorous proofs of exact thresholds and bounds has also been an enduring area of research for mathematicians ([[The critical probability of bond percolation on the square lattice equals 1/2|http://link.springer.com/article/10.1007%2FBF01197577]], [[A bond percolation critical probability determination based on the star-triangle transformation|http://iopscience.iop.org/article/10.1088/0305-4470/17/7/020/meta]], [[Percolation - Grimmett|http://www.springer.com/gb/book/9783540649021]]).
+
+Exact thresholds (for bond percolation) in 2D for the square, triangular, honeycomb and related lattices were found using the star-triangle transformation ([[Some Exact Critical Percolation Probabilities for Bond and Site Problems in Two Dimensions|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.10.3]]). It has been shown in [[Exact bond percolation thresholds in two dimensions|http://iopscience.iop.org/article/10.1088/0305-4470/39/49/003/meta]] that thresholds can be found for any lattice that can be represented as a self-dual 3-hypergraph (that is, decomposed into triangles that form a self- dual arrangement). It is also shown in [,,G.R. Grimmett, I. Manolescu, Probab. Theory Related Fields,,] that thresholds can be found for any lattice that can be represented geometrically as an isoradial graph, yielding a broad new class of exact thresholds and providing a proof ([[The critical manifolds of inhomogeneous bond percolation on bow-tie and checkerboard lattices|http://iopscience.iop.org/article/10.1088/1751-8113/45/49/494005/meta]] of Wu’s 1979 conjecture ([[Critical point of planar Potts models|http://iopscience.iop.org/article/10.1088/0022-3719/12/17/002/meta]]) for the threshold of the checkerboard lattice.
+
+However, the exact value of thresholds for many systems of long interest (such as site percolation on the square and honeycomb lattices, and bond percolation on the kagomé lattice) are still missing ([[Recent advances and open challenges in percolation|http://link.springer.com/article/10.1140%2Fepjst%2Fe2014-02266-y]]).
+
+There exist also bounds on the percolation thresholds for infinite connected graph with maximum finite vertex degree. See Grimmett's book.
+
+The percolation threshold for bond percolation is less than or equal to that of site percolation.

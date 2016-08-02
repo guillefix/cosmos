@@ -1,0 +1,57 @@
+created: 20160609220156618
+creator: guillefix
+modified: 20160617230929117
+modifier: guillefix
+title: Self-assembly of active colloids
+
+[[Active colloid]], [[Self-assembly]], [[Collective behaviour of active colloids]]
+
+[[Self-assembly of active colloidal molecules with dynamic function|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/pre15_colloidmoleculefunction.pdf]] 
+
+[[Self-Assembly of Catalytically Active Colloidal Molecules: Tailoring Activity Through Surface Chemistry|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/prl14_activemolecules.pdf]] [[online|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.112.068301]]
+
+While individual colloids that are symmetrically coated do not exhibit any form of dynamical activity, the concentration fields resulting from their chemical activity decay as 1/r and produce gradients that attract or repel other colloids depending on their surface chemistry and ambient variables. This results in a ''nonequilibrium analog of ionic systems'', but with the remarkable novel feature of action-reaction symmetry breaking.
+
+!!!__Effective phoretic interactions__
+
+See [[Collective behaviour of active colloids]] for further derivations of similar effective interactions between active colloids. 
+
+The effective interaction, in the far field regime turns out to be analogous to the Coulomb interaction with generalized charges, that ''break action-reaction symmetry''. In particular, we differentiate between the charge that produces the field, α , and the charge that responds to the field, μ .
+
+__Model and simulation__: There is a highly successful and widely used restricted primitive model (RPM) for charged colloid based on Coulomb interactions augmented with short-range steric repulsion between the particles. A generalization is done to the nonequilibrium active colloids, and the model is analyzed using Brownian dynamics simulations, to explore novel phenomena in this system.
+
+Periodic boundary conditions are used, and interactions are treated using the minimal image convention (<mark>what is this?</mark>)
+
+__Approximations__
+
+for simplicity, use a model in which the catalytic activities of the colloids are simplified into net production or consumption of chemicals with given rates. They also assume the substrate concentration is constant within the time of their simulations, which is a good approximation in the dilute limit.
+
+ we do not consider the [[anomalous superdiffusion|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.102.188305]] at relatively short time scales
+
+In the studied experimental systems, the <b>Peclet number is small</b> (Peclet number is $$\text{Pe} = V \sigma /D$$, where $$V$$ is the velocity of colloid, $$\sigma$$ is its diameter, and $$D$$ is the diffusion coefficient of the solute molecules). This means that the solute concentration profile relaxes very quickly to a comoving cloud when a colloidal particle moves. At finite $$\text{Pe}$$, the [[cloud is distorted|http://scitation.aip.org/content/aip/journal/pof2/25/1/10.1063/1.4772978]]. This also mean that we can ignore the spontaneous symmetry breaking ([[spontaneous autophoretic motion of isotropic particles|http://scitation.aip.org/content/aip/journal/pof2/25/6/10.1063/1.4810749]]) at large $$\text{Pe}$$.
+
+Concentration fields are assumed to be far-field. Near-field fields would have to be calculated by solving the diffusion equation, and the resulting forces will in general not be pairwise additive. However, the forces retain the action-reaction asymmetry, and will only affect the dynamics quantitatively.
+
+Hydrodynamic interactions are ignored, but their effect would just change the dynamics quantitatively (and not qualitatively). See more details of the model [[here|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.112.068301]]. For the results they use to estimate the effect of hydrodynamic interactions see [[Hydrodynamic simulations of self-phoretic microswimmers|http://pubs.rsc.org/en/Content/ArticleLanding/2014/SM/C4SM00621F#!divAbstract]]
+
+Brownian dynamic simulation is done so that the colloids are constrained to move in 2D (while the diffusing particles diffuse in 3D, so the concentration still decays as $$1/r$$).
+
+__Non-equilibrium effects__
+
+When the effective interactions between the particles are not symmetric, the system cannot reach an equilibrium state because the condition of detailed balance will not be fulfilled. This can manifest itself in the form of frustration that leads to nonequilibrium fluxes. This also mean that the long time behaviour may include limit cycles (//oscillatory instability// see below).
+
+!!!__Cluster with ''oscillatory instability''__
+
+The internal dynamics of quasi-stable (for small perturbations) clusters for the case of two kinds of particles (A and B) can be analyzed using d'Alembert's principle (see their Appendix). A Hopf bifurcation can take place (where the parameters are the charges of the two kinds of particles), so that in a certain regime a stable limit cycle forms. This is the oscillatory instability. This is demonstrated in the A,,4,,B,,8,, colloidal molecule.
+
+<mark>What symmetry makes the second harmonic absent?</mark> Probably some dynamical symmetry
+
+!!!__Cluster with ''run-and-tumble behaviour''__
+
+In the AB,,3,, molecule one finds that in many parameter regimes, there are two stable configurations, and the system stochastically jumps between the two. One of the configurations has the B colloids symmetrically placed around the A, while in the other they are asymmetrical, causing (due to the asymmetry of the forces of the colloids in the fluid) a net self-propelling velocity. 
+
+The motion of the internal degrees of freedom is again derived using d'Alembert's principle. There is an angle variable which is cyclic, due to rotational invariance, and gives a conservation law. The other two angles follow a set of coupled ODEs which have equilibria corresponding to the stable configurations.
+
+By simplifying the dynamics to the line where the two angles are equal (because both equilibria lie on it), one can obtain a single-variable [[Langevin equation]] and a corresponding [[Fokker-Planck equation]] to study the probability distribution of the system, which can be used to find, for instance, how much time is spent on run vs tumble behaviour. This was measured from the Brownian dynamics simulations. The residence times in the run-and-tumble phases exhibit an exponential dependence on the value of $$\tilde{\mu}_A$$. The measured behaviours are consistent with what we expect from [[Kramers’s first-passage time theory|Kramers rate theory]]
+
+!!!__[[D'Alembert's principle in overdamped dynamics]]__

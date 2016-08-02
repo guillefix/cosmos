@@ -1,0 +1,14 @@
+created: 20160615144035778
+creator: guillefix
+modified: 20160615144544005
+modifier: guillefix
+tags: [[Probability theory]]
+title: Random-cluster model
+
+A family of [[probabilistic|Probability theory]] models invented by Fortuin and Kasteleyn which include [[Percolation]], and the [[Ising|Ising model]] and Potts models as special cases.
+
+The configuration space of the random-cluster model is the set of all subsets of the edge-set $$E$$, which we represent as the set $$\Omega={0,1}^E$$. The model may be viewed asa parametric family of probability measures $$\phi_{p,q}$$ on $$\Omega$$. When $$q=1$$, we recover bond [[Percolation]], when $$q=2$$, we have the [[Ising model]], and when $$q=2,3,4,...$$ we have different versions of the [[Potts model]].
+
+It turns out that long-range order in a Potts model corresponds to theexistence of infinite clusters in the corresponding random-cluster model. In this sense the Potts and percolation phase transitions are counterparts of one another. 
+
+Reference: [[Grimmet - The Random-Cluster Model|http://www.statslab.cam.ac.uk/~grg/books/rcm1-1.pdf]]

@@ -1,0 +1,10 @@
+created: 20160704210320551
+creator: guillefix
+modified: 20160704210727380
+modifier: guillefix
+title: Discrete memoryless source
+
+A ''discrete memoryless source'' is an [[Information source]] which is:
+
+* Memoryless. In this context it means that the random variables in the discrete stochastic process making the source are {{i.i.d.}}
+* Discrete. In this context it means that the alphabet is countable.

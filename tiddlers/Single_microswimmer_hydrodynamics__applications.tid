@@ -1,0 +1,86 @@
+created: 20160430174733828
+creator: guillefix
+modified: 20160602221406199
+modifier: guillefix
+title: Single microswimmer hydrodynamics: applications
+
+See [[Active matter]] for background.
+
+* bacteria <span style="color:LightSalmon">enhance diffusion</span> as a result of the flow fields they produce
+
+The __path taken by a tracer__ will depend on the detailed <span style='font-family: "Comic Sans MS"'>spatial and temporal correlations</span> of the velocity. Numerical simulations were conducted in [[Fluid transport by individual microswimmers|https://pure.york.ac.uk/portal/en/publications/fluid-transport-by-individual-microswimmers(a7cd0163-9d1b-47d7-b37a-d61a257d1ffc)/export.html]]. The striking feature of the tracer trajectories is their 
+<svg width="100" height="50">
+<defs>
+    <path id="textPath" d="M10 50 C10 0 90 0 90 50"/>
+</defs>
+<text fill="cyan">
+    <textPath xlink:href="#textPath">loop-like character
+</textPath>
+</text>
+</svg>, a consequence of the angular dependence of the flow field. Mathematically, it is because all terms in the multipole expansion, except the Stokelet are exact derivatives. The way this works:
+
+:Consider a tracer whose <small>velocity</small> (in LAB frame) is much smaller than the swimmer's <big>velocity</big>. Then, in the <span style="color:DarkKhaki ">rest frame of the swimmer</span>, the tracer follows a path which is approximately straight, and parallel to the swimmer's motion (in Lab frame). It's velocity deviating from the straight-line motion is given by the <span style="color:DarkOrange ">dipolar field</span>. And so it's <span style="color:Chartreuse  ">total displacement</span> in the LAB frame (,,total displacement in swimmer's rest frame, relative to straight line path,,) is given by integrating the <span style="color:DarkOrange ">dipolar field</span> approximately along the straight line from $$-\infty$$ to $$\infty$$. However, because $$\frac{\partial G_{ij}}{\partial x_k} (\vec{r}) D_{jk}$$ is a total derivative ($$D_{jk}$$ is constant), and $$G_{ij}$$ is $$0$$ at $$-\infty$$ and $$\infty$$, the  <span style="color:Chartreuse  ">total displacement</span> is $$0$$.
+
+:The reason we need the tracer's velocity to be much smaller than the swimmer's velocity, for the above argument is that the total displacement is given by the <span style="color:coral ">integral of the velocity with respect to time</span>, i.e. $$\int \vec{v}(t) dt = \int_C \vec{v}(t) \frac{ds}{|\vec{V}+\vec{v}(t)|} $$, where $$\vec{v}(t)$$ is the dipolar velocity field of the swimmer (,,i.e. velocity field in its rest frame, minus the overall constant, $$\vec{V}$$,,). $$\vec{V}$$ is the swimmer's velocity in the LAB frame. $$\vec{V}+\vec{v}(t)$$ is thus the total velocity field in swimmer's rest frame. $$ds$$ is a distance element along the path $$C$$ that the particle traces. $$|\vec{V}+\vec{v}(t)|$$ is the instantaneous //speed// of the particle along this path, so that $$dt = \frac{ds}{|\vec{V}+\vec{v}(t)|}$$. Now, if $$|\vec{V}| \gg |\vec{v}(t)|$$, $$dt \approx \frac{ds}{|\vec{V}|}$$, so that the integral is approximately a line integral of $$\vec{v}(t)$$ along $$C$$. But, when we take $$\vec{v}(t)$$ into account, when $$\vec{v}(t)$$ is parallel to $$\vec{V}$$, $$|\vec{V}+\vec{v}(t)|$$ is larger, and the contribution in the integral is less; when $$\vec{v}(t)$$ is anti-parallel to $$\vec{V}$$, $$|\vec{V}+\vec{v}(t)|$$ is smaller, and the contribution in the integral is more. This means the particle has a displacement bias towards the direction of motion of the swimmer. This is called ''entrainment''.
+
+:But, <mark>Why do the faraway tracers have a net negative displacement?</mark> 
+
+The ''entrainment'' effect is an example of [[Darwin drift|https://en.wikipedia.org/wiki/Darwin_drift]]. The Darwin drift volume has also been calculated for these active swimmers
+
+!!__Contribution to diffusion__
+
+We can estimate the contribution to diffusion from the entrainment effect. We know that the [[Diffusion]] coefficient can be expressed in 3D as:
+
+$$D_{\text{entr}} = \frac{\langle \Delta x^2 \rangle}{6t}$$
+
+The entrainment length (Darwin drift) is of order $$a$$ (the size of the swimmer), when close (within distance $$a$$) to the swimmer. Thus, $$\langle \Delta x^2 \rangle \sim a^2$$, whenever there is a swimmer within a volume $$\sim a^3$$. If there are $$n$$ swimmers per unit volume, the probability that a swimmer is in a given region of volume$$ a^3$$ is approximately $$n a^3$$. Therefore, $$\langle \Delta x^2 \rangle \sim a^5 n$$. Now the characteristic time step $$t \sim V/a$$, is the time scale that the swimmer travelling at speed $$V$$ takes to traverse the distance $$a$$ throughout which the swimmer interacts with the tracer particle. Therefore, 
+
+$$D_{\text{entr}} \approx \frac{1}{6}a^4 n V$$
+
+There is also a contribution to diffusion from the random reorientations that real bacteria perform at approximately regular intervals (in their run and tumble behaviour). <mark>Is the contribution to the diffusion constant from random reorientations, or finite run lengths? I think the former, due to the disappearance of $$\lambda$$, the run length from the expression</mark>
+
+$$D_{\text{rr}} = \frac{4\pi}{3}(\frac{\kappa}{V})^3 nV$$
+
+where $$\kappa$$ is a measure of the swimmer's dipole strength.
+
+Because the addition of variances ($$\langle \Delta x^2 \rangle$$) for independent processes, we then have that the total diffusion coefficient is approximately the sum:
+
+$$D = D_{\text{rr}} + D_{\text{entr}} + D_{\text{thermal}}$$
+
+For different kinds of systems, some of these diffusions coefficients will dominate.
+
+!!__Swimmers in Poiseuille flow__
+
+Zottl and Stark paper. <span style="color:#aabb33  ">Swimmer equations of motion</span>, for swimmer in background flow $$\mathbf{v}_f$$:
+
+$$\frac{d}{dt}\mathbf{r} = v_0 \hat{\mathbf{e}}+ \mathbf{v}_f$$
+
+$$ \frac{d}{dt} \hat{\mathbf{e}}= \frac{1}{2}\mathbf{\Omega}_f \times  \hat{\mathbf{e}}$$
+
+where \hat{\mathbf{e}} is the swimming direction of the point swimmer. In the case of Poiseuille flow, the equation determining, the angle of the swimmer follows the nonlinear pendulum equation (with $$\sin$$).
+
+When swimming upstream, any deviation for the centre line is subject to a restoring torque from the vorticity and hence the swimmer trajectory oscillates around the centre of the channel. Swimming downstream any perturbation about the centre line is amplified by the vorticity , and the swimmer tumbles in the flow. For sufficiently large velocities, it continues to tumble down-stream, otherwise it reaches the walls and and the simple theory must be supplemented by additional physics.
+
+One can also describe the motion of the swimmer in simple shear flow, and when there is <span style="color:pink ">tendency to swim, on average, in a particular direction, "''-taxis''"</span> For instance,
+
+* towards gravity, ''gravitaxis''
+* towards light, ''phototaxis''
+* following a chemical gradient, ''chemotaxis''.
+
+One can use these ideas, with shear, and gravitaxis (together often termed //gyrotaxis//), to explain, for instance, the formation of thin layers of phytoplankton in the oceans.
+
+!!__Surfaces__
+
+<span style="color:#aabb33  ">Why micro-organisms often accumulate at surfaces</span>
+
+First note, that a simple self-propelled rod, or sphere, when it eventually hits a surface, will then tend to move parallel to it, and only scape it, when a rotational fluctuation changes its direction enough to swim away from it.
+
+However, there is a less trivial effect, due to <span style="color:CornflowerBlue">hydrodynamic interactions with the wall</span>. These can be taken into account, because Stokes equations are linear, by considering an ''image swimmer'' at a position corresponding to the reflection of the swimmer on the wall, and pointing in the opposite direction (so as to satisfy the boundary condition of __no normal flow at a free boundary__ (one that can slip; <mark>Like what? I mean, say a liquid-gas interface doesn't satisfy either no-slip or no normal flow, no?</mark> http://onlinelibrary.wiley.com/doi/10.1002/cpa.3160190405/abstract
+Its no normal stress and no tangential stress.)). The extra terms needed to satisfy the no-slip condition are more complicated, and form the //Blake tensor//. But doesn't the reversed mirror-image Stokelet cancel both the normal and tangential components of the velocity at the boundary?? No, because the Stokelet doesn't have the right symmetry, i think
+
+
+Like what? I mean, say a liquid-gas interface doesn't satisfy either no-slip or no normal flow, no?
+http://onlinelibrary.wiley.com/doi/10.1002/cpa.3160190405/abstract
+Its no normal stress and no tangential stress.
+
+However hydrodynamic interactions are not the only contribution. For rotating swimmers, like E. Coli, the effect the wall drag on torque is important; it makes the swimmer move in circles near the wall. See more at [[Physics of microswimmers—single particle motion and collective behavior: a review|http://iopscience.iop.org/article/10.1088/0034-4885/78/5/056601]].

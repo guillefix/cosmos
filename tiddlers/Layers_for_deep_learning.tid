@@ -1,0 +1,17 @@
+created: 20160709021804967
+creator: guillefix
+modified: 20160709021805915
+modifier: guillefix
+title: Layers for deep learning
+
+[[Linear layer|https://www.youtube.com/watch?v=NUKp0c4xb8w&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=9#t=43m19s]]. Linear function
+
+[[ReLU layer|https://www.youtube.com/watch?v=NUKp0c4xb8w&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=9#t=46m20s]]. Rectified linear unit
+
+[img[http://cs231n.github.io/assets/nn1/relu.jpeg]]
+
+For x=0, may use subderivatives..
+
+Very popular
+
+[[maxout unit|http://stats.stackexchange.com/questions/155422/exact-definition-of-maxout]]

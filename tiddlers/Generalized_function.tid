@@ -1,0 +1,18 @@
+created: 20160122230637865
+creator: guillefix
+modified: 20160126181117778
+modifier: guillefix
+tags: [[Functional analysis]]
+title: Generalized function
+
+''Generalized function'', also called ''distribution''.
+
+http://www.damtp.cam.ac.uk/user/dbs26/1BMethods/Distributions.pdf 
+
+The are found as limiting cases of functions, where the limit itself is not a function, in the mathematical sense. However, they can be useful
+
+"They’re designed to fulfill an apparently mutually contradictory pair of requirements: they are sufficiently well-behaved that they are infinitely differentiable and thus have a chance to satisfy partial differential equations, yet at the same time they can be arbitrarily singular -- neither smooth, nor differentiable, nor continuous, nor even //finite// -- if interpreted naively as 'ordinary functions'.
+
+One defines distributions as linear maps from the space of //test functions// (smooth functions with compact support) to the Real numbers. One can add distributions, multiply distributions by smooth functions, but in general //there is no way to multiply two distributions together//.
+
+The most important example of a distribution that isn't just a function is the __Dirac delta__

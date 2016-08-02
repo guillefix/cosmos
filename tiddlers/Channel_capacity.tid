@@ -1,0 +1,17 @@
+created: 20160701014408202
+creator: guillefix
+modified: 20160701133335044
+modifier: guillefix
+title: Channel capacity
+
+In [[Data transmission]], the ''channel capacity'' is defined as
+
+$$C=\max_{p(x)} I(X;Y)$$
+
+That is, the maximum mutual information of the conditional probability p above, where the maximization is done over possible proabilities of the outputs (or equivalently, probabilities of inputs). One can show this is equal to the maximum rate of information transfer over a channel such that we can recover the information on the ouput with negligible probability of error.
+
+Note that changing the probabilities of the inputs can be accomplished by choosing different codes to encode the input. Therefore the channel capacity can be considered to be maximizing over codes. In particular:
+
+[[Channel coding theorem]]: Long enough code blocks can achieve the channel capacity limits (similar to arguments for understanding entropy by many trials).
+
+The capacity $$C$$ is the logarithm of the number of distinguishable input signals.

@@ -1,0 +1,9 @@
+created: 20160713230343416
+creator: guillefix
+modified: 20160713230528953
+modifier: guillefix
+title: Symmetric property
+
+The ''symmetric property'', or just //symmetry//, in [[Set theory]], is a property of a binary [[Relation]] on a [[Set]] $$X$$:
+
+|for all $$x, y \in X$$, $$xRy$$ implies $$yRx$$|

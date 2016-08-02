@@ -1,0 +1,37 @@
+created: 20160210224906742
+creator: guillefix
+modified: 20160215225531159
+modifier: guillefix
+title: Betweeness centrality
+
+See [[Measures and metrics for networks]]
+
+Measures the extent to which a node (or edge, or other substructure) lies on paths between other vertices. These paths can be defined in many ways, but often they are taken to be geodesic paths.
+
+This is a measure of importance because imagine nodes in the network are sending messages between them, we could be interested how often these messages pass through certain nodes or edges under certain assumptions (like that they follow geodesic paths). Vertices with high betweeness but ranking low on other centrality measures can be for example vertices that connect two barely connected "components". Vertices like this are called //brokers// in socilogical literature.
+
+If we use the //geodesic node betweeness// the definition is:
+
+$$B_{\text{no}}(i)=\sum_{j.n \in G}\frac{\tilde{\psi_{j,n}}(i)}{\tilde{\psi_{j,n}}}$$
+
+where $$\tilde{\psi_{j,n}}(i)$$ is the number of geodesic paths between j & n that traverse i. $$\tilde{\psi_{j,n}}$$ is the total number of geodesic paths between j & n.
+
+For directed, same but take direction of paths into account...
+
+Can also define //geodesic edge betweeness// in similar fashion:
+
+$$B_{\text{e}}(i,l)=\sum_{j.n \in G}\frac{\tilde{\psi_{j,n}}(i,l)}{\tilde{\psi_{j,n}}}$$
+
+with obvious generalization of quantities. This is useful for example in road traffic analysis where we are interested in roads not in junctions.
+
+Some problems with robustness:
+
+[img width=450 [betweeness_robustness_problems.jpg]]
+
+Another extension is //flow betweeness// which is defined as the amount of flow through vertex i when the maximum flow is transmitted from s to t, summed over pairs s and t in the network. To see more about flow see [[Independent paths, connectivity, and cut sets (Graph theory)]]. The problem with this definition is that it sometimes doesn't give a unique answer because the same maximum flow can be achieved using different choices of independent paths. The usual definition is then to define the flow betweeness to be the maximum value that this number can take.
+
+This still has some disadvantages because it doesn't take into account all paths, because it assumes paths are somehow optimal (although in different ways.
+
+A variant that does take all paths into account is the //random-walk betweeness// defined as the expected number of time a vertex is crossed by an [[absorbing random walk|Random walk in a graph]] between nodes s and t, summed over these pairs.
+
+Article by Borgatti[51] draws together many of the possibilities into a general framework for betweeness measures.

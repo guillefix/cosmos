@@ -1,0 +1,35 @@
+created: 20160701125933701
+creator: guillefix
+modified: 20160701163258640
+modifier: guillefix
+title: Data compression codes
+
+Codes used for [[Data compression]]
+
+!!!__Lossless coding__
+
+__Symbol codes__
+
+[[Huffman coding]]
+
+__Stream codes__
+
+[[Lempel-Ziv algorithms]]
+
+[[Markov chain compression]]
+
+[[Burrows-Wheeler transform]]
+
+[[Arithmetic compression]]
+
+[[Dynamic statistical encoding]]
+
+[[Grammar-based compression]]
+
+[[Finite State Entropy - A new breed of entropy coder|http://fastcompression.blogspot.co.uk/2013/12/finite-state-entropy-new-breed-of.html]]
+
+Good blog on data compression advancements: http://fastcompression.blogspot.co.uk/
+
+[[(IC 1.2) Applications of Compression codes|https://www.youtube.com/watch?v=fXGTMrw2MA0&index=2&list=PLE125425EC837021F]]
+
+!!!__Lossy coding__

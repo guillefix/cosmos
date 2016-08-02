@@ -1,0 +1,55 @@
+created: 20160623232213298
+creator: guillefix
+modified: 20160623232218201
+modifier: guillefix
+title: Dynamics of Boolean networks
+
+See [[Boolean network]]
+
+See [[Dynamical Instability in Boolean Networks as a percolation Problem]]
+
+[[Dynamics of Boolean Networks|http://arxiv.org/abs/1307.0757]]
+
+[[Dynamics of Boolean Networks: An Exact Solution|http://journals.aps.org/prl/pdf/10.1103/PhysRevLett.106.214101]]
+
+[[Influence and Dynamic Behavior in Random Boolean Networks|http://journals.aps.org/prl/pdf/10.1103/PhysRevLett.107.108701]]
+
+[[Dynamics of Complex Systems: Scaling Laws for the Period of Boolean Networks|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.84.5660]]. Relation between the (expected) period of a [[RBN|Random Boolean network]] and the number of nodes $$N$$. Using some numerical and analytical results, they find a power law relation.
+
+
+
+[[What Darwin didn't know: natural variation is structured|https://docs.google.com/presentation/d/1l-IgqXy1ZdBn__aBQX0fUH8Z2y6iuogwt753omsiyAw/edit#slide=id.i0]] GP map bias in Boolean networks (see [[MMathPhys oral presentation]])
+
+[[Guiding the self-organization of random Boolean networks (RBN)|http://link.springer.com/article/10.1007%2Fs12064-011-0144-x]]. <small>Quote from article: It is useless to enter an ontological discussion on self-organization. Rather, the question is: when is it useful to describe a system as self-organizing? [...] A model cannot be judged independently of the context where it is used. I've always agreed with this philosophy. Things like //self-organizing// or //complex// are perspectives on systems, not hard classifications schemes.</small>
+
+Can explore RBNs with [[RBNLab|https://sourceforge.net/projects/rbn/]]
+
+Since RBNs are finite (they have 2 N possible states) and deterministic, eventually a state will be revisited. Then, the network will have reached an ''attractor''. The number of states in an attractor determines the //period// of the attractor. 
+
+Point attractors have period one (a single state), while cyclic attractors have periods greater than one (multiple states, e.g., four in Fig.  2)
+
+[img[https://static-content.springer.com/image/art%3A10.1007%2Fs12064-011-0144-x/MediaObjects/12064_2011_144_Fig2_HTML.jpg]]
+Figure 2.
+
+A RBN can have one or more attractors. The set of states visited until an attractor is reached is called a transient. The set of states leading to an attractor form its ''basin''.
+
+The basins of different attractors divide the state space. RBNs are //dissipative//, i.e., many states can flow into a single state (one state can have several predecessors), but from one state the transition is deterministic toward a single state (one state can have only one successor).
+
+The number of predecessors is also called //in-degree//. States without a predecessor are called “Garden of Eden” (GoE) states (in-degree = 0), since they can only be reached from an initial condition. Figure 3 illustrates the concepts presented above.
+
+[img[https://static-content.springer.com/image/art%3A10.1007%2Fs12064-011-0144-x/MediaObjects/12064_2011_144_Fig3_HTML.gif]]
+
+<small>Fig. 3
+Example of state transitions. B is a successor state of A and a predecessor of C. States can have many predecessors (e.g., B), but only one successor. G is a Garden of Eden state since it has no predecessors. The attractor  C→D→E→F→CC→D→E→F→C has a period four</small>
+
+One of the main topics of RBN research is to understand how changes in the topological network (lower scale) affect the state network (dynamics of higher scale), which is far from obvious.
+
+
+
+RBNs are generalizations of Boolean [[Cellular automata]] (von Neumann 1966; Wolfram 1986, 2002), where the states of cells are determined by K neighbors, i.e., not chosen randomly, and all cells are updated using the same Boolean function
+
+~ ~ ~
+
+The self-organization of RBNs can also be interpreted in terms of complexity reduction. For example, the human genome has approximately 25,000 genes. Thus, in principle, each cell could be in one of the $$2^{25,000}$$ possible states of that network. This is much more than the estimated number of elementary particles arising from the Big Bang. However, there are only about 300 cell types (attractors (Kauffman 1993; Huang and Ingber 2000)), i.e., cells self-organize toward a very limited fraction of all possible states.
+
+There are several regimes. In the //critical regime// near in-degree (in topological network) 2: Few nodes have many predecessors, while many nodes have few predecessors. Actually, the in-degree distribution (in state network, I think) approximates a power law ([[Wuensche 1998|http://uncomp.uwe.ac.uk/wuensche/downloads/papers/complex98.pdf]]).

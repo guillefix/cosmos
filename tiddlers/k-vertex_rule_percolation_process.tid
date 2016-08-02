@@ -1,0 +1,15 @@
+created: 20160613172126362
+creator: guillefix
+modified: 20160613180049514
+modifier: guillefix
+title: k-vertex rule percolation process
+
+An [[Explosive percolation]] process that is based on chosing $$k$$ vertices at random and adding edges among those vertices according to some rule.
+
+$$k$$-vertex rules are actually a generalization of $$m$$-edge rules (aka [[Achlioptas process]]) because a $$m$$-edge rule can be constructed from a $$n$$-vertex rule, where $$n \geq 2m$$, which chooses $$n\geq 2m$$ vertices at random (possibly repeating, but still being able to have $$m$$ distinct edges), and then choose $$m$$ edges at random within these $$2m$$ vertices. Note that we need $$n\geq 2m$$ so that we don't restrict the chosen edges to have some vertex in common.
+
+__$$m$$-vertex rule__ (as defined [[here|http://projecteuclid.org/euclid.aoap/1344614200]]): In processes following an $$m$$-vertex rule, the agent is presented with the random list (set) $$v_m$$ of vertices, and, unless two or more are already in the same component, must add one or more edges between them, according to any deterministic or random rule that depends only on the history.
+
+Some $$k$$-vertex rules are examples of [[Non-self-averaging percolation process]], showing novel supercritical phenomena, like stochastic staircases!
+
+In [[Achlioptas process phase transitions are continuous|http://projecteuclid.org/euclid.aoap/1344614200]], it was shown that the [[Percolation phase transition]] for processes following a vertex rule was continuous. However, they can still show some discontinuity arbitrarily close to the critical point (see [[Non-self-averaging percolation process]]).

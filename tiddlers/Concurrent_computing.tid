@@ -1,0 +1,16 @@
+created: 20160629002435445
+creator: guillefix
+modified: 20160630000108502
+modifier: guillefix
+tags: [[Software engineering]]
+title: Concurrent computing
+
+[[https://en.wikipedia.org/wiki/Concurrency_(computer_science)]]
+
+https://en.wikipedia.org/wiki/Concurrent_computing
+
+See [[Concurrent programming]], [[Operating system]]
+
+[[Multithreading]].
+
+An [[Operating system]] often implements these concurrent tasks (processes and threads) by using an ''scheduler'' that determines when

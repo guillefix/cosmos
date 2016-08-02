@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.12" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>Kolmogorov complexity: Cosmos — a non-linear personal web notebook</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Complexity"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible" title="More actions">
+
+
+</button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible" title="Edit this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible" title="Close this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Kolmogorov complexity
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="guillefix.html">
+guillefix
+</a> 15th July 2016 at 7:16pm
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+<button class="tc-btn-invisible tc-tag-label" style="background-color:;
+fill:#333333;
+color:#333333;">
+ Complexity
+</button>
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p><sub><em>aka algorithmic complexity, although that term may refer to some generalizations of Kolmogorov complexity too, I think</em></sub></p><p>One of the main kinds of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Descriptional%2520complexity.html">Descriptional complexity</a>, based on the minimum size of a program (interpreted by a <a class="tc-tiddlylink tc-tiddlylink-missing" href="Turing%2520machine.html">Turing machine</a>) that produces (<em>describes</em>) the object.</p><p>Kolmogorov complexity is central in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Algorithmic%2520information%2520theory.html">Algorithmic information theory</a>.</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=S31CbvpZBU4" rel="noopener noreferrer" target="_blank">Math 574, Lesson 4-3: Kolmogorov Complexity</a>
+<a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=OHCpECIFNxM" rel="noopener noreferrer" target="_blank">other videos</a></p><p>This is based on describing the information content of a discrete object such as a binary string <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit">x</span></span></span></span></span> in terms of the length of the shortest program that generates <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit">x</span></span></span></span></span> on universal Turing machine (UTM). This measure is called the Kolmogorov-Chaitin complexity or simply <strong>Kolmogorov complexity</strong> <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>K</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">K(x)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.07153em;">K</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span></span></span></span></span> of <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit">x</span></span></span></span></span>.</p><p>AIT differs fundamentally from Shannon information theory because the latter is fundamentally a theory about distributions, whereas the former is a theory about the information content of individual objects. Descriptional complexity also differs simplcitly with the notions of complexity in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Complex%2520systems.html">Complex systems</a>.</p><p><a class="tc-tiddlylink tc-tiddlylink-missing" href="http%253A%252F%252Fwww.cs.bu.edu%252F~gacs%252Fpapers%252Fait-notes.pdf.html">Lecture notes on descriptional complexity and randomness</a></p><p>–&gt; <a class="tc-tiddlylink-external" href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096223" rel="noopener noreferrer" target="_blank">Calculating Kolmogorov Complexity from the Output Frequency Distributions of Small Turing Machines</a> See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Coding%2520theorem%2520method.html">Coding theorem method</a></p><p><u>Deficiencies of KC</u></p><p><img src="http://i.imgur.com/Eyx7L1A.png"></p><p>from <a class="tc-tiddlylink tc-tiddlylink-missing" href="https%253A%252F%252Fcs.uwaterloo.ca%252F~shallit%252FPapers%252Fauto5.pdf.html">here</a></p><h3 class=""><u>Paucity theorems</u></h3><p>Simple strings (paucity) are rare among all possible strings</p><p><a class="tc-tiddlylink-external" href="http://sci-hub.bz/10.1016/j.ipl.2014.05.006" rel="noopener noreferrer" target="_blank">The frequent paucity of trivial strings</a></p><hr><p><a class="tc-tiddlylink-external" href="http://arxiv.org/abs/1504.06240" rel="noopener noreferrer" target="_blank"> A Computable Measure of Algorithmic Probability by Finite Approximations</a></p><p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="MMathPhys%2520oral%2520presentation.html">MMathPhys oral presentation</a></p></div>
+
+
+
+</div>
+
+</p>
+
+</section>
+</body>
+</html>

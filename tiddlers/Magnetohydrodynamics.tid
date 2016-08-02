@@ -1,0 +1,33 @@
+created: 20160118223830101
+creator: guillefix
+modified: 20160507161533279
+modifier: guillefix
+tags: [[Fluid dynamics]] [[Plasma physics]]
+title: Magnetohydrodynamics
+
+[[Oxford notes|http://www-thphys.physics.ox.ac.uk/people/AlexanderSchekochihin/KT/2015/KTLectureNotes.pdf]]
+
+Magnetohydrodynamics (a.k.a. MHD).
+
+[[GdR Dynamo 2015 (nice lecture series on MHD and related topics)|https://www.youtube.com/playlist?list=PL04QVxpjcnjiAfHgi_WIAAOB85ejbnRjJ]]
+
+See also other lecture courses in MMathPhys
+
+-------
+
+Note:
+
+Flux freezing does not imply a one-to-one correspondence between the magnetic field strength $$\mathbf{B}$$ and the displacement field of the fluid $$\delta \mathbf{r}$$, because the relation includes $$\rho$$:
+
+ $$\delta \mathbf{r} \propto \frac{\mathbf{B}}{\rho}$$
+$$\quad\quad(\dagger)$$
+
+In waves in MHD, $$\rho$$ also changes, and therefore its effect is important. In particular note the MHD linear wave equation for $$\mathbf{B}$$:
+
+[img[MHD_waves1.png]]
+
+The second equation means that if the fluid gets compressed in the direction perpendicular to the magnetic field, the magnetic field increases in magnitude. This has to be the case because:
+
+*If $$\rho$$ doesn't change, the compression in the perpendicular direction will imply an elongation in parallel direction, and thus $$\delta \mathbf{r}$$ will elongate, and because $$(\dagger)$$ implies that it is proportional to $$\mathbf{B}$$ for constant $$\rho$$, then $$\mathbf{B}$$ will also increase.
+
+*Conversely, if $$\delta \mathbf{r}$$ doesn't elongate, then $$\rho$$ must increase. But now the LHS of $$(\dagger)$$ hasn't changed, and therefore the RHS shouldn't too, so as $$\rho$$ has increased, this implies that $$\mathbf{B}$$ will also increase.

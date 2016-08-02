@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.12" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>Artificial neural network: Cosmos — a non-linear personal web notebook</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Neuronal%20network tc-tagged-Artificial%20intelligence"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible" title="More actions">
+
+
+</button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible" title="Edit this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible" title="Close this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Artificial neural network
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="guillefix.html">
+guillefix
+</a> 12th July 2016 at 1:11pm
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+<button class="tc-btn-invisible tc-tag-label" style="background-color:;
+fill:#333333;
+color:#333333;">
+ Artificial intelligence
+</button>
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+<span class="tc-tag-list-item">
+
+<button class="tc-btn-invisible tc-tag-label" style="background-color:;
+fill:#333333;
+color:#333333;">
+ Neuronal network
+</button>
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p><small>Aka artificial neural network..</small></p><p>A particularly useful way of representing functions, for problems in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Machine%2520learning.html">Machine learning</a>. It is a very good model for many problems, and learning algorithms produce very good results with them. In particular <u>deep learning</u> (which uses ANNs with many layers).</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=apPiZd-qnZ8&amp;list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&amp;index=4" rel="noopener noreferrer" target="_blank">Hugo Larochelle class videos</a> on [2.9]</p><p>Neuron has:</p><p>1) <strong>inputs</strong></p><p>2) <strong>weight vectors</strong>, that multiplies the input vector or activation vector of hidden layers.</p><p>3) <strong>bias</strong>, that is added to result</p><p>4) <strong>activation function</strong> takes as argument the result of the above (called pre-activation or input activation)</p><p>5) The result (called <strong>activation</strong>) may be the input of other neurons in the next <strong>layer</strong>, in a <strong>multilayer feedforward neural network</strong>.</p><p>6) The activation of the last layer, is the <strong>output</strong></p><p>Overall... we are multiplying by matrices and applying simple nonlinear function</p><p><u>Universal approximator theorem</u></p><p>See paper mentioned in Hugo's vid, <em>single hidden layer ANNs can approximate any continuous function with sufficiently many neurons in the hidden layer</em>. There may not be a <em>learning algorithm</em> to find the right parameter set though.</p><h3 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="Optimization.html">Optimization</a></u></h3><p>Learning by minimizing cost funciton</p><p>Using SDG. An efficient algorithm to compute the gradients of the loss function w.r.t. the ANN's parameters is <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=_KoWTD8T45Q&amp;list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&amp;index=13" rel="noopener noreferrer" target="_blank">backpropagation</a>.</p><p><strong>Backpropagaion</strong>. It effectively uses the chain rule to compute the gradient w.r.t. parameters at one layer with the values of the gradients w.r.t. parameters at the layer above (deeper).</p><p><a class="tc-tiddlylink-external" href="http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf" rel="noopener noreferrer" target="_blank">Efficient BackProp</a></p><p><img src="https://lh3.googleusercontent.com/meJWmYC_T9cKaz8S8k2j6jmtl1etx-hIwqUN_zl-zgvcGRr1egcKaV_zOzwtIXeKQfyDvTjw51awxmEMwd8iJhN4m9ObNRTPCTNlppjfbrIFGo3ieepSq4EIjx9f4xRPrgpjuHo5PaMCsaM8_weYjQ868FpSHcGcGR5L2IsTgJHiI-AwapSYqofABQYhctmN1-QQTeUSUMM6xui7uX0b9WsTQtyrIPHtwWNczcsYy2vedasGcSOLpP8_8vecJ6hCN_PnkpRa2U8KxhdNiGGshcWeFCvJ48CKQfc_JjLoNDB4D8lDPq8KYnPqzW3zAVzTy6ebBFEXvXnMjwF0vun-j9uJsjadbv3XjJscF2Vw1LkA-msoTk7QBDrfdDy1Sp5l15Kug98zDwvsR-14h5Pv4QmIEm5wlGQfaT9vo7kCYP_b40HMu9umj3gGtMcMNiB1hZ56KWj92hF-PlSYLBA3BRsCuGZlhrON8JMvrYpjHOxf6m5ZVv_XmwJKd8EhoZqozIlQVQssZA8SWqBAAGB8KOsSlElGtmlekDxu6MpiEMMRSYVivwkQAWEKBDPDmVVSWWyZ=w943-h661-no">
+<small>[image above, wait until it loads, you also need to be signed into google]</small></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=-YRB0eFxeQA&amp;index=8&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=24m00s" rel="noopener noreferrer" target="_blank">Video</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=NUKp0c4xb8w&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=9#t=35m25s" rel="noopener noreferrer" target="_blank">See this too</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=NUKp0c4xb8w&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=9#t=41m50s" rel="noopener noreferrer" target="_blank">Why backprop is more efficient than naive approach</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=-YRB0eFxeQA&amp;index=8&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=43m47s" rel="noopener noreferrer" target="_blank">Derivatives wrt the input</a> give you a way of knowing which part of the input is determining the classification, i.e. where is the cat in the image, for example</p><h2 class=""><u>Types of neural networks</u></h2><ul><li>Feedforward (basic)</li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="Convolutional%2520neural%2520network.html">Convolutional neural network</a>. Good for image recognition for e.g.</li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="Recurrent%2520neural%2520network.html">Recurrent</a>. Good for sequences in time</li><li>Long-Short term memory NN.</li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="Spiking%2520neural%2520network.html">Spiking neural network</a></li></ul><hr><h3 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="Mathematical%2520modelling%2520of%2520neural%2520networks.html">Mathematical modelling of neural networks</a></u></h3><hr><p><a class="tc-tiddlylink-external" href="http://fossbytes.com/a-neural-network-in-11-lines-of-python/" rel="noopener noreferrer" target="_blank">A Neural Network in 11 Lines of Python</a></p><p><u>More models, and generalizations</u></p><p><em>Backpropagation</em>, temporal networks, etc..</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=ghEmQSxT6tw" rel="noopener noreferrer" target="_blank">Visualizing and Understanding Deep Neural Networks by Matt Zeiler</a></p><hr><p>Physical implementations:</p><p><a class="tc-tiddlylink-external" href="http://www.dna.caltech.edu/courses/cs191/paperscs191/PNAS(88)10983.pdf" rel="noopener noreferrer" target="_blank">Chemical implementations of neural networks and Turing machines</a></p><p><a class="tc-tiddlylink-external" href="http://knowmtech.com/" rel="noopener noreferrer" target="_blank">http://knowmtech.com/</a></p><hr><p><em>More</em></p><p>Layerless neural networks? See Chico Calmagro's work with Ard Louis.</p><p>On the complex backpropagation algorithm</p><p><a class="tc-tiddlylink-external" href="http://www.sciencedirect.com/science/article/pii/000510989290053I" rel="noopener noreferrer" target="_blank">Neural networks for control systems—A survey</a></p><p><a class="tc-tiddlylink-external" href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=7364099&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7364099" rel="noopener noreferrer" target="_blank">Genetic deep neural networks using different activation functions for financial data mining</a></p><p><a class="tc-tiddlylink-external" href="http://www.merl.com/publications/docs/TR2015-032.pdf" rel="noopener noreferrer" target="_blank">Structure Discovery of Deep Neural Network Based on Evolutionary Algorithms</a></p><p><a class="tc-tiddlylink-external" href="http://dl.acm.org/citation.cfm?id=2602287" rel="noopener noreferrer" target="_blank">Genetic algorithms for evolving deep neural networks</a></p><p><a class="tc-tiddlylink-external" href="http://polar.lsi.uned.es/revista/index.php/ia/article/viewFile/532/516" rel="noopener noreferrer" target="_blank">Busqueda de la estructura optima de redes neurales con Algoritmos Geneticos y Simulated Annealing. Verificacion con el benchmark PROBEN1</a></p><p><a class="tc-tiddlylink-external" href="http://ceur-ws.org/Vol-1315/paper15.pdf" rel="noopener noreferrer" target="_blank">Implementation of Evolutionary Algorithms for Deep Architectures</a></p><p>See ideas here: Idea for neural network for chemical synethesis and manufacturing etc. Facebook post: <a class="tc-tiddlylink tc-tiddlylink-missing" href="https%253A%252F%252Fwww.facebook.com%252Fguillermovalleperez%252Fposts%252F10153853693416223%253F.html">https://www.facebook.com/guillermovalleperez/posts/10153853693416223?</a></p><h3 class=""><u>Statistical mechanics of neural networks</u></h3><p><a class="tc-tiddlylink-external" href="http://www.pnas.org/content/79/8/2554.short" rel="noopener noreferrer" target="_blank">Neural networks and physical systems with emergent collective computational abilities</a></p><p><a class="tc-tiddlylink-external" href="http://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.1007" rel="noopener noreferrer" target="_blank">Spin-glass models of neural networks</a></p><p><a class="tc-tiddlylink-external" href="http://link.springer.com/article/10.1007/BF01304440" rel="noopener noreferrer" target="_blank">Learning and pattern recognition in spin glass models</a></p><p><a class="tc-tiddlylink-external" href="http://ir.library.oregonstate.edu/xmlui/handle/1957/28802" rel="noopener noreferrer" target="_blank">Neural nets : classical results and current problems</a></p></div>
+
+
+
+</div>
+
+</p>
+
+</section>
+</body>
+</html>

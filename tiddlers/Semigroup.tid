@@ -1,0 +1,10 @@
+created: 20160628144332903
+creator: guillefix
+modified: 20160628144411537
+modifier: guillefix
+tags: [[Group-like algebraic structures]]
+title: Semigroup
+
+In mathematics, a semigroup is an algebraic structure consisting of a set together with an associative binary operation.
+
+If they have an identity element, they are a [[Monoid]]

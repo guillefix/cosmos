@@ -1,0 +1,51 @@
+created: 20160624001007557
+creator: guillefix
+modified: 20160705152333714
+modifier: guillefix
+title: Random deterministic automata
+
+[[Random automata]], [[Deterministic finite automaton]]
+
+[[Enumeration and Generation of Initially Connected Deterministic Finite Automata|http://www.dcc.fc.up.pt/dcc/Pubs/TReports/TR06/dcc-2006-07.pdf]] implemented in python FAdo library.
+
+Initially connected means that, for each state q there exists a directed path from the distinguished start st ate to q . I think another name for an automaton or an state of one, with this property, is ''//accessible//''.
+
+|[[Enumeration and random generation of accessible automata|http://www.sciencedirect.com/science/article/pii/S0304397507002861]] | [[Stirling numbers of the second kind|https://en.wikipedia.org/wiki/Stirling_numbers_of_the_second_kind]]|
+
+[[Random Deterministic Automata|http://link.springer.com/chapter/10.1007%2F978-3-662-44522-8_2]]
+
+Using [[Analytic combinatorics]]
+
+//Functional graph// (see article) corresponding to a total map from $$[ n ]$$ (set $$\{1,2,3,...,n\}$$) to itself, consists of components, each a cycle of trees (a forest whose roots are connected by a cycle). Note that the nodes in the trees have edges pointing toward the root. This combinatoric structure emerges from the constraint that the out-degree is exactly $$1$$ for all nodes in the functional graph.
+
+As an example of applying the //symbolic method//, and //singularity analysis// of analytic combinatorics, they find the asymptotic value of the average number of cyclic points (points (nodes) belonging to a cycle), which is $$\sqrt{\pi n/2}$$, $$n$$ being the number of points..
+
+See definitions of //transition structure//, //automaton//, //accessible automaton//, etc in [[article|http://link.springer.com/chapter/10.1007%2F978-3-662-44522-8_2]].
+
+One can also show that the expected number of points with $$0$$ in-degree (//garden-of-eden// points) is, asymptotically $$e^{-2} n$$. One can also show that with high probability a transition structure is not accessible.
+
+We look at the set of $$n$$-node transition structures whose nodes have in-degree at least $$1$$, except, possibly the initial state (call the set $$T_n'$$). This set has asymptotically the same cardinality as the set of accessible transition structures, up to a multiplicative constant. It's easy to show that there is a bijection between this set and the set of all surjections between $$[kn+1]$$ and $$[n]$$. The number of this is, asymptotically, 
+
+$$S(nk+1, n) \sim \alpha_k \beta_k^n n^{kn+1}$$
+
+where $$\alpha_k >0$$, and $$\beta_k \in (0,1)$$, are computable constants. Note that because  $$\beta_k <1$$, this number is much smaller than $$n \cdot n^{k+1}$$, the total number of transitions structures. This agrees with the previous argument that accessible structures are sparse. Also note that $$\alpha_k \beta_k^n$$ is the probability that a random map between $$[kn+1]$$ and $$[n]$$ is a surjection. Good showed this (see ref in article).
+
+See more remarks in article.
+
+A more relevant question may be the number of isomorphic classes of accessible automata; however, symmetries (just like in Feynman diagrams), make the counting difficult. However, for accessible automata, the counting is simplified, due to a certain bijection, and the number of elements per isomorphic class is $$n!$$.
+
+More [[References on random deterministic automata]]
+
+[[On the Probability of Being Synchronizable|http://link.springer.com/chapter/10.1007/978-3-319-29221-2_7]]
+
+[[An algorithm for road coloring|http://www.sciencedirect.com/science/article/pii/S1570866712001001]]
+
+__Graph structure of random automata__
+
+[[Diameter and Stationary Distribution of Random r-out Digraphs|http://arxiv.org/abs/1504.06840]]
+
+[[The graph structure of a deterministic automaton chosen at random |http://arxiv.org/pdf/1504.06238v1.pdf]] -- [[slides|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.727.2535&rep=rep1&type=pdf]]
+
+[[The size of the largest strongly connected component of a random digraph with a given degree sequence|https://www.math.cmu.edu/~af1p/Texfiles/dirgiant.pdf]]
+
+<mark> What about the giant out-component?</mark> They don't talk about it !?

@@ -1,0 +1,108 @@
+created: 20160127173644771
+creator: guillefix
+modified: 20160215231420420
+modifier: guillefix
+title: Large-scale structure of networks
+type: application/x-tiddler
+
+__Components__
+
+Networks often have the largest connected component covering most of the network (often more than 50% or 90%). This is sometimes called the "giant component" <small>(however this is sloppy usage, as the term "giant component" means not precisely the same as "largest component" in network theory).</small>
+
+In directed networks, we can represent the largest strongly connected component, and its in and out components using a "bow tie" diagram
+
+__Shortest paths and the small-world effect__
+
+The ''//small-world effect//'' refers to the finding that the typical distance between nodes in many --perhaps most-- networks is surprisingly small. The "typical distance" usually refers to the "mean geodesic distance". <small>Networks that show this property are dubbed //small-world networks//.</small>
+
+The origin of the term comes from a series of experiments by social psychiatrist Stanley Milgram, the so called "small-world" studies, in the 60s.
+
+Models of networks often show that this distance scales as $$\log{n}$$, where $$n$$ is the size of the network. This is often given as an upper limit for the growth of the distance with $$n$$, so that the network is said to have the //small-world proprety//.
+
+ The diameter (the largest geodesic distance) is also found to scale similarly. For scale free networks, however, an interesting structure is often found with a core that contains most nodes, and is of lengthscale $$\log{\log{n}}$$, making the mean distance scale like that too, but there are a few nodes along "streamers" or "tendrils", around the core, whose lengthscale scales $$\log{n}$$, making the diameter scale like that too.
+
+Another interesting effect that is observed, termed //funneling//, is that often it is found that the geodesic path (path(s) with shortest length) between vertex $$j$$ and $$i$$ passes through only a few particularly well-connected neighbours of $$i$$ for most choices of starting point $$j$$. Thus if one follows shortest paths to try to reach $$i$$, one is likely to be "funnelled" through those few or one particular neighbours of $$i$$.
+
+__Degree distributions__
+
+The degree distribution $$p_k$$ is the fraction of nodes in the network that have [[degree|Degree of a vertex (Graph theory)]] $$k$$.
+
+The same information can be given in a //degree sequence//, that is a sequence of the degrees of all the nodes in the network. One can easily see from simple examples, that this information doesn't, however, specify the network structure, in general.
+
+For directed networks, we can define the joint in- and out- degree distribution $$p_{jk}$$, the probability that a vertex has in-degree $$j$$ and out-degree $$k$$. This has been currently rarely been measured in practice though.
+
+__Power laws and [[scale-free networks|Scale-free networks]]__
+
+Often (though definitely not always), real networks show a //power law// degree distribution:
+
+$$p_k=Ck^{-\alpha}$$
+
+where $$\alpha$$ is the exponent. Values $$2<\alpha<3$$ are typical. These are examples of right-skewed distributions. Typically, the power law is only obeyed for the tail of the distribution, but not for small values of $$k$$. And typically it is also not obeyed in the high end, for example, due to some cut-off.
+
+Networks with power-law degree distributions are sometimes called //scale-free networks//.
+
+__Distributions of other centrality measures__
+
+Distributions of the values for nodes for others centrality measures defined in [[Measures and metrics for networks]].
+
+__Centralization__
+
+We can use the distribution of centrality measures to answer the question: "how are the centrality values spread?". High spreads indicate a good centrality measure (or very high centralization, I think), while low spreads indicate a low centrality measure (or descentralization, I think.). 
+
+A measure for it is:
+
+$$\mathcal{C} = \frac{\sum_{i=1}^N [C_b(i^*)-C_b(i)]}{\sum_{i=1}^N [\tilde{C}_b(i^*)-\tilde{C}_b(i)]}$$
+
+where in the denominator, $$\tilde{C}_b(i)$$ is the betweeness centrality of node $$i$$, and $$i^*$$ is a node that maximizes it, both for the graph that maximizes $$\tilde{C}_b(i^*)$$ (a star graph for betweeness for example). The $$C_b (i)$$ without the tilde is for the actual graph.
+
+__Dynamical importance (& eigenvalue elasticity)__
+
+* measures changes in eigenvalues of $$A$$ due to some perturbations
+
+* suppose $$G$$ strongly connected.
+
+''Edge dynamical importance'' of $$(i,j)$$ is:
+
+$$I(i,j)=-\frac{\Delta \lambda_{ij}}{\lambda_1}$$
+
+where $$\lambda_1$$ is the largest eigenvalue of A, and $$\Delta \lambda_{ij}$$ is the change in $$\lambda_1$$ from removing edge from $$j$$ to $$i$$ (i.e. removing $$A_{ij}$$).
+
+The ''Node dynamical importance'' of $$(i)$$ is:
+
+$$I(i)=-\frac{\Delta \lambda_{i}}{\lambda_1}$$
+
+where $$\Delta \lambda_{i}$$ is the change in $$\lambda_1$$ from removing node $$i$$ (i.e. removing column and row $$i$$). 
+
+One can show that:
+
+$$I(i)\approx \frac{v_i u_i}{v^T u}$$
+
+$$I(i,j)\approx \frac{A_{ij}v_i u_j}{\lambda_1 v^T u}$$
+
+where the approximation is in only considering the changes in eigenvalue and eigenvector to 1st order. See problem sheet 4 answers for proof.
+
+//Structural things related (by spectrum, often) to dynamics// Dynamics of removing nodes and edges he means?
+
+__Clustering coefficients__
+
+(see [[Transitivity (Graph theory)]])
+
+Clustering coefficients, $$C$$ are often found to be larger than one would expect if edges where randomly chosen (for a fixed degree distribution, for example, see formula 8.24 in Newman's).
+
+This is often the case for social networks. One mechanism that can lead to this is //triadic closure// (when an open triad is close, say because the common vertex introduces the other two, in case of social nets). This has indeed been found to happen in cases when time-resolved data for network formation is studied.
+
+In, the Internet networks, however, $$C$$ is much smaller than the predicted value given by chance (eq 8.24 Newman), suggesting there are forces that shy away from creating triangles. However, different models to compare with (i.e. other random graph models), and other ways of measuring clustering coefficients give different results.
+
+Other //motifs// apart from triangles are also measured sometimes and show interesting patterns (like in neural networks).
+
+Local clustering coefficients often show an interesting anti-correlation with degree in real networks. An explanation to this phenomena can be given if the network has a community structure with nodes grouped together in groups of varying sizes. A hierarchical structure has also been proposed to explain this.
+
+__Assortative mixing__
+
+[[Assortative mixing]] is the tendency of nodes to connect to others that are like them in some way. The formula given in [[there|Assortative mixing]] is not very efficient to compute, because of the double sum going like $$n^2$$. There is however a more efficient one that goes like $$m$$, the number of edges, which is often scales slower with $$n$$ (see eq. 8.27 in Newmann book).
+
+Empirically, it is found that most social networks have positive assortativity while most others (technological, biological) have negative assortativity. 
+
+Part of the explanation for this seems to be that most networks are naturally dissasortative by degree because they are simple graphs (see [[Mathematics of networks]]) and so the number of connections between high degree nodes is limited, and so if there aren't many high degree nodes, they will have to connect mostly to lower degree nodes (I think this is gist of explanation). 
+
+Social networks, on the other hand, seem to overcome this due to their group structure (high clustering coefficient) so that in small groups people of low degree will be mostly connected to people with low degree (i.e. within the small group), and the larger groups will contribute to making people of high degree being mostly connected to people of high degree (i.e. within the large group).

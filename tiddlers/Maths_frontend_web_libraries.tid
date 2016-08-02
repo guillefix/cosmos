@@ -1,0 +1,19 @@
+created: 20160627203843992
+creator: guillefix
+modified: 20160709032425142
+modifier: guillefix
+title: Maths frontend web libraries
+
+[[AsciiMath|http://asciimath.org/]]
+
+http://mathquill.com/
+
+https://www.mathjax.org/
+
+https://khan.github.io/KaTeX/
+
+[[AugMath]]
+
+http://mathnotepad.com/ (uses math.js)
+
+http://jaxedit.com/note/

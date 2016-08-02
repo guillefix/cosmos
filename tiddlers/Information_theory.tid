@@ -1,0 +1,86 @@
+created: 20160308170951305
+creator: guillefix
+modified: 20160726122850315
+modifier: guillefix
+tags: [[Information science]]
+title: Information theory
+
+''Information theory''
+
+[[Information Theory|https://www.youtube.com/playlist?list=PLE125425EC837021F]], [[Information Theory (CUHK)|https://www.youtube.com/playlist?list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft]]
+
+!! Entropy/Information
+  * ''Asymptotic equipartition property''
+ * [[Information measures]]
+ *  [[Data processing theorem]]
+ * [[Fano's inequality]]
+
+
+!![[Coding theory]]
+
+A code is a representation of information/data. 
+
+Coding theory (and/or coding methods) is the study of the properties of codes and their fitness for a specific application. These applications include [[Data transmission]], [[Data compression]], [[Cryptography]], and [[Network information theory]]
+
+!![[Data transmission]]
+
+See [[Source-channel separation theorem]]
+
+The main problem of study in data transmission theory is: for a particular [[Communication channel]], find code so that data transmission rate is as high as possible, while receiver receives the information with negligible probability of error.
+
+The limit in data transmission rate turns out to be the [[Channel capacity]], as established by the [[Channel coding theorem]].
+
+Data transmission is part of the broader area of study called [[Communication theory]], which includes consideration of the information source and destination.
+
+!! [[Data compression]]
+
+Study of theoretical limits and implementation of codes that make average length of the value of a random variable as short as possible, whether in a lossless, or lossy way.
+
+The limit in the average length of codewords in a lossless code turns out to be the entropy, as established  by the [[Source coding theorem]]
+
+Limits in lossy codes are established in [[Rate compression theory]]
+
+!![[Cryptography]]
+
+!![[Network information theory]]
+
+!![[Algorithmic information theory]]
+
+''[[Kolmogorov complexity]]''. Shortest program that will produced desired output in Turing machine. Occam's razor
+
+--------------------
+
+!!!More related areas
+  * ''Ergodic theory''. A dynamical system is ergodic if it has a unique probabliy distribution in the long time limit, I think Asymptotic equipartition theorem gives probability of each typical sequence.
+  * ''Hypothesis testing'' (See [[Statistics]]).
+  * ''[[Statistical mechanics|Statistical physics]]''
+  * ''[[Quantum information theory]]''
+  * ''Inference''. Kolmogorov complexity is often applied to extrapolate from data. See also Solomonoff's algorithmic probability, and [[Machine learning]]
+* [[Signal processing]]
+  * ''Gambling and investment''. Theory of investment in stock markets. See [[Game theory]].
+    ** Doubling rate. Has parallels with entropy
+  * ''[[Probability theory]]''
+* [[Sequence space]]s and [[Symbolic dynamics]]
+ * [[Complexity theory]]
+** [[Descriptional complexity]]
+
+----------
+
+[[Shannon - A Mathematical Theory of Communication|http://worrydream.com/refs/Shannon - A Mathematical Theory of Communication.pdf]]
+
+[[General theory of information transfer: Updated|http://www.sciencedirect.com/science/article/pii/S0166218X07002326]]
+
+[[Entropy reduction]]
+
+[[Storing and Transmitting Data: Rudolf Ahlswede’s Lectures on Information ...|https://books.google.co.uk/books?hl=en&lr=&id=EZ6KAwAAQBAJ&oi=fnd&pg=PP5&ots=bqpF4UZhji&sig=fmxtdgsKYFUjKFcYDe9bxdoagFM#v=onepage&q&f=false]]
+
+[[Information Theory, Combinatorics, and Search Theory|http://download.springer.com/static/pdf/860/bok%253A978-3-642-36899-8.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-3-642-36899-8&token2=exp=1467511400~acl=%2Fstatic%2Fpdf%2F860%2Fbok%25253A978-3-642-36899-8.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Fbook%252F10.1007%252F978-3-642-36899-8*~hmac=07f9d2ad15fce4ba4ad13e57c22b7ffbbbabc694ce1928057668a650bdd9c175]]
+
+[[Theory of identification]]
+
+[[Theory of ordering]] (see [[Entropy reduction]])
+
+[[Search theory]]
+
+[[YB videos|https://www.youtube.com/user/cse6222yorku/videos?view=0&shelf_id=4&sort=dd]]
+-- [[MIT videos|http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-050j-information-and-entropy-spring-2008/videos-homework-and-readings/]]

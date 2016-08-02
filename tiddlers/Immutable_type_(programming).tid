@@ -1,0 +1,11 @@
+created: 20160629002640618
+creator: guillefix
+modified: 20160629002901207
+modifier: guillefix
+title: Immutable type (programming)
+
+A [[Data type]] corresponding to a value that can't be changed.
+
+[[Immutable types: understand their benefits and use them|http://codebetter.com/patricksmacchia/2008/01/13/immutable-types-understand-them-and-use-them/]]
+
+Usable for [[Concurrent computing]]

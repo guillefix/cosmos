@@ -1,0 +1,9 @@
+created: 20160623212209605
+creator: guillefix
+modified: 20160623212213801
+modifier: guillefix
+title: Normalization of power laws
+
+See [[Power laws]]
+
+The normalization C , assuming $$k$$ starts at $$1$$, is related to the Riemann zeta function, $$C=\frac{1}{\zeta(\alpha)}$$, or the generalized or incomplete zeta function $$C=\frac{1}{\zeta(\alpha, k_{min})}$$ if there is a minimum $$k$$ over which we normalize. Or we could approximate the sum needed to normalize by an integral. $$C=\frac{1}{\int_{k_{\text{min}}}^\infty k^{-\alpha}dk}=(\alpha-1)k_{\text{min}}^{\alpha-1}$$

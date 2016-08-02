@@ -1,0 +1,31 @@
+created: 20160430192239993
+creator: guillefix
+modified: 20160602221321774
+modifier: guillefix
+title: Collective hydrodynamics of active entities
+
+See [[Active matter]]
+
+Continuum equations of motions for dense active nematics, such as suspensions of microtubules driven by molecular motors, or dense collections of microswimmers. They are described as nematic [[Liquid crystals]], with an extra term in the term that leads to instability (typical of [[Non-equilibrium statistical physics]]), and ''active turbulence''. See [[Complex fluid dynamics]] for the dynamical equations of liquid crystals (Beris-Edwards equations).
+
+Addition to stress, is also discussed in [[Complex fluid dynamics]]. However, <mark>Is there an easier way to see this?</mark> The contribution to stress from the active colloids is the __average value of the stresslet__, which for nematic active particles, turns out to be $$\Pi_{jk} = -\zeta Q_{jk}$$, the active stress, where $$\zeta$$ is a measure of the level of activity.
+
+Note: the velocity of the swimmer doesn't appear in the equations because the velocity of the swimmer determines the velocity of the fluid at the first instant when the swimmers start, and from there on, the velocity of the fluid=the velocity of the swimmer, and it just evolves according to the stresses described on the paper and here. So yeah the fact that they actually swim, only sets up their initial velocities, and from there on, they are equivalent to {rods with symmetric thrust, say two thrusters, one at each end}. However, for other active nematics, like [[Molecular motors]]+[[Microtubule]]s mixtures, the "symmetric pusher" model is reasonable even at the short accelerating phase.
+
+Therefore because the RHS of the momentum equation has $$\partial_i \Pi_{jk}$$, __changes in the direction of orientation of the nematic order induces flow__. From these considerations and looking at the induced flows, one can already find two examples of instabilities:
+
+* extensible systems are unstable to bend perturbations. See a derivation in [[Soft matter physics notes|https://www.dropbox.com/s/mw2fc6b6b2rdfm6/Soft%20matter%20physics.pdf?dl=0]].
+
+* contractile systems are unstable to splay perturbations
+
+Also activity can stabilize or de-stabilize nematic ordering, depending on the kind of activity and shape of particles:
+
+* for __elongated particles__, extensible flow stabilizes nematic order, while contractile flow destabilizes it.
+
+* for __plate-like particles__, contractile flow stabilizes nematic order, while extensible flow destabilizes it.
+
+These can be understood from the pictures in Figure 7 in article, reproduced below:
+
+[img[Selection_196.png]]
+
+[[Fluctuating hydrodynamics and microrheology of a dilute suspension of swimming bacteria|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.80.011917]]

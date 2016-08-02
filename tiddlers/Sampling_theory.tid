@@ -1,0 +1,16 @@
+created: 20160726111844327
+creator: guillefix
+modified: 20160726113007773
+modifier: guillefix
+tags: Sampling [[Signal processing]]
+title: Sampling theory
+
+The theory of [[Sampling]] in [[Signal processing]]
+
+[[Nyquist-Shannon sampling theorem]] sufficient condition for a sample rate that permits perfect reconstruction of bandwidth-limited analog signal from digital signal
+
+Perfect reconstruction may still be possible when the sample-rate criterion is not satisfied, provided other constraints on the signal are known. See [[Compressed sensing]]
+
+---------------
+
+[[http://www2.egr.uh.edu/~glover/applets/Sampling/Sampling.html]]

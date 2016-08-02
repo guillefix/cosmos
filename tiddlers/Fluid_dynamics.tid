@@ -1,0 +1,32 @@
+created: 20160118223649465
+creator: guillefix
+modified: 20160502121849489
+modifier: guillefix
+tags: [[Fluid mechanics]]
+title: Fluid dynamics
+
+''Fluid dynamics'' is the branch of [[Fluid mechanics]] that describes the causes of motion, i.e. the forces and torques that can affect fluids, and how these affect their motion. 
+
+The equations of fluid dynamics can be derived from the principles of [[Mechanics]] (in particular continuum mechanics). More recently they have also been derived from the microscopic statistical picture of moving and interacting particles thanks to the development of [[Kinetic theory]].
+
+''Navier-Stokes equation'' 
+
+https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations
+
+Oxford course. Bachelor's book, etc.
+
+https://www.youtube.com/watch?v=pqWwHxn6LNo&list=PL0EC6527BE871ABA3&index=2
+
+https://en.wikipedia.org/wiki/Strain_rate_tensor
+
+
+
+See table I made for 3rd year revision
+
+!!__Convection-diffusion__
+
+of heat, particles, etc.
+
+https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation
+
+http://www.cfm.brown.edu/people/gk/chap9/node1.html

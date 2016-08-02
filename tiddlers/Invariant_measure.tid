@@ -1,0 +1,11 @@
+created: 20160707165612124
+creator: guillefix
+modified: 20160707170159246
+modifier: guillefix
+title: Invariant measure
+
+a [[Measure]] that is preserved by some [[Function]]
+
+We say that the function $$f: X \rightarrow X$$ preserves a measure $$\mu$$ on $$(X\mathcal{B})$$, if $$\mu(f^{-1} B) = \mu(B)$$, for all $$B \in \mathcal{B}$$. The function is then said to be $$\mu$$-preserving, or $$\mu$$ is said to be $$f$$-invariant.
+
+https://en.wikipedia.org/wiki/Invariant_measure

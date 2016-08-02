@@ -1,0 +1,49 @@
+created: 20160121165726312
+creator: guillefix
+modified: 20160126180110918
+modifier: guillefix
+title: Brownian ratchets
+
+The [[Fokker-Planck equation]] has a stationary solution, for a biased periodic potential:
+
+[img[tilting_ratchet1.png]]
+
+A ''Brownian ratchet'' occurs when the potential is asymmetric. A particularly nice example is the __sawtooth__ potential, in which the above equation gives:
+
+[img[tilting_ratchet3.png]]
+
+for the first site.
+
+We find three regimes:
+
+[img width=400 class=img-centered [tilting_ratchet4.jpg]]
+
+[img width=400 class=img-centered [tilting_ratchet5.jpg]]
+
+The __drift velocity__ is:
+
+[img[drift.jpg]]
+
+which plotted looks like:
+
+[img[tilting_ratchet7.jpg]]
+
+This shows an asymmetry between the positive and negative force regions, similar to that shown in the current-voltage curve of a diode:
+
+[img width=400 [https://cdn.sparkfun.com/assets/4/4/a/5/b/5175b518ce395f2d49000000.png]]
+
+In fact __ratchets and diodes are very analogous__, and ratchets, including Brownian ratchets can be thought of as mechanical diodes. In fact, the famous Feynman Brownian ratchet paradox was formulated by Brillouin in terms of a diode rectifier ([[Brillouin paradox|https://en.wikipedia.org/wiki/Brownian_ratchet#History]])
+
+This rectification in Brownian ratchets can be used as a basis for ''fluctuation-driven transport'', which is a proposed mechanism for [[molecular motors|Molecular motor]].  See [[here|http://link.springer.com/article/10.1007/s002490050158]]
+
+An example of this is in the __tilting ratchet__, in which the bias $$F$$ used above, oscillates.
+
+__Flashing ratchet__
+
+Another example of a Brownian ratchet is when the potential $$U(x)$$ itself oscillates (fluctuations between a low and a high potential). A special case has the potential turning stochastically between two states, this is known as the __flashing ratchet__, if one of the two states has no potential, this is called the __on-off ratchet__.
+
+A way to solve for the probability in the stochastically flashing ratchet is to add a new label to the probability representing one of the two states of the potential landscape, call them $$+$$ and $$-$$. Then we get a Fokker-Planck/Master equation for our continuous (space labelled by $$\vec{x}$$) and discrete configuration space:
+
+[img[flashing ratchet.png]]
+
+One can the workout the evolution equation for the total probability of being at position $$\vec{x}$$, and it turns out to have the form of a Fokker-Planck equation with an effective potential.

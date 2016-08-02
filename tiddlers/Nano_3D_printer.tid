@@ -1,0 +1,61 @@
+created: 20160128172027994
+creator: guillefix
+modified: 20160226114308685
+modifier: guillefix
+tags: [[Additive manufacturing]] Nanotechnology
+title: Nano 3D printer
+
+__Eric Drexler's scheme__
+
+*Structural support. Large slabs of rigid protein (manufactured by self-assembly). Or out of DNA?
+
+*Stepper motors.
+** Three steps (phases) to be able to go back and forth.
+***Actuators are molecules (like azobenzenes). 
+***Control by three wavelength (visible; what is problem with UV ones? Not enough non-overlapping wavelengths I suppose was the problem).
+***Nanosecond response times.
+
+*Material transport by diffusion.
+
+*Material deposition by tip that activates site (catalytic).
+**To avoid a significant error rate by thermal fluctuations:
+***"large" structural components
+***larger molecular building blocks.
+
+[[Oxford as one center to develop this!?|https://www.youtube.com/watch?v=50iAoe7bs9o#t=24m19.5s]]
+
+[img[nano_3D_printer2.png]]
+
+Questions:
+
+Exactly how do the blocks hold together? The stepper motor surfaces should be designed to have modulatable //attractice// potentials, I imagine.
+
+Predict the stochastic motion of these. How large do surfaces have to be? How fast will they move? 
+
+[[Slides|https://drive.google.com/folderview?id=0B1foXI_b_a7DRUV3WEZZajRlVm8&usp=sharing_eid&ts=56aae62b]]
+
+[[Talk at Martin School on Jan 2016|https://www.youtube.com/watch?v=50iAoe7bs9o]]
+
+[[Notes from talk|https://files.acrobat.com/a/preview/44cb112e-3557-4e82-a7f2-cecb1f8631bb]]
+
+__Protein engineering__
+
+Extended structures:
+
+[[Design of ordered two-dimensional arrays mediated by noncovalent protein-protein interfaces|http://science.sciencemag.org/content/348/6241/1365]]
+
+Compact structures:
+
+[[Accurate design of co-assembling multi-component protein nanomaterials|http://www.nature.com/nature/journal/v510/n7503/full/nature13404.html]]
+
+__Photoswitching__
+
+http://pubs.rsc.org/en/content/articlelanding/cc/2013/c3cc46045b#!divAbstract . Allows more wavelengths to be used, including red light which is penetrates skin more.
+
+http://onlinelibrary.wiley.com/doi/10.1002/anie.201207602/abstract . Can now switch at nanosecond rates.
+
+-------
+
+Key Challenge: Coordinated cross-disciplinary development
+
+DOE workshop. Oxford, etc.

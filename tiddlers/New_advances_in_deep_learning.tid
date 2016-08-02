@@ -1,0 +1,33 @@
+created: 20160406164853743
+creator: guillefix
+modified: 20160617170619492
+modifier: guillefix
+title: New advances in deep learning
+
+''Batch normalization'': [[Batch normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift|http://arxiv.org/abs/1502.03167]] <mark>[[an explanation|https://standardfrancis.wordpress.com/2015/04/16/batch-normalization/]]</mark>
+
+[[ Deep Networks with Stochastic Depth|http://arxiv.org/abs/1603.09382v1]] [[Stochastic Depth Networks will Become the New Normal|http://deliprao.com/archives/134]]
+
+[[ Highway Networks|http://arxiv.org/abs/1505.00387]]
+
+''Dropout'': [[ Dropout: A Simple Way to Prevent Neural Networks from Overfitting |http://jmlr.org/papers/v15/srivastava14a.html]]
+
+https://en.m.wikipedia.org/wiki/Modular_neural_network STN?
+
+DCGAN http://arxiv.org/abs/1511.06434
+
+DRAW http://arxiv.org/abs/1502.04623
+
+Soft/hard attention https://www.google.es/url?sa=t&source=web&rct=j&url=http://arxiv.org/pdf/1502.03044&ved=0ahUKEwi4yof-jPjLAhVC5xoKHcTjDM4QFgggMAA&usg=AFQjCNEs1Yw8fZF9oaqo73cwbHJqKwQHTw
+
+CharCNN https://www.google.es/url?sa=t&source=web&rct=j&url=http://arxiv.org/pdf/1508.06615&ved=0ahUKEwjZqaXnk_jLAhWCsxQKHZsuApUQFgglMAM&usg=AFQjCNHk8JQpI98eUtyiluv7d2G9aWRtyA
+
+NeuralStyle https://github.com/jcjohnson/neural-style
+
+"Take a look at @karpathy's Tweet: https://twitter.com/karpathy/status/709465955223543808?s=09"
+
+http://arxiv.org/abs/1604.00790 bidirectional LSTM
+
+http://www.computervisionblog.com/2016/06/deep-learning-trends-iclr-2016.html
+
+Adversarial networks

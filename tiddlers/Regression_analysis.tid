@@ -1,0 +1,32 @@
+created: 20160709011515352
+creator: guillefix
+modified: 20160709024040710
+modifier: guillefix
+tags: [[Supervised learning]]
+title: Regression analysis
+
+Discriminative [[Supervised learning]] where the output value is continuous, and quantiative (i.e. it has an ordering, and a notion of closeness (matrix)).
+
+[[Notes|http://cs229.stanford.edu/notes/cs229-notes1.pdf]]
+
+!![[Linear regression]]
+
+
+!![[Nearest-neighbour classification]]
+
+
+!![[Kernel linear regression]]
+
+
+!![[Nonlinear regression]]
+
+* [[Deep learning]]
+
+
+[[Multiclass MLP|https://www.youtube.com/watch?v=NUKp0c4xb8w&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=9#t=21m55s]]
+
+''Regularizer'' helps control the model complexity (by constrianing the size of the parameter vector $$\mathbf{\theta}$$). It can also be seen as adding a prior (in Bayesian statistics)
+
+-------------------
+
+https://www.wikiwand.com/en/Regression_analysis

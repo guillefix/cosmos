@@ -1,0 +1,29 @@
+created: 20160502122919830
+creator: guillefix
+modified: 20160607230037511
+modifier: guillefix
+title: WKB method
+
+For linear differential equations of any order, with non-constant coefficients (in general). See [[here|https://www.youtube.com/watch?v=anLk4HvgQSM&index=17&list=PLjJ7kkgUwlXNPU_zmD8zW-FOAs5irGgy_]] and [[here|https://www.youtube.com/watch?v=clpHq5Rs8a4&index=12&list=PL4xtSOLzDKfNEOTk5i57vjwv5T5RqpQ0H]].
+
+As shown in the example in the notes, multiple scales fails when the frequency of the fast oscillation depends on the slow scale.
+
+Then, one has to instead use the WKB ansatz:
+
+$$y=e^{i\phi(x)/\epsilon}A(x;\epsilon)$$
+
+in the dispersive case, or
+
+$$y=e^{\phi(x)/\epsilon}A(x;\epsilon)$$
+
+in the dissipative case.
+
+When substituting this in an equation, given in a certain form (a form in which all second order ODEs can be expressed, see first lectures by Bender), one gets a series of equations for the term of increasing order in $$\epsilon$$
+
+* Eikonal equation
+
+* Transport equation
+
+__Turning points__
+
+Use [[Matched asymptotic expansions]]. In the turning point itself, the leading order solution is an Airy function

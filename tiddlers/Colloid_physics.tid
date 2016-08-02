@@ -1,0 +1,19 @@
+created: 20160602220704056
+creator: guillefix
+modified: 20160609154445769
+modifier: guillefix
+title: Colloid physics
+
+Branch of [[Physics]] dealing with physical properties of [[colloidal systems|Colloid]] (i.e. motion, forces, etc. at the scale of the colloidal system).
+
+The branch of [[soft matter|Soft matter physics]] dealing with colloids has a close connection with the other subjects of [[Condensed matter physics]], like [[Solid-state physics]]. This is because colloidal [[Suspension]]s in many ways can behave analogously to solids, whether crystalline or glassy. Colloidal particles have also been used as model systems for atoms or molecules, and so there are some connections with [[Atomic physics]] and [[Molecular physics]].
+
+!!!__[[Microhydrodynamics]] of colloids__
+
+* [[Low Reynolds number]]
+
+* [[Hydrodynamic interaction]]
+
+!!!__[[Phoretic mechanisms of colloids]]__
+
+These are important in [[Active matter]] (see [[Active colloid]]), in [[Biophysics]], and [[Nanotechnology]].

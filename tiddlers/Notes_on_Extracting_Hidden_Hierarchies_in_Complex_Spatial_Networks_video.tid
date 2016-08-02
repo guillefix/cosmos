@@ -1,0 +1,37 @@
+created: 20160326030223366
+creator: guillefix
+modified: 20160326030250115
+modifier: guillefix
+title: Notes on Extracting Hidden Hierarchies in Complex Spatial Networks video
+
+[[Extracting Hidden Hierarchies in Complex Spatial Networks|https://www.youtube.com/watch?v=BTYMqiemQR4]]
+
+See [[Spatial networks]]
+
+* Leaf venation. Most efficient structure to do transportation from one points to many points in a region of space is a tree-like structure. However, most modern plant leaves have an intricate loopy topolgy (reticulation) for increased resilience against damage.
+
+* Physarum polycepharum slime mold. Nice network. It is "smart".
+
+* Loop hierarchy structure of planar network, forms a tree representation of it. Nice
+
+* 3D networks. Connectome.
+
+* Quaking aspen root network. Network of extended root structure of plants symbiotic with fungi. 80% of plants do this!
+
+* Ant colonies
+
+* Sand piles, dunes & granular matter. Network in granular media under applied stress
+
+* Vasculature. Except in lungs, you get loopy, reticular network structure
+
+* Any graph can be represented in 3D (without edges crossing): Book representation!
+
+* A graph can't be represented in a 2D plane without edges crossing in general (graphs that can are called planar). However, graph may be embeddable (w/o edges crossing) on a 2D surface other than the plane (like a torus). The genus of the simplest surface on which a graph can be represnted like this is called that graph's graph genus.
+
+* Cycle space (set of loops or combination of loops that live on the graph). Fundamental basis
+
+* His algorithm for determining the cycle structure in a 3D graph can be proved to work (asymptotically) for 3 regular graphs. In biological networks, this is essentially always the case due to how they form. For other spatial networks, degree distribution is usually highly peaked, and the average degree is low, and he suggests that this may mean it also works for them. He thinks it won't work mostly for scale-free graphs.
+
+* Can start with hexagonal lattice on surface of certain genus, and apply perturbations (like dislocations)
+
+* Growth model for the [[physarum slime|Physarum machines and physarum solver]]

@@ -1,0 +1,19 @@
+created: 20160701024258791
+creator: guillefix
+modified: 20160701172112474
+modifier: guillefix
+title: Entropy rate
+
+The entropy rate of an information source (see [[Data transmission]]) is the average entropy of a letter of the source.
+
+An information source is often modelled as a discrete-time stochastic process $$\{X_k\}$$, where each $$X_k$$ is called a "letter". The entropy rate is then defined as:
+
+$$H_X = \lim_{n\rightarrow \infty} \frac{1}{n} H(X_1, X_2, \cdots, X_n)$$
+
+when the limit exits (see also Shannon-McMillan-Breiman theorem).
+
+[[Chapter 2 Information Measures - Section 2.10 Entropy Rate of a Stationary Source|https://www.youtube.com/watch?v=1-gH2ecuewk]]
+
+One can define a related measure, $$H_X$$, by using conditional entropies. It can be shown that, for an stationary [[Information source]], the entropy rate exists and is equal to $$H_X$$.
+
+[img[http://i.imgur.com/EdV8plQ.png]]

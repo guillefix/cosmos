@@ -1,0 +1,14 @@
+created: 20160726111926018
+creator: guillefix
+modified: 20160726112635259
+modifier: guillefix
+tags: [[Sampling theory]]
+title: Nyquist-Shannon sampling theorem
+
+,,or just sampling theorem,,
+
+It establishes a sufficient condition for a sample rate that permits a discrete sequence of samples to capture all the information from a continuous-time signal of finite bandwidth.
+
+Perfect reconstruction may still be possible when the sample-rate criterion is not satisfied, provided other constraints on the signal are known. See [[Compressed sensing]]
+
+https://www.wikiwand.com/en/Nyquist%E2%80%93Shannon_sampling_theorem

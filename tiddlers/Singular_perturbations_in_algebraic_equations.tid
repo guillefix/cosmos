@@ -1,0 +1,35 @@
+created: 20160427191825793
+creator: guillefix
+modified: 20160427191924341
+modifier: guillefix
+title: Singular perturbations in algebraic equations
+
+When limit problem ($$\epsilon =0$$) differs in an important way from the limit $$\epsilon \rightarrow 0$$). For example, a root is lost, or a derivative is lost in a DE.
+
+Problems that are not singular, are called <b> regular</b>
+
+For algebraic equations, often when a root is lost, it's because it goes to $$\infty$$ as $$\epsilon \rightarrow 0$$.
+
+<i class="fa fa-lightbulb-o" aria-hidden="true"></i> It's first term in the expansion may be then $$\frac{1}{\epsilon}$$, for example.
+
+<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> For the iterative method, different functions $$g$$ may be needed to find different perturbed roots of an algebraic equation, so that condition $$g'(x^*; \epsilon) \rightarrow 0$$ as $$\epsilon \rightarrow 0$$ is satisfied.
+
+!!__Regularization method__
+
+Scale variables so that the problem becomes regular. 
+
+For instance, if first term in the expansion is $$\frac{1}{\epsilon}$$, rescale $$x =X/\epsilon$$.
+
+Indeed, the problem of finding the correct starting point for an expansion, is equivalent to the problem of finding a suitable scaling to regularize the singular problem.
+
+!!!__Finding the right scaling__
+
+__Systematic approach:general rescaling__
+
+Let $$x=\delta(\epsilon)X$$, with $$X$$ strictly of order $$1$$ as $$\epsilon \rightarrow 0$$
+
+Vary $$\delta$$ from small to large to identify ''dominant balance''s in which at least two terms are of the same order of magnitude as $$\epsilon \rightarrow 0$$, while others are smaller. Scalings that result on dominant balances are called ''distinguished limits''
+
+__Alternative approach: pairwise comparison__
+
+quicker when there are a small number of terms. Try to create dominant balance between terms pairwise, and see if you can get it, consistently. That way you can find the dominant limits.

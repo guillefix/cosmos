@@ -1,0 +1,44 @@
+created: 20160613155648733
+creator: guillefix
+modified: 20160613180037423
+modifier: guillefix
+title: Achlioptas process
+
+An ''Achlioptas process'' is a type of [[Explosive percolation]], also known as $$m$$-edge processes, that involve choosing $$m$$ candidate edges uniformly at random between any pair of nodes (compare with other [[Spanning cluster-avoiding process]])and applying a rule to select which one is actually chosen. These have been proven to be continuous in the thermodynamic limit, for a fixed $$m$$. They are generalizations of Erdos-Renyi [[Random graph]]s.
+
+The first proposed type, were proposed (in [[Explosive Percolation in Random Networks|http://science.sciencemag.org/content/323/5920/1453]]) and thought to maybe show a discontinuous phase transition.
+
+__Achlioptas processes phase transitions are continuous__
+
+It has now been show that the [[Percolation phase transition]] for Achlioptas processes (and in fact a more general class of [[k-vertex rule percolation process]]) is continuous (in the thermodynamic limit), but very steep (see [[Explosive Percolation Transition is Actually Continuous|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.105.255701]] and [[Achlioptas process phase transitions are continuous|http://projecteuclid.org/euclid.aoap/1344614200]]). One can prove the continuity by looking at the asymptotic effect of removing a single link, as the total size goes to infinity. However, Oliver Riordan and Lutz Warnke proved it by proving, in essence, that the number of subcritical components that join together to form the emergent macroscopic-sized component is not sub-extensive in system size. In the words of Friedman and Landsberg, Achlioptas Processes do not lead to the build-up of a “powder keg" (which is a type of cluster configuration that does lead to discontinuous transitions).
+
+However, the model can be generalized to one that shows genuinely discontinuous transitions (see [[Anomalous critical and supercritical phenomena in explosive percolation|http://www.nature.com/nphys/journal/v11/n7/full/nphys3378.html]]). One way to achieve discontinuity is actually to allow the number of edges in the rule, $$m$$ to scale up with $$N$$, the network size, in a certain way.
+
+__$$2$$-edge Achli Achlioptas process__ is the simplest type: Start with N isolated nodes and add undirected, unweighted edges one at a time. This is done by choosing, at each step, two possible edges uniformly (and independently) at random from the set of $$N(N-1)/2$$ possible {edges between a pair of distinct nodes}. One adds only one of these edges, making a choice based on a systematic rule that affects the speed of development of a GCC.
+
+$$m$$-edge rules are defined similarly.
+
+!!__Selection rules__
+
+__Product rule__. One choice that yields "explosive" percolation is to use the so-called "product rule", in which one always retains the edge that minimizes the product of the sizes of the two components that it merges (with an arbitrary choice when there is a tie).
+
+__Sum rule__. The size of the new component
+formed is minimized.
+
+__Bohman–Frieze (BF) rule__. edge 1 is chosen if it joins two isolated vertices, and edge 2 otherwise.
+
+A selection rule can be classified as a bounded-size or an unbounded-size rule. In a bounded-size selection rule, decisions depend only on the sizes of the components and, moreover, all sizes greater than some (rule-specific) constant $$K$$ are treated identically.
+
+There are also the more general $$m$$-edge rules based on chosing $$m$$ edges at each step, and selecting one (or potentially more).
+
+See more rules here: [[Explosive percolation: Unusual transitions of a simple model|https://arxiv.org/abs/1405.0388]]
+
+[[ The Evolution of Random Graphs |http://www.jstor.org/stable/1999405?origin=crossref&seq=1#page_scan_tab_contents]] (product rule first suggested here).
+
+[[Avoiding a giant component|http://onlinelibrary.wiley.com/doi/10.1002/rsa.1019/abstract;jsessionid=27435A3DA431DF30487AE510D226EB1E.f02t02]]. Bounded-size rules are able to switch the percolation threshold.
+
+[[Birth control for giants|http://link.springer.com/article/10.1007%2Fs00493-007-2163-2]]. The percolation transition is strongly conjectured to be continuous for all bounded-size rules
+
+[[Product rule wins a competitive game|https://www.scopus.com/record/display.uri?eid=2-s2.0-60349090497&origin=inward&txGid=0]]
+
+[[Hamiltonicity thresholds in Achlioptas processes|http://onlinelibrary.wiley.com/doi/10.1002/rsa.20302/abstract]]

@@ -1,0 +1,34 @@
+created: 20160131200236841
+creator: guillefix
+modified: 20160701032335046
+modifier: guillefix
+tags: [[Graph theory]] [[Network theory]]
+title: Random graph
+
+[[Graph|Graph theory]]s with [[probabilistic|Probability theory]] properties
+
+__Erdős–Rényi model__
+
+The most common random graph model is the Erdős–Rényi model. Random connections among a given set of nodes.
+
+See [[the chapter of the book|file:///home/guillefix/Dropbox/COSMOS/Physics/stat%20phys,%20kinetic%20theory,%20chaos,%20dynamical%20sys,%20emergence/Networks/%5BMark_Newman%5D_Networks_An_Introduction(BookZZ.org)%20(randgraph).pdf]].
+
+__Configuration model__
+
+[[http://tuvalu.santafe.edu/~aaronc/courses/5352/fall2013/csci5352_2013_L11.pdf]]
+
+Random graph with given degree distribution
+
+See [[this chapter|file:///home/guillefix/Dropbox/COSMOS/Physics/stat%20phys,%20kinetic%20theory,%20chaos,%20dynamical%20sys,%20emergence/Networks/%5BMark_Newman%5D_Networks_An_Introduction%20(randgraph-gen-deg).pdf]]
+
+.... See Newman's book on [[Networks|Network science]]
+
+[[Probability on Graphs |http://www.statslab.cam.ac.uk/~grg/books/USpgs-rev3.pdf]]
+
+[[Random Graphs, Geometry and Asymptotic Structure|https://books.google.co.uk/books?id=4rcjDAAAQBAJ&printsec=frontcover&dq=asymptotic&hl=en&sa=X&redir_esc=y#v=onepage&q=asymptotic&f=false]]
+
+https://www.youtube.com/watch?v=pylTEAyUQiM
+
+[[THE PHASE TRANSITION IN INHOMOGENEOUS RANDOM GRAPHS|https://arxiv.org/pdf/math/0504589v3.pdf]]
+
+[[Random Graphs and Complex Networks.  Vol. II|http://www.win.tue.nl/~rhofstad/NotesRGCNII.pdf]]

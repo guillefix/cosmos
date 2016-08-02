@@ -1,0 +1,68 @@
+created: 20160309140249091
+creator: guillefix
+modified: 20160314155611777
+modifier: guillefix
+title: Duffing oscillator
+
+[[Duffing oscillator|http://www.scholarpedia.org/article/Duffing_oscillator]] is a [[nonlinear oscillator|Nonlinear oscillations]].
+
+$$\ddot{x} + \beta \dot{x} + x + \delta x^3 = \Gamma \cos{\omega t}$$
+
+__Physical meaning__
+
+<!--For $$\beta >0$$-->
+
+The oscillator corresponds to a nonlinear spring with either //hardening// for $$\delta > 0$$ or //softening// for $$\delta < 0$$ (for amplitude not too large, as then it's motion becomes unbounded).
+
+<!-- The thing below is for when the normal harmonic term has a coefficient in it, which we are not considering here (for the MMathPhys miniproject)
+
+For $$\beta < 0 $$ and $$\delta > 0$$, the system is repelled from the origin at low amplitude, and attracted to it for larger amplitude, which can be realized by a steel beam fixed in one end and deflected by two magnets symmetrically placed to the sides of the other end.
+-->
+
+!!__''Free'' (unforced) Duffing oscillator__
+
+!!!__Free ''undamped'' Duffing oscillator__
+
+|$$\Gamma = 0$$ | $$\beta = 0$$ |
+
+The system can be integrated to obtain an energy, and the system is then a ''Hamiltonian system'':
+
+$$E(t) \equiv  \frac{1}{2} \dot{x}^2 + \frac{1}{2} x^2 + \frac{1}{4} \delta 
+x^4 = \text{const}$$
+
+!!!__Free ''damped'' Duffing oscillator__
+
+When $$\beta > 0$$ , $$E(t)$$ satisfies:
+
+$$\frac{d E(t)}{dt} = - \beta \dot{x}^2 \leq 0
+$$
+
+One can easily show that this is indeed a ''Lyapunov function'' and the origin is globally asymptotically stable
+
+!!__''Forced'' Duffing oscillator__
+
+More interesting. Nonlinear resonances. Shows chaotic behaviour, intermittency (jump phenomena), etc. See Lakes of Wada..
+
+!!!__Nonlinear resonances__
+
+Treat with multiple scales method
+
+__Primary resonance__
+
+__Secondary resonances__
+
+//Subharmonic//
+
+//Superharmonic//
+
+!!!__Onset of chaos__
+
+__Period-doubling cascade__
+
+//Reverse period doubling and reverse cascade// (bubbles)
+
+__Intermittency__
+
+Lakes of Wada
+
+Other?

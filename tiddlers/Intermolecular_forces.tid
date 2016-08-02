@@ -1,0 +1,26 @@
+created: 20160128161421504
+creator: guillefix
+modified: 20160428211607237
+modifier: guillefix
+tags: Chemistry
+title: Intermolecular forces
+
+Intermolecular forces are usually composed of a repulsive and an attractive part:
+
+*The ''repulsive part'' is essentially quantum mechanical (in particular, the [[Pauli exclusion principle]] plays a key role). However, often we approximate it by a hard-sphere infinitely steep potential, because the real potential is much steeper than other potentials in most problems.
+
+*The ''attractive part'' shows more variability, but it almost invariably is of electrostatic origin.
+
+If the potential indeed has an attractive component (the repulsive one always exists), then the potential will present a minimum, corresponding to an equilibrium state, known as a ''bond''. The depth of the potential minimum (relative to the thermal energy, $$k_B T$$) determines the //strength//, or //stiffness// of the bond. One often makes a distinction between:
+
+* ''Chemical bonds'' or permanent bonds (see [[here|Chemical bonds]]) are those with bond energy is much larger than the thermal energy.
+
+* ''Physical bonds'' or temporary bonds are those with bond energy comparable to, or just a bit bigger than the thermal energy.
+
+__Common intermolecular forces__
+
+* ''Van der Waals forces''. Due to fluctuations of electric dipole moment of electron cloud inducing correlated fluctuations on nearby molecules. Goes like $$1/r^6$$, and it is $$\sim k_BT$$ at room temperature. Approximately isotropic
+
+* ''Hydrogen bonds''. Hydrogen when covalently bonded to a more electronegative atom (like Oxygen) will develop a positive charge, while the electronegative atom will develop a negative charge. The hydrogen atom in some molecule can then attract an electronegative atom in another molecule. $$\sim 1\text{ to }5 k_B T$$.
+
+* ''Hydrophobic interaction''. Water in its liquid state forms a 3-dimensional network of hydrogen-bonded molecules, that leave more space for each to fluctuate in position, thus reducing its entropy (similar to how a colloid suspension will "crystallize" above a critical concentration for the same entropic reasons). A large molecule will disrupt this configuration, and will effectively reduce the entropy of the system. Therefore, there will be an effective force (entropic force) pushing large molecules together so that this disruption is the least, and so entropy is maximized, as it will in equilibrium. This is the hydrophobic interaction. __Question__: doesn't the fact that large non-polar molecules attract via van der Waals only while water (polar) attracts via Hydrogen bonding, but barely via van der Waals, and therefore these two different kinds of molecule barely attract, not also play a role in they wanting to clump together with like kinds, but separately from unlike kind?

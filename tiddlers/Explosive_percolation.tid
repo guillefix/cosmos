@@ -1,0 +1,45 @@
+created: 20160612121312949
+creator: guillefix
+modified: 20160613173942806
+modifier: guillefix
+title: Explosive percolation
+
+Percolation processes that show a discontinuous, or at least very steep phase transition. See [[this image|http://i.imgur.com/Q7DPOvl.png]] for a nice sumary of types of explosive percolation processes. The reviews below also summarize results, and below we discuss some of the main types.
+
+[[Explosive Percolation: Novel critical and supercritical phenomena|https://arxiv.org/pdf/1511.01800.pdf]]
+
+[[Impact of single links in competitive percolation|http://www.nature.com/nphys/journal/v7/n3/abs/nphys1860.html]]
+
+!!__[[Achlioptas process]]es__
+
+Achlioptas processes follow $$m$$-edge rules which involve choosing $$m$$ candidate edges uniformly at random between any pair of nodes (compare with other [[Spanning cluster-avoiding process]])and applying a rule to select which one is actually chosen. These have been proven to be continuous in the thermodynamic limit, for a fixed $$m$$
+
+!!__[[k-vertex rule percolation process]]__
+
+Processes based on chosing $$k$$ vertices at random and adding edges among those vertices according to some rule. $$k$$-vertex rules are actually a generalization of $$m$$-edge rules.
+
+!!__Half-restricted processes__
+
+Half-restricted process is a variant of the Erdős–Rényi process which exhibits a discontinuous phase transition.
+
+[[Explosive Percolation in Erdős-Rényi-Like Random Graph Processes|http://www.sciencedirect.com/science/article/pii/S1571065311001831]]
+
+In each step, two vertices are connected by an edge, but one of them is restricted to be within the smaller components (more specifically defined to be a set composed of a given fraction, $$f$$, of the total nodes chosen in ascending order of {the size of the component they belong to}. This is also called the //restricted vertex set//, $$R_f(G)$$). note that the restricted vertex set is recalculated after every step, as the clusters have changed.
+
+[img[http://i.imgur.com/tqD59s8.png]]
+
+This process exhibits a discontinuous percolation transition for any $$f < 1 $$
+
+!!__[[Spanning cluster-avoiding process]]__
+
+An ''spanning cluster-avoiding process'' (SCA) is an [[Explosive percolation]] model based on classifying bonds between those that facilitate the creation of the spanning-cluster, and those that don't, and preferentially selecting those that don't. They are similar to [[Achlioptas process]]es ($$m$$-edge processes). However, they don't require the candidate edges to be chosen at random between any pair of nodes, and instead the candidate edges can belong to a predetermined underlying network, common a hypercubic lattice. They are capable of showing discontinuous transitions, [[for certain choices of the number of candidate edges chosen per step|http://science.sciencemag.org/content/339/6124/1185.full]]
+
+<mark>I think there should be a term used for $$m$$-edge-like processes, that have an underlying network..</mark>
+
+!!__Applications of explosive percolation models__
+
+*Jamming on the Internet. [[Congestion phenomena on complex networks|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.79.015101]].
+
+*Synchronization phenomena. [[Explosive transitions to synchronization in networks of phase oscillators|http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3573336/]] -- [[Explosive Synchronization Transitions in Scale-Free Networks|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.106.128701]]
+
+* Analysis of real-world networks. [[Using explosive percolation in analysis of real-world networks|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.83.046112]]

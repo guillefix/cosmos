@@ -1,0 +1,37 @@
+created: 20160410184740380
+creator: guillefix
+modified: 20160412121815779
+modifier: guillefix
+title: Polymorphic limit (Wright-Fisher model)
+
+(See [[Arrival of the frequent]] for context)
+
+If $$NL\mu \gg 1$$, the population naturally spreads over different genotypes, a regime called the //polymorphic limit//. See [[Polymorphic limit (Wright-Fisher model)]] tiddler for more.
+
+To __model neutral exploration__, we __let__ $$1+s_p = \delta_{pq}$$, where $$ \delta_{pq}$$ is a [[Kronecker delta|https://en.wikipedia.org/wiki/Kronecker_delta]], so that only $$q$$ has some fitness, and all other phenotypes have $$0$$ fitness, and so, even if a mutation produces them, no offspring can inherit from them. At every generation, all offspring inherits from $$\mathcal{N}_q$$ only, and thus the population can only spread by mutations over a single generation jump, and it is most likely to stay mostly within $$\mathcal{N}_q$$, if $$N$$ is large enough.
+
+<small>We should note that equations, like Eq.3 would be the same, even though we assumed that all the individuals are in $$\mathcal{N}_q$$, because, as $$1+s_p = \delta_{pq}$$, all the selection weight is in $$\mathcal{N}_q$$, which produces the same results. More precisely, in the expression $$\sum_{i=1}^N \tilde{\Phi_p}(g_i, s_i) \frac{N(1+s_i)}{\sum_{j=1}^N (1+s_j)}$$ only $$N'$$ (the number of individuals in $$\mathcal{N}_q$$) elements are non-$$0$$ in the sum and so in the mean-field approx (where we assume $$\tilde{\Phi_p}(g_i, s_i)$$ is constant) the $$N'$$ from the sum cancels the $$\sum_{j=1}^N (1+s_j) = \sum_{j=1}^N \delta_{pq} =  N'$$ from the denominator, leaving a $$N$$ on the top.</small>
+
+In the mean-field approximation the expected number of individuals with phenotype $$p$$ produced per generation is now independent of time, and given by Eq. 3. (we thus simply call $$m_p(t) = m_p$$), under the corresponding assumptions, because even if not all of the population are in $$\mathcal{N}_q$$, the assumption of fitness, we've made gives selective weight only to those in $$\mathcal{N}_q$$ (see [[Wright-Fisher model]]).
+
+As we said above, the number of individuals with genotype $$p$$ (//p-type//) will follow a binomial distribution, with probability $$m_p/N$$ of success (getting p-type offspring), and number of trials $$N$$, and therefore the //probability to get at least one such individual// is:
+
+$$P(\text{at least on p-type offpsring}) = 1 - P(\text{no p-type offspring}) = 1 - (1 - m_p/N)^N \approx 1 - e^{-m_p}$$
+
+After $$T$$ generations, we have run the [[Bernoulli trial|https://en.wikipedia.org/wiki/Bernoulli_trial]] $$TN$$ times, and thus the number of p-type individuals we have gotten, summed over all the $$T$$ generation also follows a Binomial distribution, but with $$NT$$ samples, and same probability. Thus
+
+$$P(\text{at least on p-type offpsring over T generations}) \approx 1 - e^{-m_p T}$$
+
+Thus, the time when {{the probability of having discovered a p-type individual (produced a p-type offspring)} is $$\alpha$$} is found by:
+
+$$\alpha = 1 - e^{-m_p T}$$
+
+$$e^{-m_p T} = 1- \alpha$$
+
+$$-m_p T = \ln{(1- \alpha)}$$
+
+$$ T = \frac{-\ln{(1- \alpha)}}{N L\mu \Phi_{pq}}$$
+
+Eq. 4
+
+Where we used Eq. 3 in [[Arrival of the frequent]].

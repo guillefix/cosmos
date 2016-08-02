@@ -1,0 +1,22 @@
+created: 20160201144703653
+creator: guillefix
+modified: 20160409111340850
+modifier: guillefix
+tags: [[Computer Science and IT]]
+title: Software
+
+__Keylogger__
+
+//Simple keylogger//
+
+To open the keylogger log (which is very long), get part of the log only, using ``tail``: http://www.computerhope.com/unix/utail.htm
+
+``cd /var/log/``
+
+``tail -c 10000 skeylogger.log ``
+
+//How to parse the output//
+
+https://gist.github.com/kelly-ry4n/44822005a02d9ff115c12e4075adb256
+
+https://www.facebook.com/groups/hackathonhackers/permalink/1232180336837449/?comment_id=1232200533502096

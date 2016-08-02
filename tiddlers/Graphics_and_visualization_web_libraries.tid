@@ -1,0 +1,37 @@
+created: 20160627204754388
+creator: guillefix
+modified: 20160726015950808
+modifier: guillefix
+title: Graphics and visualization web libraries
+
+Graphics and visualization libraries for [[Frontend web development]]
+
+* [[Bokeh|http://bokeh.pydata.org/en/latest/docs/gallery.html]]
+
+* https://d3js.org/ [[d3js]]
+
+* http://visjs.org/
+
+* [[Raphael|http://dmitrybaranovskiy.github.io/raphael/]]
+
+* https://bonsaijs.org/
+
+* http://paperjs.org/
+
+* [[D3xter.js|http://d3xter.io/]] easier to use version of d3.js ! -- See also https://d3plus.org/ !
+
+* http://processingjs.org/ -- https://p5js.org/
+
+* http://www.x3dom.org/
+
+[[ThreeNodes.js: vvvv "clone" in javascript/webgl|https://github.com/idflood/ThreeNodes.js]] <i class="fa fa-thumbs-up"></i> <i class="fa fa-thumbs-up"></i>
+
+<i class="fa fa-arrow-right"></i> <b>http://threejs.org/</b>
+http://www.sitepoint.com/twelve-javascript-libraries-data-visualization/
+
+https://webvr.info/ 
+
+!!!https://goocreate.com/
+
+http://benalderfer.com/playground/particle/
+

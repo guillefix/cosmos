@@ -1,0 +1,7 @@
+created: 20160713230621662
+creator: guillefix
+modified: 20160713230733446
+modifier: guillefix
+title: Total ordering
+
+A ''total ordering'' is a binary [[Relation]] in a set $$X$$, defined as a [[Partial ordering]], $$\preceq$$, such that for any $$x, y \in X$$ either $$x \preceq y $$ or $$y \preceq x$$. The set is then said to be //totally ordered//.

@@ -1,0 +1,182 @@
+created: 20160308171001447
+creator: guillefix
+modified: 20160714014711196
+modifier: guillefix
+tags: [[Information theory]] Algorithms [[Theoretical computer science]]
+title: Algorithmic information theory
+
+See [[Descriptional complexity]] and [[MMathPhys oral presentation]]. See also [[Information theory]], [[Theory of computation]], [[Complexity theory]], and [[Computational complexity]]
+
+<mark>Good lecture notes for AIT</mark>: http://www.cse.iitk.ac.in/users/satyadev/a10/a10.html
+
+!!__[[Kolmogorov complexity]]__
+
+''[[Plain Kolmogorov Complexity|http://www.cse.iitk.ac.in/users/satyadev/a10/kolm_2.pdf]]''
+
+See //Elements of information theory// by Cover and Thomas (chap 14)
+
+[img width=500 class=img-centered [Kolmogorov_complexity_definition.png]]
+
+__Conditional Kolmogorov complexity__
+
+[img[conditional_kolmogorov.png]]
+
+$$<x, y>$$ is the pairing function (see [[Computability theory]]). The conditional Kolmogorov complexity is often defined as in Def. 2.0.1, but with $$y$$ is $$l(x)$$, the length of $$x$$.
+
+__''Universality of Kolmogorov complexity''__
+
+[img class=img-centered [kolmogorov_universality.png]]
+
+<b>For sufficiently long x</b>, the length of this
+simulation program can be neglected, and we can discuss Kolmogorov
+complexity without talking about the constants.
+
+<small>Note in the book on info theory, they use the [[ceiling function|https://en.wikipedia.org/wiki/Floor_and_ceiling_functions]] for the {number of bits in a binary representation of a number}; however, as mentioned [[here|http://www.exploringbinary.com/number-of-bits-in-a-decimal-integer/]] that fails for multiples of $$2$$, so we need to use $$\lfloor log(n) \rfloor +1$$</small>
+
+!!!''Bounds''
+
+__Upper bound on Kolmogorov complexity__
+
+[img[Selection_162.png]]
+
+where $$log^*(x) = \log(x) + \log(\log(x)) + \log(\log(\log(x))) + ...$$
+
+__Lower bounds on Kolmogorov complexity__
+
+::<big><big><i class="fa fa-lightbulb-o" aria-hidden="true"></i></big> There are very few sequences with low complexity</big>
+
+[img width = 500 [Selection_163.png]]
+
+[img[Selection_164.png]]
+
+!!__Relations to entropy__
+
+__Kraft inequality__
+
+[img[Selection_165.png]]
+
+__Relation to entropy__
+
+[img[Selection_166.png]]
+
+as $$n \rightarrow \infty$$. See proof in the book (uses Kraft's inequality, Jensen's inequality, and the concavity of the entropy) Therefore the average Kolmogorov complexity of the string approaches the entropy of the random variable from which the letters of the string are sampled. The compressibility achieved by the computer goes to the entropy limit.
+
+__Theorem__ 14.4.3 //There are an infinite number of integers $$n$$ such that $$K(n) > \log{n}$$//.
+
+!!__Algorithmic randomness and incompressible sequences__
+
+__Theorem__ 14.5.1 //Let $$X_1, X_2, ..., X_n$$ be drawn according to a Bernoulli $$(\frac{1}{2})$$ process. Then//
+
+$$P(K(X_1 X_2 ... X_n | n) < n-k) < 2^{-k}$$
+
+For example, the fraction of sequences of length n that have complexity less than n − 5 is less than 1/32. This motivates the following definition.
+
+__Definitions__ of ''algorithmic randomness'', ''incompressibility''. 
+
+//Strong law of large numbers for incompressible sequences//
+
+[img[Selection_167.png]]
+
+In general, we
+can show that if a sequence is incompressible, it will satisfy all computable
+statistical tests for randomness. (Otherwise, identification of the test that x
+fails will reduce the descriptive complexity of x, yielding a contradiction.)
+''In this sense, the algorithmic test for randomness is the ultimate test,
+including within it all other computable tests for randomness.''
+
+We now remove the //expectation// from Theorem 14.3.1
+
+[img[Selection_168.png]]
+
+!!__''Universal probability''__
+
+: [img[http://ecx.images-amazon.com/images/I/51nSFgWgn3L._SS36_.jpg]] Imagine a monkey sitting at a keyboard and typing the keys at random.
+
+::Probability of an input program (string), $$p$$, is $$2^{-l(p)}$$. <big><i class="fa fa-hand-o-right" aria-hidden="true"></i></big>simple strings are more likely than complicated strings of the same length.
+
+[img[Selection_169.png]]
+
+__Universality of the universal probability__
+
+[img[Selection_170.png]]
+
+Remark. <b>Bounded likelihood ratio</b> The likelihood ratio $$P_{\mathcal{U}}(x)/P_{\mathcal{A}}(x)$$ is bounded, and doesn't go to $$0$$ or $$\infty$$ for any $$x$$, thus no universal probability can be totally discarded relative to any other in hypothesis testing. This is essentially because any universal computer can simulate any other, and //in that sense// the probability distribution obtained by feeding random input into one is also contained in the distribution obtained in the other.
+
+In that sense we cannot reject the possibility that the universe
+is the output of monkeys typing at a computer. However, we can reject
+the hypothesis that the universe is random (monkeys with no computer). <big><big>😮</big></big>
+
+[img[Selection_171.png]]
+
+<<<
+
+The example indicates that a random input to a computer is much more
+likely to produce “interesting” outputs than a random input to a typewriter.
+We all know that a computer is an intelligence amplifier. Apparently, it
+creates sense from nonsense as well.
+
+<<<
+
+!!__The //halting problem// <i class="fa fa-long-arrow-right" aria-hidden="true"></i> noncomputability of Kolmogorov complexity__
+
+//Epimenides liar pradox// <i class="fa fa-long-arrow-right" aria-hidden="true"></i> Godels incompleteness theorem <i class="fa fa-long-arrow-right" aria-hidden="true"></i> Halting problem
+
+Related: //Berry's paradox// and //Bechenbach's paradox//
+
+!!__Chaitin's $$\Omega$$__
+
+__Definition__
+
+[img[Selection_172.png]]
+
+__Properties__:
+
+1. $$\Omega$$ //is noncomputable//
+
+2. $$\Omega$$ //is a "philosopher's stone"//, or an oracle. Knowledge of $$\Omega$$ to $$n$$ bits can be used to prove any theorem for which {a proof expressible in less than $$n$$ bits exists}.
+
+3. $$\Omega$$ //is algorithmically random//.
+
+__Theorem__ 14.8.1. $$\Omega$$ //cannot be compressed by more than a constant; that is, there exits a constant $$c$$ such that//
+
+$$K(\omega_1\omega_2...\omega_n) \geq n-c$$     //for all $$n$$//
+
+!!__Universal gambling__
+
+the universal gambling scheme on a
+random sequence does asymptotically as well as a scheme that uses prior
+knowledge of the true distribution!
+
+!!![[Universal prediction|http://cbio.ensmp.fr/~jvert/svn/bibli/local/Merhav1998Universal.pdf]]
+
+!!__Occam's razor__
+
+......
+
+!!__''Coding theorem''__
+
+[img[Coding_theorem.png]]
+
+Proof involves an extension of the {//tree construction// used for ''Shannon-Fano-Elias code''s for computable probability distributions} to the uncomputable universal probability distributions.
+
+As stated in the proof in the InfoTheory book, "However, there is no effective procedure to find the lowest depth node corresponding to x". This means that the coding they use in the proof is incomputable. However, they show it exist, and that it can be decoded in finite time, giving a description of the string.
+
+---------------
+
+See also [[Sequence space]]s
+
+---------
+
+http://www.scholarpedia.org/article/Algorithmic_information_theory
+
+<mark>[[The discovery of algorithmic probability|http://world.std.com/~rjs/barc97.pdf]]</mark> Seems like vary nice read. [[Solomonoff's theory of inductive inference|https://en.wikipedia.org/wiki/Solomonoff's_theory_of_inductive_inference]]
+
+[[An Introduction to Kolmogorov Complexity and Its Applications (1 cr)|http://users.ics.aalto.fi/pkaski/kca/]]
+
+[[Algorithmic Learning Theory (ALT) 2016|http://www.comp.nus.edu.sg/~fstephan/alt/alt2016/id.html]]
+
+[[Expanded and improved proof of the relationbetween description complexity and algorithmicprobability|http://www.cs.bu.edu/faculty/gacs/papers/day.pdf]]
+
+[[http://www-igm.univ-mlv.fr/~berstel/Articles/2010HandbookCodes.pdf]]
+
+[[ALGORITHMS OF INFORMATICS|http://compalg.inf.elte.hu/~tony/Oktatas/AlgofInf-Vol1-HTML/Volume1.html]]

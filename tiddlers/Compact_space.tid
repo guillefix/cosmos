@@ -1,0 +1,11 @@
+created: 20160714012759056
+creator: guillefix
+modified: 20160714013005341
+modifier: guillefix
+title: Compact space
+
+A [[Topological space]] $$X$$ is //compact// if every [[Filter base]] $$\mathcal{B}$$ on $$X$$ has an accumulation point. That is, there exists $$x \in X$$ such that
+
+for all $$N \in \mathcal{N}(x)$$, for all $$A \in \mathcal{B}$$, $$N \cap A \neq \emptyset$$.
+
+An alternative, well-known definition involves properties of ‘coverings’ of X by families of open sets. 

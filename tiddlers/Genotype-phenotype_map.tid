@@ -1,0 +1,32 @@
+created: 20160623193002413
+creator: guillefix
+modified: 20160721131844688
+modifier: guillefix
+tags: 
+title: Genotype-phenotype map
+
+Map between a //coding space// (genotype), and another space, called the //phenotype//. These appear, for instance, in [[Evolution]].
+
+See [[MMathPhys oral presentation]]
+
+[img[http://1.bp.blogspot.com/-T7ODIpnghZ4/UGY43-q09OI/AAAAAAAABgA/5I_P0s_I8A4/s1600/Stadler2002_fig1.png]]
+
+[img[http://vincentcastric.weebly.com/uploads/4/8/6/3/48639343/1427140115.png]]
+
+[[Genotype–phenotype mapping and the end of the ‘genes as blueprint’ metaphor|http://rstb.royalsocietypublishing.org/content/365/1540/557#sec-4]]
+
+//Developmental encoding// or indirect encoding: you encode the instructions to //build// the system (by [[Morphogenesis]]), instead of the system itself (direct encoding). See [[Neuroevolution: Direct and Indirect Encoding of Networks|https://en.wikipedia.org/wiki/Neuroevolution#Direct_and_Indirect_Encoding_of_Networks]]. [[Comparing direct and developmental encoding schemes in artificial evolution|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.343.1539&rep=rep1&type=pdf]]
+
+[[Genotype-phenotype maps - Stadler|https://www.tbi.univie.ac.at/papers/Abstracts/02-pfs-002.pdf]] Ideas extending standard topology to explore the spaces defined by GPMs
+
+[[Evolving scalable and modular adaptive networks with Developmental Symbolic Encoding|http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3161195/]] Ideas of evolvable GPMs, evolving evolvability, etc.
+
+__Effects__
+
+[[Bias in GP maps]]
+
+[[Simplicity bias]]
+
+__Related concepts__
+
+[[Basin of attraction]]

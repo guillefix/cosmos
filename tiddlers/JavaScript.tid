@@ -1,0 +1,78 @@
+created: 20160620152912615
+creator: guillefix
+modified: 20160715193738918
+modifier: guillefix
+title: JavaScript
+
+//The language of the web//
+
+A [[Programming]] language, often used for [[Frontend web development]]. 
+
+!!![[Redux|http://redux.js.org/docs/basics/Store.html]] is a nice functional programming-like framework for [[React|https://facebook.github.io/react/]]. Learn [[redux|https://www.youtube.com/watch?annotation_id=d112cc03-a081-455c-99e4-4f6a60460b90&feature=cards&list=PLuykYQ1am9zY9-O-Y8w7uISxLjQLcPmN4&src_vid=j5a9l1Td2Lo&v=hmwBow1PUuo]].
+
+[[Javascript in one pic|http://coodict.github.io/javascript-in-one-pic/]]
+
+!!__JS libraries__
+
+https://github.com/dominictarr/hyperscript
+
+!!!__[[Functional programming on JavaScript]]__
+
+!!![[JS animation libraries]]
+
+!!![[Meteor (JS)]]
+
+!!![[Math JS libraries]]
+
+[[Graphics and visualization web libraries]]
+
+[[5 JAVASCRIPT LIBRARIES FOR JULY 2016|http://www.devstrend.com/5-javascript-libraries-july-2016/]]
+
+!!!__Other__
+
+https://jsx.github.io/
+
+Reactive programming: http://reactivex.io/
+
+OOP on JS: https://github.com/jneen/pjs
+
+http://requirejs.org/docs/commonjs.html
+
+http://requirejs.org/
+
+http://www.typescriptlang.org/Tutorial
+
+http://brackets.io/
+
+https://react.rocks/
+
+https://material.angularjs.org/latest/
+
+https://getmdl.io/
+
+https://www.polymer-project.org/1.0/
+
+Animation and graphics:
+https://www.khanacademy.org/computing/computer-programming
+https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL
+
+Data structures: http://jnuno.com/tree-model-js/
+
+[[Functional programming]]: [[Functional programming in Javascript|https://www.youtube.com/watch?v=1DMolJ2FrNY&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84#t=71.591166]] Functional progr JS library: http://ramdajs.com/0.19.1/index.html.  https://lodash.com/. This looks awesome: http://elm-lang.org/
+
+
+Other tools: https://babeljs.io/docs/setup/ To compile ECMAscript 2015 to normal compatible JS !! Meteor has ES6 package already
+
+Testing: https://github.com/sindresorhus/ava for concurrent testing
+
+-----------------------
+
+Other JS-related languages
+
+__TypeScript__
+
+http://stackoverflow.com/questions/14412164/is-there-a-tool-to-convert-javascript-files-to-typescript
+
+http://www.typescriptlang.org/
+
+__Coffeescript__

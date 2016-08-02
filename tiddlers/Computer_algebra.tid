@@ -1,0 +1,44 @@
+created: 20160203110906311
+creator: guillefix
+modified: 20160712161241557
+modifier: guillefix
+tags: [[Computational mathematics]]
+title: Computer algebra
+
+https://en.wikipedia.org/wiki/Computer_algebra_system
+
+http://epubs.siam.org/doi/book/10.1137/1.9781611971033
+
+http://homepages.math.uic.edu/~jan/mcs320/
+
+Project MAC (the Project on Mathematics and Computation, later backronymed to Multiple Access Computer, Machine Aided Cognitions, or Man and Computer)
+
+Joel Cohen - Computer algebra and symbolic computation books
+
+[[Intelligent computer algebra system: Myth, fancy or reality?|http://link.springer.com/chapter/10.1007/3-540-18928-9_2]]
+
+__CASs__
+
+[[Sage|Sage (CAS)]]/numpy/sympy...
+Matlab.
+Mathematica.
+Maple.
+Maxima/Macsyma.
+GAP.
+Axiom.
+
+Web notebook: [[IPython and Jupyter notebook|https://ipython.org/]] http://jupyter.readthedocs.org/en/latest/running.html
+
+Torch + IPython = iTorch: https://github.com/facebook/iTorch
+
+!!__Computer algebraic geometry__
+
+!!__Computer linear algebra__
+
+[[Basic Linear Algebra Subprograms|https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms]]
+
+http://www.openblas.net/
+
+[[LAPACK |http://www.netlib.org/lapack/]]
+
+!!__Other computer algebras__

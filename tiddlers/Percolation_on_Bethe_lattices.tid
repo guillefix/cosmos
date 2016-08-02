@@ -1,0 +1,17 @@
+created: 20160611163453241
+creator: guillefix
+modified: 20160611163943674
+modifier: guillefix
+title: Percolation on Bethe lattices
+
+The Bethe lattice is defined as a graph of infinite points each connected to z neighbors (the coordination number) such that no closed loops exist in the geometry
+
+[img width=300 [http://i.imgur.com/26IMEOd.png]]
+
+They are related to Cayley trees.
+
+Several results exist for [[Percolation]] on these lattices. For instance, their [[Percolation threshold]] is $$p_c = 1/(z-1)$$, for any $$z \geq 3$$.
+
+[img[http://i.imgur.com/uubwz9d.png]]
+
+See also the chapter on this on the phase transitions book by Sole.

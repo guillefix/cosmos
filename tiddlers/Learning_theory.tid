@@ -1,0 +1,40 @@
+created: 20160709004653144
+creator: guillefix
+modified: 20160726015803802
+modifier: guillefix
+title: Learning theory
+
+See [[Machine learning]]
+
+Mathematical theory of learning.
+
+''Learning problem'': Design a system that improves on its ability to perform task T, as measured by performance measure P, by going through experience E.
+
+__Empirical risk minimization__
+
+''Minimize a cost function'', which often is the negative log likelihood (similar to entropy. More precisely, cross-entropy, or relative entropy), which corresponds to ''maximizing likelihood''. Likelihood is the probability of getting the right $$y$$ given $$x$$ and $$\theta$$, i.e. the probability that a given model predicts the right outputs. This is equivalent to finding the most likely $$\theta$$ in the Bayesian posterior, given a flat prior (but if we add a ''regularizer'', we can tweak the prior, by just adding a term to the log likelihood). If our model uses a Gaussian distribution to predict the data (where the $$\theta$$s are the means), maximizing likelihood is equivalent to minimizing spring energy for springs vertically placed between fit curve and data.
+
+The maximum likelihood is found by [[Optimization]], often by [[Stochastic gradient descent]].
+
+If we want the whole distribution of likelihoods over $$\theta$$s, we need to use Bayesian statistics, which involves doing complicated integrals, often done numerically using [[Montecarlo methods]]
+
+--------------------
+
+[[Causal Inference and Statistical Learning!|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/schoelkopf.pdf]]
+
+[[Predicting Parameters in Deep Learning|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/DeFreitas-NIPS2013_5025.pdf]]
+
+[[The Convex Geometry of Linear Inverse Problems|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/Chandra-overview.pdf]]
+
+//Learning theory and [[Algorithmic information theory]]//
+
+[[Causal inference using the algorithmic Markov condition|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/paper_IEEE_version3_webseite_6526%255b1%255d%20%25282%2529.pdf]]
+
+[[Causal Markov condition for submodular information measures|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/COLT2010-Steudel_%255b0%255d.pdf]]
+
+[[Probality-free causal inference via the Algorithmic Markov Condition|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/slides_Janzing.pdf]]
+
+-------------------
+
+[[Adaptive resonance theory|https://en.wikipedia.org/wiki/Adaptive_resonance_theory]]
+The primary intuition behind the ART model is that object identification and recognition generally occur as a result of the interaction of 'top-down' observer expectations with 'bottom-up' sensory information. The model postulates that <b>'top-down' expectations take the form of a memory template or prototype that is then compared with the actual features of an object as detected by the senses</b>. This comparison gives rise to a measure of category belongingness. As long as this difference between sensation and expectation does not exceed a set threshold called the 'vigilance parameter', the sensed object will be considered a member of the expected class. The system thus offers a solution to the 'plasticity/stability' problem, i.e. the problem of acquiring new knowledge without disrupting existing knowledge.

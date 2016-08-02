@@ -1,0 +1,10 @@
+created: 20160707164751287
+creator: guillefix
+modified: 20160707164846907
+modifier: guillefix
+tags: [[Set theory]] [[Data structure]]
+title: Tuple
+
+An ordered collection of objects.
+
+Tuples are found, for instance, as elements of a [[Cartesian product]]

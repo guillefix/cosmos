@@ -1,0 +1,31 @@
+created: 20160121142938484
+creator: guillefix
+modified: 20160326033419294
+modifier: guillefix
+title: Kramers rate theory
+
+[[Laplace method]] approximation of the [[mean first-passage time|First-passage time]] for a degree of freedom following a Fokker-Planck equation to overcome a barrier. Most easily solved in 1D, where the result is:
+
+[img width=300 class=img-centered [Kramers_escape_time.png]]
+
+which is known as ''Kramers escape time''. The exponential has the same form as the phenomenological Arrhenius equation, and the pre-factor is known as the //inverse attempt frequency//.
+
+It is used to estimate reaction rates in [[Chemical kinetics]] where one defines a //reaction coordinate// approximating the evolution of the relevant molecules and their potential energy.
+
+__Barrier crossover time from probability distribution__
+
+Can use the (conditional) probability distribution $$P(x,t|x_0,t_0)$$ when a barrier is present to calculate the crossover time. This is done by considering the flux $$J$$ (see [[Fokker-Planck equation]]). The probability distribution for crossing the barrier is then:
+
+$$P(t) = \frac{J(\Delta x, t| - \Delta x, t_0)}{\int_0^\infty dt J(\Delta x, t| - \Delta x, t_0)}$$
+
+where we assume the barrier is at $$0$$, so that $$- \Delta x$$ and $$\Delta x$$ are at opposite sides.
+
+The probability distribution for crossing the barrier above, is the same as the probability distribution for the first passage time. To understand why we use the flux (current, $$J$$) to calculate this, imagine many instances of the Brownian particle in the potential. We can approximate the above $$P(t)$$ by just considering frequencies, in the limit of infinite instances. Now, $$J$$ is just calculated by counting the number of times a particle is found within $$dx$$ of the point $$\Delta x$$, at time $$t$$, multiplied by its velocity at that moment.
+
+Now, consider a first-passage path...
+
+[img[first_passage_path.jpg]]
+
+Well idea is that for every second passage passage path, there is a symmetric one with opposite velocity at measurement point (x,t), that thus cancels it in the sum: 
+
+[img[second_passage_path.jpg]]

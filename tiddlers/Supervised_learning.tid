@@ -1,0 +1,83 @@
+created: 20160327021039036
+creator: guillefix
+modified: 20160725005121554
+modifier: guillefix
+revision: 0
+tags: [[Machine learning]]
+title: Supervised learning
+type: text/vnd.tiddlywiki
+
+Training data consisting on ''inputs and outputs''.
+<small>Other names for inputs: predictors, independent variables, features. Other names for outputs: responses, dependent variables.</small>
+
+In supervised learning, we want to find function relating inputs to outputs, to then be able to predict new outputs from new inputs. Often, we need ''a way to represent the function approximation'', with some parameters (the ''model''), but nonparametric methods also exist (see below). Some example of models:
+
+* Linear functions
+* Kernel (basis) functions, polynomials, Gaussians, etc.
+* [[Artificial neural network]]s
+* [[Support vector machine]]s
+* Generative models.
+
+and a ''learning algorithm'' to find best parameters for the data, so that the model can predict well. See [[Learning theory]].
+
+New paradigm: [[Deep learning]]
+
+!!!__Types of supervised learning algorithms__
+
+[[Generative vs discriminative models|https://www.youtube.com/watch?v=oTtow2Ui8vg&index=5&list=PLD0F06AA0D2E8FFBA]]. See below
+
+Parametric vs non-parametric:
+
+* ''Parametric''. There is a fixed number of parameters that the algorithm fits.
+* ''Non-parametric''. Formally, the number of "parameters" grows with the training set. Here number of parameters basically refers to "amount of information in learned  function". For See [[Nonparametric statistics]] An example is [[Nearest-neighbour classification]].
+
+!!__Discriminative learning__
+
+Learning the function $$p(\text{output}|\text{input})$$. See [[notes|http://cs229.stanford.edu/notes/cs229-notes1.pdf]]
+
+!!!__[[Regression|Regression analysis]]__
+
+Output value is continuous, and quantiative (i.e. it has an ordering, and a notion of closeness (matrix)).
+
+!!!__[[Classification]]__
+
+Output value is discrete, or categorical, or qualitative. No implicit ordering, or closeness on the variables. Simple approach: [[Logistic regression]]
+
+!!!__General methods__
+
+[[Artificial neural network]] (see [[Deep learning]])
+
+[[Support vector machine]]
+
+!!__Generative learning__
+
+Learning the function $$p(\text{input}|\text{output})$$, which can be used to find $$p(\text{output}|\text{input})$$ using [[Baye's theorem]]. 
+See [[notes|http://cs229.stanford.edu/notes/cs229-notes2.pdf]]
+
+!!!__Gaussian discriminant analysis__
+
+!!!__Naive Bayes__
+
+!__Model assessment__
+
+Variance. How much the model varies with fluctuations of the training data, i.e. how //stable// is it.
+
+Bias. How many assumptions the model imposes, i.e. how //flexible// is it. Well that's maybe only one way to look at it..
+
+[[See explanation here|https://www.youtube.com/watch?v=JfkbyODyujw&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=14#t=6m45s]]
+
+!!__Cross-validation__
+
+Test the model on data you haven't used for training.
+
+min-max, average
+
+[[https://www.cs.cmu.edu/~schneide/tut5/node42.html]]
+
+Wikipedia has good explanations: [[https://en.wikipedia.org/wiki/Cross-validation_(statistics)]]
+
+One can show (maybe technical details I don't know..) that given the real distribution of the data, and a sample used for training, one is likely to underestimate the error. So I think cross-validation can be shown rigorously to be good for assessing a model's predictive power (i.e. probability of predicting rightly). See Elements of Statistical Learning book for all details..
+
+It is a way to find out if you are overfitting
+
+Related: https://en.wikipedia.org/wiki/Testing_hypotheses_suggested_by_the_data

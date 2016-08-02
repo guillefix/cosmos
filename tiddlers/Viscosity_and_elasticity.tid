@@ -1,0 +1,47 @@
+created: 20160128235449214
+creator: guillefix
+modified: 20160207211216120
+modifier: guillefix
+tags: [[Fluid dynamics]] [[Condensed matter physics]]
+title: Viscosity and elasticity
+
+!!The response of matter to a shear stress
+
+__Hookean solid__: Shear strain proportional to shear stress. The proportionality constant is $$1/G$$, the //shear modulus//.
+
+__Newtonian fluid__: //Rate// of shear strain proportional to shear stress. The proportionality constant is $$1/\eta$$, the //viscosity//.
+
+__Viscoelastic materials__: Different responses at different time-scales. Often: elastic response with fixed strain when stress is first applied, but after a //relaxation time//, $$\tau$$, the fluid becomes viscous and the strain then increases linearly.
+
+[img[viscoelastic.png]] Fig 1.
+
+__Shear-thinning fluid__: Viscosity decreases with shear rate.
+
+__Shear-thickening fluid__: Viscosity increases with shear rate.
+
+The latter three behaviours can often be associated with the fluid being a dispersion of colloidal particles.
+
+In reality, all fluids are slightly viscoelastic, but the relaxation times are very small indeed. When you apply a stress to a fluid, its energy instantaneously increases because you are pushing atoms together. This exerts back a force that sustains the stress momentarily. The difference between a fluid and a solid, is that the fluid can very quickly rearrange the atoms to a state of lower stress (without needing to break many expensive bonds due to the crystalline order). The key for the fluid to have an instantaneous shear modulus though, is that the timescale for the opposing force from compressing the atoms together to emerge is still less than the relaxation time, I think.
+
+A way to estimate this relaxation time for the fluid is by considering the atoms that get trapped in "cages" by neighbouring atoms
+
+[img[atom_trapped_in_liquid.png]]
+
+This atom is a higher energy (and lower entropy) state and to relax needs to overcome the potential barrier due to its neighbouring atoms. Due to the stochastic nature of this process, the relaxation time will follow an Arrhenius behavior with $$\tau \sim \nu \exp(-\frac{\epsilon}{kT})$$ (where $$\nu$$ is the "frequency" of attempts to scape). Plugging in measured or estimated values, this gives $$10^{-12}$$--$$10^{-10}$$s, which explains why the fluid appears viscous in the timescales of most experiments. By looking at Fig. 1, we can estimate the viscosity of a fluid to be $$G_0 \tau$$, which thus depends rather strongly on temperature. This turns out to be the basis for the liquid to glassy transition.
+
+However, as the temperature approaches the glass transition temperature, the temperature dependence of the relaxation time (and thus viscosity) changes. The viscosity in fact is found to appear  to diverge at a finite temperature, as described by the __Vogel-Fulcher law__. As the relaxation time becomes large enough the system falls out of equilibrium with respect to experimental time scales, and the liquid forms a __[[glass]]__. The transition to a glass is however not a (thermodynamic) phase transition. It depends on the rate at which we lower the temperature, and it is in fact a __kinetic transition__ (see Soft matter Jones book secion 2.4). The situation here is sometimes called broken ergodicity (I think: isn't this similar to what happens in phase transitions with spontaneously broken symmetries?
+
+While there is no full theory of glass formation yet, a few have been proposed. An early approach is the free volume theory but its assumptions are questionable and sometimes predictions don't agree with experiment. More modern theories use the idea of __cooperativity__: as the temperature is lowered, the density is lowered too, and the molecules get more "cramped" together. Then, for a molecule to move its neighbours must move in a certain cooperative fashion. See work by Adam and GIbbs.
+
+__Elasticity in solids__
+
+Apart from the //shear modulus// described above for Hookean solids, there are also:
+
+* Young's modulus ($$E$$), ratio of stress to strain for tensile stress.
+* Bulk modulus ($$K$$). Ratio of stress over fractional volume change for uniform stress from all directions (isotropic).
+
+A simple calculation (see Soft matter Jones book page 13) shows that for a Hookean solid (atoms connected by Hookean springs), Young modulus is $$k/a$$, where $$k$$ is spring constant per spring, and $$a$$ is equilibrium interatomic separation. By considering a real potential expanded around its minimum (and considering the typical shape of this potential, like a Lenard-Jones potential), we can see that this is on the order $$\epsilon/a^3$$, where $$\epsilon$$ is the energy of the interatomic potential minimum, i.e. the bond energy.
+
+This means that a material with a high density of strong bonds is still, while a material with a low density of weak bonds is floppy (soft).
+
+It is important to note that real solids are in fact observed to exhibit a kind of viscosity. If the stress is applied long enough, a solid with impurities, dislocations, etc. can //creep// when these dislocations move around (as they only involve the breaking of a few bonds, they are <big>much</big> more likely than a perfect crystal's strain incresing). See Principles of CMP book, also remember how stable the square lattices of bucky balls were?

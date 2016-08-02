@@ -1,0 +1,13 @@
+created: 20160611161617817
+creator: guillefix
+modified: 20160611161724794
+modifier: guillefix
+title: Distribution of sizes for the small clusters in percolation models
+
+A quantity of interesting in [[Percolation theory]] is the distribution of sizes for the small clusters in percolation models. 
+
+This can be quantified by the total number of clusters of size $$s$$, $$n_s$$. Sometimes one works with $$n_s/N$$ instead, to eliminate the scaling with $$N$$ that would make $$n_s \rightarrow \infty$$ as $$N \rightarrow \infty$$. 
+
+One can also work with the __probability that a random node belongs to a cluster of size $$s$$__, which can be easily seen to be $$\pi_s = \frac{s n_s}{N} = \frac{\#\text{ of nodes in clusters of size }s}{\text{total }\#\text{ of nodes}}$$. This is clearly the probability of picking a node inside a cluster of size $$s$$ given a particular network configuration. In the case of [[Percolation on random graphs and networks]], it's also the probability that a random network configuration (following the appropriate probability distribution defining the network ensemble) makes a particular chosen node be in a cluster of size $$s$$. This is because the two operations are statistically independent.
+
+$$\pi_s$$ can be shown to decrease exponentially with s in the subcritical regime, and it decays more slowly in the supercritical regime. (see [[here|file:///home/guillefix/Dropbox/COSMOS/Mathematics/Others/%5BGeoffrey_R._Grimmett%5D_Percolation.djvu]]). At the critical point, the cluster size follows a power law distribution (as do for instance avalanche sizes in the sandpile model at criticality).

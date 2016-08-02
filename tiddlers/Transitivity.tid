@@ -1,0 +1,9 @@
+created: 20160713225727958
+creator: guillefix
+modified: 20160713225800218
+modifier: guillefix
+title: Transitivity
+
+''Transitivity'' refers to a property of a binary [[Relation]], $$R$$ on $$X$$:
+
+|for all $$x, y, z \in X$$, if $$x R y$$ and $$y R z$$, then $$ x R z$$|

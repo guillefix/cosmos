@@ -1,0 +1,9 @@
+created: 20160122225300021
+creator: guillefix
+list-after: Geometry
+modified: 20160329142826265
+modifier: guillefix
+tags: Mathematics Geometry
+title: Topology
+
+//Things often have a shape// (continued from [[Geometry]]). Topology looks at the "raw" shape, the shape that is invariant under continuous transformations. The standard notion of "shape" is really [[Geometry]] (which includes topology)

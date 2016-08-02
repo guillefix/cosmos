@@ -1,0 +1,24 @@
+created: 20160707163622015
+creator: guillefix
+modified: 20160713230739456
+modifier: guillefix
+title: Relation
+
+A ''relation'' is a subset of a [[Cartesian product]].
+
+A relation is often used to refer to a binary relation, which is a subset of $$X \times Y$$. An element $$x \in X$$ is said to be related to $$y \in Y$$ (denoted $$xRy$$) if the pair $$(x,y) \in R \subset X \times X$$.
+
+A //relation on $$X$$// is used to refer to a subset of $$X \times X$$.
+
+A [[Function]] $$F: X \rightarrow Y$$ defines a relation, but not all relations correspond to functions.
+
+__Examples of relations__
+
+[[Total ordering]] -- 
+[[Partial ordering]]
+
+[[Equivalence relation]]
+
+------------------------
+
+http://mathworld.wolfram.com/Relation.html

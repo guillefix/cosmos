@@ -1,0 +1,22 @@
+created: 20160221115857582
+creator: guillefix
+modified: 20160308170159356
+modifier: guillefix
+tags: Self-organization
+title: Morphogenesis
+
+https://en.wikipedia.org/wiki/Morphogenesis
+
+"How the tiger got its stripes."
+
+Turing foundational paper
+
+__Reaction-diffusion equations__
+
+[[Computer simulation of reaction-diffusion equations|http://www.pacm.princeton.edu/documents/Kimura.pdf]]
+
+[[Simulation in Matlab|http://blogs.mathworks.com/graphics/2015/03/16/how-the-tiger-got-its-stripes/]]
+
+[[Xmorphia|http://mrob.com/pub/comp/xmorphia/index.html]] Nice exploration of the Gray-Scott reaction-difussion DE.
+
+http://mrob.com/pub/comp/xmorphia/pde-uc-classes.html

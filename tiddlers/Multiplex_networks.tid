@@ -1,0 +1,11 @@
+created: 20160527160813263
+creator: guillefix
+modified: 20160527161028545
+modifier: guillefix
+title: Multiplex networks
+
+A network in layers, and with connections between layers; the interconnections between layers are only between a node and its counterpart in the other layer (i.e. the same node). 
+
+http://cosnet.bifi.es/network-theory/multiplex-networks/
+
+[[http://people.maths.ox.ac.uk/~lee/slides_Arenas.pdf]]

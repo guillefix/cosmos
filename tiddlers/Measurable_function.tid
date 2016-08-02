@@ -1,0 +1,14 @@
+created: 20160707162758326
+creator: guillefix
+modified: 20160707165118715
+modifier: guillefix
+title: Measurable function
+
+See [[Measure theory]]
+
+A measurable function between two sets $$X$$ and $$Y$$, belonging to [[Measurable space]]s $$(X, A)$$, and $$(Y, B)$$, is {a [[Function]] $$f: X \rightarrow Y$$, s.t. for any $$E \in B$$, the [[Preimage]] of $$E$$ is in $$A$$}. I.e. the preimage of any set in the [[Sigma-algebra]] of the co-domain is in the [[Sigma-algebra]] of the domain.
+
+------------------------
+
+https://en.wikipedia.org/wiki/Measurable_function
+

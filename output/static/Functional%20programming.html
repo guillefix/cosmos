@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.12" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>Functional programming: Cosmos — a non-linear personal web notebook</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   "><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible" title="More actions">
+
+
+</button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible" title="Edit this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible" title="Close this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Functional programming
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="guillefix.html">
+guillefix
+</a> 28th June 2016 at 4:45am
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"></div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p><a class="tc-tiddlylink-external" href="https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0" rel="noopener noreferrer" target="_blank">Introduction to Functional Programming</a> <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=UIUlFQH4Cvo&amp;list=PLTA0Ta9Qyspa5Nayx0VCHj5AHQJqp1clD" rel="noopener noreferrer" target="_blank">youtube videos</a></p><hr><h3 class=""><u><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=1DMolJ2FrNY&amp;list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84#t=71.591166" rel="noopener noreferrer" target="_blank">Functional programming in Javascript</a></u></h3><ul><li>Higher-order functions: functions that take functions as arguments. Functions are like variables too. Examples:<ul><li>Filter</li><li><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=bCqtb-Z5YGQ&amp;list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&amp;index=2#t=3m20s" rel="noopener noreferrer" target="_blank">map</a>: Transforms arrays</li><li><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=Wl98eZpkp-c&amp;index=3&amp;list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84#t=4m14s" rel="noopener noreferrer" target="_blank">Reduce</a>: iterates through objects in array, with an <em>accumulator</em>. Accumulator can be any data type, <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=1DMolJ2FrNY&amp;list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&amp;index=4#t=6m30" rel="noopener noreferrer" target="_blank">including objects</a>. See <a class="tc-tiddlylink-external" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce" rel="noopener noreferrer" target="_blank">MDN reference</a> too.</li><li><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=CQqwU2Ixu-U&amp;list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&amp;index=5#t=55s" rel="noopener noreferrer" target="_blank">Closures</a>. Functions can access variables outside its scope</li><li><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=iZLP4qOwY8I&amp;index=6&amp;list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84" rel="noopener noreferrer" target="_blank">Currying</a>. Decompose a function so that you first call it with an argument that returns a function, which you then call with second argument, etc. <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=iZLP4qOwY8I&amp;index=6&amp;list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84#t=2m" rel="noopener noreferrer" target="_blank">Basic usage</a>. Can use <a class="tc-tiddlylink-external" href="https://lodash.com/" rel="noopener noreferrer" target="_blank">lodash</a> <a class="tc-tiddlylink-external" href="https://lodash.com/docs#curry" rel="noopener noreferrer" target="_blank">to curry existing functions</a>, see <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=iZLP4qOwY8I&amp;index=6&amp;list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84#t=4m" rel="noopener noreferrer" target="_blank">an example of using lodash</a></li><li><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=k7-N8R0-KY4&amp;index=7&amp;list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84#t=0m24.5s" rel="noopener noreferrer" target="_blank">Recursion</a> is when a function calls itself, until it doesn't.</li><li>Promises. Like callbacks but more powerful as they are <b>composable</b>. <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=2d7s3spWAzo&amp;list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&amp;index=8#t=11m30s" rel="noopener noreferrer" target="_blank">Example</a></li></ul></li><li><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=DisD9ftUyCk" rel="noopener noreferrer" target="_blank">Functors</a>. Objects that hold collections of objects (like arrays) that have the <code>map()</code> function so that one can map these collections to other collections of the same size. One can made the analogy more precise between these and functors in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Category%2520theory.html">Category theory</a> which is very related to functional programming ideas.</li><li>Monoids.</li></ul><hr><p><em>Functional programming languages</em></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=yR9oo0ffJ7I" rel="noopener noreferrer" target="_blank">Clojure</a></p><p>The syntax is so nice. As he says in the vid, there is basically no syntax. It also reminds me of the data structures used for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Computer%2520algebra.html">CAS</a>s</p><p>Lisp</p><p>Scala. <a class="tc-tiddlylink-external" href="https://www.youtube.com/results?search_query=Functional+Programming+Principles+in+Scala" rel="noopener noreferrer" target="_blank">yt vids</a></p><p>Scheme</p><p>Haskell. <a class="tc-tiddlylink-external" href="http://learnyouahaskell.com/" rel="noopener noreferrer" target="_blank">http://learnyouahaskell.com/</a></p></div>
+
+
+
+</div>
+
+</p>
+
+</section>
+</body>
+</html>

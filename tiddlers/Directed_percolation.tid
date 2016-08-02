@@ -1,0 +1,35 @@
+created: 20160615220908985
+creator: guillefix
+modified: 20160616182342666
+modifier: guillefix
+title: Directed percolation
+
+[[Percolation]] on a directed [[Network|Network science]]. Most of the time, it refers to percolation on a directed lattice where the direction of the edges is constrained to certain directions in the space. This is applied for instance to water percolating down a porous medium, where in this case gravity imposes a preferred direction.
+
+It is in a different universality class than undirected bond percolation. It can be described by an [[stochastic process|Stochastic processes]] similar to models describing [[Epidemics on networks]].
+
+https://en.wikipedia.org/wiki/Directed_percolation
+
+[[http://guava.physics.uiuc.edu/~nigel/courses/563/Essays_2013/PDF/wolin.pdf]]
+
+[[Directed lattices: site-to-bond conversion and its uses for the percolation and dilute polymer transitions|http://link.springer.com/article/10.1007/BF01357518]]
+
+[[Percolation in directed scale-free networks|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.66.015104]]
+
+[[New universality for spatially disordered cellular automata and directed percolation|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.57.90]]
+
+[[Exhaustive percolation on random networks|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.74.036113]]
+
+See also [[Dynamical systems on networks]]. It also has relations to sandpile models in the study [[Self-organized criticality]]
+
+[[Directed percolation and Sandpile models - 1 by Deepak Dhar|https://www.youtube.com/watch?v=30WNNl5Fj7s]]
+
+[[New universality for spatially disordered cellular automata and directed percolation|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.57.90]]
+
+[[Directed percolation and Reggeon field theory|http://iopscience.iop.org/article/10.1088/0305-4470/13/12/002/meta]]
+
+[[Equivalence of Cellular Automata to Ising Models and Directed Percolation|http://journals.aps.org/prl/pdf/10.1103/PhysRevLett.53.311]] See [[Cellular automata]]
+
+[[Are Damage Spreading Transitions Generically in the Universality Class of Directed Percolation? |http://download.springer.com/static/pdf/307/art%253A10.1007%252FBF02179381.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2FBF02179381&token2=exp=1466080939~acl=%2Fstatic%2Fpdf%2F307%2Fart%25253A10.1007%25252FBF02179381.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Farticle%252F10.1007%252FBF02179381*~hmac=a987e45e8b3c52785be23f41be3ca9e0aed3b57d84b025add86b7fc995829ded]]
+
+<mark>Understand the different kinds of universality classes better (see [[Critical phenomena]])</mark>.

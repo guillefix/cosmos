@@ -1,0 +1,18 @@
+created: 20160119153735707
+creator: guillefix
+modified: 20160119155649563
+modifier: guillefix
+title: Acyclic networks
+
+They can always be drawn with the vertices arranged so that all edges point downward as in Fig 1. Also all cycles that can be arranged like this are acyclic.
+
+[img[Acyclic Network Figure]] Fig 1.
+
+From the proof of this fact one can deduce an algorithm for finding if a network is acyclic or not:
+
+[img[network2.PNG]]
+
+Furthermore, the //adjacency matrix// of such a graph can always be made upper-diagonal with zeros on diagonal (as no self-loops). The eigenvalues of an acyclic graph are thus all zero. One can also show the opposite, thus:
+
+|!A network is acyclic //if and only if// it has a nilpotent adjacency matrix|
+

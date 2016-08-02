@@ -1,0 +1,17 @@
+created: 20160713231945267
+creator: guillefix
+modified: 20160713232717414
+modifier: guillefix
+title: Meet operation
+
+A ''meet'', $$\wedge$$ is an [[operation|Operation (Mathematics)]] defined on elements of a [[poset|Partially ordered set]] $$P$$ (not necessarily all of them) defined as:
+
+The join (or //[[Greatest lower bound]]//) of $$a, b \in P$$ is an element $$a \wedge b \in p$$ such that:
+
+:(a) $$a \wedge b$$ is a //lower bound// of $$a$$ and $$b$$: thus $$a \wedge b$$  \preceq a and $$ a \vee b \preceq b$$;
+
+:(b) $$a \wedge b$$ is the greatest such lower bound: i.e., if there exists $$c \in P$$ such that $$c \preceq a$$ and $$c \preceq b$$ then $$ c \preceq a \vee b$$.
+
+Note that, if it exists, a join is necessarily unique.
+
+See also [[Lattice (algebraic structure)]]

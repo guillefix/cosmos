@@ -1,0 +1,11 @@
+created: 20160130233128156
+creator: guillefix
+modified: 20160629233748425
+modifier: guillefix
+tags: [[Software engineering]]
+title: Dynamic programming
+
+https://en.wikipedia.org/wiki/Dynamic_programming
+
+*Overlapping subproblems -> memorization: record value 1st time it's computed, then look it up subsequently. Table lookup
+*Optimal substructure: global optimal solution can be constructed from optimal solutions to sub-problems.

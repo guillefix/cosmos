@@ -1,0 +1,15 @@
+created: 20160701170646984
+creator: guillefix
+modified: 20160703031339669
+modifier: guillefix
+title: Entropy rate of a finite state process
+
+The [[Entropy rate]] of a FSP, as defined in [[Finite state channel]]
+
+See here: http://pfister.ee.duke.edu/thesis/chap4.pdf
+
+Blackwell (1957): [[The entropy of functions of finite state Markov chains|http://people.eng.unimelb.edu.au/rezaeian/blackwell.pdf]]
+
+Birch (1962): [[Approximations for the Entropy for Functions of Markov Chains |http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.406.6016&rep=rep1&type=pdf]]
+
+See [[Random matrix product]]

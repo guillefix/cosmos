@@ -1,0 +1,7 @@
+created: 20160713225152615
+creator: guillefix
+modified: 20160713225853042
+modifier: guillefix
+title: Pre-order
+
+A ''pre-order'' on a [[Set]] $$X$$ is a (binary) [[Relation]] on $$X$$, that is [[reflexive|Reflexivity]] and [[transitive|Transitivity]].

@@ -1,0 +1,22 @@
+created: 20160703121449051
+creator: guillefix
+modified: 20160705103520290
+modifier: guillefix
+tags: [[Information measures]]
+title: Mutual information
+
+In [[Information theory]], the ''mutual information'' between [[Random variable]]s $$X$$, and $$Y$$ is defined as:
+
+$$I(X;Y) = \sum_{x,y} p(x,y) \log{\frac{p(x,y)}{p(x)p(y)}} = E \log{\frac{p(X,Y)}{p(X)p(Y)}}$$
+
+where $$E$$ denotes expectation. The mutual information measures <b>the amount of information we obtain about $$X$$ by knowing $$Y$$</b> (see result below).
+
+[[video|https://www.youtube.com/watch?v=6RJP5m3m1XA&index=7&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft#t=11m50s]]
+
+[[The mutual information between a random variable and itself is equal to its entropy|https://www.youtube.com/watch?v=6RJP5m3m1XA&index=7&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft#t=13m13s]]
+
+Some results ([[video|https://www.youtube.com/watch?v=6RJP5m3m1XA&index=7&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft#t=14m23s]]):
+
+$$I(X;Y) = H(X) - H(X|Y) = H(Y) - H(Y|X)$$
+
+$$H(X|Y)$$ is the [[Conditional entropy]] and thus gives you the information about $$X$$ that $$Y$$ doesn't give you.

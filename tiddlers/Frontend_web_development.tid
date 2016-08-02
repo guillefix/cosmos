@@ -1,0 +1,60 @@
+created: 20160130002757424
+creator: guillefix
+modified: 20160709133427114
+modifier: guillefix
+tags: [[Web development]]
+title: Frontend web development
+
+Frontend web development
+
+!![[JavaScript]]
+
+https://medium.freecodecamp.com/angular-2-versus-react-there-will-be-blood-66595faafd51#.4bc9n0ott [[ReactJS]] seems better
+
+!!__CSS libraries__
+
+See [[Voxel.css|http://www.voxelcss.com/]] for Minecraft-like stuff in browser
+
+---------
+
+!!!__[[Graphics and visualization web libraries]]__
+
+__<mark>Graphics and visualization</mark>__
+
+
+
+~ ~ ~
+
+[[Maths frontend web libraries]]
+
+http://fortawesome.github.io/Font-Awesome/
+
+[[Webgl|https://en.wikipedia.org/wiki/WebGL]] See chromeexperiments website
+
+Nice 2D webgl lib: http://www.pixijs.com/
+
+voxel.css
+
+http://codepen.io/sha99y8oy/pen/GZZXyL
+
+http://www.effectgames.com/demos/canvascycle/
+
+HTML presentations: impress.js, reveal.js, [[deck.js|http://imakewebthings.com/deck.js/]]
+
+!!!__Audio libraries__
+
+See here: https://musiclab.chromeexperiments.com/Technology
+
+[[Tone.js|https://github.com/Tonejs/Tone.js]]
+
+For microphone input: https://en.wikipedia.org/wiki/WebRTC
+
+!!!__Input libraries__
+
+For accelerometer, gyroscope input (from phone for eg) see chromeexperiments
+
+For microphone input: https://en.wikipedia.org/wiki/WebRTC
+
+!!!__CMS__
+
+[[Jekyll]]

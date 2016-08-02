@@ -1,0 +1,44 @@
+created: 20160609144037045
+creator: guillefix
+modified: 20160610141232011
+modifier: guillefix
+title: Collective behaviour of thermally active colloids
+
+[[Collective behaviour of active colloids]]
+
+!!!__[[Collective Behavior of Thermally Active Colloids|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/prl12_thermactive.pdf]]__
+
+This model doesn't consider the dependence of the interaction on the relative orientation of the colloids. This effect is incorporated in their later model described in the paper on chemotactic colloids, see [[here|Collective behaviour of active colloids]]. It is also incorporated on their paper on [[optically driven thermally active colloids|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/prl14_colloidalswarm.pdf]]. See below.
+
+
+__Thermal interactions__
+
+via self-generated temperature gradient (via half-coating of a dark absorbing material and laser radiation bathing the sample), and the Soret effect, also known as [[Thermophoresis]]
+
+__Fokker-Planck description__
+
+__Regimes__
+
+Depend on the Soret number
+
+-------------------------------
+
+!!!__[[Emergent Cometlike Swarming of Optically Driven Thermally Active Colloids|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/prl14_colloidalswarm.pdf]]__
+
+__Brownian dynamics simulation__ of [[self-thermophoretic|Self-thermophoresis]] colloids. The colloids don't have an intrinsic asymmetry, but there is an asymmetry in their produced temperature fields because of non-uniform illumination of the light-absorbing (dark) colloid. The illumination is assumed to be directed from above downwards, and the effects of shadowing by the colloids above a particular colloid are taken into account using simple geometric optics (as a better optics treatment using light scattering on the particles is computationally very intensive). 
+
+__Comet-like swarms are formed__, with interesting dynamic features, like internal circulation of particles in the swarm, evaporation, and ejection of hot particles from the tip. The high-density head region forms a hot core which pulls the tail of the comet along.
+
+It also drives __thermal and density fluctuations__. The particles at the top have the largest self-propelling velocity $$v_s$$ so that they tend to move up. They are also pulled down by the large hot core (creating large temperature gradients) below them. This interplay of effects cause larger fluctuations than one would expect in an equilibrium system ($$\Delta \rho / \sqrt{\rho}$$). Density fluctuations at the swarm tip and temperature fluctuations are intertwined due to the transient appearance of heat sources.
+
+[img[http://i.imgur.com/mGRuKAK.png]]
+
+|$$\vec{v}_T$$ is the drift velocity of the thermophoretic attraction due to the far-field temperature field gradient created by a particle causing a thermophoretic response on the other (here we assume Soret coefficient is negative so that they attract (particle climbs up $$T$$ gradients)).|
+
+|$$\vec{v}_s$$ is the self-thermophoretic drift velcotiy due to the particle interacting with the temperature gradient on its surface created by its own non-uniform illumination.|
+
+The swarm is a long-lived but transient structure; it is subject to a slow leakage that eventually dissolves it. It looses particles linearly with time
+
+__Velocity of swarm__
+
+If there are approximately $$N_h$$ particles in the head, and $$N_t$$ particles in the tail, then the whole swarm experiences approximately a self-thermophoretic drift velocity (due to the external illumination) of $$v_0 N_h$$ because approximately, only the particles at the head are illuminated. Now the drift for a single particle is $$v_0 = f/\eta$$ where f is the self-thermophoretic force and $$\eta$$ is the drag coefficient. Now the whole swarm experiences a force $$N_h f$$. However, because there are $$N_h + N_t$$ particles in the swarm, its effective drag coefficient is $$N_h + N_t$$ times the drag coefficient of a single particle, i.e. $$(N_h + N_t) \eta$$. Therefore the drift velocity of the swarm, $$V_{\text{swarm}} = \frac{N_h f}{(N_h + N_t) \eta} = \frac{N_h v_0}{N_h + N_t} =  \frac{R_\perp v_0}{R_\perp + R_{||}}$$. The last expression comes from estimating the ratio of the number of colloids in the head and in the tail from its shape as $$N_h/R_\perp \sim N_t / R_{||}$$, where $$R_\perp$$ is the width (radius perpendicular to the light source), and $$R_{||}$$ is the length, or height of the swarm.

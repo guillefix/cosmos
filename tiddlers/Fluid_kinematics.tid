@@ -1,0 +1,17 @@
+created: 20160502115151378
+creator: guillefix
+modified: 20160622011811943
+modifier: guillefix
+title: Fluid kinematics
+
+''Fluid kinematics'' is the branch of [[Fluid mechanics]] that (just like kinematics, in [[Mechanics]]) describes the possible motion of fluids.
+
+Flow can be decomposed into:
+
+* translation
+* rotation
+* strain
+
+Pure shear is a combination of rotation and strain.
+
+[[Kevin's circulation theorem]]

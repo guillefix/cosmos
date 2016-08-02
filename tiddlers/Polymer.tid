@@ -1,0 +1,42 @@
+created: 20160511100535353
+creator: guillefix
+modified: 20160511121229291
+modifier: guillefix
+tags: 
+title: Polymer
+
+A ''polymer'' is a molecule composed of a small molecular unit repeating in a chain; usually $$>100$$ units. The chain may have complicated topology, like branches, or cross-links. Links can also be made between different polymers (of different chemical composition for instance). These all determine the <b>polymer architecture</b>.
+
+[[Polymer physics]]
+
+Polymer chemistry
+
+Example of polymer: https://en.wikipedia.org/wiki/Polystyrene
+
+!!__Examples of polymers__
+
+* [[Plastic]]s,
+* [[Rubber]]s,
+* [[Latex]], 
+* Many [[Adhesive]]s
+* Many [[Lubcricants|https://en.wikipedia.org/wiki/Lubricant]]
+* Many [[Viscosity Modifiers|http://link.springer.com/referenceworkentry/10.1007%2F978-3-642-22647-2_154]]
+* Conductive polymer
+* Biopolymers:
+** [[Protein]]s: polymers of [[Aminoacid]]s.
+** [[DNA]] and [[RNA]]: polymers of nucleotides.
+** Polysaccarides
+
+!!__[[Polymer architecture|https://en.wikipedia.org/wiki/Polymer_architecture]]__
+
+Main architectures:
+
+* Linear-chain polymer
+* [[Branched|https://en.wikipedia.org/wiki/Branching_(polymer_chemistry)]] polymers. [[Plastic films|https://en.wikipedia.org/wiki/Plastic_film]] are somtimes branched polymers.
+* Cross-linked
+
+More specific examples of architectures:
+
+[img width=600 [https://upload.wikimedia.org/wikipedia/commons/3/32/RAFT_Architecture.png]]
+
+Interestingly, when one closes a linear-chain polymer into a loop, the viscosity drops dramatically.

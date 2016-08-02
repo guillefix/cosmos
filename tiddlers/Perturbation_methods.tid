@@ -1,0 +1,68 @@
+created: 20160208142538646
+creator: guillefix
+modified: 20160502125343188
+modifier: guillefix
+tags: [[Mathematical methods]] MMathPhys
+title: Perturbation methods
+
+See [[SimpleMind mindmap|https://www.dropbox.com/s/55nz2eh5mvzc06o/Perturbation%20methods.pdf?dl=0]] and notes and [[problem sets|https://www.dropbox.com/s/h7j9v4wp8anlvw3/Perturbation%20Methods%20Homework%20%281%29.pdf?dl=0]] in LectureNotes
+
+[[Notes from tablet|https://www.dropbox.com/s/b4pcb5o4h798z1n/Perturbation%20methods%20%281%29.pdf?dl=0]]
+
+See also lectures on YB from Bender (at PI)
+
+''Perturbation methods'' explore the existence of a __small or large parameter__ to derive systematically a precise approximation. More art than science, building experience is valuable.
+
+There are two methods for obtaining precise approximations: numerical methods and analytical (asymptotic) methods. These are not in competition but complemen teach other. Perturbation methods work when some parameter is large or small. Numerical methods work best when all parameters are order one. Agreement between the two methods is reassuring when doing research. Perturbation methods often give more physical insight.
+
+[[Course materials|https://www0.maths.ox.ac.uk/courses/course/28754]], [[notes|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3128/3/PerturbationMethodsSupplementaryNotes.pdf]]
+
+See reading list there
+
+!!__Mathematical foundation__: [[Asymptotic approximation]]
+
+!Applications
+
+!![[Perturbation methods for algebraic equations]]
+
+!![[Asymptotic approximation of integrals]]
+
+!!__Perturbation methods for differential equations__
+
+!!!__Local analysis__
+
+!!![[Local analysis of differential equations]]
+
+(as discussed in Bender's book Part 2. Is this the same as ''regular perturbation'' methods, as discussed in Hinch's book? I think so).
+
+!!!__Global analysis__
+
+Mostly for problems with regions of very different speed of change. These are ''singular perturbation problems'', often when the small parameter $$\epsilon$$ is multiplying the highest derivative. Then the $$\epsilon=0$$ problem is of lower order, and will in general not be able to satisfy all the boundary conditions of the original problem
+
+
+
+!!![[Matched asymptotic expansions]]
+
+!!![[Method of multiple scales]]
+
+!!![[WKB method]]
+
+I wonder if there are analogous to these methods to algebraic equations. Maybe through the Perturbation methods for difference equations, which are closer to algebraic equations.
+
+!!__Perturbation methods for difference equations__
+
+These are described in Bender's book
+
+-----------
+
+[[Laplace's method|https://www.math.unl.edu/~scohn1/8423/intasym1.pdf]]
+
+-----
+
+//Books//:
+
+Hinch
+
+Bender and Orzsag
+
+..

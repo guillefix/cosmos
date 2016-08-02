@@ -1,0 +1,124 @@
+created: 20160117160329563
+creator: guillefix
+modified: 20160627205500787
+modifier: guillefix
+tags: [[Non-equilibrium statistical physics]] [[Probability theory]]
+title: Stochastic processes
+
+//Links//
+
+<small>
+
+[[Notes on Nonequilibrium StatPhys MT2015 Oxford (mostly stochastic processes)|https://files.acrobat.com/a/preview/254ad767-71f3-429e-b36b-3d77cf67a6c7]]
+
+[[Nice lecture notes|http://www.thp.uni-koeln.de/~as/Mypage/NonEq/noneq.pdf]]
+
+[[Discrete Stochastic processes MIT course|http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-262-discrete-stochastic-processes-spring-2011/index.htm]]
+
+[[Stochastic processes MIT notes|http://ocw.mit.edu/courses/mathematics/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/lecture-notes/MIT18_S096F13_lecnote5.pdf]]
+
+[[Nice notes on applications of stochastic processes|http://www.math.uwaterloo.ca/~mscott/Little_Notes.pdf]]
+
+[[Wikipedia: Stochastic process|https://en.wikipedia.org/wiki/Stochastic_process]]
+
+[[List of stochastic processes topics|https://en.wikipedia.org/wiki/List_of_stochastic_processes_topics]]
+
+</small>
+
+!!!<mark>Watch</mark>: ''[[Physics - Physical Applications of Stochastic Processes by Prof. V. Balakrishnan|https://www.youtube.com/playlist?list=PLbMVogVj5nJQo8D9D-D6lMqh4FJbPeE_f]]''
+
+--------
+
+''Stochastic processes''
+
+[[Probability theory]]
+
+[[Martingales|https://en.wikipedia.org/wiki/Martingale_(probability_theory)]], [[Martingales Through Measure Theory|https://www0.maths.ox.ac.uk/courses/course/28722/synopsis]]
+
+!! Examples
+
+* [[Brownian motion]]:
+** Paths appear non-differentiable, in continuous space-time limit!
+** In path description, the //noise term// is chosen to be [[Gaussian white noise]].
+
+!! Classification of models
+
+[img width=500 [types_of_random_processes.png]]
+
+* Discreteness
+**Discrete space-time
+***One-step process (can be continuous time too)
+****[[Unbiased random walk|Brownian motion]]
+****[[Biased random walk]]
+****[[Persistent random walk|https://www.youtube.com/watch?v=hHciEDpm1sE&index=9&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l]] (it can be seen as having memory, i.e. being non-Markovian).
+***Multi-step processes
+**Continuous space-time
+***[[Diffusion]]
+***[[Kramers-Moyal expansion]]. To get continuous models from discrete ones.
+***Orientation space. See [[Stochastic dynamics of orientation]].
+**Continuous space-discrete time
+**Discrete space-continuous time
+
+*Memory
+**Memoryless (only dependent on current state) $$\rightarrow$$ [[Markov process]]. Most of the stochastic processed used and studied in practice are Markov.
+
+
+!! Descriptions
+
+All these generally are Markov processes
+
+*Continuous space-time
+**__Path description__
+***Stochastic differential equations. Like: [[Langevin equation]]
+***[[Path integrals for stochastic processes]]
+**__Probability description__. Obtained from path description by averaging, essentially. Gives differential equations for probability density, like:
+***[[Fokker-Planck equation]]
+
+*Discrete space
+**Probability description $$\rightarrow$$ [[Master equation]]
+***Discrete time $$\rightarrow$$ Difference equation. //Discrete time master equation//.
+***Continuous time $$\rightarrow$$ Differential //Continuous time master equation//.
+
+*Continuous space-discrete time //??//. An example is the beginning of the derivation for Brownian motion by Einstein
+
+!! Important results
+
+*[[Dissipation-fluctuation relation]]. Friction and dissipation are due to the random movements of particles. Fluctuations are too. The coefficients describing them (diffusion coefficient and viscosity) should be related.
+
+!!Computational methods
+
+[[Monte Carlo method]]
+
+!!Other mathematical aspects
+
+https://en.wikipedia.org/wiki/It%C3%B4_calculus
+
+!!Applications
+
+__Chemistry__
+
+[[Chemical kinetics]]
+
+[[Oscillating chemical reactions]]
+
+__Biology__
+
+[[Enzyme kinetics]]
+
+__General phenomena__
+
+[[Number fluctuations]]
+
+__Others__
+
+[[Telegraph noise]]
+
+[[Complex systems]]
+
+-----------
+
+Recent paper by Ramin Golestanian (26th Feb 2016): http://pubs.acs.org/doi/pdf/10.1021/acs.nanolett.5b04372 on power spectrum for electric-field-driven ion transport through nanopores. Apparently Pink noise (noise that has power law power spectrum, instead of flat, as for white), is common place in situations with electric fields, and underlying mechanism not totally understood.
+
+[[https://en.wikipedia.org/wiki/Point_process]]
+
+Stochastic processes with JS: https://www.npmjs.com/package/stochastic

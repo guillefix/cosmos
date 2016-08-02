@@ -1,0 +1,41 @@
+created: 20160602231241581
+creator: guillefix
+modified: 20160616222606163
+modifier: guillefix
+title: Self-diffusiophoresis
+
+In ''Self-diffusiophoresis'' (a kind of [[self-propulsion|Self-propelled particle]]), a particle itself produces the compound it interacts with, through [[Diffusiophoresis]], causing it to move.
+
+Self-phoretic particle. Creates something that it then attracts or repells, and that something then pushes the surrounding fluid (creating a slip velocity). The particle is then indirectly pushing on the fluid.
+Same kind of indirect propulsion as ionocrafts!
+
+Another analogy for the symmetric catalytic [[Active colloid]]s, in the limit that particles of type B are attracted to A, but A is not attracted to B (see [[this paper|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/prl14_activemolecules.pdf]]): B particles are like little [[homing missiles|https://en.wikipedia.org/wiki/Missile_guidance#GOT_systems]] that target A particles.
+
+An example is a particle that catalyzes the reaction 2H,,2,,O,,2,, → 2H,,2,,O + O,,2,,, creating an O,,2,, gradient and interacting with it. Another example is a particle that facilitates the polymerization of a biopolymer (e.g. actin), which creates a gradient because individual monomers diffuse, whereas the polymers do not. The latter process is one possible mechanism for the propulsion of Lysteria bacteria by means of actin 'comet tails'.
+
+[[http://www.sas.upenn.edu/~tidema/research.html]]
+
+--[[Propulsion of a Molecular Machine by Asymmetric Distribution of Reaction Products|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/prl05_motor.pdf]]--
+
+,,[[Propulsion of a Molecular Machine by Asymmetric Distribution of Reaction Products (article)|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.94.220801]],,
+
+"For a totally impermeable particle, depletion of the molecules near its surface causes a lateral slip velocity that results in net motion of the sphere. ". Depletion only if the mobility is positive, which corresponds to the surface of the particle repelling the solvent molecules thus depleting
+
+The diffusiophoretic effects also turn out to contribute to the <b>diffusion</b> of the particle (the induced velocities have a random component), with a diffusion constant that can be estimated.
+
+Consideration of rotational diffusion is important, as it determines the time scale over which the particle is able to move consistently in a given direction.
+
+[[Dynamics and efficiency of a self-propelled, diffusiophoretic swimmer|http://scitation.aip.org/content/aip/journal/jcp/136/6/10.1063/1.3681143]]
+
+[[Self-Diffusiophoresis in the Advection Dominated Regime|https://arxiv.org/pdf/1107.3851v1.pdf]]
+
+__[[Concentration around a self-diffusiophoretic particle]]__
+
+!!!__Diffusiophoresis__
+
+See [[Diffusiophoresis]] for the equations giving the drift velcity of the particle given a particular concentration $$c$$ distribution on its surface (found from above equation).
+
+!!!__[[Designing phoretic micro- and nano-swimmers]]__
+
+!!!__[[Collective behaviour of active colloids]]__
+

@@ -1,0 +1,14 @@
+created: 20160626132624338
+creator: guillefix
+modified: 20160626132856264
+modifier: guillefix
+title: Deterministic finite automaton
+
+[[Deterministic finite automaton|https://en.wikipedia.org/wiki/Deterministic_finite_automaton]] (DFA) is a deterministic [[Finite-state machine]]. See ''[[Deterministic machine|https://www.youtube.com/watch?v=jb_H7SGOyyI&index=2&list=PL601FC994BDD963E4#t=4m24.7s]]''
+
+
+[[Reversing deterministic machines|https://www.youtube.com/watch?v=ceNNyyELhu4&list=PL601FC994BDD963E4&index=6]] 
+
+[[Complete and incomplete deterministic finite automata|https://en.wikipedia.org/wiki/Deterministic_finite_automaton#Complete_and_incomplete_deterministic_finite_automata]]
+
+See also [[Random deterministic automata]]

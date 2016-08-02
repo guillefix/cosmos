@@ -1,0 +1,16 @@
+created: 20160714133415515
+creator: guillefix
+modified: 20160714133845386
+modifier: guillefix
+tags: [[Algebra-like algebraic structures]]
+title: Algebra (algebraic structure)
+
+An ''algebra'' is a family $$R$$ of subsets of a set $$X$$ s.t.:
+
+* $$\emptyset \in R$$
+* Closed under finite unions. $$A,B \in R \Rightarrow A \cup B \in R$$
+* Closed under complements. $$A \in R \Rightarrow X \setminus A \in R$$
+
+If the algebra is closed under countable unions (not just finite), then it is a [[Sigma-algebra]]
+
+[[video|https://www.youtube.com/watch?v=WKdy_OxdUbk#t=17m20s]]

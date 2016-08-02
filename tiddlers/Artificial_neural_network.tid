@@ -1,0 +1,122 @@
+created: 20160124143800337
+creator: guillefix
+modified: 20160712111107600
+modifier: guillefix
+tags: [[Neuronal network]] [[Artificial intelligence]]
+title: Artificial neural network
+
+<small>Aka artificial neural network..</small>
+
+A particularly useful way of representing functions, for problems in [[Machine learning]]. It is a very good model for many problems, and learning algorithms produce very good results with them. In particular __deep learning__ (which uses ANNs with many layers).
+
+[[Hugo Larochelle class videos|https://www.youtube.com/watch?v=apPiZd-qnZ8&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=4]] on [2.9]
+
+Neuron has:
+
+1) ''inputs''
+
+2) ''weight vectors'', that multiplies the input vector or activation vector of hidden layers.
+
+3) ''bias'', that is added to result
+
+4) ''activation function'' takes as argument the result of the above (called pre-activation or input activation)
+
+5) The result (called ''activation'') may be the input of other neurons in the next ''layer'', in a ''multilayer feedforward neural network''.
+
+6) The activation of the last layer, is the ''output''
+
+Overall... we are multiplying by matrices and applying simple nonlinear function
+
+
+__Universal approximator theorem__
+
+See paper mentioned in Hugo's vid, //single hidden layer ANNs can approximate any continuous function with sufficiently many neurons in the hidden layer//. There may not be a //learning algorithm// to find the right parameter set though.
+
+!!!__[[Optimization]]__
+
+Learning by minimizing cost funciton
+
+Using SDG. An efficient algorithm to compute the gradients of the loss function w.r.t. the ANN's parameters is [[backpropagation|https://www.youtube.com/watch?v=_KoWTD8T45Q&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=13]].
+
+''Backpropagaion''. It effectively uses the chain rule to compute the gradient w.r.t. parameters at one layer with the values of the gradients w.r.t. parameters at the layer above (deeper).
+
+[[Efficient BackProp|http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf]]
+
+[img[https://lh3.googleusercontent.com/meJWmYC_T9cKaz8S8k2j6jmtl1etx-hIwqUN_zl-zgvcGRr1egcKaV_zOzwtIXeKQfyDvTjw51awxmEMwd8iJhN4m9ObNRTPCTNlppjfbrIFGo3ieepSq4EIjx9f4xRPrgpjuHo5PaMCsaM8_weYjQ868FpSHcGcGR5L2IsTgJHiI-AwapSYqofABQYhctmN1-QQTeUSUMM6xui7uX0b9WsTQtyrIPHtwWNczcsYy2vedasGcSOLpP8_8vecJ6hCN_PnkpRa2U8KxhdNiGGshcWeFCvJ48CKQfc_JjLoNDB4D8lDPq8KYnPqzW3zAVzTy6ebBFEXvXnMjwF0vun-j9uJsjadbv3XjJscF2Vw1LkA-msoTk7QBDrfdDy1Sp5l15Kug98zDwvsR-14h5Pv4QmIEm5wlGQfaT9vo7kCYP_b40HMu9umj3gGtMcMNiB1hZ56KWj92hF-PlSYLBA3BRsCuGZlhrON8JMvrYpjHOxf6m5ZVv_XmwJKd8EhoZqozIlQVQssZA8SWqBAAGB8KOsSlElGtmlekDxu6MpiEMMRSYVivwkQAWEKBDPDmVVSWWyZ=w943-h661-no]]
+<small>[image above, wait until it loads, you also need to be signed into google]</small>
+
+[[Video|https://www.youtube.com/watch?v=-YRB0eFxeQA&index=8&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=24m00s]]
+
+[[See this too|https://www.youtube.com/watch?v=NUKp0c4xb8w&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=9#t=35m25s]]
+
+[[Why backprop is more efficient than naive approach|https://www.youtube.com/watch?v=NUKp0c4xb8w&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=9#t=41m50s]]
+
+[[Derivatives wrt the input|https://www.youtube.com/watch?v=-YRB0eFxeQA&index=8&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=43m47s]] give you a way of knowing which part of the input is determining the classification, i.e. where is the cat in the image, for example
+
+!!__Types of neural networks__
+
+* Feedforward (basic)
+
+* [[Convolutional neural network]]. Good for image recognition for e.g.
+
+* [[Recurrent|Recurrent neural network]]. Good for sequences in time
+
+* Long-Short term memory NN.
+
+* [[Spiking neural network]]
+
+-------
+
+!!!__[[Mathematical modelling of neural networks]]__
+
+
+--------
+
+[[A Neural Network in 11 Lines of Python|http://fossbytes.com/a-neural-network-in-11-lines-of-python/]]
+
+__More models, and generalizations__
+
+//Backpropagation//, temporal networks, etc..
+
+[[Visualizing and Understanding Deep Neural Networks by Matt Zeiler|https://www.youtube.com/watch?v=ghEmQSxT6tw]]
+
+--------
+
+Physical implementations:
+
+[[Chemical implementations of neural networks and Turing machines|http://www.dna.caltech.edu/courses/cs191/paperscs191/PNAS(88)10983.pdf]]
+
+http://knowmtech.com/
+
+--------
+
+//More//
+
+Layerless neural networks? See Chico Calmagro's work with Ard Louis.
+
+
+On the complex backpropagation algorithm
+
+[[Neural networks for control systems—A survey|http://www.sciencedirect.com/science/article/pii/000510989290053I]]
+
+[[Genetic deep neural networks using different activation functions for financial data mining|http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7364099&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7364099]]
+
+[[Structure Discovery of Deep Neural Network Based on Evolutionary Algorithms|http://www.merl.com/publications/docs/TR2015-032.pdf]]
+
+[[Genetic algorithms for evolving deep neural networks|http://dl.acm.org/citation.cfm?id=2602287]]
+
+[[Busqueda de la estructura optima de redes neurales con Algoritmos Geneticos y Simulated Annealing. Verificacion con el benchmark PROBEN1|http://polar.lsi.uned.es/revista/index.php/ia/article/viewFile/532/516]]
+
+[[Implementation of Evolutionary Algorithms for Deep Architectures|http://ceur-ws.org/Vol-1315/paper15.pdf]]
+
+See ideas here: Idea for neural network for chemical synethesis and manufacturing etc. Facebook post: [[https://www.facebook.com/guillermovalleperez/posts/10153853693416223?]]
+
+!!!__Statistical mechanics of neural networks__
+
+[[Neural networks and physical systems with emergent collective computational abilities|http://www.pnas.org/content/79/8/2554.short]]
+
+[[Spin-glass models of neural networks|http://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.1007]]
+
+[[Learning and pattern recognition in spin glass models|http://link.springer.com/article/10.1007/BF01304440]]
+
+[[Neural nets : classical results and current problems|http://ir.library.oregonstate.edu/xmlui/handle/1957/28802]]

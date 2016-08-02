@@ -1,0 +1,15 @@
+created: 20160714124823485
+creator: guillefix
+modified: 20160714125325722
+modifier: guillefix
+title: String (Computer science)
+
+A ''string'', in [[Computer science]], [[Information theory]], and [[Mathematics]], is a [[Sequence]] of symbols, where each symbol is a member of a given set, called the alphabet. Strings often refer to finite sequences. See [[here|https://www.youtube.com/watch?v=ZjWHh1mAUsQ]].
+
+These constructions are useful in [[Mathematics]] and [[Computer science]].
+
+__Strings in computer science__
+
+In computer science, strings are one of the fundamental [[Data type]]s used in [[Programming]]. In this case, the symbols are called ''characters''.
+
+However, a string can also be considered as a [[Data structure]]

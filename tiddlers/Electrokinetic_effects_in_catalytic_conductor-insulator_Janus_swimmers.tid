@@ -1,0 +1,26 @@
+created: 20160616230344622
+creator: guillefix
+modified: 20160617161702138
+modifier: guillefix
+title: Electrokinetic effects in catalytic conductor-insulator Janus swimmers
+
+[[Self-propelled particle]], [[Self-electrophoresis]], [[Catalytic conductor-insulator Janus swimmer]]
+
+[[Electrokinetic effects in catalytic platinum-insulator Janus swimmers|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/epl14_salt-janus.pdf]]
+
+"Pt-insulator Janus particles, the absence of conduction between the two hemispheres suggests a mechanism indepen-
+dent of electrokinetics." (referring to the mechanisms that involve movement of electrons in bimetallic swimmers, see [[Self-electrophoresis]]). Thus [[Self-diffusiophoresis]] was suggested. However, as they show in that paper, some electrokinetic effects can still play a role in the Pt-insulator Janus particles.
+
+"We find that their motion is due to a combination of neutral and ionic diffusiophoretic as well as electrophoretic effects whose interplay can be changed by varying the ionic properties of the fluid. " 
+
+One of their main findings is that a gradient of catalyst is required to produce appreciable propulsion velocity for single metal catalytic swimmers.
+
+__Main mechanisms of the electrokinetic effect__
+
+To see the main mechanism of the effect they discover (the mathematical derivation is outlined in the paper), notice that at the pole the catalytic reaction happens faster, and so there is a higher or lower concentration of $$H^+$$ $$e^-$$ pairs depending on whether the reaction is mostly consuming or producing them (see reaction diagram). ,,Notice that the electrons ($$e^-$$) diffuse much faster inside the Pt metal, so that they spread through the Pt hemisphere, while the proton ions ($$H^+$$) diffuse much slower. Note that the electrons will diffuse in such a way that the tangential component in the metal is $$0$$,,. This distribution of charges creates an electric field, that drives the ions in the fluid, propelling the Janus sphere. In the case in the paper, I think the place where the reaction happens faster (near the pole) also consumes $$H^+$$ faster, so there is a depletion of $$H^+$$ there, and a relatively higher concentration near the equator. There is thus a net electric field that pushes the protons from the equator to the pole (i.e. they push each other). They drag the fluid with them too, so that the particle propels itself by this [[self-electrophoretic|Self-electrophoresis]] mechanism.
+
+See also [[Ion Drive for Vesicles and Cells|http://www.sciencedirect.com/science/article/pii/S0022519396900351]]
+
+See [[Colloid Transport by Interfacial Forces|http://www.annualreviews.org/doi/abs/10.1146/annurev.fl.21.010189.000425]] for matched asymptotic analysis of fluid flow. And see paper for chemical reaction kinetic and diffusion equations.
+
+<mark>Why does the double loop topology mean we can reduce overall catalytic reaction rate without significant reduction of colloid velocity?</mark>

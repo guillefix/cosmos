@@ -1,0 +1,104 @@
+created: 20160127170233646
+creator: guillefix
+modified: 20160215233113996
+modifier: guillefix
+title: Measures and metrics for networks
+type: application/x-tiddler
+
+If we know the structure of a network, then we can calculate a number of quantities or measures that capture features of the network topology (and geometry). Originally, a lot of these ideas were developed for //social network analysis//, but they are used elsewhere now too.
+
+!!!Centrality measures
+
+Trying to answer: "Which are the most important or central vertices (or edges, or other substructures) in a network?"
+
+__Degree centrality__
+
+Simply the [[degree of a vertex|Degree of a vertex (Graph theory)]] can be used as a measure of its centrality.
+
+
+__[[Eigenvector centrality]]__
+
+The ''eigenvector centrality'' (first defined by Bonacich in 1987), is defined by:
+
+$$\mathbf{A}\mathbf{x}=\kappa_1 \mathbf{x}$$
+
+where $$\mathbf{x}$$ is the vector of centralities, and $$\kappa$$ is the largest eigenvalue of $$\mathbf{A}$$
+
+A node can be important because it is connected to many nodes, or because it is connected to important nodes, or both.
+
+__[[Katz centrality]]__
+
+Katz centrality solves the problem posed above by giving all  vertices a "free" centrality:
+
+$$\mathbf{x}=\alpha\mathbf{A}\mathbf{x}+\beta \mathbf{1}$$ 
+
+__[[PageRank]]__
+
+
+There is one potentially undesirable feature of Katz centrality. An important vertex pointing to many vertices makes all those vertices important. The centrality gained by virtue of receiving an edge from a prestigious vertex is diluted by being shared with so many others (think a web directory like Google or Yahoo! pointing to my page. My page is not that central because it's just one of millions). We can solve this by making the centrality derived from neighbours be divided by their out degree:
+
+$$x_i = \alpha \sum_j \frac{A_{ij}}{k^{\text{out}}_j}x_j +\beta$$
+
+which is the basis for PageRank
+
+__[[Hubs and authorities (Network theory)]]__
+
+One can distinguish two types of important nodes in directed networks. We describe them for the case of an information network, like WWW first:
+
+*//authorities// are nodes that contain useful information on a topic of interest
+*//hubs// are nodes that point us to the best authorities
+
+This idea was implemented by Kleinberg into the //hyperlink-induced topic search// or //HITS// algorithm.
+
+__[[Closeness centrality]]__
+
+Closeness centraliy of node i is the mean geodesic distance to all others nodes in he network. A variant is //exponentially weighted closeness centrality//:
+
+$$C_C (i) = \sum_{h \in G_i} 2^{-2L_{ij}}$$
+
+where $$L_{ij}$$ is the geodesic distance between node $$i$$ and $$j$$; and $$G_i$$ is the connected network component reachable from $$i$$ (except for $$i$$).
+
+Main disadvantage is its often very low dynamic range (range of values it takes)
+
+There are also problems when there are disconnected components. One way is to define closeness centrality over only connected nodes, or to use harmonic mean (mean of reciprocals, ignoring self distance, as it's 0).
+
+__[[Betweeness centrality]]__
+
+Measures the extent to which a node (or edge, or other substructure) lies on paths between other vertices. These paths can be defined in many ways, but often they are taken to be geodesic paths.
+
+
+__[[Groups of vertices|Groups of vertices (Network theory)]]__
+
+Many networks naturally divide into groups. These are substructures that are prominent for some reason. Simple examples are ''cliques'', ''plexes'' and ''cores''. There are also generalizations of components called ''k-components''.
+
+__Transitivity__
+
+
+[[Transitivity|Transitivity (Graph theory)]] (a property of mathematical relations) in a network is usually applied to the relation "is connected by an edge". So a network is transitive if for every u connected to v and v connected to w, then u is connected to w. One can define the  ''clustering coefficient'', $$C$$, as a measure of "how often" transitivity holds in the network:
+
+$$C=\frac{\text{(number of triangles)}\times 3}{\text{number of connected triples}}$$
+
+__Reciprocity__
+
+For directed simplest graph the smallest loop size is two, instead of three, and thus one often measures the frequency of length-2 loops. This is called //reciprocity// (see [[Transitivity|Transitivity (Graph theory)]] for more comments). Pairs of reciprocated edges (that is edges from i to j where there is also one from j to i) are sometimes called //co-links//. The ''reciprocity'' is defined as the fraction of edges that are reciprocated, and this turns out to equal $$\frac{1}{m} \text{Tr}{\mathbf{A}^2}$$.
+
+__Signed edges and structural balance__
+
+''Signed neworks'' have //signed edges//, that is their edges can have an associated weight $$+1$$ (like friendship) or $$=1$$ (like animosity).
+
+''Structural balance'' refers to the situation when the network contains only loops with even numbers of minus signs. This is so that the (naturally generalized version of the) rule "the enemies of my enemies are my friends", and "the friends of my friends are my friends". This is similar to the concept of "frustration" in spin networks
+
+Harary's theorem tells us that all balanced networks are //clusterable//, i.e. they can be divided into groups with only positive connections within groups and negative between them. Proof given in Newman's book and gives further intuition of concept of balance.
+
+__[[Similarity|Similarity (Network theory)]]__
+
+
+How can we measure the "similarity" of two nodes (or edges, etc.)? Two main approaches. Two nodes may be:
+
+* ''structurally equivalent'': if they share many of the same network neighbours.
+
+* ''regularly equivalent'': have neighbours who are themselves similar.
+
+__Homophily or [[assortative mixing|Assortative mixing]]__
+
+''Homophily'' or ''assortative mixing'' is a bias in favour of connections between network nodes with some similar characteristics.

@@ -1,0 +1,15 @@
+created: 20160510112102885
+creator: guillefix
+modified: 20160510171651094
+modifier: guillefix
+title: Power spectral density
+
+[[The Power Spectral Density (PSD) and the Autocorrelation|http://personal.egr.uri.edu/chelidz/courses/mce567/handouts/psdtheory.pdf]].
+
+A [[periodogram|https://www.stat.tamu.edu/~jnewton/stat626/topics/topics/topic4.pdf]] is a sample estimator for the PSD. See [[here too|https://en.wikipedia.org/wiki/Spectral_density_estimation#Periodogram]]..
+
+[[Power spectral density|https://en.wikipedia.org/wiki/Spectral_density#Power_spectral_density]]
+[[power law PSD|https://www.physionet.org/tutorials/fmnc/node6.html]] [[more on power laws and 1/f noise|http://bactra.org/notebooks/power-laws.html]] ,,[[Fourier Transform--Exponential Function|http://mathworld.wolfram.com/FourierTransformExponentialFunction.html]],, [[Wiener–Khinchin theorem|https://en.wikipedia.org/wiki/Wiener%E2%80%93Khinchin_theorem]]
+[[http://personal.egr.uri.edu/chelidz/courses/mce567/handouts/psdtheory.pdf]]
+
+[[An Interesting Fourier Transform - 1/f Noise|https://www.dsprelated.com/showarticle/40.php]]

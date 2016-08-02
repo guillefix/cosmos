@@ -1,0 +1,30 @@
+created: 20160709020447725
+creator: guillefix
+modified: 20160709024746759
+modifier: guillefix
+tags: [[Supervised learning]]
+title: Classification
+
+Discriminative [[Supervised learning]], where the output value is discrete, or categorical, or qualitative. No implicit ordering, or closeness on the variables.
+
+Many of the same methods as in [[regression|Regression analysis]], as problem is quite similar.
+
+[[Support vector machine]]s. Software for SVMs: http://svmlight.joachims.org/
+
+How do you classify data that lies on an infinite dimensional space
+
+!!Supervised classification
+
+[[Logistic regression]]
+
+[[Artificial neural network]] (see also [[Deep learning]])
+
+----------------
+
+!!!__Ordered categorical classification__
+
+Output has a notion of order, but not closeness, so it's qualitative.
+
+---------------------
+
+https://www.wikiwand.com/en/Statistical_classification

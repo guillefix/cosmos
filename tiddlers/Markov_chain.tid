@@ -1,0 +1,26 @@
+created: 20160628022723876
+creator: guillefix
+modified: 20160704165214086
+modifier: guillefix
+title: Markov chain
+
+[[Markov process]] with a discrete state space. Can have:
+
+* [[Discrete-time Markov chain]]
+* Continuous-time Markov chain
+
+[[Definition of Markov Chain|https://www.youtube.com/watch?v=bPqg0G1-k1U&index=5&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft]]
+
+[[Ergodic theorem for Markov chains|https://www.youtube.com/watch?v=ZjrJpkD3o1w]]
+
+Has applications in theory of [[Stochastic processes]], and in [[Machine learning]]. In particular through a [[Hidden Markov model]]
+
+See also [[Finite state channel]]
+
+Order of a Markov chain. See [[here|https://cw.fel.cvut.cz/wiki/_media/courses/a6m33bin/markov-chains-2.pdf]]
+
+[[Markov subchains|https://www.youtube.com/watch?v=bPqg0G1-k1U&index=5&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft#t=2m55s]] A subchain of a Markov chain is also a Markov chain
+
+__Regular Markov chain__ [[here|http://www.math.iupui.edu/~momran/m118videos/notes/sec92.pdf]] [[here|https://www.math.ucdavis.edu/~daddel/linear_algebra_appl/Applications/MarkovChain/MarkovChain_9_18/node2.html]]
+
+See book Markov chains by Norris

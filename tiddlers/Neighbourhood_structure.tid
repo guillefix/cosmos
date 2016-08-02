@@ -1,0 +1,7 @@
+created: 20160714000224495
+creator: guillefix
+modified: 20160714005153995
+modifier: guillefix
+title: Neighbourhood structure
+
+A ''neighbourhood structure'' $$\mathcal{N}$$ on a set $$X$$ is an assignment to each $$x \in X$$ of a [[filter|Filter (Topology)]] $$\mathcal{N}(x)$$ on $$X$$ all of whose elements contain the point $$x$$.

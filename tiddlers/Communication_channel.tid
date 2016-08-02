@@ -1,0 +1,9 @@
+created: 20160701131109911
+creator: guillefix
+modified: 20160701131137381
+modifier: guillefix
+title: Communication channel
+
+A ''communication channel'' is a system in which the output depends probabilistically on the input.
+
+The //probability transition matrix//, for a given channel is the conditional probability of output X given input Y, p(X;Y).

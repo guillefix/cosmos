@@ -1,0 +1,23 @@
+created: 20160704213940426
+creator: guillefix
+modified: 20160704215455371
+modifier: guillefix
+title: Prefix code
+
+//aka prefix-free, or instantaneous code//
+
+A string is a //prefix// of another string if their first $$n$$ symbols coincide, for some $$n \geq 1$$.
+
+A ''prefix code'' is a [[Variable-length code]] where no codeword is a prefix of another codeword.
+
+[[(IC 2.5) Prefix codes|https://www.youtube.com/watch?v=HST2r5pvJCA&index=11&list=PLE125425EC837021F]]
+
+[[(IC 2.6) Prefix codes - remarks and what's next|https://www.youtube.com/watch?v=0zw62NhxNMQ&index=12&list=PLE125425EC837021F]]
+
+Any prefix code is uniquely decodable
+
+A prefix code can be [[represented as a search tree|https://www.youtube.com/watch?v=HST2r5pvJCA&index=11&list=PLE125425EC837021F#t=8m35s]], and is a nice way to think about prefix codes.
+
+The above definition may called left-prefix. There is also the notion of right-prefix. See [[here|https://www.youtube.com/watch?v=HST2r5pvJCA&index=11&list=PLE125425EC837021F#t=13m35s]]
+
+[[Example to see why prefix codes are faster (in the sense of computational complexity) to decode than other uniquely decodable codes|https://www.youtube.com/watch?v=oMu2OzKUVjw&list=PLE125425EC837021F&index=10#t=7m31s]]. Prefix codes are decodable in linear time

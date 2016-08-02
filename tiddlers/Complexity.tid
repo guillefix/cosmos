@@ -1,0 +1,40 @@
+created: 20160627202342018
+creator: guillefix
+modified: 20160726014421211
+modifier: guillefix
+tags: [[Systems science]]
+title: Complexity
+
+See [[Complexity theory]] for definition and theory. See [[Complex systems]] for examples and applications.
+
+Complexity is a general concept that has different meanings in different contexts.
+For instance, complexity is related to “incompressibility” in information theory
+and computer science. In dynamical systems, complexity is usually measured by
+the topological entropy and reflects roughly speaking, the proliferation of periodic
+orbits with ever longer periods or the number of orbits that can be distinguished
+with increasing precision. In physics, the label “complex” is in principle attached to
+any nonlinear system whose numerical solutions exhibit a chaotic behavior. Neurologists claim that the human brain is the most complex system in the solar system,
+while entomologists teach us the baffling complexity of some insect societies. The
+list could be enlarged with examples from geometry, management science, commu-
+nication and social networks, etc.
+
+//from book on Permutation complexity by Amigo//
+
+!!__Complexity measures__
+
+[[Descriptional complexity]]
+
+[[Computational complexity]]
+
+See also [[Randomness]]
+
+----------------------
+
+[[Shannon entropy: a rigorous notion at the crossroads between probability, information theory, dynamical systems and statistical physics|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/Lesne-information-review.pdf]]
+
+Good review: [[RANDOMNESS, INFORMATION, AND COMPLEXITY|http://arxiv.org/abs/1208.3459]]
+
+[[Information and Complexity Measures in Dynamical Systems|http://link.springer.com/chapter/10.1007/978-1-4899-2305-9_2#page-1]]
+
+See also [[Information theory]], [[Statistical physics]], [[Dynamical system]]s, [[Evolution]], [[Simplicity bias]].
+

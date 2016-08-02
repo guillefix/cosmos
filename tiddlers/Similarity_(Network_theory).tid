@@ -1,0 +1,44 @@
+created: 20160213161838307
+creator: guillefix
+modified: 20160214202409939
+modifier: guillefix
+title: Similarity (Network theory)
+type: application/x-tiddler
+
+See [[Measures and metrics for networks]]
+
+How can we measure the "similarity" of two nodes (or edges, etc.)? Two main approaches. Two nodes may be:
+
+* ''structurally equivalent'': if they share many of the same network neighbours.
+
+* ''regularly equivalent'': have neighbours who are themselves similar.
+
+[img[similarity_in_networks.PNG]]
+
+Mathematical implementations of these ideas:
+
+//Structural equivalence//:
+
+*[[Cosine similarity|Cosine similarity (Network theory)]]
+
+* [[Pearson coefficients]]
+
+* Other variants, including //Euclidean distance// (essentially the same as the Hamming distance in computer science).
+
+//Regular equivalence//:
+
+* $$\mathbf{\sigma}=\alpha \mathbf{A} \mathbf{\sigma} \mathbf{A}$$ ($$+\mathbf{I}$$). Same as weighted sum over even paths that connect i and j
+
+[img[regular_equivalence.png]]
+
+* "Katz similarity". $$\mathbf{\sigma}=\alpha \mathbf{A} \mathbf{\sigma}+\mathbf{I}$$. Weighted sum over all paths between i and j. Katz centrality of i is sum over the Katz similarity of i and all other nodes.
+
+[img[katz_similarity.png]] Fig Katz Sim
+
+* Other variants:
+
+** Variant of Katz similarity that divides by the degree of node $$k_i$$ in Fig Katz Sim. This is similar to the relation between PageRank and Katz centrality
+
+** The last term, instead of being just $$+\mathbf{I}$$, it is a general matrix, so we include prior similarities. Related to areas of machine learning and info retrieval that try to find similarities between things given some initial similarity data and some network or other data.
+
+Another kind is ''automorphic equivalence'' See page 23 in [[here|http://www.analytictech.com/mb874/Slides/equivalence.pdf]], as well as discussion of automorphism in [[Graph theory]].

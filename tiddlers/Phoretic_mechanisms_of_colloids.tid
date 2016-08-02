@@ -1,0 +1,29 @@
+created: 20160602221744147
+creator: guillefix
+modified: 20160702165334476
+modifier: guillefix
+title: Phoretic mechanisms of colloids
+
+A ''phoretic mechanism'' of colloids, is any mechanism/effect that causes [[colloidal particles|Colloid]] to move in a way that is partially deterministic (unlike [[Diffusion]]), due to the gradient of some physical quantity (,,This seems to be the working definition, judging from what I've read,,). These may also called ''transport mechanisms''.
+
+These are important in [[Active matter]], in [[Biophysics]], and [[Nanotechnology]]. In particular phoretic effects can make a colloidal particle self-propelling.
+
+A large class of mechanism for colloid transport are due to ''interfacial forces'', due to non-trivial [[Microhydrodynamics]], [[Chemical reaction]]s, or other effects.
+
+<big><i class="fa fa-star-o" aria-hidden="true"></i> See [[Colloid Transport by Interfacial Forces|http://www.annualreviews.org/doi/abs/10.1146/annurev.fl.21.010189.000425]]</big>. See also the more recent [[Manipulation of Colloids by Osmotic Forces |http://hal.in2p3.fr/tel-00597477/document]]
+
+[[Generic theory of colloidal transport|http://link.springer.com/article/10.1140/epje/i2008-10446-8]]
+
+[[Thermal non-equilibrium transport in colloids|http://iopscience.iop.org/article/10.1088/0034-4885/73/12/126601/meta]]
+
+!!__Phoretic mechanisms__
+
+__[[Diffusiophoresis]]__
+
+__[[Osmiophoresis]]__
+
+__[[Electrophoresis]]__
+
+__[[Thermophoresis]]__
+
+__[[Phoretic mechanisms of self-propelled colloids]]__

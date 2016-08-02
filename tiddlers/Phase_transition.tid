@@ -1,0 +1,53 @@
+created: 20160128012650775
+creator: guillefix
+modified: 20160501180848296
+modifier: guillefix
+tags: [[Condensed matter physics]]
+title: Phase transition
+
+__Qualitative picture__
+
+//...See sec 2.2.2 on Soft Condensed Matter by Richard Jones, and also beginning chapter of Principles of condensed matter physics//
+
+*Gas (kinetic energy dominates)
+*Liquid (kinetic and potential energy comparable)
+*Solid (potential energy dominates)
+
+As we increase temperature, the average energy per particle, $$U$$, increases (see [[Equilibrium statistical physics]]). Because the [[potential between molecules|Intermolecular forces]] is generally bounded above (for example the attractive part can have the form of $$-1/r$$ or $$-e^{-r}$$ for large $$r$$, so that the maximum potential energy is 0), as we increase $$U$$, we soon reach a point where we must increase the kinetic energy, as the potential energy becomes saturated (i.e. the molecules have dissociated, or we have broken the bond). Therefore, as we increase temperature, we find that we go to phases where the kinetic energy is more and more dominant, often from solid to liquid to gas, though, for low enough pressure, the liquid phase is skipped.
+
+Phase diagrams, 2D projections of surface in a 3D space of temperature, pressure, and volume.
+
+//Critical point//: point at which gas-liquid transition changes from being continuous to discontinuous.
+
+//Triple point//: Point of coexistence between three phases.
+
+[img[phase_diagram.PNG]]
+
+!!__Order parameters and phase fields__
+
+''Order parameter'': quantity that distinguishes different phases, often associated with some kind of "order", and is often $$0$$ in disordered phase. There are two main types:
+
+* ''Conserved order parameter'' (like concentrations). Atoms can't change species. Average over sample of paremeter thus fixed. Often then one gets //phase separation//. An example is in [[Thermodynamics of liquid-liquid unmixing]]. {{Order parameter field} evolution} described by <span style="color:coral;font-weight:bold;">Cahn-Hillard equation.</span>
+
+* ''Non-conserved order parameter'' (like magnetization). Atoms can change their spin. Average of parameter over sample is thus not fixed. An example is magnetization. {{Order parameter field} evolution} described by <span style="color:coral;font-weight:bold;">Allen-Cahn equation.</span>. See [[equation|http://www.ctcms.nist.gov/~wcraig/variational/node10.html]]; [[applications in population genetics, combustion and nerve pulse propagation!|http://link.springer.com/chapter/10.1007%2FBFb0070595#page-1]]; [[original paper|http://www.sciencedirect.com/science/article/pii/0001616060901103]].
+
+These equations describe the evolution of ''phase fields'': the fields of the {space-time varying order parameter}. They thus belong to the so-called __phase-field method__ used in [[Materials science]], for example.
+
+__Mixture theory__ or the theory of interacting continua also uses the above equations for describing multi-phase systems. See [[ON THE DEVELOPMENT AND GENERALIZATIONS OF ALLEN-CAHN AND STEFAN EQUATIONS WITHIN A THERMODYNAMIC FRAMEWORK|http://ncmm.karlin.mff.cuni.cz/preprints/11289092919pr19.pdf]]
+
+See also [[Soft matter physics notes|https://www.dropbox.com/s/mw2fc6b6b2rdfm6/Soft%20matter%20physics.pdf?dl=0]]. Though, <mark>I would like to see a more rigorous derivation of these equations, based on non-equilibrium thermodynamics</mark>. The derivation are rigorous, they just use [[Constitutive equations]] that are mostly just assumed, instead of derived!
+
+!!__Landau theory of phase transitions__
+
+Describing phase transitions in terms of a free energy, which is a function of the order parameter, and depends on parameters (such as temperature). As one varies the parameters, the free-energy minima change location, and appear/disappear at phase transitions.
+
+Ginzburg-Landau theory in [[Statistical field theory]]: write down most general free energy that is consistent with known __symmetries__ of the order parameter. Assume it can be written in power series and stop hen additional terms don't change the behaviour of interest.
+
+Symmetries. [[Symmetry breaking]]. Correlation functions, etc. Critical exponents (describe behavior of thermodynamic functions near critical point).
+
+__Order of transition__
+
+* //First order//: order parameter changes discontinously . 1st derivative of free energy discontinuous.
+* //Second order//: order paramter changes continuously. 2nd derivative of free energy discontinuous. Like transition from liquid to gas at critical point.
+
+!!!__Critical exponents and universality__

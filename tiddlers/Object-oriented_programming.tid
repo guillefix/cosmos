@@ -1,0 +1,48 @@
+created: 20160203233942588
+creator: guillefix
+modified: 20160217191936540
+modifier: guillefix
+tags: Programming
+title: Object-oriented programming
+
+a.k.a. OOP
+
+''object'' = collection of data and functions (methods), that often act on this data.
+
+Keywords: Encapsulation. Message-passing metaphor. data abstraction. Modularity.
+
+Abstract data types (often implemented as classes). A ''class'' is a collection of objects with characteristics in common. A class is represented as a template from which one can instantiate objects. Instantiation is often done by "calling" the class, as if it were a function.
+
+In many respects, classes and objects are similar.
+
+|__Data hiding__: One can only access instance values through defined methods. Sometimes built in language, but even if not, it is often good practice.|
+
+An object built from a class, is an __instance__, and it has __attributes__: methods and fields (variables). These are often called using ``.`` notation.
+
+//Methods in Python//
+
+*_ _init_ _: create instance
+*_ _str_ _: printed representation
+*_ _cmp_ _: comparisons (returns -1, 0, 1).
+
+*_ _iter_ _ and ``next`` to define how iteration happens over an object that represents a collection.
+
+These are doing operator overloading. In Python, ``dir(p)`` shows all methods associated with an object. 
+
+``type(``instance``)`` returns the class.
+
+__Inheritance__
+
+A class can inherit attributes from another class, when its defined.
+
+__Shadowing__ (a.k.a. overriding an inherited method).
+
+OOP is good for modelling systems where you have lots of elements that possibly interact.
+
+--------
+
+__[[Factory functions in JavaScript|https://www.youtube.com/watch?v=ImwrezYhw4w]]__
+
+Factories are functions that implement the same functions as classes, but have some advantages. The only disadvantage is that they are a bit slower probably.
+
+I think this is related to //prototype-oriented programming//, JavaScript's version of OOP.

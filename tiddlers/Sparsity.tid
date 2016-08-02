@@ -1,0 +1,11 @@
+created: 20160726123615697
+creator: guillefix
+modified: 20160726124900727
+modifier: guillefix
+title: Sparsity
+
+The property of there being much fewer things than there could be. Formally, given a collection of sets of different cardinalities, if the smallest ones are much smaller than the largest ones, then they are called //sparse//. ,,"smaller"/"larger" referring to cardinality,,
+
+In [[Matrix]] theory, a <b>sparse matrix</b> often refers to one with few non-zero entries.
+
+In [[Signal processing]] a <b>sparse signal</b> often refers to one which has few non-zero [[Fourier components|Fourier coefficient]]

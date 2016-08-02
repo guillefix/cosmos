@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.12" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>Multi-instance learning: Cosmos — a non-linear personal web notebook</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   "><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible" title="More actions">
+
+
+</button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible" title="Edit this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible" title="Close this tiddler">
+
+
+</button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Multi-instance learning
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="guillefix.html">
+guillefix
+</a> 9th July 2016 at 4:26am
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"></div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Deep%2520learning.html">Deep learning</a></p><h3 class=""><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=jCGplSKrl2Y&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=11#t=2m08s" rel="noopener noreferrer" target="_blank">Max-margin learning, transfer and memory networks</a>.</h3><p>good for generalizing models, <strong>transfer learning</strong>, <strong>multi-task learning</strong>. Good when don't have much supervision data.</p><p><strong><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=jCGplSKrl2Y&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=11#t=29m25s" rel="noopener noreferrer" target="_blank">Max-margin</a></strong>: learning a function that identifies sensible data (e.g. sentences that make sense), thats what we do with the algorithm he explains of finding a prob dist bigger at the data points that &quot;anywhere&quot; else. This will, in particular, make the NN learn a good representation of the data, or <em>embedding</em>. For this we use <strong>hinge loss</strong>. In practice, <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=jCGplSKrl2Y&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=11#t=37m30s" rel="noopener noreferrer" target="_blank">we do this</a></p><p>Learn embeddings in one task and transfer these to solve new tasks</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=jCGplSKrl2Y&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=11#t=15m50s" rel="noopener noreferrer" target="_blank">Example</a>. He exaplains how deep multi-instance learning works. Nice</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=jCGplSKrl2Y&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=11#t=22m30s" rel="noopener noreferrer" target="_blank">Matching</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=jCGplSKrl2Y&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=11#t=25m10s" rel="noopener noreferrer" target="_blank">Corruption</a></p><p>Example: <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=jCGplSKrl2Y&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=11#t=41m07s" rel="noopener noreferrer" target="_blank">Bi-lingual word embeddings</a></p><p>When you can't corrupt the data: <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=jCGplSKrl2Y&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=11#t=42m50s" rel="noopener noreferrer" target="_blank">Siamese networks</a> <a class="tc-tiddlylink-external" href="http://yann.lecun.com/exdb/publis/pdf/chopra-05.pdf" rel="noopener noreferrer" target="_blank">Paper</a></p><p>Example: <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=jCGplSKrl2Y&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=11#t=45m09s" rel="noopener noreferrer" target="_blank">Question answering system</a>. Followed by <em>relation learning</em> (learning triplets like &quot;cat eats mouse&quot;)</p><p>memory networks (see below) may be useful for transfer learning too..</p><p>One-shot learning using conv nets, as we've already have good embeddings, just compare objects in embeddings. <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=56TYLaQN4N8&amp;index=12&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw" rel="noopener noreferrer" target="_blank">See beginning of this</a></p></div>
+
+
+
+</div>
+
+</p>
+
+</section>
+</body>
+</html>

@@ -1,0 +1,14 @@
+created: 20160701131327008
+creator: guillefix
+modified: 20160701131425842
+modifier: guillefix
+title: Communication system
+
+A ''communication system'', as studied in [[Communication theory]] is specified by:
+
+* [[Information source]]. Often modelled as a discrete-time random process.
+* [[Data transmission system]]
+** Transmitter, or sender.
+** [[Communication channel]]
+** Receiver
+* Destination

@@ -1,0 +1,35 @@
+created: 20160210180812776
+creator: guillefix
+modified: 20160210214137232
+modifier: guillefix
+title: Kinetics of liquid-liquid unmixing
+
+The mechanism by which phase separation occurs, depends on whether the concentration proportions fall within the spinodal, or outside it, i.e. whether they are the stable or metastable (see [[Thermodynamics of liquid-liquid unmixing]]).
+
+When it is unstable, the phase separation proceeds inmediatelly and continuously, via a process known as ''spinodal decomposition''.
+
+When the mixture is in the metastable region of the phase diagram, then there is a free energy barrier to be overcome, which requires a large concentration fluctuation to form a //nucleus//, which can then grow. This is known as ''homogeneous nucleation''. However, most often impurities trigger the growth before this happens, and this is known as ''heterogeneous nucleation''.
+
+!!__Spinodal decomposition__
+
+When mixture is in the unstable region any small fluctuation in concentration will tend to be amplified, and this is known as spinodal decomposition.
+
+This kind of "uphill diffusion" is because the fundamental quantity that tends to be equilibriated and thus diffuses to remove gradients is the chemical potential (how to derive this from a more macroscopic description, perhaps using [[Kinetic theory]]??). The chemical potential is related to the first derivative of the free energy. So if the second derivative is positive (as outside the spinodal region) the higher the concentration the higher the chemical potential, and diffusion acts to reduce concentration gradients. However, inside the spinodal region, the second derivative is negative, and the chemical potential decreases with concentration, and thus diffusion acts to increase concentration gradients.
+
+If this was the only mechanism, sharp features will grow the fastest (just as they decay the fastest in normal diffusion). However, there must be something we have neglected. This is because, experimentally, it is found that interfaces have free energy, which isn't included in our free energy (See LectureNotes regarding surface tension).
+
+[add fig. 3.7 here]
+
+A phenomenologically motivated addition to the free energy to account for this is a term proportional to the square of the gradient in concentration with respect to position.
+
+Then one can derive a modified diffusion equation based on:
+
+*a continuity equation
+*the current being proportional to the gradient of the //exchange chemical potential// ($$\mu_A-\mu_B$$), with proportionality constant called the //Onsager coefficient//. The way to understand the origin of this is to realize that what matters is what the derivative of the free energy with respect to the concentration is, to determine what must happen at equilibrium.
+*the fact that the chemical potential is the (functional) derivative of the free energy with respect to the concentration.
+
+One then obtains a noninear equation, which when linearlized around a $$\phi_0$$ gives the ''Cahn-Hilliard equation''.
+
+--------
+
+See more here: [[http://pruffle.mit.edu/~ccarter/3.21/Lecture_22/]]

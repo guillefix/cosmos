@@ -1,0 +1,16 @@
+created: 20160403114756593
+creator: guillefix
+modified: 20160403122430330
+modifier: guillefix
+tags: [[Computer Science and IT]]
+title: Computer hardware
+
+!!!__GPUs__
+
+For [[Deep learning]] for example
+
+Best GeForce GPU: [[GeForce Titan X|http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-titan-x]]. Titan Z coming soon
+
+[[More CUDA GPUs|https://developer.nvidia.com/cuda-gpus]]
+
+[[ThinkMate computer|http://www.thinkmate.com/system/gpx-xs4-1460-1gpu]] with many GPU customization options.

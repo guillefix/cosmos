@@ -1,0 +1,16 @@
+created: 20160705192849531
+creator: guillefix
+modified: 20160705220303436
+modifier: guillefix
+tags: [[Trace formula]]
+title: Topological trace formula
+
+The topological trace formula is a [[Trace formula]] for [[Topological dynamics]].
+
+$$\sum_{\alpha} \frac{z \lambda_\alpha}{1-z\lambda_\alpha}=\sum_p \frac{n_p t_p}{1-t_p}$$
+
+See [[here|http://www.chaosbook.org/course1/Course2w9/count.pdf]] and [[here|https://www.youtube.com/watch?v=pJ9elIXPmPM#t=9m30s]]. Also [[here|https://www.youtube.com/embed/LLjrJt-6S9w]]. Here $$t_p = n_p$$ if the prime cycle $$p$$ exists ($$n_p$$ being its length, and is $$0$$ otherwise.
+
+http://www.chaosbook.org/course1/Course2w9.html
+
+This formula has uses for deriving a formula for the [[Topological entropy]]

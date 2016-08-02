@@ -1,0 +1,25 @@
+created: 20160217192657980
+creator: guillefix
+modified: 20160217193247904
+modifier: guillefix
+title: Kuramoto model
+
+See NonEq statmech notes.
+
+Also:
+
+http://www-sop.inria.fr/members/Olivier.Faugeras/MVA/ArticlesALire09/acebron-bonilla-etal-05.pdf
+
+http://arxiv.org/pdf/1403.2083v2.pdf
+
+https://en.wikipedia.org/wiki/Kuramoto_model
+
+Things to note:
+
+We transform in most manipulations (including in notes) to a frame that rotates with angular frequency equal to the mean angular frequency of oscillators, $$\langle \omega \rangle$$. 
+
+In this frame, the assumption is that the phase of the order parameter, $$\psi$$ is constant, and so can be chosen to $$0$$.
+
+The fact that it is constant is used to deduce that for the non-phase-locked oscillators (in case of partial coherence) their probability distribution must be constant, so that they are in a state of dynamic equilibrium (because their drift velocity $$v$$ can't be $$0$$ as for the phase-locked states).
+
+These differences in behaviour between phase-locked and non-phase-locked oscillators comes from solving their dynamical equations (eq. (9) in [[this paper|http://arxiv.org/pdf/1403.2083v2.pdf]], the behavior of which depends on the parameter $$\omega_i/(Kr_{st})$$.

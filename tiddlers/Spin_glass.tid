@@ -1,0 +1,81 @@
+created: 20160611125205456
+creator: guillefix
+modified: 20160713135517649
+modifier: guillefix
+title: Spin glass
+
+//aka Sherington-Kirkpatrick model//
+
+[[Disordered|Disordered system]] version of the [[Ising model]], and corresponding magnetic materials showing disordered phases.
+
+!__Spin glass models__
+
+[[A short course on mean field spin glasses |https://wt.iam.uni-bonn.de/fileadmin/WT/Inhalt/people/Anton_Bovier/lecture-notes/bovier-paris.pdf]]
+
+[[solvable model of a spin-glass|http://journals.aps.org/prl/pdf/10.1103/PhysRevLett.35.1792]]
+
+See also [[Ising model]]..
+
+See also [[Artificial neural network]] (near bottom) for some cool applications
+
+[[Long-Distance Behaviour of Correlation Functions in Disordered Systems|http://iopscience.iop.org/article/10.1209/0295-5075/3/9/008/meta]]
+
+[[Scale Invariance and Self-averaging in disordered systems|http://arxiv.org/pdf/cond-mat/0312715v1.pdf]]
+
+!!__Mechanisms underlying spin glass behaviour__
+
+Direct moment-moment coupling is too weak to account for the observed behaviour.
+
+In a metal such as copper, the outermost
+atomic electrons leave the individual copper atoms and more or
+less freely roam through the metal (thus becoming conduction
+electrons). So, in an alloy like copper manganese, it might be
+suspected that these conduction electrons are playing some role.
+And that suspicion is correct.
+
+Electron spins have two properties that are crucial to their mediation role:
+
+* The first is that electrons carry their own intrinsic magnetic moments. This means that the ''magnetic moments of the conduction electrons can interact with those of the localized moments'' on the manganese atoms, for example, through mutual spin flips as an electron passes by the manganese moment.
+
+* The second is that, as ''quantum mechanical'' objects, electrons travel through metals as waves, meaning that, like all waves, electrons can exhibit ''diffraction and interference''. As conduction electrons zip past and interact with the localized moment, one gets concentric spheres, centered on the localized manganese moment, of conduction electron spins polarized parallel and antiparallel to the localized moment. These bands are known as Ruderman-Kittel-Kasuya-Yosida (RKKY) oscillations
+
+!__Spin glass materials__
+
+* [[Dilute magnetic alloy]]
+
+* Insulator spin glasses. Like:
+
+** europium strontium sulfide (Eu,,x,, Sr,,1−x,, S), magnetic impurity [[Europium]] is substituted randomly for nonmagnetic [[Strontium]], with the fraction x of europium
+** lithium holmium yttrium fluoride (LiHo,,0.167,, Y,,0.833,, F,,4,, ), in which holmium is the magnetic ion.
+
+!__[[Static features of spin glasses]]__
+
+Four properties constitute the most prominent static features of materials we have come to call [[Spin glass]]es.
+
+* a cusp in the magnetic susceptibility,
+
+* a rounded maximum but no discontinuities in the specific heat,
+
+* spin freezing below temperature $$T_f$$ , and 
+
+* an absence of spatial long-range order
+
+!__[[Dynamics of spin glasses]]__
+
+I.e. [[non-equilibrium|Non-equilibrium statistical physics]] properties.
+
+* "Remanence" behaviour
+
+* Memory effects.
+
+----------------------
+
+https://en.wikipedia.org/wiki/Spin_glass
+
+http://www.birs.ca/events/2014/5-day-workshops/14w5082/videos
+
+[[Courses - F. Guerra “Equilibrium and off equilibrium properties of ferromagnetic...”|https://www.youtube.com/watch?v=gskFXddBxik&index=3&list=PL9kd4mpdvWcCJnmxsmqMzQVnYySPNh8wH]]
+
+[[Statistical mechanics of spin glasses and neural networks 8\3\16|https://www.youtube.com/watch?v=fZ8WCic5u2I&list=PLYq7WW565SZgC_0OqyRjTcWKH3odod3j5&index=2]] no sound :(
+
+[[Spin Glasses and Complexity|https://www.youtube.com/watch?v=7d43TWoMST8]]

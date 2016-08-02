@@ -1,0 +1,40 @@
+created: 20160422235435453
+creator: guillefix
+modified: 20160715193045902
+modifier: guillefix
+title: Finite-state machine
+
+See [[Automata theory]]
+
+Finite number of states, transitions between them are followed according to sequentially read (a.k.a. on-line) input string.
+
+Formally, a finite automaton on an alphabet $$A$$ is a tuple $$(Q,I,F,E)$$, where $$Q$$ is the set of states, the subsets of $$Q$$, $$I$$ and $$F$$, which are the set of input and final states, respectively. $$E \subset Q \times A \times Q$$ is the set of edges between states, labelled by a letter in the alphabet. The transition encoded by the edge is performed, when the automaton //reads// the letter, while being at the first state in the transition.
+
+!![[Deterministic finite automaton]]
+
+''[[Deterministic machine|https://www.youtube.com/watch?v=jb_H7SGOyyI&index=2&list=PL601FC994BDD963E4#t=4m24.7s]]''
+[[Reversing deterministic machines|https://www.youtube.com/watch?v=ceNNyyELhu4&list=PL601FC994BDD963E4&index=6]] 
+
+!!Non-deterministic finite automaton
+
+''[[Non-determinstic finite state machines|https://www.youtube.com/watch?v=lk3LHnM8SxA&list=PL601FC994BDD963E4&index=8]]'' can have more than one transition that may be done when reading a certain input symbol on a state. They may also have epsilon transitions which can be done without reading a symbol. A string is accepted if there is //at least one// path through the machine that ends in an accepting state
+
+Determinsitic equivalent in power to non-determinstic. But non-deterministic sometimes much easier to think with.
+
+[[Convert non-determinsitic machine to deterministic machine|https://www.youtube.com/watch?v=pYoELTvm8Hg&index=9&list=PL601FC994BDD963E4&spfreload=1#t=4m30s]]
+
+Equivalence between non-deterministic and deterministic machines is the key in proving that regular sets are closed under reversal. 
+
+To construct a FSM that accepts the complement of a regular set, just swap accepting and non-accepting states.
+
+[[Closure under union|https://www.youtube.com/watch?v=24jxBQovUvo&index=16&list=PL601FC994BDD963E4#t=4m43s]] [[key point|https://www.youtube.com/watch?v=24jxBQovUvo&index=16&list=PL601FC994BDD963E4#t=5m56s]]
+
+[[Closure under intersection|http://www.youtube.com/watch?v=cOyFWkphA04&index=17&list=PL601FC994BDD963E4#t=3m04s]]
+
+[[Why are regular sets called regular?|http://www.youtube.com/watch?v=lP3Lxsf-MNc&list=PL601FC994BDD963E4&index=17#t=5m33s]] he uses a nice heuristic explanation of the [[pumping lemma|https://en.wikipedia.org/wiki/Pumping_lemma_for_regular_languages]]
+
+!!!See also [[Finite-state transducer]]
+
+-----------
+
+Build an fst on the web: http://madebyevan.com/fsm/ 

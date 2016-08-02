@@ -1,0 +1,22 @@
+created: 20160522140914531
+creator: guillefix
+modified: 20160603010939037
+modifier: guillefix
+tags: 
+title: Low Reynolds number
+
+See [[Active matter]], [[Microhydrodynamics]], and  [[Kinematic reversibility in fluid dynamics]] for more
+
+Zero reynolds number doesnt mean no acceleration. It just means that no force is needed to cause that acceleration
+
+In the zero Re limit, if the swimmer accelerates (say by varying the velociy of the corkscrew), and if it has a finite mass, the fluid will exert a net force on the swimmer, and thus the swimmer will exert a net force on the fluid, momentarily creating a Stokelet component. If we somehow had a small but very heavy swimmer with a large thrust too, it would then create a Stokelet velocity field for a significant period of time.
+
+[[Life at low Reynold's numbers|https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/multiscaleroboticlab-dam/documents/microrobotics/HS2015/Purcell1977.pdf]]
+
+Happel and Brenner book: [[Low Reynolds number hydrodynamics (book) |file:///home/guillefix/Dropbox/COSMOS/Physics/Fluid%20mechanics%20and%20thermodynamics/%5BJohn_Happel,__Howard_Brenner__(auth.)%5D_Low_Reynol(BookZZ.org).pdf]]
+
+__Reciprocal theorem__
+
+The reciprocal theorem allows one to determine results for one Stokes-flow field based upon the solution of another Stokes flow in the same geometry, i.e. having the same boundaries but different boundary conditions.
+
+See //A physical introduction to suspension dynamics//.

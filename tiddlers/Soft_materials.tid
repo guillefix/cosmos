@@ -1,0 +1,18 @@
+created: 20160504180523417
+creator: guillefix
+modified: 20160602221423715
+modifier: guillefix
+title: Soft materials
+
+* Simple liquids (fully homogeneous/isotropic). See [[Fluid mechanics]]. The fluid may be a [[solution|Solution (Chemistry)]], but that only changes it [[chemical|Chemistry]] properties, not its physical ones.
+* Several types of [[complex fluids|Complex fluid dynamics]]. Main types:
+** Solid--liquid ([[Suspension]]s (particularly [[Colloid]]s) and [[Gels]])
+**solid--gas ([[Granular material]]s, and [[Fibrous material]]s)
+**liquid--gas ([[Foam]]s)
+**liquid--liquid ([[Emulsion]]s)
+*[[Liquid crystals]]: nematic, smectic, cholesteric, columnar, etc.
+* Several [[polymeric|Polymer]] materials are soft. E.g. some [[Plastic]]s, [[Rubber]]s, [[Latex]]
+* [[Surfactant]]s
+* [[Biological matter]]
+* Many kinds of [[Active matter]] and [[Driven matter]].
+* [[Pastes]], or [[soft glassy materials|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.78.2020]]

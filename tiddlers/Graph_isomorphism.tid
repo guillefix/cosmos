@@ -1,0 +1,9 @@
+created: 20160713193810987
+creator: guillefix
+modified: 20160713193815516
+modifier: guillefix
+title: Graph isomorphism
+
+See [[Graph theory]]
+
+A (graph) ''isomorphism'' is a mapping between vertices of two graphs $$G=(V_G, E_G)$$ and $$G'=(V_G', E_G')$$ ($$i  \mapsto f(i)$$ such that $$i \in V_G$$ and $$j \in V_G'$$) such that the edge $$(i,j)$$ is contained in the set of edges of $$G$$, //if and only if// the edge $$(f(i), g(i))$$ is contained in the set of edges of $$G'$$. To graphs are //isomorphic// if there exists an isomorphism between them. They are then also called "topologically equivalent".

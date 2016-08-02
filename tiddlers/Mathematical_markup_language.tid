@@ -1,0 +1,25 @@
+created: 20160620153448209
+creator: guillefix
+modified: 20160620153453160
+modifier: guillefix
+title: Mathematical markup language
+
+[[LaTeX to OpenMath|http://www.maths.tcd.ie/~richardt/openmath/ml2om.pdf]]
+
+https://en.wikipedia.org/wiki/OpenMath [[A critique of OpenMath|http://www.cs.berkeley.edu/~fateman/papers/openmathcrit.pdf]]
+
+<<<
+While I applaud the occasional successes in these ventures, the result have been unimpressive even from the range of computations routinely performed by computer algebra systems. They certainly represent a small scope compared to the kinds of mathematics human researchers deal with informally on computers.  (Consider all the advanced mathematics routinely typeset by use of the program TEX.) My view is that much of today’s applicable mathematics, including that in ordinary texts and journals, is simply too informal tobe handled by the logical and algebraic means typically proposed by the con-structivists. Indeed, much of mathematical discourse goes beyond informality to be (unintentionally) ambiguous on its face. The ambiguity can generally be resolved by a sufficiently contextual interpretation, often requiring a reader to be skilled in the mathematical subdiscipline – not merely the notation – being represented.
+<<<
+
+<<<
+Almost any ambitious computer algebra system that must eventually meet performance ex-pectations seems to abandon proofs or (complete) formal rigor
+<<<
+
+<<<
+One person’s syntax is another person’s semantics
+<<<
+
+[[AugMath]] should be able to represent informal mathematics, by basing its philosophy in the notation, just like LaTeX itself, rather than in the semantics. Semantics can be added later as a layer...
+
+Get functions mathML from here: http://functions.wolfram.com/Bessel-TypeFunctions/BesselI/11/0001/

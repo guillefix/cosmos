@@ -1,0 +1,23 @@
+created: 20160601212957745
+creator: guillefix
+modified: 20160611000514696
+modifier: guillefix
+title: References for percolation
+
+See [[Percolation]]
+
+Section on percolations on Mason and Gleeson's book on Dynamical processes on networks, and on Newman's networks book. In particular, see Newman's book chapters 12, 13, and 17, for detailed calculations of GCC sizes, and other ones. Note that the standard calculation determines whether a GCC exists for an infinite network (for instance, the locally tree-like assumption is valid for infinite networks, and other parts of his calculations assume infintie size). Finite size effects should be interesting to explore.
+
+[[Recent advances in percolation theory and its applications|http://www.sciencedirect.com/science/article/pii/S0370157315002008]]
+
+[[ Percolation Exercises|http://pages.physics.cornell.edu/~myers/teaching/ComputationalMethods/ComputerExercises/Percolation/Percolation.html]]
+
+[[Percolation Theory notes|http://www.mit.edu/~levitov/8.334/notes/percol_notes.pdf]]
+
+See Complex systems LectureNotes.
+
+[[Percolation slides|http://pages.physics.cornell.edu/~myers/teaching/ComputationalMethods/ComputerExercises/Percolation/PercolationLecture.pdf]]
+
+[[Scanned Notes on Percolation|http://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3217/12/percolation-scanned-notes.pdf]]
+
+[[Percolation, Second Edition by Geoffrey Grimmett |http://www.statslab.cam.ac.uk/~grg/papers/perc/perc.html]]
