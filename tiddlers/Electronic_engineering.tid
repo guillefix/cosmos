@@ -1,9 +1,10 @@
 created: 20160131192836955
 creator: guillefix
-modified: 20160628135914283
+modified: 20160807230902015
 modifier: guillefix
 tags: [[Electrical engineering]]
 title: Electronic engineering
+type: text/vnd.tiddlywiki
 
 https://www.adafruit.com/
 
@@ -12,3 +13,5 @@ Sparkfun
 [[Electronics]]
 
 [[Electronic circuit]]
+
+[[Electronic design]]

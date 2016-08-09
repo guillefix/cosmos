@@ -1,10 +1,12 @@
 created: 20160624000228945
 creator: guillefix
-modified: 20160630211110822
+modified: 20160808195725377
 modifier: guillefix
+tags: [[Autonomous vehicle]]
 title: Self-driving car
+type: text/vnd.tiddlywiki
 
-a.k.a. driverless car
+a.k.a. driverless car, or autonomous car
 
 See [[Transport innovation]]
 
@@ -15,3 +17,7 @@ See Tesla, Google Car, etc.
 http://www.theverge.com/2016/6/30/12072408/tesla-autopilot-car-crash-death-autonomous-model-s
 
 Volvo
+
+!!!__Autonomous driving levels 0 to 5__
+
+[[Autonomous driving levels 0 to 5: Understanding the differences|http://www.techrepublic.com/article/autonomous-driving-levels-0-to-5-understanding-the-differences/]]

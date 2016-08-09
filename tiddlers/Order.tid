@@ -1,9 +1,10 @@
 created: 20160726113058068
 creator: guillefix
-modified: 20160726194229339
+modified: 20160808102621540
 modifier: guillefix
 tags: Self-organization
 title: Order
+type: text/vnd.tiddlywiki
 
 //aka structure//
 
@@ -19,9 +20,15 @@ Some quantities/concepts that can be used to measure/describe order are:
 
 * Compressibility
 
+* [[Simplicity]]
+
 -----------------------
 
 "Everybody knows that because typical signals have some structure, they can be compressed efficiently without much perceptual loss"
+
+"When we have prior knowledge of the smoothness structure we expect to see (e.g. in natural images), we can impose this structure directly through the choice of factor. " See [[Learning theory]] (paper on predicting parameters in deep learning)
+
+"many interesting signals or models in practice contain few degrees of freedom relative to their ambient dimension"
 
 [[The World is Either Algorithmic or Mostly Random|http://fqxi.org/data/essay-contest-files/Zenil_FQXIEssayDigitalAnalo.pdf]]
 

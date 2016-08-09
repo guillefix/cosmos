@@ -1,0 +1,15 @@
+created: 20160807235647590
+modified: 20160808101046473
+tags: Analysis
+title: Convex analysis
+type: text/vnd.tiddlywiki
+
+[[Mathematical|Mathematics]] study of [[Convex function]]s, and [[Convex set]]s.
+
+This has applications to [[Convex optimization]]
+
+https://www.wikiwand.com/en/Convex_hull
+
+!!__Convex calculus__
+
+Operations on [[Set]]s and [[Function]]s that preserve convexity.

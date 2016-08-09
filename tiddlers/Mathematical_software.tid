@@ -1,9 +1,10 @@
 created: 20160122231344422
 creator: guillefix
-modified: 20160701000845465
+modified: 20160807003419713
 modifier: guillefix
 tags: [[Software engineering]]
 title: Mathematical software
+type: text/vnd.tiddlywiki
 
 See this combination of [[Machine learning]] (in particular [[Natural language processing]]) and [[Computer algebra]]. http://www.parsegon.com/
 
@@ -28,3 +29,7 @@ http://www.swmath.org/
 Cinderella
 
 Cool surfaces software: https://imaginary.org/program/surfer
+
+__Mathematical collaboration and organization__
+
+http://formulasheet.com/ Save, share, organize, and find equations on the web.

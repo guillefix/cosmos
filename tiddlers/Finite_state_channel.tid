@@ -1,8 +1,9 @@
 created: 20160701014056208
 creator: guillefix
-modified: 20160705160049700
+modified: 20160809112726308
 modifier: guillefix
 title: Finite state channel
+type: text/vnd.tiddlywiki
 
 In [[Information theory]], and in particular, [[Data transmission]], a ''finite state channel'' (FSC) is a discrete-time channel where the distribution of the channel output depends on both the channel input and the underlying channel state. This allows the channel output to depend implicitly on previous inputs and outputs via the channel state. 
 
@@ -10,7 +11,7 @@ The channel can be modelled as a stochastic [[Finite-state transducer]].
 
 __See here for more__: http://pfister.ee.duke.edu/thesis/chap4.pdf
 
-[[Entropy and Mutual Information for Markov Channels with General Inputs |http://web.stanford.edu/~glynn/papers/2002/HollidayGoldsmithG02a.pdf]]
+[ext[Entropy and Mutual Information for Markov Channels with General Inputs |http://web.stanford.edu/~glynn/papers/2002/HollidayGoldsmithG02a.pdf]]
 
 Blackwell, Breiman, and Thomasian introduced indecomposable FSC (IFSC) in [7] and proved the natural analogue of the channel coding theorem for them. Birch discusses the achievable information rates of IFSCs in [5], and computes bounds for a few simple examples. 
 

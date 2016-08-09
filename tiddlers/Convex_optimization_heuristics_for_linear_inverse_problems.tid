@@ -1,0 +1,26 @@
+created: 20160808103254164
+modified: 20160808162139663
+tags: [[Linear inverse problem]] [[Convex optimization]]
+title: Convex optimization heuristics for linear inverse problems
+type: text/vnd.tiddlywiki
+
+[[The Convex Geometry of Linear Inverse Problems|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/Chandra-overview.pdf]]. Seizes [[Simplicity]] of data to solve underdetermined problem. Provides a general framework to convert notions of simplicity into convex penalty functions, resulting in convex optimization solutions to linear, underdetermined in-verse problems. [[Convex optimization]], [[Linear inverse problem]]
+
+"many interesting signals or models in practice contain few degrees of freedom relative to their ambient dimension". We describe a model (or object) as <b>simple</b> if it can be written as a nonnegative linear combination of a few elements from an atomic set (for instance, a specified set of functions, vectors, matrices,...). As they explain, examples of simple objects are sparse vectors, and low-rank matrices. These have been shown to be recoverable from very incomplete information:
+
+*[ext[Robust Uncertainty Principles: Exact Signal Reconstruction From Highly Incomplete Frequency Information|http://people.ee.duke.edu/~lcarin/01580791.pdf]]
+
+*[ext[Exact Matrix Completion via Convex Optimization|http://pages.cs.wisc.edu/~brecht/papers/08.Candes.Recht.MatrixCompletion.pdf]]
+
+*[ext[For Most Large Underdetermined Systems of Equations, the Minimal l1-norm Near-Solution
+Approximates the Sparsest Near-Solution|http://statweb.stanford.edu/~donoho/Reports/2004/l1l0approx.pdf]]
+
+* [[Compressed Sensing|http://www.signallake.com/innovation/Donoho0406.pdf]]
+
+''Method'': <span style="color:#FAF;">Under suitable conditions the convex hull $$conv(A)$$ defines the unit ball of a norm, which is called the atomic norm induced by the atomic set $$A$$. We can then minimize the atomic norm subject to measurement constraints, which results in a convex programming heuristic for recovering simple models given linear measurements.</span>
+
+There is a tradeoff between the complexity of the recovery algorithm and the number of measurements required for recovery
+
+!!!__Examples__
+
+See [[Linear inverse problem]] for application to the Matrix completion problem

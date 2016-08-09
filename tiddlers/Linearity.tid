@@ -1,0 +1,10 @@
+created: 20160807223435479
+modified: 20160807225513001
+title: Linearity
+type: text/vnd.tiddlywiki
+
+A [[Function]] is said to be ''linear'' if it satisfies"
+
+$$f(\alpha x + \beta y) = \alpha f(x) + \beta f(y)$$
+
+for all $$x, y \in \mathbf{R}^n$$ and all $$\alpha, \beta \in \mathbf{R}$$.

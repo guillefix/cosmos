@@ -1,9 +1,10 @@
 created: 20160221181117472
 creator: guillefix
-modified: 20160508121653076
+modified: 20160808000523685
 modifier: guillefix
 tags: Engineering [[Scientific computing]] [[Operations research]] [[Mathematical methods]]
 title: Optimization
+type: text/vnd.tiddlywiki
 
 https://en.wikipedia.org/wiki/Mathematical_optimization
 
@@ -11,7 +12,29 @@ https://en.wikipedia.org/wiki/Optimization_%28disambiguation%29
 
 -----------
 
-!!--__Gradient descent__
+!!--__Optimization problem__
+
+A //mathematical optimization problem//, or ''optimization problem''
+
+[img[http://i.imgur.com/BwndXEY.jpg]]
+
+One can also have equality constraints, apart from inequalities.
+
+!!!''[[Linear programming]]'': [[Linear|Linearity]] objective and constraint functions. Used in [[Operations research]]
+
+!!!''Nonlinear programming''
+
+Objective and constraint functins are non-linear. Some special cases:
+
+* [[Convex optimization]]. Generalizes linear programming.
+* [[Quadratic programming]]
+** [[Least-squares]]
+
+Often for global nonlinear optimization, we need to use brute force methods, with [[Computational complexity]] exponential in the dimension of th optimzation space (space of optimization variables). For approximate but faster solutions, we can use local optimizal optimization, or heuristics.
+
+!!--__Local optimization__
+
+Find local optima, as a method to approximately solve hard nonlinear optimization problems. The main method is based around ''gradient descent''.
 
 !!!''Newton's method''. 
 
@@ -45,13 +68,7 @@ Downpour -- Asynchronous SGD
 
 [[More things on optimization|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=56m20s]]
 
-!!--__Constrained optimization__
 
-!!!''Linear programming'', used in [[Operations research]]
-
-Simplex algorithm
-
-!!!''Nonlinear programming''
 
 !!--__Heuristic optimization__
 
@@ -79,4 +96,19 @@ See links [[here|https://en.wikipedia.org/wiki/Multidisciplinary_design_optimiza
 !!![[Simulated annealing|https://en.wikipedia.org/wiki/Simulated_annealing]] ! [[http://www.mit.edu/~dbertsim/papers/Optimization/Simulated%20annealing.pdf]]
 
 https://en.wikipedia.org/wiki/Inferential_programming
+
+------------
+
+!!__Applications__
+
+Many applications in [[Science]], [[Engineering]], [[Statistics]]... 
+
+* [[Portfolio theory]]
+
+* [[Electronic design]]
+
+* [[Machine learning]] (data fitting, in particular)
+
+* [[Computational geometry]]
+
 

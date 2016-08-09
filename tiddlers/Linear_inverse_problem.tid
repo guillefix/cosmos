@@ -1,0 +1,23 @@
+created: 20160808103318251
+modified: 20160808162150657
+tags: [[Inverse problem]]
+title: Linear inverse problem
+type: text/vnd.tiddlywiki
+
+An [[Inverse problem]] where the measurements are [[linearly|Linearity]] related to the quantity to be recovered.
+
+[[Linear Inverse Problems|https://www.ncsu.edu/crsc/events/ugw06/presentations/jlsloan/pres5.pdf]] See [[Learning theory]]
+
+[[Ankur Moitra : Linear Inverse Problems|https://www.youtube.com/watch?v=O2exN1siUOQ]]
+
+!!!__[[Matrix completion]]__
+
+[[intro|https://www.youtube.com/watch?v=O2exN1siUOQ#t=1m22s]]
+
+Fill in the entries in a matrix, given a small number of observed entries.
+
+To tackle this problem, we assume, that the matrix is approximately of low rank. [[This is a way to understand why it may be approximately low rank|https://www.youtube.com/watch?v=O2exN1siUOQ#t=5m00s]]
+
+[[There is a natural non-convex optimization problem to solve this|https://www.youtube.com/watch?v=O2exN1siUOQ#t=7m45s]]
+
+See [[Convex optimization heuristics for linear inverse problems]] for the general theory of this kind of convex [[relaxations|Optimization problem relaxation]]

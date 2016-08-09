@@ -1,9 +1,10 @@
 created: 20160308170951305
 creator: guillefix
-modified: 20160726122850315
-modifier: guillefix
+modified: 20160809113945300
+modifier: cosmos
 tags: [[Information science]]
 title: Information theory
+type: text/vnd.tiddlywiki
 
 ''Information theory''
 
@@ -66,15 +67,15 @@ Limits in lossy codes are established in [[Rate compression theory]]
 
 ----------
 
-[[Shannon - A Mathematical Theory of Communication|http://worrydream.com/refs/Shannon - A Mathematical Theory of Communication.pdf]]
+[ext[Shannon - A Mathematical Theory of Communication|http://worrydream.com/refs/Shannon - A Mathematical Theory of Communication.pdf]]
 
-[[General theory of information transfer: Updated|http://www.sciencedirect.com/science/article/pii/S0166218X07002326]]
+[ext[General theory of information transfer: Updated|http://www.sciencedirect.com/science/article/pii/S0166218X07002326]]
 
 [[Entropy reduction]]
 
-[[Storing and Transmitting Data: Rudolf Ahlswede’s Lectures on Information ...|https://books.google.co.uk/books?hl=en&lr=&id=EZ6KAwAAQBAJ&oi=fnd&pg=PP5&ots=bqpF4UZhji&sig=fmxtdgsKYFUjKFcYDe9bxdoagFM#v=onepage&q&f=false]]
+[ext[Storing and Transmitting Data: Rudolf Ahlswede’s Lectures on Information ...|https://books.google.co.uk/books?hl=en&lr=&id=EZ6KAwAAQBAJ&oi=fnd&pg=PP5&ots=bqpF4UZhji&sig=fmxtdgsKYFUjKFcYDe9bxdoagFM#v=onepage&q&f=false]]
 
-[[Information Theory, Combinatorics, and Search Theory|http://download.springer.com/static/pdf/860/bok%253A978-3-642-36899-8.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-3-642-36899-8&token2=exp=1467511400~acl=%2Fstatic%2Fpdf%2F860%2Fbok%25253A978-3-642-36899-8.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Fbook%252F10.1007%252F978-3-642-36899-8*~hmac=07f9d2ad15fce4ba4ad13e57c22b7ffbbbabc694ce1928057668a650bdd9c175]]
+[ext[Information Theory, Combinatorics, and Search Theory|http://download.springer.com/static/pdf/860/bok%253A978-3-642-36899-8.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-3-642-36899-8&token2=exp=1467511400~acl=%2Fstatic%2Fpdf%2F860%2Fbok%25253A978-3-642-36899-8.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Fbook%252F10.1007%252F978-3-642-36899-8*~hmac=07f9d2ad15fce4ba4ad13e57c22b7ffbbbabc694ce1928057668a650bdd9c175]]
 
 [[Theory of identification]]
 
@@ -82,5 +83,5 @@ Limits in lossy codes are established in [[Rate compression theory]]
 
 [[Search theory]]
 
-[[YB videos|https://www.youtube.com/user/cse6222yorku/videos?view=0&shelf_id=4&sort=dd]]
+[ext[YB videos|https://www.youtube.com/user/cse6222yorku/videos?view=0&shelf_id=4&sort=dd]]
 -- [[MIT videos|http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-050j-information-and-entropy-spring-2008/videos-homework-and-readings/]]

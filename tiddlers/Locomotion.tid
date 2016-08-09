@@ -1,12 +1,19 @@
 created: 20160530221746522
 creator: guillefix
-modified: 20160530222203029
+modified: 20160808193154944
 modifier: guillefix
 tags: Robotics Zoology
 title: Locomotion
+type: text/vnd.tiddlywiki
 
 [[Animal locomotion]]
 
 [[Robot locomotion]]
 
 https://en.wikipedia.org/wiki/Locomotion
+
+__Some types of locomotion__
+
+[[Walking]]
+
+[[Swimming]]

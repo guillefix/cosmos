@@ -1,0 +1,35 @@
+created: 20160807002358280
+modified: 20160808162107998
+tags: Optimization [[Convex analysis]]
+title: Convex optimization
+type: text/vnd.tiddlywiki
+
+''Convex optimization'' refers to an [[Optimization]] problem in which the objective and constraint functions are both [[convex|Convex function]]. This implies that the domain of the optimization variable is a convex set. The convexity property can make optimization in some sense "easier" than the general case - for example, any local minimum must be a global minimum. It is a generalization of [[Linear programming]]
+
+https://www.wikiwand.com/en/Convex_optimization
+
+[ext[Convex optimization|http://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf]] [[pdf|file:///home/guillefix/Dropbox/COSMOS/Mathematics/Mathematical%20methods/bv_cvxbook.pdf]]
+
+Convex optimization problems include least-squares fitting (see [[Linear regression]]), and [[Linear programming]] problems.
+
+See [[Learning theory]]
+
+!!__Solution methods__
+
+Newton's method
+
+quasi-Newton
+
+conjugate-gradient
+
+bundle algorithms
+
+cutting-plane algorithz
+
+Interior-point methods, like in linear programming.
+
+!!!__Applications of convex optimazation to nonconvex optimization problems__
+
+[img[http://i.imgur.com/y90QRNA.jpg]]
+
+See more on this theory here: [[Convex optimization heuristics for linear inverse problems]], [[Linear inverse problem]]

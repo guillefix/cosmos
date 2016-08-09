@@ -1,9 +1,10 @@
 created: 20160627202342018
 creator: guillefix
-modified: 20160726014421211
+modified: 20160806205032466
 modifier: guillefix
 tags: [[Systems science]]
 title: Complexity
+type: text/vnd.tiddlywiki
 
 See [[Complexity theory]] for definition and theory. See [[Complex systems]] for examples and applications.
 
@@ -19,6 +20,8 @@ list could be enlarged with examples from geometry, management science, commu-
 nication and social networks, etc.
 
 //from book on Permutation complexity by Amigo//
+
+Complexity can be seen in [[chaotic systems|Chaos theory]], and, depending on interpretation, in [[random|Randomness]] ones.
 
 !!__Complexity measures__
 

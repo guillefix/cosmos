@@ -1,14 +1,27 @@
 created: 20160709004653144
 creator: guillefix
-modified: 20160726015803802
+modified: 20160808160902036
 modifier: guillefix
 title: Learning theory
-
-See [[Machine learning]]
+type: text/vnd.tiddlywiki
 
 Mathematical theory of learning.
 
+See [[Machine learning]], [[Deep learning]]. 
+
 ''Learning problem'': Design a system that improves on its ability to perform task T, as measured by performance measure P, by going through experience E.
+
+__Types of learning problem__
+
+Some important types:
+
+* [[Supervised learning]]
+* [[Unsupervised learning]]
+* [[Reinforcement learning]]
+* [[Statistical inference]]
+** [[Causal inference]]
+* [[Inverse problem]]
+** [[Linear inverse problem]]
 
 __Empirical risk minimization__
 
@@ -20,19 +33,13 @@ If we want the whole distribution of likelihoods over $$\theta$$s, we need to us
 
 --------------------
 
-[[Causal Inference and Statistical Learning!|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/schoelkopf.pdf]]
+__Simplicity and learning__
 
-[[Predicting Parameters in Deep Learning|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/DeFreitas-NIPS2013_5025.pdf]]
+See [[Order]] and [[Simplicity]]. The simplicity and structure in signals in the real-world is often seized to make the learning problem easier to solve.
 
-[[The Convex Geometry of Linear Inverse Problems|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/Chandra-overview.pdf]]
+Applications in [[Inverse problem]]s. For instance, see [[Convex optimization heuristics for linear inverse problems]] and [[Linear inverse problem]]
 
-//Learning theory and [[Algorithmic information theory]]//
-
-[[Causal inference using the algorithmic Markov condition|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/paper_IEEE_version3_webseite_6526%255b1%255d%20%25282%2529.pdf]]
-
-[[Causal Markov condition for submodular information measures|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/COLT2010-Steudel_%255b0%255d.pdf]]
-
-[[Probality-free causal inference via the Algorithmic Markov Condition|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/slides_Janzing.pdf]]
+Applications in [[Compressed sensing]]
 
 -------------------
 
