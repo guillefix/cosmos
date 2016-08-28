@@ -1,0 +1,14 @@
+created: 20160811151101235
+creator: cosmos
+modified: 20160811151417766
+modifier: cosmos
+title: Redux
+type: text/vnd.tiddlywiki
+
+A very good [[ReactJS]] library for a functional way of handling application state
+
+[[Learn Redux|https://www.youtube.com/playlist?list=PLu8EoSxDXHP5uyzEWxdlr9WQTJJIzr6jy]] [[website|https://learnredux.com/]]
+
+[img width=200 class=img-centered [https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png]]
+
+[img[https://css-tricks.com/wp-content/uploads/2016/03/redux-article-3-03.svg]]

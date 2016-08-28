@@ -1,15 +1,16 @@
 created: 20160629171233090
 creator: guillefix
-modified: 20160715171607382
-modifier: guillefix
+modified: 20160825163214524
+modifier: cosmos
 tags: Complexity
 title: Kolmogorov complexity
+type: text/vnd.tiddlywiki
 
 ,,//aka algorithmic complexity, although that term may refer to some generalizations of Kolmogorov complexity too, I think//,,
 
 One of the main kinds of [[Descriptional complexity]], based on the minimum size of a program (interpreted by a [[Turing machine]]) that produces (//describes//) the object.
 
-Kolmogorov complexity is central in [[Algorithmic information theory]].
+Kolmogorov complexity is central in [[Algorithmic information theory]]. __See more in that page__
 
 [[Math 574, Lesson 4-3: Kolmogorov Complexity|https://www.youtube.com/watch?v=S31CbvpZBU4]]
 [[other videos|https://www.youtube.com/watch?v=OHCpECIFNxM]]
@@ -18,15 +19,23 @@ This is based on describing the information content of a discrete object such as
 
 AIT differs fundamentally from Shannon information theory because the latter is fundamentally a theory about distributions, whereas the former is a theory about the information content of individual objects. Descriptional complexity also differs simplcitly with the notions of complexity in [[Complex systems]].
 
-[[Lecture notes on descriptional complexity and randomness|http://www.cs.bu.edu/~gacs/papers/ait-notes.pdf]]
+[ext[Lecture notes on descriptional complexity and randomness|http://www.cs.bu.edu/~gacs/papers/ait-notes.pdf]]
 
 --> [[Calculating Kolmogorov Complexity from the Output Frequency Distributions of Small Turing Machines|http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096223]] See [[Coding theorem method]]
 
-__Deficiencies of KC__
+!!!__Invariance theorem__
 
-[img[http://i.imgur.com/Eyx7L1A.png]]
+See [[Algorithmic information theory]]
 
-from [[here|https://cs.uwaterloo.ca/~shallit/Papers/auto5.pdf]]
+!!!__Computability of KC__
+
+KC is not computable, but it is [[semi lower computable|Semicomputable function]], meaning  it can be approximated from above, for example, via lossless compression algorithms.. See [[Computability theory]], and "Li, M.; Vitanyi, P. An Introduction to Kolmogorov Complexity and Its Application", for formal proofs.
+
+__Computable approximations to KC__
+
+Levin complexity
+
+[[Data compression]] rate
 
 !!!__Paucity theorems__
 
@@ -39,3 +48,9 @@ Simple strings (paucity) are rare among all possible strings
 [[ A Computable Measure of Algorithmic Probability by Finite Approximations|http://arxiv.org/abs/1504.06240]]
 
 See [[MMathPhys oral presentation]]
+
+__Deficiencies of KC__
+
+[img[http://i.imgur.com/Eyx7L1A.png]]
+
+from [ext[here|https://cs.uwaterloo.ca/~shallit/Papers/auto5.pdf]]

@@ -1,8 +1,9 @@
 created: 20160709133210218
 creator: guillefix
-modified: 20160720113859637
-modifier: guillefix
+modified: 20160815191952328
+modifier: cosmos
 title: ReactJS
+type: text/vnd.tiddlywiki
 
 A framework for [[Frontend web development]]
 
@@ -11,6 +12,8 @@ A framework for [[Frontend web development]]
 [[react basics|https://egghead.io/lessons/react-owner-ownee-relationship]]
 
 [[JSX|https://egghead.io/lessons/precompile-jsx]]
+
+A very good library for a functional way of handling application state: [[Redux]]
 
 !!__Components__
 
@@ -47,3 +50,7 @@ Adding or removing components to the dom is called mounting and unmounting. [[vi
 !!!__Higher order components__
 
 [[vid|https://egghead.io/lessons/react-react-fundamentals-higher-order-components-replaces-mixins]]
+
+----------------
+
+http://andrewhfarmer.com/component-communication/

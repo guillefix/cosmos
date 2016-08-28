@@ -1,9 +1,12 @@
 created: 20160701014250506
 creator: guillefix
-modified: 20160715122922136
-modifier: guillefix
+modified: 20160810080720209
+modifier: cosmos
 title: Finite-state transducer
+type: text/vnd.tiddlywiki
 
 A [[Finite-state machine]] with outputs.
 
 See [[Simplicity bias in finite-state transducers]]
+
+[[Mealy and Moore Machines|https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Seq/fsm.html]]

@@ -1,9 +1,10 @@
 created: 20160303224214410
 creator: guillefix
-modified: 20160629233804737
-modifier: guillefix
+modified: 20160823093804318
+modifier: cosmos
 tags: Evolution [[Bio-inspired computing]]
 title: Evolutionary computing
+type: text/vnd.tiddlywiki
 
 https://en.wikipedia.org/wiki/Evolutionary_computation
 
@@ -15,27 +16,11 @@ See [[Evolution]]
 
 [img[Selection_176.png]]
 
-[[Complexity compression and evolution|http://www.cs.mun.ca/~banzhaf/papers/icga95-1.pdf]]
+[ext[Complexity compression and evolution|http://www.cs.mun.ca/~banzhaf/papers/icga95-1.pdf]]
 
-!!__Genetic programming__
+!!__[[Genetic programming|Genetic algorithm]]__
 
-https://en.wikipedia.org/wiki/Genetic_programming
-
-https://en.wikipedia.org/wiki/Gene_expression_programming
-
-[[presentation|https://engineering.purdue.edu/~sudhoff/ee630/Lecture02.pdf]]
-
-See Holland's work. For e.g.
-
-Holland, J. H. (1992). Adaptation in Natural and Artificial Systems, MIT Press, Cambridge MA.
-
-[[Three Elements of a Theory of Representations|http://link.springer.com/chapter/10.1007/3-540-32444-5_3]]
-
-
-[[Redundant Representations in Evolutionary Computation|http://www.mitpressjournals.org/doi/abs/10.1162/106365603322519288#.Vx6xwmqKHCI]]
-As a result, uniformly redundant representations do not change the behavior of GAs. Only by increasing r, which means overrepresenting the optimal solution, does GA performance increase. Therefore, non-uniformly redundant representations can only be used advantageously if a-priori information exists regarding the optimal solution.
-
-Bias towards simplicity (see [[MMathPhys oral presentation]]) similar to regularization in [[Machine learning]]?
+They work by combining concepts that have been useful in the past to generate promising new trial solutions
 
 !!!__Evolvable harware__
 

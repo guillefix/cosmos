@@ -1,12 +1,15 @@
 created: 20160422235435453
 creator: guillefix
-modified: 20160715193045902
-modifier: guillefix
+modified: 20160824083618860
+modifier: cosmos
 title: Finite-state machine
+type: text/vnd.tiddlywiki
 
 See [[Automata theory]]
 
 Finite number of states, transitions between them are followed according to sequentially read (a.k.a. on-line) input string.
+
+[[Math 574, Lesson 2-1: Finite Automata|https://www.youtube.com/watch?v=ZqfLzZVhn7U]]
 
 Formally, a finite automaton on an alphabet $$A$$ is a tuple $$(Q,I,F,E)$$, where $$Q$$ is the set of states, the subsets of $$Q$$, $$I$$ and $$F$$, which are the set of input and final states, respectively. $$E \subset Q \times A \times Q$$ is the set of edges between states, labelled by a letter in the alphabet. The transition encoded by the edge is performed, when the automaton //reads// the letter, while being at the first state in the transition.
 

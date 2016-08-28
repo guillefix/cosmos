@@ -1,0 +1,9 @@
+created: 20160813170038851
+creator: cosmos
+modified: 20160813170216436
+modifier: cosmos
+tags: Classification
+title: Softmax regression
+type: text/vnd.tiddlywiki
+
+A [[Classification]] learning algorithm, that generalizes [[Logistic regression]] to $$k $$ classes. See [[Generalized linear model]] multinomial dist. example.

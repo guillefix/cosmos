@@ -1,13 +1,14 @@
 created: 20160226112409331
 creator: guillefix
-modified: 20160726015535667
-modifier: guillefix
-tags: [[Artificial and machine intelligence]]
+modified: 20160825142530506
+modifier: cosmos
+tags: [[Artificial intelligence]] Learning
 title: Machine learning
+type: text/vnd.tiddlywiki
 
 //aka statistical learning//, see [[Statistics]]
 
-See [[Artificial and machine intelligence]] and [[Artificial intelligence]], [[Deep learning]]
+See [[Artificial intelligence]], [[Deep learning]]
 
 --[[Book recommendations|https://www.quora.com/Machine-Learning/How-do-I-learn-machine-learning-1]]
 
@@ -17,7 +18,7 @@ See [[Artificial and machine intelligence]] and [[Artificial intelligence]], [[D
 -- [[lecture notes|http://cs229.stanford.edu/materials.html]]
 -- [[Andrew Ng machine learning course|https://www.coursera.org/learn/machine-learning]] https://www.youtube.com/watch?v=UzxYlbK2c7E . On [[lecture 2|https://www.youtube.com/watch?v=5u4G23_OohI]]
  -- [[Machine Learning - mathematicalmonk|https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA]]
- -- [[Machine Learning: A Probabilistic Perspective|http://www.amazon.co.uk/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020]] [[and here|https://www.cs.ubc.ca/~murphyk/MLbook/]]
+ -- [[Machine Learning: A Probabilistic Perspective|http://www.amazon.co.uk/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020]] [ext[and here|https://www.cs.ubc.ca/~murphyk/MLbook/]]
  -- [[Machine Learning: Discriminative and Generative (The Springer International Series in Engineering and Computer Science)|http://www.amazon.co.uk/Machine-Learning-Discriminative-International-Engineering/dp/1402076479]] https://en.wikipedia.org/wiki/Generative_model
 
 !!__[[Supervised learning]]__
@@ -53,7 +54,7 @@ K-means
 
 Community clustering in networks
 
-!!__Variations on supervised and unsupervised__
+!!__Variations on supervised and unsupervised learning__
 
 [[Variations on supervised and unsupervised|https://www.youtube.com/watch?v=pytUuJPOnVI&list=PLD0F06AA0D2E8FFBA&index=4]]
 
@@ -68,6 +69,10 @@ Like semi-supervised learning but the algorithm can //ask// for extra data, whic
 !!!__Decision-theoretic learning__
 
 Basically loss-functions/costs used by the learning agent are based on [[Decision theory]]. See example [[here|https://www.youtube.com/watch?v=pytUuJPOnVI&list=PLD0F06AA0D2E8FFBA&index=4#t=5m32s]].
+
+!!!__[[Incremental learning]]__
+
+Incremental learning is a machine learning paradigm where the learning process takes place whenever new example(s) emerge and adjusts what has been learned according to the new example(s). 
 
 !!__[[Reinforcement learning]]__
 

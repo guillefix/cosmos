@@ -1,10 +1,11 @@
 created: 20160121191754577
 creator: guillefix
 list-after: Chemistry
-modified: 20160708170444426
-modifier: guillefix
+modified: 20160814004455782
+modifier: cosmos
 tags: Science [[Life sciences]]
 title: Biology
+type: text/vnd.tiddlywiki
 
 The study of ''life'', that includes the most [[Complex systems]] known.
 
@@ -21,13 +22,13 @@ The study of ''life'', that includes the most [[Complex systems]] known.
 # Organelles
 # Molecules
 
-!!__Levels 1,2: [[Ecology]]__
+!!!__Levels 1,2: [[Ecology]]__
 
-!!__Levels 2,3: [[Biodiversity & evolution]]__
+!!!__Levels 2,3: [[Biodiversity & evolution]]__
 
 [[Evolution]]
 
-!!!__[[Tree of life]]__
+!!!!__[[Tree of life]]__
 
 * Archea
 
@@ -40,7 +41,7 @@ The study of ''life'', that includes the most [[Complex systems]] known.
 [[National Center for Biotechnology Information|http://www.ncbi.nlm.nih.gov/]]
 [[books|http://www.ncbi.nlm.nih.gov/books/browse/]]
 
-!!__Levels 4,5: Organism biology__
+!!!__Levels 4,5: Organism biology__
 
 [[Developmental biology]]
 
@@ -48,9 +49,9 @@ The study of ''life'', that includes the most [[Complex systems]] known.
 
 [[Physiology]]
 
-!!__Levels 6,7: [[Cell biology]]__
+!!!__Levels 6,7: [[Cell biology]]__
 
-!!__Levels 8: [[Molecular biology]]__
+!!!__Levels 8: [[Molecular biology]]__
 
 and [[Biochemistry]]. 
 
@@ -70,9 +71,13 @@ http://quant.bio/
 
 [[Biology crash course|https://www.youtube.com/playlist?list=PL3EED4C1D684D3ADF]]
 
+[[Edx course|https://courses.edx.org/courses/course-v1:MITx+7.00x_3+2T2015/courseware/Week_1/Introduction/]]
+
 https://www.khanacademy.org/science/biology
 
 http://ocw.mit.edu/courses/biology/7-01sc-fundamentals-of-biology-fall-2011/biochemistry/types-of-organisms-cell-composition/
+
+[img[https://qph.ec.quoracdn.net/main-qimg-0cded91a2f9bc31a5c1403336ca46081?convert_to_webp=true]]
 
 ----------------------
 

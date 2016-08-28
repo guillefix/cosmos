@@ -1,46 +1,101 @@
 created: 20160124143839436
 creator: guillefix
-modified: 20160711225339648
-modifier: guillefix
-tags: [[Artificial and machine intelligence]]
+modified: 20160825120417088
+modifier: cosmos
+tags: Intelligence [[Computer Science and IT]]
 title: Artificial intelligence
+type: text/vnd.tiddlywiki
 
-See [[Artificial and machine intelligence]] and [[Machine learning]]
+See [[Machine learning]]
+
+[[Computational intelligence - Scholarpedia|http://www.scholarpedia.org/article/Encyclopedia:Computational_intelligence]]
+
+[[Oxford course (with video)|https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/]] [[Deep learning]].
+
+[[Youtube playlist by mathematicalmonk|https://www.youtube.com/watch?v=yDLKJtOVx5c&list=PLD0F06AA0D2E8FFBA]]
+
+Hugo latochelle YB videos
+
+Read Neural Turing machines paper
+
+See also: [[Evolutionary computing]], [[Bio-inspired computing]], [[Sloppy systems]]
+
+----------
+
+''[[Artificial intelligence]]'' (''AI'') has the overall goal of understanding and engineering //intelligence//, behaviour that involves understanding, and higher [[cognitive|Cognitive science]] functions. It is a broad and very interdisciplinary field. It feeds to and from [[Machine learning]], [[Logic]], [[Cognitive science]], [[Neuroscience]], etc.
 
 __Approaches__
 
-Connectionists. Deep learning, artificial neural network. Backpropagatiob
+* Connectionists. Deep learning, artificial neural network. Backpropagatiob
 
-Evolutionaries
+* Evolutionaries
 
-Bayesians. Bayesian networks.
+* Bayesians. Bayesian networks.
 
-Symbolists
+* Symbolists
 
-Analogizers.
+* Analogizers.
 
 __[[AI safety]]__
 
-__Universal AI theory__
+__[[Universal AI]] theory__
 
-[[THEORY OF UNIVERSAL LEARNING MACHINES & UNIVERSAL AI|http://people.idsia.ch/~juergen/unilearn.html]]
-
-http://www.hutter1.net/
-
-[[Universal Artificial Intelligence|http://www.hutter1.net/ai/uaibook.htm]]
-
-[[AIXI|https://en.wikipedia.org/wiki/AIXI]]
-
-http://link.springer.com/chapter/10.2991/978-94-91216-62-6_5#page-1
-
-[[http://people.idsia.ch/~juergen/goedelmachine.html]]
-
-http://pybrain.org/
-
-http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/
-
-[[Project Malmo, which lets researchers use Minecraft for AI research, makes public debut|https://blogs.microsoft.com/next/2016/07/07/project-malmo-lets-researchers-use-minecraft-ai-research-makes-public-debut/#sm.00001d4i2xwoqkfi5vv2d7q6j0asm]]
+!!!__[[Explainable artificial intelligence]]__
 
 -------------------
 
 thinking perception action. Loops b?w them
+
+Oxford's society [[OxAI]]
+
+-----------
+
+''Machine intelligence'', is essentially a synonym of AI, but with the connotation of using machines and computers to create and understand intelligence. The biggest part of it, [[Machine learning]], deals with the problem of __learning a model__ from data so as to solve (mostly) __predictive__ tasks.
+
+-----------
+
+//Uses//
+
+[img[Machine_learning_uses1.png]]
+
+[img[Machine_learning_uses2.png]]
+
+------------
+
+__[[Companies and projects|Deep learning companies and projects]]__
+
+--------
+
+[[Miscellaneous notes from first Nando's first deep learning lecture]]
+
+--------
+
+Challenges: One-shot learning, multi-task & transfer learning, scaling and energy efficiency, ability to generate data (e.g. vision as inverse graphics), architectures for AI.
+
+-------
+
+See more at [[Machine learning]]
+
+-------
+
+!!!__[[Mathematical modelling of neural networks]]__
+
+Why Deep Learning models perform so well?
+
+Seems to be a result of:
+
+*Very large datasets
+*Increasing computing power
+*Flexibility of the models. Lots of parameters when lots of layers. Furthermore multiple layers avoide the curse of dimensionality
+
+--------
+
+[[Eric Drexler - A Cambrian explosion in Deep learning|https://www.youtube.com/watch?v=QPWs3BBKBdY&feature=youtu.be]]
+
+--------
+
+[[A Gradient Descent Method for a Neural Fractal Memory|http://www.demo.cs.brandeis.edu/papers/wcci98.pdf]]
+
+[[https://www.oreilly.com/ideas/the-current-state-of-machine-intelligence-2-0|https://www.oreilly.com/ideas/the-current-state-of-machine-intelligence-2-0]]
+
+[[Computer vision]]

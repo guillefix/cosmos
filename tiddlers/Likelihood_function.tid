@@ -1,9 +1,10 @@
 created: 20160625130533748
 creator: guillefix
-modified: 20160625131443132
-modifier: guillefix
+modified: 20160821082029817
+modifier: cosmos
 tags: Statistics
 title: Likelihood function
+type: text/vnd.tiddlywiki
 
 [[Likelihood function|https://en.wikipedia.org/wiki/Likelihood_function]], $$\mathcal{L} $$ is defined as
 
@@ -12,5 +13,7 @@ $$\mathcal{L} = \text{P}(\text{data}|\text{theory})$$
 I.e. the probability of the data given the theory.
 
 One often considers the log-likelihood, which is just the log of the likelihood.
+
+This function is used in [[Machine learning]] and [[Statistics]], See [[Maximum likelihood]]
 
 See also [[Fisher information matrix]]

@@ -1,0 +1,7 @@
+{
+	"title": "$:/plugins/TheDiveO/FontAwesome",
+	"description": "FontAwesome icons on TW5",
+	"author": "TheDiveO",
+	"core-version": ">=5.0.0",
+	"list": "readme usage"
+}

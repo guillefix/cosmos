@@ -1,14 +1,25 @@
 created: 20160709011612644
 creator: guillefix
-modified: 20160709015755072
-modifier: guillefix
+modified: 20160810173158698
+modifier: cosmos
 tags: [[Regression analysis]]
 title: Linear regression
+type: text/vnd.tiddlywiki
 
 See [[Regression analysis]].
 
 !!''Least mean squares''
 
+See [[Least-squares]]
+
 Use [[Matrix calculus]] for optimization: leads to ''normal equations'' (analytical solution to least squares), etc.
 
 See [[here|http://cs229.stanford.edu/notes/cs229-notes1.pdf]]
+
+!!!__Probabilitistic interpretation__
+
+See [[here|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=28m40s]]. We assume the errors between model values and actual values follow a [[Normal distribution]]. This implies the data would be distributed as a Gaussian with mean $$\Theta^T x$$, and a certain [[Variance]]. See [[here|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=33m]]. With this we [[define|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=41m20s]] the [[Likelihood function]]. One can then derive that [[maximizing likelihood|Maximum likelihood]] is the same as mimimizing mean squares.
+
+-------------------
+
+There exists a [[nonparametric|Nonparametric statistics]] generalization of linear regression: [[Locally-weighted linear regression]]

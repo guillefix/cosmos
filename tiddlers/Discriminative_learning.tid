@@ -1,0 +1,27 @@
+created: 20160821081633620
+creator: cosmos
+modified: 20160821085351001
+modifier: cosmos
+tags: [[Supervised learning]]
+title: Discriminative learning
+type: text/vnd.tiddlywiki
+
+A type of [[Supervised learning]] where one learns the function $$p(\text{output}|\text{input})$$. See [[notes|http://cs229.stanford.edu/notes/cs229-notes1.pdf]]
+
+!!!__Learning method__
+
+The learning itself is done by [[Maximum likelihood]], where the likelihood is:
+
+$$p(\theta|(x,y))=\frac{p((x,y)|\theta)p(\theta)}{p(x,y)}$$
+
+where $$\theta$$ are the parameters of the theory, $$y$$ are the outputs, and $$x$$ are the input variables. Now our aim is maximizing this likelihood w.r.t $$\theta$$, and as the denominator doesn't depend on $$\theta$$, we can ignore it. We can also assume that $$p(\theta$$, our prior, is uniform. Then, we want to maximize:
+
+$$p((x,y)|\theta) = \prod_{i}p(y^{(i)}|x^{(i)};\theta)p(x^{(i)})$$
+
+where we assumed that all the data points are independent. We have also <span style="color:coral;">assumed that our model only models $$p(y|x)$$, so that $$\theta$$ doesn't appear in $$p(x)$$</span>. This is the <b>main difference with [[Generative learning]]</b>. While maximizing the log likelihood
+
+$$l(\theta) = \log{(p(x,y)|\theta)} = \sum_i \log{p(y^{(i)}|x^{(i)};\theta)} + \sum_i \log{p(x^{(i)})}$$
+
+only the first term depends on $$\theta$$, the second is fixed (and thus ignored in the optimization procedure).
+
+See also [[Generative vs discriminative models]]

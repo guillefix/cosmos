@@ -1,0 +1,92 @@
+created: 20160809202237958
+creator: cosmos
+modified: 20160825200122880
+modifier: cosmos
+tags: [[Algorithmic information theory]]
+title: Universal probability
+type: text/vnd.tiddlywiki
+
+//a.k.a. algorithmic probability, Levin's probability distribution, universal prior//
+
+Probability distribution of outputs of a [[Turing machine]], when fed random inputs. Apparently, the distribution is rather robust to the probability distribution of inputs, thus it being called "universal"
+
+: [img[http://ecx.images-amazon.com/images/I/51nSFgWgn3L._SS36_.jpg]] Imagine a monkey sitting at a keyboard and typing the keys at random.
+
+::Probability of an input program (string), $$p$$, is $$2^{-l(p)}$$. <big><i class="fa fa-hand-o-right" aria-hidden="true"></i></big>simple strings are more likely than complicated strings of the same length.
+
+[img[Selection_169.png]]
+
+__Universality of the universal probability__
+
+See [[here (vid)|https://www.youtube.com/watch?v=wMcRMO9ejeM#t=7m30s]] also
+
+[img[Selection_170.png]]
+
+Remark. <b>Bounded likelihood ratio</b> The likelihood ratio $$P_{\mathcal{U}}(x)/P_{\mathcal{A}}(x)$$ is bounded, and doesn't go to $$0$$ or $$\infty$$ for any $$x$$, thus no universal probability can be totally discarded relative to any other in hypothesis testing. This is essentially because any universal computer can simulate any other, and //in that sense// the probability distribution obtained by feeding random input into one is also contained in the distribution obtained in the other.
+
+In that sense we cannot reject the possibility that the universe
+is the output of monkeys typing at a computer. However, we can reject
+the hypothesis that the universe is random (monkeys with no computer). <big><big>😮</big></big>
+
+[img[Selection_171.png]]
+
+<<<
+
+The example indicates that a random input to a computer is much more
+likely to produce “interesting” outputs than a random input to a typewriter.
+We all know that a computer is an intelligence amplifier. Apparently, it
+creates sense from nonsense as well.
+
+<<<
+
+__On the machine dependence of UP__
+
+<<<
+
+That Algorithmic Probability was relatively independent of the choice of
+which universal machine was used seemed likely but was not altogether cer
+tain. It was clear that probabilities assigned by different machines would differ
+by only a constant factor (independent of length of data described), but this
+constant factor could be
+quite large.
+
+Fortunately, in just about all applications of probability, we are not in
+terested in absolute probabilities, but only in probability ratios. I had some
+heuristic arguments to the effect that the probability ratio for alternative possi
+ble continuations of a sequence should be relatively machine independent if the
+sequence were very long
+The second half of the 1964 paper was devoted to examples of how this prob-
+ability evaluation method could be applied. That it seemed to give reasonable
+answers was some of the strongest evidence that I had for its correctness
+
+<<<
+
+---------------
+
+[ext[The discovery of algorithmic probability|http://world.std.com/~rjs/barc97.pdf]]. See also [[Universal inductive inference]]. Solomonoff defined 5 models which are variants of UP, discussed in that paper. They are based on different constraints on the Turing machine, and on defining probability in a frequentist way. Some of them were used for sequence prediction.
+
+See [[here (vid)|https://www.youtube.com/watch?v=wMcRMO9ejeM#t=4m41s]] for description of these.
+
+__Other related models/work__
+
+[img[https://s3.postimg.org/s2shmigg3/Selection_589.png]]
+
+[img[https://s13.postimg.org/brd0ubrd3/Selection_590.png]]
+
+[[Levin 73. On the notion of a random sequence|http://www.cs.bu.edu/fac/lnd/dvi/ran72.pdf]]
+
+[[Levin 74. Laws of information conservation (non-growth) and aspects of the foundations of probability theory|http://alexander.shen.free.fr/library/Levin74_LawsOfInformationConservation.pdf]]
+
+[[Gacs 74. On the symmetry of algorithmic information|http://www.cs.bu.edu/faculty/gacs/papers/gacs-symmetry.pdf]]
+
+[ext[Chaitin 75. A theory of program size formally identical to information theory|https://www.google.es/url?sa=t&source=web&rct=j&url=https://www.cs.auckland.ac.nz/~chaitin/acm75.pdf&ved=0ahUKEwjpseG51tjOAhVF6xoKHTvaAx0QFggbMAA&usg=AFQjCNF88CYW_OPlUyAYc90K-SfwmLg2eg]]
+
+http://link.springer.com/chapter/10.1007/978-0-387-49820-1_4#page-1
+
+------------------------------------
+
+__Physical algorithmic probability__
+
+[[book|https://books.google.es/books?id=UEQwCgAAQBAJ&pg=PA131&lpg=PA131&dq=physical+theory+to+algorithmic+probability&source=bl&ots=h2lFxS7jhr&sig=oN7_vKrmfMrOCSbuGUo7wEdmBN8&hl=en&sa=X&ved=0ahUKEwjXtpeglN3OAhXLuhoKHXHzBHoQ6AEIPDAE#v=onepage&q=physical%20theory%20to%20algorithmic%20probability&f=false]]
+
+[[Ultimate Intelligence Part I: Physical Completeness and Objectivity of Induction|http://arxiv.org/abs/1501.00601]]

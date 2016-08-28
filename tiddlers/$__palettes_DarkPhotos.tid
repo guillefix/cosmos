@@ -1,8 +1,8 @@
 created: 20150402111612188
 creator: guillefix
 description: Good with dark photo backgrounds
-modified: 20160119155631252
-modifier: guillefix
+modified: 20160824085633491
+modifier: cosmos
 name: DarkPhotos
 tags: $:/tags/Palette
 title: $:/palettes/DarkPhotos
@@ -34,7 +34,7 @@ external-link-background-hover: inherit
 external-link-background-visited: inherit
 external-link-background: inherit
 external-link-foreground-hover: inherit
-external-link-foreground-visited: #02aa00
+external-link-foreground-visited: #00ee94
 external-link-foreground: #00ee19
 foreground: #cfd1f0
 message-background: #365eb4

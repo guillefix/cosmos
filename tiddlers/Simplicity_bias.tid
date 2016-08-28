@@ -1,12 +1,12 @@
 created: 20160623201813997
 creator: guillefix
-modified: 20160808104144242
-modifier: guillefix
+modified: 20160824105627409
+modifier: cosmos
 tags: Simplicity
 title: Simplicity bias
 type: text/vnd.tiddlywiki
 
-Simplicity bias is a bias observed in many [[GP maps|Genotype-phenotype map]] (see [[Bias in GP maps]]), and in many [[Complex systems]] (which can often be seen as GP maps). Simplicity is defined as low [[complexity|Complexity theory]].
+Simplicity bias (also called Algorithmic randomness deficit) is a bias observed in many [[GP maps|Genotype-phenotype map]] (see [[Bias in GP maps]]), and in many [[Complex systems]] (which can often be seen as GP maps). Simplicity is defined as low [[complexity|Complexity theory]].
 
 [[Simplicity bias in discrete systems]]
 
@@ -15,3 +15,23 @@ Simplicity bias is a bias observed in many [[GP maps|Genotype-phenotype map]] (s
 [[Simplicity bias in continuous systems]]
 
 See [[MMathPhys oral presentation]], [[Simplicity]], [[Order]]
+
+!!!__Origin of the bias__
+
+A map that shows simplicity bias seems to need to be simple itself (having short description / low [[Kolmogorov complexity]]).
+
+[[A priori probability estimates from structural complexity]]
+
+[[Universal probability]]
+
+[[Origin of bias in GP maps]]
+
+!!!__Types of bias__
+
+* Algorithmic [[Randomness deficit]] of the set of outputs (p-sampled) (ARD1).
+
+* Algorithmic [[Randomness deficit]] over the g-sampled distribution of outputs (ARD2).
+
+!!!__Other features of simple maps__
+
+* Low probability -- low complexity outputs have inputs which are simple. This is because a description of the inputs can be constructed from a description of the output, plus an index, which is at most $$\log{A}$$, where $$A$$ is the size of the input set producing that output. If the output has low probability, $$A$$ is small, and so this term is small. If the output is simple, then its description is small. Both these terms are small, and therefore, the input set must be composed of simple strings.

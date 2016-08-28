@@ -1,7 +1,25 @@
 created: 20160629002922154
 creator: guillefix
-modified: 20160629002932533
-modifier: guillefix
+modified: 20160823161730542
+modifier: cosmos
 tags: [[Formal language]]
 title: Formal grammar
+type: text/vnd.tiddlywiki
 
+See [[Formal language]]
+
+!!!__Formal grammar__
+
+Defined by either:
+
+* variables, terminals, production rules, and starting symbols. See [[Formal language]].
+
+* an [[automaton|Automata theory]].
+
+[[Ambiguous grammar|https://www.youtube.com/watch?v=WccZQSERfCM#t=11m10s]] is one in which a given string in its language has more than one valid derivation/parse tree. The problem of knowing whether a grammar is ambiguous or not is [[Undecidable]]
+
+[[Parsing expression grammar|https://www.wikiwand.com/en/Parsing_expression_grammar]] are a class of grammars, similar to [[Context-free grammar]]s, but that cannot be ambiguous. It is conjectured that there exist context-free languages that cannot be parsed by a PEG, but this is not yet proven.[1] PEGs are well-suited to parsing computer languages.
+
+[img[http://i.imgur.com/gcQfgpD.jpg]]
+
+[[Grammar learning]]

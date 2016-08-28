@@ -1,7 +1,7 @@
 created: 20160221181117472
 creator: guillefix
-modified: 20160808000523685
-modifier: guillefix
+modified: 20160810174347013
+modifier: cosmos
 tags: Engineering [[Scientific computing]] [[Operations research]] [[Mathematical methods]]
 title: Optimization
 type: text/vnd.tiddlywiki
@@ -32,42 +32,11 @@ Objective and constraint functins are non-linear. Some special cases:
 
 Often for global nonlinear optimization, we need to use brute force methods, with [[Computational complexity]] exponential in the dimension of th optimzation space (space of optimization variables). For approximate but faster solutions, we can use local optimizal optimization, or heuristics.
 
-!!--__Local optimization__
+!!--__[[Local optimization]]__
 
-Find local optima, as a method to approximately solve hard nonlinear optimization problems. The main method is based around ''gradient descent''.
-
-!!!''Newton's method''. 
-
-(//Offline algorithm//, you process all the data at each step)
-
-Taylor expand to second order (in multi-variate way) and minimize that (i.e. take derivative (gradient)) and set to 0. [[It performs upper bound minimization|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=26m33s]]. 
-
-Newton CG (conjugate gradient) algorithms. 
-
-Expensive thing is computing Hessian. Approximate methods like BFGS, LBFGS.
-
-Line search
-
-!!!''Stochastic gradient descent''
-
-[[Vid|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=35m05s]]
-
-(//Online algorithm//, you process the data sequentially, by chunks. You need this if you do not access to all of it at the same time, or you have so much data that not all of it fits on your RAM..)
-
-You only use a mini-batch (a small sample) of input data at a time, in practice
-
-There're theorems that show that this converges well.
-
-Downpour -- Asynchronous SGD
-
-[[Polyak averaging|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=49m30s]]. Running average over the parameter values at all time steps performed up to now.
-
-[[Momentum|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=50m40s]]. You add inertia to the particle so that the gradient descent is not just velocity = gradient (as it'd be in viscous fluid), but it is acceleration = (viscosity) + gradient.
-
-[[Adagrad|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=52m40s]]: Put more weight on rare features [Duchi et al]. <b> Very useful </b> Rare features (i.e. value along a dimension for example) tend to have more information, i.e., they are able to tell you more about what the output $$y$$ should be. This seems maybe related to [[AIT|Algorithmic information theory]].
+{{Local optimization}}
 
 [[More things on optimization|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=56m20s]]
-
 
 
 !!--__Heuristic optimization__

@@ -1,8 +1,7 @@
 created: 20160327165844855
 creator: guillefix
-modified: 20160725005029437
-modifier: guillefix
-revision: 0
+modified: 20160810171435942
+modifier: cosmos
 title: Nonparametric statistics
 type: text/vnd.tiddlywiki
 
@@ -13,3 +12,9 @@ https://en.wikipedia.org/wiki/Nonparametric_statistics
 
 not based on parameterized families of probability distributions
 
+__Nonparametric models__
+
+* [[Nearest-neighbour classification]] 
+* [[Locally-weighted linear regression]]
+
+They are both based on looking at local neighbours near points for which we are going to make the prediction.

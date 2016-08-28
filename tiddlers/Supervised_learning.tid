@@ -1,8 +1,7 @@
 created: 20160327021039036
 creator: guillefix
-modified: 20160725005121554
-modifier: guillefix
-revision: 0
+modified: 20160821094538478
+modifier: cosmos
 tags: [[Machine learning]]
 title: Supervised learning
 type: text/vnd.tiddlywiki
@@ -31,7 +30,7 @@ Parametric vs non-parametric:
 * ''Parametric''. There is a fixed number of parameters that the algorithm fits.
 * ''Non-parametric''. Formally, the number of "parameters" grows with the training set. Here number of parameters basically refers to "amount of information in learned  function". For See [[Nonparametric statistics]] An example is [[Nearest-neighbour classification]].
 
-!!__Discriminative learning__
+!!__[[Discriminative learning]]__
 
 Learning the function $$p(\text{output}|\text{input})$$. See [[notes|http://cs229.stanford.edu/notes/cs229-notes1.pdf]]
 
@@ -45,18 +44,20 @@ Output value is discrete, or categorical, or qualitative. No implicit ordering, 
 
 !!!__General methods__
 
+[[Generalized linear model]]
+
 [[Artificial neural network]] (see [[Deep learning]])
 
 [[Support vector machine]]
 
-!!__Generative learning__
+!!__[[Generative learning]]__
 
-Learning the function $$p(\text{input}|\text{output})$$, which can be used to find $$p(\text{output}|\text{input})$$ using [[Baye's theorem]]. 
-See [[notes|http://cs229.stanford.edu/notes/cs229-notes2.pdf]]
+Learning the function $$p(\text{input}|\text{output})$$, together with $$p(\text{output})$$, which can be used to find $$p(\text{output}|\text{input})$$ using [[Baye's theorem]]. 
+See [[notes|http://cs229.stanford.edu/notes/cs229-notes2.pdf]]. See [[lecture video|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=51s]] [[def|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=4m50s]]
 
-!!!__Gaussian discriminant analysis__
+!!!__[[Gaussian discriminant analysis]]__
 
-!!!__Naive Bayes__
+!!!__[[Naive Bayes]]__
 
 !__Model assessment__
 

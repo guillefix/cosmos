@@ -1,9 +1,10 @@
 created: 20160703115514213
 creator: guillefix
-modified: 20160715193821936
-modifier: guillefix
+modified: 20160826114622742
+modifier: cosmos
 tags: [[Information theory]]
 title: Information measures
+type: text/vnd.tiddlywiki
 
 * [[Entropy]]  
 
@@ -13,7 +14,7 @@ title: Information measures
 
 * [[Mutual information]] (the difference between the entropy and the conditional entropy. I.e the decrease in uncertainty on a random variable when you learn about another random variable. I.e. the information you gain on a random variable from another RV) Measure of dependence.
 * [[Conditional mutual information]]
-  * ''Relative entropy''. Mututal information is a special case. Defines a measure of "distance" between probabiliy distributions. Applications in estimating hypothesis testing errors and in large deviation theory.
+  * [[Relative entropy]]. Mututal information is a special case. Defines a measure of "distance" between probabiliy distributions. Applications in estimating hypothesis testing errors and in large deviation theory.
 
 [[Shannon's Information Measures|https://www.youtube.com/watch?v=6RJP5m3m1XA&index=7&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft]]
 

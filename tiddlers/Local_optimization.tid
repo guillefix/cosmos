@@ -1,0 +1,9 @@
+created: 20160810174318827
+creator: cosmos
+modified: 20160810174334458
+modifier: cosmos
+tags: Optimization
+title: Local optimization
+type: text/vnd.tiddlywiki
+
+Find local optima, as a method to approximately solve hard nonlinear optimization problems. The main method is based around ''[[Gradient descent]]''.

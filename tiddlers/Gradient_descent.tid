@@ -1,0 +1,41 @@
+created: 20160810174239855
+creator: cosmos
+modified: 20160810175455159
+modifier: cosmos
+tags: [[Local optimization]]
+title: Gradient descent
+type: text/vnd.tiddlywiki
+
+A [[Local optimization]] technique based on following gradients to decrease a function.
+
+!!!''Newton's method''. 
+
+See section 7 [[here|http://cs229.stanford.edu/notes/cs229-notes1.pdf]], [[video|https://www.youtube.com/watch?v=nLKOQfKLUks&index=4&list=PLA89DCFA6ADACE599#t=3m30s]]
+
+(//Offline algorithm//, you process all the data at each step)
+
+Taylor expand to second order (in multi-variate way) and minimize that (i.e. take derivative (gradient)) and set to 0. [[It performs upper bound minimization|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=26m33s]]. 
+
+Newton CG (conjugate gradient) algorithms. 
+
+Expensive thing is computing Hessian. Approximate methods like BFGS, LBFGS.
+
+Line search
+
+!!!''Stochastic gradient descent''
+
+[[Vid|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=35m05s]]
+
+(//Online algorithm//, you process the data sequentially, by chunks. You need this if you do not access to all of it at the same time, or you have so much data that not all of it fits on your RAM..)
+
+You only use a mini-batch (a small sample) of input data at a time, in practice
+
+There're theorems that show that this converges well.
+
+Downpour -- Asynchronous SGD
+
+[[Polyak averaging|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=49m30s]]. Running average over the parameter values at all time steps performed up to now.
+
+[[Momentum|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=50m40s]]. You add inertia to the particle so that the gradient descent is not just velocity = gradient (as it'd be in viscous fluid), but it is acceleration = (viscosity) + gradient.
+
+[[Adagrad|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=52m40s]]: Put more weight on rare features [Duchi et al]. <b> Very useful </b> Rare features (i.e. value along a dimension for example) tend to have more information, i.e., they are able to tell you more about what the output $$y$$ should be. This seems maybe related to [[AIT|Algorithmic information theory]].

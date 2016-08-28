@@ -1,16 +1,17 @@
 created: 20160204232816786
 creator: guillefix
-modified: 20160624010407971
-modifier: guillefix
+modified: 20160824092338135
+modifier: cosmos
 title: Theory of computation
+type: text/vnd.tiddlywiki
 
 ''Computation'' is the part of [[maths|Mathematics]] that can effectively be carried out in the world
 
 Computation is often studied via mechanistic models like those formalized in [[Automata theory]]. The main models will be explained below, in Models of Computation section.
 
-!!__Language__: 
+!!!__Language__: 
 
-A [[formal language|https://en.wikipedia.org/wiki/Formal_language]] //is a set of strings of symbols// that may be constrained by rules that are specific to it. These rules can also be expressed as machines, like finite state machines or Turing machines.
+A [[Formal language]] //is a set of strings of symbols// that may be constrained by rules that are specific to it. These rules can also be expressed as machines, like finite state machines or Turing machines.
 
 Finite state machine<Context-free languages<Turing machines<Undecidable problems (hypercomputation)
 
@@ -22,11 +23,15 @@ https://www.youtube.com/watch?v=ZNBNmxXKmUY&index=7&list=PL601FC994BDD963E4. On 
 
 Computability of functions
 
-!__Models of computation__
+!!__Models of computation__
 
-See also [[Automata theory]] for more.
+See also [[Automata theory]] for more. Main examples:
 
-!!__[[Finite-state machine]]__
+!!!__[[Finite-state machine]]__
+
+!!!__[[Turing machine]]__
+
+[[Church-Turing thesis]]
 
 --------
 

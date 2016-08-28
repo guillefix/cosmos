@@ -1,9 +1,10 @@
 created: 20160117153324960
 creator: guillefix
-modified: 20160120192359485
-modifier: guillefix
+modified: 20160820113040324
+modifier: cosmos
 tags: $:/tags/Stylesheet
 title: Custom stylesheet
+type: text/vnd.tiddlywiki
 
  <!-- <script>
   $(function() {
@@ -18,6 +19,11 @@ title: Custom stylesheet
 html button {
 	background: #222;
 	border-color: #222;
+}
+
+span.border {
+  border: 1px solid white;
+  padding: 3px;
 }
 
 html select {

@@ -1,0 +1,27 @@
+created: 20160821073215042
+creator: cosmos
+modified: 20160821083127328
+modifier: cosmos
+tags: [[Generative learning]]
+title: Gaussian discriminant analysis
+type: text/vnd.tiddlywiki
+
+An example of a [[Generative learning]] algorithm.
+
+[[Lec vid intro|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=6m50s]], where we assume that $$p(x|y)$$ is [[Gaussian]].
+
+[[Definition (vid)|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=13m29s]], for the case where $$y \in \{0,1\}$$
+
+''Learning'' by [[Maximum likelihood]]. The [[log likelihood|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=15m30s]] (see [[Likelihood function]]), uses the joint likelihood $$p(x,y|\theta)$$. We maximize it to find the parameters. See more at [[Generative algorithm]] for the learning method.
+
+''Prediction'', using [[Baye's theorem]] to get $$p(y|x)$$ and using the most likely $$y$$. See [[here|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=22m30s]].
+
+!!!__Comparison with [[Logistic regression]]__
+
+See [[vid|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=26m24s]], [[vid2|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=29m54s]], [[vid3|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=34m]]
+
+[img[https://s4.postimg.org/5frjsqect/Selection_588.png]]
+
+The GDA makes stronger assumptions than Logistic regression. If the GDA Gaussian assumption holds, or roughly holds, GDA may do better than Logistic regression. In other cases, Logistic regression may do better.
+
+Logistic regression is more flexible, but requires more data. GDA is less flexible, but can work well with less data if the stronger assumptions are correct.

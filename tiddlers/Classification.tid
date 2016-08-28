@@ -1,11 +1,12 @@
 created: 20160709020447725
 creator: guillefix
-modified: 20160709024746759
-modifier: guillefix
+modified: 20160813170302756
+modifier: cosmos
 tags: [[Supervised learning]]
 title: Classification
+type: text/vnd.tiddlywiki
 
-Discriminative [[Supervised learning]], where the output value is discrete, or categorical, or qualitative. No implicit ordering, or closeness on the variables.
+Discriminative [[Supervised learning]], where the output value is discrete, or categorical, or qualitative. No implicit ordering, or closeness on the variables. See [[video|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=50m]].
 
 Many of the same methods as in [[regression|Regression analysis]], as problem is quite similar.
 
@@ -15,7 +16,11 @@ How do you classify data that lies on an infinite dimensional space
 
 !!Supervised classification
 
-[[Logistic regression]]
+[[Logistic regression]] (Classification with 2 classes). A simpler version: [[Perceptron]]
+
+[[Softmax regression]] (classification with $$k $$ classes).
+
+See [[Generalized linear model]] for other more generalized methods.
 
 [[Artificial neural network]] (see also [[Deep learning]])
 

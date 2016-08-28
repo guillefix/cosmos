@@ -1,9 +1,10 @@
 created: 20160709025157181
 creator: guillefix
-modified: 20160719050824347
-modifier: guillefix
+modified: 20160810165331944
+modifier: cosmos
 tags: [[Digital art]]
 title: Deep art
+type: text/vnd.tiddlywiki
 
 [[Digital art]] based on [[Deep learning]]
 
@@ -17,9 +18,13 @@ Neural doodle
 
 Colorize B&W pictures: http://demos.algorithmia.com/colorize-photos/
 
-!!__A Neural Algorithm of Artistic Style__
+!!__Neural Style: A Neural Algorithm of Artistic Style__
 
 [[A Neural Algorithm of Artistic Style|http://arxiv.org/pdf/1508.06576v1.pdf]]
+
+[[Pikazo - neural style video tech demo|https://www.youtube.com/watch?v=FzvTLEB_3KY]] [[Artistic style transfer for videos|https://www.youtube.com/watch?v=Khuj4ASldmU]]
+
+[[Analogy-Driven 3D Style Transfer|https://www.youtube.com/watch?v=h0xF6R5MpyA]]
 
 [[reddit discussion|https://www.reddit.com/r/MachineLearning/comments/3imx1m/a_neural_algorithm_of_artistic_style/]]
 
