@@ -1,0 +1,37 @@
+created: 20160901105825972
+modified: 20160901105904888
+module-type: macro
+title: $:/core/modules/macros/testMacro
+type: application/javascript
+
+/*\
+title: $:/core/modules/macros/now.js
+type: application/javascript
+module-type: macro
+Macro to return a formatted version of the current time
+\*/
+(function(){
+
+/*jslint node: true, browser: true */
+/*global $tw: false */
+"use strict";
+
+/*
+Information about this macro
+*/
+
+exports.name = "testMacro";
+
+exports.params = [
+	{name: "format"}
+];
+
+/*
+Run the macro
+*/
+exports.run = function(format) {
+	return "test";
+//$tw.utils.formatDateString(new Date(),format || "0hh:0mm, DDth MMM YYYY");
+};
+
+})();
