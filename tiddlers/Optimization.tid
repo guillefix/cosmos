@@ -1,6 +1,6 @@
 created: 20160221181117472
 creator: guillefix
-modified: 20160810174347013
+modified: 20160831174728547
 modifier: cosmos
 tags: Engineering [[Scientific computing]] [[Operations research]] [[Mathematical methods]]
 title: Optimization
@@ -20,9 +20,15 @@ A //mathematical optimization problem//, or ''optimization problem''
 
 One can also have equality constraints, apart from inequalities.
 
-!!!''[[Linear programming]]'': [[Linear|Linearity]] objective and constraint functions. Used in [[Operations research]]
+!!!__Primal and dual problem and KKT conditions__
 
-!!!''Nonlinear programming''
+[[Andrew Ng video|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=23m30s]] -- [[General optimization problem|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=27m]] -- [[Dual problem|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=34m30s]], uses [[Max–min inequality]]. [[Conditions for the primal and dual problems being equivalent|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=39m]] (includes [[Karush–Kuhn–Tucker conditions|https://www.wikiwand.com/en/Karush%E2%80%93Kuhn%E2%80%93Tucker_conditions]])
+
+Has applications in [[Support vector machine]]s. The reasons we use the dual problem is that it has many useful properties, I think it is convex?
+
+!!!__[[Linear programming]]__: [[Linear|Linearity]] objective and constraint functions. Used in [[Operations research]]
+
+!!!__''Nonlinear programming''__
 
 Objective and constraint functins are non-linear. Some special cases:
 
@@ -62,7 +68,7 @@ See links [[here|https://en.wikipedia.org/wiki/Multidisciplinary_design_optimiza
 
 [[Evolutionary computing]]
 
-!!![[Simulated annealing|https://en.wikipedia.org/wiki/Simulated_annealing]] ! [[http://www.mit.edu/~dbertsim/papers/Optimization/Simulated%20annealing.pdf]]
+!!![[Simulated annealing|https://en.wikipedia.org/wiki/Simulated_annealing]] ! [ext[http://www.mit.edu/~dbertsim/papers/Optimization/Simulated%20annealing.pdf]]
 
 https://en.wikipedia.org/wiki/Inferential_programming
 

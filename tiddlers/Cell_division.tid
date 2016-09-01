@@ -1,9 +1,13 @@
 created: 20160625191827264
 creator: guillefix
-modified: 20160625191842838
-modifier: guillefix
+modified: 20160830212707057
+modifier: cosmos
+tags: [[Cell biology]]
 title: Cell division
+type: text/vnd.tiddlywiki
 
 https://en.wikipedia.org/wiki/Cell_division
 
-See [[Mitosis]]
+* [[Mitosis]]
+
+* [[Meiosis]]

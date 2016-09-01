@@ -1,6 +1,6 @@
 created: 20160708155912000
 creator: guillefix
-modified: 20160828001548820
+modified: 20160830152349713
 modifier: cosmos
 title: ATP
 type: text/vnd.tiddlywiki
@@ -9,11 +9,13 @@ type: text/vnd.tiddlywiki
 
 Molecule that stores chemical energy for the [[Cell]]. Produced by [[Cellular respiration]]
 
-Adenine + Ribose + 3 phospate groups. These are negative, and the fact that these three negatively charged groups are held together explains why the molecule holds so much (electric) energy.
+Adenine + Ribose + 3 [[Phosphate]] groups. These are negative, and the fact that these three negatively charged groups are held together explains why the molecule holds so much (electric) energy.
 
-ATP hydrolyses to ADP and phosphate, by unbonding one of the phosphate groups, and releasing energy.
+ATP hydrolyses to ADP (adenosine diphosphate) and phosphate, by unbonding one of the phosphate groups, and releasing energy.
 
 [[Video|https://www.youtube.com/watch?v=KJG6HA5xSxY]]
+
+See [[Metabolic mechanisms]] to see how ATP can make unfarovable reactions happen!
 
 -----------------
 

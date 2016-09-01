@@ -1,5 +1,7 @@
 created: 20160807002358280
-modified: 20160808162107998
+creator: cosmos
+modified: 20160831160733037
+modifier: cosmos
 tags: Optimization [[Convex analysis]]
 title: Convex optimization
 type: text/vnd.tiddlywiki
@@ -12,7 +14,9 @@ https://www.wikiwand.com/en/Convex_optimization
 
 Convex optimization problems include least-squares fitting (see [[Linear regression]]), and [[Linear programming]] problems.
 
-See [[Learning theory]]
+See [[Learning theory]], [[Andrew Ng video|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=23m30s]]
+
+[[Dual problem|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=34m30s]], uses [[Max–min inequality]]
 
 !!__Solution methods__
 

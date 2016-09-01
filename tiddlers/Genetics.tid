@@ -1,38 +1,41 @@
 created: 20160218002529202
 creator: guillefix
-modified: 20160420182357321
-modifier: guillefix
+modified: 20160831114148276
+modifier: cosmos
 tags: Biology
 title: Genetics
+type: text/vnd.tiddlywiki
 
-A ''gene'' is a particular portion of DNA in a chromosome that codes for a protein belonging to a certain family (that may then have some function in an organism or a cell). Every gene is identified with a particular protein, and viceversa (in standard biology).
+!!!__[[Definitions|https://www.youtube.com/watch?time_continue=35&v=H6gwYdyn7II]]
+__
 
-A ''chromosome'' is a single molecule of DNA, containing many genes; an organisms often has several chromosomes. In a chromosome, the DNA is wound on //histone// proteins, and very densely packed, so that it can fit inside the nucleus. The packing structure is illustrated [[here|https://en.wikipedia.org/wiki/Chromosome#/media/File:Chromatin_Structures.png]].
 
-A ''locus'' (see [[wiki|https://en.wikipedia.org/wiki/Locus_(genetics)]]) is the physical part (the location) along the DNA sequence of a chromosome, that a particular gene is found in.
+* [[Gene]]
 
-An ''allele'' is a version of a gene coding for a specific protein. The ''genotype'' is the sequence of all alleles of an individual.
+* [[Allele]]
 
-[[Genes, Alleles and Loci on Chromosomes|https://www.youtube.com/watch?v=GUS9qmG1wY4&nohtml5=False]]
+* [[Genotype]], [[Phenotype]], [[Trait (Genetics)]]. 
 
-[[MIT notes|http://ocw.mit.edu/courses/biology/7-03-genetics-fall-2004/lecture-notes/]]
+* [[Chromosome]]
 
-[[https://en.wikipedia.org/wiki/Zygosity]]
+* [[Locus (genetics)]]
 
-* Heterozygote
+More: [[Genes, Alleles and Loci on Chromosomes|https://www.youtube.com/watch?v=GUS9qmG1wY4&nohtml5=False]] -- [[Genotypes and phenotypes|https://www.stat.washington.edu/thompson/Genetics/1.3_genotypes.html]] -- [[PHENOTYPE AND GENOTYPE|http://biomed.brown.edu/Courses/BIO48/5.Geno.Pheno.HTML]]
 
-* Monozygote
-
+[[MIT notes|http://ocw.mit.edu/courses/biology/7-03-genetics-fall-2004/lecture-notes/]] 
 
 !!__Mendelian genetics__
 
+[[Intro to Mendel|https://www.youtube.com/watch?v=D8m-ZEr9qV8]] -- [[Mendel experiments|https://www.youtube.com/watch?v=5yY1snYi2x0]]
+
+
 [[Mendelian genetics video|https://www.youtube.com/watch?v=NWqgZUnJdAY]]
 
-__Mendel's laws__
+!!!__Mendel's laws__
 
-1. Law of segregation
+1. Law of segregation, genes segregate randomly from one generation to another
 
-2. Independent assortment
+2. Independent assortment. [[Multiple traits: Mendel's second law|https://www.youtube.com/watch?v=iFlHZ7L7fYI]] [[key|https://www.youtube.com/watch?v=iFlHZ7L7fYI#t=4m]]. Are different [[Gene]]'s correlated in offspring
 
 [[Heredity video|https://www.youtube.com/watch?v=CBezq1fFUEA]]
 
@@ -40,8 +43,36 @@ Punnet square
 
 https://en.wikipedia.org/wiki/Chromosomal_crossover
 
+!!__Chromosomal theory of inheritance__
+
+[[Chromosome]]s carry the [[Gene]]s that Mendel studied.
+
+[[Mendel's 2nd law vs chromosome theory|https://www.youtube.com/watch?v=cbbnGiiu_SI#t=9m38s]] [[How to resolve it: Fruit flies and linkage|https://www.youtube.com/watch?v=Pq3l24TyEbw]] (experiments by [[Thomas Hunt Morgan|http://www.nature.com/scitable/topicpage/thomas-hunt-morgan-the-fruit-fly-scientist-6579789]], with //Drosophila melanogaster//
+
+!!!--> [[Genetic linkage]] and [[Homologous recombination]] (caused by [[Chromosomal crossover]], which occurs during [[Meiosis]])
+
+!!!__[[Mode of inheritance]]__
+
+--> [[Genetic dominance]] (gives rise to ''modes of inheritance'')
+
+* [[Diploid]] cells have two copies of each chromosome, called [[Homologous pair]]s, except, maybe for [[Sex chromosome]]s. These "copies" are not identical, the are homologous, they have the same genes (or almost), but just different alleles.
+
+* [[Haploid]]. Just one copy of each chromosome. [[Gamete]]s are haploid.
+
+!!__[[Biochemical genetics]]__
+
 !!__[[Population genetics]]__
 
+!!!__[[Genetic epidemiology]]__
+
+[[Complex segregation analysis]]
 
 !!__[[Genetic engineering]]__
 
+[[Genetic recombination]] --> [[Homologous recombination]]
+
+* [[Human genetics]]
+
+* [[Genealogy]]
+
+[[Real human genetics|https://www.youtube.com/watch?v=l9_lT0odWww]] (genetics in practice)

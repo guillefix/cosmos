@@ -1,6 +1,6 @@
 created: 20160327021039036
 creator: guillefix
-modified: 20160821094538478
+modified: 20160830114815948
 modifier: cosmos
 tags: [[Machine learning]]
 title: Supervised learning
@@ -73,9 +73,9 @@ Test the model on data you haven't used for training.
 
 min-max, average
 
-[[https://www.cs.cmu.edu/~schneide/tut5/node42.html]]
+[ext[https://www.cs.cmu.edu/~schneide/tut5/node42.html]]
 
-Wikipedia has good explanations: [[https://en.wikipedia.org/wiki/Cross-validation_(statistics)]]
+Wikipedia has good explanations: [ext[https://en.wikipedia.org/wiki/Cross-validation_(statistics)]]
 
 One can show (maybe technical details I don't know..) that given the real distribution of the data, and a sample used for training, one is likely to underestimate the error. So I think cross-validation can be shown rigorously to be good for assessing a model's predictive power (i.e. probability of predicting rightly). See Elements of Statistical Learning book for all details..
 

@@ -1,8 +1,8 @@
 created: 20160226112409331
 creator: guillefix
-modified: 20160825142530506
+modified: 20160831144053261
 modifier: cosmos
-tags: [[Artificial intelligence]] Learning
+tags: [[Artificial intelligence]] Learning [[Data science]]
 title: Machine learning
 type: text/vnd.tiddlywiki
 
@@ -41,6 +41,10 @@ Two main types:
 New paradigm: [[Deep learning]]
 
 !!__[[Unsupervised learning]]__
+
+<<<
+Actually, I think unsupervised learning is the most general. After all, supervised learning can be seen as a special case of unsupervised learning, where the data points are pairs $$(x,y)$$, and we want to find a function so that the data can be modeled as $$(x, f(x))$$ as well as possible; no need to interpret this as "supervising", but can instead interpret it as "finding structure"
+<<<
 
 [[Intro by Andrew Ng|https://www.youtube.com/watch?v=UzxYlbK2c7E#t=50m40s]]
 

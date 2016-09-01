@@ -1,9 +1,10 @@
 created: 20160117211501086
 creator: guillefix
-modified: 20160616182916172
-modifier: guillefix
+modified: 20160829123729259
+modifier: cosmos
 tags: Welcome
 title: Meta
+type: text/vnd.tiddlywiki
 
 This tiddler is about this ~TiddlyWiki itself.
 
@@ -26,7 +27,7 @@ https://github.com/Jermolene/TiddlyWiki5/issues/2180
 
 [[ServerCommand|http://tiddlywiki.com/static/ServerCommand.html]] hmm?
 
-[[Nice collection of plugins|http://tobibeer.github.io/tb5/#]]
+[ext[Nice collection of plugins|http://tobibeer.github.io/tb5/#]]
 
 <mark>[[WOW TiddlyMap|http://tiddlymap.org/]]</mark>
 
@@ -50,7 +51,7 @@ Font Awesome: [[$:/plugins/TheDiveO/FontAwesome/fonts/FontAwesome]] [[TW on Font
 
 This is an example of a (global) Javascript macro, as one can define local ones. 
 
-To use it, do <<testMacro>> in any tiddler, where this isn't the name of the tiddler, but the name defined inside it in `exports.name = "testMacro";`. It then runs the `exports.run` function.
+To use it, do `<<testMacro>>` in any tiddler, where this isn't the name of the tiddler, but the name defined inside it in `exports.name = "testMacro";`. It then runs the `exports.run` function.
 
 !!TODO
 

@@ -1,11 +1,108 @@
 created: 20160709020641282
 creator: guillefix
-modified: 20160709024205351
-modifier: guillefix
+modified: 20160901091248201
+modifier: cosmos
 title: Support vector machine
+type: text/vnd.tiddlywiki
 
-A method for discriminative [[Supervised learning]], that is for [[Supervised classification]], and [[Regression analysis]].
+//aka SVM//
 
-[[Notes|http://cs229.stanford.edu/notes/cs229-notes3.pdf]]
+A method for discriminative [[Supervised learning]], that is for [[Classification]], and [[Regression analysis]]. It allows to [[learn|Machine learning]] non-linear functions, like [[Artificial neural network]]s.
 
-https://www.wikiwand.com/en/Support_vector_machine
+[[Andrew Ng lec intro|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=44m05s]] -- [[Notes|http://cs229.stanford.edu/notes/cs229-notes3.pdf]] -- 
+[[Wiki|https://www.wikiwand.com/en/Support_vector_machine]]
+
+
+[[Notation|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=51m15s]]
+
+!!__Maximum/Optimal margin classifier__
+
+[[Summary|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599]]
+
+* [[Functional margin]]
+
+* [[Geometric margin]]
+
+[[Definition|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=1h8m40s]] of the optimization (learning) problem: choose classification hyperplane (parametrized by $$\omega, b$$), that maximizes the [[Geometric margin]] wrt to training data set, with the contratint $$||w||=1$$.
+
+[[Alternative formulationt|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=9m45s]], that however, leaves $$||w||$$ arbitrary.
+
+[[Here is a constraint|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=17m]] that fixes the arbitrariness of the magnitude of $$w$$: $$\hat{\gamma} = 1$$ ([[Functional margin]]), we get the following [[optimization problem|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=18m30s]]:
+
+<<<
+$$\min \frac{1}{2} ||w||^2$$
+
+s.t. $$y^{(i)} (w^T x + b ) \geq 1$$
+<<<
+
+This is an example of a [[quadratic program|Quadratic programming]]
+
+!!!__SVM optimization problem__
+
+<b>An SVM works by solving the [[dual problem to the optimization problem|Optimization]] of OMCs defined above</b>. The good thing is that the resulting optimization problem is [[convex|Convex optimization]], for which there are very efficient methods for solving it, as there are no local minima!
+
+Primal and dual [[Optimization]] problems: [[intro|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=48m05s]] --> [[primal problem|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=49m15s]] --> [[Dual problem|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=56m]] ([[Skip some algebra|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=1h02m30s]])
+
+([[Definition of support vectors|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=53m50s]], the $$\alpha$$s [[are Lagrange multipliers|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=28m20s]])
+
+The approach for deriving the optimal margin classifier for a support vector machine, is that we'll solve the dual optimization problem above.
+
+Prediction can be written down using inner products: see [[here|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=1h11m]]
+
+--[[Summary|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=1m]]
+
+!!__Kernels__
+
+Allow the computation of the inner products, that appear in the formulas for SVMs, more effectively
+
+[[Idea of a Kernel|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=4m]]
+
+[[How to choose Kernels|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=14m30s]]
+
+__[[How to check if a function is a valid Kernel|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=17m30s]]__
+
+If $$K(x,z)$$ is a valid kernel, then the matrix with elements $$K_{ij} = K(x^{(i)}, x^{(j)}$$, for any set of $$x^{(i)}$$,  must be symmetric positive semi-definite. It turns out [[the converse is true|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=24m15s]].
+
+[[How to use a SVM with a kernel|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=27m30s]]
+
+!!![[How SVM work (to classify non-linearly separable data)|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=30m]]
+
+__Examples of kernels__
+
+* Gaussian kernel
+
+!!![[Kernels can be applied to other learning algorithms|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=34m30s]]!
+
+!!__$$L1$$ norm soft margin SVM__
+
+Soft margin is a method to <b>deal with non-linearly separable decision boundaries</b>. 
+
+[[Intro|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=35m40s]]
+
+[[Mathematical formulation|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=37m40s]]
+
+<<<
+$$\min \frac{1}{2} ||w||^2 + C \sum_{i=1}^n \xi_i$$
+
+s.t. $$y^{(i)} (w^T x + b ) \geq 1 - \xi_i$$
+
+$$y^{(i)} (w^T x + b ) \geq 1 - \xi$$
+
+$$\xi_i  \geq 0$$
+
+$$i = 1, ..., n$$
+<<<
+
+basically weight how each point contributes, so that if there is some outlier it doesn't break the algorithm.. [[Explanation|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=39m]]
+
+Can also work out [[the dual of this optimization problem|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=39m50s]]
+
+[[Convergence conditions|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=43m23s]]
+
+!!__SMO algorithm__
+
+''Sequential minimal optimization'' is an optimization algorithm, that is a variation of [[Coordinate descent]]: [[Application to SVM dual optimization problem|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=52m48s]]. [[This is the reason we use it|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=51m]]
+
+-- [[Description of the algorithm|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=53m40s]] -- [[algorithm|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=54m15s]] (we are maximizing a function $$w(\alpha_1, ..., \alpha_m)$$
+
+!!__[[Applications of SVMs|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=1h9m25s]]__

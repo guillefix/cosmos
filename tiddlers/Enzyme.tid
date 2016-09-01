@@ -1,9 +1,19 @@
 created: 20160422215836560
 creator: guillefix
-modified: 20160422215846104
-modifier: guillefix
+modified: 20160828172114660
+modifier: cosmos
 title: Enzyme
+type: text/vnd.tiddlywiki
 
 https://en.wikipedia.org/wiki/Enzyme
 
 are macromolecular biological ''catalysts''
+
+!!__Examples of enzymes__
+
+[[Triose phosphate isomerase]] (TIM). It takes a [[Triose]] phosphate (with a [[Phosphate]] group), into an [[Isomer]] of it.
+
+!!__Mechanisms__
+
+*Stabilize transition states.
+*Avoiding side reactions

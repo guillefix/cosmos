@@ -1,9 +1,10 @@
 created: 20160602222955368
 creator: guillefix
-modified: 20160602223308626
-modifier: guillefix
+modified: 20160830144802353
+modifier: cosmos
 tags: Chemistry Physics
 title: Physical chemistry
+type: text/vnd.tiddlywiki
 
 Study of chemical systems ([[Chemistry]]), using concepts from [[Physics]].
 
@@ -16,6 +17,8 @@ https://en.wikipedia.org/wiki/Physical_chemistry
 ** [[Non-equilibrium statistical physics]]
 
 *** [[Diffusion]]
+
+** [[Chemical energetics]]
 
 * [[Condensed matter physics]], [[Soft matter physics]]
 

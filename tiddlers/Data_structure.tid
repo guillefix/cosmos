@@ -1,9 +1,10 @@
 created: 20160629233518412
 creator: guillefix
-modified: 20160707164855382
-modifier: guillefix
+modified: 20160830135144324
+modifier: cosmos
 tags: [[Computer Science and IT]]
 title: Data structure
+type: text/vnd.tiddlywiki
 
 [[Tree (data structure)]]
 
@@ -18,5 +19,7 @@ Queue
 List
 
 Graph
+
+[[Persistent data structure]]
 
 See Lynda.com videos.

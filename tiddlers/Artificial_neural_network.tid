@@ -1,15 +1,16 @@
 created: 20160124143800337
 creator: guillefix
-modified: 20160712111107600
-modifier: guillefix
+modified: 20160830113425237
+modifier: cosmos
 tags: [[Neuronal network]] [[Artificial intelligence]]
 title: Artificial neural network
+type: text/vnd.tiddlywiki
 
 <small>Aka artificial neural network..</small>
 
-A particularly useful way of representing functions, for problems in [[Machine learning]]. It is a very good model for many problems, and learning algorithms produce very good results with them. In particular __deep learning__ (which uses ANNs with many layers).
+A particularly useful way of representing nonlinear functions, for problems in [[Machine learning]]. It is a very good model for many problems, and learning algorithms produce very good results with them. In particular __deep learning__ (which uses ANNs with many layers). It is a nonlinear [[classifier|Classifier]], and [[Regression analysis]] model.
 
-[[Hugo Larochelle class videos|https://www.youtube.com/watch?v=apPiZd-qnZ8&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=4]] on [2.9]
+[[Hugo Larochelle class videos|https://www.youtube.com/watch?v=apPiZd-qnZ8&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=4]] on [2.9]. [[Andrew Ng intro|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=26m]]. [[NN|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=29m]]. Learning parameters in a NN is generally a [[non-convex optimization problem|Convex optimization]], which makes it very hard to reach global optima.
 
 Neuron has:
 
