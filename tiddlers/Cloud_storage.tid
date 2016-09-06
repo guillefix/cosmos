@@ -1,0 +1,14 @@
+created: 20160812161319789
+creator: cosmos
+modified: 20160821181432303
+modifier: cosmos
+tags: [[Cloud computing]]
+title: Cloud storage
+type: text/vnd.tiddlywiki
+
+
+!!!__Dropbox__
+
+Dropbox bash command line app: https://github.com/andreafabrizi/Dropbox-Uploader
+
+`./dropbox_uploader.sh -sp upload ../st10len30/biases st10len30`

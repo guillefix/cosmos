@@ -1,0 +1,41 @@
+created: 20160824083649917
+creator: cosmos
+modified: 20160904163804475
+modifier: cosmos
+tags: [[Automata theory]]
+title: Turing machine
+type: text/vnd.tiddlywiki
+
+A class of abstract [[automata|Automata theory]] that have the most computational power* known. It can compute anything that can be suitably represented and solved by a step by step procedure ([[Church-Turing thesis]]).
+
+,,*computational power refers to how many possible computations, i.e. sets of instructions, it can perform. See [[Theory of computation]],,
+
+[[Math 574, Lesson 2-2: Turing Machines|https://www.youtube.com/watch?v=oc0kPb-Hgvk]]
+
+The main difference between a Turing machine and a [[Finite-state machine]] is that a Turing machine has unlimited memory. This is implemented by giving a Turing machine the following components:
+
+* Finitely many states in a ''read-write head''. The states form part of a [[finite automaton|Finite-state machine]], and may be called the "program".
+* An infinite ''work tape'' on which the head can read and write. This is the "memory".
+
+[[Architecture of a Turing machine|https://www.youtube.com/watch?v=oc0kPb-Hgvk#t=4m35s]]
+
+[[Formal definition of a Turing machine|https://www.youtube.com/watch?v=oc0kPb-Hgvk#t=7m20s]]
+
+A //configuration// of the Turing machine consists of the state, the contents of the 2 tapes, and the position of the tape heads.
+
+Example: [[Math 574, Lesson 2-3: Turing machines - an example|https://www.youtube.com/watch?v=3y1KgxdTIMI]] that accepts the language composed of strings of the form $$0^n1^n$$ (see [[Computability theory]]).
+
+__Halting & output__
+
+See [[here|https://www.youtube.com/watch?v=oc0kPb-Hgvk#t=14m35s]] for a definition of the output of a Turing machine (only defined if the machine halts)
+
+!!__Types and variations of Turing machine__
+
+* Single-tape
+
+* multi-tape
+** Typical one: One read-only input tape, $$k$$ working tapes, and one write-only output tape.
+
+* [[Universal Turing machine]]
+
+* [[Turmite]]

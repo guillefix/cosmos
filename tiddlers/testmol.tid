@@ -1,0 +1,13 @@
+created: 20160901095321695
+modified: 20160901125637998
+tags: 
+title: testmol
+type: text/vnd.tiddlywiki
+
+<div id="testmol" style="height: 400px; width: 400px; position: relative;" data-backgroundcolor="0xffffff" data-style="stick"></div>
+
+<<3Dmol "2POR" "testmol">>
+
+<div id="testmol2" style="height: 400px; width: 400px; position: relative;" data-backgroundcolor="0xffffff" data-style="stick"></div>
+
+<<3Dmol "2POR" "testmol2" "cartoon">>

@@ -1,0 +1,27 @@
+created: 20160905092929049
+modified: 20160905094240551
+tags: [[Physical chemistry]]
+title: Chemical energetics
+type: text/vnd.tiddlywiki
+
+The study of [[Chemical reaction]]s, using the tools of [[Statistical physics]], in particular [[Thermodynamics]]
+
+[[Chemical energetics|http://www.science.uwaterloo.ca/~cchieh/cact/applychem/chemenergy.html]]
+
+
+!!__Reaction thermodynamics__
+
+Uses the theory of [[Statistical mechanics of multispecies systems]]
+
+Balance of [[Chemical potential]]s of reactants and products (note that [[Chemical potential]] is proportional to [[Gibbs free energy]] in the [[Grand canonical ensemble]]). See [[video|https://www.youtube.com/watch?v=zfC22N_2hOc#t=7m]].
+
+The chemical potential energy difference can be epxpressed as:
+
+$$\Delta G = \Delta G^0' + RT \ln{\frac{[A]}{[B]}}$$ 
+
+where $$\Delta G^0' $$ is the change in Gibbs free energy of a reaction of the form $$A \rightarrow B$$,  $$[i]$$ represents the [[concetration|Concentration (chemistry)]] of the [[Chemical species|Chemical substance]] $$i$$.
+
+!!__Chemical kinetics__
+
+[[Non-equilibrium statistical physics]] of chemical reactions, in particular the rates at which they occur.
+

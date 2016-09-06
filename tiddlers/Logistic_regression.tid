@@ -1,10 +1,17 @@
 created: 20160709020525444
 creator: guillefix
-modified: 20160709020545492
-modifier: guillefix
+modified: 20160813154310459
+modifier: cosmos
 tags: [[Supervised classification]]
 title: Logistic regression
+type: text/vnd.tiddlywiki
 
-A type of [[Supervised classification]] method.
+A type of [[Classification]] method.
 
 [[Logistic regression|https://www.youtube.com/watch?v=FYgsztDxSvE&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=7]] [[Definition|https://www.youtube.com/watch?v=FYgsztDxSvE&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=7#t=14m42s]]
+
+See [[also here|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=50m]] for intro
+
+__[[Probabilistic interpretation|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=57m17s]]__. Logitistic regression can also be interpretedas a [[Maximum likelihood]] estimate assuming the Logistic funciton (sigmoid) gives the probability of belonging to a given class. We can then use [[Gradient descent]]. More theoretical understanding can be acquired from the theory of [[Generalized linear model]]s
+
+A simpler version: [[Perceptron]]

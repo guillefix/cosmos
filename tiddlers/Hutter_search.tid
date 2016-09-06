@@ -1,0 +1,11 @@
+created: 20160825164651905
+creator: cosmos
+modified: 20160904163519992
+modifier: cosmos
+tags: [[Universal AI]]
+title: Hutter search
+type: application/x-tiddler
+
+An extension of [[Levin search]] to evaluate any computable function with asymptotically optimal [[Computational complexity]]
+
+http://www.scholarpedia.org/article/Universal_search#Hutter_search

@@ -1,20 +1,23 @@
 created: 20160708155306766
 creator: guillefix
-modified: 20160708162141836
-modifier: guillefix
+modified: 20160830163137308
+modifier: cosmos
 title: Cellular respiration
+type: text/vnd.tiddlywiki
 
 //The way [[cells|Cell]] [[produce energy|Energy production]]//
 
-[[ATP & Respiration: Crash Course Biology #7|https://www.youtube.com/watch?v=00jbG_cfGuQ&list=PL3EED4C1D684D3ADF&index=7]]
+[[ATP & Respiration: Crash Course Biology #7|https://www.youtube.com/watch?v=00jbG_cfGuQ&list=PL3EED4C1D684D3ADF&index=7]] -- [[MIT edx video|https://www.youtube.com/watch?v=U-GyLD1zHms]]
+
+[img[https://s16.postimg.org/6u628q4s5/Selection_603.png]]
 
 Most of the [[Biomolecule]]s that gives us energy are processed and end up as [[Glucose]]
 
 [[Glucose]] + 6 [[Oxygen]] --> 6 [[Carbon dioxide]] + 6 [[Water]] + [[ATP]] ([[Energy]])
 
-!!Cellular respiration stages
+!Cellular respiration stages
 
-!!!__Glycolysis__
+!!!__[[Glycolysis]]__
 
 Breaking [[Glucose]] into two 3-carbon molecules, called [[Pyruvic acid]]s, or pyruvate molecules. It also uses 2 ATPs, produces 4 ATPs. It also produces NADH
 
@@ -24,13 +27,13 @@ It is an anerobic process, as it doesn't need oxygen. If there isn't oxygen the 
 
 However, the next steps in cellular respiration are aerobic and require oxygen.
 
-!!!__Krebs cycle__
+!!!__[[Krebs cycle]]__
 
 Happens inside inner membrane of the [[Mitochondria]]
 
 Pyruvate molecules >> 2 ATP (per glucose) + Energy
 
-First pyruvates are oxydized. One of the three carbons in the chain bonds with 2 oxygens, and leaves as CO,,2,,. It leaves a 2-carbon compound called [[Acetyl coA]] (Acetyl coenzyme A)
+First pyruvates are oxydized. One of the three carbons in the chain bonds with 2 oxygens, and leaves as CO,,2,,. It leaves a 2-carbon compound called Acetyl coA ([[Acetyl coenzyme A]])
 
 Also an NAD+ picks up an H to form NADH
 
@@ -40,7 +43,7 @@ Form citric acid, from oxaloacetic acid and the Acetyl coA
 
 There's more.... produce NADH and FADH,,2,,
 
-!!!__Electron transport chain__
+!!!__[[Electron transport chain]]__
 
 On membrane
 

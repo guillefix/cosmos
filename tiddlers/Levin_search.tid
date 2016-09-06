@@ -1,0 +1,53 @@
+created: 20160823102707156
+creator: cosmos
+modified: 20160904163602288
+modifier: cosmos
+title: Levin search
+type: text/vnd.tiddlywiki
+
+Or ''universal search'', or Lsearch
+
+See [[Algorithmic information theory]]
+
+Suppose there exists an algorithm, A, that can examine M and x, then print
+out p within time T. Levin had a search procedure (Levin search) that, without knowing A
+could do the same thing that A did, but in no more time than CT2^L
+Here, L is
+the length of the shortest description of A, using a suitable reference machine,
+and C is a measure of how much slower the
+reference machine is than a machine
+that implements A directly. An alternative form of this cost of the search is
+CT/P. Here P = 2^L is approximately the a priori probability of the algorithm A.
+
+$$T/P$$ is called  "conceptual jump soze" by Solomonoff.
+
+<<<
+
+Though Lsearch has been widely described (Lev 73; Sol 84,86,89; Li 93 pp. 410-413) there
+has been little application of it to real problem solving. Paul and Solomonoff (Pau 94) discuss
+its application to several problems and calculate T/P (Conceptual Jump Size) for solutions
+but Schmidhuber (Schm 94) was perhaps the first to actually run a computer program that
+used Lsearch to solve problems. While it only solved simple problems in neural net design the
+technique used is very general and of much interest. The probabilistic version of Lsearch used
+in the program had a serious error in it, but it has been replaced with a more conventional
+non-probabilistic Lsearch that seems to work fine
+
+<<<
+
+See [[this vid|https://www.youtube.com/watch?v=wMcRMO9ejeM#t=12m42s]] too.
+
+See [[Universal AI]] for more general techniques, inspired on this.
+
+The problem with Levin search, is that it is only __asymptotically__ optimal, and for [[most problems we care today the $$O(1)$$ constant is very important|https://www.youtube.com/watch?v=mF5-tr7qAF4#t=17m20s]]
+
+http://www.scholarpedia.org/article/Universal_search
+
+If there exists a program $$p\ ,$$ of length $$l(p)\ ,$$
+that can solve the problem
+in time $$\text{time}(p)\ ,$$ then Universal Search will solve the problem 
+in a time $$2^{l(p)+1}\text{time}(p)$$ at most. This exponential growth
+of computational cost in the algorithmic complexity $$l(p)$$
+of the fastest solver makes practical applications of Universal Search problematic: 
+nonetheless, the algorithm has inspired various others, including
+Hutter Search, the Optimal Ordered Problem Solver (OOPS)
+and the Gödel Machine.

@@ -1,0 +1,23 @@
+created: 20160825123322375
+creator: cosmos
+modified: 20160904163722712
+modifier: cosmos
+tags: [[Bayesian statistics]]
+title: Baye's theorem
+type: application/x-tiddler
+
+|$$P(A|B) = \frac{P(B | A) \, P(A)}{P(B)}$$|
+
+https://www.wikiwand.com/en/Bayes'_theorem
+
+[[It was Laplace who popularized Baye's theorem|https://www.youtube.com/watch?v=yXkEpzexYIU#t=14m20s]]
+
+[[Example application|https://www.youtube.com/watch?v=yXkEpzexYIU#t=16m58s]]
+
+__Problem of bias__
+
+What biases should be used for [[Induction]]?
+
+First attempt: [[Principle of indifference]]. [[There is still a problem|https://www.youtube.com/watch?v=yXkEpzexYIU#t=25m25s]]
+
+Next step: [[Universal probability]]

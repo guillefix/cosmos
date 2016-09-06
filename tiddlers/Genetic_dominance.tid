@@ -1,0 +1,33 @@
+created: 20160905130321446
+modified: 20160906091633419
+tags: Inheritance
+title: Genetic dominance
+type: text/vnd.tiddlywiki
+
+Phenotype 1 is ''dominant'' to over phenotype 2 (coded by the same [[Gene]], or set of genes), if a hybrid having an allele for each, expresses phenotype 1.  Phenotype 2 is then called ''recessive''. See [[video|https://www.youtube.com/watch?v=H6gwYdyn7II#t=3m54s]]. This is called ''total dominance'', or ''full penetrance''.
+
+[[Wiki|https://www.wikiwand.com/en/Dominance_(genetics)]] (it talks about it being a property of gealleles, but it's a property of phenotypes!, see [[here|https://www.youtube.com/watch?v=H6gwYdyn7II#t=5m]])
+
+Pleiotropic genes. May have both dominant and recessive traits, see [[video|https://www.youtube.com/watch?v=H6gwYdyn7II#t=5m44s]]. Sickle cell anemia is caused by a particular mutation in the gene of the $$\beta$$ globin protein of hemoglobin. That mutation gives rise to sickle cell anemia, which is a recessive trait, but it gives rise to sickle cells, which is a dominant trait. See [[here|https://www.youtube.com/watch?v=H6gwYdyn7II#t=6m07.5s]]
+
+These properties as well as the [[Locus (Genetics)]], give rise to different [[modes of inheritance|Mode of inheritance]].
+
+[[PHENOTYPE AND GENOTYPE|http://biomed.brown.edu/Courses/BIO48/5.Geno.Pheno.HTML]]
+
+!!!__Codominance__
+
+!!!__Partial dominance__
+
+Or ''incomplete penetrance''. See [[video|https://www.youtube.com/watch?v=-1GVPjWBFqQ#t=12m]]
+
+__Incomplete dominance__
+
+!!!__Pseudodominance__
+
+!!__Molecular basis of dominance__
+
+If you are [[Heterozygote]], and one of the alleles gives rise to an [[Enzyme]] that doesn't work, that may give rise to a recessive or a dominant trait.
+
+If the enzymes don't interact, the ineffective enzyme won't change the phenotype (unless that enzyme is the rate limiting effect, and then the pathway will go more slowly). This is essentially a recessive trait. See [[video|https://www.youtube.com/watch?v=hf3G4eD23k0#t=7m46s]]
+
+If the ineffective enzymes interact with and negatively affect the other enzymes, it virtually stop the pathway, resulting in a [[Dominant negative trait|https://www.youtube.com/watch?time_continue=528&v=hf3G4eD23k0#t=8m48s]].

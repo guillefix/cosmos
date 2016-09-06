@@ -1,10 +1,17 @@
 created: 20160121195725739
 creator: guillefix
-modified: 20160720114343963
-modifier: guillefix
+modified: 20160815192031148
+modifier: cosmos
 tags: [[Data visualization]]
 title: Visualization tools
+type: text/vnd.tiddlywiki
 
 http://www.paraview.org/
 
 [[VisIt|https://wci.llnl.gov/simulation/computer-codes/visit]]
+
+!!__Network visualization__
+
+https://kumu.io/
+
+See [[Network science]]

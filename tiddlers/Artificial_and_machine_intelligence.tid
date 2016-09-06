@@ -1,9 +1,10 @@
 created: 20160121194931778
 creator: guillefix
-modified: 20160621141618679
-modifier: guillefix
+modified: 20160821121503823
+modifier: cosmos
 tags: [[Cognitive Science]] [[Computer Science and IT]]
 title: Artificial and machine intelligence
+type: text/vnd.tiddlywiki
 
 [[Computational intelligence - Scholarpedia|http://www.scholarpedia.org/article/Encyclopedia:Computational_intelligence]]
 
@@ -25,7 +26,7 @@ Oxford's society [[OxAI]]
 
 -----------
 
-''Machine intelligence'', is essentially a synonym of AI, but with the connotation of using machines and computers to create and understand intelligence. The biggest part of it, [[Machine learning]], deals with the problem of __extracting features__ from data (//learning//) so as to solve (mostly) __predictive__ tasks.
+''Machine intelligence'', is essentially a synonym of AI, but with the connotation of using machines and computers to create and understand intelligence. The biggest part of it, [[Machine learning]], deals with the problem of __learning a model__ from data so as to solve (mostly) __predictive__ tasks.
 
 -----------
 

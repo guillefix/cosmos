@@ -1,18 +1,29 @@
 created: 20160707220905771
 creator: guillefix
-modified: 20160708155645136
-modifier: guillefix
+modified: 20160830154824813
+modifier: cosmos
 tags: Biomolecule
 title: Carbohydrate
+type: text/vnd.tiddlywiki
 
-A carbohydrate is a biological molecule consisting of carbon (C), hydrogen (H) and oxygen (O) atoms
+A carbohydrate is a biological molecule consisting of carbon (C), hydrogen (H) and oxygen (O) atoms.
+
+In particular, we have one [[Hydroxyl]] groups (OH) attached to Carbons. These make carbohydrates [[Polar molecule]]s, and [[Hydrophobic]]
+
+See [[this video|https://www.youtube.com/watch?v=KJG6HA5xSxY#t=2m36s]]
 
 The term is most common in biochemistry, where it is a synonym of saccharide, a group that includes sugars, starch, and cellulose. The ''saccharides'' are divided into four chemical groups:
 
-*[[Monosaccharides]],
-* disaccharides,
+!!__Classification__
+
+*[[Monosaccharide]]. Depending on the number of carbons, we call the sugar:  diose, triose, tetrose, pentose, hexose, heptose, octose, etc.
+** [[Glucose]] (a cyclic sugar, very important one).
+* [[Polysaccharide]]s. Several monosaccharides joined together by [[Dehydration synthesis]].
+** disaccharides. Two monosaccharides
+** [[Starch]]
+** [[Cellulose]]
+** [[Glycogen]]
 * oligosaccharides,
-* polysaccharides.
 
 -------------------------
 

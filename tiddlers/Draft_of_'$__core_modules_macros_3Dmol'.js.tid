@@ -1,0 +1,88 @@
+created: 20160901105912827
+draft.of: $:/core/modules/macros/3Dmol
+draft.title: $:/core/modules/macros/3Dmol
+modified: 20160901125552623
+module-type: macro
+tags: 
+title: Draft of '$:/core/modules/macros/3Dmol'
+type: application/javascript
+
+/*\
+title: $:/core/modules/macros/3Dmol
+type: application/javascript
+module-type: macro
+Macro to return a formatted version of the current time
+\*/
+(function(){
+
+/*jslint node: true, browser: true */
+/*global $tw: false */
+"use strict";
+
+/*
+Information about this macro
+*/
+
+exports.name = "3Dmol";
+
+exports.params = [
+	{name: "mol"},
+        {name: "id"},
+        {name: "style"}
+];
+
+/*
+Run the macro
+*/
+exports.run = function(mol, id, style) {
+
+// Assume there exists an HTML div with id "id"
+var element = $("#"+id);
+
+console.log(element)
+
+// Viewer config - properties 'defaultcolors' and 'callback'
+var config = {defaultcolors: $3Dmol.rasmolElementColors };
+
+// Create GLViewer within 'gldiv' 
+var myviewer = $3Dmol.createViewer(element, config);
+//'data' is a string containing molecule data in pdb format  
+//myviewer.addModel(data, "pdb");
+//myviewer.zoomTo();
+//myviewer.render(); 
+
+myviewer.setBackgroundColor('white');                
+                       
+// GLModel 'm' created and loaded into glviewer for PDB id 2POR
+// Note that m will not contain the atomic data until after the network request is completed
+var m = $3Dmol.download('pdb:'+mol, myviewer, {}, function() {
+
+switch(style) {
+
+case "sphere":
+  myviewer.setStyle({}, {sphere:{}});    
+  break;
+case "stick":
+  myviewer.setStyle({}, {stick:{}}); 
+  break;
+case "cartoon":
+  myviewer.setStyle({}, {cartoon:{}});
+  break;
+default:
+  myviewer.setStyle({}, {sphere:{}});
+      
+
+}
+   
+myviewer.render();
+
+});
+
+console.log(m)
+
+	return ""
+//return mol
+//$tw.utils.formatDateString(new Date(),format || "0hh:0mm, DDth MMM YYYY");
+};
+
+})();

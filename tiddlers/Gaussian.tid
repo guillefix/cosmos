@@ -1,0 +1,17 @@
+created: 20160821073327557
+creator: cosmos
+modified: 20160821074231810
+modifier: cosmos
+title: Gaussian
+type: text/vnd.tiddlywiki
+
+A ''Gaussian'' refers to a [[Function]] that belongs to the parametrized family:
+
+$$f\left(x\right) = a e^{- { \frac{(x-b)^2 }{ 2 c^2} } }$$
+
+There are also extensions to the case where the input is a vector: [[Multivariate Gaussian]]. See this [[vid|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=7m50s]] (he's [[missing|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=14m10s]] the determinant of the covariance matrix on the bottom).
+
+The Gaussian is often used to refer to the [[Normal distribution]]
+
+
+https://www.wikiwand.com/en/Gaussian_function

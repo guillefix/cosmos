@@ -1,7 +1,7 @@
 created: 20160726113058068
 creator: guillefix
-modified: 20160808102621540
-modifier: guillefix
+modified: 20160810161348295
+modifier: cosmos
 tags: Self-organization
 title: Order
 type: text/vnd.tiddlywiki
@@ -30,6 +30,24 @@ Some quantities/concepts that can be used to measure/describe order are:
 
 "many interesting signals or models in practice contain few degrees of freedom relative to their ambient dimension"
 
-[[The World is Either Algorithmic or Mostly Random|http://fqxi.org/data/essay-contest-files/Zenil_FQXIEssayDigitalAnalo.pdf]]
+!!!__[[The World is Either Algorithmic or Mostly Random|http://fqxi.org/data/essay-contest-files/Zenil_FQXIEssayDigitalAnalo.pdf]]__
 
-[[Life as Thermodynamic Evidence of Algorithmic Structure in Natural Environments|http://www.mdpi.com/1099-4300/14/11/2173]]
+Physical laws are like computer programs. 
+
+"In an informational universe, the world would be computing itself, enabling things to remain themselves"
+
+He proposes the [[Universal probability]] distribution as an a priori distribution, if the world is to be algorithmic, and they claim there is some evidence that data from natural phenomena agrees with this universal distribution. They argue that the world being algorithmic means it is probably digital/discrete. If it were analog, it would have more possibilities, and it would more probably be random.
+
+A similar thesis is found in [[A priori probability estimates from structural complexity]].
+
+He finds that feeding random inputs to their [[abstract computing machines|Automata theory]], and using machines without a halting state gives results (probability distributions over bitstrings) which agree most with empirical data.
+
+He discusses a bit the issue of quantum mechanics, but I didn't quite get what he meant
+
+[img[http://i.imgur.com/3CvNAxf.jpg]]
+
+!!![[Life as Thermodynamic Evidence of Algorithmic Structure in Natural Environments|http://www.mdpi.com/1099-4300/14/11/2173]]
+
+See [[Biological complexity]]
+
+!!![[Complexity and Information: Measuring Emergence, Self-organization, and Homeostasis at Multiple Scales|http://arxiv.org/pdf/1205.2026.pdf]]

@@ -1,0 +1,43 @@
+created: 20160823161842556
+creator: cosmos
+modified: 20160904163229873
+modifier: cosmos
+tags: [[Formal grammar]] [[Machine learning]]
+title: Grammar learning
+type: text/vnd.tiddlywiki
+
+The task of [[learning|Machine learning]] a [[Formal grammar]]. 
+
+<<<
+
+At the time of Chomsky's paper, I was trying to find a satisfactory utility
+evaluation function for my own system. I continued working on this with no
+great success until 1958, when I decided to look at Chomsky's paper more
+closely. It was easy for me to understand and build upon. In a short time, I
+devised a fast left to right parser for context free languages and an extremely
+fast matrix parser for context sensitive languages
+It took advantage of special
+32 bit parallel processing instructions that most computers have
+My main interest, however, was learning. I was trying to find an algo
+rithm for the discovery of the "best" grammar for a given set of acceptable
+sentences. One of the things sought for: Given a set of positive cases of ac
+ceptable sentences and several grammars, any of which is able to generate all
+of the sentences
+what goodness of fit criterion should be used? It is clear
+that the "Ad-hoc grammar
+that lists all of the sentences in the corpus, fits
+perfectly. The "promiscuous grammar" that accepts any conceivable sentence
+also fits perfectly. The first grammar has a long description, the second has a
+short description. It seemed that some grammar half way between these, was
+but what criterion should be used?
+correct
+There are other modes of learning in which the "goodness of fit" criterion is
+clearer
+
+<<<
+
+https://books.google.co.uk/books?hl=en&lr=&id=XAOE5V9B4dUC&oi=fnd&pg=PR9&ots=rbA1pmUJgB&sig=wjS3fuyps3_LPb3YH6hoSaz6zIY#v=onepage&q&f=false
+
+http://link.springer.com/chapter/10.1007/3-540-33486-6_7#page-1
+
+See [[Evolving automata]]

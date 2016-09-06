@@ -1,7 +1,7 @@
 created: 20160627202342018
 creator: guillefix
-modified: 20160806205032466
-modifier: guillefix
+modified: 20160825200148892
+modifier: cosmos
 tags: [[Systems science]]
 title: Complexity
 type: text/vnd.tiddlywiki
@@ -21,7 +21,7 @@ nication and social networks, etc.
 
 //from book on Permutation complexity by Amigo//
 
-Complexity can be seen in [[chaotic systems|Chaos theory]], and, depending on interpretation, in [[random|Randomness]] ones.
+Complexity can be seen in [[chaotic systems|Chaos theory]], and, depending on interpretation, in [[random|Randomness]] ones. It is also important in biological systems (see [[Biological complexity]]).
 
 !!__Complexity measures__
 
@@ -40,4 +40,3 @@ Good review: [[RANDOMNESS, INFORMATION, AND COMPLEXITY|http://arxiv.org/abs/1208
 [[Information and Complexity Measures in Dynamical Systems|http://link.springer.com/chapter/10.1007/978-1-4899-2305-9_2#page-1]]
 
 See also [[Information theory]], [[Statistical physics]], [[Dynamical system]]s, [[Evolution]], [[Simplicity bias]].
-

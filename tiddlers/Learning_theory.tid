@@ -1,11 +1,16 @@
 created: 20160709004653144
 creator: guillefix
-modified: 20160808160902036
-modifier: guillefix
+modified: 20160825172014512
+modifier: cosmos
+tags: [[Statistical inference]] Learning [[Artificial intelligence]]
 title: Learning theory
 type: text/vnd.tiddlywiki
 
+//aka computational learning theory//
+
 Mathematical theory of learning.
+
+https://www.wikiwand.com/en/Computational_learning_theory
 
 See [[Machine learning]], [[Deep learning]]. 
 
@@ -23,13 +28,9 @@ Some important types:
 * [[Inverse problem]]
 ** [[Linear inverse problem]]
 
-__Empirical risk minimization__
+__Empirical risk minimization or [[Maximum likelihood]]__
 
-''Minimize a cost function'', which often is the negative log likelihood (similar to entropy. More precisely, cross-entropy, or relative entropy), which corresponds to ''maximizing likelihood''. Likelihood is the probability of getting the right $$y$$ given $$x$$ and $$\theta$$, i.e. the probability that a given model predicts the right outputs. This is equivalent to finding the most likely $$\theta$$ in the Bayesian posterior, given a flat prior (but if we add a ''regularizer'', we can tweak the prior, by just adding a term to the log likelihood). If our model uses a Gaussian distribution to predict the data (where the $$\theta$$s are the means), maximizing likelihood is equivalent to minimizing spring energy for springs vertically placed between fit curve and data.
-
-The maximum likelihood is found by [[Optimization]], often by [[Stochastic gradient descent]].
-
-If we want the whole distribution of likelihoods over $$\theta$$s, we need to use Bayesian statistics, which involves doing complicated integrals, often done numerically using [[Montecarlo methods]]
+''Minimize a cost function'', which often is the negative log [[likelihood|Likelihood function]] (similar to entropy. More precisely, cross-entropy, or relative entropy), which corresponds to ''maximizing likelihood''.
 
 --------------------
 

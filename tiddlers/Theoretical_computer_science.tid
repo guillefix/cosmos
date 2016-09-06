@@ -1,9 +1,10 @@
 created: 20160201145156881
 creator: guillefix
-modified: 20160621133136132
-modifier: guillefix
+modified: 20160825171007525
+modifier: cosmos
 tags: [[Computer Science and IT]]
 title: Theoretical computer science
+type: text/vnd.tiddlywiki
 
 ''Computer science'' is what came out of asking: <b>what kind of [[maths|Mathematics]] can actually be //effectively// carried out in the [[physical|Physics]] world?</b> Theoretical computer science, looks at the more theoretical (as opposed to applied) aspects of this question.
 
@@ -12,6 +13,8 @@ The nature of computation by Moore and Mertens (looks like a nice book). [[Good 
 [[Oxford course 1st year|http://www.cs.ox.ac.uk/teaching/bacompsci/PreliminaryExaminations/]]
 
 [[Computational learning theory|http://www.cs.ox.ac.uk/teaching/courses/2015-2016/clt/]]
+
+[[Leonid A. Levin. Fundamentals of Computing.|http://www.cs.bu.edu/fac/lnd/toc/]]
 
 See [[Discrete mathematics]]
 
@@ -36,13 +39,7 @@ Examples in JS: .filter, map, reduce
 [[Theory of computation]]
 
 
-''[[Church-Turing thesis|https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis]]''
-
-https://www.youtube.com/watch?v=2jz0ugqghys
-
-http://research.cs.queensu.ca/home/akl/cisc879/papers/PAPERS_FROM_MINDS_AND_MACHINES/VOLUME_13_NO_1/V23L84X656370574.pdf This gets quite philosophical of course
-
-https://www.youtube.com/watch?v=92WHN-pAFCs
+[[Church-Turing thesis]]
 
 ----------
 

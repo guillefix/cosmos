@@ -1,0 +1,23 @@
+created: 20160825115715029
+creator: cosmos
+modified: 20160904163912889
+modifier: cosmos
+tags: Learning
+title: Induction
+type: text/vnd.tiddlywiki
+
+''Induction'', or inductive reasoning, or inductive inference, refers to infering general models from specific observations/facts/data, which usually exhibit some regularities, properties, or relations.
+
+Another definition: [["inference about the unknown by extrapolating a patter about the known"|https://www.youtube.com/watch?v=yXkEpzexYIU#t=8m38s]]. He also discusses justifying the use of induction. [[Part of the reason induction is useful is the|https://www.youtube.com/watch?v=yXkEpzexYIU#t=13m20s]] [[Simplicity]] of the world.
+
+
+See [[Universal inductive inference]], for a formalization of optimal inductive inference.
+
+__Principles__
+
+* [[Occam's razor]]
+* [[Baye's theorem]]
+* [[Principle of indifference]]
+* [[Principle of multiple explanations]]
+
+See more at [[Universal inductive inference]]

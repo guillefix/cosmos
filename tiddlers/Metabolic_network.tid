@@ -1,0 +1,18 @@
+created: 20160905105924005
+modified: 20160905111533321
+title: Metabolic network
+type: text/vnd.tiddlywiki
+
+A [[Network]] of inter-regulated [[Metabolic pathway]]s.
+
+It is based on ''regulation''
+
+!!__Regulation of pathways__
+
+* [[Allosteric regulation]].
+
+!!__Metabolic networks__
+
+* [[Cellular respiration]] 
+* [[Fermentation]]
+* etc, etc.

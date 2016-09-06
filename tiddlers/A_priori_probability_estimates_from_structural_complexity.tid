@@ -1,10 +1,10 @@
 created: 20160517184547387
 creator: guillefix
-modified: 20160726012855004
-modifier: guillefix
+modified: 20160824105723739
+modifier: cosmos
 tags: 
 title: A priori probability estimates from structural complexity
-type: 
+type: text/vnd.tiddlywiki
 
 See [[draft paper|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/APrioriProbabilityComplexity.pdf]].
 
@@ -34,7 +34,9 @@ Eq. (2)
 
 where $$K(x|f,n)$$ is the complexity of output $$x$$, given the map $$f$$ and the value $$n$$ which is
 
-(see [[M. Li and P.M.B. Vitanyi. An introduction to Kolmogorov complexity and its applications. Springer-Verlag New York Inc, 2008.|file:///home/guillefix/Dropbox/NewForCosmos/%5BMing_Li,_Paul_Vitanyi%5D_An_introduction_to_Kolmogo(BookZZ.org).djvu]], and [[Lecture notes on descriptional complexity and randomness|http://www.cs.bu.edu/~gacs/papers/ait-notes.pdf]]).
+(see [[M. Li and P.M.B. Vitanyi. An introduction to Kolmogorov complexity and its applications. Springer-Verlag New York Inc, 2008.|file:///home/guillefix/Dropbox/NewForCosmos/%5BMing_Li,_Paul_Vitanyi%5D_An_introduction_to_Kolmogo(BookZZ.org).djvu]], and [ext[Lecture notes on descriptional complexity and randomness|http://www.cs.bu.edu/~gacs/papers/ait-notes.pdf]]).
+
+[img[https://s14.postimg.org/lys5n35b5/Selection_596.png]]
 
 We provide a derivation of equation (2) in Appendix B, using standard results from AIT such as: //The complexity of a whole set is often much less than the complexity of individual members of the set// (9). Informally , $$K(x|f, n)$$ can be viewed as the length of computer code required to specify $$x$$, given the function $$f$$ and value $$n$$ are already pre-programmed in to the computer. Note that equation (2) is just an upper bound. In contrast to the the full coding theorem of equation (1), there is no lower bound.
 

@@ -1,15 +1,20 @@
 created: 20160329140604439
 creator: guillefix
-modified: 20160629173805186
-modifier: guillefix
+modified: 20160824091444036
+modifier: cosmos
 tags: [[Formal system]]
 title: Formal language
+type: text/vnd.tiddlywiki
 
-Relations to ''compilers'', ''parsers'', etc. Grammars, etc.
+A [[formal language|https://en.wikipedia.org/wiki/Formal_language]] //is a set of strings of symbols// that may be constrained by rules that are specific to it.
+
+$$\Sigma^*$$ is the set of strings formed by symbols in the set $$\Sigma$$.
+
+Relations to [[compilers|Compiler]], [[parsers|Parsing]], etc. [[Grammar]]s, etc.
 
 A nice new language for this: [[Ohm|https://github.com/cdglabs/ohm#readme]]
 
-See [[Automata theory]], GKeep notes.
+See [[Automata theory]], [[Grammar]].
 
 ''Chomsky hierarchy''. (see also [[Theory of computation]]).
 
@@ -22,3 +27,7 @@ See [[Automata theory]], GKeep notes.
 [img[http://i.imgur.com/K5o8OyH.png]]
 
 [img[http://i.imgur.com/pD2JOER.png]]
+
+__Probabilistic languages and grammars__
+
+See paper on algorithmic probability by Solomonoff.

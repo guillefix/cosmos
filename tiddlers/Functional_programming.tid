@@ -1,14 +1,17 @@
 created: 20160217190302124
 creator: guillefix
-modified: 20160628024558164
-modifier: guillefix
+modified: 20160830141656992
+modifier: cosmos
 title: Functional programming
+type: text/vnd.tiddlywiki
 
 [[Introduction to Functional Programming|https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0]] [[youtube videos|https://www.youtube.com/watch?v=UIUlFQH4Cvo&list=PLTA0Ta9Qyspa5Nayx0VCHj5AHQJqp1clD]]
 
+[[An introduction to functional programming|https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming]]
+
 -------------------
 
-!!!__[[Functional programming in Javascript|https://www.youtube.com/watch?v=1DMolJ2FrNY&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84#t=71.591166]]__
+!!!__[[Functional programming on JavaScript]]__
 
 * Higher-order functions: functions that take functions as arguments. Functions are like variables too. Examples:
 

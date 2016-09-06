@@ -1,15 +1,19 @@
 created: 20160308170839993
 creator: guillefix
-modified: 20160713185544222
-modifier: guillefix
+modified: 20160824112327256
+modifier: cosmos
 tags: [[Complexity theory]]
 title: Descriptional complexity
+type: text/vnd.tiddlywiki
 
 //What is the shortest description of an object?// The size of this description, is the ''descriptional complexity''. This general notion may also be called "structural complexity".
 
 See also [[Complexity theory]], for other notions of complexity.
 
 !!__[[Kolmogorov complexity]]__
+
+[ext[Lecture	notes	on	descriptional	complexity
+and	randomness|http://www.cs.bu.edu/~gacs/papers/ait-notes.pdf]]
 
 Based on the minimum size of a program (interpreted by a [[Turing machine]]) that produces (//describes//) the object.
 

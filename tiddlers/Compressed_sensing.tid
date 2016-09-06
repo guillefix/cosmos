@@ -1,9 +1,10 @@
 created: 20160726112543988
 creator: guillefix
-modified: 20160726194342652
-modifier: guillefix
+modified: 20160811071416763
+modifier: cosmos
 tags: [[Data compression]] Sampling
 title: Compressed sensing
+type: text/vnd.tiddlywiki
 
 //,,why spend so much effort acquiring all the data when we know that most of it will be discarded?,,//
 
@@ -16,6 +17,8 @@ title: Compressed sensing
 Basically, as in [[Data compression]], it takes advantage of the order, or [[Randomness deficit]] in the data to sample below the Nyquist-Shannon limit
 
 [[Compressed sampling|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/CompressiveSampling-Review.pdf]]
+
+[[Introduction to compressed sensing|https://www.dropbox.com/s/0sr5as1qip2oz47/ddek-chapter1-2011.pdf?dl=0]]
 
 -----------
 

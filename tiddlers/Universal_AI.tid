@@ -1,0 +1,51 @@
+created: 20160823095225244
+creator: cosmos
+modified: 20160904163250001
+modifier: cosmos
+tags: [[Artificial intelligence]]
+title: Universal AI
+type: text/vnd.tiddlywiki
+
+''Universal Artificial intelligence''
+
+[[Marcus Hutter - What is Intelligence? AIXI & Induction|https://www.youtube.com/watch?v=F2bQ5TSB-cE]]
+
+[ext[THEORY OF UNIVERSAL LEARNING MACHINES & UNIVERSAL AI|http://people.idsia.ch/~juergen/unilearn.html]]
+
+[[How to learn an algorithm|https://www.youtube.com/watch?v=mF5-tr7qAF4#t=15m55s]]
+
+https://www.quora.com/What-are-the-differences-between-Machine-Learning-and-AIXI-G%C3%B6del-Machine-regarding-the-feasibility-of-AGI
+
+__Methods/ideas__
+
+see [[here|http://www.scholarpedia.org/article/Universal_search]]
+
+* [[Universal search|Levin search]]
+* [[Hutter search]]
+* [[Optimal ordered problem solver]]
+* [[Godel machine]]
+
+
+The fact that it can learn anything, reminds me a bit of how single-layer neural networks can approximate any function with enough neurons, but deep learning is much more effective. Maybe we need a more effective UAI? Or why are these ideas not catching up?
+
+http://www.hutter1.net/
+
+[[A Gentle Introduction to the Universal Algorithmic Agent AIXI|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.11.8797&rep=rep1&type=pdf]]
+
+[[Universal Artificial Intelligence|http://www.hutter1.net/ai/uaibook.htm]]
+
+[[AIXI|https://en.wikipedia.org/wiki/AIXI]]
+
+http://link.springer.com/chapter/10.2991/978-94-91216-62-6_5#page-1
+
+[ext[http://people.idsia.ch/~juergen/goedelmachine.html]]
+
+http://pybrain.org/
+
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/
+
+[[Project Malmo, which lets researchers use Minecraft for AI research, makes public debut|https://blogs.microsoft.com/next/2016/07/07/project-malmo-lets-researchers-use-minecraft-ai-research-makes-public-debut/#sm.00001d4i2xwoqkfi5vv2d7q6j0asm]]
+
+!!__[[Solomonoff|Ray Solomonoff]]'s [[Universal inductive inference]]__
+
+It is based on performing [[Levin search]] over candidate answers, to preferentially search simple ones. However, we should combine this with probabilistic heuristics that are learned from past experience (an example of [[Incremental learning]]).

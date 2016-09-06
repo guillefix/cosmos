@@ -1,15 +1,20 @@
 created: 20160709011515352
 creator: guillefix
-modified: 20160709024040710
-modifier: guillefix
+modified: 20160830114727058
+modifier: cosmos
 tags: [[Supervised learning]]
 title: Regression analysis
+type: text/vnd.tiddlywiki
+
+//aka regression//
 
 Discriminative [[Supervised learning]] where the output value is continuous, and quantiative (i.e. it has an ordering, and a notion of closeness (matrix)).
 
 [[Notes|http://cs229.stanford.edu/notes/cs229-notes1.pdf]]
 
 !![[Linear regression]]
+
+* [[Nonparametric|Nonparametric statistics]] version: [[Locally-weighted linear regression]]
 
 
 !![[Nearest-neighbour classification]]

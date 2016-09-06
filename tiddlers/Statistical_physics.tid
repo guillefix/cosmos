@@ -1,10 +1,10 @@
 created: 20160117160137931
 creator: guillefix
-modified: 20160713134126557
-modifier: guillefix
+modified: 20160830143448944
+modifier: cosmos
 tags: Physics
 title: Statistical physics
-type: 
+type: text/vnd.tiddlywiki
 
 ''Statistical physics'' deals with the description of systems for which a deterministic description is either useless or impossible, so that one uses a //statistical// description.
 
@@ -34,7 +34,7 @@ There are two main branches of statistical physics:
 
 See also [[Complex systems]], and [[Sloppy systems]]
 
-[[Entropy, Order Parameters, and Complexity|http://pages.physics.cornell.edu/~sethna/StatMech/EntropyOrderParametersComplexity.pdf]]
+[ext[Entropy, Order Parameters, and Complexity|http://pages.physics.cornell.edu/~sethna/StatMech/EntropyOrderParametersComplexity.pdf]]
 
 [[Long-range interacting systems]]
 
@@ -60,9 +60,9 @@ See about disordered systems in [[Condensed matter physics]], as these are inter
 
 [[Non-equilibrium thermodynamics - de Groot and Mazur|file:///home/guillefix/Dropbox/COSMOS/Physics/stat%20phys,%20kinetic%20theory,%20chaos,%20dynamical%20sys,%20emergence/%5BS._R._De_Groot,_P._Mazur%5D_Non-equilibrium_thermodynamics.djvu]]
 
-[[Statistical Mechanics II course|http://socrates.berkeley.edu/~jemoore/Moore_group,_UC_Berkeley/Physics_212.html]]
+[ext[Statistical Mechanics II course|http://socrates.berkeley.edu/~jemoore/Moore_group,_UC_Berkeley/Physics_212.html]]
 
-<mark>[[Sethan's Statistical Mechanics: Entropy, Order Parameters, and Complexity|http://pages.physics.cornell.edu/~sethna/StatMech/]]</mark>
+<mark>[ext[Sethan's Statistical Mechanics: Entropy, Order Parameters, and Complexity|http://pages.physics.cornell.edu/~sethna/StatMech/]]</mark>
 
 [[MIT 8.333 Statistical Mechanics I|https://www.youtube.com/watch?v=4RX_lpoGRBg&list=PLUl4u3cNGP60gl3fdUTKRrt5t_GPx2sRg]]
 
@@ -70,7 +70,7 @@ See about disordered systems in [[Condensed matter physics]], as these are inter
 
 http://stp.clarku.edu/notes/
 
-[[Statistical physics, Optimization, Inference and Message-Passing algorithms|http://www.lps.ens.fr/~krzakala/LESHOUCHES2013/book.htm]]
+[ext[Statistical physics, Optimization, Inference and Message-Passing algorithms|http://www.lps.ens.fr/~krzakala/LESHOUCHES2013/book.htm]]
 
 --------------------
 

@@ -1,0 +1,16 @@
+created: 20160905055711987
+modified: 20160905061110451
+title: Geometric margin
+type: text/vnd.tiddlywiki
+
+A concept in [[Supervised learning]]
+
+[[Intuition of geometric margins|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=49m]] -- [[definition of geometric margin|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=1h0m50s]], and [[derivation|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=1h2m20s]]
+
+The formula is
+
+$$\gamma^{(i)} = y^{(i)}[(\frac{\omega}{||\omega||})^T x^{(i)} + \frac{b}{||\omega||}]$$ 
+
+It is very similar to [[Functional margin]], and in fact equal if $$omega = 1$$. 
+
+W.r.t. an entire training set , the  geometric margin is the min of thec$$v$$ ofver all data points $$i$$ inn the training set.

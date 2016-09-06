@@ -1,9 +1,10 @@
 created: 20160511165337813
 creator: guillefix
-modified: 20160516231136766
-modifier: guillefix
+modified: 20160823175145488
+modifier: cosmos
 tags: [[Cognitive science]]
 title: Emotion
+type: text/vnd.tiddlywiki
 
 See this post: https://www.facebook.com/groups/hedonistic.imperative/permalink/10152547241106965/ and movie Phenomenon (1996) Dave says: "it is not emotions we need to control but behaviour. We do not learn from emotions by curbing and suppressing them but by fully experiencing them. "
 
@@ -26,3 +27,29 @@ See this to see how these considerations of thinking fast & slow, heuristically 
 [img width=500 class=img-centered [https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg]]
 
 Not sure. Hm, of course, this is just a fuzzy representation, but I think I would swap the terror and amazement branch. It'd be interesting to see the logic behind this better though.
+
+-------------------
+
+__More on emotional intelligence__
+
+From Solomonoff's paper, recounting how he was inspired by Freud and Poincare
+
+<<<
+
+2.3 Freud, Poincaré
+From Freud I got the idea of the unconscious mind: that there were things going
+on in one's brain that one didn't have direct access to. Poincaré, made it clear
+that much of his serious problem solving occurred in his subconscious, and I felt
+this was very common in problem solving of all kinds in the sciences and the
+arts
+This view was one important reason for my later rejection of "Expert Sys-
+tems" as a significant step toward Artificial Intelligence. Expert Systems were
+(at best) expressions of peoples' conscious thought, which was, I felt, a very
+small fraction of human problem solving activity
+Other implications: Memory is what you invent to explain the things that
+you find in your head. Over the years, the "facts" in this paper will be gradually
+revised as I reread my research notes
+Explanations that people give for their own behavior are not to be taken too
+seriously including discussions in this paper
+
+<<<

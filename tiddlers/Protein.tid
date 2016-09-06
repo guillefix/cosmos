@@ -1,7 +1,49 @@
 created: 20160511111126181
 creator: guillefix
-modified: 20160511111138588
-modifier: guillefix
+modified: 20160830191736708
+modifier: cosmos
+tags: Biomolecule
 title: Protein
+type: text/vnd.tiddlywiki
 
 [[Protein|https://en.wikipedia.org/wiki/Protein]] are large biomolecules, or macromolecules, consisting of one or more long chains of amino acid residues.
+
+!!__Classes of proteins__
+
+[[Enzyme]]s
+
+!!__Protein structure__
+
+!!!__Primary structure__
+
+[[Amino acid]]s, forming a [[Polymer]] by [[Dehydration synthesis]], forming a bond called a [[Peptide bond]]. A protein is thus called a ''polypeptide''.
+
+[[Geometrical structure of peptide bonds|https://www.youtube.com/watch?v=Lhykdr5uyw4#t=8m15s]]
+
+!!!__Secondary structure__
+
+$$\alpha$$-helix
+
+$$\beta$$-sheets
+
+$$\beta$$-barrel
+
+loops, random coils
+
+[[video|https://www.youtube.com/watch?time_continue=5&v=CYsMRBDQ2yg]]
+
+!!!__Tertiary structure__
+
+!!!__Quaternary structure__
+
+[[vid|https://www.youtube.com/watch?time_continue=10&v=vEJbn1y2YN0]]
+
+!!__Experimental techniques__
+
+[[Protein purification]]
+
+[[Protein structure analysis]]
+
+-------------------
+
+Protein-folding problem

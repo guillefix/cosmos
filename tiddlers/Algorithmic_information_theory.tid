@@ -1,9 +1,10 @@
 created: 20160308171001447
 creator: guillefix
-modified: 20160714014711196
-modifier: guillefix
+modified: 20160824102822264
+modifier: cosmos
 tags: [[Information theory]] Algorithms [[Theoretical computer science]]
 title: Algorithmic information theory
+type: text/vnd.tiddlywiki
 
 See [[Descriptional complexity]] and [[MMathPhys oral presentation]]. See also [[Information theory]], [[Theory of computation]], [[Complexity theory]], and [[Computational complexity]]
 
@@ -24,6 +25,8 @@ __Conditional Kolmogorov complexity__
 $$<x, y>$$ is the pairing function (see [[Computability theory]]). The conditional Kolmogorov complexity is often defined as in Def. 2.0.1, but with $$y$$ is $$l(x)$$, the length of $$x$$.
 
 __''Universality of Kolmogorov complexity''__
+
+,,aka Invariance theorem,,
 
 [img class=img-centered [kolmogorov_universality.png]]
 
@@ -88,34 +91,9 @@ We now remove the //expectation// from Theorem 14.3.1
 
 [img[Selection_168.png]]
 
-!!__''Universal probability''__
+!!__''[[Universal probability]]''__
 
-: [img[http://ecx.images-amazon.com/images/I/51nSFgWgn3L._SS36_.jpg]] Imagine a monkey sitting at a keyboard and typing the keys at random.
-
-::Probability of an input program (string), $$p$$, is $$2^{-l(p)}$$. <big><i class="fa fa-hand-o-right" aria-hidden="true"></i></big>simple strings are more likely than complicated strings of the same length.
-
-[img[Selection_169.png]]
-
-__Universality of the universal probability__
-
-[img[Selection_170.png]]
-
-Remark. <b>Bounded likelihood ratio</b> The likelihood ratio $$P_{\mathcal{U}}(x)/P_{\mathcal{A}}(x)$$ is bounded, and doesn't go to $$0$$ or $$\infty$$ for any $$x$$, thus no universal probability can be totally discarded relative to any other in hypothesis testing. This is essentially because any universal computer can simulate any other, and //in that sense// the probability distribution obtained by feeding random input into one is also contained in the distribution obtained in the other.
-
-In that sense we cannot reject the possibility that the universe
-is the output of monkeys typing at a computer. However, we can reject
-the hypothesis that the universe is random (monkeys with no computer). <big><big>😮</big></big>
-
-[img[Selection_171.png]]
-
-<<<
-
-The example indicates that a random input to a computer is much more
-likely to produce “interesting” outputs than a random input to a typewriter.
-We all know that a computer is an intelligence amplifier. Apparently, it
-creates sense from nonsense as well.
-
-<<<
+Probability distribution of outputs of a [[Turing machine]], when fed random inputs. Apparently, the distribution is rather robust to the probability distribution of inputs, thus it being called "universal"
 
 !!__The //halting problem// <i class="fa fa-long-arrow-right" aria-hidden="true"></i> noncomputability of Kolmogorov complexity__
 
@@ -169,14 +147,14 @@ See also [[Sequence space]]s
 
 http://www.scholarpedia.org/article/Algorithmic_information_theory
 
-<mark>[[The discovery of algorithmic probability|http://world.std.com/~rjs/barc97.pdf]]</mark> Seems like vary nice read. [[Solomonoff's theory of inductive inference|https://en.wikipedia.org/wiki/Solomonoff's_theory_of_inductive_inference]]
+<mark>[ext[The discovery of algorithmic probability|http://world.std.com/~rjs/barc97.pdf]]</mark> Seems like vary nice read. [[Solomonoff's theory of inductive inference|https://en.wikipedia.org/wiki/Solomonoff's_theory_of_inductive_inference]]
 
-[[An Introduction to Kolmogorov Complexity and Its Applications (1 cr)|http://users.ics.aalto.fi/pkaski/kca/]]
+[ext[An Introduction to Kolmogorov Complexity and Its Applications (1 cr)|http://users.ics.aalto.fi/pkaski/kca/]]
 
-[[Algorithmic Learning Theory (ALT) 2016|http://www.comp.nus.edu.sg/~fstephan/alt/alt2016/id.html]]
+[ext[Algorithmic Learning Theory (ALT) 2016|http://www.comp.nus.edu.sg/~fstephan/alt/alt2016/id.html]]
 
 [[Expanded and improved proof of the relationbetween description complexity and algorithmicprobability|http://www.cs.bu.edu/faculty/gacs/papers/day.pdf]]
 
-[[http://www-igm.univ-mlv.fr/~berstel/Articles/2010HandbookCodes.pdf]]
+[ext[http://www-igm.univ-mlv.fr/~berstel/Articles/2010HandbookCodes.pdf]]
 
-[[ALGORITHMS OF INFORMATICS|http://compalg.inf.elte.hu/~tony/Oktatas/AlgofInf-Vol1-HTML/Volume1.html]]
+[ext[ALGORITHMS OF INFORMATICS|http://compalg.inf.elte.hu/~tony/Oktatas/AlgofInf-Vol1-HTML/Volume1.html]]

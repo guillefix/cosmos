@@ -1,9 +1,10 @@
 created: 20160629002823366
 creator: guillefix
-modified: 20160714125108170
+modified: 20160905053436066
 modifier: guillefix
 tags: Programming
 title: Data type
+type: text/vnd.tiddlywiki
 
 https://en.wikipedia.org/wiki/Data_type
 
@@ -28,3 +29,7 @@ Integer
 Float
 
 [[String|String (Computer science)]]
+
+__Other classes__
+
+[[Immutable type]]

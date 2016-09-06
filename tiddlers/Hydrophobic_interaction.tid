@@ -1,0 +1,12 @@
+created: 20160905080238340
+modified: 20160905092113671
+title: Hydrophobic interaction
+type: text/vnd.tiddlywiki
+
+''Hydrophobic interaction''. 
+
+Effective force due to a [[Non-polar molecule]] disrupting [[Hydrogen bond]]s in a [[polar|Polar molecule]] solvent. It has entropic and energetic contributions. [[Gecko]]s use these two climb up very smooth surfaces.
+
+Water in its liquid state forms a 3-dimensional network of hydrogen-bonded molecules, that leave more space for each to fluctuate in position, thus reducing its entropy (similar to how a colloid suspension will "crystallize" above a critical concentration for the same entropic reasons). A large molecule will disrupt this configuration, and will effectively reduce the entropy of the system. Therefore, there will be an effective force (entropic force) pushing large molecules together so that this disruption is the least, and so entropy is maximized, as it will in equilibrium. This is the hydrophobic interaction. __Question__: doesn't the fact that large non-polar molecules attract via van der Waals only while water (polar) attracts via Hydrogen bonding, but barely via van der Waals, and therefore these two different kinds of molecule barely attract, not also play a role in they wanting to clump together with like kinds, but separately from unlike kind?
+
+Compounds that experience hydrophobic interactions are known as [[Hydrophobic]]

@@ -1,0 +1,14 @@
+created: 20160821172543329
+creator: cosmos
+modified: 20160821172947913
+modifier: cosmos
+title: Explainable artificial intelligence
+type: text/vnd.tiddlywiki
+
+''Explainable AI''  (XAI) refers to [[Artificial intelligence]] systems that are able to communicate their internal models and functioning to humans.
+
+See also [[Integrating symbols into deep learning]] for some discussion and ideas.
+
+DARPA is starting a projecg for this: [ext[article|http://www.darpa.mil/program/explainable-artificial-intelligence]]
+
+[img[http://www.darpa.mil/ddm_gallery/xai-flowchart-inline-2.png]]

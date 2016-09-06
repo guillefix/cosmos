@@ -1,8 +1,9 @@
 created: 20160620152912615
 creator: guillefix
-modified: 20160715193738918
-modifier: guillefix
+modified: 20160824112435853
+modifier: cosmos
 title: JavaScript
+type: text/vnd.tiddlywiki
 
 //The language of the web//
 
@@ -17,6 +18,8 @@ A [[Programming]] language, often used for [[Frontend web development]].
 https://github.com/dominictarr/hyperscript
 
 !!!__[[Functional programming on JavaScript]]__
+
+!!!__[[Object-oriented programming on JavaScript]]__
 
 !!![[JS animation libraries]]
 

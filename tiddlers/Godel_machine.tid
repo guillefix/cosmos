@@ -1,0 +1,31 @@
+created: 20160825164804507
+creator: cosmos
+modified: 20160904163313059
+modifier: cosmos
+tags: [[Universal AI]]
+title: Godel machine
+type: application/x-tiddler
+
+The Gödel Machine (Schmidhuber, 2006) is a general paradigm for solving arbitrary problems, including optimization problems and reinforcement learning.
+
+Gödel machines: self-referential universal problem solvers making provably optimal self- improvements.
+
+[[Video|https://www.youtube.com/watch?v=mF5-tr7qAF4#t=12m34s]]
+
+http://www.scholarpedia.org/article/Universal_search#G.C3.B6del_machine
+
+https://www.wikiwand.com/en/G%C3%B6del_machine
+
+[ext[http://people.idsia.ch/~juergen/goedelmachine.html]]
+
+[ext[GÖDEL MACHINE SUMMARY|http://people.idsia.ch/~juergen/gmsummary.html]]
+
+[[Gödel Machines, deep learning and the limits of AI|https://storagemojo.com/2016/01/13/godel-machines-deep-learning-and-the-limits-of-ai/]]
+
+Any utility function (such as expected future reward in the remaining lifetime) can be plugged in as an axiom stored in initial program p. Among other things, p systematically makes pairs (switchprog, proof) until it finds a proof of: "the rewrite of p through current program switchprog implies higher utility than leaving p as is." Since the utility of 'leaving p as is' implicitly evaluates all possible alternative switchprogs which an unmodified p might find later, we obtain a globally optimal self-change by executing the current switchprog.
+
+The switchprog holds a potentially unrestricted program whose execution could completely rewrite any part of the Gödel machine's current software. Normally the current switchprog is not executed. However, proof techniques may invoke a special subroutine check() which tests whether proof currently holds a proof showing that the utility of stopping the systematic proof searcher and transferring control to the current switchprog at a precisely defined point in the near future exceeds the utility of continuing the search until some alternative switchprog is found. Such proofs are derivable from the proof searcher's axiom scheme which formally describes the utility function to be maximized (typically the expected future reward in the expected remaining lifetime of the Gödel machine), the computational costs of hardware instructions (from which all programs are composed), and the effects of hardware instructions on the Gödel machine's state.
+
+https://www.semanticscholar.org/paper/Goedel-Machines-Self-Referential-Universal-Problem-Schmidhuber/2e45fd58329558b0c9e73cbc1fb9f4f60dbb5ca7/pdf
+
+[img width=300 [http://people.idsia.ch/~juergen/robohorsegm1.jpg]]

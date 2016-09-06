@@ -1,0 +1,104 @@
+created: 20160823182558318
+creator: cosmos
+modified: 20160904163639691
+modifier: cosmos
+tags: [[Universal AI]]
+title: Universal inductive inference
+type: text/vnd.tiddlywiki
+
+//aka ''Universal prediction''//
+
+It is based on performing [[Levin search]] over candidate answers, to preferentially search simple ones. However, we should combine this with probabilistic heuristics that are learned from past experience (an example of [[Incremental learning]]).
+
+Developed by [[Ray Solomonoff]]
+
+See also [[Universal probability]], [[Universal gambling]], [[Induction]]
+
+[[Solomonoff's theory of inductive inference|https://en.wikipedia.org/wiki/Solomonoff's_theory_of_inductive_inference]]
+
+[[Jeff Eldred Introduces Solomonoff Induction|https://www.youtube.com/watch?v=yXkEpzexYIU]]: Introduction about [[Induction]], and about [[Baye's theorem]]. He then goes into [[Kolmogorov complexity]], and [[its relation to Solomonoff induction|https://www.youtube.com/watch?v=yXkEpzexYIU#t=31m05s]], and [[Turing machine]]s
+
+!!__Principles__
+
+,, See [[Ray Solomonoff paper read by Marcus Hutter - Algorithmic Probability, Heuristic Programming & AGI|https://www.youtube.com/watch?v=wMcRMO9ejeM#t=3m32s]],, It is based on:
+
+* [[Occam's razor]]
+* [[Principle of multiple explanations]]
+
+
+!!__Convergence theorem__
+
+[[Description (vid)|https://www.youtube.com/watch?v=wMcRMO9ejeM#t=7m30s]]. There are apparently problems with self-referentiality, when the true probability distribution governing the bit sequence, depends on the induction machine itself. There are problems with reinforcement learning.
+
+------------
+
+__//More notes//__:
+
+[[Bayes|Bayesian statistics]], [[Probability theory]], [[Human learning]], have similitudes.
+
+"Information packing problem", Shannon. See [[Data compression]]
+
+Carnap's probability theory. [[Korzybski]]-like way of avoiding the problem of verifying probabilistic theories?
+
+Huffman, Minksy, McCarthy.
+
+An inductive inference machine (paper where he introduced the idea).
+
+See also [[Grammar learning]].
+
+!!__Practical induction__
+
+!!!__Optimal approxiamations__
+
+__Main idea: Willis' computable schemes (''Resource bounded algorithmic probability'')__
+
+<<<
+
+In 1968 I was asked to review "Computational Complexity and Probability
+Constructions
+a paper by David Willis. It was the first substantive response I'd
+seen to my 1964 paper giving the four models. I found his paper to be excellent
+Willis avoided the "halting problem" by defining computationally limited Turing
+machines that had no halting problems. From these machines, he was able to
+define probabilities in an exact manner. By raising the computational limits on
+his machines, he approached the behavior of universal machines.
+
+
+In addition to its value as a rigorous treatment of a subject that I had
+treated relatively informally, I was able to use Willis' results to prove that these
+induction methods satisfied my "correctness" criterion. The methods converged
+surprisingly rapidly to the correct probability values
+
+<<<
+
+"While Willis' work seemed closer to practical realization, Levin's was a model of mathematical elegance. "
+
+__Algorithm__
+
+[img[https://s14.postimg.org/uoc5hjmm9/Selection_593.png]]
+
+These kinds of approximations are used to defin ''practical probability''. Our particular algorithm/implementation will depend on:
+
+These methods are optimal approximations. ("By getting as large a value of the sum as we can, we get as close as possible to Algorithmic Probability in the allotted time.")
+
+!!!__Suboptimal approximations__
+
+An example is "The VH method", by Van Herdeen, based on the description of Boolean functions that predict binary strings. This is like just taking the first term in the sum that defines algorithmic probability. Thus it is a rather crude approximation.
+
+Other methods:
+
+Minimal message length
+
+Minimal description length. Stochastic complexity.
+
+More.
+
+!!!__Computability vs completeness__
+
+[img[https://s9.postimg.org/m4dtwi9sf/Selection_591.png]]
+
+!!!__Algorithmic probability (i.e. universal inductive inference) as the "gold standard" to ''evaluate the utility of induction methods''!__ (see also [[Universal AI]]!)
+
+[img[https://s14.postimg.org/9mbw04hq9/Selection_592.png]]
+
+See [[Randomness]], [[Complexity]]

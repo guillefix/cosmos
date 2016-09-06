@@ -1,0 +1,8 @@
+created: 20160820121705422
+creator: cosmos
+modified: 20160820121748767
+modifier: cosmos
+title: Undecidable
+type: text/vnd.tiddlywiki
+
+See [[Computability theory]]. Basically, a problem is undecidable if there's not an algorithm/Turing Machine that could solve the problem in all instances.

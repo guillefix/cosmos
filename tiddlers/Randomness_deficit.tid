@@ -1,10 +1,13 @@
 created: 20160726121357937
 creator: guillefix
-modified: 20160726122105810
-modifier: guillefix
+modified: 20160824105124441
+modifier: cosmos
 title: Randomness deficit
+type: text/vnd.tiddlywiki
 
-The [[Property]] of a [[Set]] of [[string|String (Computer science)]]s that has a distribution of [[Kolmogorov complexities|Kolmogorov complexity]] with an overrepresentation of low-complexity strings, relative to the expected distribution of complexities for a set of string chosen uniformly at random (with fixed length, and alphabet).
+The property of a [[distribution|Probability distribution]] of [[Kolmogorov complexities|Kolmogorov complexity]] with an overrepresentation of low-complexity strings, relative to the expected distribution of complexities for a set of string chosen uniformly at random (with fixed length, and alphabet).
+
+When referring to a [[Property]] of a [[Set]] of [[strings|String (Computer science)]], the distribution refers to the frequency distribution in the set.
 
 A measure of randomness deficit is given by
 

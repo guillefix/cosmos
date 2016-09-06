@@ -1,10 +1,11 @@
 created: 20160121121935070
 creator: guillefix
 list-after: Discrete mathematics
-modified: 20160717212626908
-modifier: guillefix
+modified: 20160824105117535
+modifier: cosmos
 tags: Mathematics Statistics [[Measure theory]]
 title: Probability theory
+type: text/vnd.tiddlywiki
 
 ''Probability Theory'' [[Wiki article|https://en.wikipedia.org/wiki/Probability_theory]]. Mathematica foundations of ''probability''
 
@@ -26,7 +27,7 @@ Based on [[Measure theory]]
 
 --------
 
-!![[Probability distribution function]]
+!![[Probability distribution function|Probability distribution]]
 
 __Cumulative distribution function__
 
@@ -41,3 +42,9 @@ __Cumulative distribution function__
 !!![[Combinatorics]]
 
 Probabilistic method (see book)
+
+-------------
+
+__Carnap's theory of a priori probabilities__
+
+[img[http://i.imgur.com/I8ATF25.png]]

@@ -1,0 +1,33 @@
+created: 20160821094547699
+creator: cosmos
+modified: 20160830112641896
+modifier: cosmos
+tags: [[Generative learning]]
+title: Naive Bayes
+type: text/vnd.tiddlywiki
+
+A [[Generative learning]] algorithm used when the input space is $$\{0,1\}^n$$, so an input point consists of $$x_i \in \{0,1\}$$, $$i=1,2,...,n$$.
+
+The particular variant below is called ''Multivariate Bernoulli event model'', as it is part of a family of models called ''event models'' (another example of which is below)
+
+See [[Wiki|https://www.wikiwand.com/en/Naive_Bayes_classifier]]
+
+[[Intro lec vid|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=44m35s]]
+
+[[Definition of naive Bayes assumption|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=48m39s]]
+
+[[Problem with Naive Bayes|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=1h02m45s]]. Probabilities $$P(X|Y)=0$$ for $$X$$s that have never been observed, and this causes problems ($$P(Y|X)$$ undefined). [[How to fix it|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=1h06m40s]] [[actually here|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=1h09m10s]]... (the method is known as [[Laplace smoothing]]).
+
+[[Naive Bayes  is a linear classifier|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=27m]], just like [[Gaussian discriminant analysis]], it creates a [[Hyperplane]] [[Classification]] boundary, and a sigmoid posterior, like [[Logistic regression]]
+
+!!!__Generalization to when $$x_i$$ can take any of $$k$$ values__
+
+[[here|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599&spfreload=1#t=3m25s]]. Can arrise when discretizing a real valued $$x_i$$.
+
+!!!__Variant for sequences (Multinomial event model)__
+
+[[here|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599&spfreload=1#t=6m0s]]. [[description of model|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599&spfreload=1#t=8m5s]].
+
+[[This is the log likelihood|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=20m33s]]
+
+[[Maximum likelihood estimates|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599&spfreload=1#t=12m45s]] [[Laplace-smoothed estimate|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=14m55s]]

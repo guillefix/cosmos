@@ -1,0 +1,116 @@
+created: 20160820112115232
+creator: cosmos
+modified: 20160820122151250
+modifier: cosmos
+tags: Programming
+title: Compiler
+type: text/vnd.tiddlywiki
+
+
+
+See also [[Formal language]], [[Programming language]], [[Assembly (programming language)]]
+
+[[Compiler design lectures|https://www.youtube.com/watch?v=Qkwj65l_96I]]
+
+[[Book|https://www.wikiwand.com/en/Compilers:_Principles,_Techniques,_and_Tools]]
+
+!!__Full compilation process__
+
+The compilation process usually involves these steps:
+
+<div style="text-align: center">
+
+[[HLL|High-level language]]
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i>
+
+<span class="border">Pre-processor</span>
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i> Pure HLL
+
+<span class="border">''Compiler''</span>
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i> [[Assembly|Assembly (programming language)]]
+
+<span class="border">Assembler</span>
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i> [[M/C|Machine code]] (relocatable)
+
+<span class="border"> Loader/linker</span>
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i>
+
+Absolute machine code
+
+</div>
+
+!!__Compiler steps__
+
+<div style="text-align: center">
+
+[[HLL|High-level language]]
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i>
+
+<span class="border">Lexical analysis</span>
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i> Stream of tokens
+
+<span class="border">Syntax analysis ([[Parsing]])</span>
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i> Parse tree
+
+<span class="border">Semantic analysis</span>
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i> Parse tree (semantically verified)
+
+<span class="border">Intermediate code generator</span>
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i>
+Three adress code
+
+<span class="border">Code optimizer</span>
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i>
+
+<span class="border">Target code generator</span>
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i>
+
+Assembly code.
+
+</div>
+
+All these steps will also make use of a <b>symbol table manager</b>, and they communicate with an <b>Error handler</b>
+
+[[Example|https://www.youtube.com/watch?v=Qkwj65l_96I#t=7m44s]]
+
+!!Compiler front-end
+
+!!!__Lexical analsys__
+
+Tool: `lex`
+
+Converts string of characters into string of tokens, using, for instance a [[Regular expression]]. For instance in an anglebraic expression, all things that match `[[a-z]\d]+`, where `[a-z]` is a letter, and `\d` is a digit, are converted into an "identifier" token, which is a fundamental unit in the grammar.
+
+[[Lecture|https://www.youtube.com/watch?v=WccZQSERfCM]]
+
+!!!__Syntax analysis ([[Parsing]])__
+
+Tool: `yacc`
+
+Create parse tree according to rules of some [[Grammar]]
+
+[[Lecture|https://www.youtube.com/watch?v=WccZQSERfCM#t=4m10s]]
+
+!!!__Semantic anlysis__
+
+* Type checking
+
+!!!__Intermediate code generator__
+
+!!Compiler back-end
+
+!!!__Code optimization__
+
+!!!__Target code generator__

@@ -1,0 +1,25 @@
+created: 20160906082335700
+modified: 20160906090903389
+tags: Genetics Biochemistry
+title: Biochemical genetics
+type: text/vnd.tiddlywiki
+
+[[Garrod and inborn errors of metabolism|https://www.youtube.com/watch?v=K8TWS0QzsFg]] -- [[Garrod, Beadle, Tatum and the link between genetics and biochemistry|https://www.youtube.com/watch?v=YN7srcX4ias]]
+
+[[Yeast as a model organism|https://www.youtube.com/watch?time_continue=507&v=twoE1twluQw]]
+
+
+!!__Mutant hunting__
+
+[[How to use genetics to study biochemistry: A mutant hunt|https://www.youtube.com/watch?v=tWCVaP1RaxI]]
+
+__[[Tricks of mutant hunting|https://www.youtube.com/watch?v=hf3G4eD23k0]]__
+
+* [[Replica plating]]
+* [[Use haploids|https://www.youtube.com/watch?v=hf3G4eD23k0#t=6m50s]], if you can, [[like in yeast|https://www.youtube.com/watch?v=twoE1twluQw#t=4m30s]]. Benefits depend on whether mutation is [[dominant|Genetic dominance]] or not.
+* Test of [[dominance|Genetic dominance]]. [[Mate a heterozygote with a homozygote|https://www.youtube.com/watch?v=xo5UPOB2XGg#t=48s]]
+*  [[Tests of Complementation|https://www.youtube.com/watch?v=Ff6Vky2YlmY#t=1m]] -- [[explanation|https://www.youtube.com/watch?v=Ff6Vky2YlmY#t=1m42s]], [[only works for recessive|https://www.youtube.com/watch?v=Ff6Vky2YlmY#t=6m18s]]. [[Table to organize complementation tests|https://www.youtube.com/watch?v=Ff6Vky2YlmY#t=9m]]. [[Nice example|https://www.youtube.com/watch?v=Ff6Vky2YlmY#t=14m20s]]
+** If the mutations complement each other --> different genes
+** If they fail to complement each other --> same gene 
+** These define //complementation groups//              
+* [[Epistasis test|https://www.youtube.com/watch?v=_zEV_-BT3LI]]. Sometimes phenotypes of double mutants are the same as hose of single mutants, when the extra mutation affects something upstream in a [[Metabolic pathway]] that the other mutation affects. Can use this to find order of steps in the pathway.

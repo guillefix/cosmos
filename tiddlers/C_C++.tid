@@ -1,9 +1,10 @@
 created: 20160516121923549
 creator: guillefix
-modified: 20160713190536595
-modifier: guillefix
+modified: 20160826220352735
+modifier: cosmos
 tags: 
 title: C/C++
+type: text/vnd.tiddlywiki
 
 [[The ``Clockwise/Spiral Rule''|http://c-faq.com/decl/spiral.anderson.html]] for parsing C variable declarations!
 
@@ -20,3 +21,7 @@ Uses this library: http://www.cplusplus.com/reference/random/. rand() considered
 [[References|Reference (computer science)]] are nothing but constant pointers in C++ (see [[here|http://www.codeproject.com/Articles/13363/An-Insight-to-References-in-C]]).
 
 See Lynda.com videos.
+
+http://eigen.tuxfamily.org/index.php?title=Main_Page
+
+Armadillo

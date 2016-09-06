@@ -1,0 +1,9 @@
+created: 20160904164037417
+modified: 20160904164316918
+tags: [[Turing machine]]
+title: Universal Turing machine
+type: text/vnd.tiddlywiki
+
+//akak UTM//
+
+A [[Turing machine]] that is able to simulate any other single-taped [[Turing machine]]. Alan Turing showed that these exist. A machine that is universal is a UTM is called [[Turing complete]]

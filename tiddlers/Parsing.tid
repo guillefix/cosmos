@@ -1,8 +1,11 @@
 created: 20160629002728935
 creator: guillefix
-modified: 20160629002908345
-modifier: guillefix
+modified: 20160820114246254
+modifier: cosmos
 tags: [[Formal language]]
 title: Parsing
+type: text/vnd.tiddlywiki
 
 https://en.wikipedia.org/wiki/Parsing
+
+See [[Compiler]]
