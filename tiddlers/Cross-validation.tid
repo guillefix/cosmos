@@ -1,0 +1,44 @@
+created: 20160914085844404
+creator: cosmos
+modified: 20160914085901927
+modifier: cosmos
+tags: [[Model selection]]
+title: Cross-validation
+type: text/vnd.tiddlywiki
+
+Test the model on data you haven't used for training.
+
+min-max, average
+
+[ext[https://www.cs.cmu.edu/~schneide/tut5/node42.html]]
+
+Wikipedia has good explanations: [ext[https://en.wikipedia.org/wiki/Cross-validation_(statistics)]]
+
+__Hold-out cross-validation__
+
+[[video|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=41m30s]]
+
+#Randomly split training set S into two subsets, the training subset S,,train,,, (70%) and the cross-validation subset S,,CV,, (30%).
+
+#Train the model on the training set, and test it on S,,CV,,
+
+#Pick the model with smallest error on S,,CV,,
+
+#Often once a model complexity is picked, the model is trained on the whole data set.
+
+__k-fold cross-validation__
+
+[[video|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=44m49s]]
+
+# Split data into k equal pieces. Common k=10.
+# For i from 1 to k:
+:: Hold-out the ith piece for testing, and use the other k-1 pieces for training.
+:3. Average errors from the k iterations
+
+More computationally expensive
+
+__Leave-one-out cross-validation__
+
+k-fold CV, for whem k={number of training examples}, so for each iteration, you leave one out.
+
+Even more computationally expensive, but more accurate estimate of generalization error. Only done when the data is very scarce.

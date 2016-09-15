@@ -1,0 +1,35 @@
+created: 20160913070651215
+creator: cosmos
+modified: 20160913124927089
+modifier: cosmos
+tags: Simplicity Learning
+title: Simplicity and learning
+type: text/vnd.tiddlywiki
+
+See [[Learning theory]], [[Order]] and [[Simplicity bias]]. The simplicity and structure in signals in the real-world is often seized to make the learning problem easier to solve.
+
+Applications in [[Inverse problem]]s. For instance, see [[Convex optimization heuristics for linear inverse problems]] and [[Linear inverse problem]]
+
+Applications in [[Compressed sensing]]
+
+!!!__Simplicity and neural networks__
+
+See [[Neural network theory]], [[Why does deep and cheap learning work so well?|http://arxiv.org/abs/1608.08225]], [[Deep learning theory]]
+
+<b>Nature often results in functions that are polynomials with several simplifying features</b>:
+
+//1. Low polynomial order //
+
+For reasons that are still not fully understood, our uni-verse can be accurately described by polynomial [[Hamiltonian]]s of low order $$d$$. 
+
+The [[Central limit theorem]] gives rise to [[Probability distributions]] corresponding to quadratic Hamiltonians (see def in [[Neural network theory]]). Similar results regarding maximum entropy distributions are also mentioned in the paper. Several common operations on image and sound are linear and thus order 1 polynomials on the input.
+
+//2. Locality//
+
+locality in a lattice manifests itself by allowing only nearest-neighbor interaction. In other words, almost all coeficients in the polynomial are forced to vanish, and the total number of non-zero coeficients grows only linearly with $$n$$.
+
+This can be stated more generally and precisely using the Markov network formalism
+
+//3. Symmetry//
+
+Whenever the Hamiltonian obeys some symmetry (is in-variant under some transformation), the number of independent parameters required to describe it is further reduced.

@@ -1,0 +1,16 @@
+created: 20160911100516584
+creator: cosmos
+modified: 20160911101214234
+modifier: cosmos
+title: Hoeffding's inequality
+type: text/vnd.tiddlywiki
+
+Let $$Z_1, Z_2, ..., Z_m$$ be $$m$$ [[i.i.d.]] Bernoulli($$\phi$$) random variables ($$P(Z_i = 1) = \phi)$$.
+
+Let $$\hat{\phi} = \frac{1}{m} \sum_{i=1}^m Z_i$$, and let $$\gamma >0$$ be fixed. Then
+
+$$P(|\phi - \hat{\phi} |> \gamma) \leq 2 \exp{(-2\gamma^2 m)}$$
+
+[[Video|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=22m30s]] -- [[Intuition|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=24m35s]], similar to [[Central limit theorem]], but this isn't an asymptotic result!
+
+https://www.wikiwand.com/en/Hoeffding's_inequality

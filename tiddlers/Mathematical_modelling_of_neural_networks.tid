@@ -1,8 +1,17 @@
 created: 20160217234825266
 creator: guillefix
-modified: 20160217234836307
-modifier: guillefix
+modified: 20160913112947657
+modifier: cosmos
 title: Mathematical modelling of neural networks
+type: text/vnd.tiddlywiki
+
+[img[Selection_611.png]]
+
+See [[Neural network theory]]. For choices of nonlinear operators see [[Layers for deep learning]]
+
+------------------------
+
+Notes from Rodrigo Mendoza's talk
 
 Deep learning is an area of machine learning that studies learning algorithms with //multiple levels of abstraction//
 

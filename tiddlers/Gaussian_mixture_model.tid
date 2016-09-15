@@ -1,0 +1,37 @@
+created: 20160914162343559
+creator: cosmos
+modified: 20160915145722492
+modifier: cosmos
+tags: [[Mixture model]]
+title: Gaussian mixture model
+type: text/vnd.tiddlywiki
+
+//aka mixture of Gaussians//
+
+[[Example in 1D|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=22m]]
+
+[[Algo def|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=24m]]
+
+Assume there's a latent (hidden/unobserved) [[Random variable]] $$z$$ and $$x^{(i)}, z^{(i)}$$ have a joint distribution
+
+$$P(x^{(i)}, z^{(i)})=P(x^{(i)}|z^{(i)})P(z^{(i)})$$
+
+$$z^{(i)} \sim \text{Multinomial}(\phi)$$
+
+($$\phi_j \geq 0 \sum_j \phi_j =1 $$)
+
+$$x^{(i)} | (z^{(i)} = j) \sim \mathcal{N}(\mu_j, \Sigma_j)$$
+
+This is very similar to [[Gaussian discriminant analysis]], but where the known labels are substituted by unknown hidden variables $$z$$. ([[vid|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=27m]]).
+
+!!!__Train via the [[EM algorithm]]__
+
+See [[video|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=1m30s]] -- [[EM for mixture of Gaussians|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=10m25s]]
+
+# Repeat until convergence 
+
+## ''E-step''. Guess values of $$z^{(i)}$$s. In particular, compute the a-posteriori probability $$w^{(i)}_j = P(z^{(i)} = j | x^{(i)}; \phi, \mu, \Sigma) $$ $$= \frac{P(x^{(i)}|z^{(i)} = j)P(z^{(i)} = j)}{\sum_{l=1}^k P(x^{(i)}|z^{(i)} = l)P(z^{(i)} = l)}$$ $$=\frac{\frac{1}{\left(2\pi \right)^{\frac{d}{2}}\left|\Sigma _j\right|^{\frac{1}{2}}}\exp \left\{\left(x^{\left(i\right)}-\mu _j\right)^T\Sigma _j^{-1}\left(x^{\left(i\right)}-\mu _j\right)\right\}\phi _j}{\sum _{l=1}^k\frac{1}{\left(2\pi \right)^{\frac{d}{2}}\left|\Sigma _l\right|^{\frac{1}{2}}}\exp \left\{\left(x^{\left(i\right)}-\mu _l\right)^T\Sigma _l^{-1}\left(x^{\left(i\right)}-\mu _l\right)\right\}\phi _l}$$
+
+## ''M-step''. $$\phi _j=\frac{1}{m}\sum _{_{i=1}}^mw_j^{\left(i\right)}$$. $$\mu _j=\frac{\sum _{_{i=1}}^mw_j^{\left(i\right)}x^{\left(i\right)}}{\sum _{_{i=1}}^mw_j^{\left(i\right)}}$$. $$\Sigma _j=\frac{\sum _{i=1}^mw_j^{\left(i\right)}\left(x^{\left(i\right)}-\mu _j\right)\left(x^{\left(i\right)}-\mu _j\right)^T}{\sum _{i=1}^mw_j^{\left(i\right)}}$$
+
+[img[https://upload.wikimedia.org/wikipedia/commons/6/69/EM_Clustering_of_Old_Faithful_data.gif]]

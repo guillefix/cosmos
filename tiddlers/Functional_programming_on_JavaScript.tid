@@ -1,6 +1,6 @@
 created: 20160620153009231
 creator: guillefix
-modified: 20160905053316368
+modified: 20160907161026678
 modifier: cosmos
 title: Functional programming on JavaScript
 type: text/vnd.tiddlywiki
@@ -19,9 +19,7 @@ type: text/vnd.tiddlywiki
 
 [[Monad|https://www.youtube.com/watch?v=9QveBbn7t_c]]
 
-map, filter, reduce
-
-[img[https://hsto.org/files/fbc/33e/2b2/fbc33e2b26894055b3a2c8d5d272aebb.jpg]]
+map, filter, reduce. Nice game to explain map, reduce, filter: http://david-peter.de/cube-composer/[img[https://hsto.org/files/fbc/33e/2b2/fbc33e2b26894055b3a2c8d5d272aebb.jpg]]
 
 !!__Libraries__
 

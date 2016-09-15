@@ -1,0 +1,51 @@
+created: 20160913110136500
+creator: cosmos
+modified: 20160915182118835
+modifier: cosmos
+tags: [[Artificial neural network]]
+title: Neural network theory
+type: text/vnd.tiddlywiki
+
+The theory (mainly [[Learning theory]]) of [[Artificial neural network]]s. See also [[Deep learning theory]], [[Mathematical modelling of neural networks]], [[Statistical mechanics of neural networks]]
+
+Note that the notation in [[this paper|http://arxiv.org/abs/1608.08225]] is opposite to that standard in [[Machine learning]]. __In the paper, $$y$$ is the input, and $$x$$ is the output.__
+
+!!!__Neural networks are can approximate any smooth function__
+
+Even single-layer ones. Find papers
+
+!!!__Baye's theorem as a softmax__
+
+As in [[Generative learning]], we can relate $$p(x|y)$$ to $$p(y|x)$$, using [[Baye's theorem]]
+
+[img[Selection_608.png]]
+
+Baye's theorem can be put into the form of a [[Boltzmann distribution]], by defining the "self-information" or "surprisal", or //Hamiltonian//, in the context of [[Statistical physics]]
+
+|[img[Selection_609.png]]|[img width=350 [Selection_610.png]]|
+
+This on turn, can be succinctly written using the [[Softmax]] nonlinear opeartor $$\mathbf{\sigma}$$ as
+
+$$\mathbf{p}(\mathbf{y})= \mathbf{\sigma} [ -\mathbf{H}(\mathbf{y})-\mathbf{\mu}]$$
+
+That means that if we compute the Hamiltonian (which depends on the generating process encoded on the conditional probability distribution $$p(y|x)$$), we can add a softmax layer to compute the Bayes a-posteriori probability distribution. The a-priori distribution $$p(x)$$ goes into $$\mu$$, which is the bias term of the final layer.
+
+!!!__What Hamiltonians (and thus $$p(y|x)$$) can be approximated by feasible neural networks? __
+
+__--> Neural networks can efficiently simulate multiplication__
+
+[img[Selection_612.png]]
+
+See [[paper|http://arxiv.org/pdf/1608.08225v1.pdf]] for proof.
+
+[img[Selection_614.png]]
+
+__--> This means they can efficiently simulate polynomials__
+
+[img[Selection_613.png]]
+
+In the case of a polynomial of degree $$d$$, there are $$(n+d)!/(n!d!)$$ terms (and thus parameters), which corresponds to the [[Number of ways to put n+1 objects in d bins|Number of ways to put n objects in k bins]], where the n+1 objects correspond to the n variables, and an object corresponding to "empty".
+
+In the case of $$n$$ binary input variables (with possible values $$0$$ or $$1$$), any function can be written as a polynomial of degree $$n$$, and only $$2^n$$ terms (as repeating a factor doesn't change the function as $$y_i ^2 = y_i$$. 
+
+Furthermore bit variables allow an accurate multiplication approximator that takes the product of an arbitrary number of bits at once. This implies that any function of a bit-variable $$\mathbf{y}$$ can be simulated with just three layers, the middle of which does the appropriate multiplications (so we need $$2^n$$ neurons here), and the last of which sums the terms with appropriate weights to create the polynomial.

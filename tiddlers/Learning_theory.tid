@@ -1,22 +1,18 @@
 created: 20160709004653144
 creator: guillefix
-modified: 20160825172014512
+modified: 20160915132735824
 modifier: cosmos
 tags: [[Statistical inference]] Learning [[Artificial intelligence]]
 title: Learning theory
 type: text/vnd.tiddlywiki
 
-//aka computational learning theory//
+//aka computational learning theory, statistical learning theory, although these have slightly different connotations//
 
-Mathematical theory of learning.
-
-https://www.wikiwand.com/en/Computational_learning_theory
-
-See [[Machine learning]], [[Deep learning]]. 
+Mathematical theory of learning, and learning algorithms. See [[Machine learning]], [[Deep learning theory]], [[wiki|https://www.wikiwand.com/en/Computational_learning_theory]].
 
 ''Learning problem'': Design a system that improves on its ability to perform task T, as measured by performance measure P, by going through experience E.
 
-__Types of learning problem__
+!!__Types of learning problem__
 
 Some important types:
 
@@ -28,19 +24,119 @@ Some important types:
 * [[Inverse problem]]
 ** [[Linear inverse problem]]
 
-__Empirical risk minimization or [[Maximum likelihood]]__
+<b>Most of the topics below apply to [[Supervised learning]], which is the most common learning problem in practice.</b>
 
-''Minimize a cost function'', which often is the negative log [[likelihood|Likelihood function]] (similar to entropy. More precisely, cross-entropy, or relative entropy), which corresponds to ''maximizing likelihood''.
+!__Principles of learning algorithms__
+
+!!__Risk minimization__
+
+If one defines a ''loss function'' (or ''risk'', or ''cost'', see [[Decision theory]]), $$R_f (\hat{y}, y)$$, one can ask what is the prediction scheme (for instance, the function $$\hat{y} = f(x)$$ that minimizes the expected risk. This is called risk minimization. 
+
+!!!__Generalization/prediction__
+
+[[Making good generalizations is the goal of predictive/supervised learning|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=17m45s]], where ''generalization'' means 
+making predictions about unseen data from seen data, and good generalization means these predictions agree with the actual results, as often as possible. See also [[Induction]].
+
+For the case of 0-1 loss functions, the expected risk is also known as ''generalization error'', $$\epsilon$$, [[defined as|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=18m10s]] the probability that if I sample a new sample $$(x,y)$$ from the same distribution producing the data, my hypothesis misslabels that example.
+
+!!!__[[Empirical risk minimization]]__
+
+Risk minimization, requires knowing the joint probability distribution $$P(x,y)$$, so one often uses the sample mean of the risk as an estimator for the expected value of the risk. Minimizing this empirical quantity is called empirical risk minimization.
+
+The empirical risk, for a 0-1 loss function is also known as ''training error'' $$\hat{\epsilon}$$, which is just the fraction of training points that your hypothesis missclassifies. See [[Training error (vid)|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=11m]]
+
+!!__[[Maximum likelihood]]__
+
+Minimize the negative log [[likelihood|Likelihood function]] (similar to entropy. More precisely, cross-entropy, or relative entropy), which corresponds to ''maximizing likelihood''.
+
+!!!__[[Maximum a posteriori]] (MAP)__
+
+
+!!__Design factors in machine learning__
+
+[img[machine_learning_design_factors.png]]
+
+!!__[[Overfitting and underfitting]]__
+
+Overfitting and underfitting refer to ways of misstraining a model, i.e., making it have poor generalization error, compared to the optimal model.
+
+[[Bias-variance tradeoff|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=4m1.5s]]
+
+''A lot of the theory below is about dealing with the issues of overfitting and underfitting, so as to train the model as well as possible''.
+
+!__[[Convergence and performance results in learning theory]]__
+
+Mostly about general bounds, that often are pessimistic because they have to include worst cases, but give good intuition of general relations, for instance, between training set size and model complexity.
+
+-->[[Theorem|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=17m15s]]. Let a hypothesis class $$H$$ be given, and let the [[VC dimension]] VC(H) = d. Then w.p. at leat$$1-\delta$$, we have that for all $$h \in H$$
+
+$$|\epsilon(h)-\hat{\epsilon}(h)|\leq O\left(\sqrt{\frac{d}{m}\log{\frac{m}{d}}+\frac{1}{m}\log{\frac{1}{d}}}\right)$$
+
+where $$m$$ is the size of the training set. A corollary is that for ERM, the number of training samples needed for a particular performance is roughly linear on the [[VC dimension]] of the hypothesis class (see [[video|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=22m]]). ''Sample complexity is upper bounded by VC dimension''.
+
+!__[[Model selection/assessment|Model selection]]__
+
+Model selection algorithms provide methods to automatically choose optimal bias/variance tradeoffs. 
+
+* [[Cross-validation]]
+
+* [[Feature selection]]
+
+!__[[Bayesian statistics]]__
+
+
+
+!!__[[Regularization]]__
+
+A different way to avoid overfitting, while keeping all parameters in your model.
+[[Intro vid|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=1m]]
+
+We use the [[Prior distribution]] from [[Bayesian statistics]], to make [[simple|Simplicity]] hypothesis more likely. See [[Simplicity and learning]].
+
+[[Intuition|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=12m]]
+
 
 --------------------
 
-__Simplicity and learning__
+!!__Online learning__
 
-See [[Order]] and [[Simplicity]]. The simplicity and structure in signals in the real-world is often seized to make the learning problem easier to solve.
+as opposed to //batch learning//
 
-Applications in [[Inverse problem]]s. For instance, see [[Convex optimization heuristics for linear inverse problems]] and [[Linear inverse problem]]
+[[video|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=17m30s]]. You have to make predictions even in the process of learning.
 
-Applications in [[Compressed sensing]]
+What we care about is the [[online error|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=19m25s]]
+
+[[Can apply batch learning algos for online learning|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=19m57s]]
+
+[[Several theoretical results exist|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=21m58s]
+
+!!__[[Simplicity and learning]]__
+
+The simplicity and structure in signals in the real-world is often seized to make the learning problem easier to solve.
+
+!!__[[Advice for applying machine learning algorithms|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=24m55s]]__
+
+!!!__[[Diagnosis for debugging learning algorithms|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=28m37s]]__
+
+Diagnostic:
+
+* High variance (overfitting) -> Training error would be much lower than test error. ([[video|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=34m05s]])
+
+* High bias (underfitting) -> Test error will also be high. ([[video|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=35m50s]])
+
+[[Ways to fix high variance or bias|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=37m50s]]
+
+[[Is the algo converging?|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=37m50s]] -- [[Are you optimizing the right function?|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=43m30s]] --> [[Diagnostic|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=45m]]
+
+[[One more example|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=50m45s]]
+
+!!!__[[Error analysis|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=1h03m20s]] and [[ablative analysis|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=1h08m48s]]__
+
+!!!__[[How to get started on a machine learning problem|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=1h11m45s]]__
+
+-- Premature (statistical) optimization ([[video|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=27m30s]])
+
+[[The dangers of over-theorizing|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=1h16m45s]]
 
 -------------------
 

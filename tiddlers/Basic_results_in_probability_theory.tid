@@ -1,10 +1,11 @@
 created: 20160707161706753
 creator: guillefix
-modified: 20160707161733893
-modifier: guillefix
+modified: 20160911100201708
+modifier: cosmos
 title: Basic results in probability theory
+type: text/vnd.tiddlywiki
 
- __Expected number of times I get a certain outcome for a set of random variables with the same [[sample space|https://en.wikipedia.org/wiki/Sample_space]], but potentially different and dependent probability distributions__
+!!! __Expected number of times I get a certain outcome for a set of random variables with the same [[sample space|https://en.wikipedia.org/wiki/Sample_space]], but potentially different and dependent probability distributions__
 
 Imagine I have two random variables ($$X$$ and $$Y$$) each of which can have value $$A$$ or $$B$$. Imagine I want to know the expected number of As I get. This will be:
 
@@ -18,6 +19,8 @@ $$=p(X=A)+p(Y=A)$$
 
 And this result works whether $$X$$ and $$Y$$ are independent random variables or not. The only thing we require is that getting $$X=A$$ and $$X=B$$ are mutually exclusive (and similarly for $$Y$$).
 
-__Inclusion-exclusion principle__
+!!!__Inclusion-exclusion principle__
 
 https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle
+
+!!!__[[Boole's inequality]]__

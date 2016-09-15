@@ -1,0 +1,88 @@
+created: 20160915191802219
+creator: cosmos
+modified: 20160915203822874
+modifier: cosmos
+tags: [[Unsupervised learning]]
+title: Principal component analysis
+type: text/vnd.tiddlywiki
+
+//aka PCA//
+
+[[Intro vid by Andrew Ng|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=37m35s]]
+
+Given $$\{ x^{(1)}, ..., x^{(n)}\}$$ where $$ x^{(i)} \in \mathbb{R}^n$$
+
+Reduce it to $$k$$-dimensional data set ($$k < n$$, often $$k \ll n$$).
+
+[[Examples|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=38m50s]]
+
+!!__Algorithm__
+
+[[Summary of algorithm|https://www.youtube.com/watch?v=QGd06MTRMHs&list=PLA89DCFA6ADACE599&index=15#t=2m10s]]
+
+!!!__Pre-processing of the data__
+
+[[vid|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=42m10s]]
+
+# Zero-out mean
+
+## Set $$\mu =\frac{1}{m}\sum _{i=1}^mx^{\left(i\right)}$$
+
+## Replace $$x^{(i)}$$ with $$x^{(i)} -\mu$$
+
+# Normalize to unit variance
+
+## Set $$\sigma _j^2=\frac{1}{m}\sum _{i=1}^m\left(x^{\left(i\right)}\right)^2$$
+
+## Replace $$x^{(i)}_j$$ with $$\frac{x^{(i)}_j}{\sigma_j}$$
+
+!!!__Finding principal components__
+
+[[Example and intuition|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=45m45s]]: we want to find the direction so that when we project the data to the line pointing in that direction, the variance of the data is as high as possible.
+,,Note: If $$||u||=1$$, vector $$x^{(i)}$$ projected onto $$u$$ has length $$(x^{(i)})^T u$$.,,
+
+Choose $$u$$ s.t.:
+
+$$\max\limits_{u:||u||=1} \frac{1}{m}\sum\limits_{i=1}^m ((x^{(i)})^Tu)^2$$
+
+$$=\max\limits_{u:||u||=1} \frac{1}{m}\sum\limits_{i=1}^m (u^Tx^{(i)})((x^{(i)})^Tu)$$
+
+$$=\max\limits_{u:||u||=1} u^T \left [\frac{1}{m}\sum\limits_{i=1}^m x^{(i)}(x^{(i)})^T \right] u$$
+
+This implies that ''$$u$$ is the principal eigenvector of the covariance matrix'':
+
+$$\mathbf{\Sigma} = \frac{1}{m}\sum\limits_{i=1}^m x^{(i)}(x^{(i)})^T$$
+
+See [[here|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=52m30s]] for nice derivation.
+
+More generally [[for k-dimensional subspace on which to project the data|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=54m50s]], you choose the $$k$$ [[Eigenvector]]s with the largest [[Eigenvalue]]s.
+
+Can then also transform to the new subspace [[by projecting into the new basis|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=58m]] to get a ''lower-dimensional representation of the data''.
+
+[[Another view of PCA|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=1h2m45s]], there are several more views of PCA.
+
+!!__Implementation of PCA__
+
+[[Problem with covariant matrix|https://www.youtube.com/watch?v=QGd06MTRMHs&list=PLA89DCFA6ADACE599&index=15#t=18m]]
+
+Using the [[Design matrix]], $$X$$, we can rewrite the covariance matrix as $$\Sigma = X^T X$$
+
+We can use [[Singular value decomposition]], $$X= U D V^T$$ and [[then|https://www.youtube.com/watch?v=QGd06MTRMHs&list=PLA89DCFA6ADACE599&index=15#t=27m11s]], the top $$k$$ columns of $$V$$ are the top $$k$$ eigenvectors of $$X^T X = \Sigma$$. If the number of samples is much smaller than their dimensionality, then $$X$$ is a fat matrix ($$m \times d$$)  with much fewer entries than $$\Sigma$$ ($$d \times d$$), and is thus more efficient to store on memory, and to compute with.
+
+!!__Applications of PCA__
+
+[[Video|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=1h4m20s]]
+
+* [[Data visualization]]
+* [[Data compression]]
+* [[Machine learning]], [[Feature selection]]
+* [[Anomaly detection]]
+* Matching/distance calculations. See [[here|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=1h10m]] --> [[using PCA for comparing data points|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=1h13m20s]] --> From here [[we get eigenfaces!|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=1h14m]]
+
+!!!__[[Latent semantic indexing]]__ 
+
+LSI is essentially [[application of PCA to text data|https://www.youtube.com/watch?v=QGd06MTRMHs&list=PLA89DCFA6ADACE599&index=15#t=5m05s]]
+
+--------------------
+
+[[Independent component analysis|https://en.wikipedia.org/wiki/Principal_component_analysis]]

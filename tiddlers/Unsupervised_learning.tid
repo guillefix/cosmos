@@ -1,11 +1,64 @@
 created: 20160329153405246
 creator: guillefix
-modified: 20160711223550092
-modifier: guillefix
+modified: 20160915213022936
+modifier: cosmos
+tags: [[Machine learning]]
 title: Unsupervised learning
+type: text/vnd.tiddlywiki
 
-See [[Machine learning]]
+//aka descriptive learning, knowledge discovery//
 
-//clustering//
+See [[Machine learning]]. Given a set of data $$D=\{x^{(i)}\}_{i=1}^m $$, finding "interesting patterns in the data.
 
-https://en.wikipedia.org/wiki/Principal_component_analysis
+[[Intro lec by Andrew Ng|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=34s]] -- [[Unsupervised learning|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=1m40s]]
+
+Some of these algorithms are useful for [[Supervised learning]], as a previous step of [[Model selection]], for instance for [[Feature selection]]
+
+[img width=300 [unsupervised_learning.PNG]] See [[this video|https://www.youtube.com/watch?v=QGd06MTRMHs&list=PLA89DCFA6ADACE599&index=15#t=34m]] to see how the models are organized
+
+!!__[[Clustering|Clustering algorithm]]__
+
+!!!__[[K-means algorithm]]__
+
+Community clustering in networks
+
+!!!__[[Mixture model]]__
+
+
+!!__Density estimation__
+
+Given a data set of $$x$$s, build a probabilistic model $$P(x)$$, for the data.
+
+[[Vid|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=18m20s]], can be used for [[Anomaly detection]].
+
+!!!__[[Mixture model]]__
+
+!!!__[[Factor analysis model]]__
+
+
+__Mixture of Gaussians model__
+
+!!__Dimensionality reduction__
+
+!!!__[[Factor analysis model]]__
+
+!!!__[[Principal component analysis]]__
+
+------------------
+
+!!!__[[Independent component analysis]]__
+
+--------------------
+
+Useful [[Optimization]] algorithm:
+
+!!!__[[EM algorithm]]__
+
+
+------------------
+
+[[Self-organizing map|https://en.wikipedia.org/wiki/Self-organizing_map]]
+
+Restricted Boltzmann machine
+
+Autoencoder

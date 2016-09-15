@@ -1,0 +1,18 @@
+created: 20160913225326135
+creator: cosmos
+modified: 20160913225817748
+modifier: cosmos
+title: VC dimension
+type: text/vnd.tiddlywiki
+
+Definition of //shattering//: [[video|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=8m54s]]
+
+[[Definition of VC dimension|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=13m50s]]
+
+the VC dimension (for Vapnik–Chervonenkis dimension) is a measure of the capacity (complexity, expressive power, richness, or flexibility) of a space of functions that can be learned by a statistical classification algorithm. It is defined as the cardinality of the largest set of points that the algorithm can shatter.
+
+In $$n$$-dimensions, the VC dimension of the set of all linear classifiers is $$n+1$$
+
+-------------
+
+https://www.wikiwand.com/en/VC_dimension

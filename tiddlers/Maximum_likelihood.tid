@@ -1,11 +1,11 @@
 created: 20160810172855247
 creator: cosmos
-modified: 20160821081950609
+modified: 20160915143414947
 modifier: cosmos
 title: Maximum likelihood
 type: text/vnd.tiddlywiki
 
-//aka empirical risk minimization//
+//aka maximum likelihood estimation, MLE//
 
 ''Minimize a cost function'', which often is the negative log [[likelihood|Likelihood function]] (similar to entropy. More precisely, cross-entropy, or relative entropy), which corresponds to ''maximizing likelihood''. Likelihood is the probability of getting the right $$y$$ given $$x$$ and $$\theta$$, i.e. the probability that a given model predicts the right outputs. This is equivalent to finding the most likely $$\theta$$ in the Bayesian posterior, given a flat prior (but if we add a ''regularizer'', we can tweak the prior, by just adding a term to the log likelihood). If our model uses a Gaussian distribution to predict the data (where the $$\theta$$s are the means), maximizing likelihood is equivalent to minimizing spring energy for springs vertically placed between fit curve and data.
 
@@ -16,3 +16,5 @@ If we want the whole distribution of likelihoods over $$\theta$$s, we need to us
 See [[video|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=43m20s]]
 
 Too see the application of this method in [[Supervised learning]] see [[Discriminative learning]], and [[Generative learning]]
+
+https://www.wikiwand.com/en/Maximum_likelihood_estimation

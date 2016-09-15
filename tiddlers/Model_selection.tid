@@ -1,0 +1,23 @@
+created: 20160914085745536
+creator: cosmos
+modified: 20160914090214418
+modifier: cosmos
+title: Model selection
+type: text/vnd.tiddlywiki
+
+[[Introduction|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=36m40s]], see overfitting and underfitting below. Model selection algorithms provide methods to automatically choose optimal bias/variance tradeoffs. [[Explanation|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=40m10s]]
+
+!!__[[Cross-validation]]__
+
+
+
+!!__[[Feature selection]]__
+
+
+----------
+
+,,//Old comment//: One can show (maybe technical details I don't know..) that given the real distribution of the data, and a sample used for training, one is likely to underestimate the error. So I think cross-validation can be shown rigorously to be good for assessing a model's predictive power (i.e. probability of predicting rightly). See Elements of Statistical Learning book for all details..,,
+
+It is a way to find out if you are overfitting
+
+Related: https://en.wikipedia.org/wiki/Testing_hypotheses_suggested_by_the_data

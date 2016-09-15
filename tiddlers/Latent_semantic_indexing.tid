@@ -1,0 +1,13 @@
+created: 20160915201241435
+creator: cosmos
+modified: 20160915202234384
+modifier: cosmos
+tags: [[Principal component analysis]] [[Natural language processing]]
+title: Latent semantic indexing
+type: text/vnd.tiddlywiki
+
+[[Essentially application of PCA to text data|https://www.youtube.com/watch?v=QGd06MTRMHs&list=PLA89DCFA6ADACE599&index=15#t=5m05s]], where we usually skip the pre-processing step.
+
+We use it for measuring document similarity. Use angle between vectors representing documents.
+
+[[Intuition on applying PCA to text|https://www.youtube.com/watch?v=QGd06MTRMHs&list=PLA89DCFA6ADACE599&index=15#t=15m10s]]

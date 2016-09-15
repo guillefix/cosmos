@@ -1,6 +1,6 @@
 created: 20160726014344230
 creator: guillefix
-modified: 20160823230139282
+modified: 20160913151747987
 modifier: cosmos
 tags: Complexity [[Probability theory]]
 title: Randomness
@@ -15,3 +15,5 @@ type: text/vnd.tiddlywiki
 [[Randomness deficit]]
 
 [[Complexity]]. [[Kolmogorov complexity]] gives a notion of randomness (a string being random if its Kolmogorov complexity is about as large as its length). Martin-Lof (Mar 66) developed a definition of randomness somewhat different from Kolmogorov's, using "randomness tests". [[Paper|https://www.google.es/url?sa=t&source=web&rct=j&url=http://www.sciencedirect.com/science/article/pii/S0019995866800189&ved=0ahUKEwif37CD0tjOAhWEORoKHaw_CnEQFggnMAI&usg=AFQjCNFHyvOupsVY-lioMpsgJpOoZKOL-A]]
+
+Almost all images are indistinguishable from random noise, and almost all data sets and functions are in-distinguishable from completely random ones. This fol-lows from Borel's theorem on normal numbers ([[Les probabilités dénombrables et leurs applications arithmétiques|http://link.springer.com/article/10.1007%2FBF03019651?LI=true]]), which states that almost all real numbers have a string of decimals that would pass any randomness test,i.e., are indistinguishable from random noise.

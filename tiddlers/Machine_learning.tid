@@ -1,6 +1,6 @@
 created: 20160226112409331
 creator: guillefix
-modified: 20160831144053261
+modified: 20160914163813048
 modifier: cosmos
 tags: [[Artificial intelligence]] Learning [[Data science]]
 title: Machine learning
@@ -12,14 +12,8 @@ See [[Artificial intelligence]], [[Deep learning]]
 
 --[[Book recommendations|https://www.quora.com/Machine-Learning/How-do-I-learn-machine-learning-1]]
 
-[[Building Machine Learning Systems with Python|https://www.packtpub.com/big-data-and-business-intelligence/building-machine-learning-systems-python]]
--- [[Machine learning in Matlab|http://uk.mathworks.com/videos/machine-learning-with-matlab-87051.html?s_eid=PSM_12825]]
- --[[Lecture list of Andrew's course:|https://www.quora.com/What-are-the-differences-between-the-Andrew-Ngs-Machine-Learning-courses-offered-on-Coursera-and-iTunes-U]]
--- [[lecture notes|http://cs229.stanford.edu/materials.html]]
--- [[Andrew Ng machine learning course|https://www.coursera.org/learn/machine-learning]] https://www.youtube.com/watch?v=UzxYlbK2c7E . On [[lecture 2|https://www.youtube.com/watch?v=5u4G23_OohI]]
- -- [[Machine Learning - mathematicalmonk|https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA]]
- -- [[Machine Learning: A Probabilistic Perspective|http://www.amazon.co.uk/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020]] [ext[and here|https://www.cs.ubc.ca/~murphyk/MLbook/]]
- -- [[Machine Learning: Discriminative and Generative (The Springer International Series in Engineering and Computer Science)|http://www.amazon.co.uk/Machine-Learning-Discriminative-International-Engineering/dp/1402076479]] https://en.wikipedia.org/wiki/Generative_model
+[[Building Machine Learning Systems with Python|https://www.packtpub.com/big-data-and-business-intelligence/building-machine-learning-systems-python]] -- [[Machine learning in Matlab|http://uk.mathworks.com/videos/machine-learning-with-matlab-87051.html?s_eid=PSM_12825]] --[[Lecture list of Andrew's course:|https://www.quora.com/What-are-the-differences-between-the-Andrew-Ngs-Machine-Learning-courses-offered-on-Coursera-and-iTunes-U]] -- [[lecture notes|http://cs229.stanford.edu/materials.html]] -- [[Andrew Ng machine learning course|https://www.coursera.org/learn/machine-learning]] https://www.youtube.com/watch?v=UzxYlbK2c7E . On [[lecture 2|https://www.youtube.com/watch?v=5u4G23_OohI]] -- [[Machine Learning - mathematicalmonk|https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA]] -- [[Machine Learning: A Probabilistic Perspective|http://www.amazon.co.uk/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020]] [ext[and here|https://www.cs.ubc.ca/~murphyk/MLbook/]] -- [[Machine Learning: Discriminative and Generative (The Springer International Series in Engineering and Computer Science)|http://www.amazon.co.uk/Machine-Learning-Discriminative-International-Engineering/dp/1402076479]] https://en.wikipedia.org/wiki/Generative_model
+
 
 !!__[[Supervised learning]]__
 
@@ -47,16 +41,6 @@ Actually, I think unsupervised learning is the most general. After all, supervis
 <<<
 
 [[Intro by Andrew Ng|https://www.youtube.com/watch?v=UzxYlbK2c7E#t=50m40s]]
-
-[[Self-organizing map|https://en.wikipedia.org/wiki/Self-organizing_map]]
-
-Cocktail party problem. Independent component analysis
-
-K-means
-
-//Clustering//
-
-Community clustering in networks
 
 !!__Variations on supervised and unsupervised learning__
 
@@ -101,16 +85,6 @@ Used often in robotics.
 __[[Graphical models|https://en.wikipedia.org/wiki/Graphical_model]]__
 
 Good framework: [[Stan|http://mc-stan.org/]]
-
-------
-
-[img[https://lh3.googleusercontent.com/1vNipHvUofw7v2XurbRcoKWdrha4XwW2Wg6iv_CjnPJ7yaJeLuOGPHEXP5r0bHiXDa5jXmi3gXWzRs-rnOmoWT2qdrpDlhqoPaINOW1e8wCnkcMmsfjL5I7MAnuysZNkA0ZS-AduSU6My_vj8QjrLwgU7PtqeOxEmOHYOzJMm1COtI55peywxXwYc4Ot0XMg3WSk4ctE620Fg-kQuA8Zw86ejVU0wPx4C6f-yYJYDol4KmH_zV43EJREoK0ZJaU0v4j54Luq0_enrS9FA4oPcWX5v4h6hTCXJq3aubFRI-HBAP0Az3Js3cA9ZxPQV0U-1MZBCEdfI-0b87bEVSEAvZ7vsWTfyadsG43bfwc8ZGr4XRhXWYVlGj48WxrpQyTPFhPQMXNoiRURzx5bm4ZHukhomdEE98JJ4c5XqhybUHdIk6qJbUS7BXjcYaBlm3z8bGiBlPtDSdt61a59mbotPi7DS3N-LdHrHUd3PXtG59t_5fHfKi3WpqNS_dJOefgRukPJ0OAK4fE579XHNw_8l0Fi2mAqsP7Y8WNm1lg8yXQI2c6hrlGzWt2jO_4it_Zef_2r=w1269-h675-no]]
-
-[[Deep Learning Lecture 5: Regularization, model complexity and data complexity (part 2)|https://www.youtube.com/watch?v=qz9bKfOqd0Y&index=5&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=25m43s]]
-
-So the simplest model that works seems to work best most of the time. Seems like an example of Occam's razor, and thus related to Solomonoff's ideas on inference (see [[Algorithmic information theory]]). Epicurus principle also related to Bayesian inference, because we give a distribution over models, but we keep all of them.
-
-Hmm, also your error can't be smaller than the fundamental noise in the data. Well it can, but your model will at best be wasteful then.
 
 --------
 

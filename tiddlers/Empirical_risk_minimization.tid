@@ -1,0 +1,15 @@
+created: 20160911092848691
+creator: cosmos
+modified: 20160913224118316
+modifier: cosmos
+tags: [[Learning theory]]
+title: Empirical risk minimization
+type: text/vnd.tiddlywiki
+
+Risk minimization (see [[Learning theory]]), requires knowing the joint probability distribution $$P(x,y)$$, so one often uses the sample mean of the risk as an estimator for the expected value of the risk. Minimizing this empirical quantity is called empirical risk minimization (ERM).
+
+Depending on the form of the risk function, this optimization problem may be [[convex|Convex optimization]] or non-convex. If one uses a 0-1 loss function, the problem is non-convex, and finding its solution is [[NP-hard]]. A smoothed loss function may convert it into convex problem, solvable by [[Gradient descent]].
+
+[[Setting up formally a linear classifier, to explore the problems of learning theory, and using empirical risk minimization as learning principle|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=7m35s]]
+
+[[Intro to ERM|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=10m30s]] -- [[def|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=12m20s]]

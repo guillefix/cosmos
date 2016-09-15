@@ -1,0 +1,10 @@
+created: 20160913120811153
+creator: cosmos
+modified: 20160913121602110
+modifier: cosmos
+title: Number of ways to put n objects in k bins, with each having at least one object
+type: text/vnd.tiddlywiki
+
+$$\binom{n-1}{k-1}$$
+
+See [[Stars and bars]]

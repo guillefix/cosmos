@@ -1,34 +1,44 @@
 created: 20160709020447725
 creator: guillefix
-modified: 20160830114800702
+modified: 20160910191407799
 modifier: cosmos
 tags: [[Supervised learning]]
 title: Classification
 type: text/vnd.tiddlywiki
 
-Discriminative [[Supervised learning]], where the output value is discrete, or categorical, or qualitative. No implicit ordering, or closeness on the variables. See [[video|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=50m]].
+//aka pattern recognition//
+
+[[Supervised learning]], where the output value is discrete, or categorical, or qualitative. No implicit ordering, or closeness on the variables. See [[video|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=50m]].
 
 Many of the same methods as in [[regression|Regression analysis]]. In fact, classification is often approached by modelling a posterior probability $$p(y|x)$$, and predicting the most probably $$y$$. Because this is a continuous function of $$x$$, learning it can be done by using [[Regression analysis]]
 
-[[Support vector machine]]s. Software for SVMs: http://svmlight.joachims.org/
+!!__Supervised classification__
 
-How do you classify data that lies on an infinite dimensional space
+!!!__Binary classification__
 
-!!Supervised classification
+[[Logistic regression]] (Classification with 2 classes). A simpler version: [[Perceptron]].
 
-[[Logistic regression]] (Classification with 2 classes). A simpler version: [[Perceptron]]
+!!!__Multiclass classification__
 
-[[Softmax regression]] (classification with $$k $$ classes).
+Classification with $$k $$ classes.
+
+[[Softmax regression]]
 
 See [[Generalized linear model]] for other more generalized methods.
 
 [[Artificial neural network]] (see also [[Deep learning]])
 
+[[Support vector machine]]s. Software for SVMs: http://svmlight.joachims.org/
+
+!!!__Multi-label classification__
+
+If the class labels are not mutually exclusive. This can be modelled by using multiple related binary class labels, each marking whether the input belongs to a particular class. This is a //multiple output model//.
+
 ----------------
 
 !!!__Ordered categorical classification__
 
-Output has a notion of order, but not closeness, so it's qualitative.
+Output has a notion of order, but not closeness, so it's qualitative, aka ordinal learning.
 
 ---------------------
 

@@ -1,7 +1,7 @@
 created: 20160121121935070
 creator: guillefix
 list-after: Discrete mathematics
-modified: 20160824105117535
+modified: 20160911100239961
 modifier: cosmos
 tags: Mathematics Statistics [[Measure theory]]
 title: Probability theory
@@ -45,6 +45,4 @@ Probabilistic method (see book)
 
 -------------
 
-__Carnap's theory of a priori probabilities__
-
-[img[http://i.imgur.com/I8ATF25.png]]
+[[Baye's theorem]], [[Bayesian statistics]]

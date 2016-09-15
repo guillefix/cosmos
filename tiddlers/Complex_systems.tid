@@ -1,10 +1,11 @@
 created: 20160126181154374
 creator: guillefix
 list-after: MMathPhys
-modified: 20160726015833551
-modifier: guillefix
+modified: 20160913191147463
+modifier: cosmos
 tags: MMathPhys Complexity
 title: Complex systems
+type: text/vnd.tiddlywiki
 
 A complex system is a high-dimensional systems where the variables are strongly interdependent.
 
@@ -25,7 +26,7 @@ Models and examples: [[Boolean network]], [[Automata|Automata theory]], [[Cellul
 
 Maybe try to categorize these a bit.
 
-|Interesting idea about emergence and complex systems: [[Sloppy systems]]|
+|Interesting idea about emergence and complex systems: [[Sloppy model]]|
 
 [[Complex Networks and Energy Landscapes|http://doye.chem.ox.ac.uk/projects/networks.html]] See [[Network theory]].
 

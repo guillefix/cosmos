@@ -1,0 +1,22 @@
+created: 20160915213129690
+creator: cosmos
+modified: 20160915213158133
+modifier: cosmos
+title: Markov decision process
+type: text/vnd.tiddlywiki
+
+A Markov decision process is a 5-[[tuple]] $$(S,A,P_\cdot(\cdot,\cdot),R_\cdot(\cdot,\cdot),\gamma)$$, where
+
+* $$S$$ is a finite __set of states__,
+* $$A$$ is a finite __set of actions__ (alternatively, $$A_s$$ is the finite set of actions available from state $$s$$),
+* $$P_a(s,s') = \Pr(s_{t+1}=s' \mid s_t = s, a_t=a)$$ is the probability that action $$a$$ in state $$s$$ at time $$t$$ will lead to state $$s'$$ at time $$t+1$$. I.e. __what happens when you take an action__
+*$$R_a(s,s')$$ is the immediate reward (or expected immediate reward) received after transition to state $$s'$$ from state $$s$$. __What reward you get when something happen__
+*$$\gamma \in [0,1]$$ is the discount factor, which represents the difference in importance between future rewards and present rewards.
+
+(Note: The theory of Markov decision processes does not state that $$S$$ or $$A$$ are finite, but the basic algorithms below assume that they are finite.)
+
+[img widht=400 [https://upload.wikimedia.org/wikipedia/commons/2/21/Markov_Decision_Process_example.png]]
+
+-------------
+
+https://en.wikipedia.org/wiki/Markov_decision_process

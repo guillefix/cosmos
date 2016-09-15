@@ -1,0 +1,34 @@
+created: 20160709021850299
+creator: guillefix
+modified: 20160909080157338
+modifier: cosmos
+title: Transfer learning
+type: text/vnd.tiddlywiki
+
+//aka ''multi-instance learning'', ''multi-task learning''//
+
+See [[Deep learning]]
+
+!!![[Max-margin learning, transfer and memory networks|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=2m08s]].
+
+good for generalizing models, . Good when don't have much supervision data.
+
+''[[Max-margin|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=29m25s]]'': learning a function that identifies sensible data (e.g. sentences that make sense), thats what we do with the algorithm he explains of finding a prob dist bigger at the data points that "anywhere" else. This will, in particular, make the NN learn a good representation of the data, or //embedding//. For this we use ''hinge loss''. In practice, [[we do this|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=37m30s]]
+
+Learn embeddings in one task and transfer these to solve new tasks
+
+[[Example|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=15m50s]]. He exaplains how deep multi-instance learning works. Nice
+
+[[Matching|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=22m30s]]
+
+[[Corruption|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=25m10s]]
+
+Example: [[Bi-lingual word embeddings|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=41m07s]]
+
+When you can't corrupt the data: [[Siamese networks|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=42m50s]] [[Paper|http://yann.lecun.com/exdb/publis/pdf/chopra-05.pdf]]
+
+Example: [[Question answering system|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=45m09s]]. Followed by //relation learning// (learning triplets like "cat eats mouse")
+
+memory networks (see below) may be useful for transfer learning too..
+
+One-shot learning using conv nets, as we've already have good embeddings, just compare objects in embeddings. [[See beginning of this|https://www.youtube.com/watch?v=56TYLaQN4N8&index=12&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw]]

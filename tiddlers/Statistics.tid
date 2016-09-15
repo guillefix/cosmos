@@ -1,9 +1,10 @@
 created: 20160204135706346
 creator: guillefix
-modified: 20160726113128577
-modifier: guillefix
+modified: 20160913195908566
+modifier: cosmos
 tags: [[Data & Knowledge]]
 title: Statistics
+type: text/vnd.tiddlywiki
 
 [[Wiki article|https://en.wikipedia.org/wiki/Statistics]]
 
@@ -25,25 +26,26 @@ t-test
 
 !!!__Statistical learning__
 
-See [[Machine learning]]
+See [[Machine learning]], [[Learning theory]]
 
 !!!__[[Sampling]]__
 
 [[Compressed sampling|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/CompressiveSampling-Review.pdf]]
 
-__Mathematical statistics__
+!!!__Mathematical statistics__
 
+[[On the Mathematical Foundations of Theoretical Statistics|http://l.academicdirect.org/Horticulture/GAs/Refs/Fisher_1922_Estimation.pdf]]
+
+[[Sufficient statistic]], 
 [[Likelihood function]]
 
 [[Mathematical Statistics Videos|http://stats.stackexchange.com/questions/485/mathematical-statistics-videos]] [[some YB videos|https://www.youtube.com/channel/UCL20lsbPlem4iMX3ySHtt3w]]
 
 [[Bayesian statistics]]
 
-[[R language|https://cloud.r-project.org/]]
+-------------------
 
 [[An Introduction to the Bootstrap|http://www.hms.harvard.edu/bss/neuro/bornlab/nb204/statistics/bootstrap.pdf]]
-
-[[Machine learning]]
 
 [[Train, validation, test|http://stats.stackexchange.com/questions/19048/what-is-the-difference-between-test-set-and-validation-set]]
 

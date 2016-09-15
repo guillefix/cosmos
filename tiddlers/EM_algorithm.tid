@@ -1,0 +1,64 @@
+created: 20160914161647035
+creator: cosmos
+modified: 20160915191650129
+modifier: cosmos
+title: EM algorithm
+type: text/vnd.tiddlywiki
+
+The [[expectation–maximization algorithm|https://www.wikiwand.com/en/Expectation%E2%80%93maximization_algorithm]] is an iterative method for finding [[Maximum likelihood]] or [[Maximum a posteriori]] (MAP) estimates of parameters in statistical models, where the model depends on unobserved latent variables.
+
+[[Bootstrap idea|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=29m45s]] -- [[General EM algorithm|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=42m40s]]
+
+,,[[EM vs graident descent|http://stats.stackexchange.com/questions/45652/what-is-the-difference-between-em-and-gradient-ascent]],, -- 
+[[Why should one use EM vs. say, Gradient Descent with MLE?|http://stats.stackexchange.com/questions/158859/why-should-one-use-em-vs-say-gradient-descent-with-mle]] -- ,,[[see discussion here also|https://www.reddit.com/r/MachineLearning/comments/34lyl2/em_vs_gradient_descent/]],, -- [[see video|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=5m55s]]
+
+!!!__Derivation__
+
+[[Deriving the general version of EM algorithm|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=51m48s]]
+
+Have some predetermined model for $$P(x,z ; \theta)$$, for instance a [[Gaussian mixture model]], but observe only $$x$$. For [[Mixture model]]s, the $$z$$ are often //labels//. Want to maximize the log-[[likelihood|Likelihood function]] (see [[Maximum likelihood]]):
+
+$$l(\theta )=\sum _{i=1}^m\log P\left(x^{\left(i\right)};\theta \right) =\sum _{i=1}^m\log {\sum _{z^{\left(i\right)}}P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)}$$ 
+$$=\sum _{i=1}^m\log \sum _{z^{\left(i\right)}}^{ }Q_i\left(z^{\left(i\right)}\right)\frac{P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)}{Q_i\left(z^{\left(i\right)}\right)}$$
+
+[$$Q_i (z^{(i)}) \geq 0 \sum_{z^{(i)}} Q_i(z^{(i)})=1$$, is some [[Probability distribution]] for $$z$$]
+
+$$=\sum _{i=1}^m\log{ \mathbb{E}_{z^{(i)} \sim Q)i} \left[\frac{P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)}{Q_i\left(z^{\left(i\right)}\right)}\right]}$$
+
+We known that $$\log{\mathbb{E}[x]} \geq \mathbb{E}[\log{x}]$$, by the concave version of [[Jensen's inequality]], as log is a concave function, so:
+
+|$$l(\theta ) \geq \sum _{i=1}^m \mathbb{E}_{z^{(i)} \sim Q_i} \left[\log{\frac{P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)}{Q_i\left(z^{\left(i\right)}\right)}}\right]$$ $$= \sum _{i=1}^m\sum _{z^{\left(i\right)}}^{ }Q_i\left(z^{\left(i\right)}\right)\log{\frac{P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)}{Q_i\left(z^{\left(i\right)}\right)}}$$|1|
+
+__[[Intuitive picture|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=55m]] of the algorithm__: the EM algorithm, at each iteration, constructs a lower bound function for $$l(\theta)$$, which is tight at the current value of $$\theta$$ (i.e. at that value the inequality is an equality). The algorithm then maximizes this lower bound function to update $$theta$$. The equality at current $$\theta$$ guarantees that each step actually gives a larger value of the actual $$l(\theta)$$. To ensure this, we <span style="color: #cef; font-weight: bold;">choose the probability distribution $$Q_i (z^{(i)})$$ appropriately</span>. Note that the lower bound [[need not be a concave function of theta|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=1h07m]], which may cause problems? I don't think so, as we are constructively showing that the construction shown in the video can be done.
+
+The inequality becomes an equality if the random variable inside the expectation is a constant (see [[Jensen's inequality]]), so we want to choose $$Q_i$$ s.t.
+
+$$\frac{P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)}{Q_i\left(z^{\left(i\right)}\right)} = const.$$ w.r.t. $$z^{(i)}$$ <b>at the current value of $$\theta$$.</b> [[This is an important point|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=35m10s]], otherwise we would have equality at all $$\theta$$, and we would be just maximizing $$l(\theta)$$ itself directly, so the EM algorithm wouldn't make sense..
+
+$$\therefore Q_i\left(z^{\left(i\right)}\right) \propto P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)$$
+
+From normalization, $$\sum_{z^{(i)}} Q_i(z^{(i)})=1$$, we can determine the constant:
+
+|$$Q_i\left(z^{\left(i\right)}\right) = \frac{P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)}{\sum_{z^{(i)}} P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)} = \frac{P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)}{P(x^{(i)}; \theta)} = P(z^{(i)}|x^{(i)}; \theta)$$|2|
+
+-------------------------
+
+!!!__EM algorithm__
+
+# Repeat until convergence 
+
+## ''E-step''. Guess values of $$z^{(i)}$$s. In particular, compute the probability distribution of $$Q_i(z^{(i)}=j) = P(z^{(i)} = j | x^{(i)}; \theta) $$, from [2]. This can also be seen as an a-posteriori probability distribution. <b>Note:</b> The value of $$\theta$$ here is the current value of $$\theta$$; it is fixed in the maximization in the next step (despite the unfortunate notation). See [[here|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=35m10s]].
+
+## ''M-step''. Update parameters $$\theta$$ as $$\theta = \arg\max\limits_\theta  \sum _{i=1}^m\sum _{z^{\left(i\right)}}^{ }Q_i\left(z^{\left(i\right)}\right)\log{\frac{P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)}{Q_i\left(z^{\left(i\right)}\right)}}$$
+
+[img[https://upload.wikimedia.org/wikipedia/commons/6/69/EM_Clustering_of_Old_Faithful_data.gif]]
+
+[[Another way of seeing the EM algorithm|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=7m50s]] as coordinate descen!
+
+----------------------
+
+__My own derivation of the likelihood__ using [[Baye's theorem]]
+
+instead of just maximizing $$P(\theta | z, x)$$, as we don't know $$z$$ with certainty, we need to maximize $$P(\theta|x) = \sum_z P(\theta , z| x)$$ $$= \sum_z \frac{P(x|\theta, z) P(\theta, z)}{\sum_{\theta, z} P(x,z|\theta) P(\theta)} \propto \sum_z P(x|\theta, z) P(\theta, z) $$ $$=\sum_z P(x,z;\theta)$$, where $$z$$ represents the set of $$z^{(i)}$$ and the sum is over all possible configurations. $$P(z)$$ is known from the E-step.
+
+See [[here|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=12m30s]] too.

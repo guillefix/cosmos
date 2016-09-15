@@ -1,13 +1,19 @@
 created: 20160901095321695
-modified: 20160901125637998
+creator: cosmos
+modified: 20160907130433338
+modifier: cosmos
 tags: 
 title: testmol
 type: text/vnd.tiddlywiki
 
 <div id="testmol" style="height: 400px; width: 400px; position: relative;" data-backgroundcolor="0xffffff" data-style="stick"></div>
 
-<<3Dmol "2POR" "testmol">>
+<<3Dmol "pdb" "2POR" "testmol">>
 
 <div id="testmol2" style="height: 400px; width: 400px; position: relative;" data-backgroundcolor="0xffffff" data-style="stick"></div>
 
-<<3Dmol "2POR" "testmol2" "cartoon">>
+<<3Dmol "pdb" "2POR" "testmol2" "cartoon">>
+
+<div id="testmol3" style="height: 400px; width: 400px; position: relative;" data-backgroundcolor="0xffffff" data-style="stick"></div>
+
+<<3Dmol "cid" "24749" "testmol3" "stick">>

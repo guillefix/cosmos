@@ -1,8 +1,9 @@
 created: 20160322023836531
 creator: guillefix
-modified: 20160628023106915
-modifier: guillefix
+modified: 20160913195133957
+modifier: cosmos
 title: Markov process
+type: text/vnd.tiddlywiki
 
 See [[Stochastic processes]]
 
@@ -14,4 +15,6 @@ __[[Markov chain]]__
 
 Visualization: http://setosa.io/ev/markov-chains/
 
-[[Markov processes and reversibility|http://www.statslab.cam.ac.uk/~frank/BOOKS/book/ch1.pdf]]
+[ext[Markov processes and reversibility|http://www.statslab.cam.ac.uk/~frank/BOOKS/book/ch1.pdf]]
+
+[[Markov random field]]

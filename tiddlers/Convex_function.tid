@@ -1,5 +1,7 @@
 created: 20160807224959210
-modified: 20160808160552729
+creator: cosmos
+modified: 20160914162901632
+modifier: cosmos
 tags: [[Convex analysis]]
 title: Convex function
 type: text/vnd.tiddlywiki
@@ -9,6 +11,8 @@ A [[Function]] is ''convex'' if they satisfy the inequality
 $$f(\alpha x + \beta y) \leq \alpha f(x) + \beta f(y)$$
 
 for all $$x, y \in \mathbf{R}^n$$ and all $$\alpha, \beta \in \mathbf{R}$$ with $$\alpha+\beta=1, \alpha \geq 0, \beta \geq 0$$
+
+If the function is twice [[Differentiable]], then it is convex iff $$f'' \geq 0$$.
 
 [img[https://upload.wikimedia.org/wikipedia/commons/c/c7/ConvexFunction.svg]]
 

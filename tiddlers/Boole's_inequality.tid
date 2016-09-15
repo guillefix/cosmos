@@ -1,0 +1,18 @@
+created: 20160911100102005
+creator: cosmos
+modified: 20160911100551932
+modifier: cosmos
+title: Boole's inequality
+type: text/vnd.tiddlywiki
+
+//aka union bound, sigma sub-additivity of [[Measure]]s //
+
+It is either a theorem, or an axiom, depending on the formulation of [[Probability theory]]
+
+[[Video|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=19m53s]]
+
+Let $$A_1, A_2, ..., A_k$$ be events (not necessarily independent); then, 
+
+$$P(A_1 \cup A_2 \cup ... \cup A_k \leq P(A_1) + P(A_2) + ... + P(A_k)$$
+
+https://www.wikiwand.com/en/Boole's_inequality

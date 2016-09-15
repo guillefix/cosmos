@@ -1,0 +1,32 @@
+created: 20160915204804579
+creator: cosmos
+modified: 20160915213009217
+modifier: cosmos
+tags: [[Unsupervised learning]]
+title: Independent component analysis
+type: text/vnd.tiddlywiki
+
+//aka ICA//
+
+Similar to [[Principal component analysis]], but to find the independent components of variation of the data. An example is the "cocktail party problem", where there are several speakers speaking simultaneously, and we want to decompose the signal from some microphones, into the speech of each individual speaker.
+
+[[Intro video|https://www.youtube.com/watch?v=QGd06MTRMHs&list=PLA89DCFA6ADACE599&index=15#t=39m50s]], applications to "cocktail party problem"
+
+[[Cumulative distribution function]]
+
+!!__Derivation__
+
+[[video|https://www.youtube.com/watch?v=QGd06MTRMHs&list=PLA89DCFA6ADACE599&index=15#t=47m40s]]
+
+[[Example|https://www.youtube.com/watch?v=QGd06MTRMHs&list=PLA89DCFA6ADACE599&index=15#t=53m18s]] the axes after transforming are the observed $$x$$ for each of the microphones. The axes before transforming correspond to each of the speakers! If the data are Gaussian, however, [[ICA is impossible|https://www.youtube.com/watch?v=QGd06MTRMHs&list=PLA89DCFA6ADACE599&index=15#t=58m40s]]
+
+!!__Algorithm__
+
+[[video|https://www.youtube.com/watch?v=QGd06MTRMHs&list=PLA89DCFA6ADACE599&index=15#t=1h04m27s]] --> [[algo|https://www.youtube.com/watch?v=QGd06MTRMHs&list=PLA89DCFA6ADACE599&index=15#t=1h10m05s]]
+
+!!__Applications of ICA__
+
+[[video|https://www.youtube.com/watch?v=QGd06MTRMHs&list=PLA89DCFA6ADACE599&index=15#t=1h12m35s]]
+
+* [[EEG|Electroencephalogram]]
+* [[Computer vision]]

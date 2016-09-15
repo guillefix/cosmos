@@ -1,9 +1,10 @@
 created: 20160128012417806
 creator: guillefix
-modified: 20160518154248616
-modifier: guillefix
+modified: 20160913194705886
+modifier: cosmos
 tags: [[Quantum mechanics]] [[Condensed matter physics]]
 title: Quantum condensed matter physics
+type: text/vnd.tiddlywiki
 
 [[Oxford, Fabian Essler C6 physics notes|http://www-thphys.physics.ox.ac.uk/people/FabianEssler/C6web2012/lecturenotes2015.pdf]]
 
@@ -35,3 +36,7 @@ __Spin waves in ferromagnets__
 !!!Superconductors, superfluids
 
 !!Trapped ultra-cold gases
+
+----------------------
+
+[img[http://www.lassp.cornell.edu/sethna/Sloppy/SloppyFigs/Hierarchies/cond-matCropped.jpg]]

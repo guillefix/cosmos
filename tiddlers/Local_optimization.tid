@@ -1,6 +1,6 @@
 created: 20160810174318827
 creator: cosmos
-modified: 20160831174223563
+modified: 20160915191942820
 modifier: cosmos
 tags: Optimization
 title: Local optimization
@@ -11,3 +11,5 @@ Find local optima, as a method to approximately solve hard nonlinear optimizatio
 * ''[[Gradient descent]]'', and variants
 
 * [[Coordinate descent]]
+
+* [[EM algorithm]]

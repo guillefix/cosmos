@@ -1,6 +1,6 @@
 created: 20160217190302124
 creator: guillefix
-modified: 20160830141656992
+modified: 20160907161007537
 modifier: cosmos
 title: Functional programming
 type: text/vnd.tiddlywiki
@@ -34,6 +34,8 @@ type: text/vnd.tiddlywiki
 * Monoids.
 
 ---------
+
+Nice game to explain map, reduce, filter: http://david-peter.de/cube-composer/
 
 //Functional programming languages//
 

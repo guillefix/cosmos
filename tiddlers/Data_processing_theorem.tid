@@ -1,7 +1,20 @@
 created: 20160705104457224
 creator: guillefix
-modified: 20160705104502184
-modifier: guillefix
+modified: 20160913161009604
+modifier: cosmos
 title: Data processing theorem
+type: text/vnd.tiddlywiki
 
-[[Tada processing theorem|https://www.youtube.com/watch?v=tIt4pJAbCDQ&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft&index=13#t=9m30s]]
+//aka data processing inequality//
+
+[[Data processing theorem|https://www.youtube.com/watch?v=tIt4pJAbCDQ&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft&index=13#t=9m30s]]
+
+An important special case:
+
+For any function, $$f$$, and [[Random variable]]s $$x$$, $$y$$,
+
+|$$I(x,y) \geq I(x, f(y))$$|
+
+where $$I$$ is the [[Mutual information]]
+
+A function $$f$$ for which the above inequality becomes an equality is a [[Sufficient statistic]]

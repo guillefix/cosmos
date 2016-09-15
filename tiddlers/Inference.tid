@@ -1,0 +1,13 @@
+created: 20160911094210800
+creator: cosmos
+modified: 20160911094501556
+modifier: cosmos
+tags: Epistemology Learning
+title: Inference
+type: text/vnd.tiddlywiki
+
+//How to know something previously unknown, by using something known.//
+
+[[Inductive inference|Induction]], when we make a //prediction// that //generalizes// observed data, but doesn't logically follow from it. See [[Statistical inference]], [[Learning theory]]
+
+[[Deductive inference|Deduction]], when we find a statement that [[logically|Logic]] follows from observed data.

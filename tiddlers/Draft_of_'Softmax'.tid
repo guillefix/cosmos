@@ -1,0 +1,14 @@
+created: 20160913113020603
+creator: cosmos
+draft.of: Softmax
+draft.title: Softmax
+modified: 20160913113319944
+modifier: cosmos
+title: Draft of 'Softmax'
+type: text/vnd.tiddlywiki
+
+A [[Layers for deep learning]], that consists on exponentiating all vector elements and normalize them to so sum to unity.
+
+$$\mathbf{\sigma}(\mathbf{y}) \equiv \frac{e^\mathbf{y}}{\sum_i e^{y_i}}$$
+
+where the mathematical operations are element-wise.

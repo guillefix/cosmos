@@ -1,0 +1,49 @@
+created: 20160915150747581
+creator: cosmos
+modified: 20160915191658043
+modifier: cosmos
+tags: 
+title: Factor analysis model
+type: text/vnd.tiddlywiki
+
+[[Intro|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=31m25s]] -- [[Motivation|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=32m54s]].
+
+__High-dimensional data__
+
+Useful for high-dimensional data, where the dimension is similar or much larger than the number of data samples, $$n \gg m$$. In this regime the maximum likelihood estimate of the parameters for a fitted Gaussian [[have problems|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=35m40s]], and similar problems would occur for [[Gaussian mixture model]] ([[Particular example of this|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=36m50s]]). 
+
+To solve this, we could [[constraint the covariance matrix of the Gaussian to be diagonal|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=38m25s]]. You [[could also contrain it to be proportional to identity matrix|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=42m15s]].
+
+The factor analysis model [[is another way to do this that doesn't throw away correlations|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=43m]]
+
+!!__Model__
+
+[[Description of model|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=43m40s]].
+
+Assume a latent variable $$z \sim \mathcal{N}(0, \mathbf{I})$$, $$z \in \mathbb{R}^d$$, $$d < n$$.
+
+Then the data has conditional distribution $$x | z \sim \mathcal{N}(\mu + \mathbf{\Lambda} z, \mathbf{\Psi})$$. Equivalently, $$x = \mu + \mathbf{\Lambda} z + \epsilon$$, where $$\epsilon \sim \mathcal{N}(0, \mathbf{\Psi})$$. We also assume that $$\mathbf{\Psi}$$ is diagonal.
+
+Basically, model the data as lying in some subspace, which is possibly lower-dimensional than that of $$x$$, and having some noise around this subspace.
+
+[[Another example|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=53m40s]]
+
+[[Some notation and some probability results for Gaussians|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=55m40s]] ([[recap|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=1m20s]])
+
+[[Distribution of the random variable (z,x)|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=1h3m]]. Result:
+
+$$\begin{bmatrix}\vec{z} \\ \vec{x}\end{bmatrix} \sim \mathcal{N}\left(\begin{bmatrix}\vec{0} \\ \vec{\mu}\end{bmatrix} , \begin{bmatrix} \mathbf{I} & \mathbf{\Lambda}^T \\ \mathbf{\Lambda} & \mathbf{\Lambda} \mathbf{\Lambda}^T + \mathbf{\Psi}\end{bmatrix} \right)$$
+
+This implies that if we marginalize $$\vec{z}$$, we find
+
+$$\vec{x} \sim \mathcal{N}(\vec{\mu},  \mathbf{\Lambda} \mathbf{\Lambda}^T + \mathbf{\Psi} )$$
+
+!!__Learning the parameters__
+
+[[We could use|https://www.youtube.com/watch?v=LBtuYU-HfUg&index=13&list=PLA89DCFA6ADACE599#t=1h10m20s]] [[MLE|Maximum likelihood]] ([[likelihood|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=9m40s]]), but it turns out that the resulting optimization problem can't be solved in closed form, and it's quite hard. Therefore, [[we actually use|https://www.youtube.com/watch?v=LBtuYU-HfUg&index=13&list=PLA89DCFA6ADACE599#t=1h12m40s]] the [[EM algorithm]]. Note that $$z^{(i)}$$ is now continuous, so sum over its values become integrals.
+
+''E-step''. [[Video|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=16m20s]], using the properties of Gaussians he mentioned [[above|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=1m20s]]
+
+''M-step''. [[Video|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=18m33s]] (using special trick for Gaussian integral). Go [[here|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=21m44s]] really.
+
+[[Result for \Lambda|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=28m28s]]

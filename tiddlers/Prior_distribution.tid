@@ -1,0 +1,13 @@
+created: 20160914102449666
+creator: cosmos
+modified: 20160914102612625
+modifier: cosmos
+title: Prior distribution
+type: text/vnd.tiddlywiki
+
+The probability distribution over hypothesis or variable $$x$$, in [[Bayesian statistics]], before seeing some batch of data.
+
+
+__Carnap's theory of a priori probabilities__
+
+[img[http://i.imgur.com/I8ATF25.png]]

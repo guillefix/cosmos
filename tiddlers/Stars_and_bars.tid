@@ -1,0 +1,21 @@
+created: 20160913115601960
+creator: cosmos
+modified: 20160913121602246
+modifier: cosmos
+tags: Combinatorics
+title: Stars and bars
+type: text/vnd.tiddlywiki
+
+[ext[wiki|https://www.wikiwand.com/en/Stars_and_bars_(combinatorics)]]
+
+__Theorem 1__
+
+For any pair of positive integers n and k, {the number of k-tuples of positive integers whose sum is n} is equal to {the number of (k − 1)-element subsets of a set with n − 1 elements}, which is given by $$\binom{n-1}{k-1}$$
+
+See [[Number of ways to put n objects in k bins, with each having at least one object]]
+
+__Theorem 2__
+
+For any pair of positive integers n and k, the number of k-tuples of non-negative integers whose sum is n is equal to the number of multisets of cardinality k − 1 taken from a set of size n + 1, which is given by the ''multiset number'', $$\left(\binom{n+1}{k-1}\right) = \binom{n+k-1}{k-1}$$.
+
+See [[Number of ways to put n objects in k bins]]

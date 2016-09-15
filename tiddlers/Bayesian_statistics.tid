@@ -1,10 +1,21 @@
 created: 20160522134739337
 creator: guillefix
-modified: 20160522134902479
-modifier: guillefix
+modified: 20160914102643717
+modifier: cosmos
 tags: Statistics
 title: Bayesian statistics
+type: text/vnd.tiddlywiki
 
-''Baye's theorem''..
+# We first choose a [[Prior distribution]] over the set of hypotheses, for instance favouring simple ones (see regularization below).
+
+# We then [[calculate posterior from prior|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=5m]] using [[Baye's theorem]]
+
+# And we can then [[make a new prediction|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=6m07s]] by weighting over all hypothesis to calculate the expected value of the output for a new input.
+
+The last two steps [[are often computationally very difficult|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=8m20s]]. So, [[what's commonly done|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=9m05s]] is maximizing the posterior distribution (MAP principle, above).
+
+-------------------------
 
 https://en.wikipedia.org/wiki/Marginal_likelihood
+
+See also [[Induction]]

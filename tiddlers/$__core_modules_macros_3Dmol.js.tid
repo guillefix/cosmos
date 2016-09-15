@@ -1,5 +1,7 @@
 created: 20160901105912827
-modified: 20160901125557748
+creator: cosmos
+modified: 20160907124427829
+modifier: cosmos
 module-type: macro
 tags: 
 title: $:/core/modules/macros/3Dmol
@@ -24,6 +26,7 @@ Information about this macro
 exports.name = "3Dmol";
 
 exports.params = [
+        {name: "src"},
 	{name: "mol"},
         {name: "id"},
         {name: "style"}
@@ -32,7 +35,7 @@ exports.params = [
 /*
 Run the macro
 */
-exports.run = function(mol, id, style) {
+exports.run = function(src, mol, id, style) {
 
 // Assume there exists an HTML div with id "id"
 var element = $("#"+id);
@@ -53,7 +56,7 @@ myviewer.setBackgroundColor('white');
                        
 // GLModel 'm' created and loaded into glviewer for PDB id 2POR
 // Note that m will not contain the atomic data until after the network request is completed
-var m = $3Dmol.download('pdb:'+mol, myviewer, {}, function() {
+var m = $3Dmol.download(src+':'+mol, myviewer, {}, function() {
 
 switch(style) {
 

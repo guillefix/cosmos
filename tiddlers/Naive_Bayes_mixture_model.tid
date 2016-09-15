@@ -1,0 +1,13 @@
+created: 20160915145752247
+creator: cosmos
+modified: 20160915150700613
+modifier: cosmos
+tags: [[Mixture model]]
+title: Naive Bayes mixture model
+type: text/vnd.tiddlywiki
+
+[[Video|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=20m]] applying it to [[Text clustering]]
+
+Uses a mixture of [[Naive Bayes]] distributions.
+
+[[EM algo for mixture of naive Bayes|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=24m50s]]

@@ -1,0 +1,31 @@
+created: 20160914151711312
+creator: cosmos
+modified: 20160914153539523
+modifier: cosmos
+tags: [[Clustering algorithm]]
+title: K-means algorithm
+type: text/vnd.tiddlywiki
+
+[[Intro vid|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=5m]]
+
+Input is an unlabelled data set $$x_1, x_2, ..., x_m \in \mathbb{R}^n$$
+
+#Initialize a set of points (''centroids''): $$\mu_1, ..., \mu_k \in \mathbb{R}^n$$ randomly
+
+#Repeat until convergence:
+
+## Set $$c_i = \arg\min\limits_j || x_i - \mu_j ||$$. (Assigning the point $$x_i$$ to the cluster with centroid closest to it.)
+
+## $$\mu_j = \frac{\sum\limits_{i=1}^m 1\{c_i=j\}x_i}{\sum\limits_{i=1}^m 1\{c_i=j\}}$$. (Update the cluster centroids to be the mean of the points assigned to it)
+
+[img[http://simplystatistics.org/wp-content/uploads/2014/02/kmeans.gif]]
+
+[[K-means is guaranteed to converge|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=12m07s]]. If we define the //distortion function//:
+
+$$J(c, \mu) = \sum\limits_{i=1}^m || x_i -c_i || ^2$$,
+
+k-means is [[Coordinate descent]] on $$J$$
+
+Choosing the number of clusters is often done manually, but there are also automatic algorithms.
+
+It can fall into local optima, and to check that, one can try different random initializations, and see if any converges to a lower value of $$J$$

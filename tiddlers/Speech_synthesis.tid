@@ -1,6 +1,8 @@
 created: 20160905053634504
-modified: 20160905055000813
-tags: Speech [[Human-computer interaction]]
+creator: cosmos
+modified: 20160909081150480
+modifier: cosmos
+tags: Speech [[Human-computer interaction]] Artifici
 title: Speech synthesis
 type: text/vnd.tiddlywiki
 
@@ -9,6 +11,10 @@ type: text/vnd.tiddlywiki
 The counterpart to [[Speech recognition]]
 
 [[Early video that created about TTS|https://www.youtube.com/watch?v=qyyJKd-zXRE&list=PLA89DCFA6ADACE599&index=6#t=41m23s]] using [[Artificial neural network]]s (NetTalk)
+
+[[WaveNet: A Generative Model for Raw Audio|https://deepmind.com/blog/wavenet-generative-model-raw-audio/]]
+
+"Interestingly, we found that training on many speakers made it better at modelling a single speaker than training on that speaker alone, suggesting a form of [[Transfer learning]]." Reminds me of the idea of //contrasting cases//
 
 --------------
 

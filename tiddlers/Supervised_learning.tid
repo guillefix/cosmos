@@ -1,46 +1,50 @@
 created: 20160327021039036
 creator: guillefix
-modified: 20160830114815948
+modified: 20160914084440313
 modifier: cosmos
 tags: [[Machine learning]]
 title: Supervised learning
 type: text/vnd.tiddlywiki
 
+//aka predictive learning//
+
+The goal is to learn a mapping from inputs $$x$$ to outputs $$y$$, given a labeled set of input-output pairs $$D = \{(x^{(i)}, y^{(i)})\}_{i=1}^N $$. Here $$D $$ is called the ''training set'', and $$N $$ is the number of training examples.
+
 Training data consisting on ''inputs and outputs''.
-<small>Other names for inputs: predictors, independent variables, features. Other names for outputs: responses, dependent variables.</small>
+<small>Other names for inputs: predictors, independent variables, features, attributes, covariates. Other names for outputs: responses, response variables, dependent variables.</small>
 
-In supervised learning, we want to find function relating inputs to outputs, to then be able to predict new outputs from new inputs. Often, we need ''a way to represent the function approximation'', with some parameters (the ''model''), but nonparametric methods also exist (see below). Some example of models:
+In supervised learning, we want to find function relating inputs to outputs, to then be able to predict new outputs from new inputs. Often, we need ''a way to represent the function approximation'', with some parameters (the ''model''; with some subtleties for [[non-parametric|Nonparametric statistics]] ones) and a ''learning algorithm'' to find best parameters for the data, so that the model can predict well. See [[Learning theory]], to learn about the way learning algorithms work, overfitting, underfitting, ''model selection'', etc.. New paradigm: [[Deep learning]]
 
-* Linear functions
-* Kernel (basis) functions, polynomials, Gaussians, etc.
-* [[Artificial neural network]]s
-* [[Support vector machine]]s
-* Generative models.
+!!__Types of supervised learning algorithms__
 
-and a ''learning algorithm'' to find best parameters for the data, so that the model can predict well. See [[Learning theory]].
+!!!__[[Generative vs discriminative models|https://www.youtube.com/watch?v=oTtow2Ui8vg&index=5&list=PLD0F06AA0D2E8FFBA]]__.
 
-New paradigm: [[Deep learning]]
+See below
 
-!!!__Types of supervised learning algorithms__
-
-[[Generative vs discriminative models|https://www.youtube.com/watch?v=oTtow2Ui8vg&index=5&list=PLD0F06AA0D2E8FFBA]]. See below
-
-Parametric vs non-parametric:
+!!!__Parametric vs non-parametric model__
 
 * ''Parametric''. There is a fixed number of parameters that the algorithm fits.
 * ''Non-parametric''. Formally, the number of "parameters" grows with the training set. Here number of parameters basically refers to "amount of information in learned  function". For See [[Nonparametric statistics]] An example is [[Nearest-neighbour classification]].
 
-!!__[[Discriminative learning]]__
+!!!__Continuous vs categorical output__
 
-Learning the function $$p(\text{output}|\text{input})$$. See [[notes|http://cs229.stanford.edu/notes/cs229-notes1.pdf]]
+//Categorical//, or //nominal//. Output $$y$$ belongs to some finite [[Set]]. The learning problem is called [[Classification]].
 
-!!!__[[Regression|Regression analysis]]__
+//continuous//. $$y $$ is a [[Real number]], or belongs to $$R^n $$ more generally. Learning is then known as [[Regression|Regression analysis]].
+
+//ordinal//. When the output belongs to some set with some natural [[Ordering]]. Learning is then known as //ordinal ordering//
+
+!!__[[Regression|Regression analysis]]__
 
 Output value is continuous, and quantiative (i.e. it has an ordering, and a notion of closeness (matrix)).
 
-!!!__[[Classification]]__
+!!__[[Classification]]__
 
 Output value is discrete, or categorical, or qualitative. No implicit ordering, or closeness on the variables. Simple approach: [[Logistic regression]]
+
+!!__[[Discriminative learning]]__
+
+Learning the function $$p(\text{output}|\text{input})$$. See [[notes|http://cs229.stanford.edu/notes/cs229-notes1.pdf]]
 
 !!!__General methods__
 
@@ -58,27 +62,3 @@ See [[notes|http://cs229.stanford.edu/notes/cs229-notes2.pdf]]. See [[lecture vi
 !!!__[[Gaussian discriminant analysis]]__
 
 !!!__[[Naive Bayes]]__
-
-!__Model assessment__
-
-Variance. How much the model varies with fluctuations of the training data, i.e. how //stable// is it.
-
-Bias. How many assumptions the model imposes, i.e. how //flexible// is it. Well that's maybe only one way to look at it..
-
-[[See explanation here|https://www.youtube.com/watch?v=JfkbyODyujw&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=14#t=6m45s]]
-
-!!__Cross-validation__
-
-Test the model on data you haven't used for training.
-
-min-max, average
-
-[ext[https://www.cs.cmu.edu/~schneide/tut5/node42.html]]
-
-Wikipedia has good explanations: [ext[https://en.wikipedia.org/wiki/Cross-validation_(statistics)]]
-
-One can show (maybe technical details I don't know..) that given the real distribution of the data, and a sample used for training, one is likely to underestimate the error. So I think cross-validation can be shown rigorously to be good for assessing a model's predictive power (i.e. probability of predicting rightly). See Elements of Statistical Learning book for all details..
-
-It is a way to find out if you are overfitting
-
-Related: https://en.wikipedia.org/wiki/Testing_hypotheses_suggested_by_the_data

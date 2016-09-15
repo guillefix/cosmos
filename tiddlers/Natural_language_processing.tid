@@ -1,8 +1,9 @@
 created: 20160405190342383
 creator: guillefix
-modified: 20160627125615780
-modifier: guillefix
+modified: 20160915201544704
+modifier: cosmos
 title: Natural language processing
+type: text/vnd.tiddlywiki
 
 See [[Convolutional neural network]] for more; also [[Formal language]]
 
@@ -11,3 +12,5 @@ Hybrid character-word NNs: http://arxiv.org/pdf/1604.00788v1.pdf
 [[Visual question/answering system|http://iamaaditya.github.io/2016/04/visual_question_answering_demo_notebook]]
 
 [[Google SintaxNet (includes Parsey MacParseface)|https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html]] [[code|https://github.com/tensorflow/models/tree/master/syntaxnet]]
+
+[[Latent semantic indexing]]

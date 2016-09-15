@@ -1,9 +1,10 @@
 created: 20160206001551498
 creator: guillefix
-modified: 20160423235609768
-modifier: guillefix
+modified: 20160909074308409
+modifier: cosmos
 tags: [[Information science]]
 title: Digital physics
+type: text/vnd.tiddlywiki
 
 https://en.wikipedia.org/wiki/Digital_physics
 
@@ -12,3 +13,5 @@ See [[Cellular automata]]
 Konrad Zuse
 
 [[Edward Fredkin|https://en.wikipedia.org/wiki/Edward_Fredkin]]
+
+[[Gerald Jay Sussman|http://groups.csail.mit.edu/mac/users/gjs/]]

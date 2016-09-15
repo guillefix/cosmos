@@ -1,0 +1,73 @@
+created: 20160913233502991
+creator: cosmos
+modified: 20160914085955104
+modifier: cosmos
+tags: [[Learning theory]]
+title: Convergence and performance results in learning theory
+type: text/vnd.tiddlywiki
+
+,,[[Setting up formally a linear classifier, to explore the problems of learning theory, and using empirical risk minimization as learning principle|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=7m35s]], also uses definitions above.,,
+
+__Hypothesis classes__
+
+[[Hypothesis class and more general def|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=13m45s]]
+
+The simple case of [[finite hypothesis classes|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=28m30s]]
+
+__Lemmas__
+
+[[The union bound|Boole's inequality]]
+
+[[Hoeffding's inequality]]
+
+!!__Results for [[ERM|Empirical risk minimization]] for the case of finite hypothesis classes__
+
+[[Intro|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=28m30s]]
+
+__//Strategy//__
+
+#  Training error is a good approximation to generalization error. $$\hat{\epsilon} \approx \epsilon$$ (//uniform convergence//)
+# This implies that [[minimizing training error|Empirical risk minimization]] will also do pretty well in minimizing generalization error, and this will give us a bound on the generalization error $$\epsilon(\hat{h})$$, of the hypothesis $$\hat{h}$$ output by ERM.
+
+!!!__1. Uniform convergence__
+
+-->[[Video|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=31m50s]]. The result is a form of //uniform convergence// ([[vid|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=43m]]).
+
+__Other formulations__
+
+''sample complexity'' bound. [[vid|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=47m0s]]
+
+[[Error bound|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=51m]]
+
+!!!__2. Performance of ERM__
+
+[[vid|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=52m30s]]
+
+//Theorem// Let $$|\mathcal{H}| = k$$ (where $$\mathcal{H}$$ is the hypothesis class (set of possible hypothesis)), and let any $$m, \delta$$ be fixed. Then, w.p. at least $$1-\delta$$, the generalization error
+
+$$\epsilon (\hat{h}) \leq \left (\min_{h \in \mathcal{H}} \epsilon (h) \right)+ 2 \sqrt{ \frac{1}{2m} \log{\frac{2k}{\delta}}}$$
+
+-->[[Relation to bias/variance tradeoff|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=1h03m40s]]. First term can be seen as the "bias", and the second as the "variance"
+
+__[[Corollary|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=1h10m30s]]__
+
+The training size, $$m \geq O(\frac{1}{j^2} \log{\frac{k}{\delta}})$$
+
+
+!!__Results for [[ERM|Empirical risk minimization]] for the case of infinite hypothesis classes__
+
+[[Intuition|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=4m]]
+
+Definition of //shattering//: [[video|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=8m54s]]
+
+-->[[Theorem|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=17m15s]]. Let a hypothesis class $$H$$ be given, and let the [[VC dimension]] VC(H) = d. Then w.p. at leat$$1-\delta$$, we have that for all $$h \in H$$
+
+$$|\epsilon(h)-\hat{\epsilon}(h)|\leq O\left(\sqrt{\frac{d}{m}\log{\frac{m}{d}}+\frac{1}{m}\log{\frac{1}{d}}}\right)$$
+
+where $$m$$ is the size of the training set. A corollary is that for ERM, the number of training samples needed for a particular performance is roughly linear on the [[VC dimension]] of the hypothesis class (see [[video|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=22m]]). ''Sample complexity is upper bounded by VC dimension''. Often, the VC dimension is roughly proportional to the number of parameters in your model. [[Lower bound in the worst case|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=24m]]
+
+[[Application to support vector machines|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=26m50s]]
+
+[[smooth loss functions as convex relaxations|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=31m10s]]. Learning algos such as logistic regression or support vector machines (which use the Hinge loss) may be viewed as approximating 0-1 loss-ERM. 
+
+!!__[[Neural network theory]] -- [[Deep learning theory]]__

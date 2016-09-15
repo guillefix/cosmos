@@ -1,7 +1,7 @@
 created: 20160328182624640
 creator: guillefix
-modified: 20160807002044566
-modifier: guillefix
+modified: 20160913070326063
+modifier: cosmos
 tags: [[Machine learning]]
 title: Deep learning
 type: text/vnd.tiddlywiki
@@ -32,7 +32,7 @@ http://www.clement.farabet.net/research.html#parsing
 
 [[Computer vision]]
 
-!!!__[[Multi-instance learning]]__
+!!!__[[Transfer learning]]__
 
 good for generalizing models, ''transfer learning'', ''multi-task learning''. Good when don't have much supervision data.
 
@@ -63,15 +63,9 @@ The core of the technique is based on representing the weight matrix as a low ra
 
 -----------
 
-!!Deep learning theory
+!![[Deep learning theory]]
 
-[[Learning theory]]
 
-[[Integrating symbols into deep learning]]
-
-<mark>[[Why Deep Learning Works II: the Renormalization Group|https://charlesmartin14.wordpress.com/2015/04/01/why-deep-learning-works-ii-the-renormalization-group/]]</mark>
-
-<mark>[[WHY DOES UNSUPERVISED DEEPLEARNING WORK?- A PERSPECTIVE FROM GROUP THEORY|http://arxiv.org/pdf/1412.6621v3.pdf]]</mark>
 
 --------
 

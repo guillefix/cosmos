@@ -1,6 +1,6 @@
 created: 20160705111418197
 creator: guillefix
-modified: 20160821072639715
+modified: 20160910235910375
 modifier: cosmos
 tags: Algorithms
 title: Procedural generation
@@ -10,4 +10,19 @@ https://en.wikipedia.org/wiki/Procedural_generation
 
 [[Procedural graphics]]
 
-See generative models in [[Supervised learning]]
+Often uses generative models in [[Supervised learning]], and now //deep generative models//
+
+!!__Audio generation__
+
+[[Speech synthesis]]
+
+[[Music synthesis]]
+
+!!__Image generation__
+
+__Handwriting generation__
+
+__[[Deep art]]__
+
+__Texture generation__
+

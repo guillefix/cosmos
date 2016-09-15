@@ -1,14 +1,15 @@
 created: 20160611122757517
 creator: guillefix
-modified: 20160611230646244
-modifier: guillefix
+modified: 20160913184648301
+modifier: cosmos
 title: Renormalization group
+type: text/vnd.tiddlywiki
 
 See also [[Critical phenomena]], field theory...
 
 A method to obtain macroscopic properties from  microscopic theories, among other things. The general framework (as applied to critical phenomena) is presented below. For other applications, the later steps will be different, but the general setup is the same.
 
-1. Define ''RG scheme'' (often involving ''coarse graining'' and ''scaling''; this is the case, for instance, in [[Real-space renormalization group]]), that defines new variables, while leaving the partition function fixed (or at least approximately fixed).
+1. Define ''RG scheme'' (often involving ''coarse graining'' and ''scaling''; this is the case, for instance, in [[Real-space renormalization group]]), that defines new variables, while leaving the [[Partition function]] fixed (or at least approximately fixed). Note that even though the partition function is fixed (and so all macroscopic variables are too), the microscopic Boltzmann distribution function need not stay fixed as a consequence (see [[this paper|http://arxiv.org/abs/1608.08225]]).
 
 2. This scheme produces an RG transformation on the couplings/parameters of the theory. This transformation, if iterated, produces an ''RG flow'' in the space of parameters. The flow can indeed be analyzed with the tools of the theory  of [[Dynamical system]]s
 

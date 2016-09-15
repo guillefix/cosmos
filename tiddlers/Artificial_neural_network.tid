@@ -1,6 +1,6 @@
 created: 20160124143800337
 creator: guillefix
-modified: 20160905055030110
+modified: 20160913112458938
 modifier: cosmos
 tags: [[Neuronal network]] [[Artificial intelligence]]
 title: Artificial neural network
@@ -68,7 +68,7 @@ Using SDG. An efficient algorithm to compute the gradients of the loss function 
 
 -------
 
-!!!__[[Mathematical modelling of neural networks]]__
+!!!__[[Neural network theory]] -- [[Mathematical modelling of neural networks]]__
 
 
 --------

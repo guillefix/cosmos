@@ -1,9 +1,10 @@
 created: 20160303225152240
 creator: guillefix
-modified: 20160703025443013
-modifier: guillefix
+modified: 20160909081304875
+modifier: cosmos
 tags: [[Scientific computing]] [[Machine learning]]
 title: Machine learning in science and engineering
+type: text/vnd.tiddlywiki
 
 !!![[Can artificial intelligence create the next wonder material?|http://www.nature.com/news/can-artificial-intelligence-create-the-next-wonder-material-1.19850?WT.mc_id=FBK_NA_1605_NEWSFWONDERMATERIAL_PORTFOLIO]]
 
@@ -15,7 +16,7 @@ neuronal networks in physics.. See dissertation by Nicholas Chen
 
 [[Neural networks modeling for refractive indices of semiconductors|http://www.sciencedirect.com/science/article/pii/S0030401812009649]]
 
-[[Computational physics: Neural networks|http://www.snn.ru.nl/~bertk/comp_phys/handouts.pdf]]
+[ext[Computational physics: Neural networks|http://www.snn.ru.nl/~bertk/comp_phys/handouts.pdf]]
 
 [[The role of networks and artificial intelligence in nanotechnology design and analysis|http://www.ncbi.nlm.nih.gov/pubmed/15209351]]
 
@@ -23,6 +24,8 @@ neuronal networks in physics.. See dissertation by Nicholas Chen
 
 http://knowmtech.com/
 
+[[Procedural generation]]
+
 -------
 
-Random idea for neural network for chemical synethesis and manufacturing etc. Facebook post: [[https://www.facebook.com/guillermovalleperez/posts/10153853693416223?]]
+Random idea for neural network for chemical synethesis and manufacturing etc. Facebook post: [ext[https://www.facebook.com/guillermovalleperez/posts/10153853693416223?]]

@@ -1,6 +1,6 @@
 created: 20160124143839436
 creator: guillefix
-modified: 20160825120417088
+modified: 20160909080854900
 modifier: cosmos
 tags: Intelligence [[Computer Science and IT]]
 title: Artificial intelligence
@@ -54,11 +54,7 @@ Oxford's society [[OxAI]]
 
 -----------
 
-//Uses//
-
-[img[Machine_learning_uses1.png]]
-
-[img[Machine_learning_uses2.png]]
+!!!__[[Applications of AI]]__
 
 ------------
 
@@ -70,7 +66,7 @@ __[[Companies and projects|Deep learning companies and projects]]__
 
 --------
 
-Challenges: One-shot learning, multi-task & transfer learning, scaling and energy efficiency, ability to generate data (e.g. vision as inverse graphics), architectures for AI.
+Challenges: [[One-shot learning]], multi-task & transfer learning, scaling and energy efficiency, ability to generate data (e.g. vision as inverse graphics), architectures for AI.
 
 -------
 

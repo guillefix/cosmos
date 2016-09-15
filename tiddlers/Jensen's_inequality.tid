@@ -1,0 +1,35 @@
+created: 20160914162736628
+creator: cosmos
+modified: 20160914172312033
+modifier: cosmos
+title: Jensen's inequality
+type: text/vnd.tiddlywiki
+
+[[video|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=43m30s]]
+
+Let $$f$$ be a [[Convex function]], $$f'' \geq 0$$
+
+Let $$X$$ be a [[Random variable]]
+
+Then,
+
+$$f(\mathbb{E}[X]) \leq \mathbb{E}[f(X)]$$
+
+where $$\mathbb{E}$$ denotes [[Expectation]]
+
+!!![[Picture|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=45m]]
+
+[img[14_ExpectationMaximization_8_0.png]]
+
+(this is a nice case, one can imagine less intuitive cases, but the inequality is still true).
+
+Further, if $$f''(X) > 0$$ ($$f$$ is strictly convex), then 
+
+$$f(\mathbb{E}[X]) = \mathbb{E}[f(X)] \Leftrightarrow X = \mathbb{E}[X]$$ w.p. $$1$$
+
+If $$f'' \leq 0$$ ($$f$$ is concave)
+
+$$f(\mathbb{E}[X]) \geq \mathbb{E}[f(X)]$$
+
+etc.
+
