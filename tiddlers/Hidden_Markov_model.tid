@@ -1,14 +1,17 @@
 created: 20160701170121911
 creator: guillefix
-modified: 20160704164443382
-modifier: guillefix
+modified: 20160918192314435
+modifier: cosmos
 tags: [[Machine learning]]
 title: Hidden Markov model
+type: text/vnd.tiddlywiki
 
-A [[Markov process]], often a [[Markov chain]], that, through a mapping, produces an output that models some [[Stochastic process|Stochastic processes]].
+A directed [[Graphical model]]
+
+When modeling some [[Stochastic process]], there are some variables in the graphical model that are a [[Markov process]] that gives the model dynamics.
 
 A Hidden Markov Model (HMM) is a discrete-time finite-state homogenous Markov chain observed through a discrete-time memoryless invariant channel. 
 
 This is used, for instance, in [[Machine learning]]
 
-[[STATISTICAL ANALYSIS OF HIDDEN MARKOV MODELS|http://math.bme.hu/~molnar/Molnar-Saska_thesis.pdf]]
+[ext[STATISTICAL ANALYSIS OF HIDDEN MARKOV MODELS|http://math.bme.hu/~molnar/Molnar-Saska_thesis.pdf]]

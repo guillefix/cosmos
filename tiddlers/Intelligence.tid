@@ -1,6 +1,6 @@
 created: 20160825115749628
 creator: cosmos
-modified: 20160904163940271
+modified: 20161022124057973
 modifier: cosmos
 tags: [[Cognitive science]]
 title: Intelligence
@@ -8,4 +8,41 @@ type: application/x-tiddler
 
 ''Intelligence'' may be defined as the ability of an agent to achieve goals in many different environments.
 
-See [[Artificial intelligence]], [[Natural intelligence]]
+!!__Features of intelligence__
+
+* [[Learning]]
+** [[One-shot learning]]
+** [[Learning to learn]]
+* [[Inference]]
+** [[Induction]]
+** [[Deduction]] -- [[Logic]]
+* [[Generalization]] -- [[Abstraction]] -- [[Concept]] -- 
+** [[Compositionality]]
+** [[Causality]]
+* [[Memory]]
+* [[Attention]]
+* [[Perception]] -- [[Emotion]]
+* [[Imagination]] -- [[Creativity]] -- [[Fun]]
+* [[Play]] -- [[Exploration]]
+
+!!__Types of intelligence__
+
+* [[Artificial intelligence]] (aka machine intelligence..)
+** [[Machine learning]], [[Deep learning]]
+** [[Logic]]
+* [[Natural intelligence]]
+**[[Human intelligence]]
+* [[Intelligence augmentation]]
+* [[Hybrid intelligence]]
+
+!!__[[Neuroscience]] and [[Artificial intelligence]]__
+
+[[Searching Rat Brains for Clues on How to Make Smarter Machines|https://www.technologyreview.com/s/602627/searching-rat-brains-for-clues-on-how-to-make-smarter-machines/]]
+
+[[Toward an Integration of Deep Learning and Neuroscience|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5021692/]]
+
+[[Neuromorphic computing]]
+
+[[What are the advantages and disadvantages I should have to be aware of if I would like to to use Spiking Neural Networks (SNN) as machine learning tools?|https://www.quora.com/What-are-the-advantages-and-disadvantages-I-should-have-to-be-aware-of-if-I-would-like-to-to-use-Spiking-Neural-Networks-SNN-as-machine-learning-tools]]
+
+[[Spiking neural network]]

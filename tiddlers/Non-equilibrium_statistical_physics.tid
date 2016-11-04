@@ -1,9 +1,10 @@
 created: 20160117160158780
 creator: guillefix
-modified: 20160702171211701
-modifier: guillefix
+modified: 20160918163605132
+modifier: cosmos
 tags: MMathPhys [[Statistical physics]]
 title: Non-equilibrium statistical physics
+type: text/vnd.tiddlywiki
 
 //Resources//
 
@@ -23,7 +24,7 @@ title: Non-equilibrium statistical physics
 -------
 ''Non-equilibrium Statistical Physics'' is the branch of [[Statistical physics]] that deals with systems out of equilibrium, so that averages can change in time (<mark>Actually not quite: see [[Thermodynamic equilibrium]]</mark>). This is much harder to do in full generality, as systems offer much more diversity out of equilibrium, as may be expected. As said in that page, one often has three approaches:
 
-*For a small system coupled to a large chaotic system, one has a  [[stochastic process|Stochastic processes]], which describes the evolution under the random influence of the large chaotic system.
+*For a small system coupled to a large chaotic system, one has a  [[stochastic process|Stochastic process]], which describes the evolution under the random influence of the large chaotic system.
 
 *For a large system which is only slightly out of equilibrium, so that relevant macroscopic averages analogous to those used in thermodynamics can still be defined, one can describe the system using [[Non-equilibrium thermodynamics]]
 

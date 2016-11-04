@@ -1,0 +1,12 @@
+created: 20160919170950453
+creator: cosmos
+modified: 20160919171137698
+modifier: cosmos
+tags: Clustering
+title: Mean shift
+type: text/vnd.tiddlywiki
+
+A hierarchical [[Clustering]] algortihm.
+
+
+[[Mean Shift Intro - Practical Machine Learning Tutorial with Python p.39|https://www.youtube.com/watch?v=3ERPpzrDkVg&index=39&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v]]

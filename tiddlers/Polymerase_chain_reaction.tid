@@ -1,0 +1,51 @@
+created: 20161014133547080
+creator: cosmos
+modified: 20161016182413096
+modifier: cosmos
+tags: [[Experimental molecular biology]]
+title: Polymerase chain reaction
+type: text/vnd.tiddlywiki
+
+PCR (Polymerase Chain Reaction) is a revolutionary method developed by Kary Mullis in the 1980s. PCR is based on using the ability of DNA polymerase to synthesize new strand of DNA complementary to the offered template strand. Because DNA polymerase can add a nucleotide only onto a preexisting 3'-OH group, it needs a primer to which it can add the first nucleotide. This requirement makes it possible to delineate a specific region of template sequence that the researcher wants to amplify. At the end of the PCR reaction, the specific sequence will be accumulated in billions of copies (amplicons).
+
+This allows to use several methods that require large samples, on much smaller samples, even starting with a single molecule.
+
+https://en.wikipedia.org/wiki/Polymerase_chain_reaction https://www.ncbi.nlm.nih.gov/probe/docs/techpcr/
+
+!!__Cycle__
+
+[img[https://www.ncbi.nlm.nih.gov/core/assets/probe/images/pcr_principle1.gif]]
+
+* ''Denaturation step'': This step is the first regular cycling event and consists of heating the reaction to ''94–98 °C for 20–30 seconds''. It causes [[DNA melting]] of the DNA template by disrupting the hydrogen bonds between complementary bases, yielding single-stranded DNA molecules.
+
+* ''Annealing step'': The reaction temperature is lowered to ''50–65 °C for 20–40 seconds'' allowing annealing of the primers to the single-stranded DNA template. ''This temperature must be low enough to allow for hybridization of the primer to the strand, but high enough for the hybridization to be specific'', i.e., the primer should only bind to a perfectly complementary part of the template. If the temperature is too low, the primer could bind imperfectly. If it is too high, the primer might not bind. Typically the annealing temperature is about 3–5 °C below the Tm of the primers used. Stable DNA–DNA hydrogen bonds are only formed when the primer sequence very closely matches the template sequence. The polymerase binds to the primer-template hybrid and begins DNA formation. It is very vital to determine the annealing temperature in PCR. This is because in PCR, efficiency and specificity are affected by the annealing temperature. An incorrect annealing temperature will cause an error in the test. I think that the double strands don't hybridize form, because the primer is much quicker to diffuse and hybridize with the single strands, and we only let them anneal for 20-40 seconds. Also, once the primer is bound, the probability of the other strand binding is much less (and depending on the strand lengths I think), and it could only partially bind..
+
+* ''Extension/elongation step'': The temperature at this step depends on the [[DNA polymerase]] used; Taq polymerase has its optimum activity temperature at 75–80 °C,[1][2] and commonly a temperature of ''72 °C'' is used with this enzyme. At this step the DNA polymerase synthesizes a new DNA strand complementary to the DNA template strand by ''adding [[dNTP|https://en.wikipedia.org/wiki/Nucleoside_triphosphate]]s that are complementary to the template in 5' to 3' direction'', condensing the 5'-phosphate group of the dNTPs with the 3'-hydroxyl group at the end of the nascent (extending) DNA strand. The extension time depends both on the DNA polymerase used and on the length of the DNA fragment to amplify. As a rule-of-thumb, at its optimum temperature, the DNA polymerase polymerizes ''a thousand bases per minute''. Under optimum conditions, i.e., if there are no limitations due to limiting substrates or reagents, at each extension step, the amount of DNA target is doubled, leading to exponential (geometric) amplification of the specific DNA fragment.
+
+!!!__Stages__
+
+The PCR process can be divided into three stages:
+
+Exponential amplification: At every cycle, the amount of product is doubled (assuming 100% reaction efficiency). The reaction is very sensitive: only minute quantities of DNA must be present.[17]
+
+Leveling off stage: The reaction slows as the DNA polymerase loses activity and as consumption of reagents such as dNTPs and primers causes them to become limiting.
+
+Plateau: No more product accumulates due to exhaustion of reagents and enzyme.
+
+!!__Variants__
+
+[[Reverse transcription PCR]]
+
+[[Real-time PCR]]. Because PCR doesn't just follow a simple geometrical growth, because of dNTPs and primer depletion, it is impossible to accurately measure the initial concentration from the final concentration (end-point PCR). It can be estimated, but not accurately. For accurate measurements, we need to keep track of the growth in DNA concentration during the PCR process, to be able to extrapolate to the inital concentration accurately. This is what real-time or quantitative PCR achieves.
+
+[[Real-time RT PCR]]
+
+!!__Applications__
+
+possible to extrapolate back to determine the starting quantity of the target sequence contained in the sample, with [[Real-time PCR]]
+
+* Selective DNA isolation. PCR allows isolation of DNA fragments from genomic DNA by selective amplification of a specific region of DNA. 
+
+* Amplification and quantification of DNA. Because PCR amplifies the regions of DNA that it targets, PCR can be used to analyze extremely small amounts of sample. This is often critical for forensic analysis
+
+* Disease diagnosis. PCR permits early diagnosis of malignant diseases such as leukemia and lymphomas, which is currently the highest-developed in cancer research and is already being used routinely. PCR assays can be performed directly on genomic DNA samples to detect translocation-specific malignant cells at a sensitivity that is at least 10,000 fold higher than that of other methods.

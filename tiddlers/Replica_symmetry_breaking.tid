@@ -1,0 +1,64 @@
+created: 20160916152017704
+creator: cosmos
+modified: 20160916163819248
+modifier: cosmos
+title: Replica symmetry breaking
+type: text/vnd.tiddlywiki
+
+,,//aka RSB//,,
+
+It was found that the problem in the original solution of the [[Sherington-Kirkpatrick Hamiltonian]] was due to the EA order parameter not being appropriate. 
+
+Instead, it was postulated that //the symmetry that is broken is that between the replicas themselves//. “replica symmetry” means that the Hamiltonian treats all replicas equivalently, while broken replica symmetry means that the spin glass phase distinguishes among replicas.
+
+Noting that the replica symmetry is broken does not tell one how it is broken: there are many possible ways of breaking replica symmetry.
+
+!!__Parisi solution__
+
+The correct formulation of replica symmetry breaking for the SK model was introduced by Giorgio Parisi in 1979 in [[Infinite Number of Order Parameters for Spin-Glasses|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.43.1754]]
+
+The reason why the SK low-temperature solution failed is that, while spin-flip symmetry is indeed broken in the SK model at low temperatures (which means that all spin glass states come in globally spin-reversed pairs, like the two above), //this alone is not sufficient// to characterize the low-temperature phase. Rather than a single order parameter, there are //infinitely many//. 
+
+In other words, for an infinite system there is not a single globally spin-reversed pair of spin glass thermodynamic states, but infinitely many such pairs of states.
+
+Unlike for all ordered systems studied before, for infinite-range spin-glass models, there is no adequate way to characterize the [[broken symmetry|Symmetry breaking]], or equivalently to define an order parameter, by referring solely to any single spin glass thermodynamic state.
+
+!!!__The spin overlap function __
+
+Since there are no distinguishing features among the many spin glass states, how do we compare them? One way is to see how similar they are to each other, which can be accomplished by introducing a ''spin overlap function'' $$q_{\alpha \beta}$$ between two [[Thermodynamic state]]s $$\alpha$$ and $$\beta$$: 
+
+$$q_{\alpha \beta} = \frac{1}{N} \sum\limits_{i=1}^N \langle  \sigma_i \rangle_\alpha \langle  \sigma_i \rangle_\beta $$
+
+From the definition of the [[EA order parameter]], we see that $$q_{EA} = q_{\alpha \alpha}$$, that is it can be interpreted as the //self-overlap// of a thermodynamic state with itself.
+
+[img[Selection_621.png]]
+
+!!!__Spin overlap density__
+
+$$W_\alpha$$ is the probability that a spin-glass system with a particular fixed configuration settles into thermodynamic state $$\alpha$$ when cooled below $$T=T_c$$. We can then define the ''spin overlap density'', as below:
+
+[img[Selection_622.png]]
+
+This gives the probability distribution of different overlaps. It turns out, that even in the [[Thermodynamic limit]], $$N \rightarrow \infty$$, the distribution depends on the particular quenched configuration of couplings between spins $$\mathcal{J}$$. Typical configurations are shown below:
+
+|[img[Selection_623.png]]|[img[Selection_624.png]]|
+
+This is an example of a Non-[[Self-averaging]] quantity.
+
+Because the spin overlap density is not a function of the thermodynamic state (but in fact refers to relations between such states), it may be non-self-averaging, unlike standard order parameters, that are functions of the [[Thermodynamic state]].
+
+''Parisi order parameter''
+
+[img[Selection_625.png]]
+
+[img[Selection_627.png]]
+
+!!!__Ultrametricity__
+
+when overlaps among three states are examined, a considerable degree of new structure is revealed: the space of overlaps of SK spin glass states is found to have an [[ultrametric structure|Ultrametric space]] [ [[Ultrametricity for physicists|http://journals.aps.org/rmp/abstract/10.1103/RevModPhys.58.765]] ]. 
+
+--------------
+
+[[Measuring Equilibrium Properties in Aging Systems|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.81.1758]].
+
+,,the Gibbs equilibrium measure decomposes into a mixture of many pure states. This phenomenon was first studied in detail in the mean field theory of spin glasses, where it received the name of replica symmetry breaking. But it can be defined and easily extended to other systems, by consid-ering an order parameter function, the overlap distribution function. This function measures the probability that two configurations of the system, picked up independently with the Gibbs measure, lie at a given distance from each other. Replica symmetry breaking is made manifest when this function is nontrivial.,,

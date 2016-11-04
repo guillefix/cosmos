@@ -1,0 +1,14 @@
+created: 20160916115215856
+creator: cosmos
+modified: 20160916120119680
+modifier: cosmos
+title: Frustration
+type: text/vnd.tiddlywiki
+
+''Frustration'' refers to the situation when a [[Signed network]] contains loops with odd numbers of minus signs.
+
+[img[Selection_615.png]]
+
+In spin networks, like [[Spin glass]]es, the sign of the edge correspond to the sign of the coupling in the Hamiltonian, and determines whether the spins tend to align (ferromagnetic interaction) or anti-align (antiferromagnetic interaction). 
+
+[img width=500 [Selection_616.png]]

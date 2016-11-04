@@ -1,0 +1,29 @@
+created: 20160918163750995
+creator: cosmos
+modified: 20161026135936779
+modifier: cosmos
+tags: [[Probability theory]]
+title: Probability distribution
+type: text/vnd.tiddlywiki
+
+See [[Probability theory]]
+
+//aka probability distribution function//
+
+A [[Probability measure]] in a certain space of variables.
+
+!!__Probability density (pdf)__
+
+For continuous variables
+
+probability = probability density $$\times$$ volume
+
+!!__Probability mass (pmf)__
+
+For discrete variables
+
+!!__Examples of probability distributions__
+
+!!__[[Joint probability distribution]]__
+
+[[Marginal probability]], Integrate out one variable.

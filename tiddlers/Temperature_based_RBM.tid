@@ -1,0 +1,12 @@
+created: 20161022133633840
+creator: cosmos
+modified: 20161023173653728
+modifier: cosmos
+tags: [[Restricted Boltzmann machine]]
+title: Temperature based RBM
+type: text/vnd.tiddlywiki
+
+
+[[Temperature based Restricted Boltzmann Machines|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4725829/]]
+
+[[Temperature-Based Deep Boltzmann Machines|https://arxiv.org/abs/1608.07719]]

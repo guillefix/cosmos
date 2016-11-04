@@ -1,8 +1,9 @@
 created: 20160328184231393
 creator: guillefix
-modified: 20160623235659032
-modifier: guillefix
+modified: 20161005191815663
+modifier: cosmos
 title: Convolutional neural network
+type: text/vnd.tiddlywiki
 
 [[Nando's vid|https://www.youtube.com/watch?v=bEUX_56Lojc&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=10]]
 
@@ -55,3 +56,5 @@ Document models (Misha Denil)
 [[Natural language processing]]
 
 [[MatConvNet: CNNs for MATLAB|http://www.vlfeat.org/matconvnet/]]
+
+!!![[explanation vid|https://www.youtube.com/watch?v=7Wq-QmMT4gM]]

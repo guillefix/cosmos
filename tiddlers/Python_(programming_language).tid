@@ -1,8 +1,9 @@
 created: 20160629010236775
 creator: guillefix
-modified: 20160713133951175
-modifier: guillefix
+modified: 20160921105919603
+modifier: cosmos
 title: Python (programming language)
+type: text/vnd.tiddlywiki
 
 __Libraries__
 
@@ -17,3 +18,5 @@ https://www.continuum.io/why-anaconda
 
 Others:
 http://blog.rtwilson.com/my-top-5-new-python-modules-of-2015/
+
+https://pythonprogramming.net/

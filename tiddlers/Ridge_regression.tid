@@ -1,0 +1,25 @@
+created: 20161024161249912
+creator: cosmos
+modified: 20161031111034681
+modifier: cosmos
+tags: [[Linear regression]]
+title: Ridge regression
+type: text/vnd.tiddlywiki
+
+[[Linear regression]] with a [[Tikhonov regularization]].
+
+Constant term doesn't contribute to complexity..
+
+Scaling input variables shouldn't change the model complexity, so we normalize them.
+
+__Estimate for ridge regression__
+
+via [[Maximum likelihood]]
+
+$$w_{ridge} = (X^TX +\lambda I_D)^{-1} X^T y$$
+
+easier to solve than normal equation in standard linear regression. lambda is actually a [[Lagrange multiplier]], and dependening on its value we are considering a sphere around the origin. The equation when differentiating w.r.t. lambda gives us that $$w^Tw$$ is less than a constant (see [[here|http://www1.maths.leeds.ac.uk/~cajones/math2640/notes4.pdf]]
+
+Also called l2 regularization or weight-decay.
+
+In [[Bayesian|Bayesian statistics]] terms, this corresponds to a [[Gaussian]] priors, and we are using [[Maximum a-posteriori]].

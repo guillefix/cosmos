@@ -1,6 +1,6 @@
 created: 20160124143800337
 creator: guillefix
-modified: 20160913112458938
+modified: 20161022125350235
 modifier: cosmos
 tags: [[Neuronal network]] [[Artificial intelligence]]
 title: Artificial neural network
@@ -10,7 +10,9 @@ type: text/vnd.tiddlywiki
 
 A particularly useful way of representing nonlinear functions, for problems in [[Machine learning]]. It is a very good model for many problems, and learning algorithms produce very good results with them. In particular __deep learning__ (which uses ANNs with many layers). It is a nonlinear [[classifier|Classifier]], and [[Regression analysis]] model.
 
-[[Hugo Larochelle class videos|https://www.youtube.com/watch?v=apPiZd-qnZ8&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=4]] on [2.9]. [[Andrew Ng intro|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=26m]]. [[NN|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=29m]]. Learning parameters in a NN is generally a [[non-convex optimization problem|Convex optimization]], which makes it very hard to reach global optima.
+[[Hugo Larochelle class videos|https://www.youtube.com/watch?v=apPiZd-qnZ8&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=4]] ([[website|http://info.usherbrooke.ca/hlarochelle/neural_networks/content.html]]). [[Andrew Ng intro|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=26m]]. [[NN|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=29m]]. Learning parameters in a NN is generally a [[non-convex optimization problem|Convex optimization]], which makes it very hard to reach global optima.
+
+!!__Definition__
 
 Neuron has:
 
@@ -28,31 +30,25 @@ Neuron has:
 
 Overall... we are multiplying by matrices and applying simple nonlinear function
 
+!!!See [[Neural network theory]], [[Mathematical modelling of neural networks]], for more on the theory
 
-__Universal approximator theorem__
+!!__Learning by [[optimization|Optimization]]__
 
-See paper mentioned in Hugo's vid, //single hidden layer ANNs can approximate any continuous function with sufficiently many neurons in the hidden layer//. There may not be a //learning algorithm// to find the right parameter set though.
+Learning by minimizing cost function (see [[Learning theory]])
 
-!!!__[[Optimization]]__
+[[Training neural networks - optimization|https://www.youtube.com/watch?v=Bver7Ttgb9M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=17]]. There are several global optima, and plateaus. Uses [[Gradient descent]], in particular [[SGD|Stochastic gradient descent]].
 
-Learning by minimizing cost funciton
+An efficient algorithm to compute the gradients of the loss function for (SGD) w.r.t. the ANN's parameters is [[Backpropagation]].
 
-Using SDG. An efficient algorithm to compute the gradients of the loss function w.r.t. the ANN's parameters is [[backpropagation|https://www.youtube.com/watch?v=_KoWTD8T45Q&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=13]].
+see more at [[Learning theory]]
 
-''Backpropagaion''. It effectively uses the chain rule to compute the gradient w.r.t. parameters at one layer with the values of the gradients w.r.t. parameters at the layer above (deeper).
+!!!__Parameter initialization for NNs__
 
-[[Efficient BackProp|http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf]]
+[[Neural networks [2.9] : Training neural networks - parameter initialization|https://www.youtube.com/watch?v=sLfogkzFNfc&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=15]]
 
-[img[https://lh3.googleusercontent.com/meJWmYC_T9cKaz8S8k2j6jmtl1etx-hIwqUN_zl-zgvcGRr1egcKaV_zOzwtIXeKQfyDvTjw51awxmEMwd8iJhN4m9ObNRTPCTNlppjfbrIFGo3ieepSq4EIjx9f4xRPrgpjuHo5PaMCsaM8_weYjQ868FpSHcGcGR5L2IsTgJHiI-AwapSYqofABQYhctmN1-QQTeUSUMM6xui7uX0b9WsTQtyrIPHtwWNczcsYy2vedasGcSOLpP8_8vecJ6hCN_PnkpRa2U8KxhdNiGGshcWeFCvJ48CKQfc_JjLoNDB4D8lDPq8KYnPqzW3zAVzTy6ebBFEXvXnMjwF0vun-j9uJsjadbv3XjJscF2Vw1LkA-msoTk7QBDrfdDy1Sp5l15Kug98zDwvsR-14h5Pv4QmIEm5wlGQfaT9vo7kCYP_b40HMu9umj3gGtMcMNiB1hZ56KWj92hF-PlSYLBA3BRsCuGZlhrON8JMvrYpjHOxf6m5ZVv_XmwJKd8EhoZqozIlQVQssZA8SWqBAAGB8KOsSlElGtmlekDxu6MpiEMMRSYVivwkQAWEKBDPDmVVSWWyZ=w943-h661-no]]
-<small>[image above, wait until it loads, you also need to be signed into google]</small>
+!!!__[[Model selection]] for neural networks__
 
-[[Video|https://www.youtube.com/watch?v=-YRB0eFxeQA&index=8&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=24m00s]]
-
-[[See this too|https://www.youtube.com/watch?v=NUKp0c4xb8w&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=9#t=35m25s]]
-
-[[Why backprop is more efficient than naive approach|https://www.youtube.com/watch?v=NUKp0c4xb8w&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=9#t=41m50s]]
-
-[[Derivatives wrt the input|https://www.youtube.com/watch?v=-YRB0eFxeQA&index=8&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=43m47s]] give you a way of knowing which part of the input is determining the classification, i.e. where is the cat in the image, for example
+[[Neural networks [2.10] : Training neural networks - model selection|https://www.youtube.com/watch?v=Fs-raHUnF2M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=16]]. How to set the hyperparameters. Can use [[Cross-validation]].
 
 !!__Types of neural networks__
 
@@ -66,10 +62,21 @@ Using SDG. An efficient algorithm to compute the gradients of the loss function 
 
 * [[Spiking neural network]]
 
--------
+* [[Residual neural network]]
 
-!!!__[[Neural network theory]] -- [[Mathematical modelling of neural networks]]__
+* [[Boltzmann machine]]
 
+* [[Autoencoder]]
+
+* [[Deep belief network]]
+
+* [[Generative adversarial network]]
+
+* [[Hopfield network]]
+
+Many models in [[Machine learning]] can be seen as neural networks
+
+[img[http://www.asimovinstitute.org/wp-content/uploads/2016/09/neuralnetworks.png]]
 
 --------
 
@@ -82,6 +89,8 @@ __More models, and generalizations__
 //Backpropagation//, temporal networks, etc..
 
 [[Visualizing and Understanding Deep Neural Networks by Matt Zeiler|https://www.youtube.com/watch?v=ghEmQSxT6tw]]
+
+[[Two Minute Papers - Estimating Matrix Rank With Neural Networks|https://www.youtube.com/watch?v=bLFISzfQCDQ]]
 
 --------
 
@@ -112,7 +121,7 @@ On the complex backpropagation algorithm
 
 [[Implementation of Evolutionary Algorithms for Deep Architectures|http://ceur-ws.org/Vol-1315/paper15.pdf]]
 
-See ideas here: Idea for neural network for chemical synethesis and manufacturing etc. Facebook post: [[https://www.facebook.com/guillermovalleperez/posts/10153853693416223?]]
+See ideas here: Idea for neural network for chemical synethesis and manufacturing etc. Facebook post: [ext[https://www.facebook.com/guillermovalleperez/posts/10153853693416223?]]
 
 !!!__Statistical mechanics of neural networks__
 

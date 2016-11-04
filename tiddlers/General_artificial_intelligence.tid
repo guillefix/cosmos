@@ -1,0 +1,26 @@
+created: 20161104095037040
+creator: cosmos
+modified: 20161104095445547
+modifier: cosmos
+tags: [[Artificial intelligence]]
+title: General artificial intelligence
+type: text/vnd.tiddlywiki
+
+An [[Artificial intelligence]] that displays the full range of features associated with [[Intelligence]]
+
+!!__Approaches__
+
+[[Symbolic reasoning]] -- [[Logic]]
+
+[[Integrating symbols into deep learning]]
+
+[[Program induction]]
+
+[[Augmented RNN]]
+
+* [[Neural networks with memory]]
+** [[Neural Turing machine]]
+
+[[Universal AI]] theory
+
+[[Spiking neural network]] -- [[Hybrid neural network]].. -- inspiration from [[Neuroscience]]

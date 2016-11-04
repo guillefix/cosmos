@@ -1,9 +1,10 @@
 created: 20160117160303798
 creator: guillefix
-modified: 20160528223621209
-modifier: guillefix
+modified: 20161016230842112
+modifier: cosmos
 tags: TableOfContents
 title: Mathematics
+type: text/vnd.tiddlywiki
 
 Mathematics is the study of ''structures'' themselves. These are necessary in [[Science]] and in [[Art]], as both require the invention of structures to either explain (and thus //understand//) the world, or for any other purpose (in the case of Art).
 
@@ -94,3 +95,5 @@ https://www0.maths.ox.ac.uk/courses
 From http://bactra.org/thesis/single-spaced-thesis.pdf :
 
 Formalizing intuitions (Quine 1961) insist, the goal [of formalizing some notion] is that the formal notion match the intuitive one in all theeasy cases; resolve the hard ones in ways which don't make us boggle; and let us frame simple and fruitfulgeneralizations.
+
+https://betterexplained.com/

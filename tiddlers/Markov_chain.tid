@@ -1,10 +1,13 @@
 created: 20160628022723876
 creator: guillefix
-modified: 20160704165214086
-modifier: guillefix
+modified: 20160918191004377
+modifier: cosmos
 title: Markov chain
+type: text/vnd.tiddlywiki
 
-[[Markov process]] with a discrete state space. Can have:
+[[Markov process]] with a discrete state space. More generally it's a chain (a [[Directed network]], where every node has out-degree and in-degree 1, forming a chain) of [[Random variable]]s that satisfy a [[Markov property]]. 
+
+Can have:
 
 * [[Discrete-time Markov chain]]
 * Continuous-time Markov chain

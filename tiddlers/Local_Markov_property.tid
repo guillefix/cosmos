@@ -1,0 +1,9 @@
+created: 20160918183446851
+creator: cosmos
+modified: 20160918221104891
+modifier: cosmos
+tags: [[Markov property]]
+title: Local Markov property
+type: text/vnd.tiddlywiki
+
+A variable is conditionally independent of all other variables given its neighbors ([[video|https://www.youtube.com/watch?v=lekCh_i32iE&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=37#t=14m37s]]).

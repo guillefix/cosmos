@@ -1,9 +1,32 @@
 created: 20160622024304649
 creator: guillefix
-modified: 20160622024410490
-modifier: guillefix
+modified: 20161014110855685
+modifier: cosmos
 title: Cell cycle
+type: text/vnd.tiddlywiki
 
-Cycle of life of a [[Cell (biology)]]
+Cycle of life of a [[Cell]]
 
 Interphase, S phase, metaphase
+
+!!G1 phase
+
+!!S phase
+
+!!G2 phase
+
+!! M phase
+
+[[Cell division]]
+
+Meta-to-anaphase transition
+
+Other checkpoints.
+
+!!__Regulation of cell cycle__
+
+p53
+
+!!!__Apoptosis__
+
+__Necrosis__ (uncontrolled cell death)

@@ -1,9 +1,10 @@
 created: 20160128012455600
 creator: guillefix
-modified: 20160622025319291
-modifier: guillefix
+modified: 20160916112446904
+modifier: cosmos
 tags: Physics
 title: Condensed matter physics
+type: text/vnd.tiddlywiki
 
 ''Condensed matter physics'' is the [[Physics]] of condensed matter. Below we look at the different broad types of condensed matter. The properties of condensed matter systems depend, among other things, on the chemical composition of the system (see [[Chemistry]]), and the [[physical laws|Physics]] the chemical components obey.
 
@@ -56,11 +57,7 @@ One of the most important properties of materials is that they exhibit different
 
 There are also phases of matters that exhibit quantum effects. These are studied (along with other non-quantum phases that nontheless can be understood using quantum mechanics) in [[Quantum condensed matter physics]]
 
-[[Order and disorder|https://en.wikipedia.org/wiki/Order_and_disorder_(physics)]] designate the presence or absence of some symmetry or correlation in a many-particle system. [[Disordered systems|http://www.lpthe.jussieu.fr/~leticia/cargese-lectures.pdf]] See [[here|http://bioserv.mps.ohio-state.edu/~rbund/home/anneal.pdf]] and [[here|http://physics.stackexchange.com/questions/16523/should-annealed-disorder-be-characterized-by-the-average-of-the-partition-functi]], and [[here|https://books.google.co.uk/books?id=Wt804S9FjyAC&pg=PA145&lpg=PA145&dq=%22annealed+disorder%22&source=bl&ots=23hEhpqOgD&sig=7U10nV-RzPNBj7iiehMDZoNmtS4&hl=en&sa=X&ved=0ahUKEwjOgdGQ6bnMAhVsAcAKHTnUCa0Q6AEIVzAJ#v=onepage&q=%22annealed%20disorder%22&f=false]]
-
-* <b>Annelaed disorder</b>: disorder of a system at thermal equilibrium.
-
-* <b>Quenched disorder</b>: disorder of a system in which some variable is out of equilibrium. For instance in glasses.
+[ext[Order and disorder|https://en.wikipedia.org/wiki/Order_and_disorder_(physics)]] designate the presence or absence of some symmetry or correlation in a many-particle system. See [[Disorder]], [[Disordered system]]. See [ext[here|http://bioserv.mps.ohio-state.edu/~rbund/home/anneal.pdf]] and [[here|http://physics.stackexchange.com/questions/16523/should-annealed-disorder-be-characterized-by-the-average-of-the-partition-functi]], and [[here|https://books.google.co.uk/books?id=Wt804S9FjyAC&pg=PA145&lpg=PA145&dq=%22annealed+disorder%22&source=bl&ots=23hEhpqOgD&sig=7U10nV-RzPNBj7iiehMDZoNmtS4&hl=en&sa=X&ved=0ahUKEwjOgdGQ6bnMAhVsAcAKHTnUCa0Q6AEIVzAJ#v=onepage&q=%22annealed%20disorder%22&f=false]]
 
 [[Physics of disordered systems|https://www.lpt.ens.fr/IMG/pdf/journee_meyer_parisi.pdf]]
 

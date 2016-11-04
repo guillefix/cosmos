@@ -1,15 +1,24 @@
 created: 20160121193002968
 creator: guillefix
-modified: 20160701000518629
-modifier: guillefix
+modified: 20161003145805871
+modifier: cosmos
 tags: Biology
 title: Systems biology
+type: text/vnd.tiddlywiki
+
+Systems biology is the study of [[Biology]] from the perspective of [[System]]s (i.e. [[Biological system]]s), that is sets of components which interact which each other. In particular systems biology is organized in an approximately hierarchical fashion, where lower levels are composed of parts which self-organize into the parts at the next level, which exhibit behaviour emergent from the characteristics of the lower level.
+
+!!!See [[Biology]] for the hierarchy of biological systems usually studied by sysbio.
+
+https://www.wikiwand.com/en/Systems_biology
 
 [[Systems biology MIT OCW|http://ocw.mit.edu/courses/physics/8-591j-systems-biology-fall-2014/]]
 
 [[Foundations of Computational and Systems Biology|http://ocw.mit.edu/courses/biology/7-91j-foundations-of-computational-and-systems-biology-spring-2014/]]
 
 [[Stochastic Dynamics for Systems Biology book|file:///home/guillefix/Dropbox/NewForCosmos/%5BChristian_Mazza,_Michel_Bena%C3%AFm%5D_Stochastic_Dynamycs_for_systems_biology.pdf]]
+
+[[The Biological, Algorithmic and Computational Challenges of Systems Biology, Rick Stevens|https://www.youtube.com/watch?v=DUpW5YuESA8]]
 
 [[The mycobiome|http://www.the-scientist.com/?articles.view/articleNo/45153/title/The-Mycobiome/]]  The largely overlooked resident fungal community plays a critical role in human health and disease.
 

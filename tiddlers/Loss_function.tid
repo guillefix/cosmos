@@ -1,0 +1,24 @@
+created: 20160916172144391
+creator: cosmos
+modified: 20161001170333789
+modifier: cosmos
+title: Loss function
+type: text/vnd.tiddlywiki
+
+//aka risk, cost, loss; or its opposite, utility, reward,... depending on the area or context//.
+
+A ''loss function'' refers to a [[Function]] that one wishes to [[minimize|Optimization]], in some [[decision theoretic|Decision theory]] framework, like in [[learning|Learning theory]], [[Operations research]], mathematical [[Ethics]], etc.
+
+[[Loss function for learning|https://www.youtube.com/watch?v=PpFTODTztsU&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=8]]
+
+!!__Loss functions__
+
+__[[Hinge loss]]__
+
+__[[Cross entropy]]__
+
+__Negative log [[likelihood|Likelihood function]]__
+
+__Training error__
+
+See [[Empirical risk minimization]]

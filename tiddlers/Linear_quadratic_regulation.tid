@@ -1,0 +1,33 @@
+created: 20161019173424051
+creator: cosmos
+modified: 20161019173445583
+modifier: cosmos
+tags: [[Reinforcement learning in continuous state space]]
+title: Linear quadratic regulation
+type: text/vnd.tiddlywiki
+
+An type of [[Reinforcement learning in continuous state space]]
+
+-->using [[Dynamic programming]]
+
+[[intro|https://www.youtube.com/watch?v=-ff6l5D8-j8&index=18&list=PLA89DCFA6ADACE599#t=27m50s]]
+
+[[State transition probabilites|https://www.youtube.com/watch?v=-ff6l5D8-j8&index=18&list=PLA89DCFA6ADACE599#t=30m]]. These matrices can be obtained by [[Linear regression]] from samples of the real or simulated dynamics of the system; or they can be a linearization of a non-linear transition function, derived from physics, or other assumptions. This constitutes the linear model neede for LQR
+
+[[Reward function|https://www.youtube.com/watch?v=-ff6l5D8-j8&index=18&list=PLA89DCFA6ADACE599#t=33m10s]]
+
+Goal: [[Finding optimal policy|https://www.youtube.com/watch?v=-ff6l5D8-j8&index=18&list=PLA89DCFA6ADACE599#t=53m20s]], modelling world as a finite-horizon [[MDP|Markov decision process]], which can be solved recursively, using [[Dynamic programming]]. It turns out that the optimal action is a linear function of the current state, in this case.
+
+The recursive equation for calculating the optimal value function at time $$t$$, given its value at time $$t+1$$ is known as the discrete-time ''Riccati equation''.
+
+[[algorithm|https://www.youtube.com/watch?v=-ff6l5D8-j8&index=18&list=PLA89DCFA6ADACE599#t=1h12m05s]]
+
+[[Advantage over discretization methods|https://www.youtube.com/watch?v=-ff6l5D8-j8&index=18&list=PLA89DCFA6ADACE599#t=1h15m20s]]
+
+[[recap|https://www.youtube.com/watch?v=UFH5ibWnA7g&index=19&list=PLA89DCFA6ADACE599#t=18m50]] --> [[some comments|https://www.youtube.com/watch?v=UFH5ibWnA7g&index=19&list=PLA89DCFA6ADACE599#t=31m30s]], don't need covariance.
+
+__Differential dynamic programming (DDP)__
+
+Turns out to be a form of local search algorithm
+
+[[video|https://www.youtube.com/watch?v=UFH5ibWnA7g&index=19&list=PLA89DCFA6ADACE599#t=35m]]

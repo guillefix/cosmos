@@ -1,0 +1,87 @@
+created: 20160918212635682
+creator: cosmos
+modified: 20161023111454375
+modifier: cosmos
+tags: [[Boltzmann machine]]
+title: Restricted Boltzmann machine
+type: text/vnd.tiddlywiki
+
+//aka RBM//
+
+[[definition|https://www.youtube.com/watch?v=p4Vh_zMw-HQ&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=36#t=3m10s]]. An RBM is an [[undirected graphical model|Markov network]] that defines a [[distribution|Probability distribution]] over some input vector $$\mathbf{x}$$, and it is going to model the distribution by using a hidden layer of binary units (''latent variable''s, $$\mathbf{h}$$), and an ''Energy function''
+
+We first assume that the input $$x$$ is composed of binary variables
+
+__Energy function__
+
+$$E(\mathbf{x}, \mathbf{h}) = -\mathbf{h}^T \mathbf{W} \mathbf{x} - \mathbf{c}^T \mathbf{x} - \mathbf{b}^T \mathbf{h} $$ $$= \sum\limits_{ij} W_{ij} h_j x_i -\sum\limits_i c_i x_i -\sum\limits_i b_u h_i$$
+
+__Probability distribution__
+
+It's a [[Boltzmann distribution]] (hence the name):
+
+$$p(\mathbf{x}, \mathbf{h}) = \exp{(-E(\mathbf{x}, \mathbf{h})}/Z$$
+
+__[[Markov network]] representation__
+
+[[Video|https://www.youtube.com/watch?v=p4Vh_zMw-HQ&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=36#t=9m]]
+
+__[[Factor graph]]__
+
+[[video|https://www.youtube.com/watch?v=p4Vh_zMw-HQ&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=36#t=11m25s]]
+
+!!__Inference on RBMs__
+
+[[video|https://www.youtube.com/watch?v=lekCh_i32iE&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=37]]
+
+__Conditional inference__
+
+[[video|https://www.youtube.com/watch?v=lekCh_i32iE&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=37#t=1m22s]]
+
+[img[Selection_629.png]]
+
+[[derivation of p(h\x)|https://www.youtube.com/watch?v=lekCh_i32iE&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=37#t=4m38s]], although it [[follows from|https://www.youtube.com/watch?v=lekCh_i32iE&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=37#t=14m37s]] the [[Local Markov property]]
+
+!!!__[[Free energy]] in an RBM__
+
+[[Free energy|https://www.youtube.com/watch?v=e0Ts_7Y6hZU&index=38&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH]] is used to marginalize $$x$$, to get the distribution $$p(x)$$, which we are most interested in.
+
+[img[Selection_630.png]]
+
+[[derivation|https://www.youtube.com/watch?v=e0Ts_7Y6hZU&index=38&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=2m59s]]. The function in the sum is known as //softplus//, [[vid|https://www.youtube.com/watch?v=e0Ts_7Y6hZU&index=38&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=7m]]
+
+[img[Selection_631.png]]
+
+The ''softplus'' function can often be approximated by the [[ReLU]]
+
+We often can't compute $$p(x)$$ directly due to the intractability of computing the partition function. However the expression helps us understand what $$x$$s the model makes more and less likely.
+
+The hidden units basically represent features that we expect to observe in $$x$$
+
+!!__Training an RBM__
+
+[ext[A Practical Guide to Training Restricted Boltzmann Machines|https://www.cs.toronto.edu/~hinton/absps/guideTR.pdf]]
+
+!!![[Contrastive divergence]]
+
+!!!__Minimizing [[Relative entropy]]__
+
+The coupling parameters between the visible and hidden layers are chosen using a variational procedure that minimizes the Kullback-Leibler divergence (i.e. relative entropy) between the “true” probability distribution ofthe data and the variational distribution obtained by marginalizing over the hidden units.
+
+------------------
+
+[[Neural networks [5.7] : Restricted Boltzmann machine - example|https://www.youtube.com/watch?v=n26NdEtma8U&index=42&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH]]. Example on [[MNIST]] data set.
+
+[[Debugging RBMs|https://www.youtube.com/watch?v=n26NdEtma8U&index=42&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=5m30s]]
+
+!!__Extensions__
+
+[[Neural networks [5.8] : Restricted Boltzmann machine - extensions|https://www.youtube.com/watch?v=iPuqoQih9xk&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=43]]
+
+__[[Gaussian-Bernoulli RBM|https://www.youtube.com/watch?v=iPuqoQih9xk&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=43#t=1m]]__ allows for [[real|Real numbers]] inputs
+
+!!![[Deep belief network]]
+
+!!![[Extended Mean Field RBM]]
+
+[[Temperature based RBM]]

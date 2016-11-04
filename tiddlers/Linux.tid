@@ -1,15 +1,22 @@
 created: 20160624210720984
 creator: guillefix
-modified: 20160624212818713
-modifier: guillefix
+modified: 20161026090633679
+modifier: cosmos
 tags: [[Operating system]]
 title: Linux
+type: text/vnd.tiddlywiki
+
+Linux is an [[OS kernel]]
 
 [[The Linux Documentation Project|http://tldp.org/]]
 
 [img[https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png]]
 
-!!__Bash__
+!!__Command shell__
+
+__Multi-user__
+
+!!!__Bash language__
 
 [[How do I create a script file for terminal commands?|http://askubuntu.com/questions/223691/how-do-i-create-a-script-file-for-terminal-commands]]
 

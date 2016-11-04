@@ -1,0 +1,22 @@
+created: 20160916133422395
+creator: cosmos
+modified: 20160916145614146
+modifier: cosmos
+title: Spin glass energy landscape
+type: text/vnd.tiddlywiki
+
+[[Spin glass]]es posses a “rugged energy (or free energy) landscape.”
+
+The notion of an energy landscape requires a specification of [[spin dynamics|Dynamics of spin glasses]] (to determine ), so let’s choose a simple dynamics as follows. A spin chosen at random looks at its neighbors, and if it can lower its energy by flipping, it does so; otherwise, it stays put. This procedure is continually repeated with randomly and indepen-dently chosen spins and in so doing describes a zero-temperature, one-spin-flip dynamics. One can define a “landscape” under this dynamics: two distinct spin configurations are neighbors if they differ by a single spin, and the time evolution of the system can then be thought of as a “walk” on the landscape. 
+
+!!!__[[Dynamical system]] notions__
+
+A spin configuration that remains unchanged for all time under the dynamics is called a ''fixed point'' in state, or configuration, space.
+
+The ''basin of attraction'' of a fixed point comprises all spin configurations that flow toward it under almost every 28 realization of the zero-temperature dynamics described above.
+
+!!!__[[Metastability]]__
+
+Unlike the ferromagnet, in the spin glass this process will quickly stop at a relatively high-energy state. This is because the spin glass has lots of metastability. A one-spin-flip metastable configuration (equivalently,local optimum) is one in which no spin can lower its energy by the dynamics described above, but if two neigh boring spins are allowed to flip simultaneously, then lower energy states are available. This concept can easily be extended to $$k$$-spin-flip metastable states, and it was proved [81] for the EA model in any dimension (including one) that, for an infinite system, there is an infinite number of $$k$$-spin-flip stable states for any finite $$k$$.
+
+But, if we allowed all any number of spins to flip, and so reached the global energy minimum, we are confronted with the question of how many such minima there are.

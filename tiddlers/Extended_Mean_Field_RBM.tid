@@ -1,0 +1,14 @@
+created: 20161022124318178
+creator: cosmos
+modified: 20161022125254630
+modifier: cosmos
+tags: [[Restricted Boltzmann machine]]
+title: Extended Mean Field RBM
+type: text/vnd.tiddlywiki
+
+
+[[Improving RBMs with physical chemistry|https://charlesmartin14.wordpress.com/2016/10/21/improving-rbms-with-physical-chemistry/]]
+
+[[Training Restricted Boltzmann Machines via the Thouless-Anderson-Palmer Free Energy |https://arxiv.org/pdf/1506.02914.pdf]]
+
+Training an RBM requires computing the log Free Energy; this is hard.

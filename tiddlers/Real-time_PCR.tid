@@ -1,0 +1,107 @@
+created: 20161014135453597
+creator: cosmos
+modified: 20161016184034431
+modifier: cosmos
+title: Real-time PCR
+type: text/vnd.tiddlywiki
+
+Real-time PCR monitors the amplification of a targeted DNA molecule during the PCR process, i.e. in real-time, and not at its end, as in conventional PCR.
+
+https://en.wikipedia.org/wiki/Real-time_polymerase_chain_reaction
+
+[[Two common methods for the detection of PCR products in real-time PCR|https://www.youtube.com/watch?v=edJEY5g4X8k#t=7m]], all based on [[Fluorophore]]s, are:
+
+#non-specific fluorescent dyes that intercalate with any double-stranded DNA, and
+
+#sequence-specific DNA probes consisting of oligonucleotides that are labelled with a fluorescent reporter which permits detection only after hybridization of the probe with its complementary sequence.
+
+#''SYBR Green''
+
+## ''TaqMan probe''. These fluorescent reporters are non-fluorescent on the solution, but once they bind to the DNA, and Taq polymerase reaches them, the fluorescent group separates from the [[quenching|Quenching (Fluorescence)]] group and becomes fluorescent.
+
+## ''Molecular beacon''
+
+!!!__Primers__
+
+primer design programs have been developed for the production of amplicons with minimal potential for cross-hybridization ([[src|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC291882/]])
+
+!!!__Probes__
+
+__SYBR Green__
+
+[img[http://www.sigmaaldrich.com/content/dam/sigma-aldrich/articles/protocols/biology/qpcr-technology.jpg]]
+
+__TaqMan probe__
+
+Most common
+
+[img[https://upload.wikimedia.org/wikipedia/commons/1/1d/TaqMan_Probes.jpg]] Functioning of the TaqMan probe sequence-specific fluorophore
+
+[img[TaqMan_probe.png]]
+
+The advantage of this is that even if the probe binds to an incorrect strand, you also need the polymerase to break it, which requires the primer, which is also specific. This significantly reduces the probability of error over molecular beacons, for instance!
+
+__Molecular beacon__
+
+[img[http://www.sigmaaldrich.com/content/dam/sigma-aldrich/life-science/custom-dna-probes/molecular-beacons.jpg]]
+
+!!!__Apparatus__
+
+The fluorescence is measured with an [[Spectrofluorometer]]
+
+[[vid|https://www.youtube.com/watch?v=edJEY5g4X8k#t=5m]]
+
+!!!__Quantitative PCR (qPCR)__
+
+Application of real-time PCR to measure the initial concentration of the DNA sequence that are being amplified. As this is what's almost always done real-time PCR and qPCR are often used interchangeably.
+
+qPCR has sensitivity that is five orders of magnitude higher than blotting techniques!
+
+!!__Applications__
+
+Real-Time PCR—also called quantitative polymerase chain reaction (qPCR)—is one of the most powerful and sensitive gene analysis techniques available and is used for a broad range of applications including
+
+* [[Genotyping]]
+** genetic variation of inter and intra organisms
+** [[Single-nucleotide polymorphism]] analysis / mutation analysis. See [[here|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2224295/]] and [[here|http://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-015-1121-7]]. In order to distinguish the DNA of different lineages, hybridization probes were designed to recognize unique SNPs that are specific to particular lineages/sublineages.
+** ''pathogen detection''. [[PDF|http://home.appliedbiosystems.com/about/presskit/pdfs/pathogen_detection.pdf]]. PCR assays that discriminate between microorganisms based on a signal from specific nucleic acid sequences, for instance by SNP genotyping.
+**  automated diagnosis of food-borne pathogens throughout the food chain
+
+* Diagnosing diseases like HIV, CF, [[Sickle cell anemia]], Thalassemia, Phenyl ketonuria, etc.
+** HIV. Proviral human immunodeficiency virus type 1 (HIV-1) DNA could be a useful marker for exploring viral reservoirs and monitoring antiretroviral treatment, particularly when HIV-1 RNA is undetectable in plasma. [[Article|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC87929/]]
+** [[Other|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC153887/]]
+
+__[[Real-time RT PCR]]__
+
+* quantitative gene expression analysis. When studying gene expression with real-time polymerase chain reaction (PCR), scientists usually investigate changes – increases or decreases – in the expression of a particular gene or set of genes by measuring the abundance of the gene-specific transcript. The investigation monitors the response of a gene to treatment with a compound or drug of interest, under a defined set of conditions. 
+** drug target validation/ drug response analysis. See [[here|https://www.thermofisher.com/uk/en/home/life-science/pcr/real-time-pcr/qpcr-education/what-can-you-do-with-qpcr/introduction-to-gene-expression.html]]
+* measuring [[RNA interference]]. See [[Reverse transcription PCR]], and [[here|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2850347/]]
+** drug target validation/ drug response analysis. See [[here|https://www.researchgate.net/publication/232732069_Quantitative_Realtime_Polymerase_Chain_Reaction_in_Cancer_Drug_Target_Identification_and_Validation]]. 
+
+The PCR based detection technologies utilizing species- specific primers are proving indispensable as research tools. The RT PCR allows quantitative genotyping and detection of single nucleotide polymorphisms and allelic discrimination as well as genetic variation.
+
+[[Real-Time PCR: Revolutionizing Detection and Expression Analysis of Genes|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2430684/]]
+
+Frequently, real-time polymerase chain reaction is combined with reverse transcription to quantify messenger RNA (mRNA) and microRNA (miRNA) in cells or tissues. This is then called [[Real-time RT PCR]]
+
+See more [[here|https://www.thermofisher.com/uk/en/home/life-science/pcr/real-time-pcr/qpcr-education/qpcr-vs-digital-pcr-vs-traditional-pcr.html]] and [[here|https://www.youtube.com/watch?v=edJEY5g4X8k#t=3m34s]]
+
+* Quantification of mRNA, and thus [[Gene expression]] (research and gene therapy diagnostics)
+
+* Gene therapy distribution and expression assays
+* Cell bank copy number analysis
+* Expression system development
+* Residual RNA analysis
+* GMO analysis
+* human and veterinary diagnostics
+* blood products quality control
+
+
+
+----------------
+
+[[Real time vs traditional PCR|http://www.gene-quantification.de/abi-rtpcr-pcr.pdf]] In traditional [[PCR|Polymerase chain reaction]], [[Agarose gel|Agarose gel electrophoresis]] results are obtained from the end point of the reaction, which, I think, is made up of [[DNA double strand]]s
+
+------------------
+
+[[video|https://www.youtube.com/watch?v=edJEY5g4X8k]]

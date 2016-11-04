@@ -1,6 +1,21 @@
 created: 20160905063741398
-modified: 20160905075114828
+creator: cosmos
+modified: 20161013202753584
+modifier: cosmos
+tags: [[Organic compound]]
 title: Aromatic compound
 type: text/vnd.tiddlywiki
 
-An [[Organic compound]] that contains at least one resonant ring group, the most common of which is the [[Benzene]] ring.
+An [[Organic compound]] that contains at least one cyclic (ring-shaped), planar (flat) [[Moiety]] with a ring of resonance bonds (most often a [[Conjugated system]]) that exhibits more stability than other geometric or connective arrangements with the same set of atoms. Aromatic moieties are very stable and do not easily break apart and react with other substances.
+
+The most common of these rings is the [[Benzene]] ring.
+
+Existence of such a stable [[resonant|Resonance (Chemistry)]] cyclic can often be determined using [[Huckel's rule]]
+
+[[Aromatic Compounds and Huckel's Rule|https://www.youtube.com/watch?v=RaBI3lAACKg]]
+
+There is a class of resonant rings that are very unstable, known as [[Antiaromatic compound]]s. Finally there are resonant rings which are non-aromatic (neither aromatic nor antiaromatic).
+
+[[Aromatic, Antiaromatic, or Nonaromatic: How To Tell The Difference|https://www.youtube.com/watch?v=eK8S51L8juo]]
+
+[[Aromatic Heterocycles I|https://www.youtube.com/watch?v=vAW9t5uBr08]]

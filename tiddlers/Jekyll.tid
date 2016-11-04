@@ -1,7 +1,10 @@
 created: 20160627204957352
 creator: guillefix
-modified: 20160627204958635
-modifier: guillefix
+modified: 20161002144624887
+modifier: cosmos
 title: Jekyll
+type: text/vnd.tiddlywiki
 
 To deploy: `bundle exec jekyll serve --watch`
+
+See [[here|https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/]] for set-up

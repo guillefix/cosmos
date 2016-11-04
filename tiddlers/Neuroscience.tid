@@ -1,13 +1,18 @@
 created: 20160321215117738
 creator: guillefix
-modified: 20160624000414783
-modifier: guillefix
-tags: Biology
+modified: 20161024140357215
+modifier: cosmos
+tags: Biology [[Human intelligence]]
 title: Neuroscience
+type: text/vnd.tiddlywiki
+
+The study of the [[Brain]], and the [[Nervous system]]
 
 https://www.youtube.com/watch?v=4y43qwS8fl4
 
 [[The brain dictionary|https://www.youtube.com/watch?v=k61nJkx5aDQ]]
+
+[[Organizing conceptual knowledge in humans with a gridlike code|http://science.sciencemag.org/content/352/6292/1464.full?ijkey=sXaWNaNjkIcik&keytype=ref&siteid=sci]]
 
 [[Cognitive science]]
 
@@ -20,3 +25,40 @@ See [[Neuronal network]], and [[Neuromorphic computing]].
 !!__[[Hebbian theory]]__
 
 "Cells that fire together, wire together."
+
+!!__[[Brain]]__ 
+
+!!__Neural code__
+
+Firing rate <> Amplitude of estimulus.
+
+Firing pattern also encodes information.
+
+[[Grid cell]]s in the [[Entorhinal cortex]]
+
+Prediction error
+
+Temporal coding
+
+Binding through coherence. [[Brain oscillation]]s
+
+!!__Movement__
+
+Sensory-motor coordination.
+
+Inverse model, neural emulator.
+
+[[Reinforcement learning]]!
+
+Hummunculus
+
+!!__Computational neuroscience__
+
+From brain activity
+
+Circuits <> Computations <> Behaviour
+
+In trying to understand machinery we often assume as if it was constructed, but it evolved
+
+!!__[[Consciousness]]__
+

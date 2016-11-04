@@ -1,16 +1,17 @@
 created: 20160406164853743
 creator: guillefix
-modified: 20160617170619492
-modifier: guillefix
+modified: 20161017095700957
+modifier: cosmos
 title: New advances in deep learning
+type: text/vnd.tiddlywiki
 
-''Batch normalization'': [[Batch normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift|http://arxiv.org/abs/1502.03167]] <mark>[[an explanation|https://standardfrancis.wordpress.com/2015/04/16/batch-normalization/]]</mark>
+!!![[Batch normalization]]
 
 [[ Deep Networks with Stochastic Depth|http://arxiv.org/abs/1603.09382v1]] [[Stochastic Depth Networks will Become the New Normal|http://deliprao.com/archives/134]]
 
 [[ Highway Networks|http://arxiv.org/abs/1505.00387]]
 
-''Dropout'': [[ Dropout: A Simple Way to Prevent Neural Networks from Overfitting |http://jmlr.org/papers/v15/srivastava14a.html]]
+!!![[Dropout]]
 
 https://en.m.wikipedia.org/wiki/Modular_neural_network STN?
 
@@ -31,3 +32,7 @@ http://arxiv.org/abs/1604.00790 bidirectional LSTM
 http://www.computervisionblog.com/2016/06/deep-learning-trends-iclr-2016.html
 
 Adversarial networks
+
+Neural Turing machines, neural programmers-interpreters
+
+http://www.kdnuggets.com/2016/09/9-key-deep-learning-papers-explained.html

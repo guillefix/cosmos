@@ -1,0 +1,10 @@
+created: 20160916114914111
+creator: cosmos
+modified: 20160916115121599
+modifier: cosmos
+title: Signed network
+type: text/vnd.tiddlywiki
+
+A [[Network]] that has //signed edges//, that is its edges can have an associated weight $$+1$$ (like friendship) or $$=1$$ (like animosity).
+
+These networks can experience [[Structural balance]], and [[Frustration]]

@@ -1,0 +1,14 @@
+created: 20161014134637851
+creator: cosmos
+modified: 20161014143705266
+modifier: cosmos
+title: Reverse transcription PCR
+type: text/vnd.tiddlywiki
+
+''Reverse transcription polymerase chain reaction''
+
+RT-PCR is used to clone expressed genes by reverse transcribing the RNA of interest into its DNA complement through the use of reverse transcriptase, using oligo-DT, which substitutes for the role of primers. Subsequently, the newly synthesized cDNA is amplified using traditional [[PCR|Polymerase chain reaction]].
+
+!!![[Real-time RT PCR]] (qRT-PCR)
+
+https://en.wikipedia.org/wiki/Reverse_transcription_polymerase_chain_reaction

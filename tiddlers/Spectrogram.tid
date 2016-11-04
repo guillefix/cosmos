@@ -1,0 +1,8 @@
+created: 20160918143932386
+creator: cosmos
+modified: 20160918144018474
+modifier: cosmos
+title: Spectrogram
+type: text/vnd.tiddlywiki
+
+A plot of the time-windowed [[Spectrum]] of a [[Sound]] signal versus [[Time]]

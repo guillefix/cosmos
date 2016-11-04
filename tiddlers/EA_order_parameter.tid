@@ -1,0 +1,16 @@
+created: 20160916154810399
+creator: cosmos
+modified: 20160916154836283
+modifier: cosmos
+title: EA order parameter
+type: text/vnd.tiddlywiki
+
+Edwards and Anderson (who introduced the [[Edwards-Anderson Hamiltonian]]) asked what kind of ordering the spin glass phase, should it exist, would exhibit. 
+
+Their proposal was that the spin glass is disordered in space, but that at the same time, they are ''ordered in time'', representing the “frozenness” of the spins in the spin glass phase. That is, if you measure a spin on a particular site as pointing in a particular direction, wait an arbitrarily long time, and take another look, you’ll see the spin still pointing in that direction. On the other hand, if there is no true spin glass phase, then the time correlation of spin orientation at any given site should gradually decay. This decay would be very slow, similar to the arrested, but not permanently static, flow of atoms in a glass.
+
+[img[Selection_617.png]]
+
+This happens if the ground state is not invariant under the flip of a spin, i.e. there is "broken spin-flip symmetry" (Note that the symmetry is {flipping all spins simultaneously}, not flipping them individually!). Of course, this is true in the ferromagnetic and antiferromagnetic and other magnetically ordered phases as well: it is the lack of any obvious spatial order, coupled with the ordering in time, that sets the spin glass apart. 
+
+Actually, it turned out there is an infinity of order parameters, see [[Replica symmetry breaking]]

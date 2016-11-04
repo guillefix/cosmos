@@ -1,0 +1,14 @@
+created: 20160921133844421
+creator: cosmos
+modified: 20160921140920672
+modifier: cosmos
+title: Dropout
+type: text/vnd.tiddlywiki
+
+A [[Regularization]] method for [[deep|Deep learning]] [[neural networks|Artificial neural network]], which works by dropping out random neurons/nodes in the network, while training. This avoids [[overfitting|Overfitting and underfitting]] by forcing the network to learn more robust models, that tend to be simpler.
+
+[[How does the dropout method work in deep learning?|https://www.quora.com/How-does-the-dropout-method-work-in-deep-learning]]
+
+[[ Dropout: A Simple Way to Prevent Neural Networks from Overfitting |http://jmlr.org/papers/v15/srivastava14a.html]]
+
+See also [[New advances in deep learning]]

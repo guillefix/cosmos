@@ -1,0 +1,37 @@
+created: 20161024100519351
+creator: cosmos
+modified: 20161024103441845
+modifier: cosmos
+tags: Biophysics Electricity
+title: Bioelectricity
+type: text/vnd.tiddlywiki
+
+[[Electricity]] in [[biological|Biology]] systems, mostly due to movement of free [[Ion]]s (ionic current)
+
+* [[Ion channel]]
+
+__Main biological ions__
+
+* [[Potassium]]
+* [[Sodium]]
+* [[Calcium]]
+* [[Chloride]]
+
+!!__Electrical properties of [[Cell membrane]]s__
+
+* [[Membrane potential]]: -20 to -200mV. [[Voltage]] difference between [[Cytoplasm]] and exterior. 
+* Membranes are very effective [[Capacitor]]s. Can estimate membrane [[Capacitance]]
+
+3 to 5nm with $$\Delta V$$ = 90mV --> $$3 \times 10^7 $$V/m. Very high!
+
+Using [[Nernst equation]] we can calculate voltage due to separation of a single ion species across membrane. Equilibrium condition..
+
+Goldman-Hotchkin-Katz.. equation.
+
+__Sodium-potassium pump__ pumps 3 sodium ions out per potassium ion in. There are also ion channels that are only permeable to potassium, which increases the membrane potential
+
+!!__History of bioelectricity__
+
+Luigi Galvani. Make muscle moves with tweezers, [[Electrochemistry]] involved. His nephew would reanimate certain parts of the human body --> inspired [[Frankestein]]. Galvanized corpse!
+
+[[Salt]] is actually enough to make muscle twitch, by changing ion balance in the nerves. Don't put salt in a [[Wound]]...

@@ -1,5 +1,7 @@
 created: 20160807223324400
-modified: 20160807231818528
+creator: cosmos
+modified: 20161026161849629
+modifier: cosmos
 title: Linear programming
 type: text/vnd.tiddlywiki
 
@@ -15,3 +17,9 @@ A ''linear program'' is a type of [[Optimization]] problem where the objective a
 !!__Applications__
 
 * [[Operations research]]
+
+----------------------
+
+Linear model with absolute loss can be rewritten as a linear problem
+
+Can rewrite inequality with absolute values as two inequalities without absolute values.

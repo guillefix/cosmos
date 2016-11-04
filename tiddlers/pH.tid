@@ -1,0 +1,39 @@
+created: 20160920165516436
+creator: cosmos
+modified: 20161009175319146
+modifier: cosmos
+title: pH
+type: text/vnd.tiddlywiki
+
+A measure of [[Concentration]] of [[Hydrogen ion]]s in a [[solution|Solution (Chemistry)]]. It is defined as:
+
+$$\text{pH} = -\log{[\text{H}^+]}$$
+
+where $$[\text{H}^+]$$ is in units of [[Molarity]]. Thus pH = 7, refers to  $$[\text{H}^+] = 10^{-7}$$ M. 
+
+The pH also indirectly expresses the concentration of [[Hydroxyde]] ions, in an aqueous solution. This is because [[Water]] molecules dissociate to form H^^+^^ and OH^^-^^ in a process:
+
+$$H_2 O \rightleftharpoons H^+ + OH^-$$
+
+The [[Equilibrium constant]] for this dissociation is
+
+$$K = \frac{[H^+][OH^-]}{[H_2 O]}$$
+
+and has a value of $$K = 1.8 \times 10^{-16}$$, where the concentrations are in molarity units.
+
+The concentration of water in pure water, $$[H_2 O]$$, is 55.5 M, and is constant under most conditions. We can then define a new constant:
+
+$$K_W = K [H_2 O] = [H^+][OH^-]$$
+$$ =  10^{-14}$$, 
+
+so
+
+$$ [OH^-] = \frac{10^{-14}}{ [H^+]}$$
+
+!!!See also [[Acid-base equilibria]]
+
+* [[Acid]]
+
+* [[Base]]
+
+http://www.bbc.co.uk/education/guides/znhcwmn/revision

@@ -1,12 +1,12 @@
 created: 20160914151711312
 creator: cosmos
-modified: 20160914153539523
+modified: 20160919171107445
 modifier: cosmos
-tags: [[Clustering algorithm]]
+tags: Clustering
 title: K-means algorithm
 type: text/vnd.tiddlywiki
 
-[[Intro vid|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=5m]]
+[[Intro vid|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=5m]] -- [[K Means with Titanic Dataset - Practical Machine Learning Tutorial with Python p.36|https://www.youtube.com/watch?v=j6jstahQp2A&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&index=36]]
 
 Input is an unlabelled data set $$x_1, x_2, ..., x_m \in \mathbb{R}^n$$
 

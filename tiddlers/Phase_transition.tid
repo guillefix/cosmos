@@ -1,9 +1,10 @@
 created: 20160128012650775
 creator: guillefix
-modified: 20160501180848296
-modifier: guillefix
+modified: 20160916143840238
+modifier: cosmos
 tags: [[Condensed matter physics]]
 title: Phase transition
+type: text/vnd.tiddlywiki
 
 __Qualitative picture__
 
@@ -43,7 +44,7 @@ Describing phase transitions in terms of a free energy, which is a function of t
 
 Ginzburg-Landau theory in [[Statistical field theory]]: write down most general free energy that is consistent with known __symmetries__ of the order parameter. Assume it can be written in power series and stop hen additional terms don't change the behaviour of interest.
 
-Symmetries. [[Symmetry breaking]]. Correlation functions, etc. Critical exponents (describe behavior of thermodynamic functions near critical point).
+Symmetries. [[Symmetry breaking]], [[Metastability]]. Correlation functions, etc. Critical exponents (describe behavior of thermodynamic functions near critical point).
 
 __Order of transition__
 
@@ -51,3 +52,19 @@ __Order of transition__
 * //Second order//: order paramter changes continuously. 2nd derivative of free energy discontinuous. Like transition from liquid to gas at critical point.
 
 !!!__Critical exponents and universality__
+
+!!__Examples of phase transitions__
+
+[[Evaporation]]
+
+[[Melting]]
+
+[[Sublimation]]
+
+[[Solidification]]
+
+[[Crystallization]]
+
+[[Percolation phase transition]]
+
+[[Spin glass phase transition]]

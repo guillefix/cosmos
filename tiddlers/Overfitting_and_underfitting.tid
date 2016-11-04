@@ -1,6 +1,6 @@
 created: 20160914090135656
 creator: cosmos
-modified: 20160914090701823
+modified: 20160917101049380
 modifier: cosmos
 title: Overfitting and underfitting
 type: text/vnd.tiddlywiki
@@ -15,7 +15,7 @@ Overfitting and underfitting refer to ways of misstraining a model, i.e., making
 
 ''Overfitting''. A learning algorithm with low bias (it is more //flexible//), which however has a lot of variance, as it fits the idiosyncrasies of the data; it fits the noise.
 
-[[See explanation here|https://www.youtube.com/watch?v=JfkbyODyujw&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=14#t=6m45s]]
+[[See explanation here|https://www.youtube.com/watch?v=JfkbyODyujw&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=14#t=6m45s]] and [[here|https://www.youtube.com/watch?v=Fs-raHUnF2M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=16#t=9m05s]]
 
 [img[https://lh3.googleusercontent.com/1vNipHvUofw7v2XurbRcoKWdrha4XwW2Wg6iv_CjnPJ7yaJeLuOGPHEXP5r0bHiXDa5jXmi3gXWzRs-rnOmoWT2qdrpDlhqoPaINOW1e8wCnkcMmsfjL5I7MAnuysZNkA0ZS-AduSU6My_vj8QjrLwgU7PtqeOxEmOHYOzJMm1COtI55peywxXwYc4Ot0XMg3WSk4ctE620Fg-kQuA8Zw86ejVU0wPx4C6f-yYJYDol4KmH_zV43EJREoK0ZJaU0v4j54Luq0_enrS9FA4oPcWX5v4h6hTCXJq3aubFRI-HBAP0Az3Js3cA9ZxPQV0U-1MZBCEdfI-0b87bEVSEAvZ7vsWTfyadsG43bfwc8ZGr4XRhXWYVlGj48WxrpQyTPFhPQMXNoiRURzx5bm4ZHukhomdEE98JJ4c5XqhybUHdIk6qJbUS7BXjcYaBlm3z8bGiBlPtDSdt61a59mbotPi7DS3N-LdHrHUd3PXtG59t_5fHfKi3WpqNS_dJOefgRukPJ0OAK4fE579XHNw_8l0Fi2mAqsP7Y8WNm1lg8yXQI2c6hrlGzWt2jO_4it_Zef_2r=w1269-h675-no]]
 

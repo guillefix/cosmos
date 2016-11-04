@@ -1,13 +1,68 @@
 created: 20160702121112633
 creator: guillefix
-modified: 20160702121809552
-modifier: guillefix
+modified: 20161024111405835
+modifier: cosmos
+tags: [[Channel protein]]
 title: Ion channel
+type: text/vnd.tiddlywiki
 
 A [[Membrane protein]] that regulates the flow of ions. This is a kind of active [[Cell transport]].
+
+They can be open or closed and work as molecular electric nanoswitches.
 
 [[A permeation theory for single-file ion channels: Corresponding occupancy states produce Michaelis–Menten behavior|http://scitation.aip.org/content/aip/journal/jcp/117/24/10.1063/1.1522709]]
 
 [[A permeation theory for single-file ion channels: Concerted-association’dissociation |http://www.circle4.com/nelson/pubs/nelson2003.pdf]]
 
 [[A permeation theory for single-file ion channels: One- and two-step models|http://scitation.aip.org/content/aip/journal/jcp/134/16/10.1063/1.3580562]]
+
+!!__Examples__
+
+__GABA receptors__
+
+__Sodium-potassium pump__
+
+Uses huge amount of [[ATP]]
+
+!!__Properties__
+
+Selective to particular [[Ion]]s
+
+Gating: they switch between open and close state due to certain signals:
+
+* Ligands
+* Voltage
+* Mechanical signal: membrane stress, as in the sense of Touch!
+
+[img[http://www.nature.com/scitable/content/ne0000/ne0000/ne0000/ne0000/14615298/zagotta_440427a-f1.2_2_1.jpg]]
+
+__Selectivity for potassium__
+
+Sodium, being smaller but with same charge has a larger electric field around it. The selectivity is due to the fact that the ions are in [[Water]] [[Solution (Chemistry)]]. Potassium is easier to dehydrate as it attracts water less strongly as it's bigger.
+
+Isoenergetic and aquomimetic diffusion pahtway..
+
+The [[Carbonyl]] group in the [[Peptide bond]] gives the polar bond (like those in water). Their arrangement mimicks the arrangament of water molecules in the hydration shell of the selected ion!
+
+[img[http://www.nature.com/nrn/journal/v4/n12/images/nrn1244-f3.jpg]]
+
+__Selectivity for sodium and calcium__
+
+Ongoing research
+
+__Voltage sensing__
+
+Positive charges (often Arginines --NH,,3,,^^+^^) in S4 subunit act as voltage sensor
+
+Electromechanical coupling
+
+
+!!__Experimental techniques__
+
+[[Patch clamp method]]
+
+-------------
+
+Armstrong. Life among the axons (2007)
+
+How good were the early predictions for the mechanics of ionic selectivity and voltage sensitivity?

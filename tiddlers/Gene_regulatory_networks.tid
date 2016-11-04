@@ -1,11 +1,23 @@
 created: 20160424004715321
 creator: guillefix
-modified: 20160426192617775
-modifier: guillefix
+modified: 20161014124234524
+modifier: cosmos
 tags: Genetics
 title: Gene regulatory networks
+type: text/vnd.tiddlywiki
+
+,,change title to singular...,,
 
 Epigenetics..
+
+!!__Regulatory mechanisms__
+
+* [[Transcription factor]]s
+* [[Chromatin]] remodelling. Tagging histones, etc. to reveal or conceal certain parts of [[DNA]]
+* [[microRNA]]
+* [[RNAi]]
+
+--------------
 
 !!!__GP map bias__
 

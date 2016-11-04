@@ -1,0 +1,35 @@
+created: 20160916172705813
+creator: cosmos
+modified: 20161026165658799
+modifier: cosmos
+tags: [[Gradient descent]]
+title: Stochastic gradient descent
+type: text/vnd.tiddlywiki
+
+An stochastic version of [[Gradient descent]], which can be used for [[Online learning]]
+
+To calculate gradients, for [[Artificial neural network]]s, we use [[Backpropagation]]
+
+[[Nando's vid|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=35m05s]] -- [[Hugo's vid|https://www.youtube.com/watch?v=5adNQvSlF50&index=7&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=6m50s]]
+
+See [[Learning theory]] for more on optimization for learning.
+
+,,
+(//Online algorithm//, you process the data sequentially, by chunks. You need this if you do not access to all of it at the same time, or you have so much data that not all of it fits on your RAM..)
+,,
+You only use a mini-batch (a small sample) of input data at a time, in practice
+
+There're theorems that show that this converges well.
+
+Downpour -- Asynchronous SGD
+
+[[Polyak averaging|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=49m30s]]. Running average over the parameter values at all time steps performed up to now.
+
+[[Momentum|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=50m40s]]. You add inertia to the particle so that the gradient descent is not just velocity = gradient (as it'd be in viscous fluid), but it is acceleration = (viscosity) + gradient.
+
+[[Adagrad|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=52m40s]]: Put more weight on rare features [Duchi et al]. <b> Very useful </b> Rare features (i.e. value along a dimension for example) tend to have more information, i.e., they are able to tell you more about what the output $$y$$ should be. This seems maybe related to [[AIT|Algorithmic information theory]]. Compensate for underrepresetantion in gradient descent of rare features
+
+''AdamOptimizer''
+
+[[rmsprop|http://climin.readthedocs.io/en/latest/rmsprop.html]] is an optimizer that utilizes the magnitude of recent gradients to normalize the gradients
+

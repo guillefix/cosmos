@@ -1,5 +1,7 @@
 created: 20160905131404796
-modified: 20160906091556201
+creator: cosmos
+modified: 20161003073854252
+modifier: cosmos
 tags: Inheritance
 title: Mode of inheritance
 type: text/vnd.tiddlywiki
@@ -11,3 +13,5 @@ A ''mode of inheritance'' refers to a particular way a [[Phenotype]] may be inhe
 [[Autosomal|Autosomal inheritance]]: the gene is in a non-sex chromosome (an //autosome//).
 
 Dominant, recessive, etc: [[Genetic dominance]]
+
+[[Pedigree analysis|https://www.youtube.com/watch?v=VQmZXw8UBh4]]

@@ -1,6 +1,6 @@
 created: 20160709020641282
 creator: guillefix
-modified: 20160901091248201
+modified: 20160919170724430
 modifier: cosmos
 title: Support vector machine
 type: text/vnd.tiddlywiki
@@ -11,9 +11,9 @@ A method for discriminative [[Supervised learning]], that is for [[Classificatio
 
 [[Andrew Ng lec intro|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=44m05s]] -- [[Notes|http://cs229.stanford.edu/notes/cs229-notes3.pdf]] -- 
 [[Wiki|https://www.wikiwand.com/en/Support_vector_machine]]
+ -- [[Notation|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=51m15s]]
 
-
-[[Notation|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=51m15s]]
+[[Support Vector Machine Intro and Application - Practical Machine Learning Tutorial with Python p.20|https://www.youtube.com/watch?v=mA5nwGoRAOo&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&index=20]]
 
 !!__Maximum/Optimal margin classifier__
 
@@ -53,6 +53,8 @@ Prediction can be written down using inner products: see [[here|https://www.yout
 
 !!__Kernels__
 
+,,[[Kernels Introduction - Practical Machine Learning Tutorial with Python p.29|https://www.youtube.com/watch?v=9IfT8KXX_9c&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&index=29]],,
+
 Allow the computation of the inner products, that appear in the formulas for SVMs, more effectively
 
 [[Idea of a Kernel|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=4m]]
@@ -74,6 +76,8 @@ __Examples of kernels__
 !!![[Kernels can be applied to other learning algorithms|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=34m30s]]!
 
 !!__$$L1$$ norm soft margin SVM__
+
+[[Soft Margin SVM - Practical Machine Learning Tutorial with Python p.31|https://www.youtube.com/watch?v=JHaqodAQqiI&index=31&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v]]
 
 Soft margin is a method to <b>deal with non-linearly separable decision boundaries</b>. 
 

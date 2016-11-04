@@ -1,0 +1,8 @@
+created: 20161010120944947
+creator: cosmos
+modified: 20161010121106876
+modifier: cosmos
+title: Hamiltonian
+type: text/vnd.tiddlywiki
+
+A quantity that is conserved due to the [[Time invariance]] of a physical system described with a [[Lagrangian]]. It is most often equal to the total [[Energy]] of the system. It also gives rise to a formulation of [[Classical mechanics]], and a natural way of doing [[Quantization]].

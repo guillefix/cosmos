@@ -1,6 +1,6 @@
 created: 20160208182628722
 creator: guillefix
-modified: 20160905111609161
+modified: 20160920160125393
 modifier: cosmos
 tags: Biology [[Organic chemistry]]
 title: Biochemistry
@@ -8,7 +8,7 @@ type: text/vnd.tiddlywiki
 
 The branch of science concerned with the chemical and physicochemical processes that occur within living organisms.
 
-See also [[Molecular biology]]
+See also [[Molecular biology]], for the way [[Biochemistry]] drives biology at the molecular scale.
 
 !!__[[Metabolism]]__
 
@@ -28,6 +28,27 @@ See also [[Molecular biology]]
 [[Nucleic acid]]
 
 [[Biological Molecules - You Are What You Eat: Crash Course Biology #3|https://www.youtube.com/watch?v=H8WJ2KENlK0&index=3&list=PL3EED4C1D684D3ADF]]
+
+__According to size__
+
+* Biological macromolecules are large:
+** [[Protein]]s
+** [[Nucleic acid]]s
+* Metabolites are low-molecular-weight molecules, such as [[Glucose]], or [[Glycerol]]
+
+!!__[[Molecular evolution]]__
+
+In most cases, new challenges that an organism faces, are solved by the adaptation of an existing macromolecule, rather than by the evolution of an entirely new one.
+
+!!__[[Biochemical genetics]]__
+
+-----------------
+
+!!__[[Structural biology]]__
+
+Structural biology has greatly benefited biochemistry, with the discovery of the detailed 3-dimensional structure of macromolecules. See [[Protein structure analysis]]
+
+//there is an intimate relation between structure (form) and function in biology//
 
 --------------
 

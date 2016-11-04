@@ -1,16 +1,36 @@
 created: 20160405190342383
 creator: guillefix
-modified: 20160915201544704
+modified: 20160920084557128
 modifier: cosmos
 title: Natural language processing
 type: text/vnd.tiddlywiki
 
-See [[Convolutional neural network]] for more; also [[Formal language]]
+Processing of [[Natural language]], by [[computers|Computer science]].
+
+!!__Techniques__
+
+[[NLP with python|https://pythonprogramming.net/tokenizing-words-sentences-nltk-tutorial/]]
+
+!!!__[[Deep learning]]__
+
+[[Convolutional neural network]], [[Transfer learning]] (for learning embeddings), [[Recurrent neural network]] ([[Long short-term memory]])
 
 Hybrid character-word NNs: http://arxiv.org/pdf/1604.00788v1.pdf
 
+[[Latent semantic indexing]]
+
+!!!__[[Parsing]]__
+
+[[Google SintaxNet (includes Parsey MacParseface)|https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html]] [[code|https://github.com/tensorflow/models/tree/master/syntaxnet]]. See [[Grammar]]
+
+!!!__Features for NLP__
+
+Word vectors: see [[Processing our own Data - Deep Learning with Neural Networks and TensorFlow part 5|https://www.youtube.com/watch?v=7fcWfUavO7E&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&index=48]]
+
+---------------------------
+
 [[Visual question/answering system|http://iamaaditya.github.io/2016/04/visual_question_answering_demo_notebook]]
 
-[[Google SintaxNet (includes Parsey MacParseface)|https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html]] [[code|https://github.com/tensorflow/models/tree/master/syntaxnet]]
+!!__Software for NLP__
 
-[[Latent semantic indexing]]
+[[Natural Language Toolkit (python)|http://www.nltk.org/]] It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-strength NLP libraries

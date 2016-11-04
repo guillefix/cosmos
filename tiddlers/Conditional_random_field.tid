@@ -1,0 +1,69 @@
+created: 20160918162909317
+creator: cosmos
+modified: 20160918212544493
+modifier: cosmos
+tags: [[Random field]]
+title: Conditional random field
+type: text/vnd.tiddlywiki
+
+A discriminant [[Markov network]], used for [[Supervised learning]] tasks.
+
+[[Neural networks [3.1] : Conditional random fields - motivation|https://www.youtube.com/watch?v=GF3iSJkgPbA&index=18&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH]].
+
+__Motivation__: [[Sequence classification]], where the random variables in the sequence aren't i.i.d, in particular, they need not be independent! More generally, CRFs are used when we want to model random variables that have dependencies ([[Graphical model]]).
+
+__Approach of ''conditional random field''s (CRF)__: [[model joint distribution|https://www.youtube.com/watch?v=GF3iSJkgPbA&index=18&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=2m40s]], i.e. model the [[Stochastic process]] generating the data. [[Notation|https://www.youtube.com/watch?v=GF3iSJkgPbA&index=18&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=3m30s]]
+
+!!__Linear chain CRF__
+
+[[Neural networks [3.2] : Conditional random fields - linear chain CRF|https://www.youtube.com/watch?v=PGBlyKtfB74&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=19]]
+
+[[Definition|https://www.youtube.com/watch?v=PGBlyKtfB74&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=19#t=2m47s]]. The current label prediction depends on the just observed input, and the adjacent inputs in the sequence.
+
+[[Informal neural network representation|https://www.youtube.com/watch?v=PGBlyKtfB74&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=19#t=7m40s]]
+
+!!!__Context window__
+
+[[Neural networks [3.3] : Conditional random fields - context window|https://www.youtube.com/watch?v=G4lnHc2M1CA&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=20]]. A context window refers to the set of inputs that affect a particular output label prediction
+
+__[[Unary and pairwise log-factors|https://www.youtube.com/watch?v=G4lnHc2M1CA&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=20#t=9m10s]]__
+
+Terms that go into the exponential of a [[Softmax]]. They are unary, or pairwise, depending on whether these terms depend on one label $$y$$ or on two labels.
+
+!!!__Partition function__
+
+[[Neural networks [3.4] : Conditional random fields - computing the partition function|https://www.youtube.com/watch?v=fGdXkVv1qNQ&index=21&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH]], gives rise to the $$\alpha$$ and $$\beta$$ vectors/tables. These give the partial sum in the partition function, involving all the terms to the left of a given position in the sequence for $$\alpha$$, and to the right for $$\beta$$. Thus they will be useful for things like computing [[Marginal probability]]es
+
+Computing these tables is known as the ''forward-backward algorithm'' for CRFs, respetively. It has other names, such as [[Belief propragation]] (see [[Dynamical systems on networks]]), ''sum-product'' algo. Actually more stable implementation by working on log space. [[Further trick to make it more numerically stable|https://www.youtube.com/watch?v=fGdXkVv1qNQ&index=21&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=22m20s]]
+
+!!!__Computing marginals__
+
+[[Neural networks [3.5] : Conditional random fields - computing marginals|https://www.youtube.com/watch?v=hjkwp-eDwt8&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=22]]. For instance, computing the probability of a single label at a given position $$k$$ in the sequence. Uses $$\alpha$$ and $$\beta$$ values above.
+
+!!!__[[Performing classification|https://www.youtube.com/watch?v=pQJvX9U-MyE&index=23&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH]]__
+
+At each position $$k$$, pick label $$y_k$$ with highest marginal probability $$p(y_k|\mathbf{X})$$. It turns out that this choice is the one that minimizes the sum of classification errors (generalization error) over the whole sequence, assuming the CRF is the true distribution! See [[proof|https://www.youtube.com/watch?v=pQJvX9U-MyE&index=23&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=3m20s]] (see also [[Bayesian statistics]]).
+
+[[The other option: the most probable sequence|https://www.youtube.com/watch?v=pQJvX9U-MyE&index=23&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=11m]], can be performed using [[Viterbi decoding algorithm|https://www.youtube.com/watch?v=pQJvX9U-MyE&index=23&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=11m45s]]
+
+!!__Factors, sufficient statistics__
+
+[[Neural networks [3.7] : Conditional random fields - factors, sufficient statistics and linear CRF|https://www.youtube.com/watch?v=uXV2an9TdJY&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=24]]
+
+Factors or compatibility function, which use [[Sufficient statistic]]s. Often represent a CRF as a product of factors.
+
+!!![[Linear CRF|https://www.youtube.com/watch?v=uXV2an9TdJY&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=24#t=7m2s]] (no hidden units in NNs). It's a log-linear model
+
+!!__Representations__
+
+!!!__[[Markov network]]__
+
+!!!__[[Factor graph]]__
+
+!!__[[Belief propagation]]__
+
+!__Training CRFs__
+
+!!!__Loss function__
+
+[[Neural networks [4.1] : Training CRFs - loss function|https://www.youtube.com/watch?v=6dpGB60Q1Ts&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=28]]

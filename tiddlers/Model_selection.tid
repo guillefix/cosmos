@@ -1,6 +1,6 @@
 created: 20160914085745536
 creator: cosmos
-modified: 20160914090214418
+modified: 20160916174026717
 modifier: cosmos
 title: Model selection
 type: text/vnd.tiddlywiki
@@ -15,6 +15,8 @@ type: text/vnd.tiddlywiki
 
 
 ----------
+
+__Model selection for [[Artificial neural network]]s__: [[Neural networks [2.10] : Training neural networks - model selection|https://www.youtube.com/watch?v=Fs-raHUnF2M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=16]]
 
 ,,//Old comment//: One can show (maybe technical details I don't know..) that given the real distribution of the data, and a sample used for training, one is likely to underestimate the error. So I think cross-validation can be shown rigorously to be good for assessing a model's predictive power (i.e. probability of predicting rightly). See Elements of Statistical Learning book for all details..,,
 

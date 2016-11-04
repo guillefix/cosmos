@@ -1,0 +1,12 @@
+created: 20161010115955687
+creator: cosmos
+modified: 20161010123420975
+modifier: cosmos
+title: Born-Oppenheimer approximation
+type: text/vnd.tiddlywiki
+
+A separation of scales approximation used in [[Molecular physics]], where the electrons "move" much faster than the nuclei.
+
+[[some notes|http://bohr.physics.berkeley.edu/classes/221/s16/notes/adiab.pdf]]
+
+See [[this book too|https://babel.hathitrust.org/cgi/pt?id=uc1.b3754016;view=1up;seq=10]] and my notes, and [[here|https://users.physics.ox.ac.uk/~smithb/website/coursenotes/moleculesandlasers.pdf]]

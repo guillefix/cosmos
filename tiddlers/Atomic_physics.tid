@@ -1,14 +1,21 @@
 created: 20160511102310929
 creator: guillefix
-modified: 20160622030525221
-modifier: guillefix
+modified: 20161010114954670
+modifier: cosmos
 tags: [[Molecular physics]]
 title: Atomic physics
+type: text/vnd.tiddlywiki
 
 [[Atomic physics|https://en.wikipedia.org/wiki/Atomic_physics]] is the field of physics that studies atoms as an isolated system of electrons and an atomic nucleus.
 
-See Oxford course
+See [ext[Oxford course|https://users.physics.ox.ac.uk/~smithb/qam.html]], [[Quantum mechanics]] [ext[atomic physics notes|https://users.physics.ox.ac.uk/~smithb/website/coursenotes/PE_AP_Notes.pdf]]
 
 [[MIT 8.421 Atomic and Optical Physics I, Spring 2014|https://www.youtube.com/watch?v=iwQ49oG-DO8&list=PLUl4u3cNGP62FPGcyFJkzhqq9c5cHCK32]]
 
 See [[Atomic structure]], [[Quantum mechanics]]
+
+* [[Atomic orbital]]
+
+[[Hyrogen atom|https://www.youtube.com/watch?v=ARe9ML0No6A&index=25&list=PLE73AA240E8655D16]] -- [[Other notes|http://www.nyu.edu/classes/tuckerman/adv.chem/lectures/lecture_8/node5.html]]
+
+[ext[Stark effect in Hydrogen and alkali atoms|bohr.physics.berkeley.edu/classes/221/s16/notes/stark.pdf]]

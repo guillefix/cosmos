@@ -1,0 +1,84 @@
+created: 20161026164847586
+creator: cosmos
+modified: 20161026164849710
+modifier: cosmos
+tags: Optimization [[Learning theory]]
+title: Optimization for learning
+type: text/vnd.tiddlywiki
+
+__Algorithms__
+
+* [[Gradient descent]] 
+**[[Stochastic gradient descent]]
+** [[Newton's method]]
+
+* [[EM algorithm]]
+
+
+!!__Parameter initialization__
+
+[[Neural networks [2.9] : Training neural networks - parameter initialization|https://www.youtube.com/watch?v=sLfogkzFNfc&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=15]]
+
+!!__Batch learning__
+
+The most common procedure, described above and in [[Machine learning]], where the algorithm is run on a particular data set all at once.
+
+!!!__Mini-batch learning__
+
+[[video|https://www.youtube.com/watch?v=Bver7Ttgb9M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=17#t=11m37s]]. Performing the optimization algo on a sample of a given size from the data set, per iteration.
+
+!!!__Momentum__
+
+To get through plateaus, for instance.
+
+[[Momentum|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=50m40s]]. You add inertia to the particle so that the gradient descent is not just velocity = gradient (as it'd be in viscous fluid), but it is acceleration = (viscosity) + gradient.
+
+!!!__[[Backpropagation]]__
+
+for [[Artificial neural network]]s
+
+!!__Online learning__
+
+as opposed to //batch learning//
+
+[[video|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=17m30s]]. You have to make predictions even in the process of learning.
+
+,,
+(//Online algorithm//, you process the data sequentially, by chunks. You need this if you do not access to all of it at the same time, or you have so much data that not all of it fits on your RAM..)
+,,
+
+What we care about is the [[online error|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=19m25s]]
+
+[[Can apply batch learning algos for online learning|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=19m57s]]
+
+[[Several theoretical results exist|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=21m58s]]
+
+!!__[[Simplicity and learning]]__
+
+The simplicity and structure in signals in the real-world is often seized to make the learning problem easier to solve.
+
+!!__[[Advice for applying machine learning algorithms|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=24m55s]]__
+
+!!!__[[Diagnosis for debugging learning algorithms|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=28m37s]]__
+
+Diagnostic:
+
+* High variance (overfitting) -> Training error would be much lower than test error. ([[video|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=34m05s]])
+
+* High bias (underfitting) -> Test error will also be high. ([[video|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=35m50s]])
+
+[[Ways to fix high variance or bias|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=37m50s]]
+
+[[Is the algo converging?|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=37m50s]] -- [[Are you optimizing the right function?|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=43m30s]] --> [[Diagnostic|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=45m]]
+
+[[One more example|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=50m45s]]
+
+!!!__[[Error analysis|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=1h03m20s]] and [[ablative analysis|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=1h08m48s]]__
+
+!!!__[[How to get started on a machine learning problem|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=1h11m45s]]__
+
+-- Premature (statistical) optimization ([[video|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=27m30s]])
+
+[[The dangers of over-theorizing|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=1h16m45s]]
+
+!!![[Optimization for training deep models]]

@@ -1,5 +1,7 @@
 created: 20160905104412202
-modified: 20160905105833068
+creator: cosmos
+modified: 20161018112036984
+modifier: cosmos
 title: Metabolic mechanisms
 type: text/vnd.tiddlywiki
 
@@ -12,3 +14,8 @@ Tricks that life uses to carry out specific [[Metabolic pathway]]s
 ** ''Direct coupling''. Couple two reactions so that they occur simultaneously, by making the enzyme that makes one happen, also make the other happen. See [[here|https://www.youtube.com/watch?v=C5lRsZrx_R0#t=2m]] This is another way of saying that the favourable reaction //runs// the the other reaction. The fuel of the very favorable reaction is often [[ATP]].
 
 ** ''Indirect coupling''. See [[video|https://www.youtube.com/watch?v=C5lRsZrx_R0#t=5m22s]], we deplete the products of a reaction, and so keep the reaction from reaching equilibrium, and force it to keep running forward.
+
+!!__Energy sources__
+
+* [[ATP]] --> [[Phosphorylation]] --> [[ADP]]
+* [[GTP]] --> GTP binding. [[Hydrolysis]] gives [[GDP]]

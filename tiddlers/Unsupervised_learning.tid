@@ -1,6 +1,6 @@
 created: 20160329153405246
 creator: guillefix
-modified: 20160915213022936
+modified: 20161018180922071
 modifier: cosmos
 tags: [[Machine learning]]
 title: Unsupervised learning
@@ -8,15 +8,20 @@ type: text/vnd.tiddlywiki
 
 //aka descriptive learning, knowledge discovery//
 
-See [[Machine learning]]. Given a set of data $$D=\{x^{(i)}\}_{i=1}^m $$, finding "interesting patterns in the data.
+[[Supervised vs unsupervised|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=4m47]]
+
+
+See [[Machine learning]]. Given a set of data $$D=\{x^{(i)}\}_{i=1}^m $$, finding "interesting patterns" in the data.
 
 [[Intro lec by Andrew Ng|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=34s]] -- [[Unsupervised learning|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=1m40s]]
 
 Some of these algorithms are useful for [[Supervised learning]], as a previous step of [[Model selection]], for instance for [[Feature selection]]
 
+They are also useful for modeling the prior in a [[Generative learning]] approach.
+
 [img width=300 [unsupervised_learning.PNG]] See [[this video|https://www.youtube.com/watch?v=QGd06MTRMHs&list=PLA89DCFA6ADACE599&index=15#t=34m]] to see how the models are organized
 
-!!__[[Clustering|Clustering algorithm]]__
+!!__[[Clustering]]__
 
 !!!__[[K-means algorithm]]__
 
@@ -25,7 +30,7 @@ Community clustering in networks
 !!!__[[Mixture model]]__
 
 
-!!__Density estimation__
+!!__[[Generative model]]s__
 
 Given a data set of $$x$$s, build a probabilistic model $$P(x)$$, for the data.
 
@@ -33,10 +38,13 @@ Given a data set of $$x$$s, build a probabilistic model $$P(x)$$, for the data.
 
 !!!__[[Mixture model]]__
 
+[[Gaussian mixture model]]
+
 !!!__[[Factor analysis model]]__
 
+!!!__[[Density estimation]]__
 
-__Mixture of Gaussians model__
+Often refers to non-parametric generative models.
 
 !!__Dimensionality reduction__
 
@@ -46,7 +54,19 @@ __Mixture of Gaussians model__
 
 ------------------
 
+//Others//
+
 !!!__[[Independent component analysis]]__
+
+!!!__[[Boltzmann machine]]__
+
+[[Restricted Boltzmann machine]]
+
+!!!__[[Deep belief network]]__
+
+!!!__[[Autoencoder]]__
+
+!!!__Sparse coding model__
 
 --------------------
 

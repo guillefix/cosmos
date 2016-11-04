@@ -1,0 +1,15 @@
+created: 20161008151820612
+creator: cosmos
+modified: 20161008160623334
+modifier: cosmos
+tags: 
+title: Unified atomic mass unit
+type: text/vnd.tiddlywiki
+
+Symbol: $$u$$.
+
+Non-SI unit of mass (equal to the atomic mass constant), defined as one twelfth of the mass of a carbon-12 atom in its ground state and used to express masses of atomic particles, $$ u \approx 1.6605402 10 \times 10^{-27} \text{kg}$$
+
+By the definition of [[Avogadro's constant]], $$A$$, (see [[Mole]]), 
+
+$$u = \frac{1\text{ gram}}{A}$$

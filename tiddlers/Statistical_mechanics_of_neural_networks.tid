@@ -1,11 +1,37 @@
 created: 20160915182124591
 creator: cosmos
-modified: 20160915184231923
+modified: 20161023182939076
 modifier: cosmos
+tags: [[Artificial neural network]]
 title: Statistical mechanics of neural networks
 type: text/vnd.tiddlywiki
 
-See also [[Neural network theory]] (mostly about [[Artificial neural network]] [[Learning theory]])
+See also [[Neural network theory]] (mostly about [[Artificial neural network]] [[Learning theory]]), [[Deep learning theory]], [[Hopfield network]], [[Spin glass]]
+
+[[Thouless-Anderson-Palmer equations for neural networks|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.61.1839]]
+
+!!__Neural networks and [[Spin glass]]es__
+
+See [[Deep learning theory]] and [[Hopfield network]]
+
+See more at Neural Networks: An Introduction [2 ed.] by Muller et al.
+
+The ferromagnetic case corresponds to a neural network that has stored
+a single pattern, and has no [[Frustration]]. The network which has been loaded with a large number of
+randomly composed patterns resembles a spin glass.
+
+
+[[The Loss Surfaces of Multilayer Networks |http://www.jmlr.org/proceedings/papers/v38/choromanska15.pdf]]
+
+[[How glassy are neural networks?|http://ezproxy-prd.bodleian.ox.ac.uk:2839/article/10.1088/1742-5468/2012/07/P07009/meta;jsessionid=B582D39D6A769C5181263198B74EA025.c2.iopscience.cld.iop.org]]
+
+[[Spin-glass models of neural networks|http://journals.aps.org/pra/abstract/10.1103/PhysRevA.32.1007]]
+
+[[Temperature based RBM]]s
+
+[[Statistical Mechanics of Neural Networks near Saturation |http://sci-hub.cc/10.1016/0003-4916(87)90092-3]]
+
+----------------
 
 [[Video|https://www.youtube.com/watch?v=cjj9ihYJkOQ#t=1m30s]]
 

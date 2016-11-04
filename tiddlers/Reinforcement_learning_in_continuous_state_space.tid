@@ -1,0 +1,23 @@
+created: 20161019173314045
+creator: cosmos
+modified: 20161019173453278
+modifier: cosmos
+tags: [[Reinforcement learning]]
+title: Reinforcement learning in continuous state space
+type: text/vnd.tiddlywiki
+
+[[examples|https://www.youtube.com/watch?v=LKdFTsM3hl4&list=PLA89DCFA6ADACE599&index=17#t=19m]]
+
+* Simplest approach: [[Discretization of space|https://www.youtube.com/watch?v=LKdFTsM3hl4&list=PLA89DCFA6ADACE599&index=17#t=23m12s]] -- [[Curse of dimensionality]]
+
+[[Problem set up|https://www.youtube.com/watch?v=LKdFTsM3hl4&list=PLA89DCFA6ADACE599&index=17#t=32m10s]], focus on continuous state space, but discrete action set. [[Need a model|https://www.youtube.com/watch?v=LKdFTsM3hl4&list=PLA89DCFA6ADACE599&index=17#t=34m]], which can be theoretically derived, or learnt.
+
+[[Learning algorithm|https://www.youtube.com/watch?v=LKdFTsM3hl4&list=PLA89DCFA6ADACE599&index=17#t=46m40s]], assuming we can approximate the value function as a linear function of a set of features of the state $$s$$ (as in [[Linear regression]])
+
+!!!__[[Fitted value iteration]]__
+
+
+
+!!!__[[Linear quadratic regulation]] (LQR)__
+
+

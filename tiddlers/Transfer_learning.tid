@@ -1,6 +1,6 @@
 created: 20160709021850299
 creator: guillefix
-modified: 20160909080157338
+modified: 20160919093329486
 modifier: cosmos
 title: Transfer learning
 type: text/vnd.tiddlywiki
@@ -32,3 +32,5 @@ Example: [[Question answering system|https://www.youtube.com/watch?v=jCGplSKrl2Y
 memory networks (see below) may be useful for transfer learning too..
 
 One-shot learning using conv nets, as we've already have good embeddings, just compare objects in embeddings. [[See beginning of this|https://www.youtube.com/watch?v=56TYLaQN4N8&index=12&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw]]
+
+!!!See also [[Feature selection]]

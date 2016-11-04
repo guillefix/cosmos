@@ -1,0 +1,24 @@
+created: 20160916112508071
+creator: cosmos
+modified: 20161022233959653
+modifier: cosmos
+title: Disorder
+type: text/vnd.tiddlywiki
+
+,,//Sometimes disorder is used as a synonym of randomness, in which case, what I describe here is called quenched disorder//.,,
+
+//Disorder//, I think, refers to a particular kind of randomness in a system, in which there may be spatial randomness, but the random variables are fixed, for each instance of the system. This is in contrast to spatio-temporal disorder due to [[Temperature]], as described by [[Statistical physics]]. 
+
+As means of illustration, if the disorder is in a parameter in the Hamiltonian, for instance in some couplings (as in [[Spin glass]]es), it means that, before analyzing the Hamiltonian, we first determine all the couplings by coin tossing, or what-ever other method we choose; after that, they remain fixed for all time. This process leads to a particular choice, or realization, of the couplings, and thus a particular realization of the Hamiltonian, or the system.
+
+Disorder affects the behaviour if the system is finite, or if the disorder is non-[[Self-averaging]]. A system that has disorder, specially if the disorder affects its behaviour, is referred to as a [[Disordered system]].
+
+__Types of disorder__
+
+There are two types of disorder:
+
+* <b>[[Annealed disorder]]</b>: disorder of a system at thermal equilibrium. This can be physically achieved by cooling the system down sufficiently slowly so that the system is in quasi-equilibrium at all times.
+
+* <b>[[Quenched disorder]]</b>: disorder of a system in which the disordered variable is out of equilibrium. For instance in [[Glass]]es. This can be achieved by cooling sufficiently rapidly, so that a random configuration is //quenched//, and stays so, due to extremely large relaxation times.
+
+* One could also have a combination of the two.

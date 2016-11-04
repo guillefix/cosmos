@@ -1,0 +1,10 @@
+created: 20161015101744053
+creator: cosmos
+modified: 20161015102158041
+modifier: cosmos
+title: Curse of dimensionality
+type: text/vnd.tiddlywiki
+
+[[video|https://www.youtube.com/watch?v=LKdFTsM3hl4&list=PLA89DCFA6ADACE599&index=17#t=27m06s]] -- discretization scales poorly to high dimensional state spaces.
+
+See Elements of Statistical learning

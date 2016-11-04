@@ -1,0 +1,32 @@
+created: 20160919170742426
+creator: cosmos
+modified: 20161031165052906
+modifier: cosmos
+tags: [[Unsupervised learning]]
+title: Clustering
+type: text/vnd.tiddlywiki
+
+
+[[Clustering Introduction - Practical Machine Learning Tutorial with Python p.34|https://www.youtube.com/watch?v=ZueoXMgCd1c&index=34&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v]]
+
+!!__Types__
+
+__Flat clustering__
+
+__Hierarchical clustering__
+
+!!__Algorithms__
+
+!!!__[[K-means algorithm]]__
+
+!!!__[[Mixture model]]__
+
+!!!__[[Mean shift]]__ (for hierachical clustering)
+
+!!!__[[UPGMA]]__
+
+-------------------
+
+__Community clustering in networks__
+
+Q measure..

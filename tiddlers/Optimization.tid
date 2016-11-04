@@ -1,6 +1,6 @@
 created: 20160221181117472
 creator: guillefix
-modified: 20160915191949132
+modified: 20161031111213288
 modifier: cosmos
 tags: Engineering [[Scientific computing]] [[Operations research]] [[Mathematical methods]]
 title: Optimization
@@ -12,7 +12,11 @@ https://en.wikipedia.org/wiki/Optimization_%28disambiguation%29
 
 -----------
 
-!!--__Optimization problem__
+!!__[[Constrained optimization]]__
+
+[[wiki|https://www.wikiwand.com/en/Constrained_optimization]] -- [ext[notes|http://www1.maths.leeds.ac.uk/~cajones/math2640/notes4.pdf]] -- [ext[notes2|http://www.stat.cmu.edu/~cshalizi/statcomp/14/lectures/18/lecture-18.pdf]]
+
+!!!--__Optimization problem with inequality constraints__
 
 A //mathematical optimization problem//, or ''optimization problem''
 
@@ -37,6 +41,12 @@ Objective and constraint functins are non-linear. Some special cases:
 ** [[Least-squares]]
 
 Often for global nonlinear optimization, we need to use brute force methods, with [[Computational complexity]] exponential in the dimension of th optimzation space (space of optimization variables). For approximate but faster solutions, we can use local optimizal optimization, or heuristics.
+
+!!!__[[Lagrange multiplier]] method__
+
+http://mat.gsia.cmu.edu/classes/QUANT/NOTES/chap4/node6.html
+
+Good explanation of inequality constraints using an extension of Lagrange multipliers. Think of planes in 3D as constraint surfaces for intuition on equation! Delta f should be perpendicular to hypersurface defined by constraints.
 
 !!--__[[Local optimization]]__
 

@@ -1,0 +1,25 @@
+created: 20161011181315718
+creator: cosmos
+modified: 20161019174707964
+modifier: cosmos
+tags: Resampling
+title: Bootstrap
+type: text/vnd.tiddlywiki
+
+In statistics, boostrap is a [[Monte Carlo]] technique to estimate the [[Sampling distribution]] of an [[Estimator]]
+
+!!__Parametric bootstrap__
+
+Uses estimated parameter to generate samples
+
+!!__Nonparametric bootstrap__
+
+can refer to any test or metric that relies on random sampling with replacement. This technique allows estimation of the sampling distribution of almost any statistic using random sampling methods.
+
+[ext[https://www.wikiwand.com/en/Bootstrapping_(statistics)]]
+
+* [[Bootstrap aggregation]] is an example.
+
+Explanation: http://stats.stackexchange.com/questions/26088/explaining-to-laypeople-why-bootstrapping-works
+
+[[An Introduction to the Bootstrap|http://www.hms.harvard.edu/bss/neuro/bornlab/nb204/statistics/bootstrap.pdf]]

@@ -1,8 +1,9 @@
 created: 20160622024440355
 creator: guillefix
-modified: 20160622024442756
-modifier: guillefix
+modified: 20160920194639381
+modifier: cosmos
 title: Cell organelles
+type: text/vnd.tiddlywiki
 
 [[Nucleolus|https://en.wikipedia.org/wiki/Nucleolus]] where ribosomes (and some signal recognizing molecules) are created
 
@@ -19,5 +20,7 @@ title: Cell organelles
 This is how proteins are pushed inside the endoplasmatic reticuli while the ribosome assembles them:
 
 [img class=img-centered [https://upload.wikimedia.org/wikipedia/commons/9/94/Protein_translation.gif]]
+
+[[Cytoskeleton]]
 
 ........

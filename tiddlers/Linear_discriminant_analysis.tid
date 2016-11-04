@@ -1,0 +1,15 @@
+created: 20161102172639842
+creator: cosmos
+modified: 20161102174535323
+modifier: cosmos
+tags: [[Generative supervised learning]]
+title: Linear discriminant analysis
+type: text/vnd.tiddlywiki
+
+[[Gaussian discriminant analysis]] where the covariant matrices are the same for all classes, but the means are different. Reduces the number of parameters, which may prevent [[Overfitting]].
+
+The decision boundaries are linear unlike in GDA
+
+See [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/ML-MT2016/slides/slides07.pdf]]
+
+The predictivion distribution $$p(y|x)$$ has the form of [[Logistic regression]], i.e. a [[Softmax]] with a linear model. The difference is in the training as we have a prior, which we fit also.

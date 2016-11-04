@@ -1,17 +1,18 @@
 created: 20160726111430716
 creator: guillefix
-modified: 20160726113132328
-modifier: guillefix
+modified: 20161026131801358
+modifier: cosmos
 tags: Statistics [[Signal processing]]
 title: Sampling
+type: text/vnd.tiddlywiki
 
 The act or process of selecting a [[Sample]] for testing, analyzing, etc.
 
-!!__Statistical sampling__
+!__[[Statistical sampling|Monte Carlo]]__
 
-[[Sampling (statistics)|https://www.wikiwand.com/en/Sampling_(statistics)]]. Selection of a subset of individuals from within a statistical population to estimate characteristics of the whole population.
 
-!!__[[Signal|Signal processing]] sampling__
+
+!__[[Signal|Signal processing]] sampling__
 
 [[Sampling (signal processing)|https://www.wikiwand.com/en/Sampling_(signal_processing)]]
 

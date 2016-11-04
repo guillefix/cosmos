@@ -1,15 +1,28 @@
 created: 20160611122757517
 creator: guillefix
-modified: 20160913184648301
+modified: 20160927194012829
 modifier: cosmos
 title: Renormalization group
 type: text/vnd.tiddlywiki
 
 See also [[Critical phenomena]], field theory...
 
+-------------------
+
+In the real-space renormalization group we first decrease the number of degrees of freedom by a factor $$b$$, in such a way that the new system is of the same kind as the previous (say a lattice, I know this is informal now). An example of this procedure is block spin transformation. We then transform the couplings in such a way that the (total) free energy is unchanged (by keeping the partition function unchanged say).
+The free energy per site thus increases by a factor $$b^{d}$$ (where $$d$$ is the dimension), apart from an analytic constant part (see Cardy), accounting for the integrated short wavelength degrees of freedom. At the same time the new free energy per site is the same function f(couplings) as before because the model is the same after the RG transformation, just the couplings have changed, by assumption. Furthermore, near the critical point, only the relevant operators contribute significantly (are big enough). Also, close enough to the fixed point, linearized dynamics is a good approximation, and an RG transformation corresponding to a factor $$b$$, multiplies the relevant eigendirections in coupling space by factors $$b^{y_i}$$, for some $$y_i$$. Therefore, we have
+
+$$f(\{u_i\}) b^d = f(\{b^{y_i}u_i\})$$
+
+From this the scaling of f with u_i can be worked out. 
+
+Finally, u_i can be related to relevant thermodynamic quantities, appearing in the couplings of the original microsocopic theory.
+
+--------------------------
+
 A method to obtain macroscopic properties from  microscopic theories, among other things. The general framework (as applied to critical phenomena) is presented below. For other applications, the later steps will be different, but the general setup is the same.
 
-1. Define ''RG scheme'' (often involving ''coarse graining'' and ''scaling''; this is the case, for instance, in [[Real-space renormalization group]]), that defines new variables, while leaving the [[Partition function]] fixed (or at least approximately fixed). Note that even though the partition function is fixed (and so all macroscopic variables are too), the microscopic Boltzmann distribution function need not stay fixed as a consequence (see [[this paper|http://arxiv.org/abs/1608.08225]]).
+1. Define ''RG scheme'' (often involving ''coarse graining'' and ''scaling''; this is the case, for instance, in [[Real-space renormalization group]], see [[RG scheme]]), that defines new variables, while leaving the [[Partition function]] fixed (or at least approximately fixed). Note that even though the partition function is fixed (and so all macroscopic variables are too), the microscopic Boltzmann distribution function need not stay fixed as a consequence (see [[this paper|http://arxiv.org/abs/1608.08225]], see reply to the article actually).
 
 2. This scheme produces an RG transformation on the couplings/parameters of the theory. This transformation, if iterated, produces an ''RG flow'' in the space of parameters. The flow can indeed be analyzed with the tools of the theory  of [[Dynamical system]]s
 
@@ -19,9 +32,9 @@ A method to obtain macroscopic properties from  microscopic theories, among othe
 
 5. A ''critical surface'' corresponds to the stable manifold of a saddle fixed point (this manifold is also called separatrix in [[Dynamical system]]s theory, because it separates qualitatively different future flows, corresponding to different phases, in a physical system). A critical point of a family of theories parametrized by a parameter, and spanning a 1D manifold (curve) in the whole space of theories is the intersection of this curve with the critical surface.
 
-6. Theories near the critical point evolve to the vicinity of the fixed point under a finite number of iterations of the RG transformation. Theories with slightly different tuning parameters evolve to slightly different points in the vicinity of the critical point. In particular, it can be argued that for a bicritical point (with two relevant directions), there will be a relevant variable that corresponds to "thermal" deviation, $$u_t \sim t/t_0$$, and another to a "magnetic" deviation, $$u_h \sim h/h_0$$ (see Cardy's book for some more explanation). Here deviations refer to deviations from the critical point. These relations are linear simply because we are taking $$t$$ and $$h$$ to be small (near the critical point), and we have Taylor expanded (assuming relation is analytic). $$t_0$$, and $$h_0$$ are called ''scaling factors'' and are non-analytic.
+6. Theories near the critical point evolve to the vicinity of the fixed point under a finite number of iterations of the RG transformation. Theories with slightly different tuning parameters evolve to slightly different points in the vicinity of the critical point. In particular, it can be argued that for a bicritical point (with two relevant directions), there will be a relevant variable that corresponds to "thermal" deviation, $$u_t \sim t/t_0$$, and another to a "magnetic" deviation, $$u_h \sim h/h_0$$ (see Cardy's book for some more explanation). Here deviations refer to deviations from the critical point. These relations are linear simply because we are taking $$t$$ and $$h$$ to be small (near the critical point), and we have Taylor expanded (assuming relation is analytic). $$t_0$$, and $$h_0$$ are called ''scaling factors'' and are non-universal.
 
-7. From the RG scheme, one easily derives how $$u_t$$, and $$u_h$$ change close to the fixed point, using the linearized RG flow. From the RG scheme, one can also easily find how the free energy (per volume, or per site), $$f$$ changes under RG flow, and thus how it changes under changes of $$u_t$$, and $$u_h$$.
+7. From the RG scheme, one easily derives how $$u_t$$, and $$u_h$$ change close to the fixed point, using the linearized RG flow. From the RG scheme, one can also easily find how the free energy (per volume, or per site), $$f$$ changes under RG flow, and thus how it changes under changes of $$u_t$$, and $$u_h$$. See Cardy for details
 
 8. Finally by relating $$u_t$$, and $$u_h$$ to $$t$$, and $$h$$, the renormalization group allows us to find how the free energy changes under changes of thermodynamic variables ($$t$$, and $$h$$), and thus it allows us to find thermodynamic coefficients and quantities (which are derivatives of $$f$$ w.r.t to thermodynamic quantities, such as $$t$$, and $$h$$), as functions of the thermodynamic variables $$t$$, and $$h$$. These often have power law form, and from them we can extract ''critical exponents''. These critical exponents turn out to depend just on the dimensionality, and the eigenvalues of the relevant variables near the fixed point. Thus, any theory with a critical point flowing to this same fixed point will have the same critical exponents, and is said to belong to the same ''universality class''.
 

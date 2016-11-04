@@ -1,14 +1,19 @@
 created: 20160206002729639
 creator: guillefix
-modified: 20160720114337519
-modifier: guillefix
+modified: 20161002214924317
+modifier: cosmos
 tags: [[Data & Knowledge]]
 title: Data visualization
-
-<mark>[[Self-organizing map|https://en.wikipedia.org/wiki/Self-organizing_map]] related to [[Artificial neural network]]s</mark>
+type: text/vnd.tiddlywiki
 
 http://www.visualcomplexity.com/vc/
 
 See also [[Graphics and visualization web libraries]]
 
 See [[Visualization tools]]
+
+[[https://pythonprogramming.net/matplotlib-intro-tutorial/]]
+
+[[Self-organizing map|https://en.wikipedia.org/wiki/Self-organizing_map]] related to [[Artificial neural network]]s
+
+http://www.science.smith.edu/~amcnamara/FoSP.html

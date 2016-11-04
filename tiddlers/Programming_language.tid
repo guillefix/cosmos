@@ -1,10 +1,10 @@
 created: 20160624010152080
 creator: guillefix
-modified: 20160629230440805
-modifier: guillefix
+modified: 20161022215045057
+modifier: cosmos
+tags: Programming
 title: Programming language
-
-[[Programming]]
+type: text/vnd.tiddlywiki
 
 !!!Programming language paradigms
 
@@ -14,7 +14,7 @@ title: Programming language
 
 ''Declarative'': just write statements (assertions) of what things do, what functions do they perform. Then the program can take inptus and give outputs by passing inputs through the various nested functions ([[Functional programming]]).
 
-<b>Visual programming languages</b> Nice example: https://vvvv.org/
+<b>[[Visual programming language]]s</b> Nice example: https://vvvv.org/
 
 -------
 

@@ -1,0 +1,15 @@
+created: 20160918164236014
+creator: cosmos
+modified: 20160918164431555
+modifier: cosmos
+title: Sequence classification
+type: text/vnd.tiddlywiki
+
+[[Classification]] of [[Sequence]]s.
+
+__Methods__
+
+* [[Conditional random field]]s
+* [[Recurrent neural network]]
+
+See also [[Sequence prediction]]

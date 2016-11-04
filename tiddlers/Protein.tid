@@ -1,6 +1,6 @@
 created: 20160511111126181
 creator: guillefix
-modified: 20160907155901621
+modified: 20161017104839383
 modifier: cosmos
 tags: Biomolecule
 title: Protein
@@ -12,8 +12,12 @@ type: text/vnd.tiddlywiki
 
 [[Enzyme]]s
 
+Pleytropic: perform many function
+
 !!__[[Protein structure]]__
 
 
 
-Protein-folding problem
+[[Protein folding]] problem
+
+Denatured proteins cause a lot of [[Disease]]s

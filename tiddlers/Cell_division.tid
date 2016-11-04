@@ -1,13 +1,17 @@
 created: 20160625191827264
 creator: guillefix
-modified: 20160830212707057
+modified: 20161014101126294
 modifier: cosmos
 tags: [[Cell biology]]
 title: Cell division
 type: text/vnd.tiddlywiki
+
+Part of the [[Cell cycle]]
 
 https://en.wikipedia.org/wiki/Cell_division
 
 * [[Mitosis]]
 
 * [[Meiosis]]
+
+The molecule that carries the information is [[DNA]]

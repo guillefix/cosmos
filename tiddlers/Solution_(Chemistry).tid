@@ -1,8 +1,9 @@
 created: 20160509194342742
 creator: guillefix
-modified: 20160702154637835
-modifier: guillefix
+modified: 20161008132356141
+modifier: cosmos
 title: Solution (Chemistry)
+type: text/vnd.tiddlywiki
 
 A [[Dispersion (Chemistry)]] where the dispersed phase has particles in which all dimensions are smaller than approximately one nanometer (so that they aren't [[colloidal|Colloid]]).
 
@@ -17,3 +18,11 @@ See [[Thermodynamics of liquid-liquid unmixing]]
 See [[Chemical potential]]
 
 [[The solution-diffusion model: a review|http://www.sciencedirect.com/science/article/pii/037673889500102I]]
+
+--------------
+
+http://www.bbc.co.uk/education/guides/zgbqtfr/revision
+
+If the solute is white (eg sodium chloride) then the solution is colourless. This is because the white colour is due to the scattering of light alone, without absorption of any wavelength.
+
+If the solute is coloured (eg blue copper sulfate) then the solution will have a colour. 

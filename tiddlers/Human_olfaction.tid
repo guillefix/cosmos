@@ -1,0 +1,63 @@
+created: 20161018221708896
+creator: cosmos
+modified: 20161024172812561
+modifier: cosmos
+tags: Olfaction [[Human physiology]]
+title: Human olfaction
+type: text/vnd.tiddlywiki
+
+[ext[Olfaction - structure and function | Processing the Environment | MCAT | Khan Academy|https://www.youtube.com/watch?v=5-McqAO8_Qw]]
+
+[[video|https://www.youtube.com/watch?v=zN6-Eka5jRA]]
+
+[[Science on Saturday: Scents and Sensibility: The Molecular Mechanisms of Olfaction|https://www.youtube.com/watch?v=bsU-H4H_ACo]]
+
+!!__Anatomy and miicroanatomy__
+
+[[video|https://www.youtube.com/watch?v=cumUsw1GS74#t=2m]]
+
+[img[https://highered.mheducation.com/sites/dl/free/0072351136/234429/mc_ch15_fig01.jpg]]
+
+[img[http://www.leffingwell.com/olf2.gif]]
+
+!!__Olfactory pathway__
+
+[img[http://what-when-how.com/wp-content/uploads/2012/04/tmp15F80_thumb.jpg]]
+
+the [[G-protein]] binds to and activates Adenylate cyclase which converts ATP to cAMP.  The cAMP then binds to cAMP-gated ion channels on the cell and causes them to open, allowing Na+ and Ca2+ to enter the cell.  Na+ causes depolarization and Ca2+ causes Cl- channels to open.  This causes Cl- to flow out of the cell, increasing depolarization and eventually triggering an [[action potential|Neuron action potential]].﻿
+
+[img[http://www.nature.com/nrn/journal/v11/n3/images/nrn2789-f3.jpg]]
+
+[[receptors|https://www.youtube.com/watch?v=cumUsw1GS74#t=3m32]]
+
+The [[olfactory receptor neuron|https://www.wikiwand.com/en/Olfactory_receptor_neuron]]s are [[bipolar neurons|https://www.wikiwand.com/en/Bipolar_neuron]]
+
+ORs, which are located on the membranes of the cilia have been classified as a complex type of ligand-gated metabotropic channels.[5] There are approximately 1000 different genes that code for the ORs, making them the largest gene family. An odorant will dissolve into the mucus of the olfactory epithelium and then bind to an OR. ORs can bind to a variety of odor molecules, with varying affinities. The difference in affinities causes differences in activation patterns resulting in unique odorant profiles.[6][7] The activated OR in turn activates the intracellular G-protein, GOLF (GNAL), adenylate cyclase and production of cyclic AMP (cAMP) opens ion channels in the cell membrane, resulting in an influx of sodium and calcium ions into the cell, and an efflux of chloride ions. This influx of positive ions and efflux of negative ions causes the neuron to depolarize, generating an action potential.
+
+__Desensitization of Olfactory Neuron__
+
+-----------------
+
+!!!__Olfactory receptor__
+
+https://www.wikiwand.com/en/Olfactory_receptor
+
+Rather than binding specific ligands, olfactory receptors display affinity for a range of odor molecules, and conversely a single odorant molecule may bind to a number of olfactory receptors with varying affinities,[8] which depend on physio-chemical properties of molecules like their molecular volumes .[9] Once the odorant has bound to the odor receptor, the receptor undergoes structural changes and it binds and activates the olfactory-type G protein on the inside of the olfactory receptor neuron. 
+
+!!!__[[Golf protein|https://www.wikiwand.com/en/GNAL]]__
+
+[[Golf: an olfactory neuron specific-G protein involved in odorant signal transduction|https://www.ncbi.nlm.nih.gov/pubmed/2499043]]
+
+!!__Sensitivity__
+
+http://www.pnas.org/content/early/2010/10/06/1004571107.full.pdf
+
+35 binding events (per sec) min. About 0.1 pM (pico mol per litre)
+
+-------------------
+
+A metabotropic receptor is a type of membrane receptor of eukaryotic cells that acts through a secondary messenger.
+
+http://www.ucalgary.ca/pip369/mod8/smell/pathways
+
+http://physrev.physiology.org/content/physrev/78/2/429.full.pdf

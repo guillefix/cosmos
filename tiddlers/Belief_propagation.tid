@@ -1,0 +1,26 @@
+created: 20160918193054014
+creator: cosmos
+modified: 20160918222829300
+modifier: cosmos
+title: Belief propagation
+type: text/vnd.tiddlywiki
+
+''Belief propagation'' can describe a particular kind of [[Message-passing process]] in [[Network]]s, and the related algorithm for performing [[Inference]] in [[Conditional random field]]s.
+
+* The forward-backward algorithm of CRFs is a special case, it is belief propagation for the linear chain case. Belief propagation yields exact inference if the CRF graph is a [[tree|Tree (combinatorial structure)]], by computing marginals. [[How to use|https://www.youtube.com/watch?v=-z5lKPHcumo&index=27&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=22m40s]]
+
+* On graphs with loops, belief propagation can be used to do approximate inference. But one has to be careful with divergences (c.f. infinities in [[Quantum field theory]], and loops in [[Feynman diagram]]s).
+
+[[Neural networks [3.10] : Conditional random fields - belief propagation|https://www.youtube.com/watch?v=-z5lKPHcumo&index=27&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH]]. See [[Conditional random field]], [[Factor graph]]
+
+[[Example|https://www.youtube.com/watch?v=-z5lKPHcumo&index=27&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=7m]]
+
+[[9 - 1 - Belief Propagation- Probabilistic Graphical Models - Professor Daphne Koller|https://www.youtube.com/watch?v=ASsKAaHlhCU]]
+
+------------------
+
+Many general purpose libraries.
+
+---------------------
+
+See also related concepts/models in [[Dynamical systems on networks]]

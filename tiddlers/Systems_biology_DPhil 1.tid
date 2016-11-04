@@ -1,6 +1,6 @@
 created: 20160228224154839
 creator: guillefix
-modified: 20160812161236976
+modified: 20161006155424708
 modifier: cosmos
 tags: Oxford
 title: Systems biology DPhil
@@ -11,6 +11,8 @@ http://www.sysbiodtc.ox.ac.uk/
 [[Application for admission as a graduate student to the University of Oxford|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/document.pdf]]
 
 <small>[[Your offer and contract|https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/after-you-apply/your-offer-and-contract?wssl=1]]</small>
+
+[[Research]]
 
 ''Academic conditions''
 
@@ -55,8 +57,6 @@ More details about how I will receive the scholarship? When, how. See email: You
 
 !!!__[[Kellogg college]]__
 
-
-
 !!__Research interests__
 
 [[Systems biology]]
@@ -64,3 +64,79 @@ More details about how I will receive the scholarship? When, how. See email: You
 [[Non-equilibrium statistical physics]]
 
 [[Nanotechnology]] and [[Artificial intelligence]], as well as ways of combining them (see section in nanotech tiddler)
+
+!!__Thesis__
+
+Physical copy & digital copy (submitted online through ora).
+
+--------------
+
+Supervisor/College Advisor details
+Supervisor	Jonathan Paul Cooper	jonathan.cooper@cs.ox.ac.uk
+Supervisor	Joseph Mark Pitt-Francis	joe.pitt-francis@cs.ox.ac.uk
+Michael Stawpert	michael.stawpert@tss.ox.ac.uk
+
+--------------------
+
+Research groups
+
+__Computational biology__
+
+*see piece of paper, GKeep
+
+*Computational biology. One of the biggest things holding back sysbio, is the lack of knowledge on [[Software engineering]]. Applications to [[Drug development]].
+**Cardiac  and respirator physiology.
+***David Kay. 
+*** Blanca Rodriguez. Biomarkers
+** Cell-based modelling, cancer, tissue development engineering
+** Structural molecular biology & [[Electrochemistry]].
+*** Peter Minary 5 orders of magnitude faster [[Molecular dynamics]], dimensionality reduction using constraints. Hierarchical natural montecarlo. Immunoinformatics and protein folding machines, etc.. Application to [[Epigenetics]], [[DNA structure]], microRNAs, virus structure.
+** Mathematics
+*** Jonathan Whiteley. Automatic model reduction, multiphase flow, cardiac electrophysiology, respiratory monitoring.
+*** David Gavaghan. 
+**** Model parametrization
+**** Inverse problems
+**** Reproducibility of research
+* Developing software. DIfferent length scales in biology. Stability, accuracy, speed.
+** CHASTE. 700,000. Joe Pitt-Francis.
+** MOSAICS. 500,000.
+
+__Mathematical biology__
+
+Wolfson center for mathematical biology
+
+*[[Pattern formation]]. Reaction-diffusion continuous models. agent-based model when few cells.
+Multiscale. Gene -> macroscopical structure. [[Developmental biology]]
+
+*Multiscaling tools.
+
+*[[Tumor growth]], [[Wound healing]].
+
+*[[Network theory]] of [[Vascular network]]s
+
+*Philip Maini
+
+*Helen Byrne
+
+*Derek E Moulton. [[Continuum mechanics]]
+
+*Radek Erban. [[Stochastic process]]es, nanoscale. Swarm robotics, gene regulatory networks.
+
+*Eamonn Gaffney.
+
+*Ruth Baker.
+
+*Heather Harrington. Chemical reaction network theory. Networks and dynamics, vascular networks.
+
+*Bridging theory and data with methods.
+
+*Algebraic systems biology.
+
+OCIAM
+
+* Sarah Waters. Regenaritve medicine & tissue engineering. Ultrasound fields, to control physiological fluid mechanics.
+* Jim Oliver. Cell motility, and other cell stuff. cellular blebbing, biofilms.
+
+-------------------
+
+controling neurons with ultrasounds

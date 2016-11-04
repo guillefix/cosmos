@@ -1,6 +1,6 @@
 created: 20160914090040608
 creator: cosmos
-modified: 20160914090051708
+modified: 20160919093333616
 modifier: cosmos
 tags: [[Model selection]]
 title: Feature selection
@@ -27,3 +27,13 @@ __"Filter" feature selection__
 
 * [[Correlation]] between x,,i,, and y, or
 * Empirical [[Mutual information]]
+
+!!__Learning meaningful ''representations'' of the data__
+
+Can learn from [[Unsupervised learning]], or [[Supervised learning]] algorithms!
+
+See [[Transfer learning]]
+
+__[[Restricted Boltzmann machine]] feature learning__
+
+See [[here|https://www.youtube.com/watch?v=S0kFFiHzR8M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=41#t=0m50s]]

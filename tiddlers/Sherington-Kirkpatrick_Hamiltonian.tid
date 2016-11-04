@@ -1,0 +1,36 @@
+created: 20160916150236313
+creator: cosmos
+modified: 20161006192439464
+modifier: cosmos
+title: Sherington-Kirkpatrick Hamiltonian
+type: text/vnd.tiddlywiki
+
+//aka Sherington-Kirkpatrick model//
+
+Introduced in [[Solvable Model of a Spin-Glass|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.35.1792]], it is an infinite-range version of the [[EA Hamiltonian|Edwards-Anderson Hamiltonian]], and corresponds to a [[Mean field theory]]. Note that the interactions are now between all pairs. The Hamiltonian is:
+
+|$$\mathcal{H}_\mathcal{J}=-\frac{1}{\sqrt{N}} \sum\limits_{1 \leq i \leq j \leq N} J_{ij} \sigma_i \sigma_j - h \sum\limits_{1 \leq i \leq N} \sigma_i$$|
+
+for a system of $$N$$ spins. 
+
+[img[Selection_619.png]]
+
+[[silent video|https://www.youtube.com/watch?v=fZ8WCic5u2I&index=2&list=PLYq7WW565SZgC_0OqyRjTcWKH3odod3j5#t=28m45s]]
+
+[[The Sherrington-Kirkpatrick model and its diluted version I - Dmitry Panchenko - Dmitry Panchenko|https://www.youtube.com/watch?v=1xZ6AAew3Y4]]
+
+!!!__Solution via the [[Replica method]]__
+
+
+
+!!!__Phase transition__
+
+A [[Phase transition]] was found:
+
+[img[Selection_620.png]]
+
+__Negative entropy__
+
+if one chooses the [[EA order parameter|Edwards-Anderson Hamiltonian]] to describe the broken symmetry of the low-temperature spin glass phase, the entropy becomes negative at very low temperature. This is problematic and is solved by the introduction of different order parameters, which cause [[Replica symmetry breaking]].
+
+!!!__[[Replica symmetry breaking]]__

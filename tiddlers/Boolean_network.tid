@@ -1,8 +1,10 @@
 created: 20160419204301650
 creator: guillefix
-modified: 20160623233454194
-modifier: guillefix
+modified: 20161022130200208
+modifier: cosmos
+tags: [[Graph dynamical system]]
 title: Boolean network
+type: text/vnd.tiddlywiki
 
 See [[Dynamical system]] and [[Network theory]]
 
@@ -18,13 +20,19 @@ https://en.wikipedia.org/wiki/Boolean_network
 
 [[Random Boolean network]]
 
-[[Phase Transitions  in  Two-Dimensional Kauffman Cellular Automata|http://www.lps.ens.fr/~derrida/PAPIERS/1986/stauffer-epl-86.pdf]]
+[ext[Phase Transitions  in  Two-Dimensional Kauffman Cellular Automata|http://www.lps.ens.fr/~derrida/PAPIERS/1986/stauffer-epl-86.pdf]]
 
 [[Phase transition in cellular random Boolean nets |https://hal.inria.fr/file/index/docid/210412/filename/ajp-jphys_1987_48_1_11_0.pdf]]
 
 [[Kauffman's NK Boolean networks|http://pespmc1.vub.ac.be/BOOLNETW.html]]. "Because the regulatory structures at the edge of chaos (K ~ 2) ensure both stability [robustness] and evolutionary improvements [evolvability], they could provide the background conditions for an evolution of genetic cybernetic systems."
 
 See [[Relations between the stability of Boolean networks and percolation|file:///home/guillefix/Dropbox/Oxford/MMathPhys/Complex%20systems/miniproject/relations-stability-boolean(3).pdf]]
+
+!!__Types__
+
+[[Random Boolean network]]
+
+[[Hopfield network]]
 
 ------------
 

@@ -1,8 +1,10 @@
 created: 20160623233746308
 creator: guillefix
-modified: 20160623234005389
-modifier: guillefix
+modified: 20161022224314671
+modifier: cosmos
+tags: [[Human learning]]
 title: Hebbian theory
+type: text/vnd.tiddlywiki
 
 //"Cells that fire together, wire together."// ,,However, this summary should not be taken literally. Hebb emphasized that cell A needs to "take part in firing" cell B, and such causality can only occur if cell A fires just before, not at the same time as, cell B.,,
 
@@ -21,3 +23,7 @@ A fires just before, not at the same time as, cell B. This important aspect of c
 [[Cell Assembly Signatures Defined by Short-Term Synaptic Plasticity in Cortical Networks|http://www.worldscientific.com/doi/10.1142/S0129065715500264]]
 
 The cell assembly (CA) hypothesis has been used as a conceptual framework to explain how groups of neurons form memories. CAs are defined as neuronal pools with synchronous, recurrent and sequential activity patterns
+
+!!__Hebb's rule used in [[Associative memory|Content-addressable memory]]__
+
+[img[Hebbs_rule.png]]

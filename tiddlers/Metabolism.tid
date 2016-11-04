@@ -1,14 +1,26 @@
 created: 20160905094339909
-modified: 20160905094602878
+creator: cosmos
+modified: 20161027084523796
+modifier: cosmos
 tags: Biochemistry Physiology
 title: Metabolism
 type: text/vnd.tiddlywiki
 
 Metabolism (from Greek: μεταβολή metabolē, "change") is the set of life-sustaining chemical transformations within the cells of living organisms.
 
-[[Metabolic pathway]]
+[[Metabolic pathway]] --> [[Metabolic network]]
 
 [[Metabolic mechanisms]]
+
+!!__Types of pathway__
+
+* Catabolic. Degrade molecules and release energy
+
+* Anabolic. Construct molecules and consume energy
+
+!!__[[Energetics|Chemical energetics]] in metabolism__
+
+
 
 -----------------
 

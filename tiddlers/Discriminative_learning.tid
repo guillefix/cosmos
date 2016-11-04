@@ -1,6 +1,6 @@
 created: 20160821081633620
 creator: cosmos
-modified: 20160821085351001
+modified: 20161018182359618
 modifier: cosmos
 tags: [[Supervised learning]]
 title: Discriminative learning
@@ -18,10 +18,21 @@ where $$\theta$$ are the parameters of the theory, $$y$$ are the outputs, and $$
 
 $$p((x,y)|\theta) = \prod_{i}p(y^{(i)}|x^{(i)};\theta)p(x^{(i)})$$
 
-where we assumed that all the data points are independent. We have also <span style="color:coral;">assumed that our model only models $$p(y|x)$$, so that $$\theta$$ doesn't appear in $$p(x)$$</span>. This is the <b>main difference with [[Generative learning]]</b>. While maximizing the log likelihood
+where we assumed that all the data points are independent. We have also <span style="color:coral;">assumed that our model only models $$p(y|x)$$, so that $$\theta$$ doesn't appear in $$p(x)$$</span>. This is the <b>main difference with [[Generative supervised learning]]</b>. While maximizing the log likelihood
 
 $$l(\theta) = \log{(p(x,y)|\theta)} = \sum_i \log{p(y^{(i)}|x^{(i)};\theta)} + \sum_i \log{p(x^{(i)})}$$
 
 only the first term depends on $$\theta$$, the second is fixed (and thus ignored in the optimization procedure).
 
 See also [[Generative vs discriminative models]]
+
+https://www.wikiwand.com/en/Discriminative_model
+
+!!__Deterministic discriminative models__
+
+These have all the probability centered around one output, so they are better described as modelling directly $$y(x)$$, the output as a function of the input
+
+__Examples__
+
+* [[Decision tree]]s
+** [[Random forest]]

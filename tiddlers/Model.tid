@@ -1,0 +1,9 @@
+created: 20160918223952118
+creator: cosmos
+modified: 20160918224203543
+modifier: cosmos
+tags: Simulation
+title: Model
+type: text/vnd.tiddlywiki
+
+A [[System]], often a [[mathematical|Mathematics]] or [[computational|Computer science]] one, that [[simulates|Simulation]] another system, i.e. it represents features of the original system, both structural, and behavioural.

@@ -1,9 +1,11 @@
 created: 20160905110900304
-modified: 20160905111618583
+creator: cosmos
+modified: 20161017134044177
+modifier: cosmos
 title: Allosteric regulation
 type: text/vnd.tiddlywiki
 
-A type of pathway regulation that appears in [[Metabolic network]]s. [[Video|https://www.youtube.com/watch?v=Lt5SiDZsBig#t=3m04s]] A molecule binds to an [[Enzyme]] and produces a conformational change (changes shape), so that it regulates the rate of  a reaction in the metabolic network.
+A type of [[Enzyme inhibition]] that appears in [[Metabolic network]]s. [[Video|https://www.youtube.com/watch?v=Lt5SiDZsBig#t=3m04s]] A molecule binds to an [[Enzyme]] and produces a conformational change (changes shape), so that it regulates the rate of  a reaction in the metabolic network.
 
 !!!__Mechanisms__
 

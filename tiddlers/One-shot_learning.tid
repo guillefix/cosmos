@@ -1,0 +1,16 @@
+created: 20161022120453899
+creator: cosmos
+modified: 20161022123842449
+modifier: cosmos
+tags: Learning [[Machine learning]]
+title: One-shot learning
+type: text/vnd.tiddlywiki
+
+[[Learning]] from one or few examples. A current challenge in [[Deep learning]]
+
+people seem to learn rich concepts that generalize well from sparse data. See [ext[here|http://cims.nyu.edu/~brenden/LakeEtAl2015Science.pdf]]
+
+!!__Approaches__
+
+*[[Program induction]]
+** [[Bayesian program learning]]

@@ -1,0 +1,18 @@
+created: 20161013174943742
+creator: cosmos
+modified: 20161015131251538
+modifier: cosmos
+title: Bellman equation
+type: text/vnd.tiddlywiki
+
+$$V^\pi (s) = R(s) + \gamma \sum\limits_{s'} P_{s \pi(s)} (s') V^\pi (s')$$
+
+If the rewards depend on transitions and not just states ([[state-action reward|https://www.youtube.com/watch?v=-ff6l5D8-j8&index=18&list=PLA89DCFA6ADACE599#t=4m15s]]), then it is:
+
+$$ V_\pi(s) = \sum_{s'} P_{\pi(s)} (s,s') \left( R_{\pi(s)} (s,s') + \gamma V(s') \right) $$
+
+[[Derivation|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=33m20s]]
+
+See [[Reinforcement learning]]
+
+https://www.wikiwand.com/en/Bellman_equation

@@ -1,13 +1,22 @@
 created: 20160623193002413
 creator: guillefix
-modified: 20160721131844688
-modifier: guillefix
-tags: 
+modified: 20161025094936341
+modifier: cosmos
+tags: Genetics [[Systems biology]]
 title: Genotype-phenotype map
+type: text/vnd.tiddlywiki
 
 Map between a //coding space// (genotype), and another space, called the //phenotype//. These appear, for instance, in [[Evolution]].
 
 See [[MMathPhys oral presentation]]
+
+!!__Types of GP relation__
+
+* [[Genetic dominance]] -- [[Mode of inheritance]]. Traditional picture applies only sometimes, to traits called Mendelian traits. Modern picture shows it can all be much more complicated: partial dominance, pleiotropy, etc.
+* [[Pleiotropy]]. Genes that affect many traits.
+* [[Epistasis]]. Gene whose effect depends on other genes.
+
+!!__Structure of the GP map__
 
 [img[http://1.bp.blogspot.com/-T7ODIpnghZ4/UGY43-q09OI/AAAAAAAABgA/5I_P0s_I8A4/s1600/Stadler2002_fig1.png]]
 
@@ -30,3 +39,9 @@ __Effects__
 __Related concepts__
 
 [[Basin of attraction]]
+
+--------------------
+
+!!![[Network]] topology of neutral networks
+
+[[Topological Structure of the Space of Phenotypes: The Case of RNA Neutral Networks|http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026324]]

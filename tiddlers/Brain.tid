@@ -1,7 +1,72 @@
 created: 20160708002255651
 creator: guillefix
-modified: 20160708002255652
-modifier: guillefix
-tags: Neuroanatomy
+modified: 20161024133016729
+modifier: cosmos
+tags: [[Nervous system]]
 title: Brain
+type: text/vnd.tiddlywiki
 
+
+!!__[[Neuroanatomy]] of the brain__
+
+20% of volume of the brain are [[Blood vessel]]s.
+
+[[Glial cell]]s are more numerous than neurons, except in [[Cerebellum]]
+
+Number of neurons: ...
+
+Density of neurons and conduction velocity is more important than size..
+
+!!!__Connectome__
+
+Large-scale connections
+
+!!__Physiology of the brain__
+
+See [[Neuroscience]]
+
+!!!__Types of [[Neuron]]s__
+
+Very very diverse
+
+__Inhibitory neurons__
+
+
+
+__Excitatory neurons__
+
+
+
+__Brain oscillations__
+
+Remarkably conserved accross mammalian species.
+
+!!__Brain systems__
+
+__Canonical circuit for neocortex__
+
+!!!__Thalamocortical system__
+
+!!!__Visual system__
+
+__Feedforward connectivity within the visual system__
+
+__Feedback connectivity within the visual system__
+
+!!!__Motor system__
+
+!!!__[[Sleep]]__
+
+__Sleep switch__
+
+REM sleep subcortical circuitry
+
+!!__Experimental techniques__
+
+[[Electrophysiology]]
+
+C-fos
+
+[[Optogenetics]]
+
+DREADDs -- chemogenetics/pharmacogenetics.

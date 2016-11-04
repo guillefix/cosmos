@@ -1,6 +1,6 @@
 created: 20160709011612644
 creator: guillefix
-modified: 20160810173158698
+modified: 20160919170012755
 modifier: cosmos
 tags: [[Regression analysis]]
 title: Linear regression
@@ -19,6 +19,12 @@ See [[here|http://cs229.stanford.edu/notes/cs229-notes1.pdf]]
 !!!__Probabilitistic interpretation__
 
 See [[here|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=28m40s]]. We assume the errors between model values and actual values follow a [[Normal distribution]]. This implies the data would be distributed as a Gaussian with mean $$\Theta^T x$$, and a certain [[Variance]]. See [[here|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=33m]]. With this we [[define|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=41m20s]] the [[Likelihood function]]. One can then derive that [[maximizing likelihood|Maximum likelihood]] is the same as mimimizing mean squares.
+
+__Doing linear regression in Python with [[Sklearn]]__
+
+[[Regression Intro - Practical Machine Learning Tutorial with Python p.2|https://www.youtube.com/watch?v=JcI5Vnw0b2c&index=2&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v]]
+
+,,[[Regression How it Works - Practical Machine Learning Tutorial with Python p.7|https://www.youtube.com/watch?v=V59bYfIomVk&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&index=7]],,
 
 -------------------
 

@@ -1,0 +1,23 @@
+created: 20160920154608443
+creator: cosmos
+modified: 20160920164851968
+modifier: cosmos
+title: DNA double helix
+type: text/vnd.tiddlywiki
+
+[img[dna_double_helix.png]]
+
+Sugar-phosphate backbone is on the outside, bases in the inside. They form [[base pair|Watson-Crick base pair]]s, which form a [[Hydrogen bond]]:
+
+* A -- T
+* G -- C
+
+[[The Shape of DNA - Numberphile|https://www.youtube.com/watch?v=AxxnziuL408]]. DNA is a right-handed [[Helix]].
+
+Both strands are right-handed (almost always in biology) (they have to have the same handedness, as can be seen by looking at a cross-section and seeing the cross-sections of the strands, if they were of opposite handedness, they would collide (given the helices have the same radii)). The two strands of DNA also have a direction associated with them (the backbone determines it), and the strands are antiparalel, as seen in animation below
+
+[img width=300 [http://67.media.tumblr.com/7f270f68b777db5c6e82fdb48d447899/tumblr_o9n0tiMWRl1sk2szio2_r1_1280.gif]]
+
+See also [[Chirality in biology]]
+
+[[DNA double helix formation]]

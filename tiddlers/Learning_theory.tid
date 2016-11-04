@@ -1,6 +1,6 @@
 created: 20160709004653144
 creator: guillefix
-modified: 20160915132735824
+modified: 20161026164859682
 modifier: cosmos
 tags: [[Statistical inference]] Learning [[Artificial intelligence]]
 title: Learning theory
@@ -30,7 +30,7 @@ Some important types:
 
 !!__Risk minimization__
 
-If one defines a ''loss function'' (or ''risk'', or ''cost'', see [[Decision theory]]), $$R_f (\hat{y}, y)$$, one can ask what is the prediction scheme (for instance, the function $$\hat{y} = f(x)$$ that minimizes the expected risk. This is called risk minimization. 
+If one defines a [[Loss function]] (or ''risk'', or ''cost'', see [[Decision theory]]), $$R_f (\hat{y}, y)$$, one can ask what is the prediction scheme (for instance, the function $$\hat{y} = f(x)$$ that minimizes the expected risk. This is called risk minimization. 
 
 !!!__Generalization/prediction__
 
@@ -51,10 +51,13 @@ Minimize the negative log [[likelihood|Likelihood function]] (similar to entropy
 
 !!!__[[Maximum a posteriori]] (MAP)__
 
+!!__[[Bayesian expectation|Bayesian statistics]]__
+
 
 !!__Design factors in machine learning__
 
 [img[machine_learning_design_factors.png]]
+
 
 !!__[[Overfitting and underfitting]]__
 
@@ -98,45 +101,9 @@ We use the [[Prior distribution]] from [[Bayesian statistics]], to make [[simple
 
 --------------------
 
-!!__Online learning__
+!__[[Optimization for learning]]__
 
-as opposed to //batch learning//
 
-[[video|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=17m30s]]. You have to make predictions even in the process of learning.
-
-What we care about is the [[online error|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=19m25s]]
-
-[[Can apply batch learning algos for online learning|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=19m57s]]
-
-[[Several theoretical results exist|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=21m58s]
-
-!!__[[Simplicity and learning]]__
-
-The simplicity and structure in signals in the real-world is often seized to make the learning problem easier to solve.
-
-!!__[[Advice for applying machine learning algorithms|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=24m55s]]__
-
-!!!__[[Diagnosis for debugging learning algorithms|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=28m37s]]__
-
-Diagnostic:
-
-* High variance (overfitting) -> Training error would be much lower than test error. ([[video|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=34m05s]])
-
-* High bias (underfitting) -> Test error will also be high. ([[video|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=35m50s]])
-
-[[Ways to fix high variance or bias|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=37m50s]]
-
-[[Is the algo converging?|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=37m50s]] -- [[Are you optimizing the right function?|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=43m30s]] --> [[Diagnostic|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=45m]]
-
-[[One more example|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=50m45s]]
-
-!!!__[[Error analysis|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=1h03m20s]] and [[ablative analysis|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=1h08m48s]]__
-
-!!!__[[How to get started on a machine learning problem|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=1h11m45s]]__
-
--- Premature (statistical) optimization ([[video|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=27m30s]])
-
-[[The dangers of over-theorizing|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=1h16m45s]]
 
 -------------------
 

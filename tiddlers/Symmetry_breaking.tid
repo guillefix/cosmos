@@ -1,13 +1,14 @@
 created: 20160128012805963
 creator: guillefix
-modified: 20160128012910798
-modifier: guillefix
+modified: 20160916143739819
+modifier: cosmos
 tags: [[Phase transition]]
 title: Symmetry breaking
+type: text/vnd.tiddlywiki
 
 Discrete symmetry breaking
 
 Continuous symmetry breaking. Goldstone theorem
 
 
---I think: A matter of time-scales??
+--I think: A matter of time-scales?? See [[Metastability]]

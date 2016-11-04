@@ -1,13 +1,7 @@
 created: 20160428211413005
 creator: guillefix
-modified: 20160428211611547
-modifier: guillefix
+modified: 20161009104117404
+modifier: cosmos
 title: Chemical bonds
+type: text/vnd.tiddlywiki
 
-* ''Ionic interactions'' Electronic transfer of electrons between atoms makes them ions which attract via the [[Coulomb interaction]], so $$1/r$$ and isotropic. It is $$\sim 100 k_B T$$. However, interaction is strongly modified in a solution, due to __screening__ (similar to Debye screening in [[Plasma physics]]).
-
-* ''Covalent bonds''. Due to shared electrons that are attracted to both nuclei (or sometimes a few nuclei, in molecules). These are the most common bonds in molecules (see [[Molecular physics]]). They are short-ranged and highly directional (anistropic). They are $$\sim 30\text{ to }100 k_B T$$ at room $$T$$.
-
-* ''Metallic bonds'', are an special case of covalent bond, where electrons are delocalized over macroscopic regions. Commons in metals.
-
-* “vibrational” chemical bond. http://www.scientificamerican.com/article/chemists-confirm-the-existence-of-new-type-of-bond/

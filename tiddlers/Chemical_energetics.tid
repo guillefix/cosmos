@@ -1,5 +1,7 @@
 created: 20160905092929049
-modified: 20160905094240551
+creator: cosmos
+modified: 20161009182129431
+modifier: cosmos
 tags: [[Physical chemistry]]
 title: Chemical energetics
 type: text/vnd.tiddlywiki
@@ -21,7 +23,15 @@ $$\Delta G = \Delta G^0' + RT \ln{\frac{[A]}{[B]}}$$
 
 where $$\Delta G^0' $$ is the change in Gibbs free energy of a reaction of the form $$A \rightarrow B$$,  $$[i]$$ represents the [[concetration|Concentration (chemistry)]] of the [[Chemical species|Chemical substance]] $$i$$.
 
-!!__Chemical kinetics__
+As can be derived from the [[Second law of thermodynamics]], at constant pressure and temperature, an spontaneous process occurs if its Gibbs free energy change is negative.
+
+See note in tablet
+
+[[Chemical equilibrium|http://www.bbc.co.uk/education/guides/z7qfr82/revision/2]] and the effects of [[pressure|http://www.bbc.co.uk/education/guides/z7qfr82/revision/3]] and [[temperature|http://www.bbc.co.uk/education/guides/z7qfr82/revision/4]]
+
+Energy is absorbed to break bonds and released when bonds are made. Energy changes in a reaction are calculated by bond energies and shown by energy diagrams. See [[here|http://www.bbc.co.uk/education/guides/zsn9q6f/revision]]
+
+!!__[[Chemical kinetics]]__
 
 [[Non-equilibrium statistical physics]] of chemical reactions, in particular the rates at which they occur.
 

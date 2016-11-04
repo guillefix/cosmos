@@ -1,6 +1,6 @@
 created: 20160221180815322
 creator: guillefix
-modified: 20160830211835690
+modified: 20161028090202405
 modifier: cosmos
 tags: Biology
 title: Cell biology
@@ -14,7 +14,10 @@ type: text/vnd.tiddlywiki
 
 !!__Cell types__
 
-[[Eukaryotes]]
+[[Eukaryote]]
+
+* [[Plant cell]]
+* [[Animal cell]]
 
 [[Prokaryotes]]
 
@@ -33,3 +36,13 @@ __[[Cell organelles]]__
 [[Fermentation]]
 
 [[Photosynthesis]]
+
+!!![[Cell signaling]]
+
+!!![[Cell specialization]]
+
+[img[https://media.cellsignal.com/www/images/science/landscapes/ph-vesicle-trafficking.jpg]]
+
+https://www.cellsignal.com/common/content/content.jsp?id=science-landscapes
+
+[img[https://media.cellsignal.com/www/images/science/landscapes/ph-adhesion.jpg]]

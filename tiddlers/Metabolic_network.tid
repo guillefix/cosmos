@@ -1,5 +1,7 @@
 created: 20160905105924005
-modified: 20160905111533321
+creator: cosmos
+modified: 20161017134222258
+modifier: cosmos
 title: Metabolic network
 type: text/vnd.tiddlywiki
 
@@ -7,9 +9,10 @@ A [[Network]] of inter-regulated [[Metabolic pathway]]s.
 
 It is based on ''regulation''
 
-!!__Regulation of pathways__
+!!__[[Regulation of pathways|Pathway regulation]]__
 
 * [[Allosteric regulation]].
+* Kinases, add phosphate to proteins to activate them.
 
 !!__Metabolic networks__
 

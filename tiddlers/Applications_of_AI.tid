@@ -1,13 +1,11 @@
 created: 20160909080549399
 creator: cosmos
-modified: 20160911000054010
+modified: 20161017210130326
 modifier: cosmos
 title: Applications of AI
 type: text/vnd.tiddlywiki
 
 //[[AI|Artificial intelligence]] is promising to be applicable to almost any aspect of [[Cosmos]], for it is its essence.//
-
-!!__General__
 
 [[Deep learning companies and projects]]
 
@@ -15,9 +13,25 @@ type: text/vnd.tiddlywiki
 
 |[img width=400 [Machine_learning_uses1.png]]| [img width=300 [Machine_learning_uses2.png]]|
 
+!!__Perception__
+
+[[Image classification]]
+
 !!__[[Science]] and [[Engineering]]__
 
 [[Machine learning in science and engineering]]
+
+__Computer science__
+
+[[Data compression]], [[Image processing]]: [[Autoencoder]]
+
+__Robotics__
+
+[[Reinforcement learning]]
+
+__Healthcare__
+
+
 
 !!__[[Art]]/[[Design]]__
 
@@ -25,8 +39,10 @@ type: text/vnd.tiddlywiki
 
 [[Procedural generation]]
 
-!!__[[Human-computer interaction]]__
+!!__[[Human-computer interaction]] and [[Communication]]__
 
 [[Speech synthesis]]
 
 [[Speech recognition]]
+
+[[Machine translation]]

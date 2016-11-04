@@ -1,0 +1,56 @@
+created: 20161010111515237
+creator: cosmos
+modified: 20161010125647184
+modifier: cosmos
+tags: [[Electron orbital]] [[Molecular physics]]
+title: Molecular orbital
+type: text/vnd.tiddlywiki
+
+[[Electron orbital]]s of [[Molecule]]s. See [[Molecular physics]], and [[this book|https://babel.hathitrust.org/cgi/pt?id=uc1.b3754016;view=1up;seq=10]], and [[these notes|https://users.physics.ox.ac.uk/~smithb/website/coursenotes/moleculesandlasers.pdf]]
+
+A common approach to approximate molecular orbitals, is to construct them as a [[Linear Combination of Atomic Orbitals]] (LCAO). [[Atomic orbital]]
+
+!!Diatomics
+
+For homonuclear diatomic molecules, it is easy to see that the [[Hamiltonian]] has a symmetry corresponding to inversion of the electron coordinate through the center of mass of the molecule. This means that the [[Energy eigenstates]] can be made to be [[Eigenfunction]]s of this reflection operator, which can have eigenvalue +1 or -1. The corresponding classes of molecular orbitals are known as ''gerade'' or ''g'', and ''ungerade'', or ''u'', respectively.
+
+* The gerude orbital is lower in energy, and can is responsible for bonding two atoms. It is thus known as a ''bonding orbital''
+
+* The ungerude orbital is higher in energy, and makes atom not bond. It is thus known as a ''antibonding orbital''.
+
+[img[hydrogen_molecular_orbitals.png]]
+
+[[hydrogen mol|http://www.chemtube3d.com/orbitalshydrogen.htm]]
+
+To determine whether a bond forms, we define the ''bond order'', as
+
+$$\text{bond order} = \frac{\text{no. of electrons in bonding orbitals} - \text{no. electrons in antibonding orbitals}}{2}$$
+
+Some of the ideas from homonuclear diatomics, naturally extend to heteronuclear diatomics, and polyatomic molecules, as they capture the essentials of [[Chemical bond]]ing.
+
+!!Molecular orbitals
+
+See [[Molecular physics]] to see derivation of the electron orbitals.
+
+!!!__Principal quantum number__
+
+$$n$$. 
+The extension of the [[atomic|Atomic structure]] [[Principal quantum number]]
+
+!!!__Angular momentum__
+
+$$l$$, as for [[Atomic structure]]
+
+!!!__Magnetic quantum number__
+
+[img[molecular_orbital_magnetic_quantum_number.png]]
+
+!!Electronic state in multi-electron orbitals
+
+As for multi-electron atoms, individual $$l_z$$ don't commute with the Hamiltonian, but the $$z$$ component of the //total// angular momentum, $$L_z$$ does, and this becomes the good quantum number, $$\Lambda$$.
+
+[img[angular_momentum_quantum_numbers.png]]
+
+We also have the total spin $$\mathbf{S}$$
+
+There is finally a binary quantum number, $$+$$/$$-$$, corresponding to reflection along the $$y$$ plane.

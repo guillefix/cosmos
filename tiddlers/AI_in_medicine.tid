@@ -1,9 +1,10 @@
 created: 20160711225450798
 creator: guillefix
-modified: 20160711225800440
-modifier: guillefix
+modified: 20161011184150047
+modifier: cosmos
 tags: [[Artificial intelligence innovation]] Medicine [[Artificial intelligence]]
 title: AI in medicine
+type: text/vnd.tiddlywiki
 
 [[Google DeepMind pairs with NHS to use machine learning to fight blindness|https://www.theguardian.com/technology/2016/jul/05/google-deepmind-nhs-machine-learning-blindness]]
 
@@ -12,3 +13,13 @@ title: AI in medicine
 http://insilicomedicine.com/
 
 https://www.wikiwand.com/en/Alex_Zhavoronkov
+
+----------------
+
+http://www.kheironmed.com/
+
+Mamography ROI. CNN. Can't use all of the mamography data.
+
+[[Oncology]] CT. 3D seg
+
+Peter. Tobias. PhD, high performance computing for genetics. Chris. Combining data. Half-labelled data set. Semi-supervised learning.

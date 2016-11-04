@@ -1,7 +1,23 @@
 created: 20160521192108759
 creator: guillefix
-modified: 20160521192118916
-modifier: guillefix
+modified: 20161025160018665
+modifier: cosmos
 tags: Biology
 title: Developmental biology
+type: text/vnd.tiddlywiki
 
+Every organism comes from a single [[Cell]]
+
+//Development// refers to the process by which cells divide, specialize and organize in time and space, into organs and tissue, making the organism. An important constraint is preserving germline.
+
+!!__Developmental processes__
+
+* Proliferation --[[Cell division]]
+* [[Cell specialization]]
+* Interaction -- [[Cell signalling]]
+* Cell movement -- [[Morphogenesis]]
+
+
+Cell proliferation, specialization, itnteraction, movement. Achieved by a [[Gene expression]] cascade in space!
+
+[[Model organism]]s

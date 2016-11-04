@@ -1,0 +1,62 @@
+created: 20161022125334432
+creator: cosmos
+modified: 20161023182924301
+modifier: cosmos
+tags: [[Energy-based model]] [[Boolean network]]
+title: Hopfield network
+type: text/vnd.tiddlywiki
+
+A type of [[Artificial neural network]] that has thresholded binary units. It was a very simplified early model of [[Neural dynamics]]
+
+See [[wiki|https://www.wikiwand.com/en/Hopfield_network]]
+
+[[[11][1]Hopfield Nets (13 min) (Hinton)|https://www.youtube.com/watch?v=k31Ox9hOh7M]]
+
+[[They are related to|https://arxiv.org/abs/1105.2790]] [[Restricted Boltzmann machine]]s
+
+!!__Hopfield network energy__
+
+If the connections are ''symmetric'', there is a global [[Energy function]], which is minimized by the network's dynamics.
+
+The energy function corresponds to the [[Hamiltonian]] of a [[Spin glass]]
+
+!!__Dynamics of Hopfield networks__
+
+The Hopfield network model is defined as a threshold [[Boolean network]]. See [[Dynamics of Boolean networks]]
+
+!!__Hopfield [[associative memories|Content-addressable memory]]__
+
+Hopfield proposed in 1982 that [[Memory]]es could be energy minima of symmetric Hopfield nets
+
+* The binary threshold decision rule can then be used to "clean up" incomplete or corrupted memories (but which still fall in the basin of attraction of the real memory)
+* This is a type of [[Content-addressable memory]], i.e. you can access an item just by knowing part of its content
+
+The idea of memories as energy minima was proposed as I. A. RIchards in 1924 in "Principles of Literary Criticism"
+
+[[Storage rule|https://www.youtube.com/watch?v=k31Ox9hOh7M#t=11m52]]
+
+[ext[Topological characterization of a Spin Glass transition in a Random Boolean Hopfield Network|http://pcteserver.mi.infn.it/~caraccio/Lauree/Papale.pdf]]
+
+[[[11][3]Hopfield nets with hidden units (10 min)|https://www.youtube.com/watch?v=ujLONBqChkA]]
+
+https://www.quora.com/Why-use-reduced-Boltzmann-machines-instead-of-Hopfield-networks-for-deep-belief-networks
+
+[[Multilayer perceptrons, Hopfield’s associative memories, and restricted Boltzmann machines |https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4126437/]]
+
+See more at Neural Networks: An Introduction [2 ed.] by Muller et al., chapter 3, and at [[Content-addressable memory]]
+
+!!!__Learning by [[Hebb's rule|Hebbian theory]]__
+
+Need to learn weights so that each stored pattern corresponds to a stable configuration of the network and so that small deviations from it will be automatically corrected by the network dynamics. 
+
+[img[Hebbs_rule.png]]
+
+The smaller the ratio $$p/N$$, where $$p$$ is the number of patterns, and $$N$$ is the number of neurons, the greater the likelihood that the pattern v is  a stable configuration of the network, and that the pattern is recovered by a damaged pattern in a single update step.
+
+If $$p$$ is comparable to $$N$$, the patterns can't be recovered. Using tools from [[Statistical physics]], one can show that there is a phase transition between these two cases at $$p/N \approx 0.14$$.
+
+[img[Hopfield_net_learning.png]]
+
+See [[Statistical mechanics of neural networks]]
+
+!!!-->[[David MacKay lectures|https://www.youtube.com/watch?v=OvMGPHpa_tM]]

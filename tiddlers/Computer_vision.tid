@@ -1,8 +1,9 @@
 created: 20160403134855690
 creator: guillefix
-modified: 20160621141634082
-modifier: guillefix
+modified: 20161006192453542
+modifier: cosmos
 title: Computer vision
+type: text/vnd.tiddlywiki
 
 http://www.movidius.com/
 
@@ -23,3 +24,5 @@ http://www.movidius.com/
 http://www.clement.farabet.net/research.html#parsing
 
 ''Hand-eye coordination''. See work on grabbing objects in [[Robotics]]
+
+http://opencv.org/

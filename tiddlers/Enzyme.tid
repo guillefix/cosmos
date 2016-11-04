@@ -1,9 +1,11 @@
 created: 20160422215836560
 creator: guillefix
-modified: 20160905105135768
+modified: 20161017134919111
 modifier: cosmos
 title: Enzyme
 type: text/vnd.tiddlywiki
+
+[[Catalyst]]s that appear in [[Biology]], and catalyze many biological reactions, particularly, in [[Metabolism]]
 
 https://en.wikipedia.org/wiki/Enzyme
 
@@ -15,7 +17,41 @@ are macromolecular biological ''catalysts''
 
 [[Triose phosphate isomerase]] (TIM). It takes a [[Triose]] phosphate (with a [[Phosphate]] group), into an [[Isomer]] of it.
 
+* [[Protease]]
+
 !!__Mechanisms__
+
+''Active site''. 3D cleft or crevice with precisely defined arrangement of atoms. Part of the enzyme that specifically binds the substrate. Substrate binds via multiple [[Intermolecular forces]]
+
+* Lock and key
+* Induced fit
+* Really, it's a combination of both
+
+Active site is defined by its shape and the chemistry of the [[Amino acid]]s that make it.
+
+!!__Function__
 
 *Stabilize transition states.
 *Avoiding side reactions
+
+[img[http://alevelnotes.com/page_images/504px-Carbonic_anhydrase_reaction_in_tissue.svg.png]]
+
+!!!__[[Enzyme kinetics]]__
+
+---------------
+
+!!__Enzyme synthesis__
+
+Using [[Bacteria]]
+
+!!__Applications__
+
+* In [[Food]] industry,  washing powders
+
+* Bioremediation, to clean up [[Contamination]]
+
+* Biomimetic catalysts
+
+------------
+
+[[vfun id|https://www.youtube.com/watch?v=XTUm-75-PL4]]

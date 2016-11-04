@@ -1,0 +1,32 @@
+created: 20161011171255906
+creator: cosmos
+modified: 20161012202456593
+modifier: cosmos
+title: Decision tree
+type: text/vnd.tiddlywiki
+
+https://www.wikiwand.com/en/Decision_tree
+
+!!__Classification tree__
+
+[[video|https://www.youtube.com/watch?v=p17C9q2M00Q&list=PLD0F06AA0D2E8FFBA&index=7]]
+
+[[Growing a classification tree (CART)|https://www.youtube.com/watch?v=S51plSJBC2g&index=10&list=PLD0F06AA0D2E8FFBA]], using greedy algo.
+
+Following the CART approach (Breiman et al)
+
+!!__Regression tree (CART)__
+
+[[video|https://www.youtube.com/watch?v=zvUOpbgtW3c&list=PLD0F06AA0D2E8FFBA&index=7#t=499.919073]]
+
+[[Growing a regression tree (CART)|https://www.youtube.com/watch?v=_RxqyvRK0Rw&list=PLD0F06AA0D2E8FFBA&index=9]] via a [[Greedy algorithm]], which later could be prunned
+
+---------------
+
+[[Generalizations for trees (CART)|https://www.youtube.com/watch?v=UMtBWQ2m04g&index=10&list=PLD0F06AA0D2E8FFBA#t=28.466837]]
+
+[[Categorical input|https://www.youtube.com/watch?v=UMtBWQ2m04g&index=10&list=PLD0F06AA0D2E8FFBA#t=8m30s]]
+
+[[Bootstrap aggregation]]
+
+!!![[Random forest]]

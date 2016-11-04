@@ -1,12 +1,14 @@
 created: 20160821073215042
 creator: cosmos
-modified: 20160821083127328
+modified: 20161102172418117
 modifier: cosmos
 tags: [[Generative learning]]
 title: Gaussian discriminant analysis
 type: text/vnd.tiddlywiki
 
-An example of a [[Generative learning]] algorithm.
+//aka quadratic discriminant analysis//
+
+An example of a [[Generative supervised learning]] algorithm.
 
 [[Lec vid intro|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=6m50s]], where we assume that $$p(x|y)$$ is [[Gaussian]].
 
@@ -25,3 +27,9 @@ See [[vid|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADA
 The GDA makes stronger assumptions than Logistic regression. If the GDA Gaussian assumption holds, or roughly holds, GDA may do better than Logistic regression. In other cases, Logistic regression may do better.
 
 Logistic regression is more flexible, but requires more data. GDA is less flexible, but can work well with less data if the stronger assumptions are correct.
+
+!!!__Classification surface__
+
+[img[GDA.png]]
+
+[img[Selection_022.png]]

@@ -1,0 +1,68 @@
+created: 20160914085844404
+creator: cosmos
+draft.of: Cross-validation
+draft.title: Cross-validation
+modified: 20160917095846556
+modifier: cosmos
+tags: [[Model selection]]
+title: Draft of 'Cross-validation'
+type: text/vnd.tiddlywiki
+
+Test the model on data you haven't used for training.
+
+min-max, average
+
+[ext[https://www.cs.cmu.edu/~schneide/tut5/node42.html]]
+
+Wikipedia has good explanations: [ext[https://en.wikipedia.org/wiki/Cross-validation_(statistics)]]
+
+!!__Hold-out cross-validation__
+
+[[video|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=41m30s]]
+
+#Randomly split training set S into two subsets, the training subset S,,train,,, (70%) and the cross-validation subset S,,CV,, (30%).
+
+#Train the model on the training set, and test it on S,,CV,,
+
+#Pick the model (set of [[Hyperparameter]]s) with smallest error on S,,CV,,
+
+To search for best configuration of hyperparameters acoording to the validation error, there are several methods. Some popular ones are:
+
+* [[Grid search|https://www.youtube.com/watch?v=Fs-raHUnF2M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=16#t=4m10s]], try all possible configurations from chosen trial values.
+
+* [[Random search|https://www.youtube.com/watch?v=Fs-raHUnF2M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=16#t=6m05s]]
+
+Sometimes, once a model complexity (and other [[Hyperparameter]]s) are picked, the model is trained on the whole data set.
+
+!!!__''Test set''__
+
+To predict the generalization error (see [[Learning theory]]) of the chosen hyperparameters that are best, we can't just look at their result at S,,CV,,, as that set has been by the algorithm to choose the final answer. As a result, the error on S,,CV,, is a biased estimator of generalization error. To have an unbiased estimator, we need a test set, that is only used once the learning algorithm has finished completely. 
+
+See [[here|https://www.youtube.com/watch?v=Fs-raHUnF2M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=16]]
+
+!!__k-fold cross-validation__
+
+[[video|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=44m49s]]
+
+# Split data into k equal pieces. Common k=10.
+# For i from 1 to k:
+:: Hold-out the ith piece for testing, and use the other k-1 pieces for training.
+:3. Average errors from the k iterations
+
+More computationally expensive
+
+!!__Leave-one-out cross-validation__
+
+k-fold CV, for whem k={number of training examples}, so for each iteration, you leave one out.
+
+Even more computationally expensive, but more accurate estimate of generalization error. Only done when the data is very scarce.
+
+---------------------
+
+//Some thoughts// when I misunderstood train/validation/test learning.
+
+What I describe here is some sort of hyperlearning where we have two steps, where we learn two sets of hyperparameters, and use two different validation sets (which I call below validation, and test, mistakenly...)
+
+When we have trained the data using a method as hold-out CV, and with some fixed learning [[Hyperparameter]]s. If we want to learn the hyperparameters, we can do this whole training procedure with several values of the hyperparameter.
+
+However, to choose the hyperparameters that are best, we can't just look at their result at S,,CV,,, as that set has been by the algorithm to choose the final answer. As a result, the error on S,,CV,, is a biased estimator of generalization error (see [[Learning theory]]). To have an unbiased estimator, we need a test set, that is only used once the learning algorithm has finished completely. We can compare the results on the test set to choose the best set of hyperparameters. Note, that once we have done that, the test error is no longer an unbiased estimate of generalization error, as we have used it to output our very final answer; i.e. our final answer depended on it!! We'd need a hypertest set

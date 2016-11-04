@@ -1,0 +1,11 @@
+created: 20160918163122716
+creator: cosmos
+modified: 20160918164357615
+modifier: cosmos
+tags: [[Machine learning]]
+title: Sequence prediction
+type: text/vnd.tiddlywiki
+
+//and prediction of time-dependent data//
+
+See [[Machine learning]] (in particular [[Generative learning]]), [[Universal inductive inference]], [[Sequence space]], [[Automatic sequence]].

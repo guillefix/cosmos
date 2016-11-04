@@ -1,0 +1,48 @@
+created: 20161103144740058
+creator: cosmos
+modified: 20161104101113695
+modifier: cosmos
+tags: [[Recurrent neural network]]
+title: Augmented RNN
+type: text/vnd.tiddlywiki
+
+[[Nice review|http://distill.pub/2016/augmented-rnns/]]
+
+<div style="width:200px; display:inline-block;">
+  <a style="color:white;" href="http://distill.pub/2016/augmented-rnns/#neural-turing-machines">
+    <img width=200 src="http://distill.pub/2016/augmented-rnns//assets/rnn_preview_ntm.svg">
+    <figcaption><b><span>Neural Turing</span> Machines</b> have external memory that they can read and write to.</figcaption>
+  </a>
+</div>
+<div style="width:200px; display:inline-block;">
+  <a style="color:white;" href="http://distill.pub/2016/augmented-rnns/#attentional-interfaces">
+    <img width=200 src="http://distill.pub/2016/augmented-rnns//assets/rnn_preview_ai.svg">
+    <figcaption><b><span>Attentional</span> Interfaces</b> allow RNNs to focus on parts of their input.</figcaption>
+  </a>
+</div>
+<div style="width:200px; display:inline-block;">
+  <a style="color:white;" href="http://distill.pub/2016/augmented-rnns/#adaptive-computation-time">
+    <img width=200 src="http://distill.pub/2016/augmented-rnns//assets/rnn_preview_act.svg">
+    <p><b><span>Adaptive</span> Computation Time</b> allows for varying amounts of computation per step.</p>
+  </a>
+</div>
+<div style="width:200px; display:inline-block;">
+  <a style="color:white;" href="http://distill.pub/2016/augmented-rnns/#neural-programmer">
+    <img width=200 src="http://distill.pub/2016/augmented-rnns//assets/rnn_preview_np.svg">
+    <figcaption><b><span>Neural</span> Programmers</b> can call functions, building programs as they run.</figcaption>
+  </a>
+</div>
+
+!!RNNs with memory
+
+See [[Neural networks with memory]]
+
+!!RNNs with attention
+
+See [[Attention in machine learning]]
+
+!!Adaptive computation time
+
+!!Neural programmers
+
+[[Neural programmer-interpreter]]

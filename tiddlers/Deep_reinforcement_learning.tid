@@ -1,8 +1,15 @@
 created: 20160705111828390
 creator: guillefix
-modified: 20160705111915384
-modifier: guillefix
+modified: 20161017204345005
+modifier: cosmos
 tags: [[Deep learning]] [[Reinforcement learning]]
 title: Deep reinforcement learning
+type: text/vnd.tiddlywiki
 
 [[AlphaGo]]
+
+[[Intro vid|https://www.youtube.com/watch?v=kUiR0RLmGCo&index=15&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw]]
+
+Combine [[deep|Deep learning]] [[neural networks|Artificial neural network]] with [[Reinforcement learning]]
+
+[[Deep symbolic reinforcement learning]] combines it with symbolic reasoning.

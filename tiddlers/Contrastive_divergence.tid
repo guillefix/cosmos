@@ -1,0 +1,30 @@
+created: 20161022133504430
+creator: cosmos
+modified: 20161022133514976
+modifier: cosmos
+title: Contrastive divergence
+type: text/vnd.tiddlywiki
+
+A method to train [[Restricted Boltzmann machine]]s
+
+!!!__[[Contrastive divergence|https://www.youtube.com/watch?v=MD8qXWucJBY&index=39&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH]] (CD)__
+
+[[Training Products of Experts by Minimizing Contrastive Divergence (Hinton)|http://www.mitpressjournals.org/doi/abs/10.1162/089976602760128018]] -- [[On Contrastive Divergence Learning|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.8829&rep=rep1&type=pdf#page=42]]
+
+[img[Selection_633.png]]
+
+[[contrastive divergence (parameter update)|https://www.youtube.com/watch?v=wMb7cads0go&index=40&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH]]
+
+[img[Selection_632.png]]
+
+Useful for pre-training (initializing) a neural networs; also for [[Feature selection]] (See [[here|https://www.youtube.com/watch?v=S0kFFiHzR8M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=41#t=0m50s]])
+
+!!!__Persistent CD__
+
+[[Training restricted Boltzmann machines using approximations to the likelihood gradient|http://dl.acm.org/citation.cfm?id=1390290]] -- [[Using fast weights to improve persistent contrastive divergence|http://dl.acm.org/citation.cfm?id=1553506]]
+
+[[Neural networks [5.6] : Restricted Boltzmann machine - persistent CD|https://www.youtube.com/watch?v=S0kFFiHzR8M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=41]]
+
+-->[[Motivation|https://www.youtube.com/watch?v=S0kFFiHzR8M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=41#t=2m20s]] --> [[Idea of persistent CD|https://www.youtube.com/watch?v=S0kFFiHzR8M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=41#t=5m25s]]
+
+Results in much better performance in the negative log likelihood, thus providing a much better estimator of the distribution $$p(x)$$.

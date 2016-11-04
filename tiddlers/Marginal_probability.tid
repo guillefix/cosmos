@@ -1,0 +1,10 @@
+created: 20161026135311894
+creator: cosmos
+modified: 20161026135414285
+modifier: cosmos
+tags: [[Probability distribution]]
+title: Marginal probability
+type: text/vnd.tiddlywiki
+
+[[Joint probability distribution]] where we Integrate out one variable.
+

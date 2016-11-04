@@ -1,0 +1,11 @@
+created: 20160916111847659
+creator: cosmos
+modified: 20161022234032615
+modifier: cosmos
+tags: Disorder
+title: Quenched disorder
+type: text/vnd.tiddlywiki
+
+//note quenched disorder often refers to what we refer here as simply [[Disorder]]//.
+
+[[Disorder]] of a system in which the disordered variable is out of equilibrium. For instance in glasses. This can be achieved by cooling sufficiently rapidly, so that a random configuration is //quenched//, and stays so, due to extremely large relaxation times.

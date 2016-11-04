@@ -1,7 +1,7 @@
 created: 20160121192350106
 creator: guillefix
-modified: 20160905111606775
-modifier: guillefix
+modified: 20161003073932948
+modifier: cosmos
 tags: 
 title: Molecular biology
 type: text/vnd.tiddlywiki
@@ -29,3 +29,7 @@ See also [[Biochemistry]]
 http://molecularmovies.com/
 
 https://en.wikipedia.org/wiki/Ribozyme
+
+See [[DNA]]
+
+[[Foundations of molecular biology|https://courses.edx.org/courses/course-v1:MITx+7.00x_3+2T2015/courseware/Week_6Global/Molecular_Biology_1/]]

@@ -1,0 +1,20 @@
+created: 20160919220735827
+creator: cosmos
+modified: 20161018190438545
+modifier: cosmos
+tags: [[Information measures]]
+title: Relative entropy
+type: text/vnd.tiddlywiki
+
+//aka Kullback–Leibler divergence, KL divergence//
+
+[[video|https://www.youtube.com/watch?v=fc5FyE41zeo#t=3m15s]]
+
+[[Mutual information]] is a special case. Defines a measure of "distance" between probabiliy distributions. Applications in estimating hypothesis testing errors and in large deviation theory.
+
+$$D_{\mathrm{KL}}(P\|Q) = \sum_i P(i) \, \log\frac{P(i)}{Q(i)}.$$
+
+
+https://www.wikiwand.com/en/Kullback%E2%80%93Leibler_divergence
+
+https://www.youtube.com/watch?v=QPkb5VcgXAM#t=20m55

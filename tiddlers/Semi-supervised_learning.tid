@@ -1,0 +1,17 @@
+created: 20161018180054761
+creator: cosmos
+modified: 20161018192309085
+modifier: cosmos
+tags: [[Machine learning]]
+title: Semi-supervised learning
+type: text/vnd.tiddlywiki
+
+A type of [[Machine learning]] problem where only some of the labels ('outputs') are available in the training data, the rest of the training data being just 'inputs'.
+
+[[Generative model]]s are often used for [[Feature learning]] from the whole input data set, and then using the learned features, a model can be trained with the few labelled samples. See for instance, [[Generative adversarial network]]s
+
+[[Semi-supervised learning|https://www.youtube.com/watch?v=pytUuJPOnVI&list=PLD0F06AA0D2E8FFBA&index=4#t=27s]]
+
+--------------
+
+I think, [[Generative supervised learning]] is sometimes used in the labelled part, and the rest of the trained data is used to train the [[Generative model]] of the inputs, using techniques from [[Unsupervised learning]]. The latent variables may be seen as predicted outputs for the unlabeled inputs.

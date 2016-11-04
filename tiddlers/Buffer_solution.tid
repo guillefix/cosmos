@@ -1,0 +1,32 @@
+created: 20160920174926660
+creator: cosmos
+modified: 20160921082253361
+modifier: cosmos
+title: Buffer solution
+type: text/vnd.tiddlywiki
+
+//aka buffer//
+
+A buffer solution (more precisely, pH buffer or hydrogen ion buffer) is an aqueous solution consisting of a mixture of a weak acid and its conjugate base, or vice versa. Its pH changes very little when a small or moderate amount of strong acid or base is added to it and thus it is used to prevent changes in the pH of a solution. 
+
+https://www.wikiwand.com/en/Buffer_solution
+
+[img[buffer_solution.png]]
+
+Buffers are important in biology, as they help avoid very acidic or very basic solutions, where the function of biological molecules may be altered, and be lethal for the cell.
+
+A buffer is most effective when the [[pH]] is close to the [[pKa|Acid-base equilibria]] of its acid component 
+
+!!__Henderson-Hasselbach equation__
+
+[img[henderson_hasselbach.png]]
+
+Using $$[A^-]+ [HA] = C$$ is a constant, which is the total concentration of HA before dissociating.
+
+gives 
+
+$$\frac{C}{(\frac{K_a}{[H^+]}+1)}=[HA]$$
+
+Well I think I need also the water equilibrium equation, etc. really. 
+
+See the above function plotted: [ext[here|http://www.wolframalpha.com/input/?i=plot+1-1%2F(1%2B1%2F10%5E-x)]]

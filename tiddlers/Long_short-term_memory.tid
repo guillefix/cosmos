@@ -1,12 +1,23 @@
 created: 20160709022008083
 creator: guillefix
-modified: 20160709022049041
-modifier: guillefix
+modified: 20161005181329378
+modifier: cosmos
 title: Long short-term memory
+type: text/vnd.tiddlywiki
 
-A kind of [[Neural networks with memory]]
+A kind of [[Recurrent neural network]], [[Neural networks with memory]]
+
+!!![[Understanding LSTMs|http://colah.github.io/posts/2015-08-Understanding-LSTMs/]]
 
 [[Video|https://www.youtube.com/watch?v=56TYLaQN4N8#t=25m30s]]
 [[Backpropogating an LSTM: A Numerical Example|http://blog.aidangomez.ca/2016/04/17/Backpropogating-an-LSTM-A-Numerical-Example/]]
 
+Introduced in [[Hochreiter & Schmidhuber (1997)|http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97_lstm.pdf]]
+
 [img[http://blog.aidangomez.ca/assets/lstm.png]]
+
+[[video|https://www.youtube.com/watch?v=hWgGJeAvLws#t=10m20s]]
+
+[[explanation|https://pythonprogramming.net/recurrent-neural-network-rnn-lstm-machine-learning-tutoria]] [[implementing in tensorflow|https://pythonprogramming.net/rnn-tensorflow-python-machine-learning-tutorial/]]
+
+[[Number of hidden units|http://stackoverflow.com/questions/37901047/what-is-num-units-in-tensorflow-basiclstmcell]]

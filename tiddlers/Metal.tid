@@ -1,12 +1,28 @@
 created: 20160507154617241
 creator: guillefix
-modified: 20160507155409778
-modifier: guillefix
+modified: 20161009150513948
+modifier: cosmos
 tags: [[Materials science]]
 title: Metal
+type: text/vnd.tiddlywiki
 
 A [[material|Materials science]] made of atoms bonded by metallic bonds (see [[Chemical bonds]])
 
 A metallic element is one that forms a metal when in its pure solid state.
 
-Pure metallic crystalline solids are found almost always in either BCC, FCC, and sometimes (HCP) crystal arrangements. Furthermore, BCC, and FCC appear only in metals, at least, when looking at pure element crystals (see [[Periodic table (crystal structure)|https://en.wikipedia.org/wiki/Periodic_table_(crystal_structure)]]
+Pure metallic crystalline solids are found almost always in either BCC, FCC, and sometimes (HCP) crystal arrangements. Furthermore, BCC, and FCC appear only in metals, at least, when looking at pure element crystals (see [ext[Periodic table (crystal structure)|https://en.wikipedia.org/wiki/Periodic_table_(crystal_structure)]])
+
+!!__Metal groups__
+
+* [[Alkali metal]]s
+* [[Alkaline earth metal]]s
+
+!!__Reactions__
+
+!!!__with water__
+
+As a general rule, if a metal reacts with cold water, you get the metal hydroxide. If it reacts with steam, the metal oxide is formed. This is because the metal hydroxides thermally decompose (split up on heating) to give the oxide and water.
+
+!!!__with [[Acid]]__
+
+Metals react with acids at different rates, depending on how reactive the metals are. Hydrogen can be produced from acids when they react with metals. [[page|http://www.bbc.co.uk/education/guides/z8ktyrd/revision]]

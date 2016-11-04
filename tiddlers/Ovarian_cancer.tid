@@ -1,0 +1,39 @@
+created: 20161012002144710
+creator: cosmos
+modified: 20161012113325802
+modifier: cosmos
+title: Ovarian cancer
+type: text/vnd.tiddlywiki
+
+Ovarian cancer is the most lethal gynaecologic cancer, in large part because of its early dissemination and rapid development of chemotherapy resistance.
+
+!!__Dissemination__
+
+!!!__Spheroids__
+
+Spheroids are clusters of tumor cells found in the [[peritoneal|Peritoneum]] fluid of patients that are thought to promote this dissemination.
+
+[[Spontaneous spheroid budding from monolayers: a potential contribution to ovarian cancer dissemination.|https://www.ncbi.nlm.nih.gov/pubmed/23213456]]
+
+__in vitro experiments__
+
+Spheroids can be produced from many cancer cell lines under conditions that favor cell-cell over cell-matrix adhesion
+,,Not all cancer cell lines form spheroids, and the features that allow spheroid growth are not well characterized. ,,
+
+__resistance__
+
+A major property is the resistance of spheroid cells to cytotoxic drugs compared to the same cells grown as monolayers
+
+,,drug resistance is proposed to arise from one or more factors, including creation of a physical barrier to drug penetration; induction of genes or signalling pathways that enhance survival, such as drug efflux pumps; and selection for a subpopulation of drug-resistant cells, which could include cancer stem cells,,
+
+-->In the experiments in the paper, the resistance could be completely reversed by dissociating the spheroids.
+
+__spheroid formation__
+
+Current models suggest that spheroids form by aggregation of single tumor cells shed from the primary tumor. Another mechanicsm is clonal expansion.
+
+Here, we demonstrate that //spheroids can also form by budding directly as adherent clusters from a monolayer//
+
+Their experiment suggests that the ability to form budded spheroids does not require supplemental serum or growth factors added to the spheroid media.
+
+//Spheroid budding correlates with epithelial to mesenchymal transition (EMT) markers//

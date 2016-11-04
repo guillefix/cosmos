@@ -1,0 +1,14 @@
+created: 20161018192219155
+creator: cosmos
+modified: 20161018192614208
+modifier: cosmos
+title: Feature learning
+type: text/vnd.tiddlywiki
+
+//aka feature extraction//
+
+[[Machine learning]] applied to [[Feature selection]]
+
+Often uses [[Unsupervised learning]], and in particular [[Generative model]]s.
+
+[[GANs for feature learning|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=33m25]]

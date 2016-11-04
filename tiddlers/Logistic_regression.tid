@@ -1,6 +1,6 @@
 created: 20160709020525444
 creator: guillefix
-modified: 20160813154310459
+modified: 20161102175810681
 modifier: cosmos
 tags: [[Supervised classification]]
 title: Logistic regression
@@ -15,3 +15,11 @@ See [[also here|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DC
 __[[Probabilistic interpretation|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=57m17s]]__. Logitistic regression can also be interpretedas a [[Maximum likelihood]] estimate assuming the Logistic funciton (sigmoid) gives the probability of belonging to a given class. We can then use [[Gradient descent]]. More theoretical understanding can be acquired from the theory of [[Generalized linear model]]s
 
 A simpler version: [[Perceptron]]
+
+See [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/ML-MT2016/slides/slides08.pdf]]
+
+!!__Training__
+
+Maximum likelihood. Log likelihood turns out to be cross-entropy.
+
+To see if problem is convex, we test if the [[Hessian]] is positive semi-definite, and it is. See [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/ML-MT2016/slides/slides08.pdf]] for form of Hessian

@@ -1,13 +1,14 @@
 created: 20160701001010087
 creator: guillefix
-modified: 20160713135505987
-modifier: guillefix
+modified: 20161022234122251
+modifier: cosmos
 tags: [[Statistical physics]]
 title: Disordered system
+type: text/vnd.tiddlywiki
 
 See [[Condensed matter physics]], [[Complex systems]]
 
-A disordered system, I think, is defined as one which has quenched disorder that affects its behaviour. Quenched disorder affects the behaviour if the system is finite, or if the disorder is non-[[Self-averaging]]
+A disordered system is a system that has [[Disorder]]. Disorder affects the behaviour of the system if the system is finite, or if the disorder is non-[[Self-averaging]]
 
 [[http://www.sapienza.isc.cnr.it/disordered-systems.html]]
 
@@ -19,9 +20,11 @@ A disordered system, I think, is defined as one which has quenched disorder that
 
 [[Spin glass]]
 
+* [[Random energy model]]
+
 [[Boolean network]]
 
-[[Artificial neural network]]
+[[Artificial neural network]] -- [[Hopfield network]]
 
 !!!__[[Self-averaging]]__
 

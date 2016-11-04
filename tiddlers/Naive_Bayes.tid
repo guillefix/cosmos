@@ -1,14 +1,16 @@
 created: 20160821094547699
 creator: cosmos
-modified: 20160830112641896
+modified: 20161031173818003
 modifier: cosmos
-tags: [[Generative learning]]
+tags: [[Generative supervised learning]]
 title: Naive Bayes
 type: text/vnd.tiddlywiki
 
-A [[Generative learning]] algorithm used when the input space is $$\{0,1\}^n$$, so an input point consists of $$x_i \in \{0,1\}$$, $$i=1,2,...,n$$.
+A [[Generative supervised learning]] algorithm used when the input space is $$\{0,1\}^n$$, so an input point consists of $$x_i \in \{0,1\}$$, $$i=1,2,...,n$$.
 
-The particular variant below is called ''Multivariate Bernoulli event model'', as it is part of a family of models called ''event models'' (another example of which is below)
+The particular variant below is called ''Multivariate Bernoulli event model'', as it is part of a family of models called ''event models'' (another example of which is below).
+
+Even though the assumptions in naive Bayes are too simplifying, the model often gives good results, because it isn't prone to [[Overfiting]] due to the relatively small number of parameters. It is however, not very good as a [[Generative model]], but it does well as a classifier.
 
 See [[Wiki|https://www.wikiwand.com/en/Naive_Bayes_classifier]]
 

@@ -1,6 +1,6 @@
 created: 20160226112409331
 creator: guillefix
-modified: 20160914163813048
+modified: 20161022125450789
 modifier: cosmos
 tags: [[Artificial intelligence]] Learning [[Data science]]
 title: Machine learning
@@ -13,6 +13,10 @@ See [[Artificial intelligence]], [[Deep learning]]
 --[[Book recommendations|https://www.quora.com/Machine-Learning/How-do-I-learn-machine-learning-1]]
 
 [[Building Machine Learning Systems with Python|https://www.packtpub.com/big-data-and-business-intelligence/building-machine-learning-systems-python]] -- [[Machine learning in Matlab|http://uk.mathworks.com/videos/machine-learning-with-matlab-87051.html?s_eid=PSM_12825]] --[[Lecture list of Andrew's course:|https://www.quora.com/What-are-the-differences-between-the-Andrew-Ngs-Machine-Learning-courses-offered-on-Coursera-and-iTunes-U]] -- [[lecture notes|http://cs229.stanford.edu/materials.html]] -- [[Andrew Ng machine learning course|https://www.coursera.org/learn/machine-learning]] https://www.youtube.com/watch?v=UzxYlbK2c7E . On [[lecture 2|https://www.youtube.com/watch?v=5u4G23_OohI]] -- [[Machine Learning - mathematicalmonk|https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA]] -- [[Machine Learning: A Probabilistic Perspective|http://www.amazon.co.uk/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020]] [ext[and here|https://www.cs.ubc.ca/~murphyk/MLbook/]] -- [[Machine Learning: Discriminative and Generative (The Springer International Series in Engineering and Computer Science)|http://www.amazon.co.uk/Machine-Learning-Discriminative-International-Engineering/dp/1402076479]] https://en.wikipedia.org/wiki/Generative_model
+
+[[Machine Learning with Python|https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v]]
+
+[[Supervised vs unsupervised|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=4m47]]
 
 
 !!__[[Supervised learning]]__
@@ -46,7 +50,7 @@ Actually, I think unsupervised learning is the most general. After all, supervis
 
 [[Variations on supervised and unsupervised|https://www.youtube.com/watch?v=pytUuJPOnVI&list=PLD0F06AA0D2E8FFBA&index=4]]
 
-!!!__[[Semi-supervised learning|https://www.youtube.com/watch?v=pytUuJPOnVI&list=PLD0F06AA0D2E8FFBA&index=4#t=27s]]__
+!!!__[[Semi-supervised learning]]__
 
 You are given a set of inputs $$x$$, but you only have the corresponding outputs $$y$$ for some. You have to predict the $$y$$ for the rest (by learning the function $$y(x)$$ for instance, like in [[Supervised learning]].
 
@@ -72,9 +76,7 @@ Reward function
 
 Used often in robotics.
 
-!!__[[Learning theory]] and [[Learning algorithm]]s__
-
-
+!!__[[Learning theory]] and learning algorithms__
 
 !!__[[Deep learning]]__
 
@@ -82,9 +84,31 @@ Used often in robotics.
 
 !!__[[Bayesian inferential statistics|Bayesian inference]]__
 
-__[[Graphical models|https://en.wikipedia.org/wiki/Graphical_model]]__
-
 Good framework: [[Stan|http://mc-stan.org/]]
+
+!__[[Probabilistic model]]s__
+
+Models for [[Probability distribution]]s. These models relate [[Random variable]]s, using some more or less general assumptions about the nature of the data.
+
+[[Graphical model]]
+
+[[Artificial neural network]]
+
+[[Energy-based model]]
+
+Many other models used in different areas of machine learning.
+
+----------------
+
+__Applications__
+
+* [[Speech recognition]]
+* [[Speech synthesis]]
+* [[Image classification]]
+* [[Text classification]]
+* [[Machine translation]]
+
+See more in [[Machine learning in science and engineering]], and [[Applications of AI]].
 
 --------
 

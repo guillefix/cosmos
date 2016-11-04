@@ -1,5 +1,7 @@
 created: 20160905061655804
-modified: 20160905081002932
+creator: cosmos
+modified: 20161010095131348
+modifier: cosmos
 tags: [[Organic chemistry]]
 title: Organic compound
 type: text/vnd.tiddlywiki
@@ -26,6 +28,13 @@ __Classification by functional group__
 * [[Amide]]
 * [[Aliphatic compound]]
 * [[Aromatic compound]]
+* [[Nitro]]
+* [[Alkyl halide]]
+* [[Cyanide]]
+* [[Acetal]]
+* etc,etc,etc.
+
+In general, carbon atoms carrying functional groups can be classified by their [[Oxidation state]]
 
 __Classification by structure__
 

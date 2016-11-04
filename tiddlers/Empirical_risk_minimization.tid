@@ -1,6 +1,6 @@
 created: 20160911092848691
 creator: cosmos
-modified: 20160913224118316
+modified: 20160916173125143
 modifier: cosmos
 tags: [[Learning theory]]
 title: Empirical risk minimization
@@ -10,6 +10,18 @@ Risk minimization (see [[Learning theory]]), requires knowing the joint probabil
 
 Depending on the form of the risk function, this optimization problem may be [[convex|Convex optimization]] or non-convex. If one uses a 0-1 loss function, the problem is non-convex, and finding its solution is [[NP-hard]]. A smoothed loss function may convert it into convex problem, solvable by [[Gradient descent]].
 
-[[Setting up formally a linear classifier, to explore the problems of learning theory, and using empirical risk minimization as learning principle|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=7m35s]]
+!!![[Neural networks [2.1] : Training neural networks - empirical risk minimization|https://www.youtube.com/watch?v=5adNQvSlF50&index=7&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH]]
+
+Empirical risk minimization is thus defined as the [[Optimization]] problem of minimizing
+
+$$\frac{1}{m} \sum\limits_i l(f(x^{(i)}; \mathbf{\theta}), y ^{(i)}) + \lambda  \Omega (\mathbf{\theta})$$
+
+where $$f$$ is our [[Model]] (hypothesis, that depend on the model parameters $$\mathbf{\theta}$$; $$l$$ is the [[Loss function]], $$ \Omega (\mathbf{\theta})$$ is the [[regularizer|Regularization]]. $$\lambda$$ is a hyperparameter that balances the two terms.
+
+When we add the regularizer, ERM is called //structural risk minimization//.
+
+-------------------
+
+,,[[Setting up formally a linear classifier, to explore the problems of learning theory, and using empirical risk minimization as learning principle|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=7m35s]],,
 
 [[Intro to ERM|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=10m30s]] -- [[def|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=12m20s]]

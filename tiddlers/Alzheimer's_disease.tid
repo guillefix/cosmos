@@ -1,12 +1,90 @@
 created: 20160705010423427
 creator: guillefix
-modified: 20160711225721266
-modifier: guillefix
+modified: 20161024192835867
+modifier: cosmos
 tags: Neurodegeneration
 title: Alzheimer's disease
+type: text/vnd.tiddlywiki
 
 https://en.wikipedia.org/wiki/Alzheimer%27s_disease
 
 [[Alzheimer's and the Brain|https://www.youtube.com/watch?v=dWcdBOYy_bU]] [[Relations with chromosome 21|https://www.youtube.com/watch?v=dWcdBOYy_bU#t=9m40s]]. Alzheimer's disease seems to be related to the accumulation of plaques in the brain, and with tangles.
 
 [[Artificial Intelligence Could Help Catch Alzheimer's Early|http://www.livescience.com/55313-artificial-intelligence-alzheimers-early-detection.html]]
+
+[[Alzheimer's is a chronic disease|https://www.youtube.com/watch?v=l6jafQERb7E#t=11m20]]
+
+---------------
+
+[[Molecular Mechanisms of Memory Loss in Alzheimer's Disease|https://www.youtube.com/watch?v=l6jafQERb7E]]
+
+__Common features__
+
+* [[Dementia]]
+* [[Neurodegeneration]]
+
+__Structural consequences in the brain__,, (first 90 years of research),,
+
+* [[Amyloid plaques]] 
+**  amyloid-β (Aβ) protein
+* [[Neurofibrillary tangle]]s
+** [[Tau protein]]
+
+__Functional consequences in the brain__,, (last 15 years of research),,
+
+* Memory loss
+* Cognitive impairement
+
+!!__Molecular mechanisms__
+
+Transgenic mice models: [[vid|https://www.youtube.com/watch?v=l6jafQERb7E#t=14m55]]. These models don't model AD, but only //endophenotypes// of the disease.
+
+!!!__Amyloid hypothesis__
+
+https://www.wikiwand.com/en/Alzheimer's_disease#/Amyloid_hypothesis
+
+//Amyloid precursor protein transgenic mouse models//
+
+* Tg2576
+
+Transgenic (Tg) mice that overexpress mutant familial Alzheimer's disease (AD) amyloid precursor protein (APP) 
+
+[[vid|https://www.youtube.com/watch?v=l6jafQERb7E#t=8m24s]] -- [[vid2|https://www.youtube.com/watch?v=l6jafQERb7E#t=21m]]
+
+[[APP transgenic mice: their use and limitations.|https://www.ncbi.nlm.nih.gov/pubmed/21152995]]
+
+[[Amyloid precursor protein transgenic mouse models and Alzheimer's disease: understanding the paradigms, limitations, and contributions.|https://www.ncbi.nlm.nih.gov/pubmed/19560104]]
+
+These observations suggest that the pathogenesis of AD is by far more intricate than can be explained by a straightforward accumulation of Abeta.
+
+[[Memory problems preceded the plaque formation by 6 months, so it didn't seem as though the plaques were the cause|https://www.youtube.com/watch?v=l6jafQERb7E#t=23m26]], but it seems to be A$$\beta$$ related, because if you give a$$\beta$$ antibodies, it seems to reverse the existing memory deficits. --> Brain disfunction and plaque pathology were mediated by different pathways. As it was independent of neuronal or synapse loss, they hypothesiced that the memory problems were mediated by a new species A$$\beta$$* [[vid|https://www.youtube.com/watch?v=l6jafQERb7E#t=24m30]] --> A$$\beta$$* 56 --> [[particles are spheroids|https://www.youtube.com/watch?v=l6jafQERb7E#t=29m]]. Probably as 12 mer. --> [[experiment by injecting into healthy rats|https://www.youtube.com/watch?v=l6jafQERb7E#t=30m50]]
+
+__[[Low-end oligamers|https://www.youtube.com/watch?v=l6jafQERb7E#t=32m20]] (low end refers to monomers, dimers, etc. low end in the spectrum of aggregation)__
+
+Researchers have been led to suspect non-plaque Aβ oligomers (aggregates of many monomers) as the primary pathogenic form of Aβ.
+
+[[Aβ Oligomer-Induced Synapse Degeneration in Alzheimer’s Disease|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3146579/]]
+
+__N-APP/DR6 pathway__
+
+However, in 2009, this theory was updated, suggesting that a close relative of the beta-amyloid protein, and not necessarily the beta-amyloid itself, may be a major culprit in the disease. The theory holds that an amyloid-related mechanism that prunes neuronal connections in the brain in the fast-growth phase of early life may be triggered by ageing-related processes in later life to cause the neuronal withering of Alzheimer's disease.[64] N-APP, a fragment of APP from the peptide's N-terminus, is adjacent to beta-amyloid and is cleaved from APP by one of the same enzymes. N-APP triggers the self-destruct pathway by binding to a neuronal receptor called death receptor 6 (DR6, also known as TNFRSF21).[64] DR6 is highly expressed in the human brain regions most affected by Alzheimer's, so it is possible that the N-APP/DR6 pathway might be hijacked in the ageing brain to cause damage. In this model, beta-amyloid plays a complementary role, by depressing synaptic function.
+
+!!!__Tau hypothesis__
+
+//Tau transgenic mice//
+
+* rTg4510 (r stands for regulatable)
+
+[[vid|https://www.youtube.com/watch?v=l6jafQERb7E#t=10m28]]
+
+Hyper[[phosphorylated|Phosphorylation]] Tau is the principal component in neurofibrillary tangles. It was found that certain mutations of Tau caused dementia
+
+[[It doesn't seem that tangles are the cause of memory problems, though they correlate very well in humans|https://www.youtube.com/watch?v=l6jafQERb7E#t=20m]]. It supports the hypothesis that there is some form of soluble dysfunctional tau species that precedes structural changes like the tangles or the neuronal loss.
+
+!!__Risk factors__
+
+While in familial forms of AD, mutations result in an increased Aβ production or aggregation, in sporadic AD, failure of the clearance mechanisms might play a central role
+
+!!__[[Early-onset Alzheimer's]]__
+
+[[Familial Alzheimer's disease]]

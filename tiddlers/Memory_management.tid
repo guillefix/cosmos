@@ -1,0 +1,32 @@
+created: 20160629005908388
+creator: guillefix
+modified: 20161104121536032
+modifier: cosmos
+title: Memory management
+type: text/vnd.tiddlywiki
+
+//a.k.a. memory allocation//
+
+The [[Operating system]] allocates memory to ''processes'', so that a process can only access that portion of memory.
+
+This memory is divided into:
+
+* [[Call stack]], or just the stack
+* [[Memory heap]], where dynamically allocated variables are stored.
+* text section.
+
+The addresses that the program uses to reference variables are actually [[Virtual memory]] addresses, which the operating system translates to physical memory.
+
+https://en.wikipedia.org/wiki/Memory_management
+
+[[Malloc|http://stackoverflow.com/questions/1963780/when-should-i-use-malloc-in-c-and-when-dont-i]] (a function available in [[C/C++]] is used to put variables in the heap instead of the read only "text section".
+
+!!!__Garbage collection__
+
+[ext[https://www.wikiwand.com/en/Garbage_collection_(computer_science)]]
+
+------------------
+
+[[What and where are the stack and heap?|http://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap]]
+
+http://stackoverflow.com/questions/18446171/how-do-compilers-assign-memory-addresses-to-variables

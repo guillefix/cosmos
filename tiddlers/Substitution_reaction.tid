@@ -1,5 +1,7 @@
 created: 20160905082405329
-modified: 20160905082610960
+creator: cosmos
+modified: 20161013202127631
+modifier: cosmos
 tags: [[Chemical reaction]]
 title: Substitution reaction
 type: text/vnd.tiddlywiki
@@ -11,3 +13,8 @@ Substitution reaction (also known as single displacement reaction or single repl
 * [[SN1 reaction]] (two-step)
 
 * [[SN2 reaction]] (single-step)
+
+!!__Types__
+
+* [[Electrophilic substitution]]
+* [[Nucleophilic substitution]]

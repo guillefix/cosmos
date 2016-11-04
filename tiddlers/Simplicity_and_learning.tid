@@ -1,6 +1,6 @@
 created: 20160913070651215
 creator: cosmos
-modified: 20160913124927089
+modified: 20161009203236182
 modifier: cosmos
 tags: Simplicity Learning
 title: Simplicity and learning
@@ -33,3 +33,7 @@ This can be stated more generally and precisely using the Markov network formali
 //3. Symmetry//
 
 Whenever the Hamiltonian obeys some symmetry (is in-variant under some transformation), the number of independent parameters required to describe it is further reduced.
+
+-------------
+
+[[deep learning|https://www.youtube.com/watch?v=oOB4evKlEmQ#t=35m]]

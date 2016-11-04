@@ -1,0 +1,21 @@
+created: 20160918182627887
+creator: cosmos
+modified: 20160918191348292
+modifier: cosmos
+tags: 
+title: Markov property
+type: text/vnd.tiddlywiki
+
+A ''Markov property'' refers to any of a certain class of independence properties of [[Random variable]]s defined on the nodes of a [[Network]].
+
+[[Pairwise Markov property]]: {{Pairwise Markov property}}
+
+[[Local Markov property]]: {{Local Markov property}}
+
+[[Global Markov property]]: {{Global Markov property}}
+
+See [[here|https://www.wikiwand.com/en/Markov_random_field#/Definition]], and [[Markov network]]
+
+-----------
+
+[[Stochastic process]]es that satisfy the Markov property are known as [[Markov process]]

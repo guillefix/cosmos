@@ -1,0 +1,25 @@
+created: 20160916173127900
+creator: cosmos
+modified: 20161031111134563
+modifier: cosmos
+tags: [[Machine learning]]
+title: Regularization
+type: text/vnd.tiddlywiki
+
+Penalising weights "encourages fitting signal rather than just noise"
+
+A different way to avoid overfitting, while keeping all parameters in your model.
+[[Intro vid|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=1m]]
+
+We use the [[Prior distribution]] from [[Bayesian statistics]], to make [[simple|Simplicity]] hypothesis more likely. See [[Simplicity and learning]].
+
+[[Intuition|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=12m]]
+
+
+[[Neural networks [2.8] : Training neural networks - regularization|https://www.youtube.com/watch?v=JfkbyODyujw&index=14&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH]]
+
+!!!__[[Dropout]]__
+
+!!!__[[Batch normalization]]__
+
+!!!__[[Tikhonov regularization]]__

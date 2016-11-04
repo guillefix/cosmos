@@ -1,9 +1,10 @@
 created: 20160428004022645
 creator: guillefix
-modified: 20160713135155724
-modifier: guillefix
+modified: 20161101211429144
+modifier: cosmos
 tags: [[Soft matter physics]] [[Active system]] MMathPhys
 title: Active matter
+type: text/vnd.tiddlywiki
 
 ''Active matter'' refers to a type of [[bulk matter|Bulk matter]], often [[soft condensed matter|Soft matter physics]] that is an [[Active system]], i.e. that it produces its own driving energy (for example, [[self-propelling particles|Self-propelled particle]], and micro-swimmers).
 
@@ -12,6 +13,8 @@ title: Active matter
 [[The Hydrodynamics of Active Systems|https://arxiv.org/abs/1603.00194]]
 
 [[Life at low Reynold's numbers|https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/multiscaleroboticlab-dam/documents/microrobotics/HS2015/Purcell1977.pdf]], see [[Low Reynolds number]]
+
+[[topics on active and soft matter physics assignment|topics-soft-active (1).pdf]]
 
 See also [[Complex fluid dynamics]], [[Colloid physics]]
 

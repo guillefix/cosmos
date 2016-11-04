@@ -1,0 +1,17 @@
+created: 20161026202846924
+creator: cosmos
+modified: 20161026203005558
+modifier: cosmos
+tags: [[Philosophy of mathematics]] Probability
+title: Philosophy of probability
+type: text/vnd.tiddlywiki
+
+im a bayesian frequentist
+
+I think of almost all probability as fundamentally frequentist, but because of our incomplete knowledge/computational resources we make subjective and simplifying assumptions which are best carried out in a Bayesian framework.
+
+However, the deepest probabilistic questions, I think are fundamentally subjective, and so foundamentally Bayesian (see my #philosophy)
+
+#probability
+
+See also [[Philosophy of quantum mechanics]] and [[Philosophy of statistical mechanics]]

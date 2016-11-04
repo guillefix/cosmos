@@ -1,0 +1,16 @@
+created: 20160916120133288
+creator: cosmos
+modified: 20160916153730249
+modifier: cosmos
+title: Spin glass phase transition
+type: text/vnd.tiddlywiki
+
+[[Phase transition]]s in [[Spin glass]]es
+
+the greatest theoretical success in spin glasses to date has to do with the analysis and solution of a spin glass in an (effectively) infinite number of dimensions, where we have the only theoretical results that there is a phase transition
+
+It is easy to prove theoretically that an EA spin glass in one dimension has no phase transition (but this is true for any one-dimensional system with short-range interactions only)
+
+From numerical simulations, the current consensus is that, for the [[EA Ising model|Edwards-Anderson Hamiltonian]], there is a phase transition (at nonzero temperature) in four dimensions and higher, probably one in three dimensions as well, and none in two.
+
+See [[Edwards-Anderson Hamiltonian]] for a description of the order parameter, and [[Replica symmetry breaking]].

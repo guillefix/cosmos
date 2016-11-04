@@ -1,6 +1,6 @@
 created: 20160327021039036
 creator: guillefix
-modified: 20160914084440313
+modified: 20161104094742626
 modifier: cosmos
 tags: [[Machine learning]]
 title: Supervised learning
@@ -46,6 +46,10 @@ Output value is discrete, or categorical, or qualitative. No implicit ordering, 
 
 Learning the function $$p(\text{output}|\text{input})$$. See [[notes|http://cs229.stanford.edu/notes/cs229-notes1.pdf]]
 
+!!__Structured learning__
+
+[[wiki|https://www.wikiwand.com/en/Structured_prediction]]
+
 !!!__General methods__
 
 [[Generalized linear model]]
@@ -54,7 +58,9 @@ Learning the function $$p(\text{output}|\text{input})$$. See [[notes|http://cs22
 
 [[Support vector machine]]
 
-!!__[[Generative learning]]__
+[[Decision tree]]
+
+!!__[[Generative supervised learning]]__
 
 Learning the function $$p(\text{input}|\text{output})$$, together with $$p(\text{output})$$, which can be used to find $$p(\text{output}|\text{input})$$ using [[Baye's theorem]]. 
 See [[notes|http://cs229.stanford.edu/notes/cs229-notes2.pdf]]. See [[lecture video|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=51s]] [[def|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=4m50s]]

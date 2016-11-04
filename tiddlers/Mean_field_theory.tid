@@ -1,12 +1,25 @@
 created: 20160209154912836
 creator: guillefix
-modified: 20160209155343482
-modifier: guillefix
+modified: 20160916150210799
+modifier: cosmos
 title: Mean field theory
+type: text/vnd.tiddlywiki
 
-[[Statistical field theory]] that ignores fluctuations. I.e. just describes the behaviour of the //mean// quantities of interest. Can get such behaviour by applying the method of steepest descents to the partition function.
+[[Statistical field theory]] that ignores spatial fluctuations. I.e. just describes the behaviour of the //mean// quantities of interest. Can get such behaviour by applying the method of steepest descents to the partition function.
 
-__Examples__
+A mean field model is essentially a simplified model in which ''every degree of freedom finds itself in the same environment as every other''; in other words, ''local spatial fluctuations have been discarded''. It is precisely these fluctuations that drive much of the interesting behavior of many phase transitions, so mean field models are often a poor guide to understanding behavior (called the [[critical behavior|Critical phenomena]])at or near a transition. On the other hand, they’re often fairly reliable at providing insights into thelow-temperature properties of a system—its order parameter and broken symmetry, and the low-energy excitations that determine its thermal properties. 
+
+!!!__Approaches__
+
+There are different ways in which the mean field approach can be realized, which for technical reasons turn out to be essentially equivalent.
+
+* One such way is to ''extend the range of the interactions to infinity''. This means that every spin interacts equally strongly with every other, erasing any notion of distance or geometry: everyone is effectively a nearest neighbor to everyone else. 
+
+* ''Extend to infinite dimension''. mean field theory typically becomes exact for the corresponding short-range model in the limit of infinite dimensionality [85]
+
+mean field models, infinite-range models, and short-range models in infinite dimension are indistinguishable. The claim is that for a given system, all three should display essentially the same thermodynamic behavior, but the models may be different in other respects.
+
+!!!__Examples__
 
 [[Regular solution model|Liquid-liquid unmixing]]
 

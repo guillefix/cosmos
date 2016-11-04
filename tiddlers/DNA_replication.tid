@@ -1,16 +1,17 @@
 created: 20160625191707928
 creator: guillefix
-modified: 20160628181931618
-modifier: guillefix
+modified: 20161014105951477
+modifier: cosmos
 title: DNA replication
+type: text/vnd.tiddlywiki
 
 Replication of [[DNA]] is a step in [[Mitosis]]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TNKWgcFPHqw" frameborder="0" allowfullscreen></iframe>
 
-# ''Helicase'' unzips DNA, and forms a replication fork.
-# ''Primase'' makes a small piece of RNA called a primer
-# ''DNA polymerase''  enzimes binds to the primer and will make the new strand of DNA. The leading strand is replicated continuously, while the lagging strand is replicated in steps, forming Okazaki fragments.
+# ''Helicase'' unzips DNA, and forms a replication fork. There are also [[Topoisomerase]]s releasing built up stresses in DNA
+# ''Primase'' makes a small piece of RNA called a primer, which is between 7 and 10 [[Nucleobases]], and often being in an A-rich section
+# ''DNA polymerase''  enzimes binds to the primer and will make the new strand of DNA. The leading strand is replicated continuously, while the lagging strand is replicated in steps, forming Okazaki fragments. DNA polymerase $$\alpha$$, and then DNA polymerase $$\beta$$. Polymerase works only in one direction, in the 3' -> 5' direction, only bonding 5' to 3'
 # ''Exonuclease'' removes all the RNA primers from both strands of DNA
 # DNA polymerase enzymes then fill the gaps left behind in DNA.
 # ''DNA ligase'' seals up the fragments of DNA
@@ -18,3 +19,7 @@ Replication of [[DNA]] is a step in [[Mitosis]]
 Animation below is missing the steps 4 and 5: 
 
 [img[http://67.media.tumblr.com/d4b9974630566b1185f8e3adbcd4bb06/tumblr_o9hrs67V5c1sk2szio1_1280.gif]]
+
+!!Inhibition of DNA replication
+
+Interfere with enzymes, etc

@@ -1,0 +1,16 @@
+created: 20160921140754564
+creator: cosmos
+modified: 20161018094354506
+modifier: cosmos
+title: Batch normalization
+type: text/vnd.tiddlywiki
+
+A method to increase learning rate for [[deep|Deep learning]] [[neural networks|Artificial neural network]], as well as [[regularize|Regularization]] them.
+
+[[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift|http://arxiv.org/abs/1502.03167]]
+
+[[an explanation|https://standardfrancis.wordpress.com/2015/04/16/batch-normalization/]]
+
+They suggest that a change in the distribution of activations because of parameter updates slows learning.  They call this change the internal covariate shift. They propose to normalize the activations (to have zero mean and unit variance) to avoid this.
+
+These have been found to work better for [[Convolutional neural network]]s for [[Image classification]]. I think this may be because for images, you care more about relative differences between pixel values, and so normalizing helps remove unimportant information.

@@ -1,0 +1,18 @@
+created: 20161004110542463
+creator: cosmos
+modified: 20161004111843629
+modifier: cosmos
+title: Peptide bond
+type: text/vnd.tiddlywiki
+
+A bond formed by [[Dehydration synthesis]] between a [[Carboxylic acid]] group, and an [[Amine]] group. These are the basis of polypeptides, such as [[Protein]]s
+
+[img[peptide1.PNG]]
+
+The nature of the chemical bonding within a peptide accounts for the bond’s planarity. The bond resonates between a single bond and a double bond. Because of this double-bond character, rotation about this bond is prevented 
+
+[img[peptide-resonance.PNG]]
+
+[img[peptide-bond-lengths.PNG]]
+
+There are two possible conformations, the //cis// and //trans// conformations, but, for [[Amino acid]], due to to [[Steric hindrance]], the trans is by far the most common. for X-Pro bonds, both have steric hindrance and so both kinds appear.

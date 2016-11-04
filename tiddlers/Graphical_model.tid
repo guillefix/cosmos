@@ -1,7 +1,24 @@
 created: 20160704164449084
 creator: guillefix
-modified: 20160704164457386
-modifier: guillefix
+modified: 20161018144349845
+modifier: cosmos
 tags: [[Machine learning]]
 title: Graphical model
+type: text/vnd.tiddlywiki
 
+''Probabilistic graphical model''
+
+[[1.0 - Welcome-Probabilistic Graphical Models - Professor Daphne Koller|https://www.youtube.com/watch?v=WPSQfOkb1M8&list=PL50E6E80E8525B59C]]
+
+[[Jeffrey A. Bilmes|https://www.youtube.com/channel/UCvPnLF7oUh4p-m575fZcUxg/videos]]
+
+
+
+* [[Undirected graphical model|Markov network]]
+* Directed graphical models: [[Hidden Markov model]], Bayesian networks
+
+See [[here|https://www.youtube.com/watch?v=ZYUnyyVgtyA&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=25#t=7m10s]] for the distinction of directed vs undirected graphical models. The difference, is that a directed graphical model is an undirected one, but where the factors that correspond to the edges, are normalized, because they correspond to [[Conditional probability]]es
+
+__[[Graphical models|https://en.wikipedia.org/wiki/Graphical_model]]__
+
+They can often be represented as kinds of [[Artificial neural network]]s

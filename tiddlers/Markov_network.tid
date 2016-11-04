@@ -1,0 +1,29 @@
+created: 20160918182119172
+creator: cosmos
+modified: 20160918192833950
+modifier: cosmos
+title: Markov network
+type: text/vnd.tiddlywiki
+
+A ''Markov network'', aka a ''Markov random field'', or ''undirected graphical model'', is a [[Network]] of [[Random variable]]s that satisfy a [[Markov property]]. In particular they satisfy the properties below. It is also a [[Graphical model]] with undirected edges.
+
+There is a __node__ for each of the [[Random variable]]s. In the case of [[Conditional random field]]s, one for each output $$y_k$$, and each input $$x_k$$.
+
+Then we have an __edge__ between any two nodes that in such a way that the r.v. satisfy:
+
+|__[[Global Markov property]]__: Two notes are conditionally independent if all paths between them contain at least one of the conditioning node. [[Example|https://www.youtube.com/watch?v=ZYUnyyVgtyA&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=25#t=5m40s]]|
+
+<small>More generally, given disjoint subsets of nodes A, B, and C, X,,A,, is conditionally independent of X,,B,, given X,,C,, if there is no path from any node in A to any node in B that doesn't pass through a node of C.</small>
+
+
+A [[Conditional random field]], is a Markov network, that models a conditional function $$p(y|x)$$, they are thus called discriminative UGMs. To construct the Markov network, we put an edge, whenever two variables share a factor in the ''product of factors form'' of a CRF. Of course, the product of factors form can be applied to Markov networks that arent CRFs!
+
+See also the generalized [[Factor graph]]
+
+[ext[Chapter from Murphy's book|https://www.cs.ubc.ca/~murphyk/MLbook/pml-print3-ch19.pdf]]
+
+[[Markov Random Field Optimisation|http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/AV0809/ORCHARD/]]
+
+[[Neural networks [3.8] : Conditional random fields - Markov network|https://www.youtube.com/watch?v=ZYUnyyVgtyA&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=25]]
+
+[[wiki|https://www.wikiwand.com/en/Markov_random_field#/Definition]]

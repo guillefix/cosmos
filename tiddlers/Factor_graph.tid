@@ -1,0 +1,12 @@
+created: 20160918192646947
+creator: cosmos
+modified: 20160918193020142
+modifier: cosmos
+title: Factor graph
+type: text/vnd.tiddlywiki
+
+A generalization/extension of a [[Markov network]], useful for [[Conditional random field]]s
+
+[[Neural networks [3.9] : Conditional random fields - factor graph|https://www.youtube.com/watch?v=Q5GTCHVsHXY&index=26&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH]] -- [[definition|https://www.youtube.com/watch?v=Q5GTCHVsHXY&index=26&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=2m40s]]
+
+One node for each factor.

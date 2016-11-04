@@ -1,28 +1,29 @@
 created: 20160326024251377
 creator: guillefix
-modified: 20160623232412206
-modifier: guillefix
+modified: 20161101211907361
+modifier: cosmos
 tags: [[MMathPhys miniprojects]] [[Spatial networks]]
 title: Physarum machines and physarum solver
+type: text/vnd.tiddlywiki
 
 [img[physarum_machines_books.png]]
 
-See Networks miniproject (inoverleaf), pdf here: [[Spatial network optimization with a model of the physarum polycephalum|file:///home/guillefix/Dropbox/Oxford/MMathPhys/Networks/miniproject/896065.pdf]]
+See Networks miniproject (inoverleaf), pdf here: [[Spatial network optimization with a model of the physarum polycephalum|file:///home/guillefix/Dropbox/Oxford/MMathPhys/Networks/miniproject/896065.pdf]] or [[here|spatial-network-optimization (1).pdf]]
 
 
 __Analytical properties of physarum solver__
 
 http://epubs.siam.org/doi/pdf/10.1137/1.9781611974331.ch131
 
-http://arxiv.org/pdf/1101.5249v1.pdf
+[[Convergence properties of physarum solver|http://arxiv.org/pdf/1101.5249v1.pdf]]
 
-[[Physarum Can Compute Shortest Paths|https://people.mpi-inf.mpg.de/~mtd/files/physarum_shortest_path.pdf]]
+[ext[Physarum Can Compute Shortest Paths|https://people.mpi-inf.mpg.de/~mtd/files/physarum_shortest_path.pdf]]
 
-[[PHYSARUM CAN COMPUTE SHORTEST PATHS: A SHORT PROOF|http://www.iasi.cnr.it/~vbonifaci/pub/physarum-ipl.pdf]]
+[ext[PHYSARUM CAN COMPUTE SHORTEST PATHS: A SHORT PROOF|http://www.iasi.cnr.it/~vbonifaci/pub/physarum-ipl.pdf]]
 
-http://arxiv.org/abs/1106.0423
+[[Physarum Can Compute Shortest Paths|http://arxiv.org/abs/1106.0423]]
 
-http://arxiv.org/abs/1601.02712
+[[IRLS and Slime Mold: Equivalence and Convergence|http://arxiv.org/abs/1601.02712]]
 
 [[On a Natural Dynamics for Linear Programming|http://arxiv.org/abs/1511.07020]]
 

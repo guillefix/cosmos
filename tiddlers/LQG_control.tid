@@ -1,0 +1,11 @@
+created: 20161016115727501
+creator: cosmos
+modified: 20161016121755692
+modifier: cosmos
+tags: [[Control theory]]
+title: LQG control
+type: text/vnd.tiddlywiki
+
+Linear quadratic [[Gaussian]] control
+
+See [[here|https://www.youtube.com/watch?v=UFH5ibWnA7g&index=19&list=PLA89DCFA6ADACE599#t=46m50]] --> [[and here|https://www.youtube.com/watch?v=UFH5ibWnA7g&index=19&list=PLA89DCFA6ADACE599#t=1h8m55s]]. See [[Reinforcement learning]]

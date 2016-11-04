@@ -1,0 +1,10 @@
+created: 20160916114957516
+creator: cosmos
+modified: 20160916115433176
+modifier: cosmos
+title: Structural balance
+type: text/vnd.tiddlywiki
+
+''Structural balance'' refers to the situation when a [[Signed network]] contains only loops with even numbers of minus signs. This is so that the (naturally generalized version of the) rule "the enemies of my enemies are my friends", and "the friends of my friends are my friends". The opposite situation is called [[Frustration]] in spin networks
+
+''Harary's theorem'' tells us that all balanced networks are //clusterable//, i.e. they can be divided into groups with only positive connections within groups and negative between them. Proof given in Newman's book and gives further intuition of concept of balance.

@@ -1,6 +1,6 @@
 created: 20160913110136500
 creator: cosmos
-modified: 20160915182118835
+modified: 20160918153858346
 modifier: cosmos
 tags: [[Artificial neural network]]
 title: Neural network theory
@@ -8,11 +8,17 @@ type: text/vnd.tiddlywiki
 
 The theory (mainly [[Learning theory]]) of [[Artificial neural network]]s. See also [[Deep learning theory]], [[Mathematical modelling of neural networks]], [[Statistical mechanics of neural networks]]
 
+[[Neural networks class - Université de Sherbrooke (Hugo Larochelle)|https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH]]
+
 Note that the notation in [[this paper|http://arxiv.org/abs/1608.08225]] is opposite to that standard in [[Machine learning]]. __In the paper, $$y$$ is the input, and $$x$$ is the output.__
 
 !!!__Neural networks are can approximate any smooth function__
 
 Even single-layer ones. Find papers
+
+__Universal approximator theorem__
+
+See paper mentioned in Hugo's vid, //single hidden layer ANNs can approximate any continuous function with sufficiently many neurons in the hidden layer//. There may not be a //learning algorithm// to find the right parameter set though.
 
 !!!__Baye's theorem as a softmax__
 
@@ -49,3 +55,7 @@ In the case of a polynomial of degree $$d$$, there are $$(n+d)!/(n!d!)$$ terms (
 In the case of $$n$$ binary input variables (with possible values $$0$$ or $$1$$), any function can be written as a polynomial of degree $$n$$, and only $$2^n$$ terms (as repeating a factor doesn't change the function as $$y_i ^2 = y_i$$. 
 
 Furthermore bit variables allow an accurate multiplication approximator that takes the product of an arbitrary number of bits at once. This implies that any function of a bit-variable $$\mathbf{y}$$ can be simulated with just three layers, the middle of which does the appropriate multiplications (so we need $$2^n$$ neurons here), and the last of which sums the terms with appropriate weights to create the polynomial.
+
+!!__Learning of neural networks__
+
+See [[Learning theory]], [[Artificial neural network]]s

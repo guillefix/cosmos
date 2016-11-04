@@ -1,15 +1,18 @@
 created: 20160422212305298
 creator: guillefix
-modified: 20160708163849602
-modifier: guillefix
+modified: 20161013132818100
+modifier: cosmos
 tags: [[Biodiversity & evolution]]
 title: Tree of life
+type: text/vnd.tiddlywiki
 
-//aka phylogenetic tree//
+//aka [[phylogenetic|Phylogenetics]] tree//
 
-!![[Open Tree of Life|http://www.opentreeoflife.org/]]
+!![[Open Tree of Life|http://www.opentreeoflife.org/]] -- [[Tree of life web project|http://tolweb.org/tree/phylogeny.html]]
 
-See [[Taxonomy]]
+See [[Taxonomy]], [[Phylogenetics]]
+
+Distances in phylogenetic trees is related to genetic distance, and distance in the past to the most recent common ascentor.
 
 [[Scientists Unveil New ‘Tree of Life’|http://www.nytimes.com/2016/04/12/science/scientists-unveil-new-tree-of-life.html?smid=fb-share&_r=0]] [[Complex archaea that bridge the gap between prokaryotes and eukaryotes|http://www.nature.com/nature/journal/v521/n7551/full/nature14447.html#tables]]
 
@@ -17,6 +20,16 @@ See [[Taxonomy]]
 
 [[Tree of life image|https://goo.gl/photos/Q2gEMi9pDRYxGFz48]]
 
-[[Eukaryotes]]
+!!__Domains__
 
-[[Prokaryotes]]
+Developed by Carl Woese, using ribosomal [[rRNA|Ribosomal RNA]] sequencing.
+
+* [[Eukaryote]] (Eukarya)
+* [[Bacteria]]
+* [[Archaea]]
+
+See also [[Prokaryote]]
+
+!!__Horizontal gene transfer__
+
+Phylogenetic network. For instance, bacteria exchange genetic materia. [[Endo-symbiosis]] of [[Mitochondria]]. Branches of the tree can connect, and so it isn't a perfect tree any more.

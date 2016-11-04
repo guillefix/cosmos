@@ -1,9 +1,10 @@
 created: 20160309160601286
 creator: guillefix
-modified: 20160625020710129
-modifier: guillefix
+modified: 20161015144100393
+modifier: cosmos
 tags: [[Computer Science and IT]] [[Information technology]] [[Technology & Engineering]]
 title: Robotics
+type: text/vnd.tiddlywiki
 
 [[Omni-wheel|https://en.wikipedia.org/wiki/Omni_wheel]]
 
@@ -21,4 +22,14 @@ Research in China: [[ArXiv paper|http://arxiv.org/abs/1509.06825]] [[News|https:
 
 [[Boolean Network Robotics as an Intermediate Step in the Synthesis of Finite State Machines for Robot Control|https://mitpress.mit.edu/sites/default/files/titles/content/ecal13/978-0-262-31709-2-ch112.pdf]]
 
+!!__Robot control__
+
+[[Control theory and control systems]]
+
+[[Reinforcement learning]]
+
 __[[Swarm robotics]]__
+
+!!__Robot simulation__
+
+[[http://gazebosim.org/]]

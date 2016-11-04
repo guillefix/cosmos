@@ -1,8 +1,11 @@
 created: 20160709021949046
 creator: guillefix
-modified: 20160709022036911
-modifier: guillefix
+modified: 20161103144445817
+modifier: cosmos
 title: Neural networks with memory
+type: text/vnd.tiddlywiki
+
+//aka [[Memory]]-augmented neural networks//
 
 ''Memory'' is good for recognizing time sequence data.
 
@@ -13,3 +16,16 @@ title: Neural networks with memory
 ''[[Recurrent neural nets|https://www.youtube.com/watch?v=56TYLaQN4N8&index=12&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=7m48s]]''. Vanishing gradient problem, naively, RNNs don't give you long term memory.. [[RNNs|Recurrent neural network]]
 
 ''Long Short-Term Memory'' ([[LSTM|Long short-term memory]]) was introduced to solve this problem. 
+
+See also [[Content-addressable memory]]
+
+[[Associative Long Short-Term Memory|https://www.semanticscholar.org/paper/Associative-Long-Short-Term-Memory-Danihelka-Wayne/3ed48ecf9e70a513247e3a710ede484e4114c2f0]]
+
+[[Active Long Term Memory Networks|https://arxiv.org/abs/1606.02355]]
+
+
+[[Attention and Augmented Recurrent Neural Networks|http://distill.pub/2016/augmented-rnns/]]
+
+[[Neural Turing machine]]s
+
+[[Integrating symbols into deep learning]]

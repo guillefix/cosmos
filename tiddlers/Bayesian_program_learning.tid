@@ -1,0 +1,29 @@
+created: 20161022120339986
+creator: cosmos
+modified: 20161022124234645
+modifier: cosmos
+tags: [[Program induction]]
+title: Bayesian program learning
+type: text/vnd.tiddlywiki
+
+A type of [[Program induction]], that can be used for [[One-shot learning]]
+
+[ext[Human-level concept learning through probabilistic program induction|http://cims.nyu.edu/~brenden/LakeEtAl2015Science.pdf]]
+
+Concepts are represented as simple probabilistic programs—that is, probabilistic generative models expressed as structured procedures in an abstract description language (17,18). Our framework brings together three key ideas—compositionality, causality, and learning to learn—that have been separately influ-ential in cognitive science and machine learning over the past several decades (19–22).
+
+!!__[[Causality]]__
+
+naturally captures the abstract “causal” structure of the real-world processes that produce examples of a category. 
+
+!!__[[Learning to learn]]__
+
+Learning proceeds by constructing programs that best explain the observations under a [[Bayesian|Bayesian statistics]] criterion, and the model “learns to learn” (23,24)  by developing hierarchical priors that allow previous experience with related concepts to ease learning of new concepts (25,26). These priors represent a learned inductive bias (27) that abstracts the key regularities and dimensions of variation holding across both types of concepts and across instances (or tokens) of a concept in a given domain. 
+
+In short, BPL can construct new programs by reusing the pieces of existing ones, capturing the causal and compositional properties of real-world generative processes operating on multiple scales. 
+
+!!__BPL__
+
+BPL defines a generative model that can sam-ple new types of concepts (an“A,”“B,”etc.) by combining parts and subparts in new ways. Each new type is also represented as a genera-tive model, and this lower-level generative model produces new examples (or tokens) of the con-cept (Fig. 3A, v), making BPL a generative model for generative models. The final step renders the token-level variables in the format of the raw data
+
+Could we decode representations structurally similar to those in BPL from brain imaging of premotor cortex (or otheraction-oriented regions) in humans perceiving and classifying new char-acters for the first time?

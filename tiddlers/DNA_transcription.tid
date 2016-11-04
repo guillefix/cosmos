@@ -1,0 +1,75 @@
+created: 20160920185230418
+creator: cosmos
+modified: 20161014123936092
+modifier: cosmos
+title: DNA transcription
+type: text/vnd.tiddlywiki
+
+//aka transcription//
+
+[[video (basic)|https://www.youtube.com/watch?v=5MfSYnItYvg]] -- [[video (advanced)|https://www.youtube.com/watch?v=SMtWvDbfHLo]]
+
+http://www.nature.com/scitable/definition/transcription-dna-transcription-87
+
+http://www.nature.com/scitable/topicpage/dna-transcription-426
+
+[ext[https://www.wikiwand.com/en/Transcription_(genetics)]]
+
+<img style="background-color:white;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/MRNA.svg/2000px-MRNA.svg.png">
+
+!!__Transcription initiation__
+
+Initiator sequence
+
+Many factors.... Helps with helicase activity. [[phosphorelates|Phosphorelation]] the enzyme (activates it)
+
+* TFIIH
+
+* [[Transcription factor]]s
+
+!!__Transcription elongation__
+
+* Capping the pre-mRNA. The cap binding complex is recognized by nuclear pores to let the completed mRNA out of the nucleus.
+* Polyadenylating the pre-mRNA, like telomeres for mRNA... determines its half-life.
+
+!!!__RNA polymerase__
+
+__Eukaryotes__
+
+* [[RNA polymerase]]
+** Pol I makes [[Ribosomal RNA]]
+** Pol II makes [[Messenger RNA]]
+** Pol II makes [[Transfer RNA]]
+** Pol IV and V, only in [[Plant cell]]s
+
+__[[Prokaryote]]s__
+
+Only one type of DNA
+
+__Function__
+
+*First unwinds the [[DNA]] (helicase activity)
+
+* Transcribes 3' to 5' end to create a 5' to 3; precursor mRNA strand
+
+* DNA/RNA hybrid is separated at an archway.
+
+[img[https://classconnection.s3.amazonaws.com/185/flashcards/82185/jpg/6_61320375392033.jpg]]
+
+!!!__Pre-mRNA processing - splicing__
+
+One [[Gene]] that can code for multiple variants of the [[Protein]]. 
+
+* [[Exon]]s, and [[Intron]]s
+
+* snRNA
+
+* splicesome. See video RNA splicing mechanism.
+
+!!__mRNA stability__
+
+* Half-lives around 30min to 10 hours.
+
+!!__Transcription in bacteria__
+
+Much simpler. transcription, and translations coupled. Can code several proteins at the same time, operon.

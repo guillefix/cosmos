@@ -1,6 +1,6 @@
 created: 20160810174318827
 creator: cosmos
-modified: 20160915191942820
+modified: 20161023173521474
 modifier: cosmos
 tags: Optimization
 title: Local optimization
@@ -13,3 +13,7 @@ Find local optima, as a method to approximately solve hard nonlinear optimizatio
 * [[Coordinate descent]]
 
 * [[EM algorithm]]
+
+[[THE EFFECT OF GRADIENT NOISE ON THE ENERGY LANDSCAPE OF DEEP NETWORKS |https://arxiv.org/abs/1511.06485]]
+
+[[EXPLORATIONS ON HIGH DIMENSIONAL LANDSCAPES |https://arxiv.org/abs/1412.6615]]

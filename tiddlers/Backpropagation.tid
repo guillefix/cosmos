@@ -1,0 +1,23 @@
+created: 20160918153744509
+creator: cosmos
+modified: 20160918153822243
+modifier: cosmos
+title: Backpropagation
+type: text/vnd.tiddlywiki
+
+[[backpropagation|https://www.youtube.com/watch?v=_KoWTD8T45Q&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=13]]. An algorithm to compute the derivatives, needed for [[Gradient descent]], for [[Artificial neural network]]s.
+
+''Backpropagaion''. It effectively uses the chain rule to compute the gradient w.r.t. parameters at one layer with the values of the gradients w.r.t. parameters at the layer above (deeper).
+
+[[Efficient BackProp|http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf]]
+
+[img[https://lh3.googleusercontent.com/meJWmYC_T9cKaz8S8k2j6jmtl1etx-hIwqUN_zl-zgvcGRr1egcKaV_zOzwtIXeKQfyDvTjw51awxmEMwd8iJhN4m9ObNRTPCTNlppjfbrIFGo3ieepSq4EIjx9f4xRPrgpjuHo5PaMCsaM8_weYjQ868FpSHcGcGR5L2IsTgJHiI-AwapSYqofABQYhctmN1-QQTeUSUMM6xui7uX0b9WsTQtyrIPHtwWNczcsYy2vedasGcSOLpP8_8vecJ6hCN_PnkpRa2U8KxhdNiGGshcWeFCvJ48CKQfc_JjLoNDB4D8lDPq8KYnPqzW3zAVzTy6ebBFEXvXnMjwF0vun-j9uJsjadbv3XjJscF2Vw1LkA-msoTk7QBDrfdDy1Sp5l15Kug98zDwvsR-14h5Pv4QmIEm5wlGQfaT9vo7kCYP_b40HMu9umj3gGtMcMNiB1hZ56KWj92hF-PlSYLBA3BRsCuGZlhrON8JMvrYpjHOxf6m5ZVv_XmwJKd8EhoZqozIlQVQssZA8SWqBAAGB8KOsSlElGtmlekDxu6MpiEMMRSYVivwkQAWEKBDPDmVVSWWyZ=w943-h661-no]]
+<small>[image above, wait until it loads, you also need to be signed into google]</small>
+
+[[Video|https://www.youtube.com/watch?v=-YRB0eFxeQA&index=8&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=24m00s]]
+
+[[See this too|https://www.youtube.com/watch?v=NUKp0c4xb8w&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=9#t=35m25s]]
+
+[[Why backprop is more efficient than naive approach|https://www.youtube.com/watch?v=NUKp0c4xb8w&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=9#t=41m50s]]
+
+[[Derivatives wrt the input|https://www.youtube.com/watch?v=-YRB0eFxeQA&index=8&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=43m47s]] give you a way of knowing which part of the input is determining the classification, i.e. where is the cat in the image, for example

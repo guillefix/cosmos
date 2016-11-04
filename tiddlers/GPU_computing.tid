@@ -1,8 +1,15 @@
 created: 20160403122109248
 creator: guillefix
-modified: 20160403122140970
-modifier: guillefix
+modified: 20160921105034349
+modifier: cosmos
 tags: [[Scientific computing]]
 title: GPU computing
+type: text/vnd.tiddlywiki
 
 See [[Computer hardware]] and [[Cloud computing]]
+
+[[External GPU]]
+
+[[Installing the GPU version of TensorFlow for making use of your CUDA GPU|https://www.youtube.com/watch?v=io6Ajf5XkaM&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&index=52]] -- [[more details|https://pythonprogramming.net/how-to-cuda-gpu-tensorflow-deep-learning-tutorial/]]
+
+Useful for [[Data science]]/big data

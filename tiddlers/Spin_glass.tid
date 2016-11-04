@@ -1,26 +1,38 @@
 created: 20160611125205456
 creator: guillefix
-modified: 20160713135517649
-modifier: guillefix
+modified: 20160916153611739
+modifier: cosmos
 title: Spin glass
-
-//aka Sherington-Kirkpatrick model//
+type: text/vnd.tiddlywiki
 
 [[Disordered|Disordered system]] version of the [[Ising model]], and corresponding magnetic materials showing disordered phases.
 
 !__Spin glass models__
 
 [[A short course on mean field spin glasses |https://wt.iam.uni-bonn.de/fileadmin/WT/Inhalt/people/Anton_Bovier/lecture-notes/bovier-paris.pdf]]
+ -- [[solvable model of a spin-glass|http://journals.aps.org/prl/pdf/10.1103/PhysRevLett.35.1792]]
+ -- [[Long-Distance Behaviour of Correlation Functions in Disordered Systems|http://iopscience.iop.org/article/10.1209/0295-5075/3/9/008/meta]]
+ -- [[Scale Invariance and Self-averaging in disordered systems|http://arxiv.org/pdf/cond-mat/0312715v1.pdf]]
 
-[[solvable model of a spin-glass|http://journals.aps.org/prl/pdf/10.1103/PhysRevLett.35.1792]]
+!!![[Edwards-Anderson Hamiltonian]]
 
-See also [[Ising model]]..
+!!!__[[Frustration]]__
 
-See also [[Artificial neural network]] (near bottom) for some cool applications
+Any real lattice in two or more dimensions will have a complicated network of interpenetrating [[frustrated|Frustration]] loops. How does one then find the ground state? Which couplings should be chosen to be unsatisfied? Or are there possiblymanyground states not connected by any simple symmetry transformation? ,,this is an open question.,,
 
-[[Long-Distance Behaviour of Correlation Functions in Disordered Systems|http://iopscience.iop.org/article/10.1209/0295-5075/3/9/008/meta]]
+!!!__[[Spin glass phase transition]]__
 
-[[Scale Invariance and Self-averaging in disordered systems|http://arxiv.org/pdf/cond-mat/0312715v1.pdf]]
+!!!__[[Spin glass energy landscape]]__
+
+!!!__[[Mean field theory]] of spin glasses: the [[Sherington-Kirkpatrick Hamiltonian]]__
+
+!!!__Related models and systems__
+
+*[[Ising model]]
+
+*[[Artificial neural network]]
+
+-----------------------
 
 !!__Mechanisms underlying spin glass behaviour__
 
@@ -47,6 +59,8 @@ Electron spins have two properties that are crucial to their mediation role:
 
 ** europium strontium sulfide (Eu,,x,, Sr,,1−x,, S), magnetic impurity [[Europium]] is substituted randomly for nonmagnetic [[Strontium]], with the fraction x of europium
 ** lithium holmium yttrium fluoride (LiHo,,0.167,, Y,,0.833,, F,,4,, ), in which holmium is the magnetic ion.
+
+----------------------
 
 !__[[Static features of spin glasses]]__
 

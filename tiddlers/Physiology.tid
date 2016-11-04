@@ -1,13 +1,13 @@
 created: 20160408160118698
 creator: guillefix
 list-after: Anatomy
-modified: 20160830150825927
+modified: 20161003145450085
 modifier: cosmos
 tags: Biology
 title: Physiology
 type: text/vnd.tiddlywiki
 
-Studies the function of organisms. Goes together with [[Anatomy]], which studies the structure of organisms. One often restricts physiology to refer to the "normal" functioning of organisms, in contrast with [[Pathology]]
+Studies the ''function of organisms''. Goes together with [[Anatomy]], which studies the structure of organisms. One often restricts physiology to refer to the "normal" functioning of organisms, in contrast with [[Pathology]]
 
 https://en.wikipedia.org/wiki/Physiology
 
@@ -20,4 +20,9 @@ A lot of biological function is determined by its chemistry, and a hierarchy of 
 * [[Biochemistry]]
 ** [[Metabolism]]
 * [[Genetics]]
-* 
+* [[Molecular biology]]
+* [[Cell biology]]
+
+--------------------
+
+!!!__[[Organ system]]s__

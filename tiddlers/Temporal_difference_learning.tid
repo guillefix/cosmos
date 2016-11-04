@@ -1,0 +1,36 @@
+created: 20161019173818091
+creator: cosmos
+modified: 20161020130150127
+modifier: cosmos
+tags: [[Reinforcement learning]]
+title: Temporal difference learning
+type: text/vnd.tiddlywiki
+
+An approach to [[Reinforcement learning]]
+
+TD learning is a combination of [[Monte Carlo]] ideas and [[Dynamic programming]] (DP) ideas. Like Monte Carlo methods, TD methods can learn directly from raw experience without a model of the environment's dynamics. Like DP, TD methods update estimates based in part on other learned estimates, without waiting for a final outcome (they bootstrap).
+
+ After each action selection, the critic evaluates the new state to determine whether things have gone better or worse than expected. That evaluation is the TD error:
+
+<img style="background-color:white;" src="https://webdocs.cs.ualberta.ca/~sutton/book/ebook/imgtmp41.png">
+
+Note that unlike [[Bellman's equation]] for $$V^*$$, which has a $$\max\limits_a$$, this doesn't but that is because, the action we have just taken follows the policy and so it's selected by $$\max\limits_a$$..
+
+Traditional AC methods optimize the
+policy through policy gradients and scale the policy gradie
+nt by the TD error, while the action-value
+function is updated by ordinary TD learning
+
+Read [[here|https://arxiv.org/pdf/1610.01945.pdf]]
+
+!!__TD0__
+
+[[vid|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=19m30s]]
+
+A kind of [[Gradient descent]] to converge to solution to V(s) that satisfies [[Bellman equation]]
+
+[ext[https://webdocs.cs.ualberta.ca/~sutton/book/ebook/node60.html]]
+
+!!__Action-critic methods__
+
+[ext[https://webdocs.cs.ualberta.ca/~sutton/book/ebook/node66.html]]

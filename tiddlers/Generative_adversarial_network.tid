@@ -1,0 +1,92 @@
+created: 20161018183639198
+creator: cosmos
+modified: 20161022154446512
+modifier: cosmos
+tags: [[Generative model]]
+title: Generative adversarial network
+type: text/vnd.tiddlywiki
+
+An architecture to train generative neural networks, i.e. [[neural networks|Artificial neural network]] which act as [[Generative model]]s, i.e. their inputs are [[Latent variable]]s, and their output is the observed data.
+
+!!__Adversarial networks__
+
+The way the network is trained is by having the generative network produce images, while training a different discriminative network to discriminate between real and generated images. In this way, the discriminative network can be used as a very good cost function, which penalized generated images which are distinguishably different from the real images that the generative network is train to model.
+
+We are in effect learning the cost function
+
+[[video|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=14m30]]
+
+!!__Trining GANs__
+
+[[Trained|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=18m05]] via [[Gradient descent]] and [[Backpropagation]]
+
+I think that the discriminator needs to have a separate cost function which measures the number of images the discriminator missclassified as being real or generated. [[Discriminator is optimized to not be fooled by the generator|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=19m47]]
+
+On the other hand, the generative network uses the discriminative network as cost. [[Generator to fool discriminator, i.e. it is trained to maximize the mistakes the the discriminator does|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=19m20]], that's why they are called ''adversarial''
+
+The discriminator is //teaching// the generator, and it's adapting to the generator's knowledge and flaws. //Machine teaching//, not just machine learning.
+
+!!!__Alternating [[Optimization]]__
+
+[[video|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=19m59]]
+
+[[Improved Techniques for Training GANs|https://arxiv.org/abs/1606.03498]] [[vid|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=45m30]]
+
+!!__Theoretical properties__
+
+If you have an optimal discriminator, the generator minimizes the [[Jensen-Shanon divergence]]
+
+!!__Variants__
+
+[[Original GANs were diffucult to train|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=23m15]] 
+
+!!!__Class-conditional GANs__
+
+They are [[supervised|Supervised learning]]
+
+[[Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks|https://arxiv.org/abs/1506.05751]] [[vid|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=24m]]
+
+!!!__Video-prediction GANs__
+
+[[Deep multi-scale video prediction beyond mean square error|https://arxiv.org/abs/1511.05440]]
+[[vid|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=25m45s]]
+
+!!!__DCGANs__
+
+[[Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks|https://arxiv.org/abs/1511.06434]]
+
+[[Latent space arithmetic|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=30m30s]]
+
+!!__In-painting GANs__
+
+[[Context Encoders: Feature Learning by Inpainting|https://arxiv.org/abs/1604.07379]]
+
+[[video|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=39m05]]
+
+!!__Applications__
+
+!!!__[[Feature learning]] for [[Semi-supervised learning]]__
+
+[[GANs for feature learning|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=33m25]]. 
+
+[[Two Minute Papers - Image Editing with Generative Adversarial Networks|https://www.youtube.com/watch?v=pqkpIfu36Os&list=PLujxSBD-JXgnqDD1n-V30pKtp6Q886x7e&index=108]]
+
+!!!__Disentangling representations__
+
+[[vid|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=41m50s]]
+
+[[InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets|https://arxiv.org/abs/1606.03657]] (from [[OpenAI]])
+
+---------------
+
+They are similar to [[Autoencoder]]s but we learn the cost function, instead of just using l2 loss  ([[vid|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=58m50]])
+
+[[vid|https://www.youtube.com/watch?v=deyOX6Mt_As]]
+
+[[Generative Adversarial Networks|https://arxiv.org/abs/1406.2661]]
+
+https://www.wikiwand.com/en/Generative_adversarial_networks
+
+[[the future|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=51m20]]
+
+[[Connecting Generative Adversarial Networks and Actor-Critic Methods|https://arxiv.org/abs/1610.01945]]

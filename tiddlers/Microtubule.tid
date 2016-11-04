@@ -1,8 +1,9 @@
 created: 20160510164359923
 creator: guillefix
-modified: 20160510224302970
-modifier: guillefix
+modified: 20161018092428051
+modifier: cosmos
 title: Microtubule
+type: text/vnd.tiddlywiki
 
 ''Microtubules'' (micro- + tube + -ule) are a component of the cytoskeleton, found throughout the cytoplasm. 
 
@@ -18,4 +19,8 @@ __Microtubule turnover__: the process by which microtubules decay, and are repla
 
 Also [[microtubules page|http://www.ncbi.nlm.nih.gov/books/NBK9932/]].
 
+!!__Microtubule dynamics__
+
 [[David Odde - Microtubule Self-Assembly|https://www.youtube.com/watch?v=OoRQWEeXcQc]]
+
+[img[http://www.pnas.org/content/110/51/20449/F3.large.jpg]]

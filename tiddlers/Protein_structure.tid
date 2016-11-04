@@ -1,20 +1,32 @@
 created: 20160907155836614
 creator: cosmos
-modified: 20160907155911477
+modified: 20161017134913334
 modifier: cosmos
 tags: Protein [[Structural biology]]
 title: Protein structure
 type: text/vnd.tiddlywiki
 
+https://pdb101.rcsb.org/
+
 !!!__Primary structure__
 
 [[Amino acid]]s, forming a [[Polymer]] by [[Dehydration synthesis]], forming a bond called a [[Peptide bond]]. A protein is thus called a ''polypeptide''.
 
-[[Geometrical structure of peptide bonds|https://www.youtube.com/watch?v=Lhykdr5uyw4#t=8m15s]]
+Proteins are [[Chiral molecule]]s, because amino acids are. The peptide bonds can be in Cis or Trans conformation. Almost all bonds are Trans, due to steric hindrances.
+
+[[Geometrical structure of peptide bonds|https://www.youtube.com/watch?v=Lhykdr5uyw4#t=8m15s]]. They are planar due to [[sp2 hybridization]]
 
 !!!__Secondary structure__
 
-$$\alpha$$-helix
+[img width=460 [protein-torsion-angle.PNG]]
+
+phi and psi angles are (approximately) the only degrees of freedom left, given constraints of chemical bond angles, sizes, and other steric hindrances.
+
+Ramachandran plot, residue unit, peptide unit
+
+Stabilized partially, by [[Hydrogen bond]] between a [[Carbonyl]] group, and a NH.
+
+$$\alpha$$-helix.
 
 $$\beta$$-sheets
 
@@ -26,7 +38,13 @@ loops, random coils
 
 !!!__Tertiary structure__
 
+loops, turns, random coils
+
+folds, domains.
+
 !!!__Quaternary structure__
+
+[img[https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Main_protein_structure_levels_en.svg/500px-Main_protein_structure_levels_en.svg.png]]
 
 [[vid|https://www.youtube.com/watch?time_continue=10&v=vEJbn1y2YN0]]
 
@@ -36,4 +54,12 @@ loops, random coils
 
 [[Protein structure analysis]]
 
+!!__Types of proteins__
+
+[[Enzyme]]s
+
+!!__[[Protein folding]]__
+
 -------------------
+
+[img[https://upload.wikimedia.org/wikipedia/commons/2/24/Protein_structure_examples.png]]

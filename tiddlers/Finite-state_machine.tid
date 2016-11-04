@@ -1,6 +1,6 @@
 created: 20160422235435453
 creator: guillefix
-modified: 20160824083618860
+modified: 20161021164707905
 modifier: cosmos
 title: Finite-state machine
 type: text/vnd.tiddlywiki
@@ -41,3 +41,5 @@ To construct a FSM that accepts the complement of a regular set, just swap accep
 -----------
 
 Build an fst on the web: http://madebyevan.com/fsm/ 
+
+https://www.youtube.com/watch?v=GwsU2LPs85U

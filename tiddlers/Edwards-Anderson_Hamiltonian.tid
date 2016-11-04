@@ -1,0 +1,41 @@
+created: 20160915233608531
+creator: cosmos
+modified: 20161006181824829
+modifier: cosmos
+tags: [[Spin glass]]
+title: Edwards-Anderson Hamiltonian
+type: text/vnd.tiddlywiki
+
+[[Theory of spin glasses|http://iopscience.iop.org/article/10.1088/0305-4608/5/5/017/meta]] -- [[Theory of spin glasses. II|http://iopscience.iop.org/article/10.1088/0305-4608/6/10/022/meta]] asserted that the essential mechanism underlying spin glass behavior was the presence of both ferromagnetic and antiferromagnetic interactions that were quenched randomly in place.
+
+place all the spins on a three-dimensional cubic lattice. Then the Edwards-Anderson (hereafter EA) Hamiltonian is 
+
+$$\mathcal{H}_\mathcal{J} = -\sum\limits_{\langle x, y \rangle} J_{xy} \mathbf{m}_x \cdot \mathbf{m}_y - \mathbf{h} \cdot \sum\limits_x \mathbf{m}_x$$
+
+,,where $$x,y$$ denote sites in the cubic lattice and the notation $$\langle x,y \rangle$$ means that the sum is over nearest-neighbor (i.e., adjacent) sites only; $$\mathbf{m}_x$$ denotes the localized magnetic moment (or, more simply, spin), which for now we treat as a classical vector, at site $$x$$; $$J_{xy}$$ is the magnetic coupling between nearest-neighbor sites $$x$$ and $$y$$;and $$\mathbf{h}$$ is a uniform external field (which could be zero) acting on the system. ,,
+
+An even simpler formulation is to treat the spins not as vectors, as in (4.2), but as simple binary variables taking on the values $$\pm 1$$ only. This is known as the ''//EA Ising model//'':
+
+$$\mathcal{H}_\mathcal{J} = -\sum\limits_{\langle x, y \rangle} J_{xy} \sigma_x \cdot \sigma_y - \mathbf{h} \cdot \sum\limits_x \sigma_x$$
+
+The difference with the [[Heisenberg Hamiltonian]] is that ''the couplings $$J_{xy}$$ depend on the particular edge $$\langle x, y \rangle$$'' and are chosen randomly and independently from a probability distribution, at the initial time, and stay fixed thereafter ([[Quenched disorder]]). On the $$\pm J$$ model, there are only two possible values of $$J_{xy}$$. An important question is <span style="color: #fad;">which properties depend on the specific realization and which don’t?</span>
+
+,,The EA Hamiltonian is a very simplified model. If you wanted to faithfully model a dilute magnetic alloy, for example, you would use the RKKY coupling between all pairs of spins with the spins situated at random locations (which would then be quenched).,,
+
+!!__Properties of the model__
+
+!!![[Frustration]]
+
+[[Ground States of the 2D Edwards-Anderson Spin Glass - Michael Damron|https://www.youtube.com/watch?v=3ckXBhP5ju8]]
+
+!!![[Spin glass phase transition]]
+
+__[[EA order parameter]]__
+
+Actually, it turned out there is an infinity of order parameters, see [[Replica symmetry breaking]]
+
+------------------
+
+[[(silent video)|https://www.youtube.com/watch?v=fZ8WCic5u2I&index=2&list=PLYq7WW565SZgC_0OqyRjTcWKH3odod3j5]]
+
+[[Some properties|https://www.youtube.com/watch?v=fZ8WCic5u2I&index=2&list=PLYq7WW565SZgC_0OqyRjTcWKH3odod3j5#t=13m30s]]

@@ -1,9 +1,19 @@
 created: 20160701174613076
 creator: guillefix
-modified: 20160701203415720
-modifier: guillefix
+modified: 20161024101333740
+modifier: cosmos
 tags: [[Cell biology]]
 title: Cell membrane
+type: text/vnd.tiddlywiki
 
 [[Cell transport]]
 
+* [[Membrane protein]]
+
+Bilayer of [[Phospholipid]]s. They live in a disordered gel phase (instead of a crystalline form). They are bound by [[Hydrophobic interaction]]s
+
+Cell membranes [[self-assemble|Self-assembly]], as [[Micelle]]s do.
+
+Permeable [[Hydrophobic]] molecules, like gases (CO,,2,,, O,,2,,). A bit permeable to small uncharged molecules, like water.
+
+Immpermeable to [[Ion]]s

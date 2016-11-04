@@ -1,12 +1,12 @@
 created: 20160124143839436
 creator: guillefix
-modified: 20160909080854900
+modified: 20161104095331365
 modifier: cosmos
 tags: Intelligence [[Computer Science and IT]]
 title: Artificial intelligence
 type: text/vnd.tiddlywiki
 
-See [[Machine learning]]
+See [[Machine learning]], [[Intelligence]]
 
 [[Computational intelligence - Scholarpedia|http://www.scholarpedia.org/article/Encyclopedia:Computational_intelligence]]
 
@@ -38,9 +38,17 @@ __Approaches__
 
 __[[AI safety]]__
 
+!!!__[[General artificial intelligence]]__
+
 __[[Universal AI]] theory__
 
 !!!__[[Explainable artificial intelligence]]__
+
+------------
+
+[[Integrating symbols into deep learning]]
+
+[[Program induction]], [[Neural networks with memory]], [[Intelligence]]
 
 -------------------
 
@@ -95,3 +103,7 @@ Seems to be a result of:
 [[https://www.oreilly.com/ideas/the-current-state-of-machine-intelligence-2-0|https://www.oreilly.com/ideas/the-current-state-of-machine-intelligence-2-0]]
 
 [[Computer vision]]
+
+[[Artificial Intelligence for Humans, Volume 3: Deep Learning and Neural Networks Paperback – 28 Oct 2015|https://www.amazon.co.uk/Artificial-Intelligence-Humans-Learning-Networks/dp/1505714346/ref=pd_cp_14_1?_encoding=UTF8&psc=1&refRID=QQNERJ110GTGKXQRXNZ8]]
+
+[[Fundamentals of Deep Learning|http://shop.oreilly.com/product/0636920039709.do]]

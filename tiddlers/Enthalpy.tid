@@ -1,0 +1,16 @@
+created: 20160920192033947
+creator: cosmos
+modified: 20161009095358786
+modifier: cosmos
+tags: [[Thermodynamic potential]]
+title: Enthalpy
+type: text/vnd.tiddlywiki
+
+
+https://www.wikiwand.com/en/Enthalpy
+
+$$H=U + pV$$
+
+!!!__Enthalpy change under constant pressure__
+
+For processes under constant pressure, ΔH is equal to the change in the internal energy of the system, plus the pressure-volume work that the system has done on its surroundings.[3] This means that the change in enthalpy under such conditions is the heat absorbed (or released) by the material through a chemical reaction or by external heat transfer.

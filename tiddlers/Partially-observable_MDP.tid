@@ -1,0 +1,34 @@
+created: 20161019173521619
+creator: cosmos
+modified: 20161019173735434
+modifier: cosmos
+tags: [[Markov decision process]]
+title: Partially-observable MDP
+type: text/vnd.tiddlywiki
+
+A partially-observabe [[Markov decision process]] is a Markov decision process where the state is only partially observable by the actor, so that the policy can only depend on a function of the state, which looses some of the state's [[Information]]
+
+!!!__[[Kalman filter]]s and [[LQG control]]__
+
+[[video|https://www.youtube.com/watch?v=UFH5ibWnA7g&index=19&list=PLA89DCFA6ADACE599#t=46m50]]
+
+A type of reinforcement learning, where we don't observe the state explicitly!
+
+[[Want to estimate actual state, given the noisy and incomplete measurements of the state|https://www.youtube.com/watch?v=UFH5ibWnA7g&index=19&list=PLA89DCFA6ADACE599#t=53m40s]]. Can use the method of marginalization, as used in [[Factor analysis model]]s. However, it is very computationally expensive. Instead we use a [[Kalman filter|https://www.youtube.com/watch?v=UFH5ibWnA7g&index=19&list=PLA89DCFA6ADACE599#t=55m52s]] model, which turns out to be a [[Hidden Markov model]] with continuous states.
+
+[[Outline of Kalman filter|https://www.youtube.com/watch?v=UFH5ibWnA7g&index=19&list=PLA89DCFA6ADACE599#t=57m35s]]
+
+* [[Predict step|https://www.youtube.com/watch?v=UFH5ibWnA7g&index=19&list=PLA89DCFA6ADACE599#t=1h22s]]
+* [[Update step|https://www.youtube.com/watch?v=UFH5ibWnA7g&index=19&list=PLA89DCFA6ADACE599#t=1h03m30s]]
+
+[[Intuition|https://www.youtube.com/watch?v=UFH5ibWnA7g&index=19&list=PLA89DCFA6ADACE599#t=1h7m40s]]. I think this can be seen through the lens of [[Sufficient statistic]]s
+
+Kalman filter + LQR = [[LQG control]] <- [[video|https://www.youtube.com/watch?v=UFH5ibWnA7g&index=19&list=PLA89DCFA6ADACE599#t=1h8m55s]] <-- [[how to solve|https://www.youtube.com/watch?v=UFH5ibWnA7g&list=PLA89DCFA6ADACE599&index#t=1h9m50s]]
+
+[[Separation principle|https://www.youtube.com/watch?v=UFH5ibWnA7g&list=PLA89DCFA6ADACE599&index#t=1h14m32s]] of LQG control
+
+[[recap|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=0m50s]]
+
+!!!__Other POMDP__
+
+[[In general finding optimal policies of POMDPs is NP hard|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=3m55s]]

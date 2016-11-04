@@ -1,0 +1,13 @@
+created: 20160916152600862
+creator: cosmos
+modified: 20160916153256231
+modifier: cosmos
+tags: Thermodynamics
+title: Thermodynamic state
+type: text/vnd.tiddlywiki
+
+,,//also known as Gibbs states, Gibbs equi-librium measures, or simply Gibbs measures//,,
+
+Thermodynamic states characterize the macroscopic state of many-body systems (see [[Bulk matter]]). It may be defined as corresponding to a particular choice of [[Thermodynamic potential]] parameters, that in turn, determine a particular [[Probability distribution]] over [[Microstate]]s, as determined by [[Statistical physics]].
+
+The above, more specifically, defines a //pure thermodynamic state//. 

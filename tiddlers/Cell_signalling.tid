@@ -1,0 +1,84 @@
+created: 20161018100914727
+creator: cosmos
+modified: 20161018115556515
+modifier: cosmos
+tags: [[Cell biology]]
+title: Cell signalling
+type: text/vnd.tiddlywiki
+
+
+!!!__Main stages of cell-cell signalling__
+
+# Signal generation
+# Transportation
+# Reception
+# Transduction
+# Cellular reponse
+
+!!__Signal transportation__
+
+!!!__Forms of cell-cell signal transportation in vertebrates__
+
+* Juxtacrine. contact deoendent.
+* DIrect signalling -- gap junction. In [[Plant cell]]s, plasmodesmata. The fastest. milliseconds. Diffusion + potential.
+* Autocrine
+** Reinforces the signal
+** Community (cooperative effect)
+* Paracrine. Affects local environment.
+** Examples: wound healing, response to allergens.
+* Synaptic. Long-range and fast. [[Neuron]]s in [[Neuronal network]]s.
+* Endocrine. Long range and slow. [[Hormone]]s. Travels through the [[Blood vessel]]s
+
+[img[http://images.slideplayer.com/25/8230426/slides/slide_4.jpg]]
+
+!!__Signal reception__
+
+* Receptor on the plasma membrane
+* Intracellular response, but then signal needs to be [[Hydrophobic]] to travel [[Cell membrane]]
+
+__Cell-surface receptors__
+
+* [[Ion channel coupled receptor]]s
+* [[G-protein coupled receptor]]
+* [[Enzyme coupled receptor]]
+
+__Intracellular receptors__
+
+* [[Steroid hormone]] receptors
+* [[Estrogen]] receptors
+
+!!__Signal transduction__
+
+Signalling [[pathway|Metabolic pathway]]s
+
+* Molecular switches (activate protein). [[Kinase]]s can work as these
+* Second messengers.
+
+__Molecular switches__
+
+
+
+__[[Kinase]] signalling cascade__
+
+amplification
+
+scaffolding. different signals with same molecules
+
+__Second messengers__
+
+Intermediary signals, that often ends with activate [[Kinase]]s
+
+__Calcium signalling__
+
+Feedback generates [[Calcium]] ion waves and oscillatoions.
+
+!!!__Signal integration/convergence__
+
+!!!__Cell signalling networks__
+
+!!!__Feedback__
+
+See [[Pathway regulation]]
+
+
+

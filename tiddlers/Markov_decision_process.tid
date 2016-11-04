@@ -1,21 +1,44 @@
 created: 20160915213129690
 creator: cosmos
-modified: 20160915213158133
+modified: 20161019173726343
 modifier: cosmos
+tags: [[Reinforcement learning]]
 title: Markov decision process
 type: text/vnd.tiddlywiki
+
+See [[Reinforcement learning]]
 
 A Markov decision process is a 5-[[tuple]] $$(S,A,P_\cdot(\cdot,\cdot),R_\cdot(\cdot,\cdot),\gamma)$$, where
 
 * $$S$$ is a finite __set of states__,
 * $$A$$ is a finite __set of actions__ (alternatively, $$A_s$$ is the finite set of actions available from state $$s$$),
 * $$P_a(s,s') = \Pr(s_{t+1}=s' \mid s_t = s, a_t=a)$$ is the probability that action $$a$$ in state $$s$$ at time $$t$$ will lead to state $$s'$$ at time $$t+1$$. I.e. __what happens when you take an action__
-*$$R_a(s,s')$$ is the immediate reward (or expected immediate reward) received after transition to state $$s'$$ from state $$s$$. __What reward you get when something happen__
+*$$R_a(s,s')$$ is the immediate reward (or expected immediate reward) received after transition to state $$s'$$ from state $$s$$. __What reward you get when something happens__. ( This is called [[state-action reward|https://www.youtube.com/watch?v=-ff6l5D8-j8&index=18&list=PLA89DCFA6ADACE599#t=4m15s]]. An alternative is that rewards are associated with states!)
 *$$\gamma \in [0,1]$$ is the discount factor, which represents the difference in importance between future rewards and present rewards.
 
 (Note: The theory of Markov decision processes does not state that $$S$$ or $$A$$ are finite, but the basic algorithms below assume that they are finite.)
 
 [img widht=400 [https://upload.wikimedia.org/wikipedia/commons/2/21/Markov_Decision_Process_example.png]]
+
+[[Video by Andrew Ng|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=9m]] -- [[operational definition|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=19m]]
+
+!!!__Finite-horizon MDP__
+
+[[intro vid|https://www.youtube.com/watch?v=-ff6l5D8-j8&index=18&list=PLA89DCFA6ADACE599#t=10m10s]]. Maximum time that is considered. When that time is reached, the MDP ends.
+
+In this case, optimal policy [[may be non-stationary|https://www.youtube.com/watch?v=-ff6l5D8-j8&index=18&list=PLA89DCFA6ADACE599#t=22m10s]].
+
+!!!__Non-stationary MDPs__
+
+Several of the quantities in the definition of an MDP may be allowed to depend on time, like the transition probabilities, or the rewards.
+
+This can be mapped to the previous case, by letting time be part of the state space.
+
+[[Definition of the optimal value function for non-stationary finite-horizon case|https://www.youtube.com/watch?v=-ff6l5D8-j8&index=18&list=PLA89DCFA6ADACE599#t=17m10s]], which now depends on time
+
+[[Value iteration for this case|https://www.youtube.com/watch?v=-ff6l5D8-j8&index=18&list=PLA89DCFA6ADACE599#t=18m55s]]
+
+
 
 -------------
 

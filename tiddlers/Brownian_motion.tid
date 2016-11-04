@@ -1,12 +1,13 @@
 created: 20160123001419047
 creator: guillefix
-modified: 20160509232148283
-modifier: guillefix
+modified: 20160918163717925
+modifier: cosmos
 title: Brownian motion
+type: text/vnd.tiddlywiki
 
 ''Brownian motion''
 
-[[Brownian Motion: Langevin Equation|http://web.phys.ntnu.no/~ingves/Teaching/TFY4275/Downloads/kap6.pdf]]
+[ext[Brownian Motion: Langevin Equation|http://web.phys.ntnu.no/~ingves/Teaching/TFY4275/Downloads/kap6.pdf]]
 
 !!__Discrete space: ''random walk''__
 

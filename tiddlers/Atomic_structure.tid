@@ -1,8 +1,9 @@
 created: 20160622025432766
 creator: guillefix
-modified: 20160622030656961
-modifier: guillefix
+modified: 20161013130610318
+modifier: cosmos
 title: Atomic structure
+type: text/vnd.tiddlywiki
 
 //Structure of the periodic table//
 
@@ -19,3 +20,7 @@ There are three rules of thumb, which were discovered phenomenologically (I thin
 ''[[Hund's rules]]''
 
 [[Teaching Atomic Structure: Madelung’s and Hund’s Rules in One Chart|http://pubs.acs.org/doi/abs/10.1021/ed5009409]]
+
+The [[Atomic orbital]]s are organized in [[Electron shell]]s, and subshells. The set of occupied orbitals, corresponding to the electronic state of an atom (or molecule), is known as ''electronic configuration''
+
+[[Hydrogen|http://www.cem.msu.edu/~cem883/topics_pdf_2008/hydrogen_atom.pdf]]

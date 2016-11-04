@@ -1,0 +1,13 @@
+created: 20161008152332242
+creator: cosmos
+modified: 20161008154300667
+modifier: cosmos
+tags: 
+title: Molar mass
+type: text/vnd.tiddlywiki
+
+The [[Mass]] of one [[Mole]] of a [[substance|Chemical substance]], often expressed in grams with symbol $$g/mol$$.
+
+In a mole of substance, there are [[Avogadro's constant]], $$A$$, molecules. Each molecule has mass $$M_r \times u$$, where $$M_r$$ is the [[Relative molecular mass]], and $$u$$ is the [[Unified atomic mass unit]], by definition of the former. Therefore, the mole of substance has mass $$A M_r  u = A M_r  \frac{1\text{ gram}}{A} =  M_r \times 1 \text{ gram}$$ (if we had kept track of the $$\text{mol}$$ unit, it'd be $$M_r \times \frac{1 \text{ gram}}{\text{mol}}$$. Therefore ''molar mass'', in grams, ''is numerically the same as relative molecular mass'', and only the units change (see [[here|http://goldbook.iupac.org/R05270.html]]).
+
+https://www.wikiwand.com/en/Molar_mass

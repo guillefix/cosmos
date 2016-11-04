@@ -1,0 +1,162 @@
+created: 20161027151652196
+creator: cosmos
+modified: 20161027151654720
+modifier: cosmos
+title: PS1 Familial Alzhemier's disease
+type: text/vnd.tiddlywiki
+
+!!__Molecular mechanisms__
+
+[img[Familial_Alzheimer's_molecular_mechanisms.png]]
+
+[img[https://s13.postimg.org/rk35ao2ef/Selection_660.png]]
+
+!!!__Normal function (Physiology)__
+
+Aβ is enzymatically cleaved from the transmembrane protein APP by β- and γ-secretase and is released extracellularly in lengths ranging from approximately 37 to 43 amino acids. Aβ40 is the most abundant species and exists in an approximately 10:1 concentration ratio with Aβ42
+
+Thinakaran et al. (1996) observed a polypeptide of approximately 43 kD in cells transfected with full-length human PS1 cDNA. Using 2 highly specific antibodies against nonoverlapping epitopes of presenilin-1, they demonstrated that the preponderant PS1-related species that accumulate in cultured mammalian cells and in the brains of rodents, primates, and humans are approximately 27-kD N-terminal and about 17-kD C-terminal derivatives. Epitope mapping analysis showed that PS1 cleavage occurred between amino acids 260 and 320. In brains of transgenic mice expressing human PS1, the 17-kD and the 27-kD PS1 derivatives accumulate to saturable levels, and at about 1:1 stoichiometry, independent of transgene-derived mRNA. The authors concluded that ''PS1 is subject to endoproteolytic processing in vivo''.
+
+__Location__
+
+,,localize to similar intracellular compartments, such as the endoplasmic reticulum and Golgi complex. . Takashima et al. (1996) showed that in COS-7 cells overexpressing PS1, the protein is localized to cellular membranes: plasma, endoplasmic reticulum, and perinuclear.,,
+
+They observed that PS1 immunoreactivity in the plasma ''membrane'' is concentrated in regions of cell-cell contact, suggesting that PS1 may be a ''cell adhesion molecule''.
+
+Li et al. (1997) demonstrated that wildtype PS1 and PS2 localize to the nuclear membrane and associate with interphase kinetochores and centrosomes, and suggested that the proteins play ''a role in chromosome organization and segregation''. ,,Li et al. (1997) stated that PS1 and PS2 localization to the membranes of the endoplasmic reticulum and Golgi is not unexpected for overexpressed membrane proteins because these locations are the sites of their synthesis and processing.,,
+
+Using Western blot analysis and immunogold electron microscopy, Pasternak et al. (2003) demonstrated that significant amounts of nicastrin, Psen1, and App colocalized with Lamp1 (153330) in the outer membranes of rat lysosomes
+
+__''Gamma-secretase Activity''__
+
+The authors interpreted the data as indicating that gamma-secretase activity is catalyzed by a PS1-containing macromolecular complex.
+
+ Lee et al. (2002) showed that nicastrin and presenilin heterodimers physically associated with APH1A and APH1B (607630) in vivo to form the gamma-secretase complex that is required for the intramembrane proteolysis of many membrane proteins, including APP and NOTCH. PEN2 seems to also be important, and it requires presenilin and nicastrin..
+
+''Gamma-secretase activity (which proteolyzes APP) requires'' the formation of a stable, high molecular mass protein complex that, in addition to the ''endoproteolyzed fragmented form of presenilin'', contains essential cofactors including nicastrin, APH1, and PEN2.
+
+Thus, Takasugi et al. (2003) concluded that APH1 stabilizes the presenilin holoprotein in the complex, whereas PEN2 is required for endoproteolytic processing of presenilin and conferring gamma-secretase activity to the complex. ([[The role of presenilin cofactors in the gamma-secretase complex|https://www.ncbi.nlm.nih.gov/pubmed/12660785]])
+
+,,Kaether et al. (2004) determined that the very C terminus of PS1 interacts with the transmembrane domain of nicastrin and may penetrate into the membrane. Deletion of the last amino acid of PS1 completely blocked gamma-secretase assembly and release of PS1 from the ER, suggesting that unincorporated PS1 is actively retained within the ER. Kaether et al. (2004) identified a hydrophobic stretch of amino acids within the PS1 C terminus, distinct from the nicastrin-binding site, that was required to retain unincorporated PS1 within the ER. Deletion of the retention signal resulted in release of PS1 from the ER and assembly of a nonfunctional gamma-secretase complex, suggesting that at least part of the retention motif is required for PS1 function.,, Hmm...
+
+Cai et al (2006):  PLD1 regulates intracellular trafficking of beta-amyloid, distinct from its effect on gamma-secretase activity.
+
+carboxy-terminal fragments of APP are normal the substrates of gamma-secretase. 
+
+__Role in Notch Signaling Pathway__
+
+__Interactions with Cadherin Proteins__
+
+__Other functions__
+
+There are a number of alternative γ-secretase substrates, e.g.
+APLP1, APLP2, Notch, cadherins, LRP [ 120 , 121 ], and syndecan-
+1 [ 114 , 122 ].
+
+In addition to γ-secretase dependent functions, some
+PS functions are independent of γ-secretase, so that in effect,
+γ-secretase may compete for presenilins with other γ-secretase inde-
+pendent PS functions including cell adhesion, traffi cking of various
+proteins [ 123 ], and Ca 2+ homeostasis [ 114 ]
+
+APP and its protolytic fragments also has a variety of functions
+
+At physiological concentrations Aβ is associated with numerous normal cellular functions [ 128 ] and in AD progression has multiple interactions that have been described as either neuroprotective or neurotoxic [ 36 ].
+
+__$$\gamma$$ - secretase__
+
+Proteolysis of C99 fragment of APP
+
+Recently, gamma-secretase was shown to cleave near the cytoplasmic membrane boundary of APP, called epsilon-site cleavage, as well as in the middle of the membrane domain, called gamma-site cleavage. [[src|https://www.ncbi.nlm.nih.gov/pubmed/18393801]]
+
+endopeptidase activity -- $$\epsilon$$ cleavage
+
+carboxypeptidase-like cleavage -- $$\gamma$$ cleavage
+
+!!!__Pathological function (Pathophysiology)__
+
+Mercken et al. (1996) suggested that ''type 3 Alzheimer disease may be the result of impaired proteolytic processing of PS1''.
+
+* In a British familial Alzheimer disease (FAD) pedigree, a PS1 variant with a deletion of amino acids 290 to 319 (delE9) (104311.0012) was not cleaved.
+* PC12 cells transiently transfected with PS1 constructs containing 2 different Alzheimer mutations, M146V (104311.0007) and A246E (104311.0003), failed to generate the 28-kD degradation product in contrast to PC12 cells transfected with wildtype PS1.
+
+Li et al (1997) discussed a pathogenic mechanism for FAD in which ''mutant presenilins cause may chromosome missegregation during mitosis'', resulting in apoptosis and/or trisomy 21 mosaicism. 
+
+An alternative hypothesis is that ''mutant presenilins not appropriately trafficked out of the endoplasmic reticulum may interfere with normal APP processing''
+
+Duff et al. (1996) : transgenic mice overexpressing mutant, but not wildtype, presenilin-1 show a selective increase in brain A-beta-42(43). These results indicated that the presenilin mutations probably cause Alzheimer disease through a gain of deleterious function that increases the amount of the deposited A-beta-42(43) in the brain. 
+
+Citron et al. (1997) stated that their combined in vitro and in vivo data clearly demonstrated that the ''FAD-linked presenilin mutations directly or indirectly altered the level of gamma-secretase'', but not of alpha- or beta-secretase, ''resulting in increased amyloid beta-42 production which may lead to cerebral beta-amyloidosis and AD''
+
+:,,The possible role of PS1 in normal APP processing was studied by De Strooper et al. (1998) in neuronal cultures derived from PS1-deficient mouse embryos. They found that cleavage by alpha- and beta-secretase of the extracellular domain of APP was not affected by the absence of PS1, whereas cleavage by gamma-secretase of the transmembrane domain of APP was prevented, causing C-terminal fragments of APP to accumulate and a 5-fold drop in the production of amyloid peptide. The results indicated to the authors that mutations in PS1 that manifest clinically cause a gain of function, and that inhibition of PS1 activity is a potential target for anti-amyloidogenic therapy in Alzheimer disease.,,
+
+Results were taken to indicate that the 2 transmembrane aspartate residues are critical for both presenilin-1 endoproteolysis and gamma-secretase activity, and suggested that presenilin-1 either is a unique diaspartyl cofactor for gamma-secretase or is itself gamma-secretase, an autoactivated intramembranous aspartyl protease.  
+
+amino-terminally truncated forms of A-beta are increased in PS1 mutants Russo et al. (2000) suggested that the overexpression of amino-terminally truncated amyloid beta species indicates that not only is cleavage by gamma-secretase affected by ''PS1'' mutation, but that ''cleavage by beta-secretase is as well''.
+
+,, Wilson et al. (2002) concluded that production of a pool of amyloid beta (in endoplasmic reticulum/intermediate compartment) occurs independently of PS1/PS2, and therefore, another gamma-secretase activity must be responsible for cleavage of APP within the early secretory compartments.,,
+
+,,Phiel et al. (2003) showed that glycogen synthase kinase-3-alpha (GSK3A; 606784) is required for maximal production of the beta-amyloid-40 and -42 peptides generated from the amyloid precursor protein by presenilin-dependent gamma-secretase cleavage. ,,
+
+ They also showed that age of onset of PSEN1-linked familial Alzheimer disease correlated inversely with the ratio of A-beta-42/A-beta-40 and absolute levels of A-beta-42, but directly with A-beta-40 levels. Together, the data of Kumar-Singh et al. (2006) suggested that A-beta-40 may be protective by perhaps sequestering the more toxic A-beta-42 and facilitating its clearance.
+
+|Mutations in PS1or PS2 change the cleavage activity of APP, resulting in increased Aβ42 production and/or high Aβ42/Aβ40 ratio.|
+
+!!!__PS1 processing__
+
+See ,,[[Three-amino acid spacing of presenilin endoproteolysis suggests a general stepwise cleavage of gamma-secretase-mediated intramembrane proteolysis.|https://www.ncbi.nlm.nih.gov/pubmed/20534834/]],,
+
+ PS is cleaved during complex assembly into its characteristic N- and C-terminal fragments. Both fragments are integral components of physiologically active gamma-secretase and harbor the two critical aspartyl residues of the active site domain.   the precision of PS1 endoproteolysis is affected by PS1 mutations. Comparing the cleavage products generated by a variety of PS1 mutants revealed that specifically cleavages at positions 293 and 296 of PS1 are selectively affected. Systematic mutagenesis around the cleavage sites revealed a stepwise three amino acid spaced cleavage mechanism of PS endoproteolysis
+
+!!!__Effect of PS1 mutations on $$\gamma$$-secretase disfunction ([[main paper|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3364747/]])__
+
+[[diagram and enzyme kinetics data|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3364747/figure/f1/]]
+
+tested FAD–PSEN1 mutations have no consistent inhibitory effect on the endoproteolytic cleavage of γ-secretase substrates, indicating that reduced release of intracellular domains and signalling cannot explain their AD-causing effects.
+
+ Low Aβ40 and Aβ38 levels and high, long Aβ levels (>Aβ42) are found in all the FAD-linked mutations tested, including the M139V, which does not affect the ɛ-efficiency. Interestingly, the M139V mutation affects the processing of APP only at the level of Aβ, indicating that endo- and carboxypeptidase-like activities of the γ-secretase can be dissociated.
+
+|Our data imply that FAD–PSEN1 mutations cause AD by qualitative shifts in Aβ profiles and not by general loss of function of the enzyme complex|
+
+,,Since high Aβ43 and Aβ42 (substrates in this cycle) accumulate in vitro or are released in vivo, we speculate that FAD–PSEN mutations promote a premature release of the Aβ43/Aβ42 peptides.,, [[Data plots|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3364747/figure/f2/]]
+
+__DR6 apoptosis pathway__
+
+In addition to interactions with sAPPα and APP,
+the large soluble sAPPβ fragment may be associated with apoptotic
+signaling and axonal degeneration via the death receptor DR6 and
+caspase6 [ 113 ], though the interactions of sAPPβ are not fully
+characterized and require further detailed investigation.
+
+__Other hypoethesis__
+
+There are a variety of alternative hypothesis of how PSEN1 mutation can cause AD.
+
+However, all tested FAD mutations affect the prime function of PSEN, which is proteolysis, so this affecting this pathway appears to be a necessary condition.
+
+!!!__Amyloid cascade theory__
+
+It has been suggested that increased toxic Aβ42 initiates a cascade of down-stream pathological processes such as tau  hyperphosphorylation,  neurofibrillary  tangles (NFTs) formation, neuroinflammation, loss of synaptic junctions and neuronal cell death, with dementia being the ultimate clinical result of these progressive neurodegenerative processes.
+
+Although the a myloid cascade is only one theory among myriads of other possible mechanisms for AD (e.g. tau, inflammatory or oxidative stress hypothesis) and amyloid alone is probably not sufficient to cause AD, the association of PS1/PS2/APP with  amyloid  synthesis  and  its  processing warrants the amyloid cascade theory plays a more important role in EOFAD than the sporadic AD.
+
+On the other  hand,  variable  pathological  expression  reported  in individuals carrying the same mutation suggests that epigenetic or other genetic factors may play a role in this phenotypic heterogeneity. 
+
+!!!__Oligomer cascade theory__
+
+[[Amyloid β-protein oligomers and Alzheimer’s disease|http://alzres.biomedcentral.com/articles/10.1186/alzrt226]]
+
+Aβ42 has been observed to reduce neuronal viability to a greater extent than Aβ40 [63]. Aβ42 thus seems to be most toxic, but both Aβ40 and Aβ42 form oligomers, and through distinct mechanisms [37].
+
+!!__Systems biology__
+
+AD is really a complex multi-faceted disease
+
+[img[https://s15.postimg.org/yykkfwn2z/Selection_656.png]]
+
+[img[https://s16.postimg.org/e32ytu7xx/Selection_657.png]]
+
+[img[https://s15.postimg.org/m51pvv3gb/Selection_658.png]]
+
+[img[https://s9.postimg.org/3wtva8tcv/Selection_659.png]]
+

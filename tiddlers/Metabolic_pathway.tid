@@ -1,5 +1,7 @@
 created: 20160905094625098
-modified: 20160905111300349
+creator: cosmos
+modified: 20161027090640858
+modifier: cosmos
 title: Metabolic pathway
 type: text/vnd.tiddlywiki
 
@@ -11,3 +13,5 @@ System of [[Chemical reaction]]s that carry out some [[Metabolism]] function. Me
 !!__Metabolic pathways__
 
 * [[Glycolysis]]
+
+Metabolic pathways can be driven by complexes of [[Enzyme]]s linked together, as in the outside a [[mitochondrion|Mitochondria]]

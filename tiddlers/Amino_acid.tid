@@ -1,9 +1,13 @@
 created: 20160905092312517
-modified: 20160905092658841
+creator: cosmos
+modified: 20161017134908994
+modifier: cosmos
 title: Amino acid
 type: text/vnd.tiddlywiki
 
 An [[Organic compound]] with an amino group bound to a [[Carbon]] atom (known as $$\alpha$$), which is itself bound to a [[Hydrogen]], and a [[Carboxyl]] group (making it an acid). The $$\alpha$$ carbon is also bound to a ''side chain''.
+
+[img width=400 [https://qph.ec.quoracdn.net/main-qimg-629ad92247b6be02f036cd330e39ddf2-c?convert_to_webp=true]]
 
 !!__Categories of biological amino acids__
 
@@ -22,3 +26,9 @@ __Hydrophobic__
 __Special__
 
 Proline, which is technically an //Imino acid//, instead of an amino aicid.  Cysteine, which can make a covalent disulfide bond. 
+
+[img[http://biologii.net/world/images/prot/aminoacids.jpg]]
+
+[img[https://www.researchgate.net/profile/Alexandre_De_Brevern/publication/222435889/figure/fig1/AS:305097729953792@1449752375118/Figure-1-Venn-diagram-grouping-amino-acids-according-to-their-properties-adapted-from.png]]
+
+All amino acids in [[Human]]s are L (see [[Chiral molecule]]), but [[Bacteria]] have both

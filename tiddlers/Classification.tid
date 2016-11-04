@@ -1,6 +1,6 @@
 created: 20160709020447725
 creator: guillefix
-modified: 20160910191407799
+modified: 20161031171738248
 modifier: cosmos
 tags: [[Supervised learning]]
 title: Classification
@@ -30,9 +30,23 @@ See [[Generalized linear model]] for other more generalized methods.
 
 [[Support vector machine]]s. Software for SVMs: http://svmlight.joachims.org/
 
+[[Nonparametric|Nonparametric statistics]] algortihm: [[Nearest-neighbour classification]]
+
+[[Decision tree]]s
+
+*[[Random forest]]
+
 !!!__Multi-label classification__
 
 If the class labels are not mutually exclusive. This can be modelled by using multiple related binary class labels, each marking whether the input belongs to a particular class. This is a //multiple output model//.
+
+!!![[Bootstrap aggregation]]
+
+!!!__[[Generative supervised learning]]__
+
+
+
+!!__Unsupervised classification: [[Clustering]]__
 
 ----------------
 
@@ -41,5 +55,7 @@ If the class labels are not mutually exclusive. This can be modelled by using mu
 Output has a notion of order, but not closeness, so it's qualitative, aka ordinal learning.
 
 ---------------------
+
+[[Pattern Recognition Class|https://www.youtube.com/playlist?list=PLuRaSnb3n4kRDZVU6wxPzGdx1CN12fn0w]]
 
 https://www.wikiwand.com/en/Statistical_classification

@@ -1,0 +1,10 @@
+created: 20161017204242031
+creator: cosmos
+modified: 20161017205019696
+modifier: cosmos
+title: Deep symbolic reinforcement learning
+type: text/vnd.tiddlywiki
+
+Applying [[Symbolic deep learning|Integrating symbols into deep learning]] to [[Deep reinforcement learning]]
+
+[[Towards Deep Symbolic Reinforcement Learning|https://arxiv.org/pdf/1609.05518.pdf]]

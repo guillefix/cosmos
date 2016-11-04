@@ -1,7 +1,10 @@
 created: 20160623203037516
 creator: guillefix
-modified: 20160623203226106
-modifier: guillefix
+modified: 20161021164027701
+modifier: cosmos
 title: Spiking neural network
+type: text/vnd.tiddlywiki
 
 A more realistic kind of [[Artificial neural network]]. It is a model that is the basis for the design of [[Neuromorphic computing]] systems.
+
+[ext[Spiking Deep Neural Networks|http://www.ini.uzh.ch/~pfeiffer/research.html]]

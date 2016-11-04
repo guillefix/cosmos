@@ -1,0 +1,22 @@
+created: 20161014120442510
+creator: cosmos
+modified: 20161014120811997
+modifier: cosmos
+tags: [[Nucleic acid]]
+title: RNA
+type: text/vnd.tiddlywiki
+
+A [[Nucleic acid]], like DNA that has an extra oxygen in the sugar, and has a [[Nucleotide]] that is different ([[Uracil]] instead of [[Thyamine]], binding to A)
+
+Uracil lacks a [[Methyl]] group compared to T, because it doesn't need to take part in a process that checks it..
+
+!!__Coding RNA__
+
+* [[mRNA]]
+
+!!__Functional RNA__
+
+* [[tRNA]]
+* [[Rybozime]]
+* [[rRNA]]
+* etc.

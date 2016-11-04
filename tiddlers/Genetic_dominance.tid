@@ -1,5 +1,7 @@
 created: 20160905130321446
-modified: 20160906091633419
+creator: cosmos
+modified: 20161025094007554
+modifier: cosmos
 tags: Inheritance
 title: Genetic dominance
 type: text/vnd.tiddlywiki
@@ -13,6 +15,8 @@ Pleiotropic genes. May have both dominant and recessive traits, see [[video|http
 These properties as well as the [[Locus (Genetics)]], give rise to different [[modes of inheritance|Mode of inheritance]].
 
 [[PHENOTYPE AND GENOTYPE|http://biomed.brown.edu/Courses/BIO48/5.Geno.Pheno.HTML]]
+
+!!!A full understanding of genetic dominance requires looking at the [[Genotype-phenotype map]], which often requires [[Systems biology]] approaches.
 
 !!!__Codominance__
 

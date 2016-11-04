@@ -1,10 +1,11 @@
 created: 20160522140646117
 creator: guillefix
-modified: 20160522141522040
-modifier: guillefix
+modified: 20161103144329600
+modifier: cosmos
 title: Integrating symbols into deep learning
+type: text/vnd.tiddlywiki
 
-[[Deep learning]]
+[[Deep learning]] -- [[Artificial intelligence]]
 
 [[Integrating Symbols into Deep Learning|https://www.cs.ox.ac.uk/seminars/1627.html]]
 
@@ -13,7 +14,7 @@ title: Integrating symbols into deep learning
 Integratint symbols in deep learning talk notes:
 
 * Motivation 
-  ** ''Transparency''. Easily interpretable..
+  ** ''Transparency''. Easily interpretable.. See [[Explainable artificial intelligence]]
     *** Comprehensibility test. Given a program, ask questions about it.. How well someone asnwers the questions..
     *** Depends on how our own human minds work..
     *** Can we even understand some of the problems..
@@ -36,7 +37,7 @@ Integratint symbols in deep learning talk notes:
   ** target theory....
   ** Hmm, gotta learn more about logic
 * Symbolic and non-symbolic machine learning.
-  ** Neural Turing machines! (Graves et al 2014). NIPS 2015 workshop. Still doesnt make things necessarely transparent..
+  ** [[Neural Turing machine]]s! (Graves et al 2014). NIPS 2015 workshop. Still doesnt make things necessarely transparent..
   ** Bayesian-neural integration. Sum-Product Markov networks (Domingos 2015)
   ** ILP-neural integration. Bottom-clause Neural Nets (Garcez 2014)
 * Applications
@@ -55,3 +56,17 @@ Integratint symbols in deep learning talk notes:
     *** Large-scale background knowledge: How can learners scope relevance of background concepts?
     *** Probabilistic reasoning.Bayesian.. Single examples?
     *** 
+
+!!__Approaches__
+
+See some papers above
+
+* [[Neural Turing machine]]
+
+* [[Neural programmer-interpreter]]
+
+* [[Deep symbolic reinforcement learning]]
+
+* [[Program induction]]
+
+https://www.ndcn.ox.ac.uk/publications/420742

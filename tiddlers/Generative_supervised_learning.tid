@@ -1,0 +1,54 @@
+created: 20160821081415623
+creator: cosmos
+modified: 20161103013851394
+modifier: cosmos
+tags: [[Supervised learning]]
+title: Generative supervised learning
+type: text/vnd.tiddlywiki
+
+''Generative unsupervised learning'' refers to a kind of [[Supervised learning]] task where the objective is learning the function $$p(\text{input}|\text{output})$$, together with $$p(\text{output})$$, which can be used to find $$p(\text{output}|\text{input})$$ using [[Baye's theorem]]. 
+See [[notes|http://cs229.stanford.edu/notes/cs229-notes2.pdf]]. See [[lecture video|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=51s]] [[def|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=4m50s]]. The method effectively builds a kind of [[Generative model]] of the training data, i.e., it models the probability distribution $$p((x,y))$$.
+
+[[slides|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/ML-MT2016/slides/slides07.pdf]]
+
+When applied to [[Classification]], this types of models are called ''generative classifier''s.
+
+The difference between generative models and discriminative models that have the same conditional probability p (y|x) , i.e. same predictive model, is that they are trained differently and will learn different sets of parameters. The difference boils down to the generative model making extra assumptions (about the distribution of the data) which the discriminative model doesn't make. The performance of one versus the other will depend on how well or how badly these assumptions hold.
+An example to explore these isues is [[Logistic regression]], and binary [[linear discriminant analysis]].
+
+!!!__Learning method__
+
+The learning method is similar to that described in [[Discriminative learning]]. However, the crucial differences is in how we model the joint likelihood
+
+$$p((x,y)|\theta) = \prod_{i}p(x^{(i)}|y^{(i)};\theta)p(y^{(i)};\phi)$$
+
+where $$\phi$$ are some more parameters in the generative model.
+
+Now to compare with the discriminative case, we can compute
+
+$$p(y^{(i)}|x^{(i)};\theta, \phi) = \frac{p(x^{(i)}|y^{(i)};\theta) p(y^{(i)};\phi) }{p(x^{(i)};\phi,\theta)}$$
+
+where $$p(x^{(i)};\phi,\theta) = \sum_{y\in M} p(x^{(i)}|y;\theta) p(y;\phi) $$
+
+where $$M$$ is the range of values that $$y$$ can take.
+
+Then, another way to write the joint likelihood is:
+
+$$p((x,y)|\theta) = \prod_{i}p(y^{(i)}|x^{(i)};\theta, \phi)p(x^{(i)};\theta, \phi)$$
+
+We can see that <span style="color:coral;">the generative model also indirectly models $$p(x)$$</span>, and if the $$y$$ are considered as [[Latent variable]]s, then the model can be used as a [[Generative model]] of the inputs. This is often the approach in [[Semi-supervised learning]]
+
+See more at [[Generative vs discriminative models]]
+
+!!__Methods__
+
+* [[Gaussian discriminant analysis]]
+* [[Linear discriminant analysis]]
+* [[Naive Bayes]]
+
+!!__Training and prediction with missing data__
+
+
+<span style="color:coral;">Generative models can be used for prediction with missing input features, because we can estimate them from their marginal distribution computed using the model. </span>
+
+Can also train with missing data. See chapter 8 in Murphy's book

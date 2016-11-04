@@ -1,0 +1,9 @@
+created: 20160918183528646
+creator: cosmos
+modified: 20160918183534226
+modifier: cosmos
+tags: [[Markov property]]
+title: Global Markov property
+type: text/vnd.tiddlywiki
+
+Any two subsets of variables are conditionally independent given a separating subset

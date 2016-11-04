@@ -1,0 +1,17 @@
+created: 20160915231026082
+creator: cosmos
+modified: 20160915232942853
+modifier: cosmos
+title: Polymer network
+type: text/vnd.tiddlywiki
+
+An architecture of a [[Polymer]] material, where the polymer molecules are cross-linked in a [[Network]].
+
+__Elasticity__
+
+[[predictive theory of elasticity in a polymer network|http://phys.org/news/2016-09-theory-longstanding-polymer-problem.html]] -- [[video|https://www.youtube.com/watch?v=omEKWZLRvAo]]
+
+These chains form networks in which each chain would ideally bind to only one other chain. However, in real-life materials, a significant fraction of these chains bind to themselves, forming defects—floppy loops that weaken the network.
+These loops also make it impossible to accurately calculate the material's elasticity, because existing formulas for this calculation assume that the material has no defects.
+
+The new method, __network disassembly spectrometry__ allowed them to measure the number of loops, and see its effect on [[Elasticity]].  They also developed a new theory, as previous models didn't predict what they measured. The theory is based on the [[Phantom network theory]] ([[vid|https://www.youtube.com/watch?v=omEKWZLRvAo#t=1m43s]])

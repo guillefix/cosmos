@@ -1,0 +1,95 @@
+created: 20161104095752303
+creator: cosmos
+modified: 20161104100559306
+modifier: cosmos
+tags: [[Deep learning theory]]
+title: Why does deep and cheap learning work so well?
+type: text/vnd.tiddlywiki
+
+[[Connections between physics and deep learning|https://www.youtube.com/watch?v=5MdSE-N0bxs]]. He also talks at the end about some really cool recent work.
+
+[[on Cheap Learning: Partition Functions and RBMs|https://charlesmartin14.wordpress.com/2016/09/10/on-cheap-learning-partition-functions-and-rbms/]]
+
+!!!__[[The Extraordinary Link Between Deep Neural Networks and the Nature of the Universe|https://www.technologyreview.com/s/602344/the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe/]]__
+
+-- [[Comment on "Why does deep and cheap learning work so well?" [arXiv:1608.08225]|https://arxiv.org/abs/1609.03541]]
+
+There are $$2^{2^n}$$ different Boolean functions of $$n$$ variables, so a network implementing a generic function in this class requires at least $$2^n$$ bits to describe, i.e., more bits than there are atoms in our universe if $$n \geq 260$$. 
+
+,,[[Evolution]] has somehow settled on a brain structure that is ideally suited to teasing apart the complexity of the universe.,,
+
+-- [[Why does deep and cheap learning work so well?|http://arxiv.org/abs/1608.08225]] -- [[Comment on “Why does deep and cheap learning work so well?”|http://arxiv.org/abs/1609.03541v1]]
+
+This is why the structure of neural networks is important too: the layers in these networks can approximate each step in the causal sequence, that produced the observed data.
+
+We show how <span style="color: coral; font-weight: bold">the success of deep learning depends not only on mathematics but also on physics</span>: although well-known mathematical theorems guarantee that neural networks can approximate arbitrary functions well, <span style="color: #7db">the class of functions of practical interest can be approximated through ''"cheap learning"'' with exponentially fewer parameters than generic ones, because they have simplifying properties tracing back to the laws of physics.</span>
+
+The exceptional simplicity of physics-based functions hinges on properties such as <b>symmetry, locality, compositionality and polynomial log-probability</b>, and we explore how these properties translate into exceptionally simple neural networks approximating both natural phenomena such as images and abstract representations thereof such as drawings.
+
+We further argue that when the statistical process generating the data is of a certain hierarchical form prevalent in physics and machine-learning, <span style="color: #fda">a deep neural network can be more efficient than a shallow one.</span>
+
+We formalize these claims using [[Information theory]] and discuss the relation to [[Renormalization group]] procedures. <span style="color: #f8a">Various "no-flattening theorems" show when these efficient deep networks cannot be accurately approximated by shallow ones without efficiency loss even for linear networks.</span>
+
+__Topics of the paper__
+
+In Section II ([[Neural network theory]]), we present results for shallow neural networks with merely a handful of layers, focusing on simplifications due to locality, symmetry and polynomials
+
+In Section III ([[Deep learning theory]], [[Complex systems]]), we study how increasing the depth of a neural network can provide polynomial or exponential eficiency gains even though it adds nothing in terms of expressivity, and we discuss the connections to renormalization, compositionality and [[Complexity]].
+
+In Section IV, we <b>summarize</b> our conclusions 
+
+In Appendix V, we discuss a technical point about [[renormalization|Renormalization group]] and deep learning (see above). 
+
+!!!__[[Neural network theory]]__
+
+Summary: polynomials can be accurately approximated by neural networks using a number of neurons scaling either as the number of multiplications required (for continuous input variables) or as the number of terms (for binary input variables).
+
+__What Hamiltonians do we want to approximate? __: see [[Simplicity and learning]] (section Simplicity and neural networks). Low-order, locality, symmetry.
+
+!!!__Why deep neural networks?__
+
+This question has been extensively studied from a mathematical point of view [10,12], but mathematics alone cannot fully answer it, because part of the answer involves physics. We will argue that the answer involves the hierarchical/compositional structure of generative processes together with inability to efficiently "flatten" neural networks reflecting this structure. 
+
+Causally, complex structures are frequently created through a distinct sequence of simpler steps. This greatly simplifies the class of probability distributions that the network has to consider. The goal of the network is to reverse this generative hierarchy to learn about the input from the output. 
+
+[img width=400 [hierarchical_process_inference.PNG]]
+
+__Sufficient statistics and hierarchies__
+
+This can be formalized using [[Information theory]] and the concept of [[Sufficient statistic]]
+
+[img[sufficient_statistics_of_Markov_process.PNG]]
+
+<b>Corollary 2</b>: With the same assumptions and notation as Theorem 2, define the function $$f_0(T_0) = P(x_0|T_0)$$, and $$f_n = T_n$$. Then
+
+$$P(x_0|x_n) = (f_0 \circ f_1 \circ ... \circ f_n) (x_n)$$
+
+//the structure of the inference problem reflects the structure of the generative process.//
+
+In this case, we see that the neural network trying to approximate P(x|y) must approximate a compositional function. We will argue below in Section III F that in many cases, this can only be accomplished efficiently if the neural network has $$\gtrsim n$$ hidden layers.
+
+In neuroscience parlance, the functions $$f_i$$ compress the data into forms with ever more ''invariance'' [24], containing features invariant under irrelevant transformations (for example background substitution, scaling and translation). 
+
+__Approximate information distillation__
+
+Using functions that retain //most// of the information (i.e. imperfect [[Sufficient statistic]]s, or more precisely a function for which the [[data processing inequality|Data processing theorem]] is close to an equality, but isn't) may be useful, if the functions are much less [[computationally complex|Computational complexity]], for instance are much simpler polynomials.
+
+__Distillation and renormalization__
+
+The systematic framework for distilling out desired information from unwanted "noise" in physical theories is known as [[Effective field theory]], a fundamental part of which is the [[Renormalization group]] transformation.
+
+They claim that RG is an example of supervised learning, and not of unsupervised learning. <mark>But not sure why</mark>
+
+__Non-flattening theorems__
+
+Theorems about the ''neuron-efficiency cost'' (reduction in the total number of neurons), and the ''synaptic-efficiency cost'' (reduction in the total number of synapses, or weight parameters), of ''flattening''.
+
+Flattening refers to producing a neural network with less layers and which approximates the original up to an error $$\epsilon$$
+
+__Linear non-flattening theorems__
+
+Non-flattening theorems for neural networks with no nonlinear functions, i.e. for [[Matrix]] multiplication.
+
+---------------------
+
+[img[physics-ml_dictionary.PNG]]

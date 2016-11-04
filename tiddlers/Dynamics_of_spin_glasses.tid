@@ -1,8 +1,9 @@
 created: 20160712141133197
 creator: guillefix
-modified: 20160712141807604
-modifier: guillefix
+modified: 20160916132602009
+modifier: cosmos
 title: Dynamics of spin glasses
+type: text/vnd.tiddlywiki
 
 [[non-equilibrium|Non-equilibrium statistical physics]] dynamical properties of [[Spin glass]]es.
 
@@ -57,3 +58,7 @@ number of spins, can only occur after the system surmounts
 some energy or free energy barrier; and a consequently compli-
 cated “energy landscape,” the meaning of which is discussed in
 section 4.9.
+
+------------------
+
+[[Spin-Flip Dynamics of the Curie-Weiss Model: Loss of Gibbsianness with Possibly Broken Symmetry|http://www.rug.nl/research/portal/files/2826562/2007CommMathPhysKulske.pdf]]

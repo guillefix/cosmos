@@ -1,10 +1,17 @@
 created: 20160720224821733
 creator: guillefix
-modified: 20160720225419073
-modifier: guillefix
+modified: 20161008134920786
+modifier: cosmos
 tags: [[Materials science]]
 title: Composite material
+type: text/vnd.tiddlywiki
 
-[[Composite material|https://en.wikipedia.org/wiki/Composite_material]]
+[[Composite material|https://en.wikipedia.org/wiki/Composite_material]] is a material made from two or more constituent materials with significantly different physical or chemical properties.
+
+A material with constituents having different chemical composition is known as a [[Mixture]].
+
+A material with constituents in different physical phases, is known as a [[dispersion|Dispersion (Chemistry)]].
+
+A material can be both a dispersion and a mixture.
 
 [[Textile]]

@@ -1,7 +1,7 @@
 created: 20160127170233646
 creator: guillefix
-modified: 20160215233113996
-modifier: guillefix
+modified: 20160916115445787
+modifier: cosmos
 title: Measures and metrics for networks
 type: application/x-tiddler
 
@@ -84,11 +84,9 @@ For directed simplest graph the smallest loop size is two, instead of three, and
 
 __Signed edges and structural balance__
 
-''Signed neworks'' have //signed edges//, that is their edges can have an associated weight $$+1$$ (like friendship) or $$=1$$ (like animosity).
+''[[Signed network]]s'' have //signed edges//, that is their edges can have an associated weight $$+1$$ (like friendship) or $$=1$$ (like animosity).
 
-''Structural balance'' refers to the situation when the network contains only loops with even numbers of minus signs. This is so that the (naturally generalized version of the) rule "the enemies of my enemies are my friends", and "the friends of my friends are my friends". This is similar to the concept of "frustration" in spin networks
-
-Harary's theorem tells us that all balanced networks are //clusterable//, i.e. they can be divided into groups with only positive connections within groups and negative between them. Proof given in Newman's book and gives further intuition of concept of balance.
+''[[Structural balance]]'' refers to the situation when a [[Signed network]] contains only loops with even numbers of minus signs.
 
 __[[Similarity|Similarity (Network theory)]]__
 

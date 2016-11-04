@@ -1,0 +1,12 @@
+created: 20161011175915155
+creator: cosmos
+modified: 20161012183146881
+modifier: cosmos
+title: Bootstrap aggregation
+type: text/vnd.tiddlywiki
+
+!!![[Bootstrap aggregation (Bagging)|https://www.youtube.com/watch?v=5Lu1eTiX7qM&index=10&list=PLD0F06AA0D2E8FFBA#t=4.438496]]
+
+Used to improve [[Classification]] and [[Regression analysis]]
+
+[[(ML 2.7) Bagging for classification|https://www.youtube.com/watch?v=JM4Y0B6Ho90&index=13&list=PLD0F06AA0D2E8FFBA]]

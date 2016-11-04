@@ -1,0 +1,9 @@
+created: 20161013203022042
+creator: cosmos
+modified: 20161013203053497
+modifier: cosmos
+tags: [[Image processing]] [[Artificial intelligence]]
+title: Image classification
+type: text/vnd.tiddlywiki
+
+[[ImageNet Classification with Deep Convolutional Neural Networks|https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf]] (AlexNet)

@@ -1,0 +1,16 @@
+created: 20160918223934834
+creator: cosmos
+modified: 20161018181004592
+modifier: cosmos
+title: Probabilistic model
+type: text/vnd.tiddlywiki
+
+[[Model]]s for [[Probability distribution]]s. These models relate [[Random variable]]s, using some more or less general assumptions about the nature of the data.
+
+[[Graphical model]]
+
+[[Artificial neural network]]
+
+See [[Machine learning]]
+
+[[Generative model]]

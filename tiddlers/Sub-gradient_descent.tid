@@ -1,0 +1,11 @@
+created: 20161026163921860
+creator: cosmos
+modified: 20161026164126655
+modifier: cosmos
+title: Sub-gradient descent
+type: text/vnd.tiddlywiki
+
+Like [[Gradient descent]] but using [[Subderivative]]s
+
+__Sub-gradient for absolute values__
+

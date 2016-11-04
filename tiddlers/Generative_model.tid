@@ -1,0 +1,39 @@
+created: 20161018180930085
+creator: cosmos
+modified: 20161018184421974
+modifier: cosmos
+tags: [[Probabilistic model]] [[Unsupervised learning]]
+title: Generative model
+type: text/vnd.tiddlywiki
+
+A class of [[Unsupervised learning]], where given a data set of $$x$$s, the task is to build a [[Probabilistic model]] $$P(x)$$, for the training data. This model is then able to //generate// new data by sampling new $$x$$s from $$P$$
+
+[[Vid|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=18m20s]], can be used for [[Anomaly detection]].
+
+!!!__[[Mixture model]]__
+
+[[Gaussian mixture model]]
+
+!!!__[[Factor analysis model]]__
+
+!!!__[[Density estimation]]__
+
+Often refers to [[non-parametric|Nonparametric statistics]] generative models. In fact, when one says generative model, one often refers to a parametric model for $$P(x)$$.
+
+Using [[Baye's theorem]], generative models can be applied to [[Supervised learning]], see [[Generative supervised learning]]
+
+[[What is the relationship between generative models and density estimation?|http://stats.stackexchange.com/questions/190214/what-is-the-relationship-between-generative-models-and-density-estimation]]
+
+[[wiki|https://www.wikiwand.com/en/Generative_model]]
+
+!!![[Autoencoder]]
+
+!!![[Generative adversarial network]]
+
+!!__[[Latent variable]]s__
+
+Often, generative models have certain parameters which are particularly important, because they may represent a particular feature or structure that the generative model may be able to extract in its learning process. Generative models are in fact often designed with this in mind, as the task of [[Unsupervised learning]] is to find some interesting structure in the data.
+
+See this [[video|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=10m37]]
+
+https://openai.com/blog/generative-models/deploy@guillefix:~/cosmos.git/tiddlers

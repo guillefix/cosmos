@@ -1,9 +1,10 @@
 created: 20160128235449214
 creator: guillefix
-modified: 20160207211216120
-modifier: guillefix
+modified: 20161022143454290
+modifier: cosmos
 tags: [[Fluid dynamics]] [[Condensed matter physics]]
 title: Viscosity and elasticity
+type: text/vnd.tiddlywiki
 
 !!The response of matter to a shear stress
 
@@ -29,7 +30,7 @@ A way to estimate this relaxation time for the fluid is by considering the atoms
 
 This atom is a higher energy (and lower entropy) state and to relax needs to overcome the potential barrier due to its neighbouring atoms. Due to the stochastic nature of this process, the relaxation time will follow an Arrhenius behavior with $$\tau \sim \nu \exp(-\frac{\epsilon}{kT})$$ (where $$\nu$$ is the "frequency" of attempts to scape). Plugging in measured or estimated values, this gives $$10^{-12}$$--$$10^{-10}$$s, which explains why the fluid appears viscous in the timescales of most experiments. By looking at Fig. 1, we can estimate the viscosity of a fluid to be $$G_0 \tau$$, which thus depends rather strongly on temperature. This turns out to be the basis for the liquid to glassy transition.
 
-However, as the temperature approaches the glass transition temperature, the temperature dependence of the relaxation time (and thus viscosity) changes. The viscosity in fact is found to appear  to diverge at a finite temperature, as described by the __Vogel-Fulcher law__. As the relaxation time becomes large enough the system falls out of equilibrium with respect to experimental time scales, and the liquid forms a __[[glass]]__. The transition to a glass is however not a (thermodynamic) phase transition. It depends on the rate at which we lower the temperature, and it is in fact a __kinetic transition__ (see Soft matter Jones book secion 2.4). The situation here is sometimes called broken ergodicity (I think: isn't this similar to what happens in phase transitions with spontaneously broken symmetries?
+However, as the temperature approaches the glass transition temperature, the temperature dependence of the relaxation time (and thus viscosity) changes. The viscosity in fact is found to appear  to diverge at a finite temperature, as described by the __Vogel-Fulcher law__. As the relaxation time becomes large enough the system falls out of equilibrium with respect to experimental time scales, and the liquid forms a __[[Glass]]__. The transition to a glass is however not a (thermodynamic) phase transition. It depends on the rate at which we lower the temperature, and it is in fact a __kinetic transition__ (see Soft matter Jones book secion 2.4). The situation here is sometimes called broken ergodicity (I think: isn't this similar to what happens in phase transitions with spontaneously broken symmetries?
 
 While there is no full theory of glass formation yet, a few have been proposed. An early approach is the free volume theory but its assumptions are questionable and sometimes predictions don't agree with experiment. More modern theories use the idea of __cooperativity__: as the temperature is lowered, the density is lowered too, and the molecules get more "cramped" together. Then, for a molecule to move its neighbours must move in a certain cooperative fashion. See work by Adam and GIbbs.
 

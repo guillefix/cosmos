@@ -1,0 +1,14 @@
+created: 20161017204437857
+creator: cosmos
+modified: 20161103144454290
+modifier: cosmos
+title: Neural Turing machine
+type: text/vnd.tiddlywiki
+
+A differentiable [[Turing machine]] the internal program of which can thus be [[learned|Machine learning]]. The program can be represented using [[Artificial neural network]]s
+
+[[Symposium: Deep Learning - Alex Graves|https://www.youtube.com/watch?v=_H0i0IhEO2g]]
+
+See [[Integrating symbols into deep learning]], [[Neural networks with memory]]
+
+Also see [[Neural programmer-interpreter]]

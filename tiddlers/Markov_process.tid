@@ -1,11 +1,12 @@
 created: 20160322023836531
 creator: guillefix
-modified: 20160913195133957
+modified: 20160918183046731
 modifier: cosmos
+tags: [[Stochastic process]]
 title: Markov process
 type: text/vnd.tiddlywiki
 
-See [[Stochastic processes]]
+A [[Stochastic process]] where the [[Random variable]]s depend only the previous variable. More precisely, each random variable is independent of all the others, given its immediate predecessor, it thus satisfies the [[Markov property]]. For [[Continuous-time stochastic process]], the definition needs to be tackled more carefully.
 
 __Chapman-Kolmogorov equation__
 

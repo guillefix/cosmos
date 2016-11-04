@@ -1,0 +1,21 @@
+created: 20160919175543276
+creator: cosmos
+modified: 20161013202931398
+modifier: cosmos
+tags: [[Deep learning]]
+title: TensorFlow
+type: text/vnd.tiddlywiki
+
+A good [[Deep learning]] library in [[Python]]
+
+[[TensorFlow Basics - Deep Learning with Neural Networks p. 2|https://www.youtube.com/watch?v=pnSBZ6TEVjY&index=45&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v]]
+
+In tensor flow, you:
+
+# Define a ''computational graph'', that manipulates tensors, and data.
+
+# Begin a ''session'' (`tf.Session()`), and `train`, and `run` the computational graph, to get its result.
+
+[[Learning TensorFlow|https://www.youtube.com/watch?v=bvHgESVuS6Q]]
+
+[[TensorFlow in 5 Minutes|https://www.youtube.com/watch?v=2FmcHiLCwTU]]

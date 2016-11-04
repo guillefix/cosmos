@@ -1,6 +1,6 @@
 created: 20160218002529202
 creator: guillefix
-modified: 20160905133250583
+modified: 20161025093940120
 modifier: cosmos
 tags: Biology
 title: Genetics
@@ -39,33 +39,39 @@ More: [[Genes, Alleles and Loci on Chromosomes|https://www.youtube.com/watch?v=G
 
 [[Heredity video|https://www.youtube.com/watch?v=CBezq1fFUEA]]
 
-Punnet square
+[[Punnett square]]
 
 https://en.wikipedia.org/wiki/Chromosomal_crossover
 
-!!__Chromosomal theory of inheritance__
+!!__[[Chromosome theory of inheritance]] -- [[Inheritance]]__
 
 [[Chromosome]]s carry the [[Gene]]s that Mendel studied. [[Cytology and the chromosomal theory of inheritance|https://www.youtube.com/watch?v=uLsVEYdn_e4]]
 
-[[Mendel's 2nd law vs chromosome theory|https://www.youtube.com/watch?v=cbbnGiiu_SI#t=9m38s]] [[How to resolve it: Fruit flies and linkage|https://www.youtube.com/watch?v=Pq3l24TyEbw]] (experiments by [[Thomas Hunt Morgan|http://www.nature.com/scitable/topicpage/thomas-hunt-morgan-the-fruit-fly-scientist-6579789]], with //Drosophila melanogaster//
+!!__[[Population genetics]]__
 
-!!!--> [[Genetic linkage]] and [[Homologous recombination]] (caused by [[Chromosomal crossover]], which occurs during [[Meiosis]])
-
-!!!__[[Mode of inheritance]]__
-
---> [[Genetic dominance]] (gives rise to ''modes of inheritance'')
-
-* [[Diploid]] cells have two copies of each chromosome, called [[Homologous pair]]s, except, maybe for [[Sex chromosome]]s. These "copies" are not identical, the are homologous, they have the same genes (or almost), but just different alleles.
-
-* [[Haploid]]. Just one copy of each chromosome. [[Gamete]]s are haploid.
+The genetics of populations of organisms, their [[Evolution]], and [[Ecology]]
 
 !!__[[Biochemical genetics]]__
 
-!!__[[Population genetics]]__
+The field that studies the links between [[Genetics]] and [[Biochemistry]], for instance by finding which [[Gene]]s that control certain [[Metabolic pathway]]s, and how they do it.
+
+!!__[[Molecular genetics]]__
+
+!!![[DNA sequencing]]
+
+!!![[Genetic mutation]]
 
 !!!__[[Genetic epidemiology]]__
 
+!!!__[[Gene expression]]__
+
+[[Epigenetics]]
+
 [[Complex segregation analysis]]
+
+!!__[[Genomics]]__
+
+Studies whole [[Genome]]s
 
 !!__[[Genetic engineering]]__
 
@@ -76,3 +82,8 @@ https://en.wikipedia.org/wiki/Chromosomal_crossover
 * [[Genealogy]]
 
 [[Real human genetics|https://www.youtube.com/watch?v=l9_lT0odWww]] (genetics in practice)
+
+!!__Genetics within [[Systems biology]]__
+
+* [[Genotype-phenotype map]]
+* [[Epigenetics]]
