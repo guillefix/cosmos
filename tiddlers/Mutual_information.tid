@@ -1,9 +1,11 @@
 created: 20160703121449051
 creator: guillefix
-modified: 20160705103520290
+modified: 20161104134329855
 modifier: guillefix
 tags: [[Information measures]]
 title: Mutual information
+tmap.id: 8581553e-d2be-476c-861a-67e0fcc8f40e
+type: text/vnd.tiddlywiki
 
 In [[Information theory]], the ''mutual information'' between [[Random variable]]s $$X$$, and $$Y$$ is defined as:
 

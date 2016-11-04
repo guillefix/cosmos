@@ -1,9 +1,10 @@
 created: 20161018143948358
 creator: cosmos
-modified: 20161018144239076
+modified: 20161104134327787
 modifier: cosmos
 tags: [[Unsupervised learning]]
 title: Deep belief network
+tmap.id: af2db9f0-da4b-4fec-a543-a724dcbfee60
 type: text/vnd.tiddlywiki
 
 In machine learning, a deep belief network (DBN) is a [[generative|Generative learning]] [[Graphical model]], or alternatively a type of deep neural network, composed of multiple layers of [[Latent variable]]s ("hidden units"), with connections between the layers but not between units within each layer.

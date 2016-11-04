@@ -1,7 +1,9 @@
 created: 20160511112421492
 creator: guillefix
-modified: 20160511112618776
+modified: 20161104134332056
 modifier: guillefix
 title: Rheology
+tmap.id: 09f89d7f-bcae-4759-98ce-fdbb887fe5ee
+type: text/vnd.tiddlywiki
 
 [[Rheology|https://en.wikipedia.org/wiki/Rheology]] is a branch of [[Continuum mechanics]] that __studies the flow of [[matter|Bulk matter]]__, primarily in a liquid state, but also as 'soft solids' or solids under conditions in which they respond with plastic flow rather than deforming elastically in response to an applied force. That is, rheology does not study a particular class of matter, but the flow of any matter.

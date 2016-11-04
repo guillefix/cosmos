@@ -1,8 +1,9 @@
 created: 20161018182914533
 creator: cosmos
-modified: 20161018183535254
+modified: 20161104134329316
 modifier: cosmos
 title: Latent variable
+tmap.id: fb768d43-b3a9-4880-af42-52f2fcce5aae
 type: text/vnd.tiddlywiki
 
 [[Random variable]]s in a [[Probabilistic model]], which don't model observed data, but which may have some form of significance in the model, as is often the case in [[Generative model]]s.

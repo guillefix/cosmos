@@ -1,8 +1,9 @@
 created: 20160820121705422
 creator: cosmos
-modified: 20160820121748767
+modified: 20161104134332975
 modifier: cosmos
 title: Undecidable
+tmap.id: b3e383db-5de0-40f9-9163-32158fc460ff
 type: text/vnd.tiddlywiki
 
 See [[Computability theory]]. Basically, a problem is undecidable if there's not an algorithm/Turing Machine that could solve the problem in all instances.

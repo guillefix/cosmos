@@ -1,8 +1,10 @@
 created: 20160504182306614
 creator: guillefix
-modified: 20160504184350595
+modified: 20161104134331451
 modifier: guillefix
 title: Pastes
+tmap.id: 7a307f60-cb66-4dc2-a62c-1574ab2a3437
+type: text/vnd.tiddlywiki
 
 [[pastes|http://pubs.rsc.org/en/content/articlehtml/2007/sm/b611021p]]: materials that can be deformed easily (like liquids), but keep their shape after the force is applied (like solids).
 

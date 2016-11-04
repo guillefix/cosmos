@@ -1,8 +1,10 @@
 created: 20160714003643474
 creator: guillefix
-modified: 20160714121641061
+modified: 20161104134328324
 modifier: guillefix
 title: Filter base
+tmap.id: ccf9b5ff-c889-4113-83f9-9b1f50582a39
+type: text/vnd.tiddlywiki
 
 A ''filter base'' $$\mathcal{B}$$ is a family of non-empty subsets of a [[Set]] $$X$$ such that if $$A, B \in \mathcal{B}$$ then there exists $$C \in \mathcal{B}$$ such that $$C \in A \cap B$$.
 

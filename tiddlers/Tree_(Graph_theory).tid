@@ -1,8 +1,10 @@
 created: 20160119181245014
 creator: guillefix
-modified: 20160628151451562
+modified: 20161104134332932
 modifier: guillefix
 title: Tree (Graph theory)
+tmap.id: d9ca39e1-f66a-46b3-9794-7ffa36f5dfed
+type: text/vnd.tiddlywiki
 
 A ''tree'', in graph theory, is a connected, undirected graph that contains no closed loops. A //forest// is a disconnected graph whose connected parts are trees.
 

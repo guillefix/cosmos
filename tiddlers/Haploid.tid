@@ -1,6 +1,7 @@
 created: 20160905113254047
-modified: 20160905113324244
+modified: 20161104134328787
 title: Haploid
+tmap.id: d2fc7cb7-874e-424f-b46c-be335a367ba8
 type: text/vnd.tiddlywiki
 
 A cell that contains a single copy of each [[Chromosome]], so that its [[Genotype]] has a single [[Allele]]

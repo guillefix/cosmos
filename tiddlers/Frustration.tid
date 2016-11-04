@@ -1,8 +1,9 @@
 created: 20160916115215856
 creator: cosmos
-modified: 20160916120119680
+modified: 20161104134328479
 modifier: cosmos
 title: Frustration
+tmap.id: 9bfe58b8-a57b-4891-a6c6-46851d4dcc02
 type: text/vnd.tiddlywiki
 
 ''Frustration'' refers to the situation when a [[Signed network]] contains loops with odd numbers of minus signs.

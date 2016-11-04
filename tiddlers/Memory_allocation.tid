@@ -1,8 +1,10 @@
 created: 20160629005908388
 creator: guillefix
-modified: 20160629234621072
+modified: 20161104134329613
 modifier: guillefix
 title: Memory allocation
+tmap.id: 7f1fa169-2dc7-4e73-af5f-f87c17f91c42
+type: text/vnd.tiddlywiki
 
 //a.k.a. memory management//
 

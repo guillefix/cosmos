@@ -1,8 +1,10 @@
 created: 20160611162305071
 creator: guillefix
-modified: 20160611163033174
+modified: 20161104134331567
 modifier: guillefix
 title: Percolation on hypercubic lattices
+tmap.id: 23e0c11a-f502-4de1-9b23-61940ffef401
+type: text/vnd.tiddlywiki
 
 [[Percolation]] on hypercubic lattices, which can be represented as $$\mathbb{Z}^d$$, where $$d$$ is the dimension of the lattice, and $$\mathbb{Z}$$ is the set of integers of course.
 

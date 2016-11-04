@@ -1,9 +1,10 @@
 created: 20161018180054761
 creator: cosmos
-modified: 20161018192309085
+modified: 20161104134332342
 modifier: cosmos
 tags: [[Machine learning]]
 title: Semi-supervised learning
+tmap.id: edc496e9-57b6-4578-bd93-1446394a2576
 type: text/vnd.tiddlywiki
 
 A type of [[Machine learning]] problem where only some of the labels ('outputs') are available in the training data, the rest of the training data being just 'inputs'.

@@ -1,8 +1,10 @@
 created: 20160428131851288
 creator: guillefix
-modified: 20160607150054129
+modified: 20161104134329546
 modifier: guillefix
 title: Matched asymptotic expansions
+tmap.id: cfc95abd-0114-4f5d-8182-2f09a47dff8a
+type: text/vnd.tiddlywiki
 
 Perturbation method to get approximate solutions to ''singular perturbation problems'' of differential equations, often when the small parameter $$\epsilon$$ is multiplying the highest derivative. Then the $$\epsilon=0$$ problem is of lower order, and will in general not be able to satisfy all the boundary conditions of the original problem
 

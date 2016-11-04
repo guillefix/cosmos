@@ -1,8 +1,10 @@
 created: 20160713232202931
 creator: guillefix
-modified: 20160713233047763
+modified: 20161104134329349
 modifier: guillefix
 title: Least upper bound
+tmap.id: c999716f-de9b-4556-85c4-47771a86ebaa
+type: text/vnd.tiddlywiki
 
 Natural extension of the [[join|Join operation]] of two elements to an arbitrary [[Set]] of elements of a [[poset|Partially ordered set]]
 

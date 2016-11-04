@@ -1,9 +1,11 @@
 created: 20160707164751287
 creator: guillefix
-modified: 20160707164846907
+modified: 20161104134332961
 modifier: guillefix
 tags: [[Set theory]] [[Data structure]]
 title: Tuple
+tmap.id: 38ac96e9-011b-4189-821c-550b3e027a91
+type: text/vnd.tiddlywiki
 
 An ordered collection of objects.
 

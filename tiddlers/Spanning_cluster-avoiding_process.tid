@@ -1,8 +1,10 @@
 created: 20160613160644032
 creator: guillefix
-modified: 20160613171122914
+modified: 20161104134332528
 modifier: guillefix
 title: Spanning cluster-avoiding process
+tmap.id: ad252228-001f-4b6b-b80f-6d17c047e998
+type: text/vnd.tiddlywiki
 
 An ''spanning cluster-avoiding process'' (SCA) is an [[Explosive percolation]] model based on classifying bonds between those that facilitate the creation of the spanning-cluster, and those that don't, and preferentially selecting those that don't. They are similar to [[Achlioptas process]]es ($$m$$-edge processes). However, they don't require the candidate edges to be chosen at random between any pair of nodes, and instead the candidate edges can belong to a predetermined underlying network, common a hypercubic lattice. They are capable of showing discontinuous transitions, [[for certain choices of the number of candidate edges chosen per step|http://science.sciencemag.org/content/339/6124/1185.full]]
 

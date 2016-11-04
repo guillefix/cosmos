@@ -1,9 +1,10 @@
 created: 20160629171233090
 creator: guillefix
-modified: 20160825163214524
+modified: 20161104134329254
 modifier: cosmos
 tags: Complexity
 title: Kolmogorov complexity
+tmap.id: 42fc93ab-283d-41bb-a9d4-0c9266a47138
 type: text/vnd.tiddlywiki
 
 ,,//aka algorithmic complexity, although that term may refer to some generalizations of Kolmogorov complexity too, I think//,,

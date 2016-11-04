@@ -1,9 +1,10 @@
 created: 20161022120117167
 creator: cosmos
-modified: 20161022120412774
+modified: 20161104134331834
 modifier: cosmos
 tags: Induction
 title: Program induction
+tmap.id: ac0d4b57-5428-49e7-84a1-2c509cd58647
 type: text/vnd.tiddlywiki
 
 [[Induction]] of [[Computer program]]s

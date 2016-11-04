@@ -1,9 +1,10 @@
 created: 20160905063447190
 creator: cosmos
-modified: 20161009104134321
+modified: 20161104134327335
 modifier: cosmos
 tags: Molecule
 title: Chemical bond
+tmap.id: 5796680b-98fc-4d49-9b49-33fbdf43e950
 type: text/vnd.tiddlywiki
 
 * [[Ionic interactions|Ionic bond]] Electronic transfer of electrons between atoms makes them ions which attract via the [[Coulomb interaction]], so $$1/r$$ and isotropic. It is $$\sim 100 k_B T$$. However, interaction is strongly modified in a solution, due to __screening__ (similar to Debye screening in [[Plasma physics]]).

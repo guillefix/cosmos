@@ -1,9 +1,11 @@
 created: 20160117141553377
 creator: guillefix
-modified: 20160117141832969
+modified: 20161104134332100
 modifier: guillefix
 tags: meta
 title: Saving offline
+tmap.id: 63ec8921-c230-4dc1-8f0a-ccbc0f4bf94b
+type: text/vnd.tiddlywiki
 
 To save a working copy for offline editing (and then uploading elsewhere, like in personal webpage):
 

@@ -1,7 +1,8 @@
 created: 20160904164408185
-modified: 20160904164539138
+modified: 20161104134328995
 tags: [[Machine learning]]
 title: Incremental learning
+tmap.id: d7560192-f9eb-4576-8f75-50dad82a9347
 type: text/vnd.tiddlywiki
 
 Incremental learning is a machine learning paradigm where the learning process takes place whenever new example(s) emerge and adjusts what has been learned according to the new example(s).

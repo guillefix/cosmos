@@ -1,9 +1,11 @@
 created: 20160611124611708
 creator: guillefix
-modified: 20160616183633262
+modified: 20161104134329127
 modifier: guillefix
 tags: [[Statistical physics]]
 title: Ising model
+tmap.id: 19dc334a-38e5-45c3-ab22-447a5bb5d089
+type: text/vnd.tiddlywiki
 
 Lattice with spins interacting with nearest neighbours to favour either alignment and anti-alignment, as a minimal model of a ferromagnet. It has many connections with other systems in [[Statistical physics]], and [[Complex systems]], due to the abstract nature of the model.
 

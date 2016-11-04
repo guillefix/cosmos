@@ -1,7 +1,9 @@
 created: 20160705214130843
 creator: guillefix
-modified: 20160705214249224
+modified: 20161104134329453
 modifier: guillefix
 title: log-det identity
+tmap.id: 2bd237a3-a98e-450a-a1f7-4928e6b5ee55
+type: text/vnd.tiddlywiki
 
 $$\ln{\det{\mathbf{M}}} = \text{tr }{\ln{\mathbf{M}}}

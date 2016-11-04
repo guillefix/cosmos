@@ -1,7 +1,8 @@
 created: 20160808103318251
-modified: 20160808162150657
+modified: 20161104134329371
 tags: [[Inverse problem]]
 title: Linear inverse problem
+tmap.id: a052e50a-f986-479f-81cc-8b79d1cf7529
 type: text/vnd.tiddlywiki
 
 An [[Inverse problem]] where the measurements are [[linearly|Linearity]] related to the quantity to be recovered.

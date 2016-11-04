@@ -1,8 +1,9 @@
 created: 20161013174943742
 creator: cosmos
-modified: 20161015131251538
+modified: 20161104134327083
 modifier: cosmos
 title: Bellman equation
+tmap.id: 9a1d13c8-afad-4f54-938a-e9bf7c5f7828
 type: text/vnd.tiddlywiki
 
 $$V^\pi (s) = R(s) + \gamma \sum\limits_{s'} P_{s \pi(s)} (s') V^\pi (s')$$

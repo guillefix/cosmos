@@ -1,9 +1,10 @@
 created: 20160914151711312
 creator: cosmos
-modified: 20160919171107445
+modified: 20161104134329161
 modifier: cosmos
 tags: Clustering
 title: K-means algorithm
+tmap.id: 3a56ab68-5f56-45a1-8e99-822a9d3de27c
 type: text/vnd.tiddlywiki
 
 [[Intro vid|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=5m]] -- [[K Means with Titanic Dataset - Practical Machine Learning Tutorial with Python p.36|https://www.youtube.com/watch?v=j6jstahQp2A&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&index=36]]

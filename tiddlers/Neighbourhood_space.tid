@@ -1,8 +1,10 @@
 created: 20160714000128361
 creator: guillefix
-modified: 20160714005226032
+modified: 20161104134329869
 modifier: guillefix
 title: Neighbourhood space
+tmap.id: 2be76c56-1606-4cf3-b1e7-8b7837672f42
+type: text/vnd.tiddlywiki
 
 A ''neighbourhood space'' is a weaker notion than a [[Topological space]]. It is a [[Set]] with a [[Neighbourhood structure]]
 

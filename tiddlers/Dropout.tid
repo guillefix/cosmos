@@ -1,8 +1,9 @@
 created: 20160921133844421
 creator: cosmos
-modified: 20160921140920672
+modified: 20161104134328076
 modifier: cosmos
 title: Dropout
+tmap.id: 1c94ea57-1cf4-4536-af8b-98bfda0fdece
 type: text/vnd.tiddlywiki
 
 A [[Regularization]] method for [[deep|Deep learning]] [[neural networks|Artificial neural network]], which works by dropping out random neurons/nodes in the network, while training. This avoids [[overfitting|Overfitting and underfitting]] by forcing the network to learn more robust models, that tend to be simpler.

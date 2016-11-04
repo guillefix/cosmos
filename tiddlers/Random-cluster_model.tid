@@ -1,9 +1,11 @@
 created: 20160615144035778
 creator: guillefix
-modified: 20160615144544005
+modified: 20161104134331928
 modifier: guillefix
 tags: [[Probability theory]]
 title: Random-cluster model
+tmap.id: 6cabdd08-fd0a-4cb5-bf23-8b01162665d4
+type: text/vnd.tiddlywiki
 
 A family of [[probabilistic|Probability theory]] models invented by Fortuin and Kasteleyn which include [[Percolation]], and the [[Ising|Ising model]] and Potts models as special cases.
 

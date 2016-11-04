@@ -1,9 +1,10 @@
 created: 20160623193002413
 creator: guillefix
-modified: 20161025094936341
+modified: 20161104134328651
 modifier: cosmos
 tags: Genetics [[Systems biology]]
 title: Genotype-phenotype map
+tmap.id: e17dcab9-fd59-48e9-b5b6-f0c3557309e0
 type: text/vnd.tiddlywiki
 
 Map between a //coding space// (genotype), and another space, called the //phenotype//. These appear, for instance, in [[Evolution]].

@@ -1,8 +1,9 @@
 created: 20160121121903428
 creator: guillefix
-modified: 20160918163413258
+modified: 20161104134331533
 modifier: cosmos
 title: Path integrals for stochastic processes
+tmap.id: 55f33cb7-08de-422f-aa96-6d931a05dec7
 type: text/vnd.tiddlywiki
 
 The Markov property of many [[Stochastic process]]es means that one can naturally construct a [[Path integral]] description. This can be used to [[draw parallels between stochastic processes and quantum mechanics|Stochastic-quantum analogy]].

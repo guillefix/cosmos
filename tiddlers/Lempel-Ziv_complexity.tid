@@ -1,8 +1,10 @@
 created: 20160627202335121
 creator: guillefix
-modified: 20160721133055717
+modified: 20161104134329340
 modifier: guillefix
 title: Lempel-Ziv complexity
+tmap.id: 25fe6ed4-4f7b-4e82-90a4-cc76e14bebad
+type: text/vnd.tiddlywiki
 
 [[Complexity]] measure based on [[Lempel-Ziv algorithms]] (in particular on the LZ77). In fact the measure was proposed earlier, in 1976 on [[On the Complexity of Finite Sequences|http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1055501&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F18%2F22688%2F01055501]]. It is defined as the number of tokens in the LZ77 algorithm.
 

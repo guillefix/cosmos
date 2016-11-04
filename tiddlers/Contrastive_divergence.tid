@@ -1,8 +1,9 @@
 created: 20161022133504430
 creator: cosmos
-modified: 20161022133514976
+modified: 20161104134327616
 modifier: cosmos
 title: Contrastive divergence
+tmap.id: 8b0792bb-6bbe-4b8c-a25a-53327e9d606a
 type: text/vnd.tiddlywiki
 
 A method to train [[Restricted Boltzmann machine]]s

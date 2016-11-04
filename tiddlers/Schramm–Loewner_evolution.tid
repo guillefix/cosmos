@@ -1,8 +1,10 @@
 created: 20160611000408903
 creator: guillefix
-modified: 20160611124029492
+modified: 20161104134332129
 modifier: guillefix
 title: Schramm–Loewner evolution
+tmap.id: 7e4f317a-00cd-4230-975a-22b0f879d545
+type: text/vnd.tiddlywiki
 
 Introduced by Oded Schramm around 2000: [[Scaling limits of loop-erased random walks and uniform spanning trees|http://link.springer.com/article/10.1007%2FBF02803524]]. With applications to [[Percolation theory]].
 

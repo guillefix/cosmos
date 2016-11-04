@@ -1,8 +1,10 @@
 created: 20160714150943046
 creator: guillefix
-modified: 20160715184200482
+modified: 20161104134327147
 modifier: guillefix
 title: Block decomposition method
+tmap.id: b4a071b4-246f-4260-b2f2-5d10e8fa485c
+type: text/vnd.tiddlywiki
 
 The ''block decomposition method'' (BDM) is an extension of the [[Coding theorem method]] to measure the complexity of $$N$$-dimensional arrays. As a [[Network]] can be expressed via its [[Adjacency matrix]], which is a 2D array, it can be used to measure [[Network complexity]] as well.
 

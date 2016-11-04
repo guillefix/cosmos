@@ -1,9 +1,10 @@
 created: 20161008145737483
 creator: cosmos
-modified: 20161008160637694
+modified: 20161104134329743
 modifier: cosmos
 tags: 
 title: Mole
+tmap.id: 9b99b861-d8ed-403b-9c2c-c83061ad0097
 type: text/vnd.tiddlywiki
 
 In [[Chemistry]], the ''mole'' refers to a unit of amount of substance, and it is defined as a certain amount of atoms. It is defined as the amount of substance that has as many atoms/molecules as there are atoms in 12 grams of carbon-12 (12C). This number is called [[Avogadro's constant]], $$A$$ and it is approximately $$6 \times 10^{23}$$.

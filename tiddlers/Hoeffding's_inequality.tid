@@ -1,8 +1,9 @@
 created: 20160911100516584
 creator: cosmos
-modified: 20160911101214234
+modified: 20161104134328845
 modifier: cosmos
 title: Hoeffding's inequality
+tmap.id: ca12d64b-18c3-4991-bf9c-37ff84845ddb
 type: text/vnd.tiddlywiki
 
 Let $$Z_1, Z_2, ..., Z_m$$ be $$m$$ [[i.i.d.]] Bernoulli($$\phi$$) random variables ($$P(Z_i = 1) = \phi)$$.

@@ -1,9 +1,10 @@
 created: 20160623202141721
 creator: guillefix
-modified: 20160719162115543
+modified: 20161104134332420
 modifier: guillefix
 title: Simplicity bias in finite-state transducers
-type: 
+tmap.id: c6fdbe60-79c7-453f-aa27-d1de97379ed8
+type: text/vnd.tiddlywiki
 
 An example of [[Simplicity bias in discrete systems]]
 

@@ -1,8 +1,9 @@
 created: 20160707161706753
 creator: guillefix
-modified: 20160911100201708
+modified: 20161104134327111
 modifier: cosmos
 title: Basic results in probability theory
+tmap.id: de5adacf-03c3-4606-a115-3cc6bb977656
 type: text/vnd.tiddlywiki
 
 !!! __Expected number of times I get a certain outcome for a set of random variables with the same [[sample space|https://en.wikipedia.org/wiki/Sample_space]], but potentially different and dependent probability distributions__

@@ -1,8 +1,10 @@
 created: 20160612121312949
 creator: guillefix
-modified: 20160613173942806
+modified: 20161104134328285
 modifier: guillefix
 title: Explosive percolation
+tmap.id: fa4cb00e-df46-4691-9d38-b4d02b323964
+type: text/vnd.tiddlywiki
 
 Percolation processes that show a discontinuous, or at least very steep phase transition. See [[this image|http://i.imgur.com/Q7DPOvl.png]] for a nice sumary of types of explosive percolation processes. The reviews below also summarize results, and below we discuss some of the main types.
 

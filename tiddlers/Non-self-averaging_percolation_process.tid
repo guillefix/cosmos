@@ -1,8 +1,10 @@
 created: 20160613174246483
 creator: guillefix
-modified: 20160613180843043
+modified: 20161104134331078
 modifier: guillefix
 title: Non-self-averaging percolation process
+tmap.id: 204e0eb0-f5d5-4d7f-939a-05c3869be668
+type: text/vnd.tiddlywiki
 
 A type of [[Percolation]] process that is non-self-averaging, (often? ,,def. of self-averaging?,,) in the sense that the relative variance of the size of the largest component doesn't vanish in the thermodynamic limit.
 

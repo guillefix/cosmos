@@ -1,9 +1,11 @@
 created: 20160522134247648
 creator: guillefix
-modified: 20160522134616551
+modified: 20161104134329159
 modifier: guillefix
 tags: [[Algebraic topology]]
 title: K-theory
+tmap.id: d6b61a51-1b22-4040-bd65-68262f61ab02
+type: text/vnd.tiddlywiki
 
 [[K-theory|https://en.wikipedia.org/wiki/K-theory]] is, roughly speaking, the study of certain kinds of invariants of large matrices...
 

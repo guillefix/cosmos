@@ -1,8 +1,9 @@
 created: 20160628022723876
 creator: guillefix
-modified: 20160918191004377
+modified: 20161104134329515
 modifier: cosmos
 title: Markov chain
+tmap.id: fb004143-0601-4db7-9a43-71819d078e9f
 type: text/vnd.tiddlywiki
 
 [[Markov process]] with a discrete state space. More generally it's a chain (a [[Directed network]], where every node has out-degree and in-degree 1, forming a chain) of [[Random variable]]s that satisfy a [[Markov property]]. 

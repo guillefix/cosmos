@@ -1,9 +1,11 @@
 created: 20160713222921853
 creator: guillefix
-modified: 20160713224222342
+modified: 20161104134329691
 modifier: guillefix
 tags: Analysis Topology
 title: Metric space
+tmap.id: 3f3219e7-4342-43cb-aa30-0aff86e4ff9d
+type: text/vnd.tiddlywiki
 
 A [[Set]] with a [[Metric]] function.
 

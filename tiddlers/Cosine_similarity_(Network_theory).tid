@@ -1,8 +1,10 @@
 created: 20160212115024099
 creator: guillefix
-modified: 20160212115526314
+modified: 20161104134327695
 modifier: guillefix
 title: Cosine similarity (Network theory)
+tmap.id: 14ee6d67-f754-428c-a8c3-46aeb0375b4a
+type: text/vnd.tiddlywiki
 
 Cosine similarity (a.k.a. Salton's cosine) is a measure of structural similarity of two nodes in a network. It counts the number of common neighbours of nodes i and j (given by $$n_{ij} = \sum_k A_{ik}A_{kj}$$) and divide by the geometric mean of the degrees of i and k:
 

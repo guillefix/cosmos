@@ -1,9 +1,10 @@
 created: 20160915182124591
 creator: cosmos
-modified: 20161023182939076
+modified: 20161104134332625
 modifier: cosmos
 tags: [[Artificial neural network]]
 title: Statistical mechanics of neural networks
+tmap.id: 7ec059ec-3460-4def-99a5-4a337533c757
 type: text/vnd.tiddlywiki
 
 See also [[Neural network theory]] (mostly about [[Artificial neural network]] [[Learning theory]]), [[Deep learning theory]], [[Hopfield network]], [[Spin glass]]

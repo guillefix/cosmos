@@ -1,9 +1,10 @@
 created: 20161013203022042
 creator: cosmos
-modified: 20161013203053497
+modified: 20161104134328937
 modifier: cosmos
 tags: [[Image processing]] [[Artificial intelligence]]
 title: Image classification
+tmap.id: e5fad7d3-067e-4810-886e-68f17520b78f
 type: text/vnd.tiddlywiki
 
 [[ImageNet Classification with Deep Convolutional Neural Networks|https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf]] (AlexNet)

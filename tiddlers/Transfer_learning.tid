@@ -1,8 +1,9 @@
 created: 20160709021850299
 creator: guillefix
-modified: 20160919093329486
+modified: 20161104134332904
 modifier: cosmos
 title: Transfer learning
+tmap.id: 1601768f-f264-4d01-8c31-52ab35c1fca4
 type: text/vnd.tiddlywiki
 
 //aka ''multi-instance learning'', ''multi-task learning''//

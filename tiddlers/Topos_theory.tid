@@ -1,9 +1,11 @@
 created: 20160623232536257
 creator: guillefix
-modified: 20160623233312730
+modified: 20161104134332924
 modifier: guillefix
 tags: [[Category theory]]
 title: Topos theory
+tmap.id: a25e4ed5-bd25-432c-b6a1-d15c22574b3c
+type: text/vnd.tiddlywiki
 
 [[Topos|https://en.wikipedia.org/wiki/Topos]] is a category that behaves like the category of sheaves of sets on a topological space (or more generally: on a site). Topoi behave much like the category of sets and possess a notion of localization; they are in a sense a generalization of point-set topology.[1] The Grothendieck topoi find applications in [[Algebraic geometry]]; the more general elementary topoi are used in logic.
 

@@ -1,8 +1,10 @@
 created: 20160427183704823
 creator: guillefix
-modified: 20160427192622953
+modified: 20161104134328386
 modifier: guillefix
 title: Fixed-point iteration
+tmap.id: 87209dd4-7c00-47d3-8612-9cb765666304
+type: text/vnd.tiddlywiki
 
 faster if expansion sequence is unknown (i.e. we don't know it it's a power series or a log series for instance); slower, if the expansion sequence is known.
 

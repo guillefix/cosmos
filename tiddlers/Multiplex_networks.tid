@@ -1,8 +1,10 @@
 created: 20160527160813263
 creator: guillefix
-modified: 20160527161028545
+modified: 20161104134329798
 modifier: guillefix
 title: Multiplex networks
+tmap.id: dc00211a-acd1-4022-9112-350d452430c4
+type: text/vnd.tiddlywiki
 
 A network in layers, and with connections between layers; the interconnections between layers are only between a node and its counterpart in the other layer (i.e. the same node). 
 

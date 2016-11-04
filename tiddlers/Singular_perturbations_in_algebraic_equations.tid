@@ -1,8 +1,10 @@
 created: 20160427191825793
 creator: guillefix
-modified: 20160427191924341
+modified: 20161104134332406
 modifier: guillefix
 title: Singular perturbations in algebraic equations
+tmap.id: db146bb3-380c-44d3-a6d8-010bf348a7ca
+type: text/vnd.tiddlywiki
 
 When limit problem ($$\epsilon =0$$) differs in an important way from the limit $$\epsilon \rightarrow 0$$). For example, a root is lost, or a derivative is lost in a DE.
 

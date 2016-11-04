@@ -1,9 +1,10 @@
 created: 20160810180536913
 creator: cosmos
-modified: 20160913160921014
+modified: 20161104134332649
 modifier: cosmos
 tags: Statistics
 title: Sufficient statistic
+tmap.id: 3a772ac4-649c-4746-a6e2-e8c970762975
 type: text/vnd.tiddlywiki
 
 A sufficient statistic for random variable $$y$$ w.r.t to r.v. $$x$$ is a function of $$y$$ that retains all of its information relevant to $$x$$.

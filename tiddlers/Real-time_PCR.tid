@@ -1,8 +1,9 @@
 created: 20161014135453597
 creator: cosmos
-modified: 20161016184034431
+modified: 20161104134331980
 modifier: cosmos
 title: Real-time PCR
+tmap.id: 1e3366e4-5c29-43d4-a4a9-9f163f3c753a
 type: text/vnd.tiddlywiki
 
 Real-time PCR monitors the amplification of a targeted DNA molecule during the PCR process, i.e. in real-time, and not at its end, as in conventional PCR.

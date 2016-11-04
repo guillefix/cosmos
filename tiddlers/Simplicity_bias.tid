@@ -1,9 +1,10 @@
 created: 20160623201813997
 creator: guillefix
-modified: 20160913191301301
+modified: 20161104134332390
 modifier: cosmos
 tags: Simplicity
 title: Simplicity bias
+tmap.id: d75d22be-0d54-4129-81da-e0a7f826466a
 type: text/vnd.tiddlywiki
 
 Simplicity bias (also called Algorithmic randomness deficit) is a bias observed in many [[GP maps|Genotype-phenotype map]] (see [[Bias in GP maps]]), and in many [[Complex systems]] (which can often be seen as GP maps). Simplicity is defined as low [[complexity|Complexity theory]].

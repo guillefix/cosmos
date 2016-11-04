@@ -1,8 +1,10 @@
 created: 20160705111907645
 creator: guillefix
-modified: 20160705134920853
+modified: 20161104134326790
 modifier: guillefix
 title: AlphaGo
+tmap.id: 7b8d9a94-b562-4a60-9227-672cf3515260
+type: text/vnd.tiddlywiki
 
 A famous example of [[Deep reinforcement learning]]
 

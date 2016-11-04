@@ -1,8 +1,10 @@
 created: 20160707160756017
 creator: guillefix
-modified: 20160715004216880
+modified: 20161104134327240
 modifier: guillefix
 title: Borel sigma-algebra
+tmap.id: 36833e2c-5bbb-4010-b75c-498c71ee72a9
+type: text/vnd.tiddlywiki
 
 A [[Sigma-algebra]], $$\mathcal{B}$$, on a set, $$\Omega$$, defined as:
 

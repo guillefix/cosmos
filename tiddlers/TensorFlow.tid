@@ -1,9 +1,10 @@
 created: 20160919175543276
 creator: cosmos
-modified: 20161013202931398
+modified: 20161104134332758
 modifier: cosmos
 tags: [[Deep learning]]
 title: TensorFlow
+tmap.id: 2e9d3b49-052e-40c0-8ebf-36f823b9967e
 type: text/vnd.tiddlywiki
 
 A good [[Deep learning]] library in [[Python]]

@@ -1,9 +1,10 @@
 created: 20161024161249912
 creator: cosmos
-modified: 20161031111034681
+modified: 20161104134332052
 modifier: cosmos
 tags: [[Linear regression]]
 title: Ridge regression
+tmap.id: 8c4a2d1b-b840-4758-aea9-8c12d258b0cd
 type: text/vnd.tiddlywiki
 
 [[Linear regression]] with a [[Tikhonov regularization]].

@@ -1,9 +1,10 @@
 created: 20160709015859880
 creator: guillefix
-modified: 20160919170317647
+modified: 20161104134329874
 modifier: cosmos
 tags: [[Regression analysis]]
 title: Nearest-neighbour classification
+tmap.id: 9018ed64-ada7-469c-b9de-7de652c4f8bc
 type: text/vnd.tiddlywiki
 
 Nearest-neighbor methods: To get the prediction Ŷ for a point $$x$$, use [those observations ($$k$$ of them) in the training set T, closest in input space to point x]. Remember training set is a set of pairs $$(x,y)$$. Closest often refers to Euclidean distance.

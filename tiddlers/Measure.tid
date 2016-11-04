@@ -1,9 +1,11 @@
 created: 20160707160441575
 creator: guillefix
-modified: 20160714133432725
+modified: 20161104134329591
 modifier: guillefix
 tags: [[Measure theory]]
 title: Measure
+tmap.id: 05e22b14-5e98-4b26-94be-0e19d725743f
+type: text/vnd.tiddlywiki
 
 A ''measure'' $$\mu$$ on a set $$\Omega$$, with [[Sigma-algebra]] $$\mathcal{A}$$, is a [[Function]] $$\mu: \mathcal{A} \rightarrow [0, \infty]$$, s.t.
 

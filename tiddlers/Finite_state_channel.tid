@@ -1,8 +1,9 @@
 created: 20160701014056208
 creator: guillefix
-modified: 20160809112726308
+modified: 20161104134328315
 modifier: guillefix
 title: Finite state channel
+tmap.id: 2ce4c250-f691-490b-bb01-a4a37e41b094
 type: text/vnd.tiddlywiki
 
 In [[Information theory]], and in particular, [[Data transmission]], a ''finite state channel'' (FSC) is a discrete-time channel where the distribution of the channel output depends on both the channel input and the underlying channel state. This allows the channel output to depend implicitly on previous inputs and outputs via the channel state. 

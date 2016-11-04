@@ -1,8 +1,10 @@
 created: 20160713231500397
 creator: guillefix
-modified: 20160713232658555
+modified: 20161104134329179
 modifier: guillefix
 title: Join operation
+tmap.id: fd15de47-d79e-4712-a432-d7e2945d6763
+type: text/vnd.tiddlywiki
 
 A ''join'', $$\vee$$ is an [[operation|Operation (Mathematics)]] defined on elements of a [[poset|Partially ordered set]] $$P$$ (not necessarily all of them) defined as:
 

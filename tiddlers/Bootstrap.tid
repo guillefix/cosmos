@@ -1,9 +1,10 @@
 created: 20161011181315718
 creator: cosmos
-modified: 20161019174707964
+modified: 20161104134327129
 modifier: cosmos
 tags: Resampling
 title: Bootstrap
+tmap.id: 3218b74d-51c1-492d-8bde-a78801502c7b
 type: text/vnd.tiddlywiki
 
 In statistics, boostrap is a [[Monte Carlo]] technique to estimate the [[Sampling distribution]] of an [[Estimator]]

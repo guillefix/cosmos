@@ -1,9 +1,11 @@
 created: 20160713192038698
 creator: guillefix
-modified: 20160713192109139
+modified: 20161104134332955
 modifier: guillefix
 tags: [[Cellular automata]]
 title: Turmite
+tmap.id: 58c3dd11-41c5-4f46-b75f-6daab79a926e
+type: text/vnd.tiddlywiki
 
 In computer science, a turmite is a Turing machine which has an orientation as well as a current state and a "tape" that consists of an infinite two-dimensional grid of cells.
 

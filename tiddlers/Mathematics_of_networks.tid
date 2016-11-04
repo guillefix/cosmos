@@ -1,9 +1,11 @@
 created: 20160119184157236
 creator: guillefix
-modified: 20160329144126120
+modified: 20161104134329572
 modifier: guillefix
 tags: [[Network theory]]
 title: Mathematics of networks
+tmap.id: e7270779-9249-46c9-a2eb-a1655a0eac87
+type: text/vnd.tiddlywiki
 
 A ''network'' is a collection of ''nodes'' joined by ''edges''. More generally, it is a collection of elements and their interactions. Most of the time, it has 
 the same mathematical structure as a ''graph'', $$G$$, defined as an 

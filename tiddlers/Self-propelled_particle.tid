@@ -1,9 +1,11 @@
 created: 20160602230300188
 creator: guillefix
-modified: 20160617163336698
+modified: 20161104134332346
 modifier: guillefix
 tags: 
 title: Self-propelled particle
+tmap.id: 0c78751f-3500-4e83-b935-0742ce45f38a
+type: text/vnd.tiddlywiki
 
 An [[active|Active system]] particle, often a [[colloid|Colloid]], or a nanoparticle, that propels itself through a fluid, often via some [[phoretic mechanism|Phoretic mechanisms of colloids]], or via some mechanical propulsion mechanism (the particles are then often called ''microswimmers''). ,,Generally, "active colloid" simply refers to a self-propelled colloid (and similarly with "active particle" in general).,,
 

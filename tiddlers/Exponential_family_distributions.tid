@@ -1,8 +1,9 @@
 created: 20160810180254319
 creator: cosmos
-modified: 20160810180621023
+modified: 20161104134328282
 modifier: cosmos
 title: Exponential family distributions
+tmap.id: 0ee28e78-364f-4bcf-99b4-5a5fba01230e
 type: text/vnd.tiddlywiki
 
 A [[family|Set]] of [[Probability distribution]]s, commonly used in [[Generalized linear model]]s

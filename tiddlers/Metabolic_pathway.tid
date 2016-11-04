@@ -1,8 +1,9 @@
 created: 20160905094625098
 creator: cosmos
-modified: 20161027090640858
+modified: 20161104134329662
 modifier: cosmos
 title: Metabolic pathway
+tmap.id: 8b5c0628-c776-427d-b46c-bdd8f3c6c777
 type: text/vnd.tiddlywiki
 
 System of [[Chemical reaction]]s that carry out some [[Metabolism]] function. Metabolic pathways are often part of a [[Metabolic network]]

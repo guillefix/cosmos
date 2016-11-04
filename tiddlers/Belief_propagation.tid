@@ -1,8 +1,9 @@
 created: 20160918193054014
 creator: cosmos
-modified: 20160918222829300
+modified: 20161104134327087
 modifier: cosmos
 title: Belief propagation
+tmap.id: d470f986-bcf7-43c4-b20f-d35d7f834f1c
 type: text/vnd.tiddlywiki
 
 ''Belief propagation'' can describe a particular kind of [[Message-passing process]] in [[Network]]s, and the related algorithm for performing [[Inference]] in [[Conditional random field]]s.

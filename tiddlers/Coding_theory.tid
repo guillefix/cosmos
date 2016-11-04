@@ -1,9 +1,11 @@
 created: 20160623225134278
 creator: guillefix
-modified: 20160704215943918
+modified: 20161104134327478
 modifier: guillefix
 tags: [[Information theory]]
 title: Coding theory
+tmap.id: 4269ed24-4468-47b7-9c40-4f4ab160c53d
+type: text/vnd.tiddlywiki
 
 A ''code'' is a representation of data, represented as an injective map between two sets. These sets are often called the //Source alphabet//, and the //code alphabet//, respectively.
 

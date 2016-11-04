@@ -1,8 +1,9 @@
 created: 20160919215812902
 creator: cosmos
-modified: 20160919220500776
+modified: 20161104134333024
 modifier: cosmos
 title: Variational renormalization group
+tmap.id: fb1cb6fc-a56d-4da5-8506-1818af19a381
 type: text/vnd.tiddlywiki
 
 Kadanoff’s variational [[RG scheme]] introduces coarse-grained auxiliary, or “hidden”, spins that are coupled to the physical spin systems through some unknown coupling parameters. A parameter-dependent free energy is calculated for the coarse-grained spin system from the coupled system by integrating out the physical spins. The coupling parameters are chosen through a variational procedure that minimizes the difference between the free energies of the physical and hidden spin systems. This ensures that the coarse-grained system preserves the long-distance information present in the physical system. Carrying out this procedure results in an RG transformation that maps the physical spin system into a coarse-grained description in terms of hidden spins. The hidden spins then serve as the input for the next round of renormalization. 

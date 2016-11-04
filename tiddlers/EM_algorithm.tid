@@ -1,8 +1,9 @@
 created: 20160914161647035
 creator: cosmos
-modified: 20161017125109572
+modified: 20161104134328140
 modifier: cosmos
 title: EM algorithm
+tmap.id: 6ec35bc9-247e-4a56-9ec8-77c51036ad41
 type: text/vnd.tiddlywiki
 
 The [[expectation–maximization algorithm|https://www.wikiwand.com/en/Expectation%E2%80%93maximization_algorithm]] is an iterative method for finding [[Maximum likelihood]] or [[Maximum a posteriori]] (MAP) estimates of parameters in statistical models, where the model depends on unobserved latent variables, which is used in models for [[Unsupervised learning]]

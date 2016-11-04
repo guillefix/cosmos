@@ -1,8 +1,9 @@
 created: 20160916143600682
 creator: cosmos
-modified: 20160916145607995
+modified: 20161104134329649
 modifier: cosmos
 title: Metastability
+tmap.id: 5db135de-f10f-4ede-9696-dd74ee91de58
 type: text/vnd.tiddlywiki
 
 A very rough way to distinguish ground states from metastable states (in the context of [[Spin glass]]es, as an example) is as follows:

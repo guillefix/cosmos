@@ -1,9 +1,10 @@
 created: 20160522134739337
 creator: guillefix
-modified: 20161018080607687
+modified: 20161104134327093
 modifier: cosmos
 tags: Statistics
 title: Bayesian statistics
+tmap.id: 1a6bad3e-e4c5-494f-a58d-7fde6dc02d17
 type: text/vnd.tiddlywiki
 
 //Everything is probabilities, and probabilities can be subjective//

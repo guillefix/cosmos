@@ -1,9 +1,11 @@
 created: 20160713185432527
 creator: guillefix
-modified: 20160715184454077
+modified: 20161104134330450
 modifier: guillefix
 tags: Complexity [[Network science]]
 title: Network complexity
+tmap.id: 69c5b5b1-61ee-4128-9df1-74fa3bb8100c
+type: text/vnd.tiddlywiki
 
 Measures of [[Complexity]] of a [[Graph]] or [[Network]]
 

@@ -1,9 +1,11 @@
 created: 20160705204717303
 creator: guillefix
-modified: 20160705204752170
+modified: 20161104134332916
 modifier: guillefix
 tags: [[Dynamical system]]
 title: Trace formula
+tmap.id: 6271346d-7241-427d-b769-4b59f8d38f2c
+type: text/vnd.tiddlywiki
 
 A trace formula relates the spectrum of eigenvalues of an operator - for instance, the transition matrix - to the spectrum of periodic orbits of a dynamical system.
 

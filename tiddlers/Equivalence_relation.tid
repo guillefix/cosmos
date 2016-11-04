@@ -1,8 +1,10 @@
 created: 20160713230217787
 creator: guillefix
-modified: 20160713230606050
+modified: 20161104134328247
 modifier: guillefix
 title: Equivalence relation
+tmap.id: 3f1272de-d6a2-43b0-a695-5d0d368c4355
+type: text/vnd.tiddlywiki
 
 An ''equivalence relation'' is a binary [[Relation]], $$R$$ on a [[Set]] $$X$$ that satisfies:
 

@@ -1,9 +1,11 @@
 created: 20160118223544883
 creator: guillefix
-modified: 20160602221340641
+modified: 20161104134327519
 modifier: guillefix
 tags: [[Soft Matter Physics]] [[Fluid dynamics]]
 title: Complex fluid dynamics
+tmap.id: 897c1991-25b4-406d-842b-bb914afcd3aa
+type: text/vnd.tiddlywiki
 
 ''Complex fluids'' are fluids with elements (mostly objects suspended in the fluid), whose dynamics couple with the fluid's dynamics, giving a more complex overall behaviour (see [[wiki page|https://en.wikipedia.org/wiki/Complex_fluid]]). Most important types are [[dispersions|Dispersion (Chemistry)]], so that they are composed of two coexisting phases. The main types are:
 

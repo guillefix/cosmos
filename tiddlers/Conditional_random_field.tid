@@ -1,9 +1,10 @@
 created: 20160918162909317
 creator: cosmos
-modified: 20160918212544493
+modified: 20161104134327660
 modifier: cosmos
 tags: [[Random field]]
 title: Conditional random field
+tmap.id: 8fb58a77-ca00-470e-9c18-b82fa3284d55
 type: text/vnd.tiddlywiki
 
 A discriminant [[Markov network]], used for [[Supervised learning]] tasks.

@@ -1,8 +1,10 @@
 created: 20160628151355326
 creator: guillefix
-modified: 20160628152044424
+modified: 20161104134332934
 modifier: guillefix
 title: Tree (combinatorial structure)
+tmap.id: f585e789-9a0f-47a1-bf9b-4c3334993a2a
+type: text/vnd.tiddlywiki
 
 A tree is a [[combinatorial|Combinatorics]] structure recursively defined to be {a node and a sequence of trees}. 
 

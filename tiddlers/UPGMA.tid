@@ -1,8 +1,9 @@
 created: 20161031164851942
 creator: cosmos
-modified: 20161031165049806
+modified: 20161104134333034
 modifier: cosmos
 title: UPGMA
+tmap.id: 39cf5bf1-74e5-4a1e-979e-66f12be5fac3
 type: text/vnd.tiddlywiki
 
 ''Unweighted pair group method with arithmetic mean'' is a hierarchical agglomerative [[Clustering]] method, which means that one starts with the objects in separate clusters, and gradually merges these, depending on the distance between them, to form clusters. A distance cutoff has to be applied that determines when the program should stop forming clusters; i.e. once the distance between clusters is over a certain value, tehn no more merging should occur

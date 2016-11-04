@@ -1,8 +1,9 @@
 created: 20161017204242031
 creator: cosmos
-modified: 20161017205019696
+modified: 20161104134327879
 modifier: cosmos
 title: Deep symbolic reinforcement learning
+tmap.id: 5e1c20a3-b445-4191-920d-5269814625bd
 type: text/vnd.tiddlywiki
 
 Applying [[Symbolic deep learning|Integrating symbols into deep learning]] to [[Deep reinforcement learning]]

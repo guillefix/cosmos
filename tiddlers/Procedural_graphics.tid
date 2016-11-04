@@ -1,9 +1,11 @@
 created: 20160705111710240
 creator: guillefix
-modified: 20160715193753876
+modified: 20161104134331839
 modifier: guillefix
 tags: [[Procedural generation]] [[Computer graphics]]
 title: Procedural graphics
+tmap.id: 5f5cda17-304d-4594-8dfb-0cb35c063433
+type: text/vnd.tiddlywiki
 
 [[Procedural Yarn Models for Cloth Rendering|https://www.youtube.com/watch?v=iTRnr6p7iYo]] [[pdf|http://www.cs.cornell.edu/~kb/publications/SIG16ProceduralYarn.pdf]]
 

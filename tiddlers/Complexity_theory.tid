@@ -1,9 +1,11 @@
 created: 20160308170929919
 creator: guillefix
-modified: 20160707233252392
+modified: 20161104134327504
 modifier: guillefix
 tags: [[Information theory]] Complexity
 title: Complexity theory
+tmap.id: 252ed1db-971f-481f-83de-c85048c32645
+type: text/vnd.tiddlywiki
 
 ''[[Complexity|https://en.wikipedia.org/wiki/Complexity]]'' is generally used to characterize something with many parts where those parts interact with each other in multiple ways. [[Etimologically|http://www.etymonline.com/index.php?term=complex]], complex refers to a system made of ''many intertwined parts'', and that's still the definition we use in science, although a precise measure hasn't been agreed upon. See [[Complexity]].
 

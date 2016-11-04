@@ -1,8 +1,10 @@
 created: 20160629231503844
 creator: guillefix
-modified: 20160721011206799
+modified: 20161104134327549
 modifier: guillefix
 title: Concurrent programming
+tmap.id: 3dae5f73-05fa-47a1-ac8b-4ae10f0ee38c
+type: text/vnd.tiddlywiki
 
 See [[Concurrent computing]], [[Multithreading]]
 

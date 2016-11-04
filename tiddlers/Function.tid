@@ -1,8 +1,10 @@
 created: 20160707163447085
 creator: guillefix
-modified: 20160707163915441
+modified: 20161104134328473
 modifier: guillefix
 title: Function
+tmap.id: 65689285-bb07-48fb-82b1-525586cb94e5
+type: text/vnd.tiddlywiki
 
 A type of [[Relation]] between two [[Set]]s, such that for each element belonging to the set called ''domain'', there is a unique element belonging to the set called ''co-domain''.
 

@@ -1,10 +1,11 @@
 created: 20160126181154374
 creator: guillefix
 list-after: MMathPhys
-modified: 20160913191147463
+modified: 20161104134327512
 modifier: cosmos
 tags: MMathPhys Complexity
 title: Complex systems
+tmap.id: ab2832a5-b2e2-4b4a-af64-dba6b08869ab
 type: text/vnd.tiddlywiki
 
 A complex system is a high-dimensional systems where the variables are strongly interdependent.

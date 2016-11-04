@@ -1,9 +1,10 @@
 created: 20160919220735827
 creator: cosmos
-modified: 20161018190438545
+modified: 20161104134332015
 modifier: cosmos
 tags: [[Information measures]]
 title: Relative entropy
+tmap.id: 4b28e036-d8eb-400e-9bcc-32f9a512593d
 type: text/vnd.tiddlywiki
 
 //aka Kullback–Leibler divergence, KL divergence//

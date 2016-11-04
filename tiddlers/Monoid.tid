@@ -1,8 +1,10 @@
 created: 20160628134549643
 creator: guillefix
-modified: 20160628144408669
+modified: 20161104134329773
 modifier: guillefix
 tags: Semigroup
 title: Monoid
+tmap.id: e2f057c3-faba-4625-b4a8-f9741d5c9aa8
+type: text/vnd.tiddlywiki
 
 In abstract algebra, a branch of mathematics, a monoid is an algebraic structure with a single associative binary operation and an identity element. They are a [[Semigroup]] with identity.

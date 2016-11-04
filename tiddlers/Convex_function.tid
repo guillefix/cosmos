@@ -1,9 +1,10 @@
 created: 20160807224959210
 creator: cosmos
-modified: 20160914162901632
+modified: 20161104134327709
 modifier: cosmos
 tags: [[Convex analysis]]
 title: Convex function
+tmap.id: 250a92df-464d-49e0-9d5b-4dd555976385
 type: text/vnd.tiddlywiki
 
 A [[Function]] is ''convex'' if they satisfy the inequality

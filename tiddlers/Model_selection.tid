@@ -1,8 +1,9 @@
 created: 20160914085745536
 creator: cosmos
-modified: 20160916174026717
+modified: 20161104134329757
 modifier: cosmos
 title: Model selection
+tmap.id: 4c4ef4b0-6e57-4dad-b2a4-cb3ebf8a438a
 type: text/vnd.tiddlywiki
 
 [[Introduction|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=36m40s]], see overfitting and underfitting below. Model selection algorithms provide methods to automatically choose optimal bias/variance tradeoffs. [[Explanation|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=40m10s]]

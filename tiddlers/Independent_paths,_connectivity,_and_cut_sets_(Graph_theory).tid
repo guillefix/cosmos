@@ -1,8 +1,10 @@
 created: 20160125213025454
 creator: guillefix
-modified: 20160125222101129
+modified: 20161104134328987
 modifier: guillefix
 title: Independent paths, connectivity, and cut sets (Graph theory)
+tmap.id: bf72561e-b90f-43f9-98a1-f4cc65dab91d
+type: text/vnd.tiddlywiki
 
 Number of ''//independent paths//'' between two vertices (the ''//connectivity//'') gives measure of how strongly connected they are. Paths can be //vertex-independent// if they share no vertex (other than starting or ending vertices), or //edge-independent// if they share no edge.
 

@@ -1,7 +1,8 @@
 created: 20160807002302942
-modified: 20160808103810534
+modified: 20161104134329051
 tags: [[Mathematical physics]]
 title: Inverse problem
+tmap.id: 2b824132-60b2-4ee5-9408-63d523c67547
 type: text/vnd.tiddlywiki
 
 An inverse problem is the process of calculating from a set of observations the causal factors that produced them: for example, calculating an image in computer tomography, source reconstructing in acoustics, or calculating the density of the Earth from measurements of its gravity field.

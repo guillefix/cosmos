@@ -1,8 +1,10 @@
 created: 20160602221744147
 creator: guillefix
-modified: 20160702165334476
+modified: 20161104134331666
 modifier: guillefix
 title: Phoretic mechanisms of colloids
+tmap.id: a3647711-e0f2-4606-90f4-37fec696b92a
+type: text/vnd.tiddlywiki
 
 A ''phoretic mechanism'' of colloids, is any mechanism/effect that causes [[colloidal particles|Colloid]] to move in a way that is partially deterministic (unlike [[Diffusion]]), due to the gradient of some physical quantity (,,This seems to be the working definition, judging from what I've read,,). These may also called ''transport mechanisms''.
 

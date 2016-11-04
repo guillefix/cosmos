@@ -1,8 +1,9 @@
 created: 20160821073941886
 creator: cosmos
-modified: 20160821074027473
+modified: 20161104134331148
 modifier: cosmos
 title: Normal distribution
+tmap.id: 55f5e7dc-29e0-4b25-b891-a726b6c87fd3
 type: text/vnd.tiddlywiki
 
 A [[Probability distribution]] that has the form of a [[Gaussian]].

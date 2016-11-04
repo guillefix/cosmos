@@ -1,8 +1,9 @@
 created: 20160913113020603
 creator: cosmos
-modified: 20160913113243037
+modified: 20161104134332474
 modifier: cosmos
 title: Softmax
+tmap.id: 25d4c1a4-ce09-4401-953c-9fd6f5ba7078
 type: text/vnd.tiddlywiki
 
 A [[Layers for deep learning]], that consists on exponentiating all vector elements and normalize them to so sum to unity.

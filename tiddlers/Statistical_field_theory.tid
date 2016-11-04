@@ -1,9 +1,11 @@
 created: 20160118133621050
 creator: guillefix
-modified: 20160215203917737
+modified: 20161104134332591
 modifier: guillefix
 tags: [[Statistical physics]]
 title: Statistical field theory
+tmap.id: cae04755-a263-42ec-96b3-919a0f27834f
+type: text/vnd.tiddlywiki
 
 A ''statistical field'' is often derived by averaging microscopic physics over mesoscopic lengthscales (in a particular way called, __coarse graining__). This results in a __free enegy__, $$F$$, which (when exponentiated) gives the weight factor over which we integrate to get the __partition function__, $$Z$$. As the averaging gives a (macroscopic) field (as an approximation to a lattice average), the integral for $$Z$$ is a [[Functional Integral]], expressable as a [[Path Integral]].
 

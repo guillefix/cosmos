@@ -1,8 +1,10 @@
 created: 20160124133339480
 creator: guillefix
-modified: 20160204130619545
+modified: 20161104134327500
 modifier: guillefix
 title: Component (Graph theory)
+tmap.id: b834bc49-cebc-49a6-95ae-9c264974de1f
+type: text/vnd.tiddlywiki
 
 A //component// is a subset of the network for which all pair of vertices have at least one path, and which is maximal (i.e no extra nodes can be added that preserve this property). A connected graph has only one component, while a disconnected one has more than one.
 

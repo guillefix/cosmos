@@ -1,8 +1,9 @@
 created: 20160911100102005
 creator: cosmos
-modified: 20160911100551932
+modified: 20161104134327137
 modifier: cosmos
 title: Boole's inequality
+tmap.id: 88db0e7d-72d2-427a-aa6d-9796337c67b0
 type: text/vnd.tiddlywiki
 
 //aka union bound, sigma sub-additivity of [[Measure]]s //

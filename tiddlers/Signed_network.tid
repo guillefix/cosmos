@@ -1,8 +1,9 @@
 created: 20160916114914111
 creator: cosmos
-modified: 20160916115121599
+modified: 20161104134332372
 modifier: cosmos
 title: Signed network
+tmap.id: a4f9ae15-2c8a-4e56-a1a8-c847683ef228
 type: text/vnd.tiddlywiki
 
 A [[Network]] that has //signed edges//, that is its edges can have an associated weight $$+1$$ (like friendship) or $$=1$$ (like animosity).

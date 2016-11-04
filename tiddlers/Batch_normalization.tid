@@ -1,8 +1,9 @@
 created: 20160921140754564
 creator: cosmos
-modified: 20161018094354506
+modified: 20161104134327104
 modifier: cosmos
 title: Batch normalization
+tmap.id: 517dba65-5b1b-428c-ab5a-480a15e0ded4
 type: text/vnd.tiddlywiki
 
 A method to increase learning rate for [[deep|Deep learning]] [[neural networks|Artificial neural network]], as well as [[regularize|Regularization]] them.

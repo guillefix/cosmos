@@ -1,9 +1,11 @@
 created: 20160623192925823
 creator: guillefix
-modified: 20160721131358846
+modified: 20161104134327065
 modifier: guillefix
 tags: 
 title: Bias in GP maps
+tmap.id: f60688eb-7283-4ee9-8491-d5eeca084379
+type: text/vnd.tiddlywiki
 
 The effect found in many [[Genotype-phenotype map]]s by which some phenotypes have many more corresponding genotypes, than other phenotypes. This effect is important in [[Evolution]]
 

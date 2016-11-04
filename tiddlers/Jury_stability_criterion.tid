@@ -1,8 +1,10 @@
 created: 20160518164643903
 creator: guillefix
-modified: 20160518165309801
+modified: 20161104134329164
 modifier: guillefix
 title: Jury stability criterion
+tmap.id: bbd0668b-7452-4fc3-b16e-1115a88987b9
+type: text/vnd.tiddlywiki
 
 One can use the [[Jury test|https://en.wikipedia.org/wiki/Jury_stability_criterion]] to find if the roots of a polynomial are inside the unit circle, which is useful for stability analysis of [[Nonlinear maps]]. This test turns out to be [[useful in stability analysis of discrete time systems|http://nptel.ac.in/courses/108103008/PDF/module3/m3_lec1.pdf]] in [[control theory|Control theory and control systems]].
 

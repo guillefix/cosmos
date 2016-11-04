@@ -1,8 +1,10 @@
 created: 20160601235718481
 creator: guillefix
-modified: 20160602002951947
+modified: 20161104134332396
 modifier: guillefix
 title: Simple contagion
+tmap.id: 87d85ab2-4169-44ea-8db1-100f2f5d25f2
+type: text/vnd.tiddlywiki
 
 A ''simple contagion'', is a property that spreads between individuals in such a way that an individual can get infected by simple exposure to another infected individual (possibly with a certain probability or rate). These are mostly compartmental models, and their extensions are used to model mostly biological contagions (like infectious diseases), as well as some IT contagions (like computer viruses). Often the model lives on a [[network|Network science]] that determines which individuals (nodes) interact (edges).
 

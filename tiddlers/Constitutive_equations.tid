@@ -1,8 +1,10 @@
 created: 20160501175235282
 creator: guillefix
-modified: 20160501184220634
+modified: 20161104134327645
 modifier: guillefix
 title: Constitutive equations
+tmap.id: eb666727-a4ad-4316-806b-cdb648288e6f
+type: text/vnd.tiddlywiki
 
 ([[wiki|https://en.wikipedia.org/wiki/Constitutive_equation]])
 In physics and engineering, a ''constitutive equation'' or ''constitutive relation'' is a relation between two physical quantities (especially kinetic quantities as related to kinematic quantities) that is specific to a material or substance, and approximates the response of that material to external stimuli, usually as applied fields or forces.

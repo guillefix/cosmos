@@ -1,8 +1,10 @@
 created: 20160629231824002
 creator: guillefix
-modified: 20160713003638866
+modified: 20161104134327194
 modifier: guillefix
 title: Call stack
+tmap.id: 589afbd1-9e75-4735-ab50-8ecc0ce14ef8
+type: text/vnd.tiddlywiki
 
 The portion of [[allocated memory|Memory allocation]] of a process, where local variables from functions that are being executed are stored.
 

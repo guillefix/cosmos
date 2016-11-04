@@ -1,8 +1,10 @@
 created: 20160210180812776
 creator: guillefix
-modified: 20160210214137232
+modified: 20161104134329189
 modifier: guillefix
 title: Kinetics of liquid-liquid unmixing
+tmap.id: 44e2fce2-aa76-4b80-93f5-da6212f8cc00
+type: text/vnd.tiddlywiki
 
 The mechanism by which phase separation occurs, depends on whether the concentration proportions fall within the spinodal, or outside it, i.e. whether they are the stable or metastable (see [[Thermodynamics of liquid-liquid unmixing]]).
 

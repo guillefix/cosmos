@@ -1,8 +1,9 @@
 created: 20160915231026082
 creator: cosmos
-modified: 20160915232942853
+modified: 20161104134331794
 modifier: cosmos
 title: Polymer network
+tmap.id: be92ca8e-d364-41ff-be8c-97981cf7a867
 type: text/vnd.tiddlywiki
 
 An architecture of a [[Polymer]] material, where the polymer molecules are cross-linked in a [[Network]].

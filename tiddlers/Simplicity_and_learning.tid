@@ -1,9 +1,10 @@
 created: 20160913070651215
 creator: cosmos
-modified: 20161009203236182
+modified: 20161104134332393
 modifier: cosmos
 tags: Simplicity Learning
 title: Simplicity and learning
+tmap.id: b40144fd-dc54-449a-b6b5-a13c27b3354f
 type: text/vnd.tiddlywiki
 
 See [[Learning theory]], [[Order]] and [[Simplicity bias]]. The simplicity and structure in signals in the real-world is often seized to make the learning problem easier to solve.

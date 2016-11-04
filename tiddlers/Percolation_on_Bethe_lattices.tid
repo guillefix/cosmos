@@ -1,8 +1,10 @@
 created: 20160611163453241
 creator: guillefix
-modified: 20160611163943674
+modified: 20161104134331570
 modifier: guillefix
 title: Percolation on Bethe lattices
+tmap.id: f6d6505b-32d2-4696-8c9e-b47fdbc3f6cd
+type: text/vnd.tiddlywiki
 
 The Bethe lattice is defined as a graph of infinite points each connected to z neighbors (the coordination number) such that no closed loops exist in the geometry
 

@@ -1,9 +1,11 @@
 created: 20160707175226026
 creator: guillefix
-modified: 20160714132444048
+modified: 20161104134329590
 modifier: guillefix
 tags: [[Measure theory]]
 title: Measure space
+tmap.id: d0e0c7ae-67d6-4f47-a252-4e95eb92b3c6
+type: text/vnd.tiddlywiki
 
 A [[Measurable space]] with a [[Measure]].
 

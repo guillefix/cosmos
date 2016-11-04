@@ -1,8 +1,10 @@
 created: 20160626150934645
 creator: guillefix
-modified: 20160627203448032
+modified: 20161104134327275
 modifier: guillefix
 title: Catalan numbers
+tmap.id: d6389ad7-baf6-4665-be3e-54fcbb5fa2d8
+type: text/vnd.tiddlywiki
 
 A sequence of numbers that arises in [[Combinatorics]], often of objects defined recursively, like trees. See also [[Analytic combinatorics]]
 

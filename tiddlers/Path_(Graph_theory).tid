@@ -1,8 +1,10 @@
 created: 20160123142602747
 creator: guillefix
-modified: 20160124132823974
+modified: 20161104134331446
 modifier: guillefix
 title: Path (Graph theory)
+tmap.id: aef4cc27-56ae-46c9-b25f-5d56a5cfe401
+type: text/vnd.tiddlywiki
 
 A ''path'' (sometimes called a 'walk')in a network is a sequence of of nodes such that every pair of nodes in the sequence is connected by an edge in the network. For directed networks an edge must be traversed in direction of edge; in undirected, in either direction.
 

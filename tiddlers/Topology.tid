@@ -1,9 +1,11 @@
 created: 20160122225300021
 creator: guillefix
 list-after: Geometry
-modified: 20160329142826265
+modified: 20161104134332882
 modifier: guillefix
 tags: Mathematics Geometry
 title: Topology
+tmap.id: eb505a8f-6cbc-4670-ba70-0a522ff25b67
+type: text/vnd.tiddlywiki
 
 //Things often have a shape// (continued from [[Geometry]]). Topology looks at the "raw" shape, the shape that is invariant under continuous transformations. The standard notion of "shape" is really [[Geometry]] (which includes topology)

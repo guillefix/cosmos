@@ -1,9 +1,10 @@
 created: 20161022125334432
 creator: cosmos
-modified: 20161023182924301
+modified: 20161104134328835
 modifier: cosmos
 tags: [[Energy-based model]] [[Boolean network]]
 title: Hopfield network
+tmap.id: 41c3cfc7-c6eb-4595-afdc-0ccc2abeb1fa
 type: text/vnd.tiddlywiki
 
 A type of [[Artificial neural network]] that has thresholded binary units. It was a very simplified early model of [[Neural dynamics]]

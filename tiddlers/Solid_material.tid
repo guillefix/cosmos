@@ -1,8 +1,10 @@
 created: 20160701211819535
 creator: guillefix
-modified: 20160701211955252
+modified: 20161104134332487
 modifier: guillefix
 tags: 
 title: Solid material
+tmap.id: c237d370-1c61-4b21-a2dd-d13820d662e8
+type: text/vnd.tiddlywiki
 
 A solid material is a [[Material]] that is [[Solid]] at [[Room temperature]].

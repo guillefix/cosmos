@@ -1,9 +1,10 @@
 created: 20160329140604439
 creator: guillefix
-modified: 20160824091444036
+modified: 20161104134328432
 modifier: cosmos
 tags: [[Formal system]]
 title: Formal language
+tmap.id: 7f680107-1b50-4300-b44a-4f1583920533
 type: text/vnd.tiddlywiki
 
 A [[formal language|https://en.wikipedia.org/wiki/Formal_language]] //is a set of strings of symbols// that may be constrained by rules that are specific to it.

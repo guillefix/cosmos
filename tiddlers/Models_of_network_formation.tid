@@ -1,8 +1,10 @@
 created: 20160203122534523
 creator: guillefix
-modified: 20160317220426768
+modified: 20161104134329750
 modifier: guillefix
 title: Models of network formation
+tmap.id: 1ff43071-5b45-4bf8-9041-8ae20b2d1bcf
+type: text/vnd.tiddlywiki
 
 Models that describe the processes by which a network //forms// or is //generated// are often called ''generative network models''. One of the most famous ones is the "preferential attachment" model.
 

@@ -1,9 +1,10 @@
 created: 20160623233746308
 creator: guillefix
-modified: 20161022224314671
+modified: 20161104134328764
 modifier: cosmos
 tags: [[Human learning]]
 title: Hebbian theory
+tmap.id: 90f180c1-134e-43af-805e-6802483380bc
 type: text/vnd.tiddlywiki
 
 //"Cells that fire together, wire together."// ,,However, this summary should not be taken literally. Hebb emphasized that cell A needs to "take part in firing" cell B, and such causality can only occur if cell A fires just before, not at the same time as, cell B.,,

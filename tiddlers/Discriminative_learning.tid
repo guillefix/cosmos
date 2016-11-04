@@ -1,9 +1,10 @@
 created: 20160821081633620
 creator: cosmos
-modified: 20161018182359618
+modified: 20161104134327897
 modifier: cosmos
 tags: [[Supervised learning]]
 title: Discriminative learning
+tmap.id: 375219d5-2325-4964-b4ae-8ed295d22c8a
 type: text/vnd.tiddlywiki
 
 A type of [[Supervised learning]] where one learns the function $$p(\text{output}|\text{input})$$. See [[notes|http://cs229.stanford.edu/notes/cs229-notes1.pdf]]

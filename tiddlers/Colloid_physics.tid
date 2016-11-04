@@ -1,8 +1,10 @@
 created: 20160602220704056
 creator: guillefix
-modified: 20160609154445769
+modified: 20161104134327450
 modifier: guillefix
 title: Colloid physics
+tmap.id: 2c94041c-1b61-4e7f-8431-0440cd2245da
+type: text/vnd.tiddlywiki
 
 Branch of [[Physics]] dealing with physical properties of [[colloidal systems|Colloid]] (i.e. motion, forces, etc. at the scale of the colloidal system).
 

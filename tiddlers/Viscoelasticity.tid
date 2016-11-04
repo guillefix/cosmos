@@ -1,8 +1,10 @@
 created: 20160511120931250
 creator: guillefix
-modified: 20160511121025724
+modified: 20161104134333077
 modifier: guillefix
 title: Viscoelasticity
+tmap.id: c5a800b2-a7ae-48a8-b3c6-f6ced31d8d62
+type: text/vnd.tiddlywiki
 
 ''viscoelasticity'' is the property of a material that displays both viscosity, and elasticity. Such materials are called viscoelastic.
 

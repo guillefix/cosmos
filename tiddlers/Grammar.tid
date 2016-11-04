@@ -1,8 +1,9 @@
 created: 20160820115151188
 creator: cosmos
-modified: 20160820121627254
+modified: 20161104134328665
 modifier: cosmos
 title: Grammar
+tmap.id: 3cd942ac-ab1e-4983-b89b-180f213b7e69
 type: text/vnd.tiddlywiki
 
 A set of rules that defines a language. See [[Formal grammar]]

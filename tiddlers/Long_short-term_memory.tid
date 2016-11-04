@@ -1,8 +1,9 @@
 created: 20160709022008083
 creator: guillefix
-modified: 20161005181329378
+modified: 20161104134329444
 modifier: cosmos
 title: Long short-term memory
+tmap.id: 5911db88-7c5d-45d7-8e5c-57fc1d9eea55
 type: text/vnd.tiddlywiki
 
 A kind of [[Recurrent neural network]], [[Neural networks with memory]]

@@ -1,9 +1,10 @@
 created: 20160628135059543
 creator: guillefix
-modified: 20160808105515218
+modified: 20161104134332337
 modifier: guillefix
 tags: [[Data science]] [[Mathematical methods]]
 title: Sensitivity analysis
+tmap.id: aca26303-b844-4593-b78b-6664de95bd4f
 type: text/vnd.tiddlywiki
 
 [[Sensitivity analysis|https://en.wikipedia.org/wiki/Sensitivity_analysis]] is the study of how the uncertainty in the output of a mathematical model or system (numerical or otherwise) can be apportioned to different sources of uncertainty in its inputs.

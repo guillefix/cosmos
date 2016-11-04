@@ -1,9 +1,10 @@
 created: 20160821094547699
 creator: cosmos
-modified: 20161031173818003
+modified: 20161104134329846
 modifier: cosmos
 tags: [[Generative supervised learning]]
 title: Naive Bayes
+tmap.id: ea5b9830-3fb3-4302-a42e-4a853d007f3a
 type: text/vnd.tiddlywiki
 
 A [[Generative supervised learning]] algorithm used when the input space is $$\{0,1\}^n$$, so an input point consists of $$x_i \in \{0,1\}$$, $$i=1,2,...,n$$.

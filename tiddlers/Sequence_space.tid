@@ -1,9 +1,11 @@
 created: 20160714013743791
 creator: guillefix
-modified: 20160715015615293
+modified: 20161104134332361
 modifier: guillefix
 tags: [[Information theory]]
 title: Sequence space
+tmap.id: 9562576a-a909-4fbe-b353-e21cdf67bee2
+type: text/vnd.tiddlywiki
 
 A sequence space refers to the [[Set]] of all [[sequences of symbols|String (Computer science)]], of a given length, where the symbols belong to an alphabet (another [[Set]]), which may be endowed with some more structure.
 

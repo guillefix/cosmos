@@ -1,8 +1,10 @@
 created: 20160620153448209
 creator: guillefix
-modified: 20160620153453160
+modified: 20161104134329532
 modifier: guillefix
 title: Mathematical markup language
+tmap.id: 4226a646-8ce4-4b85-b989-8594d581effb
+type: text/vnd.tiddlywiki
 
 [[LaTeX to OpenMath|http://www.maths.tcd.ie/~richardt/openmath/ml2om.pdf]]
 

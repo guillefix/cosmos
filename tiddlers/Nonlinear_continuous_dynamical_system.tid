@@ -1,8 +1,10 @@
 created: 20160216111411696
 creator: guillefix
-modified: 20160708153009226
+modified: 20161104134331067
 modifier: guillefix
 title: Nonlinear continuous dynamical system
+tmap.id: 962b0571-2656-4fe4-8183-cfe682ea0231
+type: text/vnd.tiddlywiki
 
 ''Continuous dynamical systems'' are systems of 1st order O.D.Es. Linear dynamical systems (O.D.E.s linear) are easy to analyze, and can be analyzed by looking at the eigenvalues of the Jacobian.
 

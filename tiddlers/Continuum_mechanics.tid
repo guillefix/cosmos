@@ -1,8 +1,10 @@
 created: 20160511112508033
 creator: guillefix
-modified: 20160511121833361
+modified: 20161104134327618
 modifier: guillefix
 title: Continuum mechanics
+tmap.id: 6dede631-39c3-4fb7-b7f1-d6fbdfe57c45
+type: text/vnd.tiddlywiki
 
 The [[Mechanics]] of most classical types of [[Bulk matter]] can be macroscopically described via [[continuum mechanics|https://en.wikipedia.org/wiki/Continuum_mechanics]], which __describes matter in terms of //continuum equations//__, based on space-time varying //fields// that evolve according to [[Differential equations]].
 

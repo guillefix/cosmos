@@ -1,8 +1,10 @@
 created: 20160123011525900
 creator: guillefix
-modified: 20160123012443067
+modified: 20161104134327643
 modifier: guillefix
 tags: [[Path integral]]
 title: Constrained path integrals
+tmap.id: 3b05c4db-6fe5-4d00-a7c8-3780375c1ff6
+type: text/vnd.tiddlywiki
 
 See [[here|http://www.phys.vt.edu/~ersharpe/6455/ch1.pdf]] (page 11) and in [[Notes on Nonequilibrium StatPhys MT2015 Oxford (mostly stochastic processes)|https://files.acrobat.com/a/preview/254ad767-71f3-429e-b36b-3d77cf67a6c7]] (page 42). Generalization of Lagrangian multipliers in finite optimization problems.

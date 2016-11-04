@@ -1,8 +1,10 @@
 created: 20160610233411376
 creator: guillefix
-modified: 20160616181627506
+modified: 20161104134327779
 modifier: guillefix
 title: Critical phenomena in percolation
+tmap.id: 9bcb1127-4619-4148-8f74-c4c77d89e52d
+type: text/vnd.tiddlywiki
 
 [[Critical phenomena]] in [[Percolation]] occurs at the critical value of the occupation probability corresponding to the [[Percolation phase transition]], which separates the percolating and the non-percolating phases.
 

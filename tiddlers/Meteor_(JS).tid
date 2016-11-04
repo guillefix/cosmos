@@ -1,8 +1,10 @@
 created: 20160620155259428
 creator: guillefix
-modified: 20160629230606619
+modified: 20161104134329646
 modifier: guillefix
 title: Meteor (JS)
+tmap.id: 2206224c-cc31-45c9-9859-2b527e39bb8a
+type: text/vnd.tiddlywiki
 
 A powerful [[JavaScript]] framework for both [[Frontend web development]] and [[Backend web development]]
 

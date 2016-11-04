@@ -1,9 +1,10 @@
 created: 20161018180930085
 creator: cosmos
-modified: 20161018184421974
+modified: 20161104134328614
 modifier: cosmos
 tags: [[Probabilistic model]] [[Unsupervised learning]]
 title: Generative model
+tmap.id: a9a7c8fb-30e9-4408-a358-a42ffffb6276
 type: text/vnd.tiddlywiki
 
 A class of [[Unsupervised learning]], where given a data set of $$x$$s, the task is to build a [[Probabilistic model]] $$P(x)$$, for the training data. This model is then able to //generate// new data by sampling new $$x$$s from $$P$$

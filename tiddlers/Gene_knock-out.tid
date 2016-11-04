@@ -1,8 +1,9 @@
 created: 20161018132751036
 creator: cosmos
-modified: 20161018132858470
+modified: 20161104134328566
 modifier: cosmos
 title: Gene knock-out
+tmap.id: 6ef622b3-49ab-4511-9efd-024062e4c623
 type: text/vnd.tiddlywiki
 
 Organism where a certain [[Gene]] is removed. Used in [[Biochemical genetics]] studies.

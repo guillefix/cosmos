@@ -1,8 +1,10 @@
 created: 20160714013401154
 creator: guillefix
-modified: 20160714013523027
+modified: 20161104134327627
 modifier: guillefix
 title: Continuous function
+tmap.id: fbb470b2-2da6-4bf7-88d1-eb65ae3849be
+type: text/vnd.tiddlywiki
 
 A [[Function]] between two [[Topological spaces]] $$f: (X, \tau) \rightarrow (Y, \tau')$$ is ''continuous'' if, for all $$O \in \tau'$$, $$f^{-1} (O) \in \tau$$.
 

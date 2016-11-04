@@ -1,7 +1,9 @@
 created: 20160707175907489
 creator: guillefix
-modified: 20160707175913046
+modified: 20161104134332897
 modifier: guillefix
 title: Topological dynamical system
+tmap.id: 7de085cb-a57c-4191-98f8-0c3d1e5f6ade
+type: text/vnd.tiddlywiki
 
 A ''Topological dynamical system'' consists of a [[Topological space]] (e.g., a [[Metric space]]) $$M$$, and a continuous map $$f:M \rightarrow M$$.

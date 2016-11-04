@@ -1,9 +1,10 @@
 created: 20161009182130865
 creator: cosmos
-modified: 20161009182202478
+modified: 20161104134328096
 modifier: cosmos
 tags: Electrochemistry
 title: Electrochemical cell
+tmap.id: 4089a6ea-e3de-414a-98ef-03455f98856f
 type: text/vnd.tiddlywiki
 
 A simple electrochemical cell can be produced by dipping two different metals into an electrolyte and connecting them via wires and a voltmeter, bulb, motor, etc. The bigger the difference in [[reactivity|Reactivity series]] between the two metals, the bigger the voltage produced.

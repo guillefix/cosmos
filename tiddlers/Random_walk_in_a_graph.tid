@@ -1,8 +1,10 @@
 created: 20160127134626130
 creator: guillefix
-modified: 20160210230137714
+modified: 20161104134331931
 modifier: guillefix
 title: Random walk in a graph
+tmap.id: 7917840d-4bda-4cc4-9b38-0557c9c30cd0
+type: text/vnd.tiddlywiki
 
 A ''random walk'' is a path across a network created by taking repeated random steps. They are usually allowed to traverse edges more than once, and visit vertices more than once. If note it is a //self-avoiding random walk//.
 

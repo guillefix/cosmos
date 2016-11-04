@@ -1,8 +1,9 @@
 created: 20160807223324400
 creator: cosmos
-modified: 20161026161849629
+modified: 20161104134329369
 modifier: cosmos
 title: Linear programming
+tmap.id: 83326957-eb77-492d-a2b5-8b20bfcfb793
 type: text/vnd.tiddlywiki
 
 A ''linear program'' is a type of [[Optimization]] problem where the objective and constraint functions are [[linear|Linearity]]. 

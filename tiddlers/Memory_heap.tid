@@ -1,7 +1,9 @@
 created: 20160629232903680
 creator: guillefix
-modified: 20160629234624085
+modified: 20161104134329610
 modifier: guillefix
 title: Memory heap
+tmap.id: 47c9cf75-db5e-4734-b300-f5e975394857
+type: text/vnd.tiddlywiki
 
 See [[Memory allocation]], [[Heap (data structure)]]

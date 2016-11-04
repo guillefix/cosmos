@@ -1,8 +1,9 @@
 created: 20160701014250506
 creator: guillefix
-modified: 20160810080720209
+modified: 20161104134328417
 modifier: cosmos
 title: Finite-state transducer
+tmap.id: ad91d398-53ad-4598-8810-63034d21cfd1
 type: text/vnd.tiddlywiki
 
 A [[Finite-state machine]] with outputs.

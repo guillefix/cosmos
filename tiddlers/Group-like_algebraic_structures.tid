@@ -1,8 +1,10 @@
 created: 20160628144039321
 creator: guillefix
-modified: 20160628144414439
+modified: 20161104134328698
 modifier: guillefix
 tags: [[Algebraic structure]]
 title: Group-like algebraic structures
+tmap.id: 8c36c00e-768b-4f2d-8bf4-7037177d3d54
+type: text/vnd.tiddlywiki
 
 [[Semigroup]] -> [[Monoid]] -> [[Group (algebraic structure)]]

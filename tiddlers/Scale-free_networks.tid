@@ -1,8 +1,10 @@
 created: 20160127232535412
 creator: guillefix
-modified: 20160508202151167
+modified: 20161104134332096
 modifier: guillefix
 title: Scale-free networks
+tmap.id: dfeae544-dd27-4242-a889-08622495b866
+type: text/vnd.tiddlywiki
 
 Networks with [[power-law|Power laws]] degree distributions are sometimes called ''scale-free networks''. A //power law// degree distribution has the form:
 

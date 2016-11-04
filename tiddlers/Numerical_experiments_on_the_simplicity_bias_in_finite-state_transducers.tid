@@ -1,8 +1,10 @@
 created: 20160629161247838
 creator: guillefix
-modified: 20160711225919682
+modified: 20161104134331170
 modifier: guillefix
 title: Numerical experiments on the simplicity bias in finite-state transducers
+tmap.id: b604efd5-454b-441e-bc6b-cd5b00dc64dc
+type: text/vnd.tiddlywiki
 
 [img[http://i.imgur.com/RX7iOuq.png]]
 Note this is calculated with zlib complexity..

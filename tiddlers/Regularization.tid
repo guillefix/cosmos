@@ -1,9 +1,10 @@
 created: 20160916173127900
 creator: cosmos
-modified: 20161031111134563
+modified: 20161104134331991
 modifier: cosmos
 tags: [[Machine learning]]
 title: Regularization
+tmap.id: ef001054-6462-4281-87bc-86e4553cbd8a
 type: text/vnd.tiddlywiki
 
 Penalising weights "encourages fitting signal rather than just noise"

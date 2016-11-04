@@ -1,8 +1,10 @@
 created: 20160121121759048
 creator: guillefix
-modified: 20160523232151755
+modified: 20161104134328445
 modifier: guillefix
 title: Fokker-Planck equation
+tmap.id: b133c236-c49c-4a0b-9f52-157b32d47fda
+type: text/vnd.tiddlywiki
 
 [[Deriving FP eq from Langevin equation|http://www.youtube.com/watch?v=m5RuNNvJdjM&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l&index=6#t=1h13m45s]]. Fokker-Planck equation works for Markov processes in space, so it is derived from the [[Langevin equation]] that ignores inertia.
 

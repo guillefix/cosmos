@@ -1,9 +1,10 @@
 created: 20161022125500529
 creator: cosmos
-modified: 20161023110006088
+modified: 20161104134328209
 modifier: cosmos
 tags: [[Machine learning]] [[Probabilistic model]]
 title: Energy-based model
+tmap.id: c9078cd1-70fc-4b0a-9554-1b95aa0cdfe6
 type: text/vnd.tiddlywiki
 
 [[Probabilistic model]]s whose properties are defined via a global [[Free energy]] (that often is actually a [[Lyapunov function]]), that is minimized via the model's dynamics, which can be its intrinsic dynamics, or some training procedure imposed on the model.

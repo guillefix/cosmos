@@ -1,9 +1,10 @@
 created: 20160918182627887
 creator: cosmos
-modified: 20160918191348292
+modified: 20161104134329500
 modifier: cosmos
 tags: 
 title: Markov property
+tmap.id: d4e3fe7e-0b29-44ee-b044-9f1c107b1250
 type: text/vnd.tiddlywiki
 
 A ''Markov property'' refers to any of a certain class of independence properties of [[Random variable]]s defined on the nodes of a [[Network]].

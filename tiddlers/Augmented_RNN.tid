@@ -1,9 +1,10 @@
 created: 20161103144740058
 creator: cosmos
-modified: 20161104101113695
+modified: 20161104134327014
 modifier: cosmos
 tags: [[Recurrent neural network]]
 title: Augmented RNN
+tmap.id: 5b97e122-0a5e-43d3-a157-71d87caa8a44
 type: text/vnd.tiddlywiki
 
 [[Nice review|http://distill.pub/2016/augmented-rnns/]]

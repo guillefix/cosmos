@@ -1,8 +1,10 @@
 created: 20160714124823485
 creator: guillefix
-modified: 20160714125325722
+modified: 20161104134332635
 modifier: guillefix
 title: String (Computer science)
+tmap.id: 8a37e629-4c99-4317-a2fd-af5e7497a9f8
+type: text/vnd.tiddlywiki
 
 A ''string'', in [[Computer science]], [[Information theory]], and [[Mathematics]], is a [[Sequence]] of symbols, where each symbol is a member of a given set, called the alphabet. Strings often refer to finite sequences. See [[here|https://www.youtube.com/watch?v=ZjWHh1mAUsQ]].
 

@@ -1,9 +1,10 @@
 created: 20160914102737170
 creator: cosmos
-modified: 20160914103040183
+modified: 20161104134329556
 modifier: cosmos
 tags: [[Learning theory]]
 title: Maximum a-posteriori
+tmap.id: da260e50-f46b-4020-9e41-0c8f5f847b6b
 type: text/vnd.tiddlywiki
 
 A learning principle that can be viewed as approximating the expected value of the output from a model, using [[Bayesian statistics]], by only considering the hypothesis with maximum a-posteriori probability (the most likely).

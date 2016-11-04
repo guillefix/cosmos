@@ -1,9 +1,9 @@
 created: 20160920164034926
 creator: cosmos
-modified: 20160920164048856
+modified: 20161104134328622
 modifier: cosmos
 title: Gibbs free energy
+tmap.id: 12de5aa4-89bb-48ad-98a3-92f66feab5c6
 type: text/vnd.tiddlywiki
-
 
 $$G = H - T S$$

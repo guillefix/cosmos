@@ -1,9 +1,10 @@
 created: 20161026135311894
 creator: cosmos
-modified: 20161026135414285
+modified: 20161104134329518
 modifier: cosmos
 tags: [[Probability distribution]]
 title: Marginal probability
+tmap.id: 6818b3e6-ad2c-4052-8971-0e40781f6a67
 type: text/vnd.tiddlywiki
 
 [[Joint probability distribution]] where we Integrate out one variable.

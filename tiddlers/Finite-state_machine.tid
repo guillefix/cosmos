@@ -1,8 +1,9 @@
 created: 20160422235435453
 creator: guillefix
-modified: 20161021164707905
+modified: 20161104134328420
 modifier: cosmos
 title: Finite-state machine
+tmap.id: 849154af-49a3-48a7-bdd5-6e166d13f800
 type: text/vnd.tiddlywiki
 
 See [[Automata theory]]

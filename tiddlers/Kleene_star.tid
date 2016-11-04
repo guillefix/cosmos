@@ -1,8 +1,10 @@
 created: 20160704211542531
 creator: guillefix
-modified: 20160704211722752
+modified: 20161104134329225
 modifier: guillefix
 title: Kleene star
+tmap.id: 20944823-0b50-4150-b237-cbc1e884e825
+type: text/vnd.tiddlywiki
 
 A [[Kleene star|https://en.wikipedia.org/wiki/Kleene_star]], in [[Mathematical logic]] and [[Computer science]], (or Kleene operator or Kleene closure) is a unary operation, either on sets of strings or on sets of symbols or characters.
 

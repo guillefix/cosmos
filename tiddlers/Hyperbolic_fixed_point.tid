@@ -1,7 +1,9 @@
 created: 20160603170729249
 creator: guillefix
-modified: 20160603171028906
+modified: 20161104134328947
 modifier: guillefix
 title: Hyperbolic fixed point
+tmap.id: eafdeb8c-3beb-4596-a06e-808df3a4c15f
+type: text/vnd.tiddlywiki
 
 A fixed point is called hyperbolic if none of the eigenvalues of the Jacobian evaluated at the point have zero real part.

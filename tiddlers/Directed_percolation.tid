@@ -1,8 +1,10 @@
 created: 20160615220908985
 creator: guillefix
-modified: 20160616182342666
+modified: 20161104134327912
 modifier: guillefix
 title: Directed percolation
+tmap.id: e462bd71-9cf2-4a5b-9a31-dd2696a64bb8
+type: text/vnd.tiddlywiki
 
 [[Percolation]] on a directed [[Network|Network science]]. Most of the time, it refers to percolation on a directed lattice where the direction of the edges is constrained to certain directions in the space. This is applied for instance to water percolating down a porous medium, where in this case gravity imposes a preferred direction.
 

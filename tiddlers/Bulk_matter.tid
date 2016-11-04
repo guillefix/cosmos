@@ -1,9 +1,11 @@
 created: 20160501224802348
 creator: guillefix
-modified: 20160603004106312
+modified: 20161104134327214
 modifier: guillefix
 tags: Mechanics
 title: Bulk matter
+tmap.id: 25188ba5-a3c9-4f31-ad45-fb6ce7c6a157
+type: text/vnd.tiddlywiki
 
 ''Bulk matter'' refers to a piece of [[matter|https://en.wikipedia.org/wiki/Matter#Based_on_quarks_and_leptons]] composed of sufficiently many building blocks (elementary particles, atoms, molecules, ...) in such a way that __a simple [[statistical|Statistical physics]] description is appropriate__, an bulk properties like temperature, [[Viscosity and elasticity]], etc can be defined. These are also called //material properties// or //macroscopic properties//.
 

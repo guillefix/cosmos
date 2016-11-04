@@ -1,8 +1,10 @@
 created: 20160508120306590
 creator: guillefix
-modified: 20160615221833060
+modified: 20161104134331579
 modifier: guillefix
 title: Percolation
+tmap.id: 1219e898-f5b1-435e-a33d-16b5c462c4fe
+type: text/vnd.tiddlywiki
 
 Generally, ''percolation'' refers to qualitative changes in connectivity in systems (specially large ones) as its components are added or removed. In particular, percolation most often refers to the case where a system goes from being "mostly disconnected" to "mostly connected", in some sense. A more general mathematical model inspired by percolation and the [[Potts model]] is the [[Random-cluster model]].
 

@@ -1,9 +1,10 @@
 created: 20160911092848691
 creator: cosmos
-modified: 20160916173125143
+modified: 20161104134328135
 modifier: cosmos
 tags: [[Learning theory]]
 title: Empirical risk minimization
+tmap.id: 74811cf4-cf88-45c7-bd5e-806ca14ac1d4
 type: text/vnd.tiddlywiki
 
 Risk minimization (see [[Learning theory]]), requires knowing the joint probability distribution $$P(x,y)$$, so one often uses the sample mean of the risk as an estimator for the expected value of the risk. Minimizing this empirical quantity is called empirical risk minimization (ERM).

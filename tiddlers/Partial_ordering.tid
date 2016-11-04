@@ -1,8 +1,10 @@
 created: 20160713224720642
 creator: guillefix
-modified: 20160713232907689
+modified: 20161104134331471
 modifier: guillefix
 title: Partial ordering
+tmap.id: 09df2e65-29c7-482b-ac83-0888cb94bc73
+type: text/vnd.tiddlywiki
 
 A ''partial ordering'' on a [[Set]] $$X$$ is a (binary) [[Relation]] on $$X$$, $$\preceq$$ that is:
 

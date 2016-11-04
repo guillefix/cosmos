@@ -1,8 +1,10 @@
 created: 20160629235007420
 creator: guillefix
-modified: 20160630000103597
+modified: 20161104134329796
 modifier: guillefix
 title: Multithreading
+tmap.id: 8fec5a54-f1b9-4d78-8c81-2dfa1a43609f
+type: text/vnd.tiddlywiki
 
 See [[Concurrent computing]]
 

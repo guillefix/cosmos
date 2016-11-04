@@ -1,8 +1,10 @@
 created: 20160119153735707
 creator: guillefix
-modified: 20160119155649563
+modified: 20161104134326711
 modifier: guillefix
 title: Acyclic networks
+tmap.id: d9fde04c-ffd3-45bf-9ced-c2f6550196f7
+type: text/vnd.tiddlywiki
 
 They can always be drawn with the vertices arranged so that all edges point downward as in Fig 1. Also all cycles that can be arranged like this are acyclic.
 

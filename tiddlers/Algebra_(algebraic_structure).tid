@@ -1,9 +1,11 @@
 created: 20160714133415515
 creator: guillefix
-modified: 20160714133845386
+modified: 20161104134326846
 modifier: guillefix
 tags: [[Algebra-like algebraic structures]]
 title: Algebra (algebraic structure)
+tmap.id: 8cef6c0f-dc1a-41b4-9b2d-eb0d922cf028
+type: text/vnd.tiddlywiki
 
 An ''algebra'' is a family $$R$$ of subsets of a set $$X$$ s.t.:
 

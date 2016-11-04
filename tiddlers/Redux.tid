@@ -1,8 +1,9 @@
 created: 20160811151101235
 creator: cosmos
-modified: 20160811151417766
+modified: 20161104134331971
 modifier: cosmos
 title: Redux
+tmap.id: cda49e1c-4a2b-4664-9cc4-38809f8000b7
 type: text/vnd.tiddlywiki
 
 A very good [[ReactJS]] library for a functional way of handling application state

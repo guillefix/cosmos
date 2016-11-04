@@ -1,8 +1,9 @@
 created: 20160821172543329
 creator: cosmos
-modified: 20160821172947913
+modified: 20161104134328291
 modifier: cosmos
 title: Explainable artificial intelligence
+tmap.id: 2a5e1cc6-9f3c-4dcc-afed-c888fd6fed20
 type: text/vnd.tiddlywiki
 
 ''Explainable AI''  (XAI) refers to [[Artificial intelligence]] systems that are able to communicate their internal models and functioning to humans.

@@ -1,9 +1,10 @@
 created: 20161102172639842
 creator: cosmos
-modified: 20161102174535323
+modified: 20161104134329377
 modifier: cosmos
 tags: [[Generative supervised learning]]
 title: Linear discriminant analysis
+tmap.id: 577c6342-b6d2-4f87-aeb0-b3fac9c141c5
 type: text/vnd.tiddlywiki
 
 [[Gaussian discriminant analysis]] where the covariant matrices are the same for all classes, but the means are different. Reduces the number of parameters, which may prevent [[Overfitting]].

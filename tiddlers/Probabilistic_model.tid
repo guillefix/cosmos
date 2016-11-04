@@ -1,8 +1,9 @@
 created: 20160918223934834
 creator: cosmos
-modified: 20161018181004592
+modified: 20161104134331818
 modifier: cosmos
 title: Probabilistic model
+tmap.id: df0ed99c-e6a6-4a1c-86f9-141891ff170c
 type: text/vnd.tiddlywiki
 
 [[Model]]s for [[Probability distribution]]s. These models relate [[Random variable]]s, using some more or less general assumptions about the nature of the data.

@@ -1,11 +1,11 @@
 created: 20161022133633840
 creator: cosmos
-modified: 20161023173653728
+modified: 20161104134332766
 modifier: cosmos
 tags: [[Restricted Boltzmann machine]]
 title: Temperature based RBM
+tmap.id: 66633dbb-3fbc-4995-9415-cb8c95ace7fa
 type: text/vnd.tiddlywiki
-
 
 [[Temperature based Restricted Boltzmann Machines|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4725829/]]
 

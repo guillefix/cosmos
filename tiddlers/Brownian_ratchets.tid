@@ -1,8 +1,10 @@
 created: 20160121165726312
 creator: guillefix
-modified: 20160126180110918
+modified: 20161104134327223
 modifier: guillefix
 title: Brownian ratchets
+tmap.id: f0d3fe72-69fe-44aa-a516-b70985844a4f
+type: text/vnd.tiddlywiki
 
 The [[Fokker-Planck equation]] has a stationary solution, for a biased periodic potential:
 

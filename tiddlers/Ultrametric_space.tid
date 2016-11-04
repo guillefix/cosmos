@@ -1,8 +1,9 @@
 created: 20160916161449707
 creator: cosmos
-modified: 20160916171558926
+modified: 20161104134332986
 modifier: cosmos
 title: Ultrametric space
+tmap.id: dfa8a5e1-41f7-4279-b348-90a20b4bd3af
 type: text/vnd.tiddlywiki
 
 An ''ultrametric space'' is a [[Metric space]], where the [[Triangle inequality]] is replaced by the ''strong triangle inequality'':

@@ -1,9 +1,10 @@
 created: 20160914085844404
 creator: cosmos
-modified: 20160917101024017
+modified: 20161104134327773
 modifier: cosmos
 tags: [[Model selection]]
 title: Cross-validation
+tmap.id: cb67e4fb-bdf4-40e4-af02-61112cfe75e3
 type: text/vnd.tiddlywiki
 
 Test the model on data you haven't used for training.

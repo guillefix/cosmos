@@ -1,8 +1,10 @@
 created: 20160701024258791
 creator: guillefix
-modified: 20160701172112474
+modified: 20161104134328197
 modifier: guillefix
 title: Entropy rate
+tmap.id: dab00cd9-3d81-440c-ae01-1a80d8295331
+type: text/vnd.tiddlywiki
 
 The entropy rate of an information source (see [[Data transmission]]) is the average entropy of a letter of the source.
 

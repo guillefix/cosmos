@@ -1,9 +1,10 @@
 created: 20160916113849147
 creator: cosmos
-modified: 20160916113909371
+modified: 20161104134326880
 modifier: cosmos
 tags: Disorder
 title: Annealed disorder
+tmap.id: 0d807f45-f2a1-4e4f-b77b-c87a354916f9
 type: text/vnd.tiddlywiki
 
 [[Disorder]] of a system at thermal equilibrium. This can be physically achieved by cooling the system down sufficiently slowly so that the system is in quasi-equilibrium at all times.

@@ -1,9 +1,10 @@
 created: 20161013201425067
 creator: cosmos
-modified: 20161013201850759
+modified: 20161104134332610
 modifier: cosmos
 tags: Chirality
 title: Steroisomer
+tmap.id: 11ee751f-21e5-4b1d-aba0-e2561cb94056
 type: text/vnd.tiddlywiki
 
 A [[Molecule]] that has the same [[Chemical formula]] as another molecule, but differs in the orientation of its atoms in space. This can happen by swapping some [[Moiety]]es by their mirror images

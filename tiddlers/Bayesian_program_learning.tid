@@ -1,9 +1,10 @@
 created: 20161022120339986
 creator: cosmos
-modified: 20161022124234645
+modified: 20161104134327096
 modifier: cosmos
 tags: [[Program induction]]
 title: Bayesian program learning
+tmap.id: f9f012a5-c5a3-4684-a047-ab98566f152c
 type: text/vnd.tiddlywiki
 
 A type of [[Program induction]], that can be used for [[One-shot learning]]

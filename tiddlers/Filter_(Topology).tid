@@ -1,8 +1,10 @@
 created: 20160714000416049
 creator: guillefix
-modified: 20160714012203992
+modified: 20161104134328327
 modifier: guillefix
 title: Filter (Topology)
+tmap.id: 170a4b5d-e62a-4d23-83b4-c7af92ea063e
+type: text/vnd.tiddlywiki
 
 A ''filter'' $$\mathcal{F}$$ on $$X$$ is a family of subsets of $$X$$ such that:
 

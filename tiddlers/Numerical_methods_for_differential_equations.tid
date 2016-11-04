@@ -1,9 +1,11 @@
 created: 20160207143043578
 creator: guillefix
-modified: 20160221115928757
+modified: 20161104134331165
 modifier: guillefix
 tags: [[Scientific computing]]
 title: Numerical methods for differential equations
+tmap.id: 1201bcce-c1db-4702-86b0-193336de2cd6
+type: text/vnd.tiddlywiki
 
 !!!''Initial value problem''s (IVP) for __ordinary differential equation__ (ODE) 
 

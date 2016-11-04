@@ -1,9 +1,10 @@
 created: 20161022120453899
 creator: cosmos
-modified: 20161022123842449
+modified: 20161104134331212
 modifier: cosmos
 tags: Learning [[Machine learning]]
 title: One-shot learning
+tmap.id: a5f6808d-edb5-4bae-a061-4143ec4b0f03
 type: text/vnd.tiddlywiki
 
 [[Learning]] from one or few examples. A current challenge in [[Deep learning]]

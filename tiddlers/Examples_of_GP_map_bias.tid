@@ -1,8 +1,10 @@
 created: 20160419202135977
 creator: guillefix
-modified: 20160517231538887
+modified: 20161104134328302
 modifier: guillefix
 title: Examples of GP map bias
+tmap.id: 806ca7c7-e79e-45ee-8786-cb8e3cf87376
+type: text/vnd.tiddlywiki
 
 * model GP maps for protein tertiary ([[Emergence of Preferred Structures in a Simple Model of Protein Folding|http://cqb.pku.edu.cn/tanglab/pdf/1996-34.pdf]], [[Structural determinant of protein designability|http://www.englandlab.com/uploads/7/8/0/3/7803054/2003prl.pdf]]), 
 * quaternary structure. Self-assembling polyominoes model ([[A tractable genotype–phenotype map modelling the self-assembly of protein quaternary structure|http://rsif.royalsocietypublishing.org/content/11/95/20140249]]), 

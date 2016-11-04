@@ -1,8 +1,10 @@
 created: 20160713232634054
 creator: guillefix
-modified: 20160713233057164
+modified: 20161104134328736
 modifier: guillefix
 title: Greatest lower bound
+tmap.id: 5f113745-1845-4db9-b64f-bd6c68c8aed2
+type: text/vnd.tiddlywiki
 
 Natural extension of the [[meet|Meet operation]] of two elements to an arbitrary [[Set]] of elements of a [[poset|Partially ordered set]]
 

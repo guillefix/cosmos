@@ -1,9 +1,10 @@
 created: 20160117160137931
 creator: guillefix
-modified: 20160830143448944
+modified: 20161104134332623
 modifier: cosmos
 tags: Physics
 title: Statistical physics
+tmap.id: 1f51c6b3-291f-45b9-b9be-cf0e2b82f0ea
 type: text/vnd.tiddlywiki
 
 ''Statistical physics'' deals with the description of systems for which a deterministic description is either useless or impossible, so that one uses a //statistical// description.

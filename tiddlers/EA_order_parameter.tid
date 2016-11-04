@@ -1,8 +1,9 @@
 created: 20160916154810399
 creator: cosmos
-modified: 20160916154836283
+modified: 20161104134328048
 modifier: cosmos
 title: EA order parameter
+tmap.id: f452a2a0-bc72-4c6a-89e2-39e837e339a8
 type: text/vnd.tiddlywiki
 
 Edwards and Anderson (who introduced the [[Edwards-Anderson Hamiltonian]]) asked what kind of ordering the spin glass phase, should it exist, would exhibit. 

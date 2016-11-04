@@ -1,8 +1,10 @@
 created: 20160510112102885
 creator: guillefix
-modified: 20160510171651094
+modified: 20161104134331811
 modifier: guillefix
 title: Power spectral density
+tmap.id: 5ba979a5-b10c-48d0-a847-0d0af25dd442
+type: text/vnd.tiddlywiki
 
 [[The Power Spectral Density (PSD) and the Autocorrelation|http://personal.egr.uri.edu/chelidz/courses/mce567/handouts/psdtheory.pdf]].
 

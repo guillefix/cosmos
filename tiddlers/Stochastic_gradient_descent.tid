@@ -1,9 +1,10 @@
 created: 20160916172705813
 creator: cosmos
-modified: 20161026165658799
+modified: 20161104134332641
 modifier: cosmos
 tags: [[Gradient descent]]
 title: Stochastic gradient descent
+tmap.id: 1f8d98d6-522b-4e48-aaa8-20c50243e55f
 type: text/vnd.tiddlywiki
 
 An stochastic version of [[Gradient descent]], which can be used for [[Online learning]]

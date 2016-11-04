@@ -1,7 +1,9 @@
 created: 20160714015149744
 creator: guillefix
-modified: 20160714015236260
+modified: 20161104134327901
 modifier: guillefix
 title: Discrete topology
+tmap.id: bb4b9d6e-422b-479c-aee6-ee064415ab5c
+type: text/vnd.tiddlywiki
 
 A [[topology|Topological space]] where every subset of a set $$X$$ is open.

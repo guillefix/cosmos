@@ -1,8 +1,10 @@
 created: 20160709015746627
 creator: guillefix
-modified: 20160709015752283
+modified: 20161104134331056
 modifier: guillefix
 tags: [[Regression analysis]]
 title: Nonlinear regression
+tmap.id: 63320a8d-9e19-428d-ac40-c7c1e51c0396
+type: text/vnd.tiddlywiki
 
 ''[[Nonlinear regression|https://www.youtube.com/watch?v=NUKp0c4xb8w&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=9#t=15m50s]]''. Like linear regressions but the parameters enter nonlinearly in the function representation, for example as weights in a //multi-layer perceptron// (MLP), i.e. a ANN, with usually a few layers (shallow learning..). [[Vowpal Wabbit|https://github.com/JohnLangford/vowpal_wabbit/wiki]] is good for logistic regression.

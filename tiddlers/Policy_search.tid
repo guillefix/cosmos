@@ -1,9 +1,10 @@
 created: 20161017172013915
 creator: cosmos
-modified: 20161103122301162
+modified: 20161104134331765
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Policy search
+tmap.id: 27caefb2-34fe-4e22-83af-dabe66419b5f
 type: text/vnd.tiddlywiki
 
 A class of [[Reinforcement learning]] algorithms. [[These are also known as direct search algorithms|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=9m]], in contrast with algorithms where our aim is to find the optimal value function 

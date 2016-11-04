@@ -1,6 +1,7 @@
 created: 20160905112734099
-modified: 20160905132214469
+modified: 20161104134328653
 title: Genotype
+tmap.id: e9f1bdc7-6727-48a5-9216-c13a27cee63e
 type: text/vnd.tiddlywiki
 
 The ''genotype'' is the set of [[Allele]]s corresponding to a particular [[Gene]] of an individual ([[vid|https://www.youtube.com/watch?v=H6gwYdyn7II#t=1m40s]]). Sometimes, it can refer to the set of alleles of a set of genes, I think. The set of alleles for all genes, is called the [[Genome]].

@@ -1,8 +1,9 @@
 created: 20160918182119172
 creator: cosmos
-modified: 20160918192833950
+modified: 20161104134329506
 modifier: cosmos
 title: Markov network
+tmap.id: 771143fa-c41c-4be4-940e-3215a5c8951f
 type: text/vnd.tiddlywiki
 
 A ''Markov network'', aka a ''Markov random field'', or ''undirected graphical model'', is a [[Network]] of [[Random variable]]s that satisfy a [[Markov property]]. In particular they satisfy the properties below. It is also a [[Graphical model]] with undirected edges.

@@ -1,8 +1,10 @@
 created: 20160714005531377
 creator: guillefix
-modified: 20160714124541344
+modified: 20161104134331836
 modifier: guillefix
 title: Product topology
+tmap.id: c0186969-ced9-4d25-ad3f-28638f417099
+type: text/vnd.tiddlywiki
 
 The product [[topology|Topological space]] on a [[Cartesian product]] of $$n$$ [[Topological space]]s ($$X_i, \tau_i$$, $$i \in I$$, where $$I$$ is some index set) is defined to be the union of all sets of the form $$O_1 \times O_2 \times ... \times O_n$$ where $$O_i \subset X_i$$ is $$\tau_i$$-open. Where we are assuming here $$I$$ is finite. This definition is not correct when $$I$$ is infinite, and the definition using cylinder sets below must be used. Note that the definitions are different because the basis is constructed from __finite__ intersections of the open cylinders. However, some elements corresponding to infinite Cartesian products of the form $$\times_{i\in I} O_i$$ can't be realized from finite intersections of open cylinders which all have the form $$(\times_{i = J} O_i) \times ( \times_{i\in I \setminus J} X_i)$$, where $$J$$ is a finite subset of $$I$$. This comes about for example, in infinite [[Sequence space]]s.
 

@@ -1,9 +1,10 @@
 created: 20160824083649917
 creator: cosmos
-modified: 20160904163804475
+modified: 20161104134332956
 modifier: cosmos
 tags: [[Automata theory]]
 title: Turing machine
+tmap.id: b44cac8d-08d7-4ebe-a612-ddc7a4fe5066
 type: text/vnd.tiddlywiki
 
 A class of abstract [[automata|Automata theory]] that have the most computational power* known. It can compute anything that can be suitably represented and solved by a step by step procedure ([[Church-Turing thesis]]).

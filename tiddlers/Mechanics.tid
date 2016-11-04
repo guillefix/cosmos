@@ -1,9 +1,11 @@
 created: 20160120185847353
 creator: guillefix
-modified: 20160601171457540
+modified: 20161104134329642
 modifier: guillefix
 tags: Physics
 title: Mechanics
+tmap.id: c25ba4d0-af38-47fb-b5f9-15256b3608eb
+type: text/vnd.tiddlywiki
 
 In ''mechanics'', we __describe__ the motion of bodies, and the __causes__ that effect them. This includes the special case where the "motion" is //no motion//, i.e. bodies are stationary.
 

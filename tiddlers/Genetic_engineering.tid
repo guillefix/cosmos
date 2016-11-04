@@ -1,9 +1,11 @@
 created: 20160408184248600
 creator: guillefix
-modified: 20160408184249705
+modified: 20161104134328603
 modifier: guillefix
 tags: Genetics Engineering
 title: Genetic engineering
+tmap.id: be99867b-a8f7-4fae-874c-53ac761c54ce
+type: text/vnd.tiddlywiki
 
 [[Gene editing with CRISPR/Cas9|https://www.youtube.com/watch?v=SuAxDVBt7kQ]] Cas9 refers to a protein that has been found in bacteria inmune systems that is able to cut a DNA double strand at a point which matches the sequence of an RNA chimera (i.e. a molecule made of several RNA parts). This allows the programmable cutting of DNA. It is a particular type of a [[restriction enzime|https://en.wikipedia.org/wiki/Restriction_enzyme]], which are enzymes which cut DNA at certain sites.
 

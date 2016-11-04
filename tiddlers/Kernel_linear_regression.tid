@@ -1,9 +1,11 @@
 created: 20160709015820805
 creator: guillefix
-modified: 20160709015822221
+modified: 20161104134329207
 modifier: guillefix
 tags: [[Regression analysis]]
 title: Kernel linear regression
+tmap.id: 5dc7c7be-a2ae-47c0-84ae-a7cda653babe
+type: text/vnd.tiddlywiki
 
 Regression using certain basis function (i.e. find coefficients for a certain linear combination of these that fits the training data). Standard ones are polynomials (see Weirestrass approx theorem, but possible terms become very large as we increase degree).
 

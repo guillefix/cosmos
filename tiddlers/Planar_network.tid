@@ -1,8 +1,10 @@
 created: 20160119190006989
 creator: guillefix
-modified: 20160131222439510
+modified: 20161104134331731
 modifier: guillefix
 title: Planar network
+tmap.id: 636b22a0-a5ff-445b-abba-3f4ad217edec
+type: text/vnd.tiddlywiki
 
 A ''planar network'' (or graph) is one that can be drawn on a plane without having any edges cross.
 

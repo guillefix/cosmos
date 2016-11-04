@@ -1,10 +1,11 @@
 created: 20160703115637608
 creator: guillefix
-modified: 20160703115828912
+modified: 20161104134328199
 modifier: guillefix
 tags: [[Information measures]] [[Statistical physics]]
 title: Entropy
-type: 
+tmap.id: 0436c842-b5e8-4f74-a418-713538650ad6
+type: text/vnd.tiddlywiki
 
 The entropy, $$H(X)$$, of a [[Random variable]], $$X$$, is defined as 
 

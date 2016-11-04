@@ -1,9 +1,11 @@
 created: 20160130132407208
 creator: guillefix
-modified: 20160329144210247
+modified: 20161104134332422
 modifier: guillefix
 tags: [[Network theory]]
 title: Small-world model (Network theory)
+tmap.id: c7156d87-adf1-4009-be46-f9a4c1ae37c8
+type: text/vnd.tiddlywiki
 
 [[Random graph]] models capture well the small-world properties of real networks (see [[Large-scale structure of networks]]). The mean geodesic distance grows like $$\ln{n}/\ln{c}$$, that is, much more slowly than $$n$$, the number of nodes.
 

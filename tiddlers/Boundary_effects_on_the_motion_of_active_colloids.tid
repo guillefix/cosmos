@@ -1,7 +1,9 @@
 created: 20160617153719155
 creator: guillefix
-modified: 20160617154108795
+modified: 20161104134327230
 modifier: guillefix
 title: Boundary effects on the motion of active colloids
+tmap.id: 8f797bd3-e908-4dbb-8b60-e5a4305acce4
+type: text/vnd.tiddlywiki
 
 [[Boundaries can steer active Janus spheres|file:///home/guillefix/Dropbox/Oxford/MMathPhys/topics%20in%20soft%20and%20active%20matter/ramin/ncomms15_boundary-steering-Janus.pdf]]. Looks at [[Catalytic conductor-insulator Janus swimmer]]s. Note that the method of mirror images used in the paper for estimating effects of some rotational diffusion quenching mechanisms is not the same as used for electrostatic charges near a conductor. It is in fact an instance of the method of mirror images, as applied to [[Diffusion]] equations, where the image is used to satisfy the no-slip boundary condition in the current $$J$$ of ions. As the current satisfies $$J=\sigma E$$ from [[Ohm's law]], the effect on currents should have an accompanying effect on the [[Electric field]].

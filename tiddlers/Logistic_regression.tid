@@ -1,9 +1,10 @@
 created: 20160709020525444
 creator: guillefix
-modified: 20161102175810681
+modified: 20161104134329448
 modifier: cosmos
 tags: [[Supervised classification]]
 title: Logistic regression
+tmap.id: e38fc94a-ff8d-4edd-8206-c8c5b38f1c01
 type: text/vnd.tiddlywiki
 
 A type of [[Classification]] method.

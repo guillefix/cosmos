@@ -1,9 +1,10 @@
 created: 20160919105809475
 creator: cosmos
-modified: 20161018194735919
+modified: 20161104134327010
 modifier: cosmos
 tags: [[Unsupervised learning]]
 title: Autoencoder
+tmap.id: 63d48e35-fd03-4a90-9c31-9ba6a9ac0aee
 type: text/vnd.tiddlywiki
 
 A type of [[Artificial neural network]] where the output has the same dimensionality as the input, and the network is train to be able to reproduce the output in the input. The key point is that there is an ''information bottleneck'' in some of the hidden layers, where the number of neurons is limited, so that the network is forced to learn a ''sparse representation'' of the data. For this reason, they can be used for [[Data compression]], and other areas where such a representation may be useful. 

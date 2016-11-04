@@ -1,9 +1,10 @@
 created: 20160915201241435
 creator: cosmos
-modified: 20160915202234384
+modified: 20161104134329319
 modifier: cosmos
 tags: [[Principal component analysis]] [[Natural language processing]]
 title: Latent semantic indexing
+tmap.id: f909adbf-30a7-493b-b7e0-0fd815e7d297
 type: text/vnd.tiddlywiki
 
 [[Essentially application of PCA to text data|https://www.youtube.com/watch?v=QGd06MTRMHs&list=PLA89DCFA6ADACE599&index=15#t=5m05s]], where we usually skip the pre-processing step.

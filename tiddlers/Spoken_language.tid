@@ -1,9 +1,10 @@
 created: 20160918142608284
 creator: cosmos
-modified: 20160918142641411
+modified: 20161104134332575
 modifier: cosmos
 tags: Language
 title: Spoken language
+tmap.id: 60573040-8bd3-434f-b067-2f3df5937605
 type: text/vnd.tiddlywiki
 
 a [[Language]] that has a [[mapping|Function]] to [[Sounds]], which are called the language's ''utterance''s

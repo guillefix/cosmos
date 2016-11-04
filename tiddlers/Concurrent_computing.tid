@@ -1,9 +1,10 @@
 created: 20160629002435445
 creator: guillefix
-modified: 20160830134820271
+modified: 20161104134327555
 modifier: cosmos
 tags: [[Software engineering]]
 title: Concurrent computing
+tmap.id: b4fbebbc-0faa-43e8-9d7c-80cc06b3a483
 type: text/vnd.tiddlywiki
 
 [ext[https://en.wikipedia.org/wiki/Concurrency_(computer_science)]]

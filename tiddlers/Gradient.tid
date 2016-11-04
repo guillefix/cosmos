@@ -1,8 +1,9 @@
 created: 20161026162343155
 creator: cosmos
-modified: 20161026162439103
+modified: 20161104134328670
 modifier: cosmos
 title: Gradient
+tmap.id: 0d980ffe-966f-4670-abe8-e3172836bdab
 type: text/vnd.tiddlywiki
 
 A vector given by components $$\frac{\delta f}{\delta x_i}$$, which points towards the direction along which $$f$$ increases most rapidly, at a given point.

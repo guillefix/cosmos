@@ -1,9 +1,10 @@
 created: 20160905130321446
 creator: cosmos
-modified: 20161025094007554
+modified: 20161104134328605
 modifier: cosmos
 tags: Inheritance
 title: Genetic dominance
+tmap.id: 61e20fb9-1c77-4d8d-bc5c-b653d1eacc47
 type: text/vnd.tiddlywiki
 
 Phenotype 1 is ''dominant'' to over phenotype 2 (coded by the same [[Gene]], or set of genes), if a hybrid having an allele for each, expresses phenotype 1.  Phenotype 2 is then called ''recessive''. See [[video|https://www.youtube.com/watch?v=H6gwYdyn7II#t=3m54s]]. This is called ''total dominance'', or ''full penetrance''.

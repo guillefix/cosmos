@@ -1,9 +1,10 @@
 created: 20160921105210479
 creator: cosmos
-modified: 20160921105348313
+modified: 20161104134327776
 modifier: cosmos
 tags: [[Information measures]]
 title: Cross entropy
+tmap.id: f2aa7f88-a232-4ec8-b2fb-96c095e64e57
 type: text/vnd.tiddlywiki
 
 In information theory, the cross entropy between two probability distributions p and q over the same underlying set of events measures the average number of bits needed to identify an event drawn from the set, if a coding scheme is used that is optimized for an "unnatural" probability distribution q, rather than the "true" distribution p.

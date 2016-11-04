@@ -1,8 +1,10 @@
 created: 20160625130504322
 creator: guillefix
-modified: 20160625132406634
+modified: 20161104134328399
 modifier: guillefix
 title: Fisher information matrix
+tmap.id: 59357645-7df2-4803-93e0-61c2ddb3a76b
+type: text/vnd.tiddlywiki
 
 The ''Fisher information matrix'' (FIM) is the Hessian of the $$\log$$ [[Likelihood function]].
 

@@ -1,9 +1,11 @@
 created: 20160507174049847
 creator: guillefix
-modified: 20160508200254250
+modified: 20161104134332435
 modifier: guillefix
 tags: 
 title: Smale horseshoe map
+tmap.id: 7514c766-c1bb-4833-96f4-9ec2d088c20d
+type: text/vnd.tiddlywiki
 
 A ''Smale horseshoe map'' is any member of a class of [[chaotic maps|Chaos theory]] of the square into itself, of the kind introduced by Stephen Smale in 1967 while studying the behavior of the orbits of the van der Pol oscillator.
 

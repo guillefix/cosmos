@@ -1,8 +1,10 @@
 created: 20160707165044696
 creator: guillefix
-modified: 20160713223745491
+modified: 20161104134327282
 modifier: guillefix
 title: Cartesian power
+tmap.id: 19eb3499-fe14-4732-92a7-00c838506f02
+type: text/vnd.tiddlywiki
 
 The [[Cartesian product]] of a collection of copies of a [[Set]]. For instance the Cartesian square is $$X \times X$$.
 

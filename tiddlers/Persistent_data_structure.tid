@@ -1,7 +1,8 @@
 created: 20160905052217421
-modified: 20160905054926628
+modified: 20161104134331614
 tags: [[Data structure]]
 title: Persistent data structure
+tmap.id: df1f7791-c8e7-4a93-a544-bb6a5bfd9316
 type: text/vnd.tiddlywiki
 
 A class of [[Data structure]]s, introduced by P Bagwell in his paper [[Ideal hash trees|http://lampwww.epfl.ch/papers/idealhashtrees.pdf]] and Rich Hickey who invented [[Clojure]], which implemented these . The persistent data structures make [[immutable data types|Immutable type]] more efficient.ext8mc7m58s -- [[This is how they work|https://www.youtube.com/watch?v=e-5obm1G_FY&t=644s#t=17m58s]]

@@ -1,9 +1,11 @@
 created: 20160501231015400
 creator: guillefix
-modified: 20160617232153683
+modified: 20161104134326733
 modifier: guillefix
 tags: [[Complex systems]]
 title: Active system
+tmap.id: a77600fd-72fc-4dc5-8c03-9c31692cccbd
+type: text/vnd.tiddlywiki
 
 A system with constituents that are able to [[produce their own energy|Energy production]]. For instance, they are often ''self-propelling''. See also the [[wiki article|https://en.wikipedia.org/wiki/Active_matter]]. Due to the energy consumption, these systems are intrinsically [[out of thermal equilibrium|Non-equilibrium statistical physics]].
 

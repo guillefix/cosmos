@@ -1,9 +1,11 @@
 created: 20160326025023214
 creator: guillefix
-modified: 20160601173308143
+modified: 20161104134332524
 modifier: guillefix
 tags: [[Network science]]
 title: Spatial networks
+tmap.id: ea8effa1-aa87-4f68-b2c8-287fbf3f9be4
+type: text/vnd.tiddlywiki
 
 A ''spatial networks'' is a network that is embedded in some space. This affects our choices of models for random graphs. An example is the [[Planar network]].
 

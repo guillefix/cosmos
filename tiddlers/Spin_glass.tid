@@ -1,8 +1,9 @@
 created: 20160611125205456
 creator: guillefix
-modified: 20160916153611739
+modified: 20161104134332585
 modifier: cosmos
 title: Spin glass
+tmap.id: 368bab49-39f9-4082-9acb-d79c67aa7bdc
 type: text/vnd.tiddlywiki
 
 [[Disordered|Disordered system]] version of the [[Ising model]], and corresponding magnetic materials showing disordered phases.

@@ -1,8 +1,9 @@
 created: 20161017204437857
 creator: cosmos
-modified: 20161103144454290
+modified: 20161104134330891
 modifier: cosmos
 title: Neural Turing machine
+tmap.id: 63fb1ec6-f157-4587-b52f-d884d30c35e9
 type: text/vnd.tiddlywiki
 
 A differentiable [[Turing machine]] the internal program of which can thus be [[learned|Machine learning]]. The program can be represented using [[Artificial neural network]]s

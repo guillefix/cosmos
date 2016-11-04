@@ -1,9 +1,11 @@
 created: 20160707155855017
 creator: guillefix
-modified: 20160714133236962
+modified: 20161104134332378
 modifier: guillefix
 tags: [[Measure theory]]
 title: Sigma-algebra
+tmap.id: 6ae0fb23-c4ef-415e-91ff-e5bdcdc6de7b
+type: text/vnd.tiddlywiki
 
 Given a set $$\Omega$$, a ''$$\sigma$$-algebra'' on $$\Omega$$, $$\mathcal{A}$$ is a subset of the [[Power set]] of $$\Omega$$ ($$\mathcal{A} \subset 2^\Omega$$), s.t.
 

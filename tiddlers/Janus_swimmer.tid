@@ -1,8 +1,10 @@
 created: 20160616230845751
 creator: guillefix
-modified: 20160616231132133
+modified: 20161104134329117
 modifier: guillefix
 title: Janus swimmer
+tmap.id: de13bd7a-3063-4040-98a8-8c5136b0d349
+type: text/vnd.tiddlywiki
 
 A particular kind of [[Self-propelled particle]] with a kind of asymmetry corresponding to half of the particle having one property, and the other a different one. Most often a Janus swimmer refers to spherical colloids, where one hemisphere is coated with some material, and the other with a different one (or just exposing the material of the colloid itself).
 

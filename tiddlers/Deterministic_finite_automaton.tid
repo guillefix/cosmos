@@ -1,8 +1,10 @@
 created: 20160626132624338
 creator: guillefix
-modified: 20160626132856264
+modified: 20161104134327844
 modifier: guillefix
 title: Deterministic finite automaton
+tmap.id: 6ab0ef69-703b-4968-93ce-93499ef25d4a
+type: text/vnd.tiddlywiki
 
 [[Deterministic finite automaton|https://en.wikipedia.org/wiki/Deterministic_finite_automaton]] (DFA) is a deterministic [[Finite-state machine]]. See ''[[Deterministic machine|https://www.youtube.com/watch?v=jb_H7SGOyyI&index=2&list=PL601FC994BDD963E4#t=4m24.7s]]''
 

@@ -1,9 +1,10 @@
 created: 20161019173521619
 creator: cosmos
-modified: 20161019173735434
+modified: 20161104134331466
 modifier: cosmos
 tags: [[Markov decision process]]
 title: Partially-observable MDP
+tmap.id: 0bf57436-882e-4514-91c7-c9ca9732952a
 type: text/vnd.tiddlywiki
 
 A partially-observabe [[Markov decision process]] is a Markov decision process where the state is only partially observable by the actor, so that the policy can only depend on a function of the state, which looses some of the state's [[Information]]

@@ -1,8 +1,9 @@
 created: 20160914102449666
 creator: cosmos
-modified: 20160914102612625
+modified: 20161104134331821
 modifier: cosmos
 title: Prior distribution
+tmap.id: a167d40f-45f2-4c68-9df6-16f984f274fd
 type: text/vnd.tiddlywiki
 
 The probability distribution over hypothesis or variable $$x$$, in [[Bayesian statistics]], before seeing some batch of data.

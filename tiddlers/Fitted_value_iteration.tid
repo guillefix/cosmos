@@ -1,9 +1,10 @@
 created: 20161019173347582
 creator: cosmos
-modified: 20161019173412051
+modified: 20161104134328394
 modifier: cosmos
 tags: [[Reinforcement learning in continuous state space]]
 title: Fitted value iteration
+tmap.id: 083af43c-6160-41cc-8a55-32bbb2f7092b
 type: text/vnd.tiddlywiki
 
 An approach for solving [[Reinforcement learning in continuous state space]]

@@ -1,8 +1,10 @@
 created: 20160123123601489
 creator: guillefix
-modified: 20160127135324219
+modified: 20161104134327870
 modifier: guillefix
 title: Degree of a vertex (Graph theory)
+tmap.id: 81d53d78-b8f3-41f3-999d-47e389b2740c
+type: text/vnd.tiddlywiki
 
 The ''degree'', $$k_i$$, of a vertex, $$i$$, is the number of edges connected to the vertex. For an undirected graph with $$n$$ vertices, it is related to the adjacency matrix by:
 

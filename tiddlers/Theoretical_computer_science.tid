@@ -1,9 +1,10 @@
 created: 20160201145156881
 creator: guillefix
-modified: 20160825171007525
+modified: 20161104134332805
 modifier: cosmos
 tags: [[Computer Science and IT]]
 title: Theoretical computer science
+tmap.id: 8afc96c6-04f9-417c-b33e-361a1370e64f
 type: text/vnd.tiddlywiki
 
 ''Computer science'' is what came out of asking: <b>what kind of [[maths|Mathematics]] can actually be //effectively// carried out in the [[physical|Physics]] world?</b> Theoretical computer science, looks at the more theoretical (as opposed to applied) aspects of this question.

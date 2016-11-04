@@ -1,9 +1,11 @@
 created: 20160721131910383
 creator: guillefix
-modified: 20160721132327002
+modified: 20161104134327109
 modifier: guillefix
 tags: [[Dynamical system]]
 title: Basin of attraction
+tmap.id: 55ca8baa-561d-4a36-94c8-e305e62981f2
+type: text/vnd.tiddlywiki
 
 Set of all states that evolve into a given [[attractor|Attractor]], under some [[dynamics|Dynamical system]]
 

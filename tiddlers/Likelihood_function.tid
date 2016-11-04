@@ -1,9 +1,10 @@
 created: 20160625130533748
 creator: guillefix
-modified: 20160821082029817
+modified: 20161104134329386
 modifier: cosmos
 tags: Statistics
 title: Likelihood function
+tmap.id: d413a713-82f8-4467-8494-55dfe569404f
 type: text/vnd.tiddlywiki
 
 [[Likelihood function|https://en.wikipedia.org/wiki/Likelihood_function]], $$\mathcal{L} $$ is defined as

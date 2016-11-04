@@ -1,9 +1,10 @@
 created: 20161014133547080
 creator: cosmos
-modified: 20161016182413096
+modified: 20161104134331791
 modifier: cosmos
 tags: [[Experimental molecular biology]]
 title: Polymerase chain reaction
+tmap.id: ea3f769f-0445-4a62-b038-1b9f90dd679e
 type: text/vnd.tiddlywiki
 
 PCR (Polymerase Chain Reaction) is a revolutionary method developed by Kary Mullis in the 1980s. PCR is based on using the ability of DNA polymerase to synthesize new strand of DNA complementary to the offered template strand. Because DNA polymerase can add a nucleotide only onto a preexisting 3'-OH group, it needs a primer to which it can add the first nucleotide. This requirement makes it possible to delineate a specific region of template sequence that the researcher wants to amplify. At the end of the PCR reaction, the specific sequence will be accumulated in billions of copies (amplicons).

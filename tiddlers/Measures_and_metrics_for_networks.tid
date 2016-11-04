@@ -1,8 +1,9 @@
 created: 20160127170233646
 creator: guillefix
-modified: 20160916115445787
+modified: 20161104134329581
 modifier: cosmos
 title: Measures and metrics for networks
+tmap.id: 0119408c-fdb0-4502-a8b4-b2a2f4e147ac
 type: application/x-tiddler
 
 If we know the structure of a network, then we can calculate a number of quantities or measures that capture features of the network topology (and geometry). Originally, a lot of these ideas were developed for //social network analysis//, but they are used elsewhere now too.

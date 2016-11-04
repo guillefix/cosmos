@@ -1,7 +1,9 @@
 created: 20160426235625916
 creator: guillefix
-modified: 20160426235945005
+modified: 20161104134327123
 modifier: guillefix
 title: Backwards Fokker-Planck equation
+tmap.id: 190fa8b7-6c2f-409e-a994-587897543e65
+type: text/vnd.tiddlywiki
 
 [[Derivation of the backwards FP equation for the survival probability|https://www.youtube.com/watch?v=m5RuNNvJdjM&index=6&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l#t=14m55s]], solutions using <b>Laplace transform</b>

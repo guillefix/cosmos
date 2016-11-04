@@ -1,9 +1,10 @@
 created: 20160121193002968
 creator: guillefix
-modified: 20161003145805871
+modified: 20161104134332724
 modifier: cosmos
 tags: Biology
 title: Systems biology
+tmap.id: 3682c2fa-22a8-47e1-a389-92e938b9e29d
 type: text/vnd.tiddlywiki
 
 Systems biology is the study of [[Biology]] from the perspective of [[System]]s (i.e. [[Biological system]]s), that is sets of components which interact which each other. In particular systems biology is organized in an approximately hierarchical fashion, where lower levels are composed of parts which self-organize into the parts at the next level, which exhibit behaviour emergent from the characteristics of the lower level.

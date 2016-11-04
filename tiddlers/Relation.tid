@@ -1,8 +1,10 @@
 created: 20160707163622015
 creator: guillefix
-modified: 20160713230739456
+modified: 20161104134331981
 modifier: guillefix
 title: Relation
+tmap.id: cfb5a547-980b-43f0-8377-f0f194548388
+type: text/vnd.tiddlywiki
 
 A ''relation'' is a subset of a [[Cartesian product]].
 

@@ -1,9 +1,10 @@
 created: 20160823161842556
 creator: cosmos
-modified: 20160904163229873
+modified: 20161104134328663
 modifier: cosmos
 tags: [[Formal grammar]] [[Machine learning]]
 title: Grammar learning
+tmap.id: 185fde45-a4f6-4280-856e-b28fc8cd456e
 type: text/vnd.tiddlywiki
 
 The task of [[learning|Machine learning]] a [[Formal grammar]]. 

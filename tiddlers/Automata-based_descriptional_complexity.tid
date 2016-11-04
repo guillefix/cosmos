@@ -1,8 +1,10 @@
 created: 20160629171605406
 creator: guillefix
-modified: 20160715193429013
+modified: 20161104134327005
 modifier: guillefix
 title: Automata-based descriptional complexity
+tmap.id: b191e348-cb23-4491-a9b9-230a0d821323
+type: text/vnd.tiddlywiki
 
 A computable class of [[Descriptional complexity]] measures, based on [[automata|Automata theory]]
 

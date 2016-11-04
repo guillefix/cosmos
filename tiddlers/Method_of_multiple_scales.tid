@@ -1,7 +1,9 @@
 created: 20160502122546500
 creator: guillefix
-modified: 20160502122716118
+modified: 20161104134329702
 modifier: guillefix
 title: Method of multiple scales
+tmap.id: 66272b69-6439-43fc-92bf-5382ca179ce8
+type: text/vnd.tiddlywiki
 
 Assume functions in the asymptotic expansion depend on $$t$$ through variables, corresponding to different time scales: $$T_0 = t$$, $$T_1=\epsilon t$$, $$T_2 = \epsilon^2 t$$, etc.

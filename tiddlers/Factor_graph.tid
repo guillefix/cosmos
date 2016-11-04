@@ -1,8 +1,9 @@
 created: 20160918192646947
 creator: cosmos
-modified: 20160918193020142
+modified: 20161104134328269
 modifier: cosmos
 title: Factor graph
+tmap.id: 277bf884-2e5f-42e3-a52a-015a207e6746
 type: text/vnd.tiddlywiki
 
 A generalization/extension of a [[Markov network]], useful for [[Conditional random field]]s

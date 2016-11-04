@@ -1,8 +1,9 @@
 created: 20160209154912836
 creator: guillefix
-modified: 20160916150210799
+modified: 20161104134329603
 modifier: cosmos
 title: Mean field theory
+tmap.id: e4ff52d8-2652-4970-924e-20adcde6e936
 type: text/vnd.tiddlywiki
 
 [[Statistical field theory]] that ignores spatial fluctuations. I.e. just describes the behaviour of the //mean// quantities of interest. Can get such behaviour by applying the method of steepest descents to the partition function.

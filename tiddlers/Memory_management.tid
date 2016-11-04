@@ -1,8 +1,9 @@
 created: 20160629005908388
 creator: guillefix
-modified: 20161104121536032
+modified: 20161104151150846
 modifier: cosmos
 title: Memory management
+tmap.id: 6af907ce-7360-4094-8a4e-b1829084320d
 type: text/vnd.tiddlywiki
 
 //a.k.a. memory allocation//

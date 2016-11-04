@@ -1,10 +1,10 @@
 created: 20161018190008623
 creator: cosmos
-modified: 20161018190442207
+modified: 20161104134329184
 modifier: cosmos
 title: Jensen-Shanon divergence
+tmap.id: b5d6aae3-1836-4deb-a8cc-565612af9617
 type: text/vnd.tiddlywiki
-
 
 
 Similar to [[KL divergence|Relative entropy]]

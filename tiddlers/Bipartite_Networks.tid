@@ -1,8 +1,10 @@
 created: 20160119173946058
 creator: guillefix
-modified: 20160131223422765
+modified: 20161104134327149
 modifier: guillefix
 title: Bipartite Networks
+tmap.id: 7858bc14-3311-40d1-bf5f-d01201d4e04d
+type: text/vnd.tiddlywiki
 
 ''Bipartite Networks'' have two kinds of nodes, and only connections between unlike nodes.
 

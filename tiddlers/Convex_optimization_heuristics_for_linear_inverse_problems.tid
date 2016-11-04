@@ -1,7 +1,8 @@
 created: 20160808103254164
-modified: 20160808162139663
+modified: 20161104134327705
 tags: [[Linear inverse problem]] [[Convex optimization]]
 title: Convex optimization heuristics for linear inverse problems
+tmap.id: a714a8b9-c845-477c-b749-de4dde31d547
 type: text/vnd.tiddlywiki
 
 [[The Convex Geometry of Linear Inverse Problems|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/Chandra-overview.pdf]]. Seizes [[Simplicity]] of data to solve underdetermined problem. Provides a general framework to convert notions of simplicity into convex penalty functions, resulting in convex optimization solutions to linear, underdetermined in-verse problems. [[Convex optimization]], [[Linear inverse problem]]

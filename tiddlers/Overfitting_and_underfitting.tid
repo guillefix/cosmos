@@ -1,8 +1,9 @@
 created: 20160914090135656
 creator: cosmos
-modified: 20160917101049380
+modified: 20161104134331350
 modifier: cosmos
 title: Overfitting and underfitting
+tmap.id: 784308cf-055f-4b69-9343-ad16abe3df0b
 type: text/vnd.tiddlywiki
 
 Overfitting and underfitting refer to ways of misstraining a model, i.e., making it have poor generalization error, compared to the optimal model.

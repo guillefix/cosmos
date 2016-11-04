@@ -1,8 +1,10 @@
 created: 20160726123615697
 creator: guillefix
-modified: 20160726124900727
+modified: 20161104134332526
 modifier: guillefix
 title: Sparsity
+tmap.id: 910906be-ae0a-4e94-b4ea-1447cfad1221
+type: text/vnd.tiddlywiki
 
 The property of there being much fewer things than there could be. Formally, given a collection of sets of different cardinalities, if the smallest ones are much smaller than the largest ones, then they are called //sparse//. ,,"smaller"/"larger" referring to cardinality,,
 

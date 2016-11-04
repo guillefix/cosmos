@@ -1,8 +1,10 @@
 created: 20160117183416573
 creator: guillefix
-modified: 20160117183553059
+modified: 20161104134331034
 modifier: guillefix
 tags: 
 title: New Tiddler
+tmap.id: 22d98126-37f8-4d44-80dc-28b0d960edcc
+type: text/vnd.tiddlywiki
 
 <<testMacro>>

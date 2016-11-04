@@ -1,8 +1,10 @@
 created: 20160703120327871
 creator: guillefix
-modified: 20160703121055087
+modified: 20161104134329176
 modifier: guillefix
 title: Joint entropy
+tmap.id: 820102d1-d74e-442e-b897-5de24c484096
+type: text/vnd.tiddlywiki
 
 In [[Information theory]], the ''joint entropy'' of a pair of [[Random variable]] $$X$$ and $$Y$$ is defined as:
 

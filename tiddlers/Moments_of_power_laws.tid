@@ -1,7 +1,9 @@
 created: 20160623212232996
 creator: guillefix
-modified: 20160623212233557
+modified: 20161104134329775
 modifier: guillefix
 title: Moments of power laws
+tmap.id: 6bb25462-96a8-4341-a4d3-14049fb1663a
+type: text/vnd.tiddlywiki
 
 As can be shown again by approximating sum by integral, all the moments $$\langle k^m \rangle$$of a power law distribution diverge for $$m>\alpha-1$$. Of course, this is in the limit of an infinite system with the same distribution, in finite systems (as in networks with a finite number of nodes), the moment will of course be finite (for a network, $$k$$ will have a maximum value, cutting off the domain of the integral used to calculate $$C$$).

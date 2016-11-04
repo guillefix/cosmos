@@ -1,9 +1,11 @@
 created: 20160714001732153
 creator: guillefix
-modified: 20160714002007592
+modified: 20161104134327135
 modifier: guillefix
 tags: [[Lattice (algebraic structure)]] [[Mathematical logic]]
 title: Boolean algebra
+tmap.id: ad99e201-2275-448a-8ec1-3698e7f0a6b1
+type: text/vnd.tiddlywiki
 
 A ''Boolean algebra'' is an [[Algebraic structure]] that models the relations between elements which can be either true or false. It is important in [[Mathematical logic]] and in [[Computer science]].
 

@@ -1,8 +1,9 @@
 created: 20160726121357937
 creator: guillefix
-modified: 20160824105124441
+modified: 20161104134331959
 modifier: cosmos
 title: Randomness deficit
+tmap.id: 68681190-a05a-4867-a32d-b52db63c83c0
 type: text/vnd.tiddlywiki
 
 The property of a [[distribution|Probability distribution]] of [[Kolmogorov complexities|Kolmogorov complexity]] with an overrepresentation of low-complexity strings, relative to the expected distribution of complexities for a set of string chosen uniformly at random (with fixed length, and alphabet).

@@ -1,8 +1,10 @@
 created: 20160703120559925
 creator: guillefix
-modified: 20160703121224245
+modified: 20161104134327666
 modifier: guillefix
 title: Conditional entropy
+tmap.id: 0af2889f-12e1-43e2-929b-df00cdb2d505
+type: text/vnd.tiddlywiki
 
 In [[Information theory]], the ''conditional entropy'' of a [[Random variable]] $$Y$$, conditioning on another random variable $$X$$, is the average entropy of a random variable conditional on another random variable
 

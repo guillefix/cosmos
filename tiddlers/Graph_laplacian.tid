@@ -1,8 +1,10 @@
 created: 20160127131146262
 creator: guillefix
-modified: 20160130151103227
+modified: 20161104134328748
 modifier: guillefix
 title: Graph laplacian
+tmap.id: 12fe8dfa-48cb-4b0a-b739-09a71d05b213
+type: text/vnd.tiddlywiki
 
 We can describe difussion of a quantity $$\Psi_i$$ associated with node $$i$$ in a network with adjacency matrix $$A$$, with the equation:
 

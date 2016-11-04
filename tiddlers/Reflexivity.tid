@@ -1,8 +1,10 @@
 created: 20160713225530488
 creator: guillefix
-modified: 20160713225722041
+modified: 20161104134332006
 modifier: guillefix
 title: Reflexivity
+tmap.id: 3fd9ff23-ce0a-42c1-9c42-ab2f038de14c
+type: text/vnd.tiddlywiki
 
 ''Reflexivity'' refers to a property of a binary [[Relation]], $$R$$ on $$X$$:
 

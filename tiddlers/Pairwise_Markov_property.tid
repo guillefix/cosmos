@@ -1,9 +1,10 @@
 created: 20160918183503056
 creator: cosmos
-modified: 20160918183516851
+modified: 20161104134331412
 modifier: cosmos
 tags: [[Markov property]]
 title: Pairwise Markov property
+tmap.id: a48ce142-d4a1-424a-81a4-e410e73f281a
 type: text/vnd.tiddlywiki
 
 Any two non-adjacent variables are conditionally independent given all other variables

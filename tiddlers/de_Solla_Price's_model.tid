@@ -1,8 +1,10 @@
 created: 20160204201143172
 creator: guillefix
-modified: 20160215220236523
+modified: 20161104134327803
 modifier: guillefix
 title: de Solla Price's model
+tmap.id: cbcadaab-2750-49f8-b712-9ae1b461964a
+type: text/vnd.tiddlywiki
 
 <small>also known as Price's model.</small> The ''de Solla Price's model'' is a model used to explore the effect of preferential attachment in the formation of a network on the structure of the network. See [[Models of network formation]] for more information.
 

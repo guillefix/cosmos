@@ -1,8 +1,9 @@
 created: 20160623203125860
 creator: guillefix
-modified: 20161021163806001
+modified: 20161104134330774
 modifier: cosmos
 title: Neuromorphic computing
+tmap.id: 9a8c216a-1366-46ef-b4b9-64cc986812b8
 type: text/vnd.tiddlywiki
 
 [[Computing system|Computer]]s that imitate the working of [[Neuronal network]]s, at hardware and/or software level. A basic model is the [[Spiking neural network]]. One advantage is that they tend to be more energy and resource-efficient.

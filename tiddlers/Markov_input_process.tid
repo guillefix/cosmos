@@ -1,8 +1,10 @@
 created: 20160701154127709
 creator: guillefix
-modified: 20160701154214023
+modified: 20161104134329508
 modifier: guillefix
 title: Markov input process
+tmap.id: 58c25c69-0089-4b97-bfb1-3213a665ec8f
+type: text/vnd.tiddlywiki
 
 A kind of [[Information source]], produced by a [[Markov process]]
 

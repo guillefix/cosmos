@@ -1,8 +1,9 @@
 created: 20160905105924005
 creator: cosmos
-modified: 20161017134222258
+modified: 20161104134329665
 modifier: cosmos
 title: Metabolic network
+tmap.id: 3d27a9cc-a2d3-460e-9c9e-d641a05a7888
 type: text/vnd.tiddlywiki
 
 A [[Network]] of inter-regulated [[Metabolic pathway]]s.

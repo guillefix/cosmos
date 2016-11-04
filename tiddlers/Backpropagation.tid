@@ -1,8 +1,9 @@
 created: 20160918153744509
 creator: cosmos
-modified: 20160918153822243
+modified: 20161104134326986
 modifier: cosmos
 title: Backpropagation
+tmap.id: 0894b5a7-2a44-4f4c-ba13-5157e44831e2
 type: text/vnd.tiddlywiki
 
 [[backpropagation|https://www.youtube.com/watch?v=_KoWTD8T45Q&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=13]]. An algorithm to compute the derivatives, needed for [[Gradient descent]], for [[Artificial neural network]]s.

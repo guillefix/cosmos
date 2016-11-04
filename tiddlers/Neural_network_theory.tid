@@ -1,9 +1,10 @@
 created: 20160913110136500
 creator: cosmos
-modified: 20160918153858346
+modified: 20161104134329892
 modifier: cosmos
 tags: [[Artificial neural network]]
 title: Neural network theory
+tmap.id: 71a60d67-6e95-45b8-84b3-6da49b6235f0
 type: text/vnd.tiddlywiki
 
 The theory (mainly [[Learning theory]]) of [[Artificial neural network]]s. See also [[Deep learning theory]], [[Mathematical modelling of neural networks]], [[Statistical mechanics of neural networks]]

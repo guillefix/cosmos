@@ -1,8 +1,9 @@
 created: 20160627204957352
 creator: guillefix
-modified: 20161002144624887
+modified: 20161104134329187
 modifier: cosmos
 title: Jekyll
+tmap.id: 4d1a0828-fef7-4e28-b6f9-895e8310a16b
 type: text/vnd.tiddlywiki
 
 To deploy: `bundle exec jekyll serve --watch`

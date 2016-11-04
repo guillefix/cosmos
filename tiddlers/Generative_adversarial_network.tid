@@ -1,9 +1,10 @@
 created: 20161018183639198
 creator: cosmos
-modified: 20161022154446512
+modified: 20161104134328618
 modifier: cosmos
 tags: [[Generative model]]
 title: Generative adversarial network
+tmap.id: 517ed2dc-97df-437d-a5fe-096124b8f399
 type: text/vnd.tiddlywiki
 
 An architecture to train generative neural networks, i.e. [[neural networks|Artificial neural network]] which act as [[Generative model]]s, i.e. their inputs are [[Latent variable]]s, and their output is the observed data.

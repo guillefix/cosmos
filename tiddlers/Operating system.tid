@@ -1,0 +1,27 @@
+created: 20160624210712741
+creator: guillefix
+modified: 20161104121100251
+modifier: cosmos
+revision: 1
+tags: Software
+title: Operating system
+type: text/vnd.tiddlywiki
+
+[[Operating System Basics|https://www.youtube.com/watch?v=9GDX-IyZ_C8]]
+
+!!__Device management__
+
+!!__Managing processes__
+
+Modern operating systems that are designed for multitasking, make use of [[Concurrent computing]] ideas, such as [[Multithreading]]
+
+//Interprocess communication (IPC)//
+
+//daemons//
+
+!!__[[Memory management]]__
+
+!!__System calls__
+
+!!__File system__
+

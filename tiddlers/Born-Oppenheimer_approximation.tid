@@ -1,8 +1,9 @@
 created: 20161010115955687
 creator: cosmos
-modified: 20161010123420975
+modified: 20161104134327235
 modifier: cosmos
 title: Born-Oppenheimer approximation
+tmap.id: 508ad908-27fa-49e2-87b0-e79e9fa45366
 type: text/vnd.tiddlywiki
 
 A separation of scales approximation used in [[Molecular physics]], where the electrons "move" much faster than the nuclei.

@@ -1,9 +1,10 @@
 created: 20160825164651905
 creator: cosmos
-modified: 20160904163519992
+modified: 20161104134328921
 modifier: cosmos
 tags: [[Universal AI]]
 title: Hutter search
+tmap.id: 35bea7fb-ed4d-4bd8-9012-a775623fee45
 type: application/x-tiddler
 
 An extension of [[Levin search]] to evaluate any computable function with asymptotically optimal [[Computational complexity]]

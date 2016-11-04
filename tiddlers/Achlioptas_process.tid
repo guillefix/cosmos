@@ -1,8 +1,10 @@
 created: 20160613155648733
 creator: guillefix
-modified: 20160613180037423
+modified: 20161104134326758
 modifier: guillefix
 title: Achlioptas process
+tmap.id: db77356f-97c5-42c9-9e1f-c3ec3304636d
+type: text/vnd.tiddlywiki
 
 An ''Achlioptas process'' is a type of [[Explosive percolation]], also known as $$m$$-edge processes, that involve choosing $$m$$ candidate edges uniformly at random between any pair of nodes (compare with other [[Spanning cluster-avoiding process]])and applying a rule to select which one is actually chosen. These have been proven to be continuous in the thermodynamic limit, for a fixed $$m$$. They are generalizations of Erdos-Renyi [[Random graph]]s.
 

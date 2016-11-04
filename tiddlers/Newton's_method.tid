@@ -1,9 +1,10 @@
 created: 20160918160757187
 creator: cosmos
-modified: 20161026163722894
+modified: 20161104134331021
 modifier: cosmos
 tags: [[Gradient descent]]
 title: Newton's method
+tmap.id: 4560555a-9aa7-4f38-b8bc-05101c5a5c31
 type: text/vnd.tiddlywiki
 
 A method to find stationary points of a function. Note that it doesn't necessarily minimize.. Also it's more computationally intensive than [[Gradient descent]], but it tends to converge faster!

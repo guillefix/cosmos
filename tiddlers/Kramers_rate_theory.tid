@@ -1,8 +1,10 @@
 created: 20160121142938484
 creator: guillefix
-modified: 20160326033419294
+modified: 20161104134329271
 modifier: guillefix
 title: Kramers rate theory
+tmap.id: 722d4dc5-7c5c-4468-8eec-291f09742e47
+type: text/vnd.tiddlywiki
 
 [[Laplace method]] approximation of the [[mean first-passage time|First-passage time]] for a degree of freedom following a Fokker-Planck equation to overcome a barrier. Most easily solved in 1D, where the result is:
 

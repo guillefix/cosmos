@@ -1,8 +1,10 @@
 created: 20160420215301919
 creator: guillefix
-modified: 20160420215306274
+modified: 20161104134327429
 modifier: guillefix
 title: Common features of GP maps
+tmap.id: a2e6a550-cafd-4424-b684-e0c3b0ca2362
+type: text/vnd.tiddlywiki
 
 * ''Redundancy''. Many genotypes per phenotype.
 

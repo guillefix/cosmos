@@ -1,9 +1,10 @@
 created: 20160821081415623
 creator: cosmos
-modified: 20161103013851394
+modified: 20161104134328612
 modifier: cosmos
 tags: [[Supervised learning]]
 title: Generative supervised learning
+tmap.id: a7372e80-d95e-40f9-af67-72c22b7d2819
 type: text/vnd.tiddlywiki
 
 ''Generative unsupervised learning'' refers to a kind of [[Supervised learning]] task where the objective is learning the function $$p(\text{input}|\text{output})$$, together with $$p(\text{output})$$, which can be used to find $$p(\text{output}|\text{input})$$ using [[Baye's theorem]]. 

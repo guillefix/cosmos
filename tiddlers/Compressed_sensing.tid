@@ -1,9 +1,10 @@
 created: 20160726112543988
 creator: guillefix
-modified: 20160811071416763
+modified: 20161104134327496
 modifier: cosmos
 tags: [[Data compression]] Sampling
 title: Compressed sensing
+tmap.id: bb51c86e-7bff-438c-b191-eb7542d1b46d
 type: text/vnd.tiddlywiki
 
 //,,why spend so much effort acquiring all the data when we know that most of it will be discarded?,,//

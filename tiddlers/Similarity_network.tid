@@ -1,9 +1,11 @@
 created: 20160131222359508
 creator: guillefix
-modified: 20160131223035217
+modified: 20161104134332402
 modifier: guillefix
 tags: 
 title: Similarity network
+tmap.id: 3443f166-1e34-40e7-b626-dd376b9714d2
+type: text/vnd.tiddlywiki
 
 A ''Similarity network'' is one that expressed how similar entities (expressed as the nodes) are. The degree of similarity being the weight of the node.
 

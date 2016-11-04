@@ -1,8 +1,10 @@
 created: 20160714012759056
 creator: guillefix
-modified: 20160714013005341
+modified: 20161104134327529
 modifier: guillefix
 title: Compact space
+tmap.id: e53b6b52-e577-457b-af4b-7e07c9dbca74
+type: text/vnd.tiddlywiki
 
 A [[Topological space]] $$X$$ is //compact// if every [[Filter base]] $$\mathcal{B}$$ on $$X$$ has an accumulation point. That is, there exists $$x \in X$$ such that
 

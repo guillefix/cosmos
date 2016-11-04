@@ -1,8 +1,10 @@
 created: 20160713223554157
 creator: guillefix
-modified: 20160713224125477
+modified: 20161104134329694
 modifier: guillefix
 title: Metric
+tmap.id: 3c0749a5-8da8-45c4-b430-217ef74e3330
+type: text/vnd.tiddlywiki
 
 A ''metric'' on a [[Set]] $$X$$ is a [[map|Function]] $$d: X \times X \rightarrow \mathbb{R}$$ (i.e. from the [[Cartesian square|Cartesian power]] of $$X$$ to the [[Real number]]s), that satisfies the conditions:
 

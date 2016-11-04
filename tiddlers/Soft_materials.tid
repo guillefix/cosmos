@@ -1,8 +1,10 @@
 created: 20160504180523417
 creator: guillefix
-modified: 20160602221423715
+modified: 20161104134332478
 modifier: guillefix
 title: Soft materials
+tmap.id: 32301613-a6e2-4d52-a233-bd178d60e7bc
+type: text/vnd.tiddlywiki
 
 * Simple liquids (fully homogeneous/isotropic). See [[Fluid mechanics]]. The fluid may be a [[solution|Solution (Chemistry)]], but that only changes it [[chemical|Chemistry]] properties, not its physical ones.
 * Several types of [[complex fluids|Complex fluid dynamics]]. Main types:

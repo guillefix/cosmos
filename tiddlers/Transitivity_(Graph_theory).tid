@@ -1,8 +1,10 @@
 created: 20160129140350573
 creator: guillefix
-modified: 20160130130918247
+modified: 20161104134332948
 modifier: guillefix
 title: Transitivity (Graph theory)
+tmap.id: 8e73d2ab-b9d4-41e9-8522-b70d301466db
+type: text/vnd.tiddlywiki
 
 Transitivity|Transitivity (Graph theory) (a property of mathematical relations) in a network is usually applied to the relation "is connected by an edge". So a network is transitive if for every u connected to v and v connected to w, then u is connected to w. It's not hard to show that a perfectly transitive network can only have components that are fully connected, or //cliques//.
 

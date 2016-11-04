@@ -1,8 +1,10 @@
 created: 20160711224908056
 creator: guillefix
-modified: 20160711224915360
+modified: 20161104134328305
 modifier: guillefix
 title: Examples of finite-state transducers and their simplicity bias
+tmap.id: 9a01fc1c-9fd0-4ed1-b49d-7572c7057967
+type: text/vnd.tiddlywiki
 
 See [[Simplicity bias in finite-state transducers]]
 

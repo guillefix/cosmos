@@ -1,8 +1,10 @@
 created: 20160713230343416
 creator: guillefix
-modified: 20160713230528953
+modified: 20161104134332694
 modifier: guillefix
 title: Symmetric property
+tmap.id: 18ecba0a-d5e2-4e11-b54f-a0c234bc01c0
+type: text/vnd.tiddlywiki
 
 The ''symmetric property'', or just //symmetry//, in [[Set theory]], is a property of a binary [[Relation]] on a [[Set]] $$X$$:
 
