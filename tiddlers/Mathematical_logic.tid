@@ -1,8 +1,8 @@
 created: 20160329130824070
 creator: guillefix
 list-after: Abstract algebra
-modified: 20161104134329534
-modifier: guillefix
+modified: 20161211222651147
+modifier: cosmos
 tags: Logic Mathematics [[Theoretical computer science]]
 title: Mathematical logic
 tmap.id: c8c2f3e9-6d29-4a9a-a9bf-0cec360b4e9b
@@ -19,3 +19,25 @@ See [[Discrete mathematics]], [[Theoretical computer science]], [[Logic]]..
 [[Mathematics - Mathematical Logic|https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG]]
 
 [[NPTEL Computer Sc - Discrete Mathematical Structures|https://www.youtube.com/playlist?list=PL49BFCFA7DE423CEC]]
+
+[[Metamathematics]]
+
+!!__Boolean logic__
+
+[[Boolean algebra]]
+
+!!__[[Set theory]]__
+
+[[Theory of types]]. An axiomatization of set theory by Russell and Whitehead, that creates a hierarchy of sets to avoid [[Strange loop]]s and [[Paradox]]es
+
+!!__[[Proof theory]]__
+
+--------------
+
+[[Formal system]]s
+
+http://us.metamath.org/mpegif/mmset.html#overview
+
+[[Metamath Proof Explorer: A Modern Principia Mathematica|https://www.youtube.com/watch?v=8WH4Rd4UKGE]]
+
+http://ghilbert-app.appspot.com/ -- http://math.stackexchange.com/questions/1111758/is-there-a-canonical-database-of-theorems

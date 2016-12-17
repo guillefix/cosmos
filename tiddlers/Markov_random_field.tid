@@ -1,6 +1,6 @@
 created: 20160913195043408
 creator: cosmos
-modified: 20161104134329499
+modified: 20161206173701999
 modifier: cosmos
 title: Markov random field
 tmap.id: 5f8a0709-f92a-4ab3-99ed-e904e0b05ba9
@@ -8,3 +8,6 @@ type: text/vnd.tiddlywiki
 
 
 R. Kindermann and J. L. Snell (1980) -- Markov random fields and their applications. also ''Markov networks''
+
+
+[[Combinatorics of Feynman Diagrams for the Problems with Gaussian Random Field|https://arxiv.org/abs/cond-mat/9706062]]

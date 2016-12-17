@@ -1,6 +1,6 @@
 created: 20160920185230418
 creator: cosmos
-modified: 20161104134328039
+modified: 20161124110905196
 modifier: cosmos
 title: DNA transcription
 tmap.id: 1b651e3e-2c67-4afc-9ace-7dcaf3fa3f2c
@@ -27,6 +27,10 @@ Many factors.... Helps with helicase activity. [[phosphorelates|Phosphorelation]
 * TFIIH
 
 * [[Transcription factor]]s
+
+* [[Promoter region]]. The composition and size of the promoter region affects the probability of that gene bing transcribed.
+
+RNA polymerase levels and ribosome leves is affected by cell growth rates. This affects gene expression.
 
 !!__Transcription elongation__
 

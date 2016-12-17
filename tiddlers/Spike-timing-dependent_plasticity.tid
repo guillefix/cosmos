@@ -1,0 +1,23 @@
+created: 20161127190735442
+creator: cosmos
+modified: 20161201202041267
+modifier: cosmos
+title: Spike-timing-dependent plasticity
+tmap.id: e3bf2566-d949-4018-a167-046d954f68e4
+type: text/vnd.tiddlywiki
+
+ in the brain, a synapse may be strengthened if the pre-synaptic spike occurs about 10-20ms before the post-synaptic spike, but weakened if the pre-synaptic spike occurs about 10-20ms after the post-synaptic spike. This is known as spike time dependent plasticity (STDP). 
+
+See [[Memory]], [[Hebbian theory]]__Long-term potentiation (LTP) and long-term depression (LTD)__
+
+[[vid|https://www.youtube.com/watch?v=hLs3m6nIJ1E&index=26&list=PL4C48902B3A4ED0F4#t=6m40s]]
+
+9.	Bi, G.Q. and M.M. Poo, Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type. J Neurosci, 1998. 18(24): p. 10464-72.
+10.	Markram, H., et al., Regulation of synaptic efficacy by coincidence of postsynaptic APs and EPSPs. Science, 1997. 275(5297): p. 213-5.
+
+* ''Causation''. Strengthening of synapse when presynaptic cell spikes before the postsynaptic cell. Cells want to remember patterns in the right temporal sequence. Because synapses are causal entities, only pre-postsynaptic cell firings could be replicated by them, and so only these are learned. In fact correlated firing in the opposite order, weakens the synapse.
+** Note that we can learn to think of causes given an effect, due to the hierarchical structure of our brains. If for some reason the thought of an effect gives rise to the thought of a cause, the former thought precedes the other, and so these thoughts can be learned in this order.
+
+* ''Correlation''. Hebbian strengthening (LTP and LTD) only occurs if the firing occurs between a window of 20ms.
+
+http://www.scholarpedia.org/article/Spike-timing-dependent_plasticity

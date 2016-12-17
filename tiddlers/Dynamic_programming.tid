@@ -1,7 +1,7 @@
 created: 20160130233128156
 creator: guillefix
-modified: 20161104134328068
-modifier: guillefix
+modified: 20161116111227987
+modifier: cosmos
 tags: [[Software engineering]]
 title: Dynamic programming
 tmap.id: 876b28a5-1944-4638-8ee5-befc755cef1d
@@ -9,5 +9,9 @@ type: text/vnd.tiddlywiki
 
 https://en.wikipedia.org/wiki/Dynamic_programming
 
+!!!__[[Properties we need|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=4m]]__
+
 *Overlapping subproblems -> memorization: record value 1st time it's computed, then look it up subsequently. Table lookup
 *Optimal substructure: global optimal solution can be constructed from optimal solutions to sub-problems.
+
+[[video|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=2m30s]]

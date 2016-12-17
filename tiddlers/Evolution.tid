@@ -1,7 +1,7 @@
 created: 20160303224225485
 creator: guillefix
-modified: 20161104134328226
-modifier: guillefix
+modified: 20161124193225488
+modifier: cosmos
 tags: Self-organization [[Biodiversity & evolution]]
 title: Evolution
 tmap.id: 97637575-0608-4938-8d9b-6d637b2577b7
@@ -15,7 +15,9 @@ See [[MMathPhys oral presentation]],  [[Evolutionary computing]], [[Genetics]]
 
 !__Evolutionary biology__
 
-Read book: Dawkins - The extended phenotype
+Read book: Dawkins - The extended phenotype, the selfish gene
+
+Evolution also selects other things which are inherited, such as [[Protein]]s and other [[biological systems|Systems biology]].
 
 [[Evolutionary Dynamics- Exploring the Equations of Life - by Martin A. Nowak|http://www.hup.harvard.edu/catalog.php?isbn=9780674023383]]
 [[slides|http://www.claymath.org/library/academy/LectureNotes/Nowak.pdf]]

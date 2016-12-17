@@ -1,0 +1,20 @@
+created: 20161203112915462
+creator: cosmos
+modified: 20161203114406459
+modifier: cosmos
+tags: Electrophoresis Electrochemistry
+title: Nernst relation
+tmap.id: c5728d25-56d8-4bf9-9c93-2b85b9793998
+type: text/vnd.tiddlywiki
+
+A formula relating the potential difference between two planes, to the ratio in concentration of [[Ion]]s at the two planes, when ignoring the interionic interactions (ok at low ionic concentrations), and at equilibrium. For out-of equilibrium, on gets a [[Fokker-Planck equation]] (advection-diffusion equation).
+
+For derivation in [[electrochemical|Electrochemistry]] terms, see [[wikipedia|https://www.wikiwand.com/en/Nernst_equation]].
+
+For a derivation in terms of [[Kinetic theory]], see the [[Nelson's biological physics book (sec 4.6.3 page 125)|NernstRelationDerivation.pdf]]
+
+|$$j=D(-\frac{dc}{dx} + \frac{q}{k_B T} \mathcal{E} c)$$|''Nernst-Planck formula''|
+
+At equilibrium, the flux $$j=0$$, giving (after integrating over $$x$$):
+
+|$$\Delta(\ln{c})=-q \Delta V_{eq} / k_B T$$| ''Nernst relation''|

@@ -1,8 +1,8 @@
 created: 20160627204426773
 creator: guillefix
-modified: 20161104134329170
-modifier: guillefix
-tags: [[Computability theory]]
+modified: 20161210001751995
+modifier: cosmos
+tags: [[Frontend web development]]
 title: JS animation libraries
 tmap.id: 4309de74-9d71-4900-9f81-419db37ca8d0
 type: text/vnd.tiddlywiki
@@ -11,4 +11,4 @@ Animation: http://laughinghan.github.io/radiance/
 
 <mark><big>Awesome</big></mark>: timeline-based web animations with gui: https://spiritjs.io/
 
-Also for animation: http://anime-js.com/
+Also for animation: http://anime-js.com/ -- https://www.sitepoint.com/animating-the-dom-with-anime-js/?utm_content=buffer04622&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer

@@ -1,6 +1,6 @@
 created: 20160704164449084
 creator: guillefix
-modified: 20161104134328742
+modified: 20161206174228622
 modifier: cosmos
 tags: [[Machine learning]]
 title: Graphical model
@@ -23,3 +23,9 @@ See [[here|https://www.youtube.com/watch?v=ZYUnyyVgtyA&list=PL6Xpj9I5qXYEcOhn7Tq
 __[[Graphical models|https://en.wikipedia.org/wiki/Graphical_model]]__
 
 They can often be represented as kinds of [[Artificial neural network]]s
+
+[[Energy minimization|http://mpawankumar.info/teaching/cdt-optimization/lecture2_2.pdf]]
+
+--------------------
+
+!!![[Composing graphical models with neural networks|https://www.youtube.com/watch?v=btr1poCYIzw]]

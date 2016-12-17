@@ -1,0 +1,19 @@
+created: 20161107142231308
+creator: cosmos
+modified: 20161107142954823
+modifier: cosmos
+tags: [[Multivariate calculus]]
+title: Hessian
+tmap.id: d331e524-3e29-4f84-9520-57d3982cb01d
+type: text/vnd.tiddlywiki
+
+The ''Hessian'' of a function $$f$$ of multiple variables $$\vec{x}$$ is defined as the matrix of second [[Partial derivative]]s:
+
+$$ H[f](\vec{x}) = \begin{bmatrix}
+    \frac{\partial^2 f}{\partial x_1 ^2} & \cdots & \frac{\partial^2 f}{\partial x_1 \partial x_n} \\
+    \frac{\partial^2 f}{\partial x_2 \partial x_1} & \cdots & \frac{\partial^2 f}{\partial x_2 \partial x_n} \\
+    .       &  & . \\
+    . & & . \\
+    . & & . \\
+    \frac{\partial^2 f}{\partial x_n \partial x_1}  & \cdots &\frac{\partial^2 f}{\partial x_n ^2}
+\end{bmatrix}$$

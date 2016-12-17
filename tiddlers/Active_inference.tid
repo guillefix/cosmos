@@ -1,0 +1,13 @@
+created: 20161123204458528
+creator: cosmos
+modified: 20161123204653544
+modifier: cosmos
+title: Active inference
+tmap.id: d02e09ef-306d-4bf5-98cb-6720fe2cb81a
+type: text/vnd.tiddlywiki
+
+We have shown recently that adaptive behaviour can be prescribed by prior expectations about sensory inputs, which action tries to fulfill [6]. This is calledactive inference
+
+See [[Free energy principle]], [[Inference]], [[Machine learning]], [[Reinforcement learning]]
+
+Essentially, active inference replaces value-learning with perceptual learning that optimises empirical (acquired) priors in the agent’s internal model of its world. These priors specify the free energy associated with sensory signals and guide action to ensure sensations conform to prior beliefs.

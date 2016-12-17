@@ -1,7 +1,7 @@
 created: 20160510112205476
 creator: guillefix
-modified: 20161104134332376
-modifier: guillefix
+modified: 20161123125113360
+modifier: cosmos
 tags: [[Information science]] [[Electronic engineering]] [[Audiovisual engineering]]
 title: Signal processing
 tmap.id: be74a0f9-3a52-4e09-995d-d4bdc25203a3
@@ -14,3 +14,5 @@ https://en.wikipedia.org/wiki/Signal_processing
 [[Filter (signal processing)]]
 
 [[Sampling theory]]
+
+[[Convolution]], [[Cross-correlation]], [[Laplace transform]], [[Fourier transform]]

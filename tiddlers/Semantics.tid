@@ -1,0 +1,17 @@
+created: 20161106172008435
+creator: cosmos
+modified: 20161106172827322
+modifier: cosmos
+title: Semantics
+tmap.id: 85c5611a-a6ba-4ef6-946d-d24aa36fe7a5
+type: text/vnd.tiddlywiki
+
+the study of [[Meaning]].
+
+__[[Formal systems and semantics]]__
+
+Hofstadter argues that meaning is a [[Morphism]] (often [[Isomorphism]]s) between a [[language|Formal language]] (produced by a [[Formal system]]) and another space. See [[Formal systems and semantics]] for more.
+
+The mapping itself is known as an //interpretation//.
+
+Inferring semantics, is like deciphering a code or an old language. See page 50 of GEB.

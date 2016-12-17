@@ -1,6 +1,6 @@
 created: 20160328182624640
 creator: guillefix
-modified: 20161104134327785
+modified: 20161211181823891
 modifier: cosmos
 tags: [[Machine learning]]
 title: Deep learning
@@ -125,5 +125,7 @@ __Books and reources__
 https://deepmind.com/publications.html
 
 http://www.deeplearningbook.org/
+
+http://carpedm20.github.io/
 
 --------------

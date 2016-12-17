@@ -1,13 +1,13 @@
 created: 20160321215117738
 creator: guillefix
-modified: 20161104134330587
+modified: 20161213221216268
 modifier: cosmos
 tags: Biology [[Human intelligence]]
 title: Neuroscience
 tmap.id: f44dead6-66e1-48fa-b282-71c276875abd
 type: text/vnd.tiddlywiki
 
-The study of the [[Brain]], and the [[Nervous system]]
+The study of the [[Brain]], and the [[Nervous system]]. (//Brain science// included)
 
 https://www.youtube.com/watch?v=4y43qwS8fl4
 
@@ -23,13 +23,29 @@ https://www.youtube.com/watch?v=4y43qwS8fl4
 
 See [[Neuronal network]], and [[Neuromorphic computing]].
 
-!!__[[Hebbian theory]]__
+[[Karl Friston talk|https://www.youtube.com/watch?v=zWFfZHqOnvM]]
 
-"Cells that fire together, wire together."
+!__System levels__
 
-!!__[[Brain]]__ 
+!!!__1. [[Neuron]]__
 
-!!__Neural code__
+!!!__2. [[Neural system]]__
+
+-- [[Neuronal network]]s
+
+-- in the [[Cortex]]: [[Corticonics]]
+
+!!!__3. [[Brain]]__
+
+--------------------
+
+!__Areas of study__
+
+!!__[[Neuroanatomy]]__
+
+!!__Neural codes__
+
+//Understanding the way [[Information]] is [[encoded|Coding theory]] in neurons, and their firing//
 
 Firing rate <> Amplitude of estimulus.
 
@@ -43,17 +59,7 @@ Temporal coding
 
 Binding through coherence. [[Brain oscillation]]s
 
-!!__Movement__
-
-Sensory-motor coordination.
-
-Inverse model, neural emulator.
-
-[[Reinforcement learning]]!
-
-Hummunculus
-
-!!__Computational neuroscience__
+!!__[[Computational neuroscience]]__
 
 From brain activity
 
@@ -61,5 +67,24 @@ Circuits <> Computations <> Behaviour
 
 In trying to understand machinery we often assume as if it was constructed, but it evolved
 
-!!__[[Consciousness]]__
+!!!__Theoretical neuroscience__
 
+[[Theoretical Neuroscience book|http://www.gatsby.ucl.ac.uk/~dayan/book/index.html]]
+
+!!__[[Cognitive neuroscience]]__
+
+//How neurons and other systems in the brain give rise to [[Cognition]]//
+
+!!!__[[Human learning]]__
+
+__[[Hebbian theory]]__
+
+"Cells that fire together, wire together."
+
+!!!__[[Consciousness]]__
+
+-----------------
+
+[[Mu-ming Poo (UC Berkeley, CAS Shanghai) Part 1: The Cellular Basis of Learning and Memory|https://www.youtube.com/watch?v=ATR0os9w2jY&index=27&list=PL4C48902B3A4ED0F4]]
+
+[[Carl Sagan on the brain|https://www.youtube.com/watch?v=HvRKdG-QM6c#t=9m32s]]

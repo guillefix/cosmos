@@ -1,54 +1,53 @@
 created: 20160121192914443
 creator: guillefix
-modified: 20161104134332727
+modified: 20161124113419272
 modifier: cosmos
 tags: Biology
 title: Synthetic biology
 tmap.id: fd5e0293-666f-47e6-8e41-b67bcb1cbe79
 type: text/vnd.tiddlywiki
 
-(Lecture Notes in Artificial Intelligence volume 5777) Kampis, Karsai, Szathmáry-Advances in Artificial Life_ Darwin Meets von Neumann, Part 1(2011)
+[[Engineering]] [[Biology]]
 
-[[Xenobiology|https://en.wikipedia.org/wiki/Xenobiology]]. Craig Venter, George Church
+[[Registry of standard biological parts|http://parts.igem.org/Main_Page]]
+
+!!!__Tuning transcription, translation degradation__
+
+Tune [[Gene expression]]: [[DNA transcription]], [[mRNA translation]].
+
+* ''Tuning transcription'':
+** Tune promoter regions. Operator and activator sequences.
+** transcription factors, inducers to tune the activity of the promoter region.
+
+* ''Tuning translation'':
+** Tune RBS (see [[mRNA translation]]). Translation regulated by changing mRNA secondary structure.
+** Tune codon usage. Some codons, that give rise to the same amino acid may result in more efficient translation. Due to abundance of [[tRNA]] (be careful with comptetition for the same tRNA, which can change their availability), change in secondary structure. There can be problems with [[Protein folding]], as protein folding can depend on translation speed. [[RNA stability]]
+
+* ''Tuning [[Protein degradation]]''. Use tags that label proteins for faster degradation. 
+
+''Reporter''s.
+
+* $$\beta$$-galactosidase (encoded by lacZ)
+* $$\beta$$-glucoronidase. Similar. (GUS)
+* Luciferase, luciferin
+** Bacterial luciferase
+** [[Green fluorescent protein]]. Many colours obtained by [[Artificial selection]].
+
+Craig Venter, George Church
 
 ---------
 
-Membrane properties. 
-
-Protein pores: transport polymers across membranes. Often they have to unfold and fold.
-
-Stocastic sensing.
-
-SIgle-molecule chemistry
-
-Protein engineering, chemical synthesis, biophysical methods
-
-alpha-Hemolysin protein pore.
-
-How can a water souble protein assemble into a transmembrane pore?
-
-3D droplet networks are tissue-like materials. aqueous droplets networks. 
-
-Synthetic biology Woolfosn Bromley 2011.
-Nice diagram
-
-Synthia
-
-...completelly synthetic cells.
-
-Protein components for nanodevices, Bayey, et al.
-
-Droplets water in an oil form monolayer, but two of tese wil tend to come togehter and forma  bilayer. There is a force that attracts them. Probably kinetically stable.
-
-Lipid coated hydrogels as components...
-
-The 7R "diode" 
-
-Folding dropplet networks using osmolarity,  different salt concentrations in eac. 
-
-Soft robots. Light for sensing, power generation and patterning.. Bacteriorhodopsin:light-driven proton pump.
+!!![[3D bioprinting]]
 
 -------------
+
+!!!Design of biological circuits and systems
+
+[[Control theory and control systems]], depends on a lot of the theory and knowledge of [[Systems biology]]
+
+[img[synbio_IT_analogy.png]]
+
+----------------
 
 https://autodeskresearch.com/groups/bionano
 
@@ -57,3 +56,7 @@ http://www.synthace.com/
 http://ginkgobioworks.com/
 
 http://www.nanalyze.com/2016/03/3-companies-building-nanorobot-factories/
+
+(Lecture Notes in Artificial Intelligence volume 5777) Kampis, Karsai, Szathmáry-Advances in Artificial Life_ Darwin Meets von Neumann, Part 1(2011)
+
+[[Xenobiology|https://en.wikipedia.org/wiki/Xenobiology]]. Craig Venter, George Church

@@ -1,0 +1,11 @@
+created: 20161124102620363
+creator: cosmos
+modified: 20161124102734654
+modifier: cosmos
+title: RNA stability
+tmap.id: 1bd0f5c0-2bff-42a4-9c0e-5174deeda1d0
+type: text/vnd.tiddlywiki
+
+[[RNA]] is degraded by [[RNase]]s. Hlaf life typically 1-2 minutes in [[E. Coli]]
+
+Stem loops at 5' end can increase mRNA half-life 5-10 fold ~ 24min.

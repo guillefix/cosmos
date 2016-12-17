@@ -1,6 +1,6 @@
 created: 20160915191802219
 creator: cosmos
-modified: 20161104134331829
+modified: 20161121174147557
 modifier: cosmos
 tags: [[Unsupervised learning]]
 title: Principal component analysis
@@ -13,9 +13,9 @@ type: text/vnd.tiddlywiki
 
 Given $$\{ x^{(1)}, ..., x^{(n)}\}$$ where $$ x^{(i)} \in \mathbb{R}^n$$
 
-Reduce it to $$k$$-dimensional data set ($$k < n$$, often $$k \ll n$$).
+Reduce it to $$k$$-dimensional data set ($$k < n$$, often $$k \ll n$$), so that the dimensions we retain are able to recover the data as well as possible.
 
-[[Examples|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=38m50s]]
+[[Examples|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=38m50s]], [[oxford notes|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/ML-MT2016/slides/slides13.pdf]]
 
 !!__Algorithm__
 
@@ -40,7 +40,7 @@ Reduce it to $$k$$-dimensional data set ($$k < n$$, often $$k \ll n$$).
 !!!__Finding principal components__
 
 [[Example and intuition|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=45m45s]]: we want to find the direction so that when we project the data to the line pointing in that direction, the variance of the data is as high as possible.
-,,Note: If $$||u||=1$$, vector $$x^{(i)}$$ projected onto $$u$$ has length $$(x^{(i)})^T u$$.,,
+,,Note: If $$||u||=1$$, vector $$x^{(i)}$$ projected onto $$u$$ has length $$(x^{(i)})^T u$$.,, This also minimizes the variance perpendicular to that line.
 
 Choose $$u$$ s.t.:
 

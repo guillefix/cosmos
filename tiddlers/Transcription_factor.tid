@@ -1,6 +1,6 @@
 created: 20161014121741875
 creator: cosmos
-modified: 20161104134332906
+modified: 20161124100024957
 modifier: cosmos
 title: Transcription factor
 tmap.id: c17f3ab6-de66-4960-a8f2-081a95f08b54
@@ -11,6 +11,18 @@ Molecules that affect [[Gene expression]], by affecting [[DNA transcription]]
 * Direct interaction
 * ...
 
-[img[https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Transcription_Factors.svg/1000px-Transcription_Factors.svg.png]]
+.........
+
+* Repressor
+* Activator
+* Inducers: affect the binding affinity of other transcription factors.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Transcription_Factors.svg/1000px-Transcription_Factors.svg.png" style="background:white;">
 
 https://en.wikipedia.org/wiki/Transcription_factor
+
+__[[Sigma factor]]__
+
+[[Sigma factor]] binds before [[RNA polymerase]] binds. Several kinds of sigma factors.
+
+Many transcription factors affect the sigma factor binding site, affecting the probability of RNA polymerase binding.

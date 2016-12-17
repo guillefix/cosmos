@@ -1,5 +1,7 @@
 created: 20160807235647590
-modified: 20161104134327711
+creator: cosmos
+modified: 20161107105455769
+modifier: cosmos
 tags: Analysis
 title: Convex analysis
 tmap.id: 359921c7-1f10-4330-bb38-74de85306d9a
@@ -10,6 +12,12 @@ type: text/vnd.tiddlywiki
 This has applications to [[Convex optimization]]
 
 https://www.wikiwand.com/en/Convex_hull
+
+__Convex combination__
+
+$$\lambda X_1 + (1-\lambda) X_2$$
+
+See full definition [[here|https://www.wikiwand.com/en/Convex_combination]]
 
 !!__Convex calculus__
 

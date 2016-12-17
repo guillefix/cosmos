@@ -1,7 +1,7 @@
 created: 20160221175622657
 creator: guillefix
-modified: 20161104134332314
-modifier: guillefix
+modified: 20161123220716784
+modifier: cosmos
 tags: [[Complex systems]]
 title: Self-organization
 tmap.id: 336a38c7-2b23-489a-8b55-de4c45c8b708
@@ -22,6 +22,8 @@ http://pcp.vub.ac.be/SELFORG.html
 [[The Meaning of Self-organization in Computing|http://pespmc1.vub.ac.be/papers/IEEE.Self-organization.pdf]]. See [[Complexity theory]], [[Complex systems]], [[Sloppy systems]]  Several people at the Free University of Brussels seem to be working on complex systems, from a very holistic approach.
 
 [[Evolution]], and feedback.
+
+[[Free energy principle]]
 
 How does one define evolving systems that accomplish a desired function? We need the right feedbacks in a complex system. But the answer is not obvious. See [[Evolutionary computing]]
 

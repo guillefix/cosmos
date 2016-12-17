@@ -1,6 +1,6 @@
 created: 20161104095037040
 creator: cosmos
-modified: 20161104134328556
+modified: 20161104153910942
 modifier: cosmos
 tags: [[Artificial intelligence]]
 title: General artificial intelligence
@@ -13,15 +13,25 @@ An [[Artificial intelligence]] that displays the full range of features associat
 
 [[Symbolic reasoning]] -- [[Logic]]
 
-[[Integrating symbols into deep learning]]
+!!!''cognitive structures'' built with [[Artificial neural network]]s
 
-[[Program induction]]
+[[Integrating symbols into deep learning]] 
 
 [[Augmented RNN]]
 
 * [[Neural networks with memory]]
 ** [[Neural Turing machine]]
 
+!!!Other approaches
+
+[[Program induction]]
+
 [[Universal AI]] theory
 
 [[Spiking neural network]] -- [[Hybrid neural network]].. -- inspiration from [[Neuroscience]]
+
+!!__Problems__
+
+[[Binding problem]]
+
+See [[Intelligence]] for more.

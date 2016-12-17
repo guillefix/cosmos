@@ -1,6 +1,6 @@
 created: 20160709021850299
 creator: guillefix
-modified: 20161104134332904
+modified: 20161107171010151
 modifier: cosmos
 title: Transfer learning
 tmap.id: 1601768f-f264-4d01-8c31-52ab35c1fca4
@@ -14,7 +14,7 @@ See [[Deep learning]]
 
 good for generalizing models, . Good when don't have much supervision data.
 
-''[[Max-margin|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=29m25s]]'': learning a function that identifies sensible data (e.g. sentences that make sense), thats what we do with the algorithm he explains of finding a prob dist bigger at the data points that "anywhere" else. This will, in particular, make the NN learn a good representation of the data, or //embedding//. For this we use ''hinge loss''. In practice, [[we do this|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=37m30s]]
+!!![[Max-margin learning]]
 
 Learn embeddings in one task and transfer these to solve new tasks
 

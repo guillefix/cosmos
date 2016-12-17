@@ -1,6 +1,6 @@
 created: 20160329153405246
 creator: guillefix
-modified: 20161104134332997
+modified: 20161210225714065
 modifier: cosmos
 tags: [[Machine learning]]
 title: Unsupervised learning
@@ -11,6 +11,7 @@ type: text/vnd.tiddlywiki
 
 [[Supervised vs unsupervised|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=4m47]]
 
+[[RI Seminar: Yann LeCun : The Next Frontier in AI: Unsupervised Learning|https://www.youtube.com/watch?v=IbjF5VjniVE]]
 
 See [[Machine learning]]. Given a set of data $$D=\{x^{(i)}\}_{i=1}^m $$, finding "interesting patterns" in the data.
 

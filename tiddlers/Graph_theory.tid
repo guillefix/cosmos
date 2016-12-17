@@ -1,21 +1,46 @@
 created: 20160122182424302
 creator: guillefix
-modified: 20161104134328745
-modifier: guillefix
+modified: 20161121110131046
+modifier: cosmos
 tags: [[Discrete mathematics]]
 title: Graph theory
 tmap.id: d7c64640-352f-4005-8ad0-c1549bc6473c
 type: application/x-tiddler
 
-Mathematical study of [[Graph]]s
+Mathematical study of [[Graph]]s. These are very similar to [[Network]]s studied in [[Network theory]].
 
-__Isomorphism and automorphism__
+[[Graph Theory by Sarada Herke|https://www.youtube.com/playlist?list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg]]
+
+[[Definition of a graph|https://www.youtube.com/watch?v=S1Zwhz-MhCs&index=2&list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg]]
+
+[[notes|https://courses.maths.ox.ac.uk/node/view_material/1300]]
+
+!! See [[Mathematics of networks]]
+
+[[Path (Graph theory)]]
+
+[[Families of graphs]] and [[Network]]s. [[Connected and Regular Graphs|https://www.youtube.com/watch?v=BEyuUXQs5ko&index=5&list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg]]
+
+!!!__Graph isomorphism and automorphism__
+
+Often we do not make a distinctio
+n between isomorphic
+graphs, treating them as the same.
 
 http://math.stackexchange.com/questions/790110/whats-the-difference-between-the-automorphism-and-isomorphism-of-graph
 
-[[Graph isomorphism]]
-
+[[Graph isomorphism]] -- [[video|https://www.youtube.com/watch?v=yFpRpxOry-A&list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg&index=10]]. [[Isomorphic and Non-Isomorphic Graphs|https://www.youtube.com/watch?v=z-GfKbzvtBA&list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg&index=11]]
 
 [[Graph automorphism]]
 
 See [[here|https://en.wikipedia.org/wiki/Graph_homomorphism]] for definition of graph homomorphism.
+
+!!__Graph colouring__
+
+https://www.wikiwand.com/en/List_coloring
+
+[[Introduction to Graph Colouring|https://www.youtube.com/watch?v=RSSfO0lnEp8]]
+
+------------------
+
+https://www.youtube.com/watch?v=Gc8emFk-2vc&list=PLwygftUY318G_Yo5pp1UDU613ey0nNlIj

@@ -1,6 +1,6 @@
 created: 20160909080549399
 creator: cosmos
-modified: 20161104134326853
+modified: 20161201202119064
 modifier: cosmos
 title: Applications of AI
 tmap.id: a89b0ccc-7648-4e3a-bc5e-e151bab38d9b
@@ -19,6 +19,8 @@ type: text/vnd.tiddlywiki
 [[Image classification]]
 
 !!__[[Science]] and [[Engineering]]__
+
+[[AI for science|http://slides.com/guillermovalle/deck-3/fullscreen#/]]
 
 [[Machine learning in science and engineering]]
 

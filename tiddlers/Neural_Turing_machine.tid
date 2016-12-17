@@ -1,15 +1,66 @@
 created: 20161017204437857
 creator: cosmos
-modified: 20161104134330891
+modified: 20161104163609935
 modifier: cosmos
+tags: [[Augmented RNN]]
 title: Neural Turing machine
 tmap.id: 63fb1ec6-f157-4587-b52f-d884d30c35e9
 type: text/vnd.tiddlywiki
 
 A differentiable [[Turing machine]] the internal program of which can thus be [[learned|Machine learning]]. The program can be represented using [[Artificial neural network]]s
 
+[img[http://image.slidesharecdn.com/neuralturingmachines-150104010840-conversion-gate01/95/neural-turing-machines-7-638.jpg?cb=1420333769]]
+
+[img[http://image.slidesharecdn.com/nndl2-150804165908-lva1-app6892/95/neural-turing-machine-tutorial-60-638.jpg?cb=1458368226]]
+
+[[ Neural Turing Machines|https://arxiv.org/abs/1410.5401]]. It emulates working [[Memory]] in the [[Brain]]
+
+__Key aspects__
+
+* [[Recurrent neural network]]s for the controller, and read write heads. Often [[Long short-term memory]]
+* [[Memory]]
+* Addressing system that implements [[Attention]], and is differentiable.
+
+It can learn basic [[Algorithms]], and thus it's a form of [[Program induction]]. It also addresses the [[Binding problem]] and the problem of computing with variable-length structures, both of which had been studied before. These are important steps to address towards creating [[General artificial intelligence]].
+
+Crucially, every component of the architecture is ''differentiable'', making it straightfor-
+ward to train with gradient descent.  We achieved this by defining ‘blurry’ read and write
+operations that interact to a greater or lesser degree with all the elements in memory (rather
+than addressing a single element, as in a normal Turing machine or digital computer)
+
 [[Symposium: Deep Learning - Alex Graves|https://www.youtube.com/watch?v=_H0i0IhEO2g]]
 
-See [[Integrating symbols into deep learning]], [[Neural networks with memory]]
+See [[Integrating symbols into deep learning]], [[Neural networks with memory]], [[Augmented RNN]]
 
 Also see [[Neural programmer-interpreter]]
+
+!!__Reading__
+
+The //read weights// vector $$\mathbf{w}_r$$, is outputted by the read head. These are multiplied with the memory locations to give the //read vector//s.
+
+!!__Writting__
+
+A set of vectors with elements in the range $$(0,1)$$ is outputted by the write head.
+
+* An attention write weight vector, $$\mathbf{w}_w$$
+* An erase vector $$\mathbf{e}$$
+* An add vector $$\mathbf{a}$$
+
+!!__Addressing mechanism__
+
+{{NTM addressing mechanism}}
+
+See [[here|http://distill.pub/2016/augmented-rnns/]] for interactive version. This diagram is missing a few variables used in the NTM defined on the [[paper|https://arxiv.org/pdf/1410.5401v2.pdf]]. See below for fuller diagram.
+
+[img[NTM_addressing_mechanism_diagram.png]]
+
+Two combined addressing mechanisms:
+
+* "[[content-based addressing|Content-addressable memory]],”  focuses attention on locations based on the similarity between their current values and values emitted by the controller.
+
+* "location-based addressing". In certain tasks the content of a variable is arbitrary, but the variable still needs a recognisable name or address. Loops are an example of where we need this.
+
+<small>Content-based addressing is strictly more general than location-based addressing
+as the content of a memory location could include location information inside it. In our ex-
+periments however,  providing location-based addressing as a primitive operation proved
+essential for some forms of generalisation, so we employ both mechanisms concurrently.</small>

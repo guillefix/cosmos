@@ -1,0 +1,9 @@
+created: 20161107201006293
+creator: cosmos
+modified: 20161107201232603
+modifier: cosmos
+title: Hyperplane
+tmap.id: 65572a9a-6467-4e92-8688-214e05103d96
+type: text/vnd.tiddlywiki
+
+A set of points in $$R^n$$ that satisfy $$\mathbf{a}^T \mathbf{x} -b = 0$$

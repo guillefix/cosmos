@@ -1,11 +1,25 @@
 created: 20160121191938154
 creator: guillefix
-modified: 20161104134328935
-modifier: guillefix
-tags: [[Human physiology]]
+modified: 20161209174651615
+modifier: cosmos
+tags: [[Human physiology]] [[Primate vision]]
 title: Human vision
 tmap.id: 58157399-d1b1-4d32-9da3-13e217a96e44
 type: text/vnd.tiddlywiki
+
+//and primate vision//
+
+!!__Anatomy of the visual system__
+
+!!__Phisiology of the visual system__
+
+!!__Neuroscience of vision__
+
+* Retina, rods and cones
+* [[Ganglion cell]]s
+* [[Visual cortex]]
+
+------------
 
 [[Color constancy|https://en.wikipedia.org/wiki/Color_constancy]]
 
@@ -24,3 +38,9 @@ Land effect: [[Red and White Demonstration|http://www.t-a-y-l-o-r.com/land/]]
 [[Contribution of local and global cone-contrasts to color appearance: a Retinex-like model|http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=876256]]
 
 [[Colour]]
+
+See also [[Computer vision]],
+
+[[A biologically inspired spiking model of visual processing for image feature detection|http://www.sciencedirect.com/science/article/pii/S0925231215000326]]
+
+A lot of processing is done already on the [[Retina]]

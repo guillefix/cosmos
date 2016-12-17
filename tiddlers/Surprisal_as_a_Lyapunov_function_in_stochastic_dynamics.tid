@@ -1,0 +1,40 @@
+created: 20161123215544935
+creator: cosmos
+modified: 20161123220013848
+modifier: cosmos
+title: Surprisal as a Lyapunov function in stochastic dynamics
+tmap.id: 9627ce24-303f-4468-bed5-30f6431bfa75
+type: text/vnd.tiddlywiki
+
+See [[Free energy principle]] for context.
+
+We can describe it using the [[Fokker-Planck equation]]. It's steady state solution:
+
+$$\dot{p}=0=\nabla \cdot(\Gamma \nabla - f) p$$
+
+$$\nabla \cdot \Gamma \nabla p  = p \nabla \cdot  f + f \cdot \nabla p$$
+
+$$ \frac{\nabla \cdot \Gamma \nabla p}{p} = \nabla \cdot  f + f \cdot \frac{\nabla p}{p}$$
+
+$$ \nabla \cdot \Gamma \nabla \ln p - \Gamma \nabla p \cdot \nabla (\frac{1}{p}) = \nabla \cdot  f + f \cdot \nabla \ln p$$
+
+$$ \nabla \cdot \Gamma \nabla \ln p +\frac{1}{p^2} \Gamma \nabla p \cdot \nabla p = \nabla \cdot  f + f \cdot \nabla \ln p$$
+
+$$ \nabla \cdot \Gamma \nabla \ln p +\Gamma \nabla \ln p \cdot \nabla \ln p = \nabla \cdot  f + f \cdot \nabla \ln p$$
+
+We can decompose any vector field into an irrotational (curl-free), and solenoidal (divergence-free) component ([[Helmholtz decomposition]]), which can be expressed as the so-called //standard form//:
+
+$$f=(\Gamma + Q) \nabla V$$
+
+where $$Q$$ is antisymmetric, and $$\Gamma$$ is symmetric. Substituting in above equation
+
+$$ \nabla \cdot \Gamma \nabla \ln p +\Gamma \nabla \ln p \cdot \nabla \ln p = \nabla \cdot  \Gamma \nabla V + (\Gamma + Q) \nabla V\cdot \nabla \ln p$$
+
+Notice that $$(\Gamma + Q) \nabla V\cdot \nabla \ln p = \nabla V ^T (\Gamma + Q)  \nabla \ln p = \nabla V ^T \Gamma\nabla \ln p$$ because $$Q$$ is antisymmetric. Using this, if we assume that $$V=\ln p$$, then the above equation for stationarity is satisfied.
+
+__Proof from paper__: see [[Free_energy_principle_lemmaD1a.png]] and [[Free_energy_principle_lemmaD1b.png]]
+
+
+It is straight-forward but fundamental result means that the flow of any ergodic random dynamical system can be expressed in terms of orthogonal curl- and divergence-free components, where the (dissipative) curl-free part increases value while the (con-servative) divergence-free part follows isoprobability con-tours and does not change value. Crucially, under this decomposition value is simply negative surprise: $$\ln p(x|m)= V(x) = -L(x|m)$$. It is easy to show that surprise (or value) is a [[Lyapunov function]] for the policy 
+
+$$\dot{V} = \nabla V \cdot f = \nabla V \cdot \Gamma \cdot \nabla V + \nabla V \cdot \nabla \times W = \nabla V \cdot \Gamma \cdot \nabla V \geq 0$$

@@ -1,0 +1,18 @@
+created: 20161105174341424
+creator: cosmos
+modified: 20161204180143731
+modifier: cosmos
+tags: [[Mathematical logic]]
+title: Proof
+tmap.id: 524b1c78-34aa-49c4-90bf-1f6f4cc32cab
+type: text/vnd.tiddlywiki
+
+A proof in [[Mathematics]] is a demonstration of a statement within a fixed system of propositions.
+
+-------------------
+
+!!//Proof vs derivation//
+
+The Propositional Calculus is very much like reasoning in some w one should not equate its rules with the rules of human thought. A proof  is something informal, or in other words a product of normal thought written in a human language, for human consumption. All sorts of complex features  of thought may be used in proofs, and, though they may “feel right", one may wonder if they can be defended logically. That is really what formalization is for. A derivation is an artificial counterpart of and its purpose is to reach the same goal but via a logical structure whose methods are not only all explicit, but also very simple. 
+
+If -- and this is usually the case  -it happens that a formal derivation is extremely lengthy compared with the corresponding "natural" proof that is just too bad. It is the price one pays for making each step so simple. What often happens is that a derivation and a proof are "simple" in complementary senses of the word. The proof is simple in that each step sounds right", even though one may not know just why; the derivation is simple in that each of its myriad steps is considered so trivial that it is beyond reproach, and since the whole derivation consists just of such trivial steps it is supposedly error-free. Each type of simplicity, however, brings along a characteristic type of complexity. In the case of proofs, it is the complexity of the underlying system on which they rest -- namely, human language -- and in the case of derivations, it is their astronomical size, which makes them almost impossible to grasp. 

@@ -1,13 +1,22 @@
 created: 20160624010152080
 creator: guillefix
-modified: 20161104134331865
+modified: 20161128094520262
 modifier: cosmos
 tags: Programming
 title: Programming language
 tmap.id: f9a3e004-6bb0-4788-87f6-bfb1a779cd23
 type: text/vnd.tiddlywiki
 
-!!!Programming language paradigms
+
+__Interpreted programming language__
+
+Interpreted at runtime, limited optimization
+
+__Compiled programming language__
+
+Compiled into machine code. Much more powerful optimization
+
+!!!__Programming language paradigms__
 
 [[Programming paradigms|https://en.wikipedia.org/wiki/Programming_paradigm]]
 

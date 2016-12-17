@@ -1,7 +1,7 @@
 created: 20160217192202310
 creator: guillefix
-modified: 20161104134327269
-modifier: guillefix
+modified: 20161206173752888
+modifier: cosmos
 tags: [[Mathematical logic]]
 title: Category theory
 tmap.id: 3f3ab7ee-3ec8-48bb-875d-f8f12db20f79
@@ -12,3 +12,15 @@ type: text/vnd.tiddlywiki
 Relations to [[Functional programming]], lambda calculus, etc.
 
 [[Brian Beckman: Don't fear the Monad|https://www.youtube.com/watch?v=ZhuHCtR3xq8&feature=youtu.be]]
+
+------------------
+
+[[Category Theory Applied to Neural Modeling and Graphical Representations (2000)|http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.32.2635]]
+
+Modeling cognitive systems with Category Theory
+
+[[Bayesian machine learning via category theory|https://arxiv.org/abs/1312.1445]]
+
+[[What Might Category Theory do for Artificial Intelligence and Cognitive Science?|http://www.j-paine.org/dobbs/why_be_interested_in_categories.html]]
+
+[[Theory of Interface: Category Theory, Directed Networks and Evolution of Biological Networks|https://arxiv.org/abs/1210.6166]]

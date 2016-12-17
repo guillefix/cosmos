@@ -1,6 +1,6 @@
 created: 20160405190342383
 creator: guillefix
-modified: 20161104134329877
+modified: 20161211221729403
 modifier: cosmos
 title: Natural language processing
 tmap.id: 61f00c19-0247-4055-825f-7ecd07cd7d01
@@ -24,6 +24,8 @@ Hybrid character-word NNs: http://arxiv.org/pdf/1604.00788v1.pdf
 
 [[Google SintaxNet (includes Parsey MacParseface)|https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html]] [[code|https://github.com/tensorflow/models/tree/master/syntaxnet]]. See [[Grammar]]
 
+https://demos.explosion.ai/displacy/?text=I%20like%20some%20good%20almonds&model=en&cpu=1&cph=0
+
 !!!__Features for NLP__
 
 Word vectors: see [[Processing our own Data - Deep Learning with Neural Networks and TensorFlow part 5|https://www.youtube.com/watch?v=7fcWfUavO7E&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&index=48]]
@@ -35,3 +37,7 @@ Word vectors: see [[Processing our own Data - Deep Learning with Neural Networks
 !!__Software for NLP__
 
 [[Natural Language Toolkit (python)|http://www.nltk.org/]] It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-strength NLP libraries
+
+http://textprocessing.org/tag/information-extraction-in-python
+
+http://www.nltk.org/book/ch07.html

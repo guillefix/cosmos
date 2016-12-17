@@ -1,0 +1,11 @@
+created: 20161107205207511
+creator: cosmos
+modified: 20161107205507243
+modifier: cosmos
+title: Difference of convex functions
+tmap.id: 61c03083-b2d3-4691-b3da-f5d1145b462d
+type: text/vnd.tiddlywiki
+
+A funnction that is a linear combination of [[Convex function]]s where the weights can be negative. Equivalently, it is a linear combination of convex and concave functions.
+
+If it is a function to be [[optimized|Optimization]], there is an efficient method, where we approximate the concave functions in the linear combination by a hyperplane (linear approx, using [[Taylor expansion]]). We then have a convex function overall, which we can optimize using [[Convex optimization]] methods. We then re-approximate the concave functions linearly in the newly found point, and repeat!

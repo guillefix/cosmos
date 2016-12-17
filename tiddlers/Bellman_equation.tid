@@ -1,6 +1,6 @@
 created: 20161013174943742
 creator: cosmos
-modified: 20161104134327083
+modified: 20161114144751490
 modifier: cosmos
 title: Bellman equation
 tmap.id: 9a1d13c8-afad-4f54-938a-e9bf7c5f7828
@@ -12,7 +12,13 @@ If the rewards depend on transitions and not just states ([[state-action reward|
 
 $$ V_\pi(s) = \sum_{s'} P_{\pi(s)} (s,s') \left( R_{\pi(s)} (s,s') + \gamma V(s') \right) $$
 
-[[Derivation|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=33m20s]]
+[[Derivation|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=33m20s]] -- [[another derivation|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1#t=30m]], which uses the [[law of iterated expectations|https://www.youtube.com/watch?v=Ki2HpTCPwhM]]. This is for Markov reward processes (see [[Markov decision process]]). For MDPs, [[we need to fix a policy|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1#t=54m20s]].
+
+[[Bellman equation for action-value function|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1#t=54m40s]]
+
+!!![[Bellman optimality equation|https://www.youtube.com/watch?v=lfHX2hHRMVQ&index=2&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h22m40s]] (Bellman equation for the optimal value function)
+
+-------------
 
 See [[Reinforcement learning]]
 

@@ -1,0 +1,27 @@
+created: 20161113220721116
+creator: cosmos
+modified: 20161121103601404
+modifier: cosmos
+title: Adjacency matrix
+tmap.id: fc0b2451-3896-4aa1-845f-4e5cc5d96d9d
+type: text/vnd.tiddlywiki
+
+A [[Matrix]] that defines a [[Graph]] or a [[Network]]. $$A$$
+
+$$A_{ij} = 1 \text{ if edge (j,i) exists}$$. 
+$$A_{ij} = 0 \text{ if edge (j,i) doesn't exist}$$
+
+$$A^T=A$$ if undirected.
+
+$$A$$ describes same network if we permute columns and rows in the same 
+way.
+
+''Weighted adjacency matrix'' (or weight matrix) $$W$$ assigns a weight 
+to edges. Usually weight is a real number: $$w: E \rightarrow 
+\mathbb{R}$$
+
+"Topology" represented by $$A$$. 
+
+"Geometry represented by  $$W$$.
+
+Related: [[Graph laplacian]]

@@ -1,7 +1,7 @@
 created: 20160201145228022
 creator: guillefix
-modified: 20161104134328428
-modifier: guillefix
+modified: 20161106173905493
+modifier: cosmos
 tags: [[Formal system]]
 title: Formal systems and semantics
 tmap.id: 69fc82df-00a7-4665-9f1c-b82523c84191
@@ -13,14 +13,12 @@ type: text/vnd.tiddlywiki
 
 See [[Theory of computation]]
 
-__(Abstract) Rewrite systems__
-
-A set of objects, and a binary operation, $$\rightarrow$$, that tells us how we are allowed to transforms expressions. If these rules act on //terms// out of which an expression can be built, then this is a term rewrite system.
-
-They are non-deterministic Markov algorithms, and they are Turing complete. They are related to normal forms, lambda calculus, and combinatory logic
-
-[[http://www.cs.tau.ac.il/~nachum/papers/survey-draft.pdf]]
-
 [[Formal system]]
 
 [[CM20019—Computation III: Formal Logic and Semantics|http://cs.bath.ac.uk/ag/CM20019/index.html]]
+
+[[Semantics]] -- the study of [[Meaning]]. Hofstadter argues that meaning is a [[Morphism]] (often an [[Isomorphism]]) between a [[language|Formal language]] (produced by a [[Formal system]]) and another space. The mapping itself is known as an interpretation.
+
+''Meaningfull'' interpretations are those where there is an identifications between the theorems and non-theorems of the [[Formal system]], and a pair of sets that correspond to some aspects of [[Reality]], for instance a set of true and false statements. See page 51 of [[GEB|Godel, Escher, Bach]]. An interpretation is otherwise known as //meaningless//.
+
+//symbols of a formal system, though initally without meaning, cannot avoid taking on "meaning" of sorts, at least if an isomorphism is found.// However, unlike [[Natural language]] and other non-[[Formal system]]s, we can't add new rules or axioms because the meaning we have found; by definition of //formality//, the rules are fixed. To distinguish these we call these active and passive [[Meaning]]s

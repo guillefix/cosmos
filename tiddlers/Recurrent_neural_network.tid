@@ -1,6 +1,6 @@
 created: 20160406165458717
 creator: guillefix
-modified: 20161104134331975
+modified: 20161211182530246
 modifier: cosmos
 tags: [[Artificial neural network]]
 title: Recurrent neural network
@@ -12,6 +12,8 @@ type: text/vnd.tiddlywiki
 ''[[Recurrent neural nets|https://www.youtube.com/watch?v=56TYLaQN4N8&index=12&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=7m48s]]''. Vanishing gradient problem, naively, RNNs don't give you long term memory.. so you have [[Long short-term memory]] networks
 
 [[Recurrent neural networks -- Schmidhuber|https://www.youtube.com/watch?v=mF5-tr7qAF4#t=21m25s]]
+
+[[Recurrent Neural Network Writes Music and Shakespeare Novels - Two Minute Papers|https://www.youtube.com/watch?v=Jkkjy7dVdaY]]
 
 !!!__The vanishing gradients problem__
 

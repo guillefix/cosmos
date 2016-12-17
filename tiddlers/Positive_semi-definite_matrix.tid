@@ -1,0 +1,12 @@
+created: 20161107105017372
+creator: cosmos
+modified: 20161107143535172
+modifier: cosmos
+tags: Matrix
+title: Positive semi-definite matrix
+tmap.id: 89d958b7-5af2-4814-814b-d496e2e50f00
+type: text/vnd.tiddlywiki
+
+[[Matrix]] where all the eigenvalues are non-negative.
+
+They all satisfy $$a^T X a \geq 0$$ for all $$a \in R^n$$

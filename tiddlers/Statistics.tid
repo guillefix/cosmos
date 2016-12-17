@@ -1,6 +1,6 @@
 created: 20160204135706346
 creator: guillefix
-modified: 20161104134332620
+modified: 20161216133538877
 modifier: cosmos
 tags: [[Data & Knowledge]]
 title: Statistics
@@ -8,6 +8,8 @@ tmap.id: fd9980dd-3d72-4a8e-8430-8c6bc2a5837e
 type: text/vnd.tiddlywiki
 
 [[Wiki article|https://en.wikipedia.org/wiki/Statistics]]
+
+[[Understanding statistics through explorables|http://emilkirkegaard.dk/understanding_statistics/?app=Simpson_paradox]]
 
 Mathematica foundation: [[Probability theory]]
 

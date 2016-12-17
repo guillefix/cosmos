@@ -1,6 +1,6 @@
 created: 20160611121547490
 creator: guillefix
-modified: 20161104134327959
+modified: 20161118151323866
 modifier: cosmos
 tags: Genetics [[Molecular biology]] [[Nucleic acid]]
 title: DNA
@@ -30,6 +30,8 @@ Can also coarse-grain more, and model it as a curve.
 Packing of DNA in a cell. See [[here|https://en.wikipedia.org/wiki/Chromosome#/media/File:Chromatin_Structures.png]]
 
 [[How DNA unties its own knots - Numberphile|https://www.youtube.com/watch?v=UkmQNbvlK8s]], using [[Type II topoisomerase|https://en.wikipedia.org/wiki/Type_II_topoisomerase]] (see more [[here|https://www.youtube.com/watch?v=EYGrElVyHnU]]). Drugs that target type II topoisomerase are used as antibiotics, because this enzyme is necessary for the cell to replicate correctly in bacteria. This is because the fact that DNA is a helix, and it forms a loop in bacteria means that when DNA is unzipped by helicase, the two single strand loops are interlinked. Topoisomerase then cuts and stiches DNA in such a way as to unlink them. See [[DNA replication]]
+
+!!!__Structure of DNA in the [[Cell nucleus]]__
 
 [[Chromatin]]
 

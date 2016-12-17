@@ -1,0 +1,21 @@
+created: 20161113191959455
+creator: cosmos
+modified: 20161126192938095
+modifier: cosmos
+tags: Neuroscience
+title: Corticonics
+tmap.id: 0e806d74-cb5c-4fd8-9424-da7c52ca8378
+type: text/vnd.tiddlywiki
+
+The study of the foundamtental computations that are applied through out the cortex
+
+Classification of cortical areas according to structural and functional differences cannot in itself bring about an understanding of the common operations con-ducted by the cortex and the manner in which they are carried out. Corticonics is the study of these common processes and their underlying neural mechanisms. 
+
+See [[Cortex]]
+
+!!__Models__
+
+See [[Neuronal network]]
+
+* [[Hopfield network]]
+* [[Spiking neural network]]s

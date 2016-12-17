@@ -1,0 +1,13 @@
+created: 20161107193703251
+creator: cosmos
+modified: 20161107195312126
+modifier: cosmos
+title: Finite element method
+tmap.id: d0530690-2393-4697-a888-8beddf2fd49c
+type: text/vnd.tiddlywiki
+
+A set of methods to solve [[Boundary value problem]]s for [[Partial differential equation]]s.
+
+They are often based on approximating [[Derivative]]s by evaluating the function at points in a grid or set of discrete points (''discretization'').
+
+See more at [[Numerical methods for differential equations]]

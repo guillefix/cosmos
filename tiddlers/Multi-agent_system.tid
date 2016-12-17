@@ -1,0 +1,11 @@
+created: 20161107214820296
+creator: cosmos
+modified: 20161107214847123
+modifier: cosmos
+title: Multi-agent system
+tmap.id: 05e442d7-d1fd-4fc5-9e27-8a77e2f10260
+type: text/vnd.tiddlywiki
+
+A system with multiple [[Agent]]s.
+
+A prominent example is a system of multiple [[Reinforcement learning]] agents.

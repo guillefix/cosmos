@@ -1,0 +1,32 @@
+created: 20161128220342360
+creator: cosmos
+modified: 20161129184319241
+modifier: cosmos
+tags: [[Theoretical computer science]]
+title: Recursion
+tmap.id: a9dc786c-1d69-47c8-8a27-0374b33aec2b
+type: text/vnd.tiddlywiki
+
+Recursion refers to when a data structure contains simpler versions of itself within it. One can move up and down the //stack// of levels, by //popping//, or //pushing//, respectively.
+
+An example of such a recursive stack is the [[Call stack]]
+
+__Recursion in [[Music]]__
+
+[[Bach - LITTLE HARMONIC LABYRINTH - BWV 591|https://www.youtube.com/watch?v=aBZgmITlOHE]]
+
+__Recursion in [[Language]]__
+
+* [[Formal language]]
+
+Recursive transition networks, or [[Railroad diagram]]s are use to express [[Context-free grammar]]s.
+
+Recursions can give rise to things that are defined in terms of themselves, but still not being paradoxical! The reason they avoid self-reference, is because there should be a part of the definition which avoids self-reference. This is the terminating condition in standard recursive functions.
+
+Recursion can also be //indirect// when two or more functions call each other, in a loop. [[Heterarchy]]
+
+[[Combinatorial structure]]s are often analyzed using recursive definitions in [[Analytic combinatorics]].
+
+bounded, and free loops.
+
+Augmented transition networks.

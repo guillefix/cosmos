@@ -1,9 +1,32 @@
 created: 20160121200214211
 creator: guillefix
-modified: 20161104134329450
-modifier: guillefix
+modified: 20161217005935163
+modifier: cosmos
 tags: Philosophy
 title: Logic
 tmap.id: bebdf3d1-4f4b-4ed2-b3d2-543c77b92c75
 type: text/vnd.tiddlywiki
 
+
+* [[Mathematical logic]]
+* [[Formal system]]
+* [[Propositional logic]]
+** [[First order logic]]
+** [[Second order logic]]
+
+----------
+
+clauses,
+
+open propositions, with free vairables == [[Property]]
+
+closed formulas with quantified variables == truths or falsities
+
+ ''Quantifier''s
+
+* Existence
+* Universality
+
+A variable under the dominion of a quantifier is called a quantified variable.
+
+[[The game of logic, by Lewis Carroll|http://etc.usf.edu/lit2go/136/the-game-of-logic/2510/to-my-child-friend/]]

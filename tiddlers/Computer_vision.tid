@@ -1,14 +1,15 @@
 created: 20160403134855690
 creator: guillefix
-modified: 20161104134327575
+modified: 20161210014054442
 modifier: cosmos
+tags: Vision
 title: Computer vision
 tmap.id: 8a7d3088-cdb6-4cac-894f-dd7ac94d3dc7
 type: text/vnd.tiddlywiki
 
 http://www.movidius.com/
 
-[[Convolutional neural network]]
+[[Convolutional neural network]], [[Image processing]]
 
 [[Cloud vision API|https://www.youtube.com/watch?v=eve8DkkVdhI]]
 
@@ -27,3 +28,29 @@ http://www.clement.farabet.net/research.html#parsing
 ''Hand-eye coordination''. See work on grabbing objects in [[Robotics]]
 
 http://opencv.org/
+
+!!__[[Spiking neural network]] models__
+
+!!![[Bio-inspired unsupervised learning of visual features leads to robust invariant object recognition|http://www.sciencedirect.com/science/article/pii/S0925231216302880]]
+
+* ''feedforward feature extraction''. studies have suggested that the feedforward information is usually sufficient for invariant object categorization, leading to models like [[Convolutional neural network]]s.
+* ''biologically plausible learning rules'' the way that biological visual systems learn the appropriate features has attracted much less attention. Yet the ability of the visual cortex to wire itself, mostly in an unsupervised manner, is remarkable [18] and [19]. Here, we propose that adding bio-inspired learning to bio-inspired architectures could improve the models׳ behavior.
+
+__algorithm__
+
+The algorithm we used here is a scaled-up version of the one presented in [24] ([[Unsupervised Learning of Visual Features through Spike Timing Dependent Plasticity|http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030031]]).  We used a five-layer hierarchical network, with a classifier at the end, similar to HMAX model. ,, Specifically, we alternated simple cells that gain selectivity through a sum operation, and complex cells that gain shift and scale invariance through a max operation. ,, Spike timing -coding (stronger signal fires first). Weight sharing, as in CNNs.
+
+The image is copied and scaled, and presented to copies of the network (like [[Cortical column]]s).  To increase the sparsity at a given scale and location (corresponding to one cortical column), only the spike corresponding to the best matching orientation is propagated (i.e. a winner-take-all inhibition is employed). 
+
+See also [[Human vision]]
+
+[[A biologically inspired spiking model of visual processing for image feature detection|http://www.sciencedirect.com/science/article/pii/S0925231215000326]]
+
+* Gabon filters.
+* receptive fields.
+
+Dynamic vision cameras!!
+
+[[Investigation of event-based memory surfaces for high-speed tracking, unsupervised feature extraction and object recognition|https://arxiv.org/abs/1603.04223]]
+
+[[Unsupervised Learning of Visual Features through Spike Timing Dependent Plasticity|http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030031]]

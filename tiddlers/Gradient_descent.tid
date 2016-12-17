@@ -1,6 +1,6 @@
 created: 20160810174239855
 creator: cosmos
-modified: 20161104134328667
+modified: 20161107193613829
 modifier: cosmos
 tags: [[Local optimization]]
 title: Gradient descent
@@ -15,6 +15,8 @@ Can prove convergence for [[Convex function]]s
 
 !!![[Newton's method]]
 
+* [[Quasi-Newton method]]
+
 !!![[Stochastic gradient descent]]
 
 !!![[Convergence conditions for gradient descent|https://www.youtube.com/watch?v=Bver7Ttgb9M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=17#t=8m]], to determine ''learning rate''
@@ -22,12 +24,6 @@ Can prove convergence for [[Convex function]]s
 Nesterov's accelerated gradient
 
 line-search to find step-size
-
-__Second order/Newton/Quasinewton methods__
-
-Conjugate gradient method
-
-BGFS and L-GBFS
 
 __Constrained optimization with projection based methods__
 

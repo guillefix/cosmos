@@ -1,6 +1,6 @@
 created: 20161022220906732
 creator: cosmos
-modified: 20161104134329615
+modified: 20161207200604550
 modifier: cosmos
 tags: Intelligence
 title: Memory
@@ -21,4 +21,29 @@ While the mechanisms of working memory remain some-
 what obscure at the level of neurophysiology, the verbal definition is understood to mean
 a capacity for short-term storage of information and its rule-based manipulation (Badde-
 ley et al., 2009).  In computational terms, these rules are simple programs, and the stored
-information constitutes the arguments of these programs
+information constitutes the arguments of these programs.
+
+working memory process has been ascribed to the functioning of a
+system composed of the prefrontal cortex and basal ganglia (Goldman-Rakic, 1995)
+
+!!__Long-term memory__
+
+__prioritized long-term memory__
+
+After working memory fades, but not yet in long-term memory -- [[article|http://www.sciencemag.org/news/2016/12/newly-discovered-state-memory-could-help-explain-learning-and-brain-disorders?utm_source=sciencemagazine&utm_medium=facebook-text&utm_campaign=memorder-9541]]
+
+!!__Memory and learning__
+
+Memory and learning are very much related. [[Hebbian theory]] is also a basis for understanding memory.
+
+!!!__Long-term potentiation and long-term depression__
+
+__Importance of timing__
+
+[[vid|https://www.youtube.com/watch?v=hLs3m6nIJ1E&index=26&list=PL4C48902B3A4ED0F4#t=6m40s]]
+
+-------------------
+
+[[Kandel's principles]]
+
+http://ezproxy-prd.bodleian.ox.ac.uk:2153/view/10.1093/acprof:oso/9780199232703.001.0001/acprof-9780199232703

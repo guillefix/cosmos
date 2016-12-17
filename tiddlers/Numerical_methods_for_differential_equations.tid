@@ -1,7 +1,7 @@
 created: 20160207143043578
 creator: guillefix
-modified: 20161104134331165
-modifier: guillefix
+modified: 20161107195256168
+modifier: cosmos
 tags: [[Scientific computing]]
 title: Numerical methods for differential equations
 tmap.id: 1201bcce-c1db-4702-86b0-193336de2cd6
@@ -96,6 +96,7 @@ Can use chebfun to solve.
 
 !!__Partial differential equations__
 
+Many of these methods full under [[Finite element method]]s
 
 Now have time and space.
 

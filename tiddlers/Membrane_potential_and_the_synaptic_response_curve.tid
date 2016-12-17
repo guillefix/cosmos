@@ -1,0 +1,93 @@
+created: 20161126155012216
+creator: cosmos
+modified: 20161126155826146
+modifier: cosmos
+title: Membrane potential and the synaptic response curve
+tmap.id: 625ec211-cb07-48c1-bbc7-578f0209795c
+type: text/vnd.tiddlywiki
+
+See [[Spiking neural network]]
+
+* ''Periodically firing neurons''. Fire, recover, fire, etc. at approximatey periodic time intervals Found in motor neurons in the spinal cord for instance.
+* ''Randomly firing neurons''. Random fireing, due to strongly fluctuating potential with small postsynapitc potentials. Almost flat auto-correlation curve. Moslty found in the [[Cortex]].
+
+''Postsynaptic potential''s. The membrane potential in the postsynaptic cell, when it receives an action potential from the presynaptic cell (I think). Two types: 
+
+* Excitatory postsynaptic potential (EPSP), depolarizing.
+* Inhibitory postsynaptic potential (IPSP), polarizing.
+
+Noise, is mostly synaptic noise.
+
+|<mark>Do exercises of chapter 4</mark>|
+
+Can use the [[Auto-correlation]] function measured from the membrane potential (when under threshold) to extract parameters of the postsynaptic potential, like the time constant (if it has an exponential form).
+
+:After general statistical considerations (see more in book), we will describe the effects of EPSPs and IPSPs on the firing rates (see ''synaptic effects'' section). These are of course crucial in knowing how information is transmitted and processed in neuronal networks.
+
+!!!__Statistics of firing rates for randomly firing neurons__
+
+Use theory of [[First-passage time]]. See Lansky [1984]
+
+__[[Refractory periods|http://www.physiologyweb.com/lecture_notes/neuronal_action_potential/neuronal_action_potential_refractory_periods.html]]__
+
+* Absolute refractory period. The period from the initiation of the action potential to immediately after the peak. This is the time during which another stimulus given to the neuron (no matter how strong) will not lead to a second action potential. Thus, because Na+ channels are inactivated during this time, additional depolarizing stimuli do not lead to new action potentials. The absolute refractory period takes about 1-2 ms.
+* Relative refractory period. After the absolute refractory period, Na+ channels begin to recover from inactivation and if strong enough stimuli are given to the neuron, it may respond again by generating action potentials. However, during this time, the stimuli given must be stronger than was originally needed when the neuron was at rest.
+
+[img[http://www.physiologyweb.com/lecture_notes/neuronal_action_potential/figs/neuronal_action_potential_absolute_and_relative_refractory_periods_w.jpg]]
+
+In pages 130-131, the following approximate equation is justified:
+
+|$$\lambda (t) = \text{pr}\{v(t) > \theta\}/r$$|
+
+where $$\text{pr}\{v(t) > \theta\}$$ is the probability that at time $$t$$ the membrane potential is above threshold, and $$r$$ is the absolute refractory period.
+
+the action potential "resets" the membrane potential at the soma. But there are many more electrophysiological effects that makes the effect of the action potential more complicated.
+
+Randomly spiking neurons correspond to neurons that do not show marked after-potentials and whose excitation is derived mainly from portions of the dendritic tree whose potentials are not reset by the action potential in the cell body.
+
+!!!__Autocorrelation of spike trains__
+
+What neurophysiologist call autocorrelation is acutally called an intensity function, or a renewal density, in statistics. This is the function that describes the rate of occurrence of an event as a function of the time elapsed since its previous occurrence. Actually, up to scaling, this is the same function as the autocorrelation (imagine one factor in the autocorrelation is fixed, then the other has the shape of the renewal density).
+
+we can use the autocorrelation function of the spike train of a
+neuron to assess whether it behaves like the periodically firing model or
+like the randomly firing model. For large cortical areas in awake ani-
+mals, the randomly firing model is adequate to describe the neuronal
+activity.
+
+!!!__''Synaptic effects''__
+
+The above considerations consider the average behaviour of periodically and randomly firing neurons. For a more detailed understanding, however, it is important to know what are the effects fof postsynaptic potentials on the firing rates.
+
+__for periodically firing neurons__
+
+Periodically firing neurons, have a relatively long recovery period after each spike, and a large excitatory baseline, which means that after these periods they will fire again. However, EPSPs can make them fire a bit sooner (IPSPs can make them fire a bit later). The statistics of this change can be understood from the EPSP curve
+
+According to Knox [1974] and Knox and Popple [1977], the firing rate of the motoneuron is related to the derivative of the postsynaptic potential. Kirkwood [1979], working experimentally on motoneurons, found that the derivative rule was too extreme. He suggested that a sum of the EPSP itself and its derivative would give a reasonable approximation. The following argument explains the reasonings behind these considerations.
+
+[img[synaptic_effect_periodically_firing_neuron.png]]
+
+What the slanted lines show is the decreasing threshold, for several possible times for the previous spike. The time origin is at the presynaptic firing event. The ''postsynaptic potential'' (PSP) curve is shown. When the PSP intercetps the threshold for some of the lines, the neuron will fire again. This gives an intuition to why the firing rate appears to be related to the derivative of the PSP. Left-hand side shows excitatory (EPSP); right-hand side shows inhibitory (IPSP).
+
+__for randomly firing neurons__
+
+Apart from the random spikes by the fluctuating membrane potential crossing the membrane, an EPSP (IPSP) can increase (decrease) the chance of firing.
+
+//small synaptic potentials//. The argument in pages 140-143 indicates that for a postsynaptic neuron that
+does not fire periodically and exhibits a low spontaneous firing rate (thershold is
+at the tail of the p.d.f.), and when the EPSP is small, the cross-
+correlation function will fall off faster than the membrane potential.
+For the same reasons, cortical neurons must be very sensitive to syn-
+chronous activation of several EPSPs.
+
+,,A word of caution is due: Estimates of average membrane potential
+and variance are always based on a finite sampling time. An evaluation
+of how true to life these estimates are must be based on what is called in
+statistics the number of degrees of freedom. To be on the safe side, we must compute the autocorrela-
+tion function [equation (4.2.7)] and determine the delay until the correla-
+tion drops to zero. Those samples that are as far apart as this delay are
+uncorrelated, and therefore can be assumed to be independent.,,
+
+//large synaptic potentials//. When we had only a small EPSP, the probability of getting two or more
+spikes during a given EPSP was very small, and we therefore ignored
+these cases. However, that is not so for a very large EPSP. Therefore, the effect of previous spikes has to be taken into account. This can be done by considering the threshold $$\theta$$ to depend on time, and be increased for some time after a spike. This leads to two simultaneous equations. One for $$E[\theta(t)]$$ which depends on $$\lambda(t')$$ for $$t' < t$$, and one for $$\lambda(t)$$ which depends on $$E[\theta(t)]$$. See page 146 for the eqs. These can easily be solved iteratively. 

@@ -1,6 +1,6 @@
 created: 20160911094210800
 creator: cosmos
-modified: 20161104134328976
+modified: 20161123210701387
 modifier: cosmos
 tags: Epistemology Learning
 title: Inference
@@ -14,3 +14,8 @@ type: text/vnd.tiddlywiki
 [[Deductive inference|Deduction]], when we find a statement that [[logically|Logic]] follows from observed data.
 
 [[Complexity, Phase Transitions, and Inference by Cristopher Moore (part 1)|https://www.youtube.com/watch?v=asw9M8RBcsU]]
+
+__Other classifications and types__
+
+* [[Active inference]]
+* [[Hierarchical inference]]

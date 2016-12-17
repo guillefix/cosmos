@@ -1,6 +1,6 @@
 created: 20161018180930085
 creator: cosmos
-modified: 20161104134328614
+modified: 20161211182628308
 modifier: cosmos
 tags: [[Probabilistic model]] [[Unsupervised learning]]
 title: Generative model
@@ -30,6 +30,10 @@ Using [[Baye's theorem]], generative models can be applied to [[Supervised learn
 !!![[Autoencoder]]
 
 !!![[Generative adversarial network]]
+
+GAN-visual analogy making
+
+[[Pixel-RNN|https://arxiv.org/abs/1601.06759]], [[code|https://github.com/carpedm20/pixel-rnn-tensorflow]]-- [[Recurrent neural network]]
 
 !!__[[Latent variable]]s__
 

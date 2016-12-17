@@ -1,9 +1,19 @@
 created: 20161001170354365
 creator: cosmos
-modified: 20161104134328809
+modified: 20161108094751863
 modifier: cosmos
 title: Hinge loss
 tmap.id: 77e16209-20e5-4f1e-bb73-51bcce6bf5eb
 type: text/vnd.tiddlywiki
 
 https://en.m.wikipedia.org/wiki/Hinge_loss
+
+A [[Loss function]] that appears in [[Max-margin learning]] classifiers, such as soft [[Support vector machine]]s. It has the form:
+
+$$\sum_i \max{\{0,1-y_i \tilde{y}_i\}}$$
+
+Where $$\tilde{y}_i$$ is the "raw" output of the classifier's decision function, not the predicted class label. This often is interpreted as the probability of the class. For [[SVM|Support vector machine]]s, $$\tilde{y}_i = \mathbf{w}^T \mathbf{x}_i$$
+
+This means that getting something correct by a large margin (, is not rewarded much, but getting something wrong by a large margin is penalized a lot.
+
+[img[http://i.stack.imgur.com/4DFDU.png]] Hinge loss and some approximations to it. The hinge loss can also be considered an approximation to the [[0-1 loss]], or classification error. On the other hand, the [[Logistic regression]] loss function can be seen as a smooth version of the Hinge loss.

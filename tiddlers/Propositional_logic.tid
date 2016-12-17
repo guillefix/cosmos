@@ -1,0 +1,53 @@
+created: 20161204145140659
+creator: cosmos
+modified: 20161204153643034
+modifier: cosmos
+tags: Logic
+title: Propositional logic
+tmap.id: e83914aa-3a06-46d4-a443-80418a2ae4fb
+type: text/vnd.tiddlywiki
+
+//propositional calculus//
+
+A [[Formal system]] that implements working with the logical notions of ''and'' ($$\wedge$$), ''or'' ($$\vee$$), ''not'' $$\sim$$, ''if ... then ...'' ($$\subset$$) (implication), and [[Deduction]] (from propositions to consequences, using ''rules of inference'' encapsulated within $$[...]$$). derived propostions are put within angle brackets $$<$$ and $$>$$.
+
+See chapter VII of [[GEB|Godel, Escher, Bach]]
+
+__Well formed strings__
+
+//Atoms// (atomic symbols which stand for initial propositions): $$P$$, $$Q$$, $$R$$, and any primed ($$'$$) version.
+
+Well-formed strings are defined [[recursively|Recursion]]. If $$x$$ and $$y$$ are well-formed, then these are also well-formed:
+
+* $$\sim x$$
+* $$<x \wedge y>$$ (''joining rule'')
+* $$<x \vee y >$$
+* $$ <x \subset y >$$
+
+!!__Rules of inference__
+
+* ''Rule of separation''. If $$<x \wedge y >$$ is a theorem, then both $$x$$ and $$y$$ are theorems.
+
+* ''Double-tilde rule'': The string "$$\sim \sim$$" can be delted from any theorem. It can also be inserted into any theorem, provided that the resulting string is itself well-formed.
+
+!!!__Deduction theorem__
+
+A special formal rule. Can put any series of well formed propositions within the square brackets ($$[$$, $$]$$), as long as each proposition can be derived from the previous, using the rewrite rules above, except the first one, which is jut required to be a well-formed string (and it's like a fantasy axiom, //what if//). 
+
+The ''deduction theorem'' (aka fantasy rule) than says that $$<x \subset y>$$ is a theorem, where $$x$$ is the initial string, and $$y$$ is the final string in the derivation i.e. when //$$y$$ can be derived when $$x$$ is assumed to be a theorem//. Only strings that result from the fantasy rule (and strings that are derivable from them), are considered genuine theorems, I think. __So this is a slightly different kind of [[Formal system]], than those usually defined, <mark> right?</mark>__
+
+* ''Carry-over rule'': Inside a fantasy, any theorem from the "reality" one level higher can be brought in and used.
+
+These implications/derivation rules are interesting from a formal system perspective. They are a <b>a representation inside the system of a statement about the system</b>.
+
+* ''Modus Ponens'' (aka rule of detachment): If $$x$$ and $$<x \subset y >$$ are both theorems, then $$y$$ is a theorem.
+
+* ''Contrapositive rule'': $$<x \subset y>$$ and $$<\sim y \subset \sim x>$$ are interchangeable.
+
+* ''De Morgan's rule'': $$<\sim x \wedge \sim y>$$ and $$\sim < x \vee y >$$ are interchangeable.
+
+* ''Switcheroo rule''L $$<x \vee y >$$ and $$ < \sim x \subset y >$$ are interchangebale.
+
+!!__[[Decision rule]]__
+
+Method of truth tables

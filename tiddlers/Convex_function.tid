@@ -1,20 +1,35 @@
 created: 20160807224959210
 creator: cosmos
-modified: 20161104134327709
+modified: 20161107205525440
 modifier: cosmos
 tags: [[Convex analysis]]
 title: Convex function
 tmap.id: 250a92df-464d-49e0-9d5b-4dd555976385
 type: text/vnd.tiddlywiki
 
-A [[Function]] is ''convex'' if they satisfy the inequality
+A [[Function]] is ''convex'' over some if it satisfies the inequality
 
 $$f(\alpha x + \beta y) \leq \alpha f(x) + \beta f(y)$$
 
-for all $$x, y \in \mathbf{R}^n$$ and all $$\alpha, \beta \in \mathbf{R}$$ with $$\alpha+\beta=1, \alpha \geq 0, \beta \geq 0$$
+for all $$x, y \in D$$ (where $$D$$ is the domain) and all $$\alpha, \beta \in \mathbf{R}$$ with $$\alpha+\beta=1, \alpha \geq 0, \beta \geq 0$$ (i.e. this is a [[Convex combination]]
 
-If the function is twice [[Differentiable]], then it is convex iff $$f'' \geq 0$$.
+The domain $$D$$ has to be a [[Convex set]] for this to be defined
 
 [img[https://upload.wikimedia.org/wikipedia/commons/c/c7/ConvexFunction.svg]]
 
 Intuitively, a convex function is one for which the weighted average of the inputs produces at most the same weighted averages of the outputs.
+
+__Equivalent conditions for differentiable functions__
+
+*Once-differentiable. Tangent is lower bound. $$g(y) + \nabla g(y)^T (x-y) \leq g(x)$$.
+
+*If the function is twice [[Differentiable]], then it is convex iff $$f'' \geq 0$$. For multivariate, [[Hessian]] has to be positive semi-definite
+
+__Relations to [[Convex set]]s__
+
+All the points above the function (the function's [[Epigraph]]) form a convex set.
+
+__Operations that preserve convexity__
+
+* Non-negative weighted sums of convex functions. If you allow negative weights, we get a problem of [[Difference of convex functions]].
+* Pointwise maximum of the functions.

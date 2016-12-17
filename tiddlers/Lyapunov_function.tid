@@ -1,0 +1,11 @@
+created: 20161123215930457
+creator: cosmos
+modified: 20161123215937873
+modifier: cosmos
+title: Lyapunov function
+tmap.id: 045c5609-0213-42a5-bba9-9f92ae0dd76d
+type: text/vnd.tiddlywiki
+
+Lyapunov functions always decrease (or increase) with time and are used to establish the stability of fixed points in deter-ministic dynamical systems.
+
+See [[Dynamical system]]s

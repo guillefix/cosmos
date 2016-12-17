@@ -1,6 +1,6 @@
 created: 20160424004715321
 creator: guillefix
-modified: 20161104134328563
+modified: 20161122104110689
 modifier: cosmos
 tags: Genetics
 title: Gene regulatory networks
@@ -17,6 +17,10 @@ Epigenetics..
 * [[Chromatin]] remodelling. Tagging histones, etc. to reveal or conceal certain parts of [[DNA]]
 * [[microRNA]]
 * [[RNAi]]
+
+!!__Network motiffs__
+
+[img width=400 [geneNet_motiffs.png]]
 
 --------------
 

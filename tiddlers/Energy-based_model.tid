@@ -1,6 +1,6 @@
 created: 20161022125500529
 creator: cosmos
-modified: 20161104134328209
+modified: 20161108114329813
 modifier: cosmos
 tags: [[Machine learning]] [[Probabilistic model]]
 title: Energy-based model
@@ -15,5 +15,6 @@ They appear in several models in [[Machine learning]], such as:
 
 * [[Boltzmann machine]]s
 * [[Hopfield network]]s for symmetric connections
+* [[Graphical model]]s. Applications to discrete [[Optimization]]
 
 https://github.com/davidBelanger/SPEN

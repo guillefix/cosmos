@@ -1,0 +1,24 @@
+created: 20161128103747956
+creator: cosmos
+modified: 20161129163659904
+modifier: cosmos
+tags: [[High-performance computing]]
+title: Parallel computing
+tmap.id: 5a43cbed-94a3-4252-aa19-0038c793b469
+type: text/vnd.tiddlywiki
+
+[[Computer cluster]]
+
+[[GPU computing]]
+
+– Clusters	and	job	managers.
+– Jobs	vs Tasks.	
+• Creating	and	submitting	them.
+• Getting	the	results
+– Code	portability.
+– Callback	functions
+• Advanced	parallelism.
+– spmd mode,	message	passing.
+– GPU	computing.
+
+https://uk.mathworks.com/help/distcomp/how-parallel-computing-products-run-a-job.html

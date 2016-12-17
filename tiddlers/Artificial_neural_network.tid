@@ -1,6 +1,6 @@
 created: 20160124143800337
 creator: guillefix
-modified: 20161104134326963
+modified: 20161210192808098
 modifier: cosmos
 tags: [[Neuronal network]] [[Artificial intelligence]]
 title: Artificial neural network
@@ -53,7 +53,9 @@ see more at [[Learning theory]]
 
 !!__Types of neural networks__
 
-* Feedforward (basic)
+[[NN Zoo|http://www.asimovinstitute.org/neural-network-zoo/]]
+
+* [[Feedforward neural network]] (basic)
 
 * [[Convolutional neural network]]. Good for image recognition for e.g.
 
@@ -74,6 +76,10 @@ see more at [[Learning theory]]
 * [[Generative adversarial network]]
 
 * [[Hopfield network]]
+
+* [[Binarized neural network]]
+
+* [[Extreme learning machine|http://www.ntu.edu.sg/home/egbhuang/]]
 
 Many models in [[Machine learning]] can be seen as neural networks
 

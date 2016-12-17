@@ -1,6 +1,6 @@
 created: 20160904173221677
 creator: cosmos
-modified: 20161104134331878
+modified: 20161108093906541
 modifier: cosmos
 tags: [[Experimental biology]] Protein
 title: Protein structure analysis
@@ -16,3 +16,11 @@ __Imaging__
 
 * [[X-ray crystallography]]
 * [[Cryo EM|Cryo-electron microscopy]]! <-- 3 to 5 Angstrom
+
+__Computational analysis__
+
+Uses [[Machine learning]], [[Statistics]]
+
+* [[Clustering]], like [[UPGMA]] or [[K-means algorithm]]
+
+* [[Statistical potential]] for analysis of [[Protein-decoy structure]]s

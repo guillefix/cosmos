@@ -1,6 +1,6 @@
 created: 20160914151711312
 creator: cosmos
-modified: 20161104134329161
+modified: 20161216133209595
 modifier: cosmos
 tags: Clustering
 title: K-means algorithm
@@ -20,6 +20,8 @@ Input is an unlabelled data set $$x_1, x_2, ..., x_m \in \mathbb{R}^n$$
 ## $$\mu_j = \frac{\sum\limits_{i=1}^m 1\{c_i=j\}x_i}{\sum\limits_{i=1}^m 1\{c_i=j\}}$$. (Update the cluster centroids to be the mean of the points assigned to it)
 
 [img[http://simplystatistics.org/wp-content/uploads/2014/02/kmeans.gif]]
+
+[[K-means visualization|http://bl.ocks.org/blacki/c41127e3593052d6cf4e]] -- [[Visualizing K-means equilibria|http://bl.ocks.org/blacki/ebba08223eba20b56b62]]
 
 [[K-means is guaranteed to converge|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=12m07s]]. If we define the //distortion function//:
 

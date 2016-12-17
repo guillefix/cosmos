@@ -1,7 +1,7 @@
 created: 20160221175751889
 creator: guillefix
-modified: 20161104134327605
-modifier: guillefix
+modified: 20161125095600782
+modifier: cosmos
 tags: Chemistry [[Scientific computing]]
 title: Computational chemistry
 tmap.id: 0d45c468-7ff2-4e0a-83ca-2ca519e251db
@@ -9,7 +9,9 @@ type: text/vnd.tiddlywiki
 
 __Molecular modelling, dynamics and design__
 
-[[Introduction to molecular dynamics simulation|http://udel.edu/~arthij/MD.pdf]]
+[[Molecular dynamics]]
+
+[ext[Introduction to molecular dynamics simulation|http://udel.edu/~arthij/MD.pdf]]
 
 [[Video intro to molecular dynamics simulations|https://www.youtube.com/watch?v=lLFEqKl3sm4]] Watch!
 

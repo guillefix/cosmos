@@ -1,0 +1,13 @@
+created: 20161107145635806
+creator: cosmos
+modified: 20161107145952248
+modifier: cosmos
+title: Multivariate Taylor expansion
+tmap.id: f2e4150c-2dea-4fd5-937f-e87c7e6a0e71
+type: text/vnd.tiddlywiki
+
+An extension of the univariate [[Taylor expansion]] to [[Multivariate calculus]]:
+
+$$f(x+\delta x) = f(x)+\nabla^T f(x) \delta x + \frac{1}{2} \delta x^T H(x) \delta x$$ $$ + \text{higher order terms}$$
+
+where $$H$$ is the [[Hessian]]

@@ -1,7 +1,7 @@
 created: 20160122225248703
 creator: guillefix
-modified: 20161104134326607
-modifier: guillefix
+modified: 20161211222841894
+modifier: cosmos
 tags: Mathematics
 title: Abstract algebra
 tmap.id: dd675e84-a93f-44b9-904b-f03b8938e8e5
@@ -9,8 +9,10 @@ type: text/vnd.tiddlywiki
 
 //Things often have relations//
 
-[[wayback.archive-it.org/3671/20150528171650/https://www.extension.harvard.edu/open-learning-initiative/abstract-algebra]]
+[ext[wayback.archive-it.org/3671/20150528171650/https://www.extension.harvard.edu/open-learning-initiative/abstract-algebra]]
 
-See Wiki and CosmosBrain
+See Wiki and CosmosBrain, [[Algebraic structure]]
 
 [[Group theory]]
+
+http://math.stackexchange.com/questions/105285/the-most-common-theorems-taught-in-abstract-algebra

@@ -1,7 +1,12 @@
 created: 20160905054923096
-modified: 20161104134327371
+creator: cosmos
+modified: 20161213232456630
+modifier: cosmos
+tags: [[Programming language]]
 title: Clojure
 tmap.id: 8459f34c-de99-4ab5-91f4-29969eb8fa18
 type: text/vnd.tiddlywiki
 
 https://clojure.org/
+
+[[Clojure Made Simple|https://www.youtube.com/watch?v=VSdnJDO-xdg]]

@@ -1,7 +1,7 @@
 created: 20160121121935070
 creator: guillefix
 list-after: Discrete mathematics
-modified: 20161104134331843
+modified: 20161116112702193
 modifier: cosmos
 tags: Mathematics Statistics [[Measure theory]]
 title: Probability theory
@@ -9,6 +9,9 @@ tmap.id: e33eef73-8a1f-4757-9955-db95eb016af4
 type: text/vnd.tiddlywiki
 
 ''Probability Theory'' [[Wiki article|https://en.wikipedia.org/wiki/Probability_theory]]. Mathematica foundations of ''probability''
+
+!! [[Probability cheat sheet|https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf]]
+[[webpage|http://www.wzchen.com/probability-cheatsheet?utm_content=buffer3e4c1&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer]]
 
 [[Probability, Mathematical Statistics, Stochastic Processes|http://www.math.uah.edu/stat/index.html]]
 

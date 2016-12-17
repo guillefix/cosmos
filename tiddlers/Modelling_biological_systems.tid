@@ -1,6 +1,6 @@
 created: 20161018110720871
 creator: cosmos
-modified: 20161104134329752
+modified: 20161125095436873
 modifier: cosmos
 tags: [[Computational biology]] [[Systems biology]]
 title: Modelling biological systems
@@ -8,3 +8,7 @@ tmap.id: c56654d1-af12-4229-999f-eb680d865728
 type: text/vnd.tiddlywiki
 
 [[Multi-cellular organism simulation]]
+
+[[Systems biology]] -- [[Computational biology]]
+
+[[Molecular dynamics]]

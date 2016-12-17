@@ -1,6 +1,6 @@
 created: 20160709022008083
 creator: guillefix
-modified: 20161104134329444
+modified: 20161104155044509
 modifier: cosmos
 title: Long short-term memory
 tmap.id: 5911db88-7c5d-45d7-8e5c-57fc1d9eea55
@@ -22,3 +22,13 @@ Introduced in [[Hochreiter & Schmidhuber (1997)|http://deeplearning.cs.cmu.edu/p
 [[explanation|https://pythonprogramming.net/recurrent-neural-network-rnn-lstm-machine-learning-tutoria]] [[implementing in tensorflow|https://pythonprogramming.net/rnn-tensorflow-python-machine-learning-tutorial/]]
 
 [[Number of hidden units|http://stackoverflow.com/questions/37901047/what-is-num-units-in-tensorflow-basiclstmcell]]
+
+A crucial innovation to recurrent networks was the Long Short-Term Memory (LSTM)
+(Hochreiter and Schmidhuber, 1997).  This very general architecture was developed for a
+specific purpose, to address the “vanishing and exploding gradient” problem (Hochreiter
+et al., 2001a), which we might relabel the problem of “vanishing and exploding sensitivity.”
+LSTM ameliorates the problem by embedding perfect integrators (Seung, 1998) for mem-
+ory storage in the network.  The simplest example of a perfect integrator is the equation x(t+ 1) =x(t) +i(t), where i(t) is an input to the system.  The implicit identity matrix Ix(t) means that signals do not dynamically vanish or explode. If we attach a mechanism to this integrator that allows an enclosing network to choose when the integrator listens to inputs, namely, a programmable gate depending on context, we have an equation of the
+form x(t+ 1) =x(t) +g(context)i(t). We can now selectively store information for an 	indefinite length of time.
+
+From [[here|https://arxiv.org/pdf/1410.5401v2.pdf]]

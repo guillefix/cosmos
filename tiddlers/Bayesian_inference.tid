@@ -1,6 +1,6 @@
 created: 20160709011226683
 creator: guillefix
-modified: 20161104134327100
+modified: 20161123144822046
 modifier: cosmos
 tags: [[Statistical inference]] [[Bayesian statistics]]
 title: Bayesian inference
@@ -30,11 +30,25 @@ The last two steps [[are often computationally very difficult|https://www.youtub
 
 //Credible intervals//
 
-[[Conjugate prior]]s are particular choices of prior distributioj which give posterior distributions which are analytically integrable.
+__Ways of dealing with the problem of integrating prior to find normalization__
+
+* [[Conjugate prior]]s are particular choices of prior distributioj which give posterior distributions which are analytically integrable.
+
+* Discretize Baye's rule.
+
+* Sampling
 
 !!__Sampling__
 
-Often, we can't calculate the posterior distritbution directly, and so we [[sample|Sampling]], using [[Monte Carlo]] methods.
+[[slides|https://benlambertdotcom.files.wordpress.com/2016/05/bayesian-course-4-v1-handout.pdf]]. Often, we can't calculate the posterior distritbution directly, and so we [[sample|Sampling]], using [[Monte Carlo]] methods (basically just sampling methods).
+
+* ''Rejection sampling'', creates independent samples, but it becomes increasingly inefficient as dimension increases (one example of the [[Curse of dimensionality]]).
+* ''Dependent sampling''. A sampling algorithm where the next sample depends on the current value."
+** [[Markov chain Monte Carlo]]. Where to step next is determined via a distribution conditional on the current parameter value (1st order [[Markov chain]]). We want to choose starting position, and conditional sampling distribution so that the distribution converges to the posterior.
+*** [[Metropolis algorithm]]. Random walk Metropolis. Under quite general conditions the Random Walk Metropolis sampler converges asymptotically to the posterior. [[Ergodic theorem]]... We move based the ratio of the proposed un-normalised posterior to our current location => no need to calculate troublesome denominator. [[Efficient Bayesian inference with Hamiltonian Monte Carlo -- Michael Betancourt (Part 1)|https://www.youtube.com/watch?v=pHsuIaPbNbY]]. To check for convergence, multiple walkers are used (Multiple chain convergence monitoring). Still the measure to use isn't clear. Gelman and Rubin (1992) had the idea of comparing within-chain to between-chain variability. Dependence $$\uparrow$$ => Effective sample size $$\downarrow$$
+**** Metropolis-Hastings. See [[here|https://benlambertdotcom.files.wordpress.com/2016/05/bayesian-course-5-vfinal-v2-handout.pdf]]. Help with uniform convergence near boundaries. For unconstrained parameters we are free to use symmetric jumping kernels. However for constrained parameters we are forced to break this symmetry.
+** [[Gibbs sampling]]
+** [[Hamiltonian Monte Carlo]]
 
 !!__Hierarchical models__
 
@@ -42,7 +56,7 @@ Often, we can't calculate the posterior distritbution directly, and so we [[samp
 
 ------------------
 
-[[Lecture course|https://ben-lambert.com/bayesian-lecture-slides/]] - [[notes pdf|https://benlambertdotcom.files.wordpress.com/2016/05/bayesian-course-1-vfinal-vfinal.pdf]]
+[[Lecture course|https://ben-lambert.com/bayesian-lecture-slides/]] - [[notes pdf|https://benlambertdotcom.files.wordpress.com/2016/05/bayesian-course-1-vfinal-vfinal.pdf]]. [[notes2|https://ben-lambert.com/bayesian-lecture-slides/]]
 
 ---------------
 

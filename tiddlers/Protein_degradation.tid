@@ -1,0 +1,14 @@
+created: 20161124103235752
+creator: cosmos
+modified: 20161124103646539
+modifier: cosmos
+title: Protein degradation
+tmap.id: b61a1c86-7df8-4194-8c0e-d0f02552c54d
+type: text/vnd.tiddlywiki
+
+
+ClpXP, ClpAP. Degraadation in cytoplasm, and periplasm.
+
+ssrA tags. Native role is to prevent accumulation of unfinished proteins.
+
+Protein degradation can depend on [[Temperature]], because folding changes.

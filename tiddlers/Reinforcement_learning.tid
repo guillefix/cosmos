@@ -1,32 +1,69 @@
 created: 20160428203926307
 creator: guillefix
-modified: 20161104144345913
+modified: 20161208230412478
 modifier: cosmos
 tags: [[Machine learning]]
 title: Reinforcement learning
 tmap.id: 408808c2-3e36-4109-a712-607087200589
 type: text/vnd.tiddlywiki
 
-See [[Machine learning]]
+See [[Machine learning]], [[Decision theory]]
 
-[[Andrew Ng intro lecture|https://www.youtube.com/watch?v=RtxI449ZjSc&index=16&list=PLA89DCFA6ADACE599#t=20s]] -- [ext[book|https://sites.ualberta.ca/~szepesva/RLBook.html]] [[which proves several important theorems|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=10m30]]. No need to have stochastic processes, except when we have multiple agents (studied in [[Game theory]]).
+[[Andrew Ng intro lecture|https://www.youtube.com/watch?v=RtxI449ZjSc&index=16&list=PLA89DCFA6ADACE599#t=20s]] -- [ext[book|https://sites.ualberta.ca/~szepesva/RLBook.html]] [[which proves several important theorems|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=10m30]].
 
 -- [[Credit assignment problem|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=6m30s]]
 
+[[Intro lecture by David Silver|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT]] -- [[slides|http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/intro_RL.pdf]] 
+
+!!!__[[Types of RL|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h11m]] __
+
+* [[Prediction vs control|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h24m40s]].
+** Policy = policy evaluation
+**control = find optimal policy
+* Planning vs learning+planning
+** Planning = solve RL (prediction/control) problem with full knowledge of MDP
+** Learning + planning = RL (prediction/control) in not fully-known environment. need to learn to model environment too!. [[Exploration vs exploitationn|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h20m40]]
+
+[[Free energy principle]]
+
+[img[RL_taxonomy.png]]
+
+[img[reinforcement_learning_venn_diagram.png]]
+
+!!!__Environment, observation, and [[State|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=36m30s]]__:
+
+[[The next action could depend on the whole previous history|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=35m]], however, it is more efficient to just take an action according to a summary of the history (often sufficient statistic of the future) which is called the //agent state//. In fact, there are two types of states in RL.
+
+* ''Enviroment state''. Real state of the environment which determines its future behaviour. Generally, unobservable.
+* ''Agent state'' of the model. In general, a function of the agent's history
+
+The agent state is often chosen to be the [[Information state|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=42m]] or Markov state. An information that contains all useful information of the history, in order to probabilistically predict the next state (a [[Sufficient statistic]] of the future). This Markov state is used as part of the ''model'' the agent uses, which is often formalized as a [[Markov decision process]] ([[vid|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h06m36s]])
+
+[[Example|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=49m30s]]
+
+[[Fully observable environment|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=51m15]]. agent state = environment state = observation. Model = real environment.
+
+[[Partially-observable environment|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=52m25s]]. Agent needs to learn an "agent state", and an MDP. Now environment state $$\neq$$ agent state $$\neq$$ observation.
 
 !!__[[Markov decision process]]__
 
-Reinforcement leaning models the world as a Markov decision process. [[Andrew Ng intro to MDPs|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=9m]] -- [[operational definition|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=19m]]
+(Fully observable) Reinforcement leaning models the world as a Markov decision process. [[Andrew Ng intro to MDPs|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=9m]] -- [[operational definition|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=19m]] -- [[David Silver lecture|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1]]
+
+[[Planning -> policy evaluation (prediction)-> control|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=8m10s]]
 
 !!__Optimal policy problem__
 
-The core problem of MDPs is to find a "policy" for the decision maker: a function $$\pi$$ that specifies the action $$\pi(s)$$ that the decision maker will choose when in state $$s$$.  <small>Note that once a Markov decision process is combined with a policy in this way, this fixes the action for each state and the resulting combination behaves like a [[Markov chain]]</small>.
+[[David Silver video|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1#t=1h16m]] -- [[Optimal policy theorem|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1#t=1h17m25s]]!
+
+The core problem of MDPs is to find a ''policy'' for the decision maker: a function $$\pi$$ that specifies the action $$\pi(s)$$ that the decision maker will choose when in state $$s$$ ([[vid|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=58m44s]]).  <small>Note that once a Markov decision process is combined with a policy in this way, this fixes the action for each state and the resulting combination behaves like a [[Markov chain]]</small>. The policy [[could be stochastic too|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=59m24s]]. Apparently, no need to have stochastic policies, except when we have multiple agents (studied in [[Game theory]], as //strategies//), [[vid|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=11m]].
+
+[[vid|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1#t=1h8m9s]]
 
 The __[[goal|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=23m]] is to choose a policy $$\pi$$ that will maximize__ some cumulative function of the random __rewards__, typically the __expected__ discounted sum over a potentially infinite horizon:
 
-:$$V_\pi (s) := \sum^{\infty}_{t=0} {\gamma^t R_{a_t} (s_t, s_{t+1})} $$ &nbsp;&nbsp;&nbsp;(where we choose $$a_t = \pi(s_t)$$)
+|$$V_\pi (s) := \sum^{\infty}_{t=0} {\gamma^t R_{a_t} (s_t, s_{t+1})} $$|''Value function'' ([[vid|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=59m54s]])|
 
-where $$\ \gamma \ $$ is the [[discount factor|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=22m]] and satisfies $$0 \le\ \gamma\ < 1$$. (For example, $$ \gamma = 1/(1+r) $$ when the discount rate is r.)  $$ \gamma $$ is typically close to 1. [[This is known as the total payoff|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=20m20s]], or [[value function|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=29m]], for policy $$\pi$$. This function [[satisfies a recursive equation|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=33m20s]] called [[Bellman equation]], which will be used for the learning algorithms that compute the optimal policy.
+where we choose $$a_t = \pi(s_t)$$,  $$\ \gamma \ $$ is the [[discount factor|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=22m]] and satisfies $$0 \le\ \gamma\ < 1$$. (For example, $$ \gamma = 1/(1+r) $$ when the discount rate is r.)  $$ \gamma $$ is typically close to 1. [[This is known as the total payoff|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=20m20s]], or [[value function|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=29m]], for policy $$\pi$$. This function [[satisfies a recursive equation|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=33m20s]] called [[Bellman equation]], which will be used for the learning algorithms that compute the optimal policy.
 
 Because of the Markov property, the optimal policy for this particular problem can indeed be written as a function of $$s$$ only, as assumed above ([[although for some richer models this may not be true|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=25m30s]])
 
@@ -34,9 +71,11 @@ Because of the Markov property, the optimal policy for this particular problem c
 
 [[video|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=28m20s]]
 
-!!!__Computing the value function__
+!!!__Computing the value function ([[Policy evaluation|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=12m40s]])__
 
-[[Bellman equation]] [[gives a set of linear constraints|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=40m20s]] to the value function $$V_\pi (s)$$ that can be solved as a linear system, to obtain the value of the value function, for a given policy.
+Use [[Bellman expectation equation|Bellman equation]] [[gives a set of linear constraints|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=40m20s]] to the value function $$V_\pi (s)$$ that can be solved as a linear system, to obtain the value of the value function, for a given policy. Most effective way to __solve it is iteratively__:
+
+* [[Synchronous update|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=14m45s]]
 
 !!__Definitions__
 
@@ -44,7 +83,7 @@ Because of the Markov property, the optimal policy for this particular problem c
 
 $$V^* (s) = \max\limits_\pi V^\pi (s)$$
 
-Bellman equation for $$V^*$$ ([[derivation|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=14m]]; although I think the way to do it, is to treat first $$a$$ as indepdent of $$\pi$$, and then realizing that maximizing over $$a$$ should give $$V^*$$ (and so $$a$$ should be $$\pi(s_0)$$):
+[[Bellman optimality equation|Bellman equation]] for $$V^*$$ (aka [[Bellman optimality equation|https://www.youtube.com/watch?v=lfHX2hHRMVQ&index=2&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h22m40s]], [[derivation|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=14m]]; although I think the way to do it, is to treat first $$a$$ as indepdent of $$\pi$$, and then realizing that maximizing over $$a$$ should give $$V^*$$ (and so $$a$$ should be $$\pi(s_0)$$):
 
 $$V^* (s) = R(s) + \gamma \max\limits_a \sum\limits_{s'} P_{s a} (s') V^* (s')$$
 
@@ -58,13 +97,15 @@ This is the optimal policy that maximizes the expected total payoff (solution of
 
 MDPs can be solved by [[Linear programming]], iterative methods, or [[Dynamic programming]].
 
-!!!__Q function, or action-value function --> //Q learning//__
+!!!__Q function, or ''action-value function'' --> //Q learning//__
 
 Although state-values suffice to define optimality, it will prove to be useful to define action-values. Given a state $$s$$, an action $$a$$ and a policy $$\pi$$, the action-value of the pair $$(s,a)$$ under $$\pi$$ is defined by
 
 :$$Q^\pi(s,a) = E[R|s,a,\pi],\,$$
 
 where, now, $$R$$ stands for the random return associated with __first taking action $$a$$ in state $$s$$ and following $$\pi$$ thereafter__.
+
+[[Video|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1#t=52m]] -- [[Bellman equation for action-value function|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1#t=54m40s]]
 
 It is well-known from the theory of MDPs that if someone gives us $$Q$$ for an optimal policy, we can always choose optimal actions (and thus act optimally) by simply choosing the action with the highest value at each state. 
 The ''action-value function'' of such an optimal policy is called the ''optimal action-value function'' and is denoted by $$Q^*$$.
@@ -87,26 +128,24 @@ The ''action-value function'' of such an optimal policy is called the ''optimal 
 
 !!!__[[Policy iteration|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=59m38.5s]]__
 
+,,[[Greedy policy always improves policy (or leaves it equally good)|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=49m20s]] --> [[partial ordering over policies as intuition for optimal policy theorem|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=56m44s]],,
+
+[[Full policy iteration|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=29m52s]]
+
+[[Modified policy iteration doesn't require to converge to real value function|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=58m40s]]. The version with just one step in Bellman equation per policy iteration is described below. This version is equivalent to value iteration (below)
+
 The algorithm has the following two kinds of steps, which are repeated in some order for all the states until no further changes take place. It first computes the optimal policy estimate using, the optimal value function estimate, and then recomputes the value function estimate using the new optimal policy estimate.
 They are defined recursively as follows:
 
-:$$ \pi(s) := \arg \max_a \left\{ \sum_{s'} P_a(s,s') \left( R_a(s,s') + \gamma V(s') \right) \right\} $$
-
 :$$ V_\pi(s) := \sum_{s'} P_{\pi(s)} (s,s') \left( R_{\pi(s)} (s,s') + \gamma V(s') \right) $$
 
-Where, the value function (defined above) measures the discounted sum of the rewards to be earned (on average) by following that solution from state $$s$$. The second recursive relation is called [[Bellman equation]]
+:$$ \pi(s) := \arg \max_a \left\{ \sum_{s'} P_a(s,s') \left( R_a(s,s') + \gamma V(s') \right) \right\} $$
 
-Their order depends on the variant of the algorithm; one can also do them for all states at once (synchronously) or state by state, and more often to some states than others (asynchronous). As long as no state is permanently excluded from either of the steps, the algorithm __will eventually arrive at the correct solution__.
+Where, the value function (defined above) measures the discounted sum of the rewards to be earned (on average) by following that solution from state $$s$$. The second recursive relation is called [[Bellman equation]]. These equation are used iteratively one after the other in the 1-step policy iteration.
 
-There are variants, in particular ''value iteration'' and ''policy iteration'' described in the [[Wiki page|https://www.wikiwand.com/en/Reinforcement_learning]], and others:
+Their order actually depends on the variant of the algorithm; one can also do them for all states at once (synchronously) or state by state, and more often to some states than others (asynchronous). As long as no state is permanently excluded from either of the steps, the algorithm __will eventually arrive at the correct solution__!
 
-* Trust Region Policy Optimization [1]
-
-* Proximal Policy Optimization (i.e., TRPO, but using a penalty instead of a constraint on KL divergence), where each subproblem is solved with either SGD or L-BFGS
-
-* Cross Entropy Method
-
-!!!__[[Value iteration|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=50m15s]]__
+!!!__[[Value iteration|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=50m15s]] ([[vid2|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h1m48s]])__
 
 Iterate:
 
@@ -115,6 +154,15 @@ Iterate:
 to converge to $$V^*$$. After iterations, compute optimal policy using its definition
 
 :$$\pi^*(s) = \arg\max\limits_a \sum\limits_{s'} P_{s a} (s') V^* (s')$$
+
+
+There are other algorithms described in the [[Wiki page|https://www.wikiwand.com/en/Reinforcement_learning]]:
+
+* Trust Region Policy Optimization [1]
+
+* Proximal Policy Optimization (i.e., TRPO, but using a penalty instead of a constraint on KL divergence), where each subproblem is solved with either SGD or L-BFGS
+
+* Cross Entropy Method
 
 !!!__[[Temporal differences|Temporal difference learning]] (TD)__
 
@@ -155,6 +203,10 @@ See [[here|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6A
 
 [[Summary|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=1h9m20s]]
 
+!!__Undiscounted MDP__
+
+No discount factor $$\gamma$$. Approach: average reward MPD.
+
 !!__[[Debugging RL algorithms|https://www.youtube.com/watch?v=UFH5ibWnA7g&index=19&list=PLA89DCFA6ADACE599#t=1m]]__
 
 
@@ -184,6 +236,12 @@ Example: https://github.com/joschu/modular_rl
 
 [[Pavlov.js - Reinforcement learning using Markov Decision Processes|https://github.com/NathanEpstein/Pavlov.js]]
 
+!!![[https://openai.com/blog/universe/]]
+
+!!![[DeepMind Lab|https://deepmind.com/blog/open-sourcing-deepmind-lab/]]
+
 See also [[Decision theory]], [[Game theory]]
 
 !![[Deep reinforcement learning]]
+
+!![[Multi-agent system]]s

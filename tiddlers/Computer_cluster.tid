@@ -1,0 +1,24 @@
+created: 20161129143248185
+creator: cosmos
+modified: 20161129143415507
+modifier: cosmos
+tags: [[Parallel computing]]
+title: Computer cluster
+tmap.id: d6255005-2778-48f5-b0d2-bcdd27e235a1
+type: text/vnd.tiddlywiki
+
+“Set	of	loosely	connected	computers	that	work	
+together	so	that	in	many	respects	they	can	be	
+viewed	as	a	single	system”.
+
+Backend manages the [[distributed|Distributed computing]] system.
+
+!!__Cluster frontend__
+
+The frontend, abstracts the system, so that one can interact with it as if it was a single computer.
+
+__Job	manager	(or	scheduler)__:	program	running	
+
+on	the	cluster	frontend.
+– Listens	for	incoming	job	submissions.
+– Schedules	jobs	in	a	more	or	less	fair	way.

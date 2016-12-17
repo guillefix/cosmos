@@ -1,6 +1,6 @@
 created: 20160623233746308
 creator: guillefix
-modified: 20161104134328764
+modified: 20161127190731735
 modifier: cosmos
 tags: [[Human learning]]
 title: Hebbian theory
@@ -21,6 +21,8 @@ Let us assume that the persistence or repetition of a reverberatory activity (or
 
 A fires just before, not at the same time as, cell B. This important aspect of causation in Hebb's work foreshadowed what is now known about spike-timing-dependent plasticity, which requires temporal precedence.[3] The theory attempts to explain associative or Hebbian learning, in which simultaneous activation of cells leads to pronounced increases in synaptic strength between those cells, and provides a biological basis for errorless learning methods for education and memory rehabilitation. In the study of neural networks in cognitive function, it is often regarded as the neuronal basis of unsupervised learning.
 
+[[Mu-ming Poo (UC Berkeley, CAS Shanghai) Part 2:Hebb's Postulate Revisited|https://www.youtube.com/watch?v=hLs3m6nIJ1E&index=26&list=PL4C48902B3A4ED0F4]]
+
 [[Cell Assembly Signatures Defined by Short-Term Synaptic Plasticity in Cortical Networks|http://www.worldscientific.com/doi/10.1142/S0129065715500264]]
 
 The cell assembly (CA) hypothesis has been used as a conceptual framework to explain how groups of neurons form memories. CAs are defined as neuronal pools with synchronous, recurrent and sequential activity patterns
@@ -28,3 +30,5 @@ The cell assembly (CA) hypothesis has been used as a conceptual framework to exp
 !!__Hebb's rule used in [[Associative memory|Content-addressable memory]]__
 
 [img[Hebbs_rule.png]]
+
+!!__[[Spike-timing-dependent plasticity]] (STDP)__

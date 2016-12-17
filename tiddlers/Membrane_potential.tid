@@ -1,6 +1,6 @@
 created: 20161018222830393
 creator: cosmos
-modified: 20161104134329621
+modified: 20161203233417685
 modifier: cosmos
 tags: [[Cell membrane]]
 title: Membrane potential
@@ -10,3 +10,7 @@ type: text/vnd.tiddlywiki
 [ext[Membrane potentials - part 1 | Cells | MCAT | Khan Academy|https://www.youtube.com/watch?v=PtKAeihnbv0]]
 
 ''Equilibrium potential'' for K+ is -92mV
+
+[[Membrane potential in neurons|https://www.youtube.com/watch?v=aU2pyB-49m8&list=PLYq7WW565SZgVNpy-E5rG3ru0Ft6QMSpp#t=37m]]
+
+Can be computed similarly to how the  [[Nernst relation]] is derived.

@@ -1,0 +1,20 @@
+created: 20161130145019411
+creator: cosmos
+modified: 20161130151435973
+modifier: cosmos
+tags: Virus
+title: HIV
+tmap.id: 0c5ca8de-c06f-4d2f-a424-b39902af9326
+type: text/vnd.tiddlywiki
+
+
+
+!!__HIV viral kinetics__
+
+Models:
+
+* Target-cell-limited model. Extension: [[paper|http://www.sciencedirect.com/science/article/pii/S0022519309001702]].
+
+Qualitiative behaviour: Viral concentration grows exponentially, reaches a peak, and settles down to a steady state, called viral setpoint. 
+
+Extended model: add immune effector cells, that kill infected cells. Assume quasistationarity, because separation of time scales, to derive final model.

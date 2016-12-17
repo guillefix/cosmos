@@ -1,0 +1,44 @@
+created: 20161107225039714
+creator: cosmos
+modified: 20161108130239575
+modifier: cosmos
+title: Statistical potential
+tmap.id: 62323153-95ad-4aab-8b53-32ee4e249f9f
+type: text/vnd.tiddlywiki
+
+As used in [[Protein structure analysis]], Statistical potentials score [[decoys|Protein-decoy structure]] by comparing their features to experimentally-
+determined structures, based on the assumption that the observed distributions of
+particular features reflect energetics: i.e., a common characteristic is assumed to be
+energetically favourable.
+
+__RAPDF (residue-specific all-atom probability discriminatory function)__
+
+Essentially a [[Naive Bayes]] classifier trained on a set $$C$$ of native structures (structures observed experimentally and assumed to be correct).
+
+We wish to evaluate $$P(C|\{d_{ij}^{ab}\})$$, theprobability  the  structure  is  a  member  of  the  "correct"  set $$C$$,  given  it  contains  the  distances  {$$d_{ij}^{ab}$$}. We write this probability, using [[Baye's theorem]] as
+
+$$P(C|\{d_{ij}^{ab}\}) = P(C) \frac{P(\{d_{ij}^{ab}\}|C)}{P(\{d_{ij}^{ab}\})}$$
+
+We then make the assumption that $$P(\{d_{ij}^{ab}\}|C)$$ factorizes as $$\prod\limits_{ij}P(d_{ij}^{ab}|C)$$ (i.e. the [[Naive Bayes]] assumption!).
+
+The score of each decoy (with features $$\{d_{ij}^{ab}\}$$) is then just the negative log-likelihood
+
+$$S(\{d_{ij}^{ab}\}) = -\ln{P(C|\{d_{ij}^{ab}\})} = \sum_{ij} \ln{\left (\frac{P(d^{ij}_{ab}|C)}{P(d^{ij}_{ab})} \right)}$$
+
+where $$S$$ is the score for the decoy, and $$d^{ij}_{ab}$$ is the distance between atoms $$i$$ and $$j$$, of types $$a$$ and $$b$$. 
+
+See more explanation [[here|http://moult.ibbr.umd.edu/pdfs/All-atomDistance-dependentConditionalProbability.pdf]]
+
+The probabilites are estimated (as in [[Naive Bayes]]) as sample frequencies:
+
+$$P(d^{ij}_{ab}|C) = \frac{N(d^{ij}_{ab})}{\sum_d (d^{ij}_{ab})}$$
+
+where the distances $$d^{ij}_{ab}$$ have been discretized, and $$N$$ means number of occurrences of distance $$d$$ between residues of type $$a$$ and $$b$$ over all native configurations in $$C$$.
+
+The average over all experimental structures is
+
+$$P(d^{ij}_{ab}) = \frac{N(d^{ij}_{ab})}{\sum_d (d^{ij}_{ab})}$$ over all structures, not just those in $$C$$.
+
+However, they further approximate this, and assume (I guess as over all structures, there is more randomness..) that this is independent of $$a$$ and $$b$$, and that they can estimate this as the average over all $$a$$ and $$b$$ and all structures, in $$C$$ (because we don't have the whole set of possible structures I guess)
+
+$$P(d^{ij}_{ab}) \approx P(d) =  \frac{\sum_{ab}N(d^{ij}_{ab})}{\sum_d \sum_{ab} (d^{ij}_{ab})}$$ over structres in $$C$$.

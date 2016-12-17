@@ -1,6 +1,6 @@
 created: 20161017101914498
 creator: cosmos
-modified: 20161104134331884
+modified: 20161124102354166
 modifier: cosmos
 tags: Protein
 title: Protein folding
@@ -26,3 +26,5 @@ http://dillgroup.stonybrook.edu/#/landscapes
 !!__Protein missfolding__
 
 [[Prions and Protein Misfolding|https://www.youtube.com/watch?v=Chs7ixRstQk]]
+
+Some [[Protein]]s can have many native folded states with different functions. Different mRNAs can produce these differently folded states, by giving rise to different [[mRNA translation]] dynamics (for instance by different secondary structures).

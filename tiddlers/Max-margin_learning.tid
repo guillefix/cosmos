@@ -1,0 +1,23 @@
+created: 20161107171013333
+creator: cosmos
+modified: 20161107171234294
+modifier: cosmos
+title: Max-margin learning
+tmap.id: 86f7906c-83d1-44f2-be5c-2304d5f1255d
+type: text/vnd.tiddlywiki
+
+
+!!!Maximum margin principle
+
+[img[max-margin_illustration.png]]
+
+Maximise the distance of the
+closest point from the decision boundary.
+
+Points that are closest to the decision boundary are support vectors
+
+!!![[Support vector machine]]s
+
+!!!Application to [[Transfer learning]]
+
+''[[Max-margin|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=29m25s]]'': learning a function that identifies sensible data (e.g. sentences that make sense), thats what we do with the algorithm he explains of finding a prob dist bigger at the data points that "anywhere" else. This will, in particular, make the NN learn a good representation of the data, or //embedding//. For this we use ''hinge loss''. In practice, [[we do this|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=37m30s]]

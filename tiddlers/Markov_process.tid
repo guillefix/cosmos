@@ -1,6 +1,6 @@
 created: 20160322023836531
 creator: guillefix
-modified: 20161104134329503
+modified: 20161113111001403
 modifier: cosmos
 tags: [[Stochastic process]]
 title: Markov process
@@ -20,3 +20,5 @@ Visualization: http://setosa.io/ev/markov-chains/
 [ext[Markov processes and reversibility|http://www.statslab.cam.ac.uk/~frank/BOOKS/book/ch1.pdf]]
 
 [[Markov random field]]
+
+[[David Silver video|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1#t=3m25s]]

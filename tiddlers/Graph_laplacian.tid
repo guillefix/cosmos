@@ -1,7 +1,7 @@
 created: 20160127131146262
 creator: guillefix
-modified: 20161104134328748
-modifier: guillefix
+modified: 20161121103918766
+modifier: cosmos
 title: Graph laplacian
 tmap.id: 12fe8dfa-48cb-4b0a-b739-09a71d05b213
 type: text/vnd.tiddlywiki
@@ -14,7 +14,7 @@ where $$C$$ is the diffusion constant. In vector form:
 
 $$\frac{\partial \mathbf{\Psi}}{\partial t}=C(\mathbf{A}-\mathbf{D})\mathbf{\Psi} \equiv -C\mathbf{L}\mathbf{\Psi}$$
 
-where $$\mathbf{D}=diag(k_1,...,k_n)$$ is the diagonal matrix of degrees, and $$L$$ is the (combinatorial) ''graph laplacian'', which is then:
+where $$\mathbf{D}=diag(k_1,...,k_n)$$ is the diagonal matrix of degrees, and ''$$\mathbf{L}=\mathbf{D}-\mathbf{A}$$'' is the (combinatorial) ''graph laplacian'', which is then:
 
 $$
 L_{ij}=
@@ -40,4 +40,4 @@ $$
 
 Then, $$\mathbf{L}=\mathbf{B}^T\mathbf{B}$$, from which one can show that the eigenvalues of $$\mathbf{L}$$ are not only real (as it is symmetric), but also non-negative. This is an important physical property of the Laplacian, because it means the solutions of the diffusion equation only includes non-diverging solutions, which makes sense since diffusion is constructed to conserve the quantity $$\Psi_i$$.
 
-In particular the vector $$\mathbf{1}=(1,1,1,...)$$ always has eigenvalue $$0$$ (this implies $$\mathbf{L}$$ is singular). It can be shown, that more generally, the number of eigenvectors with $$0$$ eigenvalue is always equal to the number of components in the network. Thus the second eigenvalue of the Laplacian (when arranged in ascending order) is non-zero if and only if the network is connected. This eigenvalue is called the //algebraic connectivity// or //spectral gap//, and is useful in a technique known as spectral partitioning.
+In particular the vector $$\mathbf{1}=(1,1,1,...)$$ always has eigenvalue $$0$$ (this implies $$\mathbf{L}$$ is singular). It can be shown, that more generally, the number of eigenvectors with $$0$$ eigenvalue is always equal to the number of components in the network. Thus the second eigenvalue of the Laplacian (when arranged in ascending order) is non-zero if and only if the network is connected. This eigenvalue is called the //algebraic connectivity// or ''//spectral gap//'', and is useful in a technique known as spectral partitioning.

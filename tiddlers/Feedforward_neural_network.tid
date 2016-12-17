@@ -1,0 +1,10 @@
+created: 20161128181912192
+creator: cosmos
+modified: 20161128181940905
+modifier: cosmos
+tags: [[Feedforward neural network]]
+title: Feedforward neural network
+tmap.id: dbb1a48b-7b99-4751-bed6-869a68899316
+type: text/vnd.tiddlywiki
+
+An [[Artificial neural network]], where there is no recurrent connections (loops).

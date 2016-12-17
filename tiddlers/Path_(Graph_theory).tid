@@ -1,7 +1,7 @@
 created: 20160123142602747
 creator: guillefix
-modified: 20161104134331446
-modifier: guillefix
+modified: 20161121104848914
+modifier: cosmos
 title: Path (Graph theory)
 tmap.id: aef4cc27-56ae-46c9-b25f-5d56a5cfe401
 type: text/vnd.tiddlywiki
@@ -10,7 +10,7 @@ A ''path'' (sometimes called a 'walk')in a network is a sequence of of nodes suc
 
 //Self avoding paths// (a.k.a 'simple paths')don't traverse the same node or edge twice.
 
-The //length// is the number of time one traverses an edge in a path.
+The //length// is the number of time one traverses an edge in a path. However, sometimes it is defined as the number of nodes.
 
 $$A_{ik}A_{kj}$$ is only non-zero if there's a path of length 2 from i to j. The total number of such paths is $$N(2)_{ij}=\sum_{k=1}^{n}A_{ik}A_{kj}=[A^2]_{ij}$$. Similarly, the total number of 3-paths is $$N(3)_{ij}=\sum_{k,l=1}^{n}A_{ik}A_{kl}A_{lj}=[A^3]_{ij}$$. In general $$N(r)_{ij}=[A^r]_{ij}$$. 
 
@@ -29,6 +29,8 @@ The //diameter// of a graph is the longest geodesic distance between any pair of
 An __Eulerian path__ is one that traverses each edge in a network exactly once. It is not self-avoiding in general because a node with a degree higher than two will need to be visited more than once. 
 
 A necessary condition for a graph to have an Eulerian path is that there are zero or two nodes with odd degree, the first case corresponding to beginning and ending the path on the same node, and the second case, beginning and ending on different nodes.
+
+See [[Seven Bridges of Konigsberg|https://www.youtube.com/watch?v=eIb1cz06UwI&list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg]]
 
 A __Hamiltonian path__ is one that visits each node exactly once. It is self-avoiding because traversing an edge more than once will imply traversing a node more than once.
 

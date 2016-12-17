@@ -1,0 +1,20 @@
+created: 20161107193446600
+creator: cosmos
+modified: 20161107200807587
+modifier: cosmos
+tags: [[Newton's method]]
+title: Quasi-Newton method
+tmap.id: cd1c37d0-4d5b-4854-9b6a-5471cb3f4716
+type: text/vnd.tiddlywiki
+
+Methods of approximately performing [[Newton's method]]. They most often involve approximating the [[Hessian]] in some way; for instance, by [[Finite element method]]
+
+https://www.wikiwand.com/en/Quasi-Newton_method
+
+__Second order/Newton/Quasinewton methods__
+
+Conjugate gradient method
+
+BGFS and L-GBFS
+
+!!!BFGS

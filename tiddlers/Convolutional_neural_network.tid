@@ -1,6 +1,6 @@
 created: 20160328184231393
 creator: guillefix
-modified: 20161104134327701
+modified: 20161201011708032
 modifier: cosmos
 title: Convolutional neural network
 tmap.id: c6d7fec1-261c-4b1c-971c-06616c8b7b25
@@ -14,7 +14,7 @@ http://cs231n.github.io/convolutional-networks/
 
 http://cs231n.stanford.edu/syllabus.html
 
-!!![[Convnet demo on the web!|http://scs.ryerson.ca/~aharley/vis/conv/]] [[details here|http://scs.ryerson.ca/~aharley/vis/]]
+!!![ext[Convnet demo on the web!|http://scs.ryerson.ca/~aharley/vis/conv/]] [ext[details here|http://scs.ryerson.ca/~aharley/vis/]]
 
 [img[http://scs.ryerson.ca/~aharley/vis/images/convnet_480.png]]
 
@@ -45,6 +45,8 @@ Use as many of these layers Iconvolutions and poolings) as we can train, 20+ ([[
 At the end we may have a fully connected neural layer, to do the classification, but researchers are questioning if it is that useful..
 
 We may [[visualize the features|https://www.youtube.com/watch?v=bEUX_56Lojc&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=10#t=13m30s]] in the feature maps by visualizing the matrices of parameters.
+
+''MaxPooling'' coarse grains by chosing the maximum value in a certain patch of a few pixels. Nearby pixels are likely to be similar, and it is useful to distinguish between the same pattern been seen several times by the filter convolving around it, or several distinct repetitions of the pattern. Maxpool tries to solve for the former fake repetition..
 
 !!!__Sentence ConvNets__
 

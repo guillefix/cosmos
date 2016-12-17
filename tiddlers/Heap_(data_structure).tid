@@ -1,9 +1,12 @@
 created: 20160629232938000
 creator: guillefix
-modified: 20161104134328773
-modifier: guillefix
+modified: 20161129141252626
+modifier: cosmos
+tags: [[Data structure]]
 title: Heap (data structure)
 tmap.id: 6aacb0ec-19c5-4396-a965-e45c1dd2d3e1
 type: text/vnd.tiddlywiki
 
-[[https://en.wikipedia.org/wiki/Heap_(data_structure)]]
+[ext[https://en.wikipedia.org/wiki/Heap_(data_structure)]]
+
+a specialized tree-based data structure that satisfies the heap property: If A is a parent node of B then the key (the value) of node A is ordered with respect to the key of node B with the same ordering applying across the heap. A heap can be classified further as either a "max heap" or a "min heap". 

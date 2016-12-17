@@ -1,0 +1,20 @@
+created: 20161113183522071
+creator: cosmos
+modified: 20161113183523606
+modifier: cosmos
+title: Neuronal staining method
+tmap.id: e1a8107c-e6b3-42ab-a573-4fd35ad980c4
+type: text/vnd.tiddlywiki
+
+Traditionally studied via staining methods:
+
+* Nissl stains. Mostly nucleus visible.
+* Golgi impregnation techniques. Only about 1% of neurons impregnated. Makes most of the cell visible.
+* Weigert stain for myelin.
+* Reduced-silver method.
+* Staining of degenerate elements.
+* Retrogade staining. One can stain all neurons whose axons terminate on a given region, using materials taken at the dendrites and then transported to the cell body.
+* Anterograde staining. Find the regions which the axons of neurons in a certain zone reach, using materials absorved by the body and transported to the axon terminals.
+* Intreacellular dye injection. Shows more of the cell than Golgi impregnation techniques.
+* Histochemical staining. Identify cells by particular chemicals they contain.
+* Metabolic staining. Staining that depends on the [[Metabolism]] of the cells.

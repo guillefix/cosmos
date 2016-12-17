@@ -1,6 +1,6 @@
 created: 20160204232816786
 creator: guillefix
-modified: 20161104134332799
+modified: 20161217011955697
 modifier: cosmos
 title: Theory of computation
 tmap.id: 63f787f0-d586-4ca6-ba2a-bba71f84f9a2
@@ -55,3 +55,5 @@ See also [[Automata theory]] for more. Main examples:
 [[Causal Nets or What Is a Deterministic Computation?|http://www.cs.bu.edu/faculty/gacs/papers/causal-nets.pdf]]
 
 [[http://www.cs.bu.edu/~gacs/recent-publ.html]]
+
+http://podcast.ucsd.edu/podcasts/default.aspx?PodcastId=13&v=0

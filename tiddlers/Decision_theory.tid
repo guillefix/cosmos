@@ -1,6 +1,6 @@
 created: 20160711222935370
 creator: guillefix
-modified: 20161104134327797
+modified: 20161109232349140
 modifier: cosmos
 tags: [[Probability theory]] [[Game theory]]
 title: Decision theory
@@ -14,3 +14,10 @@ https://www.wikiwand.com/en/Decision_theory
 See also [[Machine learning]], and [[Reinforcement learning]]
 
 !!![[Decision tree]]
+
+----------------
+
+!!![[Two types of problems in sequential decision-making|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h16m25s]]:
+
+* [[Reinforcement learning]]
+* Planning

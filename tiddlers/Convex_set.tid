@@ -1,0 +1,31 @@
+created: 20161107104650734
+creator: cosmos
+modified: 20161108100535118
+modifier: cosmos
+tags: [[Convex analysis]]
+title: Convex set
+tmap.id: b1968912-cd6c-4dcb-930e-9b5894f90f6b
+type: text/vnd.tiddlywiki
+
+A [[Set]] where all the points in the line segment connecting two points in the set, lie in the set.
+
+In more general cases the "line segment" is defined as all [[Convex combination]]s of the objects at the end points.
+
+__Operations that preserve convexity__
+
+Pages 13 and 14 [[here|http://mpawankumar.info/teaching/cdt-optimization/lecture1_2.pdf]]
+
+* Intersection
+* [[Affine transformation]]
+
+__Separating hyperplane__
+
+For every convex set, and any point outside the set (but in some underlying space, in particular $$R^n$$..), there exists a [[Hyperplane]] that //separates// the set and the point, i.e. the point is one half-space, and the whole set lies on the other. This is called the separating hyperplane.
+
+Pages 16-20 [[here|http://mpawankumar.info/teaching/cdt-optimization/lecture1_2.pdf]]
+
+__[[Convex hull]]__
+
+----------------
+
+If $$g$$ is a [[Convex function]], then the [[Set]] $$\{x|g(x) \leq 0 \}$$ is convex.

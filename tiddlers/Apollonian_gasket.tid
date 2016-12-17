@@ -1,12 +1,14 @@
 created: 20160509175710496
 creator: guillefix
-modified: 20161104134326863
-modifier: guillefix
+modified: 20161216133457793
+modifier: cosmos
 title: Apollonian gasket
 tmap.id: 788db0ee-587a-4ad3-b884-89f6ab986498
 type: text/vnd.tiddlywiki
 
 [[Apollonian gasket|https://www.jasondavies.com/apollonian-gasket/]] (see [[Apollonian networks]])
+
+http://bl.ocks.org/mbostock/7115f7a0393de96f2fdc
 
 <div style="width: 600px; height:500px; overflow : hidden; position : relative;" overflow="scroll">
 <iframe src="https://www.jasondavies.com/apollonian-gasket/" scrolling="no" style="position : absolute;top: -165px;left: -50px; width    : 1280px; height   : 1200px;">

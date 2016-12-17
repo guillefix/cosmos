@@ -1,6 +1,6 @@
 created: 20160531113641930
 creator: guillefix
-modified: 20161104134328179
+modified: 20161122100920717
 modifier: cosmos
 tags: [[Chemical kinetics]]
 title: Enzyme kinetics
@@ -16,3 +16,5 @@ $$k_{\text{eff}} = \frac{k_2 C_S C_E}{C_S+K_M}$$
 __Derivation__
 
 [img[http://i.imgur.com/UtOT13V.png]]
+
+See [[sysbio matlab modelling course day 2 morning|Day2_Morning_lecture.pdf]]. There are two time scales in the problem. Can apply [[Method of multiple scales]].

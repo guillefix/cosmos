@@ -1,6 +1,6 @@
 created: 20160913070239061
 creator: cosmos
-modified: 20161104134327888
+modified: 20161210001816621
 modifier: cosmos
 tags: [[Deep learning]]
 title: Deep learning theory
@@ -12,6 +12,8 @@ type: text/vnd.tiddlywiki
 //Better understanding the shortcomings and potential of deep learning may suggest ways of improving it, both to make it more capable and to make it more robust [2].//
 
 [[Integrating symbols into deep learning]]
+
+[[A Theoretical Framework for Deep Learning Networks|https://www.youtube.com/watch?v=YVjvRvvVn4w]]
 
 ----------------------
 

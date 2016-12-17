@@ -1,6 +1,6 @@
 created: 20160709020641282
 creator: guillefix
-modified: 20161104134332676
+modified: 20161109180910283
 modifier: cosmos
 title: Support vector machine
 tmap.id: de46d9cf-ac43-41a3-9643-77b35dc44df8
@@ -16,7 +16,11 @@ A method for discriminative [[Supervised learning]], that is for [[Classificatio
 
 [[Support Vector Machine Intro and Application - Practical Machine Learning Tutorial with Python p.20|https://www.youtube.com/watch?v=mA5nwGoRAOo&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&index=20]]
 
+See page 39 [[here|http://mpawankumar.info/teaching/cdt-optimization/lecture1_2.pdf]], and [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/ML-MT2016/slides/slides09.pdf]], and [[these notes|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/ML-MT2016/lectures/lecture09.pdf]]
+
 !!__Maximum/Optimal margin classifier__
+
+[[Max-margin learning]]
 
 [[Summary|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599]]
 
@@ -38,13 +42,19 @@ s.t. $$y^{(i)} (w^T x + b ) \geq 1$$
 
 This is an example of a [[quadratic program|Quadratic programming]]
 
+This is the same as maximizing the margin, under the constraint See page 8 [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/ML-MT2016/slides/slides09.pdf]], and divide consrtaints by norm of $$w$$, giving the geometric margin.
+
 !!!__SVM optimization problem__
 
 <b>An SVM works by solving the [[dual problem to the optimization problem|Optimization]] of OMCs defined above</b>. The good thing is that the resulting optimization problem is [[convex|Convex optimization]], for which there are very efficient methods for solving it, as there are no local minima!
 
 Primal and dual [[Optimization]] problems: [[intro|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=48m05s]] --> [[primal problem|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=49m15s]] --> [[Dual problem|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=56m]] ([[Skip some algebra|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=1h02m30s]])
 
+__Support vectors__
+
 ([[Definition of support vectors|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=53m50s]], the $$\alpha$$s [[are Lagrange multipliers|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=28m20s]])
+
+Support vectors satisfy the contraint inequality with equality.
 
 The approach for deriving the optimal margin classifier for a support vector machine, is that we'll solve the dual optimization problem above.
 
@@ -100,7 +110,13 @@ $$i = 1, ..., n$$
 
 basically weight how each point contributes, so that if there is some outlier it doesn't break the algorithm.. [[Explanation|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=39m]]
 
-Can also work out [[the dual of this optimization problem|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=39m50s]]
+We need $$\xi_i  \geq 0$$ so that we don't reward easy to classify terms, with negative $$\xi_i$$. 
+
+|This constrained optimization problem can be reformulated as an unconstrained optimization problem with a regularized [[Hinge loss]] function: $$\frac{1}{2}||w||^2 + C \sum_i \max{\{0,1-y_i(\mathbf{w}^T \mathbf{x}_i)\}}$$|
+
+To see this we have to minimize w.r.t $$\xi$$ first, and then w.r.t $$\mathbf{w}$$ (which can always be done). So we consider fixing the parameters $$w$$, and minimizing w.r.t $$\xi$$, which gives $$\xi=\max{\{0,1-y_i(\mathbf{w}^T \mathbf{x}_i)\}}$$, which gives the [[Hing loss]].
+
+Can also work out [[the dual of this optimization problem|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=39m50s]] (see more on [[Optimization]] and [[Linear programming]] about dual optimization problems). See [[slides here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/ML-MT2016/slides/slides09.pdf]]
 
 [[Convergence conditions|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=43m23s]]
 

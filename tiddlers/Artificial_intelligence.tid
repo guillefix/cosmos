@@ -1,6 +1,6 @@
 created: 20160124143839436
 creator: guillefix
-modified: 20161104134326967
+modified: 20161215144130038
 modifier: cosmos
 tags: Intelligence [[Computer Science and IT]]
 title: Artificial intelligence
@@ -21,11 +21,13 @@ Read Neural Turing machines paper
 
 See also: [[Evolutionary computing]], [[Bio-inspired computing]], [[Sloppy systems]]
 
+[[Artificial Intelligence At Work|http://events.technologyreview.com/video/watch/dileep-george-vicarious-ai-work/]] (http://www.vicarious.com/)
+
 ----------
 
 ''[[Artificial intelligence]]'' (''AI'') has the overall goal of understanding and engineering //intelligence//, behaviour that involves understanding, and higher [[cognitive|Cognitive science]] functions. It is a broad and very interdisciplinary field. It feeds to and from [[Machine learning]], [[Logic]], [[Cognitive science]], [[Neuroscience]], etc.
 
-__Approaches__
+!!__Approaches__
 
 * Connectionists. Deep learning, artificial neural network. Backpropagatiob
 
@@ -36,6 +38,14 @@ __Approaches__
 * Symbolists
 
 * Analogizers.
+
+!!!__AI and complex systems__
+
+[[Synthetic biology routes to bio-artificial intelligence|http://pure.abdn.ac.uk:8080/portal/en/researchoutput/synthetic-biology-routes-to-bioartificial-intelligence(cb7d62e5-5877-4659-8286-ba1ab187fbc4).html]]
+
+[[Complex Systems, Artificial Intelligence and Theoretical Psychology|https://www.researchgate.net/profile/Richard_Loosemore/publication/228680056_Complex_systems_artificial_intelligence_and_theoretical_psychology/links/02bfe50fea30911805000000.pdf?origin=publication_detail]]
+
+----------------
 
 __[[AI safety]]__
 
@@ -108,3 +118,27 @@ Seems to be a result of:
 [[Artificial Intelligence for Humans, Volume 3: Deep Learning and Neural Networks Paperback – 28 Oct 2015|https://www.amazon.co.uk/Artificial-Intelligence-Humans-Learning-Networks/dp/1505714346/ref=pd_cp_14_1?_encoding=UTF8&psc=1&refRID=QQNERJ110GTGKXQRXNZ8]]
 
 [[Fundamentals of Deep Learning|http://shop.oreilly.com/product/0636920039709.do]]
+
+https://medium.com/machine-learnings/a-humans-guide-to-machine-learning-e179f43b67a0#.gumb86nos
+
+Yes, the idea is not that humans will not do anything. The idea is that we set goals, make individual and collective decisions, just as today. But with higher prowess. As a result, most people will work less, in the sense that they spend almost all their time in leisure, and almost none in rote activities.
+In car factories, for instance, you will need less and less people, as the work becomes closer and closer to just deciding the overall high level goals. The remaining jobs, will also become quite close to laisure anyway, with almost all rote aspects removed.
+You know, people for fun will stay make cars and other things by hand, and with different degrees of automation. A big thing, I believe, will be people and machines working together as a team, each benefiting from each other's strengths. Later on, we will also become hybridized with machines in more direct ways, until, "we become one". Or how I prefer to put it, we become many (in the sense that the diversity of forms of sentient beings/people will grow drastically, with a huge spectrum of personal choice/journey to explore and expand)
+
+http://www.artificialbrains.com/
+
+[[Nice PhD thesis|http://users.dsic.upv.es/~flip/papers/Thesis_fmartinez.pdf]] -- [[author page|http://users.dsic.upv.es/~fmartinez/]]
+
+[[Prof. Schmidhuber - The Problems of AI Consciousness and Unsupervised Learning Are Already Solved|https://www.youtube.com/watch?v=JJj4allguoU]]
+
+---------------------
+
+Some quick notes to self, on designing cognitive systems (AIs):
+System that sees and acts on the world.
+It creates models of the world and of itself acting on it.
+It meanwhile decides what to do, based on its internal models, and some sort of reward mechanisms. It can decide to act on the world, or run internal simulations (thinking, consciousness), or both, and can organically alternate between the two. Active and passive/reflective modes. Fast and slow thinking.
+Creating models <--> Unsupervised learning. Promising approaches: GANs, DBNs. Need more advances in this area.
+Models that include the acting agent itself. Juergen Schmidhuber seems to have made work on this, but not sure what is his approach.
+Best reward mechanisms unclear. Also, amount of pre-existing structure for system to work appropriately also unclear <> the rebirth of the nurture vs nature problem, now from the "Creator"'s perspective.
+
+[[The AI awakening|http://www.nytimes.com/2016/12/14/magazine/the-great-ai-awakening.html?mwrsm=Facebook&_r=0]]

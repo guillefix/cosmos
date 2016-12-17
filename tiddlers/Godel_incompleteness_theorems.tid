@@ -1,0 +1,34 @@
+created: 20161105231531964
+creator: cosmos
+modified: 20161204230932425
+modifier: cosmos
+tags: Metamathematics
+title: Godel incompleteness theorems
+tmap.id: b0015c0c-265b-47ec-9215-80bf47dc3148
+type: text/vnd.tiddlywiki
+
+Using ''Godel numbering'' (an encoding of statements in number theory), Godel managed to find a theorem, which in English is like:
+
+> This statement of number theory does not have any proof in the system of //Principia Mathematica// (and related systems)
+
+which can't be proved in the system but is (thus) true.
+
+This showed that the system (and indeed all [[Formal system]]s that tried to do the same thing) was either incomplete or inconsistent.
+
+-----------
+
+https://www.quora.com/Do-G%C3%B6dels-Incompleteness-Theorems-imply-that-the-human-mind-is-fundamentally-different-from-machines
+
+Infinite hierarchy of formal systems vs chomsky hierarchy of machines.
+
+Formal system = machine + info deacribing the formal system.
+
+Hierarchy of formal systems just describes a hierarchy in their axioms/deacription.
+
+Intuition isn't proving.
+
+---------------
+
+Godel hierarchy of formal systems is a more fined grained hierarchy than Chomsky's.
+
+It might even be suggested that a theory of reasoning could be identical to its own metatheory, if it were worked out carefully. Then, it might seem, all levels would collapse into one, and thinking about the system would be just one way of working in the system! But it is not that easy. Even if a system can "think about itself", it still is not outside  itself. You, outside the system, perceive  it differently from the way it perceives itself. So there still is a metatheory-a view  from outside-even for a theory which can "think about itself" inside itself. We will find that there are theories which can "think about themselves". In fact, we will soon see a system in which this happens completely accidentally, without our even intending it! And we will see what kinds of effects this produces.

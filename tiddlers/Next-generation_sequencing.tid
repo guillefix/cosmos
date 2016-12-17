@@ -1,6 +1,6 @@
 created: 20161014143745891
 creator: cosmos
-modified: 20161104134331010
+modified: 20161216124631386
 modifier: cosmos
 tags: [[DNA sequencing]]
 title: Next-generation sequencing
@@ -8,3 +8,5 @@ tmap.id: affdba76-561f-4ac8-b8d0-fe8a87e56853
 type: text/vnd.tiddlywiki
 
 http://www.nature.com/subjects/next-generation-sequencing
+
+[[Nanopore sequencing|https://www.youtube.com/watch?v=CE4dW64x3Ts]]

@@ -1,0 +1,28 @@
+created: 20161128094815938
+creator: cosmos
+modified: 20161128100435235
+modifier: cosmos
+tags: Heart Electrophysiology
+title: Cardiac electrophysiology
+tmap.id: 04c0a25b-cb9b-4db1-ab68-08e5e885f50e
+type: text/vnd.tiddlywiki
+
+The [[electrophysiological|Electrophysiology]] functioning of the [[Heart]]
+
+Repeated rhythmic contractions. Mechanical activity triggered by ordered ''electrical activation''.
+
+Electricity travels through walls. Atria.
+
+Multi-scale process:
+
+* Initiated by [[Pacemaker cell]]s
+* Cardiac myocyates experiance quick changes in [[transmembrane potential|Membrane potential]] => [[Action potential]]
+* Neighbouring cells detect this change by diffusion and mimic it.
+
+__Reaction-diffusion model__
+
+//monodomain equations//
+
+$$V=\phi_e - \phi_i$$, where $$\phi_e$$ is the extracellular [[Electric potential]], and $$\phi_i$$ is the intracellular one. We also homogenize the tissue (i.e. ignore the fine cellular detail of the [[Myocardium]]).
+
+Numerical solution, with [[Finite element method]]s.

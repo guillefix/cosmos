@@ -1,12 +1,48 @@
 created: 20160329140536300
 creator: guillefix
-modified: 20161104134328430
-modifier: guillefix
+modified: 20161106171034326
+modifier: cosmos
 tags: [[Mathematical logic]]
 title: Formal system
 tmap.id: 249cad87-ebe7-4875-bd76-d1acb68cfe7e
 type: text/vnd.tiddlywiki
 
+A ''Formal system'' is a [[Set]] of rules you can apply to a set of objects.
+
 [[Formal language]]
 
 https://en.wikipedia.org/wiki/Formal_grammar
+
+[[Formal systems and semantics]]
+
+MU-puzzle
+
+!!__Rewrite systems__
+
+The most common type of formal system. (Are there other types actually?)
+
+__(Abstract) Rewrite systems__
+
+A set of objects, and a binary operation, $$\rightarrow$$, that tells us how we are allowed to transforms expressions. If these rules act on //terms// out of which an expression can be built, then this is a term rewrite system.
+
+They are non-deterministic Markov algorithms, and they are Turing complete. They are related to normal forms, lambda calculus, and combinatory logic
+
+[ext[http://www.cs.tau.ac.il/~nachum/papers/survey-draft.pdf]]
+
+Initial strings in a formal theorem are called //axioms//, while any string producible by its rules are konwn as //theorem//s.
+
+The rules themselves are knwon as production rules or rules of inference.
+
+A series of production rules that leads to a theorem is known as a derivation of that theorem.
+
+!!!__Decision procedure and [[Decidability|Decidable]]__
+
+A ''decision procedure'' is a [[Computable]] procedure (i.e. one that is guaranteed to finish in a finite amount of time) that determines whether a theorem will be reached by the production rules of the formal system, or not.
+
+A theorem is [[Decidable]] if it has a decision procedure for it.
+
+The axioms must always be decidable. Their decision procedure is often in the form of an //axiom schema//, with substitutable variables which are clearly defined.
+
+Formal systems with only //lengthening// rules always have a decision procedure for all strings. See page 48 of GEB.
+
+See [[Computability theory]]

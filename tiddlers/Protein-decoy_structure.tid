@@ -1,0 +1,20 @@
+created: 20161107224829935
+creator: cosmos
+modified: 20161107231746044
+modifier: cosmos
+tags: [[Protein structure analysis]]
+title: Protein-decoy structure
+tmap.id: e480c350-bd43-4097-aaea-36f2ae7b8ea7
+type: text/vnd.tiddlywiki
+
+When predicting protein structures, normally many different possible structures are made.
+These candidate conformations are known as decoys. By making many decoys (generating them computationally), the
+probability that one of them closely resembles the true structure of the target protein is
+increased - however, since the true structure is unknown, a method must be developed
+that can predict which of the decoys is the most accurate. One way of doing this is via the
+use of a statistical (or knowledge-based) energy function, known as [[Statistical potential]]
+
+[[Network properties of protein-decoy structures|https://www.ncbi.nlm.nih.gov/pubmed/22545992]]
+
+[[Protein decoy sets for evaluating energy functions|https://www.ncbi.nlm.nih.gov/pubmed/15106995]]
+

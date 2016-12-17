@@ -1,6 +1,6 @@
 created: 20160226112409331
 creator: guillefix
-modified: 20161104134329488
+modified: 20161201202108037
 modifier: cosmos
 tags: [[Artificial intelligence]] Learning [[Data science]]
 title: Machine learning
@@ -116,3 +116,5 @@ See more in [[Machine learning in science and engineering]], and [[Applications 
 <mark>Try [[Torch|Torch (Deep learning framework)]]:</mark>
 
 See https://www.youtube.com/watch?v=DHspIG64CVM#t=45m40s
+
+[ext[http://www.robots.ox.ac.uk/~az/lectures/index.html]]

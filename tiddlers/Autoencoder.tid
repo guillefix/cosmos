@@ -1,6 +1,6 @@
 created: 20160919105809475
 creator: cosmos
-modified: 20161104134327010
+modified: 20161214001216391
 modifier: cosmos
 tags: [[Unsupervised learning]]
 title: Autoencoder
@@ -18,6 +18,10 @@ As they are designed to extract important features of the data, they are a form 
 [[Two Minute Papers - What is an Autoencoder?|https://www.youtube.com/watch?v=Rdpbnd0pCiI]]
 
 https://probablydance.com/2016/04/30/neural-networks-are-impressively-good-at-compression/
+
+!!__Convolutional autoencoder__
+
+https://pgaleone.eu/neural-networks/deep-learning/2016/12/13/convolutional-autoencoders-in-tensorflow/?utm_content=buffer3ec98&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 
 !!__Variational autoencoder__
 

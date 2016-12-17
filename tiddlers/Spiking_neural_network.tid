@@ -1,11 +1,67 @@
 created: 20160623203037516
 creator: guillefix
-modified: 20161104134332587
+modified: 20161211010054721
 modifier: cosmos
+tags: [[Artificial neural network]] [[Neuronal network]]
 title: Spiking neural network
 tmap.id: 0c99f481-6a1a-4393-aab3-646b71696c5c
 type: text/vnd.tiddlywiki
 
-A more realistic kind of [[Artificial neural network]]. It is a model that is the basis for the design of [[Neuromorphic computing]] systems.
+A more biologically plausibl kind of [[Artificial neural network]], which takes direct inspiration on biologial [[Neuronal network]]s. It is a model that is the basis for the design of [[Neuromorphic computing]] systems. It models the time-dependent spikes of real [[Neuron]]s. These spikes correspond to [[Action potential]] spikes that travel through the neuron's axons, dendrites, and soma (bodies).
 
-[ext[Spiking Deep Neural Networks|http://www.ini.uzh.ch/~pfeiffer/research.html]]
+[[CS-DC'15: From Spikes to Cognitive Agents with Neural Assembly Computing|https://www.youtube.com/watch?v=P6ysScmb9hY&t=279s]]
+
+The first scientific model of a spiking neuron, proposed by Hodgkin and Huxley [21], is based on experimental recordings from the giant squid axon using a voltage clamp method. The complexity in simulating this biologically realistic model is very high due to the number of differential equations and the large number of parameters. Thus, most computer simulations choose to use a simplified neuron model such as the integrate-and-fire model (I&F), leaky I&F model, conductance-based I&F or Izhikevich׳s model. The I&F model simulates the state of the neuron by its membrane potential, which receives excitatory or inhibitory signals from synaptic inputs from other neurons. Each input is weighted by its associated synaptic strength. The leaky I&F model produces a more biologically realistic neuron model adding a “leak” term to the membrane potential, reflecting the diffusion of ions that occurs through the membrane when some equilibrium is not reached in the cell. A full review of the biological behaviour of single neurons can be found in [13] and a comparison of different neuron models can be found in [26].
+
+Quantification of the spiking is often done by the ''instantaneous firing rate'', the number of spikes per unit of time, in average. However, simulating the individual spikes can be useful, because the brain seems to generate spike timing patterns that sometimes give rise to precise ''spike-timing dynamics''. One can also choose to model the axonal delays or not. Both spikes and axonal delays are necessary to study the self-organization of polychrony ([[paper|http://www.izhikevich.org/publications/spnet.pdf]]).
+
+:[[Delayed dynamical system]]s can exhibit astonishingly rich and complex dynamics (e.g., see Foss & Milton, 2000); however, the mathematical theory of such equations is still in its infancy (Wiener & Hale, 1992; Bellen & Zennaro, 2003). [[Maxwell's equations]] give rise to delayed PDEs (see Feynman lectures, on relativistic EM!).
+
+
+[ext[Spiking Deep Neural Networks|http://www.ini.uzh.ch/~pfeiffer/research.html]], [[vid|https://www.youtube.com/watch?v=lhIdisK7akI]]
+
+-----------
+
+//more resources//
+
+!!!See [[Neuronal network]]
+
+------------
+
+!!__[[Polychronization]]__
+
+----------------
+
+!!__Connections with [[Backpropagation]] and [[Deep learning]]__
+
+https://www.reddit.com/r/MachineLearning/comments/2lmo0l/ama_geoffrey_hinton/
+
+[ext[Error-backpropagation in temporally encoded networks of spiking neurons|http://homepages.cwi.nl/~sbohte/publication/backprop.pdf]]
+
+[[BPSpike: A backpropagation learning for all parameters in spiking neural networks with multiple layers and multiple spikes|http://ieeexplore.ieee.org/abstract/document/7727211/]] -- [[pdf|http://sci-hub.cc/10.1109/ijcnn.2016.7727211]]
+
+!!![[Stanford Seminar - Can the brain do back-propagation?|https://www.youtube.com/watch?v=VIRCybGgHts]]
+
+[[Backpropagation can be recovered by STDP|https://www.youtube.com/watch?v=VIRCybGgHts#t=30m17s]] by reinterpreting STDP as taking time derivatives.
+
+[[This seems like an example of an extreme learning machine|https://www.youtube.com/watch?v=VIRCybGgHts#t=55m55s]]! -- feedback alignment
+
+---------------
+
+[[Stable propagation of synchronous spiking in cortical neural networks|http://www.nature.com/nature/journal/v402/n6761/abs/402529a0.html]]^^^^
+
+!!!__Training via [[Spike-timing-dependent plasticity]] (STDP)__
+
+------------------
+
+spiking neural P systems
+
+---------------
+
+__Software to simulate SNNs__
+
+[[Brian|http://brian2.readthedocs.io/en/stable/resources/tutorials/1-intro-to-brian-neurons.html]] --  (code/ai/brain) [[neurons tutorial|http://mybinder.org/repo/brian-team/brian2-binder/notebooks/tutorials/1-intro-to-brian-neurons.ipynb]], [[synapses tutorial|http://mybinder.org/repo/brian-team/brian2-binder/notebooks/tutorials/2-intro-to-brian-synapses.ipynb]]
+
+[[Software from Polychronization: Computation With Spikes|http://www.izhikevich.org/publications/spnet.htm]]
+
+[[PyNN|http://neuralensemble.org/PyNN/]]

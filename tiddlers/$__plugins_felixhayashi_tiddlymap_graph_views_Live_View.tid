@@ -1,13 +1,15 @@
 config.central-topic: 
-config.neighbourhood_directions: in
+config.neighbourhood_directions: 
 config.neighbourhood_scope: 2
 config.physics_mode: true
 config.refresh-triggers: $:/temp/tmap/currentTiddler
 config.show_inter_neighbour_edges: true
 config.vis: {"physics":{"forceAtlas2Based":{"springLength":0,"centralGravity":0.07}}}
 created: 20161104134823347
+creator: cosmos
 isview: true
-modified: 20161104145532107
+modified: 20161104152108532
+modifier: cosmos
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/Live View
 type: text/vnd.tiddlywiki
 

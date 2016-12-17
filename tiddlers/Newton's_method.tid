@@ -1,13 +1,23 @@
 created: 20160918160757187
 creator: cosmos
-modified: 20161104134331021
+modified: 20161107200849192
 modifier: cosmos
 tags: [[Gradient descent]]
 title: Newton's method
 tmap.id: 4560555a-9aa7-4f38-b8bc-05101c5a5c31
 type: text/vnd.tiddlywiki
 
-A method to find stationary points of a function. Note that it doesn't necessarily minimize.. Also it's more computationally intensive than [[Gradient descent]], but it tends to converge faster!
+A method to find stationary points of a function. Note that it doesn't necessarily minimize.. It's more computationally intensive than [[Gradient descent]] per step, but it tends to converge faster!
+
+It is based on a local ''quadratic approximation'' to the function using [[Multivariate Taylor expansion]]:
+
+$$f(x+\delta x) \approx f(x)+\nabla^T f(x) \delta x + \frac{1}{2} \delta x^T H(x) \delta x$$
+
+If we minimize this by taking the [[Gradient]] w.r.t $$\delta x$$ and setting it to zero:
+
+$$\nabla^T f(x) + H(x) \delta x = 0$$
+
+$$\delta x=-H(x)^{-1}\nabla f(x)$$
 
 See section 7 [[here|http://cs229.stanford.edu/notes/cs229-notes1.pdf]], [[video|https://www.youtube.com/watch?v=nLKOQfKLUks&index=4&list=PLA89DCFA6ADACE599#t=3m30s]] -- [[Hugo's video|https://www.youtube.com/watch?v=Bver7Ttgb9M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=17#t=15m50s]]
 
@@ -15,10 +25,23 @@ See section 7 [[here|http://cs229.stanford.edu/notes/cs229-notes1.pdf]], [[video
 
 Taylor expand to second order (in multi-variate way) and minimize that (i.e. take derivative (gradient)) and set to 0. [[It performs upper bound minimization|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=26m33s]]. 
 
-Newton CG (conjugate gradient) algorithms. 
+Newton CG (''conjugate gradient'') algorithms. 
 
 Expensive thing is computing Hessian, and inverting it. It only works if the function is locally [[convex|Convex function]], so that Hessian is invertible.  Approximate methods like BFGS, LBFGS.
+
+Trust regions..
 
 Line search
 
 [[It is very similar to standard gradient descent|https://www.youtube.com/watch?v=Bver7Ttgb9M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=17#t=20m20s]], but were the learning rate adapts to the curvature.
+
+//Possible problems//
+
+Quadratic approximation may be inaccurate
+
+Hessian and its inverse may be expensive --> [[Quasi-Newton method]]
+
+!!__[[Quasi-Newton method]]__
+
+
+

@@ -1,12 +1,14 @@
 created: 20161026163921860
 creator: cosmos
-modified: 20161104134332668
+modified: 20161108100625268
 modifier: cosmos
 title: Sub-gradient descent
 tmap.id: f6653c7e-3fd9-4544-b4b6-05e1f96a7584
 type: text/vnd.tiddlywiki
 
-Like [[Gradient descent]] but using [[Subderivative]]s
+Like [[Gradient descent]] but using [[Subderivative]]s.
+
+  See page 42- [[here|http://mpawankumar.info/teaching/cdt-optimization/lecture1_2.pdf]]
 
 __Sub-gradient for absolute values__
 

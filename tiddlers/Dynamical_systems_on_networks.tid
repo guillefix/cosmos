@@ -1,7 +1,7 @@
 created: 20160225233410686
 creator: guillefix
-modified: 20161104134328058
-modifier: guillefix
+modified: 20161127205807610
+modifier: cosmos
 title: Dynamical systems on networks
 tmap.id: cafe051d-6130-4748-b67b-dd2786651d89
 type: text/vnd.tiddlywiki
@@ -16,9 +16,24 @@ See Mason and Gleeson tutorial article
 
 See also [[Temporal networks]]
 
-!!!__Deterministic processes on networks__
+!!__Deterministic processes on networks__
 
-!!!__[[Random processes|Stochastic processes]] on networks__
+[[Graph dynamical system]]
+
+[[Epidemics on networks]]
+
+!!!__Type of update rule__
+
+Two main types:
+
+* __Synchronous updating__: all nodes at the same time.
+
+* __Asynchronous updating__: Nodes at different times.
+** Serial updating. Only one node is updated at a time.
+*** Random serial updating. The node is chosen at random.
+*** Sequential serial updating. The nodes are chosen in a fixed sequence.
+
+!!__[[Random processes|Stochastic processes]] on networks__
 
 [[Probability on Graphs |http://www.statslab.cam.ac.uk/~grg/books/USpgs-rev3.pdf]]
 
@@ -30,4 +45,10 @@ See also [[Temporal networks]]
 
 [[Directed percolation]]
 
-[[Epidemics on networks]]
+[[Epidemics on networks]], [[Population dynamics]], [[Random walk in a graph]]
+
+[[Chemical reaction network theory]]
+
+!!__Applications__
+
+[[Systems biology]]

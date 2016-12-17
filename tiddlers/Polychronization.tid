@@ -1,0 +1,25 @@
+created: 20161210122846368
+creator: cosmos
+modified: 20161210122910549
+modifier: cosmos
+tags: [[Spiking neural network]]
+title: Polychronization
+tmap.id: 41e80efb-4cf0-40a3-b9de-41b39169d65e
+type: text/vnd.tiddlywiki
+
+Certain spatio-temporal patterns of firing (with time-locked firings) emerge in [[Spiking neural network]]s with axonal delays, and STDP learning -- [[paper|http://www.izhikevich.org/publications/spnet.pdf]]
+
+Because of [[Spike-timing-dependent plasticity]], spiking neural networks can give rise to radically different self-organisation of visual representations when trained on visual scenes (for example). Furthermore, if distributions of axonal delays between neurons are incorporated, then this can give rise to a phenomenon known as ‘polychronization’. This phenomenon involves the network learning many memory patterns, each of which takes the form of a repeating temporal loop of neuronal spike emissions. These temporal memory loops self-organise automatically when STDP is used to modify the strengths of synapses in a recurrently connected spiking network with randomised distributions of axonal conduction delays between neurons. Stringer et al. discuss how a form of polychronization may contribute to the development of highly selective [[binding neurons|Binding problem]]. 
+
+The firing patterns can be found in the firing sequences of single neurons or in the relative timing of spikes of multiple neurons, which are then said to form a functional ''neuronal group''. Activation of such a neuronal group can be triggered by stimuli or behavioral events. These findings have been widely used to support the hypothesis of ''temporal coding'' in the brain.
+
+Since the firings of these neurons are not synchronous but time-locked to each other, we refer to such groups as polychronous, wherepolymeans manyandchronousmeanstimeorclockin Greek. Polychrony should be dis-tinguished from asynchrony, since the latter does not imply a reproducible time-locking pattern, but usually describes noisy, random, nonsynchronous events. It is also different from the notion of clustering, partial synchrony (Hoppensteadt & Izhikevich, 1997), or polysynchrony (Stewart, Golubit-sky, & Pivato, 2003), in which some neurons oscillate synchronously while others do not. 
+
+//How many distinct polychronous groups can be stored in a given network?// Experimentally, even more than the number of synapses. But theoretically?
+
+We hypothesize that polychronous groups could represent [[memories|Memory]] and experience. They show that the memory tends to learn to "recognize" input patterns, by developing polychronized groups activated by them.
+
+''Rate to Spike-Timing Conversion''. Neurons in the model use a spike-timing code to interact and form groups. However, the external input from sensory organs, such as retinal cells and hair cells in cochlear, arrives as a rate code, that is, encoded into the mean firing frequency of spiking. How can the network convert rates to precise spike timings? . It is easy to see how rate to spike-timing conversion could occur at the onset of stimulation. As the input volley arrives, the neurons getting stronger excitation fire first, and the neurons getting weaker excitation fire later or not at all. Spiking between layers in [[Feedforward neural network]]s?.   They hypothesize that [[intrinsic rhythmicity|Brain waves]] generates internal “saccades” that can parse the rate input into spike timing, and they discuss three possible mechanisms how this could be accomplished.
+
+Related to [[Synfire chain]]s, which are sometimes called //synfire braid//s.
+

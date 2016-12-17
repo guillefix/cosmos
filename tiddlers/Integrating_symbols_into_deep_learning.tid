@@ -1,6 +1,6 @@
 created: 20160522140646117
 creator: guillefix
-modified: 20161104134329014
+modified: 20161206174154848
 modifier: cosmos
 title: Integrating symbols into deep learning
 tmap.id: 97e313c0-af7a-4a8b-9a7a-e22b48c48d94
@@ -71,3 +71,5 @@ See some papers above
 * [[Program induction]]
 
 https://www.ndcn.ox.ac.uk/publications/420742
+
+[[Learning symbolic rules with ANNs|https://books.google.co.uk/books?hl=en&lr=&id=TrqjBQAAQBAJ&oi=fnd&pg=PA73&dq=combinatorics+of+neural+networks+-optimization&ots=v1Z6XS3XVt&sig=gfVu4LqQGakrhkmsvfGlTkYS7Yc#v=onepage&q=combinatorics%20of%20neural%20networks%20-optimization&f=false]]

@@ -1,7 +1,7 @@
 created: 20160623232213298
 creator: guillefix
-modified: 20161104134328056
-modifier: guillefix
+modified: 20161127205843251
+modifier: cosmos
 title: Dynamics of Boolean networks
 tmap.id: 1c314e28-f2d5-4e95-8ecc-04f6e96f898a
 type: text/vnd.tiddlywiki
@@ -55,3 +55,7 @@ RBNs are generalizations of Boolean [[Cellular automata]] (von Neumann 1966; Wol
 The self-organization of RBNs can also be interpreted in terms of complexity reduction. For example, the human genome has approximately 25,000 genes. Thus, in principle, each cell could be in one of the $$2^{25,000}$$ possible states of that network. This is much more than the estimated number of elementary particles arising from the Big Bang. However, there are only about 300 cell types (attractors (Kauffman 1993; Huang and Ingber 2000)), i.e., cells self-organize toward a very limited fraction of all possible states.
 
 There are several regimes. In the //critical regime// near in-degree (in topological network) 2: Few nodes have many predecessors, while many nodes have few predecessors. Actually, the in-degree distribution (in state network, I think) approximates a power law ([[Wuensche 1998|http://uncomp.uwe.ac.uk/wuensche/downloads/papers/complex98.pdf]]).
+
+-----------------
+
+See also [[Dynamical systems on networks]]

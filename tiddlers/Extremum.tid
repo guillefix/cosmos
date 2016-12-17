@@ -1,0 +1,18 @@
+created: 20161107143013226
+creator: cosmos
+modified: 20161107143616133
+modifier: cosmos
+tags: [[Multivariate calculus]]
+title: Extremum
+tmap.id: 41f66c34-87c7-4f25-bc7e-3ca117f55a40
+type: text/vnd.tiddlywiki
+
+An extremum of a function $$f$$ occurs where its [[Gradient]] is $$\vec{0}$$. 
+
+Let $$H$$ be the Hessian
+
+* $$H \succeq 0$$ $$\Rightarrow$$ [[Local minimum]]
+* $$H \preceq 0$$ $$\Rightarrow$$ [[Local maximum]]
+* Otherwise $$\Rightarrow$$ [[Saddle point]]
+
+Where $$\succeq 0$$ means [[Positive semi-definite matrix]] and $$\preceq 0$$ means negative semi-definite.

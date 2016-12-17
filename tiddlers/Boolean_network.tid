@@ -1,6 +1,6 @@
 created: 20160419204301650
 creator: guillefix
-modified: 20161104134327132
+modified: 20161126192505137
 modifier: cosmos
 tags: [[Graph dynamical system]]
 title: Boolean network
@@ -31,9 +31,9 @@ See [[Relations between the stability of Boolean networks and percolation|file:/
 
 !!__Types__
 
-[[Random Boolean network]]
+!!![[Random Boolean network]]
 
-[[Hopfield network]]
+!!![[Hopfield network]]
 
 ------------
 

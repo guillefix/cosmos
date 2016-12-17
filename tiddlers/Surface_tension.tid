@@ -1,11 +1,18 @@
 created: 20160603161426539
 creator: guillefix
-modified: 20161104134332709
-modifier: guillefix
+modified: 20161204135653798
+modifier: cosmos
+tags: [[Surface science]]
 title: Surface tension
 tmap.id: 5e26bae6-2137-40f9-aefc-6b4f2bd2fba0
 type: text/vnd.tiddlywiki
 
-See LectureNotes notes (preparing for physsoc class)
+See LectureNotes notes (preparing for physsoc class) on tablet.
 
 [[Hydrophobicity]]
+
+I think (under both theoretical, and experimental grounds) that the only reason that water droplets stay on vertical surfaces is the surface's impurities. This can be deduced from considering the force balance at the bottom meniscus.
+
+Also, I did the experiment comparing a dirtier glass surface with a cleaner one, and the degree of dirt correlated (by eye) both with the number and size of droplets that get stuck.
+
+See also [[Dynamics of droplets]]

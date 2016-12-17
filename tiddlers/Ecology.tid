@@ -1,18 +1,22 @@
 created: 20160206001810043
 creator: guillefix
-modified: 20161104134328132
-modifier: guillefix
+modified: 20161124192801917
+modifier: cosmos
 tags: [[Life sciences]]
 title: Ecology
 tmap.id: e23176c6-aea5-4a33-b4c7-84cf839ca8ce
 type: text/vnd.tiddlywiki
 
-Ecology (from Greek: οἶκος, "house", or "environment"; -λογία, "study of" [A]) is the scientific analysis and study of interactions among organisms and their environment.
+Ecology (from Greek: οἶκος, "house", or "environment"; -λογία, "study of" [A]) is the scientific analysis and study of interactions among organisms and their environment (see also [[Environmental studies]])
 
-..Related to environmental studies.
+!!__Ecological modelling__
 
---------------
+Uses [[Systems biology]] to understand ecosystems.
 
-[img[https://images.washingtonpost.com/?url=https%3A%2F%2Fimg.washingtonpost.com%2Fblogs%2Fworldviews%2Ffiles%2F2014%2F12%2Fland-changes-1900-2010-forward_50perc_res.gif&op=noop]]
+This has been used for [[Policy]], for instance for [[Fishery]].
 
-"It's mainly because people haven't been cutting down nearly as much wood for fuel, plus there have been concerted efforts to manage and regrow forests. Also some of the areas have been regrowing after the World Wars made them less suitable for farmland." ~Laurie
+!!!__[[Population dynamics]]__
+
+See [[Dynamical systems on networks]], [[Epidemics on networks]], [[Dynamical system]], [[Chemical kinetics]]
+
+Trophic cascade

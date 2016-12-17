@@ -1,7 +1,7 @@
 created: 20160629231503844
 creator: guillefix
-modified: 20161104134327549
-modifier: guillefix
+modified: 20161124103042629
+modifier: cosmos
 title: Concurrent programming
 tmap.id: 3dae5f73-05fa-47a1-ac8b-4ae10f0ee38c
 type: text/vnd.tiddlywiki
@@ -10,6 +10,8 @@ See [[Concurrent computing]], [[Multithreading]]
 
 [[C++ Threading #1: Introduction|https://www.youtube.com/watch?v=Ps8jOj7diA0&list=PL1D3B7D7242B3C224]]
 
-[[Immutable type (programming)]]
+[[Immutable type]]
 
 [[C++ Lecture Series --- Concurrency --- Part 5 of N --- Promises and Futures|https://www.youtube.com/watch?v=hic5W_UMjqU]] has good outline in description
+
+http://zeromq.org/

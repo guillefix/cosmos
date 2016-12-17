@@ -1,13 +1,13 @@
 created: 20161022125334432
 creator: cosmos
-modified: 20161104134328835
+modified: 20161128183256059
 modifier: cosmos
 tags: [[Energy-based model]] [[Boolean network]]
 title: Hopfield network
 tmap.id: 41c3cfc7-c6eb-4595-afdc-0ccc2abeb1fa
 type: text/vnd.tiddlywiki
 
-A type of [[Artificial neural network]] that has thresholded binary units. It was a very simplified early model of [[Neural dynamics]]
+A type of [[Artificial neural network]] that has thresholded binary units (activation function is a [[Step function]]). It was a very simplified early model of [[Neural dynamics]]
 
 See [[wiki|https://www.wikiwand.com/en/Hopfield_network]]
 
@@ -15,24 +15,48 @@ See [[wiki|https://www.wikiwand.com/en/Hopfield_network]]
 
 [[They are related to|https://arxiv.org/abs/1105.2790]] [[Restricted Boltzmann machine]]s
 
+They are sometimes called recurrent cooperative networks, attractor neural networks, associative networks, Little and Hopfield networks, and spin glass networks. The random variant is a type of [[Random Boolean network]].
+
 !!__Hopfield network energy__
 
-If the connections are ''symmetric'', there is a global [[Energy function]], which is minimized by the network's dynamics.
+If the connections are ''symmetric'', there is a global [[Energy function]] (also called the "discontent" function), which is minimized by the network's dynamics. Often Hopfield network is used to refer explicitly to the network where the connections are symmetric. It is
+
+$$E[\mathbf{S}(t)] = -\frac{1}{2}\sum\limits_{j,i} S_i(t) J_{ij}S_j(t) + \sum\limits_i S_i (t) T_i$$
+
+where $$\mathbf{S}(t)$$ is the vector of neuron states (either +1 or -1), $$J_{ij}$$ are the interaction energies (synaptic strengths), and $$T_i = 2\theta_i - \sum\limits_{i\neq j} J_{ij}$$, where $$\theta_i$$ is a constant. $$T_i$$ is the activation threshold of neuron $$i$$.
 
 The energy function corresponds to the [[Hamiltonian]] of a [[Spin glass]]
 
 !!__Dynamics of Hopfield networks__
 
-The Hopfield network model is defined as a threshold [[Boolean network]]. See [[Dynamics of Boolean networks]]
+The Hopfield network model is defined as a threshold [[Boolean network]]. See [[Dynamics of Boolean networks]]. 
+
+In the network a neuron fires when its membrane potential is over the threshold. Mathematically, $$\sum\limits_j J_{ij} S_j > T_i$$
+
+__Update rule types__
+
+,,there are four types of modes of updating the net-
+work's state: sequential, random, synchronous parallel, and asyn-
+chronous parallel. In sequential and random updating, time advances in
+1/N of a synaptic delay, and the neurons have immediate effects on each
+other. In parallel updating, the effects appear only after a synaptic delay.
+In synchronous parallel updating, time advances in one synaptic delay,
+whereas in asynchronous parallel updating it advances in a fraction of a
+synaptic delay. The latter mode is the most physiological, but the least
+frequently used for recurrent networks.,,
+
+When a Hopfield network (with symmetric connections) is updated in parallel, it may contain stable limit cycles. However, when it is updated sequentially, or randomly, it always falls into a single local minimum energy state. These stable states have associated [[Basin of attraction]], which can depend on the update sequence.
 
 !!__Hopfield [[associative memories|Content-addressable memory]]__
 
-Hopfield proposed in 1982 that [[Memory]]es could be energy minima of symmetric Hopfield nets
+Hopfield proposed in 1982 that [[Memory]]es could be energy minima of symmetric Hopfield nets. In terms of dynamics, they are stable firing patterns/constellations.
 
-* The binary threshold decision rule can then be used to "clean up" incomplete or corrupted memories (but which still fall in the basin of attraction of the real memory)
+* The binary threshold decision rule can then be used to "clean up" incomplete or corrupted memories/thoughts (but which still fall in the basin of attraction of the real memory)
 * This is a type of [[Content-addressable memory]], i.e. you can access an item just by knowing part of its content
 
-The idea of memories as energy minima was proposed as I. A. RIchards in 1924 in "Principles of Literary Criticism"
+The idea of memories as energy minima was proposed as I. A. RIchards in 1924 in "Principles of Literary Criticism". The idea of memories being distributed over wide neural networks, and not just in individual parts of the brain goes back to experiments by Lashley. 
+
+This can also be seen as kind of [[Classification]]
 
 [[Storage rule|https://www.youtube.com/watch?v=k31Ox9hOh7M#t=11m52]]
 
@@ -44,7 +68,7 @@ https://www.quora.com/Why-use-reduced-Boltzmann-machines-instead-of-Hopfield-net
 
 [[Multilayer perceptrons, Hopfield’s associative memories, and restricted Boltzmann machines |https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4126437/]]
 
-See more at Neural Networks: An Introduction [2 ed.] by Muller et al., chapter 3, and at [[Content-addressable memory]]
+See more at Neural Networks: An Introduction [2 ed.] by Muller et al., chapter 3, and at [[Content-addressable memory]]. Also in Corticonics book, section 5.5.
 
 !!!__Learning by [[Hebb's rule|Hebbian theory]]__
 
@@ -61,3 +85,89 @@ If $$p$$ is comparable to $$N$$, the patterns can't be recovered. Using tools fr
 See [[Statistical mechanics of neural networks]]
 
 !!!-->[[David MacKay lectures|https://www.youtube.com/watch?v=OvMGPHpa_tM]]
+
+We note that Hebb originally spoke of strengthening synapses in which
+the presynaptic activity slightly preceded the postsynaptic activity.
+Thereby, Hebb's cell assemblies produced a sequence of activities at the
+recalled memory, not a group of neurons that coactivated each other in a
+stable fashion. For treatment of this more realistic kind of memory/learning, see [[Spike-timing-dependent plasticity]], and "polychrony" in [[Spiking neural network]].
+
+!!!__Spurious minima__
+
+When embedding multiple memories in a network, one faces the prob-
+lem that in addition to the main valleys associated with the embedded
+memories, one generates multiple shallow valleys in the discontent ter-
+rain. It is possible to prevent the network from being trapped in one of
+these shallow valleys by making the transition from the firing state to the
+nonfiring state gradual, as shown in Figure 5.5.5.
+
+This can be interpreted as adding non-zero [[Temperature]] to the system, which allows the system to escape the shallow local minima. Gradual cooling ([[Simulated annealing]]) can also be used. Periodic changes in background excitation (fluctuations ~ temperature) are
+known to occur by way of the diffuse projection systems of the cortex
+(Section 1.3.3, of Corticonics book)
+
+Superious minima also occur with linear combinations of the stored memories. The effects of these can be reduced by requiring the memories to be as orthogonal as possible.
+
+!!__Memory capacity of the network__
+
+,,According to Amit et al. [1985b], in a network of N neurons with sym-
+metric connectivity and uncorrelated prototypes, __as long as the number
+of embedded prototypes (P) is smaller than 0.14N, one obtains recall
+with a low probability of errors__. As soon as P exceeds 0.144N, the
+probability of error increases very rapidly, and the network becomes
+useless [Nadal et al., 1986]. Note that the critical value of 14 percent is
+valid for large recurrent networks with uncorrelated prototypes and with
+synaptic strengths that are programmed according to Hebb's rule. Pro-
+gramming rules that allow for embedding many more stable (but corre-
+lated) states have been developed [Kohonen, 1984; Palm, 1986a; Gard-
+ner, 1988].,,
+
+See more at Neural Networks: An Introduction [2 ed.] by Muller et al., chapter 3, and at [[Content-addressable memory]]
+
+--------------
+
+//Notes from corticonics book// These are mostly on random Boolean thresholded networks (with connections which need not be symmetric).
+
+!!__Point neuron (threshold model neuron)__
+
+A kind of [[Artificial neuron|https://www.wikiwand.com/en/Artificial_neuron]]
+
+[[Definition of point neuron (following Corticonics book)|https://keep.google.com/media/1eLrelhvCoDFx2hpETk2z8PEqTmqm-s4?accept=image/gif,image/jpeg,image/jpg,image/png,image/webp,audio/aac&sz=w1855-h941]]
+
+https://en.m.wikipedia.org/wiki/Post-tetanic_potentiation
+
+Model described here is a threshold network model. It is also a random network model. Analysis officer stability is also presented, different stable steady states are found depending on the threshold.
+
+Netlets. A small random networks with sparse connections.
+
+Dynamical system analysis is performed, including web diagrams, and bifurcation diagrams, when an external fixed activation is varied. This shows a typical hysteresis Curve. It also shows that as the background activation is increased, it is easier to take the Network to the active stable steady state, that is, the neurones are more willing to fire when the background level is increased just as it is found in real neurones.
+
+It is hard to estabilize neuronal networks at low firing levels. Cortical networks appear optimized for fast inhibitory feedback.
+
+[[Random vs actual networks|https://keep.google.com/media/1U4dqKKV7YH49SYls-4kAdcnI0WznQUk?accept=image/gif,image/jpeg,image/jpg,image/png,image/webp,audio/aac&sz=w1855-h941]]. These comments apply to other models, like [[Random Boolean network]]s.
+
+!!!__Externally driven ongoing activity__
+
+it appears that in each cortical area, a major portion of
+the excitation that drives the ongoing activity is derived from activity
+coming through the white matter. The inhibition is generated locally.
+This arrangement assures the local stability of the ongoing activity.
+When the entire cortex is viewed as one huge network, stability is as-
+sured by the short delay of the local inhibitory feedback, as compared
+with the conduction times of excitation through the white matter.
+
+!!!__Modes of activity in random networks__
+
+even completely random networks can generate stable
+firing patterns (modes of activity). Using models, one can create a whole
+spectrum of stable modes by a variety of assumptions regarding the
+connectivity, the distribution of synaptic strengths, and the internal prop-
+erties of each neuron. The question remains to what degree the modes
+of activity observed in the cortex are due to the internal structure of the
+cortex and to what degree these modes are due to pacemakerlike activity
+derived from deeper nuclei.
+
+!!__Relations to real [[cortical|Cortex]] [[Neuron]]s__
+
+There are several attractive features, as well as weaknesses of the Hopfield network model, as a model of real [[Neuron]]s, particularly in the [[Cortex]]. These are mostly discussed in the Corticonics book (pages 187-193).
+
+<mark>Is there any recent research on the applicability of the model, and the idea of content-addressable memory to the [[Brain]]?</mark>

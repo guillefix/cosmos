@@ -1,10 +1,33 @@
 created: 20160810174853083
 creator: cosmos
-modified: 20161104134331486
+modified: 20161129142320896
 modifier: cosmos
 tags: Classification
 title: Perceptron
 tmap.id: 8b143fc8-d0b3-4386-8ed8-421339759119
 type: text/vnd.tiddlywiki
 
-See [[video|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=1h10m]]
+The term "perceptron" was introduced in the 1950s to designate
+a simple mechanism to achieve "perception."
+
+See [[video|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=1h10m]].
+
+It is basically a [[Feedforward neural network]], with 0 hidden layers, and [[Heaviside step function]] activation functions. They are a simpler version of [[Logistic regression]].
+
+https://www.wikiwand.com/en/Perceptron
+
+As most older models, the original perceptrons, had threshold activation functions (see [[Hopfield network]]).
+
+The hopes to build "[[seeing machines|Computer vision]]" vanished when Minsky and Papert published their
+book Perceptrons [1969], in which they rigorously demonstrated that
+perceptrons are quite limited in their ability to extract global features
+from local information. They could only implement linearly separable classification.
+
+!!__Multilayer perceptron__
+
+However, the reaction was too drastic, because adding more layers to the [[Feedforward neural network]] (giving so-called "multilayer perceptrons"), avoided the issues pointed out by Minksy and Papert.
+
+Multilayered perceptrons work essentially in a manner similar
+to the prevailing neurophysiological view. According to this view, on
+arrival at the cortex, sensory information is subject to a hierarchy of
+feature extractions. Further comparison with the [[Cortex]], is done in the Corticonics book (pages 200-203)

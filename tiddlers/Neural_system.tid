@@ -1,0 +1,47 @@
+created: 20161113180442328
+creator: cosmos
+modified: 20161128184842214
+modifier: cosmos
+title: Neural system
+tmap.id: c4273f68-361b-498b-803c-e7fce0317d48
+type: text/vnd.tiddlywiki
+
+Circuits that subserve similar functions are grouped in neural systems that serve broader behavioral purposes.
+
+https://www.ncbi.nlm.nih.gov/books/NBK11061/
+
+!!__[[Decision-making]] and reward systems__
+
+[[Reinforcement learning]]
+
+__Canonical circuit for neocortex__
+
+!!!__Thalamocortical system__
+
+!!__Sensory systems__
+
+[[Sense]]s, [[Perception]]
+
+!!!__[[Visual system|Human vision]] __
+
+__Feedforward connectivity within the visual system__
+
+__Feedback connectivity within the visual system__
+
+!!__Motor system__
+
+Sensory-motor coordination.
+
+Inverse model, neural emulator.
+
+Hummunculus
+
+!!__[[Memory]] system__
+
+
+
+!!__[[Sleep]]__
+
+__Sleep switch__
+
+REM sleep subcortical circuitry

@@ -1,13 +1,17 @@
 created: 20160807002358280
 creator: cosmos
-modified: 20161104134327707
+modified: 20161108100728885
 modifier: cosmos
 tags: Optimization [[Convex analysis]]
 title: Convex optimization
 tmap.id: ca865e2e-c7a3-42f5-9aca-55857482a182
 type: text/vnd.tiddlywiki
 
+//aka convex programming//
+
 ''Convex optimization'' refers to an [[Optimization]] problem in which the objective and constraint functions are both [[convex|Convex function]]. This implies that the domain of the optimization variable is a convex set. The convexity property can make optimization in some sense "easier" than the general case - for example, any local minimum must be a global minimum. It is a generalization of [[Linear programming]]
+
+See [[slides|http://mpawankumar.info/teaching/cdt-optimization/lecture1_2.pdf]]
 
 https://www.wikiwand.com/en/Convex_optimization
 
@@ -20,6 +24,10 @@ See [[Learning theory]], [[Andrew Ng video|https://www.youtube.com/watch?v=s8B4A
 [[Dual problem|https://www.youtube.com/watch?v=s8B4A5ubw6c&index=7&list=PLA89DCFA6ADACE599#t=34m30s]], uses [[Max–min inequality]]
 
 !!__Solution methods__
+
+Log-barrier methods. See page 51 [[here|http://mpawankumar.info/teaching/cdt-optimization/lecture1_2.pdf]]
+
+Projected subgradients, conditional gradients
 
 Newton's method
 

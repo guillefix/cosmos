@@ -1,7 +1,7 @@
 created: 20160516234517836
 creator: guillefix
-modified: 20161104134328255
-modifier: guillefix
+modified: 20161123121151485
+modifier: cosmos
 tags: Philosophy
 title: Epistemology
 tmap.id: d0f51671-f7f9-4d5f-95ac-bc3f25b2c27c
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 The theory of Knowledge. 
 
 [[Introduction to Epistemology|https://www.youtube.com/watch?v=X3IcbRNQR4c]]
+
+http://plato.stanford.edu/entries/epistemology/
 
 -----------------------
 
@@ -20,3 +22,25 @@ What are the obstacles to the attainment of knowledge?
 What can be known?
 
 How does knowledge differ from opinion or belief?
+
+!![[Foundationalism|https://www.wikiwand.com/en/Foundationalism]] vs [[Coherentism|https://www.wikiwand.com/en/Coherentism]] 
+
+[w]hat distinguishes a coherence theory is simply the claim that nothing can count as a reason for a belief except another belief” (Davidson, 1986)
+
+An advocate of //weak foundationalism// typically holds that while coherence is incapable of justifying beliefs from scratch, it can provide justification for beliefs that already have some initial, perhaps miniscule, degree of warrant, e.g., for observational beliefs.
+
+I would extend the coherentism picture with what I call the ''Principle of inclusiveness''. 
+
+[[Jacob Brownowski|https://www.youtube.com/watch?v=DFgnGUL78MU#t=1h2m20]]
+
+[[Principle of multiple explanations]]
+
+[[Epistemological holism]]
+
+[[Epistemological pluralism]]
+
+https://www.wikiwand.com/en/Willard_Van_Orman_Quine
+
+---------------
+
+See [[Philosophy of science]]

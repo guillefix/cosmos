@@ -1,0 +1,31 @@
+created: 20161108111425992
+creator: cosmos
+modified: 20161108111514978
+modifier: cosmos
+title: Max-flow min-cut theorem
+tmap.id: a6a253fb-5b3f-4324-9b75-6b1cd6efd9c9
+type: text/vnd.tiddlywiki
+
+See [[here|http://mpawankumar.info/teaching/cdt-optimization/lecture2_1.pdf]]
+
+Basic inequality:
+
+| flow out of vertices on the source part of the cut $$\leq$$ capacity of the cut| (1)|
+
+__''Ford-Fulkerson algorithm'': algorithm to find maximum flow using residual graph__
+
+* Can prove that using this algorithm you find a cut for which the inequality (1) is tight.
+
+* As the inequality holds for all flows, and for all cuts, this should be the ''maximum flow and minimum cut''
+
+This is an example of using continuous optimization (maximum flow) to solve a discrete optimization problem (min cut).
+
+For irrational capacities, the FF algo can lead to infinite number of iterations. 
+
+__Chosing paths optimally__
+
+Dinits algorithm
+
+--------------
+
+[[Independent paths, connectivity, and cut sets]]

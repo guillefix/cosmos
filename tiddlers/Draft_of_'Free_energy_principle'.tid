@@ -1,0 +1,120 @@
+created: 20161123202848044
+creator: cosmos
+draft.of: Free energy principle
+draft.title: Free energy principle
+modified: 20161123232018119
+modifier: cosmos
+title: Draft of 'Free energy principle'
+tmap.id: 2630518e-3991-4f3c-abb8-68ac1d39c1e3
+type: text/vnd.tiddlywiki
+
+http://www.umsu.de/wo/2013/600
+
+[[A free energy principle for the brain|http://www.sciencedirect.com/science/article/pii/S092842570600060X]] -- [[pdf|http://sci-hub.bz/10.1016/j.jphysparis.2006.10.001]]
+
+https://www.wikiwand.com/en/Free_energy_principle
+
+The free energy principle states that systems change to
+decrease their free energy. The concept of free-energy arises
+in many contexts, especially physics and statistics. In thermodynamics,
+free energy is a measure of the amount of
+work that can be extracted from a system, and is useful
+in engineering applications. It is the difference between
+the energy and the entropy of a system. Free-energy also
+plays a central role in statistics, where, borrowing from statistical
+thermodynamics; approximate inference by variational
+free energy minimization (also known as
+variational Bayes, or ensemble learning) has maximum
+likelihood and maximum a posteriori methods as special
+cases. It is this sort of free energy, which is a measure of
+statistical probability distributions; we apply to the
+exchange of biological systems with the world. The implication
+is that these systems make implicit inferences about
+their surroundings.
+
+[[Karl Friston talk|https://www.youtube.com/watch?v=zWFfZHqOnvM]]. Systems that have certain measurable characteristics which persist in time, and are thus ergodic in this certain weak sense. This implies the existence of a random global attractor ([[Ergodic theorem]]).
+
+[ext[Free Energy, Value, and Attractors|http://www.fil.ion.ucl.ac.uk/~karl/Free%20Energy%20Value%20and%20Attractors.pdf]]
+
+__Universal Lyapunov function?__
+
+|$$\dot{x} = f(x) + \omega$$ |Steady state: $$f(x)=(\Gamma + Q) \nabla \ln p$$| Lyapunov function: $$-\ln p$$|
+
+$$\omega$$ are random fluctuations, $$f(x)$$ is deterministic flow. $$p$$ is steady state probability. In short, this equation rep-resents “a simple starting point for statistical mechanics and thermodynamics and is consistent with conservative dynam-ics that dominates the physical sciences”. See below for details and derivations.
+
+__Surprisal is a [[Lyapunov function]] of the [[Fokker-Planck equation]]__
+
+See [[Surprisal as a Lyapunov function in stochastic dynamics]]
+
+Flow can be decomposed into a curl-free part increases value while the (con-servative) divergence-free part follows isoprobability con-tours and does not change value. This means every policy (expec-ted flow) reduces surprise as a function of time. In other words, it must direct flow towards states that are more probable (in the steady state), and have a greater sojourn time. This just describes how systems approach the steady state. They do so by uniformly increasing their steady state probability. This corresponds to a decrease in [[Entropy]]. However, the fluctuation due to $$\omega$$ causes a corresponding increase in that means that in steady state entropy is constant, as expected.
+
+---------------------
+
+[ext[Free Energy, Value, and Attractors|http://www.fil.ion.ucl.ac.uk/~karl/Free%20Energy%20Value%20and%20Attractors.pdf]]. ,,We will compare and contrast two perspectives; one based upon a free energy principle [1] and the other on opti-mal control and reinforcement-learning [2–5]. policies can be cast as beliefs about the state-transitions that determine free energy.,,
+
+The main conclusion of this paper is that it is sufficient to minimise the average surprise (conditional entropy) of an agent’s states to explain adaptive behaviour. This can be achieved by policies or empirical priors (equations of motion) that guide action and induce random attractors in its state-space. These attract agents to (low-cost) invariant sets of states and lead to autopoietic and ergodic behaviour. 
+
+[[Active inference]]. connection between empirical priors and policies. 
+
+
+
+-----------------
+
+!![[A free energy principle for the brain|http://www.sciencedirect.com/science/article/pii/S092842570600060X]]
+
+The system can minimise free energy by changing its con-
+figuration to affect the way it samples the environment or change the distribution it encodes. These changes correspond to action and
+perception respectively and lead to an adaptive exchange with the environment that is characteristic of biological systems.
+
+See [[Philosophy]], [[Science and Art]]
+
+There is something
+quite remarkable about the fact that our inferences about
+the world, both perceptual and scientific, can be applied
+to the very process of making those inferences ([[Strange loop]])
+
+[[Hierarchical inference]]
+
+!!!__Mathematical description__
+
+//Ensemble density//: $$q(\theta;\lambda)$$. 
+This is some arbitrary density function on the environments
+parameters that is specified or encoded by the
+systems parameters ($$\lambda$$)
+
+two other sets of variables that
+describe, respectively, the effect of the environment on
+the system and the effect of the system on the environment.
+We will denote these as $$\tilde{y}$$ and $$\alpha$$, respectively.
+
+We also need to define a generative density $$p(\tilde{y}, \theta)$$, which defines a [[Generative model]] of sensory inputs and causes.
+
+See more [[in paper|http://sci-hub.bz/10.1016/j.jphysparis.2006.10.001]] <mark>What is the meaning of this definition of free energy?</mark> It is a [[Kullback-Leibler divergence|Relative entropy]]
+
+The free energy principle states that all the quantities
+that can change; i.e., that are owned by the system ($$\lambda$$, and $$\alpha$$), will change to minimise free energy.
+
+Minimizing w.r.t system parameters results in //perception//: it results in the ensemble density to correspond to the [[A posteriori distribution]] of the causes given for the given sensory input.
+
+Mininmizing w.r.t action parameters results in //action//: it enforces a sampling of the environment that is consistent with the ensemble density. In other words, the system will reconfigure itself
+to sample sensory inputs that are the most likely
+under the ensemble density.
+
+
+:There are at least two fundamental problems with the simple picture just outlined. One is that it makes little sense without postulating an independent source of goals or desires. Suppose it's true that I reach out for the pizza because I hallucinate (as it were) that that's what I'm doing, and I try to turn this hallucination into reality. Where does the hallucination come from? Surely it's not just a technical glitch in my perceptual system. Otherwise it would be a miraculous coincidence that I mostly hallucinate pleasant and fitness-increasing states. Some further part of my cognitive architecture must trigger the hallucinations that cause me to act. (If there's no such source, the much discussed "dark room problem" arises: why don't we efficiently minimize sensory surprise (and thereby free energy) by sitting still in a dark room until we die?)
+:The second problem is that efficient action requires keeping track of both the actual state and the goal state. If I want to reach out for the pizza, I'd better know where my arms are, where the pizza is, what's in between the two, and so on. If my internal representation of the world falsely says that the pizza is already in my mouth, it's hard to explain how I manage to grab it from the plate.
+
+
+See [[here|http://www.umsu.de/wo/2013/600]]
+
+:->A closer look at Friston's papers suggests that the above rough proposal isn't quite what he has in mind. Recall that minimizing free energy can be seen as an approximate method for bringing one probability function Q close to another function P. If we think of Q as representing the system's beliefs about the present state, and P as a representation of its goals, then we have the required two components for explaining action. What's unusual is only that the goals are represented by a probability function, rather than (say) a utility function.
+
+That version of the story looks much more plausible, and much less revolutionary, than the story outlined above. In the present version, perception and action are not two means to the same end -- minimizing free energy. The free energy that's minimized in perception is a completely different quantity than the free energy that's minimized in action. What's true is that both tasks involve mathematically similar optimization problems. But that isn't too surprising given the well-known mathematical and computational parallels between conditionalizing and maximizing expected utility.
+
+----------------
+
+[img[http://d10k7sivr61qqr.cloudfront.net/content/royinterface/10/86/20130475/F1.large.jpg]]
+
+Applications to [[Neuroscience]], [[Self-organization]], [[Intelligence]], [[Reinforcement learning]]
+
+[ext[http://www.fil.ion.ucl.ac.uk/~karl/]]

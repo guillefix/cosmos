@@ -1,0 +1,12 @@
+created: 20161107143729303
+creator: cosmos
+modified: 20161107143757977
+modifier: cosmos
+title: Polyhedron
+tmap.id: cde0198f-8c65-4526-b1da-ed1fe8c5ad32
+type: text/vnd.tiddlywiki
+
+
+A polyhedron can be seen as an intersection of [[Half-space]]s.
+
+* [[Polytope]]

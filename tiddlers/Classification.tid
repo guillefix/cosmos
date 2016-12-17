@@ -1,6 +1,6 @@
 created: 20160709020447725
 creator: guillefix
-modified: 20161104134327379
+modified: 20161107180052108
 modifier: cosmos
 tags: [[Supervised learning]]
 title: Classification
@@ -37,6 +37,20 @@ See [[Generalized linear model]] for other more generalized methods.
 
 *[[Random forest]]
 
+__Multiclass classification using binary classifiers__
+
+see page 16 [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/ML-MT2016/slides/slides09.pdf]].
+
+__One-vs-one__
+
+__One-vs-rest__
+
+May create hard learning problems when combining some classes (resulting in regions with weird shapes, that are hard to linearly separate). With decisino trees, this can be exacerbated. 
+
+__[[Decision tree]]s__
+
+Reducing Multiclass to Binary.E. Allwein, R. Schapire, Y. Singer
+
 !!!__Multi-label classification__
 
 If the class labels are not mutually exclusive. This can be modelled by using multiple related binary class labels, each marking whether the input belongs to a particular class. This is a //multiple output model//.
@@ -56,6 +70,24 @@ If the class labels are not mutually exclusive. This can be modelled by using mu
 Output has a notion of order, but not closeness, so it's qualitative, aka ordinal learning.
 
 ---------------------
+
+!!!__Measuring performance__
+
+using a confusion matrix
+
+can give different [[costs|Loss function]]..
+
+([[Decision theory]])
+
+TPR vs FPR
+
+Precision vs recall
+
+__How to tune classifer to satisfy these criteria?__
+
+..
+
+---------------
 
 [[Pattern Recognition Class|https://www.youtube.com/playlist?list=PLuRaSnb3n4kRDZVU6wxPzGdx1CN12fn0w]]
 

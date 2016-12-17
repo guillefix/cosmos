@@ -1,7 +1,8 @@
 created: 20160406164853743
 creator: guillefix
-modified: 20161104134331037
+modified: 20161116113740105
 modifier: cosmos
+tags: [[Artificial intelligence innovation]]
 title: New advances in deep learning
 tmap.id: e02512fa-e9cf-4761-abd6-5be637f3ea17
 type: text/vnd.tiddlywiki
@@ -37,3 +38,21 @@ Adversarial networks
 Neural Turing machines, neural programmers-interpreters
 
 http://www.kdnuggets.com/2016/09/9-key-deep-learning-papers-explained.html
+
+---------------------
+
+A couple of cool recent neural network developments!
+* Lip reading
+* Neural enhance! Super-resolution of images (like in movies but real ;) )
+
+LipNet. Lip reading NN: http://prostheticknowledge.tumblr.com/post/152735696866/lipnet-deep-learning-research-from-the-university
+
+image super-resolution using deep convolutional networks! try here: http://waifu2x.udp.jp/
+NeuralEnhance lets you apply 4x super-resolution to your photos CSI-style in only 340 lines of code!
+https://github.com/alexjc/neural-enhance
+
+https://twitter.com/karpathy
+
+https://twitter.com/alexjc
+
+https://twitter.com/NandoDF

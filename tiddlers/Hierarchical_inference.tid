@@ -1,0 +1,18 @@
+created: 20161123210601726
+creator: cosmos
+modified: 20161123210624055
+modifier: cosmos
+tags: Inference
+title: Hierarchical inference
+tmap.id: fa977a2e-5099-4d01-989d-974a5a945bc3
+type: text/vnd.tiddlywiki
+
+. Over the past years, we have pursued this perspective in a Bayesian
+framework to suggest that the brain employs hierarchical
+or empirical Bayes to infer the causes of its sensations
+(Friston, 2005). The hierarchical aspect is important
+because it allows the brain to learn its own priors and,
+implicitly, the intrinsic causal structure generating sensory
+data
+
+See [[Hierarchical model]], [[Free energy principle]]

@@ -1,0 +1,32 @@
+created: 20161121141406684
+creator: cosmos
+modified: 20161121151052466
+modifier: cosmos
+tags: Ecology
+title: Population dynamics
+tmap.id: 9dca96e9-3296-487e-8a38-00dbf2c6e736
+type: text/vnd.tiddlywiki
+
+See [[Dynamical systems on networks]], [[Epidemics on networks]], [[Dynamical system]], [[Chemical kinetics]], [[Social dynamics]]
+
+Often modelled by [[Continuous dynamical system]]
+
+!!!__Logistic growth__
+
+$$\frac{dx(t)}{dt}=bx(t)\left(1-\frac{x(t)}{K}\right)$$
+
+$$K$$ is the ''carrying capacity'', which defines a stable [[Fixed point]].
+
+[[khanacademy|https://www.khanacademy.org/science/biology/ecology/population-growth-and-regulation/a/exponential-logistic-growth]]
+
+<img src="http://study.com/cimages/multimages/16/logistic_growth_graph.png" style="background: white;" />
+
+!!!__Two species model__
+
+$$\frac{dx_1}{dt}=bx_1-qx_2x_1$$, $$\frac{dx_2}{dt}=qx_2x_1-bx_1$$
+
+!!!__Mutualism (or [[Symbiosis]])__
+
+$$\frac{dx 1}{dt}= x 1 (r 1 -d_1x_1+ a 1 x 2 )$$
+
+$$\frac{dx 2}{dt}= x 2 (r 2 -d_2x_2+ a 2 x 1 )$$

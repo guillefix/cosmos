@@ -1,6 +1,6 @@
 created: 20160709025157181
 creator: guillefix
-modified: 20161104134327789
+modified: 20161214185440546
 modifier: cosmos
 tags: [[Digital art]]
 title: Deep art
@@ -49,10 +49,39 @@ Neural-style applied to videos too.
 
 [[Style Transfer for Headshot Portraits|https://people.csail.mit.edu/yichangshih/portrait_web/]]
 
-[[Composing Music With Recurrent Neural Networks|http://www.hexahedria.com/2015/08/03/composing-music-with-recurrent-neural-networks/]]
-
 [[ Deep Convolutional Inverse Graphics Network|http://arxiv.org/abs/1503.03167]]
 
 [[Image based relighting using neural networks|http://dl.acm.org/citation.cfm?id=2766899]]
 
 https://magenta.tensorflow.org/welcome-to-magenta
+
+!!__[[Deep learning]] for [[Music]]__
+
+[[Composing Music With Recurrent Neural Networks|http://www.hexahedria.com/2015/08/03/composing-music-with-recurrent-neural-networks/]]
+
+https://www.technologyreview.com/s/603137/deep-learning-machine-listens-to-bach-then-writes-its-own-music-in-the-same-style/
+
+!!!__Music [[recommendation|Recommender system]]__
+
+Long tail ([[Power laws]]) is particularly long in music
+
+* Collaborative filtering. Problem with new users. Performs the best.
+* Content-based. No popularity or user usage data required.
+
+Diversity is valuable in long term.
+
+Deep content-based music recommendation.
+
+Model with [[latent factor|Latent variable]]s. Model from raw audio signal to latent space. Map users to latent space, and see songs nearby, to recommend. Use ConvNet to implement the map from audio signal to latent space.
+
+Weighted [[Matrix factorization]] (uses confidence matrix) to find the latent factors (see [[Compressed sensing] video]). Basically implements: probability of having listened to song by vector product between user and song latent representations.
+
+[[Mean squared error]] is [[rotationally invariant|Rotational invariance]], and factorizations are too!
+
+Latent factors split into those predictable from audio, and predictable from metadata. 
+
+Datasets: million song dataset, echonest.
+
+Still much poorer performance than collaborative filtering, in general.
+
+Can visualize, using T distributed stochastic neighbour embeding, can identify some genres.

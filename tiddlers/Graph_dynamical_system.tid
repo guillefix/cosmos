@@ -1,7 +1,7 @@
 created: 20160708153159736
 creator: guillefix
-modified: 20161104134328754
-modifier: guillefix
+modified: 20161127205819003
+modifier: cosmos
 tags: [[Discrete dynamical system]]
 title: Graph dynamical system
 tmap.id: 3b89a825-fda6-496f-9c6e-591bb158ba98
@@ -11,4 +11,4 @@ https://www.wikiwand.com/en/Graph_dynamical_system
 
 A particular kind is a [[Boolean network]], if the state of each node is binary.
 
-See also [[Sequential dynamical system]]
+See also [[Sequential dynamical system]], and [[Dynamical systems on networks]]

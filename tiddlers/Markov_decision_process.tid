@@ -1,13 +1,15 @@
 created: 20160915213129690
 creator: cosmos
-modified: 20161104134329510
+modified: 20161113111253616
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Markov decision process
 tmap.id: a3156d2d-7024-4da1-8d84-2a3319e7a3bb
 type: text/vnd.tiddlywiki
 
-See [[Reinforcement learning]]
+See [[Reinforcement learning]] 
+
+[[Markov decisions processes|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1#t=43m15s]] are [[Markov process]]es extended with //actions// and //rewards//. They are related to [[Markov reward process|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1#t=13m]]es, and in fact they are an MRP if we fix a policy (i.e. distribution over actions given current state. see [[Reinforcement learning]]).
 
 A Markov decision process is a 5-[[tuple]] $$(S,A,P_\cdot(\cdot,\cdot),R_\cdot(\cdot,\cdot),\gamma)$$, where
 

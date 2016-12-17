@@ -1,14 +1,65 @@
 created: 20160124143714907
 creator: guillefix
-modified: 20161104134330619
+modified: 20161210000033172
 modifier: cosmos
-tags: [[Network science]]
+tags: [[Network science]] Neuroscience
 title: Neuronal network
 tmap.id: 5ba20ec9-fb09-4aab-90b9-0691e2e36eaf
 type: text/vnd.tiddlywiki
+
+[[Network]] of [[Neuron]]s
 
 [[Statistical connectivity provides a sufficient foundation for specific functional connectivity in neocortical neural microcircuits|http://www.ncbi.nlm.nih.gov/pubmed/22991468]]
 
 [[Brain connectivity toolbox|https://sites.google.com/site/bctnet/Home]]
 
 [[Video|https://www.youtube.com/watch?v=cjj9ihYJkOQ#t=1m30s]]
+
+One important thing to model is the output (set of parallel spiking trains)that population of neurons produces upon receiving a certain input (set of parallel spiking trains). 
+
+For a single neuron, we can define the asynchronous ''synaptic transmission curve'' (aka ''synaptic response curve''), which is the instantaneous firing rate as a function of time, when the neuron receives a single isolated spike. If integrated it gives the ''asynchronous gain'' (ASG), the total number of output spikes per input spike.
+
+------------
+
+
+[[Spiking activity propagation in neuronal networks: reconciling different perspectives on neural coding|http://sci-hub.bz/10.1038/nrn2886]]
+
+!!![[Neural coding]]
+
+Stimulus or task-related activity is said to be
+‘rate coded’ when it can be decoded using only the
+firing rates of neurons in an ensemble. On the other
+hand, when stimulus or task-related activity can be
+decoded using synchrony (BOX 2), it is referred to as a
+time (or ‘synchrony’) code
+
+------------
+
+!!__[[Signal transmission and processing by neuronal networks]]__
+
+''Cross-correlation'', post-synaptic potentials..
+
+Neural chains
+
+Synchronous transmission. ''Synchronous gain''
+
+!!__[[Membrane potential and the synaptic response curve]]__
+
+Firing rates of neurons from noise.
+
+Effect of ''postsynaptic potential''s in the firing rate, thus giving a way to compute the synaptic transmission curve ,,(which we can experimentally find with cross-correlations),,.
+
+!!__Neuronal network models__
+
+* [[Hopfield network]], a kind of [[Boolean network]], with thresholded activation. The main model has symmetric synaptic strengths (i.e. same strength from neuron i to j as from j to i).
+* [[Spiking neural network]]
+* Standard [[Artificial neural network]]s.
+** [[Perceptron]]. Multilayer perceptron (now much more developed in [[Deep learning]])
+
+The study of neuronal networks in the [[Cortex]] is known as [[Corticonics]].
+
+[[Neural Networks - intro|https://www.youtube.com/watch?v=aU2pyB-49m8&list=PLYq7WW565SZgVNpy-E5rG3ru0Ft6QMSpp]] -- [[LC circuit]]s -- [[Linear system]]s
+
+-----------------
+
+See [[Neural system]] for well studied neuronal networks

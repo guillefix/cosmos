@@ -1,8 +1,8 @@
 created: 20160329132546762
 creator: guillefix
 list-after: Topology
-modified: 20161104134328061
-modifier: guillefix
+modified: 20161206173819700
+modifier: cosmos
 tags: Mathematics
 title: Dynamical system
 tmap.id: ee5c9883-db82-4fff-863b-69e686d226c5
@@ -47,5 +47,7 @@ Dynamical systems on complex space (particularly [[discrete|Discrete dynamical s
 https://en.wikipedia.org/wiki/Floquet_theory
 
 [[Turing instability|http://www.math.lsa.umich.edu/~rauch/256/turingexample.pdf]]
+
+[[Fixed Points|https://www.youtube.com/watch?v=csInNn6pfT4&t=2s]]
 
 -------

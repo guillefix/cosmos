@@ -1,9 +1,42 @@
 created: 20160121194958309
 creator: guillefix
-modified: 20161104134327470
-modifier: guillefix
+modified: 20161117173841748
+modifier: cosmos
 tags: [[Cognitive Science]] Transhumanism
 title: Cognitive enhancement
 tmap.id: 307c1949-5cd7-44f0-8a43-4c3c7188b798
 type: text/vnd.tiddlywiki
 
+* Basics. Exercise diet
+* Education
+* Collective intelligence
+* Extended mind
+
+__Drugs__
+
+* Stimulants
+** Caffeine
+** Modafinil
+** Amphetamine
+** ..
+** Nicotine
+*AMPA modulators
+**
+* Others
+**AChe...
+
+__Electric estimulation__
+
+* Transcranial stimulation
+** TMS
+*tDCS
+* Intracranial stimulation
+** DBS. Used for parkinsons, etc.
+***Fornix
+*** central thalamus
+** Electrode array
+** Optogenetics
+** Transcranial focused [[Ultrasound]]
+** Cortical brain-computer interface. Paralized people
+** Ted Berger and Kernel startup!
+*** Multi-input multi-output model. NN to read activity in multiple parts of hippocampus. --> Memory enhancement!

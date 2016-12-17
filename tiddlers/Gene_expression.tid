@@ -1,7 +1,8 @@
 created: 20160920185545926
 creator: cosmos
-modified: 20161104134328569
+modified: 20161215093616695
 modifier: cosmos
+tags: Genetics [[Cell biology]]
 title: Gene expression
 tmap.id: 9feaf0bb-ec28-4e28-a5df-985074b08fda
 type: text/vnd.tiddlywiki
@@ -9,7 +10,8 @@ type: text/vnd.tiddlywiki
 [img[Selection_649.png]]
 
 * [[DNA transcription]]
-* [[mRNA Translation]]
+* [[mRNA translation]]
 * [[Gene splicing]]
+* [[Transposon]]
 
 [[Gene regulatory networks]]

@@ -1,6 +1,6 @@
 created: 20160303225152240
 creator: guillefix
-modified: 20161104134329486
+modified: 20161206173459939
 modifier: cosmos
 tags: [[Scientific computing]] [[Machine learning]]
 title: Machine learning in science and engineering
@@ -23,6 +23,8 @@ neuronal networks in physics.. See dissertation by Nicholas Chen
 
 [[Advances in Machine Learning Research and Application: 2013 Edition|https://books.google.co.uk/books?id=5E2BSvz8dEAC&pg=PA936&lpg=PA936&dq=neural+network+nanotechnology&source=bl&ots=gXbk8U9DbB&sig=-X2YonpGYQqGeMfQaUp5epwSA88&hl=en&sa=X&ved=0ahUKEwjtzuiIuKXLAhVLbRQKHcpZBnE4ChDoAQhGMAc#v=onepage&q=neural%20network%20nanotechnology&f=false]]
 
+[[Fast and Accurate Modeling of Molecular Atomization Energies with Machine Learning|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.108.058301]]
+
 http://knowmtech.com/
 
 [[Procedural generation]]
@@ -30,5 +32,7 @@ http://knowmtech.com/
 !!![[AI in medicine]]
 
 -------
+
+[[AI for science|http://slides.com/guillermovalle/deck-3/fullscreen#/]]
 
 Random idea for neural network for chemical synethesis and manufacturing etc. Facebook post: [ext[https://www.facebook.com/guillermovalleperez/posts/10153853693416223?]]

@@ -1,6 +1,6 @@
 created: 20160726111430716
 creator: guillefix
-modified: 20161104134332104
+modified: 20161110114615156
 modifier: cosmos
 tags: Statistics [[Signal processing]]
 title: Sampling
@@ -11,10 +11,13 @@ The act or process of selecting a [[Sample]] for testing, analyzing, etc.
 
 !__[[Statistical sampling|Monte Carlo]]__
 
+Sampling from univariate discrete distribution: put probabilities on real line
+
+Sampling from continuous distribution: use CDF and uniform dist.
 
 
 !__[[Signal|Signal processing]] sampling__
 
-[[Sampling (signal processing)|https://www.wikiwand.com/en/Sampling_(signal_processing)]]
+[ext[Sampling (signal processing)|https://www.wikiwand.com/en/Sampling_(signal_processing)]]
 
 [[Sampling theory]]

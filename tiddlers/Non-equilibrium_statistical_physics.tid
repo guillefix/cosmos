@@ -1,6 +1,6 @@
 created: 20160117160158780
 creator: guillefix
-modified: 20161104134331082
+modified: 20161213132026189
 modifier: cosmos
 tags: MMathPhys [[Statistical physics]]
 title: Non-equilibrium statistical physics
@@ -50,12 +50,12 @@ Einstein formula (1908)
 
 Application of large deviation theory to dynamics: Onsager (1931)
 
-[[Projector operator method|http://www4.ncsu.edu/~franzen/public_html/CH437/lec8/pdf/projection_1.pdf]]
+[ext[Projector operator method|http://www4.ncsu.edu/~franzen/public_html/CH437/lec8/pdf/projection_1.pdf]]
 
 [[linear response theory|http://www.damtp.cam.ac.uk/user/tong/kintheory/four.pdf]]
 
 [[Nonlinear response theory|http://link.springer.com/article/10.1007%2FBF02846371]] [[Nonlinear Response Theory|http://www.hpcoders.com.au/docs/thesis/node34.html]]
-[[Nonlinear projection operator method|http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1667-15.pdf]]
+[ext[Nonlinear projection operator method|http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1667-15.pdf]]
 [[Zwanzig projection operator|https://en.wikipedia.org/wiki/Zwanzig_projection_operator]]
 
 

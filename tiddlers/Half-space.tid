@@ -1,0 +1,11 @@
+created: 20161107143802682
+creator: cosmos
+modified: 20161107145508040
+modifier: cosmos
+title: Half-space
+tmap.id: 4c5cfd53-89c8-4688-8585-7bac1391209c
+type: text/vnd.tiddlywiki
+
+A half-space refers to a region of $$R^n$$ on one side of a [[Hyperplane]]. It can be defined by a linear inequality:
+
+$$a^T x \leq b$$

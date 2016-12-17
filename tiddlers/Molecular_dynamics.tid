@@ -1,0 +1,57 @@
+created: 20161125095448905
+creator: cosmos
+modified: 20161125173033311
+modifier: cosmos
+tags: Biophysics [[Computational chemistry]]
+title: Molecular dynamics
+tmap.id: 16bccba1-4e80-4c58-9e73-0c162cabe3ab
+type: text/vnd.tiddlywiki
+
+Molecular dynamics (MD) simulations provide a computational microscope that lets you watch how a molecule moves over time. 
+
+MD works by calculating the forces that result from the interactions between atoms (e.g. electrostatic attraction and repulsion, interatomic van der Waals interactions, bonded interactions). These forces are calculated for every atom in each molecule in a molecular system, and used to work out how each atom would move over time. The result is a molecular dynamics trajectory, which can be used to produce a movie that approximates the motion of the complete biomolecular system.
+
+[ext[Introduction to molecular dynamics simulation|http://udel.edu/~arthij/MD.pdf]]
+
+[[Video intro to molecular dynamics simulations|https://www.youtube.com/watch?v=lLFEqKl3sm4]] Watch!
+
+Wiki page: https://en.wikipedia.org/wiki/Molecular_dynamics
+
+See [[Computational chemistry]]
+
+[ext[http://www.chryswoods.com/dynamics/|Workshop on Molecular Visualisation, Modelling and Dynamics]]
+
+[[VMD (molecular visualization)|http://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD]]
+
+http://www.nature.com/articles/srep03561
+
+[[NAMD tutorial|http://www.chryswoods.com/dynamics/dynamics/README.html]]
+
+[img[http://www.chryswoods.com/dynamics/dynamics/vmd_theory1.jpg]]
+
+the [[particle mesh Ewald algorithm (PME)|https://www.wikiwand.com/en/Ewald_summation]]. This is the clever algorithm that allows each periodic image to interact electrostatically with the infinite number of other periodic images. All simulations that use periodic boundary conditions should turn on PME. 
+
+!!![[Simulating in thermodynamic ensembles|http://www.chryswoods.com/dynamics/dynamics/pressure.html]]
+
+Note that the periodic boundary condition doesn't change the fact that a simulation where the (unit) volume is constant is a microcanonical ensemble. This is because the conditions required for the microcanonical ensemble are satisfied: the particle number, energy, and volume of the system are conserved (again, where the system is the unit volume, which we are simulating). If you think about it, reflecting boundary conditions and periodic b.c.s are not so different. The periodic one is just like the reflecting + teleportation to the opposite wall!
+
+If we want to control the pressure, we need to use a barostat. Again, there are many different barostat algorithms available, with the choice of barostat normally coupled with the choice of thermostat. The best barostat to use for biomolecular simulations is namd is the “Langevin” barostat. This randomly changes the volume of the periodic box, and can be switched on by adding the following lines to ‘mdconfig’
+
+[ext[Amber tools|http://ambermd.org/#AmberTools]] has many tools useful for MD simulations
+
+
+[[A water-swap reaction coordinate for the calculation of absolute protein–ligand binding free energies|http://scitation.aip.org/content/aip/journal/jcp/134/5/10.1063/1.3519057]]
+
+__Steps__
+
+#Minimisation. To remove any bad contacts between atoms that have been added (e.g. hydrogen atoms that have been added in a position that is too close to another atom of the protein), you first need to minimise the system. This involves calculating the force on all atoms, and then using this force to push the atoms towards stable, minimum energy configurations. The result will be a minimum energy conformation of the system.
+
+# Heating. The minimum energy conformation of the system is an approximation of the conformation that the molecules would adopt at near freezing conditions (near absolute zero kelvin). Molecular dynamics simulations of biomolecules are normally run at room temperature or body temperature. To prepare the system for simulation, you now have to slowly heat the molecules. This is to prevent the frozen atoms from exploding if you instantly ran the simulation at room (or body) temperature (imagine what happens if you throw an ice-cube into an extremely hot frying pan - I should add, you should not try this experiment at home as it can be dangerous).
+
+# Equilibration (NVT). The next step is to equilibrate the system using a short run of canonical (NVT) molecular dynamics. This will help the added water molecules find a stable (equilibrium) distribution around the protein and drug.
+
+# Equilibration (NPT). The final step is to equilibrate the system using a short run of isothermal-isobaric (NPT) molecular dynamics. This will adjust the box size, ensuring that the density of water in the periodic box is correct for the simulation temperature and pressure.
+
+# Production (NPT or NVT). The final step is the actual molecular dynamics simulation. This can be run either NPT or NVT depending on your choice (some people prefer NVT as it is quicker, and they argue that, once equilibrated, the volume will not change much). In our case, we will use NPT, and will combine steps 4 and 5 together.
+
+http://www.chryswoods.com/dynamics/mutation/heating.html

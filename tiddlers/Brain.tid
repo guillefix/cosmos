@@ -1,6 +1,6 @@
 created: 20160708002255651
 creator: guillefix
-modified: 20161104134327228
+modified: 20161113181128574
 modifier: cosmos
 tags: [[Nervous system]]
 title: Brain
@@ -17,6 +17,14 @@ Number of neurons: ...
 
 Density of neurons and conduction velocity is more important than size..
 
+!!!__Brain regions__
+
+* [[Cerebrum]]
+
+* [[Cerebellum]]
+
+* ...
+
 !!!__Connectome__
 
 Large-scale connections
@@ -25,41 +33,17 @@ Large-scale connections
 
 See [[Neuroscience]]
 
-!!!__Types of [[Neuron]]s__
+!!!__[[Neuron]]s__
 
 Very very diverse
-
-__Inhibitory neurons__
-
-
-
-__Excitatory neurons__
-
-
 
 __Brain oscillations__
 
 Remarkably conserved accross mammalian species.
 
-!!__Brain systems__
+!!!__[[Neural system]]s__
 
-__Canonical circuit for neocortex__
 
-!!!__Thalamocortical system__
-
-!!!__Visual system__
-
-__Feedforward connectivity within the visual system__
-
-__Feedback connectivity within the visual system__
-
-!!!__Motor system__
-
-!!!__[[Sleep]]__
-
-__Sleep switch__
-
-REM sleep subcortical circuitry
 
 !!__Experimental techniques__
 

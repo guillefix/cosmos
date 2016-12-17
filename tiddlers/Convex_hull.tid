@@ -1,0 +1,15 @@
+created: 20161107203209139
+creator: cosmos
+modified: 20161107203224656
+modifier: cosmos
+title: Convex hull
+tmap.id: c2b4be50-8f2f-4c09-a5db-281fa649229d
+type: text/vnd.tiddlywiki
+
+See [[Convex set]]
+
+Smallest convex set that contains all points of a set. Unique because of the property that intersection preserves convexity (if non-unique could always take intersection giving smallest set -> contradiction).
+
+Convex hull of a convex set is the convex set itself
+
+Convex hull of a (finite) set of points is a [[Polytope]]

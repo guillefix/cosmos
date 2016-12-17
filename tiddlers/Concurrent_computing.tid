@@ -1,6 +1,6 @@
 created: 20160629002435445
 creator: guillefix
-modified: 20161104134327555
+modified: 20161128145322262
 modifier: cosmos
 tags: [[Software engineering]]
 title: Concurrent computing
@@ -15,4 +15,6 @@ See [[Concurrent programming]], [[Operating system]]
 
 [[Multithreading]].
 
-An [[Operating system]] often implements these concurrent tasks (processes and threads) by using an ''scheduler'' that determines when
+An [[Operating system]] often implements these concurrent tasks (processes and threads) by using an ''scheduler'' that determines when.
+
+Have to think about data dependencies

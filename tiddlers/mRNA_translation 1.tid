@@ -1,0 +1,31 @@
+created: 20160920185426714
+creator: cosmos
+modified: 20161124101606203
+modifier: cosmos
+title: mRNA translation
+tmap.id: 500ddae0-89d5-4d63-be42-fc4e283e779e
+type: text/vnd.tiddlywiki
+
+[[video (basic)|https://www.youtube.com/watch?v=8dsTvBaUMvw]] -- [[video (advanced)|https://www.youtube.com/watch?v=TfYf_rPWUdY]]
+
+<img style="background-color:white;" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Protein_synthesis.svg">
+
+more details........
+
+!!!__Translation initiation__
+
+RBS. Ribosomal binding site. Translation initiated by [[Ribosome]] subunit binding to the RBS.
+
+Shine Dalgarno (SD) sequence is the most common one. It binds to the 16S [[rRNA]].
+
+Secondary structure at ribosome binding sites. If the SD sequence is hybridized, it can't be bound by the rybosome, and the gene isn't translated.
+
+Regulators can change the secondary structure, giving a way of regulating translation.
+
+RBS calculator, UTR library designer.
+
+!!!__Ribosome drafting__
+
+When successive ribosomes bind to a mRNA faster than the mRNA can refold. Maintains mRNA in unfolded state. Accelerates protein synthesis.
+
+Therefore protein synthesis depends on the speed of folding of the secondary structure.

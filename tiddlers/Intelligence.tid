@@ -1,6 +1,6 @@
 created: 20160825115749628
 creator: cosmos
-modified: 20161104134329012
+modified: 20161211210458320
 modifier: cosmos
 tags: [[Cognitive science]]
 title: Intelligence
@@ -14,7 +14,7 @@ type: application/x-tiddler
 * [[Learning]]
 ** [[One-shot learning]]
 ** [[Learning to learn]]
-* [[Inference]]
+* [[Inference]]. ,,[[Active inference]], [[Hierarchical inference]],,
 ** [[Induction]]
 ** [[Deduction]] -- [[Logic]]
 * [[Generalization]] -- [[Abstraction]] -- [[Concept]] -- 
@@ -25,10 +25,14 @@ type: application/x-tiddler
 * [[Perception]] -- [[Emotion]]
 * [[Imagination]] -- [[Creativity]] -- [[Fun]]
 * [[Play]] -- [[Exploration]]
+* [[Communication]]
+
+[[Dual process theory]] -- [[Understanding]] --> [[Reasoning]]
 
 !!__Types of intelligence__
 
 * [[Artificial intelligence]] (aka machine intelligence..)
+** [[General artificial intelligence]]
 ** [[Machine learning]], [[Deep learning]]
 ** [[Logic]]
 * [[Natural intelligence]]
@@ -40,10 +44,28 @@ type: application/x-tiddler
 
 [[Searching Rat Brains for Clues on How to Make Smarter Machines|https://www.technologyreview.com/s/602627/searching-rat-brains-for-clues-on-how-to-make-smarter-machines/]]
 
-[[Toward an Integration of Deep Learning and Neuroscience|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5021692/]]
+[[Toward an Integration of Deep Learning and Neuroscience]]
 
 [[Neuromorphic computing]]
 
 [[What are the advantages and disadvantages I should have to be aware of if I would like to to use Spiking Neural Networks (SNN) as machine learning tools?|https://www.quora.com/What-are-the-advantages-and-disadvantages-I-should-have-to-be-aware-of-if-I-would-like-to-to-use-Spiking-Neural-Networks-SNN-as-machine-learning-tools]]
 
 [[Spiking neural network]]
+
+!!![[Binding problem]]
+
+[[AI for science|http://slides.com/guillermovalle/deck-3/fullscreen#/]]
+
+[[Center for Brains, Minds and Machines (CBMM)|https://www.youtube.com/channel/UCGoxKRfTs0jQP52cfHCyyRQ]]
+
+-------------------
+
+!!![[Cognitive science]]
+
+!!![[Free energy principle]]
+
+!!![[Philosophy of mind]]
+
+------------
+
+[[Godel, Escher, Bach]]

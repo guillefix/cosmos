@@ -1,7 +1,7 @@
 created: 20160119184157236
 creator: guillefix
-modified: 20161104134329572
-modifier: guillefix
+modified: 20161121103606025
+modifier: cosmos
 tags: [[Network theory]]
 title: Mathematics of networks
 tmap.id: e7270779-9249-46c9-a2eb-a1655a0eac87
@@ -34,23 +34,13 @@ doesn't have ''self-edges'' (a.k.a. self-loops).
 !!!__Representations__ 
 Representations: Edge lists, adjacency matrices<small>(a.k.a. network matrix)</small>.
 
-''Adjacency matrix'' $$A$$
+__[[Adjacency matrix]]__
 
-$$A_{ij} = 1 \text{ if edge (j,i) exists}$$. 
-$$A_{ij} = 0 \text{ if edge (j,i) doesn't exist}$$
+Related: [[Graph laplacian]]
 
-$$A^T=A$$ if undirected.
+__[[Incidence matrix]]__
 
-$$A$$ describes same network if we permute columns and rows in the same 
-way.
-
-''Weighted adjacency matrix'' (or weight matrix) $$W$$ assigns a weight 
-to edges. Usually weight is a real number: $$w: E \rightarrow 
-\mathbb{R}$$
-
-"Topology" represented by $$A$$. 
-
-"Geometry represented by  $$W$$.
+[[Adjacency Matrix and Incidence Matrix|https://www.youtube.com/watch?v=LUDNz2bIjWI&index=7&list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg]]
 
 __Cocitation and bibliographic coupling in directed networks__
 
@@ -63,34 +53,15 @@ Cocitation matrix: $$C=AA^T$$. Nodes related if there is a node that points to b
 
 Bibliographic coupling matrix: $$B=A^TA$$. Nodes related if there is a node to which both point.
 
-!!!__Common Types__
+!!__[[Families of graphs]]__
 
-Simple network, described above.
 
-''[[Acyclic networks]]'' have no cycles. A [[Directed Acyclic Graph (DAG)|Directed acyclic craph]] is a well known sub-type. 
 
-<span id="hypergraph">[[Hypergraphs]]</span> are sets of 
-elements with 
-[[relations|https://simple.wikipedia.org/wiki/Relation_%28mathematics%29]]
- that include more than a pair of elements (i.e. they are members of a 
-higher [[cartesian product|https://en.wikipedia.org/wiki/Cartesian_product]]).
-
-Hypergraphs can equivalently be represented as [[Bipartite Networks]], where there are two types of edges (a special case of a //multipartite network//, where there are many types). On the other hand, a //multiplex network// is one that has multiple types of edges.
-
-[[Trees|Tree (Graph Theory)]] are connected (<small>can reach all 
-vertices following edges</small>), undirected networks that 
-contain no closed loops. A //forest// is a disconnected graph whose 
-connected parts are trees.
-
-A [[Planar network]] is a network that can be drawn on a plane without having any edges cross. It is a special case of a [[Spatial network]].
-
-//Temporal networks// are those for which the set of edges and/or nodes varies with a time parameter.
-
-A [[Similarity network]] is one that expressed how similar entities (expressed as the nodes) are. The degree of similarity being the weight of the node.
-
-!!!__Other Mathematical aspects__
+!!__Other Mathematical aspects__
 
 The [[degree|Degree of a vertex (Graph theory)]], $$k_i$$, of a vertex, $$i$$, is the number of edges connected to the vertex.
+
+[[Sum of Degrees is ALWAYS Twice the Number of Edges|https://www.youtube.com/watch?v=YoRhmz_OSBY&index=6&list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg]]
 
 __Paths__
 
@@ -104,7 +75,7 @@ __Components__
 
 A [[component|Component (Graph theory)]] is a subset of the network for which all pair of vertices have at least one path, and which is maximal (i.e no extra nodes can be added that preserve this property).
 
-__[[Independent paths, connectivity, and cut sets|Independent paths, connectivity, and cut sets (Graph theory)]]__
+__[[Independent paths, connectivity, and cut sets]]__
 
 Number of //independent paths// between two vertices (the //connectivity//) gives measure of how strongly connected they are. Paths can be //vertex-independent// if they share no vertex (other than starting or ending vertices), or //edge-independent// if they share no edge.
 

@@ -1,7 +1,7 @@
 created: 20160117215514254
 creator: guillefix
-modified: 20161104134330410
-modifier: guillefix
+modified: 20161107192811545
+modifier: cosmos
 tags: MMathPhys [[Systems science]]
 title: Network science
 tmap.id: 1ead94bd-812f-4ada-b663-6d1b5ea6cd34
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 
 __Books__
 
-[[Networks: An introduction - Newman|https://files.acrobat.com/a/preview/25f27470-e977-4a86-b52a-7c7236ebd0a2]]
+[[Networks: An introduction - Newman|https://files.acrobat.com/a/preview/25f27470-e977-4a86-b52a-7c7236ebd0a2]] -- [[Interactive network science book|http://barabasi.com/networksciencebook/]]
 
 See [[books by Barabasi et al.|http://barabasi.com/book/network-science]], it has nice ones.
 

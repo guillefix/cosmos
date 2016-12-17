@@ -1,6 +1,6 @@
 created: 20160121193002968
 creator: guillefix
-modified: 20161104134332724
+modified: 20161202162050847
 modifier: cosmos
 tags: Biology
 title: Systems biology
@@ -10,6 +10,32 @@ type: text/vnd.tiddlywiki
 Systems biology is the study of [[Biology]] from the perspective of [[System]]s (i.e. [[Biological system]]s), that is sets of components which interact which each other. In particular systems biology is organized in an approximately hierarchical fashion, where lower levels are composed of parts which self-organize into the parts at the next level, which exhibit behaviour emergent from the characteristics of the lower level.
 
 !!!See [[Biology]] for the hierarchy of biological systems usually studied by sysbio.
+
+[[Modelling biological systems]] -- [[Computational biology]] -- [[Mathematical biology]]
+
+!!__[[Network]] models__
+
+[[Dynamical systems on networks]], [[Network science]]
+
+[img width=400 [sysbio_description_levels.png]]
+[img width=500 [types_network_models.png]]
+
+* [[Chemical reaction network theory]]
+* [[Gene regulatory networks]]
+* [[Metabolic network]]
+* [[Neuronal network]]
+
+------------------
+
+!!!__Data and resources__
+
+Systems Biology Markup Language (SBML;
+http://www.sbml.org/), CellML (http://www.cellml.org/)
+and the Systems Biology Workbench are examples of efforts
+that aim to form a de facto standard and open software
+platform for modelling and analysis. Kyoto Encyclopedia of Genes and Genomes (KEGG) 13 , Alliance for Cellular
+Signaling (AfCS) 14 and Signal Transduction Knowledge Environ-
+ment (STKE) 15
 
 https://www.wikiwand.com/en/Systems_biology
 
@@ -50,3 +76,7 @@ See [[Non-equilibrium statistical physics]] and [[Complex systems]]
 Systems biology uses many tools from [[Mathematical biology]]
 
 See [[Bio-inspired computing]]
+
+[[Synthetic biology]]
+
+http://www.theosysbio.bio.ic.ac.uk/resources/

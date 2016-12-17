@@ -1,8 +1,8 @@
 created: 20160122225336984
 creator: guillefix
 list-after: Analysis
-modified: 20161104134328637
-modifier: guillefix
+modified: 20161215093455981
+modifier: cosmos
 tags: Mathematics
 title: Geometry
 tmap.id: 9425cd2a-250f-42cc-851a-9983db732825
@@ -19,3 +19,32 @@ https://en.wikipedia.org/wiki/Geometry
 [[New Horizons in Geometry (Dolciani Mathematical Expositions) 1st Edition|http://www.amazon.com/dp/088385354X]]
 
 See part of the book here: http://www.mamikon.com/VisualCalc.pdf
+
+!!__[[Euclidean geometry]]__
+
+The elements. Has some subtle flaws in mathematical rigour. Fifth postulate, in particular, was controversial.
+
+!!!__[[Geometrical construction]]s__
+
+[[Angle bisector]]
+
+!!__[[Non-Euclidean geometry]]__
+
+[[Elliptic geometry]]
+
+[[Hyperbolic geometry]]
+
+Riemannian geomtry
+
+[[Differential geometry]]
+
+See pages 88 and forth in [[GEB|Godel, Escher, Bach]].
+
+//one can let the meanings of "point" and "line", and so on be determined by the set of theorems (or propositions) in which they occur//. These are called //undefined terms//, and they only get meaning through these theorems.
+
+!!__[[Projective geometry]]__
+
+
+
+!!__[[Complex geometry]]__
+

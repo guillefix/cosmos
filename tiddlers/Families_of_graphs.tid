@@ -1,0 +1,32 @@
+created: 20161113220356321
+creator: cosmos
+modified: 20161113220423392
+modifier: cosmos
+title: Families of graphs
+tmap.id: fd059554-ad22-4b4b-a0d8-dce504dd6261
+type: text/vnd.tiddlywiki
+
+[[vid|https://www.youtube.com/watch?v=71XbdtoG7P8&index=4&list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg]]
+
+Simple network, described above.
+
+''[[Acyclic networks]]'' have no cycles. A [[Directed Acyclic Graph (DAG)|Directed acyclic craph]] is a well known sub-type. 
+
+<span id="hypergraph">[[Hypergraphs]]</span> are sets of 
+elements with 
+[[relations|https://simple.wikipedia.org/wiki/Relation_%28mathematics%29]]
+ that include more than a pair of elements (i.e. they are members of a 
+higher [[cartesian product|https://en.wikipedia.org/wiki/Cartesian_product]]).
+
+Hypergraphs can equivalently be represented as [[Bipartite Networks]], where there are two types of edges (a special case of a //multipartite network//, where there are many types). On the other hand, a //multiplex network// is one that has multiple types of edges.
+
+[[Trees|Tree (Graph Theory)]] are connected (<small>can reach all 
+vertices following edges</small>), undirected networks that 
+contain no closed loops. A //forest// is a disconnected graph whose 
+connected parts are trees.
+
+A [[Planar network]] is a network that can be drawn on a plane without having any edges cross. It is a special case of a [[Spatial network]].
+
+//Temporal networks// are those for which the set of edges and/or nodes varies with a time parameter.
+
+A [[Similarity network]] is one that expressed how similar entities (expressed as the nodes) are. The degree of similarity being the weight of the node.

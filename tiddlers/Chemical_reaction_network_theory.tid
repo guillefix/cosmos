@@ -1,0 +1,56 @@
+created: 20161121143301123
+creator: cosmos
+modified: 20161122143300572
+modifier: cosmos
+title: Chemical reaction network theory
+tmap.id: 7d2faba7-6dc4-4fb0-8e7a-ac02b5e40f92
+type: text/vnd.tiddlywiki
+
+[[Continuous dynamical system]] (Systems of [[ODE|Ordinary differential equation]]s), [[Dynamical systems on networks]].
+
+https://crnt.osu.edu/
+
+Based on the theory of [[Chemical kinetics]]
+
+!!__Mass-action dynamical system__
+
+Can write as a dynamical system
+
+$$\dot{\mathbf{x}} = S \cdot \mathbf{v}$$
+
+where $$S$$ is the ''stoichiometrix matrix'', and $$v$$ is the ''flux vector''.
+
+[img[stoichiomestry_matrix.png]]
+
+[img[chem_net_flux_vector.png]]
+
+This assumes the [[Law of mass-action]]. Mass action kinetics does not always capture correct dynamics, because of more complicated constraints and stochastic dynamics.. In more, general models $$v$$ has a more complicated form.
+
+__Steady state__
+
+$$\dot{x}=Sv_s=0$$. $$v_s$$ has to be in the null space of $$S$$.
+
+__Conservation relations__
+
+Vectors that satisfy $$\mathbf{w}^T \dot{\mathbf{x}} = \mathbf{w}^T \mathbf{S} \mathbf{v}=0$$.
+
+$$w$$ lives in the null space of $$S^T$$
+
+!!__Flux analysis (stochiochemistry)__
+
+Because the S matrices are very often fat matrices, the null space is and thus the space of stationary state fluxes is often relatively high dimensional. This is useful for design ([[Synthetic biology]]).
+
+$$\alpha v_1 + \beta v_2 + ... \geq 0$$ is a constraint on the fluxes. This defines a cone (a special case of the polyhedra found in [[Linear programming]])! Hm I can only see it being a cone if there are conditions like $$\alpha \geq 0$$ otherwise, it's just the intersection of the positive part of the full space and the null subspace.
+
+!!!__[[Sensitivity analysis]]__
+
+---------------
+
+!!__Generalized Mass Action/S-Systems__
+
+
+
+----------------
+
+Used in [[Biochemistry]], and [[Chemistry]].
+

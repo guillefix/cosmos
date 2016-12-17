@@ -1,6 +1,6 @@
 created: 20161014104725091
 creator: cosmos
-modified: 20161104134327412
+modified: 20161118152345255
 modifier: cosmos
 title: Chromatin
 tmap.id: a8c5ed48-6475-4722-abf5-3f814af80ff8
@@ -8,4 +8,24 @@ type: text/vnd.tiddlywiki
 
 https://en.wikipedia.org/wiki/Chromatin
 
+!!__Folded chromatin --> [[Chromosome]]__
+
+During [[Cell division]]
+
 <img style="background-color:white;" src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Chromatin_Structures.png">
+
+!!__Unfolded chromatin__
+
+[img[http://www.mun.ca/biology/desmid/brian/BIOL2060/BIOL2060-18/18_21.jpg]]
+
+--------------------
+
+The human genome is made of 23 chromosome pair which are contained within the cell nucleus. During mitosis and
+meiosis the chromosome condense into supercoiled chromatids attached into pairs at the centromere. While during normal
+cellular growth, known as interphase, the chromosomes need to unfold in order for the DNA to be either replicated or for gene
+transcription to occur. The total size of the human genome is approximately 3 thousands Mega-basepairs (3 billion BPs),
+which needs to be contained inside the cells nucleus, only ~10 micron (0.01mm) in diameter. The DNA is wrapped around
+nucleosomes consisting of an octamer of histone proteins which can be up to 80bp appart. The linker DNA between histones
+contains cis-regulatory elements. They are non-coding DNA sequences such as core and proximal promoter regions,
+enhancers, silencers and other type of sites that can bind transcription factors and activators, and thus, regulate gene
+expression. ~ Nikolai Drouzine
