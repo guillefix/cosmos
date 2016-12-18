@@ -1,13 +1,15 @@
 created: 20160122231301724
 creator: guillefix
-modified: 20161216133238729
+modified: 20161217182756739
 modifier: cosmos
 tags: [[Mathematical software]] [[Philosophy of mathematics]] Explorable
 title: AugMath
 tmap.id: 1f7c26f9-2bfb-4a47-b6dc-02585a98b2e8
 type: text/vnd.tiddlywiki
 
-METEOR IS GOING TO STOP SUPPORTING FREE METEOR.COM HOSTING, CHANGE TO HEROKU OR SOMETHING
+Interactive computer algebra system. http://guillefix.me/augmath
+
+Nice related software: https://github.com/trebor/algebranch#algebranch
 
 __Get examples from here__: https://brilliant.org/
 

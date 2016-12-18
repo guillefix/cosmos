@@ -1,0 +1,10 @@
+created: 20161217155954768
+creator: cosmos
+modified: 20161217160131091
+modifier: cosmos
+tags: Space
+title: Displacement
+tmap.id: b8555226-3fa4-45bd-a2f3-6b2ffc368785
+type: text/vnd.tiddlywiki
+
+The distance between the [[Position]] of a [[Point]] (often representing an [[Object]]), and a reference position. What this reference  position is depends on the context. It may refer to initial position, to some average position, like [[Center of mass]], or to some equilibrium position.

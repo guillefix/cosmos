@@ -1,9 +1,36 @@
 created: 20161215093410227
 creator: cosmos
-modified: 20161215093411687
+modified: 20161217191236811
 modifier: cosmos
 tags: [[Non-Euclidean geometry]]
 title: Hyperbolic geometry
 tmap.id: 04f5bc94-c087-408e-b06c-371729a03cd7
 type: text/vnd.tiddlywiki
 
+Geometry corresponding to a constant negative [[Curvature]] [[Manifold]]. It can be derived by embedding one sheet of a [[Hyperboloid]] in 3D [[Euclidean space]] (although generalizations to . This is the [[Hyperboloid model|https://www.youtube.com/watch?v=ZNNZFSxe7oA&t=31m55s]]. The induced metric on the hyperboloid gives ''hyperbolic geometry''.
+
+[[Mark Norfleet - Hyperbolic Geometry|https://www.youtube.com/watch?v=ZNNZFSxe7oA&t=2603s]]
+
+!!!__Geodesics (lines) in the hyperboloid model__
+
+Lines can be constructed by taking a plane that passes through the origin and finding its intersection with the hyperboloid. Note that this is analogous to how great circles are constructed in [[Spherical geometry]]
+
+!!__Projective models of hyperbolic geometry__
+
+Different ways of projecting the points in the hyperboloid to planes or subsets of planes give other models.
+
+!!__Projective disk model__
+
+[[projection|https://www.youtube.com/watch?v=ZNNZFSxe7oA&t=39m30s]]
+
+[[definition|https://www.youtube.com/watch?v=ZNNZFSxe7oA&t=2m]]
+
+!!!__Poincare model (aka conformal disk model)__
+
+[[projection|https://www.youtube.com/watch?v=ZNNZFSxe7oA&t=43m20s]]
+
+[[definition|https://www.youtube.com/watch?v=ZNNZFSxe7oA&t=5m45s]]
+
+!!!__Upper half-plane model__
+
+[[definition|https://www.youtube.com/watch?v=ZNNZFSxe7oA&t=10m50s]]

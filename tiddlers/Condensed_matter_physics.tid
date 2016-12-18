@@ -1,6 +1,6 @@
 created: 20160128012455600
 creator: guillefix
-modified: 20161104134327668
+modified: 20161217164632789
 modifier: cosmos
 tags: Physics
 title: Condensed matter physics
@@ -11,15 +11,15 @@ type: text/vnd.tiddlywiki
 
 !!!__Condensed vs non-condensed__
 
-''Condensed matter'' refers to [[Bulk matter]] in a condensed form, i.e. one that is composed of condensed phases. Condensed phases include mainly ''solid'', and ''liquid''. However, generally, it is a phase for which the particles adhere to each other strongly enough (by for example [[Intermolecular forces]] or [[Chemical bonds]]) relative to their kinetic energy so that the system remains approximately bound in the absence of external forces, or where the particles are sufficiently highly concentrated so that they interact strongly (for example non-attracting particles can be forced to condense by confining them in a small volume (or by some external force, like gravity), forcing them to be "nearly touching", as in a liquid or solid).
+''Condensed matter'' refers to [[Bulk matter]] in a condensed form, i.e. one that is composed of condensed phases. Condensed phases include mainly ''[[Solid]]'', and ''[[Liquid]]''. However, generally, it is a phase for which the particles adhere to each other strongly enough (by for example [[Intermolecular forces]] or [[Chemical bonds]]) relative to their kinetic energy so that the system remains approximately bound in the absence of external forces, or where the particles are sufficiently highly concentrated so that they interact strongly (for example non-attracting particles can be forced to condense by confining them in a small volume (or by some external force, like gravity), forcing them to be "nearly touching", as in a liquid or solid).
 
-''//Non-condensed// matter'' has constituents that are barely bound together, if at all, and thus often need to be confined, either naturally, or artificially, to be studied as a whole. The main types are: <b>gases</b> (see [[Fluid mechanics]]), and <b>[[plasmas|Plasma physics]]</b>.
+''//Non-condensed// matter'' has constituents that are barely bound together, if at all, and thus often need to be confined, either naturally, or artificially, to be studied as a whole. The main types are: <b>[[Gas]]es</b> (see [[Fluid mechanics]]), and <b>[[plasmas|Plasma physics]]</b>.
 
 !!!__Solid vs fluid__
 
-A ''solid'' is a form of matter that can resist a considerable amount of stress without flowing (so that its only response is //elastic//).
+A ''[[Solid]]'' is a form of matter that can resist a considerable amount of stress without flowing (so that its only response is //elastic//).
 
-A ''fluid'' is a form of matter that flows under virtually any amount of stress.
+A ''[[Fluid]]'' is a form of matter that flows under virtually any amount of stress.
 
 A [[viscoelastic material|Viscoelasticity]] displays solid-like elasticity of short time scales, and fluid-like viscosity on long time scales.
 
@@ -51,7 +51,7 @@ One of the most important properties of materials is that they exhibit different
 
 !!!__Non-condensed forms of matter__
 
-* simple gases
+* simple [[Gas]]es
 * Simple [[plasmas|Plasma physics]].
 * Quark-gluon plasmas
 * Some types of [[complex fluids|Complex fluid dynamics]] are non-condensed phases, for instance [[Aerosol]]s.

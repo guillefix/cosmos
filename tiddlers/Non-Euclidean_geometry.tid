@@ -1,11 +1,13 @@
 created: 20161215093348523
 creator: cosmos
-modified: 20161215093402587
+modified: 20161217185024177
 modifier: cosmos
 tags: Geometry
 title: Non-Euclidean geometry
 tmap.id: 4d5a9bcb-afe1-4cf1-b5bb-e75ce5071c41
 type: text/vnd.tiddlywiki
+
+Euclidean geometry where the [[Parallel postulate]] is modified. It corresponds to Riemannian manifolds with non-zero [[Curvature]]
 
 [[Elliptic geometry]]
 
