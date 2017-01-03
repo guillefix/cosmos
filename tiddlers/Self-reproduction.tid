@@ -1,0 +1,13 @@
+created: 20161222200611127
+creator: cosmos
+modified: 20161223002406145
+modifier: cosmos
+title: Self-reproduction
+tmap.id: 2491fff6-15d0-44a0-aca0-537c8f6474a1
+type: text/vnd.tiddlywiki
+
+[[System]]s that create copies of themselves. They are examples of [[self-referential|Self-reference]] systems. They are crucial in [[Life]]'s [[Evolution]]
+
+They work by having {instructions + data} => {"instructions + data"}. However, the most general way is that data => data, under some environment/assumptions.
+
+Read [[GEB|Godel, Escher, Bach]]

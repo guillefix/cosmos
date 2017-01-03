@@ -1,6 +1,6 @@
 created: 20161018183639198
 creator: cosmos
-modified: 20161104134328618
+modified: 20161224005402577
 modifier: cosmos
 tags: [[Generative model]]
 title: Generative adversarial network
@@ -79,6 +79,8 @@ They are [[supervised|Supervised learning]]
 [[InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets|https://arxiv.org/abs/1606.03657]] (from [[OpenAI]])
 
 ---------------
+
+http://www.inference.vc/how-to-train-your-generative-models-why-generative-adversarial-networks-work-so-well-2/
 
 They are similar to [[Autoencoder]]s but we learn the cost function, instead of just using l2 loss  ([[vid|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=58m50]])
 

@@ -1,11 +1,13 @@
 created: 20161025151114675
 creator: cosmos
-modified: 20161104134327360
+modified: 20161223141607763
 modifier: cosmos
 tags: [[Cell biology]]
 title: Cell specialization
 tmap.id: e8315501-828e-4c55-bd70-2dd356ca5718
 type: text/vnd.tiddlywiki
+
+//aka cell differentiation//
 
 __Creating assymetry__
 
@@ -18,3 +20,15 @@ __Creating assymetry__
 __Organizer__
 
 A group of cells that organizes early development.
+
+------------
+
+From GEB
+
+The  process  by  which  one  initial  cell  replicates  over  and  over,  giving  rise  to  a  myriad  of  
+differentiated  cells  with  specialized  functions,  can  be  likened  to  the  spread  of  a  chain  letter  
+from  person  to  person,  in  which  each  new  participant  is  asked  to  propagate  the  message  
+faithfully, but also to add some extra personal touch. Eventually, there will be letters which 
+are tremendously different from each other. 
+
+Nice computer program example given on page 546

@@ -1,0 +1,21 @@
+created: 20161228193512000
+creator: cosmos
+draft.of: Knowledge-base programming
+draft.title: Knowledge-base programming
+modified: 20161228211710327
+modifier: cosmos
+tags: [[Knowledge management]] [[Intelligence augmentation]] [[Artificial intelligence]]
+title: Draft of 'Knowledge-base programming'
+tmap.id: 823fcf18-becc-42e5-95ff-a88258cdd19e
+type: text/vnd.tiddlywiki
+
+[[Wolfram language]]
+
+
+Here is a thought.
+Inspired by the intensive teaching that a human needs to learn most of what he/she knows, maybe AGI is closer to the area of programming language design than to machine learning. I don't think this is a novel idea, as classic AI was rather close to this.
+
+But perhaps, it is time to start reawaking this perspective? There are indeed many things that we aren't taught, and we instead learn from rather unstructured experience. This is called "implicit learning" in psychology, and I think this very important part is what current deep learning and machine learning are starting to solve!
+Perhaps, seizing this powerful constructs to design programming languages that understand natural language, and are able to do some fuzzy computation, could be a way of making not just machine learners, but machine students, which we can teach.
+
+At the end of the day, give a just born infant access to all the books in the world, and he will not only not learn much useful knowledge, he wouldn't even learn to read and speak..

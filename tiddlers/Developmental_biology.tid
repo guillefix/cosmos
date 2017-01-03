@@ -1,6 +1,6 @@
 created: 20160521192108759
 creator: guillefix
-modified: 20161104134327841
+modified: 20161223135242863
 modifier: cosmos
 tags: Biology
 title: Developmental biology
@@ -22,3 +22,19 @@ Every organism comes from a single [[Cell]]
 Cell proliferation, specialization, itnteraction, movement. Achieved by a [[Gene expression]] cascade in space!
 
 [[Model organism]]s
+
+---------
+
+From GEB
+
+,,There  are  two  major  
+distinct problems here. One is that of cellular differentiation: how do different cells, sharing 
+exactly the same DNA, perform different roles-
+such as a kidney cell, a bone marrow cell, and 
+a  brain  cell?  The  other  is  that  of  morphogenesis  ("birth  of  form"):  how  does  intercellular  
+communication  on  a  local  level  give  rise  to  large-scale,  global  structures  and  organizations-
+such as the various organs of the body, the shape of the face, the suborgans of the brain, and 
+so  on?  Although  both  cellular  differentiation  and  rnorphogenesis  are  poorly  understood  at  
+present.  the  trick  appears  to  reside  in  exquisitely  fine-tuned  feedback  and  "feedforward"  
+mechanisms within cells and between cells, which tell a cell when to "turn on" and when to 
+"turn off" production of various proteins. ,,

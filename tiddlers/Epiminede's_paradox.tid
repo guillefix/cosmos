@@ -1,0 +1,24 @@
+created: 20161223232659546
+creator: cosmos
+modified: 20161223232828419
+modifier: cosmos
+title: Epiminede's paradox
+tmap.id: 49631e0c-59cf-4bfa-84c5-9b091069dd6a
+type: text/vnd.tiddlywiki
+
+//This sentence is false//
+
+See [[Godel, Escher, Bach]]
+
+
+!!__The Neural Substrate of the Epimenides Paradox__
+
+I would like to conclude this Chapter with so me ideas about that central problem of truth, the Epimenides paradox. I think the Tarski reproduction of the Epimenides paradox inside TNT points the way to a deeper unders tanding of the nature of the Epimenides paradox in English. What Tarski found was that his version of the paradox has two distinct levels to it. On one level, it is a sentence about itself whic h would be true if it were false, and false if it were true. On the other level-which I like to call the arithmetical substrate-it is a sentence about integers which is true if and only if false.
+
+Now for some reason this latter bothers pe ople a lot more than the former. Some people simply shrug off the former as "mean ingless", because of its self-referentiality. But you can't shrug off paradoxical statements about integers. Statements about integers simply cannot be both true and false.
+
+Now my feeling is that the Tarski tr ansformation of the Epimenides paradox teaches us to look for a substrate in the English-language version. In the arithmetical version, the upper level of meaning is supporte d by the lower arithmetical level. Perhaps analogously, the self-referential sentence which we perceive ("This sentence is false") is only the top level of a dual-level entity. What would be the lower level, then? Well, what is the mechanism that language rides on? The brain. Therefore one ought to look for a neural substrate to the Epimenides paradox-a lower level of physical events which clash with each other. That is, two events which by their nature cannot occur simultaneously. If this physical substrate exists, then the r eason we cannot make heads or tails of the Epimenides sentence is that our brains are trying to do an impossible task.
+
+Now what would be the nature of the conflicting physical events? Presumably when you hear the Epimenides sentence, your brain sets up some "coding" of the sentence-an internal configuration of interac ting symbols. Then it tries to classify the sentence as "true" or "false". This classifyi ng act must involve an attempt to force several symbols to interact in a particular way. (P resumably this happens when any sentence is processed.) Now if it happens that the act of classification would physically disrupt the coding of the sentence-something which would ordinarily never happen-then one is in trouble, for it is tantamount to trying to force a record player to play its self-breaking record. We have described the conflict in physical terms, but not in neural terms. If this analysis is right so far, then presumably the rest of the di scussion could be carried on when we know • something about the constitution of the "symbol s" in the brain out of neurons and their firings, as well as about the way that sentences become converted into "codings".
+
+This sketch of the neural substrate of the Epimenides paradox suggests (to me, at least) that the resolution of the English version of the Epimenides paradox might be similar to that for the Tarski version. Th e resolution involves abandoning the notion that a brain could ever provide a fully accurate representation for the notion of truth. The novelty of this resolution lies in its suggestion that a total modeling of truth is impossible for quite physical reasons: namely, such a modeling would require physically incompatible events to occur in a brain. 

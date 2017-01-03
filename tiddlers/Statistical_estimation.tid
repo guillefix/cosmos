@@ -1,0 +1,73 @@
+created: 20170103095403933
+creator: cosmos
+modified: 20170103104240247
+modifier: cosmos
+tags: Statistics
+title: Statistical estimation
+tmap.id: dc4f12ce-bd7d-406d-bf6d-8d40506c3ba4
+type: text/vnd.tiddlywiki
+
+https://www.wikiwand.com/en/Estimation_theory
+
+An ''estimator'' for a parameter is a [[Random variable]] that may be calculated from the sampled data, and is "close to" the real parameter.
+
+!!__Unbiased estimator__
+
+An ''unbiased estimator'' is an estimator whose [[Expected value]] is equal to the real parameter.
+
+https://www.wikiwand.com/en/Unbiased_estimation_of_standard_deviation
+
+Mean: sample mean
+
+Variance: $$\frac{n}{n-1} \times$$ sample variance. see [[here|https://www.google.co.uk/search?client=ubuntu&channel=fs&q=unbiased+estimator+of+variance&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=xnhrWMeXM4r38Af80ZXgAg#safe=off&channel=fs&q=unbiased+estimator+of+variance+khanacademy]]
+
+!!__Uncertainty in estimator__
+
+Often, a good estimator is unbiased, and has the smallest uncertainty we can. See [[Minimum variance unbiased estimator|https://www.wikiwand.com/en/Minimum-variance_unbiased_estimator]]
+
+!!!__Uncertainty of mean estimator__
+
+Use [[Central limit theorem]]. Mean will follow approximately a [[Normal distribution]] with mean equal to the real mean, and variance equal to the real [[Standard deviation]]/$$\sqrt{N}$$, where $$N$$ is the number of samples. We can use the estimates of these quantities to find [[Confidence interval]]s for the real mean.
+
+The real mean: $$\mu = \bar{X} + Z \times \sigma_{\bar{X}}$$, where $$\bar{X}$$ is the sample mean. $$Z$$ is a [[Random variable]] which is distributed according to the [[Standard normal distribution]] (mean $$0$$ and variance $$1$$).
+
+In this formulation (frequentists), a 95% confidence interfval means that 95% of the times we draw a sample of this type, 95% of the time this confidence interval will include the mean.
+
+>Uncertain knowledge + knowledge about the uncertainty = useful knowledge
+
+Box model
+
+!!!__[[Mean squared error]]__
+
+Good measure of how good an estimator is
+
+MSE = $$E[(\hat{\mu}-\mu)^2] = E[\hat{\mu} -E[\hat{\mu}]] + E[(E[\hat{\mu}-\mu)^2]$$ = Variance($$\hat{\mu}$$) + BIAS$$^2$$
+
+!!__Sampling without replacement__
+
+This changes things if the sample size is close to the total population size. Now, samples are not totally independent!
+
+!!__Asymptotic properties__
+
+''Consistency''. An estimator is consistent if it tends to real value as the sample size goes to infinity.
+
+''CLT''. Asymptotically normally distributed
+
+''Asymptotic efficiency''. I think this means it is asymptotically the [[Minimum variance unbiased estimator|https://www.wikiwand.com/en/Minimum-variance_unbiased_estimator]].
+
+
+!!__[[Bayesian inference]] for statistical estimation__
+
+//Good formalism//
+
+!!![[Maximum likelihood]] estimator.
+
+* Consistent
+* Asymptotically normally distributed
+* Asymptotically efficient, given by [[Cramer-Rao bound]]
+
+!!!__Uncertainty of maximum likelihood estimator__
+
+Variance can be computed asymptotically. [[Covariance matrix]] given by [[Fisher information matrix]]
+
+[[Cramer-Rao bound]]

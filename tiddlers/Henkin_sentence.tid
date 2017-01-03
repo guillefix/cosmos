@@ -1,0 +1,35 @@
+created: 20161223131223039
+creator: cosmos
+modified: 20161223135213555
+modifier: cosmos
+tags: Self-reference
+title: Henkin sentence
+tmap.id: 6deeb870-2863-45ed-a630-a6ad686fe38f
+type: text/vnd.tiddlywiki
+
+Now  both  of  these  contrasting  types  of  sel
+f-reference  in  molecular  biology  have  their  
+counterparts  in  mathematical  logic.  We  have  already  discussed  the  analogue  of  the  self-
+defeating  phages-namely,  strings  of  the  G6del  type,  which  assert  their  own  unproducibility  
+within specific formal sstems. But one can also make a counterpart sentence to a real phage: 
+the'  phage  asserts  its  own  producibility  in  a  specific  cell,  and  the  sentence  asserts  its  own  
+producibility in a specific formal system. Sentences of this type are called Henkin sentences, 
+after the mathematical logician Leon Henkin. They can be constructed exactly along the lines 
+of Godel sentences, the only difference being the omission of a negation.
+
+Red p 541 in [[GEB|Godel, Escher, Bach]]
+
+!!__Implicit vs Explicit Henkin sentences__
+ mentioned that a Henkin sentence tells nothing a bout its own derivation; it just asserts that one exists. Now it is possible to invent a variation on the theme of Henkin sentences-namely sentences which explicitly describe their own derivations. Such a sentence's high-level interpretation would not be "Some Sequence of Strings Exists Which is a Derivation of Me", but rather, "The Herein-described Sequence of Strings ..... Is a Derivation of Me". Let us call the first type of sentence an implicit Henkin sentence. The new sentences will be called explicit Henkin sentences, since they explicitly describe their own derivations. Note that, unlike their implicit brethren, explicit Henkin sentences need not be theorems. In fact, it is quite easy to write a string which asserts that its own derivation consists of the single string 0=0-a false statement, since 0=0 is not a derivation of anything. However, it is also possible to write an explicit Henkin sentence which is a theorem-that is, a sentence which in fact gives a recipe for its own derivation. 
+
+!!__Relation with [[Self-assembly]]__
+
+The  essence  of  the  distinction,  then,  
+between self-assembling units and non-self-assembling units is that the former get away with 
+self-reproduction  without  telling  the  cell  anything  about  their  construction,  while  the  latter  
+need to give instructions as to how to assemble themselves. 
+Now  the  parallel  to  Henkin  sentences,  implicit  and  explicit,  ought  to  be  quite  clear.  
+Implicit Henkin sentences are self-proving but do not tell anything at all about their proofs-
+they   are   analogous   to   self-assembling   viruses;   explicit   Henkin   sentences   direct   the   
+construction  of  their  own  proofs-they  are  analogous  to  more  complex  viruses  which  direct  
+their host cells in putting copies of themselves together. 

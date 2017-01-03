@@ -1,0 +1,32 @@
+created: 20161222193324876
+creator: cosmos
+modified: 20161223232453010
+modifier: cosmos
+tags: [[Language and meaning]]
+title: Meaning
+tmap.id: 266e5409-373c-4f16-98ee-6f0a5273cd33
+type: text/vnd.tiddlywiki
+
+Hofstadter argues that meaning is a Morphism (often an Isomorphism) between a language (produced by a Formal system) and another space. The mapping itself is known as an interpretation.
+
+See [[Formal systems and semantics]]
+
+----------------
+
+,,
+It is extremely interesting, then, to think about the meaning of the word "form" as it applies to constructions of arbitrarily comple x shapes. For instance, what is it that we respond to when we look at a painting and feel its beauty? Is it the "f orm" of the lines and dots on our retina? Evidently it must be, fo r that is how it gets passed along to the analyzing mechanisms in our heads-but the co mplexity of the processing makes us feel that we are not merely looking at a two-dimensional surface; we are responding to somehow inside those two dimensions. It is the word "meaning" which is important here. Our minds contain interpreters which accept two-dimensional patterns and then "pull" fr om them high-dimensional notions which are so complex that we cannot consciously descri be them. The same can be said about how we respond to music, incidentally. It feels subjectively that the pulling-out m echanism of inner meaning is not at all akin to a decision procedure which checks for the presence or absence of some particular quality such as well-formedness in a string. Pr obably this is because inner meaning is something which reveals more of itself over a period of time. One can never be sure, as one can about well-formedness, that one has finished with the issue. 
+,,
+
+This suggests a distinction that could be drawn between two sens es of "form" in patterns which we analyze. First, there ar e qualities such as well-formedness, which can be detected by predictably terminating tests, as in BlooP programs. These I propose to call syntactic qualities of form. One intuitively feels about the syntactic aspects of form that they lie close to the surface, and th erefore they do not provoke the creation of multidimensional cognitive structures.
+
+By contrast, the semantic aspects of form are those which cannot be tested for in predictable lengths of time: they require open-ended tests . Such an aspect is theoremhood of TNT-strings, as we have seen. You cannot ju st apply some standard test to a string and find out if it is a theorem. Somehow, the fact that its meaning is involved is crucially related to the difficulty of telling whether or not a string is a TNT-theorem. The act of pulling out a string's meaning involves, in essen ce, establishing all the implications of its connections to all other strings, and this lead s, to be sure, down an open-ended trail. So "semantic" properties are connected to open-ended searches because, in an important sense, an object's meaning is not localized within the object itself. This is not to say that no understanding of any object's meaning is po ssible until the end of time, for as time passes, more and more of the meaning unfolds . However, there are always aspects of its meaning which will remain hidden arbitrarily long. 
+
+Let us switch from strings to pieces of music, just for variety. You may still substitute the term "string" for every refe rence to a piece of mu sic, if you prefer. The discussion is meant to be general, but its flavor is better gotten across, I feel, by referring to music. There is a strange duality about the meaning of a piece of music: on the one hand, it seems to be sp read around, by virtue of its relation to many other things in the world-and yet, on the other hand, the meaning of a piece of music is obviously derived from the music itself, so it must be localized somewhere inside the music. The resolution of this dilemma comes from thinking about the interpreter-the mechanism which does the pulling-out of meaning. (By "intepreter in this context, I mean not -the pe rformer of the piece, but the mental mechanism in the listener which derives meaning when the piece is played.) The interpreter may discover many important aspects of a piece's m eaning while hearing it for the first time; this seems to confirm the notion that the m eaning is housed in the piece itself, and is simply being read off. But that is only part of the story. The music interpreter works by setting up a multidimensional cognitive structur e-a mental representation of *_he piece- which it tries to integrate with pre-exis tent information by finding links to other multidimensional mental structures which encode previous experiences. As this process takes place, the full meaning gradually unfolds . In fact, years may pass before someone comes to feel that he has penetrated to the core meaning of a piece. This seems to support the opposite view: that musical meaning is sp read around, the interpreter's role being to assemble it gradually. 
+
+The truth undoubtedly lies somewhere in between: meanings-both musical and linguistic-are to some extent localizable , to some extent spread around. In the terminology of Chapter VI, we can say that mu sical pieces and pieces of text are partly triggers, and partly carriers of explicit m eaning. A vivid illustration of this dualism of meaning is provided by the example of a tablet with an ancient inscription: the meaning is partially stored in the libraries and the brains of scholars around the world, and yet it is also obviously implicit in the tablet itself. 
+
+Thus, another way of characterizing the difference between "syntactic" and "semantic" properties (in the just-proposed se nse) is that the syntactic ones reside unambiguously inside the object under cons ideration, whereas semantic properties depend on its relations with a potentially infin ite class of other objects, and therefore are not completely localizable. There is nothing cryptic or hidden, in principle, in syntactic properties, whereas hiddenness is of the essence in semantic properties. That is the reason for my suggested distinction between "syntactic" and "semantic" aspects of visual form. 
+
+------------------
+
+<big>//Meaning is connection//</big>

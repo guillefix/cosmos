@@ -1,14 +1,14 @@
 created: 20160419202135977
 creator: guillefix
-modified: 20161104134328302
-modifier: guillefix
+modified: 20161223201702855
+modifier: cosmos
 title: Examples of GP map bias
 tmap.id: 806ca7c7-e79e-45ee-8786-cb8e3cf87376
 type: text/vnd.tiddlywiki
 
 * model GP maps for protein tertiary ([[Emergence of Preferred Structures in a Simple Model of Protein Folding|http://cqb.pku.edu.cn/tanglab/pdf/1996-34.pdf]], [[Structural determinant of protein designability|http://www.englandlab.com/uploads/7/8/0/3/7803054/2003prl.pdf]]), 
 * quaternary structure. Self-assembling polyominoes model ([[A tractable genotype–phenotype map modelling the self-assembly of protein quaternary structure|http://rsif.royalsocietypublishing.org/content/11/95/20140249]]), 
-* [[Gene regulatory networks]] ([[ Highly designable phenotypes and mutational buffers emerge from a systematic mapping between network topology and dynamic output|http://www.pnas.org/content/103/11/4180.abstract]], [[Evolvability and robustness in a complex signalling circuit|http://www.ncbi.nlm.nih.gov/pubmed/21225054]])
+* [[Gene regulatory network]]s ([[ Highly designable phenotypes and mutational buffers emerge from a systematic mapping between network topology and dynamic output|http://www.pnas.org/content/103/11/4180.abstract]], [[Evolvability and robustness in a complex signalling circuit|http://www.ncbi.nlm.nih.gov/pubmed/21225054]])
 * and development ([[An End to Endless Forms: Epistasis, Phenotype Distribution Bias, and Nonuniform Evolution|http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000202]])
 
 suggesting that some of the results discussed in this paper for

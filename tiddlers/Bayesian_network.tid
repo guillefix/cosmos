@@ -1,0 +1,51 @@
+created: 20161219211550316
+creator: cosmos
+modified: 20161228001459692
+modifier: cosmos
+tags: [[Graphical model]] Causality
+title: Bayesian network
+tmap.id: 094d2be8-6924-4ec7-871c-72e373b9276b
+type: text/vnd.tiddlywiki
+
+A directed [[Graphical model]]. Encodes a [[Causality]] structure
+
+[ext[an intro|http://www.cs.ubc.ca/~murphyk/Bayes/bnintro.html]]
+
+!!!__Graphical representation__
+
+They are represented via [[DAG|Directed acyclic graph]]s
+
+!!!__[[Joint probability distribution]]__
+
+The joint prob distribution given by the ''chain rule of Bayesian networks'': product of the conditional probability distributions (CPDs) of each of the nodes
+
+!!!__Flow of probabilistic influence__
+
+//When can one variable (X) influence another variable  (Y)?// More precisely, what this means is that when conditioning on X, the probability distribution of Y changes.
+
+[[video|https://www.coursera.org/learn/probabilistic-graphical-models/lecture/1eCp1/flow-of-probabilistic-influence]].
+
+Two variables can influence each other if they are connected by an ''active trail'', which is a path (ignoring direction) through the network, such that there are no "''v-structures''" (which are causal structures like X -> W <- Y, for which Y is marginally independent on X, i.e. independent when marginalizing over W).
+
+But given that we have ''evidence'' (a set of the random variables Z, with fixed values, which we condition over), the flow of influence changes, and we now have:
+
+[img[bayesnet_activetrails.png]]
+
+The main effect here is the "activation" of v-structures, known as [[Explaining away]]
+
+!!__Independences__
+
+general procedure called d-separation (which stands for directed separation) can answer whether an independence assertion must hold in any distribution consistent with  the graph G.  However, note that  other independencies  may hold in some distributions consistent withG; these are due to flukes in the particular choice of
+parameters of the network (and this is why they hold in some of the distributions). d-separation occurs when there is no flow of influence as defined above
+
+[[Independence of random variables]] -- [[vid|https://www.coursera.org/learn/probabilistic-graphical-models/lecture/PTXfn/conditional-independence]]
+
+[[Independence and factors|https://www.coursera.org/learn/probabilistic-graphical-models/lecture/JRkCU/independencies-in-bayesian-networks]], I-maps
+
+!!__Examples and types of Bayesian nets__
+
+* [[Naive Bayes]] models
+
+!!__Applications__
+
+[[Medical Diagnosis|https://www.youtube.com/watch?v=PMbpzugft-s&list=PL50E6E80E8525B59C&index=11]]

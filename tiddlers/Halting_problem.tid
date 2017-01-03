@@ -1,0 +1,30 @@
+created: 20161221232207030
+creator: cosmos
+modified: 20161221232429964
+modifier: cosmos
+tags: [[Computability theory]]
+title: Halting problem
+tmap.id: 6eb18797-ed66-4641-9de5-4844e0cf7011
+type: text/vnd.tiddlywiki
+
+[[Math 574. Lesson 2-5: The Halting Problem|https://www.youtube.com/watch?v=47KpZvA39dA]]
+
+[[Godel numbers for indexing Turing machines|https://www.youtube.com/watch?v=47KpZvA39dA#t=7m10s]]
+
+[[Halting problem statement|https://www.youtube.com/watch?v=47KpZvA39dA#t=17m30s]]
+
+An undecidable problem. If it were decidable, one can show that it would solve all problems in [[Number theory]], plus it would contradict the [[Church-Turing thesis]] (see p. 426-428 of [[GEB|Godel, Escher, Bach]])
+
+__Proof__
+
+[[Proof That Computers Can't Do Everything (The Halting Problem)|https://www.youtube.com/watch?v=92WHN-pAFCs]]
+
+[[Math 574, Lesson 2-6: Undecidability of the Halting Problem|https://www.youtube.com/watch?v=cCvB2MDdNBg]] with diagonalization argument.
+
+The halting set $$K$$ is semidecidable by the Universal Turing machine. 
+
+He will show that the [[diagonal halting problem is undecidable|https://www.youtube.com/watch?v=cCvB2MDdNBg#t=2m50s]]
+
+[[http://cstheory.stackexchange.com/questions/2853/are-there-any-proofs-the-undecidability-of-the-halting-problem-that-does-not-depe/2911#2911]]
+
+[[There exist uncomputable functions|https://www.youtube.com/watch?v=47KpZvA39dA#t=50s]] because the number of TMs is countable.

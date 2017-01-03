@@ -1,7 +1,8 @@
 created: 20160713193844469
 creator: guillefix
-modified: 20161104134328757
-modifier: guillefix
+modified: 20161229180051510
+modifier: cosmos
+tags: [[Graph theory]]
 title: Graph automorphism
 tmap.id: 690bcd6e-c639-4581-9136-f495ed13893f
 type: text/vnd.tiddlywiki
@@ -17,3 +18,5 @@ Automorphisms capture the notion of symmetry for a graph because imposing the ab
 ->Yet another way of looking at graph automorphisms is, I think, as symmetries of the [[Adjacency matrix]]. Any permutation of the node labels that leaves the adjacency matrix unchanged is a graph automorphism.
 
 The set of all automorphisms of an object forms a group, called the ''automorphism group''. Intuitively, the size of the auto- morphism group A ( g ) provides a direct measure of the abundance of symmetries in a graph or network. Every graph has a trivial symmetry (the identity) that maps each vertex to itself.
+
+http://mathworld.wolfram.com/GraphAutomorphism.html

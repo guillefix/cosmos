@@ -1,8 +1,8 @@
 created: 20160428203926307
 creator: guillefix
-modified: 20161208230412478
+modified: 20161222124300461
 modifier: cosmos
-tags: [[Machine learning]]
+tags: [[Machine learning]] Optimization
 title: Reinforcement learning
 tmap.id: 408808c2-3e36-4109-a712-607087200589
 type: text/vnd.tiddlywiki
@@ -21,7 +21,7 @@ See [[Machine learning]], [[Decision theory]]
 ** Policy = policy evaluation
 **control = find optimal policy
 * Planning vs learning+planning
-** Planning = solve RL (prediction/control) problem with full knowledge of MDP
+** [[Planning]] = solve RL (prediction/control) problem with full knowledge of MDP
 ** Learning + planning = RL (prediction/control) in not fully-known environment. need to learn to model environment too!. [[Exploration vs exploitationn|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h20m40]]
 
 [[Free energy principle]]

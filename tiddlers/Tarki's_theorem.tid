@@ -1,0 +1,15 @@
+created: 20161223225403384
+creator: cosmos
+modified: 20161223230623638
+modifier: cosmos
+title: Tarki's theorem
+tmap.id: 8b8c9f51-cdeb-4084-95e4-919e6b545948
+type: text/vnd.tiddlywiki
+
+There is no way of expressing the notion of //truth// in sufficiently powerful [[Formal system]]s, such as TNT.
+
+If there was a way, one could represent [[Epiminede's paradox]], with a formula with G number T.  If the Tarski formula T actually existed, then it would be a statement about natural numbers that is both true and false at once (or neither)!  If we believe this is a ridiculous state of affairs, then we have to undo our assumption that the formula TRUE{a} exists . Thus, there is no way of expressing the notion of truth inside TNT. Notice that this makes truth a far more elusive property than theoremhood, for the latter is expressible. 
+
+So this assumes, a priori facts about how truth works, I guess as axioms of [[Logic]]
+
+See [[Godel, Escher, Bach]], page 581

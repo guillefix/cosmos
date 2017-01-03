@@ -1,7 +1,7 @@
 created: 20160423221114399
 creator: guillefix
-modified: 20161104134326645
-modifier: guillefix
+modified: 20161223115252557
+modifier: cosmos
 tags: Evolution Self-organization
 title: Abiogenesis
 tmap.id: f5041223-1a37-4c1b-abb7-ba79d1277b8c
@@ -31,3 +31,9 @@ See references at the end of page 54 in [[here|http://fontana.med.harvard.edu/ww
 [[‘RNA world’ inches closer to explaining origins of life|http://www.sciencemag.org/news/2016/05/rna-world-inches-closer-explaining-origins-life?utm_source=sciencemagazine&utm_medium=facebook-text&utm_campaign=rnaworld-4268]]
 
 [[Kauffman talk|https://www.youtube.com/watch?v=EWo7-azGHic]]. Ideas: <b>As evolution progresses it creates new opportunities and richer context for evolution to find evolve further</b>. Function can be defined as that subset of causal effects that contribute to causing a particular goal. In biology that goal is survival. The appropriate language in evolution goes beyond cause and effect, and includes ''enabling''. Organisms are [[Kantian wholes|https://www.youtube.com/watch?v=EWo7-azGHic#t=12m44s]], where the parts exist for and by means of the whole. The rest of the ideas seem to basically say that biology and evolution is too complex to (fully) describe with mathematical laws. [[Maybe we can understand the adjacent possible, look at convergence evolution|https://www.youtube.com/watch?v=EWo7-azGHic#t=51m40s]]....
+
+----------------
+
+From [[GEB|Godel, Escher, Bach]]
+
+Let us describe nature's solution to the puzzle posed for Typogenetics: "What kind of strand of DNA can direct its own replication?" Certai nly not every strand of DNA is inherently a self-rep. The key point is this: any strand whic h wishes to direct its own copying must contain directions for assembling precisely those enzymes which can carry out the task. Now it is futile to hope that a strand of DNA in isolation could be a self-rep; for in Self-Rep and Self-Rep 525 order for those potential proteins to be pulled out of the DNA, there must not only be ribosomes, but also RNA polymerase, which makes the mRNA that gets transported to the ribosomes. And so we have to begin by assuming a kind of "minimal support system" just sufficiently strong that it allows transcription and translation to be carried out. This minimal support system will thus consist in (1) some proteins, such as RNA polymerase, which allow mRNA to be made from DNA, and (2) some ribosomes

@@ -1,7 +1,8 @@
 created: 20160413185512030
 creator: guillefix
-modified: 20161104134327491
+modified: 20161221232233123
 modifier: cosmos
+tags: [[Theoretical computer science]] [[Mathematical logic]]
 title: Computability theory
 tmap.id: 20517ca4-4649-47af-8617-2010a001ac5a
 type: text/vnd.tiddlywiki
@@ -78,29 +79,9 @@ __Theorem__ 1.2.15 //There is a partial computable function that is not total co
 
 !!__Uncomputable functions__
 
-!!!__Halting problem__
+!!!__[[Halting problem]]__
 
-[[Math 574. Lesson 2-5: The Halting Problem|https://www.youtube.com/watch?v=47KpZvA39dA]]
 
-[[Godel numbers for indexing Turing machines|https://www.youtube.com/watch?v=47KpZvA39dA#t=7m10s]]
-
-[[Halting problem statement|https://www.youtube.com/watch?v=47KpZvA39dA#t=17m30s]]
-
-An undecidable problem.
-
-__Proof__
-
-[[Proof That Computers Can't Do Everything (The Halting Problem)|https://www.youtube.com/watch?v=92WHN-pAFCs]]
-
-[[Math 574, Lesson 2-6: Undecidability of the Halting Problem|https://www.youtube.com/watch?v=cCvB2MDdNBg]] with diagonalization argument.
-
-The halting set $$K$$ is semidecidable by the Universal Turing machine. 
-
-He will show that the [[diagonal halting problem is undecidable|https://www.youtube.com/watch?v=cCvB2MDdNBg#t=2m50s]]
-
-[[http://cstheory.stackexchange.com/questions/2853/are-there-any-proofs-the-undecidability-of-the-halting-problem-that-does-not-depe/2911#2911]]
-
-[[There exist uncomputable functions|https://www.youtube.com/watch?v=47KpZvA39dA#t=50s]] because the number of TMs is countable.
 
 !!!__Other examples__
 

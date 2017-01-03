@@ -1,0 +1,18 @@
+created: 20161222192749832
+creator: cosmos
+modified: 20161222193010312
+modifier: cosmos
+tags: Concept
+title: Self-reference
+tmap.id: 71ce0d39-7e43-4fcb-bde6-2f5373eed451
+type: text/vnd.tiddlywiki
+
+This occurs when something refers to itself, i.e. [[this|Self-reference]]
+
+Read [[GEB|Godel, Escher, Bach]]
+
+See also [[Meta]]
+
+---------------
+
+Self-refence can break things:{{Self-reference}}

@@ -1,7 +1,7 @@
 created: 20160126181154374
 creator: guillefix
 list-after: MMathPhys
-modified: 20161202160822840
+modified: 20161228193631285
 modifier: cosmos
 tags: MMathPhys Complexity
 title: Complex systems
@@ -24,6 +24,10 @@ Features of complex systems: [[Self-organization]] and emergence. [[Evolution]].
 Related: [[Soft matter physics]]. [[Non-equilibrium statistical physics]]
 
 Models and examples: [[Boolean network]], [[Automata|Automata theory]], [[Cellular automata]], [[Biology]], [[Artificial chemistry]], [[Fractal]]s. [[Control theory and control systems]], [[Nonlinear system]]s, [[Networks|Network science]] (in particular [[Dynamical systems on networks]]), [[Social system]], [[Percolation|Percolation theory]], [[Self-organized criticality]], [[Agent-based model]]s
+
+http://videos.syntience.com/index.html
+
+[[Complex adaptive system|https://www.wikiwand.com/en/Complex_adaptive_system]]
 
 Maybe try to categorize these a bit.
 

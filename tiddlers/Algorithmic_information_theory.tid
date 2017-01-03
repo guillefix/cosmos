@@ -1,6 +1,6 @@
 created: 20160308171001447
 creator: guillefix
-modified: 20161104134326831
+modified: 20161221141241660
 modifier: cosmos
 tags: [[Information theory]] Algorithms [[Theoretical computer science]]
 title: Algorithmic information theory
@@ -10,6 +10,12 @@ type: text/vnd.tiddlywiki
 See [[Descriptional complexity]] and [[MMathPhys oral presentation]]. See also [[Information theory]], [[Theory of computation]], [[Complexity theory]], and [[Computational complexity]]
 
 <mark>Good lecture notes for AIT</mark>: http://www.cse.iitk.ac.in/users/satyadev/a10/a10.html
+
+http://algoinfo4u.com/index.html
+
+[[book|http://algoinfo4u.com/AlgoInfo4u.pdf]]
+
+Introduction to Kolmogorov complexity and its applicatoins
 
 !!__[[Kolmogorov complexity]]__
 

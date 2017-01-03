@@ -1,6 +1,6 @@
 created: 20160204135706346
 creator: guillefix
-modified: 20161216133538877
+modified: 20170103102331770
 modifier: cosmos
 tags: [[Data & Knowledge]]
 title: Statistics
@@ -16,6 +16,12 @@ Mathematica foundation: [[Probability theory]]
 !!!__Statistics software__
 
 [[R language]]
+
+!!!__[[Statistical inference]]__
+
+[[Statistical estimation]], [[Statistical hypothesis testing]]
+
+[[Bayesian inference]]
 
 !!!__Statistical measures__
 

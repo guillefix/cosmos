@@ -1,6 +1,6 @@
 created: 20161105231531964
 creator: cosmos
-modified: 20161204230932425
+modified: 20161222164837257
 modifier: cosmos
 tags: Metamathematics
 title: Godel incompleteness theorems
@@ -13,9 +13,97 @@ Using ''Godel numbering'' (an encoding of statements in number theory), Godel ma
 
 which can't be proved in the system but is (thus) true.
 
-This showed that the system (and indeed all [[Formal system]]s that tried to do the same thing) was either incomplete or inconsistent.
+This leads to the first of Godel's incompleteness theorems, that the system (and indeed all [[Formal system]]s that tried to do the same thing) was either incomplete or inconsistent.
+
+!!__Proof of the 1st theorem__
+
+See chapter XIV (p.438)  in [[GEB|Godel, Escher, Bach]]
+
+__Proof-pairs__
+
+A proof-pair, is a pair of [[Godel number|Godel numbering]]s such that the first represents a derivation of the second. 
+
+It can easily be shown that the property of being a proof-pair is a [[Primitive recursive]] number-theoretical property, which is therefore represented in typographical number theory (TNT) by some formula having two free variables, which will be abbreviated as $$TNT-PROOF-PAIR\{a, a'\}$$. By adding an [[Existential quantifier]], we can construct statements about certain Godel numbers being theorems of given [[Formal system]]s, using the open formula that represents the proof-pair predicate. We can express this statement in TNT.
+
+__Substitution triple__
+
+The property of three numbers that represents the property that {the second number when substituted in the free variables of the formula expressed by the first number, gives the formula expressed by the third number} is primitive recursive and thus represented in TNT. The formula for this property is abbreviated as $$SUB\{a, a'', a'''\}$$
+
+__//Arithmoquining//__
+
+Now the crucial step is constructing an arithmetic analogue of quining, called "arithmoquining". Quining refers to the operation of preceding a sentence by its quotation (see dialogue in chapter XIV). It allows for the construction of a type of [[Self-reference]]. see p. 445. Arithmoquining refers to substituting the "quotation" of a formula, into the free variables of that formula. Here "quotation" is interpreted as //Godel numberification//. Now we can speak of arithmoquining in TNT by using the $$SUB$$ formula, we can define a formula $$ARITHMOQUINE\{a'', a'\} = SUB\{a'',a'',a'\}$$, which says that $$a'$$ is the Godel number of the formula gotten by arithmoquining the formula with Godel number $$a''$$; that is, we take formula corresponding to Godel number $$a''$$, which has free variables. Then we substitute the Godel number $$a''$$ into those free variables, to obtain a new formula. Finally we obtain the Godel number of that new formula. Here we can see we are using a single number in two different ways (shades of the Cantor [[diagonal method|Diagonal argument]]!)
+
+__Self-reference__
+
+Like in the dialogue in chapt XIV (//Air on G's string//), the ultimate trick necessary for achieving self-reference by quining is to quine a sentence which itself talks about the concept of quining. It's not enough to quine -- you must quine a quine-mentioning sentence! Here, of course, we use arithmoquining instead. This leads to a formula //G's uncle//:
+
+$$\sim \exists a: \exists a': <TNT-PROOF-PAIR\{a,a'\}\wedge ARITHMOQUINE\{a'',a'\}>$$
+
+Let the Godel number of this be $$u$$, then we arithmoquine this by substituting (the typographical representation of) $$u$$ into $$a''$$ (the only free variable), and get Godel's string //G//! Clearly G's Godel number is the arithmoquinificatio of $$u$$
+
+[img[Godel's_first_theorem_G_string_translation.png]]
+
+Is G a TNT -theorem? If so, then it must assert a truth. But what in fact does G assert? Its own nontheoremhood. Thus fr om its theoremhood would follow its nontheoremhood: a contradiction. Now what about G being a nontheorem? This is acceptable, in that it doesn't lead to a contradiction. Bu t G's nontheoremhood is what G asserts-hence G asserts a truth. And since G is not a theorem, there exists (at least) one truth which is not a theorem of TNT
+
+[img[Godel_vs_Quine_Epiminedes_paradox.png]]
+
+!!__Godel's 2nd theorem__
+
+Gödel found a simple way to express the statement " TNT is self-consistent" in a TNT formula; and then he showed that this formula (and all others which express the same idea) are only theorems of TNT under one condition: that TNT is inconsistent. 
+
+This hinges on the principle of explosion (that if there is a contradiction, everything is a theorem), and the fact that no statement of the form "X is not a theorem of TNT", when expressed in TNT, is a theorem of TNT, if we assume the consistency of TNT. Woah...
+
+!!__TNT is $$\omega$$-incomplete__
+
+See [[Formal system]]. See pages 450-451 in [[GEB|Godel, Escher, Bach]]
+
+++++++++++
+
+<big>Note</big> that the theorem doesn't say that $$G$$ is undecidable. It says that if TNT is consistent, then $$G$$ is undecidable (and thus TNT is incomplete). But in plain TNT, $$G$$ may be decidable. This can happen in three ways:
+
+* $$G$$ and $$\sim G$$ are both theorems, and the system is self-inconsistent. This would be horrible for mathematical logic! Note that we can't prove that this isn't the case, using just TNT, as shown by Godel's 2nd theorem.
+* Only $$G$$ is a theorem. This would imply that TNT is inconsistent under the standard interpretation, because it would imply that there is a theorem $$G$$, whose interpretation ("$$G$$ is not a theorem of TNT") is false.
+* Only $$\sim G$$ is a theorem. This would imply that TNT is $$\omega$$-inconsistent. This would also have the interpretation "$$G$$ is a theorem of TNT", which isn't true.
+
+All of these imply that TNT is inconsistent.
+
+Note that if some of these three options is true, we can amend TNT in certain ways to get a consistent formal system. For instance if the last one of them was true, we could reinterpret the system to get the supernatural system (which we can also get by adding $$\sim G$$ as an axiom, even if $$\sim G$$ is not a theorem of plain TNT, see below)
+
+--------------------
+
+Since G's interpretation is true, the interpretation of its negation -G is false. And, __using the assumption that TNT is consistent__, we know that no false statements are derivable in TNT . Thus neither G nor its negation - G is a theorem of TNT . We have found a hole in our system-an undecidable proposition. 
+
+ It signifies that TNT can be extended. The standard way, would be to extend it by adding G as an axiom, but one can also add not G as an axiom. This leads to the [[Supernatural number]]s (pages 452-)
+
+Supernatural theorems (like G) may assert falsities. This is accepted, because their proofs are infinitely large, and so never appear in a construction of supernatural TNT.
+
+[[Supernatural number]]s give rise to useful mathematics, including [[Nonstandard analysis]]
+
+----------------
+
+
+
 
 -----------
+
+!!__It doesn't imply that the human mind can't be simulated by machine__
+
+Uses nice analogy with Escher's dragon!
+
+[img[http://www-evasion.imag.fr/people/Fabrice.Neyret/images/Escher/escher.dragon.gif]]
+
+For the very fact that we cannot write a program to do "Gödelizing" must make us somewhat suspicious that we ourselves c ould do it in every case. It is one thing to make the argument in the abstract that Göde lizing "can be done"; it is another thing to know how to do it in every particular case. In fact, as the formal systems (or programs) escalate in complexity, our own ability to "Göde lize" will eventually begin to waver. It must, since, as we have said above, we do not have any algorithmic way of describing how to perform it. If we can't tell explic itly what is involved in applying the Gödel method in all cases, then for each of us there will eventually come some case so complicated that we simply can't figure out how to apply it.
+
+Of course, this borderline of one's abilities will be somewhat ill-defined, just as is the borderline of weights which one can pi ck up off the ground. While on some days you may not be able to pick up a 250- pound object, on other days maybe you can. Nevertheless, there are no days whatsoev er on which you can pick up a 250-ton object. And in this sense, though everyone's Godeli zation threshold is vague, for each person, there are systems which lie far beyond his ability to Godelize.
+
+This is analogous to a theorem that says that there  is  no  recursively  related  notation-system  which  gives  a  name to every constructive [[Ordinal number]]. 
+
+Other refutations of Lucas' argument in page 476.
+
+C. H. Whitely, when he proposed the senten
+ce "Lucas cannot consistently assert this 
+sentence." If you think about it, you will see that (1) it is true, and yet (2) Lucas cannot 
+consistently  assert  it.
 
 https://www.quora.com/Do-G%C3%B6dels-Incompleteness-Theorems-imply-that-the-human-mind-is-fundamentally-different-from-machines
 

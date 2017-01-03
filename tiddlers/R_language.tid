@@ -1,6 +1,6 @@
 created: 20160715194133116
 creator: guillefix
-modified: 20161104134331920
+modified: 20170103110603722
 modifier: cosmos
 title: R language
 tmap.id: d35bca4f-8de0-407f-8f78-e66c0fa4be50
@@ -15,3 +15,12 @@ Good IDE: [[RStudio|https://www.rstudio.com/]]
 R programs on the web!: [[Shiny|http://shiny.rstudio.com/]]
 
 See lynda.com lectures
+
+* [[Matlab]]-like indexing.
+* Arithmetic, matrix arithmetic
+* [[Data structure]]s: vectors and lists. Object-orientation.
+* [[Probability distribution]]s
+** r//dist// for samples
+** p for [[Cumulative distribution function]]s
+** d for
+** q for [[quantiles|Quantile]]

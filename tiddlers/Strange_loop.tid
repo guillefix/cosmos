@@ -1,16 +1,63 @@
 created: 20161106164936010
 creator: cosmos
-modified: 20161106165415755
+modified: 20161225175442950
 modifier: cosmos
 tags: [[Cognitive science]]
 title: Strange loop
 tmap.id: 937e6c7c-49a6-4038-bcce-2f36cb699137
 type: text/vnd.tiddlywiki
 
-The "Strage loop" phenomenon occurs whenver, by moving upwards (or downards) through the levels of some hierarchical system, we unexpectedly find ourselves right back where we started.
+The "Strage loop" phenomenon occurs whenver, by moving upwards (or downards) through the levels of some hierarchical system, we unexpectedly find ourselves right back where we started. They form "tangled hierarchies" (aka heterarchies/Tangled hierarchy)
+
+good explanation on page 691
 
 * [[Godel, Escher, Bach]]
-** [[Godel's incompleteness theorem]]
+** [[Godel incompleteness theorems]]
 ** [[Bach's endlessly rising canon|https://www.youtube.com/watch?v=nsgdZFIdmeo]]
 ** [[Escher]]
 
+[img[https://upload.wikimedia.org/wikipedia/en/b/ba/DrawingHands.jpg]]
+
+!!__Strange loops in molecular genetics and number theory__
+
+[img[strange_loop_dogmap.jpg]]
+
+One of the more interesting similarities between the two sides of the map is the way in which 
+"loops" of arbitrary complexity arise on the top level of both: on the left, proteins which act 
+on proteins which act on proteins and so on, ad infinitum; and on the right, statements about 
+statements   about   statements   of   meta-TNT   and   so   on,   ad   infinitum.   These   are   like   
+heterarchies,  which  we  discussed  in  Chapter  V,  where  a  sufficiently  complex  substratum  
+allows high-level Strange Loops to occur and to cycle around, totally sealed off from lower 
+levels. We will explore this idea in greater detail in Chapter XX. 
+
+Incidentally,  you  may  be  wondering  about  this  question:  "What,  according  to  the  
+Central  Dogmap,  is  Godel's  Incompleteness  Theorem  itself  mapped  onto?"  This  is  a  good  
+question to think about before reading ahead. 
+
+He also makes an analogy with record-players, as found in the //Contracrostipunctus// story.
+
+++++
+
+Statements in N, and statements in meta-TNT, are both written in English, I suppose, which I guess imitates the complexity in function/meaning of possible proteins (or polypetides), similar to that of English sentences (or polywords). 
+
+Proteins act on DNA to produce new DNA, just like meta-TNT statements can give new TNT statements.. Though this is only approximate, the analogy is between TNT's self-ref, and DNA's self-rep..
+
+!!!__Comparison with [[Feedback]]__
+
+On page 545 of GEB.
+
+The difference is that feedback transmits any signal around a loop, while strange loops transmit more complex information.. It's not an unambiguous definition though..
+
++++++++
+
+Note that proteins acting on proteins, to be analogous to how TNT works, should refer to proteins that act on DNA, which codes for proteins. This kind of regulation indeed happens all the time, and gives rise to [[Gene regulatory network]]s!
+
+!!__Strange loops (Chap XX)__
+
+[img[BelowEveryTangledHierarchyLiesAnInviolateLevel.jpeg]]
+
+See his nice chess example in next page
+
+Things must follow *some* rules at a level low enough, it must bottom-out. However, on top you can have a tangled-hierarchy which creates much complexity.
+
+See good explanation on page 691

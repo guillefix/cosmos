@@ -1,6 +1,6 @@
 created: 20160629171233090
 creator: guillefix
-modified: 20161104134329254
+modified: 20161224005545691
 modifier: cosmos
 tags: Complexity
 title: Kolmogorov complexity
@@ -55,3 +55,7 @@ __Deficiencies of KC__
 [img[http://i.imgur.com/Eyx7L1A.png]]
 
 from [ext[here|https://cs.uwaterloo.ca/~shallit/Papers/auto5.pdf]]
+
+---------
+
+An use in AI [[here|http://saffrontech.com/tag/kolmogorov-complexity/]]

@@ -1,9 +1,28 @@
 created: 20161017133939098
 creator: cosmos
-modified: 20161104134331529
+modified: 20161223140513542
 modifier: cosmos
+tags: [[Metabolic pathway]]
 title: Pathway regulation
 tmap.id: fc9b250a-fb33-40b0-89d8-a4088d507bbc
 type: text/vnd.tiddlywiki
 
 [[Enzyme inhibition]]
+
+
+!!__Negative feedforward of feedback__
+
+There  are  two  major  devices  for  achieving  negative  
+feedforward  or  feedback.  One  way  is  to  prevent  the  relevant  enzymes  from  being  able  to  
+perform-that  is,  to  "clog  up"  their  active  sites.  This  is  called  inhibition.  The  other  way  is  to  
+prevent  the  relevant  enzymes  from  ever  being  manufactured!  This  is  called  repression.  
+Conceptually, inhibition is simple: you just block up the active site of the first enzyme in the 
+assembly line, and the whole process of synthesis gets stopped dead. 
+
+!!__Positive feedback and feedforward__
+
+What about positive feedback and feedforward? Here again, there are two options: (1) 
+unclog  the  clogged  enzymes (''un-inhibit''),  or  (2)  stop  the  repression  of  the  relevant  operon.  (Notice  how  
+<b>nature  seems  to  love  double-negations! </b> Probably  there  is  some  very  deep  reason  for  this.)  
+
+See [[Gene expression regulation]] too

@@ -1,0 +1,14 @@
+created: 20161223141020439
+creator: cosmos
+modified: 20161223141150468
+modifier: cosmos
+tags: Self-reference
+title: Feedback
+tmap.id: d21cf40c-073d-4ad0-8355-0967d1233182
+type: text/vnd.tiddlywiki
+
+When a [[Signal]] //depends// on itself. It //feed backs// on itself.
+
+Compare with simple [[Feedforward]], when one signal depends on //another// signal.
+
+See also [[Strange loop]] for a more complex version of feedback

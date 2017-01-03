@@ -1,7 +1,7 @@
 created: 20160516190824728
 creator: guillefix
-modified: 20161104134329217
-modifier: guillefix
+modified: 20161228193613449
+modifier: cosmos
 tags: [[Data & Knowledge]]
 title: Knowledge management
 tmap.id: 4a032e96-afc7-4707-ad6c-aeaa78f66a7c
@@ -12,3 +12,7 @@ type: text/vnd.tiddlywiki
 This, TiddlyWiki
 
 http://www.openfst.org/twiki/bin/view/Main/WebHome
+
+--------------------
+
+[[Knowledge-base programming]]

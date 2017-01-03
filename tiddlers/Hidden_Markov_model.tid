@@ -1,13 +1,13 @@
 created: 20160701170121911
 creator: guillefix
-modified: 20161104134328821
+modified: 20161219211535303
 modifier: cosmos
 tags: [[Machine learning]]
 title: Hidden Markov model
 tmap.id: f94b0bb8-34f4-4484-99ec-07b8f56cc6dc
 type: text/vnd.tiddlywiki
 
-A directed [[Graphical model]]
+A type of directed [[Graphical model]] (aka [[Bayesian network]]). See [[here|https://www.quora.com/In-laymans-terms-what-are-the-differences-and-similarities-between-Bayes-Networks-Markov-Decision-Process-and-Hidden-Markov-Models]]. I think in some interpretations, it's the same as a Bayesian network?
 
 When modeling some [[Stochastic process]], there are some variables in the graphical model that are a [[Markov process]] that gives the model dynamics.
 
@@ -16,3 +16,5 @@ A Hidden Markov Model (HMM) is a discrete-time finite-state homogenous Markov ch
 This is used, for instance, in [[Machine learning]]
 
 [ext[STATISTICAL ANALYSIS OF HIDDEN MARKOV MODELS|http://math.bme.hu/~molnar/Molnar-Saska_thesis.pdf]]
+
+https://www.wikiwand.com/en/Hidden_Markov_model

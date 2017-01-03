@@ -1,6 +1,6 @@
 created: 20161103144740058
 creator: cosmos
-modified: 20161104134327014
+modified: 20161222204136755
 modifier: cosmos
 tags: [[Recurrent neural network]]
 title: Augmented RNN
@@ -47,3 +47,5 @@ See [[Attention in machine learning]]
 !!Neural programmers
 
 [[Neural programmer-interpreter]]
+
+http://www.thespermwhale.com/jaseweston/

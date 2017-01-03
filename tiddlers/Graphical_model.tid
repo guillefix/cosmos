@@ -1,31 +1,44 @@
 created: 20160704164449084
 creator: guillefix
-modified: 20161206174228622
+modified: 20161219231731191
 modifier: cosmos
 tags: [[Machine learning]]
 title: Graphical model
 tmap.id: b32995bc-055f-468e-b4ce-1fdf793c6a5e
 type: text/vnd.tiddlywiki
 
-''Probabilistic graphical model''
+A ''probabilistic graphical model'' is a [[Model]] to represent a [[Joint probability distribution]] (joint PD) of a set of [[Random variable]]s, which takes into account [[causal|Causality]] relations, and dependencies. The models are called graphical, because these dependencies are represented using [[Graph]]s, which allow for building the sparsely-parametrized representations of the joint PDs, and for many useful [[Algorithms]] for inference and learning to be used.
+
+__Factors__ are functions of the random variables, which are used to build the joint PD. One can do conditioning/reduction and marginalization on these factors. The reduction operation is like currying in [[Functional programming]]
+
+!!__Representation__
+
+[[Coursera course|https://www.coursera.org/learn/probabilistic-graphical-models/home]]
+
+[[Graph]]s:
+
+* [[Undirected graphical model|Markov network]]
+* Directed graphical models, or [[Bayesian network]]s --> [[Hidden Markov model]]
+
+See [[here|https://www.youtube.com/watch?v=ZYUnyyVgtyA&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=25#t=7m10s]] for the distinction of directed vs undirected graphical models. The difference, is that a directed graphical model is an undirected one, but where the factors that correspond to the edges, are normalized, because they correspond to [[Conditional probability]]es
+
+!!__Inference__
+
+
+
+!!__Learning__
+
+--------------------
 
 [[1.0 - Welcome-Probabilistic Graphical Models - Professor Daphne Koller|https://www.youtube.com/watch?v=WPSQfOkb1M8&list=PL50E6E80E8525B59C]]
 
 [[Jeffrey A. Bilmes|https://www.youtube.com/channel/UCvPnLF7oUh4p-m575fZcUxg/videos]]
 
 
-
-* [[Undirected graphical model|Markov network]]
-* Directed graphical models: [[Hidden Markov model]], Bayesian networks
-
-See [[here|https://www.youtube.com/watch?v=ZYUnyyVgtyA&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=25#t=7m10s]] for the distinction of directed vs undirected graphical models. The difference, is that a directed graphical model is an undirected one, but where the factors that correspond to the edges, are normalized, because they correspond to [[Conditional probability]]es
-
 __[[Graphical models|https://en.wikipedia.org/wiki/Graphical_model]]__
 
 They can often be represented as kinds of [[Artificial neural network]]s
 
 [[Energy minimization|http://mpawankumar.info/teaching/cdt-optimization/lecture2_2.pdf]]
-
---------------------
 
 !!![[Composing graphical models with neural networks|https://www.youtube.com/watch?v=btr1poCYIzw]]

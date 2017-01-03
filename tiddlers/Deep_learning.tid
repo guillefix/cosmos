@@ -1,6 +1,6 @@
 created: 20160328182624640
 creator: guillefix
-modified: 20161211181823891
+modified: 20161222204220891
 modifier: cosmos
 tags: [[Machine learning]]
 title: Deep learning
@@ -30,6 +30,12 @@ trainning models based on demonstration
 Multi-agents, and [[Communication]]
 
 Generating programs is not that different from generating [[explanations|Explainable artificial intelligence]]
+
+[[Augmented RNN]]s
+
+http://www.thespermwhale.com/jaseweston/
+
+NIPS2016
 
 ----------------
 
