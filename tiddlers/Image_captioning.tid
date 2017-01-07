@@ -1,0 +1,18 @@
+created: 20170104114936989
+creator: cosmos
+modified: 20170104115036818
+modifier: cosmos
+tags: [[Computer vision]]
+title: Image captioning
+tmap.id: 9d6801e4-7c61-4325-8645-4000dc3614f9
+type: text/vnd.tiddlywiki
+
+Generating text that describes an [[Image]]
+
+!!__Dense captioning with [[Object detection]]__
+
+[[DenseCap: Fully Convolutional Localization Networks for Dense Captioning|http://cs.stanford.edu/people/karpathy/densecap/]]
+
+[img[http://cs.stanford.edu/people/karpathy/densecap/eg/p8.jpeg]]
+
+[img[http://cs.stanford.edu/people/karpathy/densecap/eg/p12.jpeg]]

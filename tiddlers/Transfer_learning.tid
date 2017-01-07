@@ -1,7 +1,8 @@
 created: 20160709021850299
 creator: guillefix
-modified: 20161107171010151
+modified: 20170104201056876
 modifier: cosmos
+tags: [[Machine learning]]
 title: Transfer learning
 tmap.id: 1601768f-f264-4d01-8c31-52ab35c1fca4
 type: text/vnd.tiddlywiki
@@ -35,3 +36,5 @@ memory networks (see below) may be useful for transfer learning too..
 One-shot learning using conv nets, as we've already have good embeddings, just compare objects in embeddings. [[See beginning of this|https://www.youtube.com/watch?v=56TYLaQN4N8&index=12&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw]]
 
 !!!See also [[Feature selection]]
+
+See also [[Incremental learning]]

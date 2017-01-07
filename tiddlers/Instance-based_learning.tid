@@ -1,0 +1,16 @@
+created: 20170104125136267
+creator: cosmos
+modified: 20170104125851344
+modifier: cosmos
+tags: [[Nonparametric statistics]]
+title: Instance-based learning
+tmap.id: d0ba2d98-033f-4136-af6d-a3bca3ac8c36
+type: text/vnd.tiddlywiki
+
+https://www.wikiwand.com/en/Instance-based_learning
+
+In machine learning, instance-based learning (sometimes called memory-based learning) is a family of learning algorithms that, instead of performing explicit generalization, compares new problem instances with instances seen in training, which have been stored in memory.
+
+A common example is [[Nearest-neighbour classification]]
+
+[ext[https://www.cs.cmu.edu/~schneide/tut5/node9.html]]

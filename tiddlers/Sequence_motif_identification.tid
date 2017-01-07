@@ -1,0 +1,16 @@
+created: 20170107003218004
+creator: cosmos
+modified: 20170107003753740
+modifier: cosmos
+title: Sequence motif identification
+tmap.id: 3b05af53-314f-49a9-b493-756c12fd6d57
+type: text/vnd.tiddlywiki
+
+
+[[Sequence motif|https://www.wikiwand.com/en/Sequence_motif]] are parts of a sequence (most often referring to [[DNA]]) which are highly conserved across many sequences.
+
+DTC project for using [[Gibbs sampling]] for DNA motif identification: [[folder|https://www.dropbox.com/sh/i88fan2nxohpkh7/AADv15LTe0Pkob-mXkgJQw5aa?dl=0]] ([[pdf|https://dl.dropboxusercontent.com/content_link/9yJc9HFztqIjCPJChIAM7TZEGUzlSeBklYWqPcXijz4Z4ZcWxd4Jk2uKP1nAeVPt/file]])
+
+[img[https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/LexA_gram_positive_bacteria_sequence_logo.png/440px-LexA_gram_positive_bacteria_sequence_logo.png]]
+
+http://meme-suite.org/

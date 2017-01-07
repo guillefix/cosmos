@@ -1,43 +1,61 @@
 created: 20160226112409331
 creator: guillefix
-modified: 20161201202108037
+modified: 20170105094413333
 modifier: cosmos
 tags: [[Artificial intelligence]] Learning [[Data science]]
 title: Machine learning
 tmap.id: 47c58894-375c-4def-af28-994265d0697f
 type: text/vnd.tiddlywiki
 
-//aka statistical learning//, see [[Statistics]]
+//aka statistical learning//
 
-See [[Artificial intelligence]], [[Deep learning]]
+A part of [[Artificial intelligence]] that uses many methods from [[Computer science]] to [[Statistics]] to create automated (machine) learners: systems that can extract [[Knowledge]] and insight from [[Information]] and data.
 
 --[[Book recommendations|https://www.quora.com/Machine-Learning/How-do-I-learn-machine-learning-1]]
 
-[[Building Machine Learning Systems with Python|https://www.packtpub.com/big-data-and-business-intelligence/building-machine-learning-systems-python]] -- [[Machine learning in Matlab|http://uk.mathworks.com/videos/machine-learning-with-matlab-87051.html?s_eid=PSM_12825]] --[[Lecture list of Andrew's course:|https://www.quora.com/What-are-the-differences-between-the-Andrew-Ngs-Machine-Learning-courses-offered-on-Coursera-and-iTunes-U]] -- [[lecture notes|http://cs229.stanford.edu/materials.html]] -- [[Andrew Ng machine learning course|https://www.coursera.org/learn/machine-learning]] https://www.youtube.com/watch?v=UzxYlbK2c7E . On [[lecture 2|https://www.youtube.com/watch?v=5u4G23_OohI]] -- [[Machine Learning - mathematicalmonk|https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA]] -- [[Machine Learning: A Probabilistic Perspective|http://www.amazon.co.uk/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020]] [ext[and here|https://www.cs.ubc.ca/~murphyk/MLbook/]] -- [[Machine Learning: Discriminative and Generative (The Springer International Series in Engineering and Computer Science)|http://www.amazon.co.uk/Machine-Learning-Discriminative-International-Engineering/dp/1402076479]] https://en.wikipedia.org/wiki/Generative_model
+[[Building Machine Learning Systems with Python|https://www.packtpub.com/big-data-and-business-intelligence/building-machine-learning-systems-python]] -- [[Machine learning in Matlab|http://uk.mathworks.com/videos/machine-learning-with-matlab-87051.html?s_eid=PSM_12825]] --[[Lecture list of Andrew's course:|https://www.quora.com/What-are-the-differences-between-the-Andrew-Ngs-Machine-Learning-courses-offered-on-Coursera-and-iTunes-U]] -- [[lecture notes|http://cs229.stanford.edu/materials.html]] -- [[Andrew Ng machine learning course|https://www.coursera.org/learn/machine-learning]] https://www.youtube.com/watch?v=UzxYlbK2c7E . On [[lecture 2|https://www.youtube.com/watch?v=5u4G23_OohI]] -- [[Machine Learning - mathematicalmonk|https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA]] -- [[Machine Learning: A Probabilistic Perspective|http://www.amazon.co.uk/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020]] [ext[and here|https://www.cs.ubc.ca/~murphyk/MLbook/]] -- [[Machine Learning: Discriminative and Generative (The Springer International Series in Engineering and Computer Science)|http://www.amazon.co.uk/Machine-Learning-Discriminative-International-Engineering/dp/1402076479]] 
+
+-- [[Pedro Domingos: "The Master Algorithm"  Talks at Google|https://www.youtube.com/watch?v=B8J4uefCQMc]]. Grand unified theory of learning?
 
 [[Machine Learning with Python|https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v]]
 
 [[Supervised vs unsupervised|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=4m47]]
 
+[[No free lunch theorem]]
+
+!!!__Parametric vs non-parametric approaches__
+
+__Parametric approaches__ start with a ''model'', with a fixed number of parameters, like
+
+* [[Linear model]]s
+* __[[Basis expansion]]s__: Kernel (basis) functions, polynomials, Gaussians, etc. A lot of models can be understood with this concept!
+* [[Support vector machine]]
+* [[Artificial neural network]]s
+* [[Graphical model]]
+* etc.
+
+and a ''learning algorithm'' to find best parameters for the data. See [[Learning theory]]
+
+__[[Nonparametric|Nonparametric statistics]] approaches__ define a method which defines a function. They can be seen as models with variable number of parameters. Some examples are:
+
+* [[Instance-based learning]] (aka [[analogizers|https://www.youtube.com/watch?v=B8J4uefCQMc#t=33m20s]])
+* [[Model-free method]]s in [[Reinforcement learning]]
+
+++Often in machine learning, we assume the observations are independent, but we can also treat non-independent with sequence learning
+
+!!!__[[Deep learning]]__
+
+New paradigm, in which we try to learn as much as possible from features to classification, by using //deep models//.
 
 !!__[[Supervised learning]]__
 
-Training data consisting on inputs and outputs. Want to find function relating inputs to outputs, to then be able to predict new outputs from new inputs. Need ''a way to represent the function approximation'', with some parameters (the ''model''): 
-
-* Linear functions
-* Kernel (basis) functions, polynomials, Gaussians, etc.
-* [[Artificial neural network]]s
-* ...
-
-and a ''learning algorithm'' to find best parameters for the data. 
+Training data consisting on inputs and outputs. Want to find function relating inputs to outputs, to then be able to predict new outputs from new inputs. This problem is thus formalized as ''function approximation''.
 
 Two main types:
 
-* __Regression__. Output value is continuous
+* __[[Regression|Regression analysis]]__. Output value is continuous
 
-* __Classification__. Output value is discrete
-
-New paradigm: [[Deep learning]]
+* __[[Classification]]__. Output value is discrete
 
 !!__[[Unsupervised learning]]__
 
@@ -67,6 +85,12 @@ Basically loss-functions/costs used by the learning agent are based on [[Decisio
 
 Incremental learning is a machine learning paradigm where the learning process takes place whenever new example(s) emerge and adjusts what has been learned according to the new example(s). 
 
+//Related//: __[[Transfer learning]]__
+
+!!!__[[Matrix completion]]__
+
+Inferring values of missing entries in data
+
 !!__[[Reinforcement learning]]__
 
 To me it seems like the difference with supervised learning, is that you //don't specify input, output pairs, but just outputs//. You specify desired outputs, and undesired outputs. There is no input, but still the problem is not just trivial (i.e. it only ever produces one output), because the model is probabilistic.
@@ -79,13 +103,7 @@ Used often in robotics.
 
 !!__[[Learning theory]] and learning algorithms__
 
-!!__[[Deep learning]]__
-
-<small>Go deep into the rabbit hole</small>
-
-!!__[[Bayesian inferential statistics|Bayesian inference]]__
-
-Good framework: [[Stan|http://mc-stan.org/]]
+The theory and algorithms for learning.
 
 !__[[Probabilistic model]]s__
 
@@ -99,17 +117,24 @@ Models for [[Probability distribution]]s. These models relate [[Random variable]
 
 Many other models used in different areas of machine learning.
 
+!!__[[Bayesian inferential statistics|Bayesian inference]]__
+
+Good framework: [[Stan|http://mc-stan.org/]]
+
+!!__Symbolic machine learning__
+
+Other forms of [[Artificial intelligence]], particularly symbolist AI, can be useful for machine learning
+
+Promising approaches combine several of the paradigms: [[Integrating symbols into deep learning]]
+
+Learning as the inverse of deduction, going from instances to generals. see [[vid|https://www.youtube.com/watch?v=B8J4uefCQMc]]
+
 ----------------
 
-__Applications__
+!!__[[Applications|Applications of machine learning]]__
 
-* [[Speech recognition]]
-* [[Speech synthesis]]
-* [[Image classification]]
-* [[Text classification]]
-* [[Machine translation]]
+{{Applications of machine learning}}
 
-See more in [[Machine learning in science and engineering]], and [[Applications of AI]].
 
 --------
 

@@ -1,0 +1,9 @@
+created: 20170105001546318
+creator: cosmos
+modified: 20170105001738332
+modifier: cosmos
+title: Binomial distribution
+tmap.id: 42edf3a7-f41e-47f3-b844-7304a03ccdd2
+type: text/vnd.tiddlywiki
+
+Distribution for the number of successes of $$n$$ [[independent|Independence of random variables]] trials of a random variable with a [[Bernoulli distribution]]

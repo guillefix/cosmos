@@ -1,6 +1,6 @@
 created: 20160709011612644
 creator: guillefix
-modified: 20161104134329361
+modified: 20170105100751087
 modifier: cosmos
 tags: [[Regression analysis]]
 title: Linear regression
@@ -30,3 +30,5 @@ __Doing linear regression in Python with [[Sklearn]]__
 -------------------
 
 There exists a [[nonparametric|Nonparametric statistics]] generalization of linear regression: [[Locally-weighted linear regression]]
+
+The different features should not be linearly dependent in linear models, as parameters would be badly behaved

@@ -1,0 +1,9 @@
+created: 20170104235024609
+creator: cosmos
+modified: 20170104235031476
+modifier: cosmos
+title: Quantile
+tmap.id: ff30ac1f-9748-4d2b-bce0-83d8a5f06b5a
+type: text/vnd.tiddlywiki
+
+{{quantiles_murphy.pdf}}

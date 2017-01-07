@@ -1,0 +1,16 @@
+created: 20170104123131582
+creator: cosmos
+modified: 20170104123529875
+modifier: cosmos
+tags: [[Applications of machine learning]]
+title: Recommender system
+tmap.id: 13bdf332-6c45-4196-af56-89c3b8664e7b
+type: text/vnd.tiddlywiki
+
+[[Machine learning]] system that learns to suggest options that an user will probably like.
+
+See [[Deep art]] for music recommendation examples.
+
+The most successful approach, when a lot of data is available, is [[Collaborative filtering]] (a type of [[Matrix completion]]).
+
+Also use ideas of [[Compressed sensing]]

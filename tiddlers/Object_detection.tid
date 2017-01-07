@@ -1,0 +1,20 @@
+created: 20170104115041390
+creator: cosmos
+modified: 20170104124024669
+modifier: cosmos
+tags: [[Computer vision]]
+title: Object detection
+tmap.id: 28371e7a-e752-4cb3-889f-435608aac683
+type: text/vnd.tiddlywiki
+
+Finding whether certain objects are present in images, and also where they are in the image.
+
+!!__Applications__
+
+* [[Face detection]]
+
+!!__Methods__
+
+* [[Sliding window detector]]
+
+See DenseCap at [[Image captioning]], and its references for more.

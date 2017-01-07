@@ -1,14 +1,22 @@
 created: 20160506231843515
 creator: guillefix
-modified: 20161122222233792
+modified: 20170104185517137
 modifier: cosmos
 tags: [[Technology & Engineering]]
 title: Transport
 tmap.id: 899806f3-9e32-4838-bbe6-9255877d8e40
 type: text/vnd.tiddlywiki
 
+The [[movement|Motion]] of something from one place to another, often implying, it being //carried// by something.
+
+The term, in [[Technology & Engineering]] most often refers to the transportation of people, and other goods/objects.
+
+Some raw materials, as well as energy, which are important for most people are transported through automated networks which ensure efficient distribution of these essential goods. See [[Distribution]]
+
 Transportation technology & engineering
 
 See [[Transport innovation]]
 
 * [[Car]]
+
+In [[Physics]], the displacement of macroscopic properties, like temperature, momentum, etc., is also called //transport//. See [[Transport phenomena]]

@@ -1,6 +1,6 @@
 created: 20160918163750995
 creator: cosmos
-modified: 20161104134331849
+modified: 20170104235231086
 modifier: cosmos
 tags: [[Probability theory]]
 title: Probability distribution
@@ -13,17 +13,19 @@ See [[Probability theory]]
 
 A [[Probability measure]] in a certain space of variables.
 
-!!__Probability density (pdf)__
+!!__[[Probability density function]] (pdf)__
 
-For continuous variables
+For [[continuous variables|Continuous random variable]]
 
 probability = probability density $$\times$$ volume
+
+__[[Cumulative distribution function]]__
 
 !!__Probability mass (pmf)__
 
 For discrete variables
 
-!!__Examples of probability distributions__
+!!__Special probability distributions__
 
 !!__[[Joint probability distribution]]__
 

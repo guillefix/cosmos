@@ -1,0 +1,21 @@
+created: 20170104113221652
+creator: cosmos
+modified: 20170104123720663
+modifier: cosmos
+tags: [[Machine learning]]
+title: Applications of machine learning
+tmap.id: 42c01c8d-9bb0-4595-8215-e3efa1b35810
+type: text/vnd.tiddlywiki
+
+
+* [[Speech recognition]]
+* [[Speech synthesis]]
+* [[Image classification]]
+* [[Text classification]]
+* [[Machine translation]]
+* [[Recommender system]]
+* [[Market basket analysis]]
+* [[Deep art]]
+
+
+See more in [[Machine learning in science and engineering]], and [[Applications of AI]].

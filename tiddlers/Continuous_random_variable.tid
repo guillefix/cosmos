@@ -1,0 +1,15 @@
+created: 20170104234758985
+creator: cosmos
+modified: 20170104235020748
+modifier: cosmos
+title: Continuous random variable
+tmap.id: f888434f-f5a4-4e4c-ad9d-ad25ba9470ef
+type: text/vnd.tiddlywiki
+
+{{continuous_random_variables.pdf}}
+
+[[Cumulative distribution function]] or ''cdf''
+
+[[Probability density function]] or ''pdf''
+
+[[Quantile]]s

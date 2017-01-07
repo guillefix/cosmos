@@ -1,6 +1,6 @@
 created: 20161015101744053
 creator: cosmos
-modified: 20161104134327752
+modified: 20170104131411318
 modifier: cosmos
 title: Curse of dimensionality
 tmap.id: 003c34ef-050a-429c-b8bf-36b92f6732ce
@@ -9,3 +9,13 @@ type: text/vnd.tiddlywiki
 [[video|https://www.youtube.com/watch?v=LKdFTsM3hl4&list=PLA89DCFA6ADACE599&index=17#t=27m06s]] -- discretization scales poorly to high dimensional state spaces.
 
 See Elements of Statistical learning
+
+
+As can be seen by applying [[Nearest-neighbour classification]], the size of the neighbourhood to consider a certain fraction of the total populations for the choice, grows with dimension (linear size needs to be larger to have same fraction of total volume). The problem then is that we are making the choice based on points which are quite far in terms of linear distance, and thus need not be good predictors any more. This is the ''curse of dimensionality''.
+
+See page 18 in Murphy's book
+
+The main way to combat the curse of dimensionality is to make some assumptions about
+the nature of the data distribution (either p(y|x) for a supervised problem or p(x) for an
+unsupervised problem). These assumptions, known as inductive bias, are often embodied in
+the form of a parametric model, which is a statistical model with a fixed number of parameters.

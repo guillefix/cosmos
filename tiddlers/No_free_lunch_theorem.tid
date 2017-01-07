@@ -1,0 +1,16 @@
+created: 20170104134853688
+creator: cosmos
+modified: 20170104134902638
+modifier: cosmos
+title: No free lunch theorem
+tmap.id: e7d4c2fd-e07c-48fa-99fe-9c28cabb9933
+type: text/vnd.tiddlywiki
+
+>All models are wrong, but some models are useful. — George Box (Box and Draper 1987,
+p424).12
+
+Much of machine learning is concerned with devising different models, and different algorithms
+to fit them. We can use methods such as cross validation to empirically choose the best method
+for our particular problem. However, there is no universally best model — this is sometimes
+called the no free lunch theorem (Wolpert 1996). The reason for this is that a set of assumptions
+that works well in one domain may work poorly in another.

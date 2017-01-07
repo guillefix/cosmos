@@ -2,10 +2,11 @@ created: 20160218002529202
 creator: guillefix
 draft.of: Genetics
 draft.title: Genetics
-modified: 20161025093144227
+modified: 20170107003214313
 modifier: cosmos
 tags: Biology
 title: Draft of 'Genetics'
+tmap.id: c63b14d3-e247-4bb2-adfe-f4bec0eca7c7
 type: text/vnd.tiddlywiki
 
 !!!__[[Definitions|https://www.youtube.com/watch?time_continue=35&v=H6gwYdyn7II]]
@@ -71,9 +72,13 @@ The field that studies the links between [[Genetics]] and [[Biochemistry]], for 
 
 [[Complex segregation analysis]]
 
+[[Sequence motif identification]]
+
 !!__[[Genomics]]__
 
 Studies whole [[Genome]]s
+
+[[Phylogenetics]]
 
 !!__[[Genetic engineering]]__
 

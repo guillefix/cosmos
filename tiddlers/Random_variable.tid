@@ -1,9 +1,15 @@
 created: 20160702131036447
 creator: guillefix
-modified: 20161104134331933
-modifier: guillefix
+modified: 20170104234748443
+modifier: cosmos
 tags: [[Probability theory]]
 title: Random variable
 tmap.id: 0504e2fa-db6b-4490-83c7-51e96813b18d
 type: text/vnd.tiddlywiki
 
+A variable that can take a certain set of values with given probabilities. Formalized using a [[Probability measure]]
+
+Two main types:
+
+* [[Discrete random variable]]
+* [[Continuous random variable]]

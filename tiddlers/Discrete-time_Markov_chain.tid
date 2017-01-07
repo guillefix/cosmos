@@ -1,7 +1,8 @@
 created: 20160704165153399
 creator: guillefix
-modified: 20161104134327899
-modifier: guillefix
+modified: 20170106110023297
+modifier: cosmos
+tags: [[Markov chain]]
 title: Discrete-time Markov chain
 tmap.id: 1d3b5745-d280-4683-8795-6af975b1deb0
 type: text/vnd.tiddlywiki
@@ -14,12 +15,42 @@ See [[Markov chain]]
 
 Communicating classes. Set of states that can communicate with each other (which constitutes an [[Equivalence relation]]).
 
+!!__Periodicity__
+
+Period: greatest common divisor of return periods.
+
+E.g.: random walk on Z, has period 2.
+
+For a periodic MC (with period > 1), equilibrium state depends on time index.
+
+!!__Recurrence__
+
+Reccurent vs transient states.
+
+*If the probability of return or recurrence is 1, then the process or state is recurrent.
+* If the expected recurrence time is finite then this is called positive-recurrent;
+* if the expected recurrence time is infinite then this is called null-recurrent.
+
+Recurrence. Check if sum of probabilities to return at times t equals infinity.
+
+!!__Convergence and ergodic theorems__
+
+{{Markov_chains_convergence_theorems.pdf}}
+
+[[Ergodic theorem]]
+
+!!__Reversibility__
+
+Global and detailed balance. Detailed balance implies reversibility!
+
 -----------------------
+
+
 
 A transition matrix where the whole state space is a communicating class
 
 Stopping time, strong Markov property.
 
-Reccurent vs transient states
-
 Let $$C$$ be a communicating class. Then either all states in $$C$$ are transient or all are recurrent.
+
+As steps size decreases, while changing other parameters in certain ways, we can get a [[Continuous-time Markov chain]]

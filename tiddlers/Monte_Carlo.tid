@@ -1,11 +1,13 @@
 created: 20161026131731696
 creator: cosmos
-modified: 20161104134329766
+modified: 20170105001037235
 modifier: cosmos
 tags: Sampling [[Statistical inference]]
 title: Monte Carlo
 tmap.id: 1035da7a-3899-4bd5-8f57-92277307597d
 type: text/vnd.tiddlywiki
+
+Probabilistic [[Numerical method]]s for finding numerical answers to main questions in probability and elsewhere.
 
 [ext[Sampling (statistics)|https://www.wikiwand.com/en/Sampling_(statistics)]]. Selection of a subset of individuals from within a statistical population to estimate characteristics of the whole population.
 

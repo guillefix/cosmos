@@ -1,12 +1,13 @@
 created: 20160709011220078
 creator: guillefix
-modified: 20161104134332589
+modified: 20170105190757607
 modifier: cosmos
 tags: Statistics Inference
 title: Statistical inference
 tmap.id: 3b193e5a-e0e7-48f3-badb-1196f080a42b
 type: text/vnd.tiddlywiki
 
+''Statistical inference'' refers to finding some value depending on an a-posteriori distribution in a probabilistic model, like a [[Graphical model]]
 
 !![[Bayesian inference]]
 

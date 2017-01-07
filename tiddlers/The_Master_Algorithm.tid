@@ -1,0 +1,17 @@
+created: 20170104205529984
+creator: cosmos
+modified: 20170104233024036
+modifier: cosmos
+title: The Master Algorithm
+tmap.id: 698a97df-50bd-4977-9617-548b741717bb
+type: text/vnd.tiddlywiki
+
+See [[Machine learning]], [[Pedro Domingos: "The Master Algorithm"  Talks at Google|https://www.youtube.com/watch?v=B8J4uefCQMc]]
+
+[img[Selection_687.png]]
+
+''Representation'' of models: [[Probabilistic programming]]? Combining first-order logic and [[Graphical model]]s. Probabilistic logic, Markov logic networks.
+
+''Evaluation''. How good the models are?. User-defined?
+
+''Optimization''. To discover formulas, uses genetic programming. To learn the weights, use backpropagation.

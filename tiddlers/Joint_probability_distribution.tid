@@ -1,9 +1,18 @@
 created: 20161026135425788
 creator: cosmos
-modified: 20161104134329173
+modified: 20170104235919010
 modifier: cosmos
 tags: [[Probability distribution]]
 title: Joint probability distribution
 tmap.id: e6651e1b-3e58-4d42-bf88-89b17dc72382
 type: text/vnd.tiddlywiki
 
+{{joint_prob_dist.pdf}}
+
+[[Covariance]] and [[Correlation]]
+
+[[Multivariate Gaussian distribution]]
+
+[[Multivariate Student's t distribution]]
+
+[[Dirichlet distribution]]

@@ -1,6 +1,6 @@
 created: 20160329153405246
 creator: guillefix
-modified: 20161210225714065
+modified: 20170104122728007
 modifier: cosmos
 tags: [[Machine learning]]
 title: Unsupervised learning
@@ -48,11 +48,15 @@ Given a data set of $$x$$s, build a probabilistic model $$P(x)$$, for the data.
 
 Often refers to non-parametric generative models.
 
-!!__Dimensionality reduction__
+!!__[[Dimensionality reduction]]__
 
 !!!__[[Factor analysis model]]__
 
 !!!__[[Principal component analysis]]__
+
+!!__Discovering graph structure__
+
+!!![[Graphical model learning]]
 
 ------------------
 

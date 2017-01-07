@@ -1,0 +1,19 @@
+created: 20170104121347964
+creator: cosmos
+modified: 20170104121502318
+modifier: cosmos
+tags: [[Unsupervised learning]]
+title: Dimensionality reduction
+tmap.id: 38eb7430-940d-430e-930f-16fb6c90023f
+type: text/vnd.tiddlywiki
+
+A type of [[Unsupervised learning]] where we describe the data using less features (called latent factors) than the data was initially described with.
+
+
+!!!__[[Factor analysis model]]__
+
+!!!__[[Principal component analysis]]__
+
+----------------------
+
+The fact that it works is related to the [[Sloppy systems]] and the [[Manifold hypothesis]], and [[Simplicity bias]]

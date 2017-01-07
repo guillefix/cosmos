@@ -1,0 +1,14 @@
+created: 20170105000750932
+creator: cosmos
+modified: 20170105000908918
+modifier: cosmos
+tags: [[Mathematical methods]]
+title: Numerical method
+tmap.id: d242c19e-00b6-4948-9106-addb5c147087
+type: text/vnd.tiddlywiki
+
+Methods that use [[Algorithms]] to find approximate solutions (computational counterparts to [[Perturbation methods]]).
+
+https://www.wikiwand.com/en/Numerical_method
+
+See [[Scientific computing]] for examples

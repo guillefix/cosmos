@@ -1,0 +1,10 @@
+created: 20170104135329942
+creator: cosmos
+modified: 20170104135423022
+modifier: cosmos
+tags: Model
+title: Linear model
+tmap.id: aa3d905b-9fa1-4298-b790-05566e404b1b
+type: text/vnd.tiddlywiki
+
+[[Model]]s which are [[Linear system]]s, or based on one, like [[Linear regression]]. They can be extended to model some non-linear phenomena using [[Basis expansion]]

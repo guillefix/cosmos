@@ -1,0 +1,16 @@
+created: 20170103163910532
+creator: cosmos
+modified: 20170103163913051
+modifier: cosmos
+tags: [[Monte Carlo]]
+title: Markov chain Monte Carlo
+tmap.id: 3750c8a4-5ce0-490c-b3ba-69c87e86a2bb
+type: text/vnd.tiddlywiki
+
+[[Random walk Metropolis]]
+
+[[Gibbs sampling]]
+
+[[Hamiltonian Monte Carlo]]
+
+Stan programming language

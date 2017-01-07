@@ -1,8 +1,8 @@
 created: 20160204195023748
 creator: guillefix
 list-after: Discrete mathematics
-modified: 20161104134329530
-modifier: guillefix
+modified: 20170105001007610
+modifier: cosmos
 tags: Science Engineering Mathematics
 title: Mathematical methods
 tmap.id: c660defd-5031-48e5-8cd0-e8fd3493faba
@@ -19,3 +19,7 @@ One important sub-area is __industrial mathematics__, mathematics applied to ind
 See https://www.siam.org/
 
 Special functions and their properties: http://dlmf.nist.gov/
+
+[[Scientific computing]]
+
+[[Numerical method]]s

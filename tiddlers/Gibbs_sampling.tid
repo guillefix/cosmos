@@ -1,0 +1,10 @@
+created: 20170103163919802
+creator: cosmos
+modified: 20170103164018361
+modifier: cosmos
+tags: [[Markov chain Monte Carlo]]
+title: Gibbs sampling
+tmap.id: 04c2b404-f78f-476f-ad45-bb313e9700a9
+type: text/vnd.tiddlywiki
+
+A kind of [[Markov chain Monte Carlo]], where we sample from the conditional posterior distribution with for a parameter, with all other parameters fixed. This is repeated for all parameters. Eventually the MCMC converges to the real posterior.

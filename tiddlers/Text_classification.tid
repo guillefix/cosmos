@@ -1,0 +1,16 @@
+created: 20170104113323900
+creator: cosmos
+modified: 20170104114611499
+modifier: cosmos
+tags: Classification
+title: Text classification
+tmap.id: b57343ed-ccdf-4318-a33e-caf2e1072ab6
+type: text/vnd.tiddlywiki
+
+
+
+For //document classification//, one often uses a [[Representation]] call [[Bag of words]].
+
+Basic classification can use a [[Naive Bayes]] model.
+
+See also [[Topic modelling]]

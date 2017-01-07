@@ -1,6 +1,6 @@
 created: 20160810180254319
 creator: cosmos
-modified: 20161104134328282
+modified: 20170105110209128
 modifier: cosmos
 title: Exponential family distributions
 tmap.id: 0ee28e78-364f-4bcf-99b4-5a5fba01230e
@@ -12,8 +12,17 @@ See [[video|https://www.youtube.com/watch?v=nLKOQfKLUks&index=4&list=PLA89DCFA6A
 
 A probability distribution is in the exponential family if it has the form
 
-$$p(y;\eta) = b(y) \exp{(\eta^T T(y) -a(\eta)}$$
+$$p(y;\eta) = b(y) \exp{(\eta^T T(y) -a(\eta))}$$
 
 where $$\eta$$ is the ''natural parameter'', and $$T(y)$$ is the ''sufficient statistic''. Most often $$T(y)=y$$. 
 
 The Bernoulli and the Gaussian distributions are both examples.
+
+!!Exponential dispersion family
+
+$$p(y;\theta,\psi) = h(y;\psi)\exp{(\frac{b(\theta)^TT(y)-A(\theta)}{d(\psi)})}$$
+
+
+There is canonical parametrization, and mean parametrization.
+
+Estimating $$\psi$$ from data. Can do that even when we expect $$\psi=1$$, and we get a goodness-of-fit test.

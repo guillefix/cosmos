@@ -1,8 +1,8 @@
 created: 20160403134855690
 creator: guillefix
-modified: 20161210014054442
+modified: 20170104115115336
 modifier: cosmos
-tags: Vision
+tags: Vision [[Artificial intelligence]]
 title: Computer vision
 tmap.id: 8a7d3088-cdb6-4cac-894f-dd7ac94d3dc7
 type: text/vnd.tiddlywiki
@@ -13,11 +13,15 @@ http://www.movidius.com/
 
 [[Cloud vision API|https://www.youtube.com/watch?v=eve8DkkVdhI]]
 
-[[DenseCap: Fully Convolutional Localization Networks for Dense Captioning|http://cs.stanford.edu/people/karpathy/densecap/]]
+!!__Problems__
 
-[img[http://cs.stanford.edu/people/karpathy/densecap/eg/p8.jpeg]]
+* [[Image classification]]
+* [[Image captioning]]
+* [[Image generation]]
+* [[Object detection]]
+* [[Image segmentation]]
 
-[img[http://cs.stanford.edu/people/karpathy/densecap/eg/p12.jpeg]]
+
 
 [[Multi-scale networks|Deep multi-scale video prediction beyond mean square error|http://arxiv.org/abs/1511.05440]] and [[an application|http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf]].
 

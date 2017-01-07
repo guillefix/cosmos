@@ -1,0 +1,18 @@
+created: 20170104190034739
+creator: cosmos
+modified: 20170104190202118
+modifier: cosmos
+tags: Thermodynamics [[Non-equilibrium statistical physics]]
+title: Transport phenomena
+tmap.id: 0e48a721-021d-404e-a446-c97391dc8478
+type: text/vnd.tiddlywiki
+
+The [[Transport]] of physical quantities.
+
+* [[Heat transport]]
+* Momentum transport
+* Concentration transport
+* Charge transport
+* etc.
+
+The equations for these are crucial in [[Kinetic theory]] and can be derived as conservation laws of the [[Boltzmann equation]]

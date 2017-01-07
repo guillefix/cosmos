@@ -1,7 +1,7 @@
 created: 20160121121935070
 creator: guillefix
 list-after: Discrete mathematics
-modified: 20161116112702193
+modified: 20170105003547766
 modifier: cosmos
 tags: Mathematics Statistics [[Measure theory]]
 title: Probability theory
@@ -10,22 +10,15 @@ type: text/vnd.tiddlywiki
 
 ''Probability Theory'' [[Wiki article|https://en.wikipedia.org/wiki/Probability_theory]]. Mathematica foundations of ''probability''
 
-!! [[Probability cheat sheet|https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf]]
+<big>[[Probability cheat sheet|https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf]]</big> -- 
 [[webpage|http://www.wzchen.com/probability-cheatsheet?utm_content=buffer3e4c1&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer]]
 
-[[Probability, Mathematical Statistics, Stochastic Processes|http://www.math.uah.edu/stat/index.html]]
-
-[[Probability space|https://en.wikipedia.org/wiki/Probability_space]]
-
-Based on [[Measure theory]]
-
-[[Probability Primer|https://www.youtube.com/playlist?list=PL17567A1A3F5DB5E4]]
+[[Probability, Mathematical Statistics, Stochastic Processes|http://www.math.uah.edu/stat/index.html]] -- [[Probability Primer|https://www.youtube.com/playlist?list=PL17567A1A3F5DB5E4]]
 
 [[Probability space]]
+ ([[wiki|https://en.wikipedia.org/wiki/Probability_space]]), based on [[Measure theory]]
 
-!![[Random variable]]
-
--------
+!![[Random variable]]s
 
 [[Basic results in probability theory]]
 
@@ -33,7 +26,34 @@ Based on [[Measure theory]]
 
 !![[Probability distribution function|Probability distribution]]
 
-__Cumulative distribution function__
+!!![[Discrete probability distribution]]s
+
+* [[Binomial distribution]]
+* [[Multinomial distribution]]
+* [[Poisson distribution]]
+* [[Empirical distribution]]
+
+!!![[Continuous probability distribution]]s
+
+* [[Normal distribution]]
+* [[Student's t distribution]]
+* [[Dirac delta]]
+* [[Laplace distribution]]
+* [[Gamma distribution]]
+** [[Exponential distribution]]
+** [[Erlang distribution]]
+** [[Chi-squared distribution]]. The distribution of the sum of squared Gaussian random variables.
+* [[Beta distribution]]
+* [[Pareto distribution]] (see [[Power laws]])
+* A broad family: [[Exponential family distributions]]
+
+!!![[Joint probability distribution]]
+
+*[[Multivariate Gaussian distribution]]
+
+*[[Multivariate Student's t distribution]]
+
+*[[Dirichlet distribution]]
 
 !!!Moments and cumulants
 
@@ -41,11 +61,25 @@ __Cumulative distribution function__
 
 !!!Central Limit Theorem
 
+!!__[[Transformation of random variables]]__
+
+Can be used for sampling from distributions given a uniform sampler!
+
+!!__[[Monte Carlo]]__
+
+Probabilistic [[Numerical method]]s for finding numerical answers to main questions in probability and elsewhere.
+
+Accuracy, found by using the [[Standard error]] (see [[Statistical estimation]]!).
+
 --------
 
 !!![[Combinatorics]]
 
 Probabilistic method (see book)
+
+!!![[Information theory]]
+
+[[Information measures]], like [[Entropy]], [[Relative entropy]], [[Mutual information]]
 
 -------------
 

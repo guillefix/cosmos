@@ -1,0 +1,12 @@
+created: 20170104135427873
+creator: cosmos
+modified: 20170104135556324
+modifier: cosmos
+tags: [[Machine learning]]
+title: Basis expansion
+tmap.id: b243d1fb-5d51-4f45-9315-46dc48765e2f
+type: text/vnd.tiddlywiki
+
+The use of non-linear functions of the data to extend the flexibility of models.
+
+For instance, when applied to [[Linear regression]], it gives [[Nonlinear regression]]. It is applied to [[Support vector machine]]s. In fact a lot of [[Machine learning]] models can be understood with this concept.

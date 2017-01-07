@@ -1,10 +1,16 @@
 created: 20161013203022042
 creator: cosmos
-modified: 20161104134328937
+modified: 20170104115605530
 modifier: cosmos
-tags: [[Image processing]] [[Artificial intelligence]]
+tags: [[Computer vision]] Classification
 title: Image classification
 tmap.id: e5fad7d3-067e-4810-886e-68f17520b78f
 type: text/vnd.tiddlywiki
 
 [[ImageNet Classification with Deep Convolutional Neural Networks|https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf]] (AlexNet)
+
+See [[Convolutional neural network]] and [[Computer vision]]
+
+__Special cases__
+
+* [[Handwriting recognition]]

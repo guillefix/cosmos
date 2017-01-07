@@ -1,0 +1,22 @@
+created: 20170106104137233
+creator: cosmos
+modified: 20170106150834167
+modifier: cosmos
+tags: [[Markov chain]]
+title: Continuous-time Markov chain
+tmap.id: e6e57452-a8f0-4fa9-8fbc-bf4f1cccad8b
+type: text/vnd.tiddlywiki
+
+[[Markov chain]] in continuous time.
+
+Describe using transition rates (see [[Stochastic process]],  [[Master equation]]). See [[Discrete-time Markov chain]] for many properties that go through to the continuous case
+
+!!__[[Gillespie's algorithm]]__
+
+To simulate CTMCs.
+
+!!__Examples__
+
+Junke-Cantor DNA evolution model. See [[junke_cantor_model.pdf]]
+
+[[Lotka-Volterra equations]]. See more at [[Stochastic process]]es.

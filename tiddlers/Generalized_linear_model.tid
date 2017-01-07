@@ -1,6 +1,6 @@
 created: 20160810175348089
 creator: cosmos
-modified: 20161104134328547
+modified: 20170105144121836
 modifier: cosmos
 tags: [[Supervised learning]]
 title: Generalized linear model
@@ -9,7 +9,9 @@ type: text/vnd.tiddlywiki
 
 See part III in [[here|http://cs229.stanford.edu/notes/cs229-notes1.pdf]], [[video|https://www.youtube.com/watch?v=nLKOQfKLUks&index=4&list=PLA89DCFA6ADACE599#t=16m40s]]. [[video2|https://www.youtube.com/watch?v=nLKOQfKLUks&index=4&list=PLA89DCFA6ADACE599#t=38m27s]]
 
-A generalization of [[Linear regression]], where $$p(y|x;\theta)=f (y;\theta^T x)$$. This means that the model output has the form $$h_\theta (x)=E [y|x;\theta]=g (\theta^T x)$$, i.e. the model is a function of the linear model, and the errors aren't necessarely Gaussian. Here $$g $$ is called the canonical response function
+See slides [[here|https://www.dropbox.com/s/wy4djw81ml47v5x/slides.pdf?dl=0]]
+
+A generalization of [[Linear regression]], where $$p(y|x;\theta)=f (y;\theta^T x)$$. This means that, for the case of regression, the model output has the form $$h_\theta (x)=E [y|x;\theta]=g (\theta^T x)$$, i.e. the model is a function of the linear model; the errors also aren't necessarily Gaussian. Here $$g$$ is called the canonical response function. It's inverse is called the canonical link function.
 
 In GLM, a common family of probability distributions is the [[Exponential family distributions]]
 
@@ -19,9 +21,9 @@ Assumptions:
 
 * $$y|x;\theta \sim \text{ExpFamily}(\eta)$$, for some chosen functions $$a$$ and $$b$$
 
-* Given $$x$$, goal is to output $$E[T(y)|x]$$. Want $$h(x) = E[T(y)|x]$$. Therefore we're really learning a function (and thus this is an example of [[Regression|Regression analysis]]). However, $$y$$ itself can be categorical, so GLM can be applied to [[Classification]].
+* Given $$x$$, goal is to output $$E[T(y)|x]$$. Want to learn $$f(x) = E[T(y)|x]$$. Therefore we're really learning a function (and thus this is an example of [[Regression|Regression analysis]]). However, $$y$$ itself can be categorical (this function representing its probability), so GLM can be applied to [[Classification]].
 
-* ,,(assumption/design choice),, $$\eta = \theta^T x$$.
+* ,,(assumption/design choice),, $$\eta = \theta^T x$$. Then, this determines the response/link function $$g(\eta) = a'(\eta)=E[y|\eta]$$. __This choice simplifies the MLE calculations, because $$\eta$$ appears linearly with $$y$$__
 
 Note that $$\eta $$ can be a vector (as in the multinomial example below), in which case $$\theta $$ is a matrix.
 
@@ -35,3 +37,12 @@ Regression with Gaussian distribution (the mean being $$\eta $$) ([[Linear regre
 
 Classification over $$k $$ categories with multinomial distribution (min 52, lec4 (Ng))
 
+!!__[[Maximum likelihood]] estimate__
+
+Can learn parameter using [[Maximum likelihood]] estimator
+
+MLE doesn't depend on dispersion parameter, but the uncertainty does.
+
+!!__Quasi-likelihood models__
+
+Multiply variance by dispersion parameter, which makes it not a probabilistic model, but can fit observed larger variances. Hmmm..

@@ -1,0 +1,11 @@
+created: 20170104114157209
+creator: cosmos
+modified: 20170104114312210
+modifier: cosmos
+title: Bag of words
+tmap.id: 6e11b37b-89b1-46b2-bb0e-eef1d86367ab
+type: text/vnd.tiddlywiki
+
+A [[Representation]] of a document used in [[Text classification]], which is a vector of fixed length. Each element corresponds to a word, and it is 1 if the word is present in the document, or 0 if it isn't.
+
+There are variations where the number in the element represents the number of times the word appears in the document.

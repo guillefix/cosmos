@@ -1,0 +1,9 @@
+created: 20170105001631995
+creator: cosmos
+modified: 20170105001710823
+modifier: cosmos
+title: Bernoulli distribution
+tmap.id: 50f90ab8-1a9a-4658-ad07-c27385a7d0a3
+type: text/vnd.tiddlywiki
+
+Probability distribution of a binary variable, which can only take 2 values. It only needs a single parameter, the probability of success $$p$$. The probability of failure is then $$1-p$$
