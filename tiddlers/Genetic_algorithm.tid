@@ -1,5 +1,7 @@
 created: 20160904163050319
-modified: 20161104134328607
+creator: cosmos
+modified: 20170118225010241
+modifier: cosmos
 tags: [[Evolutionary computing]]
 title: Genetic algorithm
 tmap.id: fd32ac1f-d365-408b-a58e-855544773655
@@ -9,7 +11,11 @@ https://en.wikipedia.org/wiki/Genetic_programming
 
 https://en.wikipedia.org/wiki/Gene_expression_programming
 
-[[presentation|https://engineering.purdue.edu/~sudhoff/ee630/Lecture02.pdf]]
+[ext[presentation|https://engineering.purdue.edu/~sudhoff/ee630/Lecture02.pdf]]
+
+[[example|https://www.youtube.com/watch?v=BBLJFYr7zB8]]
+
+
 
 See Holland's work. For e.g.
 

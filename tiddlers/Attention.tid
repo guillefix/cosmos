@@ -1,6 +1,6 @@
 created: 20161101212213896
 creator: cosmos
-modified: 20161104134327030
+modified: 20170212154932244
 modifier: cosmos
 tags: Intelligence
 title: Attention
@@ -8,3 +8,17 @@ tmap.id: 39e83def-395f-4e31-90d2-43ca2ced522b
 type: text/vnd.tiddlywiki
 
 [[Attention in machine learning]]
+
+[[The frontal and parietal cortex: Eye movements and attention|https://www.youtube.com/watch?v=iyaktBk8AjU]]
+
+[[Predictive coding]] is related to attention
+
+[[The normalization model of attention|https://www.ncbi.nlm.nih.gov/pubmed/19186161]]. Model proposes attention is mostly accomplished by multiplying input by an ''attention field''. Furthermore, the propose  a model of attention that incorporates ''divisive normalization'' (code on paper)
+
+:Some results are consistent with the appealingly simple proposal that attention increases neuronal responses multiplicatively by applying a fixed response gain factor (McAdams and Maunsell, 1999; Treue and Martinez-Trujillo, 1999), while others are more in keeping with a change in contrast gain (Li and Basso, 2008, Martinez-Trujillo and Treue, 2002; Reynolds et at., 2000) or with effects that are intermediate between response gain and contrast gain changes (Williford and Maunsell, 2006)
+
+<small>We propose that this computational principle endows the brain with the capacity to increase sensitivity to faint stimuli presented alone and to reduce the impact of task irrelevant distracters when multiple stimuli are presented. </small>
+
+The three basic components of the model are: the stimulation field, the suppressive field, and the attention field
+
+https://www.youtube.com/watch?v=nA5LVjAqkt8

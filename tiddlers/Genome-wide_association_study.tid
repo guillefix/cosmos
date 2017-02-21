@@ -1,0 +1,13 @@
+created: 20170203101947299
+creator: cosmos
+modified: 20170203102349602
+modifier: cosmos
+title: Genome-wide association study
+tmap.id: 7d70c4bf-2fbd-4b56-afaa-677c914238b8
+type: text/vnd.tiddlywiki
+
+ identify which parts of the [[Genome]] that influence [[Disease]], for designing drugs, personalized medicine.
+
+Look at millions of [[SNP|Single-nucleotide polymorphism]]s, in thousands of case individuals, and thousands of control of individuals.
+
+Want the case and controls individuals come from same population, but this is hard to assure.

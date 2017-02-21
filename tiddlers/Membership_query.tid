@@ -1,0 +1,12 @@
+created: 20170206170946076
+creator: cosmos
+modified: 20170206171452574
+modifier: cosmos
+tags: [[Computational learning theory]] [[Active learning]]
+title: Membership query
+tmap.id: 15d1b4e8-e0de-4651-989d-9e6b8404022e
+type: text/vnd.tiddlywiki
+
+//aka value query//
+
+Algorithm picks $$x$$, and asks for $$c(x)$$, $$c$$ is the target function.

@@ -1,6 +1,6 @@
 created: 20160629005908388
 creator: guillefix
-modified: 20161104151150846
+modified: 20170207013947082
 modifier: cosmos
 title: Memory management
 tmap.id: 6af907ce-7360-4094-8a4e-b1829084320d
@@ -31,3 +31,7 @@ https://en.wikipedia.org/wiki/Memory_management
 [[What and where are the stack and heap?|http://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap]]
 
 http://stackoverflow.com/questions/18446171/how-do-compilers-assign-memory-addresses-to-variables
+
+__htop__
+
+https://codeahoy.com/2017/01/20/hhtop-explained-visually/

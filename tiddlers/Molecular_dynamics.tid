@@ -1,6 +1,6 @@
 created: 20161125095448905
 creator: cosmos
-modified: 20161125173033311
+modified: 20170123145137174
 modifier: cosmos
 tags: Biophysics [[Computational chemistry]]
 title: Molecular dynamics
@@ -27,7 +27,21 @@ http://www.nature.com/articles/srep03561
 
 [[NAMD tutorial|http://www.chryswoods.com/dynamics/dynamics/README.html]]
 
+[img[http://www.itqb.unl.pt/labs/protein-modelling/activities/movie3.gif]]
+
 [img[http://www.chryswoods.com/dynamics/dynamics/vmd_theory1.jpg]]
+
+DIfferent levels of coarse-graining: from quantum to mesoscopic. These relate to length and time scales.
+
+Thermostat, barostat.
+
+!!''Force field''.
+
+Different water models.
+
+Bond, angle, torsion, improper dihedral, van der Walls, electrostatic, ..
+
+------------------------------
 
 the [[particle mesh Ewald algorithm (PME)|https://www.wikiwand.com/en/Ewald_summation]]. This is the clever algorithm that allows each periodic image to interact electrostatically with the infinite number of other periodic images. All simulations that use periodic boundary conditions should turn on PME. 
 
@@ -55,3 +69,17 @@ __Steps__
 # Production (NPT or NVT). The final step is the actual molecular dynamics simulation. This can be run either NPT or NVT depending on your choice (some people prefer NVT as it is quicker, and they argue that, once equilibrated, the volume will not change much). In our case, we will use NPT, and will combine steps 4 and 5 together.
 
 http://www.chryswoods.com/dynamics/mutation/heating.html
+
+------------------
+
+Tutorial for using GROMACS for MD: [[link|https://drive.google.com/file/d/0B5MYYzIrSEtXSG5jSzRsNzNvb2M/view]]
+
+
+
+-------------------
+
+!!__Free energy calculations__
+
+Meta-dynamics: bias the dynamics (using some descriptor coordinates), so that we explore the configuration space more. We then compute the free energy of the explored space by taking into account this bias.
+
+These calculations can be used to guide [[Drug discovery]]

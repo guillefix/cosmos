@@ -1,6 +1,6 @@
 created: 20160709021850299
 creator: guillefix
-modified: 20170104201056876
+modified: 20170216131309750
 modifier: cosmos
 tags: [[Machine learning]]
 title: Transfer learning
@@ -23,7 +23,7 @@ Learn embeddings in one task and transfer these to solve new tasks
 
 [[Matching|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=22m30s]]
 
-[[Corruption|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=25m10s]]
+[[Corruption|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=25m10s]] (and example [[here|https://www.youtube.com/watch?v=DzaV6_D_dL4&list=PL613dYIGMXoZBtZhbyiBqb0QtgK6oJbpm&index=3#t=20m]])
 
 Example: [[Bi-lingual word embeddings|https://www.youtube.com/watch?v=jCGplSKrl2Y&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=11#t=41m07s]]
 

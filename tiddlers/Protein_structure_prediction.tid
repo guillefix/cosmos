@@ -1,0 +1,36 @@
+created: 20170117145129762
+creator: cosmos
+modified: 20170118191012102
+modifier: cosmos
+tags: [[Protein structure]]
+title: Protein structure prediction
+tmap.id: e22a9714-217b-4145-bd60-6f9fda1f097d
+type: text/vnd.tiddlywiki
+
+See [[this presentation|https://www.dropbox.com/s/tkpa58yp2my8gkc/DTC_StructBio_ProteinStructurePrediction_2017.pdf?dl=0]], [[Protein structure analysis]]
+
+Two main methods:
+
+* ''Template-based methods''. Based on finding homologous sequences (sequences which are similar/evolutionarily related).
+* ''Template-free methods''. Based on empirically determined potentials, and using some clever stochastic search. Also, physics-based predictions (but these don't seem to work well yet, due to inaccuracies in our potentials..)
+
+[img[http://www.proteinmodelportal.org/101/model101.png]] //source//: http://www.proteinmodelportal.org/?pid=101
+
+See [[Protein folding]]
+
+[[How to use BLAST, clustal, MODELLER, for homology modelling|https://www.dropbox.com/s/krtqjq7s6gvrnoo/HomologyModellingPractical2017.pdf?dl=0]]
+
+Nice online software: [[Swissmodel|https://swissmodel.expasy.org/]] [[info|https://swissmodel.expasy.org/docs/help]], [[other one|http://zhanglab.ccmb.med.umich.edu/MUSTER/]]. Another nice one: [[Phyre2|http://www.sbg.bio.ic.ac.uk/phyre2/html/page.cgi?id=index]] [[paper|http://www.nature.com/nprot/journal/v10/n6/full/nprot.2015.053.html]]
+
+[img[http://www.nature.com/nprot/journal/v10/n6/images/nprot.2015.053-F1.jpg]]
+
+Loop modelling algo: Poing
+
+[img[http://www.nature.com/nprot/journal/v10/n6/images/nprot.2015.053-F2.jpg]]
+
+https://en.wikipedia.org/wiki/List_of_protein_structure_prediction_software
+
+http://www.proteinmodelportal.org/?pid=modelling_interactive
+
+See also here: http://www.dtc.ox.ac.uk/people/11/oliveiras/miniCASP/miniCASP2.html
+

@@ -1,11 +1,15 @@
 created: 20160904173221677
 creator: cosmos
-modified: 20161108093906541
+modified: 20170123145200487
 modifier: cosmos
-tags: [[Experimental biology]] Protein
+tags: [[Experimental biology]] [[Protein structure]]
 title: Protein structure analysis
 tmap.id: 048ac4a4-7605-482a-9911-53bc137d996b
 type: text/vnd.tiddlywiki
+
+!!__[[Protein structure determination]]__
+
+http://www.thesgc.org/scientists/groups/oxford/crystallography
 
 __Preparation__
 
@@ -15,7 +19,9 @@ __Preparation__
 __Imaging__
 
 * [[X-ray crystallography]]
-* [[Cryo EM|Cryo-electron microscopy]]! <-- 3 to 5 Angstrom
+* [[Cryo EM|Cryo-electron microscopy]]! <-- 3 to 5 Angstrom. Get projections, and reconstruct 3D structure that way!
+* [[NMR protein structure determination]]. Get info about the distances between certain kinds of atoms, measured through the decay times of the correlations between nuclear spins.
+* Small angle X-ray. rough shape, but very cheap!
 
 __Computational analysis__
 
@@ -24,3 +30,46 @@ Uses [[Machine learning]], [[Statistics]]
 * [[Clustering]], like [[UPGMA]] or [[K-means algorithm]]
 
 * [[Statistical potential]] for analysis of [[Protein-decoy structure]]s
+
+http://www.ebi.ac.uk/interpro/
+
+http://www.proteinmodelportal.org/
+
+https://swissmodel.expasy.org/repository
+
+!!__[[Protein structure prediction]]__
+
+------------------
+
+Protein alignment
+
+Sequence alignment. Which amino acids match with which
+Structure alignment. Structure superposition. Minimize RMSD distance.
+
+--> How to choose balance between more amino acids in the sequence alignment, and less RMSD. Balance depends on what we are more interested in, the geometry (bettet rmsd), or the biology (better alignment).
+
+Structural alignment methods
+* rigid alignment
+* flexible alignment
+* elastic alignment. Change coordinate systems. Not yet good biological results.
+
+All these methods are heuristic. They give different answers in general for complicated problems.
+
+First modern protein comparison program. DALI. Representations: contact matrix.
+
+--Meausre of how good alignment is
+
+MAMMOTH. Representation: heptapeptides. Unit-vector rms. Likelihiox.
+
+SCOP. Manual classification. A.Murzi
+* all alpha
+* all beta
+* alpha/beta. Mainly parallel beta sheets (beta-alpha-beta units)
+* alpha + beta. Mainly antiparallel beta sheets (segregated alpha and beta regions)
+* Folds: secondary structure aligns (ignoring loops)
+* Superfamily: evolutionary relation
+* family:
+CATH. Semi-manual classification
+FSSP. Automatic.
+
+Fold space. PCA. Hou et al. Structure relatedness, evolution.

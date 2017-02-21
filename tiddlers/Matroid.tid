@@ -1,7 +1,7 @@
 created: 20160701032402265
 creator: guillefix
-modified: 20161104134329560
-modifier: guillefix
+modified: 20170220234523174
+modifier: cosmos
 tags: Combinatorics
 title: Matroid
 tmap.id: 133a6bf7-bac2-4a33-ab23-b50999ac2c4c
@@ -13,4 +13,6 @@ A [[matroid|https://en.wikipedia.org/wiki/Matroid]] is a structure that captures
 
 [[Matroids as a Theory of Independence by Federico Ardila|https://www.youtube.com/watch?v=4EvpzV_3RXI]]
 
-See books on matroid theory
+See books on matroid theory. matroid theory lawler
+
+They give a theoretical foundation for [[Greedy algorithm]]s apparently

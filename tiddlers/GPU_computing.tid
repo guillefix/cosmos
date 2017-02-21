@@ -1,11 +1,13 @@
 created: 20160403122109248
 creator: guillefix
-modified: 20161104134328672
+modified: 20170209161917390
 modifier: cosmos
 tags: [[Scientific computing]]
 title: GPU computing
 tmap.id: 237bae14-12d7-43cf-a52c-21fd1b7b05b3
 type: text/vnd.tiddlywiki
+
+Computing (like [[Scientific computing]]) which seizes the power of [[GPU]]s for [[parallel computation|Parallel computing]]
 
 See [[Computer hardware]] and [[Cloud computing]]
 

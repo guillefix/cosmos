@@ -1,6 +1,6 @@
 created: 20160920155620344
 creator: cosmos
-modified: 20161104134327939
+modified: 20170109100309702
 modifier: cosmos
 tags: [[Molecular genetics]]
 title: DNA sequencing
@@ -8,6 +8,11 @@ tmap.id: 19795449-7ce2-4145-8ac6-56cef8c70980
 type: text/vnd.tiddlywiki
 
 
+----------------------
+
+Six reading frames in DNA sequence
+
+[[Hidden Markov model]] of gene structure
 
 ------------------
 

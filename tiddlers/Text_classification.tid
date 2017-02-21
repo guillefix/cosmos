@@ -1,6 +1,6 @@
 created: 20170104113323900
 creator: cosmos
-modified: 20170104114611499
+modified: 20170216135513039
 modifier: cosmos
 tags: Classification
 title: Text classification
@@ -14,3 +14,5 @@ For //document classification//, one often uses a [[Representation]] call [[Bag 
 Basic classification can use a [[Naive Bayes]] model.
 
 See also [[Topic modelling]]
+
+[[Lecture video|https://www.youtube.com/watch?v=0qG7gjTNhwM&list=PL613dYIGMXoZBtZhbyiBqb0QtgK6oJbpm&index=7]]

@@ -1,8 +1,8 @@
 created: 20160709004653144
 creator: guillefix
-modified: 20161104134329351
+modified: 20170116162449486
 modifier: cosmos
-tags: [[Statistical inference]] Learning [[Artificial intelligence]]
+tags: [[Statistical inference]] Learning [[Artificial intelligence]] [[Machine learning]]
 title: Learning theory
 tmap.id: fde229eb-00fc-4002-98bb-ad7a1dcce373
 type: text/vnd.tiddlywiki
@@ -99,6 +99,9 @@ We use the [[Prior distribution]] from [[Bayesian statistics]], to make [[simple
 
 [[Intuition|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=12m]]
 
+!__[[Computational learning theory]]__
+
+* [[Probably approximately correct]]
 
 --------------------
 

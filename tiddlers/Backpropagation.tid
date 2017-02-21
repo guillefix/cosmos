@@ -1,6 +1,6 @@
 created: 20160918153744509
 creator: cosmos
-modified: 20161104134326986
+modified: 20170212170405620
 modifier: cosmos
 title: Backpropagation
 tmap.id: 0894b5a7-2a44-4f4c-ba13-5157e44831e2
@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 [[backpropagation|https://www.youtube.com/watch?v=_KoWTD8T45Q&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=13]]. An algorithm to compute the derivatives, needed for [[Gradient descent]], for [[Artificial neural network]]s.
 
 ''Backpropagaion''. It effectively uses the chain rule to compute the gradient w.r.t. parameters at one layer with the values of the gradients w.r.t. parameters at the layer above (deeper).
+
+!!![[Backpropagation with shared weights|http://stats.stackexchange.com/questions/74327/training-a-convolution-neural-network]]
 
 [[Efficient BackProp|http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf]]
 
@@ -22,3 +24,5 @@ type: text/vnd.tiddlywiki
 [[Why backprop is more efficient than naive approach|https://www.youtube.com/watch?v=NUKp0c4xb8w&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=9#t=41m50s]]
 
 [[Derivatives wrt the input|https://www.youtube.com/watch?v=-YRB0eFxeQA&index=8&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=43m47s]] give you a way of knowing which part of the input is determining the classification, i.e. where is the cat in the image, for example
+
+Backprop in the brain (see Geoff Hinton vid) and this paper: http://biorxiv.org/content/early/2016/12/23/035451

@@ -1,0 +1,23 @@
+created: 20170203111020384
+creator: cosmos
+modified: 20170203111047055
+modifier: cosmos
+tags: [[Population genetics]] Demography
+title: Population structure
+tmap.id: edce81d6-38c9-4795-b6d2-8b264fe097c3
+type: text/vnd.tiddlywiki
+
+
+!!__[[Population genetics]]__
+
+!!![[Single-nucleotide polymorphism]] used to track movement of human populations
+
+Most of our mutations are the same (and originated in [[Africa]])
+
+[[Natural selection]] pressure can cause fast speciation
+
+[[Genome-wide association study]]es: identify which parts of the [[Genome]] that influence [[Disease]], for designing drugs, personalized medicine.
+
+!!!__[[Clustering]]__
+
+[[STRUCTURE|http://pritchardlab.stanford.edu/structure.html]]: a model-based approach, using  [[Gibbs sampling]] method for [[Bayesian inference]]

@@ -1,6 +1,6 @@
 created: 20160627204754388
 creator: guillefix
-modified: 20161113124423919
+modified: 20170117185218660
 modifier: cosmos
 title: Graphics and visualization web libraries
 tmap.id: f2ccb944-07df-4ca1-9fd0-b9ed34aaf0ee
@@ -11,6 +11,8 @@ Graphics and visualization libraries for [[Frontend web development]]
 * [[Bokeh|http://bokeh.pydata.org/en/latest/docs/gallery.html]]
 
 * https://d3js.org/ [[d3js]]
+
+* raw d3
 
 * http://visjs.org/
 
@@ -30,6 +32,8 @@ Graphics and visualization libraries for [[Frontend web development]]
 
 <i class="fa fa-arrow-right"></i> <b>http://threejs.org/</b>
 http://www.sitepoint.com/twelve-javascript-libraries-data-visualization/
+
+[[Explorable]]
 
 https://webvr.info/ 
 

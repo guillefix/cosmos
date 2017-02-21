@@ -1,6 +1,6 @@
 created: 20161128093646573
 creator: cosmos
-modified: 20161129152032074
+modified: 20170209162949694
 modifier: cosmos
 tags: [[Computer engineering]]
 title: High-performance computing
@@ -8,6 +8,16 @@ tmap.id: c5daf7ba-351e-4392-a443-0570d239d721
 type: text/vnd.tiddlywiki
 
 [[Parallel computing]], [[Distributed computing]], [[GPU computing]], [[Neuromorphic computing]]
+
+!!__Roofline model__
+
+Value of the //computational intensity// of an algorithm versus its floating-point operations per second, usually plotted in a 2D graph. It gives an idea of how the data bandwidth affects flops. 
+
+//computational/arithmetic intensity// (AI): arithmetic operations (ao) per byte 
+
+Low AI means we do few aos per bit of data, and so data bandwidth is important. As soon as we do enough aos per byte, then the blottleneck is our actual processing unit (depending on hardware/architecture), whether CPU or GPU.
+
+https://www.wikiwand.com/en/Roofline_model
 
 !!__High-performance computing with [[Matlab]]__
 

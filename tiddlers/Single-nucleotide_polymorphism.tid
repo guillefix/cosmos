@@ -1,7 +1,8 @@
 created: 20161016174202246
 creator: cosmos
-modified: 20161104134332408
+modified: 20170203102100650
 modifier: cosmos
+tags: [[Population genetics]]
 title: Single-nucleotide polymorphism
 tmap.id: ddacba1d-baec-4787-8b03-4af11a0eac74
 type: text/vnd.tiddlywiki
@@ -17,3 +18,10 @@ https://www.wikiwand.com/en/Single-nucleotide_polymorphism
 SNPs are usually biallelic and thus easily assayed.[38] Analytical methods to discover novel SNPs and detect known SNPs include:
 
 * [[Real-time PCR]]
+
+They are usually biallelic because mutations are rare, and so a single mutation in a population is much more likely than two.
+
+!!__Computational analysis__
+
+[[Genomes]] with SNPs can be encoded by only looking at SNPs in each [[Haplotype]], encoded using a binary representation.
+

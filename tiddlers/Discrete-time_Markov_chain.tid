@@ -1,6 +1,6 @@
 created: 20160704165153399
 creator: guillefix
-modified: 20170106110023297
+modified: 20170110105058633
 modifier: cosmos
 tags: [[Markov chain]]
 title: Discrete-time Markov chain
@@ -41,7 +41,9 @@ Recurrence. Check if sum of probabilities to return at times t equals infinity.
 
 !!__Reversibility__
 
-Global and detailed balance. Detailed balance implies reversibility!
+Global and detailed balance. Detailed balance means reversibility!
+
+{{Markov_chain_stationarity_reversibility.pdf}
 
 -----------------------
 

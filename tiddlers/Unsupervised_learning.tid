@@ -1,6 +1,6 @@
 created: 20160329153405246
 creator: guillefix
-modified: 20170104122728007
+modified: 20170219012918575
 modifier: cosmos
 tags: [[Machine learning]]
 title: Unsupervised learning
@@ -57,6 +57,8 @@ Often refers to non-parametric generative models.
 !!__Discovering graph structure__
 
 !!![[Graphical model learning]]
+
+!!__Outlier detection__
 
 ------------------
 

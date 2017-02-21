@@ -1,6 +1,6 @@
 created: 20161219211550316
 creator: cosmos
-modified: 20161228001459692
+modified: 20170205121601930
 modifier: cosmos
 tags: [[Graphical model]] Causality
 title: Bayesian network
@@ -19,6 +19,8 @@ They are represented via [[DAG|Directed acyclic graph]]s
 
 The joint prob distribution given by the ''chain rule of Bayesian networks'': product of the conditional probability distributions (CPDs) of each of the nodes
 
+!!__Properties of Bayesian nets__
+
 !!!__Flow of probabilistic influence__
 
 //When can one variable (X) influence another variable  (Y)?// More precisely, what this means is that when conditioning on X, the probability distribution of Y changes.
@@ -33,16 +35,44 @@ But given that we have ''evidence'' (a set of the random variables Z, with fixed
 
 The main effect here is the "activation" of v-structures, known as [[Explaining away]]
 
-!!__Independences__
+!!!__Independences__
 
 general procedure called d-separation (which stands for directed separation) can answer whether an independence assertion must hold in any distribution consistent with  the graph G.  However, note that  other independencies  may hold in some distributions consistent withG; these are due to flukes in the particular choice of
 parameters of the network (and this is why they hold in some of the distributions). d-separation occurs when there is no flow of influence as defined above
 
 [[Independence of random variables]] -- [[vid|https://www.coursera.org/learn/probabilistic-graphical-models/lecture/PTXfn/conditional-independence]]
 
-[[Independence and factors|https://www.coursera.org/learn/probabilistic-graphical-models/lecture/JRkCU/independencies-in-bayesian-networks]], I-maps
+[[Independence and factors|https://www.coursera.org/learn/probabilistic-graphical-models/lecture/JRkCU/independencies-in-bayesian-networks]], [[I-map]]s
 
-!!__Examples and types of Bayesian nets__
+!__Types of Bayesian networks__
+
+!!__[[Template model]]s__
+
+Ways of representing graphical models that have a lot of internal shared structure (repeated variables and topologies), like events that occur over time, or relation types found over and over in a graph.. See [[vid|https://www.youtube.com/watch?v=ogs4Oj8KahQ&index=13&list=PL50E6E80E8525B59C]]
+
+* Temporal models for temporal processes.
+** [[Dynamic Bayesian network]]s 
+*** [[Hidden Markov model]]
+* [[Object-relational model]]s
+** Directed: [[Plate model]]s
+** Undirected
+
+!!__[[Structured CPD|https://www.youtube.com/watch?v=gkRBlXj8h-w&index=24&list=PL50E6E80E8525B59C]]s__
+
+CPDs which extra structure, which are useful for models with lots of variables.
+
+Context-specific independence
+
+* [[Tree-structured CPD|https://www.youtube.com/watch?v=VuSDyCh1ryY&list=PL50E6E80E8525B59C&index=25]]
+
+''Fuzzy-OR structure'' (see [[here|https://www.youtube.com/watch?v=KDecpoQeIdE&index=26&list=PL50E6E80E8525B59C]]), is useful when an event can be caused by several possible causes. We model this using an intermediate $$Z$$ variable, which determines if the cause actually causes the effect (it is always 0 if the cause is inactive, and 1 with a certain probability if the cause is active). The effect occurs, if either of the Zs is 1.
+
+Context-specific independence: If the effect has not happened, the causes are then independent.
+
+[[Continuous variables|https://www.youtube.com/watch?v=4Z5C_xXraLs&index=27&list=PL50E6E80E8525B59C]]
+
+
+!!!__More examples of Bayesian nets__
 
 * [[Naive Bayes]] models
 

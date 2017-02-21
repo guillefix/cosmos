@@ -1,0 +1,31 @@
+created: 20170109101714872
+creator: cosmos
+modified: 20170109105706616
+modifier: cosmos
+tags: [[Hidden Markov model]]
+title: Viterbi algorithm
+tmap.id: 94432ba4-9c7e-41ad-a26b-312bd6df4857
+type: text/vnd.tiddlywiki
+
+https://www.wikiwand.com/en/Viterbi_algorithm
+
+A [[Dynamic programming]] algorithm used to calculate the most likely path through a [[Hidden Markov model]] (or a [[Markov information source]]), given the hidden-state-dependent observations.
+
+!!__Description of the algorithm__
+
+Iteration step: at point i in the sequence, and two possible states,
+
+then we can store
+
+*{the maximum likelihood over all paths up to point i, given point i is state 1} and
+* {the maximum likelihood over all paths up to point i, given point i is state 2}, 
+
+by computing these recursively as
+
+: {the maximum likelihood over all paths up to point i, given point i is state k} = $$\max\limits_l$$ {the maximum likelihood over all paths up to point i-1, given point i-1 is state l, and point i is state k}
+
+When we reach the end, the we choose the state at the end of the sequence that has the most potential likelihood, and then proceed backwards following the optimal path.
+
+[[vid|https://www.youtube.com/watch?v=RwwfUICZLsA]]
+
+[img[https://upload.wikimedia.org/wikipedia/commons/7/73/Viterbi_animated_demo.gif]]

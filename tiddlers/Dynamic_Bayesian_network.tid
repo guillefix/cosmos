@@ -1,0 +1,16 @@
+created: 20170107012007295
+creator: cosmos
+modified: 20170107021244696
+modifier: cosmos
+tags: [[Graphical model]]
+title: Dynamic Bayesian network
+tmap.id: 6be50942-24f0-438d-9e26-3add137f1fec
+type: text/vnd.tiddlywiki
+
+
+[[Video|https://www.youtube.com/watch?v=WA-Uv2Cq5vI&index=14&list=PL50E6E80E8525B59C]]
+
+Assume:
+
+* [[Markov property]] ([[here|https://www.youtube.com/watch?v=WA-Uv2Cq5vI&index=14&list=PL50E6E80E8525B59C#t=3m40s]]).
+* Time invariance ([[here|https://www.youtube.com/watch?v=WA-Uv2Cq5vI&index=14&list=PL50E6E80E8525B59C#t=8m50s]])

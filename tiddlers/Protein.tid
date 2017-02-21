@@ -1,6 +1,6 @@
 created: 20160511111126181
 creator: guillefix
-modified: 20161104134331851
+modified: 20170111142906468
 modifier: cosmos
 tags: Biomolecule
 title: Protein
@@ -22,3 +22,7 @@ Pleytropic: perform many function
 [[Protein folding]] problem
 
 Denatured proteins cause a lot of [[Disease]]s
+
+!!__[[Protein evolution]]__
+
+Dihedral angle evolution

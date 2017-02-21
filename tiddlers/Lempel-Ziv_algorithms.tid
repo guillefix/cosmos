@@ -1,7 +1,7 @@
 created: 20160627202005587
 creator: guillefix
-modified: 20161104134329342
-modifier: guillefix
+modified: 20170207013854643
+modifier: cosmos
 title: Lempel-Ziv algorithms
 tmap.id: a696daf9-a80d-453b-9bcb-f525f7d8ea5f
 type: text/vnd.tiddlywiki
@@ -30,3 +30,5 @@ See also [[Algorithm to compute LZ complexity measure]] for implementation and e
 __LZW algorithm__
 
 [[Lempel-Ziv-Welch Compression Algorithm - Tutorial|https://www.youtube.com/watch?v=j2HSd3HCpDs]]
+
+http://marknelson.us/2011/11/08/lzw-revisited/

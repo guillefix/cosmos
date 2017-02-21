@@ -1,0 +1,40 @@
+created: 20170124095847961
+creator: cosmos
+modified: 20170128152609520
+modifier: cosmos
+tags: [[Computer graphics]]
+title: 3D computer graphics
+tmap.id: fe6010c8-c308-4229-9b67-85528d42c14d
+type: text/vnd.tiddlywiki
+
+
+
+!!!__Components__
+
+(which of course generalize to computer graphics in other dimensions, like 2D)
+
+* Scene: sets coordinates, like a 3D canvas.
+* Camera
+* Meshes (define objects), made out of triangles mostly.
+* Renderer, takes the above three, and gives image seen on screen.
+* Lights. Spotlights
+
+[[Rendering Optimisations - Frustum Culling|https://www.youtube.com/watch?v=kvVHp9wMAO8]]
+
+__Lights and shadows__
+
+in three.js, we need to tell it to add spotlights, and enable them and the meshes to cast shadows, and other objects to receive shadows, as well as the renderer to render them! ([[vid|https://www.youtube.com/watch?v=Ov7KkDvBakM&index=3&list=PLOGomoq5sDLutXOHLlESKG2j9CCnCwVqg&spfreload=10]])
+
+[[More on spotlights|https://www.youtube.com/watch?v=Nebx5Rm46Gs&index=5&list=PLOGomoq5sDLutXOHLlESKG2j9CCnCwVqg]]. Target of spotlight needs to be an object
+
+call updateProjectionMatrix() when upadating spotlight
+
+__Animations__
+
+https://www.youtube.com/watch?v=GlLPYIDrxbM&index=4&list=PLOGomoq5sDLutXOHLlESKG2j9CCnCwVqg
+
+[[mesh geometry|https://www.youtube.com/watch?v=EtZlpNjCc4A&index=6&list=PLOGomoq5sDLutXOHLlESKG2j9CCnCwVqg]]
+
+__Interactions__
+
+Use DAT.GUI ([[vid|https://www.youtube.com/watch?v=GlLPYIDrxbM&index=4&list=PLOGomoq5sDLutXOHLlESKG2j9CCnCwVqg#t=3m10]]), [[code|https://github.com/dataarts/dat.gui]], 

@@ -1,6 +1,6 @@
 created: 20160122231301724
 creator: guillefix
-modified: 20161218235735942
+modified: 20170120210529874
 modifier: cosmos
 tags: [[Mathematical software]] [[Philosophy of mathematics]] Explorable [[Concrete mathematics]]
 title: AugMath
@@ -38,17 +38,23 @@ http://mathdox.org/formulaeditor/ Check this!!
 
 [[MathQuill|https://github.com/mathquill/mathquill]] Slack channel: https://mathquill.slack.com/messages/mathquill/ See also their [[website|http://mathquill.com/]]
 
+http://formulasheet.com/
+
 __Displaying maths__
 
 KaTeX, MathJax http://docs.mathjax.org/en/latest/advanced/extension-writing.html https://github.com/mathjax/MathJax-third-party-extensions/tree/master/physics
 
 !!!__Interacting with maths__
 
-[[Maple Clickable maths|http://www.maplesoft.com/products/maple/academic/applications.aspx#]]
+[ext[Maple Clickable maths|http://www.maplesoft.com/products/maple/academic/applications.aspx#]]
 
 |This is just what I meant when I said AugMath aims for Virtual Reality as a platform. And it is awesome: https://vimeo.com/150928998|
 
 [img[http://andsynchrony.net/wp-content/uploads/loop_seq_array.gif]]
+
+<video src="http://i.imgur.com/oeJSnh5.mp4" width="500"></video>
+
+http://calcflow.io/
 
 ---------
 
@@ -95,3 +101,9 @@ http://glench.com/LegibleMathematics/
 https://betterexplained.com/articles/proofs-vs-explanations/?utm_source=twitterfeed&utm_medium=twitter&utm_campaign=Feed%3A+Betterexplained+%28BetterExplained%29
 
 http://simblob.blogspot.co.uk/2016/10/outside-box.html
+
+http://www.intmath.com/cg5/asciimathml-katex-mathjax.php
+
+http://cdn.mathjax.org/mathjax/latest/test/sample-dynamic-steps.html
+
+https://www.youtube.com/watch?v=sg_MK1t1Tqg

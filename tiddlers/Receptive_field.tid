@@ -1,0 +1,10 @@
+created: 20170212160802086
+creator: cosmos
+modified: 20170212160853693
+modifier: cosmos
+tags: [[Neuronal network]]
+title: Receptive field
+tmap.id: f8305b5b-d3be-438c-ba1b-944514e2f418
+type: text/vnd.tiddlywiki
+
+The set of neurons that send axonal connections (and thus can send [[Action potential]] signals) to a given neuron.

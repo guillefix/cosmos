@@ -1,6 +1,6 @@
 created: 20160914102449666
 creator: cosmos
-modified: 20161125221821074
+modified: 20170112115300715
 modifier: cosmos
 title: Prior distribution
 tmap.id: a167d40f-45f2-4c68-9df6-16f984f274fd
@@ -8,6 +8,11 @@ type: text/vnd.tiddlywiki
 
 The probability distribution over hypothesis or variable $$x$$, in [[Bayesian statistics]], before seeing some batch of data.
 
+!!!__Minimum-information prior__
+
+For positive real values: [[Exponential distribution]]
+
+You can have [[improper|Improper distribution]] priors that give valid posteriors.
 
 __Carnap's theory of a priori probabilities__
 

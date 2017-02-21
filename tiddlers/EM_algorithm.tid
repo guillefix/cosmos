@@ -1,6 +1,6 @@
 created: 20160914161647035
 creator: cosmos
-modified: 20161104134328140
+modified: 20170131123907851
 modifier: cosmos
 title: EM algorithm
 tmap.id: 6ec35bc9-247e-4a56-9ec8-77c51036ad41
@@ -24,13 +24,13 @@ $$=\sum _{i=1}^m\log \sum _{z^{\left(i\right)}}^{ }Q_i\left(z^{\left(i\right)}\r
 
 [$$Q_i (z^{(i)}) \geq 0 \sum_{z^{(i)}} Q_i(z^{(i)})=1$$, is some [[Probability distribution]] for $$z$$]
 
-$$=\sum _{i=1}^m\log{ \mathbb{E}_{z^{(i)} \sim Q)i} \left[\frac{P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)}{Q_i\left(z^{\left(i\right)}\right)}\right]}$$
+$$=\sum _{i=1}^m\log{ \mathbb{E}_{z^{(i)} \sim Q_i} \left[\frac{P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)}{Q_i\left(z^{\left(i\right)}\right)}\right]}$$
 
 We known that $$\log{\mathbb{E}[x]} \geq \mathbb{E}[\log{x}]$$, by the concave version of [[Jensen's inequality]], as log is a concave function, so:
 
 |$$l(\theta ) \geq \sum _{i=1}^m \mathbb{E}_{z^{(i)} \sim Q_i} \left[\log{\frac{P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)}{Q_i\left(z^{\left(i\right)}\right)}}\right]$$ $$= \sum _{i=1}^m\sum _{z^{\left(i\right)}}^{ }Q_i\left(z^{\left(i\right)}\right)\log{\frac{P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)}{Q_i\left(z^{\left(i\right)}\right)}}$$|1|
 
-__[[Intuitive picture|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=55m]] of the algorithm__: the EM algorithm, at each iteration, constructs a lower bound function for $$l(\theta)$$, which is tight at the current value of $$\theta$$ (i.e. at that value the inequality is an equality). The algorithm then maximizes this lower bound function to update $$theta$$. The equality at current $$\theta$$ guarantees that each step actually gives a larger value of the actual $$l(\theta)$$. To ensure this, we <span style="color: #cef; font-weight: bold;">choose the probability distribution $$Q_i (z^{(i)})$$ appropriately</span>. Note that the lower bound [[need not be a concave function of theta|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=1h07m]], which may cause problems? I don't think so, as we are constructively showing that the construction shown in the video can be done.
+__[[Intuitive picture|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=55m]] of the algorithm__: the EM algorithm, at each iteration, constructs a lower bound function for $$l(\theta)$$, which is tight at the current value of $$\theta$$ (i.e. at that value the inequality is an equality). The algorithm then maximizes this lower bound function to update $$\theta$$. The equality at current $$\theta$$ guarantees that each step actually gives a larger value of the actual $$l(\theta)$$. To ensure this, we <span style="color: #cef; font-weight: bold;">choose the probability distribution $$Q_i (z^{(i)})$$ appropriately</span>. Note that the lower bound [[need not be a concave function of theta|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=1h07m]], which may cause problems? I don't think so, as we are constructively showing that the construction shown in the video can be done.
 
 The inequality becomes an equality if the random variable inside the expectation is a constant (see [[Jensen's inequality]]), so we want to choose $$Q_i$$ s.t.
 
@@ -50,7 +50,7 @@ From normalization, $$\sum_{z^{(i)}} Q_i(z^{(i)})=1$$, we can determine the cons
 
 ## ''E-step''. Guess values of $$z^{(i)}$$s. In particular, compute the probability distribution of $$Q_i(z^{(i)}=j) = P(z^{(i)} = j | x^{(i)}; \theta) $$, from [2]. This can also be seen as an a-posteriori probability distribution. <b>Note:</b> The value of $$\theta$$ here is the current value of $$\theta$$; it is fixed in the maximization in the next step (despite the unfortunate notation). See [[here|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=35m10s]].
 
-## ''M-step''. Update parameters $$\theta$$ as $$\theta = \arg\max\limits_\theta  \sum _{i=1}^m\sum _{z^{\left(i\right)}}^{ }Q_i\left(z^{\left(i\right)}\right)\log{\frac{P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)}{Q_i\left(z^{\left(i\right)}\right)}}$$
+## ''M-step''. Update parameters $$\theta$$ as $$\theta = \arg\max\limits_\theta  \sum _{i=1}^m\sum _{z^{\left(i\right)}}^{ }Q_i\left(z^{\left(i\right)}\right)\log{\frac{P\left(x^{\left(i\right)},z^{\left(i\right)};\theta \right)}{Q_i\left(z^{\left(i\right)}\right)}}$$ <mark>Key: This is easier to compute because the probability distribution of $$z$$ does not depend on the $$\theta$$ over which we are maximizing!</mark>
 
 [img[https://upload.wikimedia.org/wikipedia/commons/6/69/EM_Clustering_of_Old_Faithful_data.gif]]
 
@@ -63,3 +63,9 @@ __My own derivation of the likelihood__ using [[Baye's theorem]]
 instead of just maximizing $$P(\theta | z, x)$$, as we don't know $$z$$ with certainty, we need to maximize $$P(\theta|x) = \sum_z P(\theta , z| x)$$ $$= \sum_z \frac{P(x|\theta, z) P(\theta, z)}{\sum_{\theta, z} P(x,z|\theta) P(\theta)} \propto \sum_z P(x|\theta, z) P(\theta, z) $$ $$=\sum_z P(x,z;\theta)$$, where $$z$$ represents the set of $$z^{(i)}$$ and the sum is over all possible configurations. $$P(z)$$ is known from the E-step.
 
 See [[here|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=12m30s]] too.
+
+---------------
+
+!!__Example__
+
+[[Baum-Welch algorithm]]

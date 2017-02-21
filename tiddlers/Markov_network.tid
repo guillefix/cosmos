@@ -1,23 +1,62 @@
 created: 20160918182119172
 creator: cosmos
-modified: 20161104134329506
+modified: 20170209224249401
 modifier: cosmos
+tags: [[Graphical model]]
 title: Markov network
 tmap.id: 771143fa-c41c-4be4-940e-3215a5c8951f
 type: text/vnd.tiddlywiki
 
-A ''Markov network'', aka a ''Markov random field'', or ''undirected graphical model'', is a [[Network]] of [[Random variable]]s that satisfy a [[Markov property]]. In particular they satisfy the properties below. It is also a [[Graphical model]] with undirected edges.
+A ''Markov network'', aka a ''Markov random field'', or ''undirected graphical model'', is a [[Network]] of [[Random variable]]s that satisfy a [[Markov property]]. In particular they satisfy the properties below (see General Markov network). It is a [[Graphical model]] with undirected edges.
+
+Markov networks have in general full expressive power, as in they can represent any probability distribution over the r.v.s. However, the standard ''network representation'' doesn't have all the information contained in the ''factor representation''
+
+!!!__Product of factors construction__
+
+[[Simple video introduction|https://www.youtube.com/watch?v=SH1K4RtX9uQ&index=28&list=PL50E6E80E8525B59C]]
+
+In general, we define factors, which are just functions of the random variables. Then the probability distribution is defined to be the normalized product of these factors.
+
+!!!__[[Pairwise Markov Network|https://www.youtube.com/watch?v=SH1K4RtX9uQ&index=28&list=PL50E6E80E8525B59C#t=9m40s]]__
+
+The simple case when every factor is just a function of two random variables. Then there is a one-to-one correspondence between the factor expansion and the network representation, unlike in the general case described below.
+
+//Example//: Lattice Markov networks, often used for [[Image processing]] (in particular [[Image segmentation]]). See [[Discrete optimization]] ([[c.f.|https://www.youtube.com/watch?v=SH1K4RtX9uQ&index=28&list=PL50E6E80E8525B59C#t=10m50s]])
+
+!!!__[[Log-linear representation|https://www.youtube.com/watch?v=oLJHOZmAxn0&list=PL50E6E80E8525B59C&index=33]]__
+
+!!__General Markov networks (<small>[[General Gibbs distribution|https://www.youtube.com/watch?v=kFcjl3A9QuA&index=29&list=PL50E6E80E8525B59C]]</small>)__
+
+We need more than pairwise edges, so that we are really talking now about [[Hypergraph]]s.
+
+!!!__Network representation__
+
+However, [[it can also be represented as a graph|https://www.youtube.com/watch?v=kFcjl3A9QuA&index=29&list=PL50E6E80E8525B59C#t=5m25s]], and most often is.
+It is called the ''induced Markov network''. To construct the network, we put an edge, whenever two variables appear together as arguments in some factor in the product of factors form.
+
+However, [[there is not a one-to-one correspondence between the factors and this graph representation|https://www.youtube.com/watch?v=kFcjl3A9QuA&index=29&list=PL50E6E80E8525B59C#t=9m50s]], cannot read factorization from graph. [[However, the graph is still useful|https://www.youtube.com/watch?v=kFcjl3A9QuA&index=29&list=PL50E6E80E8525B59C#t=12m5s]] find out the ''flow of influence''/dependencies b/w r.v.s in the network.
+
+__Formal definition__
 
 There is a __node__ for each of the [[Random variable]]s. In the case of [[Conditional random field]]s, one for each output $$y_k$$, and each input $$x_k$$.
 
 Then we have an __edge__ between any two nodes that in such a way that the r.v. satisfy:
 
-|__[[Global Markov property]]__: Two notes are conditionally independent if all paths between them contain at least one of the conditioning node. [[Example|https://www.youtube.com/watch?v=ZYUnyyVgtyA&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=25#t=5m40s]]|
+|__[[Global Markov property]]__: Two nodes are conditionally independent if all paths between them contain at least one of the conditioning node. [[Example|https://www.youtube.com/watch?v=ZYUnyyVgtyA&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=25#t=5m40s]]|
 
 <small>More generally, given disjoint subsets of nodes A, B, and C, X,,A,, is conditionally independent of X,,B,, given X,,C,, if there is no path from any node in A to any node in B that doesn't pass through a node of C.</small>
 
+-->This can be understood by defining [[Active trail|https://www.youtube.com/watch?v=kFcjl3A9QuA&index=29&list=PL50E6E80E8525B59C#t=14m]]s.
 
-A [[Conditional random field]], is a Markov network, that models a conditional function $$p(y|x)$$, they are thus called discriminative UGMs. To construct the Markov network, we put an edge, whenever two variables share a factor in the ''product of factors form'' of a CRF. Of course, the product of factors form can be applied to Markov networks that arent CRFs!
+!!__[[Conditional random field]]__
+
+A [[Conditional random field]], is a Markov network, that models a conditional function $$p(y|x)$$, they are thus called discriminative UGMs.
+
+[[Video|https://www.youtube.com/watch?v=2BXoj778YU8&index=30&list=PL50E6E80E8525B59C]]
+
+https://www.coursera.org/learn/probabilistic-graphical-models/lecture/UJ1Ke/conditional-random-fields
+
+----------------------
 
 See also the generalized [[Factor graph]]
 

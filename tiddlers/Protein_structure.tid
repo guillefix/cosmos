@@ -1,6 +1,6 @@
 created: 20160907155836614
 creator: cosmos
-modified: 20161104134331880
+modified: 20170122134700386
 modifier: cosmos
 tags: Protein [[Structural biology]]
 title: Protein structure
@@ -59,7 +59,15 @@ folds, domains.
 
 [[Enzyme]]s
 
-!!__[[Protein folding]]__
+!!__[[Protein folding]]__ -- [[Protein structure prediction]]
+
+--------------------
+
+__Protein structure visualization__
+
+Pymol, Jmol, JSmol, GLmol, https://www.ncbi.nlm.nih.gov/Structure/icn3d/icn3d.html, http://proteinformatics.charite.de/ngl/html/ngl.html
+
+http://getlig.com/
 
 -------------------
 

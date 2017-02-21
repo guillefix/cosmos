@@ -1,6 +1,6 @@
 created: 20160408090858373
 creator: guillefix
-modified: 20161104134331783
+modified: 20170203111007339
 modifier: cosmos
 tags: Evolution Genetics
 title: Population genetics
@@ -27,11 +27,35 @@ __Fixation time__
 
 __Coalescent__
 
+-------------------------
+
+!!__Speciation__
+
+__Separation of genetic populations driven by geographic isolation__
+
+__Hybrid infertility__
+
+!!__[[Population structure]]__
+
+!!![[Single-nucleotide polymorphism]] used to track movement of human populations
+
+Most of our mutations are the same (and originated in [[Africa]])
+
+[[Natural selection]] pressure can cause fast speciation
+
+[[Genome-wide association study]]es: identify which parts of the [[Genome]] that influence [[Disease]], for designing drugs, personalized medicine.
+
+[[STRUCTURE|http://pritchardlab.stanford.edu/structure.html]]: a model-based approach, using  [[Gibbs sampling]] method for [[Bayesian inference]]
+
 -------------------
 
 SImple frequency calculation: [[video|https://www.youtube.com/watch?v=-1GVPjWBFqQ#t=7m50s]]
 
 ---------
+
+!!!__[[Drug resistance]]__
+
+-------------
 
 [[Computational biology - An evolutionary approach|file:///home/guillefix/Dropbox/code/guillefix.me/pdf/Computational%20biology.pdf]]
 

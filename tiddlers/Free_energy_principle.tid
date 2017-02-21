@@ -1,6 +1,6 @@
 created: 20161123202848044
 creator: cosmos
-modified: 20161123232016963
+modified: 20170212165917720
 modifier: cosmos
 title: Free energy principle
 tmap.id: 2630518e-3991-4f3c-abb8-68ac1d39c1e3
@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 http://www.umsu.de/wo/2013/600
 
 [[A free energy principle for the brain|http://www.sciencedirect.com/science/article/pii/S092842570600060X]] -- [[pdf|http://sci-hub.bz/10.1016/j.jphysparis.2006.10.001]]
+
+[[A tutorial on the free-energy principle|http://www.sciencedirect.com/science/article/pii/S0022249615000759]] (it's basically [[Bayesian inference]])...
 
 https://www.wikiwand.com/en/Free_energy_principle
 

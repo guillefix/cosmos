@@ -1,6 +1,6 @@
 created: 20160820112115232
 creator: cosmos
-modified: 20161104134327525
+modified: 20170215114114725
 modifier: cosmos
 tags: Programming
 title: Compiler
@@ -13,6 +13,8 @@ See also [[Formal language]], [[Programming language]], [[Assembly (programming 
 [[Compiler design lectures|https://www.youtube.com/watch?v=Qkwj65l_96I]]
 
 [[Book|https://www.wikiwand.com/en/Compilers:_Principles,_Techniques,_and_Tools]]
+
+[[Context-free grammar]]s and compilers: [[video|https://www.youtube.com/watch?v=_3eyTu4E1zo&list=PL601FC994BDD963E4&index=46]]
 
 !!__Full compilation process__
 

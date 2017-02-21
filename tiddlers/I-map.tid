@@ -1,0 +1,18 @@
+created: 20170205121144278
+creator: cosmos
+modified: 20170205121242976
+modifier: cosmos
+tags: [[Graphical model]]
+title: I-map
+tmap.id: e48132ec-1952-41f4-93be-53b4f6ae8f50
+type: text/vnd.tiddlywiki
+
+An ''I-map'' (independence map) for a [[Probability distribution]] $$P$$ is any [[Graphical model]] $$G$$ such that the set of independences implied by the network ($$I(G)$$) is a subset of the set of independences of $$P$$ ($$I(P)$$) (see [[here|http://courses.cms.caltech.edu/cs155/slides/cs155-03-dseparation-marked.pdf]]), i.e. $$I(G) \subset I(P)$$
+
+A perfect (independence) map is one such that $$I(G) = I(P)$$
+
+[[I-maps and perfect maps|https://www.youtube.com/watch?v=obhBzPaESes&list=PL50E6E80E8525B59C&index=32]].
+
+[[Independence of random variables]] -- [[vid|https://www.coursera.org/learn/probabilistic-graphical-models/lecture/PTXfn/conditional-independence]]
+
+[[Independence and factors|https://www.coursera.org/learn/probabilistic-graphical-models/lecture/JRkCU/independencies-in-bayesian-networks]]

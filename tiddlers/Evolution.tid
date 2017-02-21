@@ -1,6 +1,6 @@
 created: 20160303224225485
 creator: guillefix
-modified: 20161124193225488
+modified: 20170203095750256
 modifier: cosmos
 tags: Self-organization [[Biodiversity & evolution]]
 title: Evolution
@@ -31,9 +31,11 @@ Evolution also selects other things which are inherited, such as [[Protein]]s an
 
 !!__Evolution theory__
 
-[[Theoretical evolutionary genetics - Felsenstein (book)|http://evolution.genetics.washington.edu/pgbook/pgbook.html]], [[pdf|chrome-extension://ecnphlgnajanjnkcmbpancdjoidceilk/http://evolution.gs.washington.edu/pgbook/pgbook.pdf]]
+The ''unit of evolution'', I think, is the gene ,,(see the selfish gene),,, plus a little bit of ancillary [[epigenetic|Epigenetics]] information, as in methylation patterns.
 
-[[ON THE FORMALIZATION OF THE EVOLVING TRANSFORMATION SYSTEM MODEL|http://cs.unb.ca/~goldfarb/oleg.pdf]]
+[[Theoretical evolutionary genetics - Felsenstein (book)|http://evolution.genetics.washington.edu/pgbook/pgbook.html]], [ext[pdf|chrome-extension://ecnphlgnajanjnkcmbpancdjoidceilk/http://evolution.gs.washington.edu/pgbook/pgbook.pdf]]
+
+[ext[ON THE FORMALIZATION OF THE EVOLVING TRANSFORMATION SYSTEM MODEL|http://cs.unb.ca/~goldfarb/oleg.pdf]]
 
 [[Evolutionary Theory and Mathematics|http://dynamics.org/Altenberg/PAPERS/]]
 
@@ -46,6 +48,10 @@ Evolution also selects other things which are inherited, such as [[Protein]]s an
 ''Kimura's neutral theory of evolution''. He proposed that (at least for molecular evolution) most mutations are neutral, meaning that they don't lead to a change in fitness.
 
 !!!__[[Evolutionary developmental biology]]__
+
+!!__[[Population genetics]]__
+
+[[Genetics]]
 
 !!__[[Features of evolving systems]]__
 

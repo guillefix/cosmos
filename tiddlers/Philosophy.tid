@@ -1,7 +1,7 @@
 created: 20160117173001151
 creator: guillefix
-modified: 20161104134331643
-modifier: guillefix
+modified: 20170211184355583
+modifier: cosmos
 tags: TableOfContents
 title: Philosophy
 tmap.id: d09f9dfa-e255-4cf9-90be-46aca663a7f9
@@ -37,9 +37,19 @@ My [[Ethics]]: Utilitarianism up to the point you can. Then virtue/[[Emotion]]/[
 
 My [[Logic]]. Don't know enough, but I think [[Mathematical logic]] may be the best description.
 
+[[Meaning of life]]/[[Existentialism]] questions, etc.
+
 ------------
 
+>Most important principles
+*Always learn more.
+*Follow your bliss.
+
 My [[Politics]] (ideas only): A weak dynamic social democracy, combined with a robust weighted direct democracy and a cyber-government.
+
+Lots of nice videos on philosophers [[here|https://www.youtube.com/watch?v=VDiyQub6vpw]]
+
+See [[Philosopher]]s
 
 ---------------------
 
@@ -53,3 +63,13 @@ Here is a very interesting alternative to my conceptual framework: [[Krebs cycle
 ----------
 
 Inclusiveness Principle to arrive at Truth.
+
+----------------------------
+
+Also, the loop structure of your diagram confused me at first, but now I think I quite like it. It encapsulates my concerns about what should we base reality on. If you look at your diagram, one can't really say which of the boxes is the base, as it's just a cycle.
+<>This really makes me think of the strange loop ideas in Godel Escher Bach (GEB)!
+The truth is that because we fundamentally only have access to our thoughts, we can never know for sure what the "essence of reality" really is..
+While I think that the loop topology is nice, I wouldn't put the same boxes as you do. I actually think that the "classic" disciplines of science are not that far off, though I think your Figure 2 is. I personally like to organize science in a kind of complexity hierarchy. Physics describes the fundamental workings of matter. Chemistry describes properties of matter at the next scale of emergence/complexity. Biology at the next scale. And finally, what I call the system sciences, which are new scientific fields that deal with the most complex systems: computer science, cognitive science, social sciences, etc.
+One can regard this complexity ladder, as a ladder of increasing information processing. And indeed one could close the loop, by asserting that these complex information processing systems, like the brain, computers, society, etc. are actually where the *information* about the world really resides. But that last step of the loop is a bit more philosophical/scientifically controversial. I guess people like hierarchies.. But, if we take the brave GEBian step of closing the loop, we have to face the foundamental subjectivity of reality, and all the problems that come with, specially in an increasingly transhumanist future: memory and perception alteration, virtual worlds, programmable matter. The truth is that I believe in an external physical world (the nature of which could be a simulation, or who knows), and it's good to remember that. The problems I mention are still important/hard though, specially because we are engineering subjectivness more and more into this world.
+
+~ my comment to [[blog post by Maxandre|https://maxandreblog.wordpress.com/2017/02/08/a-new-hierarchy-of-sciences/]]

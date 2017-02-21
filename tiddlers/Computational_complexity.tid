@@ -1,7 +1,7 @@
 created: 20160130233608424
 creator: guillefix
-modified: 20161104134327603
-modifier: guillefix
+modified: 20170120190014540
+modifier: cosmos
 tags: Algorithms [[Complexity theory]]
 title: Computational complexity
 tmap.id: 1f93d47f-514f-43c5-aaab-31c978271bbc
@@ -9,17 +9,56 @@ type: text/vnd.tiddlywiki
 
 //Algorithmic or computational complexity//
 
-The ''computational complexity'' of an algorithm is an [[asymptotic|Asymptotic approximation]] estimate of how the algorithm's running time scales with the size of its input.
+The ''computational complexity'' of an algorithm is an [[asymptotic|Asymptotic approximation]] estimate of how the algorithm's use of resources (running time / memory) scales with the size of its input. It can be considered as an extension of [[Computability theory]], by saying not only which algorithms are possible, but how fast they run.
 
 https://en.wikipedia.org/wiki/Computational_complexity_theory
 
-https://www.cs.cmu.edu/~adamchik/15-121/lectures/Algorithmic%20Complexity/complexity.html
+[ext[https://www.cs.cmu.edu/~adamchik/15-121/lectures/Algorithmic%20Complexity/complexity.html]]
 
 __[[Time complexity|https://en.wikipedia.org/wiki/Time_complexity]]__
 
 [[Pseudo-polynomial time|https://en.wikipedia.org/wiki/Pseudo-polynomial_time]]: if its running time is polynomial in the numeric value of the input, but is exponential in the length of the input – the number of bits required to represent it. That is because numerical number $$n$$ is related to number of bits (digits in binary), $$b$$, by $$n=2^b$$.
 
 [[P vs. NP and the Computational Complexity Zoo|https://www.youtube.com/watch?v=YX40hbAHx3s]]
+
+[[Complexity Zoo video|https://www.youtube.com/watch?v=YX40hbAHx3s]]
+
+!!__Big O notation__
+
+Similar to [[Order notation]] used in [[Asymptotic analysis]], but we ignore multiplicative constants..
+
+!!__Complexity cases__
+
+!!!__Time complexity classes__
+
+[[PTIME]]. Algorithms that run in polynomial time.
+
+[[NP]] (nondeterministic polynomial). Problems with efficiently recognizable solutions.
+
+Problems that can be solved in polynomial times by non-deterministic Turing machines. 
+
+Problems that can be described by an existential second-order formula.
+
+NP-completeness. NP reduction.
+
+Computaional unsolvability, like Hilbert's 10th problem.
+
+* #P: problems of counting/enumerating the number of solutions to an NP problem.
+** #P complete.
+
+Turns out that #P is //at least// as powerful as NP, and BQP.
+
+!!__Computational complexity of [[Randomized algorithm]]s__
+
+BPP = P ?
+
+!!__Computational complexity of [[Quantum algorithm]]s__
+
+BQP ? 
+
+[img[Complexity_classes_diagram.jpg]]
+
+The importance of these complexity classes derives from the additional fact that they are useful for classifying naturally occurring problems. Many problems that arise are mental search problems or their corresponding counting problems. It just so happens that when we come across a new task that we would like to have solved, if we cannot find a polynomial time algorithm for it, then more often than not, we can prove that it is complete in (i.e., is a hardest member of) its class NP or #P. Logically they could fall in between, but for reasons we do not understand, they rarely do. For this reason this theory gives useful guidance as to the practical solvability of new problems as they arise.
 
 !!!__Kolmogorov complexity__
 

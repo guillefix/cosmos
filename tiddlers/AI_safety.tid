@@ -1,8 +1,8 @@
 created: 20160622143140539
 creator: guillefix
-modified: 20161104134326678
-modifier: guillefix
-tags: 
+modified: 20170209193727028
+modifier: cosmos
+tags: [[AI ethics]]
 title: AI safety
 tmap.id: 70c1d1da-ed59-4ecc-8171-0cb6e4613a36
 type: text/vnd.tiddlywiki
@@ -10,3 +10,5 @@ type: text/vnd.tiddlywiki
 [[Artificial intelligence]]
 
 [[OpenAI - Concrete AI safety problems|https://openai.com/blog/concrete-ai-safety-problems/]] [[paper|https://arxiv.org/abs/1606.06565]]
+
+[[AI ethics]]

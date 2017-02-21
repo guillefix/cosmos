@@ -2,7 +2,7 @@ created: 20160704164449084
 creator: guillefix
 draft.of: Graphical model
 draft.title: Graphical model
-modified: 20170105190628729
+modified: 20170212174826810
 modifier: cosmos
 tags: [[Machine learning]]
 title: Draft of 'Graphical model'
@@ -13,7 +13,9 @@ A ''probabilistic graphical model'' is a [[Model]] to represent a [[Joint probab
 
 __Factors__ are functions of the random variables, which are used to build the joint PD. One can do conditioning/reduction and marginalization on these factors. The reduction operation is like currying in [[Functional programming]]
 
-!!__Representation__
+http://cs.brown.edu/courses/cs242/lectures/
+
+!__Representation__
 
 [[Coursera course|https://www.coursera.org/learn/probabilistic-graphical-models/home]]
 
@@ -24,11 +26,49 @@ __Factors__ are functions of the random variables, which are used to build the j
 
 See [[here|https://www.youtube.com/watch?v=ZYUnyyVgtyA&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=25#t=7m10s]] for the distinction of directed vs undirected graphical models. The difference, is that a directed graphical model is an undirected one, but where the factors that correspond to the edges, are normalized, because they correspond to [[Conditional probability]]es
 
-!!__[[Inference|Inference in graphical models]]__
+!!__[[Directed graphical models|Bayesian network]]__
+
+!!!__[[Template model]]s__
+
+Ways of representing graphical models that have a lot of internal shared structure (repeated variables and topologies), like events that occur over time, or relation types found over and over in a graph.. See [[vid|https://www.youtube.com/watch?v=ogs4Oj8KahQ&index=13&list=PL50E6E80E8525B59C]]
+
+* Temporal models for temporal processes.
+** [[Dynamic Bayesian network]]s 
+*** [[Hidden Markov model]]
+* [[Object-relational model]]s
+** Directed: [[Plate model]]s
+** Undirected
+
+An importance class are those that show [[Structured CPD|https://www.youtube.com/watch?v=gkRBlXj8h-w&index=24&list=PL50E6E80E8525B59C]]s
+
+!!__[[Undirected graphical models|Markov network]]__
+
+!!__Independencies in graphical models__
+
+[[I-maps and perfect maps|https://www.youtube.com/watch?v=obhBzPaESes&list=PL50E6E80E8525B59C&index=32]].
+
+An [[I-map]] (independence map) for a probability distribution $$P$$ is any graphical model $$G$$ such that the set of independencies implied by the network ($$I(G)$$) is a subset of the set of independencies of $$P$$ ($$I(P)$$) (see [[here|http://courses.cms.caltech.edu/cs155/slides/cs155-03-dseparation-marked.pdf]]), i.e. $$I(G) \subset I(P)$$
+
+A minimal I-map is an I-map that doesn't have redundant edges ([[vid|https://www.youtube.com/watch?v=obhBzPaESes&list=PL50E6E80E8525B59C&index=32#t=3m10s]]), but they can fail to capture many of the independencies of the prob dist.
+
+A perfect (independency) map is one such that $$I(G) = I(P)$$
+
+//I-equivalence//: Two graphs having the same set of independencies, and thus being able to represent the same set of probability distributions! [[vid|https://www.youtube.com/watch?v=obhBzPaESes&list=PL50E6E80E8525B59C&index=32#t=15m50s]]. This is a complicating factor in learning graphical models.
+
+Converting from Markov net to Bayes net and viceversa looses independencies.
+
+* BN  to MN: loose indeps in v-structures.
+* MN to BN: must add triangulating edges to loops.
+
+!__[[Inference|Inference in graphical models]]__
 
 [[Variational inference]]
 
-!!__[[Learning|Graphical model learning]]__
+[[Viterbi algorithm]]
+
+[[Decision theory]] is also used. See [[video about maximum expected utility|https://www.youtube.com/watch?v=JtF5-Ji8JrQ]]
+
+!__[[Learning|Graphical model learning]]__
 
 
 

@@ -1,16 +1,24 @@
 created: 20170103163910532
 creator: cosmos
-modified: 20170103163913051
+modified: 20170110105315545
 modifier: cosmos
-tags: [[Monte Carlo]]
+tags: [[Monte Carlo]] [[Markov chain]]
 title: Markov chain Monte Carlo
 tmap.id: 3750c8a4-5ce0-490c-b3ba-69c87e86a2bb
 type: text/vnd.tiddlywiki
 
+[[Markov chain]]s to [[sample|Sampling]] in [[Monte Carlo]] methods.
+
+!!![[Metropolis-Hastings algorithm]]
+
 [[Random walk Metropolis]]
 
-[[Gibbs sampling]]
+Convergence results ([[Ergodic theorem]]s, etc) can be shown using results in [[Discrete-time Markov chain]]
+
+!![[Gibbs sampling]]
 
 [[Hamiltonian Monte Carlo]]
 
 Stan programming language
+
+[[dropbox|https://dl.dropboxusercontent.com/content_link/lhtGgsRvzc4BtfOcExAoepNFLHiyrUKuXt87v9L8Lg2RTO3MdK05SdsxdzB3YZbL/file]]

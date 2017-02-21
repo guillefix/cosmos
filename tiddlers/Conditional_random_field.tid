@@ -1,6 +1,6 @@
 created: 20160918162909317
 creator: cosmos
-modified: 20161104134327660
+modified: 20170129232413869
 modifier: cosmos
 tags: [[Random field]]
 title: Conditional random field
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 A discriminant [[Markov network]], used for [[Supervised learning]] tasks.
 
 [[Neural networks [3.1] : Conditional random fields - motivation|https://www.youtube.com/watch?v=GF3iSJkgPbA&index=18&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH]].
+
+[[coursera video|https://www.coursera.org/learn/probabilistic-graphical-models/lecture/UJ1Ke/conditional-random-fields]]
 
 __Motivation__: [[Sequence classification]], where the random variables in the sequence aren't i.i.d, in particular, they need not be independent! More generally, CRFs are used when we want to model random variables that have dependencies ([[Graphical model]]).
 

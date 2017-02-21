@@ -1,6 +1,6 @@
 created: 20160907155242325
 creator: cosmos
-modified: 20161104134332339
+modified: 20170212133555409
 modifier: cosmos
 tags: Physiology
 title: Sense
@@ -10,3 +10,9 @@ type: text/vnd.tiddlywiki
 [[Vision]]
 
 [[Olfaction]]
+
+[[Hearing]]
+
+[[Taste]]
+
+[[Touch]]

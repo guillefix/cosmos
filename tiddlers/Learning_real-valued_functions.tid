@@ -1,0 +1,24 @@
+created: 20170215140655812
+creator: cosmos
+modified: 20170215145148071
+modifier: cosmos
+tags: [[Computational learning theory]]
+title: Learning real-valued functions
+tmap.id: 6c8eedc2-f216-436b-ac12-5249370b4f97
+type: text/vnd.tiddlywiki
+
+Learning functions of the form $$f: R^n \rightarrow R$$
+
+"Clearn data": $$x\sim D$$, observe $$(x, f(x))$$
+"Statistics": $$x\sim D$$, $$y\sim D_x$$, where $$E[y\mid x]=f(x)$$
+
+For discrete-valued functions, we want to find $$h$$, s.t. $$P[f\neq h]\leq \epsilon$$. However, this is not appropriate for real value, as any deviation would be considered an error of the same kind.
+Instead we want to find $$h$$, s.t. $$E[(f(x)-h(x))^2]\leq \epsilon$$
+
+Approach: optimize over a class of functions $$H$$: $$\arg\min_{h\in H} \frac{1}{m}\sum_i (h(x_i)-y_i)^2$$ ("square-error")
+
+MInimizing $$E){x\sim D} [*h(x)-f(x))^2]$$ is equivalent to minimizing $$E_{x\sim D_{x}}[(h(x)-y)^2]$$ (see photo). This works for the square-error but not for some other error measures!
+
+E.g.: [[Linear regression]].
+
+[[Constrained gradient descent]] (see photo. Just use [[Gradient descent]] and project into set of possible parameters defined by the constraint). Can show rate of convergence. He showed it for the variant where the step size is fixed, and we output the average over the points we visit..

@@ -1,12 +1,15 @@
 created: 20160405190342383
 creator: guillefix
-modified: 20161223114435244
+modified: 20170210211029006
 modifier: cosmos
+tags: Language
 title: Natural language processing
 tmap.id: 61f00c19-0247-4055-825f-7ecd07cd7d01
 type: text/vnd.tiddlywiki
 
 Processing of [[Natural language]], by [[computers|Computer science]].
+
+[[Deep learning for NLP Oxford lectures|https://www.youtube.com/watch?v=RP3tZFcC2e8&list=PL613dYIGMXoZBtZhbyiBqb0QtgK6oJbpm]]
 
 !!__Techniques__
 
@@ -29,6 +32,8 @@ https://demos.explosion.ai/displacy/?text=I%20like%20some%20good%20almonds&model
 !!!__Features for NLP__
 
 Word vectors: see [[Processing our own Data - Deep Learning with Neural Networks and TensorFlow part 5|https://www.youtube.com/watch?v=7fcWfUavO7E&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&index=48]]
+
+!!!__[[Language model]]s__
 
 !!__Natural language understanding__
 

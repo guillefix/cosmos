@@ -1,7 +1,7 @@
 created: 20160626132624338
 creator: guillefix
-modified: 20161104134327844
-modifier: guillefix
+modified: 20170213230515884
+modifier: cosmos
 title: Deterministic finite automaton
 tmap.id: 6ab0ef69-703b-4968-93ce-93499ef25d4a
 type: text/vnd.tiddlywiki
@@ -14,3 +14,8 @@ type: text/vnd.tiddlywiki
 [[Complete and incomplete deterministic finite automata|https://en.wikipedia.org/wiki/Deterministic_finite_automaton#Complete_and_incomplete_deterministic_finite_automata]]
 
 See also [[Random deterministic automata]]
+
+!!__Minimizing DFA__
+
+[[vid|https://www.youtube.com/watch?v=CLuuWJPBZXA&index=29&list=PL601FC994BDD963E4]] - 
+[[vid2|https://www.youtube.com/watch?v=1GZOzTJOBuM&t=0s]] - [ext[doc|http://pages.cs.wisc.edu/~shuchi/courses/520-S08/handouts/Lec7.pdf]] - [[vid4|https://www.youtube.com/watch?v=UiXkJUTkp44]]

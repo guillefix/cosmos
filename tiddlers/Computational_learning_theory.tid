@@ -1,0 +1,23 @@
+created: 20170116162522626
+creator: cosmos
+modified: 20170219013009365
+modifier: cosmos
+tags: [[Learning theory]]
+title: Computational learning theory
+tmap.id: 97c2cf2e-d587-4c8e-84b1-de46778896ac
+type: text/vnd.tiddlywiki
+
+
+
+* [[Probably approximately correct]]
+* [[Membership query]], and [[Equivalence query]]
+
+Example oracle + membership query is sufficient for PAC learning
+
+!!__[[Exact learning]]__
+
+We say concept class $$C$$ is efficiently learnable with membership and equivalence queries, if there exists a polynomial p(.) and an algorithmL L with access to membership and equivalence queries oracles, $$\forall c \in C_n$$ outputs in time $$p(n, size(c))$$ a concept $$h \in C$$ that is equivalent to $$C$$.
+
+-----------------------
+
+[[Nice classical experiment about supervision|https://www.youtube.com/watch?v=b5NlRg8SjZg&t=19m30s]] (1st lecture of lecture seires on ML)

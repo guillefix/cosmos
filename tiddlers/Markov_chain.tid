@@ -1,6 +1,6 @@
 created: 20160628022723876
 creator: guillefix
-modified: 20170106125907890
+modified: 20170110105038844
 modifier: cosmos
 tags: [[Markov process]]
 title: Markov chain
@@ -28,7 +28,7 @@ Order of a Markov chain. See [[here|https://cw.fel.cvut.cz/wiki/_media/courses/a
 
 [[Markov subchains|https://www.youtube.com/watch?v=bPqg0G1-k1U&index=5&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft#t=2m55s]] A subchain of a Markov chain is also a Markov chain
 
-__Regular Markov chain__ [[here|http://www.math.iupui.edu/~momran/m118videos/notes/sec92.pdf]] [[here|https://www.math.ucdavis.edu/~daddel/linear_algebra_appl/Applications/MarkovChain/MarkovChain_9_18/node2.html]]
+__Regular Markov chain__ [ext[here|http://www.math.iupui.edu/~momran/m118videos/notes/sec92.pdf]] [ext[here|https://www.math.ucdavis.edu/~daddel/linear_algebra_appl/Applications/MarkovChain/MarkovChain_9_18/node2.html]]
 
 See book Markov chains by Norris
 

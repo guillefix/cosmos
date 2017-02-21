@@ -1,6 +1,6 @@
 created: 20160309160601286
 creator: guillefix
-modified: 20161104134332086
+modified: 20170210204131349
 modifier: cosmos
 tags: [[Computer Science and IT]] [[Information technology]] [[Technology & Engineering]]
 title: Robotics
@@ -34,3 +34,5 @@ __[[Swarm robotics]]__
 !!__Robot simulation__
 
 [[http://gazebosim.org/]]
+
+[ext[https://people.eecs.berkeley.edu/~anca/]]

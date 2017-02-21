@@ -1,6 +1,6 @@
 created: 20161022220906732
 creator: cosmos
-modified: 20161207200604550
+modified: 20170214183331024
 modifier: cosmos
 tags: Intelligence
 title: Memory
@@ -8,6 +8,10 @@ tmap.id: 003c2e2b-e8f4-462b-8e90-02d35e6a5511
 type: text/vnd.tiddlywiki
 
 Memory is how information is encoded, stored, and retrieved. ([[wiki|https://www.wikiwand.com/en/Memory]]). It is a foundamental feature of [[Computer]]s, and of [[intelligent|Intelligence]] beings.
+
+[[Neuroscience of memory and learning|https://www.youtube.com/watch?v=wtu-yAm4xik]]
+
+[[David Foster: Neuronal sequences in the hippocampus for memory and imagination|https://www.youtube.com/watch?v=smPSjL_JcEg]]
 
 !!__Types of memory__
 
@@ -47,3 +51,15 @@ __Importance of timing__
 [[Kandel's principles]]
 
 http://ezproxy-prd.bodleian.ox.ac.uk:2153/view/10.1093/acprof:oso/9780199232703.001.0001/acprof-9780199232703
+
+------------------
+
+Memory and learning book
+
+[[Hippocampus]]
+
+familiarity/recollection model
+hippocampus role in associative retrieval.
+memory consolidation.
+
+[img[hippocampus-associative-memory.jpg]]

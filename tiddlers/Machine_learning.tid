@@ -1,6 +1,6 @@
 created: 20160226112409331
 creator: guillefix
-modified: 20170105094413333
+modified: 20170219013714169
 modifier: cosmos
 tags: [[Artificial intelligence]] Learning [[Data science]]
 title: Machine learning
@@ -22,6 +22,8 @@ A part of [[Artificial intelligence]] that uses many methods from [[Computer sci
 [[Supervised vs unsupervised|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=4m47]]
 
 [[No free lunch theorem]]
+
+[[lecture series|https://www.youtube.com/watch?v=zcMnu-3wkWo&list=PLTB9VQq8WiaCBK2XrtYn5t9uuPdsNm7YE]] -- [[another one, focusing on theory|https://www.youtube.com/watch?v=b5NlRg8SjZg&t=2557s]]
 
 !!!__Parametric vs non-parametric approaches__
 
@@ -60,7 +62,9 @@ Two main types:
 !!__[[Unsupervised learning]]__
 
 <<<
-Actually, I think unsupervised learning is the most general. After all, supervised learning can be seen as a special case of unsupervised learning, where the data points are pairs $$(x,y)$$, and we want to find a function so that the data can be modeled as $$(x, f(x))$$ as well as possible; no need to interpret this as "supervising", but can instead interpret it as "finding structure"
+Actually, I think unsupervised learning is the most general. After all, supervised learning can be seen as a special case of unsupervised learning, where the data points are pairs $$(x,y)$$, and we want to find a function so that the data can be modeled as $$(x, f(x))$$ as well as possible; no need to interpret this as "supervising", but can instead interpret it as "finding structure".
+
+--> Well, __actually__: I think the distinction is that in unsupervised learning, your training and test data has the same form, while in supervised learning, your training and test data are different (training is labelled, and test isn't)
 <<<
 
 [[Intro by Andrew Ng|https://www.youtube.com/watch?v=UzxYlbK2c7E#t=50m40s]]
@@ -91,6 +95,8 @@ Incremental learning is a machine learning paradigm where the learning process t
 
 Inferring values of missing entries in data
 
+!!!__[[Types of teachers in learning|https://www.youtube.com/watch?v=b5NlRg8SjZg&t=50m]]__
+
 !!__[[Reinforcement learning]]__
 
 To me it seems like the difference with supervised learning, is that you //don't specify input, output pairs, but just outputs//. You specify desired outputs, and undesired outputs. There is no input, but still the problem is not just trivial (i.e. it only ever produces one output), because the model is probabilistic.
@@ -102,6 +108,8 @@ Reward function
 Used often in robotics.
 
 !!__[[Learning theory]] and learning algorithms__
+
+See [[Computational learning theory]]
 
 The theory and algorithms for learning.
 

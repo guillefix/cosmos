@@ -1,0 +1,23 @@
+created: 20170215003720402
+creator: cosmos
+modified: 20170215004638379
+modifier: cosmos
+tags: [[Computational learning theory]]
+title: SQ model
+tmap.id: add492aa-612e-4f7b-b377-2d38c8add7ca
+type: text/vnd.tiddlywiki
+
+//statistical queries model//
+
+Main paper: [ext[efficient noise-tolerant learning from statistical queries|https://www.cis.upenn.edu/~mkearns/papers/sq-journal.pdf]]
+
+''Statistical query'', defined on page 2 of [ext[the paper|https://www.cis.upenn.edu/~mkearns/papers/sq-journal.pdf]]
+
+Theorem (''learning with noise''): Any class efficiently learnable with statistical queries is also efficiently learnable with an examples oracles (of the kind used in standard [[PAC|Probably approximately correct]] learning) with classification noise.
+
+''SQ model is less powerful than PAC learning''. The fact that practically every concept class known to be eciently learnable
+in the Valiant model can in fact be learned from statistical queries (and thus with classication noise) raises the natural question of whether the two models
+are equivalent. We answer this question negatively in Section 7 by proving that
+the class of parity concepts, known to be eciently learnable in the Valiant
+model, cannot be eciently learned from statistical queries. The class of parity
+concepts is also notorious for having no known ecient noise-tolerant algorithm

@@ -1,0 +1,368 @@
+created: 20170116162816600
+creator: cosmos
+modified: 20170214183345069
+modifier: cosmos
+tags: [[Computational learning theory]]
+title: Probably approximately correct
+tmap.id: 82e6f4bf-b4ae-40f8-908b-365cd419b6a0
+type: text/vnd.tiddlywiki
+
+//aka PAC//
+
+See [[PAC book]]
+
+[[notes|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture01.pdf]]
+
+Assume training data comes from distribution $$D$$. Test data from same distribution.
+
+//Example//:
+
+We are given points which are labeled as green and red. We are also told that the green points are all sampled from inside a given square (the outer square in the picture below). We consider the algorithm that uses the minimum square that bounds the green points (the inner square in the picture) to classify future points.
+
+Our errors come from the blue region where the points are regally green, but we classify them as red.
+
+{{PAC_square_example1}}
+
+Consider a set of regions at the edges (i.e. a region like $$x>x_o$$) of the real square each with probability mass $$\epsilon/4$$.
+
+If there is one training point in each of these regions, then we know that the probability of error is $$<\epsilon$$.
+
+Probability that there is no point in any of these regions is
+
+$$P \leq 4\exp{\left(\frac{-m\epsilon}{4}\right)}$$, we want this to be small, because if no point in this region, then our error can be greater than $$\epsilon$$.
+
+''Union bound'': $$P(A\cup B) \leq P(A)+P(B)$$
+
+''Learning'': with probability at least $$1-\delta$$ our classifier has error $$\leq \epsilon$$ provided $$m\geq \frac{4}{\epsilon}\log{\frac{4}{\delta}}$$.
+
+For hyperrectangles in $$n$$ dimensions, the $$4$$s in the expression above become $$2n$$.
+
+$$\delta$$ -- ''confidence parameter''. always logarithmic dependence.
+
+$$\epsilon$$ -- ''accuracy parameter''. could have other dependences.
+
+We want it to be statistically and computationally efficient (mostly runtime).
+
+!!!__Instance space__
+
+$$X$$ is the set of all possible instances/examples/observations. 
+
+!!!__Concept class__
+
+A [[Concept]] over $$X$$ is a [[Boolean function]] $$c: X \rightarrow \{0,1\}$$. A concept class is a collection of concepts..
+
+Distribution: we assume distribution $$D$$ over $$X$$.
+
+Once a target concept $$c \in C$$ and $$D$$ is fixed, then any classifier/hypothesis $$h:X \rightarrow \{0,1\}$$ , $$err(H;c,D) =P_{X\sim D}[c(x) \neq h(x)]$$ ([[Zero-one error]]).
+
+>''Probabily approximately correct'' (take 1): Let $$C$$ be a concept class over $$X$$. We say that $$C$$ is PAC-learnable if there exists an algorithm $$L$$ s.t. $$\forall c \in C$$, $$\forall D$$ over $$X$$, $$\forall 0< \epsilon < 1/2$$, $$\forall 0<\delta < 1/2$$, if $$L$$ is given access to training data, and inputs $$\epsilon$$, $$\delta$$. outputs $$h\in C$$ s.t. with probability $$\geq 1-\delta$$, $$err(H) \leq \epsilon$$
+
+>''Efficiently learnable'' if it runs in time polynomial time in $$1/\epsilon$$, $$1/\delta$$.
+
+Sometimes we want to bound data too!
+
+!!![[Complexity]] of the concepts in the concept class affects the learnability. 
+
+* Polygons. The more verticies the more numbers that need to be specified
+* [[Boolean function]]s. $$f: \{0,1\}^n \rightarrow \{0,1\}$$. Can represent with 
+** a [[Truth table]]. $$2^n$$ bits.
+** [[Boolean circuit]], using ands, ors.
+** [[Disjunctive normal form]] (DNF): a disjunction of conjunctions. E.g. $$X_1 \wedge X_2 \wedge X_3) \vee (X_1 \wedge X_2) \vee ... \vee (X_2 \wedge X_3)$$
+
+Representation scheme for a concept class $$C$$ is $$R: \Sigma^k \rightarrow C$$.
+
+We define a function $$size: \sigma^k \rightarrow \mathbb{N}$$. We can then infer another function: 
+
+$$size(c) = \min\limits_{\sigma:R(\sigma)=c} size(\sigma)$$.
+
+Compare [[Kolmogorov complexity]].
+
+!!!Instance size
+
+$$X_n$$ is instance of size $$n$$. $$X\cup_n X_n$$.
+
+>''PAC'' (take 2). Let C_n be concepts over $$X_n$$. Let $$X=\cup_n X_n$$ and $$C=\cup_n C_n$$. We say that $$C$$ is PAC-learnable if there exists an algorithm $$L$$ s.t. $$\forall n\in N$$, $$\forall c\in C_n$$, $$\forall D$$ over $$X_n$$, $$\forall 0<\epsilon<1/2$$, if $$L$$ is given access to trainig set $$EX(c,D)$$ and inputs $$\epsilon$$, $$\delta$$, $$size(c)$$, L outputs $$h \in C$$ s.t. w.p.$$\geq 1-\delta$$, $$err(h) \leq \epsilon$$
+
+> Efficiently lernable, same as before but also poly on $$size(c)$$.
+
+(basically we want it to be poly on anything that it can depend, and that we reasonably expect could be a large number).
+
+-------------------
+
+__Example: Learning Boolean conjunctions__
+
+variables x1, ..., xn
+
+c = x1 and x2 and not x3 ... and xn
+
+Algorithm
+
+# Start with $$h=x_1 \wedge \bar{x_1} \wedge ... \wedge x_n \wedge \bar{x_n}$$
+
+# for any observed input/output pair (\vec{a}, 1). For all i, if $$a_i = 1$$, drop $$\bar{x_i}$$, if $$a_i=0$$, drop $$x_0$$.
+
+# Return h.
+
+we can only make false negative errors. if the real function c:
+
+$$c(a)=1$$, $$h(a)$$ may be 0 or 1.
+
+$$c(a)=0$$ ==> $$h(a)=0$$.
+
+Literal l. $$p(l) = P_{a\sim D} [c(a)=1 \wedge l=0 \text{ in } a]$$. .. l is something like $$x_1$$, or $$\bar{x_1}$$..
+
+literal $$l$$ causes missclassification if the event $${c(a)=1 \wedge l=0 \text{ in } a}$$ is not observed.
+
+We worry about non-rare events: $$p(l) \geq \frac{\epsilon}{2n}$$. We call these //bad literal//s
+
+$$A_l$$ is the event that for m points drawn independently from D, $$l$$ is a bad literal , but not eliminated from h.
+
+Probability: $$P(A_l) = (1-p(l))^m \leq (1-\frac{\epsilon}{2n})^n$$
+
+$$E=\cup_{l \text{ bad}} A_l$$
+
+//Probably//: Probability that we don't eliminate all bad literals is small: $$P(E) \leq \sum_{l \text{ bad}} P(A_l) \leq (\#bad literals) (1-\frac{\epsilon}{2n})^m$$
+
+$$\leq 2n  (1-\frac{\epsilon}{2n}^m \leq 2n \exp{(-m\epsilon/2n)}\leq \delta$$
+
+..
+
+//Approximately//: Probability of error, if we eliminate all bad literals, is small: $$err(h) = P_{a\sim D} [c(a)=1 \wedge h(a)=0] \leq \sum_{l \text{ good}} p(l) \leq \epsilon$$
+
+$$c(a)=1 \wedge h(a)=0 \Rightarrow \exists l \in h, l \in c$$ s.t. $$l=0 $$ in $$a$$.
+
+__E.g. 3-term DNFs__
+
+$$T_1 \vee T_2 \vee T_3$$ where $$T_i$$ is boolean conjunction
+
+This class is not PAC-learnable, unless RP=NP.
+
+RP is a randomized version of P. Recognize when string is not in language. when it is in language, recognize that it is, with a minimum probability.
+
+Can show this is NP by reduction to graph-colouring.
+
+See photos: we can prove that if the graph has a three colouring, then given the way we constructs the samples $$S$$, there is a 3-term DNF which satisfies all the examples.
+
+We can also show the reverse.
+
+Then finding the best 3-term DNF from the examples (learning) is equivalent to finding if there exist a  graph colouring, so it is not efficient.
+
+-----------------------
+
+__3-CNFs (conjuctive normal form)__
+
+$$\{c_1 \wedge c_2 \wedge ... \wedge c_m\}$$ $$|$$ each $$c_i$$ is a disjunction on at most 3-literals, known as //clauses//.
+
+Can we //efficiently// PAC-learn 3-CNF?
+
+We will map it to an easy problem (in P?) to show that it is, by doing a kind of [[Feature]] expansion.. Apply conjunction learning algorithm without negated literals.
+
+3-term DNF:
+
+$$\phi = T_1 \vee T_2 \vee T_3 = \wedge_{l_1 \in T_1, l_2 \in T_2, l_3 \in T_3} ( l_1 \vee l_2 \vee l_3)$$
+
+can learn 3-DNF data using an equivalent 3-CNF. However, getting the 3-DNF back is hard..
+
+> ''PAC learning'' (take 3): we say that concept $$C$$ is PAC-learnable __using hypothesis class $$H$$__, if there is an algorithm $$L$$, that $$\forall n \geq 0$$, $$c \in C_n$$, $$\forall D$$ over $$X_n$$, $$\forall 0 < \epsilon < 1/2$$, $$\forall 0 < \delta < 1/2$$, with access to training data $$EX(c,D)$$ and inputs $$size(c)$$, $$\epsilon$$, $$\delta$$, outputs $$h\in H_n$$, that with probability at least $$1-\delta$$, satistifies $$err(h) \leq \epsilon$$.
+
+> We say that $$C$$ is efficiently PAC-learnable if the running time of $$L$$ is polynomial in $$n$$, $$size(c)$$, $$1/\epsilon$$, $$1/\delta$$, and __$$H$$ is polynomially evaluatable__.
+
+>$$H$$ is polynomially evaluatable: $$H$$ is polynomially evaluatable if there is a polynomial time (in $$size(h), n$$) algorithm $$A$$ that $$\forall n$$, $$\forall h \in H_n$$, $$\forall x \in X_n$$, on input $$h$$, $$x$$ outputs $$h(x)$$.
+
+So in the example above, the problem is learnable using the hypothesis class $$H$$ of 3-CNFs, but not that of 3-DNFs!
+
+------------
+
+!!!''Explanatory model''s
+
+Given $$(\vec{x}_1,y_1),(\vec{x}_2,y_2),...,(\vec{x}_n, y_n)$$
+
+$$\vec{X}_i \in \{0,1\}^n$$, $$y_i \in \{0,1\}$$
+
+Find a hypothesis that is consistent on this data.
+
+Can give hypothesis that just memorizes all of the data, and on all other data it predicts $$0$$.
+
+__[[Occam's razor]]__
+
+Find the simplest possible explanation.
+
+Simplest? shortest explanation?
+
+* [[Minimum description length]]
+* [[Kolmogorov complexity]]
+
+We will focus on "short enough" is good (as shortest, is not computable..). If description grows linearly with number of observations, it's bad. We want it to grow less fast!
+
+> ''Consistent learner'': We say that $$L$$ is a consistent learner for concept class $$C$$, __using hypothesis class $$H$$__, if $$\forall n, \forall c \in C_n, \forall m$$, given $$(x_1, c(x_1)), ...(x_m, c(x_m))$$, as input, the algorithm $$L$$ outputs $$h \in H_n$$, s.t. $$\forall i=1, ..., m$$, $$h(x_i=c(x_i)$$.
+> We say $$L$$ is efficient if the running time is polynomial in $$n$$, $$m$$, $$size(c)$$.
+
+.
+
+> Theorem (Occam's razor, cardinality version): Let $$C$$ be a concept class and $$H$$ a hypothesis class. Let $$L$$ be a consistent learner for $$C$$ using $$H$$. Then, $$\forall n, \forall c \in C_n, \forall D$$ over $$X_n$$, if $$L$$ is given $$m$$ examples drawn from $$EX(c,D)$$ s.t. $$m \geq \frac{1}{\epsilon} (\log{|H_n|} + \log{1/\delta})$$ then $$L$$ outputs $$h$$, that w.p $$\geq 1-\delta$$, satisfies $$err(h) \leq \epsilon$$.
+
+Similar to theorems in [[Learning theory]], VC dimension, empirical risk minimization, etc.
+
+//Proof//...see photo
+
+size of class of conjunctions is about $$3^n$$.
+
+Size of class of 3-DNF $$\leq 2^{6n}$$, and for 3-CNF $$\geq 2^{n^3}$$
+
+---> Learning 3-term DNF with infinite computation requires much less training examples than the efficiently learnable 3-CNFs!.. Nice.
+
+[[photo1|20170125_144040.jpg]]
+
+[[photo2|20170125_143009.jpg]]
+
+---------------
+
+What happens when $$H$$ or $$C$$ is infinite?
+
+!!!-->[[VC dimension]]
+
+Roughly, VC-dimension for infinite class $$\approx \log|H|$$ for finite classes. This will enter an extended version of the Occam's razor theorem..
+
+__Consistent learning algorithm for half-spaces__
+
+We will use [[Linear programming]] (for finding feasible solutions) four our consistent learner.
+
+Is there a minimum number of examples needed to be seen for PAC learning?
+
+__YES__
+
+> If $$C$$ has VC dimension d, then any PAC-learning algo for C that outputs $$h\in C$$, requires at least $$\frac{d-1}{32\epsilon}$$ examples.
+
+The more accuracy we want, or the more complex class, the more data we need.
+
+One can't learn a class of infinite VC dimenison.
+
+__Chernoff bound__: let $$X_1,..X_n$$ be independent random variables with $$X_i =1$$ w.p $$p_i$$, and $$X_i=0$$ w.p. $$1=p_i$$. Let $$\mu = E[\sum_i X_i]=\sum_i p_i$$
+
+$$P[|X-\mu| \geq \alpha \mu] \leq 2e^{-\,u\alpha^2/3}$$
+
+Let $$S$$ be the set which gives the VC-dimension d. (i.e. has maximal cardinality while being shattered by C).
+
+$$D$$ is uniform over S.
+
+Suppose your algo sees d/10 examples. outputs some h.
+
+For all examples in S\{examples}, h makes error w.p at least 1/2.
+
+If your number of examples is less than the vc dimension, then, there's not hope of doing well in general, because the unobserved points could be anything..
+
+See more in book.. <mark>what's the meaning of $$\epsilon$$, here?</mark>
+
+
+
+__Growth function__
+
+$$\Pi_C(m)=\max \{|\Pi(s)| \mid |S|=m\}$$
+
+Clearly if $$m \leq d$$ (d=VC dim of C), then $$\Pi_c(m) = 2^m$$
+
+|For $$m\geq d$$, $$\Pi_C(m) = O(m^d)$$|
+
+//Def//: $$\Phi_d(m) = \Phi_d(m-1)+\Phi_{d-1}(m-1)$$ if $$m \geq 1$$ and $$d \geq 1$$
+
+$$\Phi_0(m)=1, \forall m$$, $$\Phi_d(0)=1, \forall d$$
+
+__Lemma__: $$\Pi_C(m) \leq \Phi_d(m)$$ if VC dim(C) = d.
+
+$$\Phi_d(m) = \sum\limits_{i=0}^d \binom{m}{i}$$
+
+$$m=0$$, then $$\forall d, \Phi_d(0)=1$$, $$ \sum\limits_{i=0}^d \binom{0}{i} =1$$
+
+$$d=0$$, then $$\forall m \Phi_0(m)=1$$, $$ \sum\limits_{i=0}^0 \binom{m}{i} =1$$
+
+$$\Phi_d(m) = \Phi_d(m-1)+\Phi_{d-1}(m-1) = \sum\limits_{i=0}^d \binom{m-1}{i} +  \sum\limits_{i=0}^{d-1} \binom{m-1}{i}$$ 
+
+$$ = \binom{m-1}{0}+ \sum\limits_{i=1}^d (\binom{m-1}{i} +  \binom{m-1}{i-1})$$ 
+
+$$ = \binom{m}{0}+ \sum\limits_{i=1}^d (\binom{m}{i} ) = \sum\limits_{i=0}^d \binom{m}{i} $$ 
+
+$$\Phi_d(m) = (\frac{m}{d})^d\sum\limits_{i=0}^d \binom{m}{i} (\frac{d}{m})^d$$
+$$\leq (\frac{m}{d})^d\sum\limits_{i=0}^d \binom{m}{i} (\frac{d}{m})^i$$  $$\leq (\frac{m}{d})^d\sum\limits_{i=0}^m \binom{m}{i} (\frac{d}{m})^i$$  $$=(\frac{m}{d})^d(1+\frac{d}{m})^m \leq (\frac{m}{d})^d e^d = (\frac{me}{d})^d$$
+
+//Proof of// __lemma__: $$\Pi_C(m) \leq \Phi_d(m)$$ if VC dim(C) = d.
+
+$$\Phi_d(m) = \Phi_d(m-1)+\Phi_{d-1}(m-1)$$
+
+
+Let S be some set of size m. 
+
+$$\Pi_c(m)=1$$, if VC-dim(C)=0 (can't satisfy all asignemtns of one point -> must have only one hypothesis).
+
+$$\Pi_c(0)=1$$. For no points.
+
+$$x \in S$$, consider $$S \setminus \{x\}$$
+
+$$|\Pi_C(S \setminus \{x\})| \leq \Pi_c (m-1) \leq \Phi_d(m-1)$$
+
+$$|\Pi_c(s)|-|\Pi_c(S\setminus z)|$$: How many dichotomies over $$S \setminus \{x\}$$ using C that can be extended to S in 2 ways
+
+$$C'=\{c \in \Pi_C(s) \mid c(x)=0 \text{ and } \exists \tilde{c} \in \Pi(S) \text{ s.t. } \tilde{c}(x)=1 \text{ and for all other points z not equal to x, c(z)=tildec(z)}\}$$
+
+C' counts the number of concepts in C restricted to $$S \setminus \{x\}$$, which can be extended to $$S$$ in two possible ways (with x either 0 or 1).
+
+... etc see [[photo|20170130_163623.jpg]]. We need to show that c' has VC-dimension dimension at most d-1 ([[proved here|20170130_163836.jpg]])
+
+Let  T be a set $$T \subset S$$
+
+This shows that  if the VC dimension of a concept class is finite, then the growth on the size of the concept class is polynomial with the dimension of the input space (number of points, m). This restriction is what allows generalization.
+
+> Theorem (Occam's razor, vc dim version): Let $$C$$ be a concept class of VC-dimension $$d$$, and $$H$$ a hypothesis class. Let $$L$$ be a consistent learner for $$C$$ using $$H$$. Then, $$\forall n, \forall c \in C_n, \forall D$$ over $$X_n$$, if $$L$$ is given $$m$$ examples drawn from $$EX(c,D)$$ s.t. $$m \geq \frac{1}{\epsilon} (d+ \log{1/\delta})$$ then $$L$$ outputs $$h$$, that w.p $$\geq 1-\delta$$, satisfies $$err(h) \leq \epsilon$$.
+
+...... proof. see pic. $$\epsilon$$-net. Use trick of doubling your training set, to get finite things which allow to bound probabilities..<mark>but need to understand it better...</mark>
+
+|PAC learning power changes when you relax the requirement that the algo should work for any distribution on the input data|
+
+''Boosting'', relaxing the $$\epsilon$$ condition doesn't increase power..
+
+!!__Boosting__
+
+Get an ensemble of hypotheses, by changing our input data to the algorithm in different and clever ways. We then have some clever devision rule that combines the classifiers.
+
+[[boosting neural nets|http://stats.stackexchange.com/questions/185616/boosting-neural-networks]]
+
+
+//Weak learning//: Like PAC learning, but we now just require $$err(h) \leq \frac{1}{2}-\gamma(n, size(c))$$, for sme function $$\gamma$$. It is //efficient// if it runs in poly time, H are poly evaluatable, and $$\frac{1}{\gamma}$$ is poly bounded (on its arguments).
+
+__Ada boost__
+
+(adaptive boosting)
+
+at every iteration $$t$$, we have a prob dist $$D_t$$that you use to sample points from the training data, and train the weak learner. At every iteration, we update the prob dist by making points which the algorithm had wrong and making them more likely, while points it got right are less likely.
+
+For $$t=1, ..., T$$:
+
+: Get $$h_t$$ by running WL with $$D_t$$
+:
+:
+:
+
+At every iteration, we get a hypothesis.
+
+Our final decision rule is gotten by a linear combination which takes into account which points we got wrong with each hypothesis. $$g(x)=sign(\sum\limits_{t=1}^T \alpha_t h_t(x))$$. Let $$H=\sum\limits_{t=1}^T \alpha_t h_t(.)$$.
+
+Training error: $$\sum_{i=1}^m D_1(i) 1(g(x_i)\neq y_i) \leq \sum D_1(i) e^{-y)i H(x_i)}$$ $$=Z_2 ... Z_{T+1}$$ (see notes, and photo). If the Zs are less than 1, then it doesn't get that many iterations for the trainig error to be small.
+
+$$H_t(x)=\sum_{s=t}^T \alpha_s h_s(x)$$
+
+$$Z_{t+1}=e^{=\alpha_t}(1-\epsilon_t)+e^{\alpha_t}\epsilon_t$$
+
+$$=2\sqrt{\epsilon_t (1-\epsilon_t)}$$ (if we minimize this over $$\alpha_t$$).
+
+$$\leq e^{-2\gamma^2}$$ (using $$\gamma_t \geq \gamma$$ (definition of WL). (note $$\epsilon_t = \frac{1}{2}-\gamma_t$$).
+
+$$=Z_2 ... Z_{T+1} \leq e^{-2T\gamma^2}$$ 
+
+It increases the weight of examples which are classified incorerctly many times, and so has problems with noise in labels.
+
+See paper in webseite. The idea of multiplicative weights is quite applicable.
+
+Generalizaation...VC dimension?..
+
+---------
+
+Under the discrete root the class of circuits of logarithmic depth are not PAC-learnable

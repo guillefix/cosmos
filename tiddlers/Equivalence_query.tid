@@ -1,0 +1,11 @@
+created: 20170206171508738
+creator: cosmos
+modified: 20170206171528419
+modifier: cosmos
+tags: [[Computational learning theory]]
+title: Equivalence query
+tmap.id: ab453df3-fc8c-4d85-b3c6-daaa6596f63a
+type: text/vnd.tiddlywiki
+
+
+Is some $$h\in C$$, equivalent to target $$c$$? --> answer is either yes, or algo receives a counter-example.

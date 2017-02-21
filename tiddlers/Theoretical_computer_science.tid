@@ -1,6 +1,6 @@
 created: 20160201145156881
 creator: guillefix
-modified: 20161104134332805
+modified: 20170120183541447
 modifier: cosmos
 tags: [[Computer Science and IT]]
 title: Theoretical computer science
@@ -19,7 +19,25 @@ The nature of computation by Moore and Mertens (looks like a nice book). [[Good 
 
 See [[Discrete mathematics]]
 
+!!!__Computational theories__
+
+Turing triad (as defined by Leslie Valiant), see his PAC book): 
+
+* Establishing a robust computational model for your problem. //Robust// here means that it is equivalent to many other models that we could reasonably propose for the problem at hand; then, any of these models is considered robust.
+* Proving some strong possibility results, like the fact that certain things are computable
+* Proving some impossibility results that explain the ultimate limitations.
+
+These pattern is followed by most computational theories, like:
+
+* The original, [[Computability theory]]/[[Theory of computation]]
+* [[Computational complexity]] theory. Theory of [[Algorithms]]
+* [[Computational learning theory]]
+* [[Algorithmic information theory]]
+* [[Computational game theory]]
+
 ----------
+
+...need to organize this better.
 
 [[Structure and interpretation of computer programs|https://mitpress.mit.edu/sicp/full-text/book/book.html]] [[Companion site|https://mitpress.mit.edu/sicp/]]
 

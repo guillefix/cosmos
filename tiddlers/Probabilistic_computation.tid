@@ -1,0 +1,17 @@
+created: 20170118193503026
+creator: cosmos
+modified: 20170118193835770
+modifier: cosmos
+tags: [[Theoretical computer science]]
+title: Probabilistic computation
+tmap.id: fe162bb5-00e8-4b40-be4e-76f1ad21297c
+type: text/vnd.tiddlywiki
+
+A [[Model of computation]] where the steps can have [[Randomness]] described by [[Probability]]es..
+
+* [[Probabilistic Turing machine]]s. [[wiki|https://en.wikipedia.org/wiki/Probabilistic_Turing_machine]]
+* [[Randomized algorithm]]s
+
+There are unresolved questions in [[Computational complexity]] regarding probabilistic computations, as well as regarding its relation to [[Quantum computing]]. See page 36 in PAC book.
+
+See also [[Probabilistic programming]]

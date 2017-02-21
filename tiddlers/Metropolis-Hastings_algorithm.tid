@@ -1,0 +1,12 @@
+created: 20170110101235587
+creator: cosmos
+modified: 20170110101552819
+modifier: cosmos
+title: Metropolis-Hastings algorithm
+tmap.id: b7b915ed-d437-464e-842e-67d93be3ef6d
+type: text/vnd.tiddlywiki
+
+
+{{Metropolis_Hastings.pdf}}
+
+Problems with multi-modal distributions, with far-apart modes, as it's hard to travel from one mode to the next.

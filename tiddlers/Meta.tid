@@ -1,6 +1,6 @@
 created: 20160117211501086
 creator: guillefix
-modified: 20161104134329671
+modified: 20170214183630260
 modifier: cosmos
 tags: Welcome
 title: Meta
@@ -85,6 +85,8 @@ To use it, do `<<testMacro>>` in any tiddler, where this isn't the name of the t
 * TW is kinda a OS on the web, can we give it more features like better window (open tiddler) management, etc. Tiddlers are like files. Shadow tiddlers, macros, etc. are programs.
 
 * Add AI stuff like http://home.ideapad.io and concept map stuff! :) See also http://ideaflowplan.tk/
+
+* Compress some pictures..
 
 
 ~LaTeX test: $$x^2=3$$

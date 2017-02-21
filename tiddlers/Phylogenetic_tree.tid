@@ -1,0 +1,36 @@
+created: 20170130093918949
+creator: cosmos
+modified: 20170130115705220
+modifier: cosmos
+tags: Phylogenetics
+title: Phylogenetic tree
+tmap.id: 5f4f3b62-d7d1-4e60-8122-796446fcd437
+type: text/vnd.tiddlywiki
+
+//aka phylogeny//
+
+!!__Inducing phylogenetic tree__
+
+A [[Tree (combinatorial structure)]]
+
+Many algorithms don't find the root of the tree, but finding the root is important to find the time direction in the tree.
+
+Phylogenetic trees are most often binary (aka bifurcating).
+
+Edges can be labelled with ''time duration'' or ''amount of evolution''. If the amount of evolution is proportional to time duration, we have a [[Molecular clock]].
+
+Enumerating trees..
+
+Coelescent topologies. The time-ranking in time matters.
+
+[[Combinatorics]], [[Analytic combinatorics]]...
+
+!!__Principles for inference__
+
+!!!__Minimum parsimony__
+
+Minimum number of changes in letters in the sequence.
+
+!!!__[[Maximum likelihood]]__
+
+Using some [[Probabilistic model]]

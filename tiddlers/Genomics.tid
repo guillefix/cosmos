@@ -1,6 +1,6 @@
 created: 20160920184732006
 creator: cosmos
-modified: 20161118154901520
+modified: 20170131104015444
 modifier: cosmos
 tags: Genetics
 title: Genomics
@@ -15,4 +15,18 @@ https://genome-euro.ucsc.edu/cgi-bin/hgGateway?hgsid=218799371_GrzgaLCTgLS4ixN0o
 
 !!__Comparative genomics__
 
-Has uses in [[Biochemical genetics]], [[Population genetics]], etc.
+Has uses in [[Biochemical genetics]], [[Population genetics]], etc..
+
+-------------------
+
+[[Bioinformatics]]
+
+[[Haplotype inference]] -- Infering the [[Haplotype]]s (the two homologous chromosomes) from genomic data.
+
+[[DNA sequencing]] just gives all the base pairs at each position, but doesn't give which belong together in a single chromosome/haplotype.
+
+Heterozygous [[SNP|Single-nucleotide polymorphism]]s are the ones which are non-trivial to assign to the chromosome/haplotype.
+
+* Clark's algorithm: a parsimony approach. Try to minimize the different number of haplotypes,
+* Statistical model approach. Find all potential haplotypes consistent with data. Model assigns a population frequency to each haplotype. If we know these frequencies we can assign the most probable haplotypes to each individual. //Missing data problem// --> [[EM algorithm]]
+* Bayesian methods. Allow haploids which are different, but similar to influence each other's likelihood. [[Hidden Markov model]].

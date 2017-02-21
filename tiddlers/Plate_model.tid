@@ -1,0 +1,12 @@
+created: 20170111212108767
+creator: cosmos
+modified: 20170111212222003
+modifier: cosmos
+tags: [[Template model]]
+title: Plate model
+tmap.id: 1f9b744e-1405-43d9-8937-1b48307d294a
+type: text/vnd.tiddlywiki
+
+Models that allow to encode certain kinds of internal structures in a [[Graphical model]], in particular structures where nodes and their children depend on //class variables//.
+
+[[video|https://www.youtube.com/watch?v=c2oJOTefgm8&index=16&list=PL50E6E80E8525B59C]]

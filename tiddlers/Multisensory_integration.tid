@@ -1,0 +1,16 @@
+created: 20170212160353849
+creator: cosmos
+modified: 20170212160410107
+modifier: cosmos
+tags: [[Cognitive neuroscience]]
+title: Multisensory integration
+tmap.id: 8e736305-c24f-4b1c-87ce-7e69cdef8e93
+type: text/vnd.tiddlywiki
+
+I had this idea! Well, I think there's still more work to do on artificial parietal cortices: neural networks for somato-sensory integration, i.e. combining the info from many different senses. I myself think that our semantic latent space in our minds is somewhere in the parietal lobe..
+
+An architecture based on these ideas is what I hope could make a NN that can begin to generate realistic stories, which I think is a crucial part for AI. Things to include: has to be recurrent, multi-sensory integration into and from semantic latent space, attention. The training may be adversarial, though I think it may need to have some more advanced type of multi-modal context-dependent training (attention in training?). Also, metalearning/introspection (which I think in the brain resides in the frontal lobe) will be crucial. Finally, more advanced memory, like DNCs, will be necessary at some point (in the brain, hippocampus), but I don't yet know well how to do that.
+
+[[Unsupervised Learning of Spoken Language with Visual Context|https://www.youtube.com/watch?v=Q6nYgeH8Krs]]
+
+http://groups.csail.mit.edu/sls/publications/2016/FelixSun_SLT_2016.pdf

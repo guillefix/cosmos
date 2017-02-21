@@ -1,6 +1,6 @@
 created: 20160904172458043
 creator: cosmos
-modified: 20161104134327411
+modified: 20170120180742642
 modifier: cosmos
 tags: [[Experimental biology]]
 title: Chromatography
@@ -9,7 +9,10 @@ type: text/vnd.tiddlywiki
 
 ''Chromatography'' (/ˌkroʊməˈtɒɡrəfi/; from Greek χρῶμα chroma which means "color" and γράφειν graphein "to write"[1]) is the collective term for a set of laboratory techniques for the separation of [[Mixture]]s.
 
-* [[Column chromatography]]
+* [[Column chromatography]]: Affinity chromatography
+* [[Size-exclusion chromatography]]
+* [[Ion chromatography]]
+** [[Ion exclusion chromatography]]
 * [[Paper chromatography]]
 
 Chromatography is a type of [[Separation process]]

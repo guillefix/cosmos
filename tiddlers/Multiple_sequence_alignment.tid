@@ -1,0 +1,16 @@
+created: 20170107022213410
+creator: cosmos
+modified: 20170107022648806
+modifier: cosmos
+tags: Bioinformatics
+title: Multiple sequence alignment
+tmap.id: 4b214bda-42ec-4078-b8a0-3b7a3ad638d0
+type: text/vnd.tiddlywiki
+
+Finding the alignment of a set of sequences (which consecutive symbols match to which, while maybe allowing gaps), minimizes the number of missmatches.
+
+https://www.wikiwand.com/en/Multiple_sequence_alignment?wprov=sfla1
+
+As explained here: [[Sequence Alignment and Dynamic Programming|https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-algorithms-for-computational-biology-spring-2005/lecture-notes/lecture5_newest.pdf]], the problem can be solved as a minimum-distance-like [[Dynamic programming]] algorithm. The main insight is expressing alignments as paths in a certain matrix. ([[vid|https://www.youtube.com/watch?v=fXfLU0QOfj8]])
+
+[img[http://www.bioinformatics.org/strap/images/alignment_proteasom_8.png]]

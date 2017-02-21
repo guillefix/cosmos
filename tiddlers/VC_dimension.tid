@@ -1,6 +1,6 @@
 created: 20160913225326135
 creator: cosmos
-modified: 20161104134333062
+modified: 20170125143218422
 modifier: cosmos
 title: VC dimension
 tmap.id: 1f7b50a6-00d9-4288-ae90-871571fc3893
@@ -13,6 +13,39 @@ Definition of //shattering//: [[video|https://www.youtube.com/watch?v=0kWZoyNRxT
 the VC dimension (for Vapnik–Chervonenkis dimension) is a measure of the capacity (complexity, expressive power, richness, or flexibility) of a space of functions that can be learned by a statistical classification algorithm. It is defined as the cardinality of the largest set of points that the algorithm can shatter.
 
 In $$n$$-dimensions, the VC dimension of the set of all linear classifiers is $$n+1$$
+
+See also [[Probably approximately correct]], [[Learning theory]]
+
+...........
+
+See [[Probably approximately correct]] for context.
+
+What happens when $$H$$ or $$C$$ is infinite?
+
+Let $$S \subseteq X$$, define  $$\Pi_C(S) = \{c_S \mid c \in C\}$$ (i.e. the concept class of concepts in $$C$$, but restricted to the subset of $$X$$, $$S$$. The size of $$\Pi_C$$ $$\leq 2^m$$, where $$m$$ is the size of $$S$$.
+
+This is used to define a measure of concept class complexity: [[VC dimension]] (Vapnik-Chervonenkis):
+
+> We say $$S \subseteq X$$ is shattered by $$C$$, if $$|\Pi_C(S)| = 2^{|S|}$$
+> ''VC dimension'' of $$C$$ is the cardinality of the largest set shattered by $$C$$ (If $$C$$ shatters arbitrarily large sets, VC-dim is $$\infty$$).
+
+__intervals__
+
+$$X=\mathbb{R}$$
+
+$$C$$ is intervals over $$\mathbb{R}$$, where $$x$$ in intervals are assigned $$1$$ and those outside $$0$$.
+
+Can have interval that assigns anything to 1, and 2 points, but not for 3 points (+-+). This implies that the VC dimension of the class of intervals is 2.
+
+__rectangles__
+
+there is __a__ set of 4 points that can be shattered by rectangles. However, there is no set of 5 points that is shattered by rectangles, because there is always a point within the extreme left, right, top, bottom.
+
+__Linear halfspaces or LTF (Linear threshold functions)__
+
+Like [[Support vector machine]]s.
+
+VC dimension is n+1 for n dimensional space, (in 2 dimensions, it is 3).
 
 -------------
 

@@ -1,0 +1,27 @@
+created: 20170213234831529
+creator: cosmos
+modified: 20170214143555351
+modifier: cosmos
+tags: [[Chomsky hierarchy]] [[Formal grammar]]
+title: Context-free grammar
+tmap.id: a4ad5f41-70e8-44d9-944c-df8845768172
+type: text/vnd.tiddlywiki
+
+[[intro video|https://www.youtube.com/watch?v=7axUgepqCFc&list=PL601FC994BDD963E4&index=36&spfreload=1#t=5.819361]]
+
+[[Ambiguity in parsing|https://www.youtube.com/watch?v=nlWCOMvDIZ4&list=PL601FC994BDD963E4&index=36&spfreload=1#t=59.738068]]! Finding out if a grammar is ambiguous or not, is [[Undecidable]]! (see [[here|https://www.youtube.com/watch?v=nlWCOMvDIZ4&list=PL601FC994BDD963E4&index=36&spfreload=1#t=3m55s]]). Also [[Undecidable]] to know if two grammars are the same.
+
+[[Parse tree]]s are used to give a string some [[Meaning]] in a [[Compiler]] (like that of a [[Programming language]])
+
+[[Ideas for designing grammars|https://www.youtube.com/watch?v=urwX97TULKw&index=41&list=PL601FC994BDD963E4#t=6m]]
+
+Single-tree grammars: [[Grammars that only have one choice with non-terminals on the RHS|https://www.youtube.com/watch?v=vhcWjh7sFNQ&index=41&list=PL601FC994BDD963E4#t=7m30s]]
+
+!!__Deterministic push-down machines __
+
+(less powerful than context free languages, and equivalent to ''LRK grammars''). Most [[Compiler]]s are described with LRK grammars.
+
+
+!!__Non-deterministic push-down machines __
+
+(equivalent to ''Context free grammars'')

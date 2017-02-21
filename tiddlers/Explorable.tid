@@ -1,6 +1,6 @@
 created: 20161216133336201
 creator: cosmos
-modified: 20161218235739969
+modified: 20170117185256835
 modifier: cosmos
 tags: [[Game development]] Communication [[Data & Knowledge]]
 title: Explorable
@@ -12,6 +12,10 @@ type: text/vnd.tiddlywiki
 http://explorableexplanations.com/
 
 http://bl.ocks.org/
+
+aparatus: https://github.com/cdglabs/apparatus
+
+https://github.com/bijection/g9
 
 http://bl.ocks.org/blacki/ebba08223eba20b56b62
 

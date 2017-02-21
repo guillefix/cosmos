@@ -1,7 +1,7 @@
 created: 20160121195127284
 creator: guillefix
-modified: 20161104134327588
-modifier: guillefix
+modified: 20170124095839777
+modifier: cosmos
 tags: [[Computer Science and IT]]
 title: Computer graphics
 tmap.id: c6bd9abc-9ccf-452d-b31e-3fe1ebcf73ac
@@ -12,4 +12,6 @@ type: text/vnd.tiddlywiki
 
 [[ThreeNodes.js: vvvv "clone" in javascript/webgl|https://github.com/idflood/ThreeNodes.js]]
 
-https://vvvv.org/ <i class="fa fa-thumbs-up"></i>  <i class="fa fa-thumbs-up"></i> <mark>Looks very nice</mark> Visual programming language
+https://vvvv.org/ <i class="fa fa-thumbs-up"></i>  <i class="fa fa-thumbs-up"></i> <mark>Looks very nice</mark> [[Visual programming language]]
+
+[[3D computer graphics]]

@@ -1,0 +1,58 @@
+created: 20170126141310373
+creator: cosmos
+modified: 20170126143811528
+modifier: cosmos
+tags: [[Immune system]]
+title: Antibody
+tmap.id: d6c5d323-8b34-4152-aac3-b36c279e3c5f
+type: text/vnd.tiddlywiki
+
+Molecular receptors of the [[Immune system]]. It binds to [[Antigen]]s and then directs immune response (macrophages, etc.) against the antigen.
+
+Antibodies can recognize many things, and have high specificity. 
+
+-------------
+
+!!!__Structure__
+
+[img[https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Antibody_svg.svg/300px-Antibody_svg.svg.png]]
+
+CDRs are the loops that form the binding site.
+
+[img[https://teaching.ncl.ac.uk/bms/wiki/images/3/33/Antibody.jpg]]
+
+Epitope:     the part of an antigen molecule to which an antibody attaches itself.
+
+Can have different specifities on the two arms of an antibody (bispecifics)
+
+paratope:  also called an antigen-binding site, is a part of an antibody which recognizes and binds to an antigen
+
+--------------
+
+!!!__Gene recombination/rearrangement (V(D)J recombination)__
+
+[[Gene recombination]] through [[Gene splicing]] and other [[Gene expression]] mechanisms, and is used to create the whole diversity of antibodies.
+
+[img[http://www.alyvea.com/biology-textbook/Figure_42_03_01.jpg]]
+
+[img[https://i.ytimg.com/vi/Wk2aZW-GYgM/hqdefault.jpg]]
+
+[vid[https://www.youtube.com/watch?v=Wk2aZW-GYgM]] -- [vid2|https://www.youtube.com/watch?v=h9mqsllg1Cs]]
+
+-----------------
+
+!!!__Darwinian adaptation__
+
+Antibodies take part in the directed evolution in the immune system (which makes it a rather intelligent system).
+
+Somatic hypermutation in the variable region
+
+------------------
+
+!!!__[[Immunotherapy]]__
+
+-----------------
+
+<div id="testmol2" style="height: 400px; width: 400px; position: relative;" data-backgroundcolor="0xffffff" data-style="stick"></div>
+
+<<3Dmol "pdb" "1IGT" "testmol2" "cartoon">>

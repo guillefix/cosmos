@@ -1,7 +1,8 @@
 created: 20160915231026082
 creator: cosmos
-modified: 20161104134331794
+modified: 20170206111258860
 modifier: cosmos
+tags: Polymer
 title: Polymer network
 tmap.id: be92ca8e-d364-41ff-be8c-97981cf7a867
 type: text/vnd.tiddlywiki
@@ -16,3 +17,11 @@ These chains form networks in which each chain would ideally bind to only one ot
 These loops also make it impossible to accurately calculate the material's elasticity, because existing formulas for this calculation assume that the material has no defects.
 
 The new method, __network disassembly spectrometry__ allowed them to measure the number of loops, and see its effect on [[Elasticity]].  They also developed a new theory, as previous models didn't predict what they measured. The theory is based on the [[Phantom network theory]] ([[vid|https://www.youtube.com/watch?v=omEKWZLRvAo#t=1m43s]])
+
+----------------
+
+!!!__Mikado model__
+
+Bend and stretch dominated phases.
+
+Used to model [[Biopolymer network]]

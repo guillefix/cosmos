@@ -1,0 +1,30 @@
+created: 20170129123016969
+creator: cosmos
+modified: 20170129123206222
+modifier: cosmos
+tags: Optimization
+title: Discrete optimization
+tmap.id: afcf06b2-ee2e-4722-af0c-83503ff3d6d6
+type: text/vnd.tiddlywiki
+
+The space $$X$$ over which you are optimizing is discrete. [[Good book|http://www.designofapproxalgs.com/]]
+
+!!!__Discrete optimizatino using energy minimization__
+
+Can formulate discrete optimization as an [[Energy minimization|http://mpawankumar.info/teaching/cdt-optimization/lecture2_2.pdf]] problem on a set of random variables which can take values in a discrete set. This can be formulated as a [[Graphical model]]. [[Energy-based model]], [[Ising model]]..
+
+In simple cases it can be solved iteratively using [[Dynamic programming]]. However, in general, the problem [[NP-hard]] (non-deterministic polynomial).
+
+We can solve it (approximately?) using [[Max-flow min-cut theorem]]. Partition of the graph will correspond to the labelling. We will make terms in the energy correspond to capacities so that the minimum-capacity cut will correspond to minimum energy. For the energy, we will use:
+
+* ''Unary potential''. Links of a particular random variable / node in the [[Graphical model]] to a source, and to a sink, with capacities corresponding to the unary potential (cost of one label or the other).
+
+* ''Pairwise potential''. Links between non-source/sink nodes. Corresponds to cost of two labels being the same (no cut through edge), or different (cut passes through edge). They may be negative, in which case we can't apply this method, and it's NP-hard! This is case is called super-modular. To apply min-cut algo, we want the weights of the link to be postivie, and this is called sub-modular. Sometimes, we can avoid supermodularity, by renaming labels, but in some cases, even this can't avoid negative links, these cases correspond to [[Frustration]]. [[see here|http://mpawankumar.info/teaching/cdt-optimization/lecture2_2.pdf]] (...remember you substracted P from all link weights, on slide..)
+
+Multiple labels: move-making algorithm. 
+
+* Expansion algorithm. $$\alpha$$-expansion.
+** Binary choice: Keep your label, or change to a new label $$\alpha$$.
+** If the distance function is a [[Metric]], the [[Triangle inequality]] ensures sub-modularity, and can use min cut!
+
+This can be used for [[Image processing]], in particular [[Image segmentation]], using the [[Markov network]]s described above.

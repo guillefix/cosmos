@@ -1,6 +1,6 @@
 created: 20161113191959455
 creator: cosmos
-modified: 20161126192938095
+modified: 20170212154910245
 modifier: cosmos
 tags: Neuroscience
 title: Corticonics
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 The study of the foundamtental computations that are applied through out the cortex
 
 Classification of cortical areas according to structural and functional differences cannot in itself bring about an understanding of the common operations con-ducted by the cortex and the manner in which they are carried out. Corticonics is the study of these common processes and their underlying neural mechanisms. 
+
+[[Phase organization of network computations|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4375010/]]
 
 See [[Cortex]]
 

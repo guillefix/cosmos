@@ -1,7 +1,7 @@
 created: 20160206002520146
 creator: guillefix
-modified: 20161104134328646
-modifier: guillefix
+modified: 20170122180446393
+modifier: cosmos
 tags: Humanities Cosmography [[Social sciences]]
 title: Geography
 tmap.id: ef434bb6-fb5e-4844-9d3f-f693da6f399f
@@ -13,6 +13,6 @@ type: text/vnd.tiddlywiki
 
 [[Human geography]]
 
-[[Places]]
+[[Places]] [[globe|http://visualiser.fr/Babylon/cloud/index.html]]
 
 http://scimaps.org/maps/map/in_terms_of_geograph_92/detail

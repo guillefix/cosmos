@@ -1,6 +1,6 @@
 created: 20160218002529202
 creator: guillefix
-modified: 20170107003800243
+modified: 20170107022653834
 modifier: cosmos
 tags: Biology
 title: Genetics
@@ -70,13 +70,17 @@ The field that studies the links between [[Genetics]] and [[Biochemistry]], for 
 
 [[Complex segregation analysis]]
 
-[[Sequence motif identification]]
-
 !!__[[Genomics]]__
 
 Studies whole [[Genome]]s
 
+!!!__[[Bioinformatics]]__
+
 [[Phylogenetics]]
+
+[[Sequence motif identification]]
+
+[[Multiple sequence alignment]]
 
 !!__[[Genetic engineering]]__
 

@@ -1,0 +1,22 @@
+created: 20170216132713206
+creator: cosmos
+modified: 20170216140441477
+modifier: cosmos
+tags: [[Natural language processing]]
+title: Word embedding
+tmap.id: 74f1b72d-296d-4516-806d-15004ad32048
+type: text/vnd.tiddlywiki
+
+See [[Natural language processing]]
+
+[[Lecture|https://www.youtube.com/watch?v=DzaV6_D_dL4&list=PL613dYIGMXoZBtZhbyiBqb0QtgK6oJbpm&index=3]]
+
+count-based methods
+
+word2vec family of methods
+
+Word2Vec is equivalent to PMI factorization of count based models
+
+task-based embedding methods [[video|https://www.youtube.com/watch?v=DzaV6_D_dL4&list=PL613dYIGMXoZBtZhbyiBqb0QtgK6oJbpm&index=3#t=46m]]
+
+http://nlp.yvespeirsman.be/blog/visualizing-word-embeddings-with-tsne/

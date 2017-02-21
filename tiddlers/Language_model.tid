@@ -1,0 +1,83 @@
+created: 20170131161500537
+creator: cosmos
+modified: 20170131171001088
+modifier: cosmos
+tags: [[Natural language processing]]
+title: Language model
+tmap.id: 22f55e41-acd0-49a5-9605-cd36bc84083b
+type: text/vnd.tiddlywiki
+
+
+A [[Probabilistic model]] for [[Language]]: A [[Probability distribution]] over strings (sequence of tokens) in a [[Language]]
+
+!!__Uses of conditional/joint probability models__
+
+[[Machine translation]]
+
+[[Question answering]]
+
+[[Dialogue]]
+
+---------------
+
+We use the [[Chain rule for joint probabilities]] (exact) to expand the joint prob dist of tokens.
+
+Our objective function can be the [[Cross entropy]] (a way of measuring how close two prob dists are) relative to the empirically observed frequency.
+
+''Perplexity'': $$2^{\text{cross entropy}}$$
+
+-----------------
+
+__Data__
+
+WikiText dataset.
+
+---------------
+
+!__Language models__
+
+!!__n-gram models__
+
+A nth-order [[Markov chain]], where each word's prob dist depends on the previous n words. 
+
+[[Maximum likelihood]] correspond to empirical counts of the form $$p(w_3|w_1,w_2)=\frac{count(w_1,w_2,w_3)}{count(w_1,w_2)}$$ for 3-grams.
+
+Maximum likelihood is a bad objective for language, apparently, need instead to choose a good prior and do [[MAP|Maximum a posteriori]]
+
+__Smoothing techniques__
+
+There are many cases which come out with prob 0. To improve on this, we can use bi-grams to resolve these cases. This is the idea of ''back-off'', which is a kind of smoothing technique (c.f. <small>[[Laplace smoothing]]</small>)
+
+One very simple way is linear interpolation: the probability of the next word is a convex combination of the probabilities assigned by the one-gram, bi-gram, three-gram etc, probs.
+
+''Kneser-Ney''
+
+//An empirical study of smoothing techniques for language modeling//
+
+We want our posterior distribution to agree with the real distribution in the real world. For insance, we want to recover [[Zipf's law]] ([[Power laws]], long tails..) These long tails is what make good-old-AI rule systems to fail, as there's too much stuff to account for.
+
+~ constant time algo.
+
+Long n-grams: data is too sparse --> can't really capture long-term dependencies.
+
+-- N-grams can't capture correlations and other patterns which it hasn't seen, so it's bad at generalizing
+
+!!__Neural n-gram language models__
+
+These will be able to better capture correlations, and __generalize__.., by better capturing semantics, stored in the hidden layers..
+
+Use [[Artificial neural network]] to model the n-gram prob dist.: input being n previous words, output prob dist. of next word.
+
+!!__[[Recurrent neural network]]s__
+
+And also [[Augmented RNN]].
+
+Want to have memory going all the way back..
+
+The models are harder to paralelize than the neural n-gram models, because there's depenednce between the network acting at dfifferent points in the sequence.
+
+__Truncated [[Backpropagation]] through time__
+
+Add breaks in the backpropagation, maybe between sentences.
+
+However, we do forward propagate!

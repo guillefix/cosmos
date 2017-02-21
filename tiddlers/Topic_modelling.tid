@@ -1,0 +1,29 @@
+created: 20170113113210790
+creator: cosmos
+modified: 20170113115832002
+modifier: cosmos
+tags: [[Machine learning]]
+title: Topic modelling
+tmap.id: bc69fb0c-62a0-490a-a4d2-309235e97ee3
+type: text/vnd.tiddlywiki
+
+
+
+!!__[[Latent Dirichlet allocation]]__
+
+given number of topics
+
+* documents have multiple topics
+
+* uses [[Generative model]]
+
+Topics: distribution of terms over a fixed vocabulary
+
+tm,  for preprocessing data. reduce stock words (commonly occuring, not useful). snowballC. stemming software.
+
+Algotihm: [[Clustering]] algo.
+
+Self-consistency. each word assigned topics based on other words which are assigned topics.
+
+__Generative model__: Each document has a probability over topics (prior of parameter is Dirichlet). Then each word is drawn from the probability distribution represented by the model, each independently.
+

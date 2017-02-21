@@ -1,13 +1,13 @@
 created: 20160701170121911
 creator: guillefix
-modified: 20161219211535303
+modified: 20170109115924744
 modifier: cosmos
-tags: [[Machine learning]]
+tags: [[Dynamic Bayesian network]]
 title: Hidden Markov model
 tmap.id: f94b0bb8-34f4-4484-99ec-07b8f56cc6dc
 type: text/vnd.tiddlywiki
 
-A type of directed [[Graphical model]] (aka [[Bayesian network]]). See [[here|https://www.quora.com/In-laymans-terms-what-are-the-differences-and-similarities-between-Bayes-Networks-Markov-Decision-Process-and-Hidden-Markov-Models]]. I think in some interpretations, it's the same as a Bayesian network?
+A type of directed [[Graphical model]] (in particular a [[Dynamic Bayesian network]]). See [[here|https://www.quora.com/In-laymans-terms-what-are-the-differences-and-similarities-between-Bayes-Networks-Markov-Decision-Process-and-Hidden-Markov-Models]]. I think in some interpretations, it's the same as a Bayesian network?
 
 When modeling some [[Stochastic process]], there are some variables in the graphical model that are a [[Markov process]] that gives the model dynamics.
 
@@ -18,3 +18,23 @@ This is used, for instance, in [[Machine learning]]
 [ext[STATISTICAL ANALYSIS OF HIDDEN MARKOV MODELS|http://math.bme.hu/~molnar/Molnar-Saska_thesis.pdf]]
 
 https://www.wikiwand.com/en/Hidden_Markov_model
+
+[[presentation|https://dl.dropboxusercontent.com/content_link/WQ1k0b7XK5zg9FDJ5iMUf2xNbyElCe97DivC1CoBBXurPzuXADyVwnHZ6a33pE6i/file]]
+
+!!__Inference__
+
+!!!Forward algorithm
+
+Find likelihood (prob of data, given parameters), computed from joint probability of data and last state.
+
+!!!Backward algorithm
+
+Probability of data given initial state. Can also compute likelihood.
+
+Combining forward $$f$$ and backward $$b$$: $$P(x, h_i = k| \theta) = f_k (i) b_k (i)$$
+
+!!![[Viterbi algorithm]]
+
+!!__Learning__
+
+[[Baum-Welch algorithm]], an [[EM algorithm]]

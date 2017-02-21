@@ -1,0 +1,74 @@
+created: 20170208140436112
+creator: cosmos
+modified: 20170208145827536
+modifier: cosmos
+tags: [[Computational learning theory]]
+title: Exact learning
+tmap.id: e7672ae6-b4de-4f27-b043-c367b881b091
+type: text/vnd.tiddlywiki
+
+
+
+__Learn a [[DFA|Deterministic finite automaton]] representing a target language $$L \subseteq \Sigma^*$$ using membership and equivalence queries to a teacher__
+
+* [[Membership query]]. selects string and asks whether that string is part of the langauge
+* [[Equivalence query]]. learner selects hypothesis DFA H and asks does $$L(H)=L$$? If yes, the algo halts. If no, the teacher gives a counterexample.
+
+We want to exactly learn L using # of queries polynomial in the size of a in DFA for L and the length of the longer coutnerexample given by the teacher.
+
+!!__Angulin's $$L^*$$-algorithm__
+
+See also [[Evolving automata]].
+
+Target language $$L$$. The learner maintans
+
+* A set $$Q \subseteq \Sigma^*$$ of ''access worlds'', with $$\epsilon \in Q$$.
+* A set of $$T \subseteq \Sigma^*$$ of ''test words''.
+
+We say that $$v,w \in \Sigma^*$$ are T-equivalent, deonted $$V\equiv_T w$$ if $$vu \in L \Leftrightarrow wu \in L $$ for all $$ u \in T$$, i.e. $$L(vu)=L(wu)$$.
+
+$$(Q,T)$$ is __separable__ if no two distinct words $$v,w \in Q$$ are T-equivalent.
+
+$$(Q,T)$$ is __closed__ if for all $$q\in Q$$ and all $$a\in\Sigma$$, there exists some $$q' \in Q$$ s.t. $$qa \equiv_T q'$$.
+
+If $$(Q,T)$$ are separable and closed then we define a DFA $$H$$ as follows;
+
+* The set of states of $$H$$ is $$Q$$.
+* The initial state is $$\epsilon$$.
+* Transition function: Given $$q\in Q$$ and $$a \in \Sigma$$, q makes an a-transition to the unique $$q' \in Q$$ s.t. $$qa \equiv_T q'$$.
+* The set of accepting states $$Q \cap L$$
+
+__Algorithm__
+
+//Invariant: $$(Q,T$$ is separable//
+
+# $$Q:=\{\epsilon\}$$, $$T:=\{\epsilon\}$$.
+# If $$(Q,T)$$ is not closed then expand $$Q$$ using membership queries until $$(Q,T)$$ is closed and separable. Add the necessary $$qa$$.
+# Compute hypothesis automaton and ask equivalence query.
+# If yes, then halt.
+# If no, then use counterexample to properly expand $$Q$$ and $$T$$ to again get separable $$(Q,T)$$.
+
+$$L=\{w\in \{a,b\}^* : |w|_b \equiv 3 (mod 4)\}$$
+
+$$|\cdot|_b$$ means number of $$b$$s.
+
+|$$(Q,T)$$|$$H$$|Counterexample|
+|$$(\epsilon, \epsilon)$$||bbb|
+
+...
+
+__Prop__ (for step 5): Suppose $$(Q,T)$$ is sep. and closed; with H the hyp. automaton. Given a counter example $$w \in \Sigma^*$$ , using $$\log{|w|}$$ membership queries, one can find $$q \in \Sigma^* \setminus Q$$ and $$t \in\Sigma^*$$ s.t. $$(Q\cup \{q\}, T\cup \{t\})$$ is separable.
+
+Let $$w=w_1w_2...w_n$$ and let $$q_0 , q_1, ... q_n$$ be the run of $$H$$ on $$w$$. We say that q_i is correct if $$L(q_i w_{i+1}...w_n)=L(w)$$....
+
+Using membership queries and binary shearch, we find $$i$$ s.t. $$q_{i-1}$$ is correct and $$q_i$$ is not correct, that is,
+
+$$L(q_{i-1}w_i...w_n)\neq L(q_iw_{i+1}...w_n)$$
+
+Let $$ Q'=Q\cup \{q_{i-1}w_i\}$$
+
+$$T'=T\cup\{w_{i+1}...w_n\}$$.
+
+Note that $$q_i\equiv_T q_{i-1}w_i$$. But  $$q_i\nequiv_{T'} q_{i-1}w_i$$, so $$(Q',T')$$ is separable.
+
+Proving that the algorithm halts means that it is correct. We can show Q is bounded by the size of the minimum automaton for L

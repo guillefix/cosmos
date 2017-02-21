@@ -1,6 +1,6 @@
 created: 20160624010152080
 creator: guillefix
-modified: 20161128094520262
+modified: 20170117175218249
 modifier: cosmos
 tags: Programming
 title: Programming language
@@ -26,6 +26,8 @@ Compiled into machine code. Much more powerful optimization
 
 <b>[[Visual programming language]]s</b> Nice example: https://vvvv.org/
 
+''Database-based programming'': Nice example: [[Eve language]]!
+
 -------
 
 Most programming languages are context-free. http://stackoverflow.com/questions/898489/what-programming-languages-are-context-free. See [[Theory of computation]]
@@ -49,4 +51,16 @@ Go, Lisp, Clojure,
 https://www.rust-lang.org/
 
 [[Esoteric programming languages|https://esolangs.org/wiki/Main_Page]]
+
+----------------------
+
+!__Programming language design__
+
+Continuing previous post.
+I don't want programming languages, I want programmable environments. The idea is to have an environment which implements a Hofstadter-like strange loop, where the usually-assumed hierarchy of sourceCode -> data/program, folds back on itself, and you just have one thing; whatever you want to call it: visual self-programming environment, self-modifying code, code as data (LISP), etc.
+Bret Victor has explored this, but I think this idea needs to be more mainstream.
+
+Some visual programming languages go some way in this direction, but none seem really satisfying.
+An example of one that doesn't feel satisfying is VVVV. I was just checking it, and you just program, by building a graph, which when "compiled" produces your program. The problem with this, is that it doesn't bootstrap as the idea above does. The kind of graph is always the same, and all your nice software and design ideas that you keep having are only manifested in the products; it doesn't feed back!
+Damn I wished I knew more computer science to try experiment with these things.. Although I guess it's not too late to learn.
 
