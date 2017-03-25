@@ -1,6 +1,6 @@
 created: 20160124143839436
 creator: guillefix
-modified: 20170220165029618
+modified: 20170316163525868
 modifier: cosmos
 tags: Intelligence [[Computer Science and IT]]
 title: Artificial intelligence
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 See [[Machine learning]], [[Intelligence]]
 
 [[Computational intelligence - Scholarpedia|http://www.scholarpedia.org/article/Encyclopedia:Computational_intelligence]]
+
+[[GoodAI roadmap|https://www.goodai.com/roadmap]]
 
 [[Oxford course (with video)|https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/]] [[Deep learning]].
 

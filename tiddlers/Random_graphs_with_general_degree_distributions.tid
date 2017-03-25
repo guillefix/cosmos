@@ -1,41 +1,19 @@
 created: 20160220180534346
 creator: guillefix
-modified: 20161104134331940
-modifier: guillefix
+modified: 20170309160615043
+modifier: cosmos
+tags: [[Random graph]]
 title: Random graphs with general degree distributions
 tmap.id: c20dc505-2d74-49e9-ad0c-66989c5faa26
 type: text/vnd.tiddlywiki
 
-!!__Configuration model__
+!!__[[Configuration model]]__
 
-__Sample calculations__
 
-Average number of edges between two nodes is
+!!!__Chung-Lu model__
 
-$$\frac{k_i k_j}{2m-1} \approx \frac{k_i k_j}{2m}$$
-
-in the limit of large size. This is approximately equal to the //probability of an edge// between the two nodes in the limit of large size too.
-
-__Excess degree distribution__
-
-__Generating functions for the small components__
-
-See derivation in problem sheet or notes or book, using generating functions (in particular it's "power" property where the g.f. of a sum of independent random variables is the product of g.f.s of these rand. vars.)
-
-__Giant component__
-
-Can find expression for size of ''giant component''.
-
-One can then derive condition for existence of giant component in the configuration model. It is called the ''Malloy-Reed condition'':
-
-$$\langle k^2 \rangle -2\langle k \rangle > 0 \Leftrightarrow \exists \text{  GCC}$$
-
-GCC = giant connected component.
-
-!!!__Random graphs with clustering__
-
-__Degree-triangle model__
-
-Variant, that has tunable clustering coefficient.
-
-See [[here|https://people.maths.ox.ac.uk/porterm/research/otmani_dissertation_final.pdf]] and [[here|http://www.uvm.edu/~pdodds/files/papers/others/2010/newman2010a.pdf]]
+ also called the
+Newman-Girvan model and the “sticky model”:
+Given a fixed degree sequence which comes from some other real
+network, two nodes are connected with probability proportional to the
+product of their degrees in the other real network.

@@ -1,0 +1,14 @@
+created: 20170315124409751
+creator: cosmos
+modified: 20170315125319409
+modifier: cosmos
+title: Triangular numbers
+tmap.id: 469bea8c-1e5c-4eef-b275-69b3ad990583
+type: text/vnd.tiddlywiki
+
+
+
+[[vid|https://www.youtube.com/watch?v=h_9WjWENWV8#t=26m]] it's $$\sum_{i=1}^N i=\frac{n(n+1)}{2}$$
+
+
+it's $$\frac{n(n-1)}{2}$$, where there are $$n-1$$ rows, same as the number of pairs from a group of $$n$$.

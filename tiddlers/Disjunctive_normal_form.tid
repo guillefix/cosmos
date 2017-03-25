@@ -1,0 +1,16 @@
+created: 20170319021843932
+creator: cosmos
+modified: 20170319022150283
+modifier: cosmos
+tags: [[Boolean algebra]]
+title: Disjunctive normal form
+tmap.id: 5fa0c8f6-2247-444c-b7c5-e690f270fe4e
+type: text/vnd.tiddlywiki
+
+formulas using and'd expressions, which are then or'd.
+
+ and not [[are a complete set for logical formulas|https://www.youtube.com/watch?v=h_9WjWENWV8#t=56m40s]] which can get from [[Truth table]]
+
+[[vid|https://www.youtube.com/watch?v=BrDto0heyaQ#t=17m40s]] get them from truth tables
+
+See also [[Conjunctive normal form]]

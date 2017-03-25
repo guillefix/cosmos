@@ -1,7 +1,7 @@
 created: 20160131200236841
 creator: guillefix
-modified: 20161104134331942
-modifier: guillefix
+modified: 20170309151535806
+modifier: cosmos
 tags: [[Graph theory]] [[Network theory]]
 title: Random graph
 tmap.id: 1e2447a2-ba50-4eb4-abef-e49547eedb04
@@ -9,15 +9,18 @@ type: text/vnd.tiddlywiki
 
 [[Graph|Graph theory]]s with [[probabilistic|Probability theory]] properties
 
-__Erdős–Rényi model__
+!!__Erdős–Rényi model__
 
 The most common random graph model is the Erdős–Rényi model. Random connections among a given set of nodes.
 
 See [[the chapter of the book|file:///home/guillefix/Dropbox/COSMOS/Physics/stat%20phys,%20kinetic%20theory,%20chaos,%20dynamical%20sys,%20emergence/Networks/%5BMark_Newman%5D_Networks_An_Introduction(BookZZ.org)%20(randgraph).pdf]].
 
-__Configuration model__
+[[Random graphs are locally tree-like|https://www.youtube.com/watch?v=nfB4Ucccws0&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu&index=7#t=51m35s]]
 
-[[http://tuvalu.santafe.edu/~aaronc/courses/5352/fall2013/csci5352_2013_L11.pdf]]
+
+!!__Configuration model__
+
+[ext[http://tuvalu.santafe.edu/~aaronc/courses/5352/fall2013/csci5352_2013_L11.pdf]]
 
 Random graph with given degree distribution
 
@@ -25,7 +28,7 @@ See [[this chapter|file:///home/guillefix/Dropbox/COSMOS/Physics/stat%20phys,%20
 
 .... See Newman's book on [[Networks|Network science]]
 
-[[Probability on Graphs |http://www.statslab.cam.ac.uk/~grg/books/USpgs-rev3.pdf]]
+[ext[Probability on Graphs |http://www.statslab.cam.ac.uk/~grg/books/USpgs-rev3.pdf]]
 
 [[Random Graphs, Geometry and Asymptotic Structure|https://books.google.co.uk/books?id=4rcjDAAAQBAJ&printsec=frontcover&dq=asymptotic&hl=en&sa=X&redir_esc=y#v=onepage&q=asymptotic&f=false]]
 
@@ -33,4 +36,14 @@ https://www.youtube.com/watch?v=pylTEAyUQiM
 
 [[THE PHASE TRANSITION IN INHOMOGENEOUS RANDOM GRAPHS|https://arxiv.org/pdf/math/0504589v3.pdf]]
 
-[[Random Graphs and Complex Networks.  Vol. II|http://www.win.tue.nl/~rhofstad/NotesRGCNII.pdf]]
+[ext[Random Graphs and Complex Networks.  Vol. II|http://www.win.tue.nl/~rhofstad/NotesRGCNII.pdf]]
+
+!!__Erdos-Renyi mixture model__
+
+aka stochastic block model
+
+Erdos-Renyi mixture model ( stochastic block models , see Nowicky and Snijders (2001) ). Nodes are of, say, L different types. Edges are constructed independently, such that the probability for an edge depends only on the type of the nodes at the endpoints of the edge. This model does not produce a power-law degree distribution. Robin et al. (2008) use it to model a metabolic network of E.coli ; nodes are chemical reactions, and two reactions are connected if a compount produced by the first one is a part of the second one (or vice versa). Their network has 605 nodes and 1782 edges. The best-fitting model is a model with L = 21 classes, and many of these classes gather reactions involving a same compound
+
+----------------
+
+[[Constraint satisfaction problem]]

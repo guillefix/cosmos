@@ -1,0 +1,18 @@
+created: 20170325142535032
+creator: cosmos
+modified: 20170325142802943
+modifier: cosmos
+tags: [[Artificial neural network]]
+title: Skip-connection
+tmap.id: f6b91b00-e9dc-44de-8146-aa52b38de200
+type: text/vnd.tiddlywiki
+
+
+Found in [[Residual neural network]]s, and [[Highway network]]s.
+
+
+[[Skip connections|https://www.youtube.com/watch?v=x1kf4Zojtb0#t=16m52.5s]]
+
+[[Skip Connections as Effective Symmetry-Breaking|https://arxiv.org/abs/1701.09175]]. We argue that skip connections help break symmetries inherent in the loss landscapes of deep networks, leading to drastically simplified landscapes. We find, however, that skip connections confer additional benefits over and above symmetry-breaking, such as the ability to deal effectively with the vanishing gradients problem.
+
+[[HIGHWAY AND RESIDUAL NETWORKS LEARN UNROLLED ITERATIVE ESTIMATION|https://arxiv.org/pdf/1612.07771.pdf]]

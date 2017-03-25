@@ -1,6 +1,6 @@
 created: 20161103144740058
 creator: cosmos
-modified: 20161222204136755
+modified: 20170315161212773
 modifier: cosmos
 tags: [[Recurrent neural network]]
 title: Augmented RNN
@@ -37,6 +37,10 @@ type: text/vnd.tiddlywiki
 !!RNNs with memory
 
 See [[Neural networks with memory]]
+
+[[Neural Turing machine]]
+
+[[Differentiable neural computer]]
 
 !!RNNs with attention
 

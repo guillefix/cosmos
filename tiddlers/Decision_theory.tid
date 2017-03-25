@@ -1,6 +1,6 @@
 created: 20160711222935370
 creator: guillefix
-modified: 20161109232349140
+modified: 20170317114936068
 modifier: cosmos
 tags: [[Probability theory]] [[Game theory]]
 title: Decision theory
@@ -14,6 +14,12 @@ https://www.wikiwand.com/en/Decision_theory
 See also [[Machine learning]], and [[Reinforcement learning]]
 
 !!![[Decision tree]]
+
+!!![[Maximum expected utility]] theory
+
+[[Utility function]]s in [[Graphical model]]s
+
+[[Value of perfect information|https://www.youtube.com/watch?v=_Xf_DAl-isw]]. The value of making observations/gaining information before making decisions.
 
 ----------------
 

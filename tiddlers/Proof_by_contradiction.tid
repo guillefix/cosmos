@@ -1,0 +1,12 @@
+created: 20170315130313674
+creator: cosmos
+modified: 20170315130423594
+modifier: cosmos
+tags: [[Proof theory]]
+title: Proof by contradiction
+tmap.id: d2bb8abf-f2f2-419d-aed8-27d6c38f7fa7
+type: text/vnd.tiddlywiki
+
+Assume the opposite of $$X$$, show that it implies a [[logical|Logic]] contradiction, and so $$X$$ should be true.
+
+See [[Irrationality of square root of 2]] for an example

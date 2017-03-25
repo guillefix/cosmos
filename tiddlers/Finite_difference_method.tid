@@ -1,0 +1,10 @@
+created: 20170306093950146
+creator: cosmos
+modified: 20170306094509968
+modifier: cosmos
+tags: [[Numerical methods for PDEs]]
+title: Finite difference method
+tmap.id: d3ab44f8-b8f5-4bf1-a6b6-e4aa1a4247aa
+type: text/vnd.tiddlywiki
+
+Like [[Finite element method]] but for simple geometries

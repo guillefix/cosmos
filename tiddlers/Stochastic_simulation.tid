@@ -1,0 +1,10 @@
+created: 20170302104812484
+creator: cosmos
+modified: 20170302105236867
+modifier: cosmos
+tags: Simulation
+title: Stochastic simulation
+tmap.id: be449ba2-6892-4cb8-85e1-01b76289a70a
+type: text/vnd.tiddlywiki
+
+Tau-leap method. Poission distribution for number of reactions within time $$\tau$$. Assume propensity functions don't change. If the number of reactions become large enough, can approximate with [[Normal distribution]], getting a chemical [[Langevin equation]]

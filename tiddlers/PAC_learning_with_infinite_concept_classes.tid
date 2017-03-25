@@ -1,0 +1,110 @@
+created: 20170306112628528
+creator: cosmos
+modified: 20170306112631698
+modifier: cosmos
+tags: [[Probably approximately correct]]
+title: PAC learning with infinite concept classes
+tmap.id: f55893ec-a713-43d4-87da-32fab7578508
+type: text/vnd.tiddlywiki
+
+What happens when $$H$$ or $$C$$ is infinite?
+
+!!!-->[[VC dimension]]
+
+Roughly, VC-dimension for infinite class $$\approx \log|H|$$ for finite classes. This will enter an extended version of the Occam's razor theorem..
+
+__Consistent learning algorithm for half-spaces__
+
+We will use [[Linear programming]] (for finding feasible solutions) four our consistent learner.
+
+Is there a minimum number of examples needed to be seen for PAC learning?
+
+__YES__
+
+> If $$C$$ has VC dimension d, then any PAC-learning algo for C that outputs $$h\in C$$, requires at least $$\frac{d-1}{32\epsilon}$$ examples.
+
+The more accuracy we want, or the more complex class, the more data we need.
+
+One can't learn a class of infinite VC dimenison.
+
+__Chernoff bound__: let $$X_1,..X_n$$ be independent random variables with $$X_i =1$$ w.p $$p_i$$, and $$X_i=0$$ w.p. $$1=p_i$$. Let $$\mu = E[\sum_i X_i]=\sum_i p_i$$
+
+$$P[|X-\mu| \geq \alpha \mu] \leq 2e^{-\,u\alpha^2/3}$$
+
+Let $$S$$ be the set which gives the VC-dimension d. (i.e. has maximal cardinality while being shattered by C).
+
+$$D$$ is uniform over S.
+
+Suppose your algo sees d/10 examples. outputs some h.
+
+For all examples in S\{examples}, h makes error w.p at least 1/2.
+
+If your number of examples is less than the vc dimension, then, there's not hope of doing well in general, because the unobserved points could be anything..
+
+See more in book.. <mark>what's the meaning of $$\epsilon$$, here?</mark>
+
+
+
+__Growth function__
+
+$$\Pi_C(m)=\max \{|\Pi(s)| \mid |S|=m\}$$
+
+Clearly if $$m \leq d$$ (d=VC dim of C), then $$\Pi_c(m) = 2^m$$
+
+|For $$m\geq d$$, $$\Pi_C(m) = O(m^d)$$|
+
+//Def//: $$\Phi_d(m) = \Phi_d(m-1)+\Phi_{d-1}(m-1)$$ if $$m \geq 1$$ and $$d \geq 1$$
+
+$$\Phi_0(m)=1, \forall m$$, $$\Phi_d(0)=1, \forall d$$
+
+__Lemma__: $$\Pi_C(m) \leq \Phi_d(m)$$ if VC dim(C) = d.
+
+$$\Phi_d(m) = \sum\limits_{i=0}^d \binom{m}{i}$$
+
+$$m=0$$, then $$\forall d, \Phi_d(0)=1$$, $$ \sum\limits_{i=0}^d \binom{0}{i} =1$$
+
+$$d=0$$, then $$\forall m \Phi_0(m)=1$$, $$ \sum\limits_{i=0}^0 \binom{m}{i} =1$$
+
+$$\Phi_d(m) = \Phi_d(m-1)+\Phi_{d-1}(m-1) = \sum\limits_{i=0}^d \binom{m-1}{i} +  \sum\limits_{i=0}^{d-1} \binom{m-1}{i}$$ 
+
+$$ = \binom{m-1}{0}+ \sum\limits_{i=1}^d (\binom{m-1}{i} +  \binom{m-1}{i-1})$$ 
+
+$$ = \binom{m}{0}+ \sum\limits_{i=1}^d (\binom{m}{i} ) = \sum\limits_{i=0}^d \binom{m}{i} $$ 
+
+$$\Phi_d(m) = (\frac{m}{d})^d\sum\limits_{i=0}^d \binom{m}{i} (\frac{d}{m})^d$$
+$$\leq (\frac{m}{d})^d\sum\limits_{i=0}^d \binom{m}{i} (\frac{d}{m})^i$$  $$\leq (\frac{m}{d})^d\sum\limits_{i=0}^m \binom{m}{i} (\frac{d}{m})^i$$  $$=(\frac{m}{d})^d(1+\frac{d}{m})^m \leq (\frac{m}{d})^d e^d = (\frac{me}{d})^d$$
+
+//Proof of// __lemma__: $$\Pi_C(m) \leq \Phi_d(m)$$ if VC dim(C) = d.
+
+$$\Phi_d(m) = \Phi_d(m-1)+\Phi_{d-1}(m-1)$$
+
+
+Let S be some set of size m. 
+
+$$\Pi_c(m)=1$$, if VC-dim(C)=0 (can't satisfy all asignemtns of one point -> must have only one hypothesis).
+
+$$\Pi_c(0)=1$$. For no points.
+
+$$x \in S$$, consider $$S \setminus \{x\}$$
+
+$$|\Pi_C(S \setminus \{x\})| \leq \Pi_c (m-1) \leq \Phi_d(m-1)$$
+
+$$|\Pi_c(s)|-|\Pi_c(S\setminus z)|$$: How many dichotomies over $$S \setminus \{x\}$$ using C that can be extended to S in 2 ways
+
+$$C'=\{c \in \Pi_C(s) \mid c(x)=0 \text{ and } \exists \tilde{c} \in \Pi(S) \text{ s.t. } \tilde{c}(x)=1 \text{ and for all other points z not equal to x, c(z)=tildec(z)}\}$$
+
+C' counts the number of concepts in C restricted to $$S \setminus \{x\}$$, which can be extended to $$S$$ in two possible ways (with x either 0 or 1).
+
+... etc see [[photo|20170130_163623.jpg]]. We need to show that c' has VC-dimension dimension at most d-1 ([[proved here|20170130_163836.jpg]])
+
+Let  T be a set $$T \subset S$$
+
+This shows that  if the VC dimension of a concept class is finite, then the growth on the size of the concept class is polynomial with the dimension of the input space (number of points, m). This restriction is what allows generalization.
+
+> Theorem (Occam's razor, vc dim version): Let $$C$$ be a concept class of VC-dimension $$d$$, and $$H$$ a hypothesis class. Let $$L$$ be a consistent learner for $$C$$ using $$H$$. Then, $$\forall n, \forall c \in C_n, \forall D$$ over $$X_n$$, if $$L$$ is given $$m$$ examples drawn from $$EX(c,D)$$ s.t. $$m \geq \frac{1}{\epsilon} (d+ \log{1/\delta})$$ then $$L$$ outputs $$h$$, that w.p $$\geq 1-\delta$$, satisfies $$err(h) \leq \epsilon$$.
+
+...... proof. see pic. $$\epsilon$$-net. Use trick of doubling your training set, to get finite things which allow to bound probabilities..<mark>but need to understand it better...</mark>
+
+|PAC learning power changes when you relax the requirement that the algo should work for any distribution on the input data|
+
+''Boosting'', relaxing the $$\epsilon$$ condition doesn't increase power..

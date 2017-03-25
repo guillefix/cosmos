@@ -1,0 +1,29 @@
+created: 20170309120414685
+creator: cosmos
+modified: 20170309133739340
+modifier: cosmos
+tags: [[Discrete mathematics]]
+title: Constraint satisfaction problem
+tmap.id: f4ea40e3-c9a3-4c66-97fe-388a126bd5e3
+type: text/vnd.tiddlywiki
+
+
+[[Journey trough statistical physics of constraint satisfaction.. by Lenka Zdeborova|https://www.youtube.com/watch?v=nfB4Ucccws0&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu&index=7]]
+
+[[Graph coloring]] 
+
+There appears to be a [[Phase transition]] w.r.t. to the average [[degree|Degree of a vertex (Graph theory)]] of the random graph, so that above a threshold, depending on the number of colors, the graph is not colorable [[w.h.p.|With high probability]], and below it, it is colorable w.h.p.
+
+Can define annealed, and quenched entropy (which is more indicative)...
+
+Can show that asymptotically for large number of colors $$q$$, the threshold is $$c_{col} \sim 2q\log{q}$$. A simple greedy coloring algorithm "works" (I guess polynomially in average?) for $$c < \frac{c_{col}}{2} \sim q\log{q}$$. [[However, noone has been able to show any other algorithm|https://www.youtube.com/watch?v=nfB4Ucccws0&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu&index=7#t=43m40s]] that would "work" for any larger $$c$$ for random graphs.
+
+[[On the Chromatic Number of Random Regular Graphs|https://www.youtube.com/watch?v=ntuNv3CUjPI]]
+
+-- [[statistical formulation|https://www.youtube.com/watch?v=nfB4Ucccws0&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu&index=7#t=47m34s]]. [[Potts anti-ferromagnet spin model|Potts model]] in a [[Random graph]]
+
+[[How to compute the partition function on trees|https://www.youtube.com/watch?v=nfB4Ucccws0&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu&index=7#t=54m15s]] because ([[Partition function]]) [[Random graphs are locally tree-like|https://www.youtube.com/watch?v=nfB4Ucccws0&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu&index=7#t=51m35s]]
+
+[[Factor graph|https://www.youtube.com/watch?v=nfB4Ucccws0&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu&index=7#t=56m30s]] as those found on [[Markov network]]s
+
+We can analyze them through [[Belief propagation]] ([[vid|https://www.youtube.com/watch?v=nfB4Ucccws0&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu&index=7#t=58m15s]])

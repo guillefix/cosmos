@@ -1,6 +1,6 @@
 created: 20160918193054014
 creator: cosmos
-modified: 20161104134327087
+modified: 20170309131150928
 modifier: cosmos
 title: Belief propagation
 tmap.id: d470f986-bcf7-43c4-b20f-d35d7f834f1c
@@ -17,6 +17,8 @@ type: text/vnd.tiddlywiki
 [[Example|https://www.youtube.com/watch?v=-z5lKPHcumo&index=27&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=7m]]
 
 [[9 - 1 - Belief Propagation- Probabilistic Graphical Models - Professor Daphne Koller|https://www.youtube.com/watch?v=ASsKAaHlhCU]]
+
+[[video|https://www.youtube.com/watch?v=nfB4Ucccws0&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu&index=7#t=58m15s]]
 
 ------------------
 

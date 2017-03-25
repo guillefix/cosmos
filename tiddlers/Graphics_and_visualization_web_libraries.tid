@@ -1,6 +1,6 @@
 created: 20160627204754388
 creator: guillefix
-modified: 20170117185218660
+modified: 20170316163931007
 modifier: cosmos
 title: Graphics and visualization web libraries
 tmap.id: f2ccb944-07df-4ca1-9fd0-b9ed34aaf0ee
@@ -29,6 +29,10 @@ Graphics and visualization libraries for [[Frontend web development]]
 * http://www.x3dom.org/
 
 [[ThreeNodes.js: vvvv "clone" in javascript/webgl|https://github.com/idflood/ThreeNodes.js]] <i class="fa fa-thumbs-up"></i> <i class="fa fa-thumbs-up"></i>
+
+paperjs, canvas
+
+https://www.npmjs.com/package/sandpit
 
 <i class="fa fa-arrow-right"></i> <b>http://threejs.org/</b>
 http://www.sitepoint.com/twelve-javascript-libraries-data-visualization/

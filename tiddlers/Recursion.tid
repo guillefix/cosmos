@@ -1,6 +1,6 @@
 created: 20161128220342360
 creator: cosmos
-modified: 20161129184319241
+modified: 20170322204330344
 modifier: cosmos
 tags: [[Theoretical computer science]]
 title: Recursion
@@ -10,6 +10,14 @@ type: text/vnd.tiddlywiki
 Recursion refers to when a data structure contains simpler versions of itself within it. One can move up and down the //stack// of levels, by //popping//, or //pushing//, respectively.
 
 An example of such a recursive stack is the [[Call stack]]
+
+__Recursion in mathematics__
+
+[[Recurrence equation]]s
+
+__Recursion in computer science__
+
+See [[Programming]], [[Algorithms]]
 
 __Recursion in [[Music]]__
 

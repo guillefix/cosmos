@@ -1,0 +1,16 @@
+created: 20170223101333034
+creator: cosmos
+modified: 20170223101715884
+modifier: cosmos
+tags: [[Runge-Kutta methods]]
+title: Modified Euler method
+tmap.id: 3eb98cfb-36a5-4a6b-8c0e-e8e3b8f53920
+type: text/vnd.tiddlywiki
+
+See [[Euler method]]
+
+$$y_{i+1}=y_i+\frac{h}{2}[f(x_i,y_i)+f(x_{i+1}, y_{i+1})]=y_i+\frac{h}{2}[f(x_i,y_i)+f(x_{i+1}, y_{i}+hf(x_{i},y_{i}))]$$
+
+where we use the [[Euler method]] for $$y_{i+1}$$ on the RHS. This is an example of a prediction-correction method.
+
+Truncation error of order $$h^3$$

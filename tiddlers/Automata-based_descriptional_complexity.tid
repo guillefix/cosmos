@@ -1,7 +1,7 @@
 created: 20160629171605406
 creator: guillefix
-modified: 20161104134327005
-modifier: guillefix
+modified: 20170315214020260
+modifier: cosmos
 title: Automata-based descriptional complexity
 tmap.id: b191e348-cb23-4491-a9b9-230a0d821323
 type: text/vnd.tiddlywiki
@@ -26,7 +26,7 @@ is an analogous descriptional complexity measure as Automatic complexity but for
 
 The finite-state dimension is defined in terms of computations of finite transducers on infinite sequences,
 
-[[Entropy rates and finite-state dimension|http://www.sciencedirect.com/science/article/pii/S0304397505005797]]
+[[Entropy rates and finite-state dimension|http://www.sciencedirect.com/science/article/pii/S0304397505005797]] -- [[pdf|http://cse.unl.edu/~cbourke/pubs/erfsd.pdf]]
 
 [[Finite-state dimension and real arithmetic ☆|http://www.sciencedirect.com/science/article/pii/S089054010700065X]]
 

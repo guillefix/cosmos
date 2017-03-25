@@ -1,13 +1,13 @@
 created: 20160207143043578
 creator: guillefix
-modified: 20161107195256168
+modified: 20170306094424400
 modifier: cosmos
 tags: [[Scientific computing]]
 title: Numerical methods for differential equations
 tmap.id: 1201bcce-c1db-4702-86b0-193336de2cd6
 type: text/vnd.tiddlywiki
 
-!!!''Initial value problem''s (IVP) for __ordinary differential equation__ (ODE) 
+!!!''[[Initial value problem]]''s (IVP) for __ordinary differential equation__ (ODE) 
 
 In  standard form
 
@@ -17,21 +17,25 @@ could represent system of equations (i.e. $$u$$ vector).
 
 Discretize time in steps of size $$k$$ (//timestep//).
 
-Numerical methods (//finite difference discretization// methods):
+Numerical methods (//finite difference discretization// methods, similar to [[Finite element method]]s):
 
-* ''[[Multi-stage|http://web.mit.edu/16.90/BackUp/www/pdfs/Chapter10.pdf]]''. ''Runge-Kutta'': 1 step, i.e. only neighbouring grid points.
+* ''[[Multi-stage|http://web.mit.edu/16.90/BackUp/www/pdfs/Chapter10.pdf]]''. ''[[Runge-Kutta methods]]'': 1 step, i.e. only neighbouring grid points.
 
-** Modified Euler. Accuracy $$O(k^2)$$
+** [[Euler method]]
+
+** [[Modified Euler method]]. Accuracy $$O(k^2)$$
 
 ** Fourth order Runge-Kutta. Accuracy $$O(k^4)$$
 
-* ''[[Multi-step|http://web.mit.edu/16.90/BackUp/www/pdfs/Chapter4.pdf]]''. ''Adams-Bashforth''. Uses points n steps away in grid. Drawback: they are tricky to start up because extra values are needed.
+* ''[[Multi-step|http://web.mit.edu/16.90/BackUp/www/pdfs/Chapter4.pdf]]''. ''[[Adams-Bashforth|Multi-step method]]''. Uses points n steps away in grid. Drawback: they are tricky to start up because extra values are needed.
 
 ** 1st order. Called (forward) [[Euler formula|https://en.wikipedia.org/wiki/Euler_method#Formulation_of_the_method]]. Accuracy $$O(k)$$
 
 ** 2nd order. Accuracy $$O(k^2)$$
 
 ** etc.
+
+All of these methods have [[explicit and implicit variants|https://www.wikiwand.com/en/Explicit_and_implicit_methods]]
 
 __IVP codes in MATLAB__
 
@@ -80,7 +84,7 @@ __[[Stability regions|https://www0.maths.ox.ac.uk/system/files/coursematerial/20
 
 This is manifested as our solution changing on a long timescale, but depending on short time-scale terms in equation.
 
-Solution: backward-differentiation formulas, or ''implicit formulas'', that include $$f(v_{n+1}, t_{n+1})$$, unlike explicit formulas.
+Solution: backward-differentiation formulas, or ''implicit formulas'', that include $$f(v_{n+1}, t_{n+1})$$, unlike explicit formulas. ([[Implicit numerical method]])
 
 These require solving a (generally) nonlinear equation (or a system of equations for PDEs). And this may need to be solved numerically itself often, for example by Newton's method.
 
@@ -94,53 +98,12 @@ Can use chebfun to solve.
 
 --------
 
-!!__Partial differential equations__
+!!__[[Numerical methods for PDEs]]__
 
-Many of these methods full under [[Finite element method]]s
 
-Now have time and space.
-
-Simplest approach is again //finite difference discretization//. Now discretizing time and space.
-
-[img[Numerical_method_PDE.png]]
-
-__Numerical stability__
-
-''[[von Neumann analysis|https://en.wikipedia.org/wiki/Von_Neumann_stability_analysis]]'' or discrete Fourier analysis. Plug imaginary (oscillatory) exponential into the finite difference formula, and see if some mode blows up (by the //amplification factor// being greater than 1), or not. Define region of stability thus.
-
-PDEs can also be __stiff__ for same reasons as ODEs, and then need to use implicit methods too. A non-linear example is the Kuramoto-Sivashinsky equation.
-
-__Order of accuracy__
-
-Defined now for both timestep $$k$$ and space step $$h$$ (see [[notes|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/2203/31/7.pdf]]). To improve order of accuracy over straightforward Euler method (which is first order in $$k$$) we use the __trapezoidal rule__, which is symmetric in $$t$$ (so that first order errors cancel, and is thus 2nd order in $$k$$). In case of heat equation it's known as ''Crank-Nicolson formula''. In the case of heat equation, it's known as the ''leap frog formula'' (1928).
-
-Reaction-diffusion equations and other stiff PDEs. Can use exponential integrator methods... Solitons
-
-__Finite differencing in general grids__
-
-Not necessarily equally-spaced.
-
-Principle:
-
- 1. At each $$x_j$$ decide which data, from neighbouring points, $$v_{j-r}, ..., v_{j+s}$$ to use.
-
-2. Interpolate these data by polynomial of degree $$r+s$$.
-
-3. Finite difference approximation to $$k$$th derivative is: $$p^{(k)}(x_j)$$.
-
-We don't do these steps explicitly at every step, rather there are slick algorithms to get a formula for general $$v$$s for arbitrary grids $$x_j$$s, and one uses that formula. See //B. Fornberg, “Generation of finite difference formulas on arbitrarily spaced grids,” Math. Comput. 51 (1988), 699-706// and //B. Fornberg, “Calculation of weights in finite difference formulas”, SIAM Review 40 (1998), 685-691.//
-
-In multiple space dimension same principles apply, but the system of equations needed to be solved for implicit methods corresponds to a matrix that has a much wider "band" (i.e. set of non-zero diagonals) than for 1 dimension. The structure of this matrix, in the case of discretizing the Laplacian is the famous "discrete or lattice Laplacian" (related to the [[Graph laplacian]]). See [[notes|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/2203/38/8.pdf]]. This Laplacian can often be written as a //Kronecker sum//.
-
-[[Spectral methods]]
-
--------
-
-Examples of Differential Equations, with nice explanations:
-
-[[Trefethen et al.'s PDE COFFEE TABLE BOOK|https://people.maths.ox.ac.uk/trefethen/pdectb.html]]
-
-Reaction-diffusion equations in [[Morphogenesis]]
+* [[Finite element method]]s for complex geometries
+* [[Finite volume method]]s for [[Hyperbolic geometry]]
+* [[Finite difference method]] for simple geometry.
 
 -------
 

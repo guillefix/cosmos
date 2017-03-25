@@ -1,19 +1,23 @@
 created: 20170103163910532
 creator: cosmos
-modified: 20170110105315545
+modified: 20170314145244182
 modifier: cosmos
 tags: [[Monte Carlo]] [[Markov chain]]
 title: Markov chain Monte Carlo
 tmap.id: 3750c8a4-5ce0-490c-b3ba-69c87e86a2bb
 type: text/vnd.tiddlywiki
 
-[[Markov chain]]s to [[sample|Sampling]] in [[Monte Carlo]] methods.
+[[Markov chain]]s to [[sample|Sampling]] in [[Monte Carlo]] methods, useful for [[Bayesian inference]]
 
 !!![[Metropolis-Hastings algorithm]]
 
 [[Random walk Metropolis]]
 
 Convergence results ([[Ergodic theorem]]s, etc) can be shown using results in [[Discrete-time Markov chain]]
+
+''Measure of convergence'': Gelman and Rubin’s $$\hat{R}$$, but must start the ensemble of walkers/chains well dispersed on the sampling space.
+
+''Performance of samplers'': number of effective samples per unit time. Need effective sample size (number of samples that need to pass so that the new sample is approx independent). We are interested on this because independence samplers often converge to the stationary distribution faster. However, [[Antithetic sampling]] (where new samples are anti-correlated to current samples) can converge faster than independence sampling! Can estimate effective sample size experimentally.. any theroy?
 
 !![[Gibbs sampling]]
 

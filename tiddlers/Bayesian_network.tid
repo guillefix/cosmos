@@ -1,6 +1,6 @@
 created: 20161219211550316
 creator: cosmos
-modified: 20170205121601930
+modified: 20170317124246227
 modifier: cosmos
 tags: [[Graphical model]] Causality
 title: Bayesian network
@@ -44,6 +44,11 @@ parameters of the network (and this is why they hold in some of the distribution
 
 [[Independence and factors|https://www.coursera.org/learn/probabilistic-graphical-models/lecture/JRkCU/independencies-in-bayesian-networks]], [[I-map]]s
 
+
+!!![[Causality in Bayes nets|https://www.youtube.com/watch?v=bPGr5kFQbaw#t=10m40s]]
+
+The arrows need not represent [[causal|Causality]] structure, but if they do the models tend to be simpler.
+
 !__Types of Bayesian networks__
 
 !!__[[Template model]]s__
@@ -59,11 +64,13 @@ Ways of representing graphical models that have a lot of internal shared structu
 
 !!__[[Structured CPD|https://www.youtube.com/watch?v=gkRBlXj8h-w&index=24&list=PL50E6E80E8525B59C]]s__
 
+-->[[Summary of structured CPDs|https://www.youtube.com/watch?v=bPGr5kFQbaw#t=19m40s]]
+
 CPDs which extra structure, which are useful for models with lots of variables.
 
 Context-specific independence
 
-* [[Tree-structured CPD|https://www.youtube.com/watch?v=VuSDyCh1ryY&list=PL50E6E80E8525B59C&index=25]]
+* [[Tree-structured CPD|https://www.youtube.com/watch?v=VuSDyCh1ryY&list=PL50E6E80E8525B59C&index=25]], like [[Decision tree]]s
 
 ''Fuzzy-OR structure'' (see [[here|https://www.youtube.com/watch?v=KDecpoQeIdE&index=26&list=PL50E6E80E8525B59C]]), is useful when an event can be caused by several possible causes. We model this using an intermediate $$Z$$ variable, which determines if the cause actually causes the effect (it is always 0 if the cause is inactive, and 1 with a certain probability if the cause is active). The effect occurs, if either of the Zs is 1.
 

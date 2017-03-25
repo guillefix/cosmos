@@ -1,12 +1,27 @@
 created: 20160131000110996
 creator: guillefix
-modified: 20161104134327441
-modifier: guillefix
+modified: 20170320225926872
+modifier: cosmos
 tags: [[Discrete mathematics]]
 title: Combinatorics
 tmap.id: ca5ca841-f564-4923-b691-0ed2d6076e2d
 type: text/vnd.tiddlywiki
 
+[[counting tricks|https://www.youtube.com/watch?v=t3XdRbPNtdg#t=41m40s]]
+
 See  [[Analytic combinatorics]]
 
 https://en.wikipedia.org/wiki/Latin_square
+
+Some approaches:
+
+* Recursive method (I think the one used in [[Analytic combinatorics]])
+* Bijective approach
+* Matrix integrals
+* [[Symmetry]]es
+
+[[Probabilistic combinatorics]]
+
+[[Permutation]]s, [[Combination]]s
+
+[[Derangement]]

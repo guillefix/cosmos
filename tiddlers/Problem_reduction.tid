@@ -1,0 +1,12 @@
+created: 20170319153339994
+creator: cosmos
+modified: 20170319155219818
+modifier: cosmos
+tags: Algorithms
+title: Problem reduction
+tmap.id: 455d900f-e9af-400e-a22e-fa3618f740d2
+type: text/vnd.tiddlywiki
+
+[[Reductions|https://www.youtube.com/watch?v=BrDto0heyaQ#t=53m]], -- [[an example|https://www.youtube.com/watch?v=BrDto0heyaQ#t=59m30s]] in [[Boolean satisfiability problem]]  -- [[example here|https://www.youtube.com/watch?v=BrDto0heyaQ#t=1h9m]] -- [[2SAT to strongly connected components|https://www.youtube.com/watch?v=BrDto0heyaQ#t=1h23m15s]]
+
+[[What if reduction is exponential time?|https://www.youtube.com/watch?v=BrDto0heyaQ#t=1h10m41s]]. Reductions should be polynomial for them to be useful..

@@ -1,15 +1,15 @@
 created: 20160904163050319
 creator: cosmos
-modified: 20170118225010241
+modified: 20170319193449419
 modifier: cosmos
 tags: [[Evolutionary computing]]
 title: Genetic algorithm
 tmap.id: fd32ac1f-d365-408b-a58e-855544773655
 type: text/vnd.tiddlywiki
 
-https://en.wikipedia.org/wiki/Genetic_programming
 
-https://en.wikipedia.org/wiki/Gene_expression_programming
+
+[[Genetic programming]]
 
 [ext[presentation|https://engineering.purdue.edu/~sudhoff/ee630/Lecture02.pdf]]
 
@@ -28,3 +28,7 @@ Holland, J. H. (1992). Adaptation in Natural and Artificial Systems, MIT Press, 
 As a result, uniformly redundant representations do not change the behavior of GAs. Only by increasing r, which means overrepresenting the optimal solution, does GA performance increase. Therefore, non-uniformly redundant representations can only be used advantageously if a-priori information exists regarding the optimal solution.
 
 Bias towards simplicity (see [[MMathPhys oral presentation]]) similar to regularization in [[Machine learning]]?
+
+---
+
+[[simple intro vid|https://www.youtube.com/watch?v=_of6UVV4HGo]]

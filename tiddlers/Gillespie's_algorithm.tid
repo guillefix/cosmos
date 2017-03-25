@@ -1,10 +1,14 @@
 created: 20170106105232038
 creator: cosmos
-modified: 20170106105239263
+modified: 20170302104808807
 modifier: cosmos
+tags: [[Stochastic simulation]]
 title: Gillespie's algorithm
 tmap.id: 72312d08-394f-4431-bbf2-ee561b4981df
 type: text/vnd.tiddlywiki
 
 
 {{gillespie_algo.pdf}}
+
+
+

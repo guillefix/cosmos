@@ -1,0 +1,49 @@
+created: 20170306112220866
+creator: cosmos
+modified: 20170306112304418
+modifier: cosmos
+title: Learning Boolean conjunctions
+tmap.id: d03cbc04-6629-4180-afb2-a4cfa6ebc7da
+type: text/vnd.tiddlywiki
+
+See [[Probably approximately correct]]
+
+variables x1, ..., xn
+
+c = x1 and x2 and not x3 ... and xn
+
+Algorithm
+
+# Start with $$h=x_1 \wedge \bar{x_1} \wedge ... \wedge x_n \wedge \bar{x_n}$$
+
+# for any observed input/output pair (\vec{a}, 1). For all i, if $$a_i = 1$$, drop $$\bar{x_i}$$, if $$a_i=0$$, drop $$x_0$$.
+
+# Return h.
+
+we can only make false negative errors. if the real function c:
+
+$$c(a)=1$$, $$h(a)$$ may be 0 or 1.
+
+$$c(a)=0$$ ==> $$h(a)=0$$.
+
+Literal l. $$p(l) = P_{a\sim D} [c(a)=1 \wedge l=0 \text{ in } a]$$. .. l is something like $$x_1$$, or $$\bar{x_1}$$..
+
+literal $$l$$ causes missclassification if the event $${c(a)=1 \wedge l=0 \text{ in } a}$$ is not observed.
+
+We worry about non-rare events: $$p(l) \geq \frac{\epsilon}{2n}$$. We call these //bad literal//s
+
+$$A_l$$ is the event that for m points drawn independently from D, $$l$$ is a bad literal , but not eliminated from h.
+
+Probability: $$P(A_l) = (1-p(l))^m \leq (1-\frac{\epsilon}{2n})^n$$
+
+$$E=\cup_{l \text{ bad}} A_l$$
+
+//Probably//: Probability that we don't eliminate all bad literals is small: $$P(E) \leq \sum_{l \text{ bad}} P(A_l) \leq (\#bad literals) (1-\frac{\epsilon}{2n})^m$$
+
+$$\leq 2n  (1-\frac{\epsilon}{2n}^m \leq 2n \exp{(-m\epsilon/2n)}\leq \delta$$
+
+..
+
+//Approximately//: Probability of error, if we eliminate all bad literals, is small: $$err(h) = P_{a\sim D} [c(a)=1 \wedge h(a)=0] \leq \sum_{l \text{ good}} p(l) \leq \epsilon$$
+
+$$c(a)=1 \wedge h(a)=0 \Rightarrow \exists l \in h, l \in c$$ s.t. $$l=0 $$ in $$a$$.

@@ -1,0 +1,12 @@
+created: 20170306184154770
+creator: cosmos
+modified: 20170306184240265
+modifier: cosmos
+tags: [[Overfitting and underfitting]]
+title: Underfitting
+tmap.id: 8f6f1e9e-38b3-4b7c-8a0c-b9296f0cf8a5
+type: text/vnd.tiddlywiki
+
+See [[Overfitting and underfitting]]
+
+A learning algorithm with a lot of ''bias'', meaning that they impose a lot of a priori structure/assumptions to the fitted functions. These, however, tend to have low ''variance'', meaning that the fitted function doesn't tend to vary much when different training data sampled from the same process are used, they are //stable//

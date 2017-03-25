@@ -1,6 +1,6 @@
 created: 20160913110136500
 creator: cosmos
-modified: 20161104134329892
+modified: 20170325141944911
 modifier: cosmos
 tags: [[Artificial neural network]]
 title: Neural network theory
@@ -20,6 +20,8 @@ Even single-layer ones. Find papers
 __Universal approximator theorem__
 
 See paper mentioned in Hugo's vid, //single hidden layer ANNs can approximate any continuous function with sufficiently many neurons in the hidden layer//. There may not be a //learning algorithm// to find the right parameter set though.
+
+__Universality of [[Recurrent neural network]]s__
 
 !!!__Baye's theorem as a softmax__
 
@@ -60,3 +62,9 @@ Furthermore bit variables allow an accurate multiplication approximator that tak
 !!__Learning of neural networks__
 
 See [[Learning theory]], [[Artificial neural network]]s
+
+----------------------
+
+Neural network dynamics, see [[Dynamical system]]s
+
+[[Dynamical Systems Theory for Transparent Symbolic Computation in Neuronal Networks|https://pearl.plymouth.ac.uk/handle/10026.1/8647]] We show that a correspondence can be found between these networks and [[Finite-state transducer]]s, and use the derived abstraction to investigate how noise affects computation in this class of systems, unveiling a surprising facilitatory effect on information transmission.

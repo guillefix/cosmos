@@ -1,13 +1,13 @@
 created: 20160615144035778
 creator: guillefix
-modified: 20161104134331928
-modifier: guillefix
-tags: [[Probability theory]]
+modified: 20170312160822494
+modifier: cosmos
+tags: [[Probabilistic model]]
 title: Random-cluster model
 tmap.id: 6cabdd08-fd0a-4cb5-bf23-8b01162665d4
 type: text/vnd.tiddlywiki
 
-A family of [[probabilistic|Probability theory]] models invented by Fortuin and Kasteleyn which include [[Percolation]], and the [[Ising|Ising model]] and Potts models as special cases.
+A family of [[Probabilistic model]]s invented by Fortuin and Kasteleyn which include [[Percolation]], and the [[Ising|Ising model]] and Potts models as special cases.
 
 The configuration space of the random-cluster model is the set of all subsets of the edge-set $$E$$, which we represent as the set $$\Omega={0,1}^E$$. The model may be viewed asa parametric family of probability measures $$\phi_{p,q}$$ on $$\Omega$$. When $$q=1$$, we recover bond [[Percolation]], when $$q=2$$, we have the [[Ising model]], and when $$q=2,3,4,...$$ we have different versions of the [[Potts model]].
 

@@ -1,0 +1,13 @@
+created: 20170223104613450
+creator: cosmos
+modified: 20170223104709452
+modifier: cosmos
+tags: [[Numerical methods for differential equations]]
+title: Multi-step method
+tmap.id: c0c65bf0-663f-4f56-a128-96baf913e75b
+type: text/vnd.tiddlywiki
+
+//aka Adams-Bashforth methods//
+
+[[Numerical methods for differential equations]] which calculate the next step based on not only the previous step, but several ($$k$$) previous steps.
+This helps with stability.

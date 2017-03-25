@@ -1,0 +1,16 @@
+created: 20170223095933268
+creator: cosmos
+modified: 20170223100039340
+modifier: cosmos
+tags: [[Ordinary differential equations]]
+title: Initial value problem
+tmap.id: fe760bf6-9f4e-4867-a699-d56689fcc3b7
+type: text/vnd.tiddlywiki
+
+The problem of finding a solution for an [[Ordinary differential equations]] where the necessary conditions are given at one point (the "initial values").
+
+__Standard form__
+
+For 1st order:
+
+$$\frac{dy}{dx}=f(x,y)$$

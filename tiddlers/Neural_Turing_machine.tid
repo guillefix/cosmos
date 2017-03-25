@@ -1,13 +1,14 @@
 created: 20161017204437857
 creator: cosmos
-modified: 20161104163609935
+modified: 20170315161045095
 modifier: cosmos
 tags: [[Augmented RNN]]
 title: Neural Turing machine
 tmap.id: 63fb1ec6-f157-4587-b52f-d884d30c35e9
 type: text/vnd.tiddlywiki
 
-A differentiable [[Turing machine]] the internal program of which can thus be [[learned|Machine learning]]. The program can be represented using [[Artificial neural network]]s
+A differentiable [[Turing machine]] the internal program of which can thus be [[learned|Machine learning]]. The program can be represented using [[Artificial neural network]]s. A Neural Turing Machine (NTM) architecture contains two basic components: a neural
+network controller and a memory bank
 
 [img[http://image.slidesharecdn.com/neuralturingmachines-150104010840-conversion-gate01/95/neural-turing-machines-7-638.jpg?cb=1420333769]]
 
@@ -46,6 +47,11 @@ A set of vectors with elements in the range $$(0,1)$$ is outputted by the write 
 * An erase vector $$\mathbf{e}$$
 * An add vector $$\mathbf{a}$$
 
+Algorithm:
+
+# Update each memory location from the previous time $$\mathbf{M}_{t-1}$$ by $$\tilde{\mathbf{M}_t}(i) \leftarrow \mathbf{M}_{t-1}(i)[\mathbf{1} -w_t(i)\mathbf{e}_t]$$, where $$\mathbf{1}$$ is a row vector of all 1s, and the multiplication against the memory location acts pointwise.
+# Adding the add vector: $$\mathbf{M}_t (i)\leftarrow \tilde{\mathbf{M}_t}(i)+w_t(i)\mathbf{a}_t$$
+
 !!__Addressing mechanism__
 
 {{NTM addressing mechanism}}
@@ -56,11 +62,79 @@ See [[here|http://distill.pub/2016/augmented-rnns/]] for interactive version. Th
 
 Two combined addressing mechanisms:
 
-* "[[content-based addressing|Content-addressable memory]],”  focuses attention on locations based on the similarity between their current values and values emitted by the controller.
+* "[[content-based addressing|Content-addressable memory]],”  focuses attention on locations based on the similarity between their current values and values emitted by the controller. See //Focusing by content// on paper
 
-* "location-based addressing". In certain tasks the content of a variable is arbitrary, but the variable still needs a recognisable name or address. Loops are an example of where we need this.
+* "location-based addressing". In certain tasks the content of a variable is arbitrary, but the variable still needs a recognisable name or address. Loops are an example of where we need this. See //Focusing by location// on paper
 
 <small>Content-based addressing is strictly more general than location-based addressing
 as the content of a memory location could include location information inside it. In our ex-
 periments however,  providing location-based addressing as a primitive operation proved
 essential for some forms of generalisation, so we employ both mechanisms concurrently.</small>
+
+!!__Controller__
+
+Advantages and disadvantages of feedforward vs recurrent (LSTM) controller network. With a single read head, it can perform only a unary transform on a single memory vector at each time-step, with two
+read heads it can perform binary vector transforms, and so on. Recurrent controllers can
+internally store read vectors from previous time-steps, so do not suffer from this limitatio
+
+!!__Experiments__
+
+The hallmark of such solutions is that they generalise well beyond the range of
+the training data
+
+__copy__,
+
+learns to copy onto memory, go back to beginning (using associative memory), and iterate over memory printing result, using the relative, location-based memory addressing mechanism
+
+ __repeat copy__, 
+
+learns to store the number of times it needs to repeat.
+
+Whereas
+LSTM fails both tests, NTM succeeds with longer sequences and is able to perform more
+than ten repetitions; however it is unable to keep count of of how many repeats it has
+completed, and does not predict the end marker correctly. This is probably a consequence
+of representing the number of repetitions numerically, which does not easily generalise
+beyond a fixed range
+
+__associative recall__
+
+The next order of complexity in organising data arises from “indirection”—that
+is, when one data item points to another. We test the NTM’s capability for learning an
+instance of this more interesting class by constructing a list of items so that querying with
+one of the items demands that the network return the subsequent item
+
+Figure 10 shows that NTM learns this task significantly faster than LSTM, terminating
+at near zero cost within approximately 30, 000 episodes, whereas LSTM does not reach
+zero cost after a million episodes. makes sense as the architecture of the NTM seems much more tuned for this task.
+
+__Dynamic n-grams__
+
+The goal of the dynamic N-Grams task was to test whether NTM could rapidly adapt to
+new predictive distributions. In particular they wanted to test if it could use its memory as a re-writable table that it could use to keep count of transition statistics, thereby
+emulating a conventional N-Gram model.
+
+ The network observes the sequence one bit at a time and is then
+asked to predict the next bit. NTM achieves a small, but significant
+performance advantage over LSTM, but never quite reaches the optimum cost. Close analysis of NTM’s memory usage
+(Figure 15) suggests that the controller uses the memory to count how many ones and zeros
+it has observed in different contexts, allowing it to implement an algorithm similar to the
+optimal estimator.
+
+__Priority sort__
+
+This task tests whether the NTM can sort data—an important elementary algorithm. A
+sequence of random binary vectors is input to the network along with a scalar priority
+rating for each vector. The priority is drawn uniformly from the range [-1, 1]. The target
+sequence contains the binary vectors sorted according to their priorities
+
+memory use led us to hypothesise that it uses the priorities to determine the relative location
+of each write. T
+
+<small>Note that eight parallel
+read and write heads were needed for best performance with a feedforward controller on
+this task; this may reflect the difficulty of sorting vectors using only unary vector operations
+(see Section 3.4).
+</small>
+
+What [[Sorting algorithm]] is it using? From pictures I think it sorts while writing, and then reads in sequence. But how does it sort it anyway?

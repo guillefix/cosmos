@@ -1,12 +1,24 @@
 created: 20160629232938000
 creator: guillefix
-modified: 20161129141252626
+modified: 20170315172610103
 modifier: cosmos
 tags: [[Data structure]]
 title: Heap (data structure)
 tmap.id: 6aacb0ec-19c5-4396-a965-e45c1dd2d3e1
 type: text/vnd.tiddlywiki
 
-[ext[https://en.wikipedia.org/wiki/Heap_(data_structure)]]
+[ext[https://en.wikipedia.org/wiki/Heap_(data_structure)]] A [[Binary tree]] which is complete and the children are smaller than the parents.
 
 a specialized tree-based data structure that satisfies the heap property: If A is a parent node of B then the key (the value) of node A is ordered with respect to the key of node B with the same ordering applying across the heap. A heap can be classified further as either a "max heap" or a "min heap". 
+
+[[video|https://www.youtube.com/watch?v=odNJmw5TOEE&list=PL6ED884C7AEE68027&index=2#t=57m30s]]
+
+__Algorithms on heaps__
+
+* Get max O(1), it's at the root.
+
+* Fixing the heap after [[Inserting into a heap|https://www.youtube.com/watch?v=odNJmw5TOEE&list=PL6ED884C7AEE68027&index=2#t=1h2m]], after deleting, after changing. All $$O(\log{n})$$.
+
+* [[Finding indices when in level ordering|https://www.youtube.com/watch?v=odNJmw5TOEE&list=PL6ED884C7AEE68027&index=2#t=1h14m40s]]
+
+* [[Building a heap|https://www.youtube.com/watch?v=odNJmw5TOEE&list=PL6ED884C7AEE68027&index=2#t=1h25m]]

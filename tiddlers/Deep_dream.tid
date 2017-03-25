@@ -1,0 +1,16 @@
+created: 20170313182455325
+creator: cosmos
+modified: 20170313183820109
+modifier: cosmos
+tags: [[Deep art]]
+title: Deep dream
+tmap.id: 295634fc-74c1-4783-9c8c-3bc0ae86e60e
+type: text/vnd.tiddlywiki
+
+See [[Convolutional neural network]], [[Deep art]]
+
+[[video|https://www.youtube.com/watch?v=GHVaaHESrlY&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=9#t=42m44s]]
+
+Basically, we feed the image forward, set the gradients equal to the activations, and then backpropagate to the image. Update the image along the calculated gradient and repeat. 
+
+This amplifies any features that the network slightly detected. Kind of like [[Apophenia]]

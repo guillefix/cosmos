@@ -1,0 +1,30 @@
+created: 20170314141504174
+creator: cosmos
+modified: 20170319210201448
+modifier: cosmos
+tags: [[Markov chain Monte Carlo]]
+title: Hamiltonian Monte Carlo
+tmap.id: 3aaae9a8-724f-46c7-b9eb-d9af3063259f
+type: text/vnd.tiddlywiki
+
+Implemented in [[Stan language]].
+
+Transform unormalized posterior into a [[Hamiltonian]]/Energy by $$H=U(\theta)+K(p)$$ $$=-\log{[p(X|\theta) p(\theta)]}+\frac{p^T p}{2}$$.
+
+For each iteration:
+
+:Give a random momentum to each of an ensemble of particles, then making it evolve according to [[Hamiltonian dynamics]] for some period of time (which means it should approach the [[Boltzmann distribution]]), and then accept new position according to an acceptance rule, like that of the [[Metropolis-Hastings algorithm]], which is that we accept if $$H_{\text{final}} > H_{\text{initial}}$$, and otherwise we use the [[Boltzmann distribution]] as the probability of accepting.
+
+This basically uses as its [[Proposal distribution]] something that in expectation/asympotically is the Boltzmann distribution. As said [[here|http://www.inference.phy.cam.ac.uk/mackay/itprnn/ps/387.412.pdf]], if the Hamiltonian dynamics simulation is perfect, the acceptance rule always accept because $$H$$ is conserved. However, if we assume that the simulation does random errors such  that the distribution of errors is proportional to the Boltzmann distro, then we put this distro in the acceptance rule, so that it cancels out in the stationary distribution. However, <mark>How do we know that the random errors such  that the distribution of errors is proportional to the Boltzmann distribution?<mark>
+
+[[Hamiltonian Monte Carlo explained|http://arogozhnikov.github.io/2016/12/19/markov_chain_monte_carlo.html]]
+
+[[McKay's book chapter|http://www.inference.phy.cam.ac.uk/mackay/itprnn/ps/387.412.pdf]]
+
+[[another book chapter|https://arxiv.org/pdf/1206.1901.pdf]]
+
+--------------
+
+[[Scalable Bayesian Inference with Hamiltonian Monte Carlo|https://www.youtube.com/watch?v=VnNdhsm0rJQ]]
+
+[[Efficient Bayesian inference with Hamiltonian Monte Carlo -- Michael Betancourt (Part 1)|https://www.youtube.com/watch?v=pHsuIaPbNbY&t=2s]]

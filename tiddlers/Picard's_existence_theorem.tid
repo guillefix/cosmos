@@ -1,0 +1,18 @@
+created: 20170223095222956
+creator: cosmos
+modified: 20170223095917941
+modifier: cosmos
+tags: [[Ordinary differential equations]]
+title: Picard's existence theorem
+tmap.id: ca7844f2-530a-4c13-8189-da1539ab7e43
+type: text/vnd.tiddlywiki
+
+If $$f$$ is Lipshitz continuous, ....
+
+$$\frac{dy}{dx}=f(x,y)$$
+
+Basically, f has to be continuous, $$\frac{\partial f}{\partial y}$$ has to be continuous, then there is a solution sufficiently close to the initial value point (where "close" is defined by the theorem).
+
+------------------
+
+If the solution y(x) hits a singularity, you can't extend the solution further..

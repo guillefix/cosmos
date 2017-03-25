@@ -1,8 +1,8 @@
 created: 20160704164449084
 creator: guillefix
-modified: 20170205121434392
+modified: 20170317213525534
 modifier: cosmos
-tags: [[Machine learning]]
+tags: [[Machine learning]] [[Probabilistic model]]
 title: Graphical model
 tmap.id: b32995bc-055f-468e-b4ce-1fdf793c6a5e
 type: text/vnd.tiddlywiki
@@ -15,7 +15,7 @@ http://cs.brown.edu/courses/cs242/lectures/
 
 !__Representation__
 
-[[Coursera course|https://www.coursera.org/learn/probabilistic-graphical-models/home]]
+[[Coursera course|https://www.coursera.org/learn/probabilistic-graphical-models/home]] -- [[Knowledge engineering|https://www.youtube.com/watch?v=bPGr5kFQbaw]]
 
 [[Graph]]s:
 
@@ -24,7 +24,7 @@ http://cs.brown.edu/courses/cs242/lectures/
 
 See [[here|https://www.youtube.com/watch?v=ZYUnyyVgtyA&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=25#t=7m10s]] for the distinction of directed vs undirected graphical models. The difference, is that a directed graphical model is an undirected one, but where the factors that correspond to the edges, are normalized, because they correspond to [[Conditional probability]]es
 
-!!__[[Directed graphical models|Bayesian network]]__
+!!__[[Directed graphical models|Bayesian network]]__ (Bayesian nets)
 
 !!!__[[Template model]]s__
 
@@ -39,7 +39,7 @@ Ways of representing graphical models that have a lot of internal shared structu
 
 An importance class are those that show [[Structured CPD|https://www.youtube.com/watch?v=gkRBlXj8h-w&index=24&list=PL50E6E80E8525B59C]]s
 
-!!__[[Undirected graphical models|Markov network]]__
+!!__[[Undirected graphical models|Markov network]]__ (Markov nets)
 
 !!!__Independencies__
 
@@ -51,7 +51,39 @@ A perfect (independence) map is one such that $$I(G) = I(P)$$
 
 !__[[Inference|Inference in graphical models]]__
 
-[[Variational inference]]
+!!![[Conditional Probability Queries|https://www.youtube.com/watch?v=Qa04kw1gKHk&list=PL50E6E80E8525B59C&index=36]] 
+
+--  [[Exact inference and even approximate inference are|https://www.youtube.com/watch?v=Qa04kw1gKHk&list=PL50E6E80E8525B59C&index=36#t=2m]] [[NP-hard]]. <small>This comes about because the sum-product calculation over all possibilities when doing [[Marginalization]] involves exponentially many terms</small>. However, this is for worst case, and for [[general/average cases, there are practical inference algorithms!|https://www.youtube.com/watch?v=Qa04kw1gKHk&list=PL50E6E80E8525B59C&index=36#t=4m40s]] 
+
+* [[Basic inference|https://www.youtube.com/watch?v=Qa04kw1gKHk&list=PL50E6E80E8525B59C&index=36#t=6m30s]]
+* [[Inference with evidence|https://www.youtube.com/watch?v=Qa04kw1gKHk&list=PL50E6E80E8525B59C&index=36#t=8m50s]], use [[Baye's theorem]]
+
+!!![[Maximum a posteriori]] inference
+
+[[video|https://www.youtube.com/watch?v=bL9Fvz3fx4c&index=37&list=PL50E6E80E8525B59C]]. Hm, what about MAP, not {over all unobserved variables}?, i.e. with some marginalization... In any case this is also [[NP-hard]]
+
+!!__Algorithms__
+
+!!![[Probability query algorithms|https://www.youtube.com/watch?v=Qa04kw1gKHk&list=PL50E6E80E8525B59C&index=36#t=14m]]
+
+* [[Variable elimination]], using [[Dynamic programming]]
+* Message passing
+** [[Belief propagation]]
+** [[Variational inference]]
+* [[Monte Carlo]] methods, random sampling..
+** [[Markov chain Monte Carlo]]
+** [[Importance sampling]]
+
+!!![[Maximum a posteriori algorithms|https://www.youtube.com/watch?v=bL9Fvz3fx4c&index=37&list=PL50E6E80E8525B59C#t=7m18s]]
+
+* Variable elimination
+* Message passing
+** Max-product belief propagation
+* [[Integer programming]] methods
+* [[Graph-cut]] methods, and other [[Graph algorithms]]s
+* [[Combinatorial search]]
+
+Other [[Optimization]] algorithms.
 
 [[Viterbi algorithm]]
 

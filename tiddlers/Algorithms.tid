@@ -1,6 +1,6 @@
 created: 20160130233509868
 creator: guillefix
-modified: 20170217234520945
+modified: 20170319153351199
 modifier: cosmos
 tags: [[Computer Science and IT]] [[Theoretical computer science]]
 title: Algorithms
@@ -11,13 +11,33 @@ Also called //imperative knowledge// in [[Computer science]]
 
 [[Analysis of algorithms]]
 
+!!![[Graph algorithm]]s
+
+!!![[Geometric algorithm]]s
+
+[[Algorithmics on compressed objects]]
+
+[[Algorithms course|https://www.youtube.com/watch?v=gwlevtaC-u0&list=PL6ED884C7AEE68027]]
+
+[[Algos to find max and min|https://www.youtube.com/watch?v=gwlevtaC-u0&list=PL6ED884C7AEE68027#t=1h1m]]
+
+[[Sorting algorithms]]
+
+-------------
+
+[[Problem reduction]]
+
+See also [[Programming]]
+
+----------------
+
 https://www.youtube.com/watch?v=aXXWXz5rF64
 
 https://www.youtube.com/watch?v=gwlevtaC-u0&list=PL6ED884C7AEE68027
 
-[[Discrete algorithms conference papers|http://www.wisdom.weizmann.ac.il/~robi/SODA16-AcceptedListAbstracts.html]]
+[ext[Discrete algorithms conference papers|http://www.wisdom.weizmann.ac.il/~robi/SODA16-AcceptedListAbstracts.html]]
 
-[[http://www2.idsia.ch/cms/fun16/
+[[http://www2.idsia.ch/cms/fun16/]]
 
 FUN with biological algorithms 	FUN with combinatorial algorithms
 FUN with cryptographic algorithms 	FUN with distributed algorithms
@@ -28,12 +48,10 @@ FUN with optimization algorithms 	FUN with randomized algorithms
 FUN with robotics algorithms 	FUN with space-conscious algorithms
 FUN with string algorithms 	FUN with visualization of algorithms
 
-[[ALGORITHMS OF INFORMATICS|http://compalg.inf.elte.hu/~tony/Oktatas/AlgofInf-Vol1-HTML/Volume1.html]]
+[ext[ALGORITHMS OF INFORMATICS|http://compalg.inf.elte.hu/~tony/Oktatas/AlgofInf-Vol1-HTML/Volume1.html]]
 
 !!![[Algorithm visualizer|http://jasonpark.me/AlgorithmVisualizer/]]
 
 https://www.youtube.com/channel/UCC_RpWFSbwHib_LLhHJwB3w/videos?shelf_id=0&view=0&sort=dd
 
 http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/
-
-[[Algorithmics on compressed objects]]

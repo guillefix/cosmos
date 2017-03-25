@@ -1,22 +1,94 @@
 created: 20170116162522626
 creator: cosmos
-modified: 20170219013009365
+modified: 20170319014524596
 modifier: cosmos
 tags: [[Learning theory]]
 title: Computational learning theory
 tmap.id: 97c2cf2e-d587-4c8e-84b1-de46778896ac
 type: text/vnd.tiddlywiki
 
+See [[Machine learning]] for more general picture.
 
+Mostly [[Supervised learning]] (see [[Learning theory]]).
 
-* [[Probably approximately correct]]
-* [[Membership query]], and [[Equivalence query]]
+!!__[[Probably approximately correct]]__
 
-Example oracle + membership query is sufficient for PAC learning
+[[video|https://www.youtube.com/watch?v=aILazXK059Y]]
+
+[[Basic setup for supervised learning|https://www.youtube.com/watch?v=b5NlRg8SjZg&t=1h12m40s]]. Assumptions:
+
+* ''Invariance assumption''. Data is randomly generated, and from the same distribution as data will be tested on!.
+* Realizability assumption. We assume our answer lies within some class of hypotheses. Relaxed in [[Agnostic learning]]
+
+[[Empirical risk minimization]] is a good approach. If ERM is 0, we call it a consistent learner.
+
+[[Overfitting]]. [[To guard against overfitting, limit size of  hypothesis class|https://www.youtube.com/watch?v=aILazXK059Y&t=28m]] (__[[Occam's razor]] in learning theory__). It basically looks like an extension of [[Hypothesis testing]], to a class of hypotheses.. [[Proof of Occam PAC learning theorem|https://www.youtube.com/watch?v=aILazXK059Y&t=43m30s]]
+
+Two types of error:
+
+* Missfortune error: bad samples. [[vid|https://www.youtube.com/watch?v=aILazXK059Y&t=44m]] (basic def of PAC learning here too)
+* Rarity error: error on rare circumstances which weren't learned.
+
+[[Uniform convergence|https://www.youtube.com/watch?v=iknI2iga9ps#t=56m45s]], main tool to proving results about PAC learnability
 
 !!__[[Exact learning]]__
 
 We say concept class $$C$$ is efficiently learnable with membership and equivalence queries, if there exists a polynomial p(.) and an algorithmL L with access to membership and equivalence queries oracles, $$\forall c \in C_n$$ outputs in time $$p(n, size(c))$$ a concept $$h \in C$$ that is equivalent to $$C$$.
+
+!!__[[SQ learning]]__
+
+Also, learning in the presence of noise
+
+[[Membership query]], and [[Equivalence query]]
+
+Example oracle + membership query is sufficient for PAC learning
+
+!!__[[Learning real-valued functions]]__
+
+!!![[Convex optimization]]
+
+[[notes|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture08.pdf]]
+
+[[Rademacher Complexity]] analogous to [[VC dimension]], but for real-valued concepts.
+
+!!__[[Agnostic learning]]__
+
+So far in all the learning frameworks we’ve studied, we’ve made an assumption that there is
+some “ground truth” target function that we attempt to learn.  Our goal has been to identify
+a  hypothesis  that  is  close  to  this  target,  with  respect  to  the  target  distribution.   Learning
+algorithms are given access to the target function in the form of labelled observations, which
+in some cases may be noisy.  In this lecture, we’ll drop the assumption of a ground-truth target
+completely; it is for this reason that the framework is called
+agnostic
+learning.  As there is no
+longer a well-defined notion of target, our goal will be to identify a hypothesis that is competitive
+with respect to the best concept from a particular class
+
+[[video|https://www.youtube.com/watch?v=aILazXK059Y&t=9m40s]] -- [[weakness of the PAC definition which motivates agnostic learning|https://www.youtube.com/watch?v=PflkE9JmNLc&t=55m55s]] -- [[to approach this we redefine succesful learning to have only a relative error guarantee|https://www.youtube.com/watch?v=PflkE9JmNLc&t=1h8m50s]] --> [[Definition of Agnostic PAC learnability|https://www.youtube.com/watch?v=PflkE9JmNLc&t=1h10m22s]]
+
+[[notes|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture09.pdf]]
+
+[[proof that finite classes are agnostic learnable|https://www.youtube.com/watch?v=Lyz4ewLefpE]]
+
+!![[General losses and more general definition of the learning problem|https://www.youtube.com/watch?v=iknI2iga9ps#t=36m]]
+
+[[examples of other learning tasks|https://www.youtube.com/watch?v=iknI2iga9ps#t=29m]]
+
+[[kind of clustering|https://www.youtube.com/watch?v=iknI2iga9ps#t=49m30s]] $$\sim$$ to representing data with $$k$$ code words.
+
+Probabilistic prediction rules can't predict better. But they can give us our uncertainty in the prediction, for each particular case we encounter. That extra information can be useful! (this is what modern <big>[[Bayesian inference]]</big> recognizes)
+
+[[How to learn in such a general situation?|https://www.youtube.com/watch?v=iknI2iga9ps#t=56m25s]]
+
+* [[Uniform convergence|https://www.youtube.com/watch?v=iknI2iga9ps#t=56m45s]], main tool to proving results about PAC learnability. [[Define epsilon-representativity|https://www.youtube.com/watch?v=iknI2iga9ps#t=58m25s]], if the empirical loss on the sample is a good approximation to true loss (within $$\epsilon$$). 
+** [[Claim1|https://www.youtube.com/watch?v=iknI2iga9ps#t=1h5m10s]] and [[proof|https://www.youtube.com/watch?v=iknI2iga9ps#t=1h8m55s]] ([[proof 2|https://www.youtube.com/watch?v=Lyz4ewLefpE#t=16m30s]] -- [[actually here|https://www.youtube.com/watch?v=Lyz4ewLefpE#t=21m45s]]): if we have a representative sample, then [[Empirical risk minimization]] (over finite class) is $$2\epsilon$$ accurate (relative to best in class)
+** [[Claim2|https://www.youtube.com/watch?v=iknI2iga9ps#t=1h17m]]: a large enough sample is representative w.h.p. See proof and more at [[Agnostic learning]] -- [[proof here|https://www.youtube.com/watch?v=Lyz4ewLefpE#t=24m47s]]
+
+*** [[Defining sample complexity of uniform convergence|https://www.youtube.com/watch?v=Lyz4ewLefpE#t=26m15s]]
+
+There are relations to [[Game theory]]
+
+!!__[[Online learning]]__
 
 -----------------------
 

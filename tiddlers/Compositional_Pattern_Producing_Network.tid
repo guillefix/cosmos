@@ -1,0 +1,11 @@
+created: 20170315220307574
+creator: cosmos
+modified: 20170315220349385
+modifier: cosmos
+tags: [[Artificial neural network]]
+title: Compositional Pattern Producing Network
+tmap.id: 231ce141-291d-435b-9c36-f88b8191b366
+type: text/vnd.tiddlywiki
+
+
+[[A Hypercube-Based Encoding for Evolving Large-Scale Neural Networks|http://www.mitpressjournals.org/doi/abs/10.1162/artl.2009.15.2.15202]], evolved through [[HyperNEAT]]

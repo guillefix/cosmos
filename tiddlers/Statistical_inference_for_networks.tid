@@ -1,0 +1,26 @@
+created: 20170310094239311
+creator: cosmos
+modified: 20170310102145255
+modifier: cosmos
+tags: [[Statistical inference]] [[Network science]]
+title: Statistical inference for networks
+tmap.id: ece0aef6-469d-4432-8462-37bd34e0b969
+type: text/vnd.tiddlywiki
+
+
+
+!!Inference based on motifs
+
+Compare relative to some null model, like the [[Configuration model]], where --.--, and Y motifs are common,  but cycles are rare, for instance.
+
+See [[notes|https://www.dropbox.com/s/55cvuaj578c92z4/networklectures2017.pdf?dl=0]]
+
+Often a [[Polya-Aeppli distribution]] is suggested for motif counts, see Picard et al. 2008 . The Polya-Aeppli distribution is the distribution of W where W is the sum of a Poisson ( λ ) number of random variables, where each of the random variables follows a geometric(1 − a ) distribution, independently of each other (see the Monte Carlo example). In the random graph network, we can think of having a [[Poisson|Poisson distribution]] number of "clumps", and each clump having a [[geometric|Geometric distribution]] size.
+
+When assessing the significance of two or more motifs, their dependence has to be taken into account, or else we resort to the [[Bonferroni correction]], dividing the significance level of our tests by the number of tests carried out and using this as new significance level for each individual test.
+
+''Bonferroni correction'': have 100 tests. I want a statistical significance ([[p-value]]) of 0.05. Then, each test should be performed with significance 0.05/100. Gets a lot of false negatives, but it really tries to prevent false positives. [[Metabolomics]] has a lot of tests, and so there are other alternatives..., but not an exact science..
+
+Ego networks can be used to get replicas (samples) from same network. Need sparse networks for the egonets to be mostly independent.
+
+Network motifs can be used to compare networks.

@@ -1,6 +1,6 @@
 created: 20161205134552383
 creator: cosmos
-modified: 20161205134601643
+modified: 20170228104245296
 modifier: cosmos
 tags: [[Neuron action potential]]
 title: Huxley-Hodgkin equations
@@ -8,3 +8,23 @@ tmap.id: 0c3718a9-dc99-46a1-a082-0b14e38b38b7
 type: text/vnd.tiddlywiki
 
 [[video|https://www.youtube.com/watch?v=oIJmGIZ_-7M&index=2&list=PLYq7WW565SZgVNpy-E5rG3ru0Ft6QMSpp#t=1h38m15s]]
+
+See [[Neuron action potential]]
+
+[[Sodium]], [[Potassium]], and other [[Ion]]s.
+
+$$C \frac{dV}{dt}+I_{ions}=0$$
+
+$$I_{ions}=\hat{g}_{K}(V-V_K)+\hat{g}_{Na}(V-V_{Na})+\hat{g_{L}}(V-V_L)$$
+
+$$\hat{g}_{Na}=g_{Na} m^3 h (V-V_{Na})$$. $$3m$$ gates, $$1h$$ gates
+
+$$\hat{g}_{K}=g_{Na} n^4 (V-V_{K})$$. $$4n$$ gates. Fraction of the channels in which 4 gates are open, that is why we have the $$n^4$$.
+
+Equations for gates m,h, n too (see [[Neuron action potential]]).
+
+There is a simplified model: [[FitzHugh–Nagumo model]]
+
+------------------------
+
+Can explore the model with no spatial variation using the patch clamp technique (no?), where we insert a conductive wire which equilibrates the potential along the axon

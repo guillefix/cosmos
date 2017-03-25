@@ -1,0 +1,18 @@
+created: 20170302104812484
+creator: cosmos
+draft.of: Stochastic simulation
+draft.title: Stochastic simulation
+modified: 20170302111303587
+modifier: cosmos
+tags: Simulation
+title: Draft of 'Stochastic simulation'
+tmap.id: be449ba2-6892-4cb8-85e1-01b76289a70a
+type: text/vnd.tiddlywiki
+
+Simulation of [[Stochastic process]]es, often based on [[Master equation]]s
+
+[[Gillespie's algorithm]]. Calculate next time for a reaction to occur (from [[Exponential distribution]] with rate = sum of rates of all reactions), and then decide which of the possible reactions occurs according to their probabilities, which are proportional to their ''propensity functions'', which are basically reaction rates (the probability of a particular reaction occuring on an infinitesimal time interval, which depends on the state of the system, often a set of species concentrations). 
+
+[[Tau-leap method]]. Poission distribution for number of reactions within time $$\tau$$. Assume propensity functions don't change. If the number of reactions become large enough, can approximate with [[Normal distribution]], getting a chemical [[Langevin equation]]
+
+[[Next reaction method]]. Calculate next time for each of the reactions, and then choose the reaction that will happen next, that is with the earliest next time, and make that reaction happen. Repeat. This produces a

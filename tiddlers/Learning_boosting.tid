@@ -1,0 +1,51 @@
+created: 20170306112844479
+creator: cosmos
+modified: 20170306112851389
+modifier: cosmos
+title: Learning boosting
+tmap.id: 4908ab10-371f-481a-8468-36eef098fc76
+type: text/vnd.tiddlywiki
+
+//aka boosting//
+
+Get an ensemble of hypotheses, by changing our input data to the algorithm in different and clever ways. We then have some clever devision rule that combines the classifiers.
+
+[[boosting neural nets|http://stats.stackexchange.com/questions/185616/boosting-neural-networks]]
+
+
+//Weak learning//: Like PAC learning, but we now just require $$err(h) \leq \frac{1}{2}-\gamma(n, size(c))$$, for sme function $$\gamma$$. It is //efficient// if it runs in poly time, H are poly evaluatable, and $$\frac{1}{\gamma}$$ is poly bounded (on its arguments).
+
+__Ada boost__
+
+(adaptive boosting)
+
+at every iteration $$t$$, we have a prob dist $$D_t$$that you use to sample points from the training data, and train the weak learner. At every iteration, we update the prob dist by making points which the algorithm had wrong and making them more likely, while points it got right are less likely.
+
+For $$t=1, ..., T$$:
+
+: Get $$h_t$$ by running WL with $$D_t$$
+:
+:
+:
+
+At every iteration, we get a hypothesis.
+
+Our final decision rule is gotten by a linear combination which takes into account which points we got wrong with each hypothesis. $$g(x)=sign(\sum\limits_{t=1}^T \alpha_t h_t(x))$$. Let $$H=\sum\limits_{t=1}^T \alpha_t h_t(.)$$.
+
+Training error: $$\sum_{i=1}^m D_1(i) 1(g(x_i)\neq y_i) \leq \sum D_1(i) e^{-y)i H(x_i)}$$ $$=Z_2 ... Z_{T+1}$$ (see notes, and photo). If the Zs are less than 1, then it doesn't get that many iterations for the trainig error to be small.
+
+$$H_t(x)=\sum_{s=t}^T \alpha_s h_s(x)$$
+
+$$Z_{t+1}=e^{=\alpha_t}(1-\epsilon_t)+e^{\alpha_t}\epsilon_t$$
+
+$$=2\sqrt{\epsilon_t (1-\epsilon_t)}$$ (if we minimize this over $$\alpha_t$$).
+
+$$\leq e^{-2\gamma^2}$$ (using $$\gamma_t \geq \gamma$$ (definition of WL). (note $$\epsilon_t = \frac{1}{2}-\gamma_t$$).
+
+$$=Z_2 ... Z_{T+1} \leq e^{-2T\gamma^2}$$ 
+
+It increases the weight of examples which are classified incorerctly many times, and so has problems with noise in labels.
+
+See paper in webseite. The idea of multiplicative weights is quite applicable.
+
+Generalizaation...VC dimension?..

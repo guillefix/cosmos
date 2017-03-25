@@ -1,6 +1,6 @@
 created: 20160117215514254
 creator: guillefix
-modified: 20161107192811545
+modified: 20170310094936607
 modifier: cosmos
 tags: MMathPhys [[Systems science]]
 title: Network science
@@ -92,6 +92,8 @@ Some important classes of networks:
 
 !!![[Network complexity]]
 
+!!![[Statistical inference for networks]]
+
 --------
 
 //Review articles//
@@ -102,10 +104,12 @@ Some important classes of networks:
 
 Others
 
-Many many good references here on ''random and evolving networks'': [[http://www.fzu.cz/~slanina/bookmark_files/bkm3-1.html]]
+Many many good references here on ''random and evolving networks'': [ext[http://www.fzu.cz/~slanina/bookmark_files/bkm3-1.html]]
 
 [[Multilayer networks|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3127/23/community-moremultilayer.pdf]]
 
 [[Multiplexing|https://en.wikipedia.org/wiki/Multiplexing]]
 
 [[Like air traffic, information flows through neuron 'hubs' in the brain, finds IU study|http://www.eurekalert.org/pub_releases/2016-01/iu-lat012016.php?utm_content=buffer6c26c&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer]]
+
+[[notes from sysbio DTC|https://www.dropbox.com/s/55cvuaj578c92z4/networklectures2017.pdf?dl=0]]

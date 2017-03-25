@@ -1,0 +1,14 @@
+created: 20170315214550606
+creator: cosmos
+modified: 20170315214713017
+modifier: cosmos
+tags: [[Kolmogorov complexity]]
+title: Brudno's theorem
+tmap.id: 8168c765-3397-4dbd-b3f0-22584150a811
+type: text/vnd.tiddlywiki
+
+almost every trajectory of an ergodic stochastic process has a Kolmogorov complexity whose growth rate equals its entropy rate
+
+See [[here|http://bactra.org/notebooks/algorithmic-information-theory.html]]
+
+[[Brudno's theorem for Zd (or View the MathML source) subshifts|http://www.sciencedirect.com/science/article/pii/S0890540117300147]]

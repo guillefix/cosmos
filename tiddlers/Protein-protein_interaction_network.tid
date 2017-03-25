@@ -1,0 +1,18 @@
+created: 20170309145851702
+creator: cosmos
+modified: 20170310115127483
+modifier: cosmos
+tags: Protein
+title: Protein-protein interaction network
+tmap.id: ec384e2a-6fac-40de-a8c5-dbd3f01885f4
+type: text/vnd.tiddlywiki
+
+
+
+Model with some [[Random graph]] model. We haven't found a good parametric model.
+
+Can also use [[Nonparametric statistics]] model. Use [[Markov chain Monte Carlo]] estimation. Markov chain on space of networks.., which is finite. //ergm// [[R language]] package.
+
+Monte Carlo test.. a kind of [[Resampling]]
+
+http://string-db.org/

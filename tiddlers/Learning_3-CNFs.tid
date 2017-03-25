@@ -1,0 +1,21 @@
+created: 20170306112421179
+creator: cosmos
+modified: 20170306112435967
+modifier: cosmos
+title: Learning 3-CNFs
+tmap.id: f75b8e85-b937-4a9f-89b0-2de78997fb72
+type: text/vnd.tiddlywiki
+
+See [[Probably approximately correct]]
+
+$$\{c_1 \wedge c_2 \wedge ... \wedge c_m\}$$ $$|$$ each $$c_i$$ is a disjunction on at most 3-literals, known as //clauses//.
+
+Can we //efficiently// PAC-learn 3-CNF?
+
+We will map it to an easy problem (in P?) to show that it is, by doing a kind of [[Feature]] expansion.. Apply conjunction learning algorithm without negated literals.
+
+3-term DNF:
+
+$$\phi = T_1 \vee T_2 \vee T_3 = \wedge_{l_1 \in T_1, l_2 \in T_2, l_3 \in T_3} ( l_1 \vee l_2 \vee l_3)$$
+
+can learn 3-DNF data using an equivalent 3-CNF. However, getting the 3-DNF back is hard..

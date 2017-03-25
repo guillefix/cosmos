@@ -1,6 +1,6 @@
 created: 20160117160303798
 creator: guillefix
-modified: 20161217183716892
+modified: 20170306104511228
 modifier: cosmos
 tags: TableOfContents
 title: Mathematics
@@ -48,6 +48,12 @@ It is both the Art and Science of the ''structure of structures''. It studies ma
 *** Can we compare shapes by subdividing a shape in many (possibly many <big>//many//</big>) parts, and looking at how these parts relate and overlap? [[Point-set topology]]
 
 *** Can one combine shapes? [[Algebraic topology]]
+
+__Maps of mathematics__
+
+[[map pic|https://www.flickr.com/photos/95869671@N08/32264483720/in/dateposted-public/]]
+ -- [[https://minireference.com/static/tutorials/conceptmap.pdf]]
+ -- [ext[another map|http://nada.kth.se/~axelhu/mapthematics.pdf]]
 
 Mathematics is sometimes called //formal sciences//.
 

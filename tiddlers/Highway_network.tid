@@ -1,0 +1,14 @@
+created: 20170325142803448
+creator: cosmos
+modified: 20170325143203372
+modifier: cosmos
+tags: [[Artificial neural network]]
+title: Highway network
+tmap.id: e6764cdd-e138-4ecf-bb8f-09bb7d599127
+type: text/vnd.tiddlywiki
+
+[[Highway Networks|https://arxiv.org/abs/1505.00387]] a new architecture designed to ease gradient-based training of very deep networks which use gating units which learn to regulate the flow of information through a network. 
+
+[[Recurrent Highway Networks|https://arxiv.org/abs/1607.03474]] -- a novel theoretical analysis of recurrent networks based on Gersgorin's circle theorem that illuminates several modeling and optimization issues and improves our understanding of the LSTM cell. Based on this analysis we propose Recurrent Highway Networks, which extend the LSTM architecture to allow step-to-step transition depths larger than one.
+
+[[HIGHWAY AND RESIDUAL NETWORKS LEARN UNROLLED ITERATIVE ESTIMATION|https://arxiv.org/pdf/1612.07771.pdf]] -- [[Skip-connection]]s

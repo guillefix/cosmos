@@ -1,0 +1,10 @@
+created: 20170315165157223
+creator: cosmos
+modified: 20170315165248619
+modifier: cosmos
+tags: [[Tree (data structure)]]
+title: Binary tree
+tmap.id: 85dcdec4-f38a-4957-b27d-f03afdb317e3
+type: text/vnd.tiddlywiki
+
+A [[Tree (data structure)]], with at most two children per node.

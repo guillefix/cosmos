@@ -1,6 +1,6 @@
 created: 20161203112915462
 creator: cosmos
-modified: 20161203114406459
+modified: 20170228110333850
 modifier: cosmos
 tags: Electrophoresis Electrochemistry
 title: Nernst relation
@@ -18,3 +18,6 @@ For a derivation in terms of [[Kinetic theory]], see the [[Nelson's biological p
 At equilibrium, the flux $$j=0$$, giving (after integrating over $$x$$):
 
 |$$\Delta(\ln{c})=-q \Delta V_{eq} / k_B T$$| ''Nernst relation''|
+
+-->>This is also the potential that forms across a membrane which is permeable to one ion species, but not another! See [[here|Nernst_potential_membrane.pdf]]
+

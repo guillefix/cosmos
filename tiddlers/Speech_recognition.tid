@@ -1,6 +1,6 @@
 created: 20160905053847584
 creator: cosmos
-modified: 20161210004723902
+modified: 20170315161439279
 modifier: cosmos
 tags: [[Human-computer interaction]] Speech [[Artificial intelligence]]
 title: Speech recognition
@@ -16,3 +16,5 @@ The counterpart to [[Speech synthesis]]
 https://www.wikiwand.com/en/Speech_recognition
 
 [[Unsupervised Learning of Temporal Features for Word Categorization in a Spiking Neural Network Model of the Auditory Brain|http://www.biorxiv.org/content/early/2016/06/19/059840.abstract]]
+
+Baidu: http://venturebeat.com/2017/03/13/baidu-launches-swiftscribe-an-app-that-transcribes-audio-with-ai/

@@ -1,9 +1,13 @@
 created: 20160623231455196
 creator: guillefix
-modified: 20161104134327739
-modifier: guillefix
+modified: 20170315214239906
+modifier: cosmos
 tags: [[Computer Science and IT]]
 title: Cybersecurity
 tmap.id: cccce0dd-9681-4a10-a0fc-121a92a30a6e
 type: text/vnd.tiddlywiki
 
+
+[[RSA cryptography]],  [[Cryptography]], [[Encryption]]
+
+[[Decompression Quines and Anti-Viruses|https://hal.inria.fr/hal-01436200/]]

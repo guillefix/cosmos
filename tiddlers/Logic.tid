@@ -1,6 +1,6 @@
 created: 20160121200214211
 creator: guillefix
-modified: 20161217005935163
+modified: 20170319022415479
 modifier: cosmos
 tags: Philosophy
 title: Logic
@@ -13,6 +13,12 @@ type: text/vnd.tiddlywiki
 * [[Propositional logic]]
 ** [[First order logic]]
 ** [[Second order logic]]
+
+-------------
+
+[[an intro to logic videos|https://www.youtube.com/watch?v=h_9WjWENWV8#t=48m50s]]
+
+!!![[Boolean algebra]]
 
 ----------
 

@@ -1,7 +1,7 @@
 created: 20160714001732153
 creator: guillefix
-modified: 20161104134327135
-modifier: guillefix
+modified: 20170319023100801
+modifier: cosmos
 tags: [[Lattice (algebraic structure)]] [[Mathematical logic]]
 title: Boolean algebra
 tmap.id: ad99e201-2275-448a-8ec1-3698e7f0a6b1
@@ -10,3 +10,22 @@ type: text/vnd.tiddlywiki
 A ''Boolean algebra'' is an [[Algebraic structure]] that models the relations between elements which can be either true or false. It is important in [[Mathematical logic]] and in [[Computer science]].
 
 It has the structure of an orthocomplemented, distributed [[Lattice (algebraic structure)]].
+
+[[Basic rules|https://www.youtube.com/watch?v=h_9WjWENWV8#t=1h7m35s]]
+
+--------------Main operators ([[Logic gate]]s in [[Circuit design]]):
+
+* and
+* or
+* not
+* xor
+* nand, nor...
+* implies
+
+[[Truth table|https://www.youtube.com/watch?v=h_9WjWENWV8#t=54m10s]], and, or, and not [[are a complete set for logical formulas|https://www.youtube.com/watch?v=h_9WjWENWV8#t=56m40s]], because [[can get|https://www.youtube.com/watch?v=BrDto0heyaQ#t=17m40s]] [[Disjunctive normal form]] Boolean formulas from the any truth table.
+
+[[nor is complete on its own|https://www.youtube.com/watch?v=BrDto0heyaQ#t=22m]]
+
+[[Disjunctive normal form]] 
+
+[[Conjunctive normal form]]

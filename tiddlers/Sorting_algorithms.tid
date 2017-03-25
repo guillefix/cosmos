@@ -1,9 +1,31 @@
 created: 20160130233553336
 creator: guillefix
-modified: 20161104134332511
-modifier: guillefix
+modified: 20170315164702451
+modifier: cosmos
 tags: Algorithms
 title: Sorting algorithms
 tmap.id: bed08c01-271d-4858-8e06-9a79f11316cd
 type: text/vnd.tiddlywiki
 
+
+[[Algorithms - Sorting - Lecture 2|https://www.youtube.com/watch?v=odNJmw5TOEE&list=PL6ED884C7AEE68027&index=2]]
+
+[[Bubble sort]]
+
+[[Insertion sort]]
+
+[[Stable vs unstable sorting|https://www.youtube.com/watch?v=odNJmw5TOEE&list=PL6ED884C7AEE68027&index=2#t=20m]]: whether you keep equal elements in their original order; important for some applications, like for [[Radix sort]]
+
+[[Inspired by sorting boolean arrays, we can see there should be a n log n algorithm|https://www.youtube.com/watch?v=odNJmw5TOEE&list=PL6ED884C7AEE68027&index=2#t=36m40s]]
+
+!!__$$O(n\log{n})$$ sorts__
+
+[[Merge sort]]
+
+[[Heap sort]]
+
+[[Quicksort]]
+
+[[Bucket sort]]
+
+[[Radix sort]]

@@ -1,0 +1,20 @@
+created: 20170223095657502
+creator: cosmos
+modified: 20170223101845769
+modifier: cosmos
+tags: [[Runge-Kutta methods]]
+title: Euler method
+tmap.id: 733773c8-b4fa-4e12-a3ab-25e2a609150e
+type: text/vnd.tiddlywiki
+
+https://www.wikiwand.com/en/Euler_method
+
+For a first-order [[Initial value problem]]
+
+$$y_{i+1}=y_i+hf(x,y)$$
+
+where $$h$$ is the time step. It's like the left-hand approximation of the integral, at each step. 
+
+The [[Modified Euler method]] approximates the trapezium rule.
+
+Truncation error $$O(h^2)$$

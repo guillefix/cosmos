@@ -1,0 +1,39 @@
+created: 20170319132123488
+creator: cosmos
+modified: 20170319142719881
+modifier: cosmos
+tags: Programming
+title: Structure and interpretation of computer programs
+tmap.id: 2e30974b-6ae5-4cf6-ad53-d1045b1a595c
+type: text/vnd.tiddlywiki
+
+https://mitpress.mit.edu/sicp/full-text/book/book.html . A famous [[Programming]] book using [[Lisp]]
+
+ three foci of phenomena: the human mind, collections of computer programs, and the computer.
+
+<small>It is not merely a matter of tactical convenience to separately identify the three foci. Even though, as they say, it's all in the head, this logical separation induces an acceleration of symbolic traffic between these foci whose richness, vitality, and potential is exceeded in human experience only by the evolution of life itself. At best, relationships between the foci are metastable. The computers are never large enough or fast enough. Each breakthrough in hardware technology leads to more massive programming enterprises, new organizational principles, and an enrichment of abstract models. Every reader should ask himself periodically "Toward what end, toward what end?" -- but do not ask it too often lest you pass up the fun of programming for the constipation of bittersweet philosophy.</small>
+
+------------------
+
+We are about to study the idea of a ''computational process''. Computational processes are abstract beings that inhabit computers. As they evolve, processes manipulate other abstract things called ''data''. The evolution of a process is directed by a pattern of rules called a program. People create programs to direct processes. In effect, we conjure the spirits of the computer with our spells.
+
+-------------
+
+__[[Elements of programming|https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html]]__
+
+
+An ''environment'': It should be clear that the possibility of associating values with symbols and later retrieving them means that the interpreter must maintain some sort of memory that keeps track of the name-object pairs. This memory is called the environment (more precisely the global environment, since we will see later that a computation may involve a number of different environments).
+
+*''primitive expressions''
+*''means of combination''
+* ''means of abstraction''
+
+See quote by [[John Locke]]
+
+*Numbers and arithmetic operations are primitive data and procedures.
+*Nesting of combinations provides a means of combining operations.
+*Definitions that associate names with values provide a limited means of abstraction.
+
+--------------
+
+[[here|https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.4]]

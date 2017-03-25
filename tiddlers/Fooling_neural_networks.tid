@@ -1,0 +1,16 @@
+created: 20170313190143229
+creator: cosmos
+modified: 20170313232838347
+modifier: cosmos
+tags: 
+title: Fooling neural networks
+tmap.id: 99fc13dc-46f7-4a95-b82d-de87c35d777e
+type: text/vnd.tiddlywiki
+
+
+[[fooling convnets|https://www.youtube.com/watch?v=GHVaaHESrlY&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=9#t=1h2m15s]]
+
+
+Explaining and harnessing adversarial examples: "primary cause of the vulnerability to adversarial perturbation is the linear nature of nns"
+
+[[vid|https://www.youtube.com/watch?v=GHVaaHESrlY&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=9#t=1h4m48s]]

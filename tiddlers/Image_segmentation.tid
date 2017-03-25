@@ -1,9 +1,13 @@
 created: 20170129123140619
 creator: cosmos
-modified: 20170129123142107
+modified: 20170319014717637
 modifier: cosmos
 tags: [[Computer vision]]
 title: Image segmentation
 tmap.id: 5a3ceb72-5551-47a8-8041-f80bf17e10e2
 type: text/vnd.tiddlywiki
 
+
+[[CS231n Lecture 13 - Segmentation, soft attention, spatial transformers|https://www.youtube.com/watch?v=Sb3b0ocD8mI&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=13]]
+
+[[ReSeg: A Recurrent Neural Network-based Model for Semantic Segmentation|https://www.youtube.com/watch?v=meGA1y8dTCA]]

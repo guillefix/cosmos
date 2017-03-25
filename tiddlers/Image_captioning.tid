@@ -1,6 +1,6 @@
 created: 20170104114936989
 creator: cosmos
-modified: 20170104115036818
+modified: 20170313144811915
 modifier: cosmos
 tags: [[Computer vision]]
 title: Image captioning
@@ -8,6 +8,8 @@ tmap.id: 9d6801e4-7c61-4325-8645-4000dc3614f9
 type: text/vnd.tiddlywiki
 
 Generating text that describes an [[Image]]
+
+[[CS231n Lecture 10 - Recurrent Neural Networks, Image Captioning, LSTM|https://www.youtube.com/watch?v=iX5V1WpxxkY&index=10&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg]]
 
 !!__Dense captioning with [[Object detection]]__
 

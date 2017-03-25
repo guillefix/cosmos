@@ -1,0 +1,9 @@
+created: 20170311210139195
+creator: cosmos
+modified: 20170311210202892
+modifier: cosmos
+title: Dominant strategy
+tmap.id: 5d1d40ce-acda-4e07-881d-08697d9c5eaa
+type: text/vnd.tiddlywiki
+
+In [[Game theory]], [[a strategy dominates over another strategy|https://www.youtube.com/watch?v=nM3rTU927io&list=PL6EF60E1027E1A10B#t=25m45s]] if the strategy's payoff is better than the other regardless of the other's player strategy.

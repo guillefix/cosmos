@@ -1,0 +1,16 @@
+created: 20170309123641924
+creator: cosmos
+modified: 20170309123819943
+modifier: cosmos
+tags: [[Ising model]]
+title: Potts model
+tmap.id: a0ae1f7f-8c93-4b70-b8a5-3ad046746535
+type: text/vnd.tiddlywiki
+
+A generalization to the [[Ising model]], with spins that can take more than 2 values.
+
+See also [[Random-cluster model]]
+
+[[Constraint satisfaction problem]]
+
+[[Relations between percolation models and Potts models]]

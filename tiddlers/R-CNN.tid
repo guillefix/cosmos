@@ -1,0 +1,36 @@
+created: 20170313163254264
+creator: cosmos
+modified: 20170313171034353
+modifier: cosmos
+tags: [[Object detection]]
+title: R-CNN
+tmap.id: 34f44a5a-ee33-414f-81d5-ddde12f4fbb4
+type: text/vnd.tiddlywiki
+
+//region-based CNN//
+
+[img[https://andrewliao11.github.io/images/faster_rcnn/rcnn_network.png]]
+
+[[Region proposal]]s + [[CNN|Convolutional neural network]] classifiers
+
+[[video|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=32m50s]]
+
+[[Problems|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=40m50s]]: slow, not end-to-end, complex training pipeline.
+
+!!__Fast R-CNN__
+
+[[Fast R-CNN|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=41m25s]] to solve these problems, by getting CNN feature map overall and finding regions of interest on it, instead of finding regions of interest and doing CNN on all of them, which takes more time.
+
+''RoI pooling'': [[Region of interest pooling|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=43m5s]]
+
+[[Problems with Fast R-CNN|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=45m40s]], region proposal now bottleneck in speed
+
+!!__Faster R-CNN__
+
+[[Solution|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=46m25s]]: fast region proposals with CNNs.
+
+[[Region proposal network|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=46m50s]] on top of the feature map of the CNN, and then apply RoI pooling. 
+
+[[Anchor boxes|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=48m50s]]
+
+[[State of the art|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=57m50s]]

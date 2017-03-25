@@ -1,6 +1,6 @@
 created: 20170118193503026
 creator: cosmos
-modified: 20170118193835770
+modified: 20170310000359894
 modifier: cosmos
 tags: [[Theoretical computer science]]
 title: Probabilistic computation
@@ -13,5 +13,11 @@ A [[Model of computation]] where the steps can have [[Randomness]] described by 
 * [[Randomized algorithm]]s
 
 There are unresolved questions in [[Computational complexity]] regarding probabilistic computations, as well as regarding its relation to [[Quantum computing]]. See page 36 in PAC book.
+
+[[Finding Hay in Haystacks: The Power and Limits of Randomness|https://www.youtube.com/watch?v=ESVDOERbtRY]]
+
+[[Probability and Computing, Oxford 2016-17|https://www.cs.ox.ac.uk/people/elias.koutsoupias/pc2016-17/]]
+
+-------------------
 
 See also [[Probabilistic programming]]

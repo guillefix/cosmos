@@ -1,0 +1,22 @@
+created: 20170315161225959
+creator: cosmos
+modified: 20170315194340364
+modifier: cosmos
+tags: [[Augmented RNN]]
+title: Differentiable neural computer
+tmap.id: 550f901b-ee24-4ae0-b132-efe11161331b
+type: text/vnd.tiddlywiki
+
+A new variation of the [[Neural Turing machine]], with extra/improved [[Attention]] mechanisms for addressing memory. In particular:
+
+* The location-based addressing is generalized from being just an index of relative position, to a temporal memory link matrix, which allows the network to (approximately) retrace previously traced paths on the memory.
+
+* There is a [[Memory allocation]] system which associates a number between 0 and 1 to each memory location, indicating how "free" it is.
+
+
+[[Hybrid computing using a neural network with dynamic external memory|http://www.nature.com/nature/journal/v538/n7626/full/nature20101.html]]
+
+
+
+[[Differentiable neural computers|https://deepmind.com/blog/differentiable-neural-computers/]]
+

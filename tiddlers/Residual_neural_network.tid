@@ -1,11 +1,12 @@
 created: 20161018080517880
 creator: cosmos
-modified: 20161104134332032
+modified: 20170325142731276
 modifier: cosmos
 tags: 
 title: Residual neural network
 tmap.id: daf91432-7eaa-40b1-a978-466918546eaf
 type: text/vnd.tiddlywiki
 
+[[Skip-connection]]s
 
-[[Skip connections|https://www.youtube.com/watch?v=x1kf4Zojtb0#t=16m52.5s]]
+[[HIGHWAY AND RESIDUAL NETWORKS LEARN UNROLLED ITERATIVE ESTIMATION|https://arxiv.org/pdf/1612.07771.pdf]]

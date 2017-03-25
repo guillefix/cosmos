@@ -1,0 +1,12 @@
+created: 20170309150410576
+creator: cosmos
+modified: 20170309151234718
+modifier: cosmos
+tags: [[Protein-protein interaction network]]
+title: Gene duplication network
+tmap.id: b8ea1909-2cbe-4856-a7de-3bb7afa3d1e7
+type: text/vnd.tiddlywiki
+
+In this duplication-divergence (DD) model the duplicate node loses some of the original links and creates new links. At each iteration t a node is chosen uniformly at random (parent) and duplicated by adding a new node to the graph (child) which retains all edges incident to the parent node. Then (i) delete each edge in the child node independently with probability q ; (ii) each node in the graph is independently connected to the child node with probability r / t . If a singleton is produced, this node will be connected to at least one uniformly chosen random node
+
+Bebek et al., 2006

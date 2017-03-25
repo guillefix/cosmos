@@ -1,0 +1,25 @@
+created: 20170311201524127
+creator: cosmos
+modified: 20170311210941381
+modifier: cosmos
+tags: [[Game theory]]
+title: Algorithmic game theory
+tmap.id: 940cc08c-a49d-4f01-8838-dc93879fcf54
+type: text/vnd.tiddlywiki
+
+
+[[Algorithmic Game Theory, Lecture 1 (Introduction)|https://www.youtube.com/watch?v=TM_QFmQU_VA]]
+
+!!__Mechanism design__
+
+[[Theme 1|https://www.youtube.com/watch?v=TM_QFmQU_VA#t=1m]]. Designing systems for strategic participants with a goal in mind, aka ''mechanism design''
+
+[[Applications|https://www.youtube.com/watch?v=TM_QFmQU_VA#t=20m25s]]
+
+!!__Price of anarchy__
+
+[[Theme 2|https://www.youtube.com/watch?v=TM_QFmQU_VA#t=22m15s]]. For existing games, when is selfish behaviour benign? gives example of [[Braess paradox|https://www.wikiwand.com/en/Braess'_paradox]], kind of like [[Prisioner's dilemma]].. --> ''selfish behaviour by everybody doesn't always give the best thing for anybody/everybody'' <> [[Price of anarchy]]. Want to study the conditions under which the price of anarchy is close to 1, so that selfish behaviour gives close to optimal performance.
+
+[[Applications|https://www.youtube.com/watch?v=TM_QFmQU_VA#t=34m40s]]
+
+when are other [[behavioural models|Behavioural sciences]] needed? beyond shortsighted selfishness. See [[Game theory]], [[weakened assumptions|https://www.youtube.com/watch?v=TM_QFmQU_VA#t=37m45s]] __In a sense, a weak interpretation of selfishness appears tautological: an agent will do what it thinks it should be best to do.__

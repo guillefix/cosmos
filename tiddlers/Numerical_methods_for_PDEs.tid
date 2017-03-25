@@ -1,0 +1,59 @@
+created: 20170306094338041
+creator: cosmos
+modified: 20170306094413384
+modifier: cosmos
+tags: [[Numerical methods for differential equations]]
+title: Numerical methods for PDEs
+tmap.id: 95db7d78-85ab-4579-be82-712ec4605561
+type: text/vnd.tiddlywiki
+
+
+__Main types__
+
+* [[Finite element method]]s for complex geometries
+* [[Finite volume method]]s for [[Hyperbolic geometry]]
+* [[Finite difference method]] for simple geometry.
+
+Now have time and space.
+
+Simplest approach is again //finite difference discretization//. Now discretizing time and space.
+
+[img[Numerical_method_PDE.png]]
+
+__Numerical stability__
+
+''[[von Neumann analysis|https://en.wikipedia.org/wiki/Von_Neumann_stability_analysis]]'' or discrete Fourier analysis. Plug imaginary (oscillatory) exponential into the finite difference formula, and see if some mode blows up (by the //amplification factor// being greater than 1), or not. Define region of stability thus.
+
+PDEs can also be __stiff__ for same reasons as ODEs, and then need to use implicit methods too. A non-linear example is the Kuramoto-Sivashinsky equation.
+
+__Order of accuracy__
+
+Defined now for both timestep $$k$$ and space step $$h$$ (see [[notes|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/2203/31/7.pdf]]). To improve order of accuracy over straightforward Euler method (which is first order in $$k$$) we use the __trapezoidal rule__, which is symmetric in $$t$$ (so that first order errors cancel, and is thus 2nd order in $$k$$). In case of heat equation it's known as ''Crank-Nicolson formula''. In the case of heat equation, it's known as the ''leap frog formula'' (1928).
+
+Reaction-diffusion equations and other stiff PDEs. Can use exponential integrator methods... Solitons
+
+__Finite differencing in general grids__
+
+Not necessarily equally-spaced.
+
+Principle:
+
+ 1. At each $$x_j$$ decide which data, from neighbouring points, $$v_{j-r}, ..., v_{j+s}$$ to use.
+
+2. Interpolate these data by polynomial of degree $$r+s$$.
+
+3. Finite difference approximation to $$k$$th derivative is: $$p^{(k)}(x_j)$$.
+
+We don't do these steps explicitly at every step, rather there are slick algorithms to get a formula for general $$v$$s for arbitrary grids $$x_j$$s, and one uses that formula. See //B. Fornberg, “Generation of finite difference formulas on arbitrarily spaced grids,” Math. Comput. 51 (1988), 699-706// and //B. Fornberg, “Calculation of weights in finite difference formulas”, SIAM Review 40 (1998), 685-691.//
+
+In multiple space dimension same principles apply, but the system of equations needed to be solved for implicit methods corresponds to a matrix that has a much wider "band" (i.e. set of non-zero diagonals) than for 1 dimension. The structure of this matrix, in the case of discretizing the Laplacian is the famous "discrete or lattice Laplacian" (related to the [[Graph laplacian]]). See [[notes|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/2203/38/8.pdf]]. This Laplacian can often be written as a //Kronecker sum//.
+
+[[Spectral methods]]
+
+-------
+
+Examples of Differential Equations, with nice explanations:
+
+[[Trefethen et al.'s PDE COFFEE TABLE BOOK|https://people.maths.ox.ac.uk/trefethen/pdectb.html]]
+
+Reaction-diffusion equations in [[Morphogenesis]]

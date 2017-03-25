@@ -1,0 +1,17 @@
+created: 20170309013149178
+creator: cosmos
+modified: 20170309013540979
+modifier: cosmos
+tags: [[Measure theory]] Calculus
+title: Integration
+tmap.id: a310a7ce-1a98-4371-ae91-0b6356b9d734
+type: text/vnd.tiddlywiki
+
+
+//Area under the curve//
+
+---------------
+
+!!!__[[Measure-theoretical|Measure theory]] definition__
+
+[[Integrating a function w.r.t. a measure|https://www.youtube.com/watch?v=ZCcok7HAUCw&list=PLLq_gUfXAnknPu2yX0RR_nlHzohmko_t9#t=56m]]. Given a [[Measure space]], we can use the characteristic function of a set, to define //"simple" functions// defined as taking a certain value $$c_i$$ for $$x$$ that lies in any of a family of {elements $$A_i$$ of the sigma-algebra (which is a subset)}, which are disjoint. The integral of a simple function $$g$$ is just the area under the graph, defined as $$\int g d\mu :=\sum_{i=1}^N c_i \mu(A_i)$$. [[Can extend|https://www.youtube.com/watch?v=ZCcok7HAUCw&list=PLLq_gUfXAnknPu2yX0RR_nlHzohmko_t9#t=1h4m]] for integral of non-negative [[Measurable function]]s $$f$$, as the {[[Supremum]] of {the integral of a simple function} over simple functions which lower bound the function $$f$$}

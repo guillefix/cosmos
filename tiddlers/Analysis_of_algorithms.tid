@@ -1,7 +1,8 @@
 created: 20160626143336294
 creator: guillefix
-modified: 20161104134326768
-modifier: guillefix
+modified: 20170322005628458
+modifier: cosmos
+tags: Algorithms
 title: Analysis of algorithms
 tmap.id: e41b628c-c3ea-4136-9f3f-fc1b339ba211
 type: text/vnd.tiddlywiki
@@ -9,6 +10,16 @@ type: text/vnd.tiddlywiki
 ,,//AofA//,,
 
 Analysis of the [[Computational complexity]] of [[Algorithms]], i.e. find out how much time, and how much memory does an algorithm take to run.
+
+[[Worst case analysis of algorithms]]
+
+[[Average case analysis of algorithms]]
+
+[[Amortized analysis of algorithms]]
+
+[[O notation|https://www.youtube.com/watch?v=J_vXRNMu1yQ#t=18m30s]]
+
+-------------------
 
 [[Analytic Combinatorics, Part I (Analysis of Algorithms)|https://www.youtube.com/playlist?list=PLhsb6tmzSpixf8y0IG6ckJCNP4Fdjcxxs]]
 

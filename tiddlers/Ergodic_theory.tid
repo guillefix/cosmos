@@ -1,15 +1,17 @@
 created: 20160329131919597
 creator: guillefix
-modified: 20161104134328245
-modifier: guillefix
+modified: 20170309015045512
+modifier: cosmos
 tags: [[Dynamical system]]
 title: Ergodic theory
 tmap.id: 01e801b9-3eba-41b6-afd9-530ea5c99538
 type: text/vnd.tiddlywiki
 
-Ergodic theory (Ancient Greek: ergon work, hodos way) is a branch of mathematics that studies dynamical systems with an [[Invariant measure]] and related problems
+Ergodic theory (Ancient Greek: ergon work, hodos way) is a branch of mathematics that studies dynamical systems with an [[Invariant measure]] (intuitively, the stationary distribution) and related problems
 
 An
+
+[[Ergodic Theory - Stefano Luzzatto - Lecture 01|https://www.youtube.com/watch?v=ZCcok7HAUCw&list=PLLq_gUfXAnknPu2yX0RR_nlHzohmko_t9]]. Introduction to [[Measure theory]], and [[Probability theory]]
 
 -----------------
 

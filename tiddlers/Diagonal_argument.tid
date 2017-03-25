@@ -1,9 +1,11 @@
 created: 20161222101934004
 creator: cosmos
-modified: 20161222102139884
+modified: 20170322005351838
 modifier: cosmos
 title: Diagonal argument
 tmap.id: ce63e0cc-148f-4658-9e74-e6bc31627cad
 type: text/vnd.tiddlywiki
 
 Any generalization of [[Cantor's diagonal argument]], where an integer index is used in two different ways, so that either one shows that an indexed list of a set is impossible (showing the set is uncountable), or one shows that there are elements that one can construct but don't belong to the set. See [[GEB|Godel, Escher, Bach]]
+
+[[video|https://www.youtube.com/watch?v=J_vXRNMu1yQ]]

@@ -1,0 +1,18 @@
+created: 20170317161941799
+creator: cosmos
+modified: 20170317163117089
+modifier: cosmos
+tags: [[Inference in graphical models]]
+title: Variable elimination
+tmap.id: f684c1b7-6e62-416e-a5c8-04d00badd871
+type: text/vnd.tiddlywiki
+
+[[variable elimination in graphical models|https://www.youtube.com/watch?v=jz02X3hByac&list=PL50E6E80E8525B59C&index=38]]
+
+[[variable elimination with evidence|https://www.youtube.com/watch?v=jz02X3hByac&list=PL50E6E80E8525B59C&index=38#t=9m15s]]
+
+A model for probability queries in [[Graphical model]]s.
+
+https://www.wikiwand.com/en/Variable_elimination
+
+[[Complexity of Variable Elimination|https://www.youtube.com/watch?v=HwiNSRIWf4c&index=39&list=PL50E6E80E8525B59C]]

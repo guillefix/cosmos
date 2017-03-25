@@ -1,0 +1,16 @@
+created: 20170314150028037
+creator: cosmos
+modified: 20170314150601502
+modifier: cosmos
+tags: [[Bayesian inference]]
+title: Approximate Bayesian computation
+tmap.id: 333db1c7-ca00-48aa-ab4e-cd88ee1659d3
+type: text/vnd.tiddlywiki
+
+When even the [[Likelihood function]] is intractable to compute.., but the model can be (stochastically) simulated. Similar regime as for [[Probabilistic programming]]?
+
+In ABC, we simulate the system with different values of the parameters (sampled from prior), and compute some summary [[Statistic]]s. If the summary statistic is close enough to that of the observed data, we accept that run, and save the parameter values that generated it.
+
+We end up with a sample of parameter values which is our approximate posterior.
+
+There are more advanced variants: sequential particle MC...

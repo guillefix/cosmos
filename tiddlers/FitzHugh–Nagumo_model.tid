@@ -1,0 +1,28 @@
+created: 20170228104252857
+creator: cosmos
+modified: 20170228105044665
+modifier: cosmos
+tags: [[Huxley-Hodgkin equations]]
+title: FitzHugh–Nagumo model
+tmap.id: 812363fd-de7b-48d9-b3ef-645633984694
+type: text/vnd.tiddlywiki
+
+A simplified version of the [[Huxley-Hodgkin equations]].
+
+V,m evolve on a similar fast timescale.
+
+n,h evolve on a similar slow timescale.
+
+==> Lump together (V,m) into a single activation variable $$V(t)$$, also (n,h) into $$n(t)$$.
+
+After non-dimensionalizing:
+
+$$\epsilon \frac{dV}{dt} = AV(\delta - V)(V-1)-n+I_a$$
+
+$$\frac{dn}{dt}=V-\gamma n$$
+
+$$A, \gamma  = O(1)$$. $$0 <\epsilon\ll \delta \ll 1$$
+
+$$I_a$$ is applied current.
+
+Can analyze in [[Phase plane]]

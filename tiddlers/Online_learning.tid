@@ -1,0 +1,21 @@
+created: 20170306160617394
+creator: cosmos
+modified: 20170314110459606
+modifier: cosmos
+tags: [[Computational learning theory]]
+title: Online learning
+tmap.id: 4c8d5d4b-c22d-4eb0-9e6a-9dd206b45c01
+type: text/vnd.tiddlywiki
+
+
+[[lecture notes|http://courses.cs.washington.edu/courses/cse599s/12sp/scribes.html]]
+
+[[Other notes|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/mistakebound-online.pdf]]
+
+Bandit/expert problems
+
+[[Multiarmed Bandits With Limited Expert Advice|http://www.jmlr.org/proceedings/papers/v35/kale14a.pdf]]
+
+[ext[Prediction with Expert Advice|http://www.mit.edu/~9.520/spring08/Classes/online_learning_2008.pdf]]
+
+Can relate to [[Learning boosting]]

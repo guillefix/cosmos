@@ -1,17 +1,54 @@
 created: 20161018222705231
 creator: cosmos
-modified: 20161205134603381
+modified: 20170228103051798
 modifier: cosmos
 tags: Neuron [[Action potential]]
 title: Neuron action potential
 tmap.id: 7e9ea848-601d-42bc-a9f2-70270c19adc4
 type: text/vnd.tiddlywiki
 
-[[Neuron action potential description|https://www.youtube.com/watch?v=h2H6POZowiU]]
 
-[[Action potential]]
 
-__Equivalent electrical circuit!__
+Small signals die down, but if signal is above a threshold, then the neuron fires a spike.
 
-* [[Huxley-Hodgkin equations]]
+!!!Voltage-gated ion channels
+
+ ions flow through pores in membrane called ion cahnnels.
+Simple model assumes linear dependence of current I on V ([[Ohm's law]]).
+
+So for a single ion channel S,    $$J_S=q_S (V-V_S)$$, where $$V_S$$ is the [[Nernst potential|Nernst relation]].
+
+//Conductance//: $$g=1/R$$. $$g$$ will depend on $$V$$.
+
+!!!Ions transported across ion channels that are not always open. Proportion of open and closed channels depend on V
+
+channels open with rate $$\alpha(V)$$, and close with rate $$\beta(V)$$.
+
+$$n(t)$$ is the proportion of open channels at time t.
+
+$$\frac{dn}{dt}=\alpha(V)(1-n) -\beta(V) n$$
+
+This can be rewritten as 
+
+$$\tau_n(V) \frac{dn}{dt} = n_\infty (V)=n$$
+
+$$n_\infty = \frac{\alpha(V)}{\alpha(V)+\beta(V)}$$ is equilibrium value of $$n$$.
+
+$$\tau_n(V)=\frac{1}{\alpha(V)+\beta(V)}$$ is the time scale of equilibation.
+
+each ion channel, conductance $$g=g^{\text{max}} n$$
+
+
+
+$$C\frac{dV}{dt}+g^{\text{max}} n(V-V_S)=0$$
+
+$$\frac{dn}{dt}=\alpha(V)(1-n) -\beta(V) n$$
+
+The idea of the [[Huxley-Hodgkin equations]]
+
+Can generalize to channels with multiple identical subunits (gates).
+
+Suppose each channel has 2 gates, either open or closed. Ion channel open only if all gates are open.
+
+Denote $$S_i$$, $$i\in \{0,1,2\}$$ denotes proportion of channels with exactly $$i$$ gates open. Rate of going from $$S_0$$ to $$S_1$$ is $$2 \alpha(V)$$ because can open either of the two gates, and similarly for $$S_2$$ to $$S_1$$ being $$2\beta(V)$$.
 

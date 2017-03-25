@@ -1,0 +1,26 @@
+created: 20170306114139469
+creator: cosmos
+modified: 20170319014433365
+modifier: cosmos
+tags: [[Computational learning theory]]
+title: Agnostic learning
+tmap.id: d10f44c4-8d64-4b95-abe9-c938ed7174fb
+type: text/vnd.tiddlywiki
+
+So far in all the learning frameworks we’ve studied, we’ve made an assumption that there is some “ground truth” target function that we attempt to learn. Our goal has been to identify a hypothesis that is close to this target, with respect to the target distribution. Learning algorithms are given access to the target function in the form of labelled observations, which in some cases may be noisy. In this lecture, we’ll drop the assumption of a ground-truth target completely; it is for this reason that the framework is called agnostic learning. As there is no longer a well-defined notion of target, ''our goal will be to identify a hypothesis that is competitive with respect to the best concept from a particular class''
+
+!!!-->[[notes|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture09.pdf]]
+
+[img[agnostic_learning_definition.png]]
+
+[[video|https://www.youtube.com/watch?v=aILazXK059Y&t=9m40s]] -- [[weakness of the PAC definition which motivates agnostic learning|https://www.youtube.com/watch?v=PflkE9JmNLc&t=55m55s]] -- [[to approach this we redefine succesful learning to have only a relative error guarantee|https://www.youtube.com/watch?v=PflkE9JmNLc&t=1h8m50s]] --> [[Definition of Agnostic PAC learnability|https://www.youtube.com/watch?v=PflkE9JmNLc&t=1h10m22s]]
+
+[[explaining agnostic learning|https://www.youtube.com/watch?v=iknI2iga9ps]] -- [[repeating the definition|https://www.youtube.com/watch?v=iknI2iga9ps#t=17m]]
+
+!!!Proving agnostic learnability of finite classes with [[ERM|Empirical risk minimization]]
+
+[[proof that finite classes are agnostic learnable|https://www.youtube.com/watch?v=Lyz4ewLefpE]]
+
+[[Epsilon-representative classes|https://www.youtube.com/watch?v=Lyz4ewLefpE#t=16m30s]]
+
+See more at [[Computational learning theory]]

@@ -1,0 +1,18 @@
+created: 20170223101820060
+creator: cosmos
+modified: 20170223124825169
+modifier: cosmos
+tags: [[Numerical methods for differential equations]]
+title: Runge-Kutta methods
+tmap.id: 2d43ae56-8339-4059-ba74-adc84b618d46
+type: text/vnd.tiddlywiki
+
+
+* [[Euler method]]
+* [[Modified Euler method]]
+
+__4th-order__
+
+http://mathforcollege.com/nm/mws/gen/08ode/mws_gen_ode_txt_runge4th.pdf
+
+__5th-order__

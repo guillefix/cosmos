@@ -1,0 +1,23 @@
+created: 20170302153958029
+creator: cosmos
+modified: 20170302170632125
+modifier: cosmos
+tags: [[Spatial representation in the brain]]
+title: Grid cell
+tmap.id: d9fe149d-450a-4928-ac07-7663d8d93651
+type: text/vnd.tiddlywiki
+
+[[Are New Place Representations Independent of Theta and Path Integration?|http://www.cell.com/neuron/abstract/S0896-6273(14)00397-3?_returnURL=http%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0896627314003973%3Fshowall%3Dtrue]]
+ -- [[omnity|https://www.omnity.io/?files=571c397e5f906b800ab454bf&top_node=571c397e5f906b800ab454bf]]
+
+[[The neural encoding of space in parahippocampal cortices|http://journal.frontiersin.org/article/10.3389/fncir.2012.00053/full]]
+
+Generally, computational models of grid formation have been grouped into one of two classes; oscillatory interference models and network attractor models. Oscillatory interference models propose that multiple, velocity driven oscillators combine to generate periodic patterns. Attractor network models depend on excitatory or inhibitory recurrent activity and use velocity signals to move a bump of activity across a neural sheet of grid cells. 
+
+http://blog.brainfacts.org/2013/08/human-grid-cells/#.WLg-NldBrCI
+
+http://krieger.jhu.edu/mbi/knierimlab/research/
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3216289/
+
+[[Extracting grid cell characteristics from place cell inputs using non-negative principal component analysis|https://elifesciences.org/content/5/e10094]]

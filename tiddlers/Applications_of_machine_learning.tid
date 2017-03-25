@@ -1,6 +1,6 @@
 created: 20170104113221652
 creator: cosmos
-modified: 20170104123720663
+modified: 20170307141456344
 modifier: cosmos
 tags: [[Machine learning]]
 title: Applications of machine learning
@@ -10,7 +10,8 @@ type: text/vnd.tiddlywiki
 
 * [[Speech recognition]]
 * [[Speech synthesis]]
-* [[Image classification]]
+* [[Computer vision]]
+** [[Image classification]]
 * [[Text classification]]
 * [[Machine translation]]
 * [[Recommender system]]

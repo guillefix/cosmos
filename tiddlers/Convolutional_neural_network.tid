@@ -1,7 +1,8 @@
 created: 20160328184231393
 creator: guillefix
-modified: 20161201011708032
+modified: 20170319014818369
 modifier: cosmos
+tags: [[Artificial neural network]]
 title: Convolutional neural network
 tmap.id: c6d7fec1-261c-4b1c-971c-06616c8b7b25
 type: text/vnd.tiddlywiki
@@ -15,6 +16,8 @@ http://cs231n.github.io/convolutional-networks/
 http://cs231n.stanford.edu/syllabus.html
 
 !!![ext[Convnet demo on the web!|http://scs.ryerson.ca/~aharley/vis/conv/]] [ext[details here|http://scs.ryerson.ca/~aharley/vis/]]
+
+[[[MISS 2016] Andrea Vedaldi - Advanced Convolutional Neural Networks|https://www.youtube.com/watch?v=SceY4Xnz104]]
 
 [img[http://scs.ryerson.ca/~aharley/vis/images/convnet_480.png]]
 
@@ -61,3 +64,36 @@ Document models (Misha Denil)
 [[MatConvNet: CNNs for MATLAB|http://www.vlfeat.org/matconvnet/]]
 
 !!![[explanation vid|https://www.youtube.com/watch?v=7Wq-QmMT4gM]]
+
+-----------------
+
+!!__[[Understanding and visualizing CNNs|https://www.youtube.com/watch?v=GHVaaHESrlY&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=9]]__
+
+[[Look at the raw activations|https://www.youtube.com/watch?v=GHVaaHESrlY&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=9#t=2m30s]]
+
+[[Look at weights|https://www.youtube.com/watch?v=GHVaaHESrlY&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=9#t=3m25s]]
+
+[[Visualizing the representation|https://www.youtube.com/watch?v=GHVaaHESrlY&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=9#t=5m25s]] can use [[t-SNE]] to visualize
+
+[[Occlusion experiments|https://www.youtube.com/watch?v=GHVaaHESrlY&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=9#t=8m38s]]
+
+[[Deep Visualization Toolbox|https://www.youtube.com/watch?v=AgkfIQ4IGaM]] -- [[code|https://github.com/yosinski/deep-visualization-toolbox]]
+
+!!![[Deconv approach|https://www.youtube.com/watch?v=GHVaaHESrlY&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=9#t=15m35s]]
+[[Guided backpropagation|https://www.youtube.com/watch?v=GHVaaHESrlY&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=9#t=18m45s]] is like ReLu backwards, only [[backpropagating|Backpropagation]] positive gradients.
+
+[[Deconvnets|https://www.youtube.com/watch?v=GHVaaHESrlY&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=9#t=26m40s]]
+
+!!![[Optimization method|https://www.youtube.com/watch?v=GHVaaHESrlY&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=9#t=29m40s]]
+
+[[They look pretty funny|https://www.youtube.com/watch?v=GHVaaHESrlY&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=9#t=31m25s]]
+
+[[Combine with grabcut|https://www.youtube.com/watch?v=GHVaaHESrlY&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=9#t=34m30s]] [[segmentation|Image segmentation]] algorithm to cut out the important part of an image
+
+[[can do optimization for any neuron|https://www.youtube.com/watch?v=GHVaaHESrlY&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=9#t=35m20s]]. There are better ways of regularizing for images, they do it indirectly (kind of like [[Dropout]]), by blurring.
+
+[[How much can you reconstruct an image from the code|https://www.youtube.com/watch?v=GHVaaHESrlY&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=9#t=40m]]
+
+[[Deep dream]]
+
+[[Neural style]]

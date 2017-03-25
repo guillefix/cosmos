@@ -1,0 +1,21 @@
+created: 20170312011151856
+creator: cosmos
+modified: 20170312011238724
+modifier: cosmos
+tags: 
+title: Indra's net
+tmap.id: 8bcc8767-3386-4f97-99c6-4a47100c4e87
+type: text/vnd.tiddlywiki
+
+[img[https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Indrasnet.jpg/800px-Indrasnet.jpg?1489281129279]]
+
+//Hall of Mirrors// [[Meta]]
+
+There's this wonderful metaphor in hindu mythology, called Indra's net. Indra's net has a multifaceted jewel at each vertex, and each jewel is reflected in all of the other jewels.
+I have just found it, but it reminds me of an idea I had for a knowledge organizing system. The idea is to try to combat the fact that most knowledge systems tend to give rise to, whether by design or not, clear hierarchies. Instead, I wanted something that by design was anti-hierarchical.
+The idea is that every concept is defined to be a {perspective on all other concepts}. So for instance when you are exploring "physics", you are seeing everything else from the perspective of physics. Things like math/science may appear at the top, and lower down biology, engineering, whatever. You can keep scrolling down to see even things like dogs, which would show how dogs look like to a physicist, etc. If you click on dog, you will find again a list of concepts ordered by relevance, describing how they are relevant to dogs.
+This is not too far from what HTML/wiki does. However, I think it is somewhat different, and would be nice to try to implement it..
+
+Meanwhile you can hear some Joseph Campbell on Indra's net: https://www.youtube.com/watch?v=-M85OLHYcB4
+
+https://www.wikiwand.com/en/Indra's_net

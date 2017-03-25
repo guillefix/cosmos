@@ -1,6 +1,6 @@
 created: 20160709004653144
 creator: guillefix
-modified: 20170116162449486
+modified: 20170306184114440
 modifier: cosmos
 tags: [[Statistical inference]] Learning [[Artificial intelligence]] [[Machine learning]]
 title: Learning theory
@@ -24,6 +24,8 @@ Some important types:
 ** [[Causal inference]]
 * [[Inverse problem]]
 ** [[Linear inverse problem]]
+
+See more at [[Machine learning]], and [[Computational learning theory]]
 
 <b>Most of the topics below apply to [[Supervised learning]], which is the most common learning problem in practice.</b>
 
@@ -69,6 +71,8 @@ Overfitting and underfitting refer to ways of misstraining a model, i.e., making
 ''A lot of the theory below is about dealing with the issues of overfitting and underfitting, so as to train the model as well as possible''.
 
 !__[[Convergence and performance results in learning theory]]__
+
+See more at [[Computational learning theory]]!
 
 Mostly about general bounds, that often are pessimistic because they have to include worst cases, but give good intuition of general relations, for instance, between training set size and model complexity.
 

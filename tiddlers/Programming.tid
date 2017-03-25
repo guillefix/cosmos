@@ -1,8 +1,8 @@
 created: 20160122173148401
 creator: guillefix
-modified: 20161104134331867
-modifier: guillefix
-tags: [[Software engineering]]
+modified: 20170319133804540
+modifier: cosmos
+tags: [[Software engineering]] [[Computer Science and IT]]
 title: Programming
 tmap.id: e404816f-1201-451c-aedf-788afacd31d8
 type: text/vnd.tiddlywiki
@@ -13,7 +13,11 @@ More specifically, ''computer programming''
 
 [[Portal:Computer programming|https://en.wikipedia.org/wiki/Portal:Computer_programming]]
 
-__Abstractions__
+!!__Abstractions__
+
+[[Algorithms]]
+
+[[Data structure]]s
 
 [[Programming language]]
 
@@ -25,7 +29,11 @@ __Abstractions__
 
 [[Concurrent programming]]
 
-__Implementation__
+++[[Structure and interpretation of computer programs]]
+
+!!__Implementation__
+
+See [[Computer engineering]], [[Software engineering]]
 
 [[Compiler]]
 

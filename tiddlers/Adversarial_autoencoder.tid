@@ -1,0 +1,14 @@
+created: 20170316161811398
+creator: cosmos
+modified: 20170316162631514
+modifier: cosmos
+tags: Autoencoder
+title: Adversarial autoencoder
+tmap.id: 3143e954-cb5e-42c8-8df7-a64121b7ffd5
+type: text/vnd.tiddlywiki
+
+
+
+The architecture of the GAN used in this study was inspired by recent work in this field [18, 41]. According to original studies, the adversarial network and the autoencoder are trained jointly with SGD in two phases – the reconstruction phase and the regularization phase – executed on each mini-batch. In the reconstruction phase, the autoencoder updates the encoder and the decoder to minimize the reconstruction error of the inputs. In the regularization phase, the adversarial network first updates its ''discriminative network to tell apart the true samples (generated using the prior) from the generated samples (the hidden codes computed by the autoencoder)''. So the objective is like that of [[Variational autoencoder]]. The adversarial network then updates its generator (which is also the encoder of the autoencoder) to confuse the discriminative network. Once the training procedure is done, the decoder of the autoencoder will define a generative model that maps the imposed prior of p(z) to the data distribution.
+
+[[The cornucopia of meaningful leads: Applying deep adversarial autoencoders for new molecule development in oncology|http://www.impactjournals.com/oncotarget/index.php?journal=oncotarget&page=article&op=view&path%5B0%5D=14073&path%5B1%5D=44886]]

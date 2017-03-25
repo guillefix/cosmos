@@ -1,0 +1,12 @@
+created: 20170227095107146
+creator: cosmos
+modified: 20170227095554437
+modifier: cosmos
+tags: [[Pattern formation]]
+title: Diffusion-driven instability
+tmap.id: d8ccf250-0bf8-4315-bac4-f064ccd39146
+type: text/vnd.tiddlywiki
+
+//Turing instability//
+
+A set of species with concentrations which we can write in a vector $$u$$, evolving with a reaction-diffusion equation, whose spatially-homogeneous solution is unstable.

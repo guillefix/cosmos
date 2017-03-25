@@ -1,0 +1,13 @@
+created: 20170223104216379
+creator: cosmos
+modified: 20170223104305131
+modifier: cosmos
+tags: [[Differential equations]]
+title: Stiff equation
+tmap.id: 590e04bd-f9ff-4931-9bef-022b781ea8ea
+type: text/vnd.tiddlywiki
+
+Have issues with stability with [[Numerical method]]s.
+They are characterized by different time scales.
+
+https://www.wikiwand.com/en/Stiff_equation

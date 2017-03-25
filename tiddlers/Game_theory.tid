@@ -1,9 +1,45 @@
 created: 20160122230509525
 creator: guillefix
-modified: 20161104134328512
-modifier: guillefix
+modified: 20170311210257818
+modifier: cosmos
 tags: Economics [[Probability theory]]
 title: Game theory
 tmap.id: 14f1411d-8e48-4b54-b4c0-6e9e50adc0b4
 type: text/vnd.tiddlywiki
+
+Theory of [[Game]]s
+
+[[1. Introduction: five first lessons|https://www.youtube.com/watch?v=nM3rTU927io&list=PL6EF60E1027E1A10B#t=11m20s]]
+
+!!!__Defining the game: outcome matrix and payoffs__
+
+''outcome matrix'': common representation of the outcomes of actions of the different players is a table, like this:
+
+[img[https://plato.stanford.edu/entries/game-theory/figure3.jpg]]
+
+The second part of defining a game is the ''objective''/goals. We map the outcomes to payoffs, which are numerical values where higher is better, and lower is worse.
+
+A game [[is composed of|https://www.youtube.com/watch?v=qQ3kFydI_xQ&list=PL6EF60E1027E1A10B#t=7m30s]]:
+
+* players
+* set of possible strategies for each player. A strategy profile is a tuple of strategies, one for each player.
+* Payoffs.
+
+__Basic properties of strategies__
+
+[[Dominant strategy]]: [[Domination of a strategy over another strategy|https://www.youtube.com/watch?v=nM3rTU927io&list=PL6EF60E1027E1A10B#t=25m45s]] if the strategy's payoff is better than the other regardless of the other's player strategy.
+
+His example is the [[Prisioner's dilemma]], where "rational choice" may not be optimal. If both agreed, then they could do better. [[Repeated interaction could allow cooperation|https://www.youtube.com/watch?v=nM3rTU927io&list=PL6EF60E1027E1A10B#t=38m45s]]. We not only need more than communication, we need enforcement, a [[Contract]]... See [[Law]]. Also [[Education]]. All this helps by changing the payoffs. [[Video about all this|https://www.youtube.com/watch?v=qQ3kFydI_xQ&list=PL6EF60E1027E1A10B]]
+
+[[Variation of the game|https://www.youtube.com/watch?v=nM3rTU927io&list=PL6EF60E1027E1A10B#t=43m]] with guilt/altruism, and indignation, gives rise to a [[Coordination problem]]. 
+
+[[Combination of the two games|https://www.youtube.com/watch?v=nM3rTU927io&list=PL6EF60E1027E1A10B#t=50m]] --> __taking into account what the other player will do__ Important in the [[number game he made|https://www.youtube.com/watch?v=qQ3kFydI_xQ&list=PL6EF60E1027E1A10B#t=36m]] --> [[gives rise to a sequence of i know you know, etc|https://www.youtube.com/watch?v=qQ3kFydI_xQ&list=PL6EF60E1027E1A10B#t=50m]], called [[Common knowledge]] in philosophy. Assuming common knowledge of rationality, the optimal choice would have been 1.
+
+---------------
+
+!!__[[Algorithmic game theory]]__
+
+!!!__Two-player finite zero-sum games__
+
+$$\max\min u(x,y) \leq \min \max u(x,y)$$
 

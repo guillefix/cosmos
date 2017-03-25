@@ -1,6 +1,6 @@
 created: 20160709011226683
 creator: guillefix
-modified: 20161123144822046
+modified: 20170314150013421
 modifier: cosmos
 tags: [[Statistical inference]] [[Bayesian statistics]]
 title: Bayesian inference
@@ -28,7 +28,19 @@ type: text/vnd.tiddlywiki
 
 The last two steps [[are often computationally very difficult|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=8m20s]]. So, [[what's commonly done|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=9m05s]] is maximizing the posterior distribution (MAP principle, above).
 
-//Credible intervals//
+!!!__Posteriors summaries__
+
+* Point summaries.
+** Posterior mean (gives less expected error).
+** Posterior [[Median]]
+** Posterior mode ([[Maximum a posteriori]])
+* Interval summaries. Prefer estimates incorporating uncertainty over point estimates.
+**//Credible intervals//
+** [[Central posterior interval]] (CPI)
+** [[Highest density region]]/interval (HDI). Useful if avoiding nonsensical (low density) regions is important
+
+Depending on the [[Loss function]], different choices may be optimal, as studied by [[Decision theory]]. However, generally prefer posterior mean or median over MAP.
+
 
 __Ways of dealing with the problem of integrating prior to find normalization__
 
@@ -52,7 +64,19 @@ __Ways of dealing with the problem of integrating prior to find normalization__
 
 !!__Hierarchical models__
 
+!!__[[Differential equations]] models__
 
+Estimating ODE/PDE parameters. Add random noise around DE solution
+
+Can use random walk [[Metropolis-Hastings algorithm]]..
+
+!!__[[Approximate Bayesian computation]]__
+
+----------------
+
+!!__Posterior predictive distribution__
+
+from $$\theta | X$$ to $$\tilde{X}|X$$. Find probability distribution over new observations by marginalizing over posterior $$P(\tilde{X}|X) = \sum_{\theta} P(\tilde{X}|\theta, X)P(\theta|X)$$.
 
 ------------------
 

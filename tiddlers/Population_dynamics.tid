@@ -1,6 +1,6 @@
 created: 20161121141406684
 creator: cosmos
-modified: 20161121151052466
+modified: 20170224100045940
 modifier: cosmos
 tags: Ecology
 title: Population dynamics
@@ -9,7 +9,18 @@ type: text/vnd.tiddlywiki
 
 See [[Dynamical systems on networks]], [[Epidemics on networks]], [[Dynamical system]], [[Chemical kinetics]], [[Social dynamics]]
 
-Often modelled by [[Continuous dynamical system]]
+Often modelled by [[Continuous dynamical system]], but sometimes by [[Discrete dynamical system]]s, like the [[Logistic map]]
+
+__Fundamental processes__
+
+Processes that affect number of individuals in a population.
+
+* Death rate
+* Birth rate
+* Immigration rate
+* Emigration rate
+
+These processes show ''density dependence'', that is dependence on the population size itself.
 
 !!!__Logistic growth__
 

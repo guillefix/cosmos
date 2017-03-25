@@ -1,7 +1,7 @@
 created: 20160712103427225
 creator: guillefix
-modified: 20161104134331938
-modifier: guillefix
+modified: 20170312105559510
+modifier: cosmos
 tags: [[Disordered system]]
 title: Random map
 tmap.id: b4c1da2f-7dd6-42e7-ba93-07277c93fd66
@@ -58,7 +58,7 @@ where $$l = \sqrt{M} x$$. This gives the average $$\langle l \rangle = \sqrt{M} 
 
 In [[ Probability Distributions Related to Random Mappings |http://www.jstor.org/stable/2237803?seq=1#page_scan_tab_contents]], some of the above results are extended to the case without self-1-loops, $$T(i) \neq i$$, and where the function is [[one-to-one|Injective function]]
 
-------------------------
+-------------------------------
 
 [[The random map model: a disordered model with deterministic dynamics|http://jphys.journaldephysique.org/articles/jphys/abs/1987/06/jphys_1987__48_6_971_0/jphys_1987__48_6_971_0.html]]
 

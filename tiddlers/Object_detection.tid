@@ -1,6 +1,6 @@
 created: 20170104115041390
 creator: cosmos
-modified: 20170104124024669
+modified: 20170313171421613
 modifier: cosmos
 tags: [[Computer vision]]
 title: Object detection
@@ -9,12 +9,50 @@ type: text/vnd.tiddlywiki
 
 Finding whether certain objects are present in images, and also where they are in the image.
 
+[[CS231n Lecture 8 - Localization and Detection|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg]]
+
 !!__Applications__
 
 * [[Face detection]]
 
 !!__Methods__
 
-* [[Sliding window detector]]
+!!!__Localization__
+
+-->[[Localization as a regression problem|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=6m40s]]
+
+* [[Class agnostic or class specific regressor|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=8m50s]]
+
+[[Localizing a fixed number of objects|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=10m35s]], has been used for human pose estimation
+
+[[Sliding window detector]]. 
+
+[[video|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=12m40s]] -- [[efficient implementation|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=16m10s]]
+
+[[Region proposal networks|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=20m50s]] from Microsoft's [[ResNet]]
+
+!!!__Detection__
+
+[[Problem is that we have variable-sized outputs|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=24m10s]]
+
+Method: ''sliding window'': [[Use classification on many input regions|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=25m30s]] -- [[use really fast classifier|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=27m10s]] -- [[what about for CNNs|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=30m]] (need ''region proposals'' so that we don't have to try everywhere!)
+
+[[Region proposal]]:
+
+* [[Selective search|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=31m30s]]
+* [[many others|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=32m10s]]
+* EdgeBoxes
+
+Region proposals + CNN classifiers: [[R-CNN]], Fast R-CNNs, and Faster R-CNNs
+
+[[YOLO: you only look once|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=1h1m]] detection as regression. YOLO is fast!
+
+-----------
+
+[[Code|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=1h3m20s]]
+
+------------------
 
 See DenseCap at [[Image captioning]], and its references for more.
+
+<small>[[Deformable part models are CNNs?|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg#t=29m43s]]</small>

@@ -1,6 +1,6 @@
 created: 20160709011220078
 creator: guillefix
-modified: 20170105190757607
+modified: 20170309151200058
 modifier: cosmos
 tags: Statistics Inference
 title: Statistical inference
@@ -22,3 +22,5 @@ Ficticious samples
 [[Hypothesis testing]]
 
 //Confidence intervals//
+
+[[Method of moments]]

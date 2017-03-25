@@ -1,6 +1,6 @@
 created: 20160204135706346
 creator: guillefix
-modified: 20170103102331770
+modified: 20170309161436945
 modifier: cosmos
 tags: [[Data & Knowledge]]
 title: Statistics
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 [[Wiki article|https://en.wikipedia.org/wiki/Statistics]]
 
 [[Understanding statistics through explorables|http://emilkirkegaard.dk/understanding_statistics/?app=Simpson_paradox]]
+
+--> [[Seeing theory -- a visual introduction to probability and statistics|http://students.brown.edu/seeing-theory/index.html]]
 
 Mathematica foundation: [[Probability theory]]
 

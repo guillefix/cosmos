@@ -1,6 +1,6 @@
 created: 20160329130953678
 creator: guillefix
-modified: 20161105174321303
+modified: 20170315130859272
 modifier: cosmos
 tags: [[Mathematical logic]]
 title: Proof theory
@@ -9,4 +9,10 @@ type: text/vnd.tiddlywiki
 
 
 
-[[Proof]]
+[[Proof]], [[Logic]]
+
+!!__Proof techniques__
+
+[[Proof by contradiction]]
+
+[[Proof by induction]]

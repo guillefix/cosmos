@@ -1,6 +1,6 @@
 created: 20160629171233090
 creator: guillefix
-modified: 20161224005545691
+modified: 20170315214515164
 modifier: cosmos
 tags: Complexity
 title: Kolmogorov complexity
@@ -55,6 +55,10 @@ __Deficiencies of KC__
 [img[http://i.imgur.com/Eyx7L1A.png]]
 
 from [ext[here|https://cs.uwaterloo.ca/~shallit/Papers/auto5.pdf]]
+
+-----------------
+
+[[On the Gaussianity of Kolmogorov Complexity of Mixing Sequences|https://arxiv.org/abs/1702.01317]]
 
 ---------
 

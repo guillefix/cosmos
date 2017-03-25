@@ -1,0 +1,16 @@
+created: 20170325141500997
+creator: cosmos
+modified: 20170325142309979
+modifier: cosmos
+tags: 
+title: Adversarial example
+tmap.id: 9f36d2e2-dcf6-4dd2-8d80-0f65791b5251
+type: text/vnd.tiddlywiki
+
+[[Attacking Machine Learning with Adversarial Examples|https://blog.openai.com/adversarial-example-research/]]
+
+[[Are Accuracy and Robustness Correlated?|https://arxiv.org/abs/1610.04563]] We find that adversarial examples are mostly transferable across similar network topologies, and we demonstrate that better machine learning models are less vulnerable to adversarial examples.
+
+[[EXPLAINING AND HARNESSING ADVERSARIAL EXAMPLES|file:///home/guillefix/downloads/Deep%20learning.pdf]]
+
+[[Deep Neural Networks are Easily Fooled|https://www.youtube.com/watch?v=M2IebCN9Ht4]]

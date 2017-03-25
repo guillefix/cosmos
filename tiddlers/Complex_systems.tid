@@ -1,7 +1,7 @@
 created: 20160126181154374
 creator: guillefix
 list-after: MMathPhys
-modified: 20161228193631285
+modified: 20170318131935434
 modifier: cosmos
 tags: MMathPhys Complexity
 title: Complex systems
@@ -23,7 +23,7 @@ Features of complex systems: [[Self-organization]] and emergence. [[Evolution]].
 
 Related: [[Soft matter physics]]. [[Non-equilibrium statistical physics]]
 
-Models and examples: [[Boolean network]], [[Automata|Automata theory]], [[Cellular automata]], [[Biology]], [[Artificial chemistry]], [[Fractal]]s. [[Control theory and control systems]], [[Nonlinear system]]s, [[Networks|Network science]] (in particular [[Dynamical systems on networks]]), [[Social system]], [[Percolation|Percolation theory]], [[Self-organized criticality]], [[Agent-based model]]s
+Models and examples: [[Boolean network]], [[Automata|Automata theory]], [[Cellular automata]], [[Biology]], [[Artificial chemistry]], [[Fractal]]s. [[Control theory and control systems]], [[Nonlinear system]]s, [[Networks|Network science]] (in particular [[Dynamical systems on networks]]), [[Social system]], [[Percolation|Percolation theory]], [[Self-organized criticality]], [[Agent-based model]]s, [[Strange loop]]s
 
 http://videos.syntience.com/index.html
 
@@ -43,7 +43,7 @@ Maybe try to categorize these a bit.
 
 -----------
 
-[[ChaosBook.org videos|http://www.cns.gatech.edu/~predrag/courses/PHYS-7224-14/schedule.xml]]
+[ext[ChaosBook.org videos|http://www.cns.gatech.edu/~predrag/courses/PHYS-7224-14/schedule.xml]]
 [[also here|http://www.chaosbook.org/course1/about.html]]
 [[YB channel|https://www.youtube.com/playlist?list=PLVcaOb64gCp8CAL-6KMjTAUfOkr624kLT]]
 
@@ -57,7 +57,7 @@ Maybe try to categorize these a bit.
 
 !!![[Methods and Techniques of Complex Systems Science: An Overview|https://arxiv.org/abs/nlin/0307015]]
 
-[[Power-law Distributions in Empirical Data|http://tuvalu.santafe.edu/~aaronc/powerlaws/]]
+[ext[Power-law Distributions in Empirical Data|http://tuvalu.santafe.edu/~aaronc/powerlaws/]]
 
 [[Statistical physics of social dynamics|http://journals.aps.org/rmp/abstract/10.1103/RevModPhys.81.591]]
 
@@ -89,7 +89,7 @@ http://www.maths.qmul.ac.uk/research/applied
 
 [[How do I explain to non-mathematical people what "non-linear and complex systems" mean?|https://www.quora.com/How-do-I-explain-to-non-mathematical-people-what-non-linear-and-complex-systems-mean]]
 
-[[ Computational Methods for Nonlinear Systems |http://pages.physics.cornell.edu/~myers/teaching/ComputationalMethods/index.html]]
+[ext[ Computational Methods for Nonlinear Systems |http://pages.physics.cornell.edu/~myers/teaching/ComputationalMethods/index.html]]
 
 [[http://sethna.lassp.cornell.edu/]]
 
@@ -98,3 +98,5 @@ http://www.maths.qmul.ac.uk/research/applied
 [[p. grassberger|https://scholar.google.co.uk/citations?user=MBpdE_wAAAAJ&hl=en&oi=sra&cstart=40&pagesize=20]]
 
 [ext[Petri net|https://www.wikiwand.com/en/Petri_net]]
+
+[[ε-transducer]]

@@ -1,7 +1,7 @@
 created: 20160208142538646
 creator: guillefix
-modified: 20161104134331612
-modifier: guillefix
+modified: 20170221153017665
+modifier: cosmos
 tags: [[Mathematical methods]] MMathPhys
 title: Perturbation methods
 tmap.id: 9ebfa8f6-7d89-4633-99c9-bfc29354317e
@@ -17,7 +17,7 @@ See also lectures on YB from Bender (at PI)
 
 There are two methods for obtaining precise approximations: numerical methods and analytical (asymptotic) methods. These are not in competition but complemen teach other. Perturbation methods work when some parameter is large or small. Numerical methods work best when all parameters are order one. Agreement between the two methods is reassuring when doing research. Perturbation methods often give more physical insight.
 
-[[Course materials|https://www0.maths.ox.ac.uk/courses/course/28754]], [[notes|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3128/3/PerturbationMethodsSupplementaryNotes.pdf]]
+[[Course materials|https://www0.maths.ox.ac.uk/courses/course/28754]] ([[new link|https://courses.maths.ox.ac.uk/node/171/materials]]), [[notes|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3128/3/PerturbationMethodsSupplementaryNotes.pdf]]
 
 See reading list there
 

@@ -1,0 +1,20 @@
+created: 20170317113011661
+creator: cosmos
+modified: 20170317113556379
+modifier: cosmos
+tags: [[Decision theory]]
+title: Utility function
+tmap.id: 76680829-5835-461a-90e8-c5d334b1f179
+type: text/vnd.tiddlywiki
+
+[[15 - 2 - Utility Functions- Probabilistic Graphical Models - Professor Daphne Koller|https://www.youtube.com/watch?v=SrE31EOCvKw]]
+
+Different kinds of utility/(value/money) curve indicate different behaviour
+
+*risk aversion
+* risk neutrality
+* risk seeking
+
+most people are risk averse: prefer less money for certain, than more money in expectation, up to a degree. The difference between these quantities is called the insurance/[[Risk premium]], and is what [[Insurance company]]es use to make money.. See [[here|https://www.youtube.com/watch?v=SrE31EOCvKw#t=5m]]
+
+<mark>But why are we comparing with money?</mark> Why do we call the [[Maximum expected utility]], with respect to money, risk neutral? Feel like there are some holes in the theory/my understanding here..

@@ -1,8 +1,8 @@
 created: 20160122230216280
 creator: guillefix
 list-after: Topology
-modified: 20161104134331179
-modifier: guillefix
+modified: 20170315130219309
+modifier: cosmos
 tags: Mathematics
 title: Number theory
 tmap.id: e5ffff3e-8933-42ca-bb7d-f27c8c0f13ff
@@ -11,3 +11,13 @@ type: text/vnd.tiddlywiki
 //Things can often be counted//
 
 [[The LMFDB is an extensive database of mathematical objects arising in Number Theory|http://www.lmfdb.org/]]
+
+[[RSA cryptography]] uses results from number theory
+
+[[Prime number]]
+
+[[Infinitude of prime numbers]]
+
+[[Irrationality of square root of 2]]
+
+[[Triangular numbers]]

@@ -1,6 +1,6 @@
 created: 20160709025157181
 creator: guillefix
-modified: 20161214185440546
+modified: 20170313184051957
 modifier: cosmos
 tags: [[Digital art]]
 title: Deep art
@@ -19,26 +19,11 @@ Neural doodle
 
 Colorize B&W pictures: http://demos.algorithmia.com/colorize-photos/
 
-!!__Neural Style: A Neural Algorithm of Artistic Style__
+!!!__[[Neural Style]]: A Neural Algorithm of Artistic Style__
 
-[[A Neural Algorithm of Artistic Style|http://arxiv.org/pdf/1508.06576v1.pdf]]
 
-[[Pikazo - neural style video tech demo|https://www.youtube.com/watch?v=FzvTLEB_3KY]] [[Artistic style transfer for videos|https://www.youtube.com/watch?v=Khuj4ASldmU]]
 
-[[Analogy-Driven 3D Style Transfer|https://www.youtube.com/watch?v=h0xF6R5MpyA]]
-
-[[reddit discussion|https://www.reddit.com/r/MachineLearning/comments/3imx1m/a_neural_algorithm_of_artistic_style/]]
-
-Code: [[code|http://gitxiv.com/posts/jG46ukGod8R7Rdtud/a-neural-algorithm-of-artistic-style]]
-
-*[[neural-style|https://github.com/jcjohnson/neural-style]] for torch
-* [["Neural Art" in TensorFlow|https://github.com/woodrush/neural-art-tf]]
-
-[[Two Minute Papers - Deep Neural Network Learns Van Gogh's Art|https://www.youtube.com/watch?v=-R9bJGNHltQ&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2&index=6]]
-
-Neural-style applied to videos too.
-
-!!!__Deep dream__
+!!!__[[Deep dream]]__
 
 [[Inceptionism: Going Deeper into Neural Networks|https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html]]
 -- [[Going Deeper with Convolutions |http://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf]]

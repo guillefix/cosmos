@@ -1,0 +1,14 @@
+created: 20170319140133060
+creator: cosmos
+modified: 20170319140338990
+modifier: cosmos
+tags: Programming [[Theory of computation]]
+title: Quine
+tmap.id: 751cf49f-15fa-44ad-abf9-363464a14fa9
+type: text/vnd.tiddlywiki
+
+//aka "self-replicating programs", "self-reproducing programs", and "self-copying programs"//
+
+A quine is a non-empty computer program which takes no input and produces, when executed, a copy of its own source code as its only output.
+
+[ext[wiki|https://www.wikiwand.com/en/Quine_(computing)]]

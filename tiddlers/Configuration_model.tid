@@ -1,0 +1,43 @@
+created: 20170309160535846
+creator: cosmos
+modified: 20170309160553577
+modifier: cosmos
+tags: [[Random graphs with general degree distributions]]
+title: Configuration model
+tmap.id: bd63d16f-00fe-4590-86a9-2ce5d1c8a829
+type: text/vnd.tiddlywiki
+
+
+See Newman's book
+
+__Sample calculations__
+
+Average number of edges between two nodes is
+
+$$\frac{k_i k_j}{2m-1} \approx \frac{k_i k_j}{2m}$$
+
+in the limit of large size. This is approximately equal to the //probability of an edge// between the two nodes in the limit of large size too.
+
+__Excess degree distribution__
+
+__Generating functions for the small components__
+
+See derivation in problem sheet or notes or book, using generating functions (in particular it's "power" property where the g.f. of a sum of independent random variables is the product of g.f.s of these rand. vars.)
+
+__Giant component__
+
+Can find expression for size of ''giant component''.
+
+One can then derive condition for existence of giant component in the configuration model. It is called the ''Malloy-Reed condition'':
+
+$$\langle k^2 \rangle -2\langle k \rangle > 0 \Leftrightarrow \exists \text{  GCC}$$
+
+GCC = giant connected component.
+
+!!!__Random graphs with clustering__
+
+__Degree-triangle model__
+
+Variant, that has tunable clustering coefficient.
+
+See [[here|https://people.maths.ox.ac.uk/porterm/research/otmani_dissertation_final.pdf]] and [ext[here|http://www.uvm.edu/~pdodds/files/papers/others/2010/newman2010a.pdf]]

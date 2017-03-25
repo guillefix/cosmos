@@ -1,0 +1,14 @@
+created: 20170306183859049
+creator: cosmos
+modified: 20170306184207991
+modifier: cosmos
+tags: [[Overfitting and underfitting]]
+title: Overfitting
+tmap.id: a0ca9985-b16e-4bbd-8c45-3ee8c9ef1c0a
+type: text/vnd.tiddlywiki
+
+See [[Overfitting and underfitting]]
+
+A learning algorithm with low bias (it is more //flexible//), which however has a lot of variance, as it fits the idiosyncrasies of the data; it fits the noise.
+
+[[guard against overfitting with prior knowledge (inductive bias)|https://www.youtube.com/watch?v=aILazXK059Y&t=24m]]

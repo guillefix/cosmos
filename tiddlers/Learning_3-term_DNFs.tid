@@ -1,0 +1,24 @@
+created: 20170306112324246
+creator: cosmos
+modified: 20170306112339662
+modifier: cosmos
+title: Learning 3-term DNFs
+tmap.id: 7dc7e7e4-953b-4515-b9f6-e25f13d948ba
+type: text/vnd.tiddlywiki
+
+See [[Probably approximately correct]]
+
+
+$$T_1 \vee T_2 \vee T_3$$ where $$T_i$$ is boolean conjunction
+
+This class is not PAC-learnable, unless RP=NP.
+
+RP is a randomized version of P. Recognize when string is not in language. when it is in language, recognize that it is, with a minimum probability.
+
+Can show this is NP by reduction to graph-colouring.
+
+See photos: we can prove that if the graph has a three colouring, then given the way we constructs the samples $$S$$, there is a 3-term DNF which satisfies all the examples.
+
+We can also show the reverse.
+
+Then finding the best 3-term DNF from the examples (learning) is equivalent to finding if there exist a  graph colouring, so it is not efficient.

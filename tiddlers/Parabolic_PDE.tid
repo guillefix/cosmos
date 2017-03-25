@@ -1,0 +1,15 @@
+created: 20170306093730013
+creator: cosmos
+modified: 20170306102713191
+modifier: cosmos
+tags: [[Partial differential equations]]
+title: Parabolic PDE
+tmap.id: ff59a6f5-5eef-43ba-9a2f-4d57ec5c9cd3
+type: text/vnd.tiddlywiki
+
+
+
+//Example//: [[Diffusion equation]]. Explicit finite difference method stability analysis gives $$\Delta t \leq \frac{h^2}{D}$$.
+
+!!__[[Finite difference method]]s for parabolic PDEs__
+

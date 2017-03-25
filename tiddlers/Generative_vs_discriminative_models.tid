@@ -1,18 +1,18 @@
 created: 20160821085328492
 creator: cosmos
-modified: 20161104134328610
+modified: 20170317124148182
 modifier: cosmos
 title: Generative vs discriminative models
 tmap.id: 509ab4cc-5186-4c90-96e8-56e3cf589f05
 type: text/vnd.tiddlywiki
 
-Comparison of [[Generative learning]] and [[Discriminative learning]]
+Comparison of [[Generative supervised learning]] and [[Discriminative learning]]
 
 If you have enough data, and you only care about $$p(y|x)$$ (prediction), ''discriminative models'' tend to be best, because you are modelling what you care directly, and not constraining other aspects of the system.
 
 ''Generative models'' model more about the system producing the data. This means one is often constraining more (by focusing on a particular family of models for more aspects of the system), so that the model is less flexible, but if the assumptions are OK, the model can work well with much less data. Also, one may want to model these extra aspects of the system because one is interested in more than just prediction, but also generation of samples, for instance.
 
-See [[here|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=38m]] (Andrew Ng lec)
+See [[here|https://www.youtube.com/watch?v=qRJ3GKMOFrE&index=5&list=PLA89DCFA6ADACE599#t=38m]] (Andrew Ng lec), and [[here|https://www.youtube.com/watch?v=bPGr5kFQbaw#t=5m20s]] from graphical model lectures. Use discriminative when you don't care about input data distribution, for instance.
 
 ------------------
 
