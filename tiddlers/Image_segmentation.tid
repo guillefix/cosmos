@@ -1,6 +1,6 @@
 created: 20170129123140619
 creator: cosmos
-modified: 20170319014717637
+modified: 20170328142146501
 modifier: cosmos
 tags: [[Computer vision]]
 title: Image segmentation
@@ -11,3 +11,21 @@ type: text/vnd.tiddlywiki
 [[CS231n Lecture 13 - Segmentation, soft attention, spatial transformers|https://www.youtube.com/watch?v=Sb3b0ocD8mI&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=13]]
 
 [[ReSeg: A Recurrent Neural Network-based Model for Semantic Segmentation|https://www.youtube.com/watch?v=meGA1y8dTCA]]
+
+[[The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation|https://arxiv.org/pdf/1611.09326.pdf]]
+
+[[Convolutional neural network]]s, with [[Skip-connection]]s, like [[Residual neural network]]s
+
+[[Densely Connected Convolutional Networks|https://arxiv.org/pdf/1608.06993.pdf]]
+
+[[Semantic Object Parsing With Local-Global Long Short-Term Memory|http://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Liang_Semantic_Object_Parsing_CVPR_2016_paper.html]] -- local guidance from neighboring positions and global guidance from the whole image are imposed on each position to better exploit complex local and global contextual information.
+
+[[Fully Convolutional Networks for Semantic Segmentation|http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf]] --  We show that convolutional networks by themselves, trained end-to-end, pixelsto-pixels, exceed the state-of-the-art in semantic segmentation. We then define a skip architecture that combines semantic information from a deep, coarse layer with appearance information from a shallow, fine layer to produce accurate and detailed segmentations.
+
+[img[effect_of_skip_connections_on_image_segmentation.jpg]]
+
+[[code|https://github.com/shelhamer/fcn.berkeleyvision.org]]
+
+[[Hypercolumns for Object Segmentation and Fine-grained Localization|https://arxiv.org/pdf/1411.5752.pdf]] -- Recognition algorithms based on convolutional networks (CNNs) typically use the output of the last layer as a feature representation. However, the information in this layer may be too coarse spatially to allow precise localization. On the contrary, earlier layers may be precise in localization but will not capture semantics. To get the best of both worlds, we define the hypercolumn at a pixel as the vector of activations of all CNN units above that pixel. Using hypercolumns as pixel descriptors, we show results on three fine-grained localization tasks
+
+[[Mixed context networks for semantic segmentation|https://arxiv.org/abs/1610.05854]]

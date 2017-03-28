@@ -1,6 +1,6 @@
 created: 20160626143336294
 creator: guillefix
-modified: 20170322005628458
+modified: 20170325195025083
 modifier: cosmos
 tags: Algorithms
 title: Analysis of algorithms
@@ -19,15 +19,20 @@ Analysis of the [[Computational complexity]] of [[Algorithms]], i.e. find out ho
 
 [[O notation|https://www.youtube.com/watch?v=J_vXRNMu1yQ#t=18m30s]]
 
+[[Sometimes asymptotics do not give the practical complexity|https://www.youtube.com/watch?v=iT_Scp0hWWU&index=7&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG#t=29m29s]]
+
 -------------------
 
 [[Analytic Combinatorics, Part I (Analysis of Algorithms)|https://www.youtube.com/playlist?list=PLhsb6tmzSpixf8y0IG6ckJCNP4Fdjcxxs]]
 
 Already recognized as important by Babbage, Turing. However, the modern field of analysis of algorithms was started by Donald Knuth, who recognized that mathematics had the tools to analyze algorithms. Things like the following are useful tools for this:
 
-* [[Recurrence relation]]s
+* [[Recurrence equation]]s, specially with [[Recursive algorithm]]s
 * [[Generating function]]s
 * [[Asymptotic analysis]]
 
 Books: four volumes of //The art of computer programming//.
 
+------------------
+
+See examples in: [[Towers of Henoi]], [[Binary search]]

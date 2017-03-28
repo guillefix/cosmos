@@ -1,0 +1,13 @@
+created: 20170325150025620
+creator: cosmos
+modified: 20170325150115471
+modifier: cosmos
+tags: [[Model selection]]
+title: Akaike information criterion
+tmap.id: 35d9c9d9-527a-452d-8f8a-3f59724e7e80
+type: text/vnd.tiddlywiki
+
+
+[[Akaike information criterion|https://www.wikiwand.com/en/Akaike_information_criterion]] Given a collection of models for the data, AIC estimates the quality of each model, relative to each of the other models.
+
+AIC is founded on [[Information theory]]: it offers a relative estimate of the information lost when a given model is used to represent the process that generates the data. In doing so, it deals with the trade-off between the goodness of fit of the model and the complexity of the model.

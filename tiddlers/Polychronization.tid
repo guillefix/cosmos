@@ -1,13 +1,13 @@
 created: 20161210122846368
 creator: cosmos
-modified: 20161210122910549
+modified: 20170325145040121
 modifier: cosmos
 tags: [[Spiking neural network]]
 title: Polychronization
 tmap.id: 41e80efb-4cf0-40a3-b9de-41b39169d65e
 type: text/vnd.tiddlywiki
 
-Certain spatio-temporal patterns of firing (with time-locked firings) emerge in [[Spiking neural network]]s with axonal delays, and STDP learning -- [[paper|http://www.izhikevich.org/publications/spnet.pdf]]
+Certain spatio-temporal patterns of firing (with time-locked firings) emerge in [[Spiking neural network]]s with axonal delays, and STDP learning -- [[paper|http://www.izhikevich.org/publications/spnet.pdf]]. This gives rise to [[Polychrnous neural groups]]
 
 Because of [[Spike-timing-dependent plasticity]], spiking neural networks can give rise to radically different self-organisation of visual representations when trained on visual scenes (for example). Furthermore, if distributions of axonal delays between neurons are incorporated, then this can give rise to a phenomenon known as ‘polychronization’. This phenomenon involves the network learning many memory patterns, each of which takes the form of a repeating temporal loop of neuronal spike emissions. These temporal memory loops self-organise automatically when STDP is used to modify the strengths of synapses in a recurrently connected spiking network with randomised distributions of axonal conduction delays between neurons. Stringer et al. discuss how a form of polychronization may contribute to the development of highly selective [[binding neurons|Binding problem]]. 
 
@@ -23,3 +23,14 @@ We hypothesize that polychronous groups could represent [[memories|Memory]] and 
 
 Related to [[Synfire chain]]s, which are sometimes called //synfire braid//s.
 
+
+
+---------------------------
+
+Polychronization simulation in rate-coded [[Artificial neural network]]s via [[Skip-connection]]-axonal delays:
+
+"In particular, our spiking models exploit the ability of real neurons to operate as 'coincidence detectors', whereby a postsynaptic neuron responds if and only if a number of incoming presynaptic spikes arrive simultaneously." But I thought that "coincidence detection", or more generally, polychrony detection, was a result of having axonal delays, and appropriate activation functions, which can thus be implemented in my unrolled network. In fact, I found some work that tries to stripe down polychronous groups to the minimal set of requirements, allowing for more efficient computation, and their networks are similar to what I have in mind: https://arxiv.org/abs/0806.1070 and http://ieeexplore.ieee.org.sci-hub.cc/document/6033533/ . If you look at figure 1b in your paper, the idea is essentialy to model each neuron at each time step where at least one axon arrives, as an independent neuron in a deep feedforward network. You just need to make sure your activation function has some thresholding character to have coincidence detection. By unfolding time, we basically convert complex dynamics + simple topology (in an SNN) to complex topology with simple dynamics. This is useful for theoretical analysis (the reason you use it in your paper, and elsewhere), but I am claiming that it may be useful for simulation on the computer too, as one can probably exploit many of the tricks from deep learning. Just to make this more clear, the reason you achieve polychrony detection is because activating a group of neurons in two different temporal patterns, is translated into activating two different set of neurons. There is a subtlety with this unrolled network, which is we need to keep weight sharing to be a true image of the original net, but this is already done with RNNs anyway.
+
+"Another important aspect of our models is the 'holographic principle', in which information about visuospatial features at every spatial scale is propagated upwards to the later (output) stages of visual processing for readout by later brain systems. This provides a holistic representation of the visuospatial world, in which features at every spatial scale are properly integrated.". Interestingly, the literature on semantic image segmentation has been doing quite similar things. For instance: https://arxiv.org/abs/1608.06993 and https://arxiv.org/pdf/1611.09326.pdf . They justify it in several ways, but among them, they talk about the need to integrate high level features with low level features to produce high resolution semantic segmentation of the visual scene. As far as I know, however noone has noticed the connection between these ideas and spiking nets and polychrony, which I think gives some very promising new directions for improvement, by seizing the effects you talk about in your paper, implemented in the way described above.
+
+Finally, regarding "For example, one way that we could develop applications would be to employ a biological spiking network as a preprocessing stage before a more traditional supervised engineering network such as backpropagation of error / deep learning". I think this falls under the general area known as "reservoir computing", where they have some recurrent network of some kind as a reservoir of nonlinear features, on top of which one trains a simpler network, by backpropagation for instance. Here is an interesting paper on this area: http://bengio.abracadoudou.com/cv/publications/pdf/paugam_2008_neurocomputing.pdf

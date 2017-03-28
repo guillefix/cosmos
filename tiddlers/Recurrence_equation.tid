@@ -1,6 +1,6 @@
 created: 20170322204342807
 creator: cosmos
-modified: 20170322204348069
+modified: 20170326011302292
 modifier: cosmos
 tags: [[Discrete mathematics]] Recursion
 title: Recurrence equation
@@ -8,4 +8,20 @@ tmap.id: 1bead985-ce04-420e-baf5-3485026f081f
 type: text/vnd.tiddlywiki
 
 
-[[video|https://www.youtube.com/watch?v=_FG9hhiZipo&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=5]]
+[[video|https://www.youtube.com/watch?v=_FG9hhiZipo&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=5]], solve by iterative substitution, finding pattern and extending to base case. Sometimes that gives the solution directy, other times the solutions give rise to [[Mathematical series]]. Sometimes this [[doesn't work ..|https://www.youtube.com/watch?v=uBKb1I70PhA&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=6#t=29m30s]], but there are other methods, like conjecture a pattern and proving it by [[induction|Proof by induction]]
+
+They are often used in [[Analysis of algorithms]]
+
+!!__Solution methods__
+
+[[More solution methods to recurrence equations|https://www.youtube.com/watch?v=iT_Scp0hWWU&index=7&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG]] (and funny tie), [[List of methods|https://www.youtube.com/watch?v=iT_Scp0hWWU&index=7&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG#t=1m40s]]:
+
+
+* Repeated substitution (and use [[Mathematical series]])
+* [[Master theorem]]
+* Change of variable: [[example|https://www.youtube.com/watch?v=iT_Scp0hWWU&index=7&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG#t=52m30s]]
+* Guess and [[Proof by induction]], [[example|https://www.youtube.com/watch?v=iT_Scp0hWWU&index=7&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG#t=1h]]
+* Linear homogeneous, [[Linear recurrence equation]]
+* [[Linear algebra]], in particular [[Diagonalization]]
+
+Examples: [[Josephus problem]]

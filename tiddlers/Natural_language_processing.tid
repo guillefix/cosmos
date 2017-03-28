@@ -1,6 +1,6 @@
 created: 20160405190342383
 creator: guillefix
-modified: 20170319141453629
+modified: 20170325144446390
 modifier: cosmos
 tags: Language
 title: Natural language processing
@@ -35,11 +35,9 @@ Word vectors: see [[Processing our own Data - Deep Learning with Neural Networks
 
 !!!__[[Language model]]s__
 
-!!__Natural language understanding__
+!!__[[Natural language understanding]]__
 
-https://rasa.ai/?ref=producthunt
 
-https://github.com/allenai/deep_qa
 
 ---------------------------
 

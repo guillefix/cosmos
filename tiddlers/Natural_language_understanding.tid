@@ -1,0 +1,16 @@
+created: 20170325144453634
+creator: cosmos
+modified: 20170325144638424
+modifier: cosmos
+tags: [[Artificial intelligence]]
+title: Natural language understanding
+tmap.id: 281b6970-a65d-43cc-9b4c-901bd2ad810f
+type: text/vnd.tiddlywiki
+
+Use [[Natural language processing]] and more [[Machine learning]]/[[Artificial intelligence]] methods to understand [[Natural language]].
+
+https://rasa.ai/?ref=producthunt
+
+https://github.com/allenai/deep_qa
+
+Many of the methods use [[Augmented RNN]]s, which have [[Memory]], and [[Attention]] features. I think that multi-sensory integration should also be a crucial feature. So this would need to be related to [[Video understanding]] and [[Image understanding]]

@@ -1,0 +1,13 @@
+created: 20170325190714967
+creator: cosmos
+modified: 20170325191414056
+modifier: cosmos
+title: Grey code
+tmap.id: 0c05fb83-58b9-4ecf-a7ab-6920f0e75c3e
+type: text/vnd.tiddlywiki
+
+a cylical sequence of binary numbers where each succesive number only differs in one bit with the previous one.
+
+[[pizza|https://www.youtube.com/watch?v=uBKb1I70PhA&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=6#t=1h7m]]
+
+appear in [[Baguenaudier]]

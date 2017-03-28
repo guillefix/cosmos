@@ -1,6 +1,6 @@
 created: 20160130233608424
 creator: guillefix
-modified: 20170120190014540
+modified: 20170325195142167
 modifier: cosmos
 tags: Algorithms [[Complexity theory]]
 title: Computational complexity
@@ -22,6 +22,8 @@ __[[Time complexity|https://en.wikipedia.org/wiki/Time_complexity]]__
 [[P vs. NP and the Computational Complexity Zoo|https://www.youtube.com/watch?v=YX40hbAHx3s]]
 
 [[Complexity Zoo video|https://www.youtube.com/watch?v=YX40hbAHx3s]]
+
+See [[Analysis of algorithms]]
 
 !!__Big O notation__
 

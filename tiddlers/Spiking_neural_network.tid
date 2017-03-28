@@ -1,6 +1,6 @@
 created: 20160623203037516
 creator: guillefix
-modified: 20170319020350614
+modified: 20170327222246085
 modifier: cosmos
 tags: [[Artificial neural network]] [[Neuronal network]]
 title: Spiking neural network
@@ -19,6 +19,8 @@ Quantification of the spiking is often done by the ''instantaneous firing rate''
 
 
 [ext[Spiking Deep Neural Networks|http://www.ini.uzh.ch/~pfeiffer/research.html]], [[vid|https://www.youtube.com/watch?v=lhIdisK7akI]]
+
+[[review paper|http://www.worldscientific.com/doi/abs/10.1142/S0129065709002002]]
 
 ----------------
 

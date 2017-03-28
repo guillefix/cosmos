@@ -1,13 +1,19 @@
 created: 20160131000110996
 creator: guillefix
-modified: 20170320225926872
+modified: 20170326173029383
 modifier: cosmos
 tags: [[Discrete mathematics]]
 title: Combinatorics
 tmap.id: ca5ca841-f564-4923-b691-0ed2d6076e2d
 type: text/vnd.tiddlywiki
 
-[[counting tricks|https://www.youtube.com/watch?v=t3XdRbPNtdg#t=41m40s]]
+[[counting tricks|https://www.youtube.com/watch?v=t3XdRbPNtdg#t=41m40s]], [[Bag of tricks for counting|https://www.youtube.com/watch?v=MLGTi0ewfBE&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=10]]:
+
+* [[Multiplication principle|https://www.youtube.com/watch?v=MLGTi0ewfBE&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=10#t=2m20s]]
+* [[Addition principle|https://www.youtube.com/watch?v=MLGTi0ewfBE&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=10#t=6m40s]]
+* [[Complement principle|https://www.youtube.com/watch?v=MLGTi0ewfBE&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=10#t=8m50s]]
+* [[Multiple counting|https://www.youtube.com/watch?v=MLGTi0ewfBE&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=10#t=17m25s]]
+* [[When are things the same|https://www.youtube.com/watch?v=MLGTi0ewfBE&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=10#t=22m5s]]
 
 See  [[Analytic combinatorics]]
 
@@ -25,3 +31,7 @@ Some approaches:
 [[Permutation]]s, [[Combination]]s
 
 [[Derangement]]
+
+[[Combinatorial structure]]
+
+Many relations to [[Probability theory]]

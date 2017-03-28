@@ -1,6 +1,6 @@
 created: 20160328184231393
 creator: guillefix
-modified: 20170319014818369
+modified: 20170325144106101
 modifier: cosmos
 tags: [[Artificial neural network]]
 title: Convolutional neural network
@@ -97,3 +97,10 @@ Document models (Misha Denil)
 [[Deep dream]]
 
 [[Neural style]]
+
+---------------------------------
+
+[[Genetic CNN|https://arxiv.org/pdf/1703.01513.pdf]]
+
+
+[[Densely Connected Convolutional Networks|https://arxiv.org/pdf/1608.06993.pdf]]

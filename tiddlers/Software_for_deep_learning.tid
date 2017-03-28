@@ -1,6 +1,6 @@
 created: 20160709025345383
 creator: guillefix
-modified: 20161104134332499
+modified: 20170325150715660
 modifier: cosmos
 title: Software for deep learning
 tmap.id: 54625cc1-a5db-494f-b5b6-6cba39f4a9e3
@@ -15,3 +15,5 @@ GoogleLeNet. [[github|https://github.com/BVLC/caffe/tree/master/models/bvlc_goog
 [ext[VGGnet|http://www.robots.ox.ac.uk/~vgg/research/very_deep/]]
 
 [[Deep art]]
+
+https://github.com/BVLC/caffe/wiki/Model-Zoo

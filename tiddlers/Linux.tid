@@ -1,6 +1,6 @@
 created: 20160624210720984
 creator: guillefix
-modified: 20161104134329428
+modified: 20170326022517346
 modifier: cosmos
 tags: [[Operating system]]
 title: Linux
@@ -9,11 +9,11 @@ type: text/vnd.tiddlywiki
 
 Linux is an [[OS kernel]]
 
-[[The Linux Documentation Project|http://tldp.org/]]
+[[The Linux Documentation Project|http://tldp.org/]] -- http://explainshell.com/
 
 [img[https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png]]
 
-!!__Command shell__
+!!__[[Command shell]]__
 
 __Multi-user__
 
@@ -24,3 +24,5 @@ __Multi-user__
 [[BASH Programming - Introduction HOW-TO|http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc7]]
 
 [[Bash script variable declaration - command not found|http://stackoverflow.com/questions/2268104/bash-script-variable-declaration-command-not-found]]
+
+!!__[[Bash scripting]]__

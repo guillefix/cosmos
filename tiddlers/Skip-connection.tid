@@ -1,6 +1,6 @@
 created: 20170325142535032
 creator: cosmos
-modified: 20170325142802943
+modified: 20170328142053734
 modifier: cosmos
 tags: [[Artificial neural network]]
 title: Skip-connection
@@ -16,3 +16,27 @@ Found in [[Residual neural network]]s, and [[Highway network]]s.
 [[Skip Connections as Effective Symmetry-Breaking|https://arxiv.org/abs/1701.09175]]. We argue that skip connections help break symmetries inherent in the loss landscapes of deep networks, leading to drastically simplified landscapes. We find, however, that skip connections confer additional benefits over and above symmetry-breaking, such as the ability to deal effectively with the vanishing gradients problem.
 
 [[HIGHWAY AND RESIDUAL NETWORKS LEARN UNROLLED ITERATIVE ESTIMATION|https://arxiv.org/pdf/1612.07771.pdf]]
+
+[[Inside-Outside Net: Detecting Objects in Context with Skip Pooling and Recurrent Neural Networks|http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Bell_Inside-Outside_Net_Detecting_CVPR_2016_paper.pdf]] . Contextual information outside
+the region of interest is integrated using spatial recurrent
+neural networks. Inside, we use skip pooling to extract
+information at multiple scales and levels of abstraction -- [[video|https://www.youtube.com/watch?v=-QNDu_8Q7_A&feature=youtu.be]] --[[SKIP CONNECTIONS -- what and where|https://www.youtube.com/watch?v=-QNDu_8Q7_A&feature=youtu.be#t=2m]]
+
+[[DelugeNets: Deep Networks with Massive and Flexible Cross-layer Information Inflows|https://arxiv.org/abs/1611.05552]]
+ -- [[Densely Connected Convolutional Networks|https://arxiv.org/pdf/1608.06993.pdf]]
+ -- [[Hypercolumns for Object Segmentation and Fine-grained Localization|https://arxiv.org/pdf/1411.5752.pdf]] -- 
+
+See applications in [[Image segmentation]], and [[Object detection]]
+
+I think skip-connections can simulate [[Polychronization]]
+
+[[Recurrent Residual Learning for Sequence Classification|https://pdfs.semanticscholar.org/1a6b/8d832037f1565f6b81e3743fdacd227c6009.pdf]] -- We show that
+for sequence classification tasks, incorporating
+residual connections into recurrent structures
+yields similar accuracy to Long Short
+Term Memory (LSTM) RNN with much fewer
+model parameters. -- [[Code|https://publish.illinois.edu/yirenwang/home/emnlp16source/]]
+
+[[Architectural complexity of RNNs|http://papers.nips.cc/paper/6303-architectural-complexity-measures-of-recurrent-neural-networks.pdf]]
+
+Deep transition RNN - [[How to Construct Deep Recurrent Neural Networks|https://arxiv.org/abs/1312.6026]]

@@ -1,6 +1,6 @@
 created: 20170315130259908
 creator: cosmos
-modified: 20170315130317347
+modified: 20170326015828176
 modifier: cosmos
 tags: [[Proof theory]]
 title: Proof by induction
@@ -9,3 +9,7 @@ type: text/vnd.tiddlywiki
 
 
 [[Example of proof by induction|https://www.youtube.com/watch?v=h_9WjWENWV8#t=40m30s]]
+
+[[some subtletly|https://www.youtube.com/watch?v=ZJqFHvBQthI&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=9#t=54m19s]]
+
+Strong and weak induction

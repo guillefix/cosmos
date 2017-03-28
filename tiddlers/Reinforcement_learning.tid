@@ -1,6 +1,6 @@
 created: 20160428203926307
 creator: guillefix
-modified: 20161222124300461
+modified: 20170328002235767
 modifier: cosmos
 tags: [[Machine learning]] Optimization
 title: Reinforcement learning
@@ -97,7 +97,7 @@ This is the optimal policy that maximizes the expected total payoff (solution of
 
 MDPs can be solved by [[Linear programming]], iterative methods, or [[Dynamic programming]].
 
-!!!__Q function, or ''action-value function'' --> //Q learning//__
+!!!__Q function, or ''action-value function'' --> //Q learning :)//__
 
 Although state-values suffice to define optimality, it will prove to be useful to define action-values. Given a state $$s$$, an action $$a$$ and a policy $$\pi$$, the action-value of the pair $$(s,a)$$ under $$\pi$$ is defined by
 
@@ -112,17 +112,17 @@ The ''action-value function'' of such an optimal policy is called the ''optimal 
 
 [[video|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=27m55]], [[Q function using NN|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=33m]], define loss function, and then use [[Gradient descent]]
 
-[[Don't need to follow optimal policy while Q-learning|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=37m30s]]
+Can learn the Q function by a dynamic programming approach but [[it's too computationally expensive|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h27m55s]]. The [[Model-free reinforcement learning]] method of Q-learning, on the other hand, is very useful. [[Don't need to follow optimal policy while Q-learning|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=37m30s]]
 
 [[Example|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=41m]]
 
 !!__Linear programming approach__
 
 
-!!__Dynamic programming / optimal value function approaches__
+!!__[[Dynamic programming]] / optimal value function approaches__
 
 [[idea|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=13m05]]
- -- [[Tradeoffs|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=1h01m45s]]
+ -- [[Tradeoffs|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=1h01m45s]]. The idea is to solve consistency equations (derived by a [[look ahead tree|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h4m25s]] and [[principle of optimality|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h1m48s]]) iteratively (see [[Fixed-point iteration]]). -- [[Summary of methods|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h23m55s]]
 
 !!![[Neuro-dynamic programming|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=3m]]
 
@@ -155,6 +155,14 @@ to converge to $$V^*$$. After iterations, compute optimal policy using its defin
 
 :$$\pi^*(s) = \arg\max\limits_a \sum\limits_{s'} P_{s a} (s') V^* (s')$$
 
+[[example|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h6m40s]] -- [[more explanation|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h12m30s]] -- [ext[demo|http://www.cs.ubc.ca/~poole/demos/mdp/vi.html]]
+
+[[Extensions to dynamic programming|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h29m]]:
+
+* [[Asynchronous dynamic programming (DP)|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h29m35s]]
+** [[In-place DP|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h30m52s]]
+** [[Prioritized sweeping|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h33m30s]]
+** [[Real-time dynamic programming|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h35m38s]]
 
 There are other algorithms described in the [[Wiki page|https://www.wikiwand.com/en/Reinforcement_learning]]:
 
@@ -164,13 +172,7 @@ There are other algorithms described in the [[Wiki page|https://www.wikiwand.com
 
 * Cross Entropy Method
 
-!!!__[[Temporal differences|Temporal difference learning]] (TD)__
-
-//TD0//
-
-[[vid|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=19m30s]]
-
-A kind of [[Gradient descent]] to converge to solution to V(s) that satisfies [[Bellman equation]]
+|[[final comment on DP methods|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h36m30s]], DP uses full-width look ahead, plus it assumes we know dynamics. Instead we can [[sample|Monte Carlo]]) --> leads to [[Model-free reinforcement learning]]|
 
 !!__[[Reinforcement learning in continuous state space]]__
 
@@ -197,20 +199,40 @@ Policy search often works well, but is very slow, and is stochastic. Also, becau
 
 See [[here|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=48m]] for ''Pegasus policy search'', using "scenarios", which look like [[Quenched disorder]]
 
-!!__[[Unkown state transition probabilites|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=1h4m48s]]__
+!!__Undiscounted MDP__
+
+No discount factor $$\gamma$$. Approach: average reward MPD.
+
+!!__[[Model-free reinforcement learning]]__
+
+[[Unlike model-based RL (planning)|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h36m30s]], we don't know the dynamics. This is also useful even if we know the dynamics, but the state/action space is too big to be computationally tractable (with dynamic programming approaches, we do a short lookahead which has complexity proportional to the number of actions and states). So instead we [[sample|Monte Carlo]] the dynamics, which is more efficient, and can be done even when we don't know the environment.
+
+[[Model-free prediction|https://www.youtube.com/watch?v=PnHCvfgC_ZA&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=4]]
+
+!!!__Monte Carlo learning__
+
+full look ahead, but only samples
+
+!!!__[[Temporal differences|Temporal difference learning]] (TD)__
+
+one step look ahead, and estimate return..
+
+//TD0//
+
+[[vid|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=19m30s]]
+
+A kind of [[Gradient descent]] to converge to solution to V(s) that satisfies [[Bellman equation]]
+
+!!!__[[Unkown state transition probabilites|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=1h4m48s]]__
 
 * Estimate from data.
 
 [[Summary|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=1h9m20s]]
 
-!!__Undiscounted MDP__
-
-No discount factor $$\gamma$$. Approach: average reward MPD.
-
-!!__[[Debugging RL algorithms|https://www.youtube.com/watch?v=UFH5ibWnA7g&index=19&list=PLA89DCFA6ADACE599#t=1m]]__
-
 
 ------------------
+
+!!__[[Debugging RL algorithms|https://www.youtube.com/watch?v=UFH5ibWnA7g&index=19&list=PLA89DCFA6ADACE599#t=1m]]__
 
 !!__Applications__
 

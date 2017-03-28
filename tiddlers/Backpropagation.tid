@@ -1,6 +1,6 @@
 created: 20160918153744509
 creator: cosmos
-modified: 20170212170405620
+modified: 20170325145957990
 modifier: cosmos
 title: Backpropagation
 tmap.id: 0894b5a7-2a44-4f4c-ba13-5157e44831e2
@@ -25,4 +25,8 @@ type: text/vnd.tiddlywiki
 
 [[Derivatives wrt the input|https://www.youtube.com/watch?v=-YRB0eFxeQA&index=8&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=43m47s]] give you a way of knowing which part of the input is determining the classification, i.e. where is the cat in the image, for example
 
+-----------------
+
 Backprop in the brain (see Geoff Hinton vid) and this paper: http://biorxiv.org/content/early/2016/12/23/035451
+
+[[STDP-Compatible Approximation of Backpropagation in an Energy-Based Model|http://www.mitpressjournals.org/doi/full/10.1162/NECO_a_00934]]
