@@ -1,12 +1,14 @@
 created: 20160701170646984
 creator: guillefix
-modified: 20161104134328195
-modifier: guillefix
+modified: 20170625195944568
+modifier: cosmos
 title: Entropy rate of a finite state process
 tmap.id: ea9df956-11da-4546-b225-324d5f0f578e
 type: text/vnd.tiddlywiki
 
 The [[Entropy rate]] of a FSP, as defined in [[Finite state channel]]
+
+[img[entropy_rate_FSC.png]]
 
 See here: http://pfister.ee.duke.edu/thesis/chap4.pdf
 

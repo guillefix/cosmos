@@ -1,0 +1,9 @@
+created: 20170517200540044
+creator: cosmos
+modified: 20170517200737088
+modifier: cosmos
+title: Markov reward process
+tmap.id: f3273404-c82f-47aa-b0f0-cbcddd1a5a8c
+type: text/vnd.tiddlywiki
+
+A [[Markov decision process]] with a fixed //policy//

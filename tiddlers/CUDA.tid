@@ -1,0 +1,28 @@
+created: 20170330115025952
+creator: cosmos
+modified: 20170330134205394
+modifier: cosmos
+tags: [[GPU computing]]
+title: CUDA
+tmap.id: 27df8bd4-6bda-4b13-856c-3a9565f15c71
+type: text/vnd.tiddlywiki
+
+[[GPU computing]], [[Parallel computing]]
+
+[[CUDA model|https://www.youtube.com/watch?v=lQVV5JCd74I]]:
+
+# move data from CPU to GPU memory ``cudaMcopy``
+# compute on GPU with ''Kernels''
+## Launch [[blocks of threads|https://www.youtube.com/watch?v=3krWI5_RuFk]] (forming a ''grid of blocks''). [[Why blocks?|https://www.youtube.com/watch?time_continue=13&v=usY0643pYs8]]: GPU allocates each blocks to a Streaming Multiprocessor (SM) (an SM may run more than 1 block). [[CUDA makes few guarantess about where and when thread blocks will run|https://www.youtube.com/watch?time_continue=5&v=uTyYNPU4mGQ]] 
+# mode data back grom GPU to CPU memory
+
+Kernels look like serial code, but you can specify the parallelism, which is the number of simultaneous threads each of which executes a copy of the kernel.
+
+[[Memory model|https://www.youtube.com/watch?time_continue=2&v=HQejUtJtBlg]] -- [[full model|https://www.youtube.com/watch?time_continue=60&v=lBJANU52k5s]]
+
+|[[Need for synchronization!|https://www.youtube.com/watch?v=6r5FJLqcdqY]]|
+Barrier
+
+Introduction to parallel programming by nvidia in Udacity: https://classroom.udacity.com/courses/cs344/lessons/55120467/concepts/671181630923
+
+[[What happens when many threads try to write to same memory location|https://www.youtube.com/watch?v=bMURvx_2568]] -- [[atomic operations|https://www.youtube.com/watch?v=r-WtkvzKcVA]]

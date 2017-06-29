@@ -1,6 +1,6 @@
 created: 20160206004752074
 creator: guillefix
-modified: 20170328004639925
+modified: 20170623221536068
 modifier: cosmos
 tags: Art
 title: Virtual reality
@@ -13,7 +13,7 @@ type: text/vnd.tiddlywiki
 
 https://www.youtube.com/playlist?list=PLbMVogVj5nJSyt80VRXYC-YrAvQuUb6dh
 
-http://elevr.com/
+http://elevr.com/ -- [[Future programming interfaces|http://elevr.com/portfolio/future-programming-interfaces/]]
 
 [[Bringing Virtual Reality to the Web|https://webvr.info/]]
 
@@ -40,3 +40,9 @@ http://knowledgebase.cs.vt.edu/
 [[neural spatial info and immersiveness|https://www.youtube.com/watch?v=uJe6LjrgBcM&t=44m50s]] (theta rhythms)
 
 [img[https://s1.postimg.org/ipvuqrk1r/VR_girl.jpg]]
+
+"The ultimate display would, of course, be a room within which the computer can control the existence of matter. A chair displayed in such a
+room would be good enough to sit in. Handcuffs displayed in such a room would be confining, and a bullet displayed in such a room would be
+fatal. With appropriate programming such a display could literally be the Wonderland into which Alice walked."
+~Ivan Sutherland, 1965
+Early prediction of programmable matter, what a nice gem

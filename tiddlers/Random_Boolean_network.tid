@@ -1,7 +1,7 @@
 created: 20160623222113003
 creator: guillefix
-modified: 20161104134331916
-modifier: guillefix
+modified: 20170621223134072
+modifier: cosmos
 title: Random Boolean network
 tmap.id: a7ab9fb8-04d4-4227-9875-f3166610dcb1
 type: text/vnd.tiddlywiki
@@ -10,4 +10,6 @@ Random [[Boolean network]]
 
 [[Matlab]] RBN toolbox: http://www.teuscher.ch/rbntoolbox/
 
-[[http://turing.iimas.unam.mx/~cgg/rbn/]]
+[ext[http://turing.iimas.unam.mx/~cgg/rbn/]]
+
+https://arxiv.org/pdf/0706.3351.pdf

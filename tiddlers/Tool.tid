@@ -1,6 +1,6 @@
 created: 20160419205324381
 creator: guillefix
-modified: 20170311231207159
+modified: 20170410185831486
 modifier: cosmos
 tags: [[Technology & Engineering]]
 title: Tool
@@ -10,6 +10,10 @@ type: text/vnd.tiddlywiki
 An artifact, or object, that can be used to achieve a goal, especially if the item is not consumed in the process. It thus a physical instance of technology. 
 
 Conversely, technology is the set of all tools, and other concepts related to them.
+
+[img[tool_meaning.png]]
+
+See [[Creative system]]
 
 https://www.wikiwand.com/en/Tool
 

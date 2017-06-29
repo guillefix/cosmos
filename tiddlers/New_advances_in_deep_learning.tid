@@ -1,6 +1,6 @@
 created: 20160406164853743
 creator: guillefix
-modified: 20170212160400812
+modified: 20170512230931475
 modifier: cosmos
 tags: [[Artificial intelligence innovation]]
 title: New advances in deep learning
@@ -8,19 +8,41 @@ tmap.id: e02512fa-e9cf-4761-abd6-5be637f3ea17
 type: text/vnd.tiddlywiki
 
 
+Conferences: [[ICLR|http://iclr.cc/doku.php?id=iclr2017:schedule]], NIPS
 
+[[Generative adversarial network]]s, etc.
 
-Generative adversarial networks, etc.
+Generating video!
 
 [[Variational autoencoder]]
 
 WaveNet, PixelRNN, SampleRNN
 
+!!![[Augmented RNN]]s ([[Memory]]-augmented)
+
+!!!Neural architecture search
+
+[[Neural Architecture Search with Reinforcement Learning|https://arxiv.org/abs/1611.01578]]
+
+!!![[Meta-learning]]
+
+Avoiding catastrophic forgetting..
+
+
+
 ---------------
 
 [[Multisensory integration]]
 
+[[Deep learning theory]]
+
+[[Deep learning with Elastic Averaging SGD|https://arxiv.org/abs/1412.6651]]
+
+We study the problem of stochastic optimization for deep learning in the parallel computing environment under communication constraints. A new algorithm is proposed in this setting where the communication and coordination of work among concurrent processes (local workers), is based on an elastic force which links the parameters they compute with a center variable stored by the parameter server (master).
+
 ---------------------
+
+Solve vanishing gradients problem, allow be computations to depend on all/any of the existing computations, thus creating a DAG structure instead of a layered one: http://www.jonolick.com/home/dagnn-a-deeper-fully-connected-network
 
 !!![[Batch normalization]]
 

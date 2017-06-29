@@ -1,0 +1,13 @@
+created: 20170528125447069
+creator: cosmos
+modified: 20170528134123352
+modifier: cosmos
+tags: Shader
+title: Fragment shader
+tmap.id: b4d1dd09-2baf-4d02-ab80-c7bcf255d00f
+type: text/vnd.tiddlywiki
+
+
+Gets pixel coordinates that fall inside polygons (often [[Triangle]]s) defined by vertices (processed by the [[Vertex shader]]). It assigns each of them a color, for instance by using a [[Texture (Graphics)]] associated with the polygon.
+
+https://blog.mayflower.de/4584-Playing-around-with-pixel-shaders-in-WebGL.html

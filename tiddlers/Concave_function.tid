@@ -1,0 +1,10 @@
+created: 20170413095406127
+creator: cosmos
+modified: 20170413095454309
+modifier: cosmos
+tags: 
+title: Concave function
+tmap.id: ec5c06a9-6a4c-471f-870e-e1c9fa25a5c9
+type: text/vnd.tiddlywiki
+
+A function $$f$$ is //concave// is $$-f$$ is [[convex|Convex function]]

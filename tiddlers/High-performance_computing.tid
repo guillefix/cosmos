@@ -1,6 +1,6 @@
 created: 20161128093646573
 creator: cosmos
-modified: 20170209162949694
+modified: 20170330114941715
 modifier: cosmos
 tags: [[Computer engineering]]
 title: High-performance computing
@@ -13,7 +13,7 @@ type: text/vnd.tiddlywiki
 
 Value of the //computational intensity// of an algorithm versus its floating-point operations per second, usually plotted in a 2D graph. It gives an idea of how the data bandwidth affects flops. 
 
-//computational/arithmetic intensity// (AI): arithmetic operations (ao) per byte 
+//computational/arithmetic intensity// (AI): arithmetic operations (ao) per byte [[AI in parallel comp|https://www.youtube.com/watch?v=-40jMw4HN-o]]
 
 Low AI means we do few aos per bit of data, and so data bandwidth is important. As soon as we do enough aos per byte, then the blottleneck is our actual processing unit (depending on hardware/architecture), whether CPU or GPU.
 
@@ -37,7 +37,7 @@ Use backlash, and store sparse matrices in sparse format.
 
 vectorization
 
-!!!__[[Parallel computing]]__
+!!__[[Parallel computing]]__
 
 parfor: parallel for loops. [[Variable types in parfors|https://uk.mathworks.com/help/distcomp/classification-of-variables-in-parfor-loops.html]]
 
@@ -49,3 +49,6 @@ Parallel computing with [[Computer cluster]]s
 
 spmd mode:	single	program	multiple	data. [[Concurrent computing]].
 
+[[GPU computing]]
+
+[[Minimize time spent on memory|https://www.youtube.com/watch?time_continue=13&v=v-gSOY9-RgI]]

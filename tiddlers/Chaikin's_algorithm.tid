@@ -1,0 +1,19 @@
+created: 20170515000114612
+creator: cosmos
+modified: 20170515001648127
+modifier: cosmos
+tags: [[Subdivision surface]]
+title: Chaikin's algorithm
+tmap.id: b84c59fb-c869-4261-adba-75a612c97189
+type: text/vnd.tiddlywiki
+
+
+__Subdivision curve__
+
+corner-cutting algorithm to draw continuous curves from a set of points.
+
+[[video|https://www.youtube.com/watch?v=0NbD-c0Ctdk&index=2&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=6m30s]]
+
+http://graphics.cs.ucdavis.edu/education/CAGDNotes/Chaikins-Algorithm/Chaikins-Algorithm.html
+
+They have been shown to be equivalent to a quadratic B-[[Spline]] curve (a piecewise quadratic [[Bezier curve]])

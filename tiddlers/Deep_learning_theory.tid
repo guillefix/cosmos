@@ -1,6 +1,6 @@
 created: 20160913070239061
 creator: cosmos
-modified: 20161210001816621
+modified: 20170512230405675
 modifier: cosmos
 tags: [[Deep learning]]
 title: Deep learning theory
@@ -14,6 +14,41 @@ type: text/vnd.tiddlywiki
 [[Integrating symbols into deep learning]]
 
 [[A Theoretical Framework for Deep Learning Networks|https://www.youtube.com/watch?v=YVjvRvvVn4w]]
+
+!!![[Learning theory and neural networks gingko tree|https://gingkoapp.com/vehvff]]
+
+[[Understanding deep learning requires rethinking generalization|https://openreview.net/forum?id=Sy8gdB9xx&noteId=Sy8gdB9xx]]
+
+[[Why and when can deep - but not shallow - networks avoid the curse of dimensionality: a review|https://arxiv.org/pdf/1611.00740.pdf]], see also [[Expressibility of neural networks]]
+
+The approximation of functions with a compositional structure
+– can be achieved with the same degree of accuracy by
+deep and shallow networks but that the number of parameters
+are much smaller for the deep networks than for the shallow
+network with equivalent approximation accuracy. 
+
+See [[Generalization in deep learning]]
+
+--------------------------------
+
+[[Geometry, Optimization and Generalization in Multilayer Networks|https://www.youtube.com/watch?v=ACdjYP0-cMw]]. He talks about the capacity of the network in a similar way to the theory of neural nets (see [[this video|https://www.youtube.com/watch?v=Vguh9vUb0zc]]). I think it's the same as [[VC dimension]] actually. It's more or less proportional to the number of edges, apparently.
+
+[[Time-bounded functions can be represented cheaply|https://www.youtube.com/watch?v=ACdjYP0-cMw#t=4m30s]] Feedforward neural nets are the ultimately learning machines but 
+ -- [[Learning is hard|https://www.youtube.com/watch?v=ACdjYP0-cMw#t=6m30s]]
+
+[[The fact that we can learn so effectively is quite mysterious|https://www.youtube.com/watch?v=ACdjYP0-cMw#t=8m]]
+
+|[[Optimization and capacity control|https://www.youtube.com/watch?v=ACdjYP0-cMw#t=9m35s]], which avoids [[Overfitting]]!|
+
+[img[https://s29.postimg.org/lfinrt49j/Selection_016.jpg]]
+
+[[Relation to |https://www.youtube.com/watch?v=ACdjYP0-cMw#t=17m5s]][[Matrix factorization]]. Better and worse inductive biases is what seems to cause things. For the case of matrix factorization in real use cases it seems that matrices have low trace norm more than they have low rank. Given the right inductive bias, we can learn efficiently, and generalize well.
+
+[[explanation|https://www.youtube.com/watch?v=ACdjYP0-cMw#t=27m45s]]. It's not the rank which allows capacity control / is the right inductive bias, but something else. Then decreasing rank (less neurons) doesn't actually help with generalization,... Need to find right measure of [[Complexity]], for NN "path norm" seems best from those they tried.
+
+[[Real vs random labels|https://www.youtube.com/watch?v=ACdjYP0-cMw#t=36m40s]], behaviour is as expected with random data
+
+But we didn't tell the network to minimize the path norm (complexity). [[So where is the regularization coming from?|https://www.youtube.com/watch?v=ACdjYP0-cMw#t=39m5s]]. He thinks it's the [[Optimization]] algorithm that is biasing us towards simple global optima (work on this for convex opti?), but couldn't it be a [[GP map|Genotype-phenotype map]]-like [[Simplicity bias]]. He approaches it from [[Geometry]]. I think he is right in that the algorithm plays a role in biasing. But GP bias probably does also, or it could at least be seized (as in [[Neuroevolution]] with indirect encodings..)
 
 ----------------------
 

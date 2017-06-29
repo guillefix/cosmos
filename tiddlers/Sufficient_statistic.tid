@@ -1,6 +1,6 @@
 created: 20160810180536913
 creator: cosmos
-modified: 20161104134332649
+modified: 20170413115312083
 modifier: cosmos
 tags: Statistics
 title: Sufficient statistic
@@ -11,4 +11,6 @@ A sufficient statistic for random variable $$y$$ w.r.t to r.v. $$x$$ is a functi
 
 [img[sufficient_statistic.PNG]]
 
-An equivalent formulation is given by the [[Data processing theorem]]
+An equivalent formulation is given by the [[Data processing theorem]]. See page 35 on Elements of Information theory by Thomas and Clover
+
+A ''minimal sufficient statistic'' is a function of every other sufficient statistic.

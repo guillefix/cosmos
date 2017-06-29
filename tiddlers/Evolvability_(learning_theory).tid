@@ -1,0 +1,19 @@
+created: 20170616181612085
+creator: cosmos
+modified: 20170616191214935
+modifier: cosmos
+tags: [[Computational learning theory]]
+title: Evolvability (learning theory)
+tmap.id: 02bea3c4-f487-40de-b266-d9704e7aba68
+type: text/vnd.tiddlywiki
+
+Valiant's quantitative model of [[Evolution]]
+
+[[Paper|http://dl.acm.org.sci-hub.cc/citation.cfm?id=1462156]]
+
+Basic difference with [[Probably approximately correct]] are that:
+
+* the hypotheses for the next learning step are chosen from within a polynomially-sized pool (called a neighbourhood), which is generated in a way independent of the samples. 
+* the selection of the next hypothesis from this pool is done with knowledge only of the average performance on the sample at that training step.
+
+[[How can evolution learn|http://www.sciencedirect.com.sci-hub.cc/science/article/pii/S0169534715002931]] -- [[response to replies|http://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(16)30180-X]]

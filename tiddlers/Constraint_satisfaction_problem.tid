@@ -1,6 +1,6 @@
 created: 20170309120414685
 creator: cosmos
-modified: 20170309133739340
+modified: 20170512224653030
 modifier: cosmos
 tags: [[Discrete mathematics]]
 title: Constraint satisfaction problem
@@ -26,4 +26,6 @@ Can show that asymptotically for large number of colors $$q$$, the threshold is 
 
 [[Factor graph|https://www.youtube.com/watch?v=nfB4Ucccws0&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu&index=7#t=56m30s]] as those found on [[Markov network]]s
 
-We can analyze them through [[Belief propagation]] ([[vid|https://www.youtube.com/watch?v=nfB4Ucccws0&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu&index=7#t=58m15s]])
+We can analyze them through [[Belief propagation]] ([[vid|https://www.youtube.com/watch?v=nfB4Ucccws0&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu&index=7#t=58m15s]]), aka [[Cavity method]]
+
+!!![[Local entropy as a measure for sampling solutions in constraint satisfaction problems|http://iopscience.iop.org/article/10.1088/1742-5468/2016/02/023301/meta]]

@@ -1,0 +1,24 @@
+created: 20170624192642007
+creator: cosmos
+modified: 20170624201124554
+modifier: cosmos
+tags: Surface
+title: Ruled surface
+tmap.id: 8d846e0e-bb23-4907-af54-9afc16fa3a66
+type: text/vnd.tiddlywiki
+
+[[video|https://www.youtube.com/watch?v=M_SWL1LJgJM#t=54m40s]]
+
+A surface such that for every point there is a straight line passing through it. The family of lines are called a ''ruling'' of the surface. The points used as initial points in some parametrization are called ''directrix''.
+
+* [[Plane (surface)]]
+* [[Cylinder]]
+* [[Cone]]
+* [[Hyperboloid of revolution]] (1-sheet)
+* [[Tangent surface to a curve|https://www.youtube.com/watch?v=JWioobLPaNo#t=1m40s]]
+
+The [[local parametrizations|Coordinate chart]] used are in general not parametric..
+
+[[More about ruled surfaces|https://www.youtube.com/watch?v=JWioobLPaNo]], deriving the curvatures, etc.
+
+The [[Gaussian curvature]] is $$\leq 0$$. If it is 0, it is called ''developable''. [[vid|https://www.youtube.com/watch?v=JWioobLPaNo#t=14m]]. They are either (general) [[Cylinder]]s, [[Cone]]s, or tangent surfaces to curves.

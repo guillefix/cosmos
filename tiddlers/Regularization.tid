@@ -1,11 +1,17 @@
 created: 20160916173127900
 creator: cosmos
-modified: 20161104134331991
+modified: 20170426235201914
 modifier: cosmos
 tags: [[Machine learning]]
 title: Regularization
 tmap.id: ef001054-6462-4281-87bc-86e4553cbd8a
 type: text/vnd.tiddlywiki
+
+A lot of these methods are very much related to [[Model selection]] methods, as both try to make our model better. Often we want the model to be better at generalizing, and this is done by reducing model complexity.
+
+[[9.520 - 09/14/2015 - Class 02 - Prof. Tomaso Poggio: The Learning Problem and Regularization|https://www.youtube.com/watch?v=iO919hIhO-w&list=PLyGKBDfnk-iDj3FBd0Avr_dLbrU8VG73O&index=2]]
+
+Using cross-validation for regularization can be done using [[Early stopping]] using the validation set
 
 Penalising weights "encourages fitting signal rather than just noise"
 
@@ -24,3 +30,6 @@ We use the [[Prior distribution]] from [[Bayesian statistics]], to make [[simple
 !!!__[[Batch normalization]]__
 
 !!!__[[Tikhonov regularization]]__
+
+----------------------------
+

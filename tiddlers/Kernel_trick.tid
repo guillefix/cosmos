@@ -1,0 +1,20 @@
+created: 20170426172534994
+creator: cosmos
+modified: 20170426173000314
+modifier: cosmos
+tags: 
+title: Kernel trick
+tmap.id: 98b54bb6-acbd-4b51-8bbd-2cf81845f822
+type: text/vnd.tiddlywiki
+
+
+
+See a derivation here: https://arxiv.org/pdf/1611.03530.pdf , and original reference
+
+
+Note that this kernel solution has an appealing interpretation in terms of implicit regularization.
+Simple algebra reveals that it is equivalent to the minimum l2-norm solution of Xw = y. That is,
+out of all models that exactly fit the data, SGD will often converge to the solution with minimum
+norm.
+
+[[A generalized representer theorem|https://pdfs.semanticscholar.org/17d2/f027221d60cda373ecf15b03706c9e60269b.pdf]]

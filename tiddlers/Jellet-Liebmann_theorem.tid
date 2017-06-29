@@ -1,0 +1,17 @@
+created: 20170624163527618
+creator: cosmos
+modified: 20170624165904573
+modifier: cosmos
+title: Jellet-Liebmann theorem
+tmap.id: e243f2e0-5603-468f-813e-a8ad1c9d56ef
+type: text/vnd.tiddlywiki
+
+[[video|https://www.youtube.com/watch?v=579ugjuW-uc#t=1h7m]]. If a [[Surface]] $$S$$ is compact and connected, and its [[Gaussian curvature]] > 0, and its [[Mean curvature]] is constant, then $$S$$ is a [[Sphere]].
+
+Proved with [[Hilbert's theorem]].
+
+__Proof__
+
+We start with the fact that if a surface has non-zero Mean curvature everywhere then it is [[orientable|Orientable surface]].
+
+This means that the [[Principal curvature]]s are well-defined globally, and because of compactness, there is a global maximum for the larger principal curvature $$k_2$$, but because mean curvature ($$\propto k_2+k_1$$) is constant, this implies this same point is a minimum of the smaller principal curvature $$k_1$$. Therefore, we can apply [[Hilbert's theorem]] to deduce that it is an [[Umbilical point]]. However, with [[a simple argument|https://www.youtube.com/watch?v=579ugjuW-uc#t=1h19m10s]], we see that all points are umbilical, and with all the other assumptions, this means that the surface is a [[Sphere]]! 

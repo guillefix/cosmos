@@ -1,0 +1,12 @@
+created: 20170624115431586
+creator: cosmos
+modified: 20170624115816545
+modifier: cosmos
+tags: [[Differential geometry]]
+title: Coordinate chart
+tmap.id: 2b6c3c86-0bcf-4fbc-9514-2e06b4b33704
+type: text/vnd.tiddlywiki
+
+[[Definition of a local parametrization or local chart|https://www.youtube.com/watch?v=AFSL-wGNRFM#t=6m55s]] (see also [[here|https://www.youtube.com/watch?v=AFSL-wGNRFM#t=11m55s]]) in the context of regular [[Surface]]s. Sometimes, this is also refered to as coordinate chart (see [[here|http://mathworld.wolfram.com/CoordinateChart.html]]). However, in [[here|https://www.youtube.com/watch?v=AFSL-wGNRFM#t=12m30s]] a coordinate chart refers to the co-domain of the local chart...
+
+See Isham book for general definition

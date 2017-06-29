@@ -1,6 +1,6 @@
 created: 20160206001810043
 creator: guillefix
-modified: 20170224095109282
+modified: 20170616193800270
 modifier: cosmos
 tags: [[Life sciences]]
 title: Ecology
@@ -22,3 +22,31 @@ This has been used for [[Policy]], for instance for [[Fishery]].
 See [[Dynamical systems on networks]], [[Epidemics on networks]], [[Dynamical system]], [[Chemical kinetics]]
 
 Trophic cascade
+
+--------------
+
+!!__[[Evolutionary ecology]] (evo-eco)__
+
+!!![[What can ecosystems learn? Expanding evolutionary ecology with learning theory|https://biologydirect.biomedcentral.com/articles/10.1186/s13062-015-0094-1]]
+
+
+Background
+
+The structure and organisation of ecological interactions within an ecosystem is modified by the evolution and coevolution of the individual species it contains. Understanding how historical conditions have shaped this architecture is vital for understanding system responses to change at scales from the microbial upwards. However, in the absence of a group selection process, the collective behaviours and ecosystem functions exhibited by the whole community cannot be organised or adapted in a Darwinian sense. A long-standing open question thus persists: Are there alternative organising principles that enable us to understand and predict how the coevolution of the component species creates and maintains complex collective behaviours exhibited by the ecosystem as a whole?
+Results
+
+Here we answer this question by incorporating principles from connectionist learning, a previously unrelated discipline already using well-developed theories on how emergent behaviours arise in simple networks. Specifically, we show conditions where natural selection on ecological interactions is functionally equivalent to a simple type of connectionist learning, ‘unsupervised learning’, well-known in neural-network models of cognitive systems to produce many non-trivial collective behaviours. Accordingly, we find that a community can self-organise in a well-defined and non-trivial sense without selection at the community level; its organisation can be conditioned by past experience in the same sense as connectionist learning models habituate to stimuli. This conditioning drives the community to form a distributed ecological memory of multiple past states, causing the community to: a) converge to these states from any random initial composition; b) accurately restore historical compositions from small fragments; c) recover a state composition following disturbance; and d) to correctly classify ambiguous initial compositions according to their similarity to learned compositions. We examine how the formation of alternative stable states alters the community’s response to changing environmental forcing, and we identify conditions under which the ecosystem exhibits hysteresis with potential for catastrophic regime shifts.
+Conclusions
+
+This work highlights the potential of connectionist theory to expand our understanding of evo-eco dynamics and collective ecological behaviours. Within this framework we find that, despite not being a Darwinian unit, ecological communities can behave like connectionist learning systems, creating internal conditions that habituate to past environmental conditions and actively recalling those conditions.
+
+!!![[How can evolution learn|http://www.sciencedirect.com.sci-hub.cc/science/article/pii/S0169534715002931]]
+
+
+Recent theoretical work shows that selection acting only to maximise individual growth rate,
+when applied to interspecific competition coefficients within an ecological community, produces
+unsupervised learning at the system level [69] (Box 2, iii). This is an exciting possibility because it
+means that, despite not being a unit of selection, an ecological community might exhibit
+organisations that confer coordinated collective behaviours, for example, a distributed ecologi-
+cal memory that can recall multiple past ecological states [69].
+

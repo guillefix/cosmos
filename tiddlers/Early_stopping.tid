@@ -1,0 +1,12 @@
+created: 20170403222706122
+creator: cosmos
+modified: 20170403223133490
+modifier: cosmos
+tags: Regularization
+title: Early stopping
+tmap.id: 508c6963-20d2-46f8-ae77-c5f7c51dc735
+type: text/vnd.tiddlywiki
+
+A [[Regularization]] technique where we have a validation data set, which we use for [[Cross-validation]]. We stop training, when the validation error (which estimates future prediction error) is lowest (before it starts increasing due to [[Overfitting]], thus the name early stopping).
+
+See [[here for early stopping on tensorflow|https://www.youtube.com/watch?v=Lx8JUJROkh0&index=4&list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ&spfreload=1#t=4m13s]]

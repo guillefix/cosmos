@@ -1,0 +1,41 @@
+created: 20170404091600057
+creator: cosmos
+modified: 20170404093037350
+modifier: cosmos
+title: OpenMP
+tmap.id: 8a886458-cbc8-4236-a57d-dc493048f8a3
+type: text/vnd.tiddlywiki
+
+[[Open Multi-Processing|https://www.wikiwand.com/en/OpenMP]] is a standard found in most modern C compilers..
+
+[[Parallel programming]] with several processors with shared memory.
+
+One process with multiple threads of execution.
+
+OpenMP API components:
+
+* C ompiler directives 
+* R untime library routines 
+* E nvironment variable
+
+To create several threads for a block of code with openMP use: ``# pragma omp parallel default( none ) private( my_thread ) { /* my parallel code*/``
+
+The [[default(none)|http://jakascorner.com/blog/2016/07/omp-default-none-and-const.html]] clause forces a programmer to explicitly specify the data-sharing attributes of all variables in a parallel region. Using this clause then forces the programmer to think about data-sharing attributes.
+
+``omp_get_thread_num()`` gives a unique thread ID
+
+``gcc -fopenmp`` (flag to link OpenMP runtime library)
+
+Environment variable ``OMP_NUM_THREADS`` determines number of threads created by OMP
+
+``shared( a, b, c ) private(i)``: means that the variables a,b,c are on shared memory. i are on each thread's local memory
+
+``#pragma omp for``: separate for loop into threads
+
+!!!__Synchronising Threads__
+
+Barrier : a given thread can only proceed once all threads have reached the barrier
+
+Critical region : Only 1 thread can be executing codes within a critical region. 
+
+Reduction : Combining multiple private values into a single shared value

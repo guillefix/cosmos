@@ -1,6 +1,6 @@
 created: 20170315220423706
 creator: cosmos
-modified: 20170320020553283
+modified: 20170405214018648
 modifier: cosmos
 tags: [[Evolutionary computing]] Neuroscience Evolution
 title: Neuroevolution
@@ -11,3 +11,68 @@ type: text/vnd.tiddlywiki
 [[HyperNEAT]]
 
 [[Evolving Regular, Modular Neural Networks|https://www.youtube.com/watch?v=Tx1G4BNd4dw]] [[another|https://www.youtube.com/watch?v=Kd6XmR_UePY]]
+
+------------------------
+
+Hi,
+
+Do you want to meet sometime soon to talk about my project?
+
+By the way, I have found a few cool papers:
+
+First about genotype-phenotype maps in general, I have found that the literature on evolutionary computation/genetic algorithms has quite a lot of good research onto the effects of GP maps in evolution.Here is an example: https://link.springer.com/article/10.1007/s10710-012-9159-4 , they call "phenotypic robustness" to what we call the phenotype's frequency, on the arrival of the frequent. 
+
+This other one (https://link.springer.com/chapter/10.1007/978-3-319-10762-2_42 ), whose conclusion is like a prelude to our current findings:
+"We conjecture that genotype networks could be shaped very differently in other GP systems, however our current observations capture
+many general properties of GP, and might even be applicable to other EC
+systems. Specifically, the distribution of neutrality is very heterogenous among
+various phenotypes. Some genotype networks, i.e. phenotypes, could be orders
+of magnitude larger than others. Moreover, the mutational connections among
+phenotypes are biased, where a phenotype has more potential to mutate to particular
+phenotypes and is less likely to mutate to or is even disconnected from
+some phenotypes. The success of an innovative evolutionary search crucially depends
+on locating the target phenotype, i.e. whether it is accessible from many
+other phenotypes, and on finding an efficient mutational path towards it.
+In future studies, we expect to use our methodology in other GP- or ECsystems
+and test if our observations and conjectures hold for a wider range of
+applications. It would be helpful to look into how a particular EC representation
+correlates with genotype network properties, such that we can gain a better
+understanding of how a representation influences evolutionary search and how
+we could improve the performance of an evolutionary algorithm by designing
+more appropriate representations."
+
+This thesis ( http://etheses.whiterose.ac.uk/12035/1/thesis.pdf ), which mentions a particular bias found in Cartesian Genetic Programming, which is reminiscent of "bias towards simplicity":
+"However, for classification tasks, smaller solutions are often favoured over
+larger as they typically perform better on unseen data; mirroring the concept of Occams
+razor [30]. Additionally, smaller solutions are often favoured generally because (a) they
+are quicker to execute and (b) they are easier to understand and reason about. Finally,
+a bias towards certain topologies does not limit the topologies which can be found given
+sufficient evolutionary pressure. In this regard if a task requires a number of nodes larger or
+smaller than the number to which there is a bias, this is still possible. Therefore, although
+results were presented which showed removing length bias produced better results on
+problems specifically designed to require a very large percentage of the possible nodes to
+be active [82, 84], on many real world applications, length bias may actually be of benefit."
+
+More significantly, a few of papers by Per Kristian Lehre, which show not only certain GP maps with bias, but explores their bias towards simplicity. He measures "phenotypic complexity" with LZW, and finds a negative correlation with "neutrality degree" (size of neutral networks):
+http://www.sciencedirect.com/science/article/pii/S0303264706001705 
+https://pdfs.semanticscholar.org/13ec/e15e53b3f6729d5f8cd79380d5dd4209d6d2.pdf
+http://sci-hub.cc/10.1109/eh.2005.26
+I should read the third paper more carefuly, because it has plots that are similar to those showing "randomness deficit". However, he is actually looking at "genotypic complexity", and so the normal simplicity bias seems not to be there.
+
+Now, regarding neural networks:
+
+First, here is a paper by Jurgen Schmidhuber (the inventor of LSTMs) on why using the ideas of Solomonoff et al to discover good neural nets: http://www.sciencedirect.com/science/article/pii/S089360809600127X 
+
+People have used evolutionary algorithms to evolve neural nets in quite a few different ways. Most relevant to GP maps are those using "indirect encodings" or "developmental encodings" (an area called artificial embryogeny, etc, etc). A popular method is HyperNEAT. This is known to make neural networks be biased towards simplicity/regularity (http://www.evolvingai.org/huizinga-mouret-clune-2014-evolving-neural-networks-are for instance). However, I am not aware of any research showing a distinction similar to ARD1 vs ARD2 for these GP maps, which would be interesting to find.
+
+Three recent papers from DeepMind and OpenAI (the two biggest groups on AI right now), which show some potential uses of evolution for deep learning: 
+https://arxiv.org/abs/1606.02580
+https://arxiv.org/abs/1701.08734
+https://arxiv.org/abs/1703.03864
+Another one: https://arxiv.org/abs/1703.00548 
+At least one of them uses HyperNEAT, to evolve the topology only. I think all of these train the weights of the synaptic connections, by gradient descent. I would be interested to learn/think more about the relation between evolution vs gradient descent...
+
+People have also thought to use neural networks, as GP maps, or as "genetic operators": 
+https://link.springer.com/chapter/10.1007/978-3-319-10762-2_11
+https://arxiv.org/abs/1604.04153
+Also using neural networks as a GP map to evolve neural networks!: https://arxiv.org/abs/1609.09106 they use gradient descent, showing that the idea of GP maps may have applications in the more popular gradient descent learning.

@@ -1,6 +1,6 @@
 created: 20170317161941799
 creator: cosmos
-modified: 20170317163117089
+modified: 20170502230408511
 modifier: cosmos
 tags: [[Inference in graphical models]]
 title: Variable elimination
@@ -16,3 +16,11 @@ A model for probability queries in [[Graphical model]]s.
 https://www.wikiwand.com/en/Variable_elimination
 
 [[Complexity of Variable Elimination|https://www.youtube.com/watch?v=HwiNSRIWf4c&index=39&list=PL50E6E80E8525B59C]]
+
+[[Graph-Based Perspective on Variable Elimination|https://www.youtube.com/watch?v=gV0GVptFG00]]. Every factor in VE corresponds to a [[Clique]] in the //induced graph// (see def. in vid)
+
+Width of induced graph: size of largest clique on induced graph.
+
+minimal width
+
+[[Finding Elimination Orderings|https://www.youtube.com/watch?v=kwa79eWMsOA]]

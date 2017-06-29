@@ -1,0 +1,9 @@
+created: 20170628131505608
+creator: cosmos
+modified: 20170628131617308
+modifier: cosmos
+title: Open ball
+tmap.id: 3c3bb653-17e2-46b9-97ea-9a02ca94e16f
+type: text/vnd.tiddlywiki
+
+In a [[Metric space]], the open ball of radius $$r$$ around a point $$p$$ is the [[Set]] of all points at a [[Distance]] //less than or equal// to $$r$$ from the point $$p$$

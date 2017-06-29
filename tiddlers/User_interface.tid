@@ -1,6 +1,6 @@
 created: 20170308175529423
 creator: cosmos
-modified: 20170308175554545
+modified: 20170521153338071
 modifier: cosmos
 tags: [[Software engineering]]
 title: User interface
@@ -10,3 +10,11 @@ type: text/vnd.tiddlywiki
 
 
 See [[AugMath]], [[Bret Victor]]
+
+https://uxdesign.cc/toward-a-more-human-user-interface-with-artificial-intelligence-7bbee17ff30d
+
+[[Frontend web development]]
+
+[[Future programming interfaces|http://elevr.com/portfolio/future-programming-interfaces/]] -- [[Virtual reality]]
+
+[[Designing Layouts with Combinatorial Optimization|https://github.com/johnhw/computationalchi2017/blob/final/optimization/layout_optimization.ipynb]]

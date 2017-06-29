@@ -1,0 +1,10 @@
+created: 20170628232738557
+creator: cosmos
+modified: 20170628232914393
+modifier: cosmos
+tags: [[Data compression]]
+title: Huffman code
+tmap.id: 0bf70bb3-53d0-4a9a-971c-fbb51bfb0825
+type: text/vnd.tiddlywiki
+
+Optimal code, in the sens of minimum average codeword length, equal to the [[Entropy]], as per [[Source coding theorem]] in [[Data compression]]

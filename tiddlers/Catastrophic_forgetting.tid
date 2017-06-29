@@ -1,0 +1,89 @@
+created: 20170330003438746
+creator: cosmos
+modified: 20170330160750193
+modifier: cosmos
+tags: [[Artificial neural network]]
+title: Catastrophic forgetting
+tmap.id: 03eef22f-7e3d-4a6f-b0e5-5ec529d4962a
+type: text/vnd.tiddlywiki
+
+
+Stabilizing in RL <> catastrophic forgetting
+
+
+![[Elastic weight consolidation|http://www.pnas.org/content/114/13/3521.full.pdf]]
+
+A recently proposed way of avoiding it.
+
+Use [[Fisher information matrix]] of log likelihood of previous tasks to give a prior when learning new tasks, to ensure that new tasks are learned while remembering previously learned tasks.
+
+[[Supplementary information|http://www.pnas.org/content/suppl/2017/03/14/1611835114.DCSupplemental/pnas.201611835SI.pdf#nameddest=STXT]]
+
+Any performance gains w.r.t. to the shuffled way of "multi-task" training.
+
+[[nice blog post with detail|http://www.inference.vc/comment-on-overcoming-catastrophic-forgetting-in-nns-are-multiple-penalties-needed-2/]]
+
+!!__EWC on [[Reinforcement learning]]__
+
+In the primate brain,
+the prefrontal cortex is widely viewed as supporting these capabilities
+by sustaining neural representations of task context that
+exert top–down gating influences on sensory processing, working
+memory, and action selection (30–33).
+
+Knowledge
+of which task is being performed is required for the EWC algorithm
+as it informs which quadratic constraints are currently
+active and also which quadratic constraint to update when the
+task context changes. To infer the task context, we implemented
+an online clustering algorithm that is trained without supervision based on the forget-me-not process
+
+We also allowed the
+DQN agents to maintain separate short-term memory buffers for
+each inferred task. These allow action values for each task to be
+learned off-policy, using an experience replay mechanism (25).
+As such, the overall system has memory on two timescales: Over
+short timescales, the experience replay mechanism allows learning
+in the DQN to be based on the interleaved and uncorrelated
+experiences (25). At longer timescales, know-how across tasks is
+consolidated by using EWC.
+
+In particular, we
+allowed each layer of the network to have biases and per-element
+multiplicative gains that were specific to each game.
+
+<small>
+we consolidated weights for each game
+based on a tractable approximation of parameter uncertainty, the
+Fisher information. We therefore sought to test the quality of
+our estimates empirically. To do so, we trained an agent on a single
+game and measured how perturbing the network parameters
+affected the agent’s score. Regardless of which game the agent
+was trained on, we observed the same patterns, shown in Fig. 4C.
+First, the agent was always more robust to parameter perturbations
+shaped by the inverse of the diagonal of the Fisher information
+(blue), as opposed to uniform perturbations (black). This
+validates that the diagonal of the Fisher information is a good
+estimate of how important a parameter is. </small>
+
+Perturbing on null space also affects performance. This suggests that we are overconfi-
+dent about certain parameters being unimportant: It is therefore
+likely that the chief limitation of the current implementation is
+that it underestimates parameter uncertainty. <mark>Hm?</mark>
+
+In this respect, the perspective we offer here aligns with a
+recent proposal that each synapse stores not only its current
+weight, but also an implicit representation of its uncertainty
+about that weight (39). This idea is grounded in observations that
+postsynaptic potentials are highly variable in amplitude (suggestive
+of sampling from the weight posterior during computation)
+and those synapses that are more variable are more amenable
+to potentiation or depression (suggestive of updating the weight
+posterior). Although we do not explore the computational benefits
+of sampling from a posterior here, our work aligns with
+the notion that ''weight uncertainty should inform learning rates''
+
+With EWC, three values have to be stored for each
+synapse: the weight itself, its variance, and its mean. Interestingly,
+synapses in the brain also carry more than one piece of
+information.

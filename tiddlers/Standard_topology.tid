@@ -1,0 +1,13 @@
+created: 20170628131355960
+creator: cosmos
+modified: 20170628131457944
+modifier: cosmos
+tags: Topology [[Real analysis]]
+title: Standard topology
+tmap.id: c145c11f-050f-4596-90dd-e0e6a57a45f8
+type: text/vnd.tiddlywiki
+
+The topology [[generated|Basis of a topology]] by [[Open ball]]s in $$\mathbb{R}^n$$.
+
+
+-- [[definition|https://www.youtube.com/watch?v=PXIcas22MtQ&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=47m50s]] of open sets in the standard topology

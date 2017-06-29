@@ -1,6 +1,6 @@
 created: 20160915191802219
 creator: cosmos
-modified: 20161121174147557
+modified: 20170526013054868
 modifier: cosmos
 tags: [[Unsupervised learning]]
 title: Principal component analysis
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 //aka PCA//
 
-[[Intro vid by Andrew Ng|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=37m35s]]
+[[visual intro|http://setosa.io/ev/principal-component-analysis/]] -- [[Intro vid by Andrew Ng|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=37m35s]] 
 
 Given $$\{ x^{(1)}, ..., x^{(n)}\}$$ where $$ x^{(i)} \in \mathbb{R}^n$$
 

@@ -1,6 +1,6 @@
 created: 20160428203926307
 creator: guillefix
-modified: 20170328002235767
+modified: 20170517202345495
 modifier: cosmos
 tags: [[Machine learning]] Optimization
 title: Reinforcement learning
@@ -18,7 +18,7 @@ See [[Machine learning]], [[Decision theory]]
 !!!__[[Types of RL|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h11m]] __
 
 * [[Prediction vs control|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h24m40s]].
-** Policy = policy evaluation
+** Prediction = policy evaluation
 **control = find optimal policy
 * Planning vs learning+planning
 ** [[Planning]] = solve RL (prediction/control) problem with full knowledge of MDP
@@ -50,6 +50,8 @@ The agent state is often chosen to be the [[Information state|https://www.youtub
 (Fully observable) Reinforcement leaning models the world as a Markov decision process. [[Andrew Ng intro to MDPs|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=9m]] -- [[operational definition|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=19m]] -- [[David Silver lecture|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1]]
 
 [[Planning -> policy evaluation (prediction)-> control|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=8m10s]]
+
+!!![[Methods for policy evaluation (prediction)|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h7m]]
 
 !!__Optimal policy problem__
 

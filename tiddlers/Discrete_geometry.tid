@@ -1,0 +1,25 @@
+created: 20170506203656327
+creator: cosmos
+modified: 20170612174250589
+modifier: cosmos
+tags: Geometry
+title: Discrete geometry
+tmap.id: 04c64683-2a09-4416-990a-c94d69222536
+type: text/vnd.tiddlywiki
+
+
+[ext[http://www.cs.cmu.edu/~kmcrane/]]
+
+See also [[Differential geometry]]
+
+[[Discrete Differential Geometry - Helping Machines (and People) Think Clearly about Shape|https://www.youtube.com/watch?v=Mcal5Cy7r4E]]
+
+http://ddg.cs.columbia.edu/
+
+http://brickisland.net/DDGSpring2016/
+
+[ext[LECTURE NOTES|https://www.cs.cmu.edu/~kmcrane/Projects/DDG/paper.pdf]]
+
+[ext[https://www.cs.cmu.edu/~kmcrane/Projects/DDG/]]
+
+https://github.com/dgpdec/course

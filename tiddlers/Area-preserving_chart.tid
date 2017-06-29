@@ -1,0 +1,15 @@
+created: 20170627171837815
+creator: cosmos
+modified: 20170627172621655
+modifier: cosmos
+tags: [[Coordinate chart]]
+title: Area-preserving chart
+tmap.id: 3fc9ecbe-731b-43c4-bf5f-c10cb6321412
+type: text/vnd.tiddlywiki
+
+
+[[definition|https://www.youtube.com/watch?v=a_XH71yDCpo#t=39m45s]]. It preserves [[Area]]s
+
+[[Statement|https://www.youtube.com/watch?v=a_XH71yDCpo#t=42m]] in terms of [[First fundamental form]] ([[Metric tensor]])
+
+See [[Area-preserving map]]

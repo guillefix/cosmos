@@ -1,6 +1,6 @@
 created: 20160611125205456
 creator: guillefix
-modified: 20161109100429189
+modified: 20170417212712534
 modifier: cosmos
 title: Spin glass
 tmap.id: 368bab49-39f9-4082-9acb-d79c67aa7bdc
@@ -96,3 +96,5 @@ http://www.birs.ca/events/2014/5-day-workshops/14w5082/videos
 [[Spin Glasses and Complexity|https://www.youtube.com/watch?v=7d43TWoMST8]]
 
 [[Spin Glasses and Computational Complexity|https://www.perimeterinstitute.ca/videos/spin-glasses-and-computational-complexity]]. Which types of interactions give us computationally hard problems and spin glasses? I will survey what is known as we close in on finding the simplest complex spin systems. 
+
+[[Random Matrices and complexity of Spin Glasses|https://arxiv.org/abs/1003.1129]], used for the analysis of some deep learning networks, see [[Deep learning theory]] (Loss surface of multilayer networks paper).

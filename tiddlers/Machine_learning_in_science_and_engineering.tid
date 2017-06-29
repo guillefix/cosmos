@@ -1,6 +1,6 @@
 created: 20160303225152240
 creator: guillefix
-modified: 20170211160351575
+modified: 20170328235402388
 modifier: cosmos
 tags: [[Scientific computing]] [[Machine learning]]
 title: Machine learning in science and engineering
@@ -8,6 +8,8 @@ tmap.id: 65ce4ce8-5aa7-41d7-8ace-5c3e85b5ec26
 type: text/vnd.tiddlywiki
 
 !!![[Can artificial intelligence create the next wonder material?|http://www.nature.com/news/can-artificial-intelligence-create-the-next-wonder-material-1.19850?WT.mc_id=FBK_NA_1605_NEWSFWONDERMATERIAL_PORTFOLIO]]
+
+[[IBM Watson discovering polymers by scanning literature..|https://www.technologyreview.com/s/603943/ai-quantum-computing-will-accelerate-materials-discovery/]]
 
 [ext[AI for simulating quantum systems|https://www.newscientist.com/article/2120856-ai-learns-to-solve-quantum-state-of-many-particles-at-once/?utm_medium=Social&utm_campaign=Echobox&utm_source=Twitter&utm_term=Autofeed&cmpid=SOC|NSNS|2017-Echobox#link_time=1486684844]]
 

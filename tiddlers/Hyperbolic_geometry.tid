@@ -1,17 +1,25 @@
 created: 20161215093410227
 creator: cosmos
-modified: 20170321211612912
+modified: 20170624214751412
 modifier: cosmos
 tags: [[Non-Euclidean geometry]]
 title: Hyperbolic geometry
 tmap.id: 04f5bc94-c087-408e-b06c-371729a03cd7
 type: text/vnd.tiddlywiki
 
-Geometry corresponding to a constant negative [[Curvature]] [[Manifold]]. It can be derived by embedding one sheet of a [[Hyperboloid]] in 3D [[Euclidean space]] (although generalizations to . This is the [[Hyperboloid model|https://www.youtube.com/watch?v=ZNNZFSxe7oA&t=31m55s]]. The induced metric on the hyperboloid gives ''hyperbolic geometry''.
+Geometry corresponding to a constant negative [[Curvature]] [[Manifold]]. It can be derived by embedding one sheet of a [[Hyperboloid]] in 3D [[Euclidean space]], with the [[Minkowski metric]]. A manifold with hyperbolic geometry is called [[Hyperbolic space]]
 
 [[Mark Norfleet - Hyperbolic Geometry|https://www.youtube.com/watch?v=ZNNZFSxe7oA&t=2603s]]
 
-!!!__Geodesics (lines) in the hyperboloid model__
+!!__Saddle surface model__
+
+Just the [[Hyperbolic paraboloid]] ([[Saddle surface|https://www.wikiwand.com/en/Saddle_point#/Saddle_surface]]), embedded in R^3 with the normal metric
+
+!!__[[Hyperboloid model]]__
+
+The [[Elliptic hyperboloid]] embedded in R^3, with the [[Minkowski metric]]. 
+
+!!!__[[Geodesic]]s (lines) in the hyperboloid model__
 
 Lines can be constructed by taking a plane that passes through the origin and finding its intersection with the hyperboloid. Note that this is analogous to how great circles are constructed in [[Spherical geometry]]
 

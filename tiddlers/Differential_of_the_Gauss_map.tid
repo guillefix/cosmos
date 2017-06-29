@@ -1,0 +1,16 @@
+created: 20170624123248877
+creator: cosmos
+modified: 20170624123419872
+modifier: cosmos
+tags: Curvature
+title: Differential of the Gauss map
+tmap.id: d4c4b938-7175-4541-94ac-8fd0e546161a
+type: text/vnd.tiddlywiki
+
+[[Differential]] of the [[Gauss map]]
+
+[[Differential of Gauss map|https://www.youtube.com/watch?v=VELPA0I5MGg#t=49m]], can be expressed as $$dN_p: T_p S \rightarrow T_p S$$. Furthermore, [[it's a symmetric endomorphism|https://www.youtube.com/watch?v=VELPA0I5MGg#t=51m49s]]. $$dN_p$$ on canonical basis, given a [[Local chart|Coordinate chart]]: [[vid|https://www.youtube.com/watch?v=VELPA0I5MGg#t=53m50s]]. [[Useful formula|https://www.youtube.com/watch?v=VELPA0I5MGg#t=1h2m10s]] $$<N_u,X_v> = <N_v,X_u> = -<N,X_uv>$$, where $$N_u = dN(X_u)$$ is the partial derivative of the normal vector $$N$$ with respect to coordinate $$u$$ <small>(where we are being a little sloppy and considering $$N$$ as a function in the domain of the chart, rather than the surface itself)</small>.
+
+We can now define the [[Second fundamental form]], and the [[First fundamental form]]
+
+[[Since the differential of the Gauss map is symmetric, it is diagnoalizable|https://www.youtube.com/watch?v=VELPA0I5MGg#t=1h6m20s]]. The eigenvalues of the differential of the Gauss map give the [[Principal curvature]]s. The corresponding eigendirections give the [[Principal direction]]s

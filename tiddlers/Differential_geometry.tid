@@ -1,13 +1,19 @@
 created: 20160122225355013
 creator: guillefix
-modified: 20161104134327938
-modifier: guillefix
+modified: 20170624122037595
+modifier: cosmos
 tags: Geometry
 title: Differential geometry
 tmap.id: 7b168656-c10a-4e84-990e-54392c5d2650
 type: text/vnd.tiddlywiki
 
 See [[General relativity]] and book by Caroll
+
+do carmo differential geometry. 
+
+See [[Curve]]s, [[Surface]]s, for the the theory in 1 and 2 D respectively.
+
+<small>Remember (as David Wallace argued in a lecture) that one can do geometry either coordinate-free or using coordinates, and both ways are useful depending on the task</small>
 
 !!__Coordinate transformation__
 

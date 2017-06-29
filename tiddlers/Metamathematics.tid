@@ -1,6 +1,6 @@
 created: 20161105231506000
 creator: cosmos
-modified: 20161105231525648
+modified: 20170625174432173
 modifier: cosmos
 tags: [[Mathematical logic]]
 title: Metamathematics
@@ -10,3 +10,5 @@ type: text/vnd.tiddlywiki
 [[Mathematics]] applied to understand [[Mathematics]]
 
 [[Godel incompleteness theorems]]
+
+http://us.metamath.org/index.html

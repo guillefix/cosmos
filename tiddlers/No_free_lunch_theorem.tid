@@ -1,13 +1,16 @@
 created: 20170104134853688
 creator: cosmos
-modified: 20170104134902638
+modified: 20170515153935531
 modifier: cosmos
+tags: [[Computational learning theory]]
 title: No free lunch theorem
 tmap.id: e7d4c2fd-e07c-48fa-99fe-9c28cabb9933
 type: text/vnd.tiddlywiki
 
 >All models are wrong, but some models are useful. — George Box (Box and Draper 1987,
 p424).12
+
+[[video|https://www.youtube.com/watch?v=KlKe44dIYqU&index=6&list=PLFze15KrfxbH8SE4FgOHpMSY1h5HiRLMm#t=52m]]
 
 Much of machine learning is concerned with devising different models, and different algorithms
 to fit them. We can use methods such as cross validation to empirically choose the best method

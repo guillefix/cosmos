@@ -1,9 +1,9 @@
 created: 20160714000224495
 creator: guillefix
-modified: 20161104134329867
-modifier: guillefix
+modified: 20170628112624189
+modifier: cosmos
 title: Neighbourhood structure
 tmap.id: e49eef4d-d2b4-499c-8a79-ce440e041799
 type: text/vnd.tiddlywiki
 
-A ''neighbourhood structure'' $$\mathcal{N}$$ on a set $$X$$ is an assignment to each $$x \in X$$ of a [[filter|Filter (Topology)]] $$\mathcal{N}(x)$$ on $$X$$ all of whose elements contain the point $$x$$.
+A ''neighbourhood structure'' $$\mathcal{N}$$ on a set $$X$$ is an assignment to each $$x \in X$$ of a [[filter|Filter on a set]] $$\mathcal{N}(x)$$ on $$X$$ all of whose elements contain the point $$x$$.

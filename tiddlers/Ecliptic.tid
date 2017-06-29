@@ -1,0 +1,37 @@
+created: 20170621220157230
+creator: cosmos
+modified: 20170621221121109
+modifier: cosmos
+tags: Sun
+title: Ecliptic
+tmap.id: 268a3cf4-60d4-4711-bbac-5706c08a8dda
+type: text/vnd.tiddlywiki
+
+heliodon
+
+a great circle on the celestial sphere representing the sun's apparent path during the year, so called because lunar and solar eclipses can only occur when the moon crosses it.
+
+1. Empieza con el plano del suelo del observador.
+
+2. desde el punto del observador levanta una linea hacia el norte con altura igual a latitud
+
+3. haz un cono con respecto a la linea con angulo igual al angulo entre el eje terrestre y el plano de la orbita
+
+4. y projecta el circulo del cono sobre el plano
+
+Hay varios tipos de proyeccion:
+
+* [[Proyeccion azimutal equidistante|Equidistant azimuthal projection]]
+* [[Proyeccion gnomonica|Gnomonic projection]]
+* [[Proyeccion estereografica|Stereographic projection]]
+* Proyeccion perpendicular
+
+Solo en en la azimutal equidistante, de estas, la proyeccion del ciruculo de la ecliptica //no// produce un elipse. 
+
+Nice app para ver la ecliptica: http://www.suncalc.net/#/13.4953,14.8604,5/2017.06.21/23:06
+
+Solo en los [[tropicos|Tropic]], el sol a veces, cambia su direccion norte a sur, y empieza a ir sur a norte, en ciertos momentos (cuando el circulo interseca con el plano del observador de tal forma que su diametro este visible (por encima del plano)).
+
+Los tropicos se definen de por ser puntos con latitud menor que la mayor inclinacion del eje terrestre
+
+[img[http://ipfs.io/ipfs/QmNSCDBSZmMK9TovQmoc3GgPfguXYHrSXoWRA1Lorog1mY]]

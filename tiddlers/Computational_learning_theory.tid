@@ -1,6 +1,6 @@
 created: 20170116162522626
 creator: cosmos
-modified: 20170319014524596
+modified: 20170426230356443
 modifier: cosmos
 tags: [[Learning theory]]
 title: Computational learning theory
@@ -82,13 +82,19 @@ Probabilistic prediction rules can't predict better. But they can give us our un
 
 * [[Uniform convergence|https://www.youtube.com/watch?v=iknI2iga9ps#t=56m45s]], main tool to proving results about PAC learnability. [[Define epsilon-representativity|https://www.youtube.com/watch?v=iknI2iga9ps#t=58m25s]], if the empirical loss on the sample is a good approximation to true loss (within $$\epsilon$$). 
 ** [[Claim1|https://www.youtube.com/watch?v=iknI2iga9ps#t=1h5m10s]] and [[proof|https://www.youtube.com/watch?v=iknI2iga9ps#t=1h8m55s]] ([[proof 2|https://www.youtube.com/watch?v=Lyz4ewLefpE#t=16m30s]] -- [[actually here|https://www.youtube.com/watch?v=Lyz4ewLefpE#t=21m45s]]): if we have a representative sample, then [[Empirical risk minimization]] (over finite class) is $$2\epsilon$$ accurate (relative to best in class)
-** [[Claim2|https://www.youtube.com/watch?v=iknI2iga9ps#t=1h17m]]: a large enough sample is representative w.h.p. See proof and more at [[Agnostic learning]] -- [[proof here|https://www.youtube.com/watch?v=Lyz4ewLefpE#t=24m47s]]
+** [[Claim2|https://www.youtube.com/watch?v=iknI2iga9ps#t=1h17m]]: a large enough sample is representative w.h.p. See proof and more at [[Agnostic learning]] -- [[proof here|https://www.youtube.com/watch?v=Lyz4ewLefpE#t=24m47s]] 
 
 *** [[Defining sample complexity of uniform convergence|https://www.youtube.com/watch?v=Lyz4ewLefpE#t=26m15s]]
+** Finally to proof useful bounds, we need to bound the sample complexity of the uniform convergence. See example at [[Agnostic learning]], [[result for sample complexity of uniform convergence|https://www.youtube.com/watch?v=Lyz4ewLefpE&t=1h11m40s]]
 
 There are relations to [[Game theory]]
 
 !!__[[Online learning]]__
+
+
+-------------------------------
+
+
 
 -----------------------
 

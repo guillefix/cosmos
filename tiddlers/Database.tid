@@ -1,7 +1,7 @@
 created: 20160629233628818
 creator: guillefix
-modified: 20161104134327805
-modifier: guillefix
+modified: 20170403095600176
+modifier: cosmos
 tags: [[Computer Science and IT]]
 title: Database
 tmap.id: 08843b66-00de-4704-9615-3eba797b5dc0
@@ -9,6 +9,7 @@ type: text/vnd.tiddlywiki
 
 Database theory
 
-Relational databases
+*[[Relational database]]s. Uses [[SQL]] (structured query language)
+*[[NoSQL database]]: MongoDB, Hadoop
 
 See Lynda.com videos.

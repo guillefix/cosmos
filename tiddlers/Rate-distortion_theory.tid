@@ -1,0 +1,15 @@
+created: 20170402230342250
+creator: cosmos
+modified: 20170402230415011
+modifier: cosmos
+tags: [[Data compression]]
+title: Rate-distortion theory
+tmap.id: 1e78ed65-1c0b-4290-89a6-ed86076bb3c4
+type: text/vnd.tiddlywiki
+
+
+https://www.wikiwand.com/en/Rate%E2%80%93distortion_theory
+
+Theory of ''losy'' data copression
+
+[[has connections to unsupervised learning|https://www.youtube.com/watch?v=ECpMEAWI_tk&list=PLgKuh-lKre13UNV4ztsWUXciUZ7x_ZDHz&index=2]] (see [[Autoencoder]]s for instance

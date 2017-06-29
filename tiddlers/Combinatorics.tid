@@ -1,6 +1,6 @@
 created: 20160131000110996
 creator: guillefix
-modified: 20170326173029383
+modified: 20170522193833174
 modifier: cosmos
 tags: [[Discrete mathematics]]
 title: Combinatorics
@@ -12,8 +12,10 @@ type: text/vnd.tiddlywiki
 * [[Multiplication principle|https://www.youtube.com/watch?v=MLGTi0ewfBE&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=10#t=2m20s]]
 * [[Addition principle|https://www.youtube.com/watch?v=MLGTi0ewfBE&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=10#t=6m40s]]
 * [[Complement principle|https://www.youtube.com/watch?v=MLGTi0ewfBE&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=10#t=8m50s]]
+** more general: [[Inclusion-exclusion principle]], [[example|https://www.youtube.com/watch?v=0x_b_zPHy3c&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=12#t=17m]]
 * [[Multiple counting|https://www.youtube.com/watch?v=MLGTi0ewfBE&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=10#t=17m25s]]
 * [[When are things the same|https://www.youtube.com/watch?v=MLGTi0ewfBE&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=10#t=22m5s]]
+* [[Pidgeon hole principle]]
 
 See  [[Analytic combinatorics]]
 
@@ -28,10 +30,16 @@ Some approaches:
 
 [[Probabilistic combinatorics]]
 
-[[Permutation]]s, [[Combination]]s
+[[Permutation]]s, [[Combination]]s -- [[Generalized permutations and combinations|https://www.youtube.com/watch?v=44xj31MZSKU&t=0s]] : [[Stars and bars]]
 
 [[Derangement]]
 
 [[Combinatorial structure]]
 
 Many relations to [[Probability theory]]
+
+[[Catalan numbers]]
+
+[[Random High-Dimensional Combinatorial Objects|https://www.youtube.com/watch?v=JqU4yvZ0NvI]]
+
+Combinatorics has applications and relations to [[Kolmogorov complexity]], [[here|https://www.youtube.com/watch?v=N69Hq-UHoxo]] for instance is a proof of the infinitude of prime numbers using KC

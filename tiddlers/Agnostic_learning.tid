@@ -1,6 +1,6 @@
 created: 20170306114139469
 creator: cosmos
-modified: 20170319014433365
+modified: 20170426225928502
 modifier: cosmos
 tags: [[Computational learning theory]]
 title: Agnostic learning
@@ -17,10 +17,22 @@ So far in all the learning frameworks we’ve studied, we’ve made an assumptio
 
 [[explaining agnostic learning|https://www.youtube.com/watch?v=iknI2iga9ps]] -- [[repeating the definition|https://www.youtube.com/watch?v=iknI2iga9ps#t=17m]]
 
-!!!Proving agnostic learnability of finite classes with [[ERM|Empirical risk minimization]]
+!!!__Proving agnostic learnability of finite classes with [[ERM|Empirical risk minimization]]__
 
-[[proof that finite classes are agnostic learnable|https://www.youtube.com/watch?v=Lyz4ewLefpE]]
+[[video|https://www.youtube.com/watch?v=Lyz4ewLefpE]]
 
 [[Epsilon-representative classes|https://www.youtube.com/watch?v=Lyz4ewLefpE#t=16m30s]]
+
+[[Defining sample complexity of uniform convergence|https://www.youtube.com/watch?v=Lyz4ewLefpE#t=26m15s]]
+
+-- [[if we have uniform convergence, we can prove agnostic learninability|https://www.youtube.com/watch?v=Lyz4ewLefpE&t=32m]]
+
+[[Step 1: bounding non-representativity of individual hypothesis|https://www.youtube.com/watch?v=Lyz4ewLefpE&t=40m]] -- [[doing it|https://www.youtube.com/watch?v=Lyz4ewLefpE&t=49m24s]], using [[Heoffding's inequality]] (a [[Concentration inequality]]) -- [[result|https://www.youtube.com/watch?v=Lyz4ewLefpE&t=1h45s]]
+
+[[Step 2: union bound|https://www.youtube.com/watch?v=Lyz4ewLefpE&t=42m]] -- [[doing it|https://www.youtube.com/watch?v=Lyz4ewLefpE&t=1h1m40s]] -- [[RESULT|https://www.youtube.com/watch?v=Lyz4ewLefpE&t=1h6m15s]]
+
+[[result for sample complexity of uniform convergence|https://www.youtube.com/watch?v=Lyz4ewLefpE&t=1h11m40s]]
+
+We want to bound the sample complexity of uniform convergence
 
 See more at [[Computational learning theory]]

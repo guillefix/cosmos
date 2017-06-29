@@ -1,7 +1,8 @@
 created: 20160701123948760
 creator: guillefix
-modified: 20161104134327341
-modifier: guillefix
+modified: 20170628233142316
+modifier: cosmos
+tags: [[Data transmission]]
 title: Channel coding theorem
 tmap.id: 60b87bf1-3463-4f96-9ed6-5c715a4d1b39
 type: text/vnd.tiddlywiki
@@ -14,4 +15,6 @@ In other words, the theorem states that given a noisy channel with channel capac
 
 ,,Long enough code blocks can achieve the channel capacity limits (similar to arguments for understanding entropy by many trials).,,
 
-See [[Data transmission]]
+See [[this video|https://www.youtube.com/watch?v=OHCpECIFNxM]]
+
+See [[Data transmission]]. Can be done with [[Hamming code]]

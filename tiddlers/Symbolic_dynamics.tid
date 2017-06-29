@@ -1,7 +1,7 @@
 created: 20160308170443117
 creator: guillefix
-modified: 20161104134332698
-modifier: guillefix
+modified: 20170619122843371
+modifier: cosmos
 tags: [[Topological dynamics]] [[Discrete dynamical system]]
 title: Symbolic dynamics
 tmap.id: 9e821f84-fab1-4b4d-a06b-36ee62c34f2e
@@ -10,6 +10,14 @@ type: text/vnd.tiddlywiki
 See [[here|https://www.dropbox.com/s/zgy5xiqbmt2m2tz/symbolic-dynamics.pdf?dl=0]] ([[local|file:///home/guillefix/Dropbox/COSMOS/Physics/stat%20phys,%20kinetic%20theory,%20chaos,%20dynamical%20sys,%20emergence/Dynamical%20systems/symbolic-dynamics.pdf]]).
 
 A symbolic dynamical system often results from the partitioning of the state space of a general [[Dynamical system]].
+
+See overleaf for a nice review I wrote (also in email to Ard)
+
+[[chapter of nice book on applied symbolic dynamics and chaos|http://www.worldscientific.com.sci-hub.cc/doi/pdf/10.1142/9789812816115_0002]]
+
+http://bactra.org/notebooks/symbolic-dynamics.html
+
+http://bactra.org/notebooks/symbolic-dynamics.html
 
 ------------------
 

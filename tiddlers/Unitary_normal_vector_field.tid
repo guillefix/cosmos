@@ -1,0 +1,14 @@
+created: 20170624115006470
+creator: cosmos
+modified: 20170624121945794
+modifier: cosmos
+tags: [[Vector field]]
+title: Unitary normal vector field
+tmap.id: 549bb3df-6a4f-407e-a5dd-40c4ce2ff655
+type: text/vnd.tiddlywiki
+
+[[There exists a unitary normal vector field on every local chart of a manifold|https://www.youtube.com/watch?v=VELPA0I5MGg]]
+
+[[If regular surface S is connected, and if you have two unitary normal vector fields, then they are either the same or one is the negative of the other|https://www.youtube.com/watch?v=VELPA0I5MGg#t=20m30s]]
+
+Surfaces for which one can find a unitary normal vector field (remember that a vector field is defined to be differentiable) globally are called [[Orientable surface]]s, otherwise, they are called [[Nonorientable surface]]s. See [[video|https://www.youtube.com/watch?v=VELPA0I5MGg#t=26m50s]]

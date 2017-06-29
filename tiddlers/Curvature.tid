@@ -1,0 +1,68 @@
+created: 20170506193326682
+creator: cosmos
+modified: 20170624201755321
+modifier: cosmos
+tags: [[Differential geometry]]
+title: Curvature
+tmap.id: 09b66862-0125-40aa-adc7-3c24284fbc78
+type: text/vnd.tiddlywiki
+
+
+!!__[[Curvature of a curve]]__
+
+!!__Curvature of [[Surface]]s__
+
+[[Introduction to curvature of surfaces|https://www.youtube.com/watch?v=VELPA0I5MGg#t=45m47s]]
+
+Definition of the [[Gauss map]]: [[video|https://www.youtube.com/watch?v=VELPA0I5MGg#t=47m]]. 
+
+__[[Differential of the Gauss map]]__
+
+It is a symmetric endomorphism. It also gives the [[Second fundamental form]]
+
+* [[Principal curvature]]s, $$k_1$$, $$k_2$$ given by its eigenvalues; the eigendirections give the [[Principal direction]]s
+
+* [[Gaussian curvature]], $$K$$: given by it's [[Determinant]]
+
+* [[Mean curvature]], $$H$$: given by it's [[Trace (linear operator)]] (divided by $$2$$)
+
+* [[Line of curvature]]
+
+[[vid|https://www.youtube.com/watch?v=VELPA0I5MGg#t=1h8m55s]]
+
+[[Smoothness properties of these curavtures|https://www.youtube.com/watch?v=N569p-maOvM#t=1h10m]]
+
+Examples:
+
+* the [[Plane (surface)]], [[vid|https://www.youtube.com/watch?v=VELPA0I5MGg#t=1h14m30s]]
+
+* the [[Sphere]], [[vid|https://www.youtube.com/watch?v=VELPA0I5MGg#t=1h17m30s]]. It has constant curvature equal to $$1/r^2$$
+
+* the [[Cylinder]], [[video|https://www.youtube.com/watch?v=N569p-maOvM#t=1m10s]]. It has 0 Gauss curvature.
+
+The mean curvature change sign when changing the sign of the normal vector field, while the Gauss curvature doesn't. So in this sense, the sign of the Gauss curvature is geometrically meaningful, while the sign of the mean curvature isn't.
+
+!!!__Matrix representation of fundamental forms and differential of Gauss map__
+
+Using the standard basis of the [[Tangent space]], given by the [[Coordinate chart]] $$X$$: $$X_u$$, and $$X_v$$, where $$u$$ and $$v$$ are the coordinates in the domain of $$X$$
+
+-->[[video|https://www.youtube.com/watch?v=N569p-maOvM#t=1h14m]]. $$I_p$$ --> $$M$$, $$II_p$$ --> $$\Sigma$$, and $$-dN_p$$ --> $$A$$, where the r.h.s. are the matrices. Note that $$MA = \Sigma$$, because $$II_p$$ is works by operating on a vector with $$-dN_p$$, which in the canonical basis means multiplying with $$A$$, and then taking the inner product of the resulting vector with another vector, which in the canonical basis means using multiplying the vectors together with $$M$$ in the middle. The total operation in the canonical basis is $$MA$$ and is what we call $$\Sigma$$.
+
+[[The elements of these matrices are given standard names|https://www.youtube.com/watch?v=N569p-maOvM#t=1h16m20s]]: $$E$$, $$F$$, $$G$$ for the elements of $$M$$, and $$e$$, $$f$$, $$g$$ for the elements of $$\Sigma$$. Then, because $$A=M^{-1} \Sigma$$, we can obtain the eigenvalues of $$A$$, which are principal curvatures, in terms of the these standard functions, [[obtaining for the Gaussian curvature|https://www.youtube.com/watch?v=N569p-maOvM#t=1h26m8s]], and [[for the mean curvature|https://www.youtube.com/watch?v=N569p-maOvM#t=1h27m10s]]
+
+Examples:
+
+* [[Elliptic paraboloid]]
+* [[Helicoid]]
+
+{{Geometric interpretation of Gaussian curvature}}
+
+[[If S is compact, then there are elliptic points|https://www.youtube.com/watch?v=579ugjuW-uc&t=8m25s]]
+
+---> [[Gauss vs mean curvature|https://www.youtube.com/watch?v=JWioobLPaNo#t=28m]], and relating them to the two fundamental forms! Indeed the 1st fundamental form is the [[Metric tensor]]
+
+!!__General curvature of [[Manifold]]s__
+
+See Iham's book, or some books on [[General relativity]], as curvature appears in [[Einstein's equations]]
+
+[[Riemann curvature]]

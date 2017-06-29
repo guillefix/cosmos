@@ -1,19 +1,8 @@
 created: 20160714000416049
 creator: guillefix
-modified: 20161104134328327
+modified: 20170628112544588
 modifier: guillefix
 title: Filter (Topology)
-tmap.id: 170a4b5d-e62a-4d23-83b4-c7af92ea063e
+tmap.id: c2647b80-a477-497e-bd09-6e628ef70888
 type: text/vnd.tiddlywiki
 
-A ''filter'' $$\mathcal{F}$$ on $$X$$ is a family of subsets of $$X$$ such that:
-
-(a) $$\emptyset \notin \mathcal{F}$$;
-
-(b) $$\mathcal{F}$$ is algebraically closed under finite intersections;
-
-(c) $$\mathcal{F}$$ is an upper family.
-
-An //upper family// refers to a family of subsets, which is an [[Upper set]] w.r.t. the [[Lattice of subsets]] of $$X$$, that is if a set is in the family, then any subset of that set is also in the family.
-
-See also [[Filter base]]

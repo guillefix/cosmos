@@ -1,0 +1,13 @@
+created: 20170620112140739
+creator: cosmos
+modified: 20170621224911930
+modifier: cosmos
+tags: [[Boolean algebra]]
+title: Boolean function
+tmap.id: 8c02f775-c03b-43cc-91ac-55b0358e157e
+type: text/vnd.tiddlywiki
+
+
+[ext[http://www.cs.cmu.edu/~odonnell/aobf12/]]
+
+[[Learning complex Boolean functions|https://papers.nips.cc/paper/857-learning-complex-boolean-functions-algorithms-and-applications.pdf]]. See also [[here|https://gingkoapp.com/app#7abe722f5a31aa3e1000001b]]

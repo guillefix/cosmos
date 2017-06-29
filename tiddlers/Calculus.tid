@@ -1,7 +1,7 @@
 created: 20160122230302563
 creator: guillefix
-modified: 20161104134327199
-modifier: guillefix
+modified: 20170404105913790
+modifier: cosmos
 tags: [[Continuous mathematics]] Analysis
 title: Calculus
 tmap.id: 148cf1be-5c3c-4928-8470-b4dbedf4f136
@@ -12,3 +12,5 @@ type: text/vnd.tiddlywiki
 Fundamental theorem of calculus
 
 [[Vector calculus]]
+
+http://users.humboldt.edu/flashman/senscalca_x.html

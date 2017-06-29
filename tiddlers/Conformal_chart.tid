@@ -1,0 +1,21 @@
+created: 20170627171538939
+creator: cosmos
+modified: 20170627174740601
+modifier: cosmos
+tags: [[Coordinate chart]] [[Conformal map]]
+title: Conformal chart
+tmap.id: d9e83e73-b850-4496-8ed7-3030e27c0941
+type: text/vnd.tiddlywiki
+
+
+[[definition|https://www.youtube.com/watch?v=a_XH71yDCpo#t=35m50s]]. It preserves [[Angle]]s.
+
+[[Statement|https://www.youtube.com/watch?v=a_XH71yDCpo#t=41m31s]] in terms of [[First fundamental form]] ([[Metric tensor]]). [[Proof|https://www.youtube.com/watch?v=a_XH71yDCpo#t=45m50s]]
+
+See [[Conformal map]].
+
+[[If a chart is both conformal and area-preserving, then the surface/patch is isometric to the plane|https://www.youtube.com/watch?v=a_XH71yDCpo#t=44m40s]]
+
+__Examples__
+
+[[Stereographic projection]]

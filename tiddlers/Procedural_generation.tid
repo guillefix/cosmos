@@ -1,6 +1,6 @@
 created: 20160705111418197
 creator: guillefix
-modified: 20161104134331841
+modified: 20170410184241639
 modifier: cosmos
 tags: Algorithms
 title: Procedural generation
@@ -17,7 +17,7 @@ Often uses generative models in [[Supervised learning]], and now //deep generati
 
 [[Speech synthesis]]
 
-[[Music synthesis]]
+[[Music synthesis]] (See [[Music composition]])
 
 !!__Image generation__
 

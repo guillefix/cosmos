@@ -1,0 +1,18 @@
+created: 20170627174952567
+creator: cosmos
+modified: 20170627192309019
+modifier: cosmos
+tags: [[Differential geometry]]
+title: Theorema Egregium
+tmap.id: c3704d44-d0c7-4fab-860b-05a3e8341dd7
+type: text/vnd.tiddlywiki
+
+The [[Gaussian curvature]] is invariant under [[Isometry]]es. [[VIdeo|https://www.youtube.com/watch?v=a_XH71yDCpo#t=1h6m30s]].
+
+That is, if you have two [[Surface]]s $$S$$ and $$S'$$, with Gauss curvatures $$K$$ and $$K'$$, and if $$f: S \rightarrow S'$$ is an [[Isometry]], then $$K(p) = K'(f(p)) ~ \forall p \in S$$
+
+[[Proof|https://www.youtube.com/watch?v=a_XH71yDCpo#t=1h9m23s]]. The crux is to show that the [[Gaussian curvature]] (usually expressed in terms of the [[Second fundamental form]]) can be expressed in terms of the [[First fundamental form]], which is then, by definition, preserved under an [[Isometry]].
+
+|Basically, knowledge of [[Distance]]s determines curvature!|
+
+[[Particular case|https://www.youtube.com/watch?v=j4fLmI0MlnU#t=26m]] of the formula of Gauss curvature in terms of metric coefficients

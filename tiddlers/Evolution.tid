@@ -1,6 +1,6 @@
 created: 20160303224225485
 creator: guillefix
-modified: 20170203095750256
+modified: 20170624212145308
 modifier: cosmos
 tags: Self-organization [[Biodiversity & evolution]]
 title: Evolution
@@ -12,6 +12,12 @@ type: text/vnd.tiddlywiki
 Dawkins idea of replicators (see [[his article|http://www.stephenjaygould.org/library/dawkins_replicators.html]]) of course fits well, because replicators are just self-sustaining structures. See also [[Units of evolution: A metaphysical essay|http://philpapers.org/rec/HULUOE]] and [[this|http://innovation.ucdavis.edu/people/publications/22 Griesemer 2000 Selection-1.1-67-80.pdf]], and [[The Elementary Units of Heredity|https://books.google.es/books/about/The_Elementary_Units_of_Heredity.html?id=LQDjcQAACAAJ&redir_esc=y]] cited in his article)
 
 See [[MMathPhys oral presentation]],  [[Evolutionary computing]], [[Genetics]]
+
+__Ingredients for evolution__
+
+* Variation
+* [[Heritability]]
+* Selective pressure
 
 !__Evolutionary biology__
 
@@ -43,6 +49,8 @@ The ''unit of evolution'', I think, is the gene ,,(see the selfish gene),,, plus
 
 [[“The arrival of the fittest”: Toward a theory of biological organization|http://link.springer.com/article/10.1007/BF02458289]]
 
+[[Evolvability (learning theory)]]
+
 !!!__[[Neutral theory of evolution]]__
 
 ''Kimura's neutral theory of evolution''. He proposed that (at least for molecular evolution) most mutations are neutral, meaning that they don't lead to a change in fitness.
@@ -69,11 +77,27 @@ See [[Genetics]]
 
 [[Scientists discover the evolutionary link between protein structure and function|http://phys.org/news/2016-05-scientists-evolutionary-link-protein-function.html]]
 
+[img[evolution_of_evolution.png]]
+
+!!__[[Evolutionary developmental biology]] (evo-devo)__
+
+[[Genotype-phenotype map]], [[Developmental biology]]
+
+!!__[[Evolutionary ecology]] (evo-eco)__
+
+See [[Ecology]]
+
+------------
+
 !__[[Evolutionary computing]]__
 
 !__Evolution in [[Complex systems]]__
 
 !![[Bias in GP maps]]
+
+!__Physics and evolution__
+
+[[The energy expansions of evolution|https://www.nature.com/articles/s41559-017-0138]]. The history of the life–Earth system can be divided into five ‘energetic’ epochs, each featuring the evolution of life forms that can exploit a new source of energy. These sources are: geochemical energy, sunlight, oxygen, flesh and fire. The first two were present at the start, but oxygen, flesh and fire are all consequences of evolutionary events. 
 
 -----------
 
@@ -94,3 +118,5 @@ https://en.wikipedia.org/wiki/Ernst_Mayr
 See in wiki article of evolution
 
 [[Statistical Physics of Adaptation|https://journals.aps.org/prx/abstract/10.1103/PhysRevX.6.021036]]
+
+"Could one not say that, in the fortuitous combinations of the productions of nature, as there must be some characterized by a certain relation of fitness[8] which are able to subsist, it is not to be wondered at that this fitness is present in all the species that are currently in existence? Chance, one would say, produced an innumerable multitude of individuals; a small number found themselves constructed in such a manner that the parts of the animal were able to satisfy its needs; in another infinitely greater number, there was neither fitness nor order: all of these latter have perished. Animals lacking a mouth could not live; others lacking reproductive organs could not perpetuate themselves... The species we see today are but the smallest part of what blind destiny has produced..." ~ Pierre Louis Maupertuis (more than a century before Charles Darwin)

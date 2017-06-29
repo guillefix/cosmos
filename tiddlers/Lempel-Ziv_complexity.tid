@@ -1,7 +1,7 @@
 created: 20160627202335121
 creator: guillefix
-modified: 20161104134329340
-modifier: guillefix
+modified: 20170424225132237
+modifier: cosmos
 title: Lempel-Ziv complexity
 tmap.id: 25fe6ed4-4f7b-4e82-90a4-cc76e14bebad
 type: text/vnd.tiddlywiki
@@ -14,6 +14,10 @@ See also [[Descriptional complexity]]
 
 [[On the non-randomness of maximum Lempel Ziv complexity sequences of finite size|http://scitation.aip.org/content/aip/journal/chaos/23/2/10.1063/1.4808251]]
 
+[[Asymptotic behavior of the Lempel-Ziv parsing scheme and digital search trees|http://www.sciencedirect.com/science/article/pii/030439759400298W]]
+
+[[On Lempel-Ziv Complexity of Sequences|https://link.springer.com/chapter/10.1007%2F11863854_15]] -- We derive recurrences for counting the number a(n,r) of sequences of length n with Lempel-Ziv complexity r
+
 !!__Relations with entropy__
 
 [img[http://i.imgur.com/rUUJPW8.png]]
@@ -23,3 +27,19 @@ See also [[Descriptional complexity]]
 [[Lempel-Ziv Compression|http://web.stanford.edu/class/ee376c/lecturenotes/Chapter1_Lossless.pdf]]
 
 [[Lempel-Ziv |http://www-math.mit.edu/~shor/PAM/lempel_ziv_notes.pdf]]
+
+!!__Redundancy__
+
+[[On point-wise redundancy rate of Bender-Wolf's variant of SWLZ algorithm|http://ieeexplore.ieee.org/abstract/document/7606807/]]
+
+[[On the pointwise redundancy of the LZ78 algorithm|http://ieeexplore.ieee.org/abstract/document/1523384/]]
+
+[[Upper bounds on the probability of sequences emitted by finite-state sources and on the redundancy of the Lempel-Ziv algorithm|http://ieeexplore.ieee.org/document/108250/]]
+
+They give results similar to [[Simplicity bias]]/[[Coding theorem method]], but for [[Finite-state source]]s.
+
+[[Universal redundancy rates do not exist|http://ieeexplore.ieee.org/document/212281/]]
+
+[[Redundancy of the Lempel-Ziv codes|http://ieeexplore.ieee.org/abstract/document/613233/]]
+
+[ext[A Simple Technique for Bounding the Pointwise Redundancy of the 1978 Lempel-Ziv Algorithm|http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=2EB47F0538F0CDAC926D4539BD101E12?doi=10.1.1.12.1605&rep=rep1&type=pdf]]

@@ -1,13 +1,13 @@
 created: 20161219211550316
 creator: cosmos
-modified: 20170317124246227
+modified: 20170416125049896
 modifier: cosmos
 tags: [[Graphical model]] Causality
 title: Bayesian network
 tmap.id: 094d2be8-6924-4ec7-871c-72e373b9276b
 type: text/vnd.tiddlywiki
 
-A directed [[Graphical model]]. Encodes a [[Causality]] structure
+A directed [[Graphical model]]. Encodes a [[Causality]] structure (work of Judea Pearls. Book: Causality: Models, Reasoning, and Inference)
 
 [ext[an intro|http://www.cs.ubc.ca/~murphyk/Bayes/bnintro.html]]
 
@@ -21,11 +21,13 @@ The joint prob distribution given by the ''chain rule of Bayesian networks'': pr
 
 !!__Properties of Bayesian nets__
 
+When are two Bayesian networks equivalent (they represent the same class of [[Probability distribution]]s with the same independencies)?: [[Two DAGs are equivalent if and only if they have the same skeleton and the same v-structures.|https://www.cs.cmu.edu/afs/cs/project/jair/pub/volume18/acid03a-html/node2.html]]
+
 !!!__Flow of probabilistic influence__
 
 //When can one variable (X) influence another variable  (Y)?// More precisely, what this means is that when conditioning on X, the probability distribution of Y changes.
 
-[[video|https://www.coursera.org/learn/probabilistic-graphical-models/lecture/1eCp1/flow-of-probabilistic-influence]].
+[[video|https://www.coursera.org/learn/probabilistic-graphical-models/lecture/1eCp1/flow-of-probabilistic-influence]] -- [[YB vid|https://www.youtube.com/watch?v=PfirsYouObw]]
 
 Two variables can influence each other if they are connected by an ''active trail'', which is a path (ignoring direction) through the network, such that there are no "''v-structures''" (which are causal structures like X -> W <- Y, for which Y is marginally independent on X, i.e. independent when marginalizing over W).
 

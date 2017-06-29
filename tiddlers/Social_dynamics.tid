@@ -1,8 +1,8 @@
 created: 20160523213158525
 creator: guillefix
-modified: 20161104134332455
+modified: 20170624210949260
 modifier: cosmos
-tags: [[Social system]]
+tags: [[Social system]] [[Collective behaviour]]
 title: Social dynamics
 tmap.id: eaaea4ed-971f-45b8-a744-e6e70dbd4670
 type: text/vnd.tiddlywiki
@@ -20,3 +20,5 @@ See [[Complex contagion]]s
 __Opinion dynamics__
 
 [[ Opinion dynamics: models, extensions and external effects|https://arxiv.org/abs/1605.06326]]
+
+[[The PLACE|https://www.youtube.com/watch?v=0QO0yZldC2M]] (reddit)

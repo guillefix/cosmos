@@ -1,0 +1,27 @@
+created: 20170510213348476
+creator: cosmos
+modified: 20170623121209963
+modifier: cosmos
+tags: [[Learning theory]]
+title: PAC-Bayesian learning
+tmap.id: 2d6d1446-17eb-4acd-95df-1b3bb34b689f
+type: text/vnd.tiddlywiki
+
+
+An extension of [[Probably approximately correct]] learning to the cases where not all concepts in the concept class are equally likely, but instead have a general probability distribution over them, which can be interpreted as a [[Prior distribution]].
+
+This seems to be very related to [[Structural risk minimization]]
+
+[img[PAC-Bayesian model selection.jpg]]
+
+
+[[Some PAC-Bayesian Theorems|https://link.springer.com/article/10.1023/A:1007618624809]]
+
+
+[[PAC-Bayes model averaging|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.46.6957&rep=rep1&type=pdf]]
+
+[img[PAC-Bayesian model averaging.jpg]]
+
+[[PAC-Bayesian Theory|https://link.springer.com/chapter/10.1007/978-3-642-41136-6_10]]
+
+[[video lecture on PAC-Bayesian learning|https://www.youtube.com/watch?v=OkftNAp1_Fg]]

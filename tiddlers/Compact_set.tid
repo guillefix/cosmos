@@ -1,0 +1,16 @@
+created: 20170627234603563
+creator: cosmos
+modified: 20170628000739726
+modifier: cosmos
+tags: Set
+title: Compact set
+tmap.id: b78ea9fc-8bf0-4ccf-b396-298b9b478cd6
+type: text/vnd.tiddlywiki
+
+[[definition|https://www.youtube.com/watch?v=zeVA74yivyg&index=11&list=PL0E754696F72137EC#t=26m55s]] -- A [[Set]] X is ''compact'' if every [[Open cover]] of X [[contains|Set inclusion]] a [[Finite]] [[Subcover]]
+
+[[Real Analysis, Lecture 11: Compact Sets|https://www.youtube.com/watch?v=zeVA74yivyg&index=11&list=PL0E754696F72137EC]]
+
+Functions on compact sets have a maximum ([[Supremum]]) and a minimum ([[Infimum]])
+
+See [[Compact space]]

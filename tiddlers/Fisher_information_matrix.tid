@@ -1,7 +1,7 @@
 created: 20160625130504322
 creator: guillefix
-modified: 20161104134328399
-modifier: guillefix
+modified: 20170625104505730
+modifier: cosmos
 title: Fisher information matrix
 tmap.id: 59357645-7df2-4803-93e0-61c2ddb3a76b
 type: text/vnd.tiddlywiki
@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 The ''Fisher information matrix'' (FIM) is the Hessian of the $$\log$$ [[Likelihood function]].
 
 If one [[Taylor expands|Taylor series]] the log-likelihood around a maximum, and keeps only terms up to second-order, we are approximating the peak by a Gaussian peak, and this is what is done to find the FIM
+
+See [[here|https://www.youtube.com/watch?v=c0O2XxHUG-A&index=14&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu]] for derivation using [[Relative entropy]]. See [[wiki|https://www.wikiwand.com/en/Fisher_information#/Matrix_form]] for more definitions
 
 [[Intro to Fisher Matrices|https://www.youtube.com/watch?v=m62I5_ow3O8]]
 

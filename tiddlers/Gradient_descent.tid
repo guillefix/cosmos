@@ -1,6 +1,6 @@
 created: 20160810174239855
 creator: cosmos
-modified: 20161107193613829
+modified: 20170524165413407
 modifier: cosmos
 tags: [[Local optimization]]
 title: Gradient descent
@@ -28,3 +28,9 @@ line-search to find step-size
 __Constrained optimization with projection based methods__
 
 Gradient step and project on the surface of the constraint area..
+
+!!!__Natural gradients__
+
+[[Original NIPS paper|https://papers.nips.cc/paper/1248-neural-learning-in-structured-parameter-spaces-natural-riemannian-gradient.pdf]]
+
+[[Natural gradients for deep learning|https://arxiv.org/pdf/1301.3584v7.pdf]]

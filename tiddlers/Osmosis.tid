@@ -1,7 +1,7 @@
 created: 20160602225220028
 creator: guillefix
-modified: 20161104134331366
-modifier: guillefix
+modified: 20170402182109963
+modifier: cosmos
 title: Osmosis
 tmap.id: 78def600-d8c0-46ef-accf-f5c52f0885c3
 type: text/vnd.tiddlywiki
@@ -33,3 +33,5 @@ http://physics.stackexchange.com/questions/212183/physic-explanation-to-osmosis?
 [[Molecular Understanding of Osmosis in Semipermeable Membranes|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.97.024501]]
 
 [[Forward osmosis: Principles, applications, and recent developments|http://sci-hub.cc/10.1016/j.memsci.2006.05.048]]
+
+!!![[Can osmosis go the other way?|http://physics.stackexchange.com/questions/265752/can-osmosis-go-the-other-way]]

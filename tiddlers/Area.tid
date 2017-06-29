@@ -1,0 +1,11 @@
+created: 20170624202429026
+creator: cosmos
+modified: 20170624202536666
+modifier: cosmos
+tags: 
+title: Area
+tmap.id: e6a59e4a-a7dc-47de-a1c7-bf0f14cfb225
+type: text/vnd.tiddlywiki
+
+
+[[Definition of area of a region of a surface|https://www.youtube.com/watch?v=JWioobLPaNo#t=35m10s]], using [[Cross product]] of [[Tangent space]] basis vectors to define an infinitesimal area. The norm of this cross product corresponds to the determinant of the [[Metric tensor]]

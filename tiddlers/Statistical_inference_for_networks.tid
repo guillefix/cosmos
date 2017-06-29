@@ -1,6 +1,6 @@
 created: 20170310094239311
 creator: cosmos
-modified: 20170310102145255
+modified: 20170519194604256
 modifier: cosmos
 tags: [[Statistical inference]] [[Network science]]
 title: Statistical inference for networks
@@ -24,3 +24,5 @@ When assessing the significance of two or more motifs, their dependence has to b
 Ego networks can be used to get replicas (samples) from same network. Need sparse networks for the egonets to be mostly independent.
 
 Network motifs can be used to compare networks.
+
+[[RegnANN: network inference using Artificial Neural Networks|http://snap.stanford.edu/nipsgraphs2010/Home_files/21_grimaldi_regnann-nips10-netwrkshop.pdf]]

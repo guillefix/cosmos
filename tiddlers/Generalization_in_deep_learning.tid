@@ -1,0 +1,33 @@
+created: 20170512224700922
+creator: cosmos
+modified: 20170625194245776
+modifier: cosmos
+tags: [[Deep learning theory]] Generalization
+title: Generalization in deep learning
+tmap.id: 3ae55414-1998-44f0-8fb4-9f318db105f7
+type: text/vnd.tiddlywiki
+
+
+See gingkoapp tree
+
+[[FLAT MINIMA|http://www.bioinf.jku.at/publications/older/3304.pdf]]
+
+[[Computing Nonvacuous Generalization Bounds for Deep (Stochastic) Neural Networks with Many More Parameters than Training Data|https://arxiv.org/abs/1703.11008]]
+
+[[Unreasonable Effectiveness of Learning Neural Nets: Accessible States and Robust Ensembles|https://pdfs.semanticscholar.org/a13e/ab6052cc9f85054d70d3ba395b0d77652172.pdf]]
+
+[[Sharp Minima Can Generalize For Deep Nets|https://arxiv.org/abs/1703.04933]] -- maybe it's not sharp, but ''frequent''! ([[Arrival of the frequent]])
+
+[[Data-Dependent Stability of Stochastic Gradient Descent|https://arxiv.org/abs/1703.01678]]
+
+[[Train faster, generalize better: Stability of stochastic gradient descent|https://arxiv.org/abs/1509.01240]]
+
+[[What size network is good for generalization of a specific task of interest|http://www.sciencedirect.com/science/article/pii/0893608094900264]] -- We show that for some tasks increasing network size leads to worse generalization. This is not surprising. The striking feature is that there exist other tasks for which increasing network size improves generalization. We give an explanation of this phenomenon in terms of the information entropy. I think what this paper is missing is the concept of universal complexity measures. You can see that tasks of “medium complexity” are the hardest to learn, because their measure of complexity isn’t very good. Even just entropy, would be better (as highest entropy corresponds to medium complexity in their case)
+
+[[related paper|http://www.inderscienceonline.com/doi/abs/10.1504/IJAACS.2014.065198]], [[pdf|http://sci-hub.cc/10.1504/ijaacs.2014.065198]]
+
+------------------
+
+!!!__[[Simplicity bias]] in neural networks__
+
+See [[this gingko tree|https://gingkoapp.com/app#7abe722f5a31aa3e1000001b]] and [[this overleaf document|https://www.overleaf.com/9939721prrtpqvjmdxd#/36478572/]] (from my short project in summer 2017 with [[Ard Louis]]

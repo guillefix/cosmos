@@ -1,0 +1,34 @@
+created: 20170526235428564
+creator: cosmos
+modified: 20170529170921176
+modifier: cosmos
+tags: [[Differential geometry]]
+title: Manifold
+tmap.id: caf37349-c633-456a-90a1-1761f6cc6d04
+type: text/vnd.tiddlywiki
+
+See book on diff geom.
+
+[[Some common manifolds|https://www.youtube.com/watch?v=J7vojBbvudQ&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ&index=5]]
+
+!!![[Operations on manifolds|https://www.youtube.com/watch?v=VuFCRFKiWvA&index=6&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ]]:
+
+* Product ([[Cartesian product]])
+* [[Quotient|https://www.youtube.com/watch?v=v425ePq9tyo&index=7&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ#t=11m30s]], the [[Quotient set]] given by an [[Equivalence relation]]
+* [[Surgery|https://www.youtube.com/watch?v=B6vEdfk7SWU&index=9&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ#t=12m10s]].
+** Connected sum
+
+---------------------
+
+[[Klein bottle]]
+
+[[Projective plane]]
+
+More [[here|http://web1.kcn.jp/hp28ah77/us27g_cros.htm]]
+
+!!__[[2D manifold]]s (aka surfaces)__
+
+[[They have been classified up to homeomorphism by Moebious|https://www.youtube.com/watch?v=pxsL5JTTk5Q&index=10&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ#t=16m30s]] into:
+
+* Orientable (which are n-tori, where n is the [[Genus]])
+* Non-orientable which are connected-sum'd copies of the real [[Projective plane]]

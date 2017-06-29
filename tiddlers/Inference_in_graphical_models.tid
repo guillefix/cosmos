@@ -1,9 +1,12 @@
 created: 20170317130340620
 creator: cosmos
-modified: 20170317130354252
+modified: 20170403153526842
 modifier: cosmos
 tags: [[Statistical inference]] [[Graphical model]]
 title: Inference in graphical models
 tmap.id: fdb2498d-3779-4a28-8c02-43cb55d5f236
 type: text/vnd.tiddlywiki
 
+
+
+[[message passing and free energy paper|https://arxiv.org/abs/1703.10932]]

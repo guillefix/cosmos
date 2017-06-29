@@ -1,6 +1,6 @@
 created: 20161129143248185
 creator: cosmos
-modified: 20161129143415507
+modified: 20170404091156981
 modifier: cosmos
 tags: [[Parallel computing]]
 title: Computer cluster
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 “Set	of	loosely	connected	computers	that	work	
 together	so	that	in	many	respects	they	can	be	
 viewed	as	a	single	system”.
+
+Nodes refer to separate computers in the cluster. Each node can have several cores (processors)
 
 Backend manages the [[distributed|Distributed computing]] system.
 

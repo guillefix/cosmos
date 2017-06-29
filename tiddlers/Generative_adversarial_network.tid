@@ -1,6 +1,6 @@
 created: 20161018183639198
 creator: cosmos
-modified: 20161224005402577
+modified: 20170521154439938
 modifier: cosmos
 tags: [[Generative model]]
 title: Generative adversarial network
@@ -8,6 +8,10 @@ tmap.id: 517ed2dc-97df-437d-a5fe-096124b8f399
 type: text/vnd.tiddlywiki
 
 An architecture to train generative neural networks, i.e. [[neural networks|Artificial neural network]] which act as [[Generative model]]s, i.e. their inputs are [[Latent variable]]s, and their output is the observed data.
+
+https://deephunt.in/the-gan-zoo-79597dc8c347 -- https://github.com/wiseodd/generative-models
+
+[[NIPS tutorial|https://arxiv.org/pdf/1701.00160.pdf]]
 
 !!__Adversarial networks__
 
@@ -18,6 +22,8 @@ We are in effect learning the cost function
 [[video|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=14m30]]
 
 !!__Trining GANs__
+
+[[NIPS 2016 Workshop on Adversarial Training - Soumith Chintala - How to train a GAN|https://www.youtube.com/watch?v=X1mUN6dD8uE]]
 
 [[Trained|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=18m05]] via [[Gradient descent]] and [[Backpropagation]]
 
@@ -93,3 +99,74 @@ https://www.wikiwand.com/en/Generative_adversarial_networks
 [[the future|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=51m20]]
 
 [[Connecting Generative Adversarial Networks and Actor-Critic Methods|https://arxiv.org/abs/1610.01945]]
+
+-----------------
+
+More variations and others
+
+URL list from Sunday, May. 21 2017 16:41 PM
+
+To copy this list, type [Ctrl] A, then type [Ctrl] C. 
+
+1603.08155.pdf
+https://arxiv.org/pdf/1603.08155.pdf
+
+1703.10593.pdf
+https://arxiv.org/pdf/1703.10593.pdf
+
+1610.09003.pdf
+https://arxiv.org/pdf/1610.09003.pdf
+
+RL Course by David Silver - Lecture 5: Model Free Control - YouTube
+https://www.youtube.com/watch?v=0g4j2k_Ggc4&index=5&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT
+
+Teaching
+http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html
+
+Lecture 1a - Introduction [Phil Blunsom] - YouTube
+https://www.youtube.com/watch?v=RP3tZFcC2e8&list=PL613dYIGMXoZBtZhbyiBqb0QtgK6oJbpm
+
+[1612.03242] StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks
+https://arxiv.org/abs/1612.03242
+
+[1703.06412] TAC-GAN - Text Conditioned Auxiliary Classifier Generative Adversarial Network
+https://arxiv.org/abs/1703.06412
+
+[1703.06676] I2T2I: Learning Text to Image Synthesis with Textual Data Augmentation
+https://arxiv.org/abs/1703.06676
+
+I2T2I: LEARNING TEXT TO IMAGE SYNTHESIS WITH TEXTUAL DATA AUGMENTATION
+https://arxiv.org/pdf/1703.06676.pdf
+
+Generative Adversarial Text to Image Synthesis
+https://arxiv.org/pdf/1605.05396.pdf
+
+Reed: Generative adversarial text to image synthesis - Google Scholar
+https://scholar.google.co.uk/scholar?start=70&hl=en&as_sdt=0,5&sciodt=0,5&cites=8255440757806230750&scipsc=
+
+Learning What and Where to Draw
+http://papers.nips.cc/paper/6111-learning-what-and-where-to-draw
+
+Generating Visual Explanations | SpringerLink
+https://link.springer.com/chapter/10.1007/978-3-319-46493-0_1
+
+[1609.09444] Contextual RNN-GANs for Abstract Reasoning Diagram Generation
+https://arxiv.org/abs/1609.09444
+
+[1702.03431] Crossing Nets: Dual Generative Models with a Shared Latent Space for Hand Pose Estimation
+https://arxiv.org/abs/1702.03431
+
+DISCO Nets : DISsimilarity COefficients Networks
+http://papers.nips.cc/paper/6143-disco-nets-dissimilarity-coefficients-networks
+
+[1704.06933] Adversarial Neural Machine Translation
+https://arxiv.org/abs/1704.06933
+
+[1702.04125] One-Step Time-Dependent Future Video Frame Prediction with a Convolutional Encoder-Decoder Neural Network
+https://arxiv.org/abs/1702.04125
+
+[1703.06029] Towards Diverse and Natural Image Descriptions via a Conditional GAN
+https://arxiv.org/abs/1703.06029
+
+cvpr17_summarization.pdf
+http://web.engr.oregonstate.edu/~sinisa/research/publications/cvpr17_summarization.pdf

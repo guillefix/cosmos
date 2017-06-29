@@ -1,6 +1,6 @@
 created: 20160709004653144
 creator: guillefix
-modified: 20170325144817829
+modified: 20170521165849452
 modifier: cosmos
 tags: [[Statistical inference]] Learning [[Artificial intelligence]] [[Machine learning]]
 title: Learning theory
@@ -111,9 +111,19 @@ We use the [[Prior distribution]] from [[Bayesian statistics]], to make [[simple
 
 !__[[Optimization for learning]]__
 
-
+!__[[Statistical physics and inference]]__
 
 -------------------
 
 [[Adaptive resonance theory|https://en.wikipedia.org/wiki/Adaptive_resonance_theory]]
 The primary intuition behind the ART model is that object identification and recognition generally occur as a result of the interaction of 'top-down' observer expectations with 'bottom-up' sensory information. The model postulates that <b>'top-down' expectations take the form of a memory template or prototype that is then compared with the actual features of an object as detected by the senses</b>. This comparison gives rise to a measure of category belongingness. As long as this difference between sensation and expectation does not exceed a set threshold called the 'vigilance parameter', the sensed object will be considered a member of the expected class. The system thus offers a solution to the 'plasticity/stability' problem, i.e. the problem of acquiring new knowledge without disrupting existing knowledge.
+
+[[Learning theory and neural networks gingko tree|https://gingkoapp.com/vehvff]]
+
+------------------
+
+!!__General/worst-case analysis vs specific case analysis of learning__
+
+[img[specific_case_learning_theory.jpg]]
+
+quite relevant for [[Deep learning theory]]

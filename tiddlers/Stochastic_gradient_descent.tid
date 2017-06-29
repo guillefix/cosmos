@@ -1,6 +1,6 @@
 created: 20160916172705813
 creator: cosmos
-modified: 20161104134332641
+modified: 20170520150614965
 modifier: cosmos
 tags: [[Gradient descent]]
 title: Stochastic gradient descent
@@ -34,3 +34,12 @@ Downpour -- Asynchronous SGD
 
 [[rmsprop|http://climin.readthedocs.io/en/latest/rmsprop.html]] is an optimizer that utilizes the magnitude of recent gradients to normalize the gradients
 
+[[Online Learning Rate Adaptation with Hypergradient Descent|https://arxiv.org/abs/1703.04782]]
+
+----------------
+
+[[Deriving Gibbs distribution from stochastic gradients|https://mirror2image.wordpress.com/2013/11/13/deriving-gibbs-distribution-from-stochastic-gradients/]]
+
+Idea I had of adversarial mini-batches (make examples which are classified wrong more likely)
+
+[[Coupling Adaptive Batch Sizes with Learning Rates|https://arxiv.org/abs/1612.05086]]

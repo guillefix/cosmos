@@ -1,0 +1,11 @@
+created: 20170521153212308
+creator: cosmos
+modified: 20170521153425388
+modifier: cosmos
+tags: [[Generative adversarial network]]
+title: Wasserstein GAN
+tmap.id: f31b3529-f483-4637-b800-a0846f0e92b9
+type: text/vnd.tiddlywiki
+
+
+[[Wasserstein GAN implementation in TensorFlow and Pytorch|http://wiseodd.github.io/techblog/2017/02/04/wasserstein-gan/]]

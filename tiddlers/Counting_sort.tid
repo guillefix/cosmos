@@ -1,0 +1,13 @@
+created: 20170429212100992
+creator: cosmos
+modified: 20170429212215038
+modifier: cosmos
+tags: [[Sorting algorithms]]
+title: Counting sort
+tmap.id: 9050b2ae-9461-47de-9879-7dc5381009c4
+type: text/vnd.tiddlywiki
+
+trying to make sort work on linear time. But need to assume something about the data. In particular, we assume that there's a finite number of values that can appear in the array.
+
+[[intro video|https://www.youtube.com/watch?v=hj8YKFTFKEE&index=3&list=PL6ED884C7AEE68027#t=41m14s]]
+

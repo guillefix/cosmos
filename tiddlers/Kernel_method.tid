@@ -1,0 +1,19 @@
+created: 20170426232727642
+creator: cosmos
+modified: 20170430141438640
+modifier: cosmos
+tags: [[Machine learning]]
+title: Kernel method
+tmap.id: 65458cd1-01c6-486c-8e93-3abccb5c32b0
+type: text/vnd.tiddlywiki
+
+
+[[intro video|https://www.youtube.com/watch?v=6AWZS4Ho2Z8&list=PLyGKBDfnk-iDj3FBd0Avr_dLbrU8VG73O#t=31m25s]]
+
+The [[Kernel trick]] avoids the explicit mapping that is needed to get linear learning algorithms to learn a nonlinear function or decision boundary. 
+
+Examples:
+
+[[Spline]]
+
+[[Support vector machine]]

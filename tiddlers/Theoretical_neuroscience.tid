@@ -1,6 +1,6 @@
 created: 20161211210521358
 creator: cosmos
-modified: 20161211210528783
+modified: 20170430140700454
 modifier: cosmos
 tags: Neuroscience
 title: Theoretical neuroscience
@@ -8,3 +8,5 @@ tmap.id: 68235d8e-8bf8-4393-a635-1032f3b546b7
 type: text/vnd.tiddlywiki
 
 [[Toward an Integration of Deep Learning and Neuroscience]]
+
+[[Shifting attention to dynamics: Self-reconfiguration of neural networks|http://www.sciencedirect.com/science/article/pii/S2452310017300732]]

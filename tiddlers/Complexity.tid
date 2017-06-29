@@ -1,6 +1,6 @@
 created: 20160627202342018
 creator: guillefix
-modified: 20170313000804441
+modified: 20170507001907670
 modifier: cosmos
 tags: [[Systems science]]
 title: Complexity
@@ -45,3 +45,5 @@ Good review: [[RANDOMNESS, INFORMATION, AND COMPLEXITY|http://arxiv.org/abs/1208
 See also [[Information theory]], [[Statistical physics]], [[Dynamical system]]s, [[Evolution]], [[Simplicity bias]].
 
 Complexity ~ Modular hierarchical structures.
+
+[[Information measures, effective complexity, and total information|http://onlinelibrary.wiley.com/doi/10.1002/(SICI)1099-0526(199609/10)2:1%3C44::AID-CPLX10%3E3.0.CO;2-X/abstract]]

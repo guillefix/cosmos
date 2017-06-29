@@ -1,0 +1,23 @@
+created: 20170624134745898
+creator: cosmos
+modified: 20170624135736982
+modifier: cosmos
+tags: [[Gaussian curvature]]
+title: Geometric interpretation of Gaussian curvature
+tmap.id: c0936b69-6c78-46bb-843a-ebcc3d11cf5e
+type: text/vnd.tiddlywiki
+
+
+!!!__[[Geometric interpretation of Gaussian curvature|https://www.youtube.com/watch?v=9VH0H2Ig6Yg#t=30m]]__
+
+For points with positive curvature, the surface, locally, lies on one side of the [[Tangent plane]]
+
+For points with negative curvature, the surface, locally, lies on both sides of the [[Tangent plane]]
+
+To study this analytically, we need to define the [[Hessian]], and the [[Height function]] [[for the tangent plane around any point|https://www.youtube.com/watch?v=9VH0H2Ig6Yg#t=59m20s]]
+
+[[Formal formulation|https://www.youtube.com/watch?v=9VH0H2Ig6Yg#t=1h2m]]
+
+Note that for [[Elliptic point]]s, the level curves are locally [[Ellipse]]s, and for [[Hyperbolic point]]s they are locally [[Hyperbola]]s
+
+[[There is no such theorem for K(p)=0|https://www.youtube.com/watch?v=9VH0H2Ig6Yg#t=1h10m30s]]

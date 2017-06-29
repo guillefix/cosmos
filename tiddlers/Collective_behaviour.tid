@@ -1,0 +1,28 @@
+created: 20170624210843671
+creator: cosmos
+modified: 20170624214318609
+modifier: cosmos
+tags: [[Complex systems]] [[Active system]]
+title: Collective behaviour
+tmap.id: f947e3df-76da-4205-9785-a6d72c04f6b5
+type: text/vnd.tiddlywiki
+
+The behavior of a complex [[Active system]], where the elements of the system are agents, often living beings. They are thus often modeled as [[Agent-based model]]s. Examples are [[Social dynamics]], herd dynamics.
+
+[[Collective behavior in animal groups:evolution and stochastic dynamics by Vishwesha Guttal|https://www.youtube.com/watch?v=NL4jIJpzXCw]]
+
+!!!__Evolution of herds__
+
+[[Selfish herd hypothesis]]
+
+!!!__[[Collective movement|https://www.youtube.com/watch?v=NL4jIJpzXCw#t=28m10s]]__
+
+[[Predation]] appears to select for grouping of individuals, which move in synchrony. This seems to be in part due to a //confusion effect// where fish get confused about who to attack.
+
+Other reasons: [[Migration]], [[Canibalism]]
+
+Can model with [[Active system]]s equations. [[He|https://www.youtube.com/watch?v=NL4jIJpzXCw]] shows that noise-induced equilibrium plays a role.
+
+--------
+
+!!!__[[Evolution of cooperation]]__

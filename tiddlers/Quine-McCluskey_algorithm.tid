@@ -1,0 +1,17 @@
+created: 20170519192037602
+creator: cosmos
+modified: 20170519192258771
+modifier: cosmos
+tags: 
+title: Quine-McCluskey algorithm
+tmap.id: bdf7e72a-e3ef-4ffd-a2ba-f6591ac58484
+type: text/vnd.tiddlywiki
+
+
+Minimize [[Boolean algebra]] expressions
+
+__Implementations__
+
+https://sourceforge.net/directory/os:linux/?q=quine-mccluskey+c%2B%2B
+
+In sympy: http://docs.sympy.org/latest/modules/logic.html

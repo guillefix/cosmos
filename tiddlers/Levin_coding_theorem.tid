@@ -1,0 +1,13 @@
+created: 20170417212153066
+creator: cosmos
+modified: 20170417212331220
+modifier: cosmos
+tags: [[Simplicity bias]]
+title: Levin coding theorem
+tmap.id: 785c4af5-07fa-4e3a-bf66-b6e17f716823
+type: text/vnd.tiddlywiki
+
+
+See [[Kolmogorov complexity]], [[Coding theorem method]].
+
+There seem to be finite analogues/extensions, see redundancy results for [[Lempel-Ziv complexity]], and empirical results for [[Simplicity bias]], with Ard Louis.

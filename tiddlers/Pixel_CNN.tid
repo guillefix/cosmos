@@ -1,0 +1,12 @@
+created: 20170521153713559
+creator: cosmos
+modified: 20170521153935023
+modifier: cosmos
+title: Pixel CNN
+tmap.id: b351d814-97a8-4fc4-b542-43650f2d7e18
+type: text/vnd.tiddlywiki
+
+
+[[Conditional Image Generation with PixelCNN Decoders|https://arxiv.org/pdf/1606.05328.pdf]]
+
+[[PIXELCNN++: IMPROVING THE PIXELCNN WITH DISCRETIZED LOGISTIC MIXTURE LIKELIHOOD AND OTHER MODIFICATIONS|https://openreview.net/pdf?id=BJrFC6ceg]]

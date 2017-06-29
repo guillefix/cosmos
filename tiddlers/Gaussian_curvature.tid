@@ -1,0 +1,40 @@
+created: 20170506193356102
+creator: cosmos
+modified: 20170628185522960
+modifier: cosmos
+tags: Curvature
+title: Gaussian curvature
+tmap.id: 44c9201d-c8ef-472d-a909-8d147e0c4089
+type: text/vnd.tiddlywiki
+
+//aka Gauss curvature//
+
+Determinant of the [[Differential of the Gauss map]], that is the product of the [[Principal curvature]]s ([[video|https://www.youtube.com/watch?v=VELPA0I5MGg#t=1h8m55s]])
+
+A point $$p$$ on a [[Surcace]] is called an
+
+* [[Elliptic point]] if $$K(p) > 0$$
+* [[Hyperbolic point]] if $$K(p) < 0$$
+* [[Parabolic point]] if $$K(p) = 0$$, it has one of the [[Principal curvature]]s non-0
+* [[Planar point]]
+* [[Umbilical point]]
+
+{{Geometric interpretation of Gaussian curvature}}
+
+__Local classification of surfaces by Gauss curvature__
+
+[[A surface with zero Gauss curvature is locally isometric to the|https://www.youtube.com/watch?v=7AgvKLtcijQ#t=1h19m30s]] [[Plane (surface)]]
+
+[[A surface with constant positive Gauss curvature is locally isometric to a |https://www.youtube.com/watch?v=7AgvKLtcijQ#t=1h20m]] [[Sphere]]
+
+[[A surface with constant negative Gauss curvature is locally isometric to a |https://www.youtube.com/watch?v=7AgvKLtcijQ#t=1h20m45s]] [[Pseudosphere]]
+
+[[Expression of|https://www.youtube.com/watch?v=7AgvKLtcijQ#t=1h23m55s]] the [[Gaussian curvature]] in [[Geodesic coordinates]]
+
+--------------------
+
+[[intuition|https://www.youtube.com/watch?v=Mcal5Cy7r4E&t=11m]]
+
+[[Gaussian curvature in dicrete geometry|https://www.youtube.com/watch?v=Mcal5Cy7r4E&t=13m20s]]
+
+The [[Gauss-Bonnet theorem]] relates its integral with the [[Genus]] of a surface]]

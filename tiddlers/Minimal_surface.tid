@@ -1,0 +1,26 @@
+created: 20170624134520776
+creator: cosmos
+modified: 20170624205716002
+modifier: cosmos
+tags: Surface
+title: Minimal surface
+tmap.id: 7fe30caa-f281-4c07-ac38-65dbd45c2605
+type: text/vnd.tiddlywiki
+
+Surfaces with $$0$$ [[Mean curvature]] ([[definition and proof|https://www.youtube.com/watch?v=JWioobLPaNo#t=43m15s]] that minimal surfaces are critical points of the [[Area]]!)
+
+__Examples__
+
+* [[Catenoid]]
+* [[Helicoid]]
+
+We sitll haven't been able to classify minimal surfaces (2017)
+
+__Applications in physical systems__
+
+Soap membranes (and other bilayer film systems) will minimize their surface in equilibrium to minimize [[Surface tension]] energy. 
+
+In general given a boundary, given by a closed [[Curve]], is there a minimal surface with that boundary in R^3? In 1930s, it was proven that yes.
+
+See the [[Parsimonious universe]] book.
+

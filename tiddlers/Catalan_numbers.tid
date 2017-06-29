@@ -1,15 +1,22 @@
 created: 20160626150934645
 creator: guillefix
-modified: 20161104134327275
-modifier: guillefix
+modified: 20170402161755884
+modifier: cosmos
+tags: Combinatorics
 title: Catalan numbers
 tmap.id: d6389ad7-baf6-4665-be3e-54fcbb5fa2d8
 type: text/vnd.tiddlywiki
 
 A sequence of numbers that arises in [[Combinatorics]], often of objects defined recursively, like trees. See also [[Analytic combinatorics]]
 
+Think of them as a discrete [[Random walk]] (open parens = +1, closed parens = -1). Then a string of length 2n of balanced parenthesis (n pairs of parens) corresponds to a string which has same number of +/- 1s, and the cumulative sum never goes negative (so the random walk never crosses 0, though it may touch it). 
+
+Now the number of walks of 2n steps that start and end at 0 are $$\binom{2n}{n}$$. However, consider the [[Equivalence class]] of strings related by a [[Cyclic permutation]]. One can convince oneself that in each of those classes there is only 1 string that doesn't cross 0 (constructed by taking any string in the class and moving its minimum to the first step; any other string's minimum would be negative, think about this). Furthermore, because there's $$n+1$$ time points for $$n$$ steps, there are $$n+1$$ cyclic permutations and thus $$n+1$$ members in each of these classes. Clearly, as equivalence classes partition a set, these don't overlap. This all implies that the number of random walks that start and end at 0, and don't go negative at any point is $$\frac{\binom{2n}{n}}{n+1}$$
+
 https://en.wikipedia.org/wiki/Catalan_number
 
 [[Catalan numbers|http://www-groups.dcs.st-and.ac.uk/history/Miscellaneous/CatalanNumbers/catalan.html]]
 
 http://mathworld.wolfram.com/CatalanNumber.html
+
+[[video|https://www.youtube.com/watch?v=ikRtC0FTv1k&index=13&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG#t=54m20s]]

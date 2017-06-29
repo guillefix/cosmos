@@ -1,7 +1,7 @@
 created: 20160326202226250
 creator: guillefix
-modified: 20161104134326978
-modifier: guillefix
+modified: 20170611211624254
+modifier: cosmos
 title: Arrival of the frequent
 tmap.id: f5b8d5ba-624c-4a1d-a279-d64bd18ba4a4
 type: text/vnd.tiddlywiki
@@ -142,3 +142,7 @@ We can then apply results from network theory of the steady distribution for a [
 So this sets a bias on the distribution on the phenotype network.
 
 Over this bias there will be the fitness surface.
+
+------------------
+
+https://people.cs.uct.ac.za/~gnitschke/projects/papers/2016-Relationship%20Between%20Evolvability%20and%20Robustness.pdf

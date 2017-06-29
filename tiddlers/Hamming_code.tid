@@ -1,0 +1,12 @@
+created: 20170628232917494
+creator: cosmos
+modified: 20170628233123933
+modifier: cosmos
+tags: [[Error-correcting code]]
+title: Hamming code
+tmap.id: ee0bd760-f016-4cf1-a267-7534adf226d2
+type: text/vnd.tiddlywiki
+
+An optimal code, in the sense of maximum information per bit transmitted (information transmission rate), for a given noisy channel. This maximum is limited by the channel capacity, as per [[Channel coding theorem]], in [[Data transmission]]
+
+See [[this video|https://www.youtube.com/watch?v=OHCpECIFNxM]]

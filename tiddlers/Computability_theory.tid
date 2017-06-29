@@ -1,6 +1,6 @@
 created: 20160413185512030
 creator: guillefix
-modified: 20161221232233123
+modified: 20170515153957056
 modifier: cosmos
 tags: [[Theoretical computer science]] [[Mathematical logic]]
 title: Computability theory
@@ -54,6 +54,8 @@ Useful definitions: bit-doubling function, pairing function. The ''pairing funct
 
 A weaker notion is that of //semicomputability//: [[Semicomputable function]]
 
+[[Enumerability of functions from above and below, related to enumerable approximations to the function|https://books.google.co.uk/books?id=JvXiBwAAQBAJ&pg=PA34&lpg=PA34&dq=%22enumerable+from+below%22&source=bl&ots=yOG_4ZLhlt&sig=CPirP3DuzH8pE3UXMLImTjwKhmU&hl=en&sa=X&ved=0ahUKEwic1eGc0dbTAhXHCMAKHfHoAq0Q6AEIJzAA#v=onepage&q=%22enumerable%20from%20below%22&f=false]]
+
 !!!__Computable enumerability__
 
 [img[http://guillefix.me/img/arrivalfrequent6.png]]
@@ -91,3 +93,4 @@ Word problem for groups
 
 [[Kolmogorov complexity]]
 
+[[All computable functions on real numbers are continuous!|http://blog.sigfpe.com/2008/01/what-does-topology-have-to-do-with.html]]

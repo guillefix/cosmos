@@ -1,6 +1,6 @@
 created: 20160919175543276
 creator: cosmos
-modified: 20161104134332758
+modified: 20170501212059610
 modifier: cosmos
 tags: [[Deep learning]]
 title: TensorFlow
@@ -11,12 +11,28 @@ A good [[Deep learning]] library in [[Python]]
 
 [[TensorFlow Basics - Deep Learning with Neural Networks p. 2|https://www.youtube.com/watch?v=pnSBZ6TEVjY&index=45&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v]]
 
+[[Very well done video tutorials|https://www.youtube.com/playlist?list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ]]
+
 In tensor flow, you:
 
-# Define a ''computational graph'', that manipulates tensors, and data.
+# Define a ''computational graph'', that manipulates tensors, and data. [[parts of the computational graph|https://www.youtube.com/watch?v=wuo4JdG3SvU&list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ#t=3m43s]]
+## ''Placeholder variables'' used to change the input to the graph. ``x = tf.placeholder(tf.float32, [dimensions])``. Note ``None`` can be used as a dimension, that can take any value (calculated from input data..)
+##''Model variables'' that are going to be optimized so as to make the model perform better. ``weights = tf.Variable(initializationValues)``
+##''The model'' which is essentially just a mathematical function that calculates some output given the input in the placeholder variables and the model variables. Example@ ``logits = tf.matmul(x, weights) + biases``
+##A ''cost function'' that can be used to guide the optimization of the variables. Example: ``cross_entropy = tf.nn.softmax_cross_entropy_with_logits(logits=logits,
+                                                        labels=y_true)``, ``cost = tf.reduce_mean(cross_entropy)``
+##An ''optimization method'' which updates the variables of the model. Example: ``optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.5).minimize(cost)``
 
 # Begin a ''session'' (`tf.Session()`), and `train`, and `run` the computational graph, to get its result.
+## ``session.run(tf.global_variables_initializer())``
+## ``session.run(optimizer, feed_dict=feed_dict_train)``, where the keys in the feed_dict should match the placeholder variables.
 
 [[Learning TensorFlow|https://www.youtube.com/watch?v=bvHgESVuS6Q]]
 
 [[TensorFlow in 5 Minutes|https://www.youtube.com/watch?v=2FmcHiLCwTU]]
+
+[[An Introduction to LSTMs in Tensorflow|https://www.youtube.com/watch?v=l4X-kZjl1gs]]
+
+---------------
+
+[[How to save and restore model variables|https://www.youtube.com/watch?v=Lx8JUJROkh0&index=4&list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ&spfreload=1#t=3m10s]] -- [[and here|https://www.youtube.com/watch?v=Lx8JUJROkh0&index=4&list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ&spfreload=1#t=5m55s]] -- [[and restore|https://www.youtube.com/watch?v=Lx8JUJROkh0&index=4&list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ&spfreload=1#t=11m30s]]

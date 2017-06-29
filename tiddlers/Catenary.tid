@@ -1,0 +1,10 @@
+created: 20170624190725348
+creator: cosmos
+modified: 20170624190826886
+modifier: cosmos
+tags: Curve
+title: Catenary
+tmap.id: dee89b88-d30e-432b-a7c7-ecbe6680b771
+type: text/vnd.tiddlywiki
+
+Shape that a chain forms when freely under gravity. If one reverses gravity and changes tensions to pressions, one can see that the upside down catenary is also static (though not stable now). This is why the shape is used for building [[Arch]]es

@@ -1,0 +1,16 @@
+created: 20170528123219589
+creator: cosmos
+modified: 20170528125655358
+modifier: cosmos
+tags: [[Computer graphics]]
+title: Shader
+tmap.id: a9061d1c-fbb5-4aa5-9229-1c664772b3c4
+type: text/vnd.tiddlywiki
+
+Programs that often run on the [[GPU]], to perform common operations needed in [[Computer graphics]]
+
+
+* [[Vertex shader]] -- Takes a certain representation of a [[Scene]], usually as [[Point]]s (vertices), and transforms this vertices into another representation which is useful for latter processing. For instance, in OpenGL/WebGL, your vertices can be transformed to what is called ''clipspace'', using [[Homogeneous coordinates]], which are then automatically processed to project them as 2d points in the device screen. The 2d pixel coordinates corresponding to the vertices, as well as to all points inside the polygon primitives (often triangles) that go with those vertices, are often passed to the fragment shader, to decide which color they should appear as.
+* [[Fragment shader]]
+
+[[WebGL shaders and GLSL|https://webglfundamentals.org/webgl/lessons/webgl-shaders-and-glsl.html]]

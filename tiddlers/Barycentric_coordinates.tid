@@ -1,0 +1,10 @@
+created: 20170514232226678
+creator: cosmos
+modified: 20170514232447666
+modifier: cosmos
+tags: 
+title: Barycentric coordinates
+tmap.id: 1b0b758d-982b-4c6d-950c-84faee68fcbe
+type: text/vnd.tiddlywiki
+
+[[video|https://www.youtube.com/watch?v=01YSK5gIEYQ&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=32m]], coordinates of points inside simplices (like triangles). [[Affine combination]]s of points at the vertices

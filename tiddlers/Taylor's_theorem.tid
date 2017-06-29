@@ -1,0 +1,13 @@
+created: 20170413101218762
+creator: cosmos
+modified: 20170413101348602
+modifier: cosmos
+tags: 
+title: Taylor's theorem
+tmap.id: 7f6433e1-0df0-4346-9522-4e6ea4ba7637
+type: text/vnd.tiddlywiki
+
+
+--------
+
+Value of the remainder in Cauchy form can be proved by a variant of the proof of the [[Mean value theorem]], where instead of substracting $$rx$$, we substract $$rx^2$$ and differentiate twice after applying Rolle's theorem

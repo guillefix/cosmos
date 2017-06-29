@@ -1,7 +1,7 @@
 created: 20160703115637608
 creator: guillefix
-modified: 20161104134328199
-modifier: guillefix
+modified: 20170417212524457
+modifier: cosmos
 tags: [[Information measures]] [[Statistical physics]]
 title: Entropy
 tmap.id: 0436c842-b5e8-4f74-a418-713538650ad6
@@ -12,3 +12,9 @@ The entropy, $$H(X)$$, of a [[Random variable]], $$X$$, is defined as
 $$H(X) = - \sum_x p(x) \log{p(x)}$$
 
 [[video|https://www.youtube.com/watch?v=6RJP5m3m1XA&index=7&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft]]
+
+Entropy and [[Kolmogorov complexity]]: [[thesis|file:///home/guillefix/downloads/Thesis_Moriakov.pdf]]
+
+__Concavity of entropy__
+
+[img[concavity_of_entropy.jpg]]

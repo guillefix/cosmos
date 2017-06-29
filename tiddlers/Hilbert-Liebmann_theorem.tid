@@ -1,0 +1,13 @@
+created: 20170624165924101
+creator: cosmos
+modified: 20170624181455577
+modifier: cosmos
+title: Hilbert-Liebmann theorem
+tmap.id: 8b8af09d-2f39-44d3-aadd-201b7e8d683d
+type: text/vnd.tiddlywiki
+
+[[video|https://www.youtube.com/watch?v=579ugjuW-uc#t=1h20m40s]]. If a [[Surface]] $$S$$ is __compact__ and connected, if the [[Gaussian curvature]] $$K$$ is a constant. Then, $$S$$ is a [[Sphere]]!
+
+In fact because of compactness, constant $$K$$, implies that $$K>0$$. First, because any compact surface has an [[Elliptic point]] (see argument using [[Height function]], and existance of global maximum and minimum for [[Compact space]]s), $$K\geq 0$$. Furthermore, it cannot be $$0$$ everywhere because that would imply that every point belongs to some path along which the normal is constant (following locally the [[Principal direction]] with eigenvalue $$0$$, necessary for $$K=0$$). Note that compactness, which implies existence of maximum and minimum in particular for the [[Height function]], then implies the existence of a point in the surface with any normal vector. Hmm.. However, we can parametrized the surface by following the curves with constant normal vector, and a curve that crosses all of them. This doesn't leave enough space for all normal vectors to be present in the surface.. Not very formal, but I think it works.
+
+$$K>0$$ implies the [[Mean curvature]] $$H$$ is non-0, then the rest of the argument follows as in [[Jellet-Liebmann theorem]]

@@ -1,7 +1,7 @@
 created: 20160122230216280
 creator: guillefix
 list-after: Topology
-modified: 20170315130219309
+modified: 20170521153316423
 modifier: cosmos
 tags: Mathematics
 title: Number theory
@@ -21,3 +21,5 @@ type: text/vnd.tiddlywiki
 [[Irrationality of square root of 2]]
 
 [[Triangular numbers]]
+
+[[Pi hiding in prime regularities|https://www.youtube.com/watch?v=NaL_Cb42WyY&feature=youtu.be]]

@@ -1,7 +1,7 @@
 created: 20160122182434672
 creator: guillefix
 list-after: Biology
-modified: 20170211143504973
+modified: 20170410192024818
 modifier: cosmos
 tags: Science
 title: Systems science
@@ -16,17 +16,29 @@ http://artificial-intuition.com/bizarre.html
 
 [[List of systems science journals|https://en.wikipedia.org/wiki/List_of_systems_science_journals]]
 
+From [[here|https://medium.com/@creativeai/creativeai-9d4b2346faf3]]:
+
+After World War II, the United States enjoyed a period of euphoria. The Allied Powers had triumphed — seemingly through science, technology and systems thinking. In this environment, the Josiah Macy Jr. Foundation organized a series of conferences from 1946 to 1953 “on the workings of the human mind” [27], later titled “Cybernetics”. The aim of the conferences was to promote meaningful communication across scientific disciplines and restore unity to science [28]. It included people like J.C.R. Licklider, Margaret Mead, Heinz von Foerster, John von Neumann, Claude Shannon and Norbert Wiener.
+
+Inspired by the conference, in 1948 Wiener published his seminal work “Cybernetics: or Control and Communication in the Animal and the Machine” [29] and Shannon published “A Mathematical Theory of Communication” [30]. Such works laid the foundation for today’s information age by providing a scientific theory for concepts such as “information”, “communication”, “feedback” and “control”.
+
+[img[https://cdn-images-1.medium.com/max/1000/1*RpClQoo4M1I3SuYRKPPdjg.jpeg]]
+
+!!__[[Systems theory]]__
+
 !!__Cybernetics__
 
-(seems synonymous with systems science, at least up to connotations..)
+Wiener defined cybernetics as the science of adaptive, feedback-based control [31]. The name comes from the ancient greek word for steersman. Cybernetics takes the view that control in complex environments must be conversational. It requires not just action but also listening and adaptation: To steer a boat across a lake, you have to use your tiller and sails to adjust to changing winds and currents. The cybernetic model of control is circular, decisions depend not only on how well people carry out their intentions but also on how the environment responds.
+
+Mostly about the [[Control theory]] part of systems science, but often almost synonymous in practice.
 
 [[Principia Cybernetica Electronic Library|http://pespmc1.vub.ac.be/LIBRARY.html]]
 
 http://www.emeraldinsight.com/loi/k
 
-!!!__[[Systems theory]]__
+As Pask noted, “architects are first and foremost systems designers,” but they lack “an underpinning and unifying theory… Cybernetics is a discipline which fills the bill” [36]. By systematically integrating context and relationships, cybernetics pushed creation & design beyond its object-based approach.
 
-
+!!!__[[Creative system]]s__
 
 !!__Philosophy__
 

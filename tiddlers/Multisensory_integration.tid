@@ -1,6 +1,6 @@
 created: 20170212160353849
 creator: cosmos
-modified: 20170212160410107
+modified: 20170416151611711
 modifier: cosmos
 tags: [[Cognitive neuroscience]]
 title: Multisensory integration
@@ -14,3 +14,9 @@ An architecture based on these ideas is what I hope could make a NN that can beg
 [[Unsupervised Learning of Spoken Language with Visual Context|https://www.youtube.com/watch?v=Q6nYgeH8Krs]]
 
 http://groups.csail.mit.edu/sls/publications/2016/FelixSun_SLT_2016.pdf
+
+See facebook posts. CycleGAN.
+
+multimodal learning, days fusion.
+
+[[Deep Multimodal Representation Learning from Temporal Data|https://arxiv.org/abs/1704.03152]]

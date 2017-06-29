@@ -1,6 +1,6 @@
 created: 20170131161500537
 creator: cosmos
-modified: 20170320014429609
+modified: 20170419072458600
 modifier: cosmos
 tags: [[Natural language processing]]
 title: Language model
@@ -83,3 +83,5 @@ __Truncated [[Backpropagation]] through time__
 Add breaks in the backpropagation, maybe between sentences.
 
 However, we do forward propagate!
+
+__Skip-thought vectors__

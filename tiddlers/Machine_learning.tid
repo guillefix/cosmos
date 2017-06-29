@@ -1,6 +1,6 @@
 created: 20160226112409331
 creator: guillefix
-modified: 20170305013415264
+modified: 20170514212447433
 modifier: cosmos
 tags: [[Artificial intelligence]] Learning [[Data science]]
 title: Machine learning
@@ -20,6 +20,8 @@ A part of [[Artificial intelligence]] that uses many methods from [[Computer sci
 [[Machine Learning with Python|https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v]]
 
 [[Supervised vs unsupervised|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=4m47]]
+
+http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
 
 [[No free lunch theorem]]
 

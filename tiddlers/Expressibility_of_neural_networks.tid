@@ -1,0 +1,43 @@
+created: 20170430130643047
+creator: cosmos
+modified: 20170503133432712
+modifier: cosmos
+tags: [[Neural network theory]]
+title: Expressibility of neural networks
+tmap.id: 921d2a77-eb19-48a0-bb1a-c616a0e4aa78
+type: text/vnd.tiddlywiki
+
+!!!__Neural networks are can approximate any smooth function__
+
+Even single-layer ones. Find papers
+
+__Universal approximator theorem__
+
+See paper mentioned in Hugo's vid, //single hidden layer ANNs can approximate any continuous function with sufficiently many neurons in the hidden layer//. There may not be a //learning algorithm// to find the right parameter set though.
+
+For deep nets, [[Why and when can deep - but not shallow - networks avoid the curse of dimensionality: a review|https://arxiv.org/pdf/1611.00740.pdf]]
+
+__Universality of [[Recurrent neural network]]s__
+
+!!!__[[Bayes' theorem as a softmax]]__
+
+
+!!!__What Hamiltonians (and thus $$p(y|x)$$) can be approximated by feasible neural networks? __
+
+__--> Neural networks can efficiently simulate multiplication__
+
+[img[Selection_612.png]]
+
+See [[paper|http://arxiv.org/pdf/1608.08225v1.pdf]] for proof.
+
+[img[Selection_614.png]]
+
+__--> This means they can efficiently simulate polynomials__
+
+[img[Selection_613.png]]
+
+In the case of a polynomial of degree $$d$$, there are $$(n+d)!/(n!d!)$$ terms (and thus parameters), which corresponds to the [[Number of ways to put n+1 objects in d bins|Number of ways to put n objects in k bins]], where the n+1 objects correspond to the n variables, and an object corresponding to "empty".
+
+In the case of $$n$$ binary input variables (with possible values $$0$$ or $$1$$), any function can be written as a polynomial of degree $$n$$, and only $$2^n$$ terms (as repeating a factor doesn't change the function as $$y_i ^2 = y_i$$. 
+
+Furthermore bit variables allow an accurate multiplication approximator that takes the product of an arbitrary number of bits at once. This implies that any function of a bit-variable $$\mathbf{y}$$ can be simulated with just three layers, the middle of which does the appropriate multiplications (so we need $$2^n$$ neurons here), and the last of which sums the terms with appropriate weights to create the polynomial.

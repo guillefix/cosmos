@@ -1,0 +1,14 @@
+created: 20170520150453517
+creator: cosmos
+modified: 20170521153525821
+modifier: cosmos
+tags: 
+title: Software for reinforcement learning
+tmap.id: d5c08b9a-8f5d-4d52-b765-0c39673a394a
+type: text/vnd.tiddlywiki
+
+OpenAI Gym, [[roboschool|https://blog.openai.com/roboschool/]]
+
+DeepMind Universe
+
+[[RL optimization in PyBrain|http://pybrain.org/docs/tutorial/optimization.html#optimization-in-reinforcement-learning]]

@@ -1,0 +1,15 @@
+created: 20170617085050616
+creator: cosmos
+modified: 20170617132159914
+modifier: cosmos
+tags: [[Real analysis]]
+title: Differential
+tmap.id: fbe939b7-ad36-4a03-bfcb-c27bf21238e9
+type: text/vnd.tiddlywiki
+
+
+[[Definition of the differential of a map|https://www.youtube.com/watch?v=AFSL-wGNRFM#t=13m30s]]
+
+Special case: [[differential of a map from a surface|https://www.youtube.com/watch?v=V07JjX1SnSw]]
+
+--> For the differential of a function from $$R^n$$ to $$R$$, the linear map can be represented as an $$n$$-dimensional vector, which corresponds to the [[Gradient]] of the function.

@@ -1,0 +1,18 @@
+created: 20170618113542226
+creator: cosmos
+modified: 20170618114019703
+modifier: cosmos
+tags: [[Exterior calculus]]
+title: Exterior form
+tmap.id: d9fbcc70-b343-4876-9024-5784cf8bb560
+type: text/vnd.tiddlywiki
+
+//aka form, linear form//
+
+See Do Carmo -- Differential forms and applications
+
+[[Differential form]]
+
+[img[do_carmo_diffform_1.png]]
+
+[img[do_carmo_diffform_2.png]]

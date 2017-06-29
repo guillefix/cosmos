@@ -1,6 +1,6 @@
 created: 20160709015859880
 creator: guillefix
-modified: 20170104130812965
+modified: 20170420215905120
 modifier: cosmos
 tags: [[Regression analysis]]
 title: Nearest-neighbour classification
@@ -12,6 +12,9 @@ type: text/vnd.tiddlywiki
 Nearest-neighbor methods: To get the prediction Ŷ for a point $$x$$, use [those observations ($$k$$ of them) in the training set T, closest in input space to point x]. Remember training set is a set of pairs $$(x,y)$$. Closest often refers to Euclidean distance.
 
 It turns out that the //effective number of parameters// of k-nearest neighbors is $$N/k$$, even if technically there is only one parameter, $$k$$.
+
+Interactive app: https://github.com/lettier/interactiveknn
+
 
  --> To me it seems more like a method in [[Nonparametric statistics]]! Indeed it is (see [[Wiki|https://en.wikipedia.org/wiki/Nonparametric_statistics#Non-parametric_models]]).
 

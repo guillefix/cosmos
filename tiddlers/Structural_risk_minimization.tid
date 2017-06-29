@@ -1,0 +1,13 @@
+created: 20170516120241177
+creator: cosmos
+modified: 20170623123505018
+modifier: cosmos
+tags: [[Model selection]]
+title: Structural risk minimization
+tmap.id: 89e170d4-ca1a-467d-adc2-e50e633716a3
+type: text/vnd.tiddlywiki
+
+
+See [ext[here|http://www.cs.tufts.edu/~roni/Teaching/CLT/LN/lecture9.pdf]]
+
+Very related to [[PAC-Bayesian learning]]

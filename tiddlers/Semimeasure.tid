@@ -1,0 +1,11 @@
+created: 20170507175905781
+creator: cosmos
+modified: 20170507181001295
+modifier: cosmos
+title: Semimeasure
+tmap.id: 157f3adf-fa39-4127-a8fc-3d86288eeac4
+type: text/vnd.tiddlywiki
+
+A generalization of a [[Probability measure]] obtained by relaxing the additivity requirement to super-additivity, i.e. $$\mu(A\cup B) \geq \mu(A)  + \mu(B)$$, where $$A$$ and $$B$$ are disjoint events.
+
+[[Randomness and Semi-measures|https://arxiv.org/abs/1310.5133]]

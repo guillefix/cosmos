@@ -1,6 +1,6 @@
 created: 20160823182558318
 creator: cosmos
-modified: 20161104134333003
+modified: 20170507181237402
 modifier: cosmos
 tags: [[Universal AI]]
 title: Universal inductive inference
@@ -26,6 +26,7 @@ See also [[Universal probability]], [[Universal gambling]], [[Induction]]
 * [[Occam's razor]]
 * [[Principle of multiple explanations]]
 
+-->See section 5.2 in Li&Vitanyi's book on Kolmogorov complexity.
 
 !!__Convergence theorem__
 
@@ -103,3 +104,11 @@ More.
 [img[https://s14.postimg.org/9mbw04hq9/Selection_592.png]]
 
 See [[Randomness]], [[Complexity]]
+
+__Prediction by [[Compression]]__
+
+It is not a
+priori clear that the shortest program dominates in all cases—and in fact
+it does not. However, we show that in the overwhelming majority of cases
+the shortest program dominates sufficiently to validate the approach that
+uses only shortest programs for prediction. (sec 5.2.4 in Li&Vitanyi's book)

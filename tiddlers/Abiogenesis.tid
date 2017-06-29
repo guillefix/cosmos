@@ -1,6 +1,6 @@
 created: 20160423221114399
 creator: guillefix
-modified: 20161223115252557
+modified: 20170416115828207
 modifier: cosmos
 tags: Evolution Self-organization
 title: Abiogenesis
@@ -37,3 +37,14 @@ See references at the end of page 54 in [[here|http://fontana.med.harvard.edu/ww
 From [[GEB|Godel, Escher, Bach]]
 
 Let us describe nature's solution to the puzzle posed for Typogenetics: "What kind of strand of DNA can direct its own replication?" Certai nly not every strand of DNA is inherently a self-rep. The key point is this: any strand whic h wishes to direct its own copying must contain directions for assembling precisely those enzymes which can carry out the task. Now it is futile to hope that a strand of DNA in isolation could be a self-rep; for in Self-Rep and Self-Rep 525 order for those potential proteins to be pulled out of the DNA, there must not only be ribosomes, but also RNA polymerase, which makes the mRNA that gets transported to the ribosomes. And so we have to begin by assuming a kind of "minimal support system" just sufficiently strong that it allows transcription and translation to be carried out. This minimal support system will thus consist in (1) some proteins, such as RNA polymerase, which allow mRNA to be made from DNA, and (2) some ribosomes
+
+------------------------
+
+[[A new idea connects the synthesis of clays and the origin of metabolism|https://phys.org/news/2017-04-idea-synthesis-clays-metabolism.html]]
+
+The paper has related how prebiotic metabolites available from simple sunlight promoted reactions can catalyze the synthesis of clay minerals (i.e., a zinc clay called sauconite).
+
+
+Clay minerals acting as chemical sponges can retain water and polar organic molecules, and should have played a key role in the origin of life; 1) protecting against ultraviolet radiation, and 2) concentrating and catalyzing the polymerization of organic molecules such as RNA.
+
+[[Chaotic flows and the origin of life|https://phys.org/news/2017-04-chaotic-life.html]] -- creating a model system of cylindrical cells that mimic the structure of pores in mineral formations found near a recently discovered, new type of subsea hydrothermal vent. The temperature gradients present within these vents function just like an ordinary lava lamp, circulating fluid within the tiny pore spaces. The team found that these flows are surprisingly complex and chaotic – meaning that individual paths follow a rough general pattern, but no trajectories are identical. This discovery made it possible to identify conditions where these flows are able to provide bulk homogenization of the various organic molecules present in the vents, while at the same time transport them to catalytically active pore surfaces where they absorb and react.

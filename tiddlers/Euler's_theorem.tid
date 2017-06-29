@@ -1,0 +1,9 @@
+created: 20170624130404074
+creator: cosmos
+modified: 20170624130644947
+modifier: cosmos
+title: Euler's theorem
+tmap.id: 1e5c1e35-561a-497f-a468-6f1ef6d3202f
+type: text/vnd.tiddlywiki
+
+[[video|https://www.youtube.com/watch?v=N569p-maOvM#t=28m10s]]. $$II_p (v) = k_n(p)$$, for any curve with tangent $$v$$ at point $$p$$, where $$II_p$$ is the [[Second fundamental form]] and $$k_n$$ is the [[Normal curvature]]

@@ -1,0 +1,27 @@
+created: 20170515121957917
+creator: cosmos
+modified: 20170515134947632
+modifier: cosmos
+title: Ladder network
+tmap.id: 50312016-e200-4eca-a3ae-76d64cbdef1c
+type: text/vnd.tiddlywiki
+
+The idea, I think, is that it should develop a good hierarchical model, if the hidden activations, even after adding noise (or somehow information-bottlenecking) help reconstructing activations at lower levels of abstraction.
+
+It is mainly used for [[Semi-supervised learning]]. Although it can also be used as a [[Generative model]], and for [[Unsupervised learning]]
+
+[[talk|https://www.youtube.com/watch?v=ZlyqNiPFu2s]]
+
+[[Semi-Supervised Learning with Ladder Networks|https://arxiv.org/pdf/1507.02672.pdf]]
+
+
+See [[EM algorithm]]
+
+http://users.ics.aalto.fi/harri/ica2000a/node2.html, http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=0814D988A82AFA273E351B62A9FCBC55?doi=10.1.1.149.5636&rep=rep1&type=pdf
+
+[[Denoising source separation|http://www.jmlr.org/papers/volume6/sarela05a/sarela05a.pdf]]
+
+
+http://rinuboney.github.io/2016/01/19/ladder-network.html
+
+[[Ladder variational autoencoders|https://arxiv.org/pdf/1602.02282.pdf]]

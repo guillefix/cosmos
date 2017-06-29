@@ -1,0 +1,12 @@
+created: 20170607202521168
+creator: cosmos
+modified: 20170611134004159
+modifier: cosmos
+tags: [[Artificial intelligence]] Relation
+title: Relational reasoning
+tmap.id: 9734e175-1f32-4618-bb32-428e4d3bd863
+type: text/vnd.tiddlywiki
+
+[[Discovering objects and their relations from entangled scene representations|https://arxiv.org/abs/1702.05068]]
+
+[[ Modeling Relational Data with Graph Convolutional Networks|https://arxiv.org/abs/1703.06103]]

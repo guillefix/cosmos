@@ -1,0 +1,31 @@
+created: 20170415184539663
+creator: cosmos
+modified: 20170415194429743
+modifier: cosmos
+tags: Randomness [[Additive combinatorics]] [[Complexity theory]]
+title: Dense model
+tmap.id: 0e4f57be-8cd0-419c-9dd2-a16e5530679a
+type: text/vnd.tiddlywiki
+
+
+[[Hardcore measures, dense models and low complexity approximations|http://summit.sfu.ca/item/12349]] -- connections between a fundamental result in complexity, The [[Hardcore lemma]] and a recent technique in additive combinatorics, The [[Dense model theorem]]. 
+
+The ''Hardcore Lemma'' addresses hypothesis under which //hardcore measures// exist: a [[Measure]] can be thought of as a distribution over sets and ''hardcore measure'' characterizes a subset on which a given function can be guessed no better than a random coin toss (i.e. a hardcore measure is the “hard-core” of the function).
+
+While ''The Dense Model Theorem'' describes the conditions under which a set of small size is indistinguishable from a much larger set - this larger set (or measure) is said to be the [[Dense model]] for the original set.
+
+[[Algorithmic Dense Model Theorems and Weak Regularity|https://www.youtube.com/watch?v=9j5NeRnc1hE&list=PLgKuh-lKre13iYG4pFLjf4cSI4vkSylUZ]]
+
+__Density__
+
+[img[density_of_measure.jpg]]
+
+The density appears in the definition of the probability measure induced by any measure on a [[Probability space]] (it just equals the normalization constant).
+
+One can also define a notion of a measure $$\gamma$$ //being dense on another measure// $$\mu$$, in particular one can quantify this with a number $$\delta=\frac{\mathbb{E}_\sigma [\gamma]}{\mathbb{E}_\sigma [\mu]}$$, and call $$\gamma$$ //$$\delta$$-dense on $$\mu$$//. Here $$\sigma$$ is the "prior probability" that goes into the definition of the ambient probability space, often taken to be the uniform distribution. $$\mathbb{E}_\sigma [\gamma]$$ represents the "size" of {the region which $$gamma$$ indicates (in a fuzzy way, by putting weight)}, where the "size" is measured with the ambient $$\sigma$$ measure. The ratio $$\delta$$ is the ratio of the sizes.
+
+Another definition of density:
+
+[img[definition_of_density_1.jpg]]
+
+[img[definition_of_definity_2.jpg]]

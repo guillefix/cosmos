@@ -1,6 +1,6 @@
 created: 20160623193002413
 creator: guillefix
-modified: 20161104134328651
+modified: 20170516145412909
 modifier: cosmos
 tags: Genetics [[Systems biology]]
 title: Genotype-phenotype map
@@ -24,6 +24,9 @@ See [[MMathPhys oral presentation]]
 [img[http://vincentcastric.weebly.com/uploads/4/8/6/3/48639343/1427140115.png]]
 
 [[Genotype–phenotype mapping and the end of the ‘genes as blueprint’ metaphor|http://rstb.royalsocietypublishing.org/content/365/1540/557#sec-4]]
+
+
+[[Distribution of genotype network sizes in sequence-to-structure genotype–phenotype maps|http://rsif.royalsocietypublishing.org/content/14/129/20160976]]
 
 //Developmental encoding// or indirect encoding: you encode the instructions to //build// the system (by [[Morphogenesis]]), instead of the system itself (direct encoding). See [[Neuroevolution: Direct and Indirect Encoding of Networks|https://en.wikipedia.org/wiki/Neuroevolution#Direct_and_Indirect_Encoding_of_Networks]]. [[Comparing direct and developmental encoding schemes in artificial evolution|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.343.1539&rep=rep1&type=pdf]]
 

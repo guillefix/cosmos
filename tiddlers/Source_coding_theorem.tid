@@ -1,7 +1,8 @@
 created: 20160701124105842
 creator: guillefix
-modified: 20161104134332504
-modifier: guillefix
+modified: 20170628232852602
+modifier: cosmos
+tags: [[Data compression]]
 title: Source coding theorem
 tmap.id: a66012e1-74d5-4fa5-8ac8-de8fd5123985
 type: text/vnd.tiddlywiki
@@ -9,3 +10,15 @@ type: text/vnd.tiddlywiki
 The average length of a [[code|Coding theory]] is bounded below by the entropy of the random variable that models your data.
 
 See [[Data compression]]
+
+See [[this video|https://www.youtube.com/watch?v=HWsa_hZ7F3I]]
+
+!!__Coding theorem for i.i.d. sources__
+
+[img[iid_source_coding_theorem.jpg]]
+
+This is proved by constructing a code given by indexing the elements of the [[Typical set]] (for which we need $$\approx nH$$ bits, for length $$n$$ and entropy per letter $$H$$), and another indexing for the atypical set. See 3.23 on ElsofInfoTheory.
+
+If $$\epsilon = 1$$, then $$n=1$$ can be.
+
+An optimal code in this sense is the [[Huffman code]]

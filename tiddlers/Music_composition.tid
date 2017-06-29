@@ -1,9 +1,18 @@
 created: 20161122230034271
 creator: cosmos
-modified: 20161122230044344
+modified: 20170422092753579
 modifier: cosmos
+tags: Music
 title: Music composition
 tmap.id: 3f035d22-95e8-4711-81a6-b629548eff88
 type: text/vnd.tiddlywiki
 
 Master class by Hans Zimmer: https://www.masterclass.com/classes/hans-zimmer-teaches-film-scoring?utm_source=Paid&utm_medium=Facebook&utm_term=Aq-Prospecting&utm_content=Link&utm_campaign=HZ
+
+!!__Assisted music composition__
+
+[[NSynth|https://magenta.tensorflow.org/nsynth]]
+
+!!__Algorithmic music composition__
+
+http://tinyrave.com/

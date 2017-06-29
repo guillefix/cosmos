@@ -1,0 +1,19 @@
+created: 20170617154527388
+creator: cosmos
+modified: 20170619122832750
+modifier: cosmos
+tags: [[Differential geometry]]
+title: Exterior calculus
+tmap.id: de89d28b-758a-4dd3-8a5e-ea98112062cb
+type: text/vnd.tiddlywiki
+
+
+!!__Exterior algebra__
+
+!!![[Exterior form]]
+
+basically measure length, areas, volumes, hypervolumes of parallelipeds, which correspond to [[Multilinear operator]]s on sets of vectors. These operators themselves form [[Vector space]]s called the dual spaces to the original vector spaces. 
+
+!!![[Wedge product]]
+
+[[Hodge dual]]

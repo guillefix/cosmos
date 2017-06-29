@@ -1,0 +1,10 @@
+created: 20170624120301253
+creator: cosmos
+modified: 20170624120409155
+modifier: cosmos
+tags: Surface
+title: Nonorientable surface
+tmap.id: e9069837-1dfc-4eab-9968-916d3de4d80b
+type: text/vnd.tiddlywiki
+
+Surfaces for which one can ''not'' find a [[Unitary normal vector field]] (remember that a vector field is defined to be differentiable) globally. See [[video|https://www.youtube.com/watch?v=VELPA0I5MGg#t=26m50s]]

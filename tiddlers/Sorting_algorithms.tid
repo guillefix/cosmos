@@ -1,6 +1,6 @@
 created: 20160130233553336
 creator: guillefix
-modified: 20170315164702451
+modified: 20170429212909974
 modifier: cosmos
 tags: Algorithms
 title: Sorting algorithms
@@ -20,11 +20,17 @@ type: text/vnd.tiddlywiki
 
 !!__$$O(n\log{n})$$ sorts__
 
+!!![[nlogn is a lower bound for sorting|https://www.youtube.com/watch?v=hj8YKFTFKEE&index=3&list=PL6ED884C7AEE68027#t=27m45s]] nice proof using [[Decision tree]]s
+
 [[Merge sort]]
 
 [[Heap sort]]
 
 [[Quicksort]]
+
+[[Counting sort]], trying to make sort work on linear time. But need to assume something about the data. In particular, we assume that there's a finite number of values that can appear in the array.
+
+[[Bucket and radix sort extend this idea|https://www.youtube.com/watch?v=hj8YKFTFKEE&index=3&list=PL6ED884C7AEE68027#t=49m30s]]
 
 [[Bucket sort]]
 

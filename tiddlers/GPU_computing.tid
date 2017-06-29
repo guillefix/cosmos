@@ -1,13 +1,23 @@
 created: 20160403122109248
 creator: guillefix
-modified: 20170209161917390
+modified: 20170331113035982
 modifier: cosmos
 tags: [[Scientific computing]]
 title: GPU computing
 tmap.id: 237bae14-12d7-43cf-a52c-21fd1b7b05b3
 type: text/vnd.tiddlywiki
 
-Computing (like [[Scientific computing]]) which seizes the power of [[GPU]]s for [[parallel computation|Parallel computing]]
+Computing (like [[Scientific computing]]) which seizes the power of [[GPU]]s for [[parallel computation|Parallel computing]]. aka ''GPGPU'' (general purpose GPU programming)
+
+!!__GPU programming__
+
+!!![[CUDA]]
+
+[[Minimize time spent on memory|https://www.youtube.com/watch?time_continue=13&v=v-gSOY9-RgI]]
+
+[[Some GPU algorithms|https://www.youtube.com/watch?time_continue=10&v=Jo6RnEi6eHE]]
+
+!!__GPU hardware__
 
 See [[Computer hardware]] and [[Cloud computing]]
 
@@ -16,3 +26,5 @@ See [[Computer hardware]] and [[Cloud computing]]
 [[Installing the GPU version of TensorFlow for making use of your CUDA GPU|https://www.youtube.com/watch?v=io6Ajf5XkaM&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&index=52]] -- [[more details|https://pythonprogramming.net/how-to-cuda-gpu-tensorflow-deep-learning-tutorial/]]
 
 Useful for [[Data science]]/big data
+
+[[GPU hardware|https://www.youtube.com/watch?time_continue=6&v=3krWI5_RuFk]]

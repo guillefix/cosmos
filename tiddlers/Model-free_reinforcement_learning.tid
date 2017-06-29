@@ -1,0 +1,30 @@
+created: 20170517184816964
+creator: cosmos
+modified: 20170521153647942
+modifier: cosmos
+tags: [[Reinforcement learning]]
+title: Model-free reinforcement learning
+tmap.id: a67aceba-40c0-42e9-82cf-684060549394
+type: text/vnd.tiddlywiki
+
+See more at [[Reinforcement learning]]
+
+!!__Prediction__
+
+[[comparing approaches|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h7m]]
+
+Evaluation the value function given a policy
+
+[[Introduction, monte carlo model-free prediction|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT]], just [[sample|Monte Carlo]] over runs of the MDP+policy, and average empirical returns (discounted sum of rewards).
+
+[[Incremental|Incremental average]] [[Monte Carlo update|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=29m5s]]
+
+[[Simple example comparing monte carlo vs TD0|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=59m]] (see [[Temporal difference learning]])
+
+!!__Control__
+
+[[intro video|https://www.youtube.com/watch?v=0g4j2k_Ggc4&index=5&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT]]!
+
+---------------------
+
+[[Curiosity]] -- [[Curiosity-driven Exploration by Self-supervised Prediction|https://pathak22.github.io/noreward-rl/]], see work by Schmidhuber

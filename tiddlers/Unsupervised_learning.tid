@@ -1,6 +1,6 @@
 created: 20160329153405246
 creator: guillefix
-modified: 20170219012918575
+modified: 20170402233736287
 modifier: cosmos
 tags: [[Machine learning]]
 title: Unsupervised learning
@@ -53,6 +53,8 @@ Often refers to non-parametric generative models.
 !!!__[[Factor analysis model]]__
 
 !!!__[[Principal component analysis]]__
+
+Generalizations: [[Topological data analysis]]/[[Manifold learning]]. [[When data lies approximately on an algebraic manifold|https://www.youtube.com/watch?v=ECpMEAWI_tk&list=PLgKuh-lKre13UNV4ztsWUXciUZ7x_ZDHz&index=2#t=16m30s]]
 
 !!__Discovering graph structure__
 

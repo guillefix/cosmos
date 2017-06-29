@@ -1,6 +1,6 @@
 created: 20160807224959210
 creator: cosmos
-modified: 20161107205525440
+modified: 20170413101459329
 modifier: cosmos
 tags: [[Convex analysis]]
 title: Convex function
@@ -23,7 +23,7 @@ __Equivalent conditions for differentiable functions__
 
 *Once-differentiable. Tangent is lower bound. $$g(y) + \nabla g(y)^T (x-y) \leq g(x)$$.
 
-*If the function is twice [[Differentiable]], then it is convex iff $$f'' \geq 0$$. For multivariate, [[Hessian]] has to be positive semi-definite
+*If the function is twice [[Differentiable]], then it is convex iff $$f'' \geq 0$$. For multivariate, [[Hessian]] has to be positive semi-definite. This can be proved as shown in page 26 of Elements of info theory by Cover and Thomas. [[Needs the Cauchy form of|http://math.stackexchange.com/questions/219577/mean-value-theorem-for-the-second-derivative]] [[Taylor's theorem]]
 
 __Relations to [[Convex set]]s__
 

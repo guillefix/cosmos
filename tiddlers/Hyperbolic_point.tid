@@ -1,0 +1,11 @@
+created: 20170624131303488
+creator: cosmos
+modified: 20170624135554505
+modifier: cosmos
+title: Hyperbolic point
+tmap.id: 6e1a5f81-bb49-4c4c-b40d-c43341b48d48
+type: text/vnd.tiddlywiki
+
+A point on a [[Surface]] with negative [[Gaussian curvature]].
+
+for hyperbolic points, the level curves are locally [[Hyperbola]]s

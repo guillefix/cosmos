@@ -1,9 +1,15 @@
 created: 20170312012007532
 creator: cosmos
-modified: 20170312012026490
+modified: 20170513001832293
 modifier: cosmos
 title: Chaos
 tmap.id: dbc083a8-1086-4b66-80db-fcf44f26f791
 type: text/vnd.tiddlywiki
 
 dissorderly existence, as opposed to [[Cosmos]]
+
+See [[Chaos theory]]
+
+[[Quantum Reality, Complex Numbers and the Meteorological Butterfly Effect|https://arxiv.org/pdf/quant-ph/0404041.pdf]]
+
+There are cases (which can be interpreted as extreme ill-posedness / non-uniqueness), where an arbitrarily small error, produces unpredictability at a //finite// time horizon. This happens for instance for [[Turbulence]]

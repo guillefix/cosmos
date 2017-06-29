@@ -1,7 +1,7 @@
 created: 20160701024258791
 creator: guillefix
-modified: 20161104134328197
-modifier: guillefix
+modified: 20170416094159771
+modifier: cosmos
 title: Entropy rate
 tmap.id: dab00cd9-3d81-440c-ae01-1a80d8295331
 type: text/vnd.tiddlywiki
@@ -19,3 +19,11 @@ when the limit exits (see also Shannon-McMillan-Breiman theorem).
 One can define a related measure, $$H_X$$, by using conditional entropies. It can be shown that, for an stationary [[Information source]], the entropy rate exists and is equal to $$H_X$$.
 
 [img[http://i.imgur.com/EdV8plQ.png]]
+
+https://www.wikiwand.com/en/Entropy_rate
+
+[[Entropy rate of a finite state process]]
+
+!!!__Relations with [[Kolmogorov complexity]]__
+
+[[A note on Kolmogorov complexity and entropy|http://www.sciencedirect.com/science/article/pii/S0893965903901054]], for stationary ergodic sources. See also Elements of Information theory by Thomas and Clover

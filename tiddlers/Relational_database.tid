@@ -1,0 +1,14 @@
+created: 20170403095601992
+creator: cosmos
+modified: 20170403100545842
+modifier: cosmos
+tags: Database
+title: Relational database
+tmap.id: 9c844366-6ef6-4bfe-b683-aa73feaccb80
+type: text/vnd.tiddlywiki
+
+Uses [[Relation]]s between data. They are represented as tables.
+
+First normal form: single values shouldn't contain multiple values of same type...
+
+Second normal form: ...

@@ -1,6 +1,6 @@
 created: 20160628022723876
 creator: guillefix
-modified: 20170110105038844
+modified: 20170420143610927
 modifier: cosmos
 tags: [[Markov process]]
 title: Markov chain
@@ -17,6 +17,8 @@ Can have:
 * [[Continuous-time Markov chain]]
 
 [[Definition of Markov Chain|https://www.youtube.com/watch?v=bPqg0G1-k1U&index=5&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft]]
+
+[ext[Random walk on directed graph|http://www.math.ucsd.edu/~fan/teach/262/notes/paul/10_19_notes.pdf]]
 
 [[Ergodic theorem for Markov chains|https://www.youtube.com/watch?v=ZjrJpkD3o1w]]
 

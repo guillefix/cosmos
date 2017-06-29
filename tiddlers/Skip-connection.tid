@@ -1,6 +1,6 @@
 created: 20170325142535032
 creator: cosmos
-modified: 20170328142053734
+modified: 20170330165616195
 modifier: cosmos
 tags: [[Artificial neural network]]
 title: Skip-connection
@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 
 
 Found in [[Residual neural network]]s, and [[Highway network]]s.
+
+See connections to [[Spiking neural network]]s [[here|https://gingkoapp.com/app#7887cb3f9b23d73d7600001f]]. See also [[Time-delay neural network]]
 
 
 [[Skip connections|https://www.youtube.com/watch?v=x1kf4Zojtb0#t=16m52.5s]]

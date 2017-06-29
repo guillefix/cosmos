@@ -1,7 +1,7 @@
 created: 20160713223337267
 creator: guillefix
-modified: 20161104134332890
-modifier: guillefix
+modified: 20170628190846717
+modifier: cosmos
 tags: Topology
 title: Topological space
 tmap.id: 36074b07-a48f-454d-a30a-07760880488e
@@ -13,15 +13,20 @@ A ''topological space'' is a [[Set]] $$X$$, with a collection of distinguished [
 *  the intersection of any finite collection of open sets is open;
 *  The empty set $$\emptyset$$ and the whole set, $$X$$ itself are both open.
 
+//see [[definition of a topology|https://www.youtube.com/watch?v=PXIcas22MtQ&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=6m8s]]//. We can define a [[Basis of a topology]] that //generates// the topology in the same way that [[Open ball]] generate the [[Standard topology]]. [[most often we start with a basis and construct the topology|https://www.youtube.com/watch?v=PXIcas22MtQ&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h16m10s]]
+
 An equivalent definition is that a topological space is a [[Neighbourhood space]] $$(X, \mathcal{N})$$ in which, for all $$x \in X$$ and for all $$N \in  \mathcal{N}(x)$$, there exists $$N_1 \in  \mathcal{N}(x)$$ such that, for all $$y \in N_1, N \in  \mathcal{N}(y)$$.
 
-It can also be shown that: A neighbourhood space $$(X, \mathcal{N})$$ is a topological space if and only if each [[Filter|Filter (Topology)]] $$\mathcal{N}(x)$$ has a [[Filter base]] consisting of [[Open set]]s.
+It can also be shown that: A neighbourhood space $$(X, \mathcal{N})$$ is a topological space if and only if each [[filter|Filter on a set]] $$\mathcal{N}(x)$$ has a [[Filter base]] consisting of [[Open set]]s.
 
 Remark: for family $$C$$ of subsets of a set $$X$$, there exists a unique 'smallest' topology on $$X$$ for which $$C$$ is a [[subbase|Filter subbase]]: namely that topology whose open sets are defined to be all arbitrary unions of the collection of all finite intersections of elements of $$C$$.
 
-!!!__Connections with lattices__
+!!!__Connections with lattices (//comparing topologies//)__
 
-The set of open sets in a topology forms a [[lattice|Lattice (algebraic structure)]], where the partial ordering is set inclusion. Also the set of topologies on a set $$X$$ can also be equipped with a natural lattice structure.
+The set of open sets in a topology forms a [[lattice|Lattice (algebraic structure)]], where the partial ordering is set inclusion (//[[we say that one topology is finer than another|https://www.youtube.com/watch?v=PXIcas22MtQ&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=16m13s]] or the latter is coarser than the former//).
+
+Also the set of topologies on a set $$X$$ can also be equipped with a natural lattice structure.
+
 
 !!!__Analytical properties__
 
@@ -37,6 +42,8 @@ These are approached using //neighbourhoods// of a point, which are just open se
 [[Product topology]]
 
 [[Discrete topology]]
+
+[[some examples|https://www.youtube.com/watch?v=PXIcas22MtQ&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=13m30s]]. Indiscrete topology (empty and whole set), discrete topology (all subsets of the set ([[Power set]])), [[finite complement topology|https://www.youtube.com/watch?v=PXIcas22MtQ&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=19m30s]]
 
 !!!__Related spaces__
 

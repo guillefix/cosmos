@@ -1,0 +1,14 @@
+created: 20170507181634796
+creator: cosmos
+modified: 20170507181922221
+modifier: cosmos
+tags: 
+title: Learning by enumeration
+tmap.id: b02d363d-9303-49ac-9d49-f510a502f720
+type: text/vnd.tiddlywiki
+
+See page 363 on Li&Vitanyi kolmogorov compleixty book
+
+starting with the f k ’s ordered by decreasing probability according to P (H k ) = 1/k(k + 1), as the list f 1 , f 2 , . . . . Similar to the classical Gold method, after receiv- ing each new example we eliminate all remaining f k ’s that are inconsis- tent from the beginning onward up to the position of the first consistent function. When we receive a new example e, set D := D, e, and repeat this process. Eventually, the remaining first function in the enumeration is a copy of f and it does not change any more. This algorithm is called learning by enumeration. One learns more and more about the unknown target function and approximates it until the correct identification has been achieved. This learning model is called learning in the limit. The learner eventually learns the concept exactly but never knows when that has happened. This deceptively simple idea has generated a large body of sophisticated literature.
+
+One can use the universal prior (see [[Universal inductive inference]]), as the prior over hypotheses in this case.

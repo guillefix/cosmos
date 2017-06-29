@@ -1,14 +1,19 @@
 created: 20160705104457224
 creator: guillefix
-modified: 20161104134327827
+modified: 20170413111008417
 modifier: cosmos
+tags: [[Information theory]] [[Statistical inference]]
 title: Data processing theorem
 tmap.id: 7e68e5d2-dcb3-4511-9ba3-3d633e05ce5d
 type: text/vnd.tiddlywiki
 
 //aka data processing inequality//
 
-[[Data processing theorem|https://www.youtube.com/watch?v=tIt4pJAbCDQ&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft&index=13#t=9m30s]]
+> No clever manipulation of the data can improve the inferences that can be made from the data (unless the manipulation includes extra information about what you want to infer...
+
+[[Data processing theorem|https://www.youtube.com/watch?v=tIt4pJAbCDQ&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft&index=13#t=9m30s]]#
+
+Given a [[Markov chain]] $$X \rightarrow Y \rightarrow Z$$, then $$I(X;Y) \geq I(X;Z)$$
 
 An important special case:
 

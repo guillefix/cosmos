@@ -1,7 +1,7 @@
 created: 20160329130824070
 creator: guillefix
 list-after: Abstract algebra
-modified: 20170203110018212
+modified: 20170625174439652
 modifier: cosmos
 tags: Logic Mathematics [[Theoretical computer science]]
 title: Mathematical logic
@@ -13,6 +13,8 @@ type: text/vnd.tiddlywiki
 Mathematical logic is an essential part (if not //the// essential part) of the ''foundations of mathematics''
 
 See [[Discrete mathematics]], [[Theoretical computer science]], [[Logic]]..
+
+http://us.metamath.org/index.html
 
 //Video lectures//:
 

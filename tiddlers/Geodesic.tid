@@ -1,10 +1,46 @@
 created: 20161217185059798
 creator: cosmos
-modified: 20161217185228157
+modified: 20170628183701223
 modifier: cosmos
 tags: [[Differential geometry]]
 title: Geodesic
 tmap.id: 879bdbdc-8fd5-4fa6-900c-24bfa51eee8a
 type: text/vnd.tiddlywiki
 
-//Shortest path// (computed using the [[Metric tensor]]
+//Shortest path// (computed using the [[Metric tensor]]). [[wiki|https://www.wikiwand.com/en/Geodesic]]
+
+Solve using [[Calculus of variations]]:
+
+#[[Definition of a family of smooth curves|https://www.youtube.com/watch?v=j4fLmI0MlnU#t=33m40s]]
+
+The [[Euler–Lagrange equations]] of motion for the functional E are then given in local coordinates by
+
+[img[https://wikimedia.org/api/rest_v1/media/math/render/svg/a18d97f24fcf5cc3e95f49644e096b9742dd2aa0]]
+
+[[see equations here|https://www.youtube.com/watch?v=j4fLmI0MlnU#t=1h3m45s]] for a 2D [[Surface]]
+
+[[intro|https://www.youtube.com/watch?v=Mcal5Cy7r4E&t=28m]]
+
+can compute wavefront using [[Eikonal equation]]
+
+[[A curve is a geodesic iff its acceleration is normal to the surface S at every point|https://www.youtube.com/watch?v=j4fLmI0MlnU#t=1h4m]], that is its velocity doesn't change in the tangent plane, at every point! (it's locally straight when projected to the surface).
+
+> You can think of geodesics as the trajectories that a little frictionless ball would follow in a "hollow" surface, where the only forces acting on it are the [[Normal force]]s due to the walls of the hollow surface
+
+---------------------
+
+!!![[Video|https://www.youtube.com/watch?v=j4fLmI0MlnU#t=27m45s]]
+
+[[Geodesics are preserved|https://www.youtube.com/watch?v=j4fLmI0MlnU#t=1h2m30s]] under [[Isometry]]es
+
+[[Solution to geodesic given point and tangent vector exists and is unique|https://www.youtube.com/watch?v=7AgvKLtcijQ#t=3m45s]], [[at least locally|https://www.youtube.com/watch?v=7AgvKLtcijQ#t=14m]], and it also depends smoothly on these initial conditions.
+
+__Examples__
+
+[[Geodesics on the plane|https://www.youtube.com/watch?v=7AgvKLtcijQ#t=12m6s]], are [[Line]]s
+
+[[Geodesics on |https://www.youtube.com/watch?v=7AgvKLtcijQ#t=16m30s]][[Surface of revolution]]s. [[Meridian]]s [[are geodesics|https://www.youtube.com/watch?v=7AgvKLtcijQ#t=27m6s]]. [[Parallel (surface of revolution)]] [[are geodesics when they intersect a meridian at a critical point (vertically)|https://www.youtube.com/watch?v=7AgvKLtcijQ#t=33m55s]]
+
+[[Geodesics on the |https://www.youtube.com/watch?v=7AgvKLtcijQ#t=42m33s]][[Sphere]] are [[Maximal circle]]s
+
+__[[Geodesic coordinates]]__

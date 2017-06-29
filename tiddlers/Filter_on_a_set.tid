@@ -1,0 +1,19 @@
+created: 20160714000416049
+creator: guillefix
+modified: 20170628112526612
+modifier: cosmos
+title: Filter on a set
+tmap.id: 170a4b5d-e62a-4d23-83b4-c7af92ea063e
+type: text/vnd.tiddlywiki
+
+A ''filter'' $$\mathcal{F}$$ on $$X$$ is a family of subsets of $$X$$ such that:
+
+(a) $$\emptyset \notin \mathcal{F}$$;
+
+(b) $$\mathcal{F}$$ is algebraically closed under finite intersections;
+
+(c) $$\mathcal{F}$$ is an upper family.
+
+An //upper family// refers to a family of subsets, which is an [[Upper set]] w.r.t. the [[Lattice of subsets]] of $$X$$, that is if a set is in the family, then any subset of that set is also in the family.
+
+See also [[Filter base]]

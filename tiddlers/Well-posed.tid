@@ -1,0 +1,16 @@
+created: 20170426231933442
+creator: cosmos
+modified: 20170426232732579
+modifier: cosmos
+tags: 
+title: Well-posed
+tmap.id: 2ef65edc-0668-48fa-bc80-cb30f7be901e
+type: text/vnd.tiddlywiki
+
+[[Definition of well-posedness|https://www.youtube.com/watch?v=6AWZS4Ho2Z8&list=PLyGKBDfnk-iDj3FBd0Avr_dLbrU8VG73O#t=23m30s]].
+
+Typically, [[Inverse problem]]s are not well-posed.
+
+Hadamard
+
+General approach to ill-posed problems, is [[Regularization]]

@@ -1,0 +1,12 @@
+created: 20170624120657633
+creator: cosmos
+modified: 20170624120717216
+modifier: cosmos
+tags: Surface
+title: Regular surface
+tmap.id: ce5c6c49-6386-4a9a-ad62-e34dc0a91c4f
+type: text/vnd.tiddlywiki
+
+[[Mathematical definition of a regular surface|https://www.youtube.com/watch?v=AFSL-wGNRFM#t=5m55s]] as a subset from R^3 where every point lies on an open subset with a [[Coordinate chart]] 
+
+See more at [[Surface]]

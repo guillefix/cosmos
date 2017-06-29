@@ -1,0 +1,20 @@
+created: 20170624122653180
+creator: cosmos
+modified: 20170624131126471
+modifier: cosmos
+tags: [[Exterior form]]
+title: Second fundamental form
+tmap.id: 7a3ecd4d-b33e-4ee3-a9ad-bb36e5bd0b4c
+type: text/vnd.tiddlywiki
+
+[[video|https://www.youtube.com/watch?v=VELPA0I5MGg#t=1h3m30s]]
+
+$$II_p(v,w) = -<dN_p(v), w>$$, where $$dN_p$$ is the [[Differential of the Gauss map]] (see [[Curvature]]).
+
+|[[Relation to|https://www.youtube.com/watch?v=N569p-maOvM#t=33m50s]] the [[Principal curvature]]s --> [[Euler's formula]]|
+
+--------------
+
+Geometric meaning of the [[Second fundamental form]].  One can define the [[Normal curvature]] of a curve, defined as $$k_n = k <n,N>$$, where $$k$$ is the [[curvature of the curve|Curvature of a curve]], $$n$$ is the normal vector of the curve, and $$N$$ is the normal vector of the surface. 
+
+It turns out that $$II_p (v,v) \equiv II_p (v) = k_n(p)$$ , for any curve with tangent $$v$$ at point $$p$$. This is known as [[Euler's theorem]]

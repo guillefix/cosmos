@@ -1,6 +1,6 @@
 created: 20160914085745536
 creator: cosmos
-modified: 20170325150225940
+modified: 20170516120502731
 modifier: cosmos
 tags: [[Statistical inference]]
 title: Model selection
@@ -33,6 +33,14 @@ Check distribution of extreme values
 
 
 !!__[[Feature selection]]__
+
+!!__[[Structural risk minimization]]__
+
+----------------------
+
+A lot of these methods are very much related to [[Regularization]] methods, as both try to make our model better. Often we want the model to be better at generalizing, and this is done by reducing model complexity.
+
+Using cross-validation for regularization can be done using [[Early stopping]] using the validation set
 
 
 ----------

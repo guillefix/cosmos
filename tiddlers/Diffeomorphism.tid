@@ -1,0 +1,10 @@
+created: 20170608224200712
+creator: cosmos
+modified: 20170627164644773
+modifier: cosmos
+tags: [[Differential geometry]] Homeomorphism
+title: Diffeomorphism
+tmap.id: 4b6dfc8a-cee8-4fdb-bc79-c6a2ae5d94db
+type: text/vnd.tiddlywiki
+
+[[definition|https://www.youtube.com/watch?v=tKnBj7B2PSg#t=1h17m]]. A [[Homeomorphism]] that is also differentiable both ways, so that it preserves the [[Differentiable structure]].

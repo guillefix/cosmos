@@ -1,17 +1,39 @@
 created: 20160403114756593
 creator: guillefix
-modified: 20161104134327586
-modifier: guillefix
+modified: 20170330215601441
+modifier: cosmos
 tags: [[Computer Science and IT]]
 title: Computer hardware
 tmap.id: 0d7e5729-6281-490f-b520-02c08f34a192
 type: text/vnd.tiddlywiki
 
-!!!__GPUs__
+!!!__Motherboard__
+
+[[What is the best choice for a motherboard? - The Final Answer|https://www.youtube.com/watch?v=cx8rS9_vNDo]]
+
+!!!__[[Power supply unit]]__
+
+>500W to have 1 good dedicated [[GPU]]
+
+!!!__[[Hard drive|Hard disk drive]]__
+
+Solid state (SSD) for OS, programs, etc.
+
+
+!!!__[[RAM]]__
+
+DDR4
+
+!!!__[[Processor]]__
+
+[[Intel]] i7. 7th gen now... How many cores/clock speed?
+
+!!!__[[GPU]]s__
 
 For [[Deep learning]] for example
 
-Best GeForce GPU: [[GeForce Titan X|http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-titan-x]]. Titan Z coming soon
+Best GeForce GPU: [[GeForce Titan X|http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-titan-x]]. Titan Z coming soon.
+Now the [[Nvidia GTX 1080Ti]].
 
 [[More CUDA GPUs|https://developer.nvidia.com/cuda-gpus]]
 

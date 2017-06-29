@@ -1,7 +1,8 @@
 created: 20160821172543329
 creator: cosmos
-modified: 20161104134328291
+modified: 20170625112222188
 modifier: cosmos
+tags: [[Artificial intelligence]]
 title: Explainable artificial intelligence
 tmap.id: 2a5e1cc6-9f3c-4dcc-afed-c888fd6fed20
 type: text/vnd.tiddlywiki
@@ -12,4 +13,16 @@ See also [[Integrating symbols into deep learning]] for some discussion and idea
 
 DARPA is starting a projecg for this: [ext[article|http://www.darpa.mil/program/explainable-artificial-intelligence]]
 
+[[Cognitive Machine Learning (1): Learning to Explain|http://blog.shakirm.com/2017/02/cognitive-machine-learning-1-learning-to-explain/]]
+
 [img[http://www.darpa.mil/ddm_gallery/xai-flowchart-inline-2.png]]
+
+----------------
+
+Any sufficiently complex solution becomes incomprehensible to a fixed type of intelligence.
+Any sufficiently complex problem requires a solution complex enough that is incomprehensible.
+
+Maybe, regarding neural networks/deep learning for AI, we either:
+* Decide we aren't gonna tackle the most difficult problems (not gonna happen)
+* Give up on needing to understand our solutions to problems (extreme pragmatism)
+* Become more intelligent to have some chance to understand the solutions, though there will always be things beyond our grasp. (neuralink/transhuman approach)

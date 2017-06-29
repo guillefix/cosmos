@@ -1,0 +1,13 @@
+created: 20170624124553547
+creator: cosmos
+modified: 20170624124851202
+modifier: cosmos
+tags: Surface
+title: Plane (surface)
+tmap.id: 82ad6081-25ac-4976-9147-c568866ec1a8
+type: text/vnd.tiddlywiki
+
+
+All points whose position vector has a given scalar product with a fixed vector, called the ''normal vector''. If the normal vector has unit norm, then this scalar product is just the projection along this normal direction, which is constant, and the value of this projection equals the distance to the origin (defined as the perpendicular distance from a plane to a point).
+
+Geometrically, it's all the points found by starting at a given point and adding a vector perpendicular to the position vector of this point

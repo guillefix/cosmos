@@ -1,0 +1,11 @@
+created: 20170624125715881
+creator: cosmos
+modified: 20170624125850772
+modifier: cosmos
+title: Curvature of a curve
+tmap.id: 66f54c5c-0488-44a8-827f-323e9b889416
+type: text/vnd.tiddlywiki
+
+The derivative of the [[Tangent vector]] $$T$$ is orthogonal to the tangent vector. The norm of this vector $$k=|T'|$$ is the ''curvature''
+
+See [[Frenet trihedron]]

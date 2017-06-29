@@ -1,7 +1,7 @@
 created: 20160714013743791
 creator: guillefix
-modified: 20161104134332361
-modifier: guillefix
+modified: 20170507180017563
+modifier: cosmos
 tags: [[Information theory]]
 title: Sequence space
 tmap.id: 9562576a-a909-4fbe-b353-e21cdf67bee2
@@ -34,6 +34,8 @@ Then, it turns out that <b style="color:#aea;">we can define a unique measure on
 This measure is simply constructed by using the [[Measure]] additivity axiom of countable unions of disjoint (non-overlapping) sets (here applied of finite unions, as it is an algebra), and use some [[properties of open cylinders under intersections|https://www.youtube.com/watch?v=7Sd3mHXv31I#t=7m46s]], which convert other arbitrary unions of open cylinders to unions of disjoint sets. This is proved from the property in the [[following lemma|https://www.youtube.com/watch?v=7Sd3mHXv31I#t=9m50s]] as well as [[the next lemma|https://www.youtube.com/watch?v=7Sd3mHXv31I#t=14m30s]]. This latter lemma uses $$\mu([\sigma]) = \mu([\sigma0])+\mu([\sigma1])$$, which of course follows from the additivity property of measures.
 
 You also require some normalization condition, like $$\mu([\epsilon]) = 1$$ where $$\epsilon$$ is the empty string, and thus $$[\epsilon]$$ is the set of all sequences that begin with the empty string, i.e. the full set.
+
+One can also define a [[Semimeasure]] on the sequence space
 
 -----------------
 

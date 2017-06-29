@@ -1,0 +1,13 @@
+created: 20170617120912673
+creator: cosmos
+modified: 20170617123303318
+modifier: cosmos
+tags: [[Differential geometry]]
+title: Tangent space
+tmap.id: c2509c5b-4a23-4edb-91d5-21119e6c3633
+type: text/vnd.tiddlywiki
+
+
+[[Tangent space for a surface|https://www.youtube.com/watch?v=pNYAnXegp38#t=43m45s]]. He shows why the tangent space ($$T_p S$$) is a vector space at every point. 
+
+{Tangent space for {a surface defined as a level set of a function}} is equal to {the kernel of the [[Differential]] at each point of the surface} (note that the differential is a [[Linear map]], and the kernel is the subspace which the map maps to 0). [[vid|https://www.youtube.com/watch?v=pNYAnXegp38#t=1h7m40s]]

@@ -1,0 +1,16 @@
+created: 20170628232709124
+creator: cosmos
+modified: 20170628233219730
+modifier: cosmos
+tags: 
+title: Shannon-Fano code
+tmap.id: 00ae9732-4fee-4200-b094-76ad8f5f504d
+type: text/vnd.tiddlywiki
+
+It is close to optimal for data compression (see [[Source coding theorem]]), but it isn't optimal.
+
+[img[shannon_fano_code.png]]
+
+--------------
+
+See [[Shannon-Fano-Elias code and simplicity bias in GP maps]]

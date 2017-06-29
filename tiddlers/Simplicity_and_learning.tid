@@ -1,6 +1,6 @@
 created: 20160913070651215
 creator: cosmos
-modified: 20161104134332393
+modified: 20170507182331705
 modifier: cosmos
 tags: Simplicity Learning
 title: Simplicity and learning
@@ -38,3 +38,9 @@ Whenever the Hamiltonian obeys some symmetry (is in-variant under some transform
 -------------
 
 [[deep learning|https://www.youtube.com/watch?v=oOB4evKlEmQ#t=35m]]
+
+"If f is a truly random function then
+it is highly unlikely that anyone will ever conceive of its existence and
+would want to learn it." ~ Li&Vitanyi's book
+
+See also comments in [[this paper|https://arxiv.org/pdf/1611.00740.pdf]]

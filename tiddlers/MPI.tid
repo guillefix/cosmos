@@ -1,0 +1,40 @@
+created: 20170404100753658
+creator: cosmos
+modified: 20170404111238652
+modifier: cosmos
+title: MPI
+tmap.id: afb48b87-7f05-4079-8223-d3ec459e5425
+type: text/vnd.tiddlywiki
+
+Message programming interface
+
+Distributed memory [[Parallel programming]]
+
+Multiple processes
+
+``MPI_Init()``
+
+``MPI_Comm_rank()``
+
+``MPI_Finalize()``
+
+MPI_Comm_size
+reports the size of the group of 
+processes associated with the specified ''communicator'' (a group of processes which communicate with each other).
+
+``MPI_Send`` <--> ``MPI_Recv``
+
+!!!Deadlocks
+
+*When a process makes a call to MPI_Recv , it will wait patiently until a matching send is posted.
+
+*Similarly you must assume that when a process makes a call to MPI_Send it will wait until a matching recv is posted
+
+!!!Reduces
+
+http://mpitutorial.com/tutorials/mpi-reduce-and-allreduce/
+
+``MPI_Reduce``
+
+``MPI_Allreduce``, MPI_Allreduce(const void *sendbuf, void *recvbuf, int count,
+                  MPI_Datatype datatype, MPI_Op op, MPI_Comm comm)

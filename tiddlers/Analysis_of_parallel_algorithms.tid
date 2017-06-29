@@ -1,0 +1,18 @@
+created: 20170331115350421
+creator: cosmos
+modified: 20170404090044079
+modifier: cosmos
+tags: [[Analysis of algorithms]] [[Parallel computing]]
+title: Analysis of parallel algorithms
+tmap.id: 4b22985c-2fcd-4eb5-9c61-7f451d52cd8f
+type: text/vnd.tiddlywiki
+
+
+
+[[Brent's theorem]]
+
+[[parallelizing reduce|https://www.youtube.com/watch?time_continue=24&v=prLb1MbAm8M]] for binary/associative operators
+
+[[parallelizing scan|https://www.youtube.com/watch?time_continue=142&v=HfXkXUDlBqI]]
+
+[[Amdahl's law]] states that in parallelization, if P is the proportion of a system or program that can be made parallel, and 1-P is the proportion that remains serial, then the maximum speedup that can be achieved using N number of processors is 1/((1-P)+(P/N).

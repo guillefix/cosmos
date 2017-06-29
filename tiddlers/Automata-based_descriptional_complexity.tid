@@ -1,6 +1,6 @@
 created: 20160629171605406
 creator: guillefix
-modified: 20170315214020260
+modified: 20170503121102783
 modifier: cosmos
 title: Automata-based descriptional complexity
 tmap.id: b191e348-cb23-4491-a9b9-230a0d821323
@@ -11,6 +11,8 @@ A computable class of [[Descriptional complexity]] measures, based on [[automata
 !!__Automatic complexity__
 
 [[Automatic complexity of strings|https://cs.uwaterloo.ca/~shallit/Papers/auto5.pdf]] smallest number of states of a DFA (deterministic finite automaton) that acceptsxand does not accept any other string of length |x|. Note that a DFA recognizing the singleton language {x} always needs |x|+1 states, which is the reason the definition considers only strings of length |x|. 
+
+[[Automatic Kolmogorov complexity and normality revisited|https://arxiv.org/pdf/1701.09060.pdf]]
 
 !!__Automaticity__
 

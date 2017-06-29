@@ -1,0 +1,12 @@
+created: 20170624125939574
+creator: cosmos
+modified: 20170624125948555
+modifier: cosmos
+tags: Curve
+title: Torsion of a curve
+tmap.id: 4d836605-5edd-48a5-adbc-46345b58500c
+type: text/vnd.tiddlywiki
+
+To complete the basis we introduce the ''binormal vector'' $$B=T \times N$$. The magnitude of the derivative of the binormial vector defines the ''torsion'' 
+
+See [[Frenet trihedron]]

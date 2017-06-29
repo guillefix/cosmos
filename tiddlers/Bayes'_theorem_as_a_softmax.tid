@@ -1,0 +1,24 @@
+created: 20170430130538961
+creator: cosmos
+modified: 20170430130658495
+modifier: cosmos
+title: Bayes' theorem as a softmax
+tmap.id: 00c77094-20b7-4b5d-b3af-285001f570d8
+type: text/vnd.tiddlywiki
+
+See [[Neural network theory]]
+
+
+As in [[Generative learning]], we can relate $$p(x|y)$$ to $$p(y|x)$$, using [[Baye's theorem]]
+
+[img[Selection_608.png]]
+
+Baye's theorem can be put into the form of a [[Boltzmann distribution]], by defining the "self-information" or "surprisal", or //Hamiltonian//, in the context of [[Statistical physics]]
+
+|[img[Selection_609.png]]|[img width=350 [Selection_610.png]]|
+
+This on turn, can be succinctly written using the [[Softmax]] nonlinear opeartor $$\mathbf{\sigma}$$ as
+
+$$\mathbf{p}(\mathbf{y})= \mathbf{\sigma} [ -\mathbf{H}(\mathbf{y})-\mathbf{\mu}]$$
+
+That means that if we compute the Hamiltonian (which depends on the generating process encoded on the conditional probability distribution $$p(y|x)$$), we can add a softmax layer to compute the Bayes a-posteriori probability distribution. The a-priori distribution $$p(x)$$ goes into $$\mu$$, which is the bias term of the final layer.

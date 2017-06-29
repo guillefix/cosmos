@@ -1,6 +1,6 @@
 created: 20161022121529399
 creator: cosmos
-modified: 20161104134327262
+modified: 20170508175313673
 modifier: cosmos
 tags: Inference
 title: Causality
@@ -8,3 +8,15 @@ tmap.id: 6ccc841b-9601-4ed1-992a-17beee770a76
 type: text/vnd.tiddlywiki
 
 Cause --> Effect
+
+[[Bayesian network]]s
+
+[[Causal inference]]
+
+[[Judea Pearl|https://www.wikiwand.com/en/Judea_Pearl]]
+
+[[Causality: Models, Reasoning, and Inference|http://www.goodreads.com/book/show/174276.Causality]]
+
+http://bayes.cs.ucla.edu/PRIMER/
+
+[[[Коллоквиум]: Causal inference and Kolmogorov complexity|https://www.youtube.com/watch?v=uzDUc8xmYYY]]

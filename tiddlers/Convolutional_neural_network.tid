@@ -1,6 +1,6 @@
 created: 20160328184231393
 creator: guillefix
-modified: 20170325144106101
+modified: 20170506234112451
 modifier: cosmos
 tags: [[Artificial neural network]]
 title: Convolutional neural network
@@ -24,6 +24,8 @@ http://cs231n.stanford.edu/syllabus.html
 [img[http://deeplearning.net/tutorial/_images/mylenet.png]]
 
 ''Convolution''
+
+[[Convolutional arithmetic|https://github.com/vdumoulin/conv_arithmetic]] -- [[more explanation here|http://deeplearning.net/software/theano/tutorial/conv_arithmetic.html#transposed-convolution-arithmetic]] (includes deconv nets)
 
 In The "c1 feature maps" are a set of 2D arrays of neurons. Each array looks for a feature, and a point in the array would represent the location of that feature. To accomplish this, that point of that array is connected to a set of pixels centered in the corresponding point in the input image (an array of pixels). We have much less parameters because for each of these 2D arrays we only specify the parameters for one of the neruons in that array, all other neurons are identical, just connected to displaced sets of pixels.
 

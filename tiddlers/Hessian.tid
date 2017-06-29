@@ -1,6 +1,6 @@
 created: 20161107142231308
 creator: cosmos
-modified: 20161107142954823
+modified: 20170624135114977
 modifier: cosmos
 tags: [[Multivariate calculus]]
 title: Hessian
@@ -17,3 +17,7 @@ $$ H[f](\vec{x}) = \begin{bmatrix}
     . & & . \\
     \frac{\partial^2 f}{\partial x_n \partial x_1}  & \cdots &\frac{\partial^2 f}{\partial x_n ^2}
 \end{bmatrix}$$
+
+!!__Definition of Hessian of a function on a [[Surface]]__
+
+[[video|https://www.youtube.com/watch?v=9VH0H2Ig6Yg#t=32m]], defined at a critical point of the function $$f$$, which turns out when represented as a matrix in the canonical basis equals the standard defintion above

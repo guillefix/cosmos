@@ -1,0 +1,10 @@
+created: 20170421101217851
+creator: cosmos
+modified: 20170421101510792
+modifier: cosmos
+tags: [[Stochastic process]]
+title: Stationary process
+tmap.id: 55a1da7b-da31-4b21-9f9d-8daa822c13b4
+type: text/vnd.tiddlywiki
+
+A [[Stochastic process]] is said to be stationary if the [[Joint probability distribution]] of a set of its random variables is invariant under shifting their time indices by the same amount

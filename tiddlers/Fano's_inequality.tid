@@ -1,9 +1,22 @@
 created: 20160705105819540
 creator: guillefix
-modified: 20161104134328345
-modifier: guillefix
+modified: 20170417114119714
+modifier: cosmos
 title: Fano's inequality
 tmap.id: fa7c533a-e16c-40ec-a7cf-6d1d184875af
 type: text/vnd.tiddlywiki
 
 [[Fano's inequality|https://www.youtube.com/watch?v=0ClUyuzcst0&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft&index=14#t=8m22s]]
+
+Given two random variables $$X$$ and $$Y$$ which are correlated, Fano's inequality quantifies the probability of error when using $$Y$$ to estimate $$X$$, by relating it to the conditional entropy $$H(X|Y)$$. Call the probability of error $$P_e$$, then
+
+$$P_e \geq \frac{H(X|Y)-1}{\log{|\chi|}}$$
+
+where $$\chi$$ is the set over which $$X$$ takes values.
+
+One can also prove using [[Jensen's inequality]]
+that for two i.i.d. random variables $$X$$ and $$X'$$:
+
+$$P(X=X')\geq2^{-H(X)}$$
+
+with equality iff X is uniformly distributed

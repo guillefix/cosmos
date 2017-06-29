@@ -1,8 +1,8 @@
 created: 20170325141500997
 creator: cosmos
-modified: 20170325142309979
+modified: 20170607192921716
 modifier: cosmos
-tags: 
+tags: [[AI safety]]
 title: Adversarial example
 tmap.id: 9f36d2e2-dcf6-4dd2-8d80-0f65791b5251
 type: text/vnd.tiddlywiki
@@ -14,3 +14,7 @@ type: text/vnd.tiddlywiki
 [[EXPLAINING AND HARNESSING ADVERSARIAL EXAMPLES|file:///home/guillefix/downloads/Deep%20learning.pdf]]
 
 [[Deep Neural Networks are Easily Fooled|https://www.youtube.com/watch?v=M2IebCN9Ht4]]
+
+Numerical accuracy may help against adversarial attacks: https://arxiv.org/abs/1704.01547
+
+[[https://www.youtube.com/watch?v=hDlHpBBGaKs]]

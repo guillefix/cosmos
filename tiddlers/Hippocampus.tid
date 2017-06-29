@@ -1,6 +1,6 @@
 created: 20170209224252203
 creator: cosmos
-modified: 20170209224424289
+modified: 20170611134718450
 modifier: cosmos
 tags: Brain
 title: Hippocampus
@@ -9,3 +9,19 @@ type: text/vnd.tiddlywiki
 
 
 [[Spatial representation in the brain]]
+
+[[Mapping of a non-spatial dimension by the hippocampal–entorhinal circuit|http://www.nature.com/nature/journal/v543/n7647/full/nature21692.html]]
+
+See [[here|http://biorxiv.org/content/biorxiv/early/2016/12/28/097170.full.pdf]]. Individual place cells correspond to places/states. However, their activation patterns correspond to the places/states that one is most likely to visit in the future (in a discounted way, see paper). This is the [[Successor representation]]
+
+-----------------------
+
+[[The hippocampus as a predictive map|http://biorxiv.org/content/biorxiv/early/2016/12/28/097170.full.pdf]]
+
+[[Design Principles of the Hippocampal Cognitive Map|https://papers.nips.cc/paper/5340-design-principles-of-the-hippocampal-cognitive-map.pdf]]
+
+[[Computational analysis of the role of the hippocampus in memory|http://onlinelibrary.wiley.com/doi/10.1002/hipo.450040319/full]]
+
+[[The hippocampal indexing theory and episodic memory: Updating the index|http://onlinelibrary.wiley.com/doi/10.1002/hipo.20350/full]]
+
+[[Dynamic updating of hippocampal object representations reflects new conceptual knowledge|http://www.pnas.org/content/113/46/13203.abstract]]

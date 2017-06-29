@@ -1,0 +1,23 @@
+created: 20170528123927209
+creator: cosmos
+modified: 20170528124632226
+modifier: cosmos
+tags: Shader
+title: Vertex shader
+tmap.id: 27156adb-4a60-418d-b24e-22dfc29ec5d9
+type: text/vnd.tiddlywiki
+
+Takes a certain representation of a [[Scene]], usually as [[Point]]s (vertices), and transforms this vertices into another representation which is useful for latter processing. For instance, in [[OpenGL]]/[[WebGL]], your vertices can be transformed to what is called ''clipspace'', using 4d [[Homogeneous coordinates]], which are then automatically processed to project them as 2d points in the device screen. The 2d pixel coordinates corresponding to the vertices, as well as to all points inside the polygon primitives (often triangles) that go with those vertices, are often passed to the [[Fragment shader]], to decide which color they should appear as.
+
+Here is a common procedure done by a vertex shader, to transform coordinates to those in clipspace: [[WebGL model view projection|https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_model_view_projection]]. 
+
+As explained [[here|https://stackoverflow.com/questions/7157875/in-glsl-what-is-the-formula-used-to-compute-gl-fragcoord-from-gl-position]], the clipspace coordinates are then transformed to pixel coordinates: gl_Position is the (4d) position of a vertex, while gl_FragCoord is the (2d) position of a fragment.
+
+The operations that happen in between are
+
+#primitive assembly (to generate a triangle from 3 vertices, e.g.)
+#clipping (i.e. cut the triangle in multiple triangles that are all on inside the view, if it does not initially fit)
+# viewport application
+# [[Rasterization]] (take those triangles and generate covered fragments from them).
+
+In WebGL, one can set the viewport, as `gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);`, see [[here|https://webglfundamentals.org/webgl/lessons/webgl-resizing-the-canvas.html]]

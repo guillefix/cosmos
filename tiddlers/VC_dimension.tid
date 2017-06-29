@@ -1,6 +1,6 @@
 created: 20160913225326135
 creator: cosmos
-modified: 20170125143218422
+modified: 20170522112841424
 modifier: cosmos
 title: VC dimension
 tmap.id: 1f7b50a6-00d9-4288-ae90-871571fc3893
@@ -50,3 +50,5 @@ VC dimension is n+1 for n dimensional space, (in 2 dimensions, it is 3).
 -------------
 
 https://www.wikiwand.com/en/VC_dimension
+
+https://en.wikipedia.org/wiki/Sauer%E2%80%93Shelah_lemma ; shows that for sets with finite number of elements, one can bound the cardinality of a family of sets with a finite VC dimension

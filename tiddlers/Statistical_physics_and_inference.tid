@@ -1,0 +1,43 @@
+created: 20170420161906055
+creator: cosmos
+modified: 20170512230334476
+modifier: cosmos
+tags: [[Information, computation and physics]]
+title: Statistical physics and inference
+tmap.id: f0895bdf-2a7f-4109-ab3a-02f58b7cfd51
+type: text/vnd.tiddlywiki
+
+[[The thermodynamics of prediction|https://arxiv.org/abs/1203.3271]]
+
+See lectures on statistical physics of inference:
+
+[[From information theory to learning via Statistical Physics: Introduction: by Florent Krzakala|https://www.youtube.com/watch?v=i0N6mn9L-GA&index=6&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu]]
+
+[[Phase Transitions in the Coloring of Random Graphs|https://arxiv.org/pdf/0704.1269.pdf]], See [[Graph coloring]].
+
+[img[phase_trasition_constraint_satisfaction_problem.jpg]]
+
+See also book on phase transitions on machine learning.
+
+See also phase transition in the inference problem in this video [[From information theory to learning via Statistical Physics by Florent Krzakala|https://www.youtube.com/watch?v=8S6spV57P8U&t=2199s&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu&index=10]] -- related to magnetic [[Phase transition]]!
+
+Phase transition describes transition from region where a problem is solvable, to a region where it is not solvable!
+
+Nice [[Gauge transformation]] of the hamiltonian, makes it into a ferromagnetic phase transition calculation
+
+And book on "mathematics of generalization"
+
+[[Solvable Model of Unsupervised Feature Learning|https://www.youtube.com/watch?v=BzbhXnLQ22s]]
+
+------------------------
+
+[[The large deviations of the whitening process in random constraint satisfaction problems|http://iopscience.iop.org/article/10.1088/1742-5468/2016/05/053401/pdf]]
+
+See [[Non-convex optimization]]
+
+[[The statistical mechanics of learning a rule|https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.65.499]]
+
+__[[Unreasonable Effectiveness of Learning Neural Nets: Accessible States and Robust Ensembles|https://pdfs.semanticscholar.org/a13e/ab6052cc9f85054d70d3ba395b0d77652172.pdf]]__
+
+Here we discuss how this phenomenon emerges in learning in large-scale neural networks with low precision synaptic weights. We further show how it is connected to a novel out-of-equilibrium statistical physics measure that suppresses the confounding role of exponentially many deep and isolated configurations (local minima of the error function) and also amplifies the statistical weight of rare but extremely dense regions of minima. We call this measure the ''Robust Ensemble'' (RE). Moreover, we show that the RE allows us to derive novel and exceptionally effective algorithms. One of these algorithms is closely related to a recently proposed stochastic learning protocol used in complex deep artificial neural networks [8], implying that the underlying geometrical structure of the RE may provide an explanation for its effectiveness.s
+effectiveness.

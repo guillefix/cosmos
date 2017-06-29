@@ -1,0 +1,15 @@
+created: 20170328211748875
+creator: cosmos
+modified: 20170328213830560
+modifier: cosmos
+tags: [[Feature learning]]
+title: Invariant feature learning
+tmap.id: 6733216a-0b8e-4d74-9433-ecd74d4676bc
+type: text/vnd.tiddlywiki
+
+
+Used in [[Video understanding]]. see [[Learning from Unlabeled Video|https://www.youtube.com/watch?v=8jR9DkXY_ZU]]
+
+More general: equivariant feature learning.
+
+[[Learning invariant feature hierarchies|http://yann.lecun.com/exdb/publis/pdf/lecun-eccv-12.pdf]]

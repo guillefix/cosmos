@@ -1,15 +1,79 @@
 created: 20161128103747956
 creator: cosmos
-modified: 20161129163659904
+modified: 20170404092623981
 modifier: cosmos
 tags: [[High-performance computing]]
 title: Parallel computing
 tmap.id: 5a43cbed-94a3-4252-aa19-0038c793b469
 type: text/vnd.tiddlywiki
 
-[[Computer cluster]]
+[[Nice video about parallel computing|https://www.youtube.com/watch?v=8_ywDfr1FGU]]
 
-[[GPU computing]]
+[[Why we cannot keep increasing CPU speed?|https://www.youtube.com/watch?v=jMfVx4hFHVk]] Power has emerged as one of the primary factors in processor design.
+
+Often used in [[Computer cluster]] and [[GPU computing]]. Main application is for [[High-performance computing]] (see more there)
+
+Fundamental concept: [[total time vs total work|https://www.youtube.com/watch?time_continue=81&v=cQ--7XZs1ew]]
+
+We say that a parallel algorithm is ''work efficient'' if its [[work complexity|https://www.youtube.com/watch?time_continue=88&v=V8TTrUdfpIY]] is asymptotically the same as the equivalent serial algorithm
+
+!!![[Analysis of parallel algorithms]]
+
+
+----------------------
+
+!Parallel programming
+
+* [[CUDA]]
+* [[OpenMP]]
+* [[MPI]]
+
+!!!__[[Parallel communication patterns|https://www.youtube.com/watch?v=LjWlZHqUG8A]]__
+
+Tasks <> Memory
+
+* Map. 1-to-1.. 1 thread on 1 part of memory, independently.
+* Scatter. 1-to-many. 1 thread, write to a potentially different and potentially more than 1 part of memory, independently.
+* Gather. many-to-1. Like scatter but for reading instead of writting.
+** Stencil. Read from a fixed set of neighbours, and write to 1 part of  memory
+* Transpose.1-to-1.  Any read and any write locations?
+* Reduce. all-to-1.
+* scan/sort. all-to-all.
+* [[More methods|https://www.youtube.com/watch?time_continue=10&v=Jo6RnEi6eHE]]
+** [[Reduce|https://www.youtube.com/watch?time_continue=9&v=N1eQowSCdlw]] --> [[parallelizing reduce|https://www.youtube.com/watch?time_continue=24&v=prLb1MbAm8M]] for binary/associative operators. See more at [[Analysis of parallel algorithms]]
+** [[Scan|https://www.youtube.com/watch?v=We9j876CjtA]] -- [[math|https://www.youtube.com/watch?time_continue=11&v=hS_uAPgXpzE]] -- [[why do we care about parallel scan|https://www.youtube.com/watch?time_continue=142&v=HfXkXUDlBqI]]
+
+[[Thread diveregence|https://www.youtube.com/watch?time_continue=49&v=8NiigEw_UIE]]
+
+-------------
+
+Introduction to parallel programming by nvidia in Udacity: https://classroom.udacity.com/courses/cs344/lessons/55120467/concepts/671181630923
+
+-------------
+
+!!__Latency vs throughput tradeoff__
+
+Latency: time for a single unit operation to take place
+
+Throughput: number of operations per second.
+
+Latency has advanced more slowly than throughput in technologies: [[Latency lags throughput|http://dl.acm.org.sci-hub.cc/citation.cfm?id=1022596]]
+
+!!Types of parallel computing
+
+* High-throughput computing, aka embarassingly parallel computing: lots of *independent* tasks.
+* [[High-performance computing]] often refers to a big task divided into many parallel computing nodes, but they are not totally independent, and so issues of communication ened to be addressed.
+
+!![[Memory]] models
+
+distributed and shared memory parallel computing models 
+
+* ''Share memory'': all the cores can see the same memory. [[OpenMP]]. Limited to one node in a [[Computer cluster]]
+* ''Distributed memory'': each core has a separate memory they can access. [[MPI]]. Scales to many many thousdands of cores accross several nodes..
+
+Often use a combination of both, like [[CUDA]]
+
+------------
 
 – Clusters	and	job	managers.
 – Jobs	vs Tasks.	

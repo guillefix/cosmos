@@ -1,6 +1,6 @@
 created: 20161017204550780
 creator: cosmos
-modified: 20161104134330939
+modified: 20170502121649924
 modifier: cosmos
 title: Neural programmer-interpreter
 tmap.id: d18964ac-aee2-4c49-a7c9-2c7e48abadf6
@@ -12,3 +12,5 @@ Also see [[Neural Turing machine]]
 [[Two Minute Papers - Neural Programmer-Interpreters Learn To Write Programs|https://www.youtube.com/watch?v=B70tT4WMyJk]]
 
 [ext[http://www-personal.umich.edu/~reedscot/iclr_project.html]]
+
+!!!Making neural nets generalize through recursion! This idea makes learning programs much better!

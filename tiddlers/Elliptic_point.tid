@@ -1,0 +1,11 @@
+created: 20170624131200443
+creator: cosmos
+modified: 20170624135539518
+modifier: cosmos
+title: Elliptic point
+tmap.id: 6e471cf8-3c7d-4a5b-9885-8edcc741cebb
+type: text/vnd.tiddlywiki
+
+A point on a [[Surface]] with positive [[Gaussian curvature]].
+
+for elliptic points, the level curves are locally [[Ellipse]]s

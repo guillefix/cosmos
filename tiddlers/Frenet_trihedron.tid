@@ -1,0 +1,14 @@
+created: 20170624125603304
+creator: cosmos
+modified: 20170624130114893
+modifier: cosmos
+tags: Curve
+title: Frenet trihedron
+tmap.id: a966bae1-ae88-4402-b456-7fed47b27f4e
+type: text/vnd.tiddlywiki
+
+The derivative of the [[Tangent vector]] $$T$$ is orthogonal to the tangent vector. The norm of this vector $$k=|T'|$$ is the ''curvature'' of the curve at the point ([[Curvature of a curve]])
+
+The ''normal vector'' is the normalized version of this vector $$N=T'/k$$.
+
+To complete the basis we introduce the ''binormal vector'' $$B=T \times N$$. The magnitude of the derivative of the binormial vector defines the ''torsion'' ([[Torsion of a curve]]).  One can then derive [[Frenet formulae]]

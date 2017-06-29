@@ -1,11 +1,13 @@
 created: 20160913233502991
 creator: cosmos
-modified: 20161104134327719
+modified: 20170430135832815
 modifier: cosmos
 tags: [[Learning theory]]
 title: Convergence and performance results in learning theory
 tmap.id: 6e75116c-dff5-4501-82ef-d179dc6cdf28
 type: text/vnd.tiddlywiki
+
+See more detail and results at [[Computational learning theory]]. Here's just basics
 
 ,,[[Setting up formally a linear classifier, to explore the problems of learning theory, and using empirical risk minimization as learning principle|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=7m35s]], also uses definitions above.,,
 

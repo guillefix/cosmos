@@ -1,13 +1,13 @@
 created: 20161019173818091
 creator: cosmos
-modified: 20161104134332765
+modified: 20170517212811889
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Temporal difference learning
 tmap.id: f82b8412-412c-4fa1-9c06-fe989dbd81b2
 type: text/vnd.tiddlywiki
 
-An approach to [[Reinforcement learning]]
+An approach to [[Reinforcement learning]] (particularly [[Model-free reinforcement learning]]) -- [[video|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=34m10s]]
 
 TD learning is a combination of [[Monte Carlo]] ideas and [[Dynamic programming]] (DP) ideas. Like Monte Carlo methods, TD methods can learn directly from raw experience without a model of the environment's dynamics. Like DP, TD methods update estimates based in part on other learned estimates, without waiting for a final outcome (they bootstrap).
 
@@ -15,7 +15,7 @@ TD learning is a combination of [[Monte Carlo]] ideas and [[Dynamic programming]
 
 <img style="background-color:white;" src="https://webdocs.cs.ualberta.ca/~sutton/book/ebook/imgtmp41.png">
 
-Note that unlike [[Bellman's equation]] for $$V^*$$, which has a $$\max\limits_a$$, this doesn't but that is because, the action we have just taken follows the policy and so it's selected by $$\max\limits_a$$..
+Note that unlike [[Bellman equation]] for $$V^*$$, which has a $$\max\limits_a$$, this doesn't but that is because, the action we have just taken follows the policy and so it's selected by $$\max\limits_a$$..
 
 Traditional AC methods optimize the
 policy through policy gradients and scale the policy gradie
@@ -24,13 +24,45 @@ function is updated by ordinary TD learning
 
 Read [[here|https://arxiv.org/pdf/1610.01945.pdf]]
 
+[[intuition for why we update the current value function assuming the value function at the state after one step, instead of updating it the other way|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h13m]]
+
 !!__TD0__
+
+[[intro vid|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=36m10s]]
 
 [[vid|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=19m30s]]
 
 A kind of [[Gradient descent]] to converge to solution to V(s) that satisfies [[Bellman equation]]
 
 [ext[https://webdocs.cs.ualberta.ca/~sutton/book/ebook/node60.html]]
+
+Proven to work (converge to true value function, in the case of table-lookup representation. But in the case of representing value function in some other ways (parametric function approximation), [[there are subtleties.|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=53m10s]]
+
+!!![[Simple example comparing monte carlo vs TD0|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=59m]].
+
+If you let TD0 converge on a limited sample (a limited set of episodes from an MDP), it will converge to the [[Maximum likelihood]] estimate [[MRP|Markov reward process]] for that data. [[TD makes use of the Markov property|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h3m30s]]
+
+!!!__n-step look-ahead__
+
+[[intro vid|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h12m5s]]
+
+[[video|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h16m]]
+
+We can take $$n$$ steps of the (unknown) MDP, instead of 1. Monte Carlo [[Model-free reinforcement learning]] is when $$n \rightarrow \infty$$
+
+!!__TD($$\lambda$$)__
+
+[[intro vid|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h12m5s]]
+
+[[Averaging n-step returns|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h22m]] is better than just one choice of $$n$$. This is what The TD($$\lambda$$) algorithm achieves, efficiently!
+
+[[TD lambda can be done by updating only at the end of the episde|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h29m]], like for Monte Carlo. This isn't computationally efficient
+
+To make computationally efficient, one can update by looking only to the past with  [[backward view of TD lambda algorithm|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h30m25s]], combines frequency with recency to define an ''eligibility trace''
+
+See [[notes|http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html]] for more details and proofs of equivalence of the two interpretations. 
+
+There are new exactly equivalent ''online'' TD(lambda) algorithms!
 
 !!__Action-critic methods__
 

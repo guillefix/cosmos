@@ -1,0 +1,9 @@
+created: 20170624131419304
+creator: cosmos
+modified: 20170624131443047
+modifier: cosmos
+title: Planar point
+tmap.id: 1eb3b52f-dddd-486a-aa43-3ee0be956ad4
+type: text/vnd.tiddlywiki
+
+A point on a [[Surface]] with 0 [[Gaussian curvature]], it with both [[Principal curvature]]s equal to 0

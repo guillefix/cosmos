@@ -1,0 +1,24 @@
+created: 20170627164057036
+creator: cosmos
+modified: 20170627175256686
+modifier: cosmos
+tags: Metric Geometry
+title: Isometry
+tmap.id: 030b7d51-969f-40bb-a7cd-544bbe06083b
+type: text/vnd.tiddlywiki
+
+[[video|https://www.youtube.com/watch?v=a_XH71yDCpo]]
+
+For two [[Surface]]s S1 and S2 if there is a [[Diffeomorphism]] $$f$$ which takes each curve on S1 to a curve on S2 of the same length, then such an $$f$$ is called an isometry. For this to work, the two surfaces should already be [[homeomorphic|Homeomorphism]]. 
+
+[[Theorem|https://www.youtube.com/watch?v=a_XH71yDCpo#t=6m20s]], characterizing isometries by invariance of the [[First fundamental form]].
+
+__Examples__
+
+[[Strip of a plane is isometric to cylinder|https://www.youtube.com/watch?v=a_XH71yDCpo#t=26m30s]]
+
+[[Cone is isometric to a region of the plane|https://www.youtube.com/watch?v=a_XH71yDCpo#t=28m30s]]
+
+[[If a chart is both conformal and area-preserving, then the surface/patch is isometric to the plane|https://www.youtube.com/watch?v=a_XH71yDCpo#t=44m40s]]. [[Conformal map]], and [[Area-preserving map]] are weaker notions of isometry.
+
+[[How does one prove that there is not an isometric chart|https://www.youtube.com/watch?v=a_XH71yDCpo#t=1h5m40s]] between a piece of the [[plane|Plane (surface)]] and a piece of the [[Sphere]]? : [[Theorema Egregium]]

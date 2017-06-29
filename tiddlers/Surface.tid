@@ -1,0 +1,28 @@
+created: 20170617084905179
+creator: cosmos
+modified: 20170624120654156
+modifier: cosmos
+tags: Manifold
+title: Surface
+tmap.id: 0b6217fd-005e-400e-96df-f198a0813b04
+type: text/vnd.tiddlywiki
+
+See Isham book for general definition
+
+!__2-dimensional manifold (surface)__
+
+[[Regular surface]]: [[Mathematical definition of a regular surface|https://www.youtube.com/watch?v=AFSL-wGNRFM#t=5m55s]] as a subset from R^3 where every point lies on an open subset with a [[Coordinate chart]]
+
+The [[graph of a real-valued function|Graph of a function]] is a regular surface: [[proof|https://www.youtube.com/watch?v=AFSL-wGNRFM#t=34m10s]]
+
+Examples:
+
+* [[Sphere]]
+
+Useful theorem to proof things are  regular surfaces: [[Implicit function theorem]]
+
+!!__Functions defined on a surface__
+
+[[Deffinition of a differentiable function|https://www.youtube.com/watch?v=pNYAnXegp38#t=15m50s]] with domain (defined on) a surface. [[Definition for functions with values (range) on a surface|https://www.youtube.com/watch?v=pNYAnXegp38#t=19m]]. He then gives some examples of differentiable functions. [[It is enough to check differentiability around a point using just a single chart|https://www.youtube.com/watch?v=pNYAnXegp38#t=40m]], no need to check in all possible charts (as is the definition of differentiability), as one can prove that the former implies the later.
+
+!!__[[Tangent space]]__

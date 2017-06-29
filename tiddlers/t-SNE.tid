@@ -1,9 +1,12 @@
 created: 20170313190157686
 creator: cosmos
-modified: 20170313190206707
+modified: 20170519143452372
 modifier: cosmos
 tags: [[Data visualization]]
 title: t-SNE
 tmap.id: c335c163-0aec-44cf-a917-06119b65e6fd
 type: text/vnd.tiddlywiki
 
+http://distill.pub/2016/misread-tsne/
+
+More efficient implementation for python: https://github.com/scikit-learn/scikit-learn/issues/4619

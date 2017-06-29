@@ -1,6 +1,6 @@
 created: 20160122231301724
 creator: guillefix
-modified: 20170120210529874
+modified: 20170331150013564
 modifier: cosmos
 tags: [[Mathematical software]] [[Philosophy of mathematics]] Explorable [[Concrete mathematics]]
 title: AugMath
@@ -22,6 +22,8 @@ Automatic simplification is kept to a minimum, to allow notation tricks used in 
 It's hard to practice defensive programming when you are trying to give users so much freedom.
 
 It's interesting how having several different representations of the math (in the latex, the math tree, and the html), I think we can be more efficient by seizing the most appropiate one for each task (like checking some property)
+
+[[Yeah but don't simplify things because you'll loose the pattern|https://www.youtube.com/watch?v=0x_b_zPHy3c&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=12#t=39m50s]] ~ Shia
 
 
 __Parsing__

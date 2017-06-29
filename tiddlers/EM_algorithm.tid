@@ -1,6 +1,6 @@
 created: 20160914161647035
 creator: cosmos
-modified: 20170131123907851
+modified: 20170515122127726
 modifier: cosmos
 title: EM algorithm
 tmap.id: 6ec35bc9-247e-4a56-9ec8-77c51036ad41
@@ -54,7 +54,9 @@ From normalization, $$\sum_{z^{(i)}} Q_i(z^{(i)})=1$$, we can determine the cons
 
 [img[https://upload.wikimedia.org/wikipedia/commons/6/69/EM_Clustering_of_Old_Faithful_data.gif]]
 
-[[Another way of seeing the EM algorithm|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=7m50s]] as coordinate descen!
+[[Another way of seeing the EM algorithm|https://www.youtube.com/watch?v=LBtuYU-HfUg&list=PLA89DCFA6ADACE599&index=13#t=7m50s]] as coordinate descent!
+
+The two steps are defined slightly different [[here|http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.149.5636]] (though algo is the same overall), also there it defines the approximate EM algorithm which can be interpreted as denoising, by [[following gradients towards prior|http://users.ics.aalto.fi/harri/ica2000a/node2.html]], and which is used to interpret [[Ladder network]]s
 
 ----------------------
 
@@ -63,6 +65,8 @@ __My own derivation of the likelihood__ using [[Baye's theorem]]
 instead of just maximizing $$P(\theta | z, x)$$, as we don't know $$z$$ with certainty, we need to maximize $$P(\theta|x) = \sum_z P(\theta , z| x)$$ $$= \sum_z \frac{P(x|\theta, z) P(\theta, z)}{\sum_{\theta, z} P(x,z|\theta) P(\theta)} \propto \sum_z P(x|\theta, z) P(\theta, z) $$ $$=\sum_z P(x,z;\theta)$$, where $$z$$ represents the set of $$z^{(i)}$$ and the sum is over all possible configurations. $$P(z)$$ is known from the E-step.
 
 See [[here|https://www.youtube.com/watch?v=ey2PE5xi9-A&list=PLA89DCFA6ADACE599&index=14#t=12m30s]] too.
+
+[ext[http://www.rmki.kfki.hu/~banmi/elte/bishop_em.pdf]]
 
 ---------------
 
