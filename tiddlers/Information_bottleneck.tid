@@ -1,0 +1,51 @@
+created: 20171003162334632
+creator: cosmos
+modified: 20171005202655106
+modifier: cosmos
+tags: [[Deep learning theory]] [[Sufficient statistic]]
+title: Information bottleneck
+tmap.id: 0adf0d94-ba98-4de8-86d7-916a1a726ca6
+type: text/vnd.tiddlywiki
+
+The ''information bottleneck'' is an information theoretic framework, extending the classical notion of [[Minimal sufficient statistic]]s, that finds concise representations for an ‘input’ random variable that are as relevant as possible for an ‘output’ variable
+
+[[The information bottleneck method|https://arxiv.org/abs/physics/0004057]]
+
+[[Information Theory of Deep Learning. Naftali Tishby|https://www.youtube.com/watch?v=bLqJHjXihK8&feature=youtu.be]] ( See [[Deep learning theory]])
+
+The fundamental problem of [[Feature selection]] in pattern recognition. [[Rate-distortion theory]] does not provide a full answer to this problem since the choice of the [[Distortion function]], which determines the relevant features, is not part of the theory. It is, however, a step in the right direction. By combining it with the theory of minimal sufficient statistics, we get the information bottleneck principle.
+
+The information bottleneck principle captures a tradeoff between minimality of the representation of $$X$$, achieved by minimizing $$I(X; T)$$, and sufficiency of information on $$Y$$, achieved by constraining the value of $$I(Y; T)$$. The auxiliary
+variable $$T$$ is thus determined by the minimization of the IB-Lagrangian
+
+$$\mathcal{L}_{IB} [p(t|x)] = I(X;T)-\beta I(Y;T)$$
+
+with respect to the mapping $$p(t|x)$$, where $$I(X;T)$$ is the [[Mutual information]]. $$T$$ is subject to the [[Markovian|Markov property]] relation $$T-X-Y$$, and $$p(t|x)$$ is subject to the obvious normalization constraints. The solutions of this constrained optimization problem are characterized by the //bottleneck equations//
+
+There is a convergent (to a local optimum) algorithm similar to the Arimoto-Blahut algorithm to solve these.
+
+In (Gilad-Bachrach, Navot and Tishby, 2001) it is shown that the set of achievable $$p(x, y, t)$$ distributions form a strictly convex set in the $$(I(X; T ), I(Y ; T ))$$ plane, bounded by a smooth $$I_Y (I_X )$$ optimal function - the [[Information curve]] -- similar to the [[Rate-distortion function]] in [[Source coding]]
+
+--------------
+
+The information bottleneck seems to be basically the principle behind [[Autoencoder]]s
+
+----------------
+
+!!__Applications to [[Learning theory]]__
+
+[[Learning and Generalization with the Information Bottleneck|http://www.cs.huji.ac.il/labs/learning/Papers/ibgen.pdf]]
+
+!!!__Finite sample analysis__
+
+In order to optimize the IB-Lagrangian we need to calculate the quantities I(X; T ) and  I(X; T )for any chosen T and β. Since T is defined only via X, we need to know p(x, y) in order to calculate these two quantities. In most applications, however, p(x, y) is unknown. Instead, we assume that we have an i.i.d sample of m instances drawn according to p(x, y), and we use this sample to create a maximum-likelihood estimate of the distribution using pˆ(x, y), the empirical distribution of the sample.
+
+He obtains bounds on $$|I(X; T ) -  \hat{I}(X; T )|$$ and $$|I(Y;T) - \hat{I}(Y;T)|$$ (which go as $$1/m$$ generally).
+
+They then show how the mutual information $$I(Y;T)$$ can be related to the classification error in a [[Bag-of-words]] [[Generative model]] of [[Document classification]]. Crucially uses [[Stein’s lemma]]. The bound argument works best when the classes are "uniformly spread", meaning that the KL divergence between any distinct two of them is the same.
+
+They then justify the interpretation of $$I(X;T)$$ as a regularization term, by deriving another bound on $$|I(Y; T ) -  \hat{I}(Y; T )|$$ which increases with both $$I(X;T)$$ and $$\hat{I}(X;T)$$. This means that the smaller these quantities (the more compressed T is a description of X), then the better we approximate $$Y(Y;T)$$, and so the more confident we are in our error estimates given by the previous argument on classification error. Proofs are found in section 6
+
+Finally, they again relate IB to [[Sufficient statistic]]s
+
+Application to [[Deep learning theory]]

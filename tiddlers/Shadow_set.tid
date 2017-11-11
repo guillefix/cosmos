@@ -1,0 +1,12 @@
+created: 20171015175721159
+creator: cosmos
+modified: 20171015175946729
+modifier: cosmos
+tags: 
+title: Shadow set
+tmap.id: 7a855f69-d41a-42dd-b038-ba90e096896b
+type: text/vnd.tiddlywiki
+
+Let $$F \subseteq X^{(k)}$$ (a layer of the [[Power set]] of $$X$$) be a $$k$$-uniform family of subsets of $$X$$ (that is they all have the same size). The ''(lower) shadow'' $$\partial F$$ of $$F$$ is
+
+: $$\partial F : = \{B \in X^{(k-1)} : B \subseteq A \text{ for some } A \in F \}$$

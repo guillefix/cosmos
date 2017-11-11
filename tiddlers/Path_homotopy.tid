@@ -1,0 +1,37 @@
+created: 20171011185125005
+creator: cosmos
+modified: 20171011193706293
+modifier: cosmos
+tags: Homotopy
+title: Path homotopy
+tmap.id: 3f9337bd-09f1-40e7-bcfa-b9cd577d1863
+type: text/vnd.tiddlywiki
+
+Modification of the notion of homotopy for [[paths|Continuous path]]. [[vid|https://www.youtube.com/watch?v=0j7mkn5wNMY&index=15&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h10m25s]]. We don't allow to move the end points
+
+[[Definition|https://www.youtube.com/watch?v=0j7mkn5wNMY&index=15&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h11m13s]]
+
+Let $$f,g: I \to X$$ be [[paths|Continuous path]] with the same initial and final points $$f(0) = g(0)$$ and $$(1) = g(1)$$. Then $$f$$ and $$g$$ are (path-)''homotopic'' if there is a [[continuous map|Continuous function]] $$F: I \times I \to X$$ s.t.
+
+* $$F(s,0) = f(s)$$
+* $$F(s,1) = g(s)$$
+* $$F(0,t) = f(0)=g(0)$$
+* $$F(1,t) = f(1) = g(1)$$
+
+This is an [[Equivalence relation]] on the set of paths in $$X$$from a fixed initial point to a fixed end point.
+
+Define [[Product of paths]]
+
+[[Def|https://www.youtube.com/watch?v=0j7mkn5wNMY&index=15&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h24m19s]] For a path $$f: I \to X$$,  let $$[f]$$ be the class equivalence class of $$f$$ w.r.t. path homotopy.
+
+Let $$f,g$$ be pathes with $$f(1)=g(0)$$, define $$[f] * [g] = [f*g]$$ (product of equivalence classes of paths, which is well defined).
+
+---------------
+
+To define a [[group|Group (algebraic structure)]] we need to show.
+
+[[Associativity|https://www.youtube.com/watch?v=Lcu93_AfTQw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=16#t=1m]]
+
+[[Unit element|https://www.youtube.com/watch?v=Lcu93_AfTQw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=16#t=15m15s]]
+
+[[Inverse|https://www.youtube.com/watch?v=Lcu93_AfTQw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=16#t=23m5s]]

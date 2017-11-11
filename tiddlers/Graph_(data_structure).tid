@@ -1,0 +1,18 @@
+created: 20170926223439600
+creator: cosmos
+modified: 20170926223915361
+modifier: cosmos
+tags: Graph [[Data structure]]
+title: Graph (data structure)
+tmap.id: 108183ba-fd2f-4eec-8553-1783e9729a62
+type: text/vnd.tiddlywiki
+
+
+Ways of representing a [[Graph]]. Particular data structures:
+
+* [[Adjacency list]]
+* [[Adjacency matrix]]
+
+----------
+
+Used in conjunction with [[Graph algorithms]]

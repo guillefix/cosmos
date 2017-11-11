@@ -1,0 +1,28 @@
+created: 20171012173134118
+creator: cosmos
+modified: 20171015140517536
+modifier: cosmos
+tags: [[Category theory]]
+title: Category
+tmap.id: ad864f4e-f2da-4550-910f-845c38c5327a
+type: text/vnd.tiddlywiki
+
+A ''category'' C is composed of 
+
+* a collection Ob(C) of ''objects'': A, B, C, ...
+
+*  a collection Ar(C)  of [[Morphism]]s/''arrow''s
+
+* Mappings $$dom, cod: Ar(C) \to Ob(C)$$, specifying for each morphism which object is its ''domain'', and which is its ''codomain''. An arrow $$f$$ from $$A$$ to $$B$$ is written $$f: A \to B$$. For each such pair we define the set $$C(A,B) = \{f \in Ar(C) | f: A \to B\}$$. We refer to this set as ''hom-set''. Note that distinct hom-sets are disjoint
+
+* For any triple of objects, a ''composition'' map $$c_{A,B,C} : C(A,B) \times C(B,C) \to C(A,C)$$. $$c_{A,B,C}(f,g)$$ is written $$g \circ f$$ or sometimes $$f;g$$ (as often it refers to [[Function composition]]. Diagramatically, $$A\to_f B \to_g C$$.
+
+* For each object $$A$$, an ''identity'' arrow $$id_A: A \to A$$. 
+
+The  composition map must satisfy [[Associativity]] (in the same way as [[Function composition]]). Also $$f \circ id_A = f = id_A \circ f$$. whenever the domains and codomains of the arrows match appropriately so that the compositions are well-defined.
+
+One can naturally define a [[Subcategory]]
+
+-----------
+
+things which are isomorphic in a category tend to be //undistinguishable// that is if a property applies to one, it applies to the other too

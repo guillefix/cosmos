@@ -1,0 +1,28 @@
+created: 20170924203447066
+creator: cosmos
+modified: 20170926162802701
+modifier: cosmos
+tags: [[Topological space]] Connectedness
+title: Connected space
+tmap.id: 67dec816-c2d9-490d-b950-85660aca4c49
+type: text/vnd.tiddlywiki
+
+A [[Topological space]] is ''connected'' if it has no [[separation|Separation (topology)]]
+
+[[This is equivalent to the condition that the only sets which are both open and closed are trivial|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=34m25s]] ([[Clopen set]]s). Clear from the definitions.
+
+//Example//: Real line with the [[Lower limit topology]] ($$\mathbb{R}_l$$ [[is not connected|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=36m]]
+
+Reals with [[Standard topology]] is connected.
+
+[[Lemma|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=39m35s]]: If $$X=C\cup D$$ is a [[separation|Separation (topology)]] and $$Y \subset X$$ (with [[Subspace topology]]) is connected, then wither $$Y \subset C$$ or $$Y \subset D$$. //[[Proof|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=41m35s]]//
+
+[[Lemma|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=43m28s]] //a union of connected subsets is conncted if they have at least one point in common//. Suppose $$A_\alpha \subset X$$ are connected, $$\alpha \in J$$ and $$\cap_{\alpha \in J} A_\alpha \neq \emptyset$$, then their union is connected. //[[Proof|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=45m40s]]//
+
+[[Proposition|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=51m11s]]. Let $$A \subset X$$ be connected, and $$A \subset B \subset \bar{A}$$, then $$B$$ is connected. In particular, the closure of a connected subspace is connected (the case $$B = \bar{A}$$). [[Proof|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=53m15s]].
+
+[[Lemma|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h1m45s]]. //The image of a connected set by a continuous function is connected//. If $$f: X \rightarrow Y$$ is [[continuous|Continuous function]]  and $$X$$ is connected, then $$f(X)$$ is connected. [[Proof|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h3m22s]]
+
+[[Theorem|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h7m16s]]. A product $$\prod_{\alpha \in J} X_\alpha$$ of connected spaces with the [[Product topology]] is connected. [[Proof|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h10m15s]]
+
+[[Linear continuum]]

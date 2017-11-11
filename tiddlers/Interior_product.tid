@@ -1,0 +1,26 @@
+created: 20171109112211379
+creator: cosmos
+modified: 20171109125537680
+modifier: cosmos
+tags: [[Exterior form]] [[Wedge product]]
+title: Interior product
+tmap.id: e55eaf6b-8498-4535-94ff-4939d1d7c376
+type: text/vnd.tiddlywiki
+
+Given a [[Vector field]] $$X$$ on a [[manifold|Differentiable manifold]] $$M$$, there is a [[Linear map]]
+
+: $$i_X : \Omega^p (M) \to \Omega^{p-1} (M)$$
+
+called the ''interior product'', such that
+
+* $$i_X df = X(f)$$
+
+* $$i_X(\alpha \wedge \beta) = i_X \alpha \wedge \beta + (-1)^p \alpha \wedge i_X \beta$$ ir $$\alpha \in \Omega^p (M)$$
+
+This already defines the product, and it can be written in coordinates as:
+
+$$i_V (\alpha) =k \sum\limits_{1 \leq i_1 ,...,i_k \leq n} v^{i_1} \alpha_{i_1 i_2 ... i_k} dx_{i_2} \wedge dx_{i_3} \wedge ... \wedge dx_{i_k}$$
+
+That factor of $$k$$ wouldn't be there if we had adopted the convention of increasing indices. But because we are summing over all indices it's there (see [ext[here|http://kodu.ut.ee/~manuel/teaching/2015_kv_diffgeo/lecture05.pdf#page=4]] for instance).
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=47]]

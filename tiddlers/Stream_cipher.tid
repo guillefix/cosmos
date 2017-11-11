@@ -1,0 +1,24 @@
+created: 20170706104339335
+creator: cosmos
+modified: 20170706112816570
+modifier: cosmos
+tags: Cipher
+title: Stream cipher
+tmap.id: 4f2508ea-7aad-4d01-9cc5-2028784adc9f
+type: text/vnd.tiddlywiki
+
+[[intro|https://www.youtube.com/watch?v=AELVJL0axRs#t=5m40s]]. A stream cipher [[encrypts|Encryption]] bits individually
+
+For the $$i$$th bit:
+
+''encrypt'': $$y_i = e(x_i) = x_i + s_i ~\mathrm{mod}2$$
+
+''decrypt'': $$x_i = d(y_i) = y_i + s_i ~\mathrm{mod}2$$
+
+[[why it works|https://www.youtube.com/watch?v=AELVJL0axRs#t=10m30s]], because mod(2) addition and substraction are the same operation! (it is also the same as [[XOR]] (see [[Modulo 2 arithmetic]])
+
+[[how do we generate the key|https://www.youtube.com/watch?v=AELVJL0axRs#t=34m30s]], which has to be shared between sender and receiver ([[Symmetric cryptosystem]]). They should be [[random|Randomness]], using a [[Random number generator]]
+
+--------------
+
+The [[One time pad]] is an [[Unconditionally secure]] stream cipher

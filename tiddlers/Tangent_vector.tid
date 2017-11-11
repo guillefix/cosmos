@@ -1,6 +1,6 @@
 created: 20170624122855840
 creator: cosmos
-modified: 20170624125845831
+modified: 20170922151505183
 modifier: cosmos
 tags: [[Tangent space]]
 title: Tangent vector
@@ -10,3 +10,6 @@ type: text/vnd.tiddlywiki
 A [[Vector]] in the [[Tangent space]] of a [[Manifold]].
 
 For a [[Curve]], it is just the derivative of the point in the curve, with respect to its parameter value, often its arc-length (which then gives a unit-norm tangent vector)
+
+[[General definition on a manifold|https://www.youtube.com/watch?v=PwqmE50hJFY#t=9m]]
+ -- [[Formal definition|https://www.youtube.com/watch?v=PwqmE50hJFY#t=16m30s]]

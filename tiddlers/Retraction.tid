@@ -1,0 +1,18 @@
+created: 20171017234117232
+creator: cosmos
+modified: 20171018003358629
+modifier: cosmos
+tags: [[Algebraic topology]]
+title: Retraction
+tmap.id: 7f5165e1-ea57-45a2-b264-7b68bd1ee9e6
+type: text/vnd.tiddlywiki
+
+[[Def|https://www.youtube.com/watch?v=WGK8YEQktAw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&t=39#t=29m18s]]. Let $$A \subset X$$ be a subspace. A ''retraction'' is a [[continuous map|Continuous function]] $$r: X \to A$$ s.t. $$r|A = id_A$$. (I think it may not need to be continuous depending on definition).
+
+Can be used to define a [[Retraction deformation]] which is a [[Homotopy]] between the identity map of a space $$X$$ and a retraction to a subspace $$A \subset X$$.
+
+[[Lemma|https://www.youtube.com/watch?v=WGK8YEQktAw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&t=39#t=33m]]. If $$r: X \to A$$ is a retraction, then $$r_*: \pi_1(X,a_0) \to \pi_1(A,a_0)$$ is surjective and $$i_*: \pi(A,a_0) \to \pi_1(X,a_0)$$ (inducded by $$i: A \to X$$  the [[Inclusion]] map) is injective. ($$a_0 \in A \subset X$$). Proved using [[Functorial]] properties of induced map (denoted by $$*$$). See [[Fundamental group]]
+
+[[Proposition|https://www.youtube.com/watch?v=WGK8YEQktAw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&t=39#t=37m48s]]. There is no retraction $$r: B^2 \to S_1$$ ($$= \partial B^2$$) ($$B^2 = \{x \in \mathbb{R}^2 : ||x|| \leq 1\}$$, [[Unit ball]]). [[But there is one|https://www.youtube.com/watch?v=WGK8YEQktAw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&t=39#t=42m]] from $$B - \{0\}$$.
+
+!!![[Brouwer fixed-point theorem]]

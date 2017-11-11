@@ -1,0 +1,20 @@
+created: 20171013174812072
+creator: cosmos
+modified: 20171013181128449
+modifier: cosmos
+tags: [[Group action]]
+title: Group action on power set
+tmap.id: e2b1048c-9447-4904-9088-7a8894bd1180
+type: text/vnd.tiddlywiki
+
+[[vid|https://www.youtube.com/watch?v=Vt-H7tVBqAY&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=6#t=1h12m25s]]. 
+
+If [[Group]] [[acts|Group action]] on a set $$S$$, it will also act on the set of all subsets ([[Power set]]).
+
+[[Definition|https://www.youtube.com/watch?v=Vt-H7tVBqAY&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=6#t=1h13m18s]]. Basically $$g\cdot U = \{ g\cdot u | u \in U\}$$ (the set obtained by aplying $$g$$ to the elements of the subset). This defines a [[Group action]]
+
+Can also restrict action to the set of subsets of a given cardinality. This is because the group action is always an [[injection|Injective function]] (as can be seen by thinking of inverses), so it preserves set cardinality.
+
+We can look at the [[Stabilizer subgroup]], $$G_U$$
+
+[[Proposition|https://www.youtube.com/watch?v=Vt-H7tVBqAY&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=6#t=1h19m58s]]. Let $$G$$ acnt on $$S$$. Let $$U \subset S$$. Then $$G= G_U$$ $$\Leftrightarrow$$ $$U$$ is ''an'' union of some $$G$$ [[orbits|Group orbit]] on $$S$$.

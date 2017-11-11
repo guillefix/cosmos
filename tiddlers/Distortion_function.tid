@@ -1,0 +1,14 @@
+created: 20171004210317430
+creator: cosmos
+modified: 20171004210605007
+modifier: cosmos
+tags: [[Rate-distortion theory]]
+title: Distortion function
+tmap.id: 62d27c01-ada7-48af-876e-68ce0707010f
+type: text/vnd.tiddlywiki
+
+A function $$d: \chi \times \hat{\chi} \rightarrow \mathbb{R}^+$$
+
+from the set of source alphabet ($$\chi$$)-- reproduction alphabet ($$\hat{\chi}$$) into the set of nonnegative [[Real number]]s. The distortion $$d(x, \hat{x})$$ is a measure of the cost of representing the symbol $$x$$ by the symbol $$\hat{x}$$, used in [[Rate-distortion theory]].
+
+See page 304 in Cover&Thomas

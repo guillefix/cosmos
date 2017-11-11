@@ -1,0 +1,10 @@
+created: 20170930120428616
+creator: cosmos
+modified: 20170930120528241
+modifier: cosmos
+tags: [[Heuristic optimization]]
+title: Simulated annealing
+tmap.id: 66ce1c5c-d463-44ab-bac0-7a39d08b5d31
+type: text/vnd.tiddlywiki
+
+http://livefreeordichotomize.com/2017/09/29/the-traveling-metallurgist/#viz -- applied to the [[Travelling salesperson problem]] ( which is [[NP-hard]])

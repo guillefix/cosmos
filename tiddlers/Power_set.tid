@@ -1,10 +1,50 @@
 created: 20160714002320456
 creator: guillefix
-modified: 20161104134331813
-modifier: guillefix
-tags: [[Set theory]]
+modified: 20171103114529379
+modifier: cosmos
+tags: [[Set theory]] Combinatorics
 title: Power set
 tmap.id: 24eabb84-3669-42d2-ad72-4c58c18e754f
 type: text/vnd.tiddlywiki
 
-The set of all [[Subset]]s of a [[Set]]
+The set $$\mathcal{P}(X)$$ of all [[Subset]]s of a [[Set]] $$X$$
+
+The ''layers'' of $$\mathcal{P}(X)$$ are the 0-elements subsets, the 1-element susets, the k-elements subsets, etc., denoted $$X^{(k)}$$
+
+Power set can be turned into a [[Graph]]  by adding an edge between $$A,B \subseteq X$$ if $$|A \triangle B| = 1$$  (where $$\triangle$$ denotes [[Symmetric difference]]. This turns out to give [[Discrete cube]] $$Q_{|X|}$$. Can only connect only sets A and B that differ by one element as we want $$|(A\cup B) \setminus (A \cap B)| = 1$$. Called [[Hasse diagram|https://en.wikipedia.org/wiki/Hasse_diagram]]
+
+We can identify power set with the vector space $$\mathbb{F}_2^n$$ of characteristic vectors indicating which elements belong to a given subset.
+
+The function $$(A,B) \to |A \triangle B|$$ is a [[Metric]] on the power set.
+
+For [[Combinatorics]], often we consider $$\mathcal{P}([n])$$, denoted $$\mathcal{P}(n)$$, where $$[n]$$ is the set of all [[Natural number]]s up to and including $$n$$.
+
+!!__[[Chain|Chain set]] and [[Antichain]]s__
+
+We can explore the [[chain|Chain set]]s and [[Antichain]]s of this [[Partially ordered set]] (under [[Set inclusion]]). 
+
+Every maximal chain in P(n) has n+1 elements includinng empty set and whole set [n].
+
+How large can antichains be? [[Sperner's lemma]]: an antichain in P(n) has at most $$\binom{n}{\lfloor{n/2}\rfloor}$$. We can prove using [[Hall's theorem]]
+
+!!__[[Shadows|Shadow set]]__
+
+We can define two orders in a layer of P(x) $$[n]^{(r)}$$: the [[Lexicographic order|Dictionary ordering]] (//lex//) and colexicographic order (//colex//)
+
+[[Kruskal-Katona theorem]]
+
+!!__Intersections and traces__
+
+See [ext[here|https://courses.maths.ox.ac.uk/node/view_material/33445#page=22]]
+
+A family $$\mathcal{A}\subseteq \mathcal{P}(n)$$ is [[intersecting|Intersecting family]] if $$|A \cap B| = \emptyset$$ for all $$A,B \in \mathcal{A}$$. 
+
+It's not hard to show that $$|\mathcal{A}| \leq 2^{n-1}$$
+
+[[Erdos-Ko-Rado theorem]]
+
+-----------------
+
+There is no injective map from the power set of a set $$X$$ to the set $$X$$, and there is no surjective map from a set to its power set. 
+
+This implies that a set and its power set have different [[Cardinality]]

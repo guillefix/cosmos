@@ -1,6 +1,6 @@
 created: 20160406164853743
 creator: guillefix
-modified: 20170512230931475
+modified: 20170916003103219
 modifier: cosmos
 tags: [[Artificial intelligence innovation]]
 title: New advances in deep learning
@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 
 
 Conferences: [[ICLR|http://iclr.cc/doku.php?id=iclr2017:schedule]], NIPS
+
+Transformer networks. https://research.googleblog.com/2017/08/transformer-novel-neural-network.html
 
 [[Generative adversarial network]]s, etc.
 
@@ -28,7 +30,7 @@ WaveNet, PixelRNN, SampleRNN
 
 Avoiding catastrophic forgetting..
 
-
+Capsules. [[Dynamic Routing Between Capsules|https://nips.cc/Conferences/2017/Schedule?showEvent=9167]]
 
 ---------------
 

@@ -1,0 +1,26 @@
+created: 20171014202821381
+creator: cosmos
+modified: 20171014203212000
+modifier: cosmos
+tags: Category
+title: Subcategory
+tmap.id: a8d6202c-5ec0-47c8-b85c-25e78817d13b
+type: text/vnd.tiddlywiki
+
+Let $$C$$ be a [[Category]]. Suppose that we are given collections
+
+$$Ob(D) \subseteq Ob(C)$$, $$\forall A,B \in Ob(D). D(A,B \subseteq C(A,B)$$.
+
+We say that $$D$$ is a ''subcategory'' of $$C$$ if
+
+: $$A \in Ob(D) \Rightarrow id_A \in D(A,A)$$,
+: $$f \in D(A,B), g \in D(B,C) \Rightarrow g \circ f \in D(A,C)$$
+
+so that $$D$$ itself is a category.
+
+In particular, $$D$$ is:
+
+* A [[Full subcategory]] of $$C$$ if for any $$A,B \in Ob(D), D(A,B) = C(A,B)$$
+* A [[Luff subcategory]] of $$C$$ if $$Ob(D) = Ob(C)$$.
+
+For example, Grp is a full subcategory of Mon, and Set is a lluf subcategory of Rel.

@@ -1,0 +1,9 @@
+created: 20171105172834755
+creator: cosmos
+modified: 20171105172940624
+modifier: cosmos
+title: Simple curve
+tmap.id: 6839c6f7-163f-4491-9420-4d4c18a01944
+type: text/vnd.tiddlywiki
+
+A [[Curve]] with no //self-intersections//. That is $$x(t_1) \neq \(t_2)$$ unless $$t_1 = t_2$$ or $$t_1 = a$$, $$_2=b$$ for $$a$$ and $$b$$ being the endpoints of the interval which the curve maps (the initial and final times).

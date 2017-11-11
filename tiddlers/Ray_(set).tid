@@ -1,0 +1,10 @@
+created: 20170930215058126
+creator: cosmos
+modified: 20170930215115244
+modifier: cosmos
+tags: 
+title: Ray (set)
+tmap.id: 1becd59e-7f3d-4750-83f1-b497f3054619
+type: text/vnd.tiddlywiki
+
+A half-bounded version of an [[Interval]]

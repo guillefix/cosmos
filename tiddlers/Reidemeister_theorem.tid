@@ -1,0 +1,14 @@
+created: 20171103124052392
+creator: cosmos
+modified: 20171103125042532
+modifier: cosmos
+tags: [[Knot theory]]
+title: Reidemeister theorem
+tmap.id: 99f3aebd-b689-4d14-a556-b8fd8e4e3c46
+type: text/vnd.tiddlywiki
+
+[[Theorem|https://www.youtube.com/watch?v=_Q_suLwFbg8#t=5m40s]]
+
+Two [[diagrams|Knot diagram]] represent [[equivalent|Knot equivalence]] [[link|Link (knot theory)]] if and only if they differ by a sequence of [[Reidemeister move]]s and deformations of diagrams that preserve crossing data.
+
+See [ext[here|http://homepages.abdn.ac.uk/r.hepworth/pages/files/Knots_Notes.pdf#page=3]]

@@ -1,9 +1,14 @@
 created: 20170129123854361
 creator: cosmos
-modified: 20170129123855855
+modified: 20171009083807672
 modifier: cosmos
+tags: Combinatorics
 title: Hypergraph
 tmap.id: dcb1b520-796c-4137-ba0e-633927ee5dc3
 type: text/vnd.tiddlywiki
+
+//aka set systm or family of sets//
+
+The hypergraph on a ground set X is a subset of the [[Power set]]
 
 https://www.wikiwand.com/en/Hypergraph

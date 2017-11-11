@@ -1,0 +1,18 @@
+created: 20170715165406728
+creator: cosmos
+modified: 20170715165552960
+modifier: cosmos
+tags: Policy [[Reinforcement learning]]
+title: Optimal policy
+tmap.id: 50768193-e207-447d-9858-d8b7df76f342
+type: text/vnd.tiddlywiki
+
+Policy which maximies the expected reward (quantified by a [[Value function]]) over all states in [[Reinforcement learning]]. It is any policy which assigns non-zero probability //only// to [[greedy actions|Greedy policy]] with respect to the [[Optimal value function]]
+
+!!!__[[Optimal policy|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=47m10s]]__
+
+$$\pi^*(s) = \arg\max\limits_a \sum\limits_{s'} P_{s a} (s') V^* (s')$$
+
+This is the optimal policy that maximizes the expected total payoff (solution of the optimal policy problem).
+
+[[How to compute the optimal policy|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=48m30s]]

@@ -1,0 +1,13 @@
+created: 20170825165243546
+creator: cosmos
+modified: 20170924135245640
+modifier: cosmos
+tags: Embedding
+title: Nash embedding theorem
+tmap.id: 6382d102-67be-4e4f-80a9-0b68059f880e
+type: text/vnd.tiddlywiki
+
+Nash embedding theorem guarantees that any sufficiently smooth Riemannian manifold can be realized in a Euclidean space of sufficiently high dimension ([[source|https://www.jstor.org/stable/1969989]]). An embedding is not necessarily unique; two different realizations of a Riemannian metric are called isometries .
+.
+
+See [[Whitney embedding theorem]]

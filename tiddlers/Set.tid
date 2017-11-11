@@ -1,7 +1,7 @@
 created: 20160707163513940
 creator: guillefix
-modified: 20161104134332355
-modifier: guillefix
+modified: 20171015111307196
+modifier: cosmos
 tags: [[Set theory]]
 title: Set
 tmap.id: 72732b94-7832-4406-afda-8df787961b5b
@@ -10,3 +10,7 @@ type: text/vnd.tiddlywiki
 A collection of objects/entities/things.
 
 [[Cartesian product]]
+
+---------------
+
+Also refers to the [[Category]] of sets where objects are sets, and arrows are [[Function]]s

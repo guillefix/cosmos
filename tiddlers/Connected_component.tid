@@ -1,0 +1,14 @@
+created: 20170927154253016
+creator: cosmos
+modified: 20170927154949613
+modifier: cosmos
+tags: [[Connected space]]
+title: Connected component
+tmap.id: 002da554-75e4-49a8-9a29-d3978e59441e
+type: text/vnd.tiddlywiki
+
+//aka component//
+
+[[Definition|https://www.youtube.com/watch?v=t45NoydhMTY&index=10&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=19m40s]]. For a [[Topological space]] $$X$$, a ''component'' of $$X$$ is a [[Maximal]] [[connected|Connected space]] [[subspace|Subspace topology]] of $$X$$.
+
+Similarly we define [[Path component]]

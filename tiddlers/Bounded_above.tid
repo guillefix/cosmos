@@ -1,0 +1,9 @@
+created: 20170925151055054
+creator: cosmos
+modified: 20170925151545440
+modifier: cosmos
+title: Bounded above
+tmap.id: db466c03-89b9-4a2c-a6d6-3de08be86322
+type: text/vnd.tiddlywiki
+
+We say that a subset $$A_0$$ of a [[Partially ordered set]] $$A$$ is ''bounded above'' if there is an element $$b$$ of $$A$$ such that $$x\leq b$$ for every $$x \in A_0$$; the element $$b$$ is called an [[Upper bound]] for $$A_0$$. If the set of all upper bounds for $$A_0$$ has a [[Smallest element]], that element is called the ''least upper bound'', or the [[Supremum]], of $$A_0$$. It is denoted by $$\sup{A_0}$$; it may or may not belong to $$A_0$$. If it does, it is the largest element of $$A_0$$.

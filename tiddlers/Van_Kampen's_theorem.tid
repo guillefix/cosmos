@@ -1,0 +1,11 @@
+created: 20171018195655163
+creator: cosmos
+modified: 20171018203803557
+modifier: cosmos
+tags: [[Algebraic topology]]
+title: Van Kampen's theorem
+tmap.id: 69e465af-9144-438c-bf51-59859fa5da96
+type: text/vnd.tiddlywiki
+
+
+[[Special case|https://www.youtube.com/watch?v=HWzwaA8ImkM&index=19&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=3m40s]] for trivial [[Fundamental group]]s. [[Application|https://www.youtube.com/watch?v=HWzwaA8ImkM&index=19&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=25m55s]] Theorem. For $$n > 1$$, $$\pi_1(S^n,x_0)$$ is trivial.

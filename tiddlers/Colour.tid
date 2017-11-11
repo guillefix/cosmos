@@ -1,6 +1,6 @@
 created: 20160714160117781
 creator: guillefix
-modified: 20170210204905758
+modified: 20170702210146817
 modifier: cosmos
 tags: Vision
 title: Colour
@@ -14,3 +14,5 @@ See [[Human vision]]
 [[Color: from XYZ to spectrum|https://rip94550.wordpress.com/2010/03/08/color-from-xyz-to-spectrum/]]
 
 http://stackoverflow.com/questions/12239986/convert-rgb-to-light-frequency
+
+Color in computer graphics: [[video|https://www.youtube.com/watch?v=TEjDYtkLRdQ&index=8&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=11m0s]]. Defines [[RGB]]

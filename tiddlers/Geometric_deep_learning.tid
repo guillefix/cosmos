@@ -1,0 +1,28 @@
+created: 20170825095716303
+creator: cosmos
+modified: 20170825163254011
+modifier: cosmos
+tags: [[Deep learning]]
+title: Geometric deep learning
+tmap.id: ddba3e3e-d20a-4af5-a58a-8ca217fb882e
+type: text/vnd.tiddlywiki
+
+''Geometric deep learning'' is an umbrella term for emerging techniques attempting to generalize (structured) deep neural mod - els to non-Euclidean domains, such as graphs and manifolds.
+
+[ext[geometricdeeplearning.com]]
+
+See [[this review article|http://sci-hub.io/10.1109/msp.2017.2693418]]
+
+!!__[[Supervised learning]] (learning functions) on Non-Euclidean domains__
+
+We can further break down such problems into two subclasses: problems where the domain is fixed and those where multiple domains are given. 
+
+[[Graph convolutional network]]s (see [[Convolutional neural network]]s)
+
+In computer graphics and vision applications, finding similari- ty and correspondence between shapes are examples of the second subclass of problems
+
+Masci et al. [47] showed the first CNN model on meshed surfaces, resorting to a spatial definition of the convo - lution operation based on local intrinsic patches.
+
+[img[geometric_deep_learning_methods.bmp]]
+
+!!__Manifold learning__

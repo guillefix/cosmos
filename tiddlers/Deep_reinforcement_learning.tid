@@ -1,6 +1,6 @@
 created: 20160705111828390
 creator: guillefix
-modified: 20161104134327885
+modified: 20170819202540238
 modifier: cosmos
 tags: [[Deep learning]] [[Reinforcement learning]]
 title: Deep reinforcement learning
@@ -13,4 +13,18 @@ type: text/vnd.tiddlywiki
 
 Combine [[deep|Deep learning]] [[neural networks|Artificial neural network]] with [[Reinforcement learning]]
 
+[[DQN]] [[source code|https://sites.google.com/a/deepmind.com/dqn/]] ([[paper|https://www.nature.com/nature/journal/v518/n7540/full/nature14236.html]]). See [[Value function approximation]]
+
+[[A3C]]
+
+------------------
+
+https://github.com/dennybritz/reinforcement-learning
+
+https://syncedreview.com/2017/02/24/david-silver-google-deepmind-deep-reinforcement-learning/
+
 [[Deep symbolic reinforcement learning]] combines it with symbolic reasoning.
+
+[[Intentional-Unintentional agent|https://arxiv.org/pdf/1707.03300.pdf]]
+
+https://arxiv.org/abs/1611.05397

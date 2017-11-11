@@ -1,0 +1,83 @@
+created: 20171015113425119
+creator: cosmos
+modified: 20171111115635592
+modifier: cosmos
+tags: [[Category theory]]
+title: Functor
+tmap.id: 679e29b7-953b-46d6-98c7-5b8df3d3c7b2
+type: text/vnd.tiddlywiki
+
+//A functor is a “[[Morphism]] of categories”. Informally, they are like functions of functions (~meteafunctions~), because basically, they map arrows to arrows (which often can be interpreted as functions)//
+
+More precisely, a ''functor'' $$F: C \to D$$ (where $$C$$ and $$D$$ are [[Category]]es) is given by:
+
+* An object-map, assigning an object $$FA$$ of $$D$$ to every object $$A$$ of $$C$$.
+* An arrow-map, assigning an arrow $$Ff: FA \to FB$$ of $$D$$ to every arrow $$f: A \to B$$ of $$C$$, in such a way that [[composition|Arrow composition]] and identities are preserved: $$F(g \circ f) = Fg \circ Fg$$, $$F id_A = id_{FA}$$. These two conditions are called [[functoriality|Functorial]] conditions.
+
+!!!__Examples__
+
+Functors between [[Preorder]]s are [[Monotone function]]s. Functors between [[Monoid]]s are [[Monoid homomorphism]]s
+
+The covariant powerset functor $$\mathcal{P}: \mathbf{Set} \to \mathbf{Set}$$:
+
+: $$X \mapsto \mathcal{P}(X)$$, 
+:$$(f: X \to Y) \mapsto \mathcal{P}(f) := S \mapsto S \subseteq X \mapsto \{f(x) | x \in S\}$$
+
+That is it maps functions between sets to the functions between subsets corresponding to the [[Image of a subset]]
+
+The 'forgetful' or 'underlying' functor which sends a monoid to its set of elements, 'forgetting' the algebraic structure, and
+sends a homomorphism to the corresponding function between sets.
+
+[[Group theory]]: The assignment of the commutator sub-group of
+a group extends to a functor from Group to Group; and the assignment
+of the quotient by this normal subgroup extends to a functor from Group
+to AbGroup. The assignment of the centraliser of a group does not!
+
+[[Homology]]. The basic idea of algebraic
+topology is that there are functorial assignments of algebraic objects
+(e.g. groups) to topological spaces, and variants of this idea (‘(co)homology
+theories’) are pervasive throughout modern pure mathematics.
+
+[[Covariant functor]] refers to the definition of functor above
+
+[[Contravariant functor]] $$F: C \to D$$ is a [[Covariant functor]] from the [[Opposite category]] to $$C$$, to $$D$$. For example
+
+* the functor taking functions between sets to the [[Preimage]] function between sets.
+* Dual space functor on vector spaces.
+* [[Cohomology]]
+
+A [[Group action]] can be seen as a functor from a group to a set where arrows will become bijections.
+
+I guess a [[Group representation]] is also a functor
+
+__Functor of several variable__
+
+Functors defined on [[Product category]].
+
+---------------
+
+In [[Functional programming]] a lot of [[Data structure]]s can be seen as functors.
+
+List is a functor from set to {collection of lists from elements of the set} and from functions on the set to `map`-like functions on the list.
+
+__Hom-functors__
+
+For each object in a category there is a functor we can define.
+
+Can also define contravariant and bivariant functors..
+
+----------------
+
+[[Categorical product]] can be turned into functors.
+
+----------------
+
+__Properties of functors__
+
+* [[Faithfull functor]]
+* [[Full functor]]
+* [[Embedding (functor)]]
+* equivalence.
+* isomorphism (in Cat).
+
+See [[here|https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/LNPnotes.pdf#page=32]]

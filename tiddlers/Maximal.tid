@@ -1,0 +1,14 @@
+created: 20170927154406844
+creator: cosmos
+modified: 20170927154728002
+modifier: cosmos
+tags: Ordering
+title: Maximal
+tmap.id: b0283a75-b9a6-4048-93f8-0d07ac134ccc
+type: text/vnd.tiddlywiki
+
+A maximal element of an [[Partially ordered set]] os am element that is not smaller than any other element in the set. A minimal element of is defined dually as an element that is not greater than any other element in the set.
+
+Often, we talk about maximal with respect to a set, in which case we often implicitly talk about the partial ordering given by the [[Subset]] relation. 
+
+https://en.wikipedia.org/wiki/Maximal_element

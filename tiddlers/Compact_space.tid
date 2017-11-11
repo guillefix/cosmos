@@ -1,8 +1,8 @@
 created: 20160714012759056
 creator: guillefix
-modified: 20170627234545767
+modified: 20171011121714165
 modifier: cosmos
-tags: [[Compact set]]
+tags: [[Compact set]] Compactness
 title: Compact space
 tmap.id: e53b6b52-e577-457b-af4b-7e07c9dbca74
 type: text/vnd.tiddlywiki
@@ -11,4 +11,18 @@ A [[Topological space]] $$X$$ is //compact// if every [[Filter base]] $$\mathcal
 
 for all $$N \in \mathcal{N}(x)$$, for all $$A \in \mathcal{B}$$, $$N \cap A \neq \emptyset$$.
 
-An alternative, well-known definition involves properties of ‘coverings’ of X by families of open sets. 
+An alternative, well-known (equivalent?) definition involves properties of ‘coverings’ of X by families of open sets. The definition used to define a [[Compact set]]
+
+[[Proposition|https://www.youtube.com/watch?v=t45NoydhMTY&index=10&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h10m25s]]. A [[closed|Closed set]] subset of a compact space is compact.
+
+[[Propostion|https://www.youtube.com/watch?v=t45NoydhMTY&index=10&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h15m23s]]. Every compact subset of a [[Hausdorff space]] is closed.
+
+[[Lemma|https://www.youtube.com/watch?v=4lrmr61S03I&index=11&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=56s]]. If $$f: X \rightarrow Y$$ is continuous and $$X$$ is compact then $$f(X)$$ is compact ("the image of a compact set is compact")
+
+[[Theorem|https://www.youtube.com/watch?v=4lrmr61S03I&index=11&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=4m17s]]. Let $$f: X \rightarrow Y$$ be bijective and continuous. If $$X$$ is comapct and $$Y$$ is Hausdorff, then $$f$$ is a [[Homeomorphism]].
+
+!!![[Tychonoff's theorem]]. Arbitrary products of compact spaces are compact.
+
+[[Theorem|https://www.youtube.com/watch?v=4lrmr61S03I&index=11&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=41m22s]]. Let $$X$$ be an [[ordered|Ordering]] set with the [[Least upper bound property]]. Then, in the [[Order topology]], its [[Closed interval]] is compact. [[Corollary|https://www.youtube.com/watch?v=4lrmr61S03I&index=11&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h5m50s]]. Each closed real interval $$[a,b] \subset \mathbb{R}$$ is compact. The [[Ordered square]] is compact.
+
+[[Heine-Borel theorem]]

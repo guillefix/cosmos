@@ -1,0 +1,16 @@
+created: 20171008203451398
+creator: cosmos
+modified: 20171021205741758
+modifier: cosmos
+tags: [[Group action]]
+title: Transitive group action
+tmap.id: b6c240cf-c8a6-4d06-bb26-3904ae092968
+type: text/vnd.tiddlywiki
+
+[[Definition|https://www.youtube.com/watch?v=ihncybAAPUw&index=4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=58m25s]]
+
+There's always an element of the group taking any element to any other.
+
+It is simply transitive if there is a unique element taking x to y
+
+[ext[http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/transitive.pdf]]

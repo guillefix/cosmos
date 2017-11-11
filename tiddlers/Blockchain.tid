@@ -1,14 +1,69 @@
 created: 20160201145122866
 creator: guillefix
-modified: 20161104134327145
-modifier: guillefix
-tags: Software [[IT innovation]]
+modified: 20171109130943124
+modifier: cosmos
+tags: Software [[IT innovation]] Decentralized
 title: Blockchain
 tmap.id: c2e45040-5397-4edf-a2b4-19d55f6212a4
 type: text/vnd.tiddlywiki
+
+decentralized tech
+
+https://www.youtube.com/watch?v=bBC-nXj3Ng4
+
+https://www.youtube.com/watch?v=_160oMzblY8&feature=youtu.be
+
+https://www.youtube.com/watch?v=Lx9zgZCMqXE&feature=youtu.be
+
+[[Bitcoin]]
+
+---------
 
 [[Stephan Tual - Blockchain beyond Bitcoin - Lift 2016|https://www.youtube.com/watch?v=CnUdwxZsyXc&feature=youtu.be&utm_content=bufferaac0a&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer]]
 
 [[http://backfeed.cc/explore-in-depth]]
 
 https://www.ethereum.org/
+
+https://brave.com/
+
+https://eos.io/
+
+[[Cryptocurrency]]
+
+''"Trustless" auditable systems''. Can reach same level of reliability/trust as for large companies/organizations but much easier, more people can benefit from this. This is particularly useful in applications where trust/reliability is important:
+
+* Open source software
+* Finance/markets. Systems with certain motivational/incentive structures. Connections to [[Game theory]], [[Governance]].
+* Industrial applications
+* etc
+
+Also it is auditable, which can be good for some applications and not so good for others ([[Privacy]]).
+
+Big companies, like Google, Tencent, etc are doing all these things. However, blockchain allows basically anyone to do it at the same scale, and that is the advantage.
+
+[[Hyperledger]], [[Ethereum]]
+
+!!__Blockchain and [[Artificial intelligence]]__
+
+Hanson robotics/Ben Goertzel. https://medium.com/breathe-publication/first-ever-a-i-and-blockchain-combine-to-accelerate-robotic-intelligence-5294ec8dc542 -- [[SingularityNET|https://singularitynet.io/]]
+
+IBM Watson-IoT -- If you want blockchain for IoT one of the best person is former IBMer Paul Brody or his prodigy Henning Diedrich.
+
+[[InSilico medicine]] https://www.eurekalert.org/pub_releases/2017-08/imi-aia081417.php
+
+AI Coin, Gnosis, and Stox
+
+Numerai
+
+https://openmined.org/
+
+https://talla.com/botchain -- For example, if a bot makes a simple decision on your behalf when talking to another bot, there is no independent, third party, immutable trail of that conversation. What if you need to [[Audit]] it? What if you need to understand what happened so you can re-train your agent model to make a different decision next time? How do you ensure some version of this error isn’t happening to your agents? Botchain solves these problems.
+
+http://neureal.net/
+
+https://medium.com/towards-data-science/the-blockchain-and-ai-fbfa691f10e0 -- State Street
+
+Laurence Kirk is working with company trying to apply [[ML|Machine learning]] to blockchain
+
+https://blog.bigchaindb.com/blockchains-for-artificial-intelligence-ec63b0284984 -- Blockchain technology could transform AI too, in its own particular ways. Some applications of blockchains to AI are mundane, like audit trails on AI models. Some appear almost unreasonable, like AI that can own itself — AI DAOs. All of them are opportunities. This article will explore these applications. Blockchain may make more data and better data available for more new bigger-scale applications of AI. AI DAOs

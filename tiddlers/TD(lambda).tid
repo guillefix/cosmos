@@ -1,0 +1,22 @@
+created: 20170715180748448
+creator: cosmos
+modified: 20170718131010794
+modifier: cosmos
+tags: [[Temporal difference learning]]
+title: TD(lambda)
+tmap.id: 301d5453-2db6-4598-9096-14f39d3f16c5
+type: text/vnd.tiddlywiki
+
+//aka TD($$\lambda$$)//
+
+[[intro vid|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h12m5s]]
+
+[[Averaging n-step returns|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h22m]] is better than just one choice of $$n$$. This is what The TD($$\lambda$$) algorithm achieves, efficiently!
+
+[[TD lambda can be done by updating only at the end of the episde|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h29m]], like for Monte Carlo. This isn't computationally efficient
+
+To make computationally efficient, one can update by looking only to the past with  [[backward view of TD lambda algorithm|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h30m25s]], combines frequency with recency to define [[Eligibility traces]]
+
+See [[notes|http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html]] for more details and proofs of equivalence of the two interpretations. 
+
+There are new exactly equivalent ''online'' TD(lambda) algorithms!

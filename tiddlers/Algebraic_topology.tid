@@ -1,11 +1,55 @@
 created: 20160122225324013
 creator: guillefix
-modified: 20161104134326836
-modifier: guillefix
+modified: 20171031104138781
+modifier: cosmos
 tags: Topology
 title: Algebraic topology
 tmap.id: 7dad8854-3c45-4d79-8701-2a4efc21d313
 type: text/vnd.tiddlywiki
+
+The study of [[algebraic|Abstract algebra]] [[Invariant]]s of [[Topological space]]s. This is because algebraic structures are easier to compare, so it helps for comparing topological spaces.
+
+The notion of equivalence we focus to find invariants is based on notions of equivalence for loops in the topological space. In particular two: [[homotopic|Homotopy]] equivalence, and [[homologic|Homology]] equivalence.
+
+!!__[[Homotopy]]__
+
+Loops are maps ([[Continuous path]]s). Loops are equivalent when there's a [[continuous deformation|Homotopy]] between them.
+
+[[Homotopy equivalent]]
+
+__[[Homotopy group]]s__
+
+[[Fundamental group]]
+
+One problem is that they are hard to compute. All the homotopy groups are not known even for the sphere!
+
+[[Simplicial approximation theorem]]
+
+!!__[[Homology]]__
+
+Loops are subspaces (the images of [[Continuous path]]s for e.g.) Loops are considered equivalent if they bound a surface between them, basically.
+
+[[Homological algebra]], [[Homology long exact sequence]]
+
+!!__Operations on spaces__
+
+Some common operations on [[Topological space]]s used in topology and particularly, algebraic topology. See vid: [[constructions|https://www.youtube.com/watch?v=Tk4gPE9Oerc&list=PL7BFF10190F42006E&index=3]]
+
+We can define products, taking the [[Cartesian product]] of the cells. There are some subtleties with the weak topology not coinciding with the product topology, but these only arise for infinite CW complexes..
+
+[[quotient|Quotient set]]. 
+
+[[Suspension of a space]].
+
+[[Join of spaces]]. 
+
+[[Wedge sum]]. 
+
+[[Smash product]].
+
+[[Connected sum]]
+
+-----------------
 
 !!!https://en.wikipedia.org/wiki/List_of_cohomology_theories
 

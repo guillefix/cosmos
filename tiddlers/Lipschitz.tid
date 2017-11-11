@@ -1,0 +1,9 @@
+created: 20171027132151642
+creator: cosmos
+modified: 20171027132314467
+modifier: cosmos
+title: Lipschitz
+tmap.id: 61d9d613-e6b0-4e0b-a573-e878d4aecbca
+type: text/vnd.tiddlywiki
+
+Given an input space $$X$$ and [[Metric]] $$M$$, a function $$f: X \to \mathbb{R}$$ on a [[Metric space]] $$(X,M)$$ is called a ''Lipschitz function'', or ''Lipschitz continuous'' if there exists a constant $$C_M$$ such that $$|f(x) - f(y)| \leq C_M M(x,y)$$, for all $$x,y \in X$$.

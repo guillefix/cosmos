@@ -1,0 +1,22 @@
+created: 20171103120425156
+creator: cosmos
+modified: 20171105172955278
+modifier: cosmos
+tags: [[Knot theory]]
+title: Knot
+tmap.id: 7a60096b-5d7d-4c61-aa06-27831b6a98d0
+type: text/vnd.tiddlywiki
+
+[[Definiton of knot|https://www.youtube.com/watch?v=zuOooVnMRsg]], as the image of a certain class of [[Curve]]s in $$\mathbb{R}^3$$, which are smooth closed and non-intersecting.
+
+Knots are basically [[images|Image of a subset]] of [[simple|Simple curve]] [[Closed curve]]s
+
+A collection of knots is called a [[Link (knot theory)]]
+
+* [[Trefoil]]
+* [[Figure of eight knot]]
+*
+
+[[Knot equivalence]]
+
+[[Knot diagram]]

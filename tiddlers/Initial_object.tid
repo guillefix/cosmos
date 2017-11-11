@@ -1,0 +1,15 @@
+created: 20171014203752978
+creator: cosmos
+modified: 20171014204127445
+modifier: cosmos
+tags: [[Category theory]]
+title: Initial object
+tmap.id: 070a2ec8-b7dd-4fb3-bac5-520cfe31ced0
+type: text/vnd.tiddlywiki
+
+An object $$i$$ is ''initial'' if for every $$A$$ there is a unique $$i_A: i \to A$$. The [[Dual]] notion is [[Terminal object]]. In case of sets and functions, an initial set is the empty set, and a terminal set is a one-element set.
+
+''unique isomorphism property'': There is a unique isomorphism between any pair of initial objects; thus initial objects are ‘unique up to (unique) isomorphism’, and we can (and do) speak of the initial object (if any such exists).
+
+
+For [[Vector space]]s the zero-vector space is both initial and terminal.

@@ -1,0 +1,19 @@
+created: 20170715184050786
+creator: cosmos
+modified: 20170715184603479
+modifier: cosmos
+tags: [[Off-policy learning]]
+title: Maximization bias
+tmap.id: b56358b5-4b02-442f-ba45-9dc745226e1b
+type: text/vnd.tiddlywiki
+
+//maximum of expectated rewards is not the same as expecation of maximum reward//
+
+In [[Model-free reinforcement learning]] methods we are interested in the max of the expected reward (as in [[Bellman optimality equation]]). However max and expecation don't commute, and many methods use expecation over maximum. These methods will converge to the right thing in the limit of infinite samples, however, for finite samples this non-commutativity causes a bias which can cause overoptimistic valuation of certain states
+
+[img[maximization_bias_1.png]]
+
+[img[maximization_bias_2.png]]
+
+This can be avoided with [[Double learning]]
+

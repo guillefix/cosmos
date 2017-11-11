@@ -1,0 +1,15 @@
+created: 20170912202429667
+creator: cosmos
+modified: 20170924213813440
+modifier: cosmos
+tags: [[Countability axiom]]
+title: Second countable
+tmap.id: 5962ec64-51d1-41df-ad04-44523a15e164
+type: text/vnd.tiddlywiki
+
+
+[[Definition|https://www.youtube.com/watch?v=02l3WZrppbM&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=4#t=1h25m20s]]. A [[Topological space]] is ''second countable'' if it has a [[Countable]] [[basis|Basis of a topology]].
+
+[[motivational example|https://www.youtube.com/watch?v=02l3WZrppbM&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=4#t=1h13m14s]]. Second-countability is a topological property (invariant under [[Homeomorphism]]s)
+
+[[Second countable implies|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=15m44s]] [[First countable]]

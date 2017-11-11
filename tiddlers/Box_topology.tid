@@ -1,0 +1,15 @@
+created: 20170913165944561
+creator: cosmos
+modified: 20170924155915857
+modifier: cosmos
+tags: [[Examples of topologies]]
+title: Box topology
+tmap.id: 8bd54379-0d65-4822-a43d-c7c5d47abc1e
+type: text/vnd.tiddlywiki
+
+
+[[definition|https://www.youtube.com/watch?v=EOdGNGHIusI&index=5&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h45s]]
+
+Similar to [[Product topology]], but with arbitrary products of open sets as its [[basis|Basis of a topology]]. It has much worse properties..
+
+[[Box topology in R^\omega is not metrizable|https://www.youtube.com/watch?v=LRTu9LMFpnQ&index=7&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=40m]], using [[Sequence lemma]]

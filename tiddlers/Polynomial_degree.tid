@@ -1,0 +1,9 @@
+created: 20171021233848846
+creator: cosmos
+modified: 20171021234004759
+modifier: cosmos
+title: Polynomial degree
+tmap.id: 0aa38326-ea4e-4fe1-81a3-44fd50682369
+type: text/vnd.tiddlywiki
+
+[[Def|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=1h26m57s]]. Let $$f \sum\limits_{i=0}^n a_i x^i$$ be a [[polynomial|Polynomial ring]] with $$a_n \neq 0$$, then the ''degree of $$f$$'', $$deg(f) = n$$. We call $$a_n$$ the ''leading coefficient'' of $$f$$

@@ -1,0 +1,46 @@
+created: 20171021231653563
+creator: cosmos
+modified: 20171021234145693
+modifier: cosmos
+tags: Ring
+title: Polynomial ring
+tmap.id: e9d72fb6-8002-4007-92c0-b492945eb3fa
+type: text/vnd.tiddlywiki
+
+//given a ring, we can consider the ring of polynomials with coefficients in that ring//
+
+[[Introduction|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=1h6m57s]], motivation from standard [[Polynomial]], but we will see it just as a formal //expression//
+
+[[Definition|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=1h9m17s]]. Let $$R$$ be a [[Ring]]. A ''polynomial'' $$f$$ in $$x$$ with coefficients in $$R$$ is an expression
+
+: $$f= \sum\limits_{i=0}^n a_i x^i$$, for some $$n \geq 0$$, and $$a_i \in R$$
+
+However, we consider expressions for which they differ in $$n$$, but the coefficients where they differ are $$0$$, and all the non-zero coefficients are the same, as being the same polynomial.
+
+We denote as $$R[x]$$ the set of polynomials in $$x$$ with coefficients in $$R$$.
+
+[[We can view R as a subset of R[x]|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=1h14m]], where we identify elements in $$R$$ with [[Constant polynomial]]s
+
+[[The polynomial expression is not the same as the polynomial function|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=1h16m]].
+
+!!__[[Ring]] structure__
+
+[[Definition|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=1h18m30s]] The ring structure on $$R[x]$$:
+
+For $$f \sum\limits_{i=0}^n a_i x^i$$, $$g=\sum\limits_{i=0}^n b_i x^i$$,
+
+: $$f+g = \sum\limits_{i=0}^n (a_i +b_i) x^i$$
+
+: $$f\cdot g = \sum\limits_{k=0}^{2n} \left(\sum\limits_{i+j=k}^n a_i b_i \right) x^k$$
+
+This makes it a [[Ring]].
+
+If R is commutative then R[x] is commutative
+
+If R is a ring with 1, then so is R[x]
+
+R is a [[Subring]] of R[x]
+
+[[Polynomial degree]]
+
+If R is an [[Integral domain]], then so is R[x], and the [[Ring unit]]s are the ring units of R (viewed as constant polys) ([[vid|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=1h28m24s]]).

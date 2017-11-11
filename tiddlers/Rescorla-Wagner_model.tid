@@ -1,0 +1,17 @@
+created: 20170728171121872
+creator: cosmos
+modified: 20170728174346955
+modifier: cosmos
+tags: Learning
+title: Rescorla-Wagner model
+tmap.id: c04fb1a5-0dc2-4729-82a1-1d72ed6a58c9
+type: text/vnd.tiddlywiki
+
+See sec 14.2.2 in [[Sutton-Barto]]
+
+Rescorla and Wagner created their model mainly to account for blocking. The core
+idea of the Rescorla–Wagner model is that an animal only learns when events violate
+its expectations, in other words, only when the animal is surprised (although with-
+out necessarily implying any conscious expectation or emotion).
+
+It can be interpreted as [[Stochastic gradient descent]] to minimize the expected square error of a linear model between stimuli and responses (where the true response is determined by the unconditioned stimulus)

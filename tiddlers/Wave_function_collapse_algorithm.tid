@@ -1,0 +1,16 @@
+created: 20170822223803744
+creator: cosmos
+modified: 20170823182028215
+modifier: cosmos
+tags: [[Procedural generation]]
+title: Wave function collapse algorithm
+tmap.id: 0bbcae83-3320-4fab-8c18-cfe0202853c6
+type: text/vnd.tiddlywiki
+
+Nice demo: http://oskarstalberg.com/game/wave/wave.html
+
+https://adamsmith.as/papers/wfc_is_constraint_solving_in_the_wild.pdf
+
+https://www.youtube.com/watch?v=Te2ek89EEUs&feature=youtu.be&t=7810
+
+https://github.com/mxgmn/WaveFunctionCollapse

@@ -1,0 +1,15 @@
+created: 20171015114129638
+creator: cosmos
+modified: 20171015114557678
+modifier: cosmos
+tags: Functor
+title: Functorial
+tmap.id: cbc16eec-1093-40f6-9b6b-6e2fc7f2ed70
+type: text/vnd.tiddlywiki
+
+A map (is this always used for [[Functor]]s?) is called ''functorial'' if it satisfies the conditions:
+
+:$$F(g \circ f) = Fg \circ Fg$$,
+:$$F id_A = id_{FA}$$
+
+which are required for the arrow-map of a [[Functor]] (mapping between arrows of two [[Category]]es)

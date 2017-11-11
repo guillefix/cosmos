@@ -1,0 +1,41 @@
+created: 20171015202525620
+creator: cosmos
+modified: 20171027224759705
+modifier: cosmos
+tags: [[Simplicial homology]]
+title: Delta-complex
+tmap.id: 404be8e8-0e34-40de-a307-96e8025f2dce
+type: text/vnd.tiddlywiki
+
+[[Video|https://www.youtube.com/watch?v=T1PE0m632t4&index=9&list=PL7BFF10190F42006E]] -- [ext[book|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=111]]
+
+__Construction procedure__
+
+#Take [[Disjoint union]] of [[Triangle]]s (or higher [[simplices|Simplex]])m with order given on vertices.
+
+# Glue edges (or vertices) together by order-preserving maps.
+
+__Definition__
+
+A ''$$\Delta$$-complex'' is a [[space|Topological space]] $$X$$ together with maps $$e_\alpha^n: \Delta^n \to X$$ ($$\Delta^n$$ the $$n$$-dimensional [[Simplex]]) such that
+
+# $$\bigsqcup\limits_\alpha  e_\alpha^n |_{\Delta^{\circ n}}: \bigsqcup\limits_\alpha \Delta^{\circ n} \to X$$ is [[bijective|Bijection]]. ( $$\circ$$ above means [[interior of the set|Interior of a set]] (this is done to avoid having the boundaries where they overlap counted multiple times))
+
+# Every $$e_\alpha^n |_{\text{face}_i}$$ is some $$e_{\beta(\alpha,i)}^{n-1}$$
+
+# $$\bigsqcup\limits_\alpha \Delta^n /{\text{face}_i{(\Delta^n_\alpha)} \sim \Delta^{n-1}_{\beta(\alpha,i)}}$$ and $$X$$ are [[homeomorphic|Homeomorphism]].
+
+(Here $$\bigsqcup$$ is used for [[Disjoint union]])
+
+------------
+
+Some triangle-gluings which create valid top spaces can't be built with this procedure.
+
+Also Delta-complexes are __not__ the same as [[simplicial complexes|Simplicial complex]], although they are quite similar.
+
+every ∆ complex can be
+subdivided to be a simplicial complex. In particular, every ∆ complex is then homeo-
+morphic to a simplicial complex. Compared with simplicial complexes, ∆ complexes have the advantage of simpler
+computations since fewer simplices are required.
+
+There are also [[CW complex]]es

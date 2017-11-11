@@ -1,0 +1,19 @@
+created: 20170808142758400
+creator: cosmos
+modified: 20170808142942584
+modifier: cosmos
+tags: Mechanics
+title: Conservation law
+tmap.id: 7909b6a7-50d5-49b7-a088-f945fafc515e
+type: text/vnd.tiddlywiki
+
+
+--------------
+
+__Conservation laws in [[General relativity]]__
+
+No conservation of total momentum (i.e. for extended objects), in general because:
+
+No existe version covariante de la suma de vectores evaluados en distintos puntos, por ejemplo de la suma de momentos lineales de un conjunto de particulas (momento total), debido al transporte paralelo.
+
+Extended objects may have some other [[Noether charge]]s

@@ -1,0 +1,18 @@
+created: 20171110230411078
+creator: cosmos
+modified: 20171110231008016
+modifier: cosmos
+tags: Functor
+title: Representable functor
+tmap.id: 2a072dac-4023-4a4b-9353-6bbd4a697884
+type: text/vnd.tiddlywiki
+
+See [[here|https://www.youtube.com/watch?v=4QgjKUzyrhM]]
+
+For each object in a category, we can define a ''representable functor'' which is a [[Functor]] from a category to Set, where objects are mapped to [[Hom-set]]s to (or from) that object, and morphisms are mapped to morphisms between arrows defined by composition. There is a covariant and a contravariant version.
+
+There is another functor, from a category to {the [[Category of functors]] from the category to Set} where objects are mapped to to their corresponding [[Representable functor]]s, and morphisms are [[Natural transformation]]s induced by morphisms in the original category. This is called the [[Yoneda embedding]].
+
+------------
+
+<mark>where does the name "representable" come from?</mark>

@@ -1,0 +1,27 @@
+created: 20170820184957625
+creator: cosmos
+modified: 20170821094821085
+modifier: cosmos
+tags: [[Deep learning]]
+title: Symbolic deep learning
+tmap.id: 1f1df5aa-2579-4822-b01c-c859376038ee
+type: text/vnd.tiddlywiki
+
+
+See [[Integrating symbols into deep learning]], [[Augmented RNN]]s, [[Neural programmer-interpreter]]
+
+[[Neural Programming by Example|https://arxiv.org/abs/1703.04990]]
+
+-----------
+
+https://arxiv.org/abs/1611.00020
+
+[[COMMUNICATING HIERARCHICAL NEURAL CONTROLLERS FOR LEARNING ZERO-SHOT TASK GENERALIZATION|https://openreview.net/pdf?id=SJttqw5ge]]
+
+[[Hierarchical Task Generalization with Neural Programs|http://juxi.net/workshop/deep-learning-rss-2017/papers/Xu.pdf]]
+
+[[Real-Time Navigation in Classical Platform Games via Skill Reuse|http://static.ijcai.org/proceedings-2017/0219.pdf]]
+
+[[Towards Deep Symbolic Reinforcement Learning|https://arxiv.org/pdf/1609.05518.pdf]]
+
+[[Schema Networks: Zero-shot Transfer with a Generative Causal Model of Intuitive Physics|https://arxiv.org/abs/1706.04317]]

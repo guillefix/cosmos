@@ -1,0 +1,19 @@
+created: 20170715180630843
+creator: cosmos
+modified: 20170715180716277
+modifier: cosmos
+tags: [[Temporal difference learning]]
+title: Sarsa
+tmap.id: 80238859-72d0-45e1-b816-a7dd330bbc7f
+type: text/vnd.tiddlywiki
+
+[[Policy evaluation]] algorithm:
+ [[Sarsa|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=41m]] (a TD algorithm for policy evaluation for the q function, although the whole control algorithm is also known as sarsa).
+
+With [[Policy iteration]], [[we can do On-policy control with Sarsa|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=42m57s]]. [[It can be shown to converge if the step sizes are right|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=48m45s]], using [[Stochastic approximation theory]]
+
+[[n-step Sarsa|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=53m40s]], between TD and Monte Carlo
+
+[[We can use elegibility traces to make it into an online algorithm|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=1h]] -- [[this is how it is done|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=1h2m10s]] --> [[ALGORITHM|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=1h5m10s]]
+
+[[intuition for the benefit of Sarsa(lambda)|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=1h7m]]

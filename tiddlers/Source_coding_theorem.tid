@@ -1,13 +1,31 @@
 created: 20160701124105842
 creator: guillefix
-modified: 20170628232852602
+modified: 20170926105306340
 modifier: cosmos
 tags: [[Data compression]]
 title: Source coding theorem
 tmap.id: a66012e1-74d5-4fa5-8ac8-de8fd5123985
 type: text/vnd.tiddlywiki
 
-The average length of a [[code|Coding theory]] is bounded below by the entropy of the random variable that models your data.
+The average length of a [[Code]] is bounded below by the entropy of the random variable that models your data.
+
+__Source coding theorem__
+
+|The average length of a [[Code]] is bounded below by the [[Entropy]] of the distribution over source letters|
+
+<small>Note: the code is a code for letters in the above theorem</small>
+
+This can be obtained using [[Calculus]] (and [[Lagrangian multipliers]]) to minimize the expected word length for a prefix code, while satisfying the [[Kraft inequality]]. <mark>What if the code is not prefix-free?</mark>
+
+This gives non-integer lengths. But one can show that the actual optimal lengths will be close to this in a particular sense: Find the D-adic distribution that is closest (in the relative entropy
+sense) to the distribution of X. This distribution provides the set of code-
+word lengths. (see page 112 of Thomas&Clover book)
+
+An optimal code in this sense is the [[Huffman code]]. The [[Shannon-Fano code]] is close to optimal but not optimal.
+
+When we don't know the distribution of the source, we can use [[Universal source coding]]
+
+-----------
 
 See [[Data compression]]
 
@@ -17,8 +35,7 @@ See [[this video|https://www.youtube.com/watch?v=HWsa_hZ7F3I]]
 
 [img[iid_source_coding_theorem.jpg]]
 
+
 This is proved by constructing a code given by indexing the elements of the [[Typical set]] (for which we need $$\approx nH$$ bits, for length $$n$$ and entropy per letter $$H$$), and another indexing for the atypical set. See 3.23 on ElsofInfoTheory.
 
 If $$\epsilon = 1$$, then $$n=1$$ can be.
-
-An optimal code in this sense is the [[Huffman code]]

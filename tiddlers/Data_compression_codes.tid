@@ -1,12 +1,15 @@
 created: 20160701125933701
 creator: guillefix
-modified: 20161104134327830
-modifier: guillefix
+modified: 20170824222201771
+modifier: cosmos
+tags: [[Data compression]]
 title: Data compression codes
 tmap.id: a25a9df3-845e-41d3-a291-615edce0b4b5
 type: text/vnd.tiddlywiki
 
-Codes used for [[Data compression]]
+[[Code]]s used for [[Data compression]]
+
+Optimal data compression codes achieve the compression limit determined by the [[Source coding theorem]]
 
 !!!__Lossless coding__
 

@@ -1,0 +1,22 @@
+created: 20170926223402735
+creator: cosmos
+modified: 20171011221409963
+modifier: cosmos
+tags: Algorithms
+title: Graph algorithms
+tmap.id: 56f913e5-212a-400a-a2b3-3dd1d45d8c6c
+type: text/vnd.tiddlywiki
+
+[[intro|https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PL6ED884C7AEE68027]]
+
+Use [[Graph (data structure)]]s
+
+[[Max-cut]]
+
+[[Algorithm to identify planar graphs|https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PL6ED884C7AEE68027#t=9m29s]]
+
+[[Topological sorting]]
+
+[[Breadth-first search]]
+
+[[Depth-first search]]

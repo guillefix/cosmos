@@ -1,0 +1,30 @@
+created: 20171017130022830
+creator: cosmos
+modified: 20171029103741686
+modifier: cosmos
+tags: Homology
+title: Boundary map
+tmap.id: 71e5d0c0-ff49-4886-be14-daf7eedf416c
+type: text/vnd.tiddlywiki
+
+//aka boundary homomorphism//
+
+A [[Homomorphism]] from a [[Group]] of chain to the group formed boundaries of chains, where a chain is mapped to its boundary.
+
+For [[chains of n-simplices|Chain group]]es, in [[Simplicial homology]], it is defined as:
+
+: $$\partial: \Delta_n(X) \to \Delta_{n-1}(X)$$. For each basis element of the chain: $$e_\alpha^n \mapsto \partial e_\alpha^n$$, where $$\partial([v_0,...v_n]) = \sum\limits_i (-1)^i [v_0,...,\hat{v_i},...,v_n]$$, where $$v_i$$ are vertices and $$\hat{}$$ means that we omit the vertex.
+
+Note the sum ($$\sum\limits_i$$) is a formal sum from the free Abelian [[Chain group]]. Given the definition of the map on the basis elements of $$\Delta_n(X)$$. For any element of $$\Delta_n(X)$$, it is the formal sum gotten by acting linearly.
+
+We defined it on the standard simplices, but can equivalently define it as acting on the corresponding maps, as done [ext[here|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=114]].
+
+This is a map between [[Free Abelian group]]s, and it is a [[Group homomorphism]]
+
+[[Video|https://www.youtube.com/watch?v=-SL29x-Sz5k&list=PL7BFF10190F42006E&index=10]]
+
+See the figure [ext[here|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=114]] to understand idea behind the signs:
+
+[img[boundary_map.png]]
+
+So common boundaries cancel out, as they should (similarly to how is done in derivations of [[Stoke's theorem]] for instance)

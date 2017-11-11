@@ -1,11 +1,38 @@
 created: 20170507001620403
 creator: cosmos
-modified: 20170511133758596
+modified: 20170929001615713
 modifier: cosmos
-tags: 
+tags: [[Non-Euclidean geometry]] [[Video game]]
 title: Azimuth (Game)
 tmap.id: 8ea3706a-89c0-4a1c-bf9b-fd6616a4b389
 type: text/vnd.tiddlywiki
+
+[ext[Notes|http://www.mat.ucm.es/~jesusr/pdfs/dfps/paco.pdf]]
+
+[[Repository|https://github.com/damaru2/azimuth-design/tree/master/code]]
+
+Telegram group
+
+.......
+
+__[[Isometries|Isometry]]__
+
+Las isometrias del modelo $$\Omega_k$$ son las restricciones de los isomorfismos lineales de $$\mathbb{R}^3$$ ortogonales respecto de la forma $$\langle,\rangle_k$$
+
+__Determining the [[Geodesic]] which joins two points in different patches__
+
+El camino m´as corto entre P y Q es aquel que corta a la costura con el mismo ´angulo
+a cada lado.
+
+__[[Triangle]]s in $$\Omega_k$$__
+
+
+
+!!__Implementation__
+
+<big>[[Ray tracing]]</big> a traves de parches
+
+------------------
 
 Play Azimuth
 

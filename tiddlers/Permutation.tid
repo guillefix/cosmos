@@ -1,0 +1,9 @@
+created: 20171008165735866
+creator: cosmos
+modified: 20171008165800034
+modifier: cosmos
+title: Permutation
+tmap.id: 7e56f967-f7d7-4eee-a769-b2605da9c7d6
+type: text/vnd.tiddlywiki
+
+A ''permutation'' of a set is just a [[Bijection]] from the set to itsef.

@@ -1,0 +1,90 @@
+created: 20171011221818936
+creator: cosmos
+modified: 20171031113054865
+modifier: cosmos
+tags: Homotopy [[Topological property]]
+title: Fundamental group
+tmap.id: e5759a02-1d3b-4a08-8be7-f08719901ecf
+type: text/vnd.tiddlywiki
+
+
+$$X$$ [[Topological space]], $$x_0 \in X$$
+
+[[Definition|https://www.youtube.com/watch?v=Lcu93_AfTQw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=16#t=32m15s]] of the ''fundamental group'' with ''base point'' at $$x_0$$:
+
+:$$\pi_1(X,x_0) = \{[f] | f: I \to X \text{ a path} | f(0) = f(1) = x_0\}$$ ([[Homotopy class]]es of [[Closed path]]s starting/ending at $$x_0$$).
+
+Here we are using [[Path homotopy]] as we are using paths.
+
+See also [[this video|https://www.youtube.com/watch?v=uBDYSPMyaRQ&list=PLLq_gUfXAnkkdRttylq7Svmob1gxDgcDZ]], and [[these notes|https://courses.maths.ox.ac.uk/node/view_material/33583#page=23]]
+
+!!!__Product__
+
+The product for making it into a [[Group]] is the [[Product of paths]] lifted to their homotopy classes (as explained in [[Path homotopy]]). It is always defined for the above set because they all start and end in the same point.
+
+$$[f]*[g] = [f*g]$$
+
+(where $$*$$ for paths is the [[Product of paths]])
+
+The unit element is the constant path $$c_{x_0}$$.
+
+$$[f]^{-1} = [f^{-1}]$$
+
+__Example__
+[[For R^n|https://www.youtube.com/watch?v=Lcu93_AfTQw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=16#t=37m18s]], it is the [[Trivial group]] using [[Straight line homotopy]]
+
+[[pi_1 of circle|https://www.youtube.com/watch?v=Lcu93_AfTQw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=16#t=1h6m30s]] $$\cong \mathbb{Z}$$
+
+!!!__Fundamental group from [[Triangulation]]__
+
+The group of equivalence classes of edge loops under 'elementary deformations' for a [[Triangulation]] of space X is a finite combinatorial object, easier to compute, and it is [[isomorphic|Group isomorphism]] to the fundamental group of the space X. 
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33583#page=30]]
+
+----------------
+
+[[How to map paths from foundamental group with one base point to another with another base point, given a path connecting them|https://www.youtube.com/watch?v=Lcu93_AfTQw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=16#t=41m40s]]. Shows that the groups are [[isomorphic|Group isomorphism]].
+
+[[Therefore|https://www.youtube.com/watch?v=Lcu93_AfTQw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=16#t=52m24s]], if $$X$$ is [[Path connected]], then all fundamental groups are isomorphic. However, in general, there is not a canonical/natural isomorphism, it depends on the path. See [[this other vid|https://www.youtube.com/watch?v=uBDYSPMyaRQ&list=PLLq_gUfXAnkkdRttylq7Svmob1gxDgcDZ#t=53m]]
+
+[[Simply connected]]
+
+--------
+
+__Functor__
+
+[[Def|https://www.youtube.com/watch?v=Lcu93_AfTQw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=16#t=1h8m15s]]:
+
+Let $$h: X \to Y$$ be a [[Continuous function]] with $$h(x_0) = y_0$$. Define
+
+$$h_*: \pi(X,x_0) \to \pi_1(Y,y_0)$$
+
+$$h_* ([f]) = [h \circ f]$$
+
+This is a [[Group homomorphism]] induced by $$h$$.
+
+[[Functorial properties of the map|https://www.youtube.com/watch?v=Lcu93_AfTQw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=16#t=1h14m14s]]
+
+$$X \to_f Y \to_g Z$$
+
+$$f(x_0) = y_0$$, $$g(y_0) = z_0$$
+
+=> $$(g \circ f)_* = g_* \circ f_*$$
+
+identity map $$(id_X)_* = id_{\pi_1(X,x_0)}$$ 
+
+See also [[this vid|https://www.youtube.com/watch?v=uBDYSPMyaRQ&list=PLLq_gUfXAnkkdRttylq7Svmob1gxDgcDZ#t=1h5m30s]].
+
+[[Theorem|https://www.youtube.com/watch?v=Lcu93_AfTQw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=16#t=1h22m]]. If $$f: X \to Y$$ is a [[Homeomorphism]], $$f(x_0) = y_0$$, then $$f_*: \pi_1(X,x_0) \to \pi_1 (Y,y_0)$$ is n [[Isomorphism]].
+
+[[Remark|https://www.youtube.com/watch?v=Lcu93_AfTQw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=16#t=1h26m55s]]. I $$X$$ and $$Y$$ are path-connected and $$\pi_1(X,x_0)$$ is not isomorphic to $$\pi_1(Y,y_0)$$ then $$X$$ and $$Y$$ are not homeomorphic.
+
+[[Fundamental group|https://www.youtube.com/watch?v=Lcu93_AfTQw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=16#t=1h30m25s]] $$(\pi(X,x_0),h_*)$$ is a [[Functor]] from the [[Category]] of topological spaces with base points and continuous base-point-preserving maps to the category of groups and group homomorphisms.
+
+-----------------
+
+!![[Examples of fundamental groups]]
+
+[[Fundamental group of a product of spaces is isomorphic to|https://www.youtube.com/watch?v=HWzwaA8ImkM&index=19&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=41m50s]] the [[product|Direct product of groups]] of the fundamental groups
+
+!!![[Van Kampen's theorem]]

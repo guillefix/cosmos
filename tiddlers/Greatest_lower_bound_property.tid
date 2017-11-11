@@ -1,0 +1,9 @@
+created: 20170925151926503
+creator: cosmos
+modified: 20170925152005628
+modifier: cosmos
+title: Greatest lower bound property
+tmap.id: a9217bfd-4940-4d4d-9794-d54d17ac5c87
+type: text/vnd.tiddlywiki
+
+An [[ordered|Ordering]] set $$A$$ is said to have the ''greatest lower bound property'' if every nonempty subset $$A_0$$ of $$A$$ that is [[Bounded below]] has a [[greatest lower bound|Infimum]].

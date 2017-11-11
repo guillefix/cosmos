@@ -1,0 +1,21 @@
+created: 20170926110405934
+creator: cosmos
+modified: 20170926111017606
+modifier: cosmos
+title: Code redundancy
+tmap.id: 8d21ff11-9456-4f60-a108-15bb9f0103ac
+type: text/vnd.tiddlywiki
+
+In [[Data compression]], particularly [[Universal source coding]], we define the ''redundancy of a code'' with [[Codeword]] lengths $$l(x)$$, and implied probability $$q(x)=2^{-l(x)}$$ (see [[Source coding theorem]]), as __the difference between the expected length of the code (under the true [[Information source]] $$X$$ distribution $$p$$) and the [[lower limit for the expected length|Source coding theorem]]__:
+
+$$R(p,q) = E_p[l(X)] - E_p\left [ \log{\frac{1}{p(X)}}\right]$$
+
+ = $$\sum_x p(x) \left ( l(x) - \log{\frac{1}{p(x)}}\right)$$
+
+$$=\sum_x p(x) \left (\log{\frac{1}{q(x)}} - \log{\frac{1}{p(x)}}\right)$$
+
+$$ = \sum_x p(x) \log{\frac{p(x)}{q(x)}}$$
+
+$$=D(p||q)$$
+
+where $$q(x) = 2^{-l(x)}$$ is the distribution that corresponds to the codeword lengths $$l(X)$$, and $$D(\cdot || \cdot)$$ is the [[Relative entropy]]

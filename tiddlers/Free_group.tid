@@ -1,0 +1,30 @@
+created: 20171024221030390
+creator: cosmos
+modified: 20171031155648631
+modifier: cosmos
+tags: Group
+title: Free group
+tmap.id: 96a1e553-65db-4c18-a0b2-ec122010b0b2
+type: text/vnd.tiddlywiki
+
+Informally, a free group is the set of [[String|Sequence]]s (aka words) where each letter is one of the generators (or their inverses) and product is string [[Concatenation]]
+
+The letters belong to a set $$S$$ (called [[Alphabet]]). The set of inverses is called $$S^{-1}$$. The free group is denoted $$F(S)$$
+
+However, because we want words like $$baa^{-1}b$$ to be equivalent to $$bb$$, the true definition has as elements ''equivalence classes''.
+
+The equivalence relation corresponds to there being a finite number of ''elementary contraction''s or elementary expansions taking one word to another. Elementary contractions are $$y_1aa^{-1}y_2 \searrow y_1y_2$$. An elementary expansion is the opposite process (relation), denoted $$\nearrow$$
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33583#page=35]]
+
+$$F(\{*\}) \cong \mathbb{Z}$$
+
+If a group G is isomorphic to F(S), for some set S, then the copy of S in G is known as a ''free generating set''.
+
+[[Free Abelian group]]
+
+For each equivalence class, we have a canonical representative called a ''reduced representative'' (it doesn't admit an elementary contraction), which we can show is unique. See [[here|https://courses.maths.ox.ac.uk/node/view_material/33583#page=36]]
+
+-----------------
+
+Applications to [[Algebraic topology]]/[[Homotopy]]/[[Fundamental group]]

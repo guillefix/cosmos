@@ -1,0 +1,21 @@
+created: 20170706103404142
+creator: cosmos
+modified: 20170706104307575
+modifier: cosmos
+tags: Cipher
+title: Affine cipher
+tmap.id: 9f4f252f-4e52-43a4-9d60-048038ed6ee0
+type: text/vnd.tiddlywiki
+
+
+[[intro|https://www.youtube.com/watch?v=W1SY6qKZrUk#t=1h22m50s]]
+
+Using [[Modular arithmetic]]:
+
+''encryption'': $$y=ax+b \text{ mod} 26$$
+
+''decryption'': $$x=a^{-1}(y-b) \text{ mod} 26$$
+
+$$a$$ has to be [[Coprime]] with $$26$$ (i.e. $$gcd(a,26)=1$$ for $$a^{-1}$$ to exist 
+
+[[Key space]] is small, so [[Brute-force attack]] is very easy, and also [[frequency analysis|Analytical attack]]. So it's not secure

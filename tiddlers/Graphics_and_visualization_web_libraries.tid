@@ -1,14 +1,23 @@
 created: 20160627204754388
 creator: guillefix
-modified: 20170316163931007
+modified: 20171015141207253
 modifier: cosmos
+tags: [[Visualization tools]]
 title: Graphics and visualization web libraries
 tmap.id: f2ccb944-07df-4ca1-9fd0-b9ed34aaf0ee
 type: text/vnd.tiddlywiki
 
 Graphics and visualization libraries for [[Frontend web development]]
 
-* [[Bokeh|http://bokeh.pydata.org/en/latest/docs/gallery.html]]
+https://stardustjs.github.io/?utm_content=buffer8ed05&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+
+https://cindyjs.org/gallery/main/
+
+http://philogb.github.io/jit/
+
+http://mbostock.github.io/protovis/ex/
+
+*[[Bokeh|http://bokeh.pydata.org/en/latest/docs/gallery.html]]
 
 * https://d3js.org/ [[d3js]]
 

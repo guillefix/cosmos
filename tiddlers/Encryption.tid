@@ -1,0 +1,11 @@
+created: 20170706104949194
+creator: cosmos
+modified: 20170706110434371
+modifier: cosmos
+tags: Cryptography
+title: Encryption
+tmap.id: 62101535-34b2-4ad2-9e96-21b8438c396f
+type: text/vnd.tiddlywiki
+
+
+The conversion from [[Plaintext]] to [[Ciphertext]] in a [[Cryptosystem]]

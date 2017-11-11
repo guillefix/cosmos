@@ -1,6 +1,6 @@
 created: 20170606191631070
 creator: cosmos
-modified: 20170606191721213
+modified: 20170913160626835
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Successor representation
@@ -8,6 +8,6 @@ tmap.id: 9369bc41-e950-466c-b982-680c858a38d9
 type: text/vnd.tiddlywiki
 
 
-See [[The hippocampus as a predictive map|http://biorxiv.org/content/biorxiv/early/2016/12/28/097170.full.pdf]].
+See [[The hippocampus as a predictive map|http://biorxiv.org/content/biorxiv/early/2016/12/28/097170.full.pdf]]. [[Design principles of Hippocampal cognitive map|http://gershmanlab.webfactional.com/pubs/Stachenfeld14.pdf]]
 
 It has some of the advantages of both model-based and model-free [[Reinforcement learning]]

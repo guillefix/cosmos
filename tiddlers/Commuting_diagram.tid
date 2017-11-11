@@ -1,0 +1,10 @@
+created: 20171014200413955
+creator: cosmos
+modified: 20171014200504164
+modifier: cosmos
+tags: [[Diagrammatic reasoning]]
+title: Commuting diagram
+tmap.id: 97754a22-2b15-4788-84ad-e6a859717e71
+type: text/vnd.tiddlywiki
+
+A diagram of a [[Category]] where the composition of the arrows along any two paths between a fixed pair of objects produces the same arrow.

@@ -1,0 +1,16 @@
+created: 20171105235737677
+creator: cosmos
+modified: 20171106150103422
+modifier: cosmos
+tags: [[Vector field]] [[Lie derivative]]
+title: Lie bracket
+tmap.id: 398b4494-e2a2-4d31-81b5-114ea2fd78b1
+type: text/vnd.tiddlywiki
+
+$$[X,Y] = XY - YX$$
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=27]].
+
+We can "multiply" vector fields $$X$$ and $$Y$$ by considering them as differential operators (as, at each point they are [[Tangen vector]]s, but more precisely, [[vector fields can be seen as derivations on the space of smooth functions on a manifold|https://courses.maths.ox.ac.uk/node/view_material/33094#page=26]]), and so $$XY$$ means $$X$$ composed with $$Y$$.
+
+[[Lie brackets can be seen as ways that one vector field (seen as an infinitesmial diffeomorphism) acts on another vector field|https://courses.maths.ox.ac.uk/node/view_material/33094#page=32]]. Basically, the Lie bracket gives a new vector field corresponding to the rate of change of the preimage of the vector $$Y$$ under the flow given by vector $$X$$. -- So it says in which direction would I need to change vector field $$Y$$ at each point, so that the flow takes it to the original vector field $$Y$$

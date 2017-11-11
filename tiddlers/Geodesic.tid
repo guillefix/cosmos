@@ -1,6 +1,6 @@
 created: 20161217185059798
 creator: cosmos
-modified: 20170628183701223
+modified: 20170629194847760
 modifier: cosmos
 tags: [[Differential geometry]]
 title: Geodesic
@@ -26,6 +26,8 @@ can compute wavefront using [[Eikonal equation]]
 [[A curve is a geodesic iff its acceleration is normal to the surface S at every point|https://www.youtube.com/watch?v=j4fLmI0MlnU#t=1h4m]], that is its velocity doesn't change in the tangent plane, at every point! (it's locally straight when projected to the surface).
 
 > You can think of geodesics as the trajectories that a little frictionless ball would follow in a "hollow" surface, where the only forces acting on it are the [[Normal force]]s due to the walls of the hollow surface
+
+[[This means|https://www.youtube.com/watch?v=lB6wZFzscOY&t=9m40s]] that the [[Geodesic curvature]] of a geodesic is $$0$$, which makes sense, as the geodesic is supposed to not be accelerating in the realm of the surface
 
 ---------------------
 

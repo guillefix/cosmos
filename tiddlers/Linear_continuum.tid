@@ -1,0 +1,18 @@
+created: 20170926162804306
+creator: cosmos
+modified: 20170926165013369
+modifier: cosmos
+tags: [[Connected space]]
+title: Linear continuum
+tmap.id: 9e3471f9-c465-4f0e-8d53-aab8f587e7d9
+type: text/vnd.tiddlywiki
+
+[[Definition|https://www.youtube.com/watch?v=DP0OELdzAZ8&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=9#t=8m]]: An ordered set $$X$$ is a ''linear continuum'' if the following 2 conditions hold:
+
+* $$X$$ has the [[Least upper bound property]]
+
+* $$\forall x,y \in X$$, if $$x < y$$, there exists $$z \in X$$ such that $$x < z < y$$.
+
+Example: the [[Real number]]s, the [[Ordered square]]
+
+[[Theorem|https://www.youtube.com/watch?v=DP0OELdzAZ8&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=9#t=13m]]: If $$X$$ is a linear continiuum with the [[Order topology]] (induced by its order), then $$X$$ is connected, and also every interval and ray is connected. [[Proof|https://www.youtube.com/watch?v=DP0OELdzAZ8&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=9#t=15m]]

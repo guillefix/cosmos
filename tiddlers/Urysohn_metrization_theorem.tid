@@ -1,0 +1,21 @@
+created: 20171011173719195
+creator: cosmos
+modified: 20171011182314573
+modifier: cosmos
+tags: Metrizable [[Separation axiom]]
+title: Urysohn metrization theorem
+tmap.id: 72501d95-53f7-44bb-aa5e-3ce1e12cdb5b
+type: text/vnd.tiddlywiki
+
+[[Theorem|https://www.youtube.com/watch?v=dW2UyOEP6FI&index=14&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h24m14s]]. 
+
+$$X$$ [[regular|Regular space]] [[with a countable basis|Second countable]] implies $$X$$ is [[Metrizable]]
+
+Uses [[Urysohn's lemma]] . [[Proof|https://www.youtube.com/watch?v=0j7mkn5wNMY&index=15&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx]]
+
+
+Related [[Theorem|https://www.youtube.com/watch?v=0j7mkn5wNMY&index=15&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=36m50s]]:
+
+$$X$$ compact Hausdorff, then:
+
+: $$X$$ is metrizable if and only if $$X$$ has a countable spaces

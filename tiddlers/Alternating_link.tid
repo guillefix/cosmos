@@ -1,0 +1,13 @@
+created: 20171105165511184
+creator: cosmos
+modified: 20171105165652607
+modifier: cosmos
+title: Alternating link
+tmap.id: f713f3b8-d701-4de9-ad11-c306fcfbf939
+type: text/vnd.tiddlywiki
+
+A [[link diagram|Knot diagram]] D is ''alternating'' if, as you travel along the link, the crossings are encountered in an alternating manner over , under, over and so on. A link is called alternating if it admits an alternating diagram.
+
+All [[Prime knot]]s up to seven crossings are alternating. At one time it was believed that all knots were alternating, but this is not so 
+
+see [[here|http://homepages.abdn.ac.uk/r.hepworth/pages/files/Knots_Notes.pdf#page=10]]

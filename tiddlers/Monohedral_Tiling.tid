@@ -1,0 +1,12 @@
+created: 20171102141256405
+creator: cosmos
+modified: 20171102141341990
+modifier: cosmos
+tags: Tiling
+title: Monohedral Tiling
+tmap.id: 23f3a4a7-1e4f-447a-8a9c-ef8f642ae01f
+type: text/vnd.tiddlywiki
+
+ A tiling in which all tiles are [[congruent|Congruent]]. 
+
+http://mathworld.wolfram.com/MonohedralTiling.html

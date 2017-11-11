@@ -1,9 +1,11 @@
 created: 20160714015149744
 creator: guillefix
-modified: 20161104134327901
-modifier: guillefix
+modified: 20170821163954049
+modifier: cosmos
 title: Discrete topology
 tmap.id: bb4b9d6e-422b-479c-aee6-ee064415ab5c
 type: text/vnd.tiddlywiki
 
 A [[topology|Topological space]] where every subset of a set $$X$$ is open.
+
+[[An example is|https://www.youtube.com/watch?v=uINRZyMsX3I&index=2&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h7m10s]] the topology induced as all the closed intervals in $$\mathbb{R}$$ as the [[basis|Basis of a topology]] of the topology

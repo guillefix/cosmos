@@ -1,7 +1,7 @@
 created: 20160206172615546
 creator: guillefix
-modified: 20161104134329381
-modifier: guillefix
+modified: 20170926124647422
+modifier: cosmos
 tags: Analysis
 title: Limits and infinity
 tmap.id: a6709d31-e4c5-413a-80d3-43ab4b5ce86f
@@ -16,3 +16,7 @@ This is analogous to other "super"-things, like __supersolids__ which are solids
 -------
 
 Another mathematical object defined as a limit are __space-filling curves__, described in  [[this video by 3Blue1Brown|https://www.youtube.com/watch?v=DuiryHHTrjU]], that also explains the __usefulness of infinite results in a finite world__. Basically, infinite results are always described as a limit of a sequence of finite results. And these finite results themselves are useful. The concept of infinity is still useful because it allows to understand and summarize these finite results in simple ways.
+
+.....
+
+perhaps only those concepts to do with infinity which can be expressed as a a limit of finite concepts are useful

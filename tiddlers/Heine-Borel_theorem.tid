@@ -1,0 +1,18 @@
+created: 20170826211923329
+creator: cosmos
+modified: 20170930222458506
+modifier: cosmos
+tags: [[Compact set]] [[Real analysis]]
+title: Heine-Borel theorem
+tmap.id: abb31516-649c-41c0-ab24-78848e5f62f5
+type: text/vnd.tiddlywiki
+
+In [[Standard topology]] in $$\mathbb{R}^n$$, a set is [[compact|Compact set]] if and only if it is bounded and [[closed|Closed set]] 
+
+[[video|https://www.youtube.com/watch?v=AQHVdiXRXQA&index=13&list=PL0E754696F72137EC]]
+
+[[Any closed interval is compact|https://www.youtube.com/watch?v=AQHVdiXRXQA&index=13&list=PL0E754696F72137EC#t=6m40s]] (also k-cells)
+
+[[Statement and proof of Heine-Borel theorem|https://www.youtube.com/watch?v=AQHVdiXRXQA&index=13&list=PL0E754696F72137EC#t=27m5s]]
+
+[[Another video|https://www.youtube.com/watch?v=4lrmr61S03I&index=11&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h10m45s]]

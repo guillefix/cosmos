@@ -1,0 +1,33 @@
+created: 20170705222249999
+creator: cosmos
+modified: 20170706132521966
+modifier: cosmos
+tags: Cryptography
+title: Cipher
+tmap.id: 5f73f8e5-64b6-4c06-9f7a-a116edab694c
+type: text/vnd.tiddlywiki
+
+
+!!__Historical ciphers__
+
+[[Shift cipher]]
+
+[[Affine cipher]]
+
+[[Substitution cipher]]
+
+!!__[[Stream cipher]]__
+
+[[One time pad]]
+
+!!__[[Block cipher]]__
+
+---------------
+
+[[Unconditionally secure]] cipher, [[One time pad]]
+
+--------------
+
+[[Mirdek card cipher]]
+
+[[Solitaire cipher]]

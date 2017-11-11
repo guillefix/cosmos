@@ -1,6 +1,6 @@
 created: 20160629171233090
 creator: guillefix
-modified: 20170522193932847
+modified: 20171002173704348
 modifier: cosmos
 tags: Complexity
 title: Kolmogorov complexity
@@ -92,6 +92,10 @@ from [ext[here|https://cs.uwaterloo.ca/~shallit/Papers/auto5.pdf]]
 [[Kolmogorov Complexity and Solovay Functions|https://arxiv.org/abs/0902.1041]]
 
 [[On the Gaussianity of Kolmogorov Complexity of Mixing Sequences|https://arxiv.org/abs/1702.01317]]
+
+http://www.hutter1.net/kolmold.txt
+
+http://www.hutter1.net/ait.htm
 
 ---------
 

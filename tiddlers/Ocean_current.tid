@@ -1,0 +1,51 @@
+created: 20170920152123709
+creator: cosmos
+modified: 20170920163139236
+modifier: cosmos
+tags: Sea
+title: Ocean current
+tmap.id: 38cc93e3-0b47-4a92-97e2-f09279c7b1fa
+type: text/vnd.tiddlywiki
+
+
+https://en.wikipedia.org/wiki/Ocean_current
+
+Good paper with some of the physics: http://www.sciencedirect.com/science/article/pii/0146631361900144
+
+Chimenys, largest waterfalls on Earth.
+
+Chimneys in North because of high salt concentration of water (so high density). Due in part due to sea water freezing (which releases salt that gets to the rest of the water), and also to rapid cooling, which decreases. These chimneys initiate the equatorward deep currents. There is also equatorward deep current (which can be explained with simple physics of thermohaline circulation*, assuming heating at equators and cooling at poles). These equatorward currents "pull" water north (due to continuity of flow) in the west arm of a surface gyre (called Gulf current!), which is not only affected by this pulling, but it's initiated by wind, pressure and Coriolis forces (see geostrophic balance).
+
+*Main idea from [[here|http://www.sciencedirect.com/science/article/pii/0146631361900144]], if the current received a net input of heat while it travels, then the temperature should increase with time, and thus in the direction of the flow. Because a temperature gradient is found from pole to equator, the main flow should be from pole to equator. There are many details to fill this image. Furthermore, this image assumes the pole to equator temperature gradient already, which we could take it empirically. It's always hard to get a full understanding in fluid dynamics, but specially the super complex systems of ocean currents, I guess...
+
+//thermohaline circulation, aka conveyor belt//
+
+https://pmm.nasa.gov/education/videos/thermohaline-circulation-great-ocean-conveyor-belt
+
+[img[https://upload.wikimedia.org/wikipedia/commons/9/9b/Corrientes-oceanicas.png]]
+
+http://sci-hub.cc/10.1038/415863a
+
+The now classical picture of the overturning in a meridional plane driven by
+the poleward decrease in the net surface radiation is shown in Figure 3, taken
+from Wyrtki (1961). Warm, light water flows poleward at the surface and loses
+its buoyancy by intense cooling at high latitudes. The newly formed deep water
+spreads equatorward and diffuses slowly upward through the thermocline, at
+a rate of only a few meters per year (Bretherton 1982). With the additional
+constraint of geostrophy (the balance between horizontal pressure gradient and
+Coriolis forces), such a meridional flow must be supported by either an eastwest
+pressure gradient, for which lateral boundaries are required, or friction, as
+in the circumpolar ocean—e.g. the analytic model of Wyrtki (1961).
+
+East-west pressure gradient is needed to counteract the Coriolis force, and allow a net current going north (https://en.wikipedia.org/wiki/Geostrophic_current ). This requires boundaries, and is why in the large Pacific ocean such long northward current isn't possible..
+
+https://en.wikipedia.org/wiki/Ocean_gyre
+
+http://www.sciencedirect.com/science/article/pii/0146631361900144
+
+Handwavy explanation: https://www.youtube.com/watch?v=UuGrBhK2c7U
+
+First map of ocean currents: Hydrographic Map of Ocean Motion, 1665
+Tabula Geographico-Hydrographica Motus Oceani
+Athanasius Kircher
+Buchonia (Germany), 1602-1680

@@ -1,0 +1,11 @@
+created: 20171017234644364
+creator: cosmos
+modified: 20171024103351794
+modifier: cosmos
+title: Retraction deformation
+tmap.id: 12890d03-c27a-495d-a9a3-2065fa614332
+type: text/vnd.tiddlywiki
+
+A [[Homotopy]] between the identity map of a space $$X$$ and a [[Retraction]] to a subspace $$A \subset X$$.
+
+I think that a retraction deformation between a space and a subspace implies they are [[Homotopy equivalent]]

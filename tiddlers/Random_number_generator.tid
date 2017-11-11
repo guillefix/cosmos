@@ -1,0 +1,23 @@
+created: 20170706110808259
+creator: cosmos
+modified: 20170706111842590
+modifier: cosmos
+tags: Randomness
+title: Random number generator
+tmap.id: 438b704e-f7b2-4def-9340-29476f300cf1
+type: text/vnd.tiddlywiki
+
+//RNG//s
+
+[[intro|https://www.youtube.com/watch?v=AELVJL0axRs#t=38m]]
+
+* [[True random number generator]] (TRNG). They stem from [[random|Randomness]] physical processes
+** [[Coin flip]]
+** [[Atmospheric noise]]
+** [[Dice]]
+** [[Quantum random number generator]], [[Radioactive decay]]
+** [[Thermal noise]]
+** [[Mouse movement]]
+** [[Keystroke timing]]
+* [[Pseudorandom number generator]] (PRNG)
+* [[Cryptographically secure PRNG]] (CPRNG)

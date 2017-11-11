@@ -1,0 +1,12 @@
+created: 20171014200628316
+creator: cosmos
+modified: 20171014200847136
+modifier: cosmos
+tags: [[Partially ordered set]] Homomorphism
+title: Monotone function
+tmap.id: a63ff0d3-fa11-4cd9-bd7a-878e0c8997ef
+type: text/vnd.tiddlywiki
+
+//aka partial order homomorphism//
+
+A ''monotone function'' $$h: P \to Q$$ ($$P,Q$$ are [[posets|Partially ordered set]]) is a function such that $$\forall \,y \in P. x \leq y$$, implies that $$h(x) \leq h(y)$$

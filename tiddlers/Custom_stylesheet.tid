@@ -1,6 +1,6 @@
 created: 20160117153324960
 creator: guillefix
-modified: 20161104134327749
+modified: 20171105164750451
 modifier: cosmos
 tags: $:/tags/Stylesheet
 title: Custom stylesheet
@@ -17,6 +17,7 @@ type: text/vnd.tiddlywiki
 <div id="slider"></div>-->
 
 <pre>
+/*
 html button {
 	background: #222;
 	border-color: #222;
@@ -31,11 +32,9 @@ html select {
   background: #222;
 }
 
-/*
 .subtitle-dark {
   color: #777;
 }
-*/
 
 html .tc-page-container-wrapper {
 min-height: 100%;
@@ -62,6 +61,56 @@ background-color: rgba(227, 230, 101, 0.6);
 
 strong {
 color: #A5F7DA;
+}
+*/
+
+html .tc-page-container-wrapper {
+min-height: 100%;
+background: rgba(0, 0, 0, 0.);
+}
+
+html .tc-page-container-wrapper {
+min-height: 100%;
+background: rgba(0, 0, 0, 0.34);
+}
+
+.tc-tab-content {
+background: rgba(0,0,0,0.5);
+}
+
+.tc-tab-content a.tc-tiddlylink {
+color: white;
+}
+
+.subtitle-dark {
+  color: #DDD;
+}
+
+.tc-site-subtitle {
+  color: #DDD;
+}
+
+.imgfloat {
+float:left;
+height: 100%;
+margin-right:25px;
+}
+
+.tc-tiddler-body {
+overflow: auto;
+}
+
+@media (min-width: 1400px) {
+.tc-story-river {
+width: 60vw;
+/*margin-right:200px;*/
+}
+.tc-sidebar-scrollable {
+ width: 35vw;
+left: 65vw;
+}
+.tc-tiddler-frame {
+width: 60vw;
 }
 
 </pre>

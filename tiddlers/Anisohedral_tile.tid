@@ -1,0 +1,19 @@
+created: 20171102162519292
+creator: cosmos
+modified: 20171102163210433
+modifier: cosmos
+tags: Tile
+title: Anisohedral tile
+tmap.id: ffbe9c45-9667-49de-a8e6-0f8e3c0cdbf4
+type: text/vnd.tiddlywiki
+
+A [[Tile]] which only allows [[Anisohedral tiling]]s, so no isohedral tilings, is called an ''anisohedral tile''
+
+__classification of 2-anisohedral tiles__
+    You will notice that we have numbers like 4353-11a2 with each 2-anisohedral tile. Since these are 2-anisohedral we have two classes of tiles: let tile A be from one class and Tile B from the other class. The classification number 4353-11a2 would tell us that Tile A has 4 neighbors and Tile B has 5 neighbors. The little threes tell us that Tile A has three neighbors who are Bs, and Tile B has three neighbors who are As. Note that the neighbor numbers show the ratio between the types of tiles. Most of the time these are in a one to one ratio with the only currently known exception being the unbalanced tiling which was discovered in 2002 which has the neighbor numbers 3 and 6 for a ratio of 1:2. The number and letter after the dash are part of the full topological classification explained by Delgado, Huson, and Zamorzaeva. The final number (or letter) is merely so that I can name the different tilings. I tried to add them in chronological order of when the tiles were published.
+
+http://www.angelfire.com/mn3/anisohedral/explain.html
+
+In 2003, Joseph Myers, exhibited a remarkable 10-isohedral tile — apparently the current record. See [[this article|http://mathfactor.uark.edu/downloads/tessellations.pdf]]
+
+[[Escher]]'s only anisohderal tiling: [[Ghosts|http://www.tessellations.org/tess-escher10.shtml]]

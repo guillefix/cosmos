@@ -1,0 +1,28 @@
+created: 20170825171528791
+creator: cosmos
+modified: 20170825173508916
+modifier: cosmos
+tags: [[Vector calculus]]
+title: Laplacian
+tmap.id: 3934333b-d755-4841-9151-d1fce32ba34b
+type: text/vnd.tiddlywiki
+
+//aka Laplace-Beltrami operator, $$\Delta$$, $$\nabla^2$$//
+
+The [[Divergence]] of the [[Gradient]] of a function. It is a [[Self-adjoint]] operator (like symmetric matrices.).
+
+The Laplacian can be interpreted as the difference between the average of a function on an infinitesimal sphere around a point and the value of the function at the point itself. It is one of the most important operators in mathematical physics, used to describe phenomena as diverse as heat [[Diffusion]], [[Quantum mechanics]], and [[Wave propagation|Wave equation]].
+
+$$\Delta \Phi(x) = 0$$ is [[Laplace's equation]]
+
+The [[Eigenfunction]]s of the Laplacian operator are the Fourier modes/harmonics. In a manifold they give the generalization of these
+
+!!__Laplacian on [[Manifold]]s__
+
+See [[the Laplacian on a Riemannian Manifold: An Introduction toAnalysis on Manifolds|http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521468312]], and [[this article|http://sci-hub.io/10.1109/msp.2017.2693418]] for applications to [[Geometric deep learning]]
+
+!!__[[Graph laplacian]]__
+
+Discrete version of the Laplacian, which is also defined for general [[Graph]]s. Used in [[Finite difference method]]s.
+
+Its [[Eigenvector]]s generalize Fourier modes to graphs

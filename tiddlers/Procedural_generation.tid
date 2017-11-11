@@ -1,6 +1,6 @@
 created: 20160705111418197
 creator: guillefix
-modified: 20170410184241639
+modified: 20171023125511933
 modifier: cosmos
 tags: Algorithms
 title: Procedural generation
@@ -12,6 +12,8 @@ https://en.wikipedia.org/wiki/Procedural_generation
 [[Procedural graphics]]
 
 Often uses generative models in [[Supervised learning]], and now //deep generative models//
+
+http://ijdykeman.github.io/ml/2017/10/12/wang-tile-procedural-generation.html -- See <big>[[Wave function collapse algorithm]]</big>
 
 !!__Audio generation__
 

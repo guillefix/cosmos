@@ -1,0 +1,35 @@
+created: 20170715180051790
+creator: cosmos
+modified: 20170715180340253
+modifier: cosmos
+tags: [[Reinforcement learning]]
+title: Optimal control
+tmap.id: 95b50c41-47cd-47dd-ba84-08f854813452
+type: text/vnd.tiddlywiki
+
+
+!__Optimal control in reinforcement learning__
+
+[[David Silver video|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1#t=1h16m]] -- [[Optimal policy theorem|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1#t=1h17m25s]]!
+
+The core problem of MDPs is to find a ''policy'' for the decision maker: a function $$\pi$$ that specifies the action $$\pi(s)$$ that the decision maker will choose when in state $$s$$ ([[vid|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=58m44s]]).  <small>Note that once a Markov decision process is combined with a policy in this way, this fixes the action for each state and the resulting combination behaves like a [[Markov chain]]</small>. The policy [[could be stochastic too|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=59m24s]]. Apparently, no need to have stochastic policies, except when we have multiple agents (studied in [[Game theory]], as //strategies//), [[vid|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=11m]].
+
+[[vid|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1#t=1h8m9s]]
+
+The __[[goal|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=23m]] is to choose a policy $$\pi$$ that will maximize__ some cumulative function of the random __rewards__, typically the __expected__ discounted sum over a potentially infinite horizon:
+
+|$$V_\pi (s) := \sum^{\infty}_{t=0} {\gamma^t R_{a_t} (s_t, s_{t+1})} $$|''Value function'' ([[vid|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=59m54s]])|
+
+where we choose $$a_t = \pi(s_t)$$,  $$\ \gamma \ $$ is the [[discount factor|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=22m]] and satisfies $$0 \le\ \gamma\ < 1$$. (For example, $$ \gamma = 1/(1+r) $$ when the discount rate is r.)  $$ \gamma $$ is typically close to 1. [[This is known as the total payoff|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=20m20s]], or [[value function|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=29m]], for policy $$\pi$$.
+
+The [[Value function]]s gives a [[Partial ordering]] over policies, given by $$\pi_1 \geq \pi_2$$ iff $$v_{\pi_1} (s) \geq v_{\pi_2}(s)$$ for all $$s$$. Furthermore, one can show that for finite MDPs, there is always an [[Optimal policy]]. There may be several optimal policies, but they all share the same [[Value function]]s, known as the [[Optimal value function]]. The value function [[satisfies a recursive equation|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=33m20s]] called [[Bellman optimality equation]], which will be used for the learning algorithms that compute the optimal policy.
+
+Because of the Markov property, the optimal policy for this particular problem can indeed be written as a function of $$s$$ only, as assumed above ([[although for some richer models this may not be true|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=25m30s]])
+
+For many algorithms (in particular [[model-free|Model-free reinforcement learning]]) one also uses another [[Value function]] known as [[Q function]], or ''action-value function''
+
+!!!__Undiscounted reward__
+
+One can have RL with no discount factor $$\gamma$$. Approach: average reward MPD.
+
+One can and often does apply plain undiscounted rewards to [[Episodic MDP]]s

@@ -1,0 +1,12 @@
+created: 20171016220449831
+creator: cosmos
+modified: 20171016221033283
+modifier: cosmos
+title: Cauchy's theorem
+tmap.id: 1ffe4e01-ccd3-4f6b-b11c-b48d9674c16b
+type: text/vnd.tiddlywiki
+
+
+[[Corollary of |https://www.youtube.com/watch?v=NcKq1IdTotA&index=7&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=32m50s]][[first Sylow theorem|Sylow theorems]]
+
+If a prime number p divides |G| (G [[Group]]), then there is an element in $$x \in G$$, of [[order|Order of a group element]] p. 

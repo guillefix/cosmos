@@ -1,12 +1,15 @@
 created: 20160623202141721
 creator: guillefix
-modified: 20170625194138606
+modified: 20171014161857421
 modifier: cosmos
+tags: [[Simplicity bias]]
 title: Simplicity bias in finite-state transducers
 tmap.id: c6fdbe60-79c7-453f-aa27-d1de97379ed8
 type: text/vnd.tiddlywiki
 
 An example of [[Simplicity bias in discrete systems]]. See also [[this gingko tree|https://gingkoapp.com/app#5808fc87b110bfba4afbec80]]
+
+See [[Redundancy]] calculations in papers in [[Lempel-Ziv complexity]]
 
 See [[Random automata]] and  [[Evolving automata]]
 

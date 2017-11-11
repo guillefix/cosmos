@@ -1,0 +1,18 @@
+created: 20171102141207669
+creator: cosmos
+modified: 20171102162007552
+modifier: cosmos
+tags: Tiling Isohedral
+title: Isohedral tiling
+tmap.id: ef84f19d-bedb-417f-b504-d25c684ecbfb
+type: text/vnd.tiddlywiki
+
+If we consider the [[Symmetry group]] $$S(T)$$ of a [[Tiling]] $$T$$, we can consider the [[Equivalence relation]] given by two tiles being equivalent if a symmetry of the tiling gets you from one to another. Equivalently, we can consider the [[orbits|Group orbit]] of the symmetry group acting on the set of tiles (shape+location). If the number of orbits (or equivalently, the number of equivalence class for the above equivalence relation) is finite, say $$n$$, then the tiling is called ''$$n$$-isohedral''.
+
+A tiling is called ''isohedral'' if it is $$1$$-isohedral. That means, that one can go from one tile to any other by an element of $$S(T)$$, the symmetry group of the tiling. In other words $$S(T)$$ [[acts transitively|Transitive group action]] on the tiles
+
+A tiling where each tile acts like the other tiles. If you copied the tiling of the whole plane on an infinite sheet of clear plastic you could choose any tile on the plastic and line it up on top of any tile on the plane with the whole tiling matching on both the plastic and the plane. -- http://www.angelfire.com/mn3/anisohedral/explain.html
+
+A tiling that is not isohedral is called an [[Anisohedral tiling]]
+
+http://mathworld.wolfram.com/IsohedralTiling.html

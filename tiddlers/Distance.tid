@@ -1,10 +1,12 @@
 created: 20170608215257198
 creator: cosmos
-modified: 20170608215309908
+modified: 20171011124810096
 modifier: cosmos
 tags: 
 title: Distance
 tmap.id: f2114b88-66fd-40ec-8bde-0cbe24ee01dd
 type: text/vnd.tiddlywiki
 
-[[formal definition|https://www.youtube.com/watch?v=tKnBj7B2PSg]]
+[[formal definition|https://www.youtube.com/watch?v=tKnBj7B2PSg]] in [[Riemannian manifold]]s (using a [[Surface]] as an example.
+
+More generally, it can be defined as a [[Metric]] in some space.

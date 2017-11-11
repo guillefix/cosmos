@@ -1,0 +1,16 @@
+created: 20171027210833532
+creator: cosmos
+modified: 20171105163405108
+modifier: cosmos
+tags: Topology
+title: Connected sum
+tmap.id: 0944085e-84a5-45ec-a7ef-89217406189d
+type: text/vnd.tiddlywiki
+
+[[Connected sum video|https://www.youtube.com/watch?v=CxMfwWy1rDM&list=PL7BFF10190F42006E&index=4]]
+
+An operation of two [[Topological manifold]]s where a [[Disk]] is substracted from the manifolds and the resulting boundaries identified with each other.
+
+I think that the manifold we get from the connected sum is the same (up to homeomorphism) independent of the way we perform the sum.
+
+An analogous operation for [[Knot]]s is [[Knot sum]]

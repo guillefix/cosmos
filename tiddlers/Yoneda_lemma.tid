@@ -1,0 +1,12 @@
+created: 20171110231058866
+creator: cosmos
+modified: 20171110231119022
+modifier: cosmos
+tags: [[Category theory]]
+title: Yoneda lemma
+tmap.id: 128a442b-24cf-4dfc-8d15-64e5c49876e7
+type: text/vnd.tiddlywiki
+
+See [[here|https://www.youtube.com/watch?v=TLMxHB19khE]]
+
+Can be used to prove that the [[Yoneda embedding]] is an embedding.

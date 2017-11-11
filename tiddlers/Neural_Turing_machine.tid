@@ -1,6 +1,6 @@
 created: 20161017204437857
 creator: cosmos
-modified: 20170315161045095
+modified: 20170819202624561
 modifier: cosmos
 tags: [[Augmented RNN]]
 title: Neural Turing machine
@@ -138,3 +138,7 @@ this task; this may reflect the difficulty of sorting vectors using only unary v
 </small>
 
 What [[Sorting algorithm]] is it using? From pictures I think it sorts while writing, and then reads in sequence. But how does it sort it anyway?
+
+https://arxiv.org/abs/1505.00521
+
+https://arxiv.org/pdf/1702.04649.pdf

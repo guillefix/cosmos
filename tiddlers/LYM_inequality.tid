@@ -1,0 +1,39 @@
+created: 20171015173726731
+creator: cosmos
+modified: 20171029223548006
+modifier: cosmos
+tags: Antichain [[Power set]] [[Extremal combinatorics]]
+title: LYM inequality
+tmap.id: 61a1a38a-6065-4b68-87ff-8a0bf795fa19
+type: text/vnd.tiddlywiki
+
+//named after Lubell, Yamamoto and
+Meshalkin, who all gave independent proofs of the result//
+
+Let $$F \subseteq P(n)$$ be an [[Antichain]]. Then
+
+:<big>$$\sum\limits_{i=0}^n \frac{|F \cap [n]^{(i)}|}{\binom{n}{i}} \leq 1$$</big>
+
+where $$ [n]^{(i)}$$ is the ith layer of the [[Power set]] $$P(n)$$. Furthermore, we have equality if and only if $$F = [n]^{(i)}$$ for some $$i$$.
+
+[[Sperner's lemma]] can be easily deduced from LYM inequality. It shows that there is only equality in Sperner's lemma when the antichain is $$[n]^{(\lfloor n/2\rfloor)}$$.
+
+Consequences: For instance, if we take 100% of the subsets at one layer, than that summand is 1, and so we can't take any at any other layer (which makes sense, as then it would be comparable to some element, and it wouldn't be an antichain).
+
+If we take 90% at some layer, we can't take more than 10% at another layer, etc.
+
+See full proofs [[here|https://courses.maths.ox.ac.uk/node/view_material/33445]] (second proof is quite slick)
+
+__Local LYM inequality__
+
+Let $$A \subseteq [n]^{(r)}$$. Then
+
+: $$\frac{|\partial A|}{\binom{n}{r-1}} \geq \frac{|A|}{\binom{n}{r}}$$
+
+We have equality if and only if $$A= \emptyset$$ or $$A = [n]^{(r)}$$, where $$\partial A$$ is the [[lower shadow|Shadow set]] of $$A$$.
+
+That is the fraction of sets in the shadow of a collection (relative to all sets in its layer of power set) is greater than or equal to the fraction of sets in the collection.
+
+-----------
+
+This somehow has a similar feeling to [[Kraft inequality]]

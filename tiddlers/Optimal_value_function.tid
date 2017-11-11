@@ -1,0 +1,20 @@
+created: 20170715165131903
+creator: cosmos
+modified: 20170715165228905
+modifier: cosmos
+tags: [[Value function]]
+title: Optimal value function
+tmap.id: c6381c32-931e-405c-8403-e9ee808b6351
+type: text/vnd.tiddlywiki
+
+The [[Value function]] of an [[Optimal policy]] in [[Reinforcement learning]].
+
+It is the solution of the [[Bellman optimality equation]], and is unique for finite MDPs.
+
+!!!__[[Optimal value function|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=44m05s]]__
+
+$$V^* (s) = \max\limits_\pi V^\pi (s)$$
+
+[[Bellman optimality equation|Bellman equation]] for $$V^*$$ (aka [[Bellman optimality equation|https://www.youtube.com/watch?v=lfHX2hHRMVQ&index=2&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h22m40s]], [[derivation|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=14m]]; although I think the way to do it, is to treat first $$a$$ as indepdent of $$\pi$$, and then realizing that maximizing over $$a$$ should give $$V^*$$ (and so $$a$$ should be $$\pi(s_0)$$):
+
+$$V^* (s) = R(s) + \gamma \max\limits_a \sum\limits_{s'} P_{s a} (s') V^* (s')$$

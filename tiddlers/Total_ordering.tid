@@ -1,9 +1,12 @@
 created: 20160713230621662
 creator: guillefix
-modified: 20161104134332919
-modifier: guillefix
+modified: 20170925145903009
+modifier: cosmos
+tags: Ordering
 title: Total ordering
 tmap.id: 9fb54a53-e10f-4de0-9a9e-7fc6bcd6b4e8
 type: text/vnd.tiddlywiki
 
-A ''total ordering'' is a binary [[Relation]] in a set $$X$$, defined as a [[Partial ordering]], $$\preceq$$, such that for any $$x, y \in X$$ either $$x \preceq y $$ or $$y \preceq x$$. The set is then said to be //totally ordered//.
+//aka simple or linear order//
+
+A ''total ordering'' is a binary [[Relation]] in a set $$X$$, defined as a [[Partial ordering]], $$\preceq$$, such that for any $$x, y \in X$$ either $$x \preceq y $$ or $$y \preceq x$$ (all pairs of elements are //comparable//). The set is then said to be //totally ordered//.

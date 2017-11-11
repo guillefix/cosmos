@@ -1,0 +1,14 @@
+created: 20171028175911752
+creator: cosmos
+modified: 20171028175943628
+modifier: cosmos
+tags: [[Exact sequence]]
+title: Short exact sequence
+tmap.id: 47555e6b-4843-4db9-be0c-a56fd84f15b5
+type: text/vnd.tiddlywiki
+
+An [[Exact sequence]] of the form
+
+: $$0 \to A \to B \to C \to 0$$
+
+See [ext[here|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=123]] 

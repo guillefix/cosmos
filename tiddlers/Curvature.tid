@@ -1,6 +1,6 @@
 created: 20170506193326682
 creator: cosmos
-modified: 20170624201755321
+modified: 20170629194445932
 modifier: cosmos
 tags: [[Differential geometry]]
 title: Curvature
@@ -9,6 +9,12 @@ type: text/vnd.tiddlywiki
 
 
 !!__[[Curvature of a curve]]__
+
+
+__Curvatures of [[curves on surfaces|Curve on a surface]]__
+
+* [[Normal curvature]]
+* [[Geodesic curvature]]
 
 !!__Curvature of [[Surface]]s__
 

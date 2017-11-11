@@ -1,7 +1,8 @@
 created: 20160704213940426
 creator: guillefix
-modified: 20161104134331798
-modifier: guillefix
+modified: 20170824220347274
+modifier: cosmos
+tags: [[Variable-length code]]
 title: Prefix code
 tmap.id: 7c54e293-6542-4016-aefd-c42ac9f9b104
 type: text/vnd.tiddlywiki
@@ -23,3 +24,5 @@ A prefix code can be [[represented as a search tree|https://www.youtube.com/watc
 The above definition may called left-prefix. There is also the notion of right-prefix. See [[here|https://www.youtube.com/watch?v=HST2r5pvJCA&index=11&list=PLE125425EC837021F#t=13m35s]]
 
 [[Example to see why prefix codes are faster (in the sense of computational complexity) to decode than other uniquely decodable codes|https://www.youtube.com/watch?v=oMu2OzKUVjw&list=PLE125425EC837021F&index=10#t=7m31s]]. Prefix codes are decodable in linear time
+
+They satisfy the [[Kraft inequality]]

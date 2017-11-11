@@ -1,0 +1,16 @@
+created: 20170925191131904
+creator: cosmos
+modified: 20170925191432857
+modifier: cosmos
+tags: [[Binary tree]]
+title: Binary search tree
+tmap.id: 818dad16-5e53-423c-9557-a59e096c0fbc
+type: text/vnd.tiddlywiki
+
+A [[Binary tree]] where each node in the left branch is less than the root, and each node in the right branch is greater than the root, where the root is any node in the tree.
+
+It allows to perform [[Binary search]]
+
+[[Red-black tree]]
+
+[[Insertion and deletion from binary search tree|https://www.youtube.com/watch?v=hm2GHwyKF1o]]

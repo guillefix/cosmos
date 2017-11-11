@@ -1,0 +1,19 @@
+created: 20171008165354466
+creator: cosmos
+modified: 20171012113118563
+modifier: cosmos
+tags: Group
+title: Symmetric group
+tmap.id: 62249ae8-f8eb-494f-9391-5eb514462f21
+type: text/vnd.tiddlywiki
+
+[[The group of all permutations of a set M|https://www.youtube.com/watch?v=xAt_kDnewRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=1#t=38m18s]], denoted $$S(M)$$, where the group operation is [[Function composition]]. A [[Permutation]] is just a bijection from the set to itsef.
+
+https://en.wikipedia.org/wiki/Symmetric_group
+
+!!__[[Cycle decomposition]]__
+
+An important special case is a [[cycle|Cyclic permutation]]. [[All disjoint cycles commute|https://www.youtube.com/watch?v=HSU2uYDL0Bc&index=5&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=50m10s]] ([[disjoint refers to the fact that they cycle different elements|https://www.youtube.com/watch?v=HSU2uYDL0Bc&index=5&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=48m55s]]).  ''Theorem'':
+ [[All elements in the symmetric group can be written as a product of disjoint cycles|https://www.youtube.com/watch?v=HSU2uYDL0Bc&index=5&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=52m20s]]. If the union of the supports of the cycles equals the $$\{1...n\}$$, the decomposition is unique and we call it the [[Cycle decomposition]].
+
+The [[Conjugacy class]] of an element in symmetric group is determined by the length of the cycles in the cycle decomposition. Because of this the conjugacy classes are in 1-to-1 correspondence to the [[Partition]]s of $$\{1...n\}$$

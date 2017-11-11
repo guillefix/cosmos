@@ -1,0 +1,14 @@
+created: 20170925165357485
+creator: cosmos
+modified: 20170925165807840
+modifier: cosmos
+tags: [[Set theory]]
+title: Axiom of choice
+tmap.id: 26341d72-f941-4bce-88cc-ee67386ef6dc
+type: text/vnd.tiddlywiki
+
+Given a collection $$\mathcal{A}$$ of [[Disjoint]] nonempty [[Set]]s, there exists a set $$C$$ consisting of exactly one element from each element of $$\mathcal{A}$$; that is, a set $$C$$ such that $$C$$ is contained in the union of the elements of $$\mathcal{A}$$, and for each $$A \in \mathcal{A}$$, the set $$C \cap A$$ contains a single element.
+
+See page 57 of Munkres 2nd ed.
+
+There versions of the axiom which restrict to finite collections

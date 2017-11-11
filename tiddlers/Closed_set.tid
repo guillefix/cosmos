@@ -1,10 +1,18 @@
 created: 20170627234831201
 creator: cosmos
-modified: 20170627235056557
+modified: 20170821180336835
 modifier: cosmos
 tags: Set
 title: Closed set
 tmap.id: 573211bc-45bf-4696-a863-6381ba3530c0
 type: text/vnd.tiddlywiki
 
-A [[Set]] that contains all of its [[Limit point]]s
+In [[Topoplogy]], a closed set is a set that is the complement of an [[Open set]] ([[vid|https://www.youtube.com/watch?v=28BluiBRdUk&index=3&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=26m58s]])
+
+finite unions of closed sets are closed
+
+arbitrary intersections of closed sets are closed
+
+Proved using [[De Morgan's laws]]
+
+A closed set contains all of its [[Limit point]]s

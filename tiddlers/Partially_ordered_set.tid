@@ -1,8 +1,8 @@
 created: 20160713224632886
 creator: guillefix
-modified: 20161104134331468
-modifier: guillefix
-tags: 
+modified: 20171014201207694
+modifier: cosmos
+tags: [[Partial ordering]]
 title: Partially ordered set
 tmap.id: 6d7c8a54-54fa-4965-a85d-b06fe5024bb0
 type: text/vnd.tiddlywiki
@@ -10,3 +10,9 @@ type: text/vnd.tiddlywiki
 A ''partially ordered set'' (or //poset//) is a [[Set]] with a [[Partial ordering]] 
 
 [img[http://i.imgur.com/IJdAffv.png]]
+
+--------------
+
+Any partially ordered set forms a [[Category]], with the arrows corresponding to the [[order|Ordering]] relation.
+
+The set of all posets also forms a category with arrows being [[Monotone function]]s

@@ -1,6 +1,6 @@
 created: 20160711222935370
 creator: guillefix
-modified: 20170317114936068
+modified: 20170715171906462
 modifier: cosmos
 tags: [[Probability theory]] [[Game theory]]
 title: Decision theory
@@ -21,9 +21,13 @@ See also [[Machine learning]], and [[Reinforcement learning]]
 
 [[Value of perfect information|https://www.youtube.com/watch?v=_Xf_DAl-isw]]. The value of making observations/gaining information before making decisions.
 
+!!![[Reinforcement learning]]
+
+very much connected with decision theory
+
 ----------------
 
 !!![[Two types of problems in sequential decision-making|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h16m25s]]:
 
-* [[Reinforcement learning]]
-* Planning
+* [[Model-free reinforcement learning]]
+* [[Planning]]

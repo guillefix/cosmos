@@ -1,6 +1,6 @@
 created: 20160913070239061
 creator: cosmos
-modified: 20170512230405675
+modified: 20171007235648185
 modifier: cosmos
 tags: [[Deep learning]]
 title: Deep learning theory
@@ -17,19 +17,37 @@ type: text/vnd.tiddlywiki
 
 !!![[Learning theory and neural networks gingko tree|https://gingkoapp.com/vehvff]]
 
+[[Towards Understanding Generalization of Deep Learning: Perspective of Loss Landscapes|https://arxiv.org/abs/1706.10239]]
+
 [[Understanding deep learning requires rethinking generalization|https://openreview.net/forum?id=Sy8gdB9xx&noteId=Sy8gdB9xx]]
 
 [[Why and when can deep - but not shallow - networks avoid the curse of dimensionality: a review|https://arxiv.org/pdf/1611.00740.pdf]], see also [[Expressibility of neural networks]]
 
-The approximation of functions with a compositional structure
-– can be achieved with the same degree of accuracy by
-deep and shallow networks but that the number of parameters
-are much smaller for the deep networks than for the shallow
-network with equivalent approximation accuracy. 
+The approximation of functions with a compositional structure – can be achieved with the same degree of accuracy by deep and shallow networks but that the number of parameters are much smaller for the deep networks than for the shallow network with equivalent approximation accuracy.
 
 See [[Generalization in deep learning]]
 
+-----------------------
+
+!!__[[Information bottleneck in deep learning]]__
+
+[[Information Theory of Deep Learning. Naftali Tishby|https://www.youtube.com/watch?v=bLqJHjXihK8&feature=youtu.be]]
+
+[[Deep Learning and the Information Bottleneck Principle|https://arxiv.org/abs/1503.02406]]
+
+[[Opening the Black Box of Deep Neural Networks via Information|https://arxiv.org/pdf/1703.00810.pdf]]
+
+See more at [[Information bottleneck]]
+
 --------------------------------
+
+[[Empirical Analysis of the Hessian of Over-Parametrized Neural Networks|https://arxiv.org/abs/1706.04454]]
+
+[[On the Expressive Power of Deep Neural Networks|https://2017.icml.cc/Conferences/2017/Schedule?showEvent=841]]
+
+!!__Optimization dynamics, generalization__
+
+[[Backprop minimizes the free energy|https://calculatedcontent.com/2017/02/24/why-deep-learning-works-3-backprop-minimizes-the-free-energy/?utm_content=buffer2f5bd&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer]]
 
 [[Geometry, Optimization and Generalization in Multilayer Networks|https://www.youtube.com/watch?v=ACdjYP0-cMw]]. He talks about the capacity of the network in a similar way to the theory of neural nets (see [[this video|https://www.youtube.com/watch?v=Vguh9vUb0zc]]). I think it's the same as [[VC dimension]] actually. It's more or less proportional to the number of edges, apparently.
 
@@ -92,6 +110,8 @@ See [[Statistical mechanics of neural networks]]
 [[Deep learning and the renormalization group|http://128.84.21.199/pdf/1301.3124v1.pdf]]
 
 <small>See also comments on [[Why does deep and cheap learning work so well?]]</small>
+
+Renormaliation group can be seen through the lens of compression/[[Information bottleneck]]
 
 -----------------------
 

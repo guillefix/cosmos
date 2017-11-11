@@ -1,0 +1,15 @@
+created: 20171023130235008
+creator: cosmos
+modified: 20171031145338493
+modifier: cosmos
+tags: [[Boolean function]]
+title: Threshold Boolean function
+tmap.id: 76e78772-2a27-4586-bcf9-5ff7da428ad5
+type: text/vnd.tiddlywiki
+
+A [[Linearly separable]] [[Boolean function]].
+
+The number of threshold Boolean functions for a given input dimension $$n$$ is nontrivial to calculate. See [[here|https://math.stackexchange.com/questions/18056/how-many-presentable-boolean-functions-with-n-attributes-are-linear-separable]], and [[here|http://oeis.org/A000609]], and this thesis: [[Linear Separability Of The Vertices Of An n-Dimensional Hypercube|http://unbc.arcabc.ca/islandora/object/unbc%3A15882/datastream/PDF/download/citation.pdf]]
+
+[[Linear program to check if a set of points are linearly separable|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture03.pdf#page=7]]
+

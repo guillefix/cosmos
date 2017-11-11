@@ -1,0 +1,22 @@
+created: 20171012180308395
+creator: cosmos
+modified: 20171012181016836
+modifier: cosmos
+tags: Category
+title: Opposite category
+tmap.id: d8921b3a-30c8-4a90-85df-4037f1b70985
+type: text/vnd.tiddlywiki
+
+The ''opposite'' of a category $$C$$, written $$C^{op}$$, has the same objects and arrows as $$C$$, but the arrows are reversed in direction (domains become codomains, and viceversa):
+
+$$f: A \to B$$ in $$C^{op}$$ $$\Leftrightarrow$$ $$f: B \to A$$ in $$C$$.
+
+Composition, $$f \circ g$$ in $$C^{op}$$ is defined as the arrow $$g \circ f$$ in $$C$$ (which remember, points in the opposite direction. Direction is defined with the $$dom, cod$$ maps, so they are separate from the arrows themselves..)
+
+This allows us to describe a ''duality principle'':
+
+If we have an statement $$\phi$$, which holds in $$C$$. Then, the same statement, but with arrows reversed (and compositions flipped) $$\phi^*$$ holds in $$C^{op}$$.
+
+In particular $$C^{op}$$ is a category, because the axioms of a category are self-dual.
+
+In this sense, [[monic|Monic morphism]] and [[epic|Epic morphism]] are dual.

@@ -1,0 +1,12 @@
+created: 20171011221312963
+creator: cosmos
+modified: 20171011221352560
+modifier: cosmos
+tags: [[Graph algorithms]]
+title: Depth-first search
+tmap.id: 72634dc0-7242-4864-9306-262b63894ecb
+type: text/vnd.tiddlywiki
+
+[[Explanation|https://www.youtube.com/watch?v=ufj5_bppBsA&list=PL6ED884C7AEE68027&index=7#t=1h]]
+
+Generally more useful than [[Breadth-first search]] because of its [[Recursion]].

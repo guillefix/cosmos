@@ -1,0 +1,31 @@
+created: 20171012094406686
+creator: cosmos
+modified: 20171012112642494
+modifier: cosmos
+tags: R-algebra Manifold
+title: C-infinity algebra of a manifold
+tmap.id: 54a2ee1f-ab62-42e6-932b-74efb68e2fd8
+type: text/vnd.tiddlywiki
+
+
+Let $$X$$ be a diff manifolds. Write $$C^\infty (X)$$ for the set of smooth functions $$f: X \to \mathbb{R}$$.
+
+Then $$C^\infty (X)$$ is an [[R-algebra]] under pointwise addition and multiplication, i.e.  $$(f +g)(x) = f(x) + g(x)$$ etc, and scalear multiplication.
+
+If $$dim(X) > 0$$, then $$C^\infty(X)$$ is infinite dimensional.
+
+!!!__The R-algebra $$C^\infty(X)$$ knows everything about the manifold X__
+
+We can recover X up to diffeomorphism from the R-algebra $$C^\infty (X)$$.
+
+Points $$x \in X$$ are in 1-to-1 correspondence with  R-algebra [[Morphism]]s (which preserve the R-algebra structure) from $$C^\infty(X)$$ to $$\mathbb{R}$$. $$x: C^\infty(X) \to \mathbb{R}$$,  $$f \mapsto f(x)$$
+
+This determines $$X$$ as a set
+
+The topology on $$X$$ is the weakest such that  $$f: X \to R$$ is contd for all $$f \in C^\infty(X)$$
+
+There is then a unique manifold structure on X s.t. $$f: X \to R$$ is smooth for all $$f \in C^\infty(X)$$ and all smooth  fs on X come from $$C^\infty(X)$$
+
+Let $$g: X \to Y$$ be a smooth map. THen $$g^*: C^\infty(Y) \to C^\infty(X)$$ is an R-algebra morphism . Conversely.....
+
+Can be used to study a version of [[Algebraic geometry]]

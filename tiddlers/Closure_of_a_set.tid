@@ -1,0 +1,17 @@
+created: 20170821185955695
+creator: cosmos
+modified: 20170821233401074
+modifier: cosmos
+title: Closure of a set
+tmap.id: f2c53006-4290-46d2-ac85-da2556be14c0
+type: text/vnd.tiddlywiki
+
+For a set A in a [[Topological space]], [[its closure is the intersection of all|https://www.youtube.com/watch?v=28BluiBRdUk&index=3&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=42m50s]] [[Closed set]]s which //contain// A. It is thus the smallest closed set containing A.
+
+Compare with [[Interior of a set]]
+
+The closure of a subspace of a topological space X (a subset Y with the [[Subspace topology]]) is the intersection of the closure in the topology of X with the subset Y (see [[here|https://www.youtube.com/watch?v=28BluiBRdUk&index=3&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=50m]] for proof, using lemma that all closed sets in the subspace can be written as intersections with the subspace of closed sets in the larger space)
+
+[[Proposition|https://www.youtube.com/watch?v=28BluiBRdUk&index=3&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=56m45s]]
+
+The closure of  a set [[is the union of the set with the set of all|https://www.youtube.com/watch?v=28BluiBRdUk&index=3&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h9m30s]] [[Limit point]]s

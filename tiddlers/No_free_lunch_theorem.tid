@@ -1,14 +1,11 @@
 created: 20170104134853688
 creator: cosmos
-modified: 20170515153935531
+modified: 20171002173756120
 modifier: cosmos
 tags: [[Computational learning theory]]
 title: No free lunch theorem
 tmap.id: e7d4c2fd-e07c-48fa-99fe-9c28cabb9933
 type: text/vnd.tiddlywiki
-
->All models are wrong, but some models are useful. — George Box (Box and Draper 1987,
-p424).12
 
 [[video|https://www.youtube.com/watch?v=KlKe44dIYqU&index=6&list=PLFze15KrfxbH8SE4FgOHpMSY1h5HiRLMm#t=52m]]
 
@@ -17,3 +14,26 @@ to fit them. We can use methods such as cross validation to empirically choose t
 for our particular problem. However, there is no universally best model — this is sometimes
 called the no free lunch theorem (Wolpert 1996). The reason for this is that a set of assumptions
 that works well in one domain may work poorly in another.
+
+[ext[A conservation law for generalization performance.|http://dml.cs.byu.edu/~cgc/docs/mldm_tools/Reading/LCG.pdf]]
+
+[[The supervised learning no-free-lunch theorems.|https://link.springer.com/chapter/10.1007%2F978-1-4471-0123-9_3]]
+
+[[No free lunch theorems for optimization.|http://ieeexplore.ieee.org/document/585893/]]
+
+-----------------
+
+--> [[No Free Lunch versus Occam’s Razor in Supervised Learning|https://www.researchgate.net/profile/Marcus_Hutter/publication/51956303_No_Free_Lunch_versus_Occam%27s_Razor_in_Supervised_Learning/links/0fcfd5101263db7be3000000/No-Free-Lunch-versus-Occams-Razor-in-Supervised-Learning.pdf]]
+
+Basically it's a proof (Theorems 14 and 15) giving a generalization bound similar to [[Occam's theorem]]s in [[Probably approximately correct]] theory; but instead of being based on probability, it gives a bound for a particular training set, and complexity of a target function. Intuitively, this is possible. For if given the target function complexity (or a bound on it), for a particular Turing machine (to make K complexity concrete), then we can look at all functions which agree with this complexity bound and see the generalization of each (given the output of the algorithm, which only depends on the training data). We can then see if all the corresponding generalization errors are below some bound. I am just saying this to show that the information which the theorem assumes could be enough in principle to construct a generalization bound. Now the theorem uses several properties of Kolmogorov complexity and entropy to obtain a bound.
+
+The idea is the following: given the target function and the function outputted by the algorithm, we immediately know all the elements in the domain $$X$$ on which the functions differ. We assume that the algorithm gives a function which agrees perfectly on the training set.
+
+To give a description of the training set (which elements are in the training set), then we just need to add a description of {which of {the elements in the domain, for which the function agrees with the target} are in the domain and which are not}. Intuitively, this information (call it $$I$$) will be less than describing which elements are in the domain and which are not, over the set of //all// elements. They prove this. However, because the functions plus this is a description of the training set then, {information needed to describe the functions} + $$I$$ $$\geq$$ $$K$$(training set). Furthermore $$I \leq K$$, as we intuited above. Now, $$I$$ and $$K$$(training set) both turn out to scale with $$n$$ (the number of elements in the domain), if we assume the training set is a fixed fraction $$\theta$$ of the elements of the domain. If {information needed to describe the functions} scales more slowly, then asymptotically, we have $$I \geq K$$(training set) and $$I \leq K$$(training set), so asymptotically, $$I = K$$(training set). From the intuitive argument above (made rigorous in the paper), this can only be if the set of {the elements in the domain, for which the function agrees with the target} becomes the whole domain, asymptotically. That is the function agrees with the target over the whole domain (and in particular over the whole test set, which is a constant fraction $$1-\theta$$ of the whole domain).
+
+[[Universal Indution and Optimisation: No Free Lunh|http://www2.math.su.se/gemensamt/grund/exjobb/matte/2013/rep3/report.pdf]]
+
+-------------
+
+>All models are wrong, but some models are useful. — George Box (Box and Draper 1987,
+p424).12

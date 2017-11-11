@@ -1,0 +1,10 @@
+created: 20171103140337651
+creator: cosmos
+modified: 20171103140412802
+modifier: cosmos
+tags: [[Spatial transformation]]
+title: Reflection
+tmap.id: 8c32059f-7a92-487a-b318-bf69c4ec4dcd
+type: text/vnd.tiddlywiki
+
+Linear [[Spatial transformation]] corresponding to orthonormal matrices with determinant $$-1$$.

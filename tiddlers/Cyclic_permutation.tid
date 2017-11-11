@@ -1,0 +1,16 @@
+created: 20171010105104951
+creator: cosmos
+modified: 20171010105451096
+modifier: cosmos
+tags: Permutation
+title: Cyclic permutation
+tmap.id: 3f73c663-2764-4547-978d-b774a5d04a11
+type: text/vnd.tiddlywiki
+
+//aka cycle//
+
+[[Definition|https://www.youtube.com/watch?v=HSU2uYDL0Bc&index=5&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=44m21s]]
+
+The number of elements that change/cycle (the ''support of the cycle'') in a cycle is called the ''length of the cycle''.
+
+Cycles of length 2 are called [[Transposition]]s.

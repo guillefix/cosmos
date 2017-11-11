@@ -1,0 +1,17 @@
+created: 20171018003326034
+creator: cosmos
+modified: 20171031155532377
+modifier: cosmos
+tags: [[Abstract algebra]]
+title: Fundamental theorem of algebra
+tmap.id: 55966e68-7f07-45d7-846c-296b41b4280c
+type: text/vnd.tiddlywiki
+
+[[Theorem|https://www.youtube.com/watch?v=WGK8YEQktAw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&t=39#t=1h11m]].
+
+Every non-constant complex [[Polynomial]] $$x^n+a_{n-1} x^{n-1} + ... + a_1 x +a_0$$ has a root/zero ($$a_{n-1}, ..., a_0 \in \mathbb{C}$$, $$n \geq 1$$).
+
+For proof we use 
+[[Lemma|https://www.youtube.com/watch?v=WGK8YEQktAw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&t=39#t=57m55s]] If a continuous map $$f: S^1 \to X$$ extends to a cont. map $$F: B^2 \to X$$ (that is $$F|S^1 = f$$). Then $$f_*: \pi_1(S^1,1) \to \pi_1(X, f(1))$$ is the trivial homomorphism.
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33583#page=33]]

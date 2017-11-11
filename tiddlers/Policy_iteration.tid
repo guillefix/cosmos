@@ -1,0 +1,27 @@
+created: 20170715170706890
+creator: cosmos
+modified: 20170715170750349
+modifier: cosmos
+tags: [[Model-based reinforcement learning]]
+title: Policy iteration
+tmap.id: 9aed0850-3958-4553-b867-63ded6e95519
+type: text/vnd.tiddlywiki
+
+!!!__[[Policy iteration|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=59m38.5s]]__
+
+,,[[Greedy policy always improves policy (or leaves it equally good)|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=49m20s]] --> [[partial ordering over policies as intuition for optimal policy theorem|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=56m44s]],,
+
+[[Full policy iteration|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=29m52s]]
+
+[[Modified policy iteration doesn't require to converge to real value function|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=58m40s]]. The version with just one step in Bellman equation per policy iteration is described below. This version is equivalent to value iteration (below)
+
+The algorithm has the following two kinds of steps, which are repeated in some order for all the states until no further changes take place. It first computes the optimal policy estimate using, the optimal value function estimate, and then recomputes the value function estimate using the new optimal policy estimate.
+They are defined recursively as follows:
+
+:$$ V_\pi(s) := \sum_{s'} P_{\pi(s)} (s,s') \left( R_{\pi(s)} (s,s') + \gamma V(s') \right) $$
+
+:$$ \pi(s) := \arg \max_a \left\{ \sum_{s'} P_a(s,s') \left( R_a(s,s') + \gamma V(s') \right) \right\} $$
+
+Where, the value function (defined above) measures the discounted sum of the rewards to be earned (on average) by following that solution from state $$s$$. The second recursive relation is called [[Bellman equation]]. These equation are used iteratively one after the other in the 1-step policy iteration.
+
+Their order actually depends on the variant of the algorithm; one can also do them for all states at once (synchronously) or state by state, and more often to some states than others (asynchronous). As long as no state is permanently excluded from either of the steps, the algorithm __will eventually arrive at the correct solution__!

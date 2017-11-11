@@ -1,0 +1,12 @@
+created: 20171006215423992
+creator: cosmos
+modified: 20171016222330592
+modifier: cosmos
+tags: [[Group homomorphism]]
+title: Kernel of a group homomorphism
+tmap.id: 0f18018a-e5fe-45a1-a096-d1d297a46c57
+type: text/vnd.tiddlywiki
+
+[[Definition|https://www.youtube.com/watch?v=TAxzcrYc7L4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&t=76#t=8m40s]]. All elements in domain who map to the [[Identity element]].
+
+[[When is a surjective homomorphism an isomorphism|https://www.youtube.com/watch?v=TAxzcrYc7L4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&t=76#t=21m20]]. It is if and only if its [[kernel|Kernel of a group homomorphism]] $$=\{1\}$$

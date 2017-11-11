@@ -1,23 +1,41 @@
 created: 20161215093410227
 creator: cosmos
-modified: 20170624214751412
+modified: 20170820225445583
 modifier: cosmos
 tags: [[Non-Euclidean geometry]]
 title: Hyperbolic geometry
 tmap.id: 04f5bc94-c087-408e-b06c-371729a03cd7
 type: text/vnd.tiddlywiki
 
-Geometry corresponding to a constant negative [[Curvature]] [[Manifold]]. It can be derived by embedding one sheet of a [[Hyperboloid]] in 3D [[Euclidean space]], with the [[Minkowski metric]]. A manifold with hyperbolic geometry is called [[Hyperbolic space]]
+The geometry corresponding to a constant negative [[Gaussian curvature]] [[Manifold]].
+
+It can be derived by embedding one sheet of a [[Hyperboloid]] in $$\mathbb{R}^3$$, with the [[Minkowski metric]]. A manifold with hyperbolic geometry is called [[Hyperbolic space]]
 
 [[Mark Norfleet - Hyperbolic Geometry|https://www.youtube.com/watch?v=ZNNZFSxe7oA&t=2603s]]
 
-!!__Saddle surface model__
+[[Connections between hyperbolic models and complex analysis|https://www.youtube.com/watch?v=bv3gwMdYlNo&t=150#t=4m40s]] ([[Moebius transformation]]s and $$z \rightarrow -\bar{z}$$ form a basis for the group of all isometries in the upper half-plane model)
 
-Just the [[Hyperbolic paraboloid]] ([[Saddle surface|https://www.wikiwand.com/en/Saddle_point#/Saddle_surface]]), embedded in R^3 with the normal metric
+!!__[[Pseudosphere]] model__
+
+As seen [ext[here|http://math.ucr.edu/~res/math133/pseudosphere.pdf]] (and as it is evident after some thought), the pseudosphere is only a model of a section of the full hyperbolic space (as defined by the hyperboloid model for instance) (note that because it has the same curvature, it should be isometric, that's why we know it should be a model of it even if only of a region). Furthermore the pseudosphere is not [[homeomorphic|Homeomorphism]] to hyperbolic space, as it involves identifying to sides of this region.
+
+As mentioned [[here|https://physics.stackexchange.com/questions/43056/equation-of-the-saddle-like-surface-with-constant-negative-curvature]]: 
+
+> One shouldn't expect to have a "good" formula for the local isometric embeddings of a constant negative curvature surface in Euclidean $$\mathbb{R}^3$$. This is due to a little theorem proved by David Hilbert around 1901:
+
+|''Theorem ''There does not exist a smooth immersion of the hyperbolic plane into Euclidean 3 space.|
+
+>The theorem has been further studied in the years following. In 1961 Efimov showed that any complete surface with curvature strictly bounded above (that is to say, if there exists a negative number $$K_0 < 0$$ such that the Gaussian curvature is always strictly less than $$K_0$$) cannot admit a smooth (twice continuously differentiable) isometric immersion into Euclidean three space.
+
+However, //patches// of the full [[Hyperbolic space]] can be embedded as patches of the [[Pseudosphere]] (note that, as the theorem above says, the full pseudosphere has a singularity).
+
+[[See here in the lecture to see the hyperbolic plane introduced as an example of a surface which can't be embbeded in R^3|https://www.youtube.com/watch?v=qqv6WkY16Nw&index=16&list=PLLq_gUfXAnkl5JArcktbOrIUeR5rra-Gz#t=59m10s]]
+
+As explained in [[here|https://www.youtube.com/watch?v=7AgvKLtcijQ#t=1h20m45s]], any surface with constant negative [[Gaussian curvature]] is locally (that is inside [[Local patch]]es) [[isometric|Isometry]] to a piece of a [[Pseudosphere]]
 
 !!__[[Hyperboloid model]]__
 
-The [[Elliptic hyperboloid]] embedded in R^3, with the [[Minkowski metric]]. 
+The [[Elliptic hyperboloid]] embedded in $$\mathbb{R}^3$$, with the [[Minkowski metric]]. 
 
 !!!__[[Geodesic]]s (lines) in the hyperboloid model__
 

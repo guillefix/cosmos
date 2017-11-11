@@ -1,0 +1,12 @@
+created: 20171105234806862
+creator: cosmos
+modified: 20171105234825295
+modifier: cosmos
+tags: [[Vector field]]
+title: Integral curve
+tmap.id: 38cbdfdf-e2b5-4bc3-ade3-e2e9b4258d73
+type: text/vnd.tiddlywiki
+
+A [[Curve]] in the manifold whose [[Tangent vector]] at every point is the vector of the vector field at that point
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=29]] for formal definition.

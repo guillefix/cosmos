@@ -1,6 +1,6 @@
 created: 20160130233128156
 creator: guillefix
-modified: 20161116111227987
+modified: 20170717130610128
 modifier: cosmos
 tags: [[Software engineering]]
 title: Dynamic programming
@@ -15,3 +15,7 @@ https://en.wikipedia.org/wiki/Dynamic_programming
 *Optimal substructure: global optimal solution can be constructed from optimal solutions to sub-problems.
 
 [[video|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=2m30s]]
+
+----------------
+
+One of the main applications is to [[Model-based reinforcement learning]] (also where the name originally arised, by Bellman)

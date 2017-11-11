@@ -1,0 +1,16 @@
+created: 20170831222904002
+creator: cosmos
+modified: 20170831223102742
+modifier: cosmos
+tags: [[Dimensionality reduction]]
+title: Multidimensional scaling
+tmap.id: 2e446460-85a1-4f10-860f-faefd76cac13
+type: text/vnd.tiddlywiki
+
+Find lower dimensional embedding such that the square distances in the embedding are as close as possible to the distances derived from a dissimilarity matrix.
+
+[ext[http://users.stat.umn.edu/~gary/classes/5401/handouts/34.mds.handout.pdf]]
+
+Can solve by finding [[Eigenvector]]s of distance matrix. In case dissimilarity matrix is Euclidean distance, this is the same as [[Principal component analysis]]
+
+https://en.wikipedia.org/wiki/Multidimensional_scaling

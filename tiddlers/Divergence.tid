@@ -1,0 +1,18 @@
+created: 20170825170902137
+creator: cosmos
+modified: 20170825171530293
+modifier: cosmos
+tags: [[Vector calculus]]
+title: Divergence
+tmap.id: 1ed8207b-87d5-4c61-85a0-d964d0c07fe8
+type: text/vnd.tiddlywiki
+
+Like the dot product of the [[Gradient]] with a [[Vector field]]. The divergence measures the net flow of a field at a point, allowing to distinguish between field sources and sinks, and appears in many vector equations in physics, particularly [[Fluid mechanics]], and [[Electromagnetism]]
+
+----------------
+
+!!__Diveregence operator on [[Manifold]]s__
+
+Formal [[Adjoint]] to the [[Gradient]] operator on manifolds
+
+See [[the Laplacian on a Riemannian Manifold: An Introduction toAnalysis on Manifolds|http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521468312]]

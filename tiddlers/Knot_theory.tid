@@ -1,17 +1,70 @@
 created: 20170521144445210
 creator: cosmos
-modified: 20170529185449017
+modified: 20171105174023777
 modifier: cosmos
-tags: Topology
+tags: Topology Curve
 title: Knot theory
 tmap.id: 63395961-e2fb-4f4a-a7d5-0e126f40d303
 type: text/vnd.tiddlywiki
 
+The mathematical study of [[Knot]]s and [[links|Link (knot theory)]]
 
-[[not knot|https://www.youtube.com/watch?v=AGLPbSMxSUM&feature=youtu.be#t=3m40s]]
+Knots are basically [[images|Image of a subset]] of [[simple|Simple curve]] [[Closed curve]]s
 
-https://www.youtube.com/playlist?list=PLyxHTRWELFBr9TP8jx400bPGP-ECsBufz
+--------
+
+[[Lecture notes|http://homepages.abdn.ac.uk/r.hepworth/pages/files/Knots_Notes.pdf]]
+
+[[not knot|https://www.youtube.com/watch?v=AGLPbSMxSUM&feature=youtu.be#t=3m40s]] -- [[vis and notes|http://homepages.abdn.ac.uk/r.hepworth/pages/#knots]] -- See [[this video|https://www.youtube.com/channel/UCia9vguXmpyiDQ5OdSuOeEQ/videos]]
+
+
+!!!__[[Knot equivalence]]__
+
+[[Equivalence of knots and links|https://www.youtube.com/watch?v=461laq45-xU]]
+
+[[Knot invariant]], 
+[[Knot diagram]]
+
+__[[Reidemeister theorem]]__
+
+[[Reidemeister move]]s
+
+!!!__Variations__
+
+[[Oriented link]]
+
+[[Ribbon]]
+
+!!!__Types and properties__
+
+[[Prime knot]]
+
+[[Linking number]]
+
+[[Alternating link]]
+
+!!!__Constructions__
+
+[[Reverse link]], 
+[[Mirror of a link]], 
+[[Knot sum]]
+
+------
+
+!!!__[[Prime knot]] table__
+
+[img[knot_table_up to seven crossings.png]]
+
+Remember that each entry in the knot table stands for up to four different knots, obtained by taking [[mirrors|Mirror of a link]] and [[reverses|Reverse link]].
+
+--------
+
+<small>//Many of the terms here are named after "knot", but actually apply to links generally. We still use the term knot because its most common. For instance, shadow of a knot is more common than shadow of a link//</small>
+
+[[Knots in 4D|https://www.youtube.com/playlist?list=PLyxHTRWELFBr9TP8jx400bPGP-ECsBufz]]
 
 See [[here|https://www.youtube.com/watch?v=CZqeAC07_UE&index=12&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ]] to see why knot theory is only interesting in 3 dimensions (as long as knots are made of 1d manifolds..)
 
-!!![[Reidemeister moves|https://www.youtube.com/watch?v=nYz3pRk1cCA&list=PLyxHTRWELFBr9TP8jx400bPGP-ECsBufz&index=2#t=5m32s]]
+--------------
+
+Knots are really ribbons.. Hmm

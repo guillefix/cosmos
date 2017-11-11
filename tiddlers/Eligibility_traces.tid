@@ -1,0 +1,12 @@
+created: 20170718131009985
+creator: cosmos
+modified: 20170718131051943
+modifier: cosmos
+tags: TD(lambda)
+title: Eligibility traces
+tmap.id: 80713047-48bd-40c0-a641-f3458c5f88bd
+type: text/vnd.tiddlywiki
+
+Way of implementing backward view for [[TD(lambda)]].
+
+See chapter 12 in [[Sutton-Barto]]

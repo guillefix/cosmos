@@ -1,26 +1,97 @@
 created: 20160122225355013
 creator: guillefix
-modified: 20170624122037595
+modified: 20171106163503369
 modifier: cosmos
 tags: Geometry
 title: Differential geometry
 tmap.id: 7b168656-c10a-4e84-990e-54392c5d2650
 type: text/vnd.tiddlywiki
 
-See [[General relativity]] and book by Caroll
-
-do carmo differential geometry. 
 
 See [[Curve]]s, [[Surface]]s, for the the theory in 1 and 2 D respectively.
 
-<small>Remember (as David Wallace argued in a lecture) that one can do geometry either coordinate-free or using coordinates, and both ways are useful depending on the task</small>
+[[Differentiable manifold]] generalize these spaces in such a way that one can still do calculus on them. They are [[Topological manifold]]s with extra structure (a [[Differentiable structure]])
 
-!!__Coordinate transformation__
+[[Riemannian geometry]] -- [[Riemannian manifold]]s extend differentiable manifolds to do the rest of geometry: distances, angles, curvature, etc.
 
+Applications to [[General relativity]] and many other fields.
 
-__Transformation of ''covariant and contravariant components''__
+--------------
 
-[img[http://i.imgur.com/INGknH3.png]]
+!Analysis
+
+!![[Coordinate transformation]]
+
+//We could take coordinates as fundamental as David Wallace proposed..//
+
+!![[Diffeomorphism]]
+
+[[Differentiable function]] --> [[Smooth function]]
+
+!![[Tangent space]]
+
+!![[Fiber bundle]]s
+
+[[Vector bundle]]s
+
+[[Tangent bundle]]
+
+[[Cotangent bundle]]
+
+!![[Derivative]]s
+
+[[Differential]] ([[Jacobian]], for maps between manifolds)
+
+[[Vector field]]s. Derivative of a function (to $$\mathbb{R}$$) on a manifold, along a flow on the manifold, resulting on a new function on the manifold (to $$\mathbb{R}$$). This is basically a field of rank-1 differentials (Jacobians which are just vectors).
+
+[[Lie derivative]]
+
+[[Exterior calculus]]: [[Exterior derivative]], [[Exterior algebra]] of [[Exterior form]]s
+
+!![[Tensor]]s
+
+!!![[Exterior form]]s
+
+!Geometry
+
+!![[Metric]]
+
+!![[Geodesic]]
+
+!![[Connection]]
+
+!![[Curvature]]
+
+---------------
+
+!!![[Operations on manifolds|https://www.youtube.com/watch?v=VuFCRFKiWvA&index=6&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ]]:
+
+* Product ([[Cartesian product]])
+* [[Quotient|https://www.youtube.com/watch?v=v425ePq9tyo&index=7&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ#t=11m30s]], the [[Quotient set]] given by an [[Equivalence relation]]
+* [[Surgery|https://www.youtube.com/watch?v=B6vEdfk7SWU&index=9&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ#t=12m10s]].
+** Connected sum
+
+__Examples__
+
+[[Regular surface]], [[Curve]]
+
+[[Klein bottle]]
+
+[[Projective plane]]
+
+More [[here|http://web1.kcn.jp/hp28ah77/us27g_cros.htm]]
+
+-----------------
+
+[[Good Youtube series|https://www.youtube.com/playlist?list=PLLq_gUfXAnkl5JArcktbOrIUeR5rra-Gz]]
+
+https://www.youtube.com/watch?v=BHKd6-IJgVI
+
+See [[General relativity]] and book by Caroll
+
+do carmo differential geometry books
+
+See Isham book
 
 --------------
 
@@ -38,4 +109,4 @@ https://www.youtube.com/watch?v=JCor1st0d2E&list=PLBY4G2o7DhF38OEvEImfR2heX7Szmq
 
 https://en.wikipedia.org/wiki/Penrose_graphical_notation
 
-[[https://www.maths.tcd.ie/~fionn/dg/dg.pdf]]
+[ext[https://www.maths.tcd.ie/~fionn/dg/dg.pdf]]

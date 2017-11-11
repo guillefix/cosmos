@@ -1,0 +1,44 @@
+created: 20171029104417997
+creator: cosmos
+modified: 20171101110332035
+modifier: cosmos
+tags: [[Exact sequence]] Homology
+title: Homology long exact sequence
+tmap.id: b78bba15-a6b5-4805-93b7-d6e8da8f4c27
+type: text/vnd.tiddlywiki
+
+//aka long exact sequence, or LES//
+
+[ext[book|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=125]]
+
+!!__Long exact sequence for [[Reduced homology]]__
+
+Theorem 2.13 ([ext[book|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=123]]) gives a //long exact sequence// for the [[Reduced homology group]]s of a space, subspace, and quotient space.
+
+[img[homology_long_exact_sequence.png]]
+
+Proved using __[[Short exact sequence]] of chain complexes__ (where objects in the short exact sequence are [[Chain complex]]es, and the maps [[Chain map]]s) below. This actually proves the LES for relative homology (below). One then shows that for good pairs (those that satisfy the conditions of theorem 2.13), then this implies the theorem.
+
+[img[short_exact_sequence_of_chain_complexes.png]]
+
+!!__Homology long exact sequence for [[Relative homology]]__
+
+[img[homology_long_exact_sequence_relative_homology.png]]
+
+[[Video for homology long Exact Sequence|https://www.youtube.com/watch?v=1HmV2ngb0wc&list=PL7BFF10190F42006E&index=26]]. when we
+pass to homology groups, this short
+exact sequence of chain complexes stretches out into a long exact sequence of homology groups
+
+[[LES of a triple|https://www.youtube.com/watch?v=1HmV2ngb0wc&list=PL7BFF10190F42006E&index=26#t=9m]]
+
+As said [[here|https://www.youtube.com/watch?v=1r-y4EpcB2g#t=2m45s]], in fact the elements of the [[Chain complex]]es for the above theorem need not be [[Vector space]] (as in [[Free Abelian group]]s, [[Abelian group]]s are enough.
+
+!!!__LES of a triple__
+
+[img[long_exact_sequence_triple.png]]
+
+!!__[[Mayer-Vietoris sequence]]__
+
+---------
+
+Others?

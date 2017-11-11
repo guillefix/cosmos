@@ -1,0 +1,12 @@
+created: 20170706112420630
+creator: cosmos
+modified: 20170706112456698
+modifier: cosmos
+tags: Cryptography
+title: Unconditionally secure
+tmap.id: a8252bbc-f578-488f-85b3-bce405480d64
+type: text/vnd.tiddlywiki
+
+//aka information-theoretically secure//
+
+[[definition]]. It cannot be broken even with infinite computing resources

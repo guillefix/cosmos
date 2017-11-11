@@ -1,0 +1,11 @@
+created: 20170925162021635
+creator: cosmos
+modified: 20170925162256318
+modifier: cosmos
+title: Finite
+tmap.id: 164adb95-54c0-451e-a588-778241489c67
+type: text/vnd.tiddlywiki
+
+A [[Set]] is finite if there is a bijection with a //section// of [[Natural number]]s (that is with a set of the form: all natural numbers less than $$n$$). Then its [[Cardinality]] is $$n$$.
+
+If a set is not finite, it is [[Infinite]]

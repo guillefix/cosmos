@@ -1,0 +1,11 @@
+created: 20171029103606107
+creator: cosmos
+modified: 20171029104150306
+modifier: cosmos
+title: n-chain
+tmap.id: d465d0a1-c278-4b16-890d-29a51693e9b7
+type: text/vnd.tiddlywiki
+
+A formal sum (as in [[Free Abelian group]]s) of simplices or cells of a complex (like a [[Delta-complex]], or [[CW complex]])
+
+[ext[https://en.wikipedia.org/wiki/Chain_(algebraic_topology)]]

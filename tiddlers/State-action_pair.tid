@@ -1,0 +1,11 @@
+created: 20170715183421767
+creator: cosmos
+modified: 20170715183527209
+modifier: cosmos
+tags: [[Markov decision process]]
+title: State-action pair
+tmap.id: 60d083c5-0e40-4380-8edf-9d943c8cb853
+type: text/vnd.tiddlywiki
+
+
+A node in a [[Markov decision process]] corresponding to "taking action A just after visiting state S". See [[Sutton-Barto]] book

@@ -1,0 +1,14 @@
+created: 20171022220654065
+creator: cosmos
+modified: 20171022221525518
+modifier: cosmos
+tags: [[Chain set]]
+title: Symmetric chain
+tmap.id: 4608bdbf-90c5-4511-8b3c-ff295d6ceab3
+type: text/vnd.tiddlywiki
+
+A [[chain|Chain set]] $$C_1 \subseteq C_2 \subseteq ... \subseteq C_m$$ in [[P(n)|Power set]] is ''symmetric'' if $$|C_{i+1}| = |C_i| +1$$, for all $$i=1, ..., .m-1$$, and $$|C_1| + |C_m| = n$$.
+
+[[Sperner's lemma]] shows that there is a partition of the power set into $$\binom{n}{\lfloor n/2 \rfloor}$$ chains. But these could be asymmetric.
+
+Proposition: For $$n\geq 1$$, there is a partition of P(n) into symmetric chains.

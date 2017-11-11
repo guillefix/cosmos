@@ -1,0 +1,17 @@
+created: 20171017165643955
+creator: cosmos
+modified: 20171018225302214
+modifier: cosmos
+tags: [[Fundamental group]]
+title: Examples of fundamental groups
+tmap.id: a1557d0d-e264-4256-b284-34ca30bc7015
+type: text/vnd.tiddlywiki
+
+
+[[Fundamental group of the circle|https://www.youtube.com/watch?v=WGK8YEQktAw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&t=39#t=7m30s]]. Uses [[Homotopy lifting lemma]] and corollaries (see [[Covering]]).
+
+$$\pi(S^1, 1) \cong \mathbb{Z}$$. which are the [[Rotation number]]s
+
+[[Fundamental group of the torus|https://www.youtube.com/watch?v=HWzwaA8ImkM&index=19&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=52m]]. $$\mathbb{Z}^2$$
+
+[[Real projective space]] (see [[Projective plane]]). [[its topology|https://www.youtube.com/watch?v=HWzwaA8ImkM&index=19&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h]]. [[Fundamental group|https://www.youtube.com/watch?v=HWzwaA8ImkM&index=19&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h11m53s]] is isomorphic to $$\mathbb{Z}_2 = \mathbb{Z}/2\mathbb{Z}$$. Shown using [[Path lifting lemma]] and [[Homotopy lifting lemma]]

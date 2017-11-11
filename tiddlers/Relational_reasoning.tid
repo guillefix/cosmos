@@ -1,12 +1,18 @@
 created: 20170607202521168
 creator: cosmos
-modified: 20170611134004159
+modified: 20170819202731504
 modifier: cosmos
 tags: [[Artificial intelligence]] Relation
 title: Relational reasoning
 tmap.id: 9734e175-1f32-4618-bb32-428e4d3bd863
 type: text/vnd.tiddlywiki
 
-[[Discovering objects and their relations from entangled scene representations|https://arxiv.org/abs/1702.05068]]
+[[Discovering objects and their relations from entangled scene representations|https://arxiv.org/abs/1702.05068]] -- object pair prior
 
 [[ Modeling Relational Data with Graph Convolutional Networks|https://arxiv.org/abs/1703.06103]]
+
+[[Organizing conceptual knowledge in humans with a gridlike code|http://science.sciencemag.org/content/352/6292/1464]] See [[Hippocampus]]
+
+[[Learning Visual Reasoning Without Strong Priors|https://arxiv.org/pdf/1707.03017.pdf]] using [[Conditional batch normalization]]
+
+http://babytalk.psych.ucla.edu/documents/Doumas_et_al_2008.pdf

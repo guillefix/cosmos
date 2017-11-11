@@ -1,0 +1,34 @@
+created: 20170830165244178
+creator: cosmos
+modified: 20170830225515485
+modifier: cosmos
+tags: [[Linear algebra]]
+title: Simultaneous diagonalization
+tmap.id: cbfce89f-c17c-4320-b901-5adc6ceb3778
+type: text/vnd.tiddlywiki
+
+//aka joint diagonalization//
+
+http://www.geo.tuwien.ac.at/downloads/tm/svd.pdf
+
+https://math.stackexchange.com/questions/478998/a-property-of-positive-definite-matrices
+
+A symmetric matrix and a postive-definite matrix can always be simultaneously diagonalized
+
+Simultaneous diagnoalization can be used to solve the [[Generalized eigenvalue problem]]
+
+-------------------
+
+!!__Approximate joint diagonalization__
+
+See [[here|https://arxiv.org/pdf/1210.0026.pdf]] for example, for ways of approximately simultaneously diagnoalizing [[Laplacian]] of several graphs/shapes, which can be used for several applications (in [[Computer graphics]]/[[Geometric deep learning]]). Also could be related to [[Grid cell]]s... as [[Compatible bases on graphs]]
+
+[[Multimodal Manifold Analysis by Simultaneous Diagonalization of Laplacians|http://sci-hub.cc/10.1109/tpami.2015.2408348]]
+
+[[Making Laplacians commute|https://arxiv.org/abs/1307.6549]]
+
+[[Almost-commuting matrices are almost jointly diagonalizable|https://arxiv.org/abs/1305.2135]] -- [[Matrix commutators: their asymptotic metric properties and relation to approximate joint diagonalization|http://www.sciencedirect.com/science/article/pii/S0024379513004643]]
+
+--------
+
+[[Almost commuting self-adjoint matrices: the real and self-dual cases|http://www.worldscientific.com/doi/pdf/10.1142/S0129055X16500173]]

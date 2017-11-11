@@ -1,0 +1,10 @@
+created: 20170925153120316
+creator: cosmos
+modified: 20170925161910737
+modifier: cosmos
+tags: Set
+title: Subset
+tmap.id: e1481d95-e1ee-4f11-bc49-d82f232aa5c0
+type: text/vnd.tiddlywiki
+
+A set of elements, which also belong to another [[Set]], the [[Superset]], which may be larger. If the superset //is// larger, then the subset is called an ''strict subset'' or ''proper subset'', otherwise, they are equal

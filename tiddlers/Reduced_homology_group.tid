@@ -1,0 +1,15 @@
+created: 20171028164719416
+creator: cosmos
+modified: 20171029114218853
+modifier: cosmos
+title: Reduced homology group
+tmap.id: 1c462e06-6997-474d-93d5-858f128dc52f
+type: text/vnd.tiddlywiki
+
+[[Prop 2.8|https://www.youtube.com/watch?v=HIJ1aoMpRR4&index=21&list=PL7BFF10190F42006E]]. If $$X$$ is a point, then $$H_n(X)=0$$ for $$n>0$$ and $$H_0(X) \cong \mathbb{Z}$$.
+
+It is often very convenient to have a slightly modified version of homology for which a point has trivial [[Homology group]]s in all dimensions, including zero. This is e n (X) to be the homology groups done by defining the [[Reduced homology group]]s
+
+[ext[Book|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=119]] -- [[video|https://www.youtube.com/watch?v=HIJ1aoMpRR4&index=21&list=PL7BFF10190F42006E#t=4m]]
+
+[[Reduced homology theory|https://www.youtube.com/watch?v=fFweGo1jW78&index=27&list=PL7BFF10190F42006E]] (axiomatized)

@@ -1,0 +1,24 @@
+created: 20171105172324879
+creator: cosmos
+modified: 20171105191007158
+modifier: cosmos
+tags: [[Knot theory]] [[Ribbon theory]]
+title: Writhe
+tmap.id: a15949d4-5613-49fb-ad6b-88f25e5ba81d
+type: text/vnd.tiddlywiki
+
+//aka writhing number//
+
+The [[Linking number]], $$Lk(X,X+\epsilon U)$$, (for small enough $$\epsilon$$) and [[Twist]], $$Tw(X,U)$$, are in general different for the same [[Ribbon]] $$(X,U)$$. However, their difference only depends on $$X$$ (and not in $$U$$). We can therefore define the ''writhing number'' $$Wr(X)$$, as this difference
+
+: $$Wr(X) = Lk(X,X+\epsilon U) - Tw(X,U)$$
+
+[[Paper|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC389050/pdf/pnas00079-0124.pdf]]. The writhing number is invariant under rigid motif and dilatations
+
+A notion of ''directional writhing number'' is defined [[here|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC389050/pdf/pnas00079-0124.pdf#page=2]] which corresponds to what sometimes is called writhe. This turns out to equal
+
+$$Wr(X, \mathbf{\sigma}) = \sum\mu_j$$
+
+where $$\mathbf{\sigma}$$ is a fixed unit vector //in general position// (see [[here|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC389050/pdf/pnas00079-0124.pdf#page=2]]) (so that the standard definition of writhe doesn't apply, as that only applies to perpendicular vector fields to X). $$\mu_j$$ are the [[sign of crossings|Oriented link]] for the [[diagram|Knot diagram]] obtained by projecting X to a plane orthogonal to $$\mathbf{\sigma}$$.
+
+The full writhing number can be computed as an average of the directional writhing number over directions ([[eq|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC389050/pdf/pnas00079-0124.pdf#page=3]]). Also for an almost planar curve, we can approximate the writhe with the directional writhe with direction being normal to the plane which almost contains the curve (in there there is an inequality making this precise).

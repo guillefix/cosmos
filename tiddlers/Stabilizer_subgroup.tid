@@ -1,0 +1,18 @@
+created: 20171008204639448
+creator: cosmos
+modified: 20171021195034437
+modifier: cosmos
+tags: [[Group action]]
+title: Stabilizer subgroup
+tmap.id: cef4ae36-956d-400c-a392-94ca25fb5b22
+type: text/vnd.tiddlywiki
+
+[[Definition|https://www.youtube.com/watch?v=ihncybAAPUw&index=4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=1h8m15s]]
+
+the set of all elements of the group that don't change  a particular element in the space acted upon by the group.
+
+Can be generalized to a stabilizer of a subset, where we require the subset is unchanged by the group action (though its elements may be permuted)
+
+[[Lemma|https://www.youtube.com/watch?v=ihncybAAPUw&index=4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=1h10m40s]] There is a bijection from $$G /G_x \to G(x)$$ that is from the [[quotient|Quotient group]] of $$G$$ by the stabilizer in $$G$$ of $$x$$, $$G_x$$, to the orbit of $$x$$, $$G(x)$$. This can be used to show [[Orbit-stabilizer theorem]]
+
+

@@ -1,0 +1,16 @@
+created: 20171029102905462
+creator: cosmos
+modified: 20171029104204012
+modifier: cosmos
+tags: [[Chain complex]]
+title: Chain map
+tmap.id: 069fc6c6-c487-4588-a7cd-8bb12652bab3
+type: text/vnd.tiddlywiki
+
+A [[Group homomorphism]] between [[Chain group]]s of two [[Chain complex]]es, which satisfies $$f\partial = \partial f$$. This ensures that the chain map induces a [[Group isomorphism]] $$f_*$$ between the [[Homology group]]s of the two [[Chain complex]]es.
+
+[ext[book|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=119]]
+
+----------------
+
+Used to show __[[Homotopy]] invariance__ of homology groups: [[Video1|https://www.youtube.com/watch?v=HIJ1aoMpRR4&index=21&list=PL7BFF10190F42006E#t=7m]]/[[Video2|https://www.youtube.com/watch?v=A1ljIoXKAzE&list=PL7BFF10190F42006E&index=22]] [[Homotopy equivalent]] spaces have [[isomorphic|Group isomorphism]] [[Homology group]]s. See also [ext[Hatcher|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=119]]. We define a [[Functor]] by finding an induced function $$f_\#$$ between [[Chain group]]s which is a [[Chain map]], which itself induces a function $$f_*$$ between [[Homology group]]s by lifting $$f_\#$$ to the [[Coset]]s defining the homology groups, and showing it's well defined because it maps cycles to cycles and boundaries to boundaries. Finally, there is a theorem that shows that homotopic maps lead to equal $$f_*$$, from which one can conclude (after showing [[Functorial]]ity) that homotopy equivalences induce group isomorphisms between the homology groups.

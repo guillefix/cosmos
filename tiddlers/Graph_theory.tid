@@ -1,6 +1,6 @@
 created: 20160122182424302
 creator: guillefix
-modified: 20161121110131046
+modified: 20170919105256931
 modifier: cosmos
 tags: [[Discrete mathematics]]
 title: Graph theory
@@ -14,6 +14,8 @@ Mathematical study of [[Graph]]s. These are very similar to [[Network]]s studied
 [[Definition of a graph|https://www.youtube.com/watch?v=S1Zwhz-MhCs&index=2&list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg]]
 
 [[notes|https://courses.maths.ox.ac.uk/node/view_material/1300]]
+
+[[Spectral graph theory|http://www.cs.yale.edu/homes/spielman/PAPERS/SGTChapter.pdf]] -- https://arxiv.org/pdf/1011.2608.pdf
 
 !! See [[Mathematics of networks]]
 

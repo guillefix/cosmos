@@ -1,0 +1,14 @@
+created: 20171105180508322
+creator: cosmos
+modified: 20171105180725881
+modifier: cosmos
+tags: [[Knot invariant]] [[Ribbon theory]]
+title: Twist
+tmap.id: 0d91556a-6976-4062-8783-2afdbec0c6a0
+type: text/vnd.tiddlywiki
+
+The ''twist of a [[Ribbon]]'' $$(X,U)$$, $$X$$ being the curve, and $$U$$ being the 1d vector field, is defined as follows
+
+[img[twist_of_a_ribbon.png]]
+
+See [[here|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC389050/pdf/pnas00079-0124.pdf]] and [[here|http://mathworld.wolfram.com/Twist.html]]

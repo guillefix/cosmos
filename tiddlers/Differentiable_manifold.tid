@@ -1,0 +1,39 @@
+created: 20170927195849734
+creator: cosmos
+modified: 20171019155853206
+modifier: cosmos
+tags: Manifold
+title: Differentiable manifold
+tmap.id: 20c44c37-09c5-4379-8cb6-ff254d795c71
+type: text/vnd.tiddlywiki
+
+[[Introduction to differentiable manifold|https://www.youtube.com/watch?v=bv3gwMdYlNo&t=150#t=46m45s]] -- [[formal definition of differentiable manifold|https://www.youtube.com/watch?v=bv3gwMdYlNo&t=150#t=56m33s]]
+
+See [[Manifold]]
+
+A differentiable structure is what we need to add to a set in order to do differential [[Calculus]] on it. In particular differentiation (derivatives) of functions defined on the set. It is what it's needed to define //differentiability// of functions in a consistent way. It also allows to do [[Integration]] (what do you integrate? [[Differential form]]s)
+
+[[Lecture notes|https://courses.maths.ox.ac.uk/node/view_material/33094]]
+
+[[Coordinate chart]]
+
+[[Diffeomorphism]]
+
+[[Tangent space]]
+
+[[Cotangent space]]
+
+[[Some common manifolds|https://www.youtube.com/watch?v=J7vojBbvudQ&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ&index=5]]. [[The differentiable structure induces a topology|https://www.youtube.com/watch?v=bv3gwMdYlNo&t=150#t=1h5m10s]] ([[Topology]])
+
+
+[[Relation between differentiable and topological structures|https://www.youtube.com/watch?v=p9m9bBJsGzo#t=19m]]
+
+[[Some invariants|https://www.youtube.com/watch?v=p9m9bBJsGzo#t=26m20s]]
+
+-----------
+
+!!!__[[Level set]] manifold__
+
+For $$F: M \to N$$ a [[Smooth function]], then $$F^{-1}(c)$$ is a [[Smooth manifold]].
+
+In this case, the [[Tangent space]] is $$T_a \cong Ker(DF_a)$$, that is the kernel of the [[Differential]] of the map. That is, all directions along which $$F$$ doesn't vary, which corresponds to the directions "inside" the level set, defined as all points with a fixed value of $$F$$.

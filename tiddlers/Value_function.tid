@@ -1,0 +1,20 @@
+created: 20170715164232118
+creator: cosmos
+modified: 20170718171613183
+modifier: cosmos
+tags: [[Reinforcement learning]]
+title: Value function
+tmap.id: fb6e5a2c-cbfe-4548-9887-08f6d0eb7ac0
+type: text/vnd.tiddlywiki
+
+
+* [[State-value function]]
+* [[Q-function]]
+
+-------------------
+
+If people don't specify which of these, they may be either refering to both generally, or to the state-value function.
+
+-----------------
+
+[[Value function approximation]]

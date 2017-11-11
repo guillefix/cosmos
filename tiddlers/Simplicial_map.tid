@@ -1,0 +1,12 @@
+created: 20171031102430186
+creator: cosmos
+modified: 20171031102849426
+modifier: cosmos
+tags: [[Simplicial complex]]
+title: Simplicial map
+tmap.id: 0cee5208-a420-430f-a301-560374fba186
+type: text/vnd.tiddlywiki
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33583#page=10]]. A map between abstract [[Simplicial complex]] which takes subsets to subsets.
+
+One can use it to construct a [[Continuous function]] between the topological realization of the simplicial complexes, by just taking the [[Affine extension]] of the map

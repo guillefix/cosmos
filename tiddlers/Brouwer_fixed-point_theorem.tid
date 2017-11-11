@@ -1,0 +1,17 @@
+created: 20171018000455198
+creator: cosmos
+modified: 20171031213254251
+modifier: cosmos
+title: Brouwer fixed-point theorem
+tmap.id: c5a99921-d335-4dd3-95e0-54221db24063
+type: text/vnd.tiddlywiki
+
+[[Theorem|https://www.youtube.com/watch?v=WGK8YEQktAw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&t=39#t=43m4s]]. 
+
+Every [[Continuous function]] $$f: B^2 \to B^2$$ has a [[Fixed point]] 
+
+General theorem is for $$B^n$$ (the closed unit n-[[Ball]])
+
+[[Proof|https://www.youtube.com/watch?v=WGK8YEQktAw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&t=39#t=44m34s]] Uses the fact that there is no [[Retraction]] from $$B^2$$ to $$S^1$$
+
+See also [ext[here|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=123]]

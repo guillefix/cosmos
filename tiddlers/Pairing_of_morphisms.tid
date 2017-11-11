@@ -1,0 +1,12 @@
+created: 20171015110822035
+creator: cosmos
+modified: 20171015111104973
+modifier: cosmos
+tags: [[Categorical product]]
+title: Pairing of morphisms
+tmap.id: 5fa0ef4f-676c-46b6-92d2-1430a6cc28e3
+type: text/vnd.tiddlywiki
+
+See [[Categorical product]]. It is the unique morphism from any the object in a pairing of objects (remember: that is the triple of objects with projections) to a product of objects.
+
+Used in [[Copairing of morphisms]]

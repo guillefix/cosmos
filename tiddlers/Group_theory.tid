@@ -1,10 +1,26 @@
 created: 20160528210835957
 creator: guillefix
-modified: 20161104134328700
-modifier: guillefix
-tags: 
+modified: 20171023162035826
+modifier: cosmos
+tags: [[Abstract algebra]]
 title: Group theory
 tmap.id: 94b032d5-23d3-4c84-be61-df509bc22d54
 type: text/vnd.tiddlywiki
 
+The study of the [[Algebraic structure]] known as [[Group]]
+
 book: [[Group Theory: Birdtracks, Lie's, and Exceptional Groups|https://books.google.co.uk/books/about/Group_Theory.html?id=xmQGV0bi-S0C&source=kp_cover&redir_esc=y]]
+
+
+[[Euler's formula with introductory group theory|https://www.youtube.com/watch?v=mvmuCPvRoWQ&t=1s]]
+
+
+[[Group action]]
+
+[[Video introduction|https://www.youtube.com/watch?v=xAt_kDnewRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS]]
+
+http://grouptheory.info/
+
+---------------
+
+[[Partial classification of finite groups of small order|https://www.youtube.com/watch?v=NcKq1IdTotA&index=7&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=1h19m10s]]. Classified all groups up to order 10 (except 8). Using [[Sylow theorems]] and others

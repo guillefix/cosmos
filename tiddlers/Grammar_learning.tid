@@ -1,11 +1,13 @@
 created: 20160823161842556
 creator: cosmos
-modified: 20161104134328663
+modified: 20171101163002140
 modifier: cosmos
 tags: [[Formal grammar]] [[Machine learning]]
 title: Grammar learning
 tmap.id: 185fde45-a4f6-4280-856e-b28fc8cd456e
 type: text/vnd.tiddlywiki
+
+//aka automata learning//
 
 The task of [[learning|Machine learning]] a [[Formal grammar]]. 
 
@@ -42,3 +44,5 @@ https://books.google.co.uk/books?hl=en&lr=&id=XAOE5V9B4dUC&oi=fnd&pg=PR9&ots=rbA
 http://link.springer.com/chapter/10.1007/3-540-33486-6_7#page-1
 
 See [[Evolving automata]]
+
+[ext[Cryptographic limitations on learning boolean formulae and finite automata|https://www.cis.upenn.edu/~mkearns/papers/crypto.pdf]]

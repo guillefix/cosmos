@@ -1,10 +1,40 @@
 created: 20170520152641187
 creator: cosmos
-modified: 20170520152904157
+modified: 20171102164642864
 modifier: cosmos
-tags: 
+tags: Geometry Tessellation
 title: Tiling
 tmap.id: 23639937-f781-4357-ae15-2b75620d20ab
 type: text/vnd.tiddlywiki
 
+A set of shapes in certain locations (regions) which [[Cover]] the space which they are in. Most commonly, [[Euclidean space]], and the [[Plane]] (2D tilings). Each of the shapes are called //tiles// or //prototiles//
+
 [[Reaching for Infinity Through Honeycombs – Roice Nelson|https://www.youtube.com/watch?v=2_ET-5DUtsE]]
+
+http://www.angelfire.com/mn3/anisohedral/explain.html
+
+!!__[[Tile]]s__
+
+Often one studies tiles that form particular tipes of tilings
+
+* [[Anisohedral tile]]s
+
+--------
+
+Nicolaas de Bruijn’s
+[dBr81] very fruitful and revealing subsequent procedure for obtaining such
+tiling patterns by slicing and projecting higher-dimensional cubic lattices.
+
+https://en.wikipedia.org/wiki/Aperiodic_tiling#cite_note-tao-5 -- connections to decidability of the [[Domino problem]]
+
+[[Crystallography]] -- [[Quasicrystal]]
+
+model sets and dynamical systems
+
+-------------
+
+__[[Monohedral Tiling]]__
+
+__[[Isohedral tiling]]__
+
+__[[Anisohedral tiling]]__

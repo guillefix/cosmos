@@ -1,0 +1,10 @@
+created: 20170901160450086
+creator: cosmos
+modified: 20170901160453969
+modifier: cosmos
+tags: [[Dimensionality reduction]]
+title: Locality preserving projection
+tmap.id: 5ee66302-3ae8-4d6f-9520-249baee4a01b
+type: text/vnd.tiddlywiki
+
+[[paper|https://papers.nips.cc/paper/2359-locality-preserving-projections.pdf]] --  When the high dimensional data lies on a low dimensional manifold embedded in the ambient space, the Locality Preserving Projections are obtained by finding the optimal linear approximations to the eigenfunctions of the Laplace Beltrami operator on the manifold. As a result, LPP shares many of the data representation properties of nonlinear techniques such as Laplacian Eigenmaps or Locally Linear Embedding. Yet LPP is linear and more crucially is defined everywhere in ambient space rather than just on the training data points.

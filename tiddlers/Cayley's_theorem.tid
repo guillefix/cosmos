@@ -1,0 +1,17 @@
+created: 20171008194636543
+creator: cosmos
+modified: 20171016224647336
+modifier: cosmos
+tags: [[Group action]]
+title: Cayley's theorem
+tmap.id: 58d9356c-9e11-402d-8194-b2c38d4c7011
+type: text/vnd.tiddlywiki
+
+[[vid|https://www.youtube.com/watch?v=ihncybAAPUw&index=4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=21m40s]]. Every finite [[Group]] is [[isomorphic|Group isomorphism]] to a [[Subgroup]] of a [[Symmetric group]].
+
+In fact, generally, $$G$$ is isomorphic to a subgroup of $$S(G)$$ (or to $$S_{|G|}$$ if $$G$$ is finite).
+
+[[Lemma|https://www.youtube.com/watch?v=ihncybAAPUw&index=4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=25m45s]]
+
+[[has some applications|https://www.youtube.com/watch?v=ihncybAAPUw&index=4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=35m19s]], for instance in [[Computer algebra]]
+

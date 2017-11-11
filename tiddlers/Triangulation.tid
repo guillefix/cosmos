@@ -1,0 +1,12 @@
+created: 20171031102215752
+creator: cosmos
+modified: 20171031102320762
+modifier: cosmos
+tags: [[Simplicial complex]]
+title: Triangulation
+tmap.id: 384ae71d-1c6f-4da5-949e-fef37de23379
+type: text/vnd.tiddlywiki
+
+A ''triangulation'' of a topological space is a [[Simplicial complex]] $$K$$ together with a choice of [[Homeomorphism]] $$|K| \to X$$ ($$|K|$$ referring to its //topological realization).
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33583#page=10]]

@@ -1,0 +1,9 @@
+created: 20171011124639501
+creator: cosmos
+modified: 20171011124816196
+modifier: cosmos
+title: Diameter
+tmap.id: 1142204a-f785-4e65-a14a-df298bb568bb
+type: text/vnd.tiddlywiki
+
+The diameter of a subset in a [[Metric space]] is the [[Supremum]] of the [[Distance]]s between any two points in the set.

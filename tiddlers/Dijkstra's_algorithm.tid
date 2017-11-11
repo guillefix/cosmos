@@ -1,0 +1,22 @@
+created: 20170825124949332
+creator: cosmos
+modified: 20171015225345360
+modifier: cosmos
+tags: [[Spatial navigation]] [[Shortest path]]
+title: Dijkstra's algorithm
+tmap.id: 8978b6a8-03a1-4d31-9b23-7539635eb28a
+type: text/vnd.tiddlywiki
+
+finding shortest path between two nodes in a graph
+
+https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+
+[[video|https://www.youtube.com/watch?v=DiedsPsMKXc&list=PL6ED884C7AEE68027&index=#t=1h21m]]
+
+Basically, use [[Dynamic programming]]/[[Recursion]].
+
+We have a set of visited nodes which we (recursively) know we have found their shortest distance to the start node. Note that set of visited nodes includes the start node, because that is where we start the algorithm.
+
+Also, we have the tentative distances of all neighbours to visited nodes. -- These are computed as the minimum distance yet proposed for {that node}, where each proposition is done whenever a neighbouring node is visited and proposes its distance + the distance between it and {that node}. 
+
+The next visited node is the node with smallest tentative distance. This is because we know this tentative distance is actually the true shortest distance. This is because any other path from that node to the start node will pass through some edge at the boundary of the set of visited nodes. Therefore that path will include [the distance of that edge + {(at least) the shortest distance from the visiting node that edge reaches}]. [This distance] is equal or larger than the tentative distance of the unvisited node from which that edge starts, and this is equal or larger than the tentative distance of the unvisited node with the smallest tentative distance. Therefore, this node's tentative distance is its true shortest distance.

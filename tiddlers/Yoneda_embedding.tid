@@ -1,0 +1,12 @@
+created: 20171110230945496
+creator: cosmos
+modified: 20171111115808611
+modifier: cosmos
+tags: [[Representable functor]] [[Yoneda lemma]]
+title: Yoneda embedding
+tmap.id: fb5b770d-5340-4daa-a2d6-7beb93e5f8ac
+type: text/vnd.tiddlywiki
+
+A [[Functor]], from a [[Category]] to {the [[Category of functors|Functor category]] from the category to Set} where objects are mapped to to their corresponding [[Representable functor]]s, and morphisms are [[Natural transformation]]s induced by morphisms in the original category. The fact that these are natural transformations turns out to be equivalent to the associativity axiom of the categeory.
+
+See [[here|https://www.youtube.com/watch?v=eaJmUUogb6g]]

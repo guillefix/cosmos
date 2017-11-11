@@ -1,0 +1,14 @@
+created: 20171009084048839
+creator: cosmos
+modified: 20171022220607256
+modifier: cosmos
+tags: Combinatorics
+title: Chain set
+tmap.id: 9f341299-ee31-440f-be67-4b102de5ac11
+type: text/vnd.tiddlywiki
+
+A [[totally ordered|Total ordering]] subset of a [[Partially ordered set]]
+
+Proposition: Every chain in the [[Power set]] of a set of n elements $$P(n)$$ has at most $$n+1$$ elements. There are $$n!$$ different maximal chains with $$n+1$$ elements, and every chain $$C$$ is contained in some chain of size $$n+1$$.
+
+[[Symmetric chain]]

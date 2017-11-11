@@ -1,0 +1,11 @@
+created: 20171010154433203
+creator: cosmos
+modified: 20171010154518749
+modifier: cosmos
+title: Covariance
+tmap.id: 7d19ebd6-3400-4946-8559-d4715139f8ea
+type: text/vnd.tiddlywiki
+
+$$Cov(X,Y) = E[(X-E[X])(Y-E[Y])]$$, for r.v.s $$X$$ and $$Y$$.
+
+See also [[Variance]]

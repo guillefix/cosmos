@@ -1,0 +1,9 @@
+created: 20171009082705855
+creator: cosmos
+modified: 20171015181334241
+modifier: cosmos
+title: Symmetric difference
+tmap.id: 69d6729d-0751-437e-8426-23fba0a867c5
+type: text/vnd.tiddlywiki
+
+$$A \triangle B = (A\setminus B) \cup (B\setminus A) $$ $$ =  (A \cup B) \setminus (A \cap B)$$

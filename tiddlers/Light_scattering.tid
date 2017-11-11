@@ -1,0 +1,20 @@
+created: 20170702211006239
+creator: cosmos
+modified: 20170702212125509
+modifier: cosmos
+tags: [[Light-matter interaction]]
+title: Light scattering
+tmap.id: b19ae57d-7e7f-4bd9-9e86-1ff0819bca39
+type: text/vnd.tiddlywiki
+
+
+!!__Specular [[Reflection]]__
+
+!!__Diffuse scattering__
+
+Idealized law: [[Lambert's law]]
+
+
+--------------
+
+[[Phong shading]] is a heuristic model

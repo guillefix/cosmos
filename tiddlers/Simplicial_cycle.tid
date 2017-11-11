@@ -1,0 +1,13 @@
+created: 20171015205141459
+creator: cosmos
+modified: 20171015205506909
+modifier: cosmos
+title: Simplicial cycle
+tmap.id: 6833f0a1-a6d1-464e-a36c-919fe9e8b671
+type: text/vnd.tiddlywiki
+
+A [[path|Path (Graph theory)]] through the edges of a simplicial complex, or a [[Delta-complex]], where the path returns to the same vertex.
+
+When drawing the path, if we draw a part of a path, and then we draw the same part but backwards, then they "cancel out", meaning, that the path is the same as removing those parts..
+
+There are higher dimensional analogues.

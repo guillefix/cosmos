@@ -1,0 +1,22 @@
+created: 20171015162127469
+creator: cosmos
+modified: 20171020153931412
+modifier: cosmos
+tags: [[Category theory]]
+title: Equalizer (category theory)
+tmap.id: 8ec176c9-f775-4ca2-956c-e6a9b6896b7d
+type: text/vnd.tiddlywiki
+
+Consider a pair of arrows $$f: A \to B$$, $$g: A \to B$$. An ''equalizer'' of $$(f,g)$$ is an arrow $$e: E \to A$$, such that $$f \circ e = g \circ e$$ and, for any arrow $$h: D \to A$$ such that $$f \circ h = g \circ h$$, there is a unique $$\hat{h}: D \to E$$ so that $$h = e \circ \hat{h}$$
+
+So it is a morphism which makes $$f$$ and $$g$$ "equal", in a sense.
+
+In [[Set]], the equalizer for $$f,g$$ is given by the inclusion $$\{x \in A | f(x) = g(x) \} \hookrightarrow A$$.
+
+Equalizers are [[Monic morphism]]s
+
+They are unique up to unique isomorphism
+
+Kernel of linear map f, is an equalizer of (f,0). We can define kernels in a similar way if we have the notion of a "0" map.
+
+The [[Dual]] are [[Coequalizer]], which generalize equivalence relations, and more general quotien structures..

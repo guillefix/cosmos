@@ -1,0 +1,29 @@
+created: 20171106150106548
+creator: cosmos
+modified: 20171109125615506
+modifier: cosmos
+tags: [[Differential geometry]]
+title: Lie derivative
+tmap.id: bd200189-78fd-482c-a788-b8079ef0601e
+type: text/vnd.tiddlywiki
+
+
+Suppose $$\phi_t$$ is a (locally defined) [[One-parameter group of diffeomorphisms]] defined by vector field $$X$$. Then there is a naturally defined ''Lie derivative''
+
+: $$\mathcal{L}_X \alpha = \frac{\partial}{\partial t} \phi_t^* \alpha |_{t=0}$$
+
+of a [[p-form|Exterior form]] $$\alpha$$ by $$X$$. It is again a $$p$$-form.
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=47]]
+
+The Lie derivative for [[Vector field]]s is the [[Lie bracket]].
+
+!!__[[Cartan's formula]]__
+
+A formula for the Lie derivative of a k-form using the [[Exterior derivative]] and [[Interior product]]
+
+----------------
+
+//Intuition//
+
+As explained in [[Lie bracket]], "So it says in which direction would I need to change the geometric thing $$\alpha$$ at each point, so that the flow $$\phi_t$$ induced by $$X$$ takes it to the original $$\alpha$$" (but this is not totally correct as can't generally define pushworfard, only [[Pullback]])

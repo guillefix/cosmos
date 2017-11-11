@@ -1,0 +1,21 @@
+created: 20171023214208007
+creator: cosmos
+modified: 20171023220355828
+modifier: cosmos
+title: Epsilon-net
+tmap.id: 1b040d1b-647a-4a0f-b005-186fa04a76da
+type: text/vnd.tiddlywiki
+
+//$$\epsilon$$-net//
+
+We say that a set $$S$$ is an $$\epsilon$$-net for a collection of sets $$C$$ if for every $$c \in C_\epsilon$$, there exists $$x \in S$$ such that $$c(x) = 1$$, where 
+
+: $$C_\epsilon = \{c \in C | P_{x\sim D} [c(x) = 1] \geq \epsilon\}$$
+
+for a fixed distribution $$D$$.
+
+In the context of [[PAC learning with infinite concept classes]] (see [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture03.pdf]]), we substitute $$C$$ with $$\Delta_c(C)$$, and $$\tilde{c}(x) = 1$$ is a failed prediction. Then $$\Delta_{c,\epsilon}(C)$$ is the set of all concepts corresponding to concepts with error $$\geq \epsilon$$, given $$c$$ is the true concept. The concept $$c$$ itself marks the regions where the corresponding concept fails. An $$\epsilon$$-net is a set of points such that there is a point inside every one of these regions.
+
+If the sample we get is an $$\epsilon$$-net, then if $$c' \in C$$ is consistent with the sample, so that $$c'(x) = c(x)$$ for all $$x \in S$$, then $$\tilde{c}(x) = (c \oplus c' )(x) = 0$$ for all $$x \in S$$. Therefore, $$\tilde{c} \notin \Delta_{c,\epsilon}(C)$$, and therefore $$err(c') \leq \epsilon$$. 
+
+Therefore our main goal is to bound the probability that a set $$S$$ of size $$m$$ drawn from $$EX(c,D)$$ fails to be an $$\epsilon$$-net for $$\Delta_c (C)$$.

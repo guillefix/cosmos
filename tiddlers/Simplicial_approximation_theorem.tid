@@ -1,0 +1,17 @@
+created: 20171031104156283
+creator: cosmos
+modified: 20171031105015586
+modifier: cosmos
+tags: [[Simplicial complex]]
+title: Simplicial approximation theorem
+tmap.id: 2ae2b81a-7458-4e71-8ee6-e9ae2912993c
+type: text/vnd.tiddlywiki
+
+//how to approximate continuous maps with simplicial maps//
+
+Most commonly studied [[Topological space]]s admit the structure of a simplicial complex. If K and L are [[Simplicial complex]]es, and f: |K| → |L| is some
+continuous map between their topological realization, it will be very useful to be able to [[homotope|Homotopy]] f to a [[Simplicial map]]. In general, this is not always possible. But it is if we pass to a ‘sufficiently fine’ subdivision of K:
+
+''Simplicial approximation theorem''.  //Let K and L be simplicial complexes,
+where K is finite, and let f: |K| → |L| be a continuous map. Then there is some
+[[subdivision|Subdivision of a simplicial complex]] K' of K and a simplicial map g: K'→ L such that |g| is homotopic to f.//

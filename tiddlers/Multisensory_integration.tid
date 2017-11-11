@@ -1,6 +1,6 @@
 created: 20170212160353849
 creator: cosmos
-modified: 20170416151611711
+modified: 20170812164648775
 modifier: cosmos
 tags: [[Cognitive neuroscience]]
 title: Multisensory integration
@@ -20,3 +20,5 @@ See facebook posts. CycleGAN.
 multimodal learning, days fusion.
 
 [[Deep Multimodal Representation Learning from Temporal Data|https://arxiv.org/abs/1704.03152]]
+
+[[See, Hear, and Read: Deep Aligned Representations|http://people.csail.mit.edu/yusuf/see-hear-read//]]

@@ -1,0 +1,13 @@
+created: 20170925170346382
+creator: cosmos
+modified: 20171011131648053
+modifier: cosmos
+title: Well-ordering theorem
+tmap.id: f87c8d33-de6c-4d1e-9fd8-259b9c000dd4
+type: text/vnd.tiddlywiki
+
+If $$A$$ is a set, there exists an [[Ordering]] on $$A$$ that is a [[well-ordering|Well-ordered set]]
+
+The proof requires the [[Axiom of choice]]
+
+[[vid|https://www.youtube.com/watch?v=9T-qLhrr_Aw&index=12&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h11m15s]]

@@ -1,0 +1,12 @@
+created: 20171111115816970
+creator: cosmos
+modified: 20171111115855705
+modifier: cosmos
+tags: Functor Category
+title: Functor category
+tmap.id: 3664f5ef-7ab0-454f-ac32-e3eb61270c1d
+type: text/vnd.tiddlywiki
+
+The [[Category]] of [[Functor]]s, where objects are functors and morphisms are [[Natural transformation]]s.
+
+See [[here|https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/LNPnotes.pdf#page=38]]

@@ -1,0 +1,12 @@
+created: 20170926224034418
+creator: cosmos
+modified: 20170926224248548
+modifier: cosmos
+tags: Graph
+title: Planar graph
+tmap.id: 06c384b6-ab66-4b67-891f-78d3e7099752
+type: text/vnd.tiddlywiki
+
+[[Graph]]s which can be drawn in the [[plane|Plane (surface)]] without [[edges|Edge (graph)]] crossing. 
+
+[[How to identify planar graphs|https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PL6ED884C7AEE68027#t=9m29s]] (Kuritowski's theorem)

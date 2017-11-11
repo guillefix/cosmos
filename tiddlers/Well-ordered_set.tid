@@ -1,0 +1,16 @@
+created: 20170925170035479
+creator: cosmos
+modified: 20171011155352344
+modifier: cosmos
+tags: Ordering
+title: Well-ordered set
+tmap.id: 42fe5155-5c6f-4549-a71d-cbbff67d66b0
+type: text/vnd.tiddlywiki
+
+A set $$A$$ with an [[order relation|Ordering]] $$<$$ is said to be ''well-ordered'' if every nonempty subset of $$A$$ has a [[Smallest element|Minimum]].
+
+[[Well-ordering theorem]]
+
+-----------
+
+[[Example of a Hausdorff space which is limit point compact but not compact|https://www.youtube.com/watch?v=9T-qLhrr_Aw&index=12&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h4m]] ([[Proof here|https://www.youtube.com/watch?v=JO_Z5FmVhK0&index=13&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx]]) -- [[Theorem|https://www.youtube.com/watch?v=9T-qLhrr_Aw&index=12&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h14m39s]]. There is an uncoutnable [[Well-ordered set]] such that every [[section|Section of an ordered set]] $$(-\infty, a)$$ is countable. ("the minimal well-ordered uncountable set"?). Uncountable well-ordered sets [[are related to |https://www.youtube.com/watch?v=9T-qLhrr_Aw&index=12&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h27m50s]][[Transfinite number]]s. Corollary [[S_Omega is not metrizable|https://www.youtube.com/watch?v=JO_Z5FmVhK0&index=13&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=41m]], like $$\bar{S_\Omega}$$.. However, [[S_Omega is first countable but not first countable|https://www.youtube.com/watch?v=JO_Z5FmVhK0&index=13&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=52m55s]], [[but not second countable|https://www.youtube.com/watch?v=JO_Z5FmVhK0&index=13&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=59m19s]]

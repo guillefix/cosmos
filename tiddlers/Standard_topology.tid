@@ -1,13 +1,15 @@
 created: 20170628131355960
 creator: cosmos
-modified: 20170628131457944
+modified: 20170821165609056
 modifier: cosmos
 tags: Topology [[Real analysis]]
 title: Standard topology
 tmap.id: c145c11f-050f-4596-90dd-e0e6a57a45f8
 type: text/vnd.tiddlywiki
 
-The topology [[generated|Basis of a topology]] by [[Open ball]]s in $$\mathbb{R}^n$$.
+The topology [[generated|Basis of a topology]] by [[Open ball]]s in $$\mathbb{R}^n$$. For $$\mathbb{R}$$ it can be constructed as the [[Order topology]] w.r.t. to the standard order in the real line
 
 
 -- [[definition|https://www.youtube.com/watch?v=PXIcas22MtQ&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=47m50s]] of open sets in the standard topology
+
+[[A basis for the standard topology in R2|https://www.youtube.com/watch?v=uINRZyMsX3I&index=2&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h26m]] are open rectangles

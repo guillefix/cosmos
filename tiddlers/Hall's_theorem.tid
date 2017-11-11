@@ -1,0 +1,13 @@
+created: 20171009084950764
+creator: cosmos
+modified: 20171015170232868
+modifier: cosmos
+title: Hall's theorem
+tmap.id: 521c6b1c-e2af-4575-94c6-83ffdde32973
+type: text/vnd.tiddlywiki
+
+Let $$B$$ be a [[Bipartite graph]] with vertex classes $$V$$ and $$W$$. There is a [[Complete matching]] from V to W if and only if for any subset S of V. The size of the neighbourhood of S $$\Gamma(S)$$:
+
+$$|\Gamma(S)| \geq |S|$$
+
+The "only if" part is clear because a complete matching is like an [[Injective function]]. The nontrivial part is that the condition is also necessary.

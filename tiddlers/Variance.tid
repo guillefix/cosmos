@@ -1,0 +1,14 @@
+created: 20170824213238944
+creator: cosmos
+modified: 20171010154428606
+modifier: cosmos
+tags: [[Moment (mathematics)]] Statistics
+title: Variance
+tmap.id: 19890d85-be41-4a86-ab5b-d68a9716166d
+type: text/vnd.tiddlywiki
+
+$$Var(X) = E[(X-E[X])^2]$$ for a [[Random variable]] $$X$$.
+
+where $$E[]$$ means the [[Expected value]].
+
+See also [[Covariance]]

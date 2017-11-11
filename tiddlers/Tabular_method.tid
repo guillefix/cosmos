@@ -1,0 +1,12 @@
+created: 20170715175537861
+creator: cosmos
+modified: 20170716173530242
+modifier: cosmos
+title: Tabular method
+tmap.id: e31bba9c-bdf2-4b07-a730-8e333ec9c85c
+type: text/vnd.tiddlywiki
+
+
+[[Reinforcement learning]] method which tries to computes the exact [[Value function]]. The name refers to the fact that in general, this requires storing the value for  each state (or state-action pair). Therefore, this can only be applied to finite-MDPs. 
+
+The other alternative, which can be applied to larger and more difficult problems is to [[approximate the value function|Value function approximation]], for instance using a [[neural network|Artificial neural network]]

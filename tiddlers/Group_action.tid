@@ -1,0 +1,36 @@
+created: 20171008193451014
+creator: cosmos
+modified: 20171013192740633
+modifier: cosmos
+tags: [[Group theory]]
+title: Group action
+tmap.id: 93a56f43-cd8b-4c56-afd3-35ec2d9d8007
+type: text/vnd.tiddlywiki
+
+[[Motivation|https://www.youtube.com/watch?v=ihncybAAPUw&index=4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=7m20s]] and [[definition|https://www.youtube.com/watch?v=ihncybAAPUw&index=4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=8m30s]]
+
+An action of a group $$G$$ on a non-empty set $$X$$ is:
+
+A map $$\cdot: G\times X \to X$$, $$(g,x) \mapsto g\cdot x$$, such that
+
+$$1 \cdot x = x. \forall x \in X$$
+
+$$(gh) \cdot x = g\cdot ( h \cdot x)$$
+
+Example: [[Left translation action]]
+
+[[With a group action, every element in a group defines a bijection on the set acted upon, to itself|https://www.youtube.com/watch?v=ihncybAAPUw&index=4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=17m33s]], defined just by acting with that group element. This can be used to proove [[Cayley's theorem]]
+
+[[Transitive group action]]
+
+[[Group orbit]]
+
+[[Stabilizer subgroup]]
+
+[[Conjugated]], [[Conjugation action]]
+
+[[Group action on power set]]
+
+----------------
+
+https://en.wikipedia.org/wiki/Group_action

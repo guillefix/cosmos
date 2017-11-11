@@ -1,7 +1,7 @@
 created: 20160711224524069
 creator: guillefix
-modified: 20161104134327850
-modifier: guillefix
+modified: 20171007215256108
+modifier: cosmos
 tags: [[Topological entropy]]
 title: Determinant of a graph
 tmap.id: a73eea6f-e63c-4c68-8ef8-59f8e996e83d
@@ -19,6 +19,12 @@ gives topological polynomial, which is just the characteristic polynomial of the
 
 [[Topological zeta function]]
 
+https://qchu.wordpress.com/2009/11/17/the-lindstrom-gessel-viennot-lemma/
+
+https://math.stackexchange.com/questions/13754/graph-theoretic-interpretation-of-determinant
+
+https://mathoverflow.net/questions/134956/determinants-in-graph-theory
+
 -------------------
 
 Examples from fsts. See notebook and [[here|Simplicity bias in finite-state transducers]]
@@ -35,6 +41,6 @@ __FST 21__
 
 [[(2^(-log_2(0.59)*40)/2^40)*10^6|http://www.wolframalpha.com/input/?i=(2%5E(-log_2(0.59)*40)%2F2%5E40)*10%5E6]]
 
-[[-log_2(0.59)|http://www.wolframalpha.com/input/?i=-log_2(0.59)]]
+[ext[-log_2(0.59)|http://www.wolframalpha.com/input/?i=-log_2(0.59)]]
 
-[[2.7*log_2 (100)/(37-14)|http://www.wolframalpha.com/input/?i=2.7*log_2+(100)%2F(37-14)]]
+[ext[2.7*log_2 (100)/(37-14)|http://www.wolframalpha.com/input/?i=2.7*log_2+(100)%2F(37-14)]]

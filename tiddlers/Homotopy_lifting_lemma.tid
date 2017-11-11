@@ -1,0 +1,18 @@
+created: 20171017162637385
+creator: cosmos
+modified: 20171017164424005
+modifier: cosmos
+tags: [[Path homotopy]] Covering
+title: Homotopy lifting lemma
+tmap.id: f5acac31-4567-49de-8eff-50b034848666
+type: text/vnd.tiddlywiki
+
+https://en.wikipedia.org/wiki/Homotopy_lifting_property
+
+[[video|https://www.youtube.com/watch?v=D6MF_RZiNd8&index=17&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h8m11s]]
+
+$$p: E \to B$$ is a [[Covering]], $$p(e_0) = b_0$$. Let $$F: I \times I \to B$$ ($$I=[0,1]$$) be [[continuous|Continuous function]], with $$F(0\times 0) = b_0$$. Then there is a [[lifting|Lifting of a map to a covering space]] $$\tilde{F}: I \times I \to E$$ s.t. $$\tilde{F} (0\times 0) = e_0$$ (it's also unique).
+
+If $$F$$ is a [[Path homotopy]] (constant on the sides $$\{0\}\times I$$ and $$\{1\} \times I$$), then also $$\tilde{F}$$ is a path homotopy.
+
+[[Proof|https://www.youtube.com/watch?v=D6MF_RZiNd8&index=17&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h12m20s]]. Uses [[Lebesgue number lemma]] to take an open covering of $$B$$, which gives also an open covering of square (which is compact and metric), given by the preimages $$V$$ of the [[Covering]]. Then we can divide $$I \times I$$ into squares whose images are contained in the open sets of the covering of $$B$$. (see proof of [[Path lifting lemma]] for details).

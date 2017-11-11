@@ -1,0 +1,12 @@
+created: 20171018221203588
+creator: cosmos
+modified: 20171024203736660
+modifier: cosmos
+tags: 
+title: Quotient topology
+tmap.id: f47de638-9c3e-4e09-aa58-def35bc7b857
+type: text/vnd.tiddlywiki
+
+Topology formed by sets whose preimages are open, preimages taken for the [[Canonical projection]]
+
+https://en.wikibooks.org/wiki/Topology/Quotient_Spaces uses [[Quotient map]]

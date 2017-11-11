@@ -1,0 +1,18 @@
+created: 20171106111708385
+creator: cosmos
+modified: 20171106114626527
+modifier: cosmos
+tags: Tensor [[Algebra (algebraic structure)]]
+title: Tensor algebra
+tmap.id: fe2d14a1-6c66-4d8d-8877-6aefa161c79b
+type: text/vnd.tiddlywiki
+
+The set consists of $$T(V) = \oplus_{k=0}^\infty (\otimes^k V)$$, that is a [[Direct sum]] of [[Tensor product]]s of $$V$$.
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=34]] for the definition of the product.
+
+The [[Exterior algebra]] is a [[quotient|Quotient algebra]] of this algebra.
+
+It is [[associative|Associativity]] and not [[commutative|Commutativity]]
+
+Can also extend tensor product to [[Vector bundle]]s

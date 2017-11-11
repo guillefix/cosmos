@@ -1,0 +1,24 @@
+created: 20171110111013456
+creator: cosmos
+modified: 20171111112547024
+modifier: cosmos
+tags: [[Category theory]]
+title: Natural transformation
+tmap.id: 3daf3c96-2fbe-4a26-8c59-c80470cef597
+type: text/vnd.tiddlywiki
+
+A [[Morphism]] between [[Functor]]s
+
+Let $$F,G: \mathcal{C} \to \mathcal{D}$$ be [[Functor]]s. A ''natural transformation'' $$t: F \Rightarrow G$$ is a family of $$\mathcal{D}$$-morphisms
+
+:$$t_A : FA \to GA$$
+
+indexed by objects $$A$$ of $$\mathcal{C}$$ such that for all $$f:A \to B$$,
+
+[img[natural_transformation_diagram.png]]
+
+If each $$t_A$$ is an [[Isomorphism]], we say that $$t$$ is a [[Natural isomorphism]].
+
+[[Meaning of "natural transformation/isomorphism in variables" when not specifying functor explicitely|https://www.youtube.com/watch?v=JEJim3t-N9A&list=PL54B49729E5102248&index=2#t=2m15s]]
+
+[[Notes|https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/handout_7.pdf]]

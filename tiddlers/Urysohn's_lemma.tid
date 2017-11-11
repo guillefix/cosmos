@@ -1,0 +1,21 @@
+created: 20171011164927169
+creator: cosmos
+modified: 20171011173823513
+modifier: cosmos
+tags: [[Separation axiom]]
+title: Urysohn's lemma
+tmap.id: 8c7ac757-490d-4f48-919b-2bd95fd72baa
+type: text/vnd.tiddlywiki
+
+//("A and B can be separated by a continuous real-valued function")//
+
+[[Lemma|https://www.youtube.com/watch?v=dW2UyOEP6FI&index=14&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=22m]].
+
+Let $$X$$ be $$T_4$$ ([[Separation axiom]]), and $$A,B$$ be disjoint closed subset of $$X$$. Then there exists a [[Continuous function]] $$f: X \to [0,1]$$ ($$\subset \mathbb{R}$$) s.t. $$f(A) = \{0\}$$ and $$f(B) = \{1\}$$.
+
+__Observation__: $$X$$ is $$T_4$$ if and only if any disjoint closed subsets can be separated by a cont. real-valued function
+
+Proof that f separates
+
+[[Proof that f is continuous|https://www.youtube.com/watch?v=dW2UyOEP6FI&index=14&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h9m30s]]
+

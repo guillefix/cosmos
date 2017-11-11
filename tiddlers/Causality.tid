@@ -1,6 +1,6 @@
 created: 20161022121529399
 creator: cosmos
-modified: 20170508175313673
+modified: 20170808110003384
 modifier: cosmos
 tags: Inference
 title: Causality
@@ -20,3 +20,17 @@ Cause --> Effect
 http://bayes.cs.ucla.edu/PRIMER/
 
 [[[Коллоквиум]: Causal inference and Kolmogorov complexity|https://www.youtube.com/watch?v=uzDUc8xmYYY]]
+
+----------------
+
+[[When the Map Is Better Than the Territory|http://www.mdpi.com/1099-4300/19/5/188]] uses [[Mutual information]] as a measure of causal influence (he talks about causal [[Emergence]]). He finds that the mutual information at higher scales can be higher than those at lower scales. This may sound counterintuitive. Mutual information is defined as how much information does an intervention give you on the future state of a system, i.e. how much does knowing which intervention is performed determine the future of a system, versus not knowing it. However, crucially, mutual information is defined as the //average// of this quantity over interventions. And in particular, he defines as the average when the distribution is uniform over interventions.
+
+So, if we are talking about intervening at a small scale (the "territory"), by his definition, we consider all possible interventions with equal probability (note intervention is defined as setting the system in a particular state before letting it evolve). If most of these interventions don't determine the future much, then in average we won't determine the future much.
+
+What does intervening at a higher scale (the "map") means? It means, for example, intervening now on a set of //macrostates//, which correspond to sets of microstates. ''Crucially'', an uniform distribution on macrostates, can cause a non-uniform distribution on microstates. In particular, it can put much more weight on those microstates that effectively determined the future. Therefore this macro intervention will have higher causal influence.
+
+This doesn't mean it's impossible to have as much causal influence in the micro scale, we could just choose the non-uniform distribution at that scale. But it means that in some sense, the macroscale can give us that for free, making the job much easier, and it's thus better in that respect.
+
+He makes some connections to [[Channel capacity]] which I haven't looked at in much detail.
+
+Some philosophical points at the end seem like they are stretching the implications a bit too much. But I do see this possibly giving insight into questions of emergence

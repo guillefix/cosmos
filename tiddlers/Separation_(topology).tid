@@ -1,0 +1,21 @@
+created: 20170924203118744
+creator: cosmos
+modified: 20170924214327084
+modifier: cosmos
+tags: Connectedness
+title: Separation (topology)
+tmap.id: cf8df8b7-4d51-465d-a4ed-3d67f6ac439f
+type: text/vnd.tiddlywiki
+
+
+[[Definition|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=30m10s]]: A ''separation'' of a [[Topological space]] $$X$$ is a pair $$U,V$$ of subsets of $$X$$ such that:
+
+*$$U,V$$ are open
+
+* $$X = U \cup V$$
+
+* $$U \cap V = \emptyset$$
+
+* $$U,V \neq \emptyset, X$$
+
+Because these sets are [[complements|Complement of a set]] of open sets, they are also [[closed|Closed set]], so they are [[clopen|Clopen set]]

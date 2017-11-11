@@ -1,7 +1,8 @@
 created: 20161017204550780
 creator: cosmos
-modified: 20170502121649924
+modified: 20170820185008771
 modifier: cosmos
+tags: [[Neural programming]]
 title: Neural programmer-interpreter
 tmap.id: d18964ac-aee2-4c49-a7c9-2c7e48abadf6
 type: text/vnd.tiddlywiki
@@ -14,3 +15,5 @@ Also see [[Neural Turing machine]]
 [ext[http://www-personal.umich.edu/~reedscot/iclr_project.html]]
 
 !!!Making neural nets generalize through recursion! This idea makes learning programs much better!
+
+https://www.youtube.com/watch?v=s7PuBqwI2YA&feature=youtu.be

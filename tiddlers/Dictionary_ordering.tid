@@ -1,0 +1,33 @@
+created: 20170925145919149
+creator: cosmos
+modified: 20171029225445222
+modifier: cosmos
+tags: Ordering
+title: Dictionary ordering
+tmap.id: 8becdeb4-3e15-475b-b38e-a954e926202a
+type: text/vnd.tiddlywiki
+
+//aka lexicographic or lexicographical order or lex//
+
+Sets A and B with relations $$<_A$$ and $$<_B$$ respectively. The ''dictionary ordering'', $$<$$, is defined on $$A\times B$$ ([[Cartesian product]]) as
+
+$$a_1 \times b_1 < a_2 \times b_2$$
+
+if $$a_1 <_A a_2$$, or {$$a_1 = a_2$$ and $$b_1 <_B b_2$$}.
+
+https://en.wikipedia.org/wiki/Lexicographical_order  -- http://mathworld.wolfram.com/LexicographicOrder.html
+
+!!__Lexicographic order in [[Combinatorics]] of the [[Power set]]__
+
+One variant widely used in combinatorics orders subsets of a given finite set by assigning a total order to the finite set, and converting subsets into increasing sequences, to which the lexicographical order is applied. 
+
+We define the ordering for subsets in the same layer of the [[Power set]] by
+ : $$A < B$$ if $$A \neq B$$ and $$\min{(A \triangle B)} \in A$$
+
+Equivalently, if we have distinct $$A,B \in [n]^{(r)}$$, and for each of which we have ordered the elemts $$a_1 < ... < a_r$$, and $$b_1 < ... < b_r$$, we then apply the dictionary ordering for sequences $$a_1...a_r$$ and $$b_1...b_r$$. That is $$A<B$$ if   $$a_i < b_i$$, where $$i = \min{\{j : a_j \neq b_j \}}$$.
+
+--> Basically, imagine laying the elements of $$[n]$$ vertically in a column in ascending order from bottom to top. Then if we look at the elements of the two sets, we look at the set that has the smallest element, which isn't also in the other set. For the colexicographic order, we do the same but looking at "the top", looking at the largest element.
+
+We can also define the [[Colexicographic order]] or colex:
+
+: $$A < B$$ if $$A\neq B$$ and $$\max{(A\: \triangle \: B)} \in B$$.

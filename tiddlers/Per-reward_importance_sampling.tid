@@ -1,0 +1,18 @@
+created: 20170715182740035
+creator: cosmos
+modified: 20170715183217996
+modifier: cosmos
+tags: [[Off-policy learning]]
+title: Per-reward importance sampling
+tmap.id: 39ee7c58-908a-4a5f-8a27-05a502f0bf3d
+type: text/vnd.tiddlywiki
+
+
+(secs 5.9 and 7.4 in Sutton-Barto), Off-policy Returns.
+
+We can express a sum of rewards in a [[Markov decision process]], which are weighted with an [[Importance sampling]] (IS) weight (ratio of probability of trajectories for sampling and target policy), can be expressed as a sum of discounted rewards with individual IS weights for the trajectory truncated up to the time step of the reward
+
+[img[
+per_reward_importance_sampling_1.png]]
+
+[img[per_reward_importance_sampling_2.png]]

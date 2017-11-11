@@ -1,0 +1,22 @@
+created: 20171103114629680
+creator: cosmos
+modified: 20171103120001533
+modifier: cosmos
+tags: [[Extremal combinatorics]] [[Family of intersecting sets]]
+title: Erdos-Ko-Rado theorem
+tmap.id: bf4296ca-135d-44f3-82fd-f62c2d5a85ce
+type: text/vnd.tiddlywiki
+
+Theorem bounding the size of families of intersecting sets in layers of the [[Power set]]
+
+For $$r \leq n/2$$, if $$\mathcal{A} \subseteq [n]^{(n)}$$ is intersecting then $$|\mathcal{A}| \leq \binom{n-1}{r-1}$$. For $$r < n/2$$, the maximum families are all of the form {all sets which have at least a certain element $$a$$ in common}. For $$r=n/2$$, there are more possible types of maximum families.
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33445#page=23]] for proofs.
+
+https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Ko%E2%80%93Rado_theorem
+
+An intersecting family of r-element sets may be maximal, in that no further set can be added without destroying the intersection property, but not of maximum size. An example with n = 7 and r = 3 is the set of 7 lines of the Fano plane, much less than the Erdős–Ko–Rado bound of 15.
+
+__Applications__
+
+[[Two families theorem]]

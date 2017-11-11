@@ -1,0 +1,13 @@
+created: 20171111115304739
+creator: cosmos
+modified: 20171111115318650
+modifier: cosmos
+tags: Functor
+title: Embedding (functor)
+tmap.id: 5298b9f4-e535-4af1-9580-1d45eeb9eeca
+type: text/vnd.tiddlywiki
+
+
+See [[here|https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/LNPnotes.pdf#page=32]]
+
+An example is the [[Yoneda embedding]]

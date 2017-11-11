@@ -1,8 +1,8 @@
 created: 20160915191802219
 creator: cosmos
-modified: 20170526013054868
+modified: 20170825100220259
 modifier: cosmos
-tags: [[Unsupervised learning]]
+tags: [[Dimensionality reduction]]
 title: Principal component analysis
 tmap.id: e99ff98c-3fcf-4656-9f98-9c4524c92b92
 type: text/vnd.tiddlywiki
@@ -87,3 +87,7 @@ LSI is essentially [[application of PCA to text data|https://www.youtube.com/wat
 --------------------
 
 [[Independent component analysis|https://en.wikipedia.org/wiki/Principal_component_analysis]]
+
+PPCA (probabilistic PCA)
+
+It is proposed that PCA of autocorrelation matrices of place cell activations produce [[Grid cells]] in the [[Spatial representation in the brain]]

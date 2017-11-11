@@ -1,6 +1,6 @@
 created: 20170302153958029
 creator: cosmos
-modified: 20170302170632125
+modified: 20170918114135871
 modifier: cosmos
 tags: [[Spatial representation in the brain]]
 title: Grid cell
@@ -12,6 +12,33 @@ type: text/vnd.tiddlywiki
 
 [[The neural encoding of space in parahippocampal cortices|http://journal.frontiersin.org/article/10.3389/fncir.2012.00053/full]]
 
+[[Path integration and the neural basis of the ‘cognitive map’|http://sci-hub.cc/10.1038/nrn1932]]
+
+[[Grid Cells, Place Cells, and Geodesic Generalization for Spatial Reinforcement Learning|http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002235]]
+
+a stronger input from the
+direction-specific layer would cause the activity bump to
+move faster, thereby generating a rapidly changing, shortscale
+representation (small place fields). Reducing the
+speed dependence of hidden layer cells would cause the
+activity bump to move more slowly, and would yield a
+coarser spatial representation (larger place fields).
+
+Unlike the hippocampus proper, in which the spatial firing
+relationship of any arbitrary pair of cells is essentially
+unpredictable across environments, the relative offset
+(spatial phase) of grid fields for any two cells appears to
+be universal (constant across all environments)40. This
+property is analogous to the behaviour of head direction
+cells, which similarly retain their relative preferred firing
+directions across environments5,35,41, and corresponds to
+the behaviour of the universal chart proposed in theoretical
+models of path integration25,26,37. In addition, some
+subicular place cells also appear to have such universal
+properties
+
+----------------------
+
 Generally, computational models of grid formation have been grouped into one of two classes; oscillatory interference models and network attractor models. Oscillatory interference models propose that multiple, velocity driven oscillators combine to generate periodic patterns. Attractor network models depend on excitatory or inhibitory recurrent activity and use velocity signals to move a bump of activity across a neural sheet of grid cells. 
 
 http://blog.brainfacts.org/2013/08/human-grid-cells/#.WLg-NldBrCI
@@ -21,3 +48,140 @@ http://krieger.jhu.edu/mbi/knierimlab/research/
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3216289/
 
 [[Extracting grid cell characteristics from place cell inputs using non-negative principal component analysis|https://elifesciences.org/content/5/e10094]]
+
+[[Framing of grid cells within and beyond navigation boundaries|file:///home/guillefix/Downloads/elife-21354-v2.pdf]]
+
+[[A map of visual space in the primate entorhinal cortex.|https://www.ncbi.nlm.nih.gov/pubmed/23103863]]
+
+[[The input-output transformation of the hippocampal granule cells: from grid cells to place fields|https://www.ncbi.nlm.nih.gov/pubmed/19515918]]
+
+http://www.scholarpedia.org/article/Grid_cells
+
+-------------------
+
+[[Grid Cells and Spatial Maps in Entorhinal Cortex and Hippocampus|https://link.springer.com/chapter/10.1007/978-3-319-28802-4_5/fulltext.html]]
+
+All cells within a module shared the same grid spacing, and modules
+of increasing scale became more abundant as the tetrodes were turned to more
+ventral MEC locations. Cells that shared the same grid spacing within animals also
+had a common grid orientation, defined as the orientation of the grid axes relative to
+the local boundaries of the environment. Most grid cells also demonstrated small
+but consistent deviations from perfect hexagonal symmetry, expressed by the fact
+that the inner ring of fields in the grid pattern formed an ellipse rather than a circle.
+These deformations were consistent across cells in the same grid module (Stensola
+et al. 2012). No modular organization was apparent within the population of head
+direction cells in the MEC (Giocomo et al. 2014).
+
+!!__Remapping__
+
+[[Place cell]]s. they
+showed that, if two recording environments differed beyond a certain magnitude,
+the activity of the recorded cells changed drastically between the environments.
+Among the cells that were active in the first environment and remained active in the
+second, the firing locations were completely reorganized in space. Further, a large
+portion of cells that were active in one environment became silent in the next. Other
+cells were active only in the second environment. This functional reorganization
+was termed ‘remapping’ and represented an orthogonalization in the population
+encoding between the distinct environments.
+
+Grid modularity appears to offer very favorable conditions for hippocampal
+remapping (Fig. 3). Maps from different grid modules could reorganize to yield
+completely novel downstream population inputs and, therefore, new hippocampal
+place maps. Early work showed that grid cells realigned with the environment when
+remapping took place in simultaneously recorded hippocampal place cells (Fyhn
+et al. 2007). The realignment involved a shift in grid phase and a reorientation of the
+grid pattern relative to the geometry of the environment. The realignment was
+coherent for all grid cells recorded, so that spatial relationships between the grid
+cells remained. This observation does not preclude independent realignment of
+distinct modules, however, because all of the grid cells in the early work were recorded at the dorsal end of the MEC and all had a relatively similar grid scale, i.e.,
+most of the cells may have belonged to the same module.
+
+[img[grid_cells_hippocampal_remapping.png]]
+
+Recent observations have indicated that remapping in
+the hippocampus has two different modes, referred to as
+global remapping and rate remapping11. Global remapping
+is a complete reorganization of the hippocampal
+place code, expressed by independent rate and place
+distributions in the different test conditions. Global
+remapping is normally induced when the animal moves
+between different environments (for an exception, see
+REF. 84), but it can also occur after substantial changes
+in cue configuration at a single location85, as observed in
+the first studies of remapping76,77. Rate remapping refers
+to a selective change in the distribution of firing rate with
+no change in the place code11. Rate remapping can occur
+when the animal is tested with different cue configurations
+in the same location. Both forms of remapping take
+place in both CA3 and CA1 regions, but the distinction
+between them is most striking in the CA3 
+
+---------------------
+
+attractor models of grid cells
+
+boundary-vector model of place cells
+
+ What are the functional consequences of this scale expansion? There is an extensive
+literature on the distinct features of dorsal and ventral portions of the hippocampus.
+Lesions at different dorsoventral portions produce markedly different behavioral
+deficits (Nadel 1968; Moser et al. 1993). Lesions of a small portion of the dorsal
+pole impair spatial memory efficiently, whereas similar portions of the ventral pole
+do not (Moser et al. 1993, 1995). Stress responses and emotional behavior are
+affected by lesions to ventral but not dorsal portions of hippocampus (Henke 1990;
+Kjelstrup et al. 2002). , activity in the human equivalent of the ventral
+hippocampus is associated with coarse global spatial representations and route
+planning and execution, whereas the dorsal equivalent is associated with finegrained
+local representations and navigation strategies, such as number of turns
+on a route (Evensmoen et al. 2013)
+
+ Grid cells are thought to
+perform path integration (dead-reckoning from integration of distance and angle
+over time) based on self-motion cues. Without occasional sensory input, however,
+errors will accumulate until the representation becomes entirely unreliable. Sensory
+cues affect grid cells (Hafting et al. 2005; Savelli et al. 2008) and are thought to
+provide update signals that recalibrate path integration and reset accumulated
+errors.
+
+shearing to account for ellipticity and angular offset of grid cell w.r.t. to container walls
+
+We hypothesize that border cells provide mechanistic links between the grid
+map and the external environment. Despite abundant visual landmarks in the
+recording rooms, modules, with few exceptions, aligned according to the geometry
+of the environment.
+
+Grid cells are typically aligned close to parallel to the cardinal axes of
+the environment. Grid modules were found to
+use a general strategy to anchor grid orientation to the environment, pointing to this
+strategy as an optimal mechanism for population encoding of ambiguous segments
+of the external environment.
+
+The close match
+between observed alignment and the alignment that would maximally decorrelate
+population codes across segments of the environment suggests that there could be a
+competitive interaction between path integration signals and sensory resets, as
+observed previously for place cells in the hippocampus (Gothard et al. 1996; Redish
+et al. 2000).
+
+Recently, it was shown that grid representations are not limited to
+navigational space in that a grid map of visual space was demonstrated in the
+entorhinal cortex of monkeys (Killian et al. 2012). Although highly speculative, it is
+interesting to ponder the possibilities for similar mechanisms at play in embedding
+internal representations into external reference frames in the visual domain as in the
+spatial domain. Evidence suggest grid cells could give representations also for other tasks like visual scene understanding, or navigating conceptual spaces (see Constantinescu paper)
+
+[[Border cell]]s
+
+---------------
+
+> Regarding the problem of simultaneous basis for several graphs, I have found two papers that attempt to solve the problem. They both look like good solutions worth trying. ( see [[Simultaneous diagonalization]])
+> 
+> One is called "quasi-harmonic bases" ( https://arxiv.org/pdf/1210.0026.pdf ). This basically is an algorithm to do approximate simultaneous diagonalization of the Laplacian of a set of graphs. As you can see in the figures, it solves the problem that Tim mentioned, that the eigenbasis of the Laplacian even in graphs that are quite similar (nearly isomorphic) can be quite different. Note that they apply it to 2d meshes inteded to model manifolds, but the method is one that should work on graphs in general.
+> 
+> The other one is called "spectral transformer network" ( https://arxiv.org/pdf/1612.00606.pdf ). This is a method where you learn a mapping from new graphs to a standard basis (which I think you also learn), which they use inside a deep network intended for part classification of 3d objects (again, modelled as 2d meshes).
+> 
+> In any case, I have been experimenting this morning with seeing how the Laplacian eigenvectors look for simple maps (see attached image, for the lowest frequency mode for a two-room grid world, with a small passage between them). They do look like grid cell. Inspired by our conversation yesterday, I also tried a simple navigation algorithm, that basically does gradient ascent in spectral space towards a target, but with the gradient biased towards low frequency modes. What this does is a kind of hierarchical plan, where the agent tries to reach the lowest frequency region containing the target, then the next highest frequency and so on (in a fuzzy way), until it reaches the target. From the examples I've tried it it seems to work, furthermore, the weighting to allow for hierarchical planning appears to be necessary to make it work. See this gif of the agent navigating following the algo in the two-room map (https://giphy.com/gifs/l378c5kdoLeWBhNzW ). 
+> 
+> The problem is, of course, that I need to see the whole map to calculate its Laplacian eigenmaps (another name for its eigenvectors when used to represent data). Perhaps, using some of the methods above to synchronize eigenmaps, I can have the agent navigate partialy observed maps. I'll think about that..
+
+[[Grid cell firing patterns signal environmental novelty by expansion|http://www.pnas.org/content/109/43/17687.full]]

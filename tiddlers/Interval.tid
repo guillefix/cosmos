@@ -1,0 +1,9 @@
+created: 20170930215117425
+creator: cosmos
+modified: 20170930215204230
+modifier: cosmos
+title: Interval
+tmap.id: f855b2e3-2ac2-4a71-8e03-e8f969227fd3
+type: text/vnd.tiddlywiki
+
+A set bounded by two elements in an [[ordered|Ordering]] set. If it includes the bounds, it's a [[Closed interval]], otherwise, it's an [[Open interval]].

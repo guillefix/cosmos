@@ -1,0 +1,12 @@
+created: 20170715181506583
+creator: cosmos
+modified: 20170715182502260
+modifier: cosmos
+tags: [[Model-free reinforcement learning]]
+title: On-policy learning
+tmap.id: 214f436f-a423-47ef-8b78-26e5ccbea7b3
+type: text/vnd.tiddlywiki
+
+[[Model-free reinforcement learning]] methods for which the sampling policy is the same as the policy which we are optimizing/evaluating.
+
+These include the basic versions of [[Monte Carlo learning]] and [[Temporal difference learning]]

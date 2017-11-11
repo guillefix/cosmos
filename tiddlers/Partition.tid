@@ -1,0 +1,12 @@
+created: 20170925153021056
+creator: cosmos
+modified: 20170925153924459
+modifier: cosmos
+title: Partition
+tmap.id: 2abb022f-b798-4b08-99bd-7e5f54cd3605
+type: text/vnd.tiddlywiki
+
+A collection of [[Subset]]s of a [[Set]], which cover (that is their [[union|Set union]] is the whole set) the set and are [[Disjoint]].
+
+The collection of [[Equivalence class]]es of a set with an equivalence relation produces a ''partition''. 
+Furthermore, any partition induces a corresponding [[Equivalence relation]]

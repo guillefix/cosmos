@@ -1,0 +1,18 @@
+created: 20171008170047821
+creator: cosmos
+modified: 20171008171349392
+modifier: cosmos
+tags: [[Group automorphism]]
+title: Inner automorphism
+tmap.id: 97689e39-23f8-4dc1-a90d-9235cfe6f04f
+type: text/vnd.tiddlywiki
+
+[[def|https://www.youtube.com/watch?v=TAxzcrYc7L4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=3#t=1h6m]]
+
+$$b \mapsto aba^{-1}$$
+
+$$Inn(G)$$ is the set if inner automorphisms. It is a [[Normal subgroup]] of the set of [[Group automorphism]]s ([[proof|https://www.youtube.com/watch?v=TAxzcrYc7L4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=3#t=1h18m7s]])
+
+If G is commutative, then the inner automorphisms are just the identity. Inn(G) = {id_G}
+
+$$Inn(G) \simeq G/Z(G)$$ (isomorphic), where $$Z(G)$$ is the [[Center of a group]]

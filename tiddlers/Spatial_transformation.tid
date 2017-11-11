@@ -1,0 +1,21 @@
+created: 20170702115259371
+creator: cosmos
+modified: 20171103140500357
+modifier: cosmos
+tags: [[Computer graphics]] Symmetry [[Coordinate transformation]]
+title: Spatial transformation
+tmap.id: c0cb7c6a-3cf1-491e-ab74-7b272440e41e
+type: text/vnd.tiddlywiki
+
+Standard transformations (mappings of space to itself) for [[Euclidean space]], in particular [[3-dimensional Euclidean space]] ($$\mathbb{R}^3$$, often just called [[Space]], because we live in a 3d space, locally Euclidean.
+
+Most often spatial transformation refer to [[linear transformation|Linear map]]s
+
+https://www.youtube.com/watch?v=wArGifkRD2A&index=3&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g
+
+* [[Translation]]
+* [[Scaling]]
+* [[Rotation]]
+* [[Reflection]]
+
+Uses [[Affine geometry]]

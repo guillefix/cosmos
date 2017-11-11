@@ -1,0 +1,9 @@
+created: 20171015195435538
+creator: cosmos
+modified: 20171015195546253
+modifier: cosmos
+title: Invariant
+tmap.id: db7c0a65-ba85-4c4d-954c-f06c7c22dc9f
+type: text/vnd.tiddlywiki
+
+In mathematics, we call a function $$I$$, an invariant of a set of spaces when two spaces being equivalent in some way, implies they have the same value for the invariant.

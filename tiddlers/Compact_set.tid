@@ -1,16 +1,53 @@
 created: 20170627234603563
 creator: cosmos
-modified: 20170628000739726
+modified: 20170927222803239
 modifier: cosmos
 tags: Set
 title: Compact set
 tmap.id: b78ea9fc-8bf0-4ccf-b396-298b9b478cd6
 type: text/vnd.tiddlywiki
 
-[[definition|https://www.youtube.com/watch?v=zeVA74yivyg&index=11&list=PL0E754696F72137EC#t=26m55s]] -- A [[Set]] X is ''compact'' if every [[Open cover]] of X [[contains|Set inclusion]] a [[Finite]] [[Subcover]]
+[[definition|https://www.youtube.com/watch?v=zeVA74yivyg&index=11&list=PL0E754696F72137EC#t=26m55s]] -- A [[Set]] X is ''compact'' if every [[Open cover]] of X [[contains|Set inclusion]] a [[Finite]] [[Subcover]]. [[definition (vid2)|https://www.youtube.com/watch?v=t45NoydhMTY&index=10&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=37m10s]]
+
+In [[Standard topology]] in $$\mathbb{R}^n$$, a set is compact if and only if it is bounded and [[closed|Closed set]] (see [[Heine-Borel theorem]])
 
 [[Real Analysis, Lecture 11: Compact Sets|https://www.youtube.com/watch?v=zeVA74yivyg&index=11&list=PL0E754696F72137EC]]
 
+[[Relationship of Compact Sets to Closed Sets|https://www.youtube.com/watch?v=kkKfRaI-cqs&index=12&list=PL0E754696F72137EC]]
+
 Functions on compact sets have a maximum ([[Supremum]]) and a minimum ([[Infimum]])
 
-See [[Compact space]]
+-- See more in [[Compact space]] -- 
+
+https://blogs.scientificamerican.com/roots-of-unity/what-does-compactness-really-mean/
+
+//"next best thing to being finite"//
+
+----------------------
+
+!!!__Theorems__
+
+
+In [[Standard topology]] in R, a set is compact if and only if it is bounded and [[closed|Closed set]] (see [[Heine-Borel theorem]])
+
+compact sets in the [[Subspace topology]] [[are also compact in the original topology and viceversa|https://www.youtube.com/watch?v=kkKfRaI-cqs&index=12&list=PL0E754696F72137EC#t=11m]]
+
+[[Compact sets are closed|https://www.youtube.com/watch?v=kkKfRaI-cqs&index=12&list=PL0E754696F72137EC#t=23m15s]] in standard topology of [[Metric space]]
+
+[[A closed set of a compact set is also compact|https://www.youtube.com/watch?v=kkKfRaI-cqs&index=12&list=PL0E754696F72137EC#t=49m40s]]
+
+corollary: [[A closed set and a compact set, then their intersection is compact|https://www.youtube.com/watch?v=kkKfRaI-cqs&index=12&list=PL0E754696F72137EC#t=1h3m15s]]
+
+[[Intersection of nested closed intervals in R^n are not empty|https://www.youtube.com/watch?v=kkKfRaI-cqs&index=12&list=PL0E754696F72137EC#t=1h5m15s]] -- [[can use to show that R is uncountable|https://www.youtube.com/watch?v=kkKfRaI-cqs&index=12&list=PL0E754696F72137EC#t=1h12m35s]]
+
+------------
+
+[[Example|https://www.youtube.com/watch?v=t45NoydhMTY&index=10&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=54m]]
+
+A [[discrete space|Discrete topology]] is compact if and only if it's [[Finite]]
+
+[[A sequence and its limit point form a compact set|https://www.youtube.com/watch?v=t45NoydhMTY&index=10&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=57m]]
+
+------------------
+
+[[Lemma|https://www.youtube.com/watch?v=t45NoydhMTY&index=10&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=39m6s]]. A subspace Y of a set X is compact if and only if if ever open covering of Y in X (that is, by open sets in X which contains Y) contains a finite subcovering. (//This lemma is needed because he [[defined|https://www.youtube.com/watch?v=t45NoydhMTY&index=10&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=35m40s]] open covers using equality , instead of subset inclusion//).

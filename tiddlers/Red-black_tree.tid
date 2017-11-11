@@ -1,0 +1,16 @@
+created: 20170925191305839
+creator: cosmos
+modified: 20170925192038203
+modifier: cosmos
+tags: [[Binary search tree]]
+title: Red-black tree
+tmap.id: acde3fe1-9de8-4899-bef1-6daa67a739c6
+type: text/vnd.tiddlywiki
+
+A type of self-balancing [[Binary search tree]]
+
+[[Video|https://www.youtube.com/watch?v=hm2GHwyKF1o&t=1431s]]
+
+[[How to insert trees into red-black tree|https://www.youtube.com/watch?v=hm2GHwyKF1o&t=39m]]
+
+[[Tree rotation]]

@@ -1,0 +1,22 @@
+created: 20170715171127229
+creator: cosmos
+modified: 20170715171141830
+modifier: cosmos
+tags: [[Model-based reinforcement learning]]
+title: Value iteration
+tmap.id: be4d729b-af18-4da2-bcc9-b87f7e164bdd
+type: text/vnd.tiddlywiki
+
+!!!__[[Value iteration|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=50m15s]] ([[vid2|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h1m48s]])__
+
+can be seen as applying iterative solution to the [[Bellman optimality equation]]. Also it is like [[Policy iteration]], where we only take one step of the policy evaluation step.
+
+Iterate:
+
+:$$V_{i+1}(s) := \max_a \left\{ \sum_{s'} P_a(s,s') \left( R_a(s,s') + \gamma V_i(s') \right) \right\}$$
+
+to converge to $$V^*$$. After iterations, compute optimal policy using its definition
+
+:$$\pi^*(s) = \arg\max\limits_a \sum\limits_{s'} P_{s a} (s') V^* (s')$$
+
+[[example|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h6m40s]] -- [[more explanation|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h12m30s]] -- [ext[demo|http://www.cs.ubc.ca/~poole/demos/mdp/vi.html]]

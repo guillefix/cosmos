@@ -1,0 +1,14 @@
+created: 20170925150643739
+creator: cosmos
+modified: 20170925150922027
+modifier: cosmos
+tags: Ordering
+title: Open interval
+tmap.id: bdc58688-db78-4773-b078-5e5da7633ecb
+type: text/vnd.tiddlywiki
+
+If $$X$$ is a [[Set]] and $$<$$ is an [[Ordering]] on $$X$$, and if $$a<b$$, we use the notation $$(a,b)$$ to denote the set
+
+:$$\{x |a<x<b\}$$;
+
+it is called an ''Open interval'' in $$X$$. If this set is empty, we call $$a$$ the [[Immediate predecessor]] of $$b$$, and we call $$b$$ the [[Immediate successor]] of $$a$$

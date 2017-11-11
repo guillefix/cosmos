@@ -1,6 +1,6 @@
 created: 20170502211426655
 creator: cosmos
-modified: 20170502211535977
+modified: 20170807115351017
 modifier: cosmos
 tags: [[Machine learning]]
 title: Meta-learning
@@ -8,3 +8,23 @@ tmap.id: 33b3bbeb-1534-44ba-9f0a-1927e1e29087
 type: text/vnd.tiddlywiki
 
 //aka learning-to-learn//
+
+[[Deep meta-reinforcement learning]]
+
+Flexible, data-efficient learning naturally requires the operation of prior biases. In general terms,
+such biases can derive from two sources; they can either be engineered into the learning system (as,
+for example, in convolutional networks), or they can themselves be acquired through learning. The
+second case has been explored in the machine learning literature under the rubric of meta-learning
+(Schmidhuber et al., 1996; Thrun and Pratt, 1998).
+
+In one standard setup, the learning agent is confronted with a series of tasks that differ from one
+another but also share some underlying set of regularities. Meta-learning is then defined as an
+effect whereby the agent improves its performance in each new task more rapidly, on average, than
+in past tasks (Thrun and Pratt, 1998). At an architectural level, meta-learning has generally been
+conceptualized as involving two learning systems: one lower-level system that learns relatively
+quickly, and which is primarily responsible for adapting to each new task; and a slower higher-level
+system that works across tasks to tune and improve the lower-level system
+
+(from [[here|https://arxiv.org/pdf/1611.05763.pdf]])
+
+https://2017.icml.cc/Conferences/2017/Schedule?showEvent=495

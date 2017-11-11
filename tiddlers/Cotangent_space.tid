@@ -1,0 +1,34 @@
+created: 20171019132643774
+creator: cosmos
+modified: 20171106154657642
+modifier: cosmos
+tags: [[Differentiable manifold]]
+title: Cotangent space
+tmap.id: 7b811265-1ae6-4ef2-b816-7aec0ee083f1
+type: text/vnd.tiddlywiki
+
+The [[Dual vector space]] to the [[Tangent space]] (and so it is a vector space of the same dimension). Elements of this space are called cotangent vectors, and are generalizations of the [[Gradient]] of functions.
+
+It is isomorphic (in the vector space sense) to the [[Quotient space]] $$T^*_a \simeq C^\infty (M)/Z_\alpha$$, where $$Z_a$$ is the set of all functions whose first derivative vanishes at $$a$$. The [[Derivative]] of a function $$f$$ at $$a$$ is its [[image|Canonical projection]] in this space and is denoted $$(df)_a$$. We can show that $$Z_a = \langle 1 \rangle_\mathbb{R} \oplus I_2 $$ where the first bit is the space of constant functions, and the second bit is the space of functions which vanish at second order (meaning they are the product of two functions which vanish at $$a$$, both sets forming an [[Ideal]]).
+
+One can show that elements of this (vector) space can be written as linear combinations of $$(dx_i)_a$$ where $$x_i$$ is the $$i$$th coordinate function. The components are then the components of the [[Gradient]] of $$f$$ w.r.t. to $$x_i$$.
+
+Note: $$dx_i ( \frac{\partial}{\partial x_i}) = \delta_{ij}$$, where $$\frac{\partial}{\partial x_i}$$ is a basis vector in the [[Tangent space]].
+
+Under change of coordinates $$x \to y(x)$$, the coordinates of $$df$$ change as
+
+$$df = \sum_j \frac{\partial f}{\partial y_j} dy_j = \sum_{i,j} \frac{\partial f}{\partial y_j} \frac{\partial y_j}{\partial x_i} dx_i$$.
+
+This is how a [[Covariant tensor]] is defined to change, so cotangent vectors are covariant tensors.
+
+The vector bundle formed by the union of cotangent spaces is called the [[Cotangent bundle]]
+
+---------------
+
+There is a [[Functor]] associating to each [[smooth map|Smooth function]] between differentiable manifolds, a map between the corresponding cotangent spaces. This functor is [[Contravariantly functorial]], so that it gives a map between the cotangent space at codomain to that at domain: 
+
+Let $$f: X \to Y$$ be a [[Smooth function]] of manifolds and $$x \in X$$ with $$f(x) = y \in Y$$. The [[Differential]] of $$f$$ at $$x$$ gives a linear map $$T^*_x f : T^*_y Y \to T^*_x X$$ between [[Cotangent space]]s
+
+The reason for this can be seen as follows: We can pullback functions $$g$$ defined on $$Y$$ to $$X$$ as $$g \circ f$$. However, even if we consider all smooth functions on $$Y$$, the set $$P:=\{g\circ f | g \in C^\infty(Y)\}$$ doesn't necessarily reach all of $$C^\infty(X)$$. Therefore, for each $$g \in C^\infty(Y)$$ we have an induced $$h=g \circ f \in C^\infty(X)$$, and thus for each $$dg \in T^*_y Y$$, we have an induced $$dh \in T^*_x X$$. However, for all $$dh' \in T^*_x X$$ we don't necessarily have a corresponding $$dg'\in T^*_y Y$$. Think of a map $$f$$ that is noninjective and so that one dimension is lost. Then $$dh'$$ along the collapsed dimension would be maps (elements of dual of tangent space) which give nonzero for elements of the tangent space pointing in the collapsed dimension. However, there's no map on space $$Y$$ wich gives nonzero to $$0$$ tangent vectors (to which the {elements of the tangent space pointing in the collapsed dimension} map).
+
+For the [[Tangent bundle]], elements don't correspond to derivatives of functions, and instead to differentials. The opposite idea holds. We can apply any differential in $$T_xX$$ to any of the $$h \in P$$, and we can find an element in $$T_y Y$$ which gives the same result for the corresponding $$g\in C^\infty(Y)$$

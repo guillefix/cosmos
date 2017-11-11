@@ -1,6 +1,6 @@
 created: 20160308170111605
 creator: guillefix
-modified: 20170513001702103
+modified: 20171002191616737
 modifier: cosmos
 tags: [[Nonlinear systems]]
 title: Chaos theory
@@ -59,3 +59,5 @@ Every chaotic dynamical system is a fractal-manufacturing machine
 
 
 [[An Introduction to chaotic dynamical systems. Second edition|http://www.nehudlit.ru/books/detail5822.html]]
+
+[[animation of rossler attractor|https://bl.ocks.org/gcalmettes/2097c8e3e077bbd1b30dce3dbb93ac58]]

@@ -1,0 +1,17 @@
+created: 20170702211707965
+creator: cosmos
+modified: 20170702213545489
+modifier: cosmos
+title: Phong shading
+tmap.id: 8c6fdbf9-da3f-4ce9-ab67-773165ed8808
+type: text/vnd.tiddlywiki
+
+Heurostic model for specular light reflecting off a material surface used in [[Computer graphics]]
+
+[[illumination calculation|https://www.youtube.com/watch?v=TEjDYtkLRdQ&index=8&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=32m18s]] --> [[Phong specular reflection|https://www.youtube.com/watch?v=TEjDYtkLRdQ&index=8&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=40m]]
+
+light intensity ~ (cos(theta))^n, where theta is the angle between the observation ray and the ray given by [[Snell's law]]
+
+n is called the ''glossiness''
+
+there are variations, like [[this easier to calculate variation|https://www.youtube.com/watch?v=TEjDYtkLRdQ&index=8&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=45m]].

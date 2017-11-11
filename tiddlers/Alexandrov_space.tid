@@ -1,0 +1,10 @@
+created: 20170913205231655
+creator: cosmos
+modified: 20170913205244097
+modifier: cosmos
+tags: [[Topological space]]
+title: Alexandrov space
+tmap.id: 120046bc-765c-40c2-8047-a5610b44982a
+type: text/vnd.tiddlywiki
+
+A space X is Alexandrov if arbitrary intersections of open sets in X are open, or equivalently if arbitrary unions of closed sets are closed. These are precisely the finitely generated members of the category of topological spaces and continuous maps.

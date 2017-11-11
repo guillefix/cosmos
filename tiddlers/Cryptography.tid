@@ -1,16 +1,56 @@
 created: 20160623231414781
 creator: guillefix
-modified: 20170206161105239
+modified: 20170706132533985
 modifier: cosmos
-tags: [[Information science]] [[Communication theory]] Cybersecurity
+tags: Cryptology
 title: Cryptography
 tmap.id: 79e638a3-81a9-4929-97c6-003e36cb30fc
 type: text/vnd.tiddlywiki
 
+[[introduction to cryptography|https://www.youtube.com/watch?v=2aHkqB2-46k]]
+
+|[[Kerckhoff's principle|https://www.youtube.com/watch?v=2aHkqB2-46k#t=41m]] (1883): a cryptosystem should be secure even if the attacker knows all the details about the system, with the exception of the secret key.|
+
+[[Modular arithmetic]], [[Ring]]s is used a lot
+
+Most [[PRNG|Pseudorandom number generator]]s, [[we cannot use in cryptography|https://www.youtube.com/watch?v=AELVJL0axRs#t=50m30s]], instead we need [[Cryptographically secure PRNG]]s
+
+!!__Symmetric cryptosystem__
+
+!!!__[[Cipher]]s__
+
+[[Unconditionally secure]] cipher
+
+__Historical ciphers__
+
+*[[Substitution cipher]]
+*[[Shift cipher]]
+* [[Affine cipher]]
 
 
-!!__Cryptosystems__
+__[[Stream cipher]]__
 
-!!!__Public-key cryptosystem__
+__[[Block cipher]]__
+
+[[intro|https://www.youtube.com/watch?v=2aHkqB2-46k#=23m]]
+
+!!__Assymetric cryptosystem__
+
+Aka [[Public-key cryptography]]
 
 [[RSA cryptography]]
+
+[[Digital signature]]
+
+!!__Cryptographic protocol__
+
+-------------------
+
+fully homomorphic encryption: an extremely exciting new class of methods, the rst of which was announced by Gentry [60] in 2009, for performing arbitrary computations on encrypted data without ever decrypting the data. The output of such a computation will look like meaningless gibberish to the person who computed it, but it can nevertheless be understood (and even recognized as the correct output) by someone who knows the decryption key. 
+
+What are the implications of pseudorandom generators for the foundations of probability, or of fully homomorphic encryption for debates about the semantic meaning of computations? I very much hope that this essay will inspire others to tackle these and similar questions.
+
+
+//People//
+
+Bruce Schneier

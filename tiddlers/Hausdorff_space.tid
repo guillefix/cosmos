@@ -1,9 +1,19 @@
 created: 20160714013130248
 creator: guillefix
-modified: 20161104134328781
-modifier: guillefix
+modified: 20170908001434828
+modifier: cosmos
+tags: [[Topological space]]
 title: Hausdorff space
 tmap.id: ad354769-e717-4881-9461-caed85db3d7f
 type: text/vnd.tiddlywiki
 
-A [[Topological space]] is //Hausdorff//, if for any pair of points $$x, y \in X$$ there exists open sets $$O_1$$ and $$O_2$$ such that $$x \in O_1$$, $$y \in O_2$$ and $$O_1 \cap O_2 = \emptyset$$.
+A [[Topological space]] is //Hausdorff//, if for any pair of points $$x, y \in X$$ there exists open sets $$O_1$$ and $$O_2$$ such that $$x \in O_1$$, $$y \in O_2$$ and $$O_1 \cap O_2 = \emptyset$$ (have disjoint neighbourhoods). Also known as $$T_2$$ (see [[Separation axiom]]s)
+
+[[video|https://www.youtube.com/watch?v=28BluiBRdUk&index=3&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h19m27sN]]
+
+[[Every finite set in a Hausdorff space is closed|https://www.youtube.com/watch?v=28BluiBRdUk&index=3&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h21m38s]]
+
+In Hausdorff spaces, a [[convergent|Convergence]] sequence has a unique [[Limit point]]
+ ([[proof|https://www.youtube.com/watch?v=02l3WZrppbM&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=4#t=8m]])
+
+[[Another proposition|https://www.youtube.com/watch?v=02l3WZrppbM&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=4#t=14m48s]] saying that a [[Limit point]] of a set in a [[Hausdorff space]] intersects the set in infinitely many points. [[We need stronger condition|https://www.youtube.com/watch?v=02l3WZrppbM&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=4#t=22m25s]] to say that a limit point is the point to which a sequence converges. See more at [[Convergence]]

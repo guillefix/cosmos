@@ -1,0 +1,14 @@
+created: 20170815193513637
+creator: cosmos
+modified: 20170816163754396
+modifier: cosmos
+tags: [[Spatial representation in the brain]]
+title: Border cell
+tmap.id: d0fe298a-c253-4e31-a863-9ffd1b1319f1
+type: text/vnd.tiddlywiki
+
+See [[Grid cell]]s
+
+Grid cells in the MEC of mammals integrate velocity related signals to map the environment with characteristic hexagonal tessellation patterns. Due to the noisy nature of these input signals, path integration processes tend to accumulate errors as animals explore the environment, leading to a loss of grid-like activity. It has been suggested that border-to-grid cells' associations minimize the accumulated grid cells' error when rodents explore enclosures. Thus, the border-grid interaction for error minimization is a suitable scenario to study the effects of border cell scaling within the context of spatial representation. 
+
+[[Size Matters: How Scaling Affects the Interaction between Grid and Border Cells|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5513924/]]

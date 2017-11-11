@@ -1,13 +1,13 @@
 created: 20160702131036447
 creator: guillefix
-modified: 20170104234748443
+modified: 20171010153845348
 modifier: cosmos
 tags: [[Probability theory]]
 title: Random variable
 tmap.id: 0504e2fa-db6b-4490-83c7-51e96813b18d
 type: text/vnd.tiddlywiki
 
-A variable that can take a certain set of values with given probabilities. Formalized using a [[Probability measure]]
+A variable that can take a certain set of values with given probabilities. Formalized using a [[Probability space]] as a map $$X:\Omega \to \mathbb{R}$$ such that the image $$X(\Omega)$$ is [[measurable|Measurable function]] and $$X^{-1}(x) \in \mathcal{F}$$ (the event space) $$\forall x$$ in the image of $$X$$. This allows to consider $$P({X \in A})$$ for an $$A \in \mathcal{F}$$
 
 Two main types:
 

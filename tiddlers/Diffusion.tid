@@ -1,6 +1,6 @@
 created: 20160118104311793
 creator: guillefix
-modified: 20170306094801059
+modified: 20170825175843555
 modifier: cosmos
 title: Diffusion
 tmap.id: 89da4185-f6a2-4139-bb71-f6c22f89c8d6
@@ -36,3 +36,13 @@ where $$a$$ and $$b$$ are the particle species, $$D$$ and $$R$$ are the diffusio
 !!!__[[Phoretic mechanisms of colloids]]__
 
 * [[Diffusiophoresis]]
+
+-----
+
+!!__Diffusion on [[Manifold]]s, and graphs__
+
+see the generalized defintions of [[Laplacian]]
+
+[img[heat_diffusion_non_euclidean.png]]
+
+see [[this article|http://sci-hub.io/10.1109/msp.2017.2693418]]

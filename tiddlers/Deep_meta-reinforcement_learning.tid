@@ -1,0 +1,10 @@
+created: 20170724173703947
+creator: cosmos
+modified: 20170724173932155
+modifier: cosmos
+tags: [[Deep reinforcement learning]] Meta-learning
+title: Deep meta-reinforcement learning
+tmap.id: 9d7bd7f1-c51c-49ff-ae8f-931960615da3
+type: text/vnd.tiddlywiki
+
+[[Learning to reinforcement learn|https://arxiv.org/pdf/1611.05763.pdf]]

@@ -1,0 +1,11 @@
+created: 20171103140034066
+creator: cosmos
+modified: 20171103140328166
+modifier: cosmos
+title: Euclidean space
+tmap.id: 32e51fe7-2a98-42cc-9cbb-a2b491bf13ac
+type: text/vnd.tiddlywiki
+
+A [[space|Riemannian manifold]] which satisfies the axioms of [[Euclidean geometry]].
+
+These correspond to the natural manifold structure on $$\mathbb{R}^n$$ for $$n\in \mathbb{N}$$

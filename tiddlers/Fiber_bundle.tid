@@ -1,0 +1,14 @@
+created: 20171106164516364
+creator: cosmos
+modified: 20171106164551732
+modifier: cosmos
+tags: [[Differential geometry]]
+title: Fiber bundle
+tmap.id: c5b46ed5-ea71-4b20-9f03-f89f36cd9ba0
+type: text/vnd.tiddlywiki
+
+I think it is a [[Manifold]] with a projection map like that of a [[Vector bundle]], but not needing to satisfy the other axioms.
+
+--------
+
+https://en.wikipedia.org/wiki/Fiber_bundle

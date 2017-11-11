@@ -1,10 +1,13 @@
 created: 20160217185543439
 creator: guillefix
-modified: 20161104134327035
-modifier: guillefix
+modified: 20170929104808663
+modifier: cosmos
+tags: Nanotechnology
 title: Atomically precise manufacturing
 tmap.id: d36e0fb6-7ff1-4321-8f68-a0d0874db737
 type: text/vnd.tiddlywiki
+
+http://blogs.sciencemag.org/pipeline/archives/2017/09/25/building-our-own-molecular-machines
 
 Standard solution-phase reactions based on reactivities of different sites in molecules, and don't offer control of relative positioning, other than by statistical mechanics.
 

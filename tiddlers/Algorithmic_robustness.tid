@@ -1,0 +1,20 @@
+created: 20171027131944733
+creator: cosmos
+modified: 20171027181656071
+modifier: cosmos
+tags: Generalization
+title: Algorithmic robustness
+tmap.id: a112e11d-2700-4b14-aae3-2272ff245437
+type: text/vnd.tiddlywiki
+
+[[Robustness and generalization|https://arxiv.org/pdf/1005.2243.pdf]]
+
+similar to [[Algorithmic stability]]
+
+See also [[here|https://arxiv.org/pdf/1709.01953.pdf#page=21]]
+
+Uses [[Lipschitz]] continuity
+
+simply bounding the Lipschitz constant of
+the network is not enough to get a reasonable capacity control and the capacity bounds of the previous
+Section are not merely a consequence of bounding the Lipschitz constant.

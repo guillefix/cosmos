@@ -1,0 +1,17 @@
+created: 20170702213919190
+creator: cosmos
+modified: 20170702215349029
+modifier: cosmos
+tags: Rotation
+title: Quaternion
+tmap.id: e8918099-7a41-4690-b98d-f77875da874b
+type: text/vnd.tiddlywiki
+
+
+[[quaternions|https://www.youtube.com/watch?v=mHVwd8gYLnI&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g&index=9#t=7m]]
+
+[[intro to rotations|https://www.youtube.com/watch?v=mHVwd8gYLnI&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g&index=9]]
+
+[[unit quaternions|https://www.youtube.com/watch?v=mHVwd8gYLnI&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g&index=9#t=24m30s]] for rotations
+
+[[Trackball|https://www.youtube.com/watch?v=mHVwd8gYLnI&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g&index=9#t=30m10s]]

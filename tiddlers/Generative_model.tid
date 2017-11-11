@@ -1,6 +1,6 @@
 created: 20161018180930085
 creator: cosmos
-modified: 20161211182628308
+modified: 20170819202656893
 modifier: cosmos
 tags: [[Probabilistic model]] [[Unsupervised learning]]
 title: Generative model
@@ -35,6 +35,8 @@ GAN-visual analogy making
 
 [[Pixel-RNN|https://arxiv.org/abs/1601.06759]], [[code|https://github.com/carpedm20/pixel-rnn-tensorflow]]-- [[Recurrent neural network]]
 
+Autoregressive models. https://arxiv.org/pdf/1703.03664.pdf
+
 !!__[[Latent variable]]s__
 
 Often, generative models have certain parameters which are particularly important, because they may represent a particular feature or structure that the generative model may be able to extract in its learning process. Generative models are in fact often designed with this in mind, as the task of [[Unsupervised learning]] is to find some interesting structure in the data.
@@ -42,3 +44,5 @@ Often, generative models have certain parameters which are particularly importan
 See this [[video|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=10m37]]
 
 https://openai.com/blog/generative-models/deploy@guillefix:~/cosmos.git/tiddlers
+
+[[GENERATIVE TEMPORAL MODELS WITH MEMORY|https://arxiv.org/pdf/1702.04649.pdf]]

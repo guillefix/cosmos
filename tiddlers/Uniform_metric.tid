@@ -1,0 +1,10 @@
+created: 20170917194322425
+creator: cosmos
+modified: 20170917194524086
+modifier: cosmos
+tags: [[Square metric]]
+title: Uniform metric
+tmap.id: 2e1a36ad-9cc5-4a53-b095-820b1f13ee6b
+type: text/vnd.tiddlywiki
+
+[[A generalized version of the bounded|https://www.youtube.com/watch?v=RFwtRWp2cBI&index=6&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h1m52s]] [[Square metric]] which can be defined on $$\mathbb{R}^J$$, for arbitrary [[Index set]] $$J$$. One can define the [[Metric topology]] using this metric, and so making that space [[Metrizable]]. This topology is called the [[Uniform topology]]

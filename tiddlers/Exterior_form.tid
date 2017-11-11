@@ -1,13 +1,39 @@
 created: 20170618113542226
 creator: cosmos
-modified: 20170618114019703
+modified: 20171109122530659
 modifier: cosmos
 tags: [[Exterior calculus]]
 title: Exterior form
 tmap.id: d9fbcc70-b343-4876-9024-5784cf8bb560
 type: text/vnd.tiddlywiki
 
-//aka form, linear form//
+//aka form, linear form, differential form//
+
+Exterior forms or $$k$$-forms are elements of an [[exterior power|Wedge product]] of the [[Cotangent bundle]] over [[manifold|Differentiable manifold]] $$X$$, denoted $$\Omega(k)$$ for a $$k$$th power. The direct sum of $$\Omega(k)$$ from $$k=0$$ to $$k=dim(X)$$ is an [[Exterior algebra]] over vector bundles. The max $$k=dim(X)$$ is because $$k$$-forms for $$k > dim(X)$$ are $$0$$.
+
+: $$\Omega(k) = \Gamma^\infty (\wedge^k T^* X)$$
+
+Exterior forms are [[Tensor]]s.
+
+As for exterior algebras on any vector bundles, the [[Wedge product]] is defined for exterior forms.
+
+If $$(x_1,..,x_n)$$ are [[local coordinates|Coordinate chart]] on open $$U \subseteq X$$. Then $$dx_1,...,dx_n$$ (seen as vector fields on $$U$$) are a basis of [[sections|Section of a fiber bundle]] of $$T^* X|_U$$. Hence $$\{dx_{i_1}\wedge dx_{i_2} \wedge ... \wedge dx_{i_k} : 1 \leq i_1 < i_2 < ... < i_k \leq n\}$$ is a basis of sections of $$\bigwedge^k T^* X|_U$$
+
+One can also see differential forms as ''multilinear mappings'' (just like [[Cotangent vector]]s are linear mappings of vectors). See [[here|https://en.wikipedia.org/wiki/Interior_product]] and [[here|https://math.stackexchange.com/questions/713374/interior-product-of-differential-forms]].
+
+!!__[[Pullback]]s of exterior forms__
+
+Let $$f: X \to Y$$ be a [[Smooth function]] of manifolds and $$x \in X$$ with $$f(x) = y \in Y$$. The [[Differential]] of $$f$$ at $$x$$ gives a linear map $$T^*_x f : T^*_y Y \to T^*_x X$$ between [[Cotangent space]]s (see discussion there). As exterior products are [[Functorial]] under linear maps, this induces
+
+: $$f^* := \wedge^kT^*_xf: \wedge^*_y Y \to \wedge^k T^*_x X$$
+
+This is the pullback function of exterior forms. It is [[Contravariantly functorial]] and it satisfies $$f^*(\alpha \wedge \beta) = f^*(\alpha) \wedge f^*(\beta)$$.
+
+!!__Geometric relevance__
+
+They correspond to planes, etc. See notes in [[Discrete geometry]]. Need to think more about this.
+
+---------
 
 See Do Carmo -- Differential forms and applications
 

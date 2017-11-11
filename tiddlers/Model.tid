@@ -1,6 +1,6 @@
 created: 20160918223952118
 creator: cosmos
-modified: 20161104134329707
+modified: 20170717112950717
 modifier: cosmos
 tags: Simulation
 title: Model
@@ -8,3 +8,13 @@ tmap.id: 85197ba0-159b-4ea7-a300-44b130892e74
 type: text/vnd.tiddlywiki
 
 A [[System]], often a [[mathematical|Mathematics]] or [[computational|Computer science]] one, that [[simulates|Simulation]] another system, i.e. it represents features of the original system, both structural, and behavioural.
+
+------------------------
+
+In [[Reinforcement learning]], a model is a method for calculating next states and rewards, given a current state and action. It can be:
+
+* ''Distribution model'': consists of the probabilities of next states and rewards for possible actions, given current state.
+
+* ''Sample model'': produces single transitions and rewards generated according to these probabilities. 
+
+[[Dynamic programming]] methods require a distribution model because it uses [[Full backup]]s. A sample model is what is needed to simulate interacting with the environment during which sample backeups, like those used by many [[Model-free reinforcement learning]] algorithms can be used. Sample models are generally much easier to obtain than distribution models.

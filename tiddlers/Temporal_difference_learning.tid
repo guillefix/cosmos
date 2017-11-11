@@ -1,6 +1,6 @@
 created: 20161019173818091
 creator: cosmos
-modified: 20170517212811889
+modified: 20170715183911627
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Temporal difference learning
@@ -11,18 +11,9 @@ An approach to [[Reinforcement learning]] (particularly [[Model-free reinforceme
 
 TD learning is a combination of [[Monte Carlo]] ideas and [[Dynamic programming]] (DP) ideas. Like Monte Carlo methods, TD methods can learn directly from raw experience without a model of the environment's dynamics. Like DP, TD methods update estimates based in part on other learned estimates, without waiting for a final outcome (they bootstrap).
 
- After each action selection, the critic evaluates the new state to determine whether things have gone better or worse than expected. That evaluation is the TD error:
+Here we discuss the basic [[On-policy learning]]s. See [[Off-policy learning]] for their extensions to off-policy learning
 
-<img style="background-color:white;" src="https://webdocs.cs.ualberta.ca/~sutton/book/ebook/imgtmp41.png">
-
-Note that unlike [[Bellman equation]] for $$V^*$$, which has a $$\max\limits_a$$, this doesn't but that is because, the action we have just taken follows the policy and so it's selected by $$\max\limits_a$$..
-
-Traditional AC methods optimize the
-policy through policy gradients and scale the policy gradie
-nt by the TD error, while the action-value
-function is updated by ordinary TD learning
-
-Read [[here|https://arxiv.org/pdf/1610.01945.pdf]]
+!__TD [[Policy evaluation]]__
 
 [[intuition for why we update the current value function assuming the value function at the state after one step, instead of updating it the other way|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h13m]]
 
@@ -42,7 +33,11 @@ Proven to work (converge to true value function, in the case of table-lookup rep
 
 If you let TD0 converge on a limited sample (a limited set of episodes from an MDP), it will converge to the [[Maximum likelihood]] estimate [[MRP|Markov reward process]] for that data. [[TD makes use of the Markov property|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h3m30s]]
 
-!!!__n-step look-ahead__
+!!!Optimality of TD(0)
+
+See section 6.3 of [[Sutton-Barto]]
+
+__n-step look-ahead__
 
 [[intro vid|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h12m5s]]
 
@@ -50,20 +45,18 @@ If you let TD0 converge on a limited sample (a limited set of episodes from an M
 
 We can take $$n$$ steps of the (unknown) MDP, instead of 1. Monte Carlo [[Model-free reinforcement learning]] is when $$n \rightarrow \infty$$
 
-!!__TD($$\lambda$$)__
+!!__[[TD(lambda)]]__
 
-[[intro vid|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h12m5s]]
 
-[[Averaging n-step returns|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h22m]] is better than just one choice of $$n$$. This is what The TD($$\lambda$$) algorithm achieves, efficiently!
 
-[[TD lambda can be done by updating only at the end of the episde|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h29m]], like for Monte Carlo. This isn't computationally efficient
+!__TD control__
 
-To make computationally efficient, one can update by looking only to the past with  [[backward view of TD lambda algorithm|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h30m25s]], combines frequency with recency to define an ''eligibility trace''
+[[introduction to TD learning for control|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=38m45s]]
 
-See [[notes|http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html]] for more details and proofs of equivalence of the two interpretations. 
+TD prediction + policy improvement ([[GPI|Generalized policy iteration]])
 
-There are new exactly equivalent ''online'' TD(lambda) algorithms!
+[[Sarsa]]
 
-!!__Action-critic methods__
+-------------------------
 
-[ext[https://webdocs.cs.ualberta.ca/~sutton/book/ebook/node66.html]]
+Related with [[Actor-critic method]]s

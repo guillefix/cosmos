@@ -1,0 +1,14 @@
+created: 20171008195903080
+creator: cosmos
+modified: 20171021195412918
+modifier: cosmos
+tags: [[Group action]]
+title: Left translation action
+tmap.id: 3b9e7a1f-157d-4529-8096-557e93e4eee5
+type: text/vnd.tiddlywiki
+
+//aka left multiplication action//
+
+[[definition|https://www.youtube.com/watch?v=ihncybAAPUw&index=4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=15m30s]]
+
+[[Proposition|https://www.youtube.com/watch?v=NcKq1IdTotA&index=7&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=3m40s]]. Let $$U$$ be a subset of a group $$G$$. Then the order of the [[Stabilizer subgroup]] of $$U$$ (w.r.t. left translation action) divides $$|U|$$. [[This means that stabilizer is trivial if the number of elements in the set is relatively prime with the number of elements in the group|https://www.youtube.com/watch?v=NcKq1IdTotA&index=7&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=10m]]

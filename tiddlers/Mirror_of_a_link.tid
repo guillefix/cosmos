@@ -1,0 +1,14 @@
+created: 20171103134346793
+creator: cosmos
+modified: 20171103135623418
+modifier: cosmos
+tags: [[Link (knot theory)]]
+title: Mirror of a link
+tmap.id: d79191e3-8826-4efd-84c3-67cf3076e650
+type: text/vnd.tiddlywiki
+
+Let $$L$$ be a [[link|Link (knot theory)]], the ''mirror of $$L$$'', denoted $$mL$$ is the link obtained by [[reflecting|Reflection]] $$L$$ in a plane in $$\mathbb{R}^3$$
+
+<small>(it doesn't matter which, because with any plane, they give equivalent links, because one can get the same result as reflection $$r_1$$, from the result obtained by reflection $$r_2$$ by a [[Rotation]], as can be seen from their matrix representations).</small>
+
+See [[here|https://www.youtube.com/watch?v=hZ2v3RyTUGM]] and [[here|http://homepages.abdn.ac.uk/r.hepworth/pages/files/Knots_Notes.pdf#page=6]]

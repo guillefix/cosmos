@@ -1,0 +1,16 @@
+created: 20170926170451301
+creator: cosmos
+modified: 20170926172315564
+modifier: cosmos
+tags: Connectedness Analysis
+title: Intermediate value theorem
+tmap.id: 7b0bca9d-1e8d-443d-9425-075bf2372edb
+type: text/vnd.tiddlywiki
+
+[[Theorem|https://www.youtube.com/watch?v=DP0OELdzAZ8&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=9#t=44m50s]]. Let $$f: X \rightarrow Y$$ (where $$X,Y$$ are [[Topological space]]s), be [[continuous|Continuous function]], where $$X$$ is [[connected|Connected space]], and $$Y$$ is [[ordered|Ordering]], and has the [[Order topology]], then:
+
+* If $$f(a) < r < f(b)$$, for $$a,b \in X$$, then there is $$c \in X$$ such that $$f(c)=r$$.
+
+("every element //between// two values is also a value").
+
+[[Proof|https://www.youtube.com/watch?v=DP0OELdzAZ8&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=9#t=44m50s]]

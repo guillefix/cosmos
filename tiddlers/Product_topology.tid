@@ -1,12 +1,16 @@
 created: 20160714005531377
 creator: guillefix
-modified: 20161104134331836
-modifier: guillefix
+modified: 20170924160013673
+modifier: cosmos
+tags: [[Examples of topologies]]
 title: Product topology
 tmap.id: c0186969-ced9-4d25-ad3f-28638f417099
 type: text/vnd.tiddlywiki
 
 The product [[topology|Topological space]] on a [[Cartesian product]] of $$n$$ [[Topological space]]s ($$X_i, \tau_i$$, $$i \in I$$, where $$I$$ is some index set) is defined to be the union of all sets of the form $$O_1 \times O_2 \times ... \times O_n$$ where $$O_i \subset X_i$$ is $$\tau_i$$-open. Where we are assuming here $$I$$ is finite. This definition is not correct when $$I$$ is infinite, and the definition using cylinder sets below must be used. Note that the definitions are different because the basis is constructed from __finite__ intersections of the open cylinders. However, some elements corresponding to infinite Cartesian products of the form $$\times_{i\in I} O_i$$ can't be realized from finite intersections of open cylinders which all have the form $$(\times_{i = J} O_i) \times ( \times_{i\in I \setminus J} X_i)$$, where $$J$$ is a finite subset of $$I$$. This comes about for example, in infinite [[Sequence space]]s.
+
+[[Motivation|https://www.youtube.com/watch?v=EOdGNGHIusI&index=5&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=42m]]
+ -- [[definition (vid)|https://www.youtube.com/watch?v=EOdGNGHIusI&index=5&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=50m45s]]
 
 It can also be constructed using [[Filter subbase]]s and [[Filter base]]s (that generate the open sets of the topology)
 
@@ -19,3 +23,13 @@ The sets forming the subbase are known as ''open cylinders'', while those formin
 Another equivalent way of defining the product topology is as the 'smallest' topology such that the projection functions $$\pi_j:\times_i X_i \rightarrow X_j$$, $$f \mapsto f(j)$$ are [[Continuous function]]s.
 
 A smaller subbase is given by the [[Cylinder set]]s
+
+-----------------
+
+[[video|https://www.youtube.com/watch?v=uINRZyMsX3I&index=2&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h9m35s]]
+
+[[Proposition|https://www.youtube.com/watch?v=EOdGNGHIusI&index=5&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h5m28s]] to characterize [[Continuous function]]s when the codomain is a space with [[Product topology]]
+
+[[Product topology is|https://www.youtube.com/watch?v=LRTu9LMFpnQ&index=7&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=4m50s]] [[Metrizable]] on $$\mathbb{R}^\omega$$, where $$\omega$$ is a countable index set
+
+[[Product topology is not|https://www.youtube.com/watch?v=LRTu9LMFpnQ&index=7&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h8m25s]] [[Metrizable]] on $$\mathbb{R}^J$$, when $$J$$ is [[Uncountable]]

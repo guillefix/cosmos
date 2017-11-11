@@ -1,0 +1,12 @@
+created: 20171008204113644
+creator: cosmos
+modified: 20171008204509618
+modifier: cosmos
+tags: [[Group action]]
+title: Group orbit
+tmap.id: 31a58a66-f18f-4c61-9b0c-79f3cab5a1ae
+type: text/vnd.tiddlywiki
+
+[[Definition|https://www.youtube.com/watch?v=ihncybAAPUw&index=4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=1h3m]]
+
+The orbits are equivalence classes corresponding to [[an equivalence relation|https://www.youtube.com/watch?v=ihncybAAPUw&index=4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=1h6m]]. The set of orbits is called [[Orbit space]], denoted $$X/G$$.

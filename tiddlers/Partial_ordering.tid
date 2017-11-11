@@ -1,7 +1,8 @@
 created: 20160713224720642
 creator: guillefix
-modified: 20161104134331471
-modifier: guillefix
+modified: 20171015131938059
+modifier: cosmos
+tags: Ordering
 title: Partial ordering
 tmap.id: 09df2e65-29c7-482b-ac83-0888cb94bc73
 type: text/vnd.tiddlywiki
@@ -16,4 +17,4 @@ A set with a partial ordering is called a [[Partially ordered set]] (or poset).
 
 A [[Pre-order]] is a weaker kind of relation
 
-For many common examples, the [[Partial ordering]] $$\preceq$$ is often interpreted as $$\leq$$ (or less than or equal).
+For many common examples, the [[Partial ordering]] $$\preceq$$ is often interpreted as $$\leq$$ (or less than or equal, for [[Real number]]s).

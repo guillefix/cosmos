@@ -1,6 +1,6 @@
 created: 20170627235225750
 creator: cosmos
-modified: 20170627235706801
+modified: 20170927165040702
 modifier: cosmos
 tags: 
 title: Open cover
@@ -8,3 +8,5 @@ tmap.id: 4bc29a63-3e18-44c8-9dc0-2a11d6429572
 type: text/vnd.tiddlywiki
 
 [[definition|https://www.youtube.com/watch?v=zeVA74yivyg&index=11&list=PL0E754696F72137EC#t=6m25s]]. An open cover of a set E is collection of [[Open set]]s that cover E, that is their [[union|Set union]] contains the set E
+
+[[definition (vid2)|https://www.youtube.com/watch?v=t45NoydhMTY&index=10&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=35m40s]] (slightly different, but equivalent thanks to [[this lemma|https://www.youtube.com/watch?v=t45NoydhMTY&index=10&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=39m6s]])

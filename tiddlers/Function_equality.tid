@@ -1,0 +1,12 @@
+created: 20171012174046702
+creator: cosmos
+modified: 20171012174502021
+modifier: cosmos
+tags: 
+title: Function equality
+tmap.id: 6c86bb46-ed95-4cde-b86f-fb1a2278be01
+type: text/vnd.tiddlywiki
+
+Two [[Function]]s $$f: X \to Y$$ and $$g: X \to Z$$ are said to be equal if
+
+$$f(x) = g(x) ~\forall x \in X$$

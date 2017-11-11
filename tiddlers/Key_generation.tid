@@ -1,0 +1,17 @@
+created: 20170705224957634
+creator: cosmos
+modified: 20170705225015059
+modifier: cosmos
+tags: Cryptography
+title: Key generation
+tmap.id: 07c51496-f562-466f-be8d-93070cad9af5
+type: text/vnd.tiddlywiki
+
+
+------------------
+
+A password generation system
+
+* Total [[Entropy]]
+* [[Mutual information]], that determines number of attacks which don't compromise the whole set of passwords
+* [[Cryptographic|Cryptography]] security that can decrease the effective mutual information (I think it would be like the resource-bounded [[Relative Kolmogorov complexity]])

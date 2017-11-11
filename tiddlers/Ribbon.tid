@@ -1,0 +1,32 @@
+created: 20171105173925133
+creator: cosmos
+modified: 20171105181145906
+modifier: cosmos
+tags: [[Ribbon theory]]
+title: Ribbon
+tmap.id: 21cf8cfc-d28d-4527-a103-dd8b750892c4
+type: text/vnd.tiddlywiki
+
+//aka strip//
+
+A ''ribbon'' refers to the mathematical object consisting of a [[Curve]] and an associated 1d unit perpendicular [[Vector field]] on it. Formally it is a pair $$(X,U)$$, of a smooth [[Curve]] $$X$$ together with a smoothly varying Unit [[Vector field]] $$U(t)$$ perpendicular to to $$X$$ (perpendicular to the [[Tangent vector]] of $$X$$). The ribbon is called simple and closed if $$X$$ is [[simple|Simple curve]] and [[closed|Closed curve]] and if $$U$$ and its derivatives agree at $$a$$ and $$b$$. 
+
+http://mathworld.wolfram.com/Twist.html
+
+https://en.wikipedia.org/wiki/Ribbon_theory
+
+__Ways of measuring the number of times "U goes around X"__
+
+* [[Linking number]] $$Lk$$
+
+* [[Twist]] $$Tw$$
+
+The linking number and twist are in general different. However, their difference only depends on $$X$$ (and not in $$U$$). We can therefore define the [[writhing number|Writhe]] as this difference
+
+------------
+
+[[Sur les classes d'isotopie des noeuds tridimensionnels et leurs invariants|https://dml.cz/bitstream/handle/10338.dmlcz/100486/CzechMathJ_11-1961-4_9.pdf]]
+
+[[The self-linking number of a closed space curve|http://www.jstor.org/stable/24902091?seq=1#page_scan_tab_contents]] -- [ext[pdf|http://www.maths.ed.ac.uk/~aar/papers/pohl.pdf]]
+
+[[The writhing number of a space curve|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC389050/pdf/pnas00079-0124.pdf]]

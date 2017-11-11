@@ -1,0 +1,13 @@
+created: 20170901180147589
+creator: cosmos
+modified: 20170901180217312
+modifier: cosmos
+tags: [[Reinforcement learning]]
+title: Spectral methods in reinforcement learning
+tmap.id: d6a8f67a-6de0-4962-b1f4-3e9c2eeaa73a
+type: text/vnd.tiddlywiki
+
+
+[[Proto-value Functions: A Laplacian Framework for Learning Representation and Control in Markov Decision Processes|http://www.jmlr.org/papers/volume8/mahadevan07a/mahadevan07a.pdf]]
+
+[[Reinforcement Learning of POMDP's using Spectral Methods|https://www.youtube.com/watch?v=w7QCLFR8hJU]]

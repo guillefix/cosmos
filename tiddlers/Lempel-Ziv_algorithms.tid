@@ -1,17 +1,21 @@
 created: 20160627202005587
 creator: guillefix
-modified: 20170207013854643
+modified: 20170926105826137
 modifier: cosmos
+tags: [[Universal source coding]]
 title: Lempel-Ziv algorithms
 tmap.id: a696daf9-a80d-453b-9bcb-f525f7d8ea5f
 type: text/vnd.tiddlywiki
+
+
+''Lempel-Ziv algorithms'' are a class of [[Universal source coding]] [[Data compression]] algorithms which achieve the [[entropy limit|Source coding theorem]] asymptotically for [[Stationary ergodic process]]
 
 [[On the Complexity of Finite Sequences|http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1055501&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F18%2F22688%2F01055501]]
 
 [[A Universal Algorithm for Sequential Data Compression (LZ77)|http://lanethames.com/dataStore/ECE/InfoTheory/0337ziv.pdf]]
 
 
-[[Lempel-Ziv algorithms|http://www-math.mit.edu/~shor/PAM/lempel_ziv_notes.pdf]]
+[ext[Lempel-Ziv algorithms|http://www-math.mit.edu/~shor/PAM/lempel_ziv_notes.pdf]]
 
 [[video|https://www.youtube.com/watch?v=bjDFPuXNf2o]]
 

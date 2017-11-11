@@ -1,34 +1,34 @@
 created: 20170526235428564
 creator: cosmos
-modified: 20170529170921176
+modified: 20170927200230200
 modifier: cosmos
-tags: [[Differential geometry]]
+tags: [[Differential geometry]] Topology
 title: Manifold
 tmap.id: caf37349-c633-456a-90a1-1761f6cc6d04
 type: text/vnd.tiddlywiki
 
 See book on diff geom.
 
-[[Some common manifolds|https://www.youtube.com/watch?v=J7vojBbvudQ&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ&index=5]]
+!!__[[Differentiable manifold]]__
 
-!!![[Operations on manifolds|https://www.youtube.com/watch?v=VuFCRFKiWvA&index=6&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ]]:
+[[Introduction to differentiable manifold|https://www.youtube.com/watch?v=bv3gwMdYlNo&t=150#t=46m45s]] -- [[formal definition of differentiable manifold|https://www.youtube.com/watch?v=bv3gwMdYlNo&t=150#t=56m33s]]
 
-* Product ([[Cartesian product]])
-* [[Quotient|https://www.youtube.com/watch?v=v425ePq9tyo&index=7&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ#t=11m30s]], the [[Quotient set]] given by an [[Equivalence relation]]
-* [[Surgery|https://www.youtube.com/watch?v=B6vEdfk7SWU&index=9&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ#t=12m10s]].
-** Connected sum
+A differentiable structure is what we need to add to a set in order to do differential [[Calculus]] on it. In particular differentiation (derivatives) of functions defined on the set. It is what it's needed to define //differentiability// of functions in a consistent way. It also allows to do [[Integration]] (what do you integrate? [[Differential form]]s)
+
+[[Some common manifolds|https://www.youtube.com/watch?v=J7vojBbvudQ&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ&index=5]]. [[The differentiable structure induces a topology|https://www.youtube.com/watch?v=bv3gwMdYlNo&t=150#t=1h5m10s]] ([[Topology]])
+
+[[Relation between differentiable and topological structures|https://www.youtube.com/watch?v=p9m9bBJsGzo#t=19m]]
+
+[[Some invariants|https://www.youtube.com/watch?v=p9m9bBJsGzo#t=26m20s]]
+
+!!!__[[Riemannian manifold]]__
+
+-------------
+
+!!__[[Topological manifold]]__
+
+Locally [[homeomorphic|Homeomorphism]] to [[Euclidean space]]
+
+[[Differentiable manifold]]s are automatic topological manifolds, as the required local [[Diffeomorphism]] to R^n is a homeomorphism.
 
 ---------------------
-
-[[Klein bottle]]
-
-[[Projective plane]]
-
-More [[here|http://web1.kcn.jp/hp28ah77/us27g_cros.htm]]
-
-!!__[[2D manifold]]s (aka surfaces)__
-
-[[They have been classified up to homeomorphism by Moebious|https://www.youtube.com/watch?v=pxsL5JTTk5Q&index=10&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ#t=16m30s]] into:
-
-* Orientable (which are n-tori, where n is the [[Genus]])
-* Non-orientable which are connected-sum'd copies of the real [[Projective plane]]

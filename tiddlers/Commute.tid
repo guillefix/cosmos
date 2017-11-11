@@ -1,0 +1,11 @@
+created: 20171021221944629
+creator: cosmos
+modified: 20171021222119356
+modifier: cosmos
+title: Commute
+tmap.id: 7b4eff6a-e6c3-4258-bcb1-af534b526aec
+type: text/vnd.tiddlywiki
+
+Two elements of a [[Group]], $$a$$ and $$b$$ are said to ''commute'' if $$ab = ba$$.
+
+An equivalent definition can be made for any [[Binary operation]]

@@ -1,0 +1,18 @@
+created: 20171013101848567
+creator: cosmos
+modified: 20171013102146891
+modifier: cosmos
+tags: [[Knot invariant]]
+title: Kauffman invariant
+tmap.id: 55c8ca5b-4fe5-40fd-9f04-ba8f20201741
+type: text/vnd.tiddlywiki
+
+[[Skein rule]]
+
+$$A$$ a number
+
+loop = $$-A^2-A^{-2}=d$$
+
+....
+
+......

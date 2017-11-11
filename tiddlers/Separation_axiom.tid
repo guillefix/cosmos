@@ -1,0 +1,39 @@
+created: 20170824160000071
+creator: cosmos
+modified: 20171011181838460
+modifier: cosmos
+tags: [[Topological property]]
+title: Separation axiom
+tmap.id: 6d8c8e03-acb2-45bc-bd14-42b4118ec7c5
+type: text/vnd.tiddlywiki
+
+See [[this video|https://www.youtube.com/watch?v=28BluiBRdUk&index=3&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h28m4]] -- [[and this video|https://www.youtube.com/watch?v=JO_Z5FmVhK0&index=13&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h13m10s]]
+
+* $$T_1$$ . [[Frechet space]]. Every pair of points have neighbourhoods not containing the other point ([[equivalent to points being closed|https://www.youtube.com/watch?v=28BluiBRdUk&index=3&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h29m30s]]) -- [[vid|https://www.youtube.com/watch?v=JO_Z5FmVhK0&index=13&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h13m30s]]
+* $$T_2$$ ([[Hausdorff space]])
+* $$T_3$$. A point and a closed subset not containing the point, then they have disjoint neighbourhoods. 
+* $$T_4$$. Disjoint closed subsets have disjoint neighbourhoods.
+* ...
+
+https://en.wikipedia.org/wiki/Separation_axiom
+
+[[Regular space]]
+
+[[Normal space]]
+
+Then normal => regular => Hausdorff => $$T_1$$
+
+----------------
+
+[[Lemma|https://www.youtube.com/watch?v=dW2UyOEP6FI&index=14&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=13m20s]].
+
+X is T3 if and only if for every $$x \in X$$ and neighbourhood $$U$$ of $$X$$, there is a nbhd $$V$$ of $$x$$  s.t. $$\bar{V} \subset U$$.
+
+X is T4 iff for each closed subsete $$A$$ of $$X$$ and nbhd $$U$$ of $$A$$, there is a nbhd $$V$$ of $$A$$ s.t. $$\bar{V} \subset U$$
+
+------------------
+
+[[Urysohn's lemma]] --> [[Urysohn metrization theorem]]
+
+
+[[Proposition|https://www.youtube.com/watch?v=dW2UyOEP6FI&index=14&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h22m29s]]. Every [[Regular space]] [[with a countable basis|Second countable]] is [[normal|Normal space]]

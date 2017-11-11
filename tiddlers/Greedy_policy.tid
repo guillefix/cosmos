@@ -1,0 +1,9 @@
+created: 20170715165555061
+creator: cosmos
+modified: 20170715165623382
+modifier: cosmos
+title: Greedy policy
+tmap.id: 4c7d4eb8-df97-4496-8f1c-732431054eef
+type: text/vnd.tiddlywiki
+
+A [[Policy]] which choses only actions that maximize the [[Value function]] at each state

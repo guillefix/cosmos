@@ -1,0 +1,34 @@
+created: 20170912203128846
+creator: cosmos
+modified: 20171012152935202
+modifier: cosmos
+tags: Topology
+title: Topological property
+tmap.id: 6d98ed9f-40f9-456c-8261-0e0faaee3d90
+type: text/vnd.tiddlywiki
+
+//aka topological invariant//
+
+Properties of [[Topological space]]s which are invariant under [[Homeomorphism]]s
+
+* Cardinal functions ([[Cardinality]])
+* [[Separation axiom]] 
+** T1
+** [[Hausdorff|Hausdorff space]]
+* [[Connectedness]]
+* [[Countability axiom]]
+** [[First countable]]
+** [[Second countable]]
+* [[Compactness]]
+* [[Metrizability|Metrizable]]
+* [[Fundamental group]] (//invariant// for path-connected)
+* [[Homotopy group]] -- Cohomotopy group
+* Homology and cohomology..
+* [[Alexandrov space]].
+
+Invariant is used more for algebraic properties, while property more for purely topological ones.
+
+
+See [[Homeomorphism]]
+
+https://en.wikipedia.org/wiki/Topological_property

@@ -1,0 +1,12 @@
+created: 20171111114851428
+creator: cosmos
+modified: 20171111115126133
+modifier: cosmos
+tags: Category
+title: Equivalence of categories
+tmap.id: d31bf5c6-bf02-4c66-a1e3-4dd5c3bc9f84
+type: text/vnd.tiddlywiki
+
+[[One definition|https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/LNPnotes.pdf#page=38]] is that there exists a pair of functors between them whose compositions have [[Natural isomorphism]]s to the [[Identity functor]]s.
+
+Another equivalent definition says that the ''skeleton''s of the categories (the equivalence classes w.r.t. isomorphisms) are isomorphic, I think.

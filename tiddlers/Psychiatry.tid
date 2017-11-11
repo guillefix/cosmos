@@ -1,6 +1,6 @@
 created: 20170208183115452
 creator: cosmos
-modified: 20170210205451324
+modified: 20170912205939929
 modifier: cosmos
 tags: Psychology Medicine
 title: Psychiatry
@@ -10,3 +10,7 @@ type: text/vnd.tiddlywiki
 
 
 [[Hypnosis]]
+
+[[Behavioural therapy]]
+
+to combat an irrational fear I must expose myself to the thing provoking that irrational fear -- [[Reinforcement learning]] (in psychology, see chapter in [[Sutton-Barto]])

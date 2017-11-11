@@ -1,0 +1,17 @@
+created: 20171004205049804
+creator: cosmos
+modified: 20171004205731282
+modifier: cosmos
+tags: [[Rate-distortion theory]]
+title: Lloyd algorithm
+tmap.id: e3467110-79d1-4e57-9b98-0f812d64d05f
+type: text/vnd.tiddlywiki
+
+
+We can state two simple properties of optimal regions and [[Reconstruction point]]s for the quantization of a single random variable: 
+
+*Given a set { X̂(w)} of reconstruction points, the distortion is mini- mized by mapping a source random variable X to the representation X̂(w) that is closest to it. The set of regions of X defined by this mapping is called a Voronoi or Dirichlet partition defined by the reconstruction points.
+
+*The reconstruction points should minimize the conditional expected distortion over their respective assignment regions.
+
+These two properties enable us to construct a simple algorithm to find a “good” quantizer: We start with a set of reconstruction points, find the opti- mal set of reconstruction regions (which are the nearest-neighbor regions with respect to the distortion measure), then find the optimal reconstruc- tion points for these regions (the centroids of these regions if the distortion is squared error), and then repeat the iteration for this new set of recon- struction points. The expected distortion is decreased at each stage in the algorithm, so the algorithm will converge to a local minimum of the dis- tortion. This algorithm is called the Lloyd algorithm [363] (for real-valued random variables) or the generalized Lloyd algorithm [358] (for vector- valued random variables) and is frequently used to design quantization systems.

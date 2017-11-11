@@ -1,6 +1,6 @@
 created: 20160121195127284
 creator: guillefix
-modified: 20170528125944565
+modified: 20170905223643122
 modifier: cosmos
 tags: [[Computer Science and IT]]
 title: Computer graphics
@@ -13,11 +13,47 @@ https://www.youtube.com/watch?v=01YSK5gIEYQ&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdA
 
 [[ThreeNodes.js: vvvv "clone" in javascript/webgl|https://github.com/idflood/ThreeNodes.js]]
 
-https://vvvv.org/ <i class="fa fa-thumbs-up"></i>  <i class="fa fa-thumbs-up"></i> <mark>Looks very nice</mark> [[Visual programming language]]
-
 Graphics and [[Image processing]] on [[Python (programming language)]]: https://python-pillow.org/
 
 [[3D computer graphics]]
+
+[[Computer vision]]
+
+https://vvvv.org/ <i class="fa fa-thumbs-up"></i>  <i class="fa fa-thumbs-up"></i> [[Visual programming language]]
+
+[ext[http://mrl.nyu.edu/~perlin/courses/spring2016/]]
+
+-------------------
+
+[[Curve parametrized by points]]
+
+[[Surface]] parametrized by [[Mesh]]
+
+[[Spatial transformation]]
+
+!!__[[Viewing pipeline]]__
+
+[[Camera (computer graphics)]] -- [[Camera transform]]
+
+....................
+
+!!__[[Colour]]/[[Shading]]__
+
+[[video|https://www.youtube.com/watch?v=TEjDYtkLRdQ&index=8&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=9m30s]]
+
+!!!__[[Light source]]__
+
+[[video|https://www.youtube.com/watch?v=TEjDYtkLRdQ&index=8&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=21m10s]], also about [[Light scattering]] off of different [[Material surface]]s, etc.
+
+[[Lambert's law]]. 
+
+!!!__[[Shading]]__
+
+------------------
+
+These operations are done by [[Shader]]s
+
+https://en.wikipedia.org/wiki/Normal_mapping
 
 ------------------
 

@@ -1,0 +1,14 @@
+created: 20170824131351078
+creator: cosmos
+modified: 20170824131502423
+modifier: cosmos
+tags: [[Spatial mapping]] [[Computer vision]]
+title: Simultaneous localization and mapping
+tmap.id: c3c321c0-5052-4b3b-ae10-7283e4813256
+type: text/vnd.tiddlywiki
+
+//aka SLAM//
+
+Has found crucial uses now in [[Augmented reality]]
+
+Uses [[Kalman filter]]s, [[Sensor fusion]]

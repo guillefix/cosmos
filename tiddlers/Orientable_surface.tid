@@ -1,6 +1,6 @@
 created: 20170624120204616
 creator: cosmos
-modified: 20170624165846801
+modified: 20170924122930182
 modifier: cosmos
 tags: Surface
 title: Orientable surface
@@ -12,3 +12,5 @@ Surfaces for which one can find a [[Unitary normal vector field]] (remember that
 See [[video|https://www.youtube.com/watch?v=VELPA0I5MGg#t=26m50s]]
 
 if a surface has non-zero [[Mean curvature]] everywhere [[then it is orientable|https://www.youtube.com/watch?v=579ugjuW-uc#t=1h11m]]. To see this imagine that the normal is chosen so that the mean curvature is positive everywhere at every local chart (the other choice would be negative everywhere). However, if it's non-orientable, there is an overlap of charts, where such a choice of normal would be insconsistent in the sense that from one chart it is negative the vector from the other chart. However, by assumption, the mean curvature was positive in one of the charts, and so in the other, as the normal is pointing in the opposite direction, the mean curvature must be negative. This contradicts the assumption that it was positive in every chart. This fact is used in the proof of [[Jellet-Liebmann theorem]]
+
+!!![[Orientable manifold|https://www.youtube.com/watch?v=p9m9bBJsGzo#t=14m50s]]

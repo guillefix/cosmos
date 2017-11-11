@@ -1,0 +1,12 @@
+created: 20171111120129465
+creator: cosmos
+modified: 20171111120329627
+modifier: cosmos
+tags: Category
+title: 2-category
+tmap.id: 9fc3e526-4c0d-4267-9c88-ad9660fe0544
+type: text/vnd.tiddlywiki
+
+A "category with morphisms between morphisms". That is a category where the [[Hom-set]]s are themselves [[categories|Category]]
+
+See [[here|https://www.google.co.uk/search?q=2-category&oq=2-category&aqs=chrome..69i57j0l2.1678j0j7&sourceid=chrome&ie=UTF-8]]. For instance, the [[Category of small categories]] (https://en.wikipedia.org/wiki/Category_of_small_categories).

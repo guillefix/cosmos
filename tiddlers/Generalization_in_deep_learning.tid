@@ -1,6 +1,6 @@
 created: 20170512224700922
 creator: cosmos
-modified: 20170625194245776
+modified: 20171028095726522
 modifier: cosmos
 tags: [[Deep learning theory]] Generalization
 title: Generalization in deep learning
@@ -9,6 +9,47 @@ type: text/vnd.tiddlywiki
 
 
 See gingkoapp tree
+
+!!![[Implicit regularization in deep learning|https://arxiv.org/pdf/1709.01953.pdf]]
+
+Regularization caused by optimization algorithm.. "we investigate the transformations under which the function computed by a network remains the same and therefore argue for complexity measures and optimization algorithms that have similar invariances. We find complexity measures that have similar invariances to neural networks and optimization algorithms that implicitly regularize them". [[Path-norm]] a metric in parameter space, that is closer to model distance? [[Sloppy systems]]?
+
+* We prove generalization bounds for the class of fully connected feedforward networks with the bounded norm. We further show that for some norms, this bound is independent of the number of hidden units.
+
+* We show how PAC-Bayes framework can be employed to obtain generalization bounds for neural networks by making a connection between sharpness and PAC-Bayes theory.
+
+* Implicit Regularization by SGD (Chapter 6): We show that networks learned by SGD satisfy several conditions that lead to flat minima.
+
+[28] proved that the Rademacher complexity of fully connected feedforward networks on set S can be bounded based on the 1 norm of the weights of hidden units in each layer  In [[Chapter 5|https://arxiv.org/pdf/1709.01953.pdf#page=31]] we show
+how the capacity can be controlled for a large family of norms. See [[Learning real-valued functions]]
+
+[[Algorithmic robustness]], similar to [[Algorithmic stability]]
+
+<small>[[Sharpness|https://arxiv.org/pdf/1709.01953.pdf#page=22]]. we advocate viewing a related notion of expected sharpness in the context of the PAC-Bayesian framework. Viewed this way, it becomes clear that sharpness controls only one of two relevant terms, and must be balanced with some other measure such as norm. Together, sharpness and norm do provide capacity control and can explain many of the observed phenomena. This connection between sharpness and the PAC-Bayes framework was also recently noted by Dziugaite and Roy [32].</small>
+
+<small>[[On the Role of Implicit Regularization in Generalization|https://arxiv.org/pdf/1709.01953.pdf#page=25]] we draw an analogy to matrix
+factorization and understand dimensionality versus norm control there. Based on this analogy we suggest that implicit norm regularization might be central also for deep learning, and also there we should think of bounded-norm models with capacity independent of number of hidden units. See also [[Deep learning theory]]</small>
+
+Focusing on networks with RELU activations in this section, we observe that scaling down the incoming
+edges to a hidden unit and scaling up the outgoing edges by the same factor yields an equivalent network
+computing the same function. Since predictions are invariant to such rescalings, it is natural to seek a
+geometry, and corresponding optimization method, that is similarly invariant. In this chapter, we study
+invariances in feedforward networks with shared weights. --- [[Sloppy systems]]!
+
+<small>Revisiting the choice of gradient descent, we recall that optimization is also inherently tied to a choice
+of geometry or measure of distance, norm or divergence. Gradient descent for example is tied to the l2
+norm as it is the steepest descent with respect to l2 norm in the parameter space, while coordinate descent
+corresponds to steepest descent with respect to the l1 norm and exp-gradient (''multiplicative weight'')
+updates is tied to an entropic divergence.</small>
+
+----------------
+
+[[Generalization in deep learning|https://arxiv.org/pdf/1710.05468.pdf]]
+
+https://arxiv.org/abs/1704.01312
+
+https://arxiv.org/pdf/1710.05468.pdf -- en general, no me parecio tan interesante, excepto un bound de [[Rademacher complexity]], q tampoco es q le permita decir mucho per bueno. val just tells us that we generalize. It doesn't tells us why. Just like PAC bounds don't tells us why the target function lies within our test set, for e.g..
+
 
 [[FLAT MINIMA|http://www.bioinf.jku.at/publications/older/3304.pdf]]
 
@@ -25,6 +66,18 @@ See gingkoapp tree
 [[What size network is good for generalization of a specific task of interest|http://www.sciencedirect.com/science/article/pii/0893608094900264]] -- We show that for some tasks increasing network size leads to worse generalization. This is not surprising. The striking feature is that there exist other tasks for which increasing network size improves generalization. We give an explanation of this phenomenon in terms of the information entropy. I think what this paper is missing is the concept of universal complexity measures. You can see that tasks of “medium complexity” are the hardest to learn, because their measure of complexity isn’t very good. Even just entropy, would be better (as highest entropy corresponds to medium complexity in their case)
 
 [[related paper|http://www.inderscienceonline.com/doi/abs/10.1504/IJAACS.2014.065198]], [[pdf|http://sci-hub.cc/10.1504/ijaacs.2014.065198]]
+
+-------------------
+
+From [[Understanding deep learning requires rethinking generalization|https://arxiv.org/abs/1611.03530]]
+
+"Moreover, we did not observe any overfitting: the generalization error does not degrade by reaching zero training error, or by using larger networks."
+
+"what we really want is to minimize the variance of the net functions induced by weights near the actual weight vector."
+
+----------------
+
+Flat minima good to help fight catastrophic forgetting.
 
 ------------------
 

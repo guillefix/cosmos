@@ -1,0 +1,31 @@
+created: 20170702114923275
+creator: cosmos
+modified: 20170702204505346
+modifier: cosmos
+tags: [[Computer graphics]]
+title: Camera (computer graphics)
+tmap.id: f0317c9a-3b98-4f01-acd4-fb3e74fbb929
+type: text/vnd.tiddlywiki
+
+//I think also called perspective//
+
+[[The camera transform|https://www.youtube.com/watch?v=mpTl003EXCY&index=5&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g]] (video). Also explains basics of camera in computer graphics
+
+Uses [[Projective geometry]]
+
+Based on a [[Pinhole camera]]
+
+__[[properties|https://www.youtube.com/watch?v=og7hOFypKpQ&index=6&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=2m20s]]__
+
+* Camera point
+* Direction vector /  [[center of attention|https://www.youtube.com/watch?v=og7hOFypKpQ&index=6&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g]]
+* Up vector
+* Angle of view
+* Near and far distances
+
+!__[[Viewing pipeline]]__
+
+-----------------
+
+In [[OpenGL]], one sets it up with [[gluPerspective|https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/gluPerspective.xml]]
+

@@ -1,13 +1,19 @@
 created: 20160122225248703
 creator: guillefix
-modified: 20161211222841894
+modified: 20171021232032056
 modifier: cosmos
-tags: Mathematics
+tags: Algebra
 title: Abstract algebra
 tmap.id: dd675e84-a93f-44b9-904b-f03b8938e8e5
 type: text/vnd.tiddlywiki
 
 //Things often have relations//
+
+[[Algebraic structure]]s
+
+[[Group theory]]
+
+[[Ring]] theory
 
 [ext[wayback.archive-it.org/3671/20150528171650/https://www.extension.harvard.edu/open-learning-initiative/abstract-algebra]]
 
@@ -16,3 +22,5 @@ See Wiki and CosmosBrain, [[Algebraic structure]]
 [[Group theory]]
 
 http://math.stackexchange.com/questions/105285/the-most-common-theorems-taught-in-abstract-algebra
+
+//sometimes just called Algebra//

@@ -1,6 +1,6 @@
 created: 20160918174304853
 creator: cosmos
-modified: 20170525204958846
+modified: 20170820185013236
 modifier: cosmos
 tags: [[Learning theory]]
 title: Generalization
@@ -18,3 +18,9 @@ __Generalization bound techniques__
 * Stability
 
 [[Almost-everywhere algorithmic stability and generalization error|http://dl.acm.org/citation.cfm?id=2073909]]
+
+[[Generalization in evolution]]
+
+---------------
+
+[[One-shot learning]], [[Zero-shot learning]]

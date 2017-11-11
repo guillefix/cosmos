@@ -1,0 +1,12 @@
+created: 20171008181936642
+creator: cosmos
+modified: 20171008182127183
+modifier: cosmos
+title: Outer measure
+tmap.id: 2f30f142-3824-418e-a517-6f143f22a13f
+type: text/vnd.tiddlywiki
+
+Like a [[Measure]] but where additivity is replaced by sub-additivity, that is:
+
+$$\mu(\bigcup\limits_{i=1}^{\infty} E_i) \leq \sum\limits_{i=1}^{\infty} \mu(E_i)$$ for any collection $$E_1, E_2, ... \in \mathcal{A}$$ of mutually disjoint sets.
+

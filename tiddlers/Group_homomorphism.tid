@@ -1,0 +1,24 @@
+created: 20171006214722501
+creator: cosmos
+modified: 20171012113131438
+modifier: cosmos
+tags: Homomorphism Group
+title: Group homomorphism
+tmap.id: 93204927-c6be-4922-8db2-aa265da27f33
+type: text/vnd.tiddlywiki
+
+[[video|https://www.youtube.com/watch?v=TAxzcrYc7L4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&t=76#t=1m16s]]
+
+[[Kernel of a group homomorphism]], [[which is a|https://www.youtube.com/watch?v=TAxzcrYc7L4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&t=76#t=10m23s]] [[Normal subgroup]] of the domain.
+
+In fact normal subgroups can be characterized as kernels of homomorphisms
+
+[[Image of a group homomorphism]], which is a subgroup of the codomain
+
+[[Group isomorphism]]
+
+[[Homomorphism theorem]]
+
+The [[Group automorphism]]s of a [[group|Group (algebraic structure)]] [[form themselves a group|https://www.youtube.com/watch?v=TAxzcrYc7L4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=3#t=1h4m04s]], denoted as $$Aut(G)$$. It is a [[Subgroup]] of $$S(G)$$, the set of all bijections from G to itself ([[Symmetric group]]). 
+
+[[Inner automorphism]]. The set of inner automorphisms $$Inn(G) \simeq G/Z(G)$$ (isomorphic), where $$Z(G)$$ is the [[Center of a group]]

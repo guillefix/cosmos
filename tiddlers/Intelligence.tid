@@ -1,6 +1,6 @@
 created: 20160825115749628
 creator: cosmos
-modified: 20161211210458320
+modified: 20170812164739143
 modifier: cosmos
 tags: [[Cognitive science]]
 title: Intelligence
@@ -16,13 +16,13 @@ type: application/x-tiddler
 ** [[Learning to learn]]
 * [[Inference]]. ,,[[Active inference]], [[Hierarchical inference]],,
 ** [[Induction]]
-** [[Deduction]] -- [[Logic]]
+** [[Deduction]] -- [[Logic]], [[Relational reasoning]]
 * [[Generalization]] -- [[Abstraction]] -- [[Concept]] -- 
 ** [[Compositionality]]
 ** [[Causality]]
 * [[Memory]]
 * [[Attention]]
-* [[Perception]] -- [[Emotion]]
+* [[Perception]] -- [[Emotion]] -- [[Multisensory integration]]
 * [[Imagination]] -- [[Creativity]] -- [[Fun]]
 * [[Play]] -- [[Exploration]]
 * [[Communication]]
@@ -69,3 +69,213 @@ type: application/x-tiddler
 ------------
 
 [[Godel, Escher, Bach]]
+
+----------------------------
+
+[[Relational reasoning]]
+
+See [[Integrating symbols into deep learning]]
+
+[[Programmable agents|https://arxiv.org/pdf/1706.06383.pdf]] -- prior is on the fact that objects are described by a set of properties that are then acted with a logical language (which encodes the task that the agent has to perform) upon.
+
+!!![[Building Machines That Learn and Think Like People|https://arxiv.org/pdf/1604.00289.pdf]]
+
+recursive neural nets!
+
+This richness and flexibility suggests that learning as model building is a better metaphor than
+learning as pattern recognition. 
+
+Regarding Bayesian Program Learning, Structure
+sharing across concepts is accomplished by the compositional reuse of stochastic primitives that
+can combine in new ways to create new concepts
+
+When comparing people and the current best algorithms in AI and machine learning, people learn
+from less data and generalize in richer and more flexible ways.
+
+----------
+
+Even with just a few examples, people can learn remarkably rich conceptual models. One indicator
+of richness is the variety of functions that these models support (A. B. Markman & Ross, 2003;
+Solomon, Medin, & Lynch, 1999). Beyond classification, concepts support prediction (Murphy &
+Ross, 1994; Rips, 1975), action (Barsalou, 1983), communication (A. B. Markman & Makin,
+1998), imagination (Jern & Kemp, 2013; Ward, 1994), explanation (Lombrozo, 2009; Williams & Lombrozo, 2010), and composition (Murphy, 1988; Osherson & Smith, 1981)
+-----------
+
+People can learn to recognize a new
+handwritten character from a single example (Figure 1A-i), allowing them to discriminate between
+novel instances drawn by other people and similar looking non-instances (Lake, Salakhutdinov, &
+Tenenbaum, 2015; E. G. Miller, Matsakis, & Viola, 2000). Moreover, people learn more than
+how to do pattern recognition: they learn a concept – that is, a model of the class that allows their
+acquired knowledge to be flexibly applied in new ways. In addition to recognizing new examples,
+people can also generate new examples (Figure 1A-ii), parse a character into its most important
+parts and relations (Figure 1A-iii; Lake, Salakhutdinov, and Tenenbaum (2012)), and generate new
+characters given a small set of related characters (Figure 1A-iv). These additional abilities come
+for free along with the acquisition of the underlying concept.
+
+Characters Challenge. Frostbite challenge
+
+----------------------
+
+They may be better seen as solving different tasks. Human learners – unlike DQN and
+many other deep learning systems – approach new problems armed with extensive prior experience.
+The human is encountering one in a years-long string of problems, with rich overlapping structure.
+Humans as a result often have important domain-specific knowledge for these tasks, even before
+they ‘begin.’ The DQN is starting completely from scratch.” We agree, and indeed this is another
+way of putting our point here. Human learners fundamentally take on different learning tasks than
+today’s neural networks, and if we want to build machines that learn and think like people, our
+machines need to confront the kinds of tasks that human learners do, not shy away from them.
+People never start completely from scratch, or even close to “from scratch,” and that is the secret
+to their success. The challenge of building models of human learning and thinking then becomes:
+How do we bring to bear rich prior knowledge to learn new tasks and solve new problems so quickly?
+What form does that prior knowledge take, and how is it constructed, from some combination of
+inbuilt capacities and previous experience? The core ingredients we propose in the next section
+offer one route to meeting this challenge.
+
+__Developmental start-up software__
+
+“child as scientist”
+
+__ Intuitive physics__
+
+A promising recent approach sees intuitive physical reasoning
+as similar to inference over a physics software engine, the kind of simulators that power
+modern-day animations and games (Bates, Yildirim, Tenenbaum, & Battaglia, 2015; Battaglia,
+Hamrick, & Tenenbaum, 2013; Gerstenberg, Goodman, Lagnado, & Tenenbaum, 2015; Sanborn,
+Mansinghka, & Griffiths, 2013).
+
+Could deep learning systems such as PhysNet capture
+this flexibility, without explicitly simulating the causal interactions between objects in three
+dimensions? We are not sure, but we hope this is a challenge they will take on.
+
+__intuitive psychology__
+
+However, it seems to us that any full formal account of intuitive psychological reasoning needs to
+include representations of agency, goals, efficiency, and reciprocal relations.
+
+utility calculus, MDPs etc
+
+__Model building__
+
+Compositionality
+
+Causality -- “Analysis-by-synthesis”
+
+Learning-to-learn. related to “transfer learning”
+
+__Thinking fast__
+
+This section discusses possible paths towards resolving the conflict between fast inference
+and structured representations, including Helmholtz-machine-style approximate inference in generative
+models (Dayan, Hinton, Neal, & Zemel, 1995; Hinton et al., 1995) and cooperation between
+model-free and model-based reinforcement learning systems.
+
+Approximate inference in structured models --  “learning to do inference,”
+
+Popular algorithms for approximate inference in probabilistic machine learning have been proposed
+as psychological models (see Griffiths, Vul, & Sanborn, 2012, for a review). Most prominently, it
+has been proposed that humans can approximate Bayesian inference using Monte Carlo methods,
+which stochastically sample the space of possible hypotheses and evaluate these samples according
+to their consistency with the data and prior knowledge (Bonawitz, Denison, Griffiths, & Gopnik,
+2014; Gershman, Vul, & Tenenbaum, 2012; T. D. Ullman, Goodman, & Tenenbaum, 2012; Vul et
+al., 2014). Monte Carlo sampling has been invoked to explain behavioral phenomena ranging from
+children’s response variability (Bonawitz et al., 2014) to garden-path effects in sentence processing
+(Levy, Reali, & Griffiths, 2009) and perceptual multistability (Gershman et al., 2012; MorenoBote,
+Knill, & Pouget, 2011). Moreover, we are beginning to understand how such methods could
+be implemented in neural circuits (Buesing, Bill, Nessler, & Maass, 2011; Huang & Rao, 2014;
+Pecevski, Buesing, & Maass, 2011).9
+
+How might efficient mappings from questions to a plausible subset of answers be learned? Recent
+work in AI spanning both deep learning and graphical models has attempted to tackle this challenge
+by “amortizing” probabilistic inference computations into an efficient feed-forward mapping
+(Eslami, Tarlow, Kohli, & Winn, 2014; Heess, Tarlow, & Winn, 2013; A. Mnih & Gregor,
+2014; Stuhlm¨uller, Taylor, & Goodman, 2013). We can also think of this as “learning to do
+inference,” which is independent from the ideas of learning as model building discussed in the
+previous section. These feed-forward mappings can be learned in various ways, for example, using
+paired generative/recognition networks (Dayan et al., 1995; Hinton et al., 1995) and variational
+optimization (Gregor et al., 2015; A. Mnih & Gregor, 2014; Rezende, Mohamed, & Wierstra,
+2014) or nearest-neighbor density estimation (Kulkarni, Kohli, Tenenbaum, & Mansinghka, 2015;
+Stuhlm¨uller et al., 2013). One implication of amortization is that solutions to different problems
+will become correlated due to the sharing of amortized computations; some evidence for inferential
+correlations in humans was reported by Gershman and Goodman (2014). This trend is an avenue
+of potential integration of deep learning models with probabilistic models and probabilistic programming:
+training neural networks to help perform probabilistic inference in a generative model
+or a probabilistic program (Eslami et al., 2016; Kulkarni, Whitney, Kohli, & Tenenbaum, 2015;
+Yildirim, Kulkarni, Freiwald, & Te, 2015). Another avenue for potential integration is through
+differentiable programming (Dalrmple, 2016) – by ensuring that the program-like hypotheses are
+differentiable and thus
+
+Model-based and model-free reinforcement learning
+
+The DQN introduced by V. Mnih et al. (2015) used a simple form of model-free reinforcement
+learning in a deep neural network that allows for fast selection of actions. There is indeed substantial
+evidence that the brain uses similar model-free learning algorithms in simple associative
+learning or discrimination learning tasks (see Niv, 2009, for a review). In particular, the phasic
+firing of midbrain dopaminergic neurons is qualitatively (Schultz, Dayan, & Montague, 1997) and
+quantitatively (Bayer & Glimcher, 2005) consistent with the reward prediction error that drives
+updating of model-free value estimates.
+
+Model-free learning is not, however, the whole story. Considerable evidence suggests that the
+brain also has a model-based learning system, responsible for building a “cognitive map” of the
+environment and using it to plan action sequences for more complex tasks (Daw, Niv, & Dayan,
+2005; Dolan & Dayan, 2013). Model-based planning is an essential ingredient of human intelligence,
+enabling flexible adaptation to new tasks and goals; it is where all of the rich model-building
+abilities discussed in the previous sections earn their value as guides to action.
+
+One boundary condition on this flexibility is the fact that the skills become “habitized” with
+routine application, possibly reflecting a shift from model-based to model-free control. This shift
+may arise from a rational arbitration between learning systems to balance the trade-off between
+flexibility and speed (Daw et al., 2005; Keramati, Dezfouli, & Piray, 2011).
+
+Similarly to how probabilistic computations can be amortized for efficiency (see previous section),
+plans can be amortized into cached values by allowing the model-based system to simulate training
+data for the model-free system (Sutton, 1990). This process might occur offline (e.g., in dreaming
+or quiet wakefulness), suggesting a form of consolidation in reinforcement learning (Gershman,
+Markman, & Otto, 2014). Consistent with the idea of cooperation between learning systems, a
+recent experiment demonstrated that model-based behavior becomes automatic over the course of
+training (Economides, Kurth-Nelson, L¨ubbert, Guitart-Masip, & Dolan, 2015). Thus, a marriage
+of flexibility and efficiency might be achievable if we use the human reinforcement learning systems
+as guidance.
+
+Intrinsic motivation also plays an important role
+
+--------------------
+
+Although deep learning researchers do explore many such architectural
+variations, and have been devising increasingly clever and powerful ones recently, it is the researchers
+who are driving and directing this process. Exploration and creative innovation in the space of
+network architectures have not yet been made algorithmic. Perhaps they could, using genetic
+programming methods (Koza, 1992) or other structure-search algorithms (Yamins et al., 2014).
+We think this would be a fascinating and promising direction to explore, but we may have to
+acquire more patience than machine learning researchers typically express with their algorithms:
+the dynamics of structure-search may look much more like the slow random hill-climbing of evolution
+than the smooth, methodical progress of stochastic gradient-descent.
+
+This is now being explored with AutoML
+
+ An alternative strategy is to build in appropriate infant-like knowledge representations and core ingredients as the starting point
+for our learning-based AI systems, or to build learning systems with strong inductive biases that
+guide them in this direction.
+
+ In the long run, we
+are optimistic that neuroscience will eventually place more constraints on theories of intelligence.
+For now, we believe cognitive plausibility offers a surer foundation.
+
+All these ingredients are probably essential for language.
+
+There has been recent interest in integrating psychological ingredients with deep neural networks,
+especially selective attention (Bahdanau et al., 2015; V. Mnih, Heess, Graves, & Kavukcuoglu,
+2014; K. Xu et al., 2015), augmented working memory (Graves et al., 2014, 2016; Grefenstette
+et al., 2015; Sukhbaatar et al., 2015; Weston et al., 2015), and experience replay (McClelland,
+McNaughton, & O’Reilly, 1995; V. Mnih et al., 2015). These ingredients are lower-level than
+the key cognitive ingredients discussed in this paper, yet they suggest a promising trend of using
+insights from cognitive psychology to improve deep learning, one that may be even furthered by
+incorporating higher-level cognitive ingredients.
+
+ developments are also part of a broader trend towards
+“differentiable programming,” the incorporation of classic data structures such a random access
+memory, stacks, and queues, into gradient-based learning systems (Dalrmple, 2016). For example,
+the Neural Turing Machine (NTM; Graves et al., 2014) and its successor the Differentiable Neural
+Computer (DNC; Graves et al., 2016) are neural networks augmented with a random access
+external memory with read and write operations that maintains end-to-end differentiability. 
+
+Neural programmers-interpreters

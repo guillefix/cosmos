@@ -1,0 +1,12 @@
+created: 20170830224714583
+creator: cosmos
+modified: 20170830224823777
+modifier: cosmos
+tags: [[Eigenvalue problem]]
+title: Generalized eigenvalue problem
+tmap.id: b549d9da-4127-4d6d-a4f5-c4fb03b0ce23
+type: text/vnd.tiddlywiki
+
+https://www.maplesoft.com/applications/view.aspx?SID=128444 . Can be expressed as an [[Eigenvalue problem]]
+
+If the left matrix is symmetric and the right matrix is [[Positive definite]], then you can solve it using [[Simultaneous diagonalization]] (see [[here|http://www.geo.tuwien.ac.at/downloads/tm/svd.pdf]] for e.g.)

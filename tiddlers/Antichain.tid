@@ -1,0 +1,14 @@
+created: 20171009083943119
+creator: cosmos
+modified: 20171022212839373
+modifier: cosmos
+tags: Combinatorics
+title: Antichain
+tmap.id: 0a8a936d-05fb-4a12-b1ac-a2f0309cb308
+type: text/vnd.tiddlywiki
+
+//aka Sperner system//
+
+A subset of a [[Partially ordered set]] such that for all a,b, if $$a\neq b$$, then neither $$a \leq b$$ nor $$b \leq a$$.
+
+[[Sperner's lemma]]

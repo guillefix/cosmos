@@ -1,12 +1,16 @@
 created: 20161106171741655
 creator: cosmos
-modified: 20161106171758539
+modified: 20171012175745316
 modifier: cosmos
 tags: Function
 title: Morphism
 tmap.id: 2751dca9-f9dd-4fba-869c-7403b7939515
 type: text/vnd.tiddlywiki
 
-A structure-preserving map
+In [[Category theory]], one of the arrows in a [[Category]]
+
+Sometimes used to refer to a structure-preserving map
 
 https://www.wikiwand.com/en/Morphism
+
+[[Homomorphism]]

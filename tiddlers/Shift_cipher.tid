@@ -1,0 +1,16 @@
+created: 20170706102829774
+creator: cosmos
+modified: 20170706103320570
+modifier: cosmos
+tags: Cipher
+title: Shift cipher
+tmap.id: 37cbfafd-0497-46be-967a-6ef7b873408a
+type: text/vnd.tiddlywiki
+
+//aka Caesar cipher//
+
+Shift letters of the alphabet "wrapping around" (as in [[Modular arithmetic]])
+
+[[intro|https://www.youtube.com/watch?v=W1SY6qKZrUk#t=1h14m]]
+
+not secure. [[Key space]] is very small (only 26)

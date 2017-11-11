@@ -1,13 +1,13 @@
 created: 20160704211542531
 creator: guillefix
-modified: 20161104134329225
-modifier: guillefix
+modified: 20170824220517190
+modifier: cosmos
 title: Kleene star
 tmap.id: 20944823-0b50-4150-b237-cbc1e884e825
 type: text/vnd.tiddlywiki
 
 A [[Kleene star|https://en.wikipedia.org/wiki/Kleene_star]], in [[Mathematical logic]] and [[Computer science]], (or Kleene operator or Kleene closure) is a unary operation, either on sets of strings or on sets of symbols or characters.
 
-If V is a set of symbols or characters then V* is the set of all strings over symbols in V, including the empty string ε.
+If V is a set of symbols or characters then V* is the set of all finite strings over symbols in V, including the empty string ε.
 
 It is often used in [[Coding theory]], [[Formal language]] theory, etc.

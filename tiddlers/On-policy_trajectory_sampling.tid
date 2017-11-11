@@ -1,0 +1,13 @@
+created: 20170717130646070
+creator: cosmos
+modified: 20170717131758183
+modifier: cosmos
+title: On-policy trajectory sampling
+tmap.id: 32206709-3c61-4342-ab57-4c05479b3d78
+type: text/vnd.tiddlywiki
+
+[[Reinforcement learning]] methods  which focuses on states and [[State-action pair]]s that the agent is likely to encounter when controlling its environment. This can allow computation to skip over parts of the state space that are irrelevant to the prediction or control problem. 
+
+It uses sampled trajectories following the policy for choosing the state which are going to be [[backed up|Value function backup]]
+
+[[Real-time dynamic programming]] uses this idea

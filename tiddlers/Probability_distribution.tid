@@ -1,17 +1,18 @@
 created: 20160918163750995
 creator: cosmos
-modified: 20170104235231086
+modified: 20171010154016035
 modifier: cosmos
 tags: [[Probability theory]]
 title: Probability distribution
 tmap.id: 224b5201-e61e-441d-9e1c-ae3ac2a79152
 type: text/vnd.tiddlywiki
 
+//aka probability distribution function or probability mass function for discrete random variables//
+
+A function defined as $$p(x) = P(X=x)$$ for a [[Random variable]] $$X$$, where $$P$$ is the [[Probability measure]] of the preimage of $$\{x\}$$.
+
 See [[Probability theory]]
 
-//aka probability distribution function//
-
-A [[Probability measure]] in a certain space of variables.
 
 !!__[[Probability density function]] (pdf)__
 

@@ -1,6 +1,6 @@
 created: 20160405190342383
 creator: guillefix
-modified: 20170325144446390
+modified: 20171001204837781
 modifier: cosmos
 tags: Language
 title: Natural language processing
@@ -28,6 +28,8 @@ Hybrid character-word NNs: http://arxiv.org/pdf/1604.00788v1.pdf
 [[Google SintaxNet (includes Parsey MacParseface)|https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html]] [[code|https://github.com/tensorflow/models/tree/master/syntaxnet]]. See [[Grammar]]
 
 https://demos.explosion.ai/displacy/?text=I%20like%20some%20good%20almonds&model=en&cpu=1&cph=0
+
+http://wiki.opencog.org/w/RelEx_Dependency_Relationship_Extractor
 
 !!!__Features for NLP__
 

@@ -1,12 +1,15 @@
 created: 20160623225545675
 creator: guillefix
-modified: 20161104134328243
-modifier: guillefix
+modified: 20170822144218925
+modifier: cosmos
 title: Error-correcting code
 tmap.id: b7faaca2-b759-45be-8050-01efa956deac
 type: text/vnd.tiddlywiki
 
 See [[Coding theory]]
+
+The minimal distance between two code words gives an upper estimate of the number of letters in a code word misrepresented by noisy channel that can still be safely corrected at the receiving end. Thus, if the channel is not very noisy, a small d ( C ) (minimal [[Hamming distance]] between two codewords) might suffice, otherwise larger values of d ( C ) are needed. When d ( C ) is large, this slows down the information transmission, because the source is not allowed to use all q n words for encoding, but still must transmit a sequence n -letter words
+
 
 !!__Forward error correction__
 
@@ -36,3 +39,6 @@ See [[http://pfister.ee.duke.edu/thesis/chap1.pdf]], and other chapters.
 
 !!__Quantum error correction__
 
+--------------
+
+[[Error correcting codes and neural networks|https://link.springer.com/content/pdf/10.1007%2Fs00029-016-0284-4.pdf]]

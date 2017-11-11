@@ -1,0 +1,14 @@
+created: 20170728155935320
+creator: cosmos
+modified: 20170728160113476
+modifier: cosmos
+tags: [[Model-based reinforcement learning]]
+title: Environment model
+tmap.id: dd50ed1d-6268-427d-9642-d2043cb5c369
+type: text/vnd.tiddlywiki
+
+A component of a [[Model-based reinforcement learning]] algorithm, which can be learned
+
+[[RECURRENT ENVIRONMENT SIMULATORS|https://arxiv.org/pdf/1704.02254.pdf]]
+
+[[The Predictron: End-To-End Learning and Planning|https://arxiv.org/abs/1612.08810]]

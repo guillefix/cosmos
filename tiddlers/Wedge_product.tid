@@ -1,0 +1,22 @@
+created: 20171106112123383
+creator: cosmos
+modified: 20171106145621395
+modifier: cosmos
+tags: [[Exterior algebra]]
+title: Wedge product
+tmap.id: 9e36544f-b61c-44d7-9fed-68491e920655
+type: text/vnd.tiddlywiki
+
+//aka exterior product//
+
+The wedge product $$\wedge: \wedge^k V \times \wedge^l V \to \wedge^{k+1} V$$ is defined for $$\alpha \in \wedge^k V$$ and $$\beta \in  \wedge^l V$$ as
+
+: $$\alpha \wedge \beta = \pi(\alpha \otimes \beta)$$
+
+where $$\otimes$$ is the [[Tensor product]] operation, and $$\pi$$ is a projection operator from a [[Tensor power]] to the corresponding [[Exterior power]]. See wave-notebook for definition.
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=35]]
+
+Tensor and wedge products are [[Functorial]] under [[Linear map]]s.
+
+Can also extend wedge product to [[Vector bundle]]s

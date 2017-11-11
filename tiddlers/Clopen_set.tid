@@ -1,0 +1,11 @@
+created: 20170924203718461
+creator: cosmos
+modified: 20170924203852245
+modifier: cosmos
+title: Clopen set
+tmap.id: a6d3a853-dbcc-4cb3-b558-08e2053bee0b
+type: text/vnd.tiddlywiki
+
+A [[Set]] that is both [[open|Open set]] and [[closed|Closed set]]
+
+[[Connectedness is equivalent to the condition that the only sets which are both open and closed are trivial|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=34m25s]] (see [[Connected space]])

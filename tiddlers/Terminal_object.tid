@@ -1,0 +1,12 @@
+created: 20171014203914993
+creator: cosmos
+modified: 20171014204035064
+modifier: cosmos
+tags: [[Category theory]]
+title: Terminal object
+tmap.id: 75d29420-6319-42ae-ac3d-97a09be791bd
+type: text/vnd.tiddlywiki
+
+An object $$i$$ is ''initial'' if for every $$A$$ there is a unique $$\tau_A: A\to i$$. The [[Dual]] notion is [[Initial object]]. In case of sets and functions, an initial set is the empty set, and a terminal set is a one-element set.
+
+''unique isomorphism property'': There is a unique isomorphism between any pair of initial objects; thus initial objects are ‘unique up to (unique) isomorphism’, and we can (and do) speak of the initial object (if any such exists). By duality, any terminal object also satisfies this, because isommorphism is self-dual

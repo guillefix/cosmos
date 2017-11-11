@@ -1,0 +1,12 @@
+created: 20171103133301879
+creator: cosmos
+modified: 20171103133403989
+modifier: cosmos
+tags: [[Oriented link]]
+title: Reverse link
+tmap.id: 03322f16-c861-4a2e-9add-39734c31c3fd
+type: text/vnd.tiddlywiki
+
+The ''reverse'' of an [[Oriented link]] $$L$$, denoted $$rL$$, is the oriented link obtained from $$L$$ by reversing the orientation of all the components.
+
+See [[here|http://homepages.abdn.ac.uk/r.hepworth/pages/files/Knots_Notes.pdf#page=6]] and here|https://www.youtube.com/watch?v=OBKXAl2XU5E#t=29s]]

@@ -1,0 +1,16 @@
+created: 20171003222526266
+creator: cosmos
+modified: 20171003223954250
+modifier: cosmos
+tags: Coset
+title: Left coset
+tmap.id: 1fa0f827-5bbc-4729-8e7e-50b9629ebd05
+type: text/vnd.tiddlywiki
+
+[[Definition|https://www.youtube.com/watch?v=7ou-_sXqatk&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=2#t=29m42s]]
+
+Given $$H$$ subgroup of $$G$$
+
+$$aH = \{ah | h \in H \}$$
+
+(for some element $$a \in G$$, like notation $$[a]$$).

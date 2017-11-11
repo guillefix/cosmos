@@ -1,6 +1,6 @@
 created: 20170306112628528
 creator: cosmos
-modified: 20170306112631698
+modified: 20171031143206202
 modifier: cosmos
 tags: [[Probably approximately correct]]
 title: PAC learning with infinite concept classes
@@ -43,68 +43,28 @@ If your number of examples is less than the vc dimension, then, there's not hope
 
 See more in book.. <mark>what's the meaning of $$\epsilon$$, here?</mark>
 
+--------------
 
+__[[Growth function]]__
 
-__Growth function__
+--------------
 
-$$\Pi_C(m)=\max \{|\Pi(s)| \mid |S|=m\}$$
+!!!__[[Sample complexity]] upper bound__
 
-Clearly if $$m \leq d$$ (d=VC dim of C), then $$\Pi_c(m) = 2^m$$
+See [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture03.pdf]]. These are upper bounds on the minimum sample complexity to generalize. So that if we are above these, we know we are above the minimum and we will generalize.
 
-|For $$m\geq d$$, $$\Pi_C(m) = O(m^d)$$|
+> Theorem (''Occam's razor, VC dim version''): Let $$C$$ be a concept class of VC-dimension $$d$$, and $$H$$ a hypothesis class. Let $$L$$ be a consistent learner for $$C$$ using $$H$$. Then, $$\forall n, \forall c \in C_n, \forall D$$ over $$X_n$$, if $$L$$ is given $$m$$ examples drawn from $$EX(c,D)$$ s.t. $$m \geq \frac{1}{\epsilon} (d\log{1/\epsilon}+ \log{1/\delta})$$ then $$L$$ outputs $$h$$, that w.p $$\geq 1-\delta$$, satisfies $$err(h) \leq \epsilon$$.
 
-//Def//: $$\Phi_d(m) = \Phi_d(m-1)+\Phi_{d-1}(m-1)$$ if $$m \geq 1$$ and $$d \geq 1$$
+...... proof. see pic. Uses [[Epsilon-net]] (see more explanation there). Use trick of doubling your training set, to get finite things which allow to bound probabilities..<mark>but need to understand it better...</mark> See [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture03.pdf]], and [[here|https://www.cs.princeton.edu/courses/archive/spring14/cos511/scribe_notes/0220.pdf]]
 
-$$\Phi_0(m)=1, \forall m$$, $$\Phi_d(0)=1, \forall d$$
+!!!__Sample complexity lower bound__
 
-__Lemma__: $$\Pi_C(m) \leq \Phi_d(m)$$ if VC dim(C) = d.
+See [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture03.pdf#page=6]]
 
-$$\Phi_d(m) = \sum\limits_{i=0}^d \binom{m}{i}$$
-
-$$m=0$$, then $$\forall d, \Phi_d(0)=1$$, $$ \sum\limits_{i=0}^d \binom{0}{i} =1$$
-
-$$d=0$$, then $$\forall m \Phi_0(m)=1$$, $$ \sum\limits_{i=0}^0 \binom{m}{i} =1$$
-
-$$\Phi_d(m) = \Phi_d(m-1)+\Phi_{d-1}(m-1) = \sum\limits_{i=0}^d \binom{m-1}{i} +  \sum\limits_{i=0}^{d-1} \binom{m-1}{i}$$ 
-
-$$ = \binom{m-1}{0}+ \sum\limits_{i=1}^d (\binom{m-1}{i} +  \binom{m-1}{i-1})$$ 
-
-$$ = \binom{m}{0}+ \sum\limits_{i=1}^d (\binom{m}{i} ) = \sum\limits_{i=0}^d \binom{m}{i} $$ 
-
-$$\Phi_d(m) = (\frac{m}{d})^d\sum\limits_{i=0}^d \binom{m}{i} (\frac{d}{m})^d$$
-$$\leq (\frac{m}{d})^d\sum\limits_{i=0}^d \binom{m}{i} (\frac{d}{m})^i$$  $$\leq (\frac{m}{d})^d\sum\limits_{i=0}^m \binom{m}{i} (\frac{d}{m})^i$$  $$=(\frac{m}{d})^d(1+\frac{d}{m})^m \leq (\frac{m}{d})^d e^d = (\frac{me}{d})^d$$
-
-//Proof of// __lemma__: $$\Pi_C(m) \leq \Phi_d(m)$$ if VC dim(C) = d.
-
-$$\Phi_d(m) = \Phi_d(m-1)+\Phi_{d-1}(m-1)$$
-
-
-Let S be some set of size m. 
-
-$$\Pi_c(m)=1$$, if VC-dim(C)=0 (can't satisfy all asignemtns of one point -> must have only one hypothesis).
-
-$$\Pi_c(0)=1$$. For no points.
-
-$$x \in S$$, consider $$S \setminus \{x\}$$
-
-$$|\Pi_C(S \setminus \{x\})| \leq \Pi_c (m-1) \leq \Phi_d(m-1)$$
-
-$$|\Pi_c(s)|-|\Pi_c(S\setminus z)|$$: How many dichotomies over $$S \setminus \{x\}$$ using C that can be extended to S in 2 ways
-
-$$C'=\{c \in \Pi_C(s) \mid c(x)=0 \text{ and } \exists \tilde{c} \in \Pi(S) \text{ s.t. } \tilde{c}(x)=1 \text{ and for all other points z not equal to x, c(z)=tildec(z)}\}$$
-
-C' counts the number of concepts in C restricted to $$S \setminus \{x\}$$, which can be extended to $$S$$ in two possible ways (with x either 0 or 1).
-
-... etc see [[photo|20170130_163623.jpg]]. We need to show that c' has VC-dimension dimension at most d-1 ([[proved here|20170130_163836.jpg]])
-
-Let  T be a set $$T \subset S$$
-
-This shows that  if the VC dimension of a concept class is finite, then the growth on the size of the concept class is polynomial with the dimension of the input space (number of points, m). This restriction is what allows generalization.
-
-> Theorem (Occam's razor, vc dim version): Let $$C$$ be a concept class of VC-dimension $$d$$, and $$H$$ a hypothesis class. Let $$L$$ be a consistent learner for $$C$$ using $$H$$. Then, $$\forall n, \forall c \in C_n, \forall D$$ over $$X_n$$, if $$L$$ is given $$m$$ examples drawn from $$EX(c,D)$$ s.t. $$m \geq \frac{1}{\epsilon} (d+ \log{1/\delta})$$ then $$L$$ outputs $$h$$, that w.p $$\geq 1-\delta$$, satisfies $$err(h) \leq \epsilon$$.
-
-...... proof. see pic. $$\epsilon$$-net. Use trick of doubling your training set, to get finite things which allow to bound probabilities..<mark>but need to understand it better...</mark>
+---------------
 
 |PAC learning power changes when you relax the requirement that the algo should work for any distribution on the input data|
 
 ''Boosting'', relaxing the $$\epsilon$$ condition doesn't increase power..
+
+Can also give better bounds for finite concept classes, I think..

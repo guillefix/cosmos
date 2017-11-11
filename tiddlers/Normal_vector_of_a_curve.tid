@@ -1,0 +1,12 @@
+created: 20170629193741439
+creator: cosmos
+modified: 20170629200223180
+modifier: cosmos
+tags: Curve
+title: Normal vector of a curve
+tmap.id: 3bdaf6bf-6ed7-463b-99e2-765daaebbfed
+type: text/vnd.tiddlywiki
+
+The derivative of the [[Tangent vector]] of a [[Curve]], with respect to [[Arc length]] (distance).
+
+It corresponds to the direction of the [[Acceleration]] in [[Mechanics]]

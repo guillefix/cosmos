@@ -1,7 +1,7 @@
 created: 20160425220915975
 creator: guillefix
-modified: 20161104134326969
-modifier: guillefix
+modified: 20171001205612055
+modifier: cosmos
 tags: 
 title: Artificial chemistry
 tmap.id: d5c56656-fe61-48fc-811d-860b43394bbe
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 [[Artificial chemistry|https://en.wikipedia.org/wiki/Artificial_chemistry]]
 
-[[http://tuvalu.santafe.edu/~walter/AlChemy/alchemy.html]]
+[ext[http://tuvalu.santafe.edu/~walter/AlChemy/alchemy.html]]
 
 [[Arrival of the fittest|http://fontana.med.harvard.edu/www/Documents/WF/Papers/arrival.pdf]] The modern evolutionary synthesis based on [[Population genetics]] has an //existence problem//: it assumes the existence of individuals, genes, alleles, etc. They propose a simple model abstracting from chemistry to explain the [[Self-organization]] of //self-maintaining// and //self-replicating// structures, necessary for the [[origin of life|Abiogenesis]] Darwinian [[Evolution]].
 
@@ -20,3 +20,5 @@ They point out related work in //autopoiesis//, //concurrent computation//, a "c
 [[Review paper|http://web.cs.mun.ca/~banzhaf/papers/alchemistry_review_MIT.pdf]]
 
 [[Artificial Chemistries|https://books.google.co.uk/books?id=xY4jCgAAQBAJ&pg=PA552&lpg=PA552&dq=random+boolean+networks+python&source=bl&ots=LvRNNWeiCE&sig=459mNE5uZxQ3m7G30eCTYUHnzCA&hl=en&sa=X&ved=0ahUKEwjSit3VorDNAhWIKsAKHb-OCN4Q6AEIUTAH]]
+
+http://blog.opencog.org/2016/10/25/cogistry-accelerating-algorithmic-chemistry-via-cognitive-synergy/

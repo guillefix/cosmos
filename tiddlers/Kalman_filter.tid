@@ -1,0 +1,17 @@
+created: 20170822163044734
+creator: cosmos
+modified: 20170822183410450
+modifier: cosmos
+tags: [[Statistical estimation]] [[Computer vision]] [[Filter (signal processing)]]
+title: Kalman filter
+tmap.id: 8a0fcc22-1f16-495d-8d47-797646f9bce6
+type: text/vnd.tiddlywiki
+
+
+http://biorobotics.ri.cmu.edu/papers/sbp_papers/integrated3/kleeman_kalman_basics.pdf
+
+[ext[http://www.cs.unc.edu/~tracker/media/pdf/SIGGRAPH2001_CoursePack_08.pdf]]
+
+https://uk.mathworks.com/videos/series/understanding-kalman-filters.html
+
+http://www.cs.unc.edu/~welch/kalman/

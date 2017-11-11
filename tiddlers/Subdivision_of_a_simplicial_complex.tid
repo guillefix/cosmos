@@ -1,0 +1,10 @@
+created: 20171031104734594
+creator: cosmos
+modified: 20171031105907492
+modifier: cosmos
+tags: [[Simplicial complex]]
+title: Subdivision of a simplicial complex
+tmap.id: 75d019b5-0707-44c7-9bfd-dc77d2b20ed8
+type: text/vnd.tiddlywiki
+
+A subdivision of a simplicial complex K is a simplicial complex K' together with a homeomorphism h: |K' | → |K| such that, for any simplex σ' of K' , h(σ') lies entirely in a simplex of |K| and the restriction of h to σ' is [[affine|Affine extension]] (linear, but restricted to the simplex)

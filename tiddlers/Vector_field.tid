@@ -1,12 +1,22 @@
 created: 20170617225437309
 creator: cosmos
-modified: 20170624115012788
+modified: 20171106000136813
 modifier: cosmos
-tags: 
+tags: Field
 title: Vector field
 tmap.id: 6ec89b2c-5051-49e5-b304-7aa8aea8645e
 type: text/vnd.tiddlywiki
 
-[[Definition|https://www.youtube.com/watch?v=VELPA0I5MGg#t=55s]]
+[[Definition|https://www.youtube.com/watch?v=VELPA0I5MGg#t=55s]]. See also [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=25]]. It is a [[Smooth function]] between a [[Differentiable manifold]] and its [[Tangent bundle]]. 
+-- 
+[[Definition on a general manifold|https://www.youtube.com/watch?v=PwqmE50hJFY#t=40m]] -- requires defining the [[Tangent bundle]]
+
+By looking at them as the [[Differential]] of a [[One-parameter group of diffeomorphisms]] one can see vector fields as representing an infinitesimal flow. A [[Curve]] in the manifold whose [[Tangent vector]] at every point is the vector of the vector field at that point is called an [[Integral curve]].
+
+[[Vector fields as derivations|https://courses.maths.ox.ac.uk/node/view_material/33094#page=26]]. Vector fields can be seen as exactly those [[Linear map]]s which satisfy the [[Leibnitz rule]].
+
+!!![[Lie bracket]]
+
+--------
 
 [[Unitary normal vector field]]

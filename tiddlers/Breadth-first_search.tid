@@ -1,0 +1,12 @@
+created: 20171011221220675
+creator: cosmos
+modified: 20171011221304931
+modifier: cosmos
+tags: [[Graph algorithms]]
+title: Breadth-first search
+tmap.id: ecc29e80-a1ba-49d8-9e9a-a8245c8ce4e1
+type: text/vnd.tiddlywiki
+
+[[Explanation|https://www.youtube.com/watch?v=ufj5_bppBsA&list=PL6ED884C7AEE68027&index=7#t=53m10s]]
+
+Uses a [[Queue (data structure)]]

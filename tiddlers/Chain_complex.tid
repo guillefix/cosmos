@@ -1,0 +1,23 @@
+created: 20171027211106838
+creator: cosmos
+modified: 20171029103801616
+modifier: cosmos
+tags: [[Simplicial homology]]
+title: Chain complex
+tmap.id: ef7f8fec-8aab-45cf-8d72-41157945b87f
+type: text/vnd.tiddlywiki
+
+[[Video|https://www.youtube.com/watch?v=GZAxfxWu1LQ&list=PL7BFF10190F42006E&index=6]] --[ext[book|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=115]]
+
+A ''chain complex'' is a sequence of [[Abelian group]]s with maps
+
+ $$...\leftarrow C_{i-2} \leftarrow_{\partial_{i-1}} C_{i-1} \leftarrow_{\partial_i} C_i \leftarrow_{\partial_{i+1}} C_{i+1} \leftarrow ...$$
+
+s.t. $$\partial_{i-1}\partial_i = 0 $$ $$\forall i$$. "the boundary of a boundary is $$0$$". In the case of [[Simplicial homology]], the maps are the [[Boundary map]]s between [[Chain group]]s.
+
+The group of n-cycles is $$Z_n:= Ker(\partial_n)$$ (the [[kernel|Kernel of a group homomorphism]])
+
+The group of n-boundaries is $$B_n:= Im(\partial_{n+1})$$ (the [[image|Image of a group homomorphism]])
+
+For e.g. in case $$C_2 \to_{\partial_2} C_1 \to_{\partial_1} C_0$$ (eg in Hatcher), The homology group is then defined as above: the kernel of $$\partial_1$$ modulo the image of $$\partial_2$$ , or in other
+words, the 1 dimensional cycles modulo those that are boundaries (remember "modulo" for groups means that that two elements are equivalent if we can add/substract elements in the group of boundaries to get from one to the other).

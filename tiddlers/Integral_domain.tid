@@ -1,0 +1,17 @@
+created: 20171021224913759
+creator: cosmos
+modified: 20171021225635580
+modifier: cosmos
+tags: [[Commutative ring]]
+title: Integral domain
+tmap.id: f4d3b0e0-35ff-49f3-a80e-6aff91383d84
+type: text/vnd.tiddlywiki
+
+
+[[Def|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=49m40s]]. A [[unital|Unital ring]] [[Commutative ring]] without [[Zero divisor]]s is called an ''integral domain''
+
+[[Remark|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=51m15s]] ([[Cancelation property]]). In an integral domain, we can cancel factors in products, like in [[Group]]s.
+
+$$\mathbb{Z}_6$$ (integers [[modulo|Modular arithmetic]] $$6$$) is not an integral domain.
+
+If $$p$$ is a [[Prime number]], $$\mathbb{Z}_p$$ is an integral domain.

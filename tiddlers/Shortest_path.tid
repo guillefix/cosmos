@@ -1,0 +1,12 @@
+created: 20171015225250122
+creator: cosmos
+modified: 20171015225327198
+modifier: cosmos
+tags: [[Graph algorithms]]
+title: Shortest path
+tmap.id: 7182abd4-1443-4773-9f38-cf2f33a7196d
+type: text/vnd.tiddlywiki
+
+[[Shortest path algorithms|https://www.youtube.com/watch?v=DiedsPsMKXc&list=PL6ED884C7AEE68027&index=#t=1h9m]]
+
+[[Dijkstra's algorithm]] (for all positive edges)

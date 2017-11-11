@@ -1,0 +1,12 @@
+created: 20170717132545007
+creator: cosmos
+modified: 20170717132824314
+modifier: cosmos
+tags: [[Decision-time planning]]
+title: Heuristic search
+tmap.id: fa1f319c-9c5b-43f0-96f5-73e1c74f72a1
+type: text/vnd.tiddlywiki
+
+Classical decision-time algorithm in [[Artificial intelligence]]. For each state encountered, a large tree of possible continuations is considered. The approximate value function is applied to the leaf nodes and then [[backed up|Value function backup]] toward the current state at the root.
+
+See sec 8.9 in [[Sutton-Barto]]

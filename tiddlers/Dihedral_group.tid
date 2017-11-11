@@ -1,0 +1,16 @@
+created: 20171008201830436
+creator: cosmos
+modified: 20171008202937204
+modifier: cosmos
+tags: 
+title: Dihedral group
+tmap.id: a1b7351e-f657-44e3-9bb0-4400a5cca4b6
+type: text/vnd.tiddlywiki
+
+[[motivation|https://www.youtube.com/watch?v=ihncybAAPUw&index=4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=37m25s]]
+
+It is the group of reflections and rotations of a regular n-gon which are symmetries.
+
+Can be viewed as a subgroup of the symmetric group of n letters.
+
+[[defining the dihedral group|https://www.youtube.com/watch?v=ihncybAAPUw&index=4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=50m30s]]

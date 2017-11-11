@@ -1,0 +1,14 @@
+created: 20171105163621358
+creator: cosmos
+modified: 20171105165249290
+modifier: cosmos
+tags: [[Knot theory]]
+title: Prime knot
+tmap.id: f42a8833-303a-4bb8-8c1f-6a509f0d19b4
+type: text/vnd.tiddlywiki
+
+[[A knot is prime|https://www.youtube.com/watch?v=NyAv70ULzMY&feature=youtu.be#t=7m]] if it is not [[equivalent|Knot equivalence]] to the unknot and is not equivalent to the [[Knot sum]] of two nontrivial knots.
+
+The knot table is a list of all prime knots, with mirrors and reverses omitted. The list is arranged according to crossing number : the smallest number of crossings appearing in a diagram of the knot. Knots are given names such as 3 1 (the trefoil), 4 1 (the figure-eight) or 10 93 . In the latter case 10 is the crossing number of the knot, while 93 is the position of that knot in a certain conventional ordering. The knot table up to seven crossings is shown in Figure 1. The [[Knot atlas|http://katlas.math.toronto.edu/wiki/The_Rolfsen_Knot_Table]] gives the knot table up to and including 10 crossings
+
+[img[knot_table_up to seven crossings.png]]Figure 1

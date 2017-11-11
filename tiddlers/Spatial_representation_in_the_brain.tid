@@ -1,6 +1,6 @@
 created: 20170209224352455
 creator: cosmos
-modified: 20170301163443389
+modified: 20170918114848361
 modifier: cosmos
 tags: [[Cognitive neuroscience]]
 title: Spatial representation in the brain
@@ -12,6 +12,8 @@ type: text/vnd.tiddlywiki
 
 More than three decades of research have demonstrated a role for hippocampal place cells in representation of the spatial environment in the brain. New studies have shown that place cells are part of a broader circuit for dynamic representation of self-location. A key component of this network is the entorhinal grid cells, which, by virtue of their tessellating firing fields, may provide the elements of a path integration–based neural map. Here we review how place cells and grid cells may form the basis for quantitative spatiotemporal representation of places, routes, and associated experiences during behavior and in memory. Because these cell types have some of the most conspicuous behavioral correlates among neurons in nonsensory cortical systems, and because their spatial firing structure reflects computations internally in the system, studies of entorhinal-hippocampal representations may offer considerable insight into general principles of cortical network dynamics.
 
+[[Design Principles of the Hippocampal Cognitive Map|https://papers.nips.cc/paper/5340-design-principles-of-the-hippocampal-cognitive-map]]
+
 [[Place cell]]s, and [[Grid cell]]s
 
 [[Edvard and May-Britt Moser: A journey into entorhinal cortex|https://www.youtube.com/watch?v=CguLe5pEpUY]]
@@ -22,10 +24,10 @@ https://www.youtube.com/watch?v=pATzOJLptGo
 
 https://www.youtube.com/watch?v=BdCrZzoA8S4
 
-http://annualreviews.org/doi/full/10.1146/annurev.neuro.31.061307.090723#_i2
-
 [[Neural Mechanisms of Spatial Cognition and Imagination|https://www.youtube.com/watch?v=r2YP84SLwIQ]]
 
-[[Spatial firing of hippocampal place cells in blind rats|https://www.ncbi.nlm.nih.gov/pubmed/9465006]]. We studied place cell activity in early blind rats and found that these rats had place cells very similar to those recorded from sighted rats. This result suggests that early vision is not necessary for normal firing of hippocampal place cells. Dynamic, motion-related information in conjunction with stimulus recognition seems to be sufficient.
+[[Spatial firing of hippocampal place cells in blind rats|https://www.ncbi.nlm.nih.gov/pubmed/9465006]]
+
+http://www.sciencedirect.com/science/article/pii/S1364661310002111
 
 [[neural spatial info and immersiveness|https://www.youtube.com/watch?v=uJe6LjrgBcM&t=44m50s]] (theta rhythms), implications to [[Virtual reality]]

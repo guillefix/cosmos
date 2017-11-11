@@ -1,0 +1,15 @@
+created: 20170924164252259
+creator: cosmos
+modified: 20170924164707182
+modifier: cosmos
+tags: Function
+title: Quotient map
+tmap.id: bca32fe7-a15c-4495-b52b-044e38dc301f
+type: text/vnd.tiddlywiki
+
+
+[[definition|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=23m5s]]. A [[continuous|Continuous function]], [[Surjective]] function $$f:X\rightarrow Y$$ and the following holds:
+
+:$$V \subset Y$$ is open in $$Y$$ if and only if $$f^{-1}(Y)$$ is open in $$X$$
+
+given a topology in $$X$$, $$Y$$ has the finest topology such that $$f$$ is continuous. This is called the ''quotient topology'' on $$Y$$

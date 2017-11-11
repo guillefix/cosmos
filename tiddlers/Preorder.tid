@@ -1,0 +1,14 @@
+created: 20171015132625043
+creator: cosmos
+modified: 20171015132722434
+modifier: cosmos
+tags: Relation
+title: Preorder
+tmap.id: eae27d55-4b00-4038-a104-837e7e47a92d
+type: text/vnd.tiddlywiki
+
+A [[Relation]] which satisfies [[Reflexivity]] and [[Transitivity]]
+
+https://en.wikipedia.org/wiki/Preorder
+
+They are [[categories|Category]]

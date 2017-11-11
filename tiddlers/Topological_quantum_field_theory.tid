@@ -1,10 +1,28 @@
 created: 20160623130821215
 creator: guillefix
-modified: 20161104134332892
-modifier: guillefix
-tags: [[Quantum field theory]]
+modified: 20171013104237997
+modifier: cosmos
+tags: [[Quantum field theory]] [[Quantum condensed matter physics]]
 title: Topological quantum field theory
 tmap.id: 1f1954b8-b860-454c-b52e-1035ff277eeb
 type: text/vnd.tiddlywiki
 
-[[http://www.math.ru.nl/~mueger/TQFT/At.pdf]]
+[[Quantum field theory]] whose amplitudes are determined by [[Topological property]]es and [[Knot invariant]]s (often exclusively!)
+
+E.g. knot invariant of the knots created space-time trajectories of particles/quasiparticles.
+
+[[Kauffman invariant]] where $$A$$ is a phase
+
+[ext[http://www.math.ru.nl/~mueger/TQFT/At.pdf]]
+
+Many theories focus on 2+1 dimensions (2 space and 1 time)
+
+!!__Topological matter__
+
+[[Fractional quantum hall effect]] 
+
+[[Superconductor film]]s
+
+[[Superfluid film]]s
+
+Engineered super/spin-orbit systems. Majorana..

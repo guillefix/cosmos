@@ -1,0 +1,13 @@
+created: 20171024151811555
+creator: cosmos
+modified: 20171024201110536
+modifier: cosmos
+title: Suspension of a space
+tmap.id: f6daafca-f760-4f1f-af48-e300f03590e2
+type: text/vnd.tiddlywiki
+
+For a space X , the suspension SX is the quotient of X × I obtained by collapsing X × {0} to one point and X × {1} to another point.
+
+[[Reduced suspension of a space]]. Let X be a CW complex and x 0 ∈ X a 0 cell.
+Inside the suspension SX we have the line segment {x 0 }× I , and collapsing this to a
+point yields a space ΣX homotopy equivalent to SX , called the reduced suspension of X.

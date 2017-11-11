@@ -1,0 +1,15 @@
+created: 20170629193544725
+creator: cosmos
+modified: 20170629194346701
+modifier: cosmos
+tags: Curve Surface
+title: Curve on a surface
+tmap.id: cf34dfee-bdc2-48d6-b624-875629a700ff
+type: text/vnd.tiddlywiki
+
+A [[Curve]] contained in a [[Surface]]
+
+!!__[[Curvature of a curve]] on a surface__
+
+* [[Normal curvature]]
+* [[Geodesic curvature]]

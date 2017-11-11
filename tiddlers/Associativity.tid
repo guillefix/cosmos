@@ -1,0 +1,10 @@
+created: 20171012173745295
+creator: cosmos
+modified: 20171012174001319
+modifier: cosmos
+tags: [[Operation (Mathematics)]]
+title: Associativity
+tmap.id: c1db8be8-32e0-404e-8ae6-cabe408541c6
+type: text/vnd.tiddlywiki
+
+An [[operation|Operation (Mathematics)]] * has the property ''associativity'' if $$(x*y)*z = x*(y*z)$$

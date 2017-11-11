@@ -1,0 +1,9 @@
+created: 20171031144341773
+creator: cosmos
+modified: 20171031144425745
+modifier: cosmos
+title: Consistent learner
+tmap.id: be25c001-1e64-4eae-9c79-1f6abc090748
+type: text/vnd.tiddlywiki
+
+A [[Learning algorithm]] which agrees withe the training data. That is it assigns the right label for all the training data (assuming the functions are deterministic)

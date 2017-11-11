@@ -1,0 +1,12 @@
+created: 20171002175441945
+creator: cosmos
+modified: 20171002175629659
+modifier: cosmos
+tags: [[Probabilistic computation]]
+title: Probabilistic model checking
+tmap.id: 8b0ffe99-2869-461a-9eca-f0d25333d81a
+type: text/vnd.tiddlywiki
+
+Probabilistic model checking is a formal technique for analysing systems that exhibit probabilistic behaviour. Examples include randomised algorithms, communication and security protocols, computer networks, biological signalling pathways, and many others.
+
+PRISM

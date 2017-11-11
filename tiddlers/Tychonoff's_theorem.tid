@@ -1,0 +1,19 @@
+created: 20170930214506801
+creator: cosmos
+modified: 20170930214718776
+modifier: cosmos
+tags: [[Compact space]]
+title: Tychonoff's theorem
+tmap.id: 4c8d84c3-16fe-47b0-a35c-e5ea90fb352d
+type: text/vnd.tiddlywiki
+
+
+__Finite case (easier)__: 
+[[Theorem|https://www.youtube.com/watch?v=4lrmr61S03I&index=11&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=12m48s]]. A [[product|Cartesian product]] of finitely many compact spaces is compact. Uses the [[Tube lemma]]
+
+__[[General case|https://www.youtube.com/watch?v=4lrmr61S03I&index=11&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=37m30s]]__:
+The product of <b>any</b> collection of compact spaces is compact with respect to the [[Product topology]]. <small>In general not in the [[Box topology]]</small>
+
+---------------
+
+https://en.wikipedia.org/wiki/Tychonoff%27s_theorem

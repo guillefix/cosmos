@@ -1,0 +1,13 @@
+created: 20170821233005636
+creator: cosmos
+modified: 20170821233214304
+modifier: cosmos
+tags: Topology
+title: Limit point
+tmap.id: ed8126ab-11d0-4bdc-b6bc-a8522bf1c732
+type: text/vnd.tiddlywiki
+
+
+[[definition|https://www.youtube.com/watch?v=28BluiBRdUk&index=3&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h7m]]. x is a limit point of A if for every neighbourhood of x intersects A in a point different from x
+
+Can be used to consruct the [[Closure of a set]]

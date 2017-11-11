@@ -1,0 +1,11 @@
+created: 20171013172320414
+creator: cosmos
+modified: 20171013172437644
+modifier: cosmos
+title: Alternating group
+tmap.id: 3b94b4de-be8a-4596-b74b-860eb9cd60ab
+type: text/vnd.tiddlywiki
+
+$$A_n$$. The set of even [[Permutation]]s of $$n$$ letters. 
+
+It is a [[Normal subgroup]] of the [[Symmetric group]] $$S_n$$, as its the kernel of a group homomorphism.

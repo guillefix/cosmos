@@ -1,7 +1,7 @@
 created: 20160507133614554
 creator: guillefix
-modified: 20161104134328500
-modifier: guillefix
+modified: 20170802145849571
+modifier: cosmos
 title: Fractal
 tmap.id: c5707a38-6088-4c66-948f-6b6d7a908307
 type: text/vnd.tiddlywiki
@@ -13,6 +13,8 @@ See [[Complex systems]]. Related to [[Discrete dynamical system]], and [[Symboli
 [[Lecture Notes on Fractals, Iterated Function Systems, and Related Topics (updated, 5/02/16)|http://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3217/5/0Intro_and_1Fractals-map-mode-updated_copy.pdf]]
 
 [[Hausdorff dimension|http://mathworld.wolfram.com/CapacityDimension.html]]
+
+[[Fractals are typically not self-similar|https://www.youtube.com/watch?v=gB9n2gHsHN4]]
 
 !!__Iterated function system__
 

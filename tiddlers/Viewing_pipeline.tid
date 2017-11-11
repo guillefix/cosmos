@@ -1,0 +1,59 @@
+created: 20170702201339568
+creator: cosmos
+modified: 20170702213518810
+modifier: cosmos
+tags: [[Computer graphics]]
+title: Viewing pipeline
+tmap.id: f49b0229-7a57-40cb-8348-74b018b27565
+type: text/vnd.tiddlywiki
+
+Needs a [[camera|Camera (computer graphics)]]/perspective and a [[scene|Scene (computer graphics)]]
+
+aka geometry pipeline
+
+[img[http://140.129.20.249/~jmchen/cg/docs/rendering%20pipeline/rendering/pipeline.gif]]
+
+!!__[[Camera transform]]__
+
+First place camera in origin and rightly oriented.
+
+Then, convert things in the viewing volume of the camera 
+ to [[Image space]]. This is known as the [[Viewing transform]]
+
+!!!Then [[project points in image space|https://www.youtube.com/watch?v=og7hOFypKpQ&index=6&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=13m]] perpendicularly to the $$x-y$$ plane, called the [[Screen space]]
+
+This is implemented in the [[Vertex shader]]. 
+
+
+!!__[[Clipping]]__
+
+Not show things which are not in the camera's view (and also things which are too far or too close
+
+[[video|https://www.youtube.com/watch?v=og7hOFypKpQ&index=6&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=20m43s]]
+
+!!__Depth__
+
+How to not show things which are occluded by other things, and deal with depth..
+
+
+!!!__[[Depth buffer]]__
+
+[[video|https://www.youtube.com/watch?v=Xks1v4GNUiY&index=7&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=16m55s]]
+
+!!!__[[Ray tracing]]__
+
+[[other algorithms|https://www.youtube.com/watch?v=Xks1v4GNUiY&index=7&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=41m10s]]
+
+----------------------
+
+!!__[[Colour]]/[[Shading]]__
+
+[[video|https://www.youtube.com/watch?v=TEjDYtkLRdQ&index=8&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=9m30s]]
+
+!!!__[[Light source]]__
+
+[[video|https://www.youtube.com/watch?v=TEjDYtkLRdQ&index=8&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=21m10s]], also about [[Light scattering]] off of different [[Material surface]]s, etc.
+
+[[Lambert's law]]. 
+
+!!!__[[Shading]]__

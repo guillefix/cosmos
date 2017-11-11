@@ -1,0 +1,21 @@
+created: 20171029225338415
+creator: cosmos
+modified: 20171029231008725
+modifier: cosmos
+title: Colexicographic order
+tmap.id: 1012985d-e155-4363-a07d-c9d60afb105d
+type: text/vnd.tiddlywiki
+
+For sets $$A,B \in [n]^{(r)}$$, the $$r$$th layer of the [[Power set]], we define the [[Ordering]]
+
+: $$A < B$$ if $$A\neq B$$ and $$\max{(A\: \triangle \: B)} \in B$$,
+
+analogously to the [[Lexicographic order|Dictionary ordering]].
+
+This is equivalent to $$A < B$$ if
+
+: $$\sum\limits_{i \in A} 2^i < \sum\limits_{i \in B} 2^i$$
+
+Thus it can be thought as a 'binary' order.
+
+It can be seen as the oppositie of {lexicographic order with the opposite ordering of the letter/numbers}

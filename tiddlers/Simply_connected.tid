@@ -1,0 +1,14 @@
+created: 20171011224401082
+creator: cosmos
+modified: 20171011224936590
+modifier: cosmos
+tags: Connectedness [[Fundamental group]]
+title: Simply connected
+tmap.id: b05255ff-5cd6-489a-b4da-60be5be0554a
+type: text/vnd.tiddlywiki
+
+[[Defintion|https://www.youtube.com/watch?v=Lcu93_AfTQw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=16#t=59m55s]]. $$X$$ is ''simply connected'' if $$X$$ is [[Path connected]] and the [[Fundamental group]] $$\pi_1(X,x_0)$$ is [[trivial|Trivial group]].
+
+(does not depend on $$x_0$$ as it's path connected)
+
+If X is simply connected then any two paths with the same initial point and the same final point are [[path -homotopic|Path homotopy]] (they basically form a loop)

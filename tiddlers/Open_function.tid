@@ -1,0 +1,10 @@
+created: 20170927195607303
+creator: cosmos
+modified: 20170927195723749
+modifier: cosmos
+tags: 
+title: Open function
+tmap.id: 2a43e7bd-2ce7-477f-ac0b-6e9c82a2a525
+type: text/vnd.tiddlywiki
+
+A [[Function]] $$f: X \rightarrow Y$$ between two [[Topological space]]s is said to be an ''open map'' (or open function) if for ever [[Open set]] $$U$$ of $$X$$ $$f(U)$$ is open in $$Y$$.

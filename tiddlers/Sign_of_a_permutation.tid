@@ -1,0 +1,14 @@
+created: 20171012210936732
+creator: cosmos
+modified: 20171013172441440
+modifier: cosmos
+tags: Permutation
+title: Sign of a permutation
+tmap.id: ff0f38f7-34eb-4fed-befd-94eaa26e4b8e
+type: text/vnd.tiddlywiki
+
+[[video|https://www.youtube.com/watch?v=Vt-H7tVBqAY&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=6#t=32m40s]]
+
+''Even permutation'' if its sign is 1, and ''odd'' if its sign is -1.
+
+The set of even permutations is called the [[Alternating group]]

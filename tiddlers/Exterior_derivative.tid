@@ -1,0 +1,28 @@
+created: 20171106162844717
+creator: cosmos
+modified: 20171106164157480
+modifier: cosmos
+tags: [[Exterior calculus]]
+title: Exterior derivative
+tmap.id: 042d2d03-0738-427f-88b7-f5eb56b938b8
+type: text/vnd.tiddlywiki
+
+//aka de Rham differential//
+
+On any [[manifold|Differentiable manifold]] $$X$$, there is a natural linear map $$d: \Omega^k(X) \to \Omega^{k+1}(X)$$ (where $$\Omega^k(X)$$ is the space of [[k-forms|Exterior form]] on manifold $$X$$) called the ''exterior derivative'' or the de Rham differential satisfying
+
+# If $$f \in \Omega^0(X) = C^\infty(X)$$ then $$df \in \Omega^1 (X) = \Gamma^\infty(T^*X)$$ is the usual [[Derivative]] of $$f$$
+
+# $$d^2=0: \Omega^k(X) \to \Omega^{k+1}(X)$$
+
+# d(\alpha \wedge \beta) = (d\alpha)\wedge \beta+(-1)^k \alpha \wedge(d \beta) if $$\alpha \in \Omega^k(X)$$, $$\beta\in \Omega^l(X)$$.
+
+These properties characterize $$d$$ uniquely.
+
+<mark>Geometrical intuition behind this?</mark>
+
+In coordinates:
+
+: $$d\alpha_U = \sum\limits_{j=1,...,n \: ; \: i_1...i_k: 1\leq i_1<...<i_k \leq n} \frac{\partial\alpha_{i_1...i_k}}{\partial x_j}dx_j \wedge dx_{i_1} \wedge...\wedge dx_{i_k}$$
+
+where $$\alpha_{i_1...i_k}$$ are the components of the [[Exterior form]] $$\alpha$$. Note that the new exterior form has indices which may not be ordered in increasing order. So it would be easier if $$\alpha$$ was in that form too...

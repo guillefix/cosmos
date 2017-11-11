@@ -1,0 +1,18 @@
+created: 20171015105622533
+creator: cosmos
+modified: 20171015111343762
+modifier: cosmos
+tags: Category
+title: Coproduct
+tmap.id: 83f5e430-2fef-4f4f-a43f-44eef96711ef
+type: text/vnd.tiddlywiki
+
+The [[Dual]] to the [[product|Categorical product]] in [[Category theory]]. We also define them as triples of objects and two arrows. But the arrows are reversed and they become //injection//s (instead of projections). Defined below:
+
+[img[categorical_coproduct.png]]
+
+It defines the [[Copairing of morphisms]]
+
+In the category of [[Set]]s, this is given by the [[Disjoint union]]
+
+See more [[here|https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/LNPnotes.pdf]]

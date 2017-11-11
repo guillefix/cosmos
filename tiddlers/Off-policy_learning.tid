@@ -1,0 +1,32 @@
+created: 20170715181453318
+creator: cosmos
+modified: 20170715183644613
+modifier: cosmos
+tags: [[Model-free reinforcement learning]]
+title: Off-policy learning
+tmap.id: 81505780-0f99-4a48-8484-c81b77587d87
+type: text/vnd.tiddlywiki
+
+When we sample with a policy which can be different to the one which are trying to [[optimize|Optimal control]] / [[evaluate|Policy evaluation]], called the ''target policy''. If the target policy is the same as the sampling policy, it becomes [[On-policy learning]], so off-policy methods are more general.
+
+Useful for the [[Exploration-exploitation trade-off]]
+
+[[intro video|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=1h19m55s]]
+
+[[Can use|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=1h25m33s]] [[Importance sampling]], with weights which are the ratio of probability of trajectories for sampling and target policy
+
+[[The idea that works best|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=1h28m45s]] is [[Q-learning]]. [[Most well-known Q-learning type|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=1h31m45s]], where we allow both behaviour and target policies to improve
+
+[[Per-reward importance sampling]] (sec 5.9 in Sutton-Barto), Off-policy Returns. 
+
+[[Expected Sarsa]]
+
+[[Maximization bias]] and [[Double learning]]
+
+[[Afterstate]]s
+
+!!!__[[Tree Backup Algorithm]]__
+
+!!!__[[Q(sigma) algorithm]]__
+
+!__[[Value function approximation]]__

@@ -1,6 +1,6 @@
 created: 20160131000110996
 creator: guillefix
-modified: 20170522193833174
+modified: 20171029223909205
 modifier: cosmos
 tags: [[Discrete mathematics]]
 title: Combinatorics
@@ -16,6 +16,9 @@ type: text/vnd.tiddlywiki
 * [[Multiple counting|https://www.youtube.com/watch?v=MLGTi0ewfBE&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=10#t=17m25s]]
 * [[When are things the same|https://www.youtube.com/watch?v=MLGTi0ewfBE&list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG&index=10#t=22m5s]]
 * [[Pidgeon hole principle]]
+* Counting the same thing in multiple ways and then making them equal, can help count related things. Like in proof of [[Sperner's lemma]], or local [[LYM inequality]]
+
+[[Lecture notes|https://courses.maths.ox.ac.uk/node/view_material/33445]]
 
 See  [[Analytic combinatorics]]
 
@@ -34,6 +37,12 @@ Some approaches:
 
 [[Derangement]]
 
+!!!__Combinatorics of [[Power set]]__
+
+[[Chain set]], [[Antichain]], [[Shadow set]]
+
+------------------
+
 [[Combinatorial structure]]
 
 Many relations to [[Probability theory]]
@@ -43,3 +52,5 @@ Many relations to [[Probability theory]]
 [[Random High-Dimensional Combinatorial Objects|https://www.youtube.com/watch?v=JqU4yvZ0NvI]]
 
 Combinatorics has applications and relations to [[Kolmogorov complexity]], [[here|https://www.youtube.com/watch?v=N69Hq-UHoxo]] for instance is a proof of the infinitude of prime numbers using KC
+
+"Combinatorics", Bollobas. "Extremal combinatorics", Jukna

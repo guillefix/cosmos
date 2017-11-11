@@ -1,0 +1,11 @@
+created: 20171031102729981
+creator: cosmos
+modified: 20171031105756073
+modifier: cosmos
+title: Affine extension
+tmap.id: 29261179-915c-4527-875d-9209ff8b59e6
+type: text/vnd.tiddlywiki
+
+An ''affine extension'' of a map between the vertices of a [[Simplicial complex]] and $$\mathbb{R}^m$$ is the restriction of {the unique linear extension of the map to {a map between {the [[Vector space]]s spanned by the vertices ($$\mathbb{R}^n$$ for $$n$$ vertices)} and $$\mathbb{R}^m$$}} to the simplex. A map that is the affine extension of some such map is called ''affine''.
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33583#page=8]]

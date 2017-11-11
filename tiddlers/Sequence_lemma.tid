@@ -1,0 +1,23 @@
+created: 20170918171110975
+creator: cosmos
+modified: 20170918172026820
+modifier: cosmos
+tags: Convergence [[Closure of a set]]
+title: Sequence lemma
+tmap.id: ade7edfc-fb33-47ab-9ee2-879febe79802
+type: text/vnd.tiddlywiki
+
+
+[[Video|https://www.youtube.com/watch?v=LRTu9LMFpnQ&index=7&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=11m15s]]
+
+Conditions for relating points in the [[Closure of a set]] and existence of [[convergent|Convergence]] sequences.
+
+For a point in the closure to be guaranteed to have a convergence sequence, it is enough to be either:
+
+* [[Metrizable]]
+
+* [[First countable]]
+
+[[It is easy to see that if there is a convergent sequence then the point is in the closure|https://www.youtube.com/watch?v=LRTu9LMFpnQ&index=7&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=14m]]
+
+[[The other way, for the case of metrizable is also easy to prove|https://www.youtube.com/watch?v=LRTu9LMFpnQ&index=7&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=16m52s]]

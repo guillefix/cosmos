@@ -1,0 +1,30 @@
+created: 20170824131204000
+creator: cosmos
+modified: 20170824131306937
+modifier: cosmos
+tags: [[Spatial navigation]]
+title: Spatial mapping
+tmap.id: a43a6a1b-09b8-4da0-9495-46189db39158
+type: text/vnd.tiddlywiki
+
+
+__In [[Robotics]]__
+
+http://www.pronobis.pro/publications/pronobis2017icaps-planrob.pdf
+
+https://arxiv.org/pdf/1706.03416.pdf
+
+Uses [[Sum-product network]]s
+
+[ext[http://www.cs.utexas.edu/~ai-lab/pubs/Kuipers+Byun-jras-91.pdf]]
+
+[[Topological map]]s
+
+__In animals__
+
+[[Spatial representation in the brain]]
+
+__In other living beings__
+
+Taxis...
+

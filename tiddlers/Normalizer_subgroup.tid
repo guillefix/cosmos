@@ -1,0 +1,15 @@
+created: 20171016213451708
+creator: cosmos
+modified: 20171016215841499
+modifier: cosmos
+tags: [[Conjugation action]]
+title: Normalizer subgroup
+tmap.id: edda7499-1fb7-4746-bc04-7d6b428ea1b1
+type: text/vnd.tiddlywiki
+
+
+The [[Stabilizer subgroup]] of a set $$H$$ under the [[Conjugation action]] ([[vid|https://www.youtube.com/watch?v=NcKq1IdTotA&index=7&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=15m]])
+
+Normalizer of $$H$$ ($$N(H)$$) is equal to $$G$$ iff $$H$$ is a [[Normal subgroup]].
+
+$$|H|$$ divides $$|N(H)|$$ ($$|N(H)|$$ divides $$|G|$$). both because they are subgroups ([[Lagrange's theorem]]). Let $$c$$ be the number by which $$|H|$$ divides $$|N(H)|$$, i.e. the number of different conjugate subgroups to $$H$$ (that is subgroups we get by applying [[Conjugation action]] to $$H$$). This is the number of elements in the [[orbit|Group orbit]] of $$H$$ under this action. Then by the [[Orbit-stabilizer theorem]], $$|G| = |N(H)|c$$. ?? [[See here why|https://math.stackexchange.com/questions/268181/how-to-show-the-normaliser-is-a-subgroup-and-that-number-of-subgroups-conjugate]]. But don't see why it is related to orbit-stabilizer... He may have made a mistake..

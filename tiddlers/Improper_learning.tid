@@ -1,0 +1,25 @@
+created: 20171031150224508
+creator: cosmos
+modified: 20171101154124878
+modifier: cosmos
+tags: [[Computational learning theory]]
+title: Improper learning
+tmap.id: 475a36a7-ac0f-4788-9354-f5aeb60da02b
+type: text/vnd.tiddlywiki
+
+//a.k.a. representation independent learning//
+
+''Improper learning'' refers to a learning algorithm which outputs hypotheses from a class different from the concept class (which in PAC learning, one assumes contains the true concept, or in agnostic learning, one is trying to do as well as)
+
+See [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture01.pdf#page=11]]
+
+[[From average case complexity to improper learning complexity|https://arxiv.org/abs/1311.2272]]
+
+https://stats.stackexchange.com/questions/152181/what-does-improper-learning-mean-in-the-context-of-statistical-learning-theory-a
+
+ One may wonder, whether this is always the case, i.e., can we always identify a larger
+hypothesis class from which we can identify a consistent learner?
+In [[this lecture|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture05.pdf]], we’ll answer this question in the negative, provided a certain widely believed
+assumption in cryptography holds. We will show that there are concept classes that cannot
+be efficiently PAC-learnt, even in the case improper learning where the output hypothesis is
+allowed to come from any polynomially evaluatable hypothesis class.

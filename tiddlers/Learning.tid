@@ -1,8 +1,8 @@
 created: 20160825115741224
 creator: cosmos
-modified: 20161210003757463
+modified: 20170926234853755
 modifier: cosmos
-tags: Intelligence
+tags: Intelligence Psychology
 title: Learning
 tmap.id: fa646be2-082f-4d7f-8456-4090746db050
 type: application/x-tiddler
@@ -14,3 +14,19 @@ See [[Machine learning]], [[Human learning]].
 See article on how Elon Musk learns, etc.
 
 http://scholarpedia.org/article/Adaptive_resonance_theory
+
+[[How experts differ from novices|https://www.nap.edu/read/9853/chapter/5]] --  the idea of pro- moting fluent access to knowledge (principle 4) must be approached with an eye toward helping students develop an understanding of the subject matter (principle 2), learn when, where and why to use information (prin- ciple 3), and learn to recognize meaningful patterns of information (prin- ciple 1). Furthermore, all these need to be approached from the perspective of helping students develop adaptive expertise (principle 6), which includes helping them become metacognitive about their learning so that they can assess their own progress and continually identify and pursue new learning goals. Metacognition can help students develop personally rel- evant pedagogical content knowledge, analogous to the pedagogical con- tent knowledge available to effective teachers (principle 5). In short, stu- dents need to develop the ability to teach themselves. ([[learning to learn|Meta-learning]])
+
+------------------------
+
+!!__Learning in [[Psychology]]__
+
+[[Classical conditioning]]
+
+[[Operant conditioning]]
+
+Blocking, higher-order conditioning, conditional reinforcement
+
+[[Rescorla-Wagner model]]
+
+[[TD model]]

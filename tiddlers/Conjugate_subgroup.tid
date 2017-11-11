@@ -1,0 +1,11 @@
+created: 20171016203836387
+creator: cosmos
+modified: 20171016213354422
+modifier: cosmos
+tags: [[Conjugation action]]
+title: Conjugate subgroup
+tmap.id: bdd77f5d-559e-4f0c-90a6-89db391e9cb4
+type: text/vnd.tiddlywiki
+
+[[Def|https://www.youtube.com/watch?v=NcKq1IdTotA&index=7&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=11m15s]]. Let $$H \subset G$$ [[Subgroup]]. For every $$$g \in G$$, we can define the ''conjugate subgroup'' $$gHg^{-1} = \{ ghg^{-1}| h \in H\}$$.
+

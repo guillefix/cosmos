@@ -1,0 +1,18 @@
+created: 20170928214746652
+creator: cosmos
+modified: 20171007173046186
+modifier: cosmos
+tags: [[Tree (Graph theory)]] [[Graph algorithms]]
+title: Minimum spanning tree
+tmap.id: e28f7719-e8cf-4a6e-8224-084c43e7be9c
+type: text/vnd.tiddlywiki
+
+[[video|https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PL6ED884C7AEE68027#t=44m18s]]
+
+[[Greedy algorithm]]s work well
+
+Prim's algorithm. [[Implementing it|https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PL6ED884C7AEE68027#t=56m20s]], using [[Adjacency list]], some arrays and a [[heap|Heap (data structure)]]
+
+Kruskel's algorithm. [[Implementing it|https://www.youtube.com/watch?v=ufj5_bppBsA&list=PL6ED884C7AEE68027&t=197#t=6m]], uses a cool data structure called a disjoint-set data structure used for an algorithm called [[Union find]]
+
+[[Some variations which are NP complete|https://www.youtube.com/watch?v=ufj5_bppBsA&list=PL6ED884C7AEE68027&t=197]]

@@ -1,19 +1,21 @@
 created: 20160623225134278
 creator: guillefix
-modified: 20161104134327478
-modifier: guillefix
+modified: 20170824221236491
+modifier: cosmos
 tags: [[Information theory]]
 title: Coding theory
 tmap.id: 4269ed24-4468-47b7-9c40-4f4ab160c53d
 type: text/vnd.tiddlywiki
 
-A ''code'' is a representation of data, represented as an injective map between two sets. These sets are often called the //Source alphabet//, and the //code alphabet//, respectively.
-
-''Coding theory'' (and/or //coding methods//) is the study of codes that satisfy certain properties. These properties are often geared towards [[Data transmission]], [[Data compression]], and other areas in [[Information theory]].
+''Coding theory'' (and/or //coding methods//) is the study of [[Code]]s that satisfy certain properties. These properties are often geared towards [[Data transmission]], [[Data compression]], and other areas in [[Information theory]].
 
 !!__Types of codes__
 
-[[Variable-length code]]
+* Nonsingular codes (see [[Code]])
+** [[Uniquely decodable]]
+*** [[Prefix code]] (or //instantaneous code//)
+
+[[Variable-length code]]s
 
 !!__Codes for transmission/storage reliability__
 

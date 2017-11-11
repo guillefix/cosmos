@@ -1,7 +1,8 @@
 created: 20160913225326135
 creator: cosmos
-modified: 20170522112841424
+modified: 20171031142937067
 modifier: cosmos
+tags: [[PAC learning with infinite concept classes]]
 title: VC dimension
 tmap.id: 1f7b50a6-00d9-4288-ae90-871571fc3893
 type: text/vnd.tiddlywiki
@@ -14,7 +15,9 @@ the VC dimension (for Vapnik–Chervonenkis dimension) is a measure of the capac
 
 In $$n$$-dimensions, the VC dimension of the set of all linear classifiers is $$n+1$$
 
-See also [[Probably approximately correct]], [[Learning theory]]
+See also [[Probably approximately correct]], [[Learning theory]],
+
+!!!Applied for [[PAC learning with infinite concept classes]]
 
 ...........
 

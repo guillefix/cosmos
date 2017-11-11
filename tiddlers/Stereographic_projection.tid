@@ -1,10 +1,12 @@
 created: 20170627173604806
 creator: cosmos
-modified: 20170627174737782
+modified: 20170702130004103
 modifier: cosmos
 tags: [[Conformal chart]]
 title: Stereographic projection
 tmap.id: 28d131df-182f-4285-9c7e-578d331b4b5e
 type: text/vnd.tiddlywiki
 
-[[definition|https://www.youtube.com/watch?v=a_XH71yDCpo#t=55m25s]]
+[[definition|https://www.youtube.com/watch?v=a_XH71yDCpo#t=55m25s]] (using sphere as example)
+
+[[Stereographic projection for a pinhole camera|https://www.youtube.com/watch?v=gRVxv8kWl0Q&index=4&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=34m]], which I think also defines [[Projective geometry]]

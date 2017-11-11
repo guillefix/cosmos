@@ -1,11 +1,13 @@
 created: 20161009161501698
 creator: cosmos
-modified: 20161104134327369
+modified: 20170918215250927
 modifier: cosmos
-tags: 
+tags: Wearable
 title: Clothing
 tmap.id: 54fdb784-e354-47ce-a347-46d2e995d004
 type: text/vnd.tiddlywiki
+
+//aka garment//
 
 Clothing refers to a traditional set of [[Wearable]]s made mostly from [[Textile]]s found in most human [[Culture]]s, and often having considerable cultural signifiance. They are also known as garment.
 
@@ -13,3 +15,116 @@ https://www.wikiwand.com/en/Clothing
 
 * [[Headgear]]
 * [[Footwear]]
+
+[[Self-cleaning clothing]]
+
+!!__Clothing [[Thermal insulation]]__
+
+http://www.engineeringtoolbox.com/clo-clothing-thermal-insulation-d_732.html
+
+https://phys.org/news/2015-01-super-insulated-indoor.html
+
+
+--> [[Characterizing the performance of a single-layer fabric system through a heat and mass transfer model - Part I: Heat and mass transfer model|http://journals.sagepub.com/doi/abs/10.1177/0040517510388547]] ''fabric thickness appears to be important too'', which makes sense... it should affect the thermal conductivity.. [[In here|http://journals.sagepub.com/doi/pdf/10.1177/004051758405400502]], an equation is derived for thermal reistance, which is __directly proportional to fiber thickness__, as I would have expected. It also depends on the fabric porosity and volume fraction of air in the yarn. (the more air the better generally, but the more pores the worse). In there they show polyester a bit better at thermal insulation than cotton.
+
+Wave also affects:  [[Cellular weave, which is derivative of sateen weave and diced weave, which is compound weave, has the highest thermal resistance appropriating for cold climatic conditions. On the other hand, the 2/2 twill weave and matt twill weave, which is derivative of sateen weave, depicted the lowest water vapor thermal resistance, making it convenient for hot climatic conditions|https://www.degruyter.com/view/j/aut.2017.17.issue-2/aut-2016-0012/aut-2016-0012.xml]]
+
+[[Some Thermal Properties of Fabrics  - Part I: The Effect of Fiber Arrangement|http://journals.sagepub.com/doi/abs/10.1177/004051755702700605]] -- it i, generally agreed that the insulating characteristics
+of fabrics are related to the air entrapped lw
+and surrounding the fibers. Hmmmm. When does air count toward increasing insulation, or not. The air pockets should be contained and small enough, I guess. That is why low pressure wool doesn't have 
+much higher thermal resistance than high pressure wool, because even though it does have more air, it's not really "interspersed" with the fibers, and I guess convection and stuff (like analyzed in other papers) may play a role then..
+
+[[Characterizing the performance of a single-layer fabric system through a heat and mass transfer model - Part II: Thermal and evaporative resistances|http://journals.sagepub.com/doi/abs/10.1177/0040517510395994]] -- The thickness of the air gap and that of the fabric layer were shown to contribute significantly to both the thermal resistance and evaporative resistance. The occurrence of natural convection in the air gap can cause decreases in thermal and evaporative resistances, and needs to be considered to determine the optimal air gap thickness. The porosity of the fabric layer has a distinct effect on the two resistances, and is an excellent property to help achieve both thermal protection and comfort
+
+[[Bamboo fiber higher thermal reistance than cotton|https://link.springer.com/article/10.1007/s10765-012-1386-7]]
+
+[[wool|http://journals.sagepub.com/doi/pdf/10.1177/004051759906901010]]
+
+[[Water transport of wool vs cotton|http://journals.sagepub.com/doi/pdf/10.1177/004051755702700102]] -- cotton transports water more effectively
+
+[[11—THE TRANSMISSION OF HEAT THROUGH TEXTILE FABRICS|http://sci-hub.cc/10.1080/19447024108659364]]
+
+[[Wool appears to have lower heat conductivity than cotton|http://sci-hub.cc/10.1080/19447024108659364]] ! (about 1/2 or 1/3) . ''From the data, this can be traced to wool being a less dense fabric often, so with larger fraction of air''
+
+|AIR IS THE KEY|
+
+-----------------------
+
+
+[[Effect of Clothing Thermal Properties on the Thermal Comfort Sensation During Active Sports|http://journals.sagepub.com/doi/abs/10.1177/0731684408080046]]
+
+[[Human Thermal Environments: The Effects of Hot, Moderate, and Cold ...|https://books.google.co.uk/books?hl=en&lr=&id=WejMAwAAQBAJ&oi=fnd&pg=PP1&dq=%E2%80%9CHuman+Thermal+Environments,%E2%80%9D&ots=hmprkRjuD7&sig=BiJPPiolqhu64go2pvOd_4OYJTQ#v=onepage&q=%E2%80%9CHuman%20Thermal%20Environments%2C%E2%80%9D&f=false]]
+
+https://www.iso.org/standard/39257.html
+
+http://www.sciencedirect.com/science/article/pii/S0378778802000087
+
+[[Effect of Garment Fit on Thermal Insulation and Evaporative Resistance|http://journals.sagepub.com/doi/abs/10.1177/004051750407400814]]
+
+-------------------------
+
+[[Advanced modelling of the transport phenomena across horizontal clothing microclimates with natural convection|https://link.springer.com/article/10.1007/s00484-015-0994-x]]
+
+[[Study on effect of blend ratio on thermal comfort properties of cotton/nylon-blended fabrics with high-performance Kermel fibre|http://sci-hub.cc/10.1080/00405000.2014.934045]]
+
+|The heat transfer mechanisms involved in textile materials include conduction through solid fibres, air trapped in the material structure and radiation between the fibres and the clothing layers. Convection can occur via natural convection along the clothing layer or by forced convection through or along the fabric. ([[source|http://sci-hub.cc/10.1080/00405000.2014.934045]])|
+
+The thermal properties of textile fabrics are influenced by many factors at microscopic (chemical composition, morphological characteristics, fineness, cross-section, porosity and water content of fibre components), mesoscopic (yarn structure and properties) and macroscopic levels (fabric physical and structural properties and finishing treatments) (Militky, 2006; Oglakcioglu & Marmarali, 2007; Stankovic, Popovic, & Poparic, 2008; Ucar & Yilmaz, 2004; Varshney, Kothari, & Dhamija, 2010; Wu, Zhang, & Li, 2009)
+
+In general, thermal insulation, air permeability and water vapour transfer rate are dependent mainly on the fabric geometrical parameters, namely, thickness and porosity. Conversely, liquid water transport is strongly dependent on the constituent fibres, with cotton generally showing advantages over polyester.
+
+They found that the contact interfacial area between skin and fabric is small for rough fabrics and more air is entrapped on a fabric surface with high hairiness, so these fabrics give a warmer feeling.
+
+[[Influence of Thickness and Porosity on Coupled Heat and Liquid Moisture Transfer in Porous Textiles|http://journals.sagepub.com/doi/abs/10.1177/004051750207200511]]
+
+Note air is about 10 times less conductive than nylon
+
+[[Part I: Transport Properties and Thermal Comfort of Polyester/Cotton Blend Fabrics|http://journals.sagepub.com/doi/abs/10.1177/004051758405400502]]
+
+An ideal clothing fabric, in terms of thermal comfort, should have the following attributes:
+
+: (a) high thermal resistance for protection from cold, 
+
+:(b) low water vapor resistance for efficient heat transfer under a mild thermal stress condition, and 
+
+:(c) rapid liquid transport characteristics for transferring heat efficiently and eliminating unpleasant tactile sensations due to water under a high thermal stress condition.
+
+
+
+----------------
+
+Dry heat transfer through clothing materials consists mainly of conduction and radiation. For most clothing materials, the volume of air enclosed is far greater than the volume of the fibres. Therefore ''the insulation is very much dependent on the thickness of the material (i.e. the enclosed air layer) and less on the fibre type'' (''yes, but fiber structure does affect insulation, see more detailed studies above!''). The fibres mainly influence the amount of radiative heat transfer, as they reflect, absorb and re-emit radiation. That this effect is of minor importance relative to the thickness (except for special reflective clothing) can be seen in figure 4, where the insulation of a range of different clothing materials is presented in relation to their thickness. Thickness appears to be the major determinant of insulation [1, 12]. ([[source|https://sci-hub.cc/https://doi.org/10.1159/000068802]]). I suppose, perhaps [[Wool]] is good for warm clothes because it's $$THICC$$ due to its coarse fibers. 
+
+ For normal, permeable materials, clothing material thickness also determines the major part of the clothing vapour resistance. Again, as the volume of fibres is usually low compared to the enclosed air volume, the resistance to the diffusion of water vapour through the garments is mainly determined by the thickness of the enclosed still air layer. With thin materials, the fibre component gets a more important role as there e.g. different weave characteristics affect the diffusion properties more than in thick materials (fig. 5).
+
+The fibres of the clothing materials do determine other properties of the clothing like air permeability and moisture absorption however, which may affect insulation and vapour resistance in special conditions like high winds and wet environments.
+
+I suppose [[Heat convection]] may also play a role in some regimes, like when the clothing has openings..
+
+When the air in the environment is moving, as usually is the case at a workplace, this air movement will disturb the still layer on the outside of the clothing. Also this air movement can disturb the air layers in the ensemble, by entering through clothing openings or, depending on the air permeability of the outer clothing layer, by penetration of the clothing fabric. //I suppose that heavier clothing, like wool will also move less//
+
+[[Heat balance when wearing protective clothing |https://academic.oup.com/annweh/article/43/5/289/160067/Heat-balance-when-wearing-protective-clothing]
+
+Comfort properties of defence protective clothing
+
+
+
+__Extreme cold__
+
+https://www.quora.com/What-is-the-best-thermal-insulation-material-for-clothing
+
+[[Thinsulate|https://en.wikipedia.org/wiki/Thinsulate]] is considered "the warmest thin apparel insulation" available. In fact, when equal thicknesses are compared, it provides about 1½ times the warmth of down and about twice the warmth of other high-loft insulation materials. 
+
+<small>While a "Thinsulate" or similar layer which lines the shell of a ski jacket minimizes the loss of heat from the body by convection, the heat absorbed by the "Thinsulate" layer from the body is radiated therefrom, and this radiation which results in a substantial loss of heat is not significantly impeded by the outer shell of the jacket. Hence, while the typical ski jacket which has a "Thinsulate" liner is light-weight and quite warm, even though lacking in bulk, it nevertheless falls well short of a skier's requirements in an intensely cold climate. [[source|https://www.google.com/patents/US4569874]]</small>
+
+https://journal.austms.org.au/ojs/index.php/ANZIAMJ/article/view/1035
+
+------------------
+
+http://journals.sagepub.com/home/trj
+
+http://journals.sagepub.com/doi/pdf/10.1177/0040517508091066
+
+[[Percutaneous penetration of silver from a silver containing garment in healthy volunteers and patients with atopic dermatitis|http://www.sciencedirect.com/science/article/pii/S0378427415001174]]
+
+[[Dermal exposure potential from textiles that contain silver nanoparticles|http://www.tandfonline.com/doi/abs/10.1179/2049396714Y.0000000070]]

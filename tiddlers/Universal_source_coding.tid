@@ -1,0 +1,27 @@
+created: 20170926105310195
+creator: cosmos
+modified: 20170926112434996
+modifier: cosmos
+tags: [[Data compression]]
+title: Universal source coding
+tmap.id: be18691b-b774-48f9-8ffc-3189698b839b
+type: text/vnd.tiddlywiki
+
+Methods for data compression, which asymptotically achieve [[optimality|Source coding theorem]] without knowing the [[Information source]] distribution a priori, and instead work for general classes of distributions asymptotically (hence the name //universal//). They are almost always [[Online algorithm]]s, because in a non-online settings we may be able to just compute the source distribution before compressing.
+
+[[Lempel-Ziv algorithms]] achieve the [[entropy limit|Source coding theorem]] asymptotically for [[Stationary ergodic process]]
+
+See chapter 13 of [[Cover&Thomas]]
+
+---------------------
+
+A good data source/data compression code has little [[Code redundancy]] (ideally $$0$$ asymptotically, as the message length goes to infinity). Given a family of source distributions which the information source may follow in a given situation $$\{p_\theta\}$$, we define the [[Minimax redundancy]] as
+
+$$R^* = \min_q \max_{p_\theta} R(p_\theta,q) = \min_q \max_{p_\theta} D(p_\theta || q)$$
+
+where $$R$$ is the [[Code redundancy]]. This can be interpreted as a [[Game]]
+
+This minimax redundancy is achieved by a distribution $$q$$ that is at the "center" of the information ball containing the distributions $$p_\theta$$, that is, __the distribution $$q$$ whose maximum distance from any of the distributions $$p_\theta$$ is minimized__.
+
+One can construct a [[Communication channel]] {θ, p θ (x), X } with the rows of the transition matrix equal to the different $$p_\theta$$’s, the possible distributions of the source. We will show that the minimax redundancy $$R^*$$ is equal to the [[capacity|Channel capacity]] of this channel, and the corresponding optimal coding distribution $$q^*$$ is the output distribution of this channel induced by the capacity-achieving input distribution! (Theorem by Gallager and Ryabko)
+

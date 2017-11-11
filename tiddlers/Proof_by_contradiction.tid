@@ -1,12 +1,18 @@
 created: 20170315130313674
 creator: cosmos
-modified: 20170315130423594
+modified: 20170729134442701
 modifier: cosmos
 tags: [[Proof theory]]
 title: Proof by contradiction
 tmap.id: d2bb8abf-f2f2-419d-aed8-27d6c38f7fa7
 type: text/vnd.tiddlywiki
 
+//aka Reduction ad absurdum//
+
 Assume the opposite of $$X$$, show that it implies a [[logical|Logic]] contradiction, and so $$X$$ should be true.
 
 See [[Irrationality of square root of 2]] for an example
+
+----------------
+
+[[The Flaw in Reductio Ad Absurdum|https://www.youtube.com/watch?v=lvQApEaFkdE]]

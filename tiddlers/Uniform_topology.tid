@@ -1,0 +1,16 @@
+created: 20170917194457562
+creator: cosmos
+modified: 20170917194853604
+modifier: cosmos
+tags: [[Uniform metric]] [[Examples of topologies]]
+title: Uniform topology
+tmap.id: a51b7821-6975-4f62-9180-b5b0bebdd632
+type: text/vnd.tiddlywiki
+
+The [[Metric topology]] of the [[Uniform metric]] on $$\mathbb{R}^J$$, for arbitrary [[Index set]] $$J$$
+
+[[vid|https://www.youtube.com/watch?v=RFwtRWp2cBI&index=6&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h7m11s]]
+
+One of the [[three topologies in this space|https://www.youtube.com/watch?v=RFwtRWp2cBI&index=6&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h7m49s]]
+
+[[The uniform topology is finer than the |https://www.youtube.com/watch?v=RFwtRWp2cBI&index=6&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h9m10s]] [[Product topology]], and strictly finer if J is infinite. It is also coarser than the [[Box topology]]. [[proof|https://www.youtube.com/watch?v=RFwtRWp2cBI&index=6&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h15m30s]]. [[proof of strictly finer|https://www.youtube.com/watch?v=RFwtRWp2cBI&index=6&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h29m24s]]

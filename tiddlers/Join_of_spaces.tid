@@ -1,0 +1,18 @@
+created: 20171024155754329
+creator: cosmos
+modified: 20171024155952379
+modifier: cosmos
+title: Join of spaces
+tmap.id: f78b2359-fdca-4fe8-b1af-1f0f08f6ce2e
+type: text/vnd.tiddlywiki
+
+ The cone CX is the union of all line segments joining points of X to an external
+vertex, and similarly the suspension SX is the union of all line segments joining
+points of X to two external vertices. More generally, given X and a second space Y ,
+one can define the space of all line segments joining points in X to points in Y . This
+is the join X ∗ Y , the quotient space of X × Y × I under the identifications (x, y 1 , 0) ∼
+(x, y 2 , 0) and (x 1 , y, 1) ∼ (x 2 , y, 1). Points in the join can be written as formal convex combinations, and can be extended to joins of several spaces.
+
+
+In general, the join of n points is a convex polyhedron of
+dimension n − 1 called a [[Simplex]].

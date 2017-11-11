@@ -1,0 +1,20 @@
+created: 20170727164639603
+creator: cosmos
+modified: 20170727164926367
+modifier: cosmos
+tags: Learning
+title: Classical conditioning
+tmap.id: a003964f-1a15-4e0a-8c8b-50e93fdac871
+type: text/vnd.tiddlywiki
+
+//aka Pavlovian conditioning//
+
+when an animal learns to associate a situation with a reward, or other relevant estimulus.
+
+Related to [[Policy evaluation]]/[[Value function]] learning in [[Reinforcement learning]]
+
+See chapter 14 of [[Sutton-Barto]]
+
+--------------
+
+In contrast with [[Operant conditioning]]

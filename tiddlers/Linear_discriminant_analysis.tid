@@ -1,8 +1,8 @@
 created: 20161102172639842
 creator: cosmos
-modified: 20161104134329377
+modified: 20170831224409525
 modifier: cosmos
-tags: [[Generative supervised learning]]
+tags: [[Generative supervised learning]] [[Dimensionality reduction]]
 title: Linear discriminant analysis
 tmap.id: 577c6342-b6d2-4f87-aeb0-b3fac9c141c5
 type: text/vnd.tiddlywiki
@@ -14,3 +14,7 @@ The decision boundaries are linear unlike in GDA
 See [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/ML-MT2016/slides/slides07.pdf]]
 
 The predictivion distribution $$p(y|x)$$ has the form of [[Logistic regression]], i.e. a [[Softmax]] with a linear model. The difference is in the training as we have a prior, which we fit also.
+
+---------------
+
+null subspace algorithm

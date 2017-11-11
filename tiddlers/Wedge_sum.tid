@@ -1,0 +1,11 @@
+created: 20171024184849832
+creator: cosmos
+modified: 20171024184854421
+modifier: cosmos
+title: Wedge sum
+tmap.id: 3417e729-0075-4f48-af61-bb0b700a56ee
+type: text/vnd.tiddlywiki
+
+This is a rather trivial but still quite useful operation. Given spaces X and
+Y with chosen points x 0 ∈ X and y 0 ∈ Y , then the wedge sum X ∨ Y is the quotient
+of the disjoint union X ∐ Y obtained by identifying x 0 and y 0 to a single point.

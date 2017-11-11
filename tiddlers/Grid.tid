@@ -1,0 +1,16 @@
+created: 20170830121554521
+creator: cosmos
+modified: 20170830121629076
+modifier: cosmos
+tags: Graph
+title: Grid
+tmap.id: c6fd32c9-fbf4-400d-b77a-104cb9a0f55a
+type: text/vnd.tiddlywiki
+
+
+
+----------------
+
+[[Adjacency matrix]] of grid, using [[Kronecker product]]s
+
+See my answer and others' [[here|https://stackoverflow.com/questions/16329403/how-can-you-make-an-adjacency-matrix-which-would-emulate-a-2d-grid/45958661#45958661]]

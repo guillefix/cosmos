@@ -1,0 +1,14 @@
+created: 20170925172744590
+creator: cosmos
+modified: 20170925173814385
+modifier: cosmos
+tags: 
+title: The maximum principle
+tmap.id: fa2fffa7-e0ac-40a1-aadd-7b588d529abd
+type: text/vnd.tiddlywiki
+
+Let $$A$$ be a set; let $$\prec$$ be a strict partial order on $$A$$. Then there exists a maximal simply ordered subset $$B$$ of $$A$$.
+
+[[Zorn's lemma]]
+
+page 68 of Munkres 2nd ed

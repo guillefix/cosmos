@@ -1,0 +1,10 @@
+created: 20170824213044084
+creator: cosmos
+modified: 20170824213343134
+modifier: cosmos
+tags: [[Communication channel]]
+title: Gaussian channel
+tmap.id: 9d4e8949-3a68-4dc6-83cb-1cece1cca64a
+type: text/vnd.tiddlywiki
+
+A time-discrete channel with output $$Y_i$$ at time $$i$$, where $$Y_i$$ is the sum of the input $$X_i$$ and the noise $$Z_i$$. The noise is drawn [[i.i.d.]] from a [[Normal distribution]] with [[Variance]] $$N$$

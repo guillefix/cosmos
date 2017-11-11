@@ -1,0 +1,13 @@
+created: 20170925150849778
+creator: cosmos
+modified: 20170925150918322
+modifier: cosmos
+title: Immediate successor
+tmap.id: 8b28e413-4690-4f4f-8530-7e1f9c7c5112
+type: text/vnd.tiddlywiki
+
+If $$X$$ is a [[Set]] and $$<$$ is an [[Ordering]] on $$X$$, and if $$a<b$$, we use the notation $$(a,b)$$ to denote the set
+
+:$$\{x |a<x<b\}$$;
+
+it is called an [[Open interval]] in $$X$$. If this set is empty, we call $$b$$ the ''Immediate successor'' of $$a$$

@@ -1,0 +1,22 @@
+created: 20171103130557373
+creator: cosmos
+modified: 20171105180959367
+modifier: cosmos
+tags: [[Knot theory]] [[Oriented link]] [[Knot invariant]]
+title: Linking number
+tmap.id: 8d755553-2c1a-4dc1-b71a-dcc0e83eb0b9
+type: text/vnd.tiddlywiki
+
+Let $$L$$ be an [[Oriented link]]. The ''linking number'' $$lk(L)$$ is defined as follows: First choose a [[diagram|Knot diagram]] $$D$$ of $$L$$, then
+
+: $$lk(L) = \frac{1}{2} \sum\limits_c \text{sign}{\:c}$$
+
+:where sign refers to the //sign of a crossing// of an [[Oriented link]] (see [[here|https://www.youtube.com/watch?v=9wejK6QGO9o&feature=youtu.be#t=4m30s]]), where $$c$$ ranges over all crossings of $$D$$ __where //different// components meet__.
+
+See [[here|https://www.youtube.com/watch?v=v6DRdeRlxf4&feature=youtu.be#t=30s]] and [[here|http://homepages.abdn.ac.uk/r.hepworth/pages/files/Knots_Notes.pdf#page=4]]
+
+[[The linking number is a well-defined invariant of oriented link|https://www.youtube.com/watch?v=v6DRdeRlxf4&feature=youtu.be#t=10m25s]], that is the linking number is the same for two oriented links //if// they are equivalent. Therefore, if the linking number is different, they are not equivalent (standard case for [[Invariant]]s)
+
+!!__Linking number of a [[Ribbon]]__
+
+As in [[here|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC389050/pdf/pnas00079-0124.pdf]] one can define the [[Linking number]] of a [[Ribbon]] by considering a the nearby, but disjoint, curve given by $$X+\epsilon U$$, as for sufficiently small $$\epsilon$$ the linking number is defined and independent of $$\epsilon$$. This linking number does not change if $$(X,U)$$ is deformed smoothly through simple closed strips ("through" here refers to the fact that each step in the deformation must be a simple closed strip, similarly to how it's done for the definition of [[Knot equivalence]]).

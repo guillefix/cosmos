@@ -1,0 +1,12 @@
+created: 20170715170318031
+creator: cosmos
+modified: 20170715170344148
+modifier: cosmos
+tags: [[Reinforcement learning]]
+title: Multi-armed bandit
+tmap.id: 539e8056-2ab6-4790-a6c8-5bcfcd1e6b06
+type: text/vnd.tiddlywiki
+
+See Sutton and Barto
+
+[[Contextual bandit]]

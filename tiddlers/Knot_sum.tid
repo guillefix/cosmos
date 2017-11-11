@@ -1,0 +1,28 @@
+created: 20171105162836071
+creator: cosmos
+modified: 20171105172310366
+modifier: cosmos
+tags: [[Knot theory]]
+title: Knot sum
+tmap.id: c172fdb7-9115-44f7-bcab-2922f6d843ba
+type: text/vnd.tiddlywiki
+
+An operation between [[oriented knots|Oriented link]] analogous to [[Connected sum]].
+
+See [[here|https://www.youtube.com/watch?v=NyAv70ULzMY&feature=youtu.be]] and [[here|http://homepages.abdn.ac.uk/r.hepworth/pages/files/Knots_Notes.pdf#page=7]]
+
+[img class="imgfloat" [knot_sum_definition.png]]
+
+The knot (up to [[Knot equivalence]]) that we get after we sum two knots is independent of the way we sum them ([[vid|https://www.youtube.com/watch?v=NyAv70ULzMY&feature=youtu.be#t=5m]]) See [[here|http://homepages.abdn.ac.uk/r.hepworth/pages/files/Knots_Notes.pdf#page=8]] for outline of proof.
+
+[[Algebraic properties|https://www.youtube.com/watch?v=NyAv70ULzMY&feature=youtu.be#t=6m]]:
+
+* [[Associativity]]
+
+* [[Commutativity]]
+
+* Existence of unit (the [[Unknot]])
+
+[[Prime knot]]
+
+There are no negatives for the knot sum.

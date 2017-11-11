@@ -1,0 +1,10 @@
+created: 20171021224842327
+creator: cosmos
+modified: 20171021224850156
+modifier: cosmos
+tags: 
+title: Zero divisor
+tmap.id: 347a73bc-98e4-4f69-80c4-6372892417a6
+type: text/vnd.tiddlywiki
+
+Let $$R$$ be a [[Commutative ring]]. An element $$a \in R \setminus \{0\}$$ is called a ''zero divisor'' if there exists $$b \in R \setminus \{0\}$$, such that $$ab = 0$$. 

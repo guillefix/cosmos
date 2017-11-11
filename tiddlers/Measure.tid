@@ -1,7 +1,7 @@
 created: 20160707160441575
 creator: guillefix
-modified: 20161104134329591
-modifier: guillefix
+modified: 20171008182117923
+modifier: cosmos
 tags: [[Measure theory]]
 title: Measure
 tmap.id: 05e22b14-5e98-4b26-94be-0e19d725743f
@@ -11,7 +11,9 @@ A ''measure'' $$\mu$$ on a set $$\Omega$$, with [[Sigma-algebra]] $$\mathcal{A}$
 
 # $$\mu(\emptyset)=0$$
 
-# //countable additivity//. $$\mu(\bigcup\limits_{i=1}^{\infty} E_i) = \sum\limits_{i=1}^{\infty} \mu(E_i)$$ for any collection $$E_1, E_2, ... \in \mathcal{A}$$ of pair disjoint sets.
+# $$\mu(A) \leq \mu(B)$$ if $$A,B \in \mathcal{A}$$ and $$A \subseteq B$$
+
+# //countable additivity//. $$\mu(\bigcup\limits_{i=1}^{\infty} E_i) = \sum\limits_{i=1}^{\infty} \mu(E_i)$$ for any collection $$E_1, E_2, ... \in \mathcal{A}$$ of mutually disjoint sets.
 
 Specifying a measure on a sigma-algebra is simplified by the 
 
@@ -19,6 +21,8 @@ Specifying a measure on a sigma-algebra is simplified by the
 
 * [[Probability measure]]s
 * [[Lebesgue measure]]
+
+[[Outer measure]]
 
 ------------------
 

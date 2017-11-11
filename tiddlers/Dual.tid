@@ -1,0 +1,17 @@
+created: 20171014203825841
+creator: cosmos
+modified: 20171014203903646
+modifier: cosmos
+tags: [[Category theory]] Concept
+title: Dual
+tmap.id: aa0c6ca7-a9ac-4abc-983c-04cbcb17a763
+type: text/vnd.tiddlywiki
+
+
+
+--------
+
+In [[Category theory]], this refers to
+
+
+''Duality principle'': every property/theorem has a corresponding ''dual'' property/theorem, by applying the theorem in the [[Opposite category]] and interpreting it in the original category. In other words, a statement S is true about C if and only if its dual (i.e. the one obtained from S by reversing all the arrows) is true about C op

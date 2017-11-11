@@ -1,0 +1,26 @@
+created: 20171029131910932
+creator: cosmos
+modified: 20171029132301703
+modifier: cosmos
+tags: Cybersecurity [[Digital forensics]]
+title: Data recovery
+tmap.id: 630f1d81-6219-44b2-a174-d242abdc813e
+type: text/vnd.tiddlywiki
+
+
+---------------
+
+foremost, scalpel, recuva (for windows). Good for media files
+
+Really good method to recover data/files in a disk, when you know particular strings that belong to them (often for text files): https://superuser.com/questions/694839/recover-txt-files-based-on-known-strings
+
+```
+sudo bash -c '
+    for OFFSET in $(grep -Pzabio diary /dev/sda3 | cut -d: -f 1); do
+        ((CLUSTER = OFFSET / 4096))
+        dd if=/dev/sda3 of=clusterCLUSTER.txtbs=4096skip=CLUSTER.txtbs=4096skip=CLUSTER count=1
+    done
+'
+```
+
+Substitute `diary` with the search string of interest and `/dev/sda3` for the volume of interest (could be an image file). It worked great for me to recover a tiddler I accidentally overwrote. It was able to recover many versions of the file, amazingly! As long as it hasn't been overwritten in memory, this will find it.

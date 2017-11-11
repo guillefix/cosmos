@@ -1,0 +1,13 @@
+created: 20170821162622930
+creator: cosmos
+modified: 20170821163539033
+modifier: cosmos
+title: Lower limit topology
+tmap.id: 9af83d92-f6da-4353-96a3-56c2ed55bfed
+type: text/vnd.tiddlywiki
+
+[[video|https://www.youtube.com/watch?v=uINRZyMsX3I&index=2&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=48m]]
+
+[[definition|https://www.youtube.com/watch?v=uINRZyMsX3I&index=2&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=50m]], using half-open intervals as its [[basis|Basis of a topology]]
+
+It is strictly finer than the [[Standard topology]]

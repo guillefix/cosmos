@@ -1,6 +1,6 @@
 created: 20160403134855690
 creator: guillefix
-modified: 20170313193426755
+modified: 20170830135231260
 modifier: cosmos
 tags: Vision [[Artificial intelligence]]
 title: Computer vision
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 http://www.movidius.com/
 
-[[Convolutional neural network]], [[Image processing]]
+[[Convolutional neural network]], [[Image processing]], [[Computer graphics]]
 
 [[Cloud vision API|https://www.youtube.com/watch?v=eve8DkkVdhI]]
 
@@ -58,3 +58,5 @@ Dynamic vision cameras!!
 [[Investigation of event-based memory surfaces for high-speed tracking, unsupervised feature extraction and object recognition|https://arxiv.org/abs/1603.04223]]
 
 [[Unsupervised Learning of Visual Features through Spike Timing Dependent Plasticity|http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030031]]
+
+[ext[http://ai.stanford.edu/~haosu/]]

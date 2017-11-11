@@ -1,0 +1,11 @@
+created: 20170629193908299
+creator: cosmos
+modified: 20170629194125357
+modifier: cosmos
+title: Normal vector to a surface
+tmap.id: 7698eabe-85f4-45fc-b1d9-781ca6c19897
+type: text/vnd.tiddlywiki
+
+A vector [[normal|Orthogonal]] to the [[Tangent space]] of a [[Surface]]. It requires the surface to embedded, and it can be constructed as the [[Vector product]] of a basis of [[Tangent vector]]s.
+
+A [[Unitary normal vector field]] is composed of such vectors, one at each point, forming a [[Vector field]]

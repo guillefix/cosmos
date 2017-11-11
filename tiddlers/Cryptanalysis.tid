@@ -1,0 +1,26 @@
+created: 20170705180648482
+creator: cosmos
+modified: 20170706104211517
+modifier: cosmos
+tags: Cryptology
+title: Cryptanalysis
+tmap.id: 74770938-7807-4234-96f7-d030fe8d84af
+type: text/vnd.tiddlywiki
+
+Breaking [[Cryptography]]c system
+
+[[classification of attacks|https://www.youtube.com/watch?v=2aHkqB2-46k#t=1h05m33s]]
+
+* [[Classical cryptanalysis]]
+** [[Brute-force attack]]
+** [[Analytical attack]] (like ngram frequency)
+* [[Social engineering]]
+* [[Implementation attack]]
+
+---------------------
+
+__[[Substitution cipher]]__
+
+[[how to break it|https://www.youtube.com/watch?v=2aHkqB2-46k#t=52m30s]]
+
+[[letter frequency analysis|https://www.youtube.com/watch?v=2aHkqB2-46k#t=57m50s]]

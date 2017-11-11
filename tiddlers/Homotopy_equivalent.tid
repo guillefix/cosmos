@@ -1,0 +1,46 @@
+created: 20171015200634774
+creator: cosmos
+modified: 20171024202226089
+modifier: cosmos
+tags: Homotopy
+title: Homotopy equivalent
+tmap.id: fd52faf2-124c-4547-b1a2-03eb6733936c
+type: text/vnd.tiddlywiki
+
+Two [[Topological space]]s $$X$$ and $$Y$$ are ''homotopy equivalent'' if there exists [[Continuous function]]s $$f: X \to Y$$ and $$g: Y \to X$$ such that
+
+: $$f \circ g \sim id_Y$$ and $$g \circ f \sim id_X$$
+
+where $$\sim$$ refers to the equivalence relation [[homotopic|Homotopy]]. $$f$$ here is then called a //homotopy equivalence//. We can also refer to the spaces as being //homotopic//
+
+So I think that if we take the [[Category]] of Topological spaces, and mod out the set of arrows with the homotopic equivalence relation between functions, then homotopy equivalence between top spaces is just the categorical notion of [[Isomorphism]]
+
+[[Video|https://www.youtube.com/watch?v=YyvSCl23mXw&index=20&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=40s]]
+
+A [[Homeomorphism]] is trivially a homotopy equivalence.
+
+Spaces which are homotopy equivalent share the same [[Fundamental group]]. This can be seen from the fact that the existence of a [[Continuous function]] $$f: X \to Y$$ implies that for two paths homotopic in $$X$$, their images are homotopic in $$Y$$. Viceversa, if we also have cont. fun $$g: Y \to X$$. However, we can't guarantee that two non-homotopic paths in $$X$$ map to two non-homotopic paths in $$Y$$ unless we have the condition for homotopy equivalence.  This condition guarantees that given path $$p$$ in $$X$$, $$g(f(p))$$ is homotopic to $$p$$, and this can be used to conclude (after thinking about basic implications, and the fact that homotopic is an equivalence relation) that {that two non-homotopic paths in $$X$$ map to two non-homotopic paths in $$Y$$}.
+
+!!__Some Criteria for Homotopy Equivalence__
+
+Two spaces related by a [[Retraction deformation]] are homotopy equivalent
+
+__Collapsing Subspaces__
+
+The operation of collapsing a subspace to a point usually has a drastic effect
+on homotopy type, but one might hope that if the subspace being collapsed already
+has the homotopy type of a point, then collapsing it to a point might not change the
+homotopy type of the whole space. Here is a positive result in this direction:
+If (X, A) is a CW pair consisting of a CW complex X and a contractible subcomplex A ,
+then the quotient map X → X/A is a homotopy equivalence.
+
+generally, suppose X is any graph with finitely many vertices and edges. If
+the two endpoints of any edge of X are distinct, we can collapse this edge to a point,
+producing a homotopy equivalent graph with one fewer edge. This simplification can
+be repeated until all edges of X are loops, and then each component of X is either
+an isolated vertex or a [[Wedge sum]] of circles.
+
+__Attaching spaces__
+
+If (X 1 , A) is a CW pair and the two attaching maps f , g : A → X 0 are homotopic, then
+X 0 ⊔ f X 1 ≃ X 0 ⊔ g X 1 .

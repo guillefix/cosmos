@@ -1,0 +1,14 @@
+created: 20170926181318375
+creator: cosmos
+modified: 20170926184910627
+modifier: cosmos
+tags: Connectedness
+title: Path connected
+tmap.id: 9a7022fe-6717-43e8-b839-78f1b26658c2
+type: text/vnd.tiddlywiki
+
+[[Definition|https://www.youtube.com/watch?v=DP0OELdzAZ8&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=9#t=56m10s]]. A [[Topological space]] $$X$$ is ''path connected'' if, for every two points $$a,b \in X$$, there is a path in $$X$$ from $$a$$ to $$b$$.
+
+[[Definition for path|https://www.youtube.com/watch?v=DP0OELdzAZ8&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=9#t=53m54s]]
+
+[[Proposition|https://www.youtube.com/watch?v=DP0OELdzAZ8&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=9#t=57m55s]]: $$X$$ path-connected implies $$X$$ [[connected|Connected space]]. [[The other direction isn't true, but it's hard to find the counterexample|https://www.youtube.com/watch?v=DP0OELdzAZ8&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=9#t=1h2m30s]]. [[One example is|https://www.youtube.com/watch?v=DP0OELdzAZ8&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=9#t=1h11m20s]] the [[Ordered square]]. [[Another example|https://www.youtube.com/watch?v=t45NoydhMTY&index=10&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=56s]]

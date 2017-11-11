@@ -1,0 +1,58 @@
+created: 20170715170752924
+creator: cosmos
+modified: 20170728163057043
+modifier: cosmos
+tags: [[Reinforcement learning]]
+title: Model-based reinforcement learning
+tmap.id: 56620671-a8ab-4659-8502-6f56d0347e09
+type: text/vnd.tiddlywiki
+
+//aka [[Planning]]//
+
+Solving the [[Bellman equation]]s
+
+
+
+!!__[[Linear programming]]__
+
+!!__[[Dynamic programming]]__
+
+[[idea|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=13m05]]
+ -- [[Tradeoffs|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=1h01m45s]]. The idea is to solve consistency equations (derived by a [[look ahead tree|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h4m25s]] and [[principle of optimality|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h1m48s]]) iteratively (see [[Fixed-point iteration]]). -- [[Summary of methods|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h23m55s]]
+
+!!![[Neuro-dynamic programming|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=3m]]
+
+!!![[Policy iteration]]
+
+!!![[Value iteration]]
+
+[[Extensions to dynamic programming|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h29m]]:
+
+* [[Asynchronous dynamic programming (DP)|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h29m35s]]
+** [[In-place DP|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h30m52s]]
+** [[Prioritized sweeping|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h33m30s]]
+** [[Real-time dynamic programming|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h35m38s]]
+
+There are other algorithms described in the [[Wiki page|https://www.wikiwand.com/en/Reinforcement_learning]]:
+
+* Trust Region Policy Optimization [1]
+
+* Proximal Policy Optimization (i.e., TRPO, but using a penalty instead of a constraint on KL divergence), where each subproblem is solved with either SGD or L-BFGS
+
+* Cross Entropy Method
+
+|[[final comment on DP methods|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h36m30s]], DP uses full-width look ahead, plus it assumes we know dynamics. Instead we can [[sample|Monte Carlo]]) --> leads to [[Model-free reinforcement learning]]|
+
+!!!__Asynchronous DP__
+
+[[Real-time dynamic programming]] (RTDP), which uses [[On-policy trajectory sampling]]
+
+------------------
+
+!!__Combining [[model-free|Model-free reinforcement learning]] with model-based RL__
+
+https://deepmind.com/blog/agents-imagine-and-plan/ -- [[Learning model-based planning from scratch|https://arxiv.org/abs/1707.06170]]
+
+Using [[Generative model]]s, and [[Environment model]]s
+
+[[Empowerment]]

@@ -1,0 +1,14 @@
+created: 20170703165716279
+creator: cosmos
+modified: 20170703165909554
+modifier: cosmos
+tags: [[Model-free control]]
+title: Q-learning
+tmap.id: ac3bff1b-2730-4b64-bb7f-a452c56781ef
+type: text/vnd.tiddlywiki
+
+[[The idea that works best|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=1h28m45s]] is [[Q-learning]]. [[Most well-known Q-learning type|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=1h31m45s]], where we allow both behaviour and target policies to improve
+
+---------------
+
+aka SARSAMAX

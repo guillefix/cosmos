@@ -1,0 +1,15 @@
+created: 20170702200931282
+creator: cosmos
+modified: 20170702201943279
+modifier: cosmos
+tags: [[Viewing pipeline]]
+title: Depth buffer
+tmap.id: dc3e4f1e-acf2-4549-a4f9-d4ecf8708415
+type: text/vnd.tiddlywiki
+
+
+Algorithm for not show things which are occluded by other things
+
+[[video|https://www.youtube.com/watch?v=Xks1v4GNUiY&index=7&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=16m55s]]
+
+[[algorithm|https://www.youtube.com/watch?v=Xks1v4GNUiY&index=7&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=23m40s]]

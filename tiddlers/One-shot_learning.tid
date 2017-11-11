@@ -1,6 +1,6 @@
 created: 20161022120453899
 creator: cosmos
-modified: 20161104134331212
+modified: 20170901155801788
 modifier: cosmos
 tags: Learning [[Machine learning]]
 title: One-shot learning
@@ -15,3 +15,5 @@ people seem to learn rich concepts that generalize well from sparse data. See [e
 
 *[[Program induction]]
 ** [[Bayesian program learning]]
+
+See also [[Zero-shot learning]]

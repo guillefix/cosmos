@@ -1,6 +1,6 @@
 created: 20160810180536913
 creator: cosmos
-modified: 20170413115312083
+modified: 20171005183152321
 modifier: cosmos
 tags: Statistics
 title: Sufficient statistic
@@ -13,4 +13,10 @@ A sufficient statistic for random variable $$y$$ w.r.t to r.v. $$x$$ is a functi
 
 An equivalent formulation is given by the [[Data processing theorem]]. See page 35 on Elements of Information theory by Thomas and Clover
 
-A ''minimal sufficient statistic'' is a function of every other sufficient statistic.
+A [[Minimal sufficient statistic]] is a function of every other sufficient statistic. 
+
+The notion of minimal sufficient statistics was introduced by Lehmann and Scheff´e (Lehmann and Scheff´e, 1950) as the simplest sufficient statistics, or the coarsest sufficient partition of the sample space which captures the relevant components of the sample with respect to the parameter.
+
+An __equivalent definition__ is that $$ P(y|x,T) = P(y|T)$$, so that if we are given $$T$$, knowing $$x$$ doesn't change what we know about $$y$$. So $$T$$ is a sufficient statistic of $$y$$ w.r.t $$x$$. 
+
+Basically the first definition tells us that T tells us everything we need to know of y about x, and the second tells us that T tells us that knowing y or not is irrelevant for x, if we already know y, which makes sense if you think about it

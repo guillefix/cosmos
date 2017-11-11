@@ -1,0 +1,64 @@
+created: 20171016215237158
+creator: cosmos
+modified: 20171021212138950
+modifier: cosmos
+tags: [[Group theory]]
+title: Sylow theorems
+tmap.id: b7c99670-058a-4c4f-b0ad-77d9d284bdd1
+type: text/vnd.tiddlywiki
+
+[[Video|https://www.youtube.com/watch?v=NcKq1IdTotA&index=7&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=20m49s]].
+
+They describe subgroups $$H \subset G$$, $$G$$ finite group. where
+
+: $$|H| = p^m$$, $$p$$ a [[prime|Prime number]].
+
+!![[First Sylow theorem|https://www.youtube.com/watch?v=NcKq1IdTotA&index=7&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=24m]]
+
+Gives partial converse to [[Lagrange's theorem]]
+
+For $$p$$ a [[Prime number]]
+
+$$|G| = p^m r$$, where $$p$$ does not divide $$r$$.
+
+Then there is always a [[Subgroup]] with $$p^m$$ elements. Such subgroup is called [[Sylow p-group]].
+
+[[Precise statements|https://www.youtube.com/watch?v=NcKq1IdTotA&index=7&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=28m10s]].
+
+A corollary is [[Cauchy's theorem]]
+
+[[Corollary|https://www.youtube.com/watch?v=NcKq1IdTotA&index=7&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=1h4m]]. Let p be a prime, and G a group of order $$p^2$$. Then either $$G \cong Z/p^2 Z$$ or $$ \cong Z/pZ \times Z/pZ$$ ($$Z$$ [[Integer]]s). See [[Direct product of groups]].
+
+<small>Remember already know [[that if the order of a group is prime^2, then the group|https://www.youtube.com/watch?v=HSU2uYDL0Bc&index=5&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=24m19s]] is [[commutative|Abelian group]] (shown using [[Class equation]]). A particular example of a [[p-group]].</small> 
+
+[[Theorem|https://www.youtube.com/watch?v=NcKq1IdTotA&index=7&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=1h17m30s]]. Let $$p$$ be a prime, let $$G$$ be a group of order $$2p$$. Then either  $$G \cong Z/2pZ$$ ([[cyclic|Cyclic group]]) or $$G \cong D_p$$ ([[Dihedral group]]). [[Proof|https://www.youtube.com/watch?v=UMsLmlj9IC4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=8]]
+
+[[Proof of first Sylow theorem|https://www.youtube.com/watch?v=UMsLmlj9IC4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=8#t=54m45s]]. Uses some combinatorics, and the [[left multiplication action|Left translation action]] acting on subgroups of size $$p^m$$.
+
+!![[Second Sylow theorem|https://www.youtube.com/watch?v=UMsLmlj9IC4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=8#t=22m40s]]
+
+In particular it says, all Sylow subgroups are [[Conjugated]] to each other.
+
+Let subgroup $$K \subset G$$, whose order is divisible by $$p$$. Let $$H$$ be a Sylow p-subgroup of $$G$$. Then there is a conjugate subgroup $$H' = gHg^{-1}$$ of $$G$$, such that $$K \cap H'$$ is a p-Sylow subgroup of $$K$$.
+
+[[Corollaries|https://www.youtube.com/watch?v=UMsLmlj9IC4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=8#t=26m5s]].
+
+#Let $$K \subset G$$ be a subgroup which is a [[p-group]]. Then $$K$$ is contained in a p-Sylow subgroup of $$G$$.
+
+#The Sylow p-subgroups of $$G$$ are all conjugate
+
+As conjugation is bijection, the conjugate of a Sylow p-subgroup is a Sylow p-subgroup.
+
+[[Proof of second Sylow theorem|https://www.youtube.com/watch?v=UMsLmlj9IC4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=8#t=1h17m23s]]
+
+!![[Third Sylow theorem|https://www.youtube.com/watch?v=UMsLmlj9IC4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=8#t=37m13s]]
+
+Tells you something about how many Sylow p-subgroups. $$|G| = p^m r$$, $$p \nmid r$$ (does not [[Divide]]). Let $$s$$ be the number of Sylow p-subgroups. Then $$s$$ divides $$r$$, and $$s \cong 1 \text{ mod } p$$.
+
+[[Theorem|https://www.youtube.com/watch?v=UMsLmlj9IC4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=8#t=40m21s]]. Let $$G$$ be a group of order $$pq$$, $$p >q$$ both [[Prime number]]s. If $$q$$ does not divide $$p-1$$, then $$G$$ is [[cyclic|Cyclic group]].
+
+[[Proof of third Sylow theorem|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=2m34s]]
+
+--------
+
+[[Partial classification of finite groups of small order|https://www.youtube.com/watch?v=NcKq1IdTotA&index=7&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=1h19m10s]]. Classified all groups up to order 10 (except 8)

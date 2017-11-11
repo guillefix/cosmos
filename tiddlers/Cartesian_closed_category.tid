@@ -1,0 +1,11 @@
+created: 20171027145442770
+creator: cosmos
+modified: 20171027145537848
+modifier: cosmos
+title: Cartesian closed category
+tmap.id: 4dcdff35-5eea-49b7-b567-dc58c56b1139
+type: text/vnd.tiddlywiki
+
+A category that has a [[Terminal object]], binary [[Categorical product]]s and [[Categorical exponential]]s is called a ''cartesian closed category'' (CCC)
+
+See [[here|https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/handout_5.pdf#page=6]]

@@ -1,0 +1,24 @@
+created: 20170824195950993
+creator: cosmos
+modified: 20170824211151046
+modifier: cosmos
+tags: [[Linear programming]] [[Discrete optimization]]
+title: Linear programming relaxation
+tmap.id: 8989298c-1675-453b-97af-31f0deef9d55
+type: text/vnd.tiddlywiki
+
+Linear programming, best way of solving discrete Optimization problem.. either exactly (when the solution can be found polynomially), or approximately, when NP-hard. There is a conjecture that is unproved, to show this.
+
+[[Information Theory and Polyhedral Combinatorics|https://www.youtube.com/watch?v=MxLEticZ8RY]]
+
+http://sci-hub.cc/10.1109/allerton.2015.7447134. Extension theory
+
+ In Figure 1 we provide a simple
+example showing that higher dimensional representations
+may require fewer inequalities
+
+[img[linear_programming_extension.png]]
+
+https://en.wikipedia.org/wiki/Linear_programming_relaxation
+
+See [[Linear programming]]

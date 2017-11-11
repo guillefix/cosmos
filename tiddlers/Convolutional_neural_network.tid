@@ -1,6 +1,6 @@
 created: 20160328184231393
 creator: guillefix
-modified: 20170506234112451
+modified: 20170829221356545
 modifier: cosmos
 tags: [[Artificial neural network]]
 title: Convolutional neural network
@@ -17,7 +17,13 @@ http://cs231n.stanford.edu/syllabus.html
 
 !!![ext[Convnet demo on the web!|http://scs.ryerson.ca/~aharley/vis/conv/]] [ext[details here|http://scs.ryerson.ca/~aharley/vis/]]
 
+See [[this review|http://sci-hub.io/10.1109/msp.2017.2693418]] of [[Geometric deep learning]] for understanding why CNNs work, and other new related models
+
 [[[MISS 2016] Andrea Vedaldi - Advanced Convolutional Neural Networks|https://www.youtube.com/watch?v=SceY4Xnz104]]
+
+[[Spatial transformer network|https://arxiv.org/abs/1506.02025]] -- a variant to allow for more general invariances to spatial transformations of the data
+
+-----------------------
 
 [img[http://scs.ryerson.ca/~aharley/vis/images/convnet_480.png]]
 
@@ -99,6 +105,11 @@ Document models (Misha Denil)
 [[Deep dream]]
 
 [[Neural style]]
+
+!!!__Stability to local input perturbations__
+
+if one specifies the convolutional tensors to be complex wavelet decomposition operators and uses complex modulus as pointwise nonlinearities, one can provably obtain stability to local deformations [ext[(17)|https://www.di.ens.fr/~mallat/papiers/ScatCPAM.pdf]] . Although this stability is not rigorously proved for generic compactly supported convolutional tensors, it underpins the empirical success of CNN architectures across a variety of computer-vision applications [1] . See [[here|http://sci-hub.io/10.1109/msp.2017.2693418]]
+.
 
 ---------------------------------
 

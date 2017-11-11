@@ -1,0 +1,13 @@
+created: 20171024223839776
+creator: cosmos
+modified: 20171024223922632
+modifier: cosmos
+title: Affine combination
+tmap.id: e48a058e-265e-4876-8103-c9e62ab75234
+type: text/vnd.tiddlywiki
+
+[[Linear combination]] where all coefficients sum to one
+
+https://en.wikipedia.org/wiki/Affine_combination
+
+if all coefficients are positive, then it is a [[Convex combination]]

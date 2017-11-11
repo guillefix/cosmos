@@ -1,0 +1,20 @@
+created: 20171008212340131
+creator: cosmos
+modified: 20171016215233898
+modifier: cosmos
+tags: [[Group action]]
+title: Conjugation action
+tmap.id: 20e5fb33-9f0b-4f56-b4d7-e293e4a3af18
+type: text/vnd.tiddlywiki
+
+[[Defintion|https://www.youtube.com/watch?v=HSU2uYDL0Bc&index=5&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=11m40s]]
+
+The [[orbit|Group orbit]]s under these action are the [[Conjugacy class]]es.
+
+The [[stabilizer|Stabilizer subgroup]] is the [[Centralizer]]
+
+The [[Orbit-stabilizer theorem]] for the conjugation action becomes the [[Class equation]]
+
+[[Def|https://www.youtube.com/watch?v=NcKq1IdTotA&index=7&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS#t=11m15s]]. Let $$H \subset G$$ [[Subgroup]]. For every $$$g \in G$$, we can define the [[Conjugate subgroup]] $$gHg^{-1} = \{ ghg^{-1}| h \in H\}$$.
+
+The [[Stabilizer subgroup]] for the conjugation action is called the [[Normalizer subgroup]]

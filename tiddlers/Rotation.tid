@@ -1,0 +1,16 @@
+created: 20170702114803034
+creator: cosmos
+modified: 20171103135920664
+modifier: cosmos
+tags: Kinetmatics [[Spatial transformation]]
+title: Rotation
+tmap.id: 97ee264f-c82a-4cf9-9b7b-78da67db04c6
+type: text/vnd.tiddlywiki
+
+
+
+[[Gimbal lock|https://gamedev.stackexchange.com/questions/45292/how-is-the-gimbal-locked-problem-solved-using-accumulative-matrix-transformation]] when using [[Rotation matrix]]es
+
+see here: [[Rotation about an arbitrary axis|https://www.youtube.com/watch?v=gRVxv8kWl0Q&index=4&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g]] (video)
+
+!!__[[Quaternion]]__

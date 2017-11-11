@@ -1,0 +1,13 @@
+created: 20170925150827259
+creator: cosmos
+modified: 20170925150845270
+modifier: cosmos
+title: Immediate predecessor
+tmap.id: 97cebd56-04a0-4b97-be61-4f3e71512462
+type: text/vnd.tiddlywiki
+
+If $$X$$ is a [[Set]] and $$<$$ is an [[Ordering]] on $$X$$, and if $$a<b$$, we use the notation $$(a,b)$$ to denote the set
+
+:$$\{x |a<x<b\}$$;
+
+it is called an [[Open interval]] in $$X$$. If this set is empty, we call $$a$$ the ''Immediate predecessor'' of $$b$$

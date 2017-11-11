@@ -1,0 +1,26 @@
+created: 20171006211933520
+creator: cosmos
+modified: 20171008170906303
+modifier: cosmos
+tags: Subgroup
+title: Normal subgroup
+tmap.id: 5d0d8a0d-8223-4f95-a973-53df5094db47
+type: text/vnd.tiddlywiki
+
+[[Motivation|https://www.youtube.com/watch?v=7ou-_sXqatk&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=2#t=1h5m57s]]
+
+[[Definition|https://www.youtube.com/watch?v=7ou-_sXqatk&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=2#t=1h14m30s]]
+
+Any subgroup $$H \subset G$$ such that for all $$h \in H$$ and $$a \in G$$, 
+
+$$aha^{-1} \in H$$
+
+That is, it is invariant under //conjugation// with elements of the parent group
+
+If G is [[Abelian group]] then all subgroups are normal.
+
+If the only normal subgroups are $$\{1\}$$ and $$G$$, the group is called [[simple|Simple group]].
+
+[[Proposition|https://www.youtube.com/watch?v=7ou-_sXqatk&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=2#t=1h23m22s]]. The [[Quotient set]] for a normal subgroup is a group, called the [[Quotient group]]
+
+[[lemma|https://www.youtube.com/watch?v=TAxzcrYc7L4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&t=76#t=33m]]. The [[Canonical projection]] for the [[Quotient group]] is a [[Group homomorphism]]

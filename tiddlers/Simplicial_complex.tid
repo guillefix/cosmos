@@ -1,0 +1,23 @@
+created: 20171027224005330
+creator: cosmos
+modified: 20171031150521341
+modifier: cosmos
+tags: Topology
+title: Simplicial complex
+tmap.id: 4c0729ce-5272-4dd8-8d45-a444c518964f
+type: text/vnd.tiddlywiki
+
+See definition and examples [[here|https://courses.maths.ox.ac.uk/node/view_material/33583#page=8]]. An ''abstract simplicial complex'' $$K$$ is just a set of points and subsets of these points satisfying some simple conditions. Its ''topological realization'', denoted $$|K|$$, is a corresponding [[Topological space]] gotten from the disjoint union of simplices associated with these subsets, quotient certain inclusion relations (similar but not the same as [[Delta-complex]]es).
+
+We also define a [[Triangulation]] of a space, as well as [[Simplicial map]]s between simplicial complexes.
+
+A more flexible way of constructing topological spaces are [[CW complex]]es.
+
+Can be used to calculate [[Fundamental group]]s
+
+-----------
+
+Traditionally, simplicial homology is defined for simplicial complexes, which are
+the [[∆ complexes|Delta-complex]] whose simplices are uniquely determined by their vertices. This
+amounts to saying that each n simplex has n + 1 distinct vertices, and that no other
+n simplex has this same set of vertices.

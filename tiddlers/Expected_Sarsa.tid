@@ -1,0 +1,10 @@
+created: 20170715183328642
+creator: cosmos
+modified: 20170715183556652
+modifier: cosmos
+tags: [[Off-policy learning]]
+title: Expected Sarsa
+tmap.id: fc74116e-a97c-4747-98bc-3bf46b9ed1aa
+type: text/vnd.tiddlywiki
+
+Like [[Sarsa]] but where the last term of the value of the last visited [[State-action pair]] is actually averaged over states, using a target policy (in [[Off-policy learning]])

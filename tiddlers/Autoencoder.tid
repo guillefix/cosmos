@@ -1,6 +1,6 @@
 created: 20160919105809475
 creator: cosmos
-modified: 20161214001216391
+modified: 20171004213504560
 modifier: cosmos
 tags: [[Unsupervised learning]]
 title: Autoencoder
@@ -40,3 +40,5 @@ http://deeplearning.net/tutorial/dA.html
 https://www.wikiwand.com/en/Autoencoder
 
 http://ufldl.stanford.edu/tutorial/unsupervised/Autoencoders/
+
+The[[Information bottleneck]] seems to be basically the principle behind autoencoders

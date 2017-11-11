@@ -1,17 +1,19 @@
 created: 20160629012420272
 creator: guillefix
-modified: 20161104134327592
-modifier: guillefix
+modified: 20171027191207209
+modifier: cosmos
 title: Computer architecture
 tmap.id: 49b6de90-5d35-4cc6-ba78-c4f264f30aca
 type: text/vnd.tiddlywiki
 
 http://nptel.ac.in/courses/106104122/
 
-[[MIT 6.004: Computation Structures|https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-]]
+[ext[MIT 6.004: Computation Structures|https://www.youtube.com/playlist?list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-]]
 
 [[Spring 2013 -- Computer Architecture -- Carnegie Mellon|https://www.youtube.com/playlist?list=PL5PHm2jkkXmidJOd59REog9jDnPDTG6IJ]]
 
 https://class.coursera.org/comparch-003/lecture
 
 See also [[Software engineering]]
+
+[[In-memory computing|http://www.kurzweilai.net/ibm-scientists-say-radical-new-in-memory-computing-architecture-will-speed-up-computers-by-200-times?utm_source=KurzweilAI+Daily+Newsletter&utm_campaign=d6145c7e5f-UA-946742-1&utm_medium=email&utm_term=0_6de721fb33-d6145c7e5f-282085521]]

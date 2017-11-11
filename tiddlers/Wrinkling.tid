@@ -1,0 +1,18 @@
+created: 20170702115854545
+creator: cosmos
+modified: 20170702123645612
+modifier: cosmos
+tags: Deformation
+title: Wrinkling
+tmap.id: 11c9aab0-7ac4-4642-abee-3aabcb8bbfcd
+type: text/vnd.tiddlywiki
+
+[[Geometry and Physics of Wrinkling|https://www.seas.harvard.edu/softmat/downloads/2003-03.pdf]]
+
+[[Shaping of Elastic Sheets by Prescription of Non-Euclidean Metrics|http://science.sciencemag.org/content/315/5815/1116]]
+
+Rather than aiming at a specific embedding, one prescribes on the sheet only a 2D metric, the “target metric” gtar, one that results in a nonzero Gaussian curvature (a non-Euclidean metric). A sheet adopting a configuration (embedding) satisfying gtar would have been completely free of inplane strain, that is, stretching energy. The free sheet will settle to a 3D configuration that minimizes its elastic energy. In this mechanism, the selected configuration is set by the competition between bending and stretching energies, and its metric will be close to (but different from) gtar.
+
+The "target metric" is the metric which defines the equilibrium distances between points for a given sheet. If the real distances (given by an embedding in Euclidean R^3 space) are different from these, then the differences represent stresses tangential to the surface.
+
+On the other hand, the embedding may have curvatures given by the [[Principal curvature]]s, which are not completely specified by the metric. These bendings also require energy (think of the stretching of different layers in a surface of finite thickness). The interplay between these will determine the shape at equilibrium

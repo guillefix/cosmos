@@ -1,0 +1,35 @@
+created: 20170702125251381
+creator: cosmos
+modified: 20170927230407291
+modifier: cosmos
+tags: [[Camera (computer graphics)]] [[Viewing pipeline]]
+title: Camera transform
+tmap.id: 31926b9a-3a6c-45e7-96c0-8ce5266c94b9
+type: text/vnd.tiddlywiki
+
+[[Video|https://www.youtube.com/watch?v=mpTl003EXCY&index=5&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=12m50s]] -- [[vid2|https://www.youtube.com/watch?v=og7hOFypKpQ&index=6&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=9m30s]]
+
+# [[First|https://www.youtube.com/watch?v=og7hOFypKpQ&index=6&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=5m50s]] place the camera at origin, and rotates it so that the direction vector coincides with the negative z axis, and the up vector coincides with the y axis.
+
+# Convert things in the viewing volume of the [[camera|Camera (computer graphics)]] (which is a [[Truncated pyramid]])  to [[Image space]] (which is a [[Cube]]) in homogeneous coordinates. This is the [[Viewing transformation]]
+
+# Divide by the fourth component in homogeneous coordinates to get back to [[Cartesian coordinate]]s in [[Image space]]
+
+The camera transform corresponds to these steps ([[vid|https://www.youtube.com/watch?v=og7hOFypKpQ&index=6&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=9m30s]])
+
+https://en.wikipedia.org/wiki/Camera_matrix
+
+See [[Vertex shader]], for more, about how it fits into the graphics pipeline
+
+!!!__[[Viewing transformation]]__
+
+After the camera is in the origin is rightly oriented (pointed along the negative z direction, and up direction along y direction), we then vonvert things in the viewing volume of the [[camera|Camera (computer graphics)]] (which is a [[Truncated pyramid]])  to [[Image space]] (which is a [[Cube]]).
+
+|This transformation is done so that the [[Stereographic projection]] that would have been necessary to project into the //image plane// in the original space, now becomes a [[Perpendicular projection]] in the image space!|
+
+[[This can be done with a 4x4 matrix|https://www.youtube.com/watch?v=mpTl003EXCY&index=5&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=16m]] -- [[this is the beginning of the matrix|https://www.youtube.com/watch?v=mpTl003EXCY&index=5&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=21m]] -- [[this is the rest of the matrix|https://www.youtube.com/watch?v=mpTl003EXCY&index=5&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=37m]]
+
+-----------------------------
+
+
+After the camera transform, one [[projects points in image space|https://www.youtube.com/watch?v=og7hOFypKpQ&index=6&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=13m]] perpendicularly to the $$x-y$$ plane, called the [[Screen space]]

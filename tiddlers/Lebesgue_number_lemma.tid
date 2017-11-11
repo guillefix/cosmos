@@ -1,0 +1,16 @@
+created: 20171011124336550
+creator: cosmos
+modified: 20171011124927432
+modifier: cosmos
+tags: Compactness
+title: Lebesgue number lemma
+tmap.id: e1ac3176-9cf6-4e32-82f5-a8986859b0e2
+type: text/vnd.tiddlywiki
+
+[[Theorem|https://www.youtube.com/watch?v=9T-qLhrr_Aw&index=12&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=24m15s]]
+
+Let $$\mathcal{A}$$ be an [[Open cover]] of the [[compact|Compact space]], [[metric|Metrizable]] sppace $$X$$. Then there exists a $$\delta > 0$$ (a ''Lebesgue number'' associated to the open covering $$\mathcal{A}$$) such that:
+
+: every subset of $$X$$ with a [[diameter|Diameter]] $$<\delta$$ is contained in at least one $$A \in \mathcal{A}$$
+
+[[Proof|https://www.youtube.com/watch?v=9T-qLhrr_Aw&index=12&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=28m14s]]. It is enough to assume [[Sequentially compact]] actually.

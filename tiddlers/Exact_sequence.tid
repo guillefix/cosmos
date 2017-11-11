@@ -1,0 +1,37 @@
+created: 20171028175116690
+creator: cosmos
+modified: 20171029104432588
+modifier: cosmos
+tags: Homology
+title: Exact sequence
+tmap.id: ce2dd64d-b31c-4fbf-9bcd-20095ca81999
+type: text/vnd.tiddlywiki
+
+
+A sequence of [[Homomorphism]]s
+
+$$... \to A_{n+1} \to_{\alpha_{n+1}} A_n \to_{\alpha_n} A_{n-1} \to ...$$
+
+is said to be ''exact'' if $$Ker{\:\alpha_n} = Im{\:\alpha_{n+1}}$$ (where these refer to the [[Kernel]] and the [[image|Image of a subset]]).
+
+This chain is a [[Chain complex]], whose [[Homology group]]s are [[trivial|Trivial group]].
+
+In [[Homology]] theory, exact sequences help in determining the relation between homologry groups of subspaces.
+
+See [ext[here|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=123]] for some properties and definition of [[Short exact sequence]]
+
+__[[Homology long exact sequence]]__
+
+Theorem 2.13 ([ext[book|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=123]]) gives a //long exact sequence// for the [[Reduced homology group]]s of a space, subspace, and quotient space.
+
+[img[homology_long_exact_sequence.png]]
+
+[[Long Exact Sequence of Pair|https://www.youtube.com/watch?v=1HmV2ngb0wc&list=PL7BFF10190F42006E&index=26]]
+
+short exact sequence of chain complexes. when we
+pass to homology groups, this short
+exact sequence of chain complexes stretches out into a long exact sequence of homology groups
+
+------------
+
+https://en.wikipedia.org/wiki/Exact_sequence

@@ -1,0 +1,11 @@
+created: 20170704234202324
+creator: cosmos
+modified: 20170704234221659
+modifier: cosmos
+tags: Cryptography
+title: Digital signature
+tmap.id: e08cd5db-f94f-4971-aa79-f9a0e6e2ffd2
+type: text/vnd.tiddlywiki
+
+
+Uses same asymmetric encryption than [[RSA cryptography]]

@@ -1,6 +1,6 @@
 created: 20160206002729639
 creator: guillefix
-modified: 20161104134327809
+modified: 20171016160952393
 modifier: cosmos
 tags: [[Data & Knowledge]]
 title: Data visualization
@@ -8,6 +8,10 @@ tmap.id: 7ff3c81d-162c-426c-b114-dc8e97ef8882
 type: text/vnd.tiddlywiki
 
 http://www.visualcomplexity.com/vc/
+
+https://python-graph-gallery.com/
+
+History of data visualization and [[Infographics]]: http://infowetrust.com/scroll/
 
 See also [[Graphics and visualization web libraries]]
 
@@ -17,4 +21,8 @@ See [[Visualization tools]]
 
 [[Self-organizing map|https://en.wikipedia.org/wiki/Self-organizing_map]] related to [[Artificial neural network]]s
 
-http://www.science.smith.edu/~amcnamara/FoSP.html
+[ext[http://www.science.smith.edu/~amcnamara/FoSP.html]]
+
+----------------
+
+[[Structure and Dynamics of Information Pathways in On-line Media|http://snap.stanford.edu/infopath/]]

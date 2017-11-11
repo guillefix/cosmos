@@ -1,0 +1,24 @@
+created: 20171106110404635
+creator: cosmos
+modified: 20171106150238274
+modifier: cosmos
+tags: [[Vector space]]
+title: Tensor product
+tmap.id: dd833944-26af-46d3-af56-ff3eeb33573e
+type: text/vnd.tiddlywiki
+
+The ''tensor product'' $$V \otimes W$$ of two [[Vector space]]s $$V$$ and $$W$$ is a vector space with basis given by $$v_i \otimes w_j$$, where $$v_i$$ and $$w_j$$ are a [[basis|Basis of a vector space]] of $$V$$ and $$W$$, respectively. 
+
+We can also define an [[operation|Operation (Mathematics)]] $$\otimes: V\times W \to V \otimes W$$, which takes $$v \in V$$ and $$w\in W$$ to $$v \otimes w \in V \otimes W$$, and which is [[bilinear|Bilinear operation]].
+
+In terms of [[Category theory]], it can be defined as being the vector space $$V\otimes W$$ which has a universal property that if $$B: V \times W \to U$$ is a bilinear map to a vector space $$U$$ then there is a unique linear map $$\beta: V \otimes W \to U$$ such that $$B(v,w) = \beta(v \otimes w)$$.
+
+We can also define $$V \otimes W$$ as the dual space of the space of bilinear forms on $$V \times W$$.
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=33]].
+
+We can extend the product to products of many vector spaces. We write $$\otimes^p V = V \otimes ... \otimes V$$ ($$p$$ times). With the [[Direct sum]] of these we can construct the [[Tensor algebra]].
+
+Tensor and wedge products are [[Functorial]] under [[Linear map]]s
+
+Can also extend tensor product to [[Vector bundle]]s

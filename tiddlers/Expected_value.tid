@@ -1,0 +1,12 @@
+created: 20171010154042694
+creator: cosmos
+modified: 20171010154415964
+modifier: cosmos
+tags: [[Moment (mathematics)]]
+title: Expected value
+tmap.id: e9213bfb-7c15-44d6-9a41-5e524701ba77
+type: text/vnd.tiddlywiki
+
+$$E[x] = \sum_x p(x) x$$
+
+(for [[Discrete random variable]]s)

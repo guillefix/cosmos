@@ -1,0 +1,24 @@
+created: 20170926180744467
+creator: cosmos
+modified: 20170930232509528
+modifier: cosmos
+tags: Analysis [[Compact space]]
+title: Extreme value theorem
+tmap.id: b69aa2ca-9b6a-4024-9a30-3cf938096a85
+type: text/vnd.tiddlywiki
+
+//aka Maximum and minimum value theorem//
+
+[[video|https://www.youtube.com/watch?v=4lrmr61S03I&index=11&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h21m14s]]. 
+
+Let $$f: X \rightarrow Y$$ be [[continuous|Continuous function]] where $$Y$$ is [[ordered|Ordering]], with the [[Order topology]]. If $$X$$ is [[compact|Compact space]], then there are points $$c,d \in X$$ such that $$f(c) \leq f(x) \leq f(d)$$, $$\forall x \in X$$. 
+
+"$$f$$ has a maximum and a minimum".
+
+Proof: the image of a compact set is compact. A compact set in an order topology is clearly bounded. It is also closed because the order topology is Hausdorff (?)
+
+Similar to the [[Intermediate value theorem]]
+
+---------------
+
+https://en.wikipedia.org/wiki/Extreme_value_theorem

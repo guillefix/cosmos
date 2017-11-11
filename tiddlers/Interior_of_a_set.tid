@@ -1,0 +1,12 @@
+created: 20170821185712745
+creator: cosmos
+modified: 20170821185947047
+modifier: cosmos
+tags: 
+title: Interior of a set
+tmap.id: 75ae19e9-89d1-4425-ba9a-7153301eddd7
+type: text/vnd.tiddlywiki
+
+For a set A in a [[Topological space]], [[its interior is the union of all|https://www.youtube.com/watch?v=28BluiBRdUk&index=3&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=41m]] [[Open set]]s contained in A, so it is also the largest [[Open set]] contained in A.
+
+Compare with [[Closure of a set]]

@@ -1,0 +1,10 @@
+created: 20171003221727585
+creator: cosmos
+modified: 20171012113105889
+modifier: cosmos
+tags: Group
+title: Subgroup
+tmap.id: 3a0179be-46e9-4b55-bd80-d524022b7c1a
+type: text/vnd.tiddlywiki
+
+A subset of a group, such that the restricted operation makes the set still a [[Group]]

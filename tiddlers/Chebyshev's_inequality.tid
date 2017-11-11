@@ -1,0 +1,18 @@
+created: 20170916010525193
+creator: cosmos
+modified: 20171031144852310
+modifier: cosmos
+tags: [[Probability theory]]
+title: Chebyshev's inequality
+tmap.id: 35e783d4-845f-49a0-adc5-de77741e933b
+type: text/vnd.tiddlywiki
+
+
+
+https://en.wikipedia.org/wiki/Chebyshev%27s_inequality
+
+$$\Pr(|X-\mu |\geq k\sigma )\leq {\frac {1}{k^{2}}}$$
+
+Related to [[Markov's inequality]]
+
+See also [[Chernoff bound]]

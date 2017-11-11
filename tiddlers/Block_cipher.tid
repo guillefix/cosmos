@@ -1,0 +1,10 @@
+created: 20170706104937640
+creator: cosmos
+modified: 20170706110451436
+modifier: cosmos
+tags: Cipher
+title: Block cipher
+tmap.id: 97842263-b60e-480e-a222-0161d9de8e71
+type: text/vnd.tiddlywiki
+
+ . They [[encrypt|Encryption]] blocks of bits at a time

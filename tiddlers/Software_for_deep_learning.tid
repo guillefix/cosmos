@@ -1,12 +1,16 @@
 created: 20160709025345383
 creator: guillefix
-modified: 20170420102527553
+modified: 20170908120541021
 modifier: cosmos
 title: Software for deep learning
 tmap.id: 54625cc1-a5db-494f-b5b6-6cba39f4a9e3
 type: text/vnd.tiddlywiki
 
 [[Deep learning on the browser]]
+
+https://machineui.co/
+
+Pytorch
 
 [[Torch|http://torch.ch/docs/getting-started.html#_]], [[TensorFlow|https://www.tensorflow.org/]] , [[theano|http://deeplearning.net/software/theano/]], Keras, Lasagne, MatConvNet. Caffe ([[Caffe on windows|https://github.com/BVLC/caffe/tree/windows]]). [[Deeplearning4j|http://deeplearning4j.org/?utm_source=Reddit&utm_medium=CPC&utm_campaign=DL4J]] (Java, Scala..)
 

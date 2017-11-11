@@ -1,6 +1,6 @@
 created: 20161018192219155
 creator: cosmos
-modified: 20170430140110581
+modified: 20170905223624847
 modifier: cosmos
 title: Feature learning
 tmap.id: 44d91de1-6d1d-4b3a-882c-4345c8fbaeed
@@ -14,4 +14,10 @@ Often uses [[Unsupervised learning]], and in particular [[Generative model]]s.
 
 [[GANs for feature learning|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=33m25]]
 
-[[Learning Features by Watching Objects Move|https://people.eecs.berkeley.edu/~pathak/unsupervised_video/]]
+[ext[Learning Features by Watching Objects Move|https://people.eecs.berkeley.edu/~pathak/unsupervised_video/]]
+
+!!!Very related to [[Dimensionality reduction]]
+
+[[node2vec: Scalable Feature Learning for Networks|http://snap.stanford.edu/node2vec/]]
+
+[[Feature Learning in Multi-Layer Networks|http://snap.stanford.edu/ohmnet/]]

@@ -1,6 +1,6 @@
 created: 20160705105819540
 creator: guillefix
-modified: 20170417114119714
+modified: 20171015174821726
 modifier: cosmos
 title: Fano's inequality
 tmap.id: fa7c533a-e16c-40ec-a7cf-6d1d184875af
@@ -19,4 +19,4 @@ that for two i.i.d. random variables $$X$$ and $$X'$$:
 
 $$P(X=X')\geq2^{-H(X)}$$
 
-with equality iff X is uniformly distributed
+with equality iff X is uniformly distributed.

@@ -1,0 +1,14 @@
+created: 20170717132516939
+creator: cosmos
+modified: 20170717132520805
+modifier: cosmos
+tags: Planning
+title: Decision-time planning
+tmap.id: ed12db0d-cb67-45c8-9eee-5e999c23e39c
+type: text/vnd.tiddlywiki
+
+Planning which occurs when going to decide which action to take every time a new state is visited. The [[backups|Value function backup]] performed focus forward from states which most affect the current state (i.e. those that are likely to occur in the future).
+
+* [[Heuristic search]]
+* [[Rollout algorithm]]
+** [[Monte Carlo tree search]]

@@ -1,6 +1,6 @@
 created: 20160221181117472
 creator: guillefix
-modified: 20170129123208777
+modified: 20170930120404133
 modifier: cosmos
 tags: Engineering [[Scientific computing]] [[Operations research]] [[Mathematical methods]]
 title: Optimization
@@ -54,7 +54,9 @@ One can also have equality constraints, apart from inequalities.
 
 Has applications in [[Support vector machine]]s. The reasons we use the dual problem is that it has many useful properties, I think it is convex?
 
-!!!__[[Linear programming]]__: [[Linear|Linearity]] objective and constraint functions. Used in [[Operations research]]
+!!!__[[Linear programming]]__: [[Linear|Linearity]] objective and constraint functions.
+
+Used in [[Operations research]]. Can be used to solve (either exactly or approximately) some discrete optimization problems. See [[Linear programming relaxation]]
 
 !!!__''Nonlinear programming''__
 
@@ -72,21 +74,23 @@ http://mat.gsia.cmu.edu/classes/QUANT/NOTES/chap4/node6.html
 
 Good explanation of inequality constraints using an extension of Lagrange multipliers. Think of planes in 3D as constraint surfaces for intuition on equation! Delta f should be perpendicular to hypersurface defined by constraints.
 
-!!--__[[Local optimization]]__
-
-{{Local optimization}}
-
-[[More things on optimization|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=56m20s]]
-
 !__[[Discrete optimization]]__
 
 !!!__Discrete optimizatino using energy minimization__
 
 Can formulate discrete optimization as an [[Energy minimization|http://mpawankumar.info/teaching/cdt-optimization/lecture2_2.pdf]] problem on a set of random variables which can take values in a discrete set. This can be formulated as a [[Graphical model]]. [[Energy-based model]], [[Ising model]]..
 
+!!!__[[Linear programming relaxation]]__
+
+!!--__[[Local optimization]]__
+
+{{Local optimization}}
+
+[[More things on optimization|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=56m20s]]
+
 -------------
 
-!!--__Heuristic optimization__
+!!--__[[Heuristic optimization]]__
 
 [[Evolutionary computing]]
 

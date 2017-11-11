@@ -1,13 +1,13 @@
 created: 20170206161117594
 creator: cosmos
-modified: 20170206165451387
+modified: 20171101161620912
 modifier: cosmos
 tags: [[Public-key cryptography]]
 title: RSA cryptography
 tmap.id: f1841c3d-b552-4aa4-adfd-d919da94bcc5
 type: text/vnd.tiddlywiki
 
-
+See [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture05.pdf]] for an explanation of the [[Discrete cube root]] problem which is the basis of RSA. It assumes that factoring the product of two big prime numbers is hard.
 
 -------------
 

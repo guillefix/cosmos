@@ -1,0 +1,26 @@
+created: 20171103121433256
+creator: cosmos
+modified: 20171103125820826
+modifier: cosmos
+tags: [[Knot theory]]
+title: Knot equivalence
+tmap.id: 317c407e-0e77-4fde-b0c0-cb88fd28f4df
+type: text/vnd.tiddlywiki
+
+//aka equivalence of links..//
+
+The natural notion of equilance of [[Knot]]s and [[link|Link (knot theory)]]s
+
+Two knots are equivalent if there is a [[Homotopy]] $$F:[0,1]\times \mathbb{R}\to \mathbb{R}^3$$ between functions producing the knots (remember the knot is defined as the image of a path function), such that for each $$t$$, $$F(\mathbb{R},t)$$ is a knot itself. Basically these are homotopies where you don't allow self-crossings
+
+The definition of equivalence of links is like this, but with a homotopy for each of the link components, and with the condition that the set of components remains a link all through the transformation.
+
+See [ext[here|http://homepages.abdn.ac.uk/r.hepworth/pages/files/Knots_Notes.pdf#page=2]] and [[here|https://www.youtube.com/watch?v=461laq45-xU]].
+
+!![[Reidemeister theorem]]
+
+----------
+
+[[Equivalence of links|Knot equivalence]] and [[Reidemeister theorem]] extend for [[Oriented link]]s.
+
+We now require the homotopy between functions producing the oriented link components, but we now remember that an oriented link is not just the image of the function, but also its direction (given by, say the sign of the tangent vector at any point, for the given function/parametrization, remembering that the conditions don't allow sign changes).

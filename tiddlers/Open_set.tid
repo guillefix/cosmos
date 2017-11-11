@@ -1,6 +1,6 @@
 created: 20170628125804580
 creator: cosmos
-modified: 20170628131350462
+modified: 20170824160134017
 modifier: cosmos
 tags: Topology Analysis
 title: Open set
@@ -10,3 +10,5 @@ type: text/vnd.tiddlywiki
 A set of a [[Topology]]
 
 [[definition|https://www.youtube.com/watch?v=PXIcas22MtQ&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=47m50s]] in the [[Standard topology]] in [[Real analysis]]
+
+An open set which contains a particular point is called a ''neighbourhood'' of that point

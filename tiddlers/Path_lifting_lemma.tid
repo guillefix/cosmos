@@ -1,0 +1,14 @@
+created: 20171017161848609
+creator: cosmos
+modified: 20171017162632630
+modifier: cosmos
+tags: Covering
+title: Path lifting lemma
+tmap.id: 7d2f0237-d118-4128-96b6-d8134d22a512
+type: text/vnd.tiddlywiki
+
+[[Video|https://www.youtube.com/watch?v=D6MF_RZiNd8&index=17&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=43m10s]]
+
+Let $$p: E \to B$$ be a [[Covering]], with $$p(e_0) = b_0$$. Then any [[path|Continuous path]] $$f: [0,1] \to B$$, with initial $$f(0) = b_0$$, has a unique [[lifting|Lifting of a map to a covering space]] to a path $$\tilde{f}: [0,1] \to E$$ such that $$\tilde{f}(0) = e_0$$.
+
+[[Proof|https://www.youtube.com/watch?v=D6MF_RZiNd8&index=17&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=47m15s]].

@@ -1,0 +1,20 @@
+created: 20171020130728679
+creator: cosmos
+modified: 20171020150645919
+modifier: cosmos
+tags: [[Liquid crystals]]
+title: Cholesteric phase
+tmap.id: 91f91aa9-2286-4dbe-86a0-0b26cbda2080
+type: text/vnd.tiddlywiki
+
+Nematic vector rotates between layers with nematic order.
+
+WIth liquid crystals where particles/molecules are [[Chiral]]
+
+Extra term in [[Free energy]] (see [[Liquid crystals]])
+
+Use [[Density functional theory]] to calculate elastic constants, using some approximations for weak chirality...
+
+Fluctuations for flexible rods can have a very big effect on chiral order...
+
+How to helical/chiral shapes interlock/interact? what if they are flexible?

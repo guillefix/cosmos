@@ -1,0 +1,13 @@
+created: 20170702124657319
+creator: cosmos
+modified: 20170702192511187
+modifier: cosmos
+tags: [[Computer graphics]]
+title: Image space
+tmap.id: 5b129e7a-4ad2-4cc3-95ab-b25ff5d62cb6
+type: text/vnd.tiddlywiki
+
+//(same as clipspace?)//
+
+Convert things in the viewing volume of the camera (which is a [[Truncated pyramid]]) 
+ to [[Image space]] (which is a [[Cube]] centered at the origin and of side $$2$$). This is known as the [[Camera transformation]]

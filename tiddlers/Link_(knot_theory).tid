@@ -1,0 +1,22 @@
+created: 20171103120545030
+creator: cosmos
+modified: 20171103123442250
+modifier: cosmos
+tags: [[Knot theory]]
+title: Link (knot theory)
+tmap.id: 3a89b87a-e67f-4a36-8fa3-a3bf3462bc7e
+type: text/vnd.tiddlywiki
+
+[[Definition of link|https://www.youtube.com/watch?v=-enjYXNziTU]], as a collection of [[Knot]]s, called the //components// of the links.
+
+A [[Knot]] itself is a special case of link
+
+__Examples__
+
+* Trivial link
+
+* Hopf pink
+
+* Whitehead link
+
+* [[Borromean rings]]

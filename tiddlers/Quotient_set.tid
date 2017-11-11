@@ -1,0 +1,17 @@
+created: 20171003223548983
+creator: cosmos
+modified: 20171024151021624
+modifier: cosmos
+tags: [[Equivalence relation]]
+title: Quotient set
+tmap.id: 8ea1fbbf-269e-4f94-8850-69f0d466011d
+type: text/vnd.tiddlywiki
+
+
+The codomain of the [[Canonical projection]]
+
+!!__Quotient spaces__
+
+Often we define quotients of spaces (sets with extra structure).
+
+An example is the [[Quotient group]]

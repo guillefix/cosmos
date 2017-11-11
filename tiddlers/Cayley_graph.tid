@@ -1,0 +1,12 @@
+created: 20171031100549628
+creator: cosmos
+modified: 20171031100636542
+modifier: cosmos
+tags: [[Geometric group theory]]
+title: Cayley graph
+tmap.id: bc469762-5708-4b3c-b86f-e8c99712f54f
+type: text/vnd.tiddlywiki
+
+A graph representing the elements of a [[Finitely generated group]] connected by the generators of the group.
+
+[[definition|https://courses.maths.ox.ac.uk/node/view_material/33583#page=6]]

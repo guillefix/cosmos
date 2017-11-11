@@ -1,0 +1,23 @@
+created: 20170702213417043
+creator: cosmos
+draft.of: Shading
+draft.title: Shading
+modified: 20170702215938319
+modifier: cosmos
+tags: [[Computer graphics]]
+title: Draft of 'Shading'
+tmap.id: cee1917f-709c-42c9-8af9-06dfacb9fa09
+type: text/vnd.tiddlywiki
+
+[[illumination calculation|https://www.youtube.com/watch?v=TEjDYtkLRdQ&index=8&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=32m18s]] for diffusive +  [[Phong shading]] (which is just heuristic), defines the [[Base color]]. It turns out that this model is pretty good for [[Plastic]]
+
+[[We play with this equation to create all kinds of effects|https://www.youtube.com/watch?v=TEjDYtkLRdQ&index=8&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=51m]]
+
+!!__[[Texturing]]__
+
+!!__[[Bump mapping]]__
+
+
+---------------
+
+Done in [[Shader]]s

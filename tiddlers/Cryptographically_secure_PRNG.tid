@@ -1,0 +1,11 @@
+created: 20170706111804695
+creator: cosmos
+modified: 20170706112255669
+modifier: cosmos
+tags: [[Pseudorandom number generator]]
+title: Cryptographically secure PRNG
+tmap.id: 2f11b1d0-fb11-4c5b-8f1f-332f9f151762
+type: text/vnd.tiddlywiki
+
+
+[[video|https://www.youtube.com/watch?v=AELVJL0axRs#t=51m50s]]. They are [[PRNG|Pseudorandom number generator]] with an additional property: the numbers ''unpredictable'' ([[what does that mean|https://www.youtube.com/watch?v=AELVJL0axRs#t=54m30s]]?: given n bits, it is computationally unfasable to construct the next bit!)

@@ -1,0 +1,16 @@
+created: 20170717131618694
+creator: cosmos
+modified: 20170718124045369
+modifier: cosmos
+tags: [[Model-based reinforcement learning]]
+title: Real-time dynamic programming
+tmap.id: 59652ef6-ad3b-49b1-8a97-0035b57d55d5
+type: text/vnd.tiddlywiki
+
+//RTDP//
+
+Asynchronous [[dynamic programming|Model-based reinforcement learning]] which uses [[On-policy trajectory sampling]] for choosing the state which are going to be [[backed up|Value function backup]].
+
+------------------
+
+RTDP  algorithms like (learning real-time A*) are applied to [[Stochastic optimal path problem]]s

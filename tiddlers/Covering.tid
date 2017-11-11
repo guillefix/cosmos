@@ -1,0 +1,50 @@
+created: 20171012153513473
+creator: cosmos
+modified: 20171024221311448
+modifier: cosmos
+tags: Topology
+title: Covering
+tmap.id: ebfbf303-b61b-4ce2-a079-3d260fb608c4
+type: text/vnd.tiddlywiki
+
+[[Definition|https://www.youtube.com/watch?v=D6MF_RZiNd8&index=17&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=22s]]
+
+Let $$p: E \to B$$ be a [[continuous|Continuous function]] [[Surjective]] map; an open set $$U$$ in $$B$$ is ''evenly covered'' (by $$p$$) if $$p^{-1} (U)$$ is a [[Disjoint union]] (in the sense of union of disjoint sets) of open sets $$V_\alpha$$$ in $$E$$, $$\alpha \in J$$:
+
+$$p^{-1} (U) = \dot{\cup}_{\alpha \in J} V_\alpha$$
+
+and each restriction 
+
+$$p|V_\alpha: V_\alpha \to U$$
+
+is [[homeomorphic|Homeomorphism]]
+
+$$E$$ is then called a ''covering space''
+
+[[Definition|https://www.youtube.com/watch?v=D6MF_RZiNd8&index=17&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=3m43s]]. A continuous surjective map $$p: E \to B$$ is a ''covering'' if each $$b \in B$$ has a nbhd. $$U$$ which is evenly covered.
+
+Example: $$p: \mathbb{R} \to S^1 \subset \mathbb{C}$$, $$p(t) = e^{2\pi t}$$
+
+[[Another example|https://www.youtube.com/watch?v=D6MF_RZiNd8&index=17&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=15m48s]] $$let n\in \mathbb{N}$$ fixed.
+
+$$p_n: S^1 \to S^1 \subset \mathbb{C}$$
+
+$$z \mapsto z^n$$
+
+[[Remark|https://www.youtube.com/watch?v=D6MF_RZiNd8&index=17&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=22m24s]]. $$p: E \to B$$ is a covering. Then each fiber $$p^{-1}(b)$$, $$b \in B$$, has the [[Discrete topology]].
+
+When $$p: E \to B$$ is a covering, and $$B$$ is a [[Connected space]], then [[every fiber has the same number of elemments|https://www.youtube.com/watch?v=D6MF_RZiNd8&index=17&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=29m15s]]
+
+!!![[Path lifting lemma]]
+
+!!![[Homotopy lifting lemma]]
+
+[[Corollarly|https://www.youtube.com/watch?v=WGK8YEQktAw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&t=39#t=40s]]. [[Path-homotopic|Path homotopy]] paths map to path-homotopic paths using [[Homotopy lifting lemma]]
+
+This can be used to derive the [[Fundamental group]] of the [[Circle]]
+
+[[covering of connected space has unique liftings (if it exists)|https://www.youtube.com/watch?v=WGK8YEQktAw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&t=39#t=1h41m50s]].
+
+---------------------
+
+__Good example__: I think the [[Riemann surface]] is a covering of the complex plane minus the origin. See examples in [[this video|https://www.youtube.com/watch?v=uBDYSPMyaRQ&list=PLLq_gUfXAnkkdRttylq7Svmob1gxDgcDZ]]! (see [[here|https://www.youtube.com/watch?v=uBDYSPMyaRQ&list=PLLq_gUfXAnkkdRttylq7Svmob1gxDgcDZ#t=1h26m]])

@@ -1,15 +1,29 @@
 created: 20170402230342250
 creator: cosmos
-modified: 20170402230415011
+modified: 20171004210606302
 modifier: cosmos
 tags: [[Data compression]]
 title: Rate-distortion theory
 tmap.id: 1e78ed65-1c0b-4290-89a6-ed86076bb3c4
 type: text/vnd.tiddlywiki
 
+//Theory of ''losy'' data compression//
+
+The description of an arbitrary real number requires an infinite number of bits, so a finite representation of a continuous random variable can never be perfect. How well can we do? To frame the question appropri- ately, it is necessary to ''define the “goodness” of a representation of a source''. This is accomplished by defining a distortion measure which is a measure of distance between the random variable and its representation. The basic problem in rate distortion theory can then be stated as follows: Given a source distribution and a distortion measure, what is the minimum expected distortion achievable at a particular rate?
+
+Consider the problem of __representing a single sample from the [[source|Information source]]__. Let the random variable be represented be X and let the representation of X be denoted as X̂(X). If we are given R bits to represent X, the function X̂ can take on 2 R values. The problem is to find the optimum set of values for X̂ (called the [[Reconstruction point]]s or //code points//) and the regions that are associated with each value X̂. Optimum means minimizing the expected //distortion//, with resepect to some [[Distortion function]], which for real values can be the [[Squared error]]
+
+The [[Lloyd algorithm]] will converge to a [[Local minimum]] of the distortion.
+
+Instead of quantizing a single random variable, let us assume that we are given __a set of n [[i.i.d.]] random variables__ drawn according to a Gaussian distribution. These random variables are to be represented using nR bits. Since the source is i.i.d., the symbols are independent, and it may appear that the representation of each element is an independent problem to be treated separately. But this is not true, as the results on rate distortion theory will show. We will represent the entire sequence by a single index taking $$2^{nR}$$ values. This treatment of entire sequences at once achieves a lower distortion for the same rate than independent quantization of the individual samples.
+
+---------------
+
+By combining rate-distortion theory with minimum sufficient statistic theory, we get the [[Information bottleneck]] principle
+
+------------
+
 
 https://www.wikiwand.com/en/Rate%E2%80%93distortion_theory
-
-Theory of ''losy'' data copression
 
 [[has connections to unsupervised learning|https://www.youtube.com/watch?v=ECpMEAWI_tk&list=PLgKuh-lKre13UNV4ztsWUXciUZ7x_ZDHz&index=2]] (see [[Autoencoder]]s for instance

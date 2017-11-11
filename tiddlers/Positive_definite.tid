@@ -1,0 +1,11 @@
+created: 20170830224834189
+creator: cosmos
+modified: 20170830224858497
+modifier: cosmos
+tags: [[Linear operator]]
+title: Positive definite
+tmap.id: 704797cc-18ad-4902-990b-b7fc3ff7ddc8
+type: text/vnd.tiddlywiki
+
+
+A positive definite matrix is symmetric (it can always be expressed as $$CC^T$$)

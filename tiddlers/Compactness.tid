@@ -1,0 +1,45 @@
+created: 20171011121651254
+creator: cosmos
+modified: 20171011155343817
+modifier: cosmos
+tags: [[Topological property]]
+title: Compactness
+tmap.id: cf4282bf-4195-4a8c-a8a0-151aca049c7f
+type: text/vnd.tiddlywiki
+
+
+[[Compact space]]
+
+[[Limit point compact]]
+
+[[Sequentially compact]] 
+
+[[Countably compact]]
+
+[[X compact implies X limit point compact|https://www.youtube.com/watch?v=9T-qLhrr_Aw&index=12&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=2m40s]]
+
+[[Lemma|https://www.youtube.com/watch?v=9T-qLhrr_Aw&index=12&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=12m30s]]: F [[metric|Metrizable]] and limit point compact, then it is sequentially compact. 
+
+[[Lebesgue number lemma]]
+
+-------------
+
+[[Theorem|https://www.youtube.com/watch?v=9T-qLhrr_Aw&index=12&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=44m15s]]. Let $$X$$ be [[Metrizable]], then [[The following are equivalent]]:
+
+# $$X$$ is compact
+# $$X$$ is limit point compact
+# $$X$$ is sequentially compact
+
+[[Proof|https://www.youtube.com/watch?v=9T-qLhrr_Aw&index=12&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=46m7s]]
+
+1. => 2. (generally true)
+
+2. => 3. (previous lemma, which needs metric)
+
+remains 3. => 1. 
+
+use [[Lemma|https://www.youtube.com/watch?v=9T-qLhrr_Aw&index=12&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=48m6s]]: Suppose X is metric and sequentially compact, then for each $$\epsilon > 0$$, there is a finite covering of $$X$$ by open $$\epsilon$$-balls, and also the [[Lebesgue number lemma]]
+
+------------------
+
+[[Example of a Hausdorff space which is limit point compact but not compact|https://www.youtube.com/watch?v=9T-qLhrr_Aw&index=12&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h4m]] ([[Proof here|https://www.youtube.com/watch?v=JO_Z5FmVhK0&index=13&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx]]), $$S_\Omega$$ -- [[Theorem|https://www.youtube.com/watch?v=9T-qLhrr_Aw&index=12&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h14m39s]]. There is an uncoutnable [[Well-ordered set]] such that every [[section|Section of an ordered set]] $$(-\infty, a)$$ is countable. ("the minimal well-ordered uncountable set"?). Infinite well-ordered sets [[are related to |https://www.youtube.com/watch?v=9T-qLhrr_Aw&index=12&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h27m50s]][[Transfinite number]]s. Corollary [[S_Omega is not metrizable|https://www.youtube.com/watch?v=JO_Z5FmVhK0&index=13&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=41m]], like $$\bar{S_\Omega}$$.. However, [[S_Omega is first countable but not first countable|https://www.youtube.com/watch?v=JO_Z5FmVhK0&index=13&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=52m55s]], [[but not second countable|https://www.youtube.com/watch?v=JO_Z5FmVhK0&index=13&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=59m19s]]

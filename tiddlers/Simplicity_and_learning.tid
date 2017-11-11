@@ -1,13 +1,13 @@
 created: 20160913070651215
 creator: cosmos
-modified: 20170507182331705
+modified: 20171030154228267
 modifier: cosmos
 tags: Simplicity Learning
 title: Simplicity and learning
 tmap.id: b40144fd-dc54-449a-b6b5-a13c27b3354f
 type: text/vnd.tiddlywiki
 
-See [[Learning theory]], [[Order]] and [[Simplicity bias]]. The simplicity and structure in signals in the real-world is often seized to make the learning problem easier to solve.
+See [[Learning theory]], [[Order]] and [[Simplicity bias]]. The simplicity and structure in signals in the real-world is often seized to make the learning problem easier to solve. Can be formalized via [[Learning theory]], [[PAC-Bayesian learning]]
 
 Applications in [[Inverse problem]]s. For instance, see [[Convex optimization heuristics for linear inverse problems]] and [[Linear inverse problem]]
 
@@ -15,7 +15,9 @@ Applications in [[Compressed sensing]]
 
 !!!__Simplicity and neural networks__
 
-See [[Neural network theory]], [[Why does deep and cheap learning work so well?|http://arxiv.org/abs/1608.08225]], [[Deep learning theory]]
+See [[Neural network theory]], [[Why does deep and cheap learning work so well?|http://arxiv.org/abs/1608.08225]], [[Deep learning theory]], [[Generalization in deep learning]]
+
+[[No Free Lunch versus Occam's Razor in Supervised Learning|https://arxiv.org/abs/1111.3846]]
 
 <b>Nature often results in functions that are polynomials with several simplifying features</b>:
 

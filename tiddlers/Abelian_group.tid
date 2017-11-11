@@ -1,0 +1,12 @@
+created: 20171006215154857
+creator: cosmos
+modified: 20171021222015721
+modifier: cosmos
+tags: Group
+title: Abelian group
+tmap.id: 6dceda2f-6a46-4922-8559-fc5e9365edce
+type: text/vnd.tiddlywiki
+
+//aka commutative group//
+
+A group such that elements [[Commute]], that is for two elements a, b, ab=ba

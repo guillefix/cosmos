@@ -1,10 +1,20 @@
 created: 20161106171630925
 creator: cosmos
-modified: 20161106171728111
+modified: 20171013152811563
 modifier: cosmos
 tags: Morphism
 title: Isomorphism
 tmap.id: 4c5ff12c-1860-459b-b1d2-205925d232ed
 type: text/vnd.tiddlywiki
 
-A [[Morphism]] that is [[bijective|Bijection]]
+A [[Morphism]] that is [[bijective|Bijection]].
+
+To prove two things are isomorphic, it's enough to find a mapping which is an isomorphism. However, to prove two things are not isomorphic you have to prove that no mapping will be a isomorphism! Because there may be too many maps to check, one most often has to find a relevant [[Invariant]] (a property invariant under a certain class of maps), that is different in the two spaces, to prove this.
+
+-------------
+
+Some isomorphisms are natural, and others not. [[Example|https://www.youtube.com/watch?v=Lcu93_AfTQw&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=16#t=56m]]
+
+An isomorphism in a [[Category]] C is an arrow $$i:A \to B$$ such that there exists an arrow $$j: B \to A$$ such that $$j=i^{-1}$$ i.e. $$i \circ j = id_A$$ and $$j \circ i = id_B$$.
+
+Gives [[Bijection]] for category of sets

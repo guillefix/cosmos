@@ -1,0 +1,20 @@
+created: 20171015202730911
+creator: cosmos
+modified: 20171024230616162
+modifier: cosmos
+title: Simplex
+tmap.id: e20ca887-5d1e-4383-96fe-2bfd83325279
+type: text/vnd.tiddlywiki
+
+A ''simplex'' is the [[Convex hull]] of a set of points which are not coplanar. If the points are $$v_0,..,v_n$$, the simplex is $$n$$-dimensional and is denoted $$[v_0,..,v_n]$$.
+
+The standard $$n$$-dimensional simplex $$\Delta^n$$ is the  [[Convex hull]] of the set of points corresponding to basis vectors ($$(0,...,1,...,0)$$) in $$\mathbb{R}^{n+1}$$.
+
+If we delete one of the n + 1 vertices of an n simplex [v 0 , ··· , v n ] , then the
+remaining n vertices span an (n − 1) simplex, called a ''face'' of [v 0 , ··· , v n ]
+
+The union of all the faces of ∆ n is the boundary of ∆ n , written ∂∆ n . The ''open simplex'' $$\Delta^{\circ n}$$ (actually $$\circ$$ should be on top..) is $$\Delta^n - \partial \Delta^n$$, the [[interior|Interior of a set]] of $$\Delta^n$$.
+
+--------------------
+
+In [[Delta-complex]]es, we consider simplices with a given ordering of vertices.

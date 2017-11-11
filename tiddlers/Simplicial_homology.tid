@@ -1,0 +1,54 @@
+created: 20171015202148542
+creator: cosmos
+modified: 20171029104015914
+modifier: cosmos
+tags: Homology
+title: Simplicial homology
+tmap.id: 0c8d2d2b-c84a-464d-bdae-570d1a56d091
+type: text/vnd.tiddlywiki
+
+Idea: decompose space into triangles, restrict attention to polyhedral cycles & boundaries
+
+[[Delta-complex]]
+
+[[Simplicial cycle]]
+
+[[Simplicial 1-boundary]]
+
+The [[group of chains of n-simplices|Chain group]] of a Delta-complex of $$X$$ is $$\Delta_n(X) := \mathbb{Z} \langle\{e^n_\alpha\}\rangle$$
+
+The [[Boundary map]] $$\partial: \Delta_n(X) \to \Delta_{n-1}(X)$$. $$e_\alpha^n \mapsto \partial e_\alpha^n$$, where $$\partial([v_0,...v_n]) = \sum\limits_i (-1)^i [v_0,...,\hat{v_i},...,v_n]$$, where $$v_i$$ are vertices and $$\hat{}$$ means that we omit the vertex.
+
+The group of ''n-cycles'' is 
+
+: $$\mathbb{Z}_n(X) := \{ z \in \Delta_n(X) | \partial z = 0\}$$
+
+The group of ''n-boundaries'' is
+
+: $$B_n(X) := \{ b \in \Delta_n(X) | \exists c \in \Delta_{n+1}(X) \text{ s.t. } \partial c = b \}$$
+
+The ''simplicial homology'' or [[Simplicial homology group]] of $$X$$ is
+
+: $$H_n(X) := \frac{\mathbb{Z}_n(X)}{B_n(X)}$$
+
+This is the [[Quotient group]]. Elements of this groups are [[Coset]]s of $$B_n$$ and are called ''homology classes''. Two cycles representing the same homology class are said to be ''homologous''. This means that their difference is a boundary. The cycle and boundary groups can be described as the kernel and images of the boundary map:
+
+The group of n-cycles is $$Z_n:= Ker(\partial_n)$$ (the [[kernel|Kernel of a group homomorphism]])
+
+The group of n-boundaries is $$B_n:= Im(\partial_{n+1})$$ (the [[image|Image of a group homomorphism]])
+
+For e.g. in case $$C_2 \to_{\partial_2} C_1 \to_{\partial_1} C_0$$ (eg in Hatcher), The homology group is then defined as above: the kernel of $$\partial_1$$ modulo the image of $$\partial_2$$ , or in other
+words, the 1 dimensional cycles modulo those that are boundaries (remember "modulo" for groups means that that two elements are equivalent if we can add/substract elements in the group of boundaries to get from one to the other ([[Quotient group]]). So the two sides of a boundary are equivalent because one can add/substract the boundary to get from one to the other.. Remember add/substract in the [[Free Abelian group]] sense for the [[Chain group]].
+
+-----------
+
+Remains to show that it is independent of Delta-complex in the topological space, also invariant under [[Homotopy equivalent]] (stronger).
+
+----------------
+
+See [ext[book|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=115]]
+
+A [[Chain complex]] is a sequence of [[Abelian group]]s with maps $$...\leftarrow C_{i-2} \leftarrow_{\partial_{i-1}} C_{i-1} \leftarrow_{\partial_i} C_i \leftarrow_{\partial_{i+1}} C_{i+1} \leftarrow ...$$
+
+s.t. $$\partial_{i-1}\partial_i = 0 $$ $$\forall i$$. "the boundary of a boundary is $$0$$".
+

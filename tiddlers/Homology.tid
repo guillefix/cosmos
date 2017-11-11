@@ -1,0 +1,64 @@
+created: 20171015200435442
+creator: cosmos
+modified: 20171101110057172
+modifier: cosmos
+tags: [[Algebraic topology]]
+title: Homology
+tmap.id: 730f8341-eaa6-48f9-9dfe-efa337dc7982
+type: text/vnd.tiddlywiki
+
+Basically the fundamental homology group for topological space $$X$$ is $$H_1(X) = \text{1-cycles of }X$$ / $$\text{1-boundaries of } X$$.
+
+[ext[hatcher|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=107]]
+
+A 1-cycle is basically a local superposition of lines glued end to end, such that the beginning of the first line is the same point as the ending of the last line
+
+A 1-boundary is basically an equivalence relation saying that two 1-cycles are equivalent when they bound a surface.
+
+higher homology groups are defined with higher-dimensional analogs.
+
+!!__[[Delta-complex]]es and [[Simplicial homology]]__
+
+!!__[[Singular homology]]__
+
+At the end of
+this section, after some theory has been developed, we will show that simplicial and
+singular homology groups coincide for ∆ complexes.
+
+__[[Homotopy]] invariance__: [[Video1|https://www.youtube.com/watch?v=HIJ1aoMpRR4&index=21&list=PL7BFF10190F42006E#t=7m]]/[[Video2|https://www.youtube.com/watch?v=A1ljIoXKAzE&list=PL7BFF10190F42006E&index=22]] [[Homotopy equivalent]] spaces have [[isomorphic|Group isomorphism]] [[Homology group]]s. See also [ext[Hatcher|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=119]]. We define a [[Functor]] by finding an induced function $$f_\#$$ between [[Chain group]]s which is a [[Chain map]], which itself induces a function $$f_*$$ between [[Homology group]]s by lifting $$f_\#$$ to the [[Coset]]s defining the homology groups, and showing it's well defined because it maps cycles to cycles and boundaries to boundaries. Finally, there is a theorem that shows that homotopic maps lead to equal $$f_*$$, from which one can conclude (after showing [[Functorial]]ity) that homotopy equivalences induce group isomorphisms between the homology groups.
+
+[ext[Singular homology is the same as simplicial homology|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=137]] when a space admits a $$\Delta$$-complex . The homomorphisms $$H_n^\Delta (X, A) \to H_n (X, A) $$ induced by the maps $$\Delta_n(X,A) \to C_n(X,A)$$ are isomorphisms for all n and all ∆ complex pairs (X, A) .
+
+!!__[[Reduced homology]]__
+
+[[Reduced homology group]]. Makes the homology of the point be [[trivial|Trivial group]].
+
+[[Reduced homology theory|https://www.youtube.com/watch?v=fFweGo1jW78&index=27&list=PL7BFF10190F42006E]] (axiomatized)
+
+[[Homology group of a|https://www.youtube.com/watch?v=Mg9TJ4lj7vE&list=PL7BFF10190F42006E&index=30]] [[Wedge sum]] of spaces is the [[Direct sum]] of homology groups
+
+[[Theorem|https://www.youtube.com/watch?v=dJO84nV3Iwc&index=31&list=PL7BFF10190F42006E]] that shows that two spaces in two dimensions are not homeomorphic.
+
+!!__[[Relative homology]]__
+
+[[Exact sequence]] --> [[Homology long exact sequence]] (very useful to find relations between homologies of spaces and subspaces, using [[Homological algebra]])
+
+[[Excision theorem]]
+
+!!__[[Cellular homology]]__
+
+Homology defined on [[CW complex]]es
+
+!!__[[Bordism]] and [[Cobordism]]__
+
+---------------
+
+[[Brouwer fixed-point theorem]]
+
+!!![[Cohomology]]
+
+!!![[Homological algebra]]
+
+------------
+
+[[Homology of product of spaces]]. Uses [[Short exact sequence]]

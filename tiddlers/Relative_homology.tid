@@ -1,0 +1,36 @@
+created: 20171028224528148
+creator: cosmos
+modified: 20171101115758676
+modifier: cosmos
+tags: Homology
+title: Relative homology
+tmap.id: 13bfb922-4fde-4ccc-bfbd-805553cd1668
+type: text/vnd.tiddlywiki
+
+See [ext[here|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=124]] for definition of ''relative homology group''. Making precise the idea of ‘homology of X modulo A.’
+
+[[Definition of relative homology|https://www.youtube.com/watch?v=P2DNkoSPzPI&list=PL7BFF10190F42006E&t=369]], denoted $$H_n(X,A)$$ See also [ext[here|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=124]]. See [ext[here|http://homepage.divms.uiowa.edu/~jsimon/COURSES/M201Fall05/ClassNotes/LongExactSeqPair_v2.pdf]]. Defined on ''relative chain group''s, for which we need to give the subset $$A$$ a [[Singular complex]] (or other complex) structure, and maybe change $$X$$'s structure to make $$A$$'s complex a subcomplex, and the [[Chain group]] of $$A$$ be a [[Subgroup]] of the chain group of $$X$$, so that we can define their quotient. Note that different complexes on the same space give the same homology, so this arbitrary choice doesn't affect the answer, and relative homology is thus well-defined.
+
+!!!__[[Homology long exact sequence]]__
+
+Main way to compute relative homologies.
+
+[img[homology_long_exact_sequence_relative_homology.png]]
+
+[[Long Exact Sequence of Pair|https://www.youtube.com/watch?v=1HmV2ngb0wc&list=PL7BFF10190F42006E&index=26]]. See more at [[Exact sequence]], and [[Homology long exact sequence]]
+
+[[Some applications of relative homology|https://www.youtube.com/watch?v=uLn5RsX0648&index=29&list=PL7BFF10190F42006E]]
+
+[ext[Some examples|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=127]]:
+
+: $$H_i(D^n, \partial D^n) = \begin{cases}\mathbb{Z}~~\text{for}~i=n\\ 0~~ \text{otherwise}\end{cases}$$
+
+: $$H_n(X,x_0) \cong \tilde{H}_n(X)$$ for all $$n$$ since $$\tilde{H}_n(x_0) = 0$$ for all $$n$$.
+
+Similarly to normal homology, homotopic maps between pairs of spaces induce the same homomorphisms between the correponding relative homologies.
+
+!!!__[[Excision theorem]]__
+
+A useful tool for finding relative homologies too, by removing some part of the space..
+
+[[Proposition 2.22|https://www.youtube.com/watch?v=DYP96e8Mzz0&list=PL7BFF10190F42006E&index=28#t=4m30s]] ([ext[book|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=133]])

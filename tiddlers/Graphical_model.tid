@@ -1,6 +1,6 @@
 created: 20160704164449084
 creator: guillefix
-modified: 20170503102755660
+modified: 20170824131752012
 modifier: cosmos
 tags: [[Machine learning]] [[Probabilistic model]]
 title: Graphical model
@@ -48,6 +48,8 @@ An importance class are those that show [[Structured CPD|https://www.youtube.com
 An [[I-map]] (independence map) for a probability distribution $$P$$ is any graphical model $$G$$ such that the set of independencies implied by the network ($$I(G)$$) is a subset of the set of independences of $$P$$ ($$I(P)$$) (see [[here|http://courses.cms.caltech.edu/cs155/slides/cs155-03-dseparation-marked.pdf]]), i.e. $$I(G) \subset I(P)$$
 
 A perfect (independence) map is one such that $$I(G) = I(P)$$
+
+!!__[[Sum-product network]]s__
 
 !__[[Inference|Inference in graphical models]]__
 

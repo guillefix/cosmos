@@ -1,11 +1,13 @@
 created: 20170627174952567
 creator: cosmos
-modified: 20170627192309019
+modified: 20170702115837752
 modifier: cosmos
 tags: [[Differential geometry]]
 title: Theorema Egregium
 tmap.id: c3704d44-d0c7-4fab-860b-05a3e8341dd7
 type: text/vnd.tiddlywiki
+
+//aka Gauss theorem//
 
 The [[Gaussian curvature]] is invariant under [[Isometry]]es. [[VIdeo|https://www.youtube.com/watch?v=a_XH71yDCpo#t=1h6m30s]].
 

@@ -1,0 +1,15 @@
+created: 20171015201447153
+creator: cosmos
+modified: 20171015201654195
+modifier: cosmos
+tags: Homotopy
+title: Homotopy group
+tmap.id: 33312ddd-09d4-441f-a4be-1f21ea131edf
+type: text/vnd.tiddlywiki
+
+
+[[Fundamental group]] and the higher homotopy groups
+
+They are basically defined as $$\pi_n(X) = \{S^n \to X\} / \sim$$
+
+where $$X$$ is a [[Topological space]], $$S^n$$ is the $$n$$-dimensional [[Hypersphere]], the map $$S^n \to X$$ is continuous $$/$$ refers to the [[quotient operation|Quotient set]], and $$\sim$$ refers to [[homotopic equivalence relation|Homotopy]].

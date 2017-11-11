@@ -1,6 +1,6 @@
 created: 20170506203656327
 creator: cosmos
-modified: 20170612174250589
+modified: 20170829123852672
 modifier: cosmos
 tags: Geometry
 title: Discrete geometry
@@ -23,3 +23,9 @@ http://brickisland.net/DDGSpring2016/
 [ext[https://www.cs.cmu.edu/~kmcrane/Projects/DDG/]]
 
 https://github.com/dgpdec/course
+
+-------------
+
+[img[laplacian_on_discrete_manifolds.png]]
+
+See [[here|http://sci-hub.io/10.1109/msp.2017.2693418]]

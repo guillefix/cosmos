@@ -1,6 +1,6 @@
 created: 20160709020525444
 creator: guillefix
-modified: 20161104134329448
+modified: 20170922125312219
 modifier: cosmos
 tags: [[Supervised classification]]
 title: Logistic regression
@@ -18,6 +18,8 @@ __[[Probabilistic interpretation|https://www.youtube.com/watch?v=HZ4cvaztQEs&ind
 A simpler version: [[Perceptron]]
 
 See [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/ML-MT2016/slides/slides08.pdf]]
+
+[[Why is it convex|http://mathgotchas.blogspot.co.uk/2011/10/why-is-error-function-minimized-in.html]]
 
 !!__Training__
 

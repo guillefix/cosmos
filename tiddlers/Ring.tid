@@ -1,0 +1,68 @@
+created: 20170706095811958
+creator: cosmos
+modified: 20171021234650638
+modifier: cosmos
+tags: [[Ring-like algebraic structures]]
+title: Ring
+tmap.id: 5b01516b-7fbc-4629-a32b-e02758ac9cc8
+type: text/vnd.tiddlywiki
+
+[[Introduction|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=22m5s]]
+
+A ''ring'' is a nonemtpy [[Set]] $$R$$ together with two [[Binary operation]]s:
+
+: //Addition//. $$+: R \times R \to R$$. $$(a,b) \mapsto a+b$$
+
+: //Multiplication//. $$\cdot : R \times R \to R$$. $$(a,b) \mapsto a \cdot b$$
+
+and an element $$0 \in R$$, such that 
+
+* $$(R,+)$$ is a [[commutative group|Abelian group]] with neutral element $$0$$ (like the [[Integer]]s with addition, for e.g.). We use the same notation as for standard [[Addition]].
+
+* $$\cdot$$ is [[associative|Associativity]]. $$(a \cdot b) \cdot c = a \cdot (b \cdot c)$$
+
+* [[Distributive law]] (compatibility): $$a \cdot (b+c) = a\cdot b + a \cdot c$$ and $$(b+c) \cdot = b \cdot a + c \cdot a$$
+
+$$(R,+)$$ is called the [[Additive group]] of $$R$$. $$0$$ is also called the ''zero element'' of $$R$$. For notation, we can also omit $$\cdot$$, and it is implied.
+
+Example: $$(\mathbb{Z}, +, \cdot)$$ (the [[Integer]]s).
+
+We can define [[Subring]]
+
+[[Commutative ring]]
+
+A [[Unit element]] is the [[Neutral element]] of multiplication, which is unique. A ring which contains a unit element is called a [[Unital ring]] or ring with 1.
+
+Example: [[real 2x2 matrices|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=36m34s]].
+
+[[Another example|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=41m]]. [[Modular arithmetic]]
+
+[[Remarks|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=44m56s]]:
+
+* $$a0 = 0 = 0a$$
+
+* $$(-a)b = a(-b) = -(ab)$$
+
+* $$(-a)(-b)=ab$$
+
+* If R is a ring with 1, $$(-1)a=a(-1)=-a$$
+
+-----------
+
+[[Integral domain]]
+
+[[Ring unit]]
+
+[[can define the exponential|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=1h4m40s]] ([[Exponential]])
+
+!!![[Polynomial ring]]
+
+!!![[Division ring]]
+
+!!![[Field]]
+
+-------------
+
+[[intro|https://www.youtube.com/watch?v=W1SY6qKZrUk#t=52m35s]] from [[Cryptography]] lectures.
+
+[[multiplicative inverse|https://www.youtube.com/watch?v=W1SY6qKZrUk#t=1h6m]]

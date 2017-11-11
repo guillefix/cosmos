@@ -1,0 +1,16 @@
+created: 20171022212803998
+creator: cosmos
+modified: 20171022220556781
+modifier: cosmos
+tags: Combinatorics
+title: Littlewood-Offord problem
+tmap.id: 6693a8d7-be3b-4452-8d44-013bb2e1bea4
+type: text/vnd.tiddlywiki
+
+If $$z_1,...,z_n \in \mathbb{C}$$ are such that $$| z_i| \geq 1$$, how many of the $$2^n$$ sums $$\sum\limits_{i \in I} z_i$$, where $$I \subseteq [n]$$, can equal $$0$$? This question was raised in 1938, by Littlewood and Offord. A few years later, Erd˝os found a neat solution in the real case.
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33445]]
+
+Theorem (Erdos). Suppose that $$x_1,...,x_n \in \mathbb{R}$$ satisfy $$|x_i| \geq 1$$ for all $$i$$. For every $$\alpha \in \mathbb{R}$$, there at most $$\binom{n}{\lfloor n/2 \rfloor}$$ subsets $$I \subseteq [n]$$ such that $$\sum_{i\in I} x_i \in [\alpha,\alpha+1)$$. Proof uses [[Sperner's lemma]]
+
+https://en.wikipedia.org/wiki/Littlewood%E2%80%93Offord_problem

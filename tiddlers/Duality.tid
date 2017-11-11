@@ -1,0 +1,20 @@
+created: 20170802202328915
+creator: cosmos
+modified: 20170824194243081
+modifier: cosmos
+tags: 
+title: Duality
+tmap.id: 7abc0a4f-8491-43d6-a2a1-a30646b559a7
+type: text/vnd.tiddlywiki
+
+[[Dot products and duality - Essence of linear algebra, chapter 7|https://www.youtube.com/watch?v=LyGKycYT2v0]]
+
+Also appears in [[Linear programming]]
+
+Finding the tightest upper bound using constraints! => Can be formulated as a linear program itself!
+
+[[Max-flow min-cut theorem]] is an example of duality
+
+Lagrangian duality. Reformulation of duality using [[Lagrangian multiplier]]
+
+[[Duality in linear programming|http://web.mit.edu/15.053/www/AMP-Chapter-04.pdf]]

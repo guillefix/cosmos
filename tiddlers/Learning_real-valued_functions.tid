@@ -1,6 +1,6 @@
 created: 20170215140655812
 creator: cosmos
-modified: 20170215145148071
+modified: 20171027131615242
 modifier: cosmos
 tags: [[Computational learning theory]]
 title: Learning real-valued functions
@@ -22,3 +22,10 @@ MInimizing $$E){x\sim D} [*h(x)-f(x))^2]$$ is equivalent to minimizing $$E_{x\si
 E.g.: [[Linear regression]].
 
 [[Constrained gradient descent]] (see photo. Just use [[Gradient descent]] and project into set of possible parameters defined by the constraint). Can show rate of convergence. He showed it for the variant where the step size is fixed, and we output the average over the points we visit..
+
+-------------
+
+Since the model class has real-valued output, can not directly use VC-dimension here. Instead, we can use a similar concept called subgraph VC-dimension which is similar to VC-dimension with the difference being that here we count the number of different behavior with a given margin. This means for the binary case, we require yf(x) ≥ η for some margin η. There are different techniques that bound subgraph-VC dimension such as Covering Numbers and Rademacher Complexities. See [[here|https://arxiv.org/pdf/1709.01953.pdf#page=21]]
+
+[28] proved that the Rademacher complexity of fully connected feedforward networks on set S can be bounded based on the 1 norm of the weights of hidden units in each layer  In [[Chapter 5|https://arxiv.org/pdf/1709.01953.pdf#page=31]] we show
+how the capacity can be controlled for a large family of norms.

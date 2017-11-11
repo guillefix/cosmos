@@ -1,7 +1,7 @@
 created: 20160701165414486
 creator: guillefix
-modified: 20161104134333170
-modifier: guillefix
+modified: 20170705222349625
+modifier: cosmos
 tags: Telecommunication
 title: Wireless telecommunication
 tmap.id: 57646bfa-699b-44cd-85d5-b51ff5fc7db5
@@ -10,3 +10,5 @@ type: text/vnd.tiddlywiki
 Wifi, 
 
 3G/4G
+
+[[Radio]]

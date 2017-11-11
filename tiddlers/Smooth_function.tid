@@ -1,0 +1,32 @@
+created: 20171012091548984
+creator: cosmos
+modified: 20171012094349437
+modifier: cosmos
+tags: [[Differentiable function]]
+title: Smooth function
+tmap.id: d259ee71-da46-4935-a7fe-6db442f1bb2c
+type: text/vnd.tiddlywiki
+
+See [[Differentiable function]]
+
+!!__Between differentiable manifolds__
+
+$$f: X \to Y$$ between two [[Differentiable manifold]]s
+
+$$f$$ when pulled back to the open sets of charts, is smooth in the usual sense of real analysis.
+
+__Functorial preperties__
+
+Smoothness is preserved under composition
+
+the identity map is smooth
+
+Therefore they form a [[Category]]
+
+Manifolds and smooth maps behave nicel under products
+
+X,Y manifolds. then $$X \times Y$$ has a natural manifold structure, given by the [[Product topology]].The dimensions add.
+
+If $$f: X \to Y$$, $$g: X\to Z$$ are smooth, the ''direct product'' $$(f,g): X \to Y \times Z$$ ... is smooth
+
+If $$f: W \to Y$$, $$g: X \to Z$$ are smooth, the ''prdouct'' $$f \times g: W \times X \to Y \times Z$$ ... $$(w,x) \mapsto (f(w),g(x))$$ is smooth

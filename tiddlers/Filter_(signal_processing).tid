@@ -1,15 +1,20 @@
 created: 20160701150516146
 creator: guillefix
-modified: 20161104134328329
-modifier: guillefix
+modified: 20170822170120752
+modifier: cosmos
 tags: [[Signal processing]]
 title: Filter (signal processing)
 tmap.id: 10fa3bf0-64b0-4674-9955-8de3128ff379
 type: text/vnd.tiddlywiki
 
-[[https://en.wikipedia.org/wiki/Filter_(signal_processing)]]
+
+
+The purpose of filtering is to extract the required information from a signal, ignoring ev erything else. Ho ww ell a lter p erforms this task can b e measured using a cost or loss function. Indeed w ema y de ne the goal of the lter to b e the minimisation of this loss function
+
+[ext[https://en.wikipedia.org/wiki/Filter_(signal_processing)]]
 
 Main types:
 
 * [[Linear filter]]
 * [[Nonlinear filter]]
+* [[Kalman filter]]

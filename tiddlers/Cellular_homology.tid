@@ -1,0 +1,31 @@
+created: 20171101103803195
+creator: cosmos
+modified: 20171101115415190
+modifier: cosmos
+tags: Homology
+title: Cellular homology
+tmap.id: ea4de80c-c29a-49cc-a6a7-3621a1336277
+type: text/vnd.tiddlywiki
+
+Homology defined on [[CW complex]]es.
+
+Idea:
+
+:n-chain ~ $$\mathbb{Z}\langle \{n-cells\}\rangle$$
+:boundary ~ [[degree|Degree of a map]] of the //attaching map// on each cell.
+
+For $$X$$ a [[CW complex]], we define the ''cellular homolgy group'' as
+
+: $$H^{CW}_n X := H_n( ... \to H_{n+1}(X^{n+1},X^n)$$ $$ \to_{d_{n+1}} H_n(X^n,X^{n-1}) \to_{d_n} H_{n-1}(X^{n-1},X^{n-2})\to...)$$
+
+where $$X^i$$ is the $$i$$-skeleton of the [[CW complex]] $$X$$. $$H_n(A,B)$$ is the [[Relative homology]] group of space A relative to B. The outermost $$H_n$$ means the $$n$$th [[Homology group]] of the [[Chain complex]] it acts on. This chain complex is formed by the relative homology groups together with the maps $$d_n$$.
+
+The map $$d_n$$ is defined as the composition $$j_{n-1} \circ \partial_n$$ where these are the maps in the sequence $$...\to H_n(X^n,X^{n-1}) \to_{\partial_n} H_{n-1}(X^{n-1})\to_{j_{n-1}} H_{n-1}(X^{n-1},X^{n-2})\to ...$$ ( you can see the composition has the right domain and codomain). This sequence comes from putting together a few [[LES|Homology long exact sequence]] of the skeletons as follows:
+
+[img[cellular_chain_complex_and_homology.png]]
+
+The middle chain is called the [[Cellular chain complex]]. See [ext[here|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=148]]
+
+__Cellular boundary formula__
+
+We can write a formula for $$d_n$$. See [ext[here|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=149]]

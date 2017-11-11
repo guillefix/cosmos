@@ -1,0 +1,12 @@
+created: 20171010171859994
+creator: cosmos
+modified: 20171016224835092
+modifier: cosmos
+tags: Subgroup
+title: Lagrange's theorem
+tmap.id: 78d386c3-0a3f-4bae-85ca-81abb4dd8189
+type: text/vnd.tiddlywiki
+
+[[Theorem|https://www.youtube.com/watch?v=7ou-_sXqatk&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=2#t=42m34s]]. The order (cardinality) of [[Subgroup]]s of a finite [[Group]] are [[Divisor]]s of the order of the containing group.
+
+Can be proven by looking at the [[Quotient group]]

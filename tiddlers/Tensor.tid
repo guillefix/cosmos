@@ -1,0 +1,14 @@
+created: 20171106110204563
+creator: cosmos
+modified: 20171106150740870
+modifier: cosmos
+tags: [[Differential geometry]] [[Linear algebra]]
+title: Tensor
+tmap.id: 85635b46-ecd6-4dfe-9ec7-d2eb9ab109b2
+type: text/vnd.tiddlywiki
+
+A smooth [[section|Section of a fiber bundle]] of the [[Tensor product]] of copies of the [[Tangent bundle]] and the [[Cotangent bundle]].
+
+: $$T \in \Gamma^\infty ( \bigoplus^J TX \oplus \bigoplus^k T^* X)$$
+
+Tensors are very general. An important class are [[Exterior form]]s, and [[Metric tensor]]s. A lot of quantities in [[Physics]] are tensors.

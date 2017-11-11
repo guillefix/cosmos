@@ -1,6 +1,6 @@
 created: 20170517184816964
 creator: cosmos
-modified: 20170521153647942
+modified: 20170717130452749
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Model-free reinforcement learning
@@ -9,7 +9,10 @@ type: text/vnd.tiddlywiki
 
 See more at [[Reinforcement learning]]
 
-!!__Prediction__
+[[summary|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=1h34m10s]]
+
+
+!__[[Prediction|Policy evaluation]]__
 
 [[comparing approaches|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=1h7m]]
 
@@ -19,11 +22,55 @@ Evaluation the value function given a policy
 
 [[Incremental|Incremental average]] [[Monte Carlo update|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=29m5s]]
 
-[[Simple example comparing monte carlo vs TD0|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=59m]] (see [[Temporal difference learning]])
+!!!__[[Temporal difference learning]]__
 
-!!__Control__
+[[Simple example comparing monte carlo vs TD0|https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=59m]] 
+
+!__[[Model-free control]] (tabular solutions)__
 
 [[intro video|https://www.youtube.com/watch?v=0g4j2k_Ggc4&index=5&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT]]!
+
+<b>[[actually need to use the action-value function to be model-free|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=9m55s]]</b>
+
+We are basically going to use [[Policy iteration]] with the [[Action-value function]], with different ways to do the [[Policy evaluation]] (by sampling) and policy update step (in a way that explores enough, given that the sampling means we don't see everything). This is an instance [[Generalized policy iteration]] with [[Q function]] [[evaluated|Policy evaluation]] by sampling (model-free)
+
+!!__Policy improvement <small>in the model free setting</small>__
+
+!!!__$$\epsilon$$-greedy exploration__
+
+[[motivation|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=14m30s]] -- [[Exploration versus exploitation]]. We need to carry on exploring everything to make sure we understand the value of all options!
+
+[[epsilon-greedy exploration|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=15m55s]] -- [[theorem of policy improvement by epsilon-greedy policy iteration|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=17m50s]]
+
+[[Making the policy iteration more efficient by only partial policy evaluation|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=23m40s]]
+
+!!!__Greedy in the limit with infinite exploration (GLIE)__
+
+[[GLIE is a method that is guaranteed to converge to the optimal policy in a model-free manner|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=25m37s]] -- 
+
+An example is $$\epsilon$$-greedy policy iteration with gradual decay of $$\epsilon$$
+
+[[GLIE Monte Carlo control|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=28m35s]]
+
+!!__[[On-policy learning]] methods__
+
+!!!__Monte Carlo__
+
+[[first attempt|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=7m]], [[Policy iteration]] with Monte-Carlo policy evaluation -- but this isn't very efficient, so we use TD learning methods.
+
+!!!__[[Temporal difference learning]] methods__
+
+[[introduction to TD learning for control|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=38m45s]]
+
+[[Sarsa]]
+
+
+!!!__[[Action-critic method]]s__
+
+[ext[https://webdocs.cs.ualberta.ca/~sutton/book/ebook/node66.html]]
+
+!!__[[Off-policy learning]] methods__
+
 
 ---------------------
 

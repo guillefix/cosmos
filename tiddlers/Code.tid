@@ -1,0 +1,23 @@
+created: 20170824220207014
+creator: cosmos
+modified: 20171031164149662
+modifier: cosmos
+tags: [[Coding theory]]
+title: Code
+tmap.id: ed6517b5-dcbc-4077-9592-be3c19911315
+type: text/vnd.tiddlywiki
+
+A ''code'' is a representation of data, represented as an map between a set and the [[Kleene star]] of another set. These sets are often called the //Source alphabet//, and the //code alphabet//, respectively.
+
+Most codes that we consider are ''nonsingular'', for which the map is [[injective|Injective function]]
+
+The ''extension'' $$C^*$$ of a code $$C$$ is the mapping from finite length strings of the source alphabet to finite-length strings of the code alphabet defined by $$C(x_1,x_2,...,x_n) = C(x_1)C(x_2)...C(x_n)$$
+
+A code is called [[Uniquely decodable]] if its extension is nonsingular.
+
+We also have [[Prefix code]], which are as efficient as general uniquely decodable codes. Kraft-McMillan theorem, says that we can find a prefix code with the same code lengths as any uniquely decodable code. Can prove using a tree construction (see [[Kraft inequality]]), [[Probabilistic method]], or others..
+
+If the source alphabet itself is made of strings of a fixed length from another alphabet, these are called //blocks//, and the code is called a ''block code''.
+
+Otherwise we have a ''symbol code''.
+

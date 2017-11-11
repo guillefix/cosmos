@@ -1,0 +1,14 @@
+created: 20170728175917527
+creator: cosmos
+modified: 20170728180048936
+modifier: cosmos
+tags: [[Classical conditioning]]
+title: TD model
+tmap.id: f9019033-57ec-4143-94ad-64316c44fc17
+type: text/vnd.tiddlywiki
+
+A model of [[Learning]] (in particular [[Classical conditioning]])
+
+See sec 14.2.4 of [[Sutton-Barto]]
+
+It corresponds to [[Temporal difference learning]] with [[Linear]] approximation of the value function (which in this context need not represent value, but intensity of response..)

@@ -1,0 +1,17 @@
+created: 20171103123408686
+creator: cosmos
+modified: 20171103123826301
+modifier: cosmos
+title: Knot shadow
+tmap.id: d4684802-ff2e-4d80-9f24-af826c224133
+type: text/vnd.tiddlywiki
+
+A shadow of a [[link|Link (knot theory)]] is the image of the link under some projection $$\mathbb{R}^3 \to \mathbb{R}^2$$, often a surjective linear map from R3 to R2.
+
+See [ext[here|homepages.abdn.ac.uk/r.hepworth/pages/files/Knots_Notes.pdf#page=2]] and [[here|https://www.youtube.com/watch?v=_Q_suLwFbg8#t=1m45s]]
+
+[[Definition|https://www.youtube.com/watch?v=_Q_suLwFbg8#t=3m40s]] of ''good shadow'':
+
+* No triple crossings
+* No tangents
+* No cusps

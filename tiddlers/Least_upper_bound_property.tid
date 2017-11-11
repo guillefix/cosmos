@@ -1,0 +1,9 @@
+created: 20170925151823460
+creator: cosmos
+modified: 20170925151922250
+modifier: cosmos
+title: Least upper bound property
+tmap.id: 6eb7d2a4-45b9-4881-9229-5559d911ae83
+type: text/vnd.tiddlywiki
+
+An [[ordered|Ordering]] set $$A$$ is said to have the ''least upper bound property'' if every nonempty subset $$A_0$$ of $$A$$ that is [[Bounded above]] has a [[least upper bound|Supremum]].

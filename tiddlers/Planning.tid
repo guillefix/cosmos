@@ -1,12 +1,42 @@
 created: 20161222124132254
 creator: cosmos
-modified: 20161222124443901
+modified: 20170717132522602
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Planning
 tmap.id: 0179670f-3b4b-4d9e-b6d3-27675ff49230
 type: text/vnd.tiddlywiki
 
-Solving the [[RL|Reinforcement learning]] (prediction/control) problem in the context of a fully-known of [[MDP|Markov decision process]]. It also refers to approximate solution of the problem
+Used in different ways in different fields/contexts
+
+!!__In reinforcement learning__
+
+methods that given a model of the environment, it tries to find optimal policies (depends on definition of model..)
+
+Solving the [[RL|Reinforcement learning]] (prediction/control) problem in the context of a fully-known of [[MDP|Markov decision process]]. It also refers to approximate solution of the problem. See [[Model-based reinforcement learning]]
 
 [[Neural Mechanisms of Hierarchical Planning in a Virtual Subway Network|http://www.cell.com/neuron/abstract/S0896-6273(16)30057-5]]
+
+-----------------------
+
+See [[Sutton-Barto]], chapter 8.
+
+--> [[Model-free reinforcement learning]] methods can be used for planning, when trained using simulated experience
+
+!!__State-space planning__
+
+!!__Plan-space planning__
+
+----------------
+
+!!__[[Background planning]]__
+
+When planning occurs in parallel and in a sense independently of other learning/acting/decisions processes.
+
+!!__[[Decision-time planning]]__
+
+Planning which occurs when going to decide which action to take every time a new state is visited. The [[backups|Value function backup]] performed focus forward from states which most affect the current state (i.e. those that are likely to occur in the future).
+
+* [[Heuristic search]]
+* [[Rollout algorithm]]
+** [[Monte Carlo tree search]]

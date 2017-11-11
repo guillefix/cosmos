@@ -1,0 +1,14 @@
+created: 20171015135407916
+creator: cosmos
+modified: 20171015135620367
+modifier: cosmos
+tags: Function
+title: Image of a subset
+tmap.id: 32da58e0-3239-4843-aaa8-1b09edac8a41
+type: text/vnd.tiddlywiki
+
+For a [[Function]] $$f: X \to Y$$, the ''image'' of a subset $$S \subset X$$ under function $$f$$ is 
+
+: $$\{ f(x) | x \in S\}$$
+
+https://en.wikipedia.org/wiki/Image_(mathematics)

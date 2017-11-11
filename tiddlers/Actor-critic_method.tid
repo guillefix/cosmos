@@ -1,0 +1,24 @@
+created: 20170715173651232
+creator: cosmos
+modified: 20170715174144420
+modifier: cosmos
+tags: [[Policy gradient method]]
+title: Actor-critic method
+tmap.id: f2206165-7917-4bf4-81d7-fdfbdd40429e
+type: text/vnd.tiddlywiki
+
+ 
+----------
+
+After each action selection, the critic evaluates the new state to determine whether things have gone better or worse than expected. That evaluation is the TD error:
+
+<img style="background-color:white;" src="https://webdocs.cs.ualberta.ca/~sutton/book/ebook/imgtmp41.png">
+
+Note that unlike [[Bellman equation]] for $$V^*$$, which has a $$\max\limits_a$$, this doesn't but that is because, the action we have just taken follows the policy and so it's selected by $$\max\limits_a$$..
+
+Traditional AC methods optimize the
+policy through policy gradients and scale the policy gradie
+nt by the TD error, while the action-value
+function is updated by ordinary TD learning
+
+Read [[here|https://arxiv.org/pdf/1610.01945.pdf]]

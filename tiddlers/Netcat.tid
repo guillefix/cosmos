@@ -1,0 +1,12 @@
+created: 20171001172651073
+creator: cosmos
+modified: 20171001172739180
+modifier: cosmos
+tags: TCP/IP
+title: Netcat
+tmap.id: dcf3a0fa-cccf-4bb8-9171-5c80fdbba988
+type: text/vnd.tiddlywiki
+
+Let's you send and receive data to a given IP. 
+
+To receive just do `tc <ip> <port>` and to send do the same, and write text and press `<enter>`

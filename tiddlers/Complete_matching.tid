@@ -1,0 +1,12 @@
+created: 20171009085355495
+creator: cosmos
+modified: 20171015170325712
+modifier: cosmos
+tags: [[Matching (graph theory)]]
+title: Complete matching
+tmap.id: 8324b1b4-bfec-435d-b193-4cbf2c076840
+type: text/vnd.tiddlywiki
+
+Acomplete matching from V to W is a set of edges such that every vertex in V is connected to a unique vertex in W.
+
+The set of edges is thus vertex-disjoint

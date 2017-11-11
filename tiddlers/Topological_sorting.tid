@@ -1,0 +1,32 @@
+created: 20170926224337777
+creator: cosmos
+modified: 20170928214712369
+modifier: cosmos
+tags: [[Graph algorithms]]
+title: Topological sorting
+tmap.id: 89b5be32-656e-494c-b182-908e15b384de
+type: text/vnd.tiddlywiki
+
+
+[[intro video|https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PL6ED884C7AEE68027#t=17m25s]]
+
+Find an order of [[vertices|Vertex (graph)]] in a [[Directed acyclic graph]] such that preserves the ordering, when the edges in the graph are interpreted as a [[Partial ordering]].
+
+An example of application is to find a way of taking a set of subjects which have dependencies between them (represented as directed edges), which require you to take some subjects before another. [[Another uses|https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PL6ED884C7AEE68027#t=41m30s]]
+
+[[Algorithm|https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PL6ED884C7AEE68027#t=23m45s]]:
+
+# Find all nodes that have [[In-degree]] $$0$$
+
+# Delete one of these nodes, and go back to step 1.
+
+Basically, the graph is a graph of "unmet dependencies", and so every time we meet a dependency we remove it from the graph
+
+For it to have a solution the graph must be a DAG, which can be more or less interpreted as it needing to satisfy the axioms of a [[Partial ordering]] (though not literally)
+
+[[How to implement in|https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PL6ED884C7AEE68027#t=28m42s]] [[Adjacency list]] data structure. [[More efficient implementation|https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PL6ED884C7AEE68027#t=28m42s]]
+
+[[An alternative|https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PL6ED884C7AEE68027#t=42m50s]]
+
+-------------
+

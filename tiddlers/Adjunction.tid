@@ -1,0 +1,22 @@
+created: 20171111010405304
+creator: cosmos
+modified: 20171111114819744
+modifier: cosmos
+tags: [[Category theory]]
+title: Adjunction
+tmap.id: b825b70c-fad1-4d13-a6ba-112ddcd47347
+type: text/vnd.tiddlywiki
+
+An ''adjunction'' is a pair of functors $$\mathcal{C} \to_F \mathcal{D}$$ and $$\mathcal{D} \to_G \mathcal{C}$$, with a pair of [[Natural transformation]] $$\eta: 1_\mathcal{C} \Rightarrow GF$$ and $$\epsilon: FG \Rightarrow 1_\mathcal{D}$$, called the ''unit'' and ''counit'', respectively, satisfying the axioms known as ''triangle identities''.
+
+[[Video|https://www.youtube.com/watch?v=loOJxIOmShE&list=PL54B49729E5102248&index=1]]
+
+In this case $$F$$ is called a [[Left-adjoint]] of $$G$$ and $$G$$ is called a [[Right-adjoint]] of $$F$$.
+
+https://ncatlab.org/nlab/show/adjunction
+
+[[Alternative definition|https://www.youtube.com/watch?v=JEJim3t-N9A&list=PL54B49729E5102248&index=2]] in terms of a [[Natural isomorphism]] between [[Hom-set]]s.
+
+!!!__Examples__
+
+[[Free functors are left ajdoints to forgetful functors|https://www.youtube.com/watch?v=2i_PpYsl8b8&index=3&list=PL54B49729E5102248#t=1m]]

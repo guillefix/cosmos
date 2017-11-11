@@ -1,0 +1,20 @@
+created: 20171023125946411
+creator: cosmos
+modified: 20171031145350452
+modifier: cosmos
+tags: [[Linear algebra]]
+title: Linearly separable
+tmap.id: bba0dc1c-b8a3-447b-9d54-265639913080
+type: text/vnd.tiddlywiki
+
+A pair of sets of points in R^n are called linearly separable if there exists a [[Hyperplane]] which separates them (that is one set is on one side, and the other is in the other side of the hyperplane).
+
+A function from R^n to {0,1} is called linearly separable, if its [[Level set]]s $$f^{-1}(1)$$ and $$f^{-1}(0)$$ are linearly separable. Such a function is also called a ''linear threshold function''
+
+A particular class of these are [[Threshold Boolean function]]
+
+https://en.wikipedia.org/wiki/Linear_separability
+
+__A [[Consistent learner]] for linear threshold functions__
+
+See [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture03.pdf#page=7]]. Basically a [[linear program|Linear programming]] to check if a set of points are linearly separable

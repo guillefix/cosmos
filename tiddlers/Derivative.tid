@@ -1,0 +1,20 @@
+created: 20171106163129947
+creator: cosmos
+modified: 20171106163448797
+modifier: cosmos
+tags: [[Differential geometry]] Calculus
+title: Derivative
+tmap.id: 713b6899-2bdd-40ed-adea-4f5c74ab198c
+type: text/vnd.tiddlywiki
+
+The ''derivative of a function $$f: X \to \mathbb{R}$$'' for $$X$$ a [[Differentiable manifold]] is defined as an element of the [[Cotangent space]], which in coordinates corresponds to the [[Gradient]] of the function. In the case of $$X$$ being $$\mathbb{R}^n$$, this corresponds to the usual derivative in [[Multivariable calculus]].
+
+!!__Other derivative-like notions in [[Differential geometry]]__
+
+[[Differential]] ([[Jacobian]], for maps between manifolds)
+
+[[Vector field]]s. Derivative of a function (to $$\mathbb{R}$$) on a manifold, along a flow on the manifold, resulting on a new function on the manifold (to $$\mathbb{R}$$). This is basically a field of rank-1 differentials (Jacobians which are just vectors).
+
+[[Lie derivative]]
+
+[[Exterior derivative]]

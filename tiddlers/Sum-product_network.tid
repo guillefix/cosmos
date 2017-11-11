@@ -1,0 +1,14 @@
+created: 20170824130652669
+creator: cosmos
+modified: 20170824131733803
+modifier: cosmos
+tags: [[Generative model]] [[Graphical model]]
+title: Sum-product network
+tmap.id: cfbb2381-740e-4a23-9eaa-a69643ee1b8c
+type: text/vnd.tiddlywiki
+
+[[ Sum-Product Networks: A New Deep Architecture|https://arxiv.org/abs/1202.3732]]
+
+Used in [[Spatial navigation]]
+
+Tensorflow library: http://padl.ws/papers/Paper%2043.pdf

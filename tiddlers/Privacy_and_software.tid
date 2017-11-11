@@ -1,0 +1,85 @@
+created: 20170629171620152
+creator: cosmos
+modified: 20170629173541386
+modifier: cosmos
+tags: Privacy Internet
+title: Privacy and software
+tmap.id: e1389584-f25d-48ad-a0ee-29547c48e0ba
+type: text/vnd.tiddlywiki
+
+
+https://en.wikipedia.org/wiki/Web_beacon
+
+[[Google's privacy policy|https://www.google.com/intl/en_uk/policies/privacy/key-terms/#toc-terms-sensitive-info]] [[pdf|https://static.googleusercontent.com/media/www.google.com/en//intl/en_uk/policies/privacy/google_privacy_policy_en_uk.pdf]]. See below
+
+!!!__Private web surfing__
+
+Tor
+
+duckduckgo
+
+!!!__[[Password management]] and [[Cryptography]]__
+
+Passphrases
+
+--------------
+
+!!__Private cloud storage and software__
+
+https://www.virtru.com/blog/dropbox-encryption/
+
+https://www.boxcryptor.com/en/dropbox/
+
+https://owncloud.org/features/
+
+https://tresorit.com/business/dropbox-alternative?dropbox&gclid=Cj0KCQjwytLKBRCXARIsAPchlXrDuq51tz9UFqAkKHYsEY34NbsezpS3hZT9ir47LTdCAK299yVugh4aAmGuEALw_wcB
+
+https://www.dropbox.com/security
+
+!!__Private [[OS|Operating system]]s__
+
+__mobile__
+
+https://www.silentcircle.com/products-and-solutions/devices/silent-os/
+
+https://copperhead.co/android/
+
+__desktop__
+
+https://tails.boum.org/
+
+https://www.qubes-os.org/
+
+----------------
+
+__Google's reasons to share personal information__
+
+Information that we share
+We do not share personal information with companies, organisations and individuals outside of Google unless one of the
+following circumstances applies:
+With your consent
+We will share personal information with companies, organisations or individuals outside Google when we have your
+consent to do so. We require opt-in consent for the sharing of any sensitive personal information.
+With domain administrators
+If your Google Account is managed for you by a domain administrator (for example, for G Suite users) then your domain
+administrator and resellers who provide user support to your organisation will have access to your Google Account
+information (including your email and other data). Your domain administrator may be able to:
+view statistics regarding your account, such as statistics regarding applications that you install.
+change your account password.
+suspend or terminate your account access.
+access or retain information stored as part of your account.
+receive your account information in order to satisfy applicable law, regulation, legal process or enforceable
+governmental request.
+restrict your ability to delete or edit information or privacy settings.
+Please refer to your domain administrator’s privacy policy for more information.
+For external processing
+We provide personal information to our affiliates or other trusted businesses or persons to process it for us, based on our
+instructions and in compliance with our Privacy Policy and any other appropriate confidentiality and security measures.
+For legal reasons
+We will share personal information with companies, organisations or individuals outside Google if we have a belief in
+good faith that access, use, preservation or disclosure of the information is reasonably necessary to:
+meet any applicable law, regulation, legal process or enforceable governmental request.
+enforce applicable Terms of Service, including investigation of potential violations.
+detect, prevent or otherwise address fraud, security or technical issues.
+protect against harm to the rights, property or safety of Google, our users or the public, as required or permitted
+by law.

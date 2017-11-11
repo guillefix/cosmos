@@ -1,7 +1,8 @@
 created: 20160701131109911
 creator: guillefix
-modified: 20161104134327544
-modifier: guillefix
+modified: 20170824213037726
+modifier: cosmos
+tags: [[Data transmission]]
 title: Communication channel
 tmap.id: 50de644d-767b-4ae6-8b5f-8311d3bced66
 type: text/vnd.tiddlywiki
@@ -9,3 +10,7 @@ type: text/vnd.tiddlywiki
 A ''communication channel'' is a system in which the output depends probabilistically on the input.
 
 The //probability transition matrix//, for a given channel is the conditional probability of output X given input Y, p(X;Y).
+
+__Examples of communication channels__
+
+* [[Gaussian channel]]

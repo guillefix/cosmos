@@ -1,0 +1,11 @@
+created: 20170728163100979
+creator: cosmos
+modified: 20170728163131868
+modifier: cosmos
+title: Empowerment
+tmap.id: 615508e2-b777-478c-8841-bcac9c25e9f1
+type: text/vnd.tiddlywiki
+
+A notion used in unsupervised [[Reinforcement leraning]]
+
+[[Variational intrinsic control|https://arxiv.org/pdf/1611.07507.pdf]]

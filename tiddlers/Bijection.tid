@@ -1,9 +1,12 @@
 created: 20161106171719509
 creator: cosmos
-modified: 20161106171720844
+modified: 20171008195245413
 modifier: cosmos
 tags: Function
 title: Bijection
 tmap.id: 91ef5a27-d694-4290-b024-6c58dd11fd84
 type: text/vnd.tiddlywiki
 
+A [[Function]] $$f:X \to Y$$ that is [[surjective|Surjective function]] and [[injective|Injective function]]
+
+A necessary and sufficient condition is that there exists a function $$f^{-1}$$ such that $$f \circ f^{-1} = id_X$$ (this guarantees it is injective) //and// $$f^{-1} \circ f = id_Y$$ (which guarantees it is surjective), where $$id_A$$ is the [[Identitiy map]] from $$A$$ to itself.

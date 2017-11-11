@@ -1,15 +1,19 @@
 created: 20170608224957216
 creator: cosmos
-modified: 20170624130117964
+modified: 20171105175113787
 modifier: cosmos
 tags: [[Differential geometry]]
 title: Curve
 tmap.id: 1093072f-92d0-401b-a0ea-3339ed262e41
 type: text/vnd.tiddlywiki
 
-This refers, in particular to a ''spatial curve'', that is a curve in R^3
+In general, a curve refers to a [[differentiable|Differentiable function]] [[Continuous path]] from an interval of [[the reals|Real number]] to a [[Differentiable manifold]]
+
+However, if the codomain manifold is not specified, one often assumes it refers to a ''spatial curve'', that is a curve in [[R^3|Euclidean space]] (that is codomain is $$\mathbb{R}^3$$)
 
 [[Definition of regular curve|https://www.youtube.com/watch?v=NKlfCLsFzUY]], as opposed to singular ones, which may have [[Cusp]]s and nodes. They have [[arc length parametrization|https://www.youtube.com/watch?v=NKlfCLsFzUY#t=13m22s]] (p.a.l). They have [[no intrinsic geometry|https://www.youtube.com/watch?v=NKlfCLsFzUY#t=32m]]
+
+: A ''curve'' is a [[differentiable|Differentiable function]] [[Continuous path]] from an interval of [[the reals|Real number]] to [[R^3|Euclidean space]], $$x(t)$$. The curve is regular if $$x'(t) \neq 0$$ for all $$t$$.
 
 [[basis|https://www.youtube.com/watch?v=NKlfCLsFzUY#t=35m]] ([[Frenet trihedron]]). The derivative of the [[Tangent vector]] $$T$$ is orthogonal to the tangent vector. The norm of this vector $$k=|T'|$$ is the ''curvature'' of the curve at the point. The ''normal vector'' is the normalized version of this vector $$N=T'/k$$. To complete the basis we introduce the ''binormal vector'' $$B=T \times N$$. The magnitude of the derivative of the binormial vector defines the ''torsion''.  One can then derive [[Frenet formulae]]
 

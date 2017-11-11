@@ -1,0 +1,17 @@
+created: 20170924162139922
+creator: cosmos
+modified: 20170924213819870
+modifier: cosmos
+tags: [[Countability axiom]]
+title: First countable
+tmap.id: d3b374f1-dc42-4170-96c0-37648c44b354
+type: text/vnd.tiddlywiki
+
+
+A [[Topological space]] $$X$$ [[is first countable|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&t=3]] in a point $$x \in X$$ if there exists a countable system of [[Neighbourhood]]s $$U_1, U_2, U_3, ...$$ such that given an arbitrary nhbd $$U$$ of $$x$$, there exists $$n \in \mathbb{N}$$ such that $$U_n \subset U$$.
+
+We can always assume that $$U_1 \supset U_2 \supset U_3 \supset ...$$ (proof by taking intersections of previous $$U_i$$). In this form, the system is called a foundamental system of neighbourhoods of $$x$$
+
+Applications to the [[Sequence lemma]]
+
+$$X$$ is first countable if it is first countable in every point. [[Metrizable]] [[implies|https://www.youtube.com/watch?v=NatJLsBJILA&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=7m]] first countable

@@ -1,0 +1,12 @@
+created: 20171003223457067
+creator: cosmos
+modified: 20171003224359691
+modifier: cosmos
+tags: Subgroup
+title: Index of a subgroup
+tmap.id: 60f20139-c076-440f-8c7a-2e11e4533cc0
+type: text/vnd.tiddlywiki
+
+The index of $$H$$, subgroup of $$G$$ is defined as
+
+$$[G:H] = | G/H |$$ (or $$\infty$$ if $$G/H$$ is [[Infinite]], where $$G/H$$ is the [[Quotient set]]

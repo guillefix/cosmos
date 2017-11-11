@@ -1,0 +1,9 @@
+created: 20171011131226655
+creator: cosmos
+modified: 20171011131303701
+modifier: cosmos
+title: Minimum
+tmap.id: bf6362a8-d5b8-4ea1-8072-10c8c3212db3
+type: text/vnd.tiddlywiki
+
+An element x of an ordered set such that $$x \leq a $$ for all a in the set

@@ -1,0 +1,20 @@
+created: 20170804195433126
+creator: cosmos
+modified: 20171024190625934
+modifier: cosmos
+tags: Topology
+title: Euler characteristic
+tmap.id: 46bdb014-ecb9-4e3c-a93b-8eb621d1e85e
+type: text/vnd.tiddlywiki
+
+number of vertices - number of edges + number of faces
+
+[[Intro|https://www.youtube.com/watch?v=lB6wZFzscOY#t=56m25s]], relating it to the  [[Gauss-Bonnet theorem]] 
+
+It is a [[Topological invariant]].
+
+For a [[CW complex]], it is defined as the number of even-dimensional cells minus the number of odd-dimensional cells. the Euler characteristic of a cell complex depends only on its homotopy type, so the fact that the house with two rooms (from Hatcher) has the homotopy type of a point implies that its Euler characteristic must be 1, no matter how it is represented as a cell complex.
+
+is since m S 1 has Euler characteristic 1−m . But it
+is a rather nontrivial theorem that the Euler characteristic of a space depends only on
+its [[Homotopy]] type

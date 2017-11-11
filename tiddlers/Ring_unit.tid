@@ -1,0 +1,14 @@
+created: 20171021225726734
+creator: cosmos
+modified: 20171021231216337
+modifier: cosmos
+tags: [[Unital ring]]
+title: Ring unit
+tmap.id: 7ee74dab-d809-4960-917b-606c31154129
+type: text/vnd.tiddlywiki
+
+[[Def|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=57m35s]]. The units in a [[Unital ring]] $$R$$ are elements with a multiplicative inverse. That is an element $$a \in R$$ is called an unit, if $$\exists b \in $$, s.t. $$ab=ba =1$$. $$b$$ will be unique, denote it $$a^{-1}$$.
+
+The set of units in $$R$$ is denoted $$R^*$$.
+
+[[Proposition|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=1h1m]]. Let R be a ring with 1, then $$R^*$$ is a [[Group]], called the [[Multiplicative group]]

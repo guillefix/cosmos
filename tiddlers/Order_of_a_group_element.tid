@@ -1,0 +1,13 @@
+created: 20171016220751092
+creator: cosmos
+modified: 20171016221039776
+modifier: cosmos
+title: Order of a group element
+tmap.id: b5e04da5-c1c7-43db-95df-51cc1b8ff2c5
+type: text/vnd.tiddlywiki
+
+The order of an element $$g$$ of a group $$G$$ is the smallest positive integer $$n: g^n = e$$, the identity element. 
+
+https://math.stackexchange.com/questions/972057/calculating-the-order-of-an-element-in-a-group
+
+See [[Cyclic group]]

@@ -1,0 +1,10 @@
+created: 20170717133023280
+creator: cosmos
+modified: 20170717133131843
+modifier: cosmos
+tags: [[Rollout algorithm]]
+title: Monte Carlo tree search
+tmap.id: 73c41354-ef87-42b7-aa18-09bab5ba134d
+type: text/vnd.tiddlywiki
+
+A [[Rollout algorith]] where we combine sampling the beginning of the tree of possible futures with a realistic ''tree policy'', and the rest with a ''rolloout policy''

@@ -1,0 +1,16 @@
+created: 20171012173527779
+creator: cosmos
+modified: 20171012174046876
+modifier: cosmos
+tags: Function [[Category theory]]
+title: Function composition
+tmap.id: a5c840ec-12c0-4064-86dd-494d314ab8e0
+type: text/vnd.tiddlywiki
+
+Given two [[Function]]s $$f: X \to Y$$ and $$g: Y \to Z$$, we define their composition:
+
+$$g \circ f: X \to Z$$
+
+as $$(g \circ f)(x) = g(f(x))$$
+
+Function composition satisfies [[Associativity]] so that $$h \circ (g \circ f) = (h \circ g) \circ f := h \circ g \circ f$$

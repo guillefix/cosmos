@@ -1,7 +1,7 @@
 created: 20160611154626088
 creator: guillefix
-modified: 20161104134331247
-modifier: guillefix
+modified: 20171020151736306
+modifier: cosmos
 title: Order notation
 tmap.id: 0d50383f-9c7b-4e08-ab39-8f38ea2039ba
 type: text/vnd.tiddlywiki
@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 See [[notes|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3128/8/OHPHandoutLecture3.pdf]] for defs, [[Asymptotic approximation]]
 
 Big O: $$f=O(g)$$ as $$\epsilon \rightarrow 0$$
+
+[[Big Omega|https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-big-omega-notation]]
 
  (f could be asymptotic to const*g, or much smaller)
 

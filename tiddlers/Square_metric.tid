@@ -1,0 +1,14 @@
+created: 20170917193606344
+creator: cosmos
+modified: 20170917194211971
+modifier: cosmos
+tags: Metric
+title: Square metric
+tmap.id: a197e99f-bded-47af-a246-b95975b71644
+type: text/vnd.tiddlywiki
+
+//aka maximum metric//
+
+[[definition|https://www.youtube.com/watch?v=RFwtRWp2cBI&index=6&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=45m55s]]
+
+[[Bounded versions of metrics induce the same the topology as the original metric|https://www.youtube.com/watch?v=RFwtRWp2cBI&index=6&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=53m20s]] (see [[Bounded metric]])

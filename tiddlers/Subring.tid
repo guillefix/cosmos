@@ -1,0 +1,16 @@
+created: 20171021221447885
+creator: cosmos
+modified: 20171021221711519
+modifier: cosmos
+tags: Ring
+title: Subring
+tmap.id: 6ba2d2a8-0350-498c-8a7b-dbf1e5260d2e
+type: text/vnd.tiddlywiki
+
+[[Definition|https://www.youtube.com/watch?v=j2N5I1CTyRM&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=9#t=28m38s]]. A ''subring'' is a [[Subset]] of a [[Ring]], such that the restricted operations of the parent ring make the subset also a ring.
+
+In particular, for $$A \subset R$$, a [[Ring]]
+
+# $$A$$ is a [[Subgroup]] of $$(R,+)$$
+
+# $$\forall a,b \in A , ab \in A$$

@@ -1,0 +1,27 @@
+created: 20170927155343252
+creator: cosmos
+modified: 20171011190315943
+modifier: cosmos
+tags: [[Path connected]]
+title: Product of paths
+tmap.id: be3ca034-5efe-477f-afe7-f21c0f50c208
+type: text/vnd.tiddlywiki
+
+[[Definition|https://www.youtube.com/watch?v=0j7mkn5wNMY&index=15&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h19m18s]]
+
+Let $$f$$ be a [[path|Continuous path]] from $$x_0$$ to $$x_1$$ and $$g$$ a path from $$x_1$$ to $$x_2$$. Then their ''product''
+
+$$f *g: I \to X$$,
+
+$$(f*g)(s) = \begin{cases}
+f(2s)\quad 0 \leq s \frac{1}{2}\\
+g(2s-1)\quad \frac{1}{2} \leq s \leq 1
+\end{cases}$$
+
+Use [[Pasting lemma]] to show it is a path
+
+(remember: defined only if $$f(1) = g(0)$$
+
+------
+
+[[vid|https://www.youtube.com/watch?v=t45NoydhMTY&index=10&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=23m40s]]

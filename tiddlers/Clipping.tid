@@ -1,0 +1,27 @@
+created: 20170702191020907
+creator: cosmos
+modified: 20170702201426436
+modifier: cosmos
+tags: [[Viewing pipeline]]
+title: Clipping
+tmap.id: 6c498b27-e513-4565-a860-2cd6dbc638a6
+type: text/vnd.tiddlywiki
+
+//Not show things which are not in the camera's view (and also things which are too far or too close//
+
+Finding which points are going to lie inside the cube of[[Image space]], and so one should bother applying the rest of the graphics pipeline to, and will appear on the screen.
+
+It involves finding whether points line in the right side of the planes defining the image [[camera|Camera (computer graphics)]] viewing pyramid.
+
+One often does clipping in image space itself because its easier computationally as the planes are aligned to the axes (see [[here|https://www.youtube.com/watch?v=Xks1v4GNUiY&index=7&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=4m37s]] )
+
+[[video|https://www.youtube.com/watch?v=og7hOFypKpQ&index=6&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=20m43s]].
+
+We actually do clipping in [[Homogeneous coordinates]], before dividing by w, which actually means we have to do an extra clipping.. (see [[here|https://www.youtube.com/watch?v=Xks1v4GNUiY&index=7&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=10m20s]])
+
+In [[Computer graphics]], we generally want [[Polygon]]s to be:
+
+* Planar
+* Convex
+
+If you break any arbitrary polygon into [[Triangle]]s, it's fine because triangles are planar and convex

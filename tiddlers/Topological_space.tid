@@ -1,6 +1,6 @@
 created: 20160713223337267
 creator: guillefix
-modified: 20170628190846717
+modified: 20171014201255529
 modifier: cosmos
 tags: Topology
 title: Topological space
@@ -13,7 +13,7 @@ A ''topological space'' is a [[Set]] $$X$$, with a collection of distinguished [
 *  the intersection of any finite collection of open sets is open;
 *  The empty set $$\emptyset$$ and the whole set, $$X$$ itself are both open.
 
-//see [[definition of a topology|https://www.youtube.com/watch?v=PXIcas22MtQ&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=6m8s]]//. We can define a [[Basis of a topology]] that //generates// the topology in the same way that [[Open ball]] generate the [[Standard topology]]. [[most often we start with a basis and construct the topology|https://www.youtube.com/watch?v=PXIcas22MtQ&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h16m10s]]
+//see [[definition of a topology|https://www.youtube.com/watch?v=PXIcas22MtQ&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=6m8s]]//. We can define a [[Basis of a topology]] that //generates// the topology in the same way that [[Open ball]] generate the [[Standard topology]]. [[most often we start with a basis and construct the topology|https://www.youtube.com/watch?v=PXIcas22MtQ&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h16m10s]]. Given a [[Subbasis]], which is just any collection of subsets covering X, the induced topology is just given by ''arbitrary unions of finite intersections''
 
 An equivalent definition is that a topological space is a [[Neighbourhood space]] $$(X, \mathcal{N})$$ in which, for all $$x \in X$$ and for all $$N \in  \mathcal{N}(x)$$, there exists $$N_1 \in  \mathcal{N}(x)$$ such that, for all $$y \in N_1, N \in  \mathcal{N}(y)$$.
 
@@ -39,16 +39,19 @@ These are approached using //neighbourhoods// of a point, which are just open se
 
 !!!__Examples of topologies__
 
+[[Standard topology]]
+
+[[Lower limit topology]]
+
 [[Product topology]]
 
 [[Discrete topology]]
 
+[[Order topology]]
+
+[[Subspace topology]]
+
 [[some examples|https://www.youtube.com/watch?v=PXIcas22MtQ&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=13m30s]]. Indiscrete topology (empty and whole set), discrete topology (all subsets of the set ([[Power set]])), [[finite complement topology|https://www.youtube.com/watch?v=PXIcas22MtQ&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=19m30s]]
 
-!!!__Related spaces__
+------------------
 
-[[Metric space]]
-
-[[Compact space]]
-
-[[Hausdorff space]]

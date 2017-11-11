@@ -1,0 +1,24 @@
+created: 20171103125130980
+creator: cosmos
+modified: 20171103133257458
+modifier: cosmos
+tags: [[Link (knot theory)]]
+title: Oriented link
+tmap.id: 96fcea8a-a584-4742-abf7-3b12a610e555
+type: text/vnd.tiddlywiki
+
+An ''orientation'' of a [[link|Link (knot theory)]] is a choice of direction to travel around each of the components of a link.
+
+An ''oriented link'' is a link together with an orientation. We notate orientations on [[Knot diagram]]s by drawing arrows.
+
+[[Equivalence of links|Knot equivalence]] and [[Reidemeister theorem]] extend for oriented links.
+
+See [[here|http://homepages.abdn.ac.uk/r.hepworth/pages/files/Knots_Notes.pdf#page=4]] and [[here|https://www.youtube.com/watch?v=9wejK6QGO9o&feature=youtu.be]]
+
+In a [[diagram|Knot diagram]] of an oriented link, every crossing can be given a ''sign''. See [[here|https://www.youtube.com/watch?v=9wejK6QGO9o&feature=youtu.be#t=4m30s]].
+
+[img[sign_of_crossing_in_oriented_link_diagram.png]]
+
+[[Reverse link]]
+
+!![[Linking number]]

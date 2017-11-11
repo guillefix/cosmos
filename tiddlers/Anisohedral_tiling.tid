@@ -1,0 +1,16 @@
+created: 20171102160102166
+creator: cosmos
+modified: 20171102162537435
+modifier: cosmos
+tags: Tiling
+title: Anisohedral tiling
+tmap.id: 3a726c6e-cc95-4356-b98c-7a3c621c6133
+type: text/vnd.tiddlywiki
+
+A tiling is said to be ''$$k$$-anisohedral'' if it is not $$n$$-[[isohedral|Isohedral tiling]] for any $$n < k$$. A tiling is called ''anisohedral'' if it is $$2$$-anisohedral, that is if it is not isohedral.
+
+http://www.angelfire.com/mn3/anisohedral/explain.html
+
+http://mathworld.wolfram.com/AnisohedralTiling.html
+
+A [[Tile]] which only allows anisohedral tilings, so no isohedral tilings, is called an ''anisohedral tile''

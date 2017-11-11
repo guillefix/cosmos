@@ -1,0 +1,31 @@
+created: 20171015165739687
+creator: cosmos
+modified: 20171022221132910
+modifier: cosmos
+tags: [[Power set]] Antichain [[Extremal combinatorics]]
+title: Sperner's lemma
+tmap.id: 13cf0991-ee03-4559-af21-14525deecc49
+type: text/vnd.tiddlywiki
+
+An [[Antichain]] in [[P(n)|Power set]] has size at most $$\binom{n}{\lfloor n/2 \rfloor}$$.
+
+__//Proof//__
+
+We first show that there is a [[Partition]] pf P(n) into $$\binom{n}{\lfloor n/2 \rfloor}$$. [[chains|Chain set]].
+
+To do that we show that there are [[Complete matching]]s between subsequent layers of the [[Power set]] (which is isomorphic to the [[Discrete cube]]). To show these exist, we show that the condition for [[Hall's theorem]] is satisfied. This is done by counting the number of edges between them, which depend on the sizes of the sets in Hall's theorem..
+
+
+
+First proof of Sperner’s Lemma. This is now easy. A chain and an antichain
+meet in at most one element. We have partitioned P(n) into $$\binom{n}{\lfloor n/2 \rfloor}$$chains,
+so no antichain can have more than $$\binom{n}{\lfloor n/2 \rfloor}$$ elements. 
+
+See full proof [[here|https://courses.maths.ox.ac.uk/node/view_material/33445]]
+
+Sperner’s Lemma tells us the maximal size of an antichain, but what
+can we say about uniqueness? And what happens if we start using sets of
+different sizes? The [[LYM inequality]] gives a much more
+refined picture.
+
+See also [[Dilworth's lemma]]

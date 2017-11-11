@@ -1,7 +1,7 @@
 created: 20160429140207650
 creator: guillefix
-modified: 20161104134328694
-modifier: guillefix
+modified: 20171008142922647
+modifier: cosmos
 tags: [[Computer Science and IT]]
 title: Hacking
 tmap.id: 5e47cc2d-c213-423f-9783-346a2cccd706
@@ -12,3 +12,5 @@ type: text/vnd.tiddlywiki
 //Curiosities//
 
 [[Ken Thompson Hack|http://programmers.stackexchange.com/questions/184874/is-ken-thompsons-compiler-hack-still-a-threat]]
+
+in oxford. CSS competitive hacking group http://ox002147.gitlab.io/getting-started.html

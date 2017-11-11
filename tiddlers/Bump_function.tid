@@ -1,0 +1,10 @@
+created: 20171012100007082
+creator: cosmos
+modified: 20171012112721805
+modifier: cosmos
+tags: 
+title: Bump function
+tmap.id: d5cf2191-f9dc-4d30-939d-799838a06440
+type: text/vnd.tiddlywiki
+
+A [[Smooth function]] which is exactly $$0$$ outside a given open set, and $$>0$$ inside it.

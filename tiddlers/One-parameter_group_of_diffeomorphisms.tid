@@ -1,0 +1,14 @@
+created: 20171105234132240
+creator: cosmos
+modified: 20171105235500717
+modifier: cosmos
+tags: [[Vector field]]
+title: One-parameter group of diffeomorphisms
+tmap.id: 4b148192-789b-41aa-bcea-707d81b3f910
+type: text/vnd.tiddlywiki
+
+One can find a correspondence between [[Vector field]]s (under some assumptions) and a ''one-parameter group of [[Diffeomorphism]]s'', so that the vector field corresponds to the "infinitesimal displacement" of the flow represented by this group, the parameter being time.
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=28]] for the formal definition and proof of correspondence. The correspondence [[uses|https://courses.maths.ox.ac.uk/node/view_material/33094#page=30]] integral curves to build the One-parameter group of diffeomorphisms given a vector field.
+
+A [[Curve]] in the manifold whose [[Tangent vector]] at every point is the vector of the vector field at that point is called an [[Integral curve]]

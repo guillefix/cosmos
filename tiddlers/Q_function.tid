@@ -1,0 +1,27 @@
+created: 20170715164201357
+creator: cosmos
+modified: 20170715164319544
+modifier: cosmos
+tags: [[Value function]]
+title: Q function
+tmap.id: 0f781235-eec7-4f0a-8cde-59bb431c285f
+type: text/vnd.tiddlywiki
+
+//aka action-value function//
+
+Although state-values suffice to define optimality, it will prove to be useful to define action-values. Given a state $$s$$, an action $$a$$ and a policy $$\pi$$, the action-value of the pair $$(s,a)$$ under $$\pi$$ is defined by
+
+:$$Q^\pi(s,a) = E[R|s,a,\pi],\,$$
+
+where, now, $$R$$ stands for the random return associated with __first taking action $$a$$ in state $$s$$ and following $$\pi$$ thereafter__.
+
+[[Video|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1#t=52m]] -- [[Bellman equation for action-value function|https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&spfreload=1#t=54m40s]]
+
+It is well-known from the theory of MDPs that if someone gives us $$Q$$ for an optimal policy, we can always choose optimal actions (and thus act optimally) by simply choosing the action with the highest value at each state. 
+The ''action-value function'' of such an optimal policy is called the ''optimal action-value function'' and is denoted by $$Q^*$$.
+
+[[video|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=27m55]], [[Q function using NN|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=33m]], define loss function, and then use [[Gradient descent]]
+
+Can learn the Q function by a dynamic programming approach but [[it's too computationally expensive|https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3#t=1h27m55s]]. The [[Model-free reinforcement learning]] method of [[Q-learning]], on the other hand, is very useful. [[Don't need to follow optimal policy while Q-learning|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=37m30s]]
+
+[[Example|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=41m]]

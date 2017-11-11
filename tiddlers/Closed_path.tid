@@ -1,0 +1,11 @@
+created: 20171011221555640
+creator: cosmos
+modified: 20171011221736190
+modifier: cosmos
+title: Closed path
+tmap.id: 8b85c305-c8b8-44e4-ac4a-bafd0f03df06
+type: text/vnd.tiddlywiki
+
+//aka loop//
+
+[[Continuous path]] whose initial and endpoints are the same.

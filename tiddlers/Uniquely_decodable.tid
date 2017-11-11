@@ -1,0 +1,10 @@
+created: 20170824220939864
+creator: cosmos
+modified: 20170824221034654
+modifier: cosmos
+title: Uniquely decodable
+tmap.id: 05277b56-530b-4ef4-8c21-042436957a07
+type: text/vnd.tiddlywiki
+
+A [[Code]] is called ''niquely decodable'' if its extension is nonsingular (see definitions at [[Code]]). Basically, if there is a unique decoding of the encoded message; any encoded string in a uniquely decodable code has
+only one possible source string producing it.

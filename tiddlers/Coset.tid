@@ -1,0 +1,18 @@
+created: 20171003221818959
+creator: cosmos
+modified: 20171009142259614
+modifier: cosmos
+tags: [[Group theory]]
+title: Coset
+tmap.id: f3da28cd-e977-4050-96d8-f7aa8f4c12e5
+type: text/vnd.tiddlywiki
+
+[[Coset|https://www.youtube.com/watch?v=7ou-_sXqatk&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=2#t=23m50s]]. If $$H \subset G$$ is a [[Subgroup]], then it defines an [[Equivalence relation]], and its equivalence classes are called ''coset''s ([[Left coset]]), denoted $$a H$$ (for some element $$a \in G$$, like notation $$[a]$$).
+
+$$a \equiv b ~ \text{mod}H$$ if $$\exists h \in H$$ s.t. $$a=bh$$
+
+[[All cosets are bijective|https://www.youtube.com/watch?v=7ou-_sXqatk&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=2#t=32m30s]], so they all have the same cardinality, and they all have the same cadinality as $$H$$ (because of the coset $$1H = H$$).
+
+[[Quotient group]]
+
+[[Index of a subgroup]]

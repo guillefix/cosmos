@@ -1,6 +1,6 @@
 created: 20160701024258791
 creator: guillefix
-modified: 20170416094159771
+modified: 20170824212745920
 modifier: cosmos
 title: Entropy rate
 tmap.id: dab00cd9-3d81-440c-ae01-1a80d8295331
@@ -21,6 +21,14 @@ One can define a related measure, $$H_X$$, by using conditional entropies. It ca
 [img[http://i.imgur.com/EdV8plQ.png]]
 
 https://www.wikiwand.com/en/Entropy_rate
+
+!!__Entropy rate for i.i.d. process__
+
+See [[Asymptotic equipartition property]]
+
+!!__Entropy rate for [[Stationary process]]__
+
+The asymptotic equipartition property in Chapter 3 establishes that nH (X) bits suffice on the average to describe n independent and iden- tically distributed random variables. But what if the random variables are dependent? In particular, what if the random variables form a sta- tionary process? We will show, just as in the i.i.d. case, that the entropy H (X 1 , X 2 , . . . , X n ) grows (asymptotically) linearly with n at a rate H ( X ), which we will call the entropy rate of the process. The interpretation of H ( X ) as the best achievable data compression will await the analysis in Chapter 5 (from Cover&Thomas book). See [[Source coding theorem]]
 
 [[Entropy rate of a finite state process]]
 

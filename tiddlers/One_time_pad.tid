@@ -1,0 +1,21 @@
+created: 20170706112259121
+creator: cosmos
+modified: 20170706113023569
+modifier: cosmos
+tags: [[Stream cipher]]
+title: One time pad
+tmap.id: 1f868be7-30ed-46b9-ad73-5d72ecfde237
+type: text/vnd.tiddlywiki
+
+//OTP//
+
+[[video|https://www.youtube.com/watch?v=AELVJL0axRs#t=1h30s]]
+
+[[Unconditionally secure]] cipher
+
+[[defintion|https://www.youtube.com/watch?v=AELVJL0axRs#t=1h5m40s]]. OTP is a [[Stream cipher]] where :
+
+# the keystream bits $$s_i$$ stem from a [[True random number generator]]
+# each keystream bit is used only once.
+
+[[The problem is that the key is as long as the message|https://www.youtube.com/watch?v=AELVJL0axRs#t=1h10m29s]], and one needs to share it...

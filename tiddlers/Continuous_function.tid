@@ -1,7 +1,8 @@
 created: 20160714013401154
 creator: guillefix
-modified: 20161104134327627
-modifier: guillefix
+modified: 20170926183741775
+modifier: cosmos
+tags: Function
 title: Continuous function
 tmap.id: fbb470b2-2da6-4bf7-88d1-eb65ae3849be
 type: text/vnd.tiddlywiki
@@ -9,3 +10,24 @@ type: text/vnd.tiddlywiki
 A [[Function]] between two [[Topological spaces]] $$f: (X, \tau) \rightarrow (Y, \tau')$$ is ''continuous'' if, for all $$O \in \tau'$$, $$f^{-1} (O) \in \tau$$.
 
 where $$f^{-1}(O)$$ is the [[Preimage]] of the set $$O$$.
+
+[[Definition (vid)|https://www.youtube.com/watch?v=02l3WZrppbM&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=4#t=37m15s]] -- [[Local definition (in a point)|https://www.youtube.com/watch?v=02l3WZrppbM&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=4#t=41m26s]]
+
+It is enough to show that the property holds for elements of a [[Subbasis]] or a [[basis|Basis of a topology]] of the topology
+
+[[Homeomorphism]]
+
+[[If a function is continuous then convergent sequences map to convergent sequences|https://www.youtube.com/watch?v=LRTu9LMFpnQ&index=7&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=27m50s]]
+
+Conversely, *if* a space is [[Metrizable]], then [[the fact that {convergent sequences map to convergent sequences} implies that the function is continuous|https://www.youtube.com/watch?v=LRTu9LMFpnQ&index=7&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=24m20s]] ([[proof|https://www.youtube.com/watch?v=LRTu9LMFpnQ&index=7&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=31m30s]])
+
+[[Continuous is equivalent to {f(closure of A) \subset closure of f(A)}|https://www.youtube.com/watch?v=LRTu9LMFpnQ&index=7&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=31m30s]]
+
+[[There are surjective continuous maps from the interval to the square|https://www.youtube.com/watch?v=DP0OELdzAZ8&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=9#t=1h18m45s]]
+
+---------------
+
+Basically imagine yourself walking in a city with defined neighbourhoods (rooms, houses, neighbourhoods), and controlling a holographic projection of yourself walking in another city with similarly defined neighbourhoods. A continuous mapping between your position and that of the projection will mean that given any neighbourhood in the codomain city, I can find a neighbourhood in my city such that if I stay within it, my projection will stay within that one. So continuity gives a certain kind of controllability of the output, given controlability of the input. Actually this is not quite equivalent. I need to say that not only is there such a region, but that the preimage of the region in the codomain, is one such region.. There is no point mapping to the codomain region that isn't part of one such open set.. In other words, no matter where I am in the domain, if I map to the given open set in the codomain, then there is an open set around me, contained in the open set of the codomain. This is basically the definition of [[local continuity|https://www.youtube.com/watch?v=02l3WZrppbM&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=4#t=41m26s]].
+
+So I have that kind of controllability, but I have it at every point in the input.
+

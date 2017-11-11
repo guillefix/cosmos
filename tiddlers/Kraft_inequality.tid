@@ -1,0 +1,23 @@
+created: 20170824215114328
+creator: cosmos
+modified: 20171015174857725
+modifier: cosmos
+tags: [[Information theory]]
+title: Kraft inequality
+tmap.id: f2a31e12-698c-4139-accd-cef1ab82bd2f
+type: text/vnd.tiddlywiki
+
+
+For a set of [[Codeword]]s of length $$l(i)$$ (for the $$i$$th codeword), which constitute a [[Prefix code]], the following holds.
+
+$$\sum_i 2^{-l(i)} \leq 1$$
+
+This can be seen by drawing a [[Binary tree]] where each layer corresponds to assigning a bit to a letter in the codeword. The leaves of the tree will correspond to the codewords. The limited number of nodes and codeword choices in the tree give rise to the inequality
+
+the Kraft inequality
+is a sufficient condition for the existence of a codeword set with the
+specified set of codeword lengths.
+
+--------------
+
+Could this be related to [[LYM inequality]]?

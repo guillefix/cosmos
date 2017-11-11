@@ -1,0 +1,17 @@
+created: 20171029232000331
+creator: cosmos
+modified: 20171030203930042
+modifier: cosmos
+title: Kruskal-Katona theorem
+tmap.id: 6ae45c9a-5e71-4067-871d-4df47605b5c6
+type: text/vnd.tiddlywiki
+
+Let $$\mathcal{F} \subseteq [n]^{(r)}$$ (the $$r$$th layer of the [[Power set]] on $$[n]$$) and let $$\mathcal{A}$$ be the family consisting of the first $$|\mathcal{F}|$$ elements of $$[n]^{(r)}$$ in [[colex order|Colexicographic order]]. Then $$|\partial \mathcal{F}| \geq |\partial \mathcal{A}|$$, where $$\partial$$ represents the [[Shadow set]].
+
+[[lecture note|https://courses.maths.ox.ac.uk/node/view_material/33445#page=16]]
+
+This means that
+
+://[[shadows|Shadow set]] are minimized by taking initial segments of [[colex|Colexicographic order]]//
+
+Families of sets corresponding to initial segments of colex minimize the size of their shadows

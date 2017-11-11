@@ -1,0 +1,16 @@
+created: 20170927200454919
+creator: cosmos
+modified: 20170927200848361
+modifier: cosmos
+tags: [[Differential geometry]] [[Multivariate calculus]]
+title: Coordinate transformation
+tmap.id: e7148cc0-0f73-4070-8778-c447132460dc
+type: text/vnd.tiddlywiki
+
+
+<small>Remember (as David Wallace argued in a lecture) that one can do geometry either coordinate-free or using coordinates, and both ways are useful depending on the task</small>
+
+
+__Transformation of ''covariant and contravariant components''__
+
+[img[http://i.imgur.com/INGknH3.png]]

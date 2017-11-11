@@ -1,0 +1,10 @@
+created: 20171012174558102
+creator: cosmos
+modified: 20171012174641584
+modifier: cosmos
+tags: 
+title: Identity function
+tmap.id: 0a75f18f-4f20-4277-bf70-7c7241637b64
+type: text/vnd.tiddlywiki
+
+A function $$\text{id}_X: X \to X$$, $$\text{id}_X(x) = x ~ \forall x \in X$$

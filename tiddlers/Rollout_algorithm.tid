@@ -1,0 +1,12 @@
+created: 20170717132835335
+creator: cosmos
+modified: 20170717133015691
+modifier: cosmos
+tags: [[Decision-time planning]]
+title: Rollout algorithm
+tmap.id: c52173e4-ffb1-4db4-8103-4e2cd67523d3
+type: text/vnd.tiddlywiki
+
+[[Decision-time planning]] where the value of possible actions is estimated by [[Monte Carlo]] sampling of future trajectories, for each of which we compute the cumulative reward (see [[Reinforcement learning]]), and averaging. We then often choose the most rewarding action (but with some probability we may not [[to allow some exploration|Exploration-exploitation trade-off]].
+
+[[Monte Carlo tree search]] is an example of this.

@@ -1,0 +1,11 @@
+created: 20171011133036012
+creator: cosmos
+modified: 20171011133100222
+modifier: cosmos
+title: Section of an ordered set
+tmap.id: 7d13ff81-003d-4d06-927e-90ba8747ab67
+type: text/vnd.tiddlywiki
+
+$$(-\infty, a) = \{x \in X | x < a\}$$
+
+Like a half-[[Open interval]]

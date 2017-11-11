@@ -1,7 +1,8 @@
 created: 20160713230217787
 creator: guillefix
-modified: 20161104134328247
-modifier: guillefix
+modified: 20171003221405450
+modifier: cosmos
+tags: Relation
 title: Equivalence relation
 tmap.id: 3f1272de-d6a2-43b0-a695-5d0d368c4355
 type: text/vnd.tiddlywiki
@@ -11,3 +12,9 @@ An ''equivalence relation'' is a binary [[Relation]], $$R$$ on a [[Set]] $$X$$ t
 * [[Reflexivity]]
 * [[Symmetry|Symmetric property]]
 * [[Transitivity]]
+
+The set of elements which are all related by an equivalence relation is called an [[Equivalence class]]. The collection of equivalence classes of a set with an equivalence relation produces a [[Partition]] ([[vid|https://www.youtube.com/watch?v=7ou-_sXqatk&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=2#t=8m55s]]).
+
+<small>[[We often can define structures/operations on equivalence classes by defining it in representatives of the classes. This is only well defined if the definition is independent of the choice of represenatative|https://www.youtube.com/watch?v=7ou-_sXqatk&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=2#t=15m40s]]</small>
+
+[[Review of equivalence relations|https://www.youtube.com/watch?v=7ou-_sXqatk&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=2#t=53s]]

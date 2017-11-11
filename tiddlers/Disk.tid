@@ -1,0 +1,12 @@
+created: 20171024150111771
+creator: cosmos
+modified: 20171025094839561
+modifier: cosmos
+title: Disk
+tmap.id: 5b758534-2939-4b9f-8108-35e9fc781ef7
+type: text/vnd.tiddlywiki
+
+
+A name given to a [[Closed ball]], that is all points $$\{x \in \mathbb{R}^n | ||x|| \leq 1\}$$ (for radius $$1$$, which is the standard).
+
+This is what is meant if one doesn't specify. If one says //open disk//, then, of course, we don't include the boundary.

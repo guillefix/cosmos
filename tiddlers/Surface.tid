@@ -1,15 +1,17 @@
 created: 20170617084905179
 creator: cosmos
-modified: 20170624120654156
+modified: 20170927201156144
 modifier: cosmos
 tags: Manifold
 title: Surface
 tmap.id: 0b6217fd-005e-400e-96df-f198a0813b04
 type: text/vnd.tiddlywiki
 
-See Isham book for general definition
+//aka 2-dimensional manifold//
 
-!__2-dimensional manifold (surface)__
+!!__[[Regular surface]]s__
+
+-- Often one refers to regular surfaces when saying surface (depends on context).
 
 [[Regular surface]]: [[Mathematical definition of a regular surface|https://www.youtube.com/watch?v=AFSL-wGNRFM#t=5m55s]] as a subset from R^3 where every point lies on an open subset with a [[Coordinate chart]]
 
@@ -20,6 +22,17 @@ Examples:
 * [[Sphere]]
 
 Useful theorem to proof things are  regular surfaces: [[Implicit function theorem]]
+
+!!__General 2d [[Manifold]]s__
+
+like [[Projective plane]]..
+
+[[They have been classified up to homeomorphism by Moebious|https://www.youtube.com/watch?v=pxsL5JTTk5Q&index=10&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ#t=16m30s]] into:
+
+* Orientable (which are n-tori, where n is the [[Genus]])
+* Non-orientable which are connected-sum'd copies of the real [[Projective plane]]
+
+[[Whitney embedding theorem]]
 
 !!__Functions defined on a surface__
 

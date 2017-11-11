@@ -1,11 +1,19 @@
 created: 20170528105643022
 creator: cosmos
-modified: 20170528184754806
+modified: 20171024145011733
 modifier: cosmos
+tags: [[Projective geometry]]
 title: Projective plane
 tmap.id: 44b947cc-5f2f-4866-bf90-a3a34f3db4da
 type: text/vnd.tiddlywiki
 
+//aka projective space, specially when referring to the more general versions in higher dims, or with complex numbers.//
+
+!!__Real projective plane__
+
+[[video|https://www.youtube.com/watch?v=bv3gwMdYlNo&t=150#t=1h10m30s]] from diffgeo lectures
+
+[[its topology|https://www.youtube.com/watch?v=HWzwaA8ImkM&index=19&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h]]. [[Sphere can provide a|https://www.youtube.com/watch?v=HWzwaA8ImkM&index=19&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h7m50s]] [[Covering]]
 
 [[real projective plane is Mobious strip + disk|https://www.youtube.com/watch?v=B6vEdfk7SWU&index=9&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ]] -- [[animation|https://www.youtube.com/watch?v=u0VkikpElMo]]
 
@@ -13,3 +21,13 @@ type: text/vnd.tiddlywiki
 
 
 A model is the [[Crosscap]], i think
+
+[[video 2|https://www.youtube.com/watch?v=PwqmE50hJFY#t=1h14m40s]]
+
+[[2d projective plane can't be embedded into R^3|https://www.youtube.com/watch?v=PwqmE50hJFY#t=1h24m50s]] ([[Embedding]]). But it can be embedded into $$\mathbb{R}^4$$ ([[vid|https://www.youtube.com/watch?v=p9m9bBJsGzo#t=3m40s]])
+
+[[vid3|https://www.youtube.com/watch?v=p9m9bBJsGzo]]
+
+!!__Complex projective plane__
+
+See Hatcher pg 6

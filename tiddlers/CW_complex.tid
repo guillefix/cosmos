@@ -1,0 +1,31 @@
+created: 20171024103737966
+creator: cosmos
+modified: 20171031103440911
+modifier: cosmos
+tags: [[Algebraic topology]]
+title: CW complex
+tmap.id: b7958314-f3d2-4ca9-8a93-eba8dfc30de2
+type: text/vnd.tiddlywiki
+
+//aka cell complex//
+
+[[Motivation for CW Complexes|https://www.youtube.com/watch?v=bWCfAboTSs8&list=PL7BFF10190F42006E]] -- [[notes|https://courses.maths.ox.ac.uk/node/view_material/33583#page=11]]
+
+[img[cw_complex.png]]
+
+See page 5 of Hatcher. [[CW Defn and Examples|https://www.youtube.com/watch?v=eLHcRp1S2MM&list=PL7BFF10190F42006E&t=383]]
+
+See also [[Delta-complex]]
+
+If $$X=X^n$$ for some $$n$$ then $$X$$ is finite dimensional and the smallest such $$n$$ is its dimension.
+
+For a finite dimensional cell complex, we can define the [[Euler characteristic]]. the Euler characteristic of a cell complex depends only on its homotopy type, so the fact that the house with two rooms (from Hatcher) has the homotopy type of a point implies that its Euler characteristic must be 1, no matter how it is represented as a cell complex.
+
+Each cell e α in a cell n complex X has a characteristic map $$\Phi_\alpha:: D_\alpha^n \to X$$ which extends the attaching map $$\phi_\alpha$$ and is a [[Homeomorphism]] from the [[interior|Interior of a set]] of $$D_\alpha^n$$ onto $$e_\alpha^n$$ . Namely, we can take $$\Phi_\alpha^n$$ to be the composition $$D^n_\alpha \hookrightarrow X^{n-1}\amalg_\alpha D_\alpha^n \to X^n \hookrightarrow X$$ where the middle map is the [[quotient map|Canonical projection]] defining $$X^n$$
+
+So note that an [[n-cell]] is the [[interior|Interior of a set]] of an n-[[Disk]] (see [[this video|https://www.youtube.com/watch?v=eLHcRp1S2MM&list=PL7BFF10190F42006E&t=383]]). The characteristic and attachment maps are defined on the disk corresponding to each n-cell.
+
+A subcomplex is a closed subspace that is the union of cells in $$X$$. A pair (X, A) consisting of a
+cell complex X and a subcomplex A will be called a CW pair. For example, each skeleton X n of a cell complex X is a subcomplex.
+
+[img[cell_complex_torus.png]]

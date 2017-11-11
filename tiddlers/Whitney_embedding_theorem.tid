@@ -1,0 +1,13 @@
+created: 20170924121217301
+creator: cosmos
+modified: 20170924135227830
+modifier: cosmos
+tags: Embedding
+title: Whitney embedding theorem
+tmap.id: eb430b49-7d95-4bb5-9dbe-daa0c8b8166b
+type: text/vnd.tiddlywiki
+
+
+[[Can every n-dimensional manifold be embedded in some Euclidean space?|https://www.youtube.com/watch?v=PwqmE50hJFY#t=1h26m]] -- [[the answer is Yes|https://www.youtube.com/watch?v=PwqmE50hJFY#t=1h26m55s]], but the dimensionality of the Euclidean space may have to be $$2n+1$$ for an $$n$$-dimensional manifold. E.g., any 2d-dim manifold can be embedded in $$\mathbb{R}^5$$
+
+https://en.wikipedia.org/wiki/Whitney_embedding_theorem

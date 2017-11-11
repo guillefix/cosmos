@@ -1,0 +1,34 @@
+created: 20170916005844083
+creator: cosmos
+modified: 20171011182021188
+modifier: cosmos
+tags: [[Topological space]] [[Topological property]]
+title: Metrizable
+tmap.id: 7110a3e1-7038-4f0c-aed3-7a63e9dd1ad6
+type: text/vnd.tiddlywiki
+
+A [[Topological space]] is ''metrizable'' if there is a [[Metric]] such that the [[Metric topology]] with respect to that metric equals the topology in the space. [[vid|https://www.youtube.com/watch?v=RFwtRWp2cBI&index=6&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=15m]].
+
+An important problem in topology is finding necessary and sufficient conditions for metrizability
+
+A [[discrete space|Discrete topology]] is metrizable ([[vid|https://www.youtube.com/watch?v=RFwtRWp2cBI&index=6&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=19m45s]]).
+
+[[A metrizable space is |https://www.youtube.com/watch?v=RFwtRWp2cBI&index=6&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=23m]] [[Hausdorff|Hausdorff space]]
+
+Example: [[R^n|https://www.youtube.com/watch?v=RFwtRWp2cBI&index=6&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=33m55s]], with metric topology with [[Euclidean metric]]. It equals the [[Product topology]] (using [[Standard topology]] for $$\mathbb{R}$$.
+
+Is $$\mathbb{R}^\omega$$ (the space of infinite sequences of real numbers), and more generally $$\mathbb{R}^J$$, for arbitrary [[Index set]] $$J$$, metrizable? More precisely, is there a topology on this space which is metrizable? Yes, with the [[Uniform metric]]
+
+[[If X is metrizable and has a countable dense subset D then X has a countable basis|https://www.youtube.com/watch?v=4lrmr61S03I&index=11&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h30m5s]] (it is [[Second countable]]).
+
+A metrizable topological space with corresponding metric, is called ''metric'' space
+
+!!!__Necessary and sufficient conditions__
+
+[[vid|https://www.youtube.com/watch?v=dW2UyOEP6FI&index=14&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=1h25m43s]]
+
+Necessary: Hausdorff, first countable, normal
+
+Sufficient: second countable & normal ([[Urysohn metrization theorem]]).
+
+--> There are more general [[Metrization theorem]]s showing a general set of necessary and sufficient conditions (which includes normality)

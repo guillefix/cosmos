@@ -1,0 +1,12 @@
+created: 20170821125738039
+creator: cosmos
+modified: 20170927161205190
+modifier: cosmos
+tags: [[Examples of topologies]]
+title: Order topology
+tmap.id: 62c40033-36d6-48eb-a9fa-b7c4997404ff
+type: text/vnd.tiddlywiki
+
+[[video|https://www.youtube.com/watch?v=uINRZyMsX3I&index=2&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=22m10s]]. A [[Topology]] induced by an [[Ordering]]. The [[basis|Basis of a topology]] is composed of the [[Open interval]]s, but [[with half-open intervals including the smallest and largest elements, if they exist|https://www.youtube.com/watch?v=uINRZyMsX3I&index=2&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=28m15s]]
+
+Examples in video use [[Dictionary ordering]]

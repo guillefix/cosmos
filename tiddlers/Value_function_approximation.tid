@@ -1,0 +1,22 @@
+created: 20170715175259502
+creator: cosmos
+modified: 20170721124950090
+modifier: cosmos
+tags: [[Reinforcement learning]] [[Value function]]
+title: Value function approximation
+tmap.id: 5cb1f6ca-e42d-4c4d-a089-3578113f862a
+type: text/vnd.tiddlywiki
+
+Fit [[Value function]]s with a [[function approximator|Function approximation]] (often a parametric one), as in [[Supervised learning]]. This reduces the memory and time requirements to learn them, and solve the [[Reinforcement learning]] problem.
+
+[[video|https://www.youtube.com/watch?v=UoPei5o4fps&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=6]]
+
+!!![[Types of function approximators|https://www.youtube.com/watch?v=UoPei5o4fps&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=6#t=8m44s]]
+
+!!__Incremental methods__
+
+!!__Batch methods__
+
+[[Experience replay]]
+
+[[DQN]]

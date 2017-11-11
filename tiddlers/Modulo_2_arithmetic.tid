@@ -1,0 +1,11 @@
+created: 20170706105834519
+creator: cosmos
+modified: 20170706110406759
+modifier: cosmos
+tags: [[Modular arithmetic]]
+title: Modulo 2 arithmetic
+tmap.id: d2f35ee3-c634-4134-9ddd-54483625d467
+type: text/vnd.tiddlywiki
+
+
+[[why stream cipher works|https://www.youtube.com/watch?v=AELVJL0axRs#t=10m30s]], because mod(2) addition and substraction are the same operation! it [[is also the same as|https://www.youtube.com/watch?v=AELVJL0axRs#t=18m]]  [[XOR]]

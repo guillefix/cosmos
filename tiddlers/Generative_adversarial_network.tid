@@ -1,6 +1,6 @@
 created: 20161018183639198
 creator: cosmos
-modified: 20170521154439938
+modified: 20171106222616697
 modifier: cosmos
 tags: [[Generative model]]
 title: Generative adversarial network
@@ -12,6 +12,8 @@ An architecture to train generative neural networks, i.e. [[neural networks|Arti
 https://deephunt.in/the-gan-zoo-79597dc8c347 -- https://github.com/wiseodd/generative-models
 
 [[NIPS tutorial|https://arxiv.org/pdf/1701.00160.pdf]]
+
+[[GAN on browser|https://reiinakano.github.io/gan-playground/]]
 
 !!__Adversarial networks__
 
@@ -170,3 +172,7 @@ https://arxiv.org/abs/1703.06029
 
 cvpr17_summarization.pdf
 http://web.engr.oregonstate.edu/~sinisa/research/publications/cvpr17_summarization.pdf
+
+-------------------
+
+http://make.girls.moe/

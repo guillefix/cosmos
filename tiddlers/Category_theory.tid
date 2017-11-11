@@ -1,19 +1,101 @@
 created: 20160217192202310
 creator: guillefix
-modified: 20161206173752888
+modified: 20171111120336054
 modifier: cosmos
 tags: [[Mathematical logic]]
 title: Category theory
 tmap.id: 3f3ab7ee-3ec8-48bb-875d-f8f12db20f79
 type: text/vnd.tiddlywiki
 
-[[Category Theory: The Beginner’s Introduction (Lesson 1 Video 1)|https://www.youtube.com/watch?v=P6DvIfTJhx8]]
+The mathematical study of [[categories|Category]], which are basically a collection of objects and [[arrows|Morphism]], and a composition operation, satisfying some basic properties.  
+[[Lecture notes|https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/LNPnotes.pdf]]
 
-Relations to [[Functional programming]], lambda calculus, etc.
+It can be used as a foundation of mathematics, as an alternative to [[Set theory]] and has relations to [[Functional programming]], [[Lambda calculus]], [[Logic]], etc.
 
-[[Brian Beckman: Don't fear the Monad|https://www.youtube.com/watch?v=ZhuHCtR3xq8&feature=youtu.be]]
+!!__[[Dual]]ity__
+
+[[Opposite category]].
+
+''Duality principle'': every property/theorem has a corresponding dual property/theorem, by applying the theorem in the opposite category and interpreting it in the original category. In other words, a statement S is true about C if and only if its dual (i.e. the one obtained from S by reversing all the arrows) is true about C op
+
+!!__Properties and theorems__
+
+[[Monic morphism]], [[Epic morphism]], [[Isomorphism]]
+
+[[Initial object]], [[Terminal object]]
+
+''unique isomorphism property'': There is a unique isomorphism between any pair of initial objects; thus initial objects are ‘unique up to (unique) isomorphism’, and we can (and do) speak of the initial object (if any such exists). By [[Dual]]ity, any terminal object also satisfies this, because isommorphism is self-dual.
+
+[[Cartesian closed category]]
+
+[[Curry-Howard-Lambek correspondence]]
+
+[[Yoneda lemma]]
+
+[[2-category]]
+
+!!__Constructions__
+
+!!!__[[Limit of a diagram]]__
+
+[[Categorical product]] generalizing  [[Cartesian product]]s, and their dual, [[Coproduct]]s.
+
+[[Pullback]]s and [[Equalizer (category theory)]]
+
+!!![[Functor]]s
+
+[[Categorical exponential]]
+
+things which are isomorphic in a category tend to be //undistinguishable// that is if a property applies to one, it applies to the other too
+
+!!![[Natural transformation]]
+
+[[Representable functor]] and [[Yoneda embedding]]
+
+!!![[Adjunction]]
+
+---------------
+
+!!![[Diagrammatic reasoning]]
+
+!!!__Examples of categories__
+
+Any kind of mathematical structure, together with structure preserving
+functions, forms a category. E.g.
+
+* Set (sets and functions)
+*Mon (monoids and monoid homomorphisms)
+*Grp (groups and group homomorphisms)
+* Vectk (vector spaces over a field k, and linear maps)
+* Pos (partially ordered sets and monotone functions)
+* Top (topological spaces and continuous functions)
+
+Rel (relations). objects are [[Set]]s, and arrow if there is a relation. Composition is [[Relational composition]]
+
+..A category in which for each pair of objects A, B there is at most one morphism from A to B is the same thing as a [[Preorder]], i.e. a reflexive and transitive relation. 
+
+
+[[Category of categories]]. [[Product category]] is the [[Categorical product]] in Cat.
+
+!!!__Applications__
+
+[[Categorical quantum mechanics]]
+
+[[Categorical linguistics]]
+
+[[Functional programming]]
+
+---------------
+
+Universal mapping property allow one to define the notion of canonica/natural.
+
+Any map which does the same thing as the canonical map, factors through the canonical map in an unique way. For example, [[Equalizer (category theory)]]
 
 ------------------
+
+[[Category Theory: The Beginner’s Introduction (Lesson 1 Video 1)|https://www.youtube.com/watch?v=P6DvIfTJhx8]]
+
+[[Brian Beckman: Don't fear the Monad|https://www.youtube.com/watch?v=ZhuHCtR3xq8&feature=youtu.be]]
 
 [[Category Theory Applied to Neural Modeling and Graphical Representations (2000)|http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.32.2635]]
 

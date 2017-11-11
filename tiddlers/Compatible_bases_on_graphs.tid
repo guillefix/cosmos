@@ -1,0 +1,21 @@
+created: 20170830222002268
+creator: cosmos
+modified: 20170905124029301
+modifier: cosmos
+tags: [[Simultaneous diagonalization]] Eigenmap
+title: Compatible bases on graphs
+tmap.id: bcee817d-6ee4-4154-be47-6089864a2343
+type: text/vnd.tiddlywiki
+
+
+[[Building Compatible Bases on Graphs, Images, and Manifolds|https://www.slideshare.net/mala/building-compatible-bases-on-graphs-images-and-manifolds]]
+
+[[Coupled quasi-harmonic bases|https://arxiv.org/pdf/1210.0026.pdf]]
+
+Uses approximate [[Simultaneous diagonalization]]
+
+[[Functional maps|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.438.5270&rep=rep1&type=pdf]] -- [[Coupled Functional Maps|http://ieeexplore.ieee.org/abstract/document/7785114/]]
+
+[[Making Laplacians commute|https://arxiv.org/abs/1307.6549]]
+
+[[Spectral transformer network|https://arxiv.org/pdf/1612.00606.pdf]]. Spatial correspondences are found by embedding all graphs in 3D, and expressing them as voxel graphs

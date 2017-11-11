@@ -1,0 +1,13 @@
+created: 20171008171120038
+creator: cosmos
+modified: 20171008171214544
+modifier: cosmos
+title: Center of a group
+tmap.id: 641d8cf3-cadf-4f7f-8e80-d7fd2effdf00
+type: text/vnd.tiddlywiki
+
+[[def|https://www.youtube.com/watch?v=TAxzcrYc7L4&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=3#t=1h19m27s]]
+
+$$Z(G) = \{a \in G | ag = ga, \forall g \in G\}$$
+
+It is a [[Normal subgroup]] of G

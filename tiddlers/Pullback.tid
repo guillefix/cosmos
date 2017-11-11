@@ -1,0 +1,32 @@
+created: 20171015142959106
+creator: cosmos
+modified: 20171107000945778
+modifier: cosmos
+tags: [[Category theory]]
+title: Pullback
+tmap.id: 166282ab-30b5-40b3-9c9c-236821524538
+type: text/vnd.tiddlywiki
+
+
+
+Consider a pair of morphisms $$A \to_f C \leftarrow_g B$$. The ''pull-back'' of f along g is a ''triple'' A$$A \leftarrow_p D \to_q B$$ such that $$f \circ p = g \circ q$$ and, for any $$A \leftarrow_{p'} D' \to_{q'} B$$ such that $$f \circ p' = g \circ q'$$, there exists a unique $$h : D' \to D$$ such that $$p' = p \circ h$$ and $$q' = q \circ h$$. [[Diagrammatically|Diagrammatic reasoning]],
+
+[img[pullback_diagram.png]]
+
+Often the object $$D$$ itself is called the ''pullback''
+
+In the category [[Set]], it corresponds to the subset of the [[Cartesian product]]:
+
+: $$A \times_C B = \{(a,b) \in A \times B | f(a) = g(b) \}$$
+
+so it semantically corresponds to an [[Equation]]
+
+//Existence// of arrow $$h$$ means that $$D$$ must have enough capacity (enough elements) to transmit the information. So it should have at least the cardinality of the set above (because the functions p' and q' which satisfy the commuting diagram, can only take elements in D' to pairs that satisfy the condition $$f(a)=f(b)$$ for it to commute).
+
+//Uniqueness// of $$h$$ means that $$D$$ doesn't have //too much// capacity. So that there is not arbitrary choices because different elements of $$D$$ "do the same thing" (by being mapped to same elements by p and q). Therefore, the set $$D$$ has the same cardinality as the set $$A \times_C B$$ and so it's the same up to unique [[Isomorphism]] (bijection). 
+
+Furthermore p and q should act as projections.
+
+https://ncatlab.org/nlab/show/pullback
+
+---

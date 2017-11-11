@@ -1,0 +1,14 @@
+created: 20170924135410466
+creator: cosmos
+modified: 20170924135910965
+modifier: cosmos
+tags: [[Differentiable function]]
+title: Immersion
+tmap.id: bf660dc5-490a-4c24-83b4-e89c0de625ce
+type: text/vnd.tiddlywiki
+
+A [[differentiable mapping|Differentiable function]] between two [[Manifold]]s such that its [[Differential]] is injective (i.e. the linear operator doesn't "collapse" any direction, and so its invertible)
+
+If an immersion is a [[Homeomorphism]], then it is an [[Embedding]]
+
+For local properties it is enough to work with an immersion, because an immersion is locally (in a certain sense) an embedding. (Proposition 3.7 in [[DoCarmo]]: given an immersion there is always a neighbourhood around each point such that the restriction to that nhbd is an embedding. A consequence of the [[Inverse function theorem]], which ensures that the immersion is a local [[Diffeomorphism]], and thus a homeomorphism)

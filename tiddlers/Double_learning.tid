@@ -1,0 +1,15 @@
+created: 20170715184620082
+creator: cosmos
+modified: 20170715184802908
+modifier: cosmos
+tags: [[Off-policy learning]]
+title: Double learning
+tmap.id: 43748cbf-d257-4d71-9cf6-2eae26197b12
+type: text/vnd.tiddlywiki
+
+A series of methods to avoid [[Maximization bias]]
+
+[img[double_learning_1.png]]
+
+[img[double_learning_2.png]]
+

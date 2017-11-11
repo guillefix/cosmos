@@ -1,0 +1,18 @@
+created: 20171012175648096
+creator: cosmos
+modified: 20171020152649287
+modifier: cosmos
+tags: [[Category theory]]
+title: Monic morphism
+tmap.id: 254eb287-ae37-4428-83de-427c2d0c1dfd
+type: text/vnd.tiddlywiki
+
+//aka monomorphism//
+
+A [[Morphism]] $$f$$ is ''monic'' if $$\forall g,h. f \circ g = f \circ h \Rightarrow h = g$$
+
+In the case of functions, this is equivalent to it being [[injective|Injective function]]
+
+It is the [[dual|Opposite category]] to [[Epic morphism]]
+
+Monics which are [[Equalizer (category theory)]] are called ''regular monics''

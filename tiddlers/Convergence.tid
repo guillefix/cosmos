@@ -1,12 +1,18 @@
 created: 20170328005650418
 creator: cosmos
-modified: 20170328005659310
+modified: 20170908001710380
 modifier: cosmos
-tags: Sequence
+tags: Sequence [[Topological space]]
 title: Convergence
 tmap.id: 3301c93e-83ea-44c5-8b12-db36fab1198e
 type: text/vnd.tiddlywiki
 
+[[Definition of convergence|https://www.youtube.com/watch?v=02l3WZrppbM&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=4#t=5m27s]]. In words: [[Sequence]] covnerges to point if for every neighbourhood of the point, there is a finite point in the sequence such that all points forward from that point in the sequence are in that neighbourhood.
 
+In a [[Hausdorff space]] if a sequence converges, its limit point is unique ([[proof|https://www.youtube.com/watch?v=02l3WZrppbM&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=4#t=8m]])
+
+[[Another proposition|https://www.youtube.com/watch?v=02l3WZrppbM&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=4#t=14m48s]] saying that a [[Limit point]] of a set in a [[Hausdorff space]] intersects the set in infinitely many points. [[Another proof|https://www.youtube.com/watch?v=02l3WZrppbM&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=4#t=23m20s]]. [[We need stronger condition|https://www.youtube.com/watch?v=02l3WZrppbM&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx&index=4#t=22m25s]] to say that a limit point is the point to which a sequence converges. 
+
+--------------
 
 [img[focal_point_projecting_polyhedra.jpg]]

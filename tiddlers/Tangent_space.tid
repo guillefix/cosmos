@@ -1,6 +1,6 @@
 created: 20170617120912673
 creator: cosmos
-modified: 20170617123303318
+modified: 20171106154734219
 modifier: cosmos
 tags: [[Differential geometry]]
 title: Tangent space
@@ -8,6 +8,28 @@ tmap.id: c2509c5b-4a23-4edb-91d5-21119e6c3633
 type: text/vnd.tiddlywiki
 
 
-[[Tangent space for a surface|https://www.youtube.com/watch?v=pNYAnXegp38#t=43m45s]]. He shows why the tangent space ($$T_p S$$) is a vector space at every point. 
+[[Tangent space for a surface|https://www.youtube.com/watch?v=pNYAnXegp38#t=43m45s]]. He shows why the tangent space ($$T_p S$$) is a vector space at every point. Composed of [[Tangent vector]]s
 
 {Tangent space for {a surface defined as a level set of a function}} is equal to {the kernel of the [[Differential]] at each point of the surface} (note that the differential is a [[Linear map]], and the kernel is the subspace which the map maps to 0). [[vid|https://www.youtube.com/watch?v=pNYAnXegp38#t=1h7m40s]]
+
+[[General definition on manifolds|https://www.youtube.com/watch?v=PwqmE50hJFY#t=9m]] require defining the vector space of derivatives!  [[Formal definition of tangent vector and space|https://www.youtube.com/watch?v=PwqmE50hJFY#t=16m30s]] -- [[From the calculation we can see that it corresponds to what we would intuitively think|https://www.youtube.com/watch?v=PwqmE50hJFY#t=22m]], the vectors can be just be constructed in the usual way by just thinking in the domain of the chart. and [[Tangent space can be written as span of these vectors|https://www.youtube.com/watch?v=PwqmE50hJFY#t=27m20s]], it could depend on the choice of [[Coordinate chart]].. but we can prove it doesn't. [[Proof that both definitions agree|https://www.youtube.com/watch?v=PwqmE50hJFY#t=28m30s]].
+
+In the general definition it is defined as a ''differential operator'', defined to be a [[Linear map]] $$t_x: C^\infty (M) \to \mathbb{R}$$ which satisfies the [[Leibinz rule]]:
+
+: $$t_x(fg) = f(x) t_x(g) + t_x(f) g(x)$$
+
+It turns out that this forms a [[Vector space]], whose basis vectors can be $$\frac{\partial}{\partial x_i}$$ for a particular set of coordinates
+
+-----------
+
+It is the [[Dual vector space]] to the [[Cotangent space]]
+
+[[Tangent vector]]s transform as [[Contravariant]] [[Tensor]]s. This can be seen because for a smooth map between manifolds, the [[Differential]] gives the transformation between tangent spaces:
+
+$$DF_a (\frac{\partial}{\partial x_i})_a (f) = \sum_j \frac{\partial F_j}{\partial x_i} (a) (\frac{\partial}{\partial y_j})_{F(a)} (f)$$
+
+A reparametrization is a particular case of such a map.
+
+The tangent space is used to define the [[Differential]].
+
+There is a [[Functor]] associating to each [[smooth map|Smooth function]] between differentiable manifolds, a map between the corresponding tangent spaces. This functor is [[Covariantly functorial]], so that it gives a map between the tangent space at doamin to that at codomain. See discusion in [[Cotangent space]]

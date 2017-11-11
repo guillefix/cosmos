@@ -1,0 +1,11 @@
+created: 20170925153234855
+creator: cosmos
+modified: 20170925153508860
+modifier: cosmos
+title: Disjoint
+tmap.id: 06518a56-7d01-4904-ab42-33a7c1bb2e93
+type: text/vnd.tiddlywiki
+
+Two [[Set]]s are ''disjoint'' if they have no elements in common, that is, their [[Set intersection]] is [[empty|Empty set]]. 
+
+A collection of sets is ''mutually disjoint'' if any pair of sets in the collection is disjoint.

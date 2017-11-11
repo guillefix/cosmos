@@ -1,0 +1,9 @@
+created: 20171009085201257
+creator: cosmos
+modified: 20171009085259759
+modifier: cosmos
+title: Bipartite graph
+tmap.id: b8973cb8-b472-4353-b823-ff8aea4b1587
+type: text/vnd.tiddlywiki
+
+A [[Graph]] where the vertex set can be divided in two classes such that every edge connects a vertex from one class to a vertex from the other class

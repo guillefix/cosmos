@@ -1,0 +1,18 @@
+created: 20170715163302678
+creator: cosmos
+modified: 20170715171313414
+modifier: cosmos
+tags: [[Reinforcement learning]]
+title: Policy evaluation
+tmap.id: 3a5e1854-072a-4a0c-b600-33c78b144ab4
+type: text/vnd.tiddlywiki
+
+The task of calculating a [[Value function]] for a [[Policy]], in a [[Reinforcement learning]] problem.
+
+!!!__Model-based__
+
+Using dynamic programming: iterative solution of [[Bellman expectation equation]] (as in [[Policy iteration]])
+
+!!__Model-free__
+
+See [[Model-free reinforcement learning]]

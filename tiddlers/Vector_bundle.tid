@@ -1,0 +1,36 @@
+created: 20171026102739057
+creator: cosmos
+modified: 20171107001446154
+modifier: cosmos
+tags: [[Fiber bundle]]
+title: Vector bundle
+tmap.id: 880c2ea6-0b28-4b8b-8fd1-f22423e0176b
+type: text/vnd.tiddlywiki
+
+A [[Manifold]] defined over another [[Manifold]] with a projection whose [[fiber|Fiber of a map]]s are [[Vector space]]s.
+
+See definition [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=26]]. 
+
+Generalizes constructions like the [[Tangent bundle]]
+
+!!__Algebraic operations on vector bundles__
+
+Can generalize a lot of algebraic operations on [[Vector space]]s to [[Vector bundle]]s over manifolds. In particular, we can generalize:
+
+* [[Dual vector space]]
+
+* [[Direct sum]]
+
+* [[Tensor product]]
+
+* [[Wedge product]]
+
+The fibers of all these vector bundles correspond to the corresponding vector space operations on the fiber of the original vector bundles.
+
+-----------------
+
+[[Videos here|https://www.youtube.com/playlist?list=PLCgncMh0TrCmrkvT7zW0x32flMJLuYMT5]]
+
+[ext[Book here|http://http://www.math.cornell.edu/~hatcher/VBKT/VB.pdf]]
+
+!!![[Pullback of vector bundle|https://www.youtube.com/watch?v=cv-VNT7094c&list=PLCgncMh0TrCmrkvT7zW0x32flMJLuYMT5&t=342]] (Se [ext[here|www.math.cornell.edu/~hatcher/VBKT/VB.pdf#page=22]])

@@ -1,0 +1,12 @@
+created: 20170702192815481
+creator: cosmos
+modified: 20170702192850842
+modifier: cosmos
+tags: [[Camera (computer graphics)]]
+title: Screen space
+tmap.id: 07b3a78e-a6ac-4786-be6b-586356f468e5
+type: text/vnd.tiddlywiki
+
+The $$x-y$$ plane in [[Image space]] where points in image space are projected to.
+
+After the [[Camera transform]], one [[project points in image space|https://www.youtube.com/watch?v=og7hOFypKpQ&index=6&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=13m]] perpendicularly to the $$x-y$$ plane, called the [[Screen space]]
