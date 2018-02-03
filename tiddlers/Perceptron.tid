@@ -1,6 +1,6 @@
 created: 20160810174853083
 creator: cosmos
-modified: 20161129142320896
+modified: 20171126232842139
 modifier: cosmos
 tags: Classification
 title: Perceptron
@@ -10,7 +10,8 @@ type: text/vnd.tiddlywiki
 The term "perceptron" was introduced in the 1950s to designate
 a simple mechanism to achieve "perception."
 
-See [[video|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=1h10m]].
+See [[video|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=1h10m]]. [[Definition of perceptron|https://www.youtube.com/watch?v=_q5twKE9Jeo#t=14m20s]] 
+
 
 It is basically a [[Feedforward neural network]], with 0 hidden layers, and [[Heaviside step function]] activation functions. They are a simpler version of [[Logistic regression]].
 
@@ -22,6 +23,8 @@ The hopes to build "[[seeing machines|Computer vision]]" vanished when Minsky an
 book Perceptrons [1969], in which they rigorously demonstrated that
 perceptrons are quite limited in their ability to extract global features
 from local information. They could only implement linearly separable classification.
+
+[[Simple storing problem|https://www.youtube.com/watch?v=_q5twKE9Jeo#t=15m50s]]: is a certain training set linearly separable?
 
 !!__Multilayer perceptron__
 

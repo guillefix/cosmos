@@ -1,7 +1,7 @@
 created: 20160121121935070
 creator: guillefix
 list-after: Discrete mathematics
-modified: 20170309161419895
+modified: 20180107153738190
 modifier: cosmos
 tags: Mathematics Statistics [[Measure theory]]
 title: Probability theory
@@ -25,6 +25,8 @@ http://cs.brown.edu/courses/cs242/lectures/
 !![[Random variable]]s
 
 [[Basic results in probability theory]]
+
+https://en.wikipedia.org/wiki/Chernoff_bound -- https://en.wikipedia.org/wiki/Markov%27s_inequality
 
 --------
 

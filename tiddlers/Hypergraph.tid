@@ -1,6 +1,6 @@
 created: 20170129123854361
 creator: cosmos
-modified: 20171009083807672
+modified: 20180118172523089
 modifier: cosmos
 tags: Combinatorics
 title: Hypergraph
@@ -11,4 +11,6 @@ type: text/vnd.tiddlywiki
 
 The hypergraph on a ground set X is a subset of the [[Power set]]
 
-https://www.wikiwand.com/en/Hypergraph
+https://www.wikiwand.com/en/Hypergraph.
+
+There are results in [[Probabilistic combinatorics]] about the number of hyperedges of a given size $$k$$ (assume they all have the same size, such a hypergraph being called $$k$$-uniform) such that all hypergraphs with less hyperedges than that are guaranteed to be 2-[[colorable|Graph coloring]]. For hypergraphs with more hyperedges than this number, there exists at least one which is not 2-colorable

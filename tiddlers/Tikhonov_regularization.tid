@@ -1,6 +1,6 @@
 created: 20161031110936530
 creator: cosmos
-modified: 20161104134332855
+modified: 20171216233042499
 modifier: cosmos
 tags: Regularization
 title: Tikhonov regularization
@@ -10,3 +10,7 @@ type: text/vnd.tiddlywiki
 [[wiki|https://www.wikiwand.com/en/Tikhonov_regularization]]
 
 [[Ridge regression]]
+
+See also [[Kernel method]] and [[Reproducing kernel Hilbert space]] for more details
+
+[[Can be seen as a low-pass filter|https://youtu.be/TwH_-MzhQ1I?t=41m58s]] as well as stable ways of computing the inverse

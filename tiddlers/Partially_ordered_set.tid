@@ -1,6 +1,6 @@
 created: 20160713224632886
 creator: guillefix
-modified: 20171014201207694
+modified: 20171118201951063
 modifier: cosmos
 tags: [[Partial ordering]]
 title: Partially ordered set
@@ -13,6 +13,6 @@ A ''partially ordered set'' (or //poset//) is a [[Set]] with a [[Partial orderin
 
 --------------
 
-Any partially ordered set forms a [[Category]], with the arrows corresponding to the [[order|Ordering]] relation.
+Any partially ordered set forms a [[Category]], with the arrows corresponding to the [[order|Ordering]] relation. [[Video|https://www.youtube.com/watch?v=aZjhqkD6k6w&index=5&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_#t=14m20s]], they are examples of [[Thin category]]
 
 The set of all posets also forms a category with arrows being [[Monotone function]]s

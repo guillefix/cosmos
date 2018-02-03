@@ -1,0 +1,20 @@
+created: 20171111185414775
+creator: cosmos
+modified: 20171111215413350
+modifier: cosmos
+tags: Monad
+title: Free functor
+tmap.id: 703e0554-bcd2-44b9-a833-b1a105aae4d2
+type: text/vnd.tiddlywiki
+
+The [[Left-adjoint]] of a [[Forgetful functor]] $$U: \mathcal{C} \to \mathbf{Set}$$ w.r.t. a [[Monad]] (or other things) over category $$\mathcal{C}$$.
+
+See https://ncatlab.org/nlab/show/free+functor
+
+[[Video|https://www.youtube.com/watch?v=2i_PpYsl8b8&index=3&list=PL54B49729E5102248#t=2m]]
+
+https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/handout_8.pdf
+
+For the monad and algebra of [[Monoid]]s, this maps sets to [[Free monoid]]s.
+
+https://en.wikipedia.org/wiki/Free_object#Free_functor

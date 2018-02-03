@@ -1,6 +1,6 @@
 created: 20161216133336201
 creator: cosmos
-modified: 20170507124228160
+modified: 20171217205844433
 modifier: cosmos
 tags: [[Game development]] Communication [[Data & Knowledge]]
 title: Explorable
@@ -8,6 +8,8 @@ tmap.id: 2cd0d128-f2a7-4aba-a728-b554dddfc2c6
 type: text/vnd.tiddlywiki
 
 //Explorable explanations//
+
+http://vitor.io/on-dynamicland
 
 http://explorableexplanations.com/
 
@@ -28,3 +30,5 @@ http://bl.ocks.org/blacki/ebba08223eba20b56b62
 [[Concrete mathematics]]
 
 [[AugMath]]
+
+http://1023.io/p5-inspector/

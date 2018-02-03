@@ -1,0 +1,26 @@
+created: 20171113113300672
+creator: cosmos
+modified: 20171113114044175
+modifier: cosmos
+tags: Generalization [[Boolean function]] Robustness [[Simplicity and learning]]
+title: Generalization complexity
+tmap.id: c2eb9296-5e3e-4aaf-94a4-b7a9894a5271
+type: text/vnd.tiddlywiki
+
+defined by Leonard Franco. Basically, a measure of [[Robustness]].
+
+[[On a Generalization Complexity Measure for Boolean Functions|http://sci-hub.cc/10.1109/ijcnn.2004.1380065]]
+
+[ext[Generalization ability of Boolean functions implemented in feedforward neural networks|http://www.lcc.uma.es/~lfranco/Franco-complex06.pdf]]
+
+See gingkoapp tree: [[Kolmogorov complexity and generalization in deen neural networks|https://gingkoapp.com/app#7abe722f5a31aa3e1000001b]]
+
+[[Generalization and selection of examples|http://sci-hub.cc/10.1162/089976600300014999]]
+
+[[Role of Function Complexity and Network Size in the Generalization Ability of Feedforward Networks|https://link.springer.com/content/pdf/10.1007%2Fb136983.pdf]]
+
+[[The influence of oppositely classified examples on the generalization complexity of Boolean functions|http://ieeexplore.ieee.org/abstract/document/1629083/]] -- [ext[pdf|http://www.lcc.uma.es/~lfranco/A15-Franco%2BAnthony-2006.pdf]]
+
+------------------
+
+[[Boolean function]]

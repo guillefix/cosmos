@@ -1,6 +1,6 @@
 created: 20171023130235008
 creator: cosmos
-modified: 20171031145338493
+modified: 20171218145659050
 modifier: cosmos
 tags: [[Boolean function]]
 title: Threshold Boolean function
@@ -9,7 +9,14 @@ type: text/vnd.tiddlywiki
 
 A [[Linearly separable]] [[Boolean function]].
 
-The number of threshold Boolean functions for a given input dimension $$n$$ is nontrivial to calculate. See [[here|https://math.stackexchange.com/questions/18056/how-many-presentable-boolean-functions-with-n-attributes-are-linear-separable]], and [[here|http://oeis.org/A000609]], and this thesis: [[Linear Separability Of The Vertices Of An n-Dimensional Hypercube|http://unbc.arcabc.ca/islandora/object/unbc%3A15882/datastream/PDF/download/citation.pdf]]
+The number of threshold Boolean functions for a given input dimension $$n$$ is nontrivial to calculate. See [[here|https://math.stackexchange.com/questions/18056/how-many-presentable-boolean-functions-with-n-attributes-are-linear-separable]], and [[here|http://oeis.org/A000609]], and [[here|http://oeis.org/A002077/a002077.pdf]], and this thesis: [[Linear Separability Of The Vertices Of An n-Dimensional Hypercube|http://unbc.arcabc.ca/islandora/object/unbc%3A15882/datastream/PDF/download/citation.pdf]]
 
 [[Linear program to check if a set of points are linearly separable|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture03.pdf#page=7]]
 
+[[On specifying Boolean functions by labelled examples|https://ac.els-cdn.com/0166218X9400007Z/1-s2.0-0166218X9400007Z-main.pdf?_tid=ebecbaf4-c497-11e7-b7d4-00000aab0f26&acdnat=1510154424_07ec255c2cd40809cf84475377469157]] -- specification number: the minimum number of examples needed to specify a Boolean function. Similar to what I've been thinking about. For instance the function which maps all to 1s is easy to specify, by saying all basis vectors are mapped to 1, while functions with some 1s and some 0s require more labelled examples. There is also the question of not just the minimum number of examples,  but the typical number of examples, under some distribution, until learner is sure of the function, or reaches a certain confidence. This is just [[Learning theory]]/[[Generalization]], etc...
+
+[[Bounds on the Number of Threshold Functions|http://ieeexplore.ieee.org/document/4038772/]]
+
+----------------
+
+[[A New Constructive Approach for Creating All Linearly Separable (Threshold) Functions|http://ieeexplore.ieee.org/abstract/document/1716765/]]

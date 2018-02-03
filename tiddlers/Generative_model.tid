@@ -1,6 +1,6 @@
 created: 20161018180930085
 creator: cosmos
-modified: 20170819202656893
+modified: 20180101223957914
 modifier: cosmos
 tags: [[Probabilistic model]] [[Unsupervised learning]]
 title: Generative model
@@ -46,3 +46,7 @@ See this [[video|https://www.youtube.com/watch?v=QPkb5VcgXAM#t=10m37]]
 https://openai.com/blog/generative-models/deploy@guillefix:~/cosmos.git/tiddlers
 
 [[GENERATIVE TEMPORAL MODELS WITH MEMORY|https://arxiv.org/pdf/1702.04649.pdf]]
+
+[[Graphical model]]s 
+
+http://science.sciencemag.org/content/358/6368/eaag2612.full?ijkey=DmvGldXIEXVoQ&keytype=ref&siteid=sci

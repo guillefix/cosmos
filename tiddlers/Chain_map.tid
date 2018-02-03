@@ -1,15 +1,17 @@
 created: 20171029102905462
 creator: cosmos
-modified: 20171029104204012
+modified: 20171115141723116
 modifier: cosmos
 tags: [[Chain complex]]
 title: Chain map
 tmap.id: 069fc6c6-c487-4588-a7cd-8bb12652bab3
 type: text/vnd.tiddlywiki
 
-A [[Group homomorphism]] between [[Chain group]]s of two [[Chain complex]]es, which satisfies $$f\partial = \partial f$$. This ensures that the chain map induces a [[Group isomorphism]] $$f_*$$ between the [[Homology group]]s of the two [[Chain complex]]es.
+[[Definition|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=1h18m35s]]. A sequence of [[Group homomorphism]] between [[Chain group]]s of two [[Chain complex]]es, which satisfies $$f\partial = \partial f$$. This ensures that the chain map induces a [[Group isomorphism]] $$f_*$$ between the [[Homology group]]s of the two [[Chain complex]]es.
 
 [ext[book|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=119]]
+
+[[A chain map induces a map in homology|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=1h20m35s]]
 
 ----------------
 

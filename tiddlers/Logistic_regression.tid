@@ -1,8 +1,8 @@
 created: 20160709020525444
 creator: guillefix
-modified: 20170922125312219
+modified: 20171130195653606
 modifier: cosmos
-tags: [[Supervised classification]]
+tags: [[Supervised classification]] [[Kernel method]]
 title: Logistic regression
 tmap.id: e38fc94a-ff8d-4edd-8206-c8c5b38f1c01
 type: text/vnd.tiddlywiki
@@ -26,3 +26,7 @@ See [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/ML-MT2016/slides/
 Maximum likelihood. Log likelihood turns out to be cross-entropy.
 
 To see if problem is convex, we test if the [[Hessian]] is positive semi-definite, and it is. See [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/ML-MT2016/slides/slides08.pdf]] for form of Hessian
+
+!!__[[Kernel|Kernel method]] logistic regression__
+
+[[Video|https://youtu.be/Vm5QE54y6mw?t=26m57s]]

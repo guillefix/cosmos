@@ -1,0 +1,14 @@
+created: 20180116113725403
+creator: cosmos
+modified: 20180116115908279
+modifier: cosmos
+tags: [[Ramsey's theorem]]
+title: Ramsey number
+tmap.id: 8aac27b5-79f6-4440-b5b1-1265f43001f0
+type: text/vnd.tiddlywiki
+
+For positive integers $$k$$ and $$l$$, the ''Ramsey number'' $$R(k,l)$$ is the smallest $$n$$ such that every red/blue colouring of the edges of the complete graph $$K_n$$ contains either a red $$K_k$$ or a blue $$K_l$$.
+
+(that these numbers exist is proven in [[Ramsey's theorem]])
+
+''Theorem 1.1'' (Erdos, 1947). If $$n, k \geq 1$$ are integers such that $$\binom{n}{k} 2^{1-\binom{k}{2}}$$, then $$R(k,k) > n$$

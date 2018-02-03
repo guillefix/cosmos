@@ -1,6 +1,6 @@
 created: 20160131000110996
 creator: guillefix
-modified: 20171029223909205
+modified: 20171124150607516
 modifier: cosmos
 tags: [[Discrete mathematics]]
 title: Combinatorics
@@ -18,7 +18,7 @@ type: text/vnd.tiddlywiki
 * [[Pidgeon hole principle]]
 * Counting the same thing in multiple ways and then making them equal, can help count related things. Like in proof of [[Sperner's lemma]], or local [[LYM inequality]]
 
-[[Lecture notes|https://courses.maths.ox.ac.uk/node/view_material/33445]]
+[[Lecture notes|https://courses.maths.ox.ac.uk/node/view_material/34133]]
 
 See  [[Analytic combinatorics]]
 

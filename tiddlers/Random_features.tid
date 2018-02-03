@@ -1,0 +1,12 @@
+created: 20180112121528404
+creator: cosmos
+modified: 20180112121625453
+modifier: cosmos
+tags: [[Kernel method]]
+title: Random features
+tmap.id: 327bbf6b-ccc4-4eb1-aca3-08124da590a5
+type: text/vnd.tiddlywiki
+
+An [[approximation to kernel methods|https://youtu.be/gA4sIj0NmXA?t=1h1m20s]] which approximates the kernel using a set of random features
+
+[ext[Random Features for Large-Scale Kernel Machines|https://people.eecs.berkeley.edu/~brecht/papers/07.rah.rec.nips.pdf]]

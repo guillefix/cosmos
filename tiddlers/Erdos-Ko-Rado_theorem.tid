@@ -1,6 +1,6 @@
 created: 20171103114629680
 creator: cosmos
-modified: 20171103120001533
+modified: 20171117002240841
 modifier: cosmos
 tags: [[Extremal combinatorics]] [[Family of intersecting sets]]
 title: Erdos-Ko-Rado theorem
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 Theorem bounding the size of families of intersecting sets in layers of the [[Power set]]
 
-For $$r \leq n/2$$, if $$\mathcal{A} \subseteq [n]^{(n)}$$ is intersecting then $$|\mathcal{A}| \leq \binom{n-1}{r-1}$$. For $$r < n/2$$, the maximum families are all of the form {all sets which have at least a certain element $$a$$ in common}. For $$r=n/2$$, there are more possible types of maximum families.
+For $$r \leq n/2$$, if $$\mathcal{A} \subseteq [n]^{(r)}$$ is intersecting then $$|\mathcal{A}| \leq \binom{n-1}{r-1}$$. For $$r < n/2$$, the maximum families are all of the form {all sets which have at least a certain element $$a$$ in common}. For $$r=n/2$$, there are more possible types of maximum families.
 
 See [[here|https://courses.maths.ox.ac.uk/node/view_material/33445#page=23]] for proofs.
 
@@ -20,3 +20,5 @@ An intersecting family of r-element sets may be maximal, in that no further set 
 __Applications__
 
 [[Two families theorem]]
+
+[[Generalization of theorem|https://courses.maths.ox.ac.uk/node/view_material/34133#page=30]]

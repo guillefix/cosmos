@@ -1,6 +1,6 @@
 created: 20160905053634504
 creator: cosmos
-modified: 20170315161452962
+modified: 20171221022202321
 modifier: cosmos
 tags: Speech [[Human-computer interaction]] [[Artificial intelligence]]
 title: Speech synthesis
@@ -20,6 +20,8 @@ The counterpart to [[Speech recognition]]
 [[Deep Generative Models for Speech and Images|https://www.youtube.com/watch?v=vEAq_sBf1CA]]
 
 [[Generative Model-Based Text-to-Speech Synthesis|https://www.youtube.com/watch?v=nsrSrYtKkT8]], novel idea (at the end): train to minimize listener error
+
+https://google.github.io/tacotron/publications/tacotron2/
 
 --------------
 

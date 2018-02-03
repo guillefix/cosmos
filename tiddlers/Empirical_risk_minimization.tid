@@ -1,6 +1,6 @@
 created: 20160911092848691
 creator: cosmos
-modified: 20170306183351146
+modified: 20171129132001266
 modifier: cosmos
 tags: [[Learning theory]]
 title: Empirical risk minimization
@@ -21,7 +21,8 @@ where $$f$$ is our [[Model]] (hypothesis, that depend on the model parameters $$
 
 When we add the regularizer, ERM is called //structural risk minimization//.
 
-!!![[another video explanation|https://www.youtube.com/watch?v=aILazXK059Y&t=12m30s]]
+!!![[another video explanation|https://www.youtube.com/watch?v=aILazXK059Y&t=12m30s]] -- [[Another good lecture|https://www.youtube.com/watch?v=9-oxo_k69qs#t=23m40s]]
+
 
 -------------------
 

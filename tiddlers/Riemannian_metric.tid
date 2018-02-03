@@ -1,0 +1,22 @@
+created: 20171127123438236
+creator: cosmos
+modified: 20171127125841517
+modifier: cosmos
+tags: [[Riemannian geometry]] Metric
+title: Riemannian metric
+tmap.id: bbbae20c-c206-4afc-84f5-21481d51ad4d
+type: text/vnd.tiddlywiki
+
+A ''Riemannian metric'' on a [[Differentiable manifold]] $$M$$ is a [[section|Section of a fiber bundle]] $$g$$ of $$T^* X\otimes T^* X$$ (<small>that is the [[Vector bundle]] of [[Tensor product]] of [[Cotangent space]]s</small>) which at each point is [[symmetric|Symmetric matrix]] and [[Positive definite]].
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=76]]
+
+If we have a [[Smooth function]] $$F: M \to N$$ between two manifolds, and a metric $$g$$ on $$N$$, we can pull back $$g$$ to a metric on $$M$$ $$F^* g$$. $$F^* g$$ is, by definition, a section of $$T^*M \otimes T^* M$$, which can be defined by specifying the element of $$T^*_x \otimes T^*_x$$ at each $$x$$. These elements of the tensor product of [[Cotangent space]]s are by definition bilinear functions on [[Tangent vector]]s, so we can specify it by saying how it acts on two tangeng vectors $$X$$ and $$Y$$. We will define this action by mapping these tangent vectors to $$N$$ via the [[Differential]] of $$F$$ at $$x$$ ($$DF_x$$), and then using the matrix in $$N$$, at the corresponding point $$F(x)$$:
+
+: $$(F^* g)_x (X,Y) = g_{F(x)} (DF_x(X), DF_x(Y))$$.
+
+A [[Diffeomorphism]] which preserves metric, under pullback, is called an [[Isometry]].
+
+----------------------
+
+A Riemannian metric defines a [[Length]] of [[Tangent vector]]s, as well as their [[Angle]]s

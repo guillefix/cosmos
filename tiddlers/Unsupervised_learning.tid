@@ -1,6 +1,6 @@
 created: 20160329153405246
 creator: guillefix
-modified: 20170825100056571
+modified: 20171128214308048
 modifier: cosmos
 tags: [[Machine learning]]
 title: Unsupervised learning
@@ -44,7 +44,9 @@ Given a data set of $$x$$s, build a probabilistic model $$P(x)$$, for the data.
 
 !!!__[[Factor analysis model]]__
 
-!!!__[[Density estimation]]__
+!!!__[[Distribution estimation]] (aka density estimation)__
+
+http://www.iliasdiakonikolas.org/
 
 Often refers to non-parametric generative models.
 

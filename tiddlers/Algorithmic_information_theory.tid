@@ -1,11 +1,13 @@
 created: 20160308171001447
 creator: guillefix
-modified: 20170907180752084
+modified: 20171128224755161
 modifier: cosmos
 tags: [[Information theory]] Algorithms [[Theoretical computer science]]
 title: Algorithmic information theory
 tmap.id: 96374c54-a7b2-4466-a803-a3171997d584
 type: text/vnd.tiddlywiki
+
+Algorithmic information theory is an alternative formalization for the notion of information to that of standard Shannon information theory. It defines information as the size of a compressed representation of an object. In principle, a compressed representation depends on the function one uses to decode the representation. However, it turns out that if one uses a universal Turing machine (UTM) as a decoder, where representations correspond to input programs which produces the object of interest, then these representations are additively optimal. This means that if we take the shortest such program for the UTM, any other computable decoder function can only improve the compression by at most an additive constant which is independent of the program [8]. The size of such shortest program is called the Kolmogorov complexity of the object, and represents how much information it is needed to describe the object.
 
 See [[Descriptional complexity]] and [[MMathPhys oral presentation]]. See also [[Information theory]], [[Theory of computation]], [[Complexity theory]], and [[Computational complexity]]
 
@@ -169,3 +171,7 @@ http://www.scholarpedia.org/article/Algorithmic_information_theory
 [ext[http://www-igm.univ-mlv.fr/~berstel/Articles/2010HandbookCodes.pdf]]
 
 [ext[ALGORITHMS OF INFORMATICS|http://compalg.inf.elte.hu/~tony/Oktatas/AlgofInf-Vol1-HTML/Volume1.html]]
+
+------------
+
+Some philosophy: https://link.springer.com/chapter/10.1007/978-3-319-08019-2_30

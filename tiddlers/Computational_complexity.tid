@@ -1,6 +1,6 @@
 created: 20160130233608424
 creator: guillefix
-modified: 20170612130357019
+modified: 20171128215102924
 modifier: cosmos
 tags: Algorithms [[Complexity theory]]
 title: Computational complexity
@@ -65,6 +65,10 @@ The importance of these complexity classes derives from the additional fact that
 !!!__Kolmogorov complexity__
 
 See [[Algorithmic information theory]]
+
+!!__[[Statistical physics]]__
+
+[[Determining computational complexity from characteristic ‘phase transitions’|https://www.nature.com/articles/22055]]. See also [[Statistical physics and inference]]
 
 ----------------------
 

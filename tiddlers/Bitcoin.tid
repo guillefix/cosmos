@@ -1,6 +1,6 @@
 created: 20171109130938064
 creator: cosmos
-modified: 20171109131202100
+modified: 20171112124032750
 modifier: cosmos
 tags: Blockchain
 title: Bitcoin
@@ -13,6 +13,13 @@ https://bitcoin.org/bitcoin.pdf
 
 http://www.michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/
 
+https://en.bitcoin.it/wiki/Transaction
+
+To verify that inputs are authorized to collect the values of referenced outputs, Bitcoin uses a custom Forth-like scripting system. The input's scriptSig and the //referenced// output's scriptPubKey are evaluated (in that order), with scriptPubKey using the values left on the stack by scriptSig. The input is authorized if scriptPubKey returns true. Through the scripting system, the sender can create very complex conditions that people have to meet in order to claim the output's value. For example, it's possible to create an output that can be claimed by anyone without any authorization. It's also possible to require that an input be signed by ten different keys, or be redeemable with a password instead of a key.
+
+scriptPubKey basically performs a [[Digital signature]] check of the digital signature in scritpSig of the referenced output (the previous transaction whose bitcoins we want to spend) with the private key corresponding to the pubKey that that previous transaction's scriptPubKey specifies.
+
+
 --------------
 
 __SegWit__
@@ -21,11 +28,14 @@ https://www.youtube.com/watch?v=QYZv92F2kCw
 
 https://www.youtube.com/watch?v=HCcRO8jpvrM
 
-https://bitcointalk.org/index.php?topic=1333830.0
-
 https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki#cite_ref-3-0
 
 https://medium.com/@jimmysong/understanding-segwit-block-size-fd901b87c9d4
+
+https://bitcoincore.org/en/2016/01/26/segwit-benefits/
+
+
+https://blockchaintraining.org/wp-content/uploads/2016/06/Lombrozo-SegregatedWitness.pdf
 
 __Lightning network__
 

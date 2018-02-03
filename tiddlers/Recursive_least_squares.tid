@@ -1,0 +1,12 @@
+created: 20171218141856679
+creator: cosmos
+modified: 20171218142018978
+modifier: cosmos
+tags: [[Online learning]]
+title: Recursive least squares
+tmap.id: 6de61450-ef99-4d34-937e-1013c17ee8c7
+type: text/vnd.tiddlywiki
+
+See [[here|https://youtu.be/TwH_-MzhQ1I?t=57m54s]] and [[here|https://www.youtube.com/watch?v=gA4sIj0NmXA]] for derivation
+
+An [[online|Online learning]] version of [[Least-squares]] [[regression|Regression analysis]] 

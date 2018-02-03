@@ -1,0 +1,24 @@
+created: 20171126234204990
+creator: cosmos
+modified: 20171127000941164
+modifier: cosmos
+tags: Economics [[Game theory]]
+title: Auction theory
+tmap.id: 8e60490a-9524-4bbb-953c-14b49247ead0
+type: text/vnd.tiddlywiki
+
+[[1-item auction|https://www.youtube.com/watch?v=z1QZqYuiGa8&t=40s]]
+
+* n bidders
+
+* bidder $$i$$ has ''valuation'' $$v_i$$ (max he is willing to pay)
+
+* valuation is private.
+
+Quasilinear utility
+
+[[Sealed-bid auctions|https://www.youtube.com/watch?v=z1QZqYuiGa8&t=5m20s]]
+
+[[First-price auction|https://www.youtube.com/watch?v=z1QZqYuiGa8&t=9m10s]]
+
+[[2nd-price (Vickery) auction|https://www.youtube.com/watch?v=z1QZqYuiGa8&t=20m40s]] has [[Dominant strategy]]: bidding your valuation. [[Proof|https://youtu.be/z1QZqYuiGa8?t=27m]]

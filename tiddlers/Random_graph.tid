@@ -1,6 +1,6 @@
 created: 20160131200236841
 creator: guillefix
-modified: 20170309151535806
+modified: 20171128214545577
 modifier: cosmos
 tags: [[Graph theory]] [[Network theory]]
 title: Random graph
@@ -45,5 +45,7 @@ aka stochastic block model
 Erdos-Renyi mixture model ( stochastic block models , see Nowicky and Snijders (2001) ). Nodes are of, say, L different types. Edges are constructed independently, such that the probability for an edge depends only on the type of the nodes at the endpoints of the edge. This model does not produce a power-law degree distribution. Robin et al. (2008) use it to model a metabolic network of E.coli ; nodes are chemical reactions, and two reactions are connected if a compount produced by the first one is a part of the second one (or vice versa). Their network has 605 nodes and 1782 edges. The best-fitting model is a model with L = 21 classes, and many of these classes gather reactions involving a same compound
 
 ----------------
+
+See [[this video|https://www.youtube.com/watch?v=N1NkneOTiPw]]
 
 [[Constraint satisfaction problem]]

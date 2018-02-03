@@ -1,6 +1,6 @@
 created: 20170927195849734
 creator: cosmos
-modified: 20171019155853206
+modified: 20171113131340995
 modifier: cosmos
 tags: Manifold
 title: Differentiable manifold
@@ -29,6 +29,8 @@ A differentiable structure is what we need to add to a set in order to do differ
 [[Relation between differentiable and topological structures|https://www.youtube.com/watch?v=p9m9bBJsGzo#t=19m]]
 
 [[Some invariants|https://www.youtube.com/watch?v=p9m9bBJsGzo#t=26m20s]]
+
+[[De Rham cohomology]]
 
 -----------
 

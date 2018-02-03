@@ -1,6 +1,6 @@
 created: 20171012180308395
 creator: cosmos
-modified: 20171012181016836
+modified: 20171118222808495
 modifier: cosmos
 tags: Category
 title: Opposite category
@@ -20,3 +20,5 @@ If we have an statement $$\phi$$, which holds in $$C$$. Then, the same statement
 In particular $$C^{op}$$ is a category, because the axioms of a category are self-dual.
 
 In this sense, [[monic|Monic morphism]] and [[epic|Epic morphism]] are dual.
+
+[[Video|https://www.youtube.com/watch?v=Bsdl_NKbNnU&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=8]]

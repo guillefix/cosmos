@@ -1,6 +1,6 @@
 created: 20170828100420677
 creator: cosmos
-modified: 20170828100330569
+modified: 20171228125758283
 modifier: cosmos
 tags: [[Geometric deep learning]] [[Convolutional neural network]]
 title: Graph convolutional network
@@ -8,3 +8,5 @@ tmap.id: 458c855f-86bf-4ac5-9674-1e2a7ea7cbc5
 type: text/vnd.tiddlywiki
 
 https://tkipf.github.io/graph-convolutional-networks/
+
+https://arxiv.org/pdf/1609.02907.pdf

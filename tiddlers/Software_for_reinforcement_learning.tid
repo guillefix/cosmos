@@ -1,11 +1,13 @@
 created: 20170520150453517
 creator: cosmos
-modified: 20170521153525821
+modified: 20180107151550312
 modifier: cosmos
-tags: 
+tags: [[Reinforcement learning]]
 title: Software for reinforcement learning
 tmap.id: d5c08b9a-8f5d-4d52-b765-0c39673a394a
 type: text/vnd.tiddlywiki
+
+http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/
 
 OpenAI Gym, [[roboschool|https://blog.openai.com/roboschool/]]
 

@@ -1,0 +1,61 @@
+created: 20170426232727642
+creator: cosmos
+draft.of: Kernel method
+draft.title: Kernel method
+modified: 20180112121522772
+modifier: cosmos
+tags: [[Machine learning]] [[Nonparametric regression]]
+title: Draft of 'Kernel method'
+tmap.id: 65458cd1-01c6-486c-8e93-3abccb5c32b0
+type: text/vnd.tiddlywiki
+
+
+[[intro video|https://www.youtube.com/watch?v=6AWZS4Ho2Z8&list=PLyGKBDfnk-iDj3FBd0Avr_dLbrU8VG73O#t=31m25s]]
+
+[[Machine learning]] methods which use a [[Hypothesis space]] (set of functions it considers as an output) which is a [[Reproducing kernel Hilbert space]]. These can be quite expresive. They are often used in conjunction with regularization, which makes their training/optimization linear! (by the representer theorem). They are also nonparametric (when chosing infinite dimensional function/feature spaces), which has nice properties.
+
+The loss functions that we choose are [[coercive|https://youtu.be/Vm5QE54y6mw?t=8m21s]] [[Strongly convex]] [[Functional]]s. This implies it has a minimum, and it is unique
+
+!!!__Representer theorem__
+
+[[When function is in an RKHS, loss minimization becomes a linear optimization problem|https://www.youtube.com/watch?v=bBRX3OqNC9c#t=1h14m10s]]. This is shown with the ''Representer theorem'' (heavily relies on $$L^2$$ norm, aka [[Tikhonov regularization]]), which says that the optimum function can be expressed as a linear combination of [[Feature map]]s of the RKHS at the input data points.
+
+This is easy to see analyticially for finite dimensional RKHSs and the case of squared loss, because then the optimum is the [[pseudoinverse|https://en.wikipedia.org/wiki/Linear_regression#Least-squares_estimation_and_related_techniques]], which can be cast in the form of a vector times the feature vectors of the input data points. [[Proof idea|https://www.youtube.com/watch?v=bBRX3OqNC9c#t=1h19m10s]]. [[more detailed proof|https://youtu.be/Vm5QE54y6mw?t=16m10s]] __Nice__
+
+: [[This is how the loss looks like after reducing to finite dimensions|https://youtu.be/Vm5QE54y6mw?t=23m53s]]
+
+Basically in practice, the idea is just to apply the [[Kernel trick]] (substituting inner products with kernels), which avoids working with the feature vectors explicitly that (as is done in standard [[Dictionary learning]]). See [[here|https://youtu.be/Vm5QE54y6mw?t=40m13s]] for instance. [[Here he talks about the kernel trick itself|https://youtu.be/Vm5QE54y6mw?t=51m59s]]
+
+All of this allows to use linear learning algorithms to learn a nonlinear function or decision boundary!
+
+[[Representator theorem implies that minimum is minimal norm solution|https://youtu.be/Vm5QE54y6mw?t=40m13s]].. and [[gradient descent can be rewritten in a certain way|https://youtu.be/Vm5QE54y6mw?t=40m13s]]. also [[here|https://youtu.be/Vm5QE54y6mw?t=58m3s]]
+
+[[See more in this video|https://www.youtube.com/watch?v=Vm5QE54y6mw]]
+
+--------------
+
+Main reason kernel methods aren't used so much nowadays I think is because of high computational cost, compared to alternatives, for high dimensional data, and more importantly big data sets. See [[here|https://stats.stackexchange.com/questions/73944/what-are-the-limitations-of-kernel-methods-and-when-to-use-kernel-methods]]. This is because [[linear methods (and non-kernel gradient descent methods in general) run in time linear in the size of the data set|https://youtu.be/Vm5QE54y6mw?t=35m11s]], while [[kernel methods are quadratic|https://youtu.be/Vm5QE54y6mw?t=1h8s]] (as they effectively substitute the dimension of the data with the size of the training set!)
+
+-----------
+
+[[Why is this better than just choosing a linear model with p features|https://youtu.be/Vm5QE54y6mw?t=14m23s]] (because the features and number of parameters are chosen by the data!) -- nonparametrics!
+
+[[Gaussian process]]es [[are basically a probabilistic interpretation of kernel methods|https://www.youtube.com/watch?v=bBRX3OqNC9c#t=1h17m30s]]. They are both [[nonparametric methods|Nonparametric statistics]], because the number of parameters grows with the data (linearly)
+
+Kernel methods can be seen as generalizations of  [[Nearest-neighbour classification]] where the notion of "closeness" is given by the specific kernel we are using
+
+!!!__Common examples__
+
+[[Logistic regression]], when we use [[Logistic loss]] function
+
+[[Support vector machine]], when we use the [[Hinge loss]] function.
+
+[[Least-squares]], when we use [[Squared error]] loss function
+
+!!!__[[Random features]]__
+
+---------------------
+
+[[Spline]]s
+
+https://en.wikipedia.org/wiki/Kernel_method

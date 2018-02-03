@@ -1,6 +1,6 @@
 created: 20160328182624640
 creator: guillefix
-modified: 20170325150709328
+modified: 20171128224525165
 modifier: cosmos
 tags: [[Machine learning]]
 title: Deep learning
@@ -135,3 +135,5 @@ http://www.deeplearningbook.org/
 http://carpedm20.github.io/
 
 --------------
+
+Work on giving prior knowledge to deep learning: https://yani.io/annou/thesis_online.pdf

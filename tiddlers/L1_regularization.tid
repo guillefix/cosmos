@@ -1,0 +1,16 @@
+created: 20180119155930738
+creator: cosmos
+modified: 20180119160754254
+modifier: cosmos
+tags: Regularization
+title: L1 regularization
+tmap.id: ae88b93f-7cf3-496f-af44-b08af264b352
+type: text/vnd.tiddlywiki
+
+A regularization technique that penalizes the [[L1 norm]] (that is the sum of the absolute values of the model coefficients).
+
+It can be seen as a [[Convex relaxation]] of the hard problem of [[Sparsity-based regularization]].
+
+It can also [[be seen, when applied to feature selection in the principal components basis as|https://youtu.be/eyxjhdoNXaw?t=35m51s]] s a filter where we include those features which correlate best with the output, basically.
+
+When used in a least-squares problem, the method is called [[Lasso]]

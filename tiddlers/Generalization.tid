@@ -1,6 +1,6 @@
 created: 20160918174304853
 creator: cosmos
-modified: 20170820185013236
+modified: 20171204235155058
 modifier: cosmos
 tags: [[Learning theory]]
 title: Generalization
@@ -11,16 +11,44 @@ See [[Learning theory]]
 
 __Generalization bound techniques__
 
+Basically, anything that restricts/controls the capacity. That is, gives an inductive bias!
+
 * [[VC dimension]]
 
 * [[PAC-Bayesian learning]]
 
-* Stability
+* Fourier concentration-based bounds (see [[Sensitivity]] ([[here|https://www.youtube.com/watch?v=HIKTt9vaElM&feature=youtu.be&t=16m35s]]), [[Wavelet]]s..)
+
+* [[Rademacher complexity]]
+
+* [[Statistical physics framework|Statistical physics and inference]]
+
+* [[Algorithmic robustness]] and [[Algorithmic stability]]. [[Continuity of loss functions implies algorithmic stability|https://arxiv.org/pdf/1611.01838.pdf#page=8]]
+
+* Norm-based bounds (see [[Generalization in deep learning]] for examples).
+
+* [[Margin]]-based bounds (see [[Support vector machine]]s for instance).
+
+* [[Kolmogorov complexity]]. See [[here|https://link.springer.com/chapter/10.1007/978-3-642-44958-1_17]] for instance.
 
 [[Almost-everywhere algorithmic stability and generalization error|http://dl.acm.org/citation.cfm?id=2073909]]
 
 [[Generalization in evolution]]
 
+[[Generalization in deep learning]]
+
+[ext[Generalization ability of Boolean functions implemented in feedforward neural networks|http://www.lcc.uma.es/~lfranco/Franco-complex06.pdf]]
+
 ---------------
 
 [[One-shot learning]], [[Zero-shot learning]]
+
+----------------
+
+Entropy dependence of generalization in matrix map, learned via [[Logistic regression]]. Should I try with [[Perceptron algorithm]]?
+
+[Btw side thought. For the 0/1 matrices, the only way of explaining what we see that I can think of, is that if the VC dimension of the set of epsilon-bad functions is higher for maps with the medium entropies (intuitively: there are more functions which predict wrongly when the true function has medium entropy, than when the true function has either high or low entropy)..
+
+After looking back at some learning theory, I think this pattern can be understood if, for some reason, there are more functions (in the class of matrix map functions) which disagree significantly with the functions with row entropy 0.9, than with other functions. In technical jargon: the VC dimension of the set of epsilon-bad functions relative to functions with entropy 0.9 is larger than for other functions..
+
+See WWIS, emails, etc..

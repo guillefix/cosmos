@@ -1,6 +1,6 @@
 created: 20160809202237958
 creator: cosmos
-modified: 20171002173736188
+modified: 20171115235735005
 modifier: cosmos
 tags: [[Algorithmic information theory]]
 title: Universal probability
@@ -61,6 +61,104 @@ ability evaluation method could be applied. That it seemed to give reasonable
 answers was some of the strongest evidence that I had for its correctness
 
 <<<
+
+-----------------
+
+See [[Simplicity bias]]
+
+!!![[Coding-theorem Like Behaviour and Emergence of the Universal Distribution from Resource-bounded Algorithmic Probability|https://arxiv.org/pdf/1711.01711.pdf]]
+
+__Universal distribution, Algorithmic probability, use in induction/inference__
+
+There are many properties of m that make it optimal [32, 33, 34, 23]. For
+example, the same Universal Distribution will work for any problem within a
+convergent error; it can deal with missing and multidimensional data; the data
+does not need to be stationary or ergodic; there is no under-fitting or over-fitting
+because the method is parameter-free and thus the data need not be divided
+into training and test sets; it is the gold standard for a Bayesian approach in
+the sense that it updates the distribution in the most efficient and accurate way
+possible with no assumptions.
+
+Several interesting extensions of resource-bounded Universal Search approaches
+have been introduced in order to make algorithmic probability more useful in
+practice [27, 28, 20, 14], some of which provide some theoretical bounds [1].
+Some of these approaches have explored the effect of relaxing some of the conditions (e.g. universality) on which Levin’s Universal Search is fundamentally
+based [36] or have introduced domain-specific versions (and thus versions of
+conditional AP). Here we explore the behaviour of explicitly weaker models
+of computation– of increasing computational power– in order to investigate the
+asymptotic behaviour and emergence of the Universal Distribution and the properties
+of both the different models with which to approximate it and the actual
+empirical distributions that such models produce (see [[here|https://arxiv.org/pdf/1711.01711.pdf#page=3]])
+
+__predict natural distributions (also useful for inference..)__
+
+ More
+real-world approaches may then lead to applications, like for helping predict the most likely
+(algorithmic) final configuration of a folding protein. If the chemical and thermodynamic laws that
+drive these processes are considered algorithmic in any way, even under random
+interactions, e.g. molecular Brownian motion, the Universal Distribution may
+offer insights that may help us quantify the most likely regions if those laws
+in any sense constitute forms of computation below or at the Turing level that
+we explore [[here|https://arxiv.org/pdf/1711.01711.pdf#page=4]]
+
+===
+
+Levin proved that the output distribution established by Algorithmic Probability
+dominates (up to multiplicative scaling) any other distribution produced
+by algorithmic means as long as the executor is a universal machine, hence
+giving the distribution its ‘universal’ character (and name, as the ‘Universal
+Distribution’).
+
+<small>This so-called Universal Distribution is a signature of Turing-completeness.
+However, many processes that model or regulate natural phenomena may not
+necessarily be Turing universal. For example, some models of self-assembly may not be powerful enough to reach Turing-completeness, yet they display similar
+output distributions to those predicted by the Universal Distribution by way of
+the algorithmic Coding theorem, with [[simplicity highly favoured by frequency of production|Simplicity bias]]. Noise is another source of power degradation that may hamper universality and therefore the scope and application of algorithmic probability. However, if some sub-universal systems approach the coding-theorem behaviour, these give us great prediction capabilities and less powerful but computable algorithmic complexity measures. Here we ask whether such distributions can be partially or totally explained by importing the relation established by the coding theorem, and under what conditions non-universal systems can display algorithmic coding-theorem like behaviour.</small> (see [[here|https://arxiv.org/pdf/1711.01711.pdf#page=5]])
+
+We produce empirical distributions of systems at each of the computing
+levels of the [[Chomsky hierarchy]] (see [[here|https://arxiv.org/pdf/1711.01711.pdf#page=5]]) , 
+
+* starting from [[transducers|Finite-state transducer]] (Type-3) as defined in [18]. We use an enumeration of transducers introduced in [[[18|http://www.sciencedirect.com/science/article/pii/S0304397511005408]]] where they also proved an invariance theorem, thus demonstrating that the enumeration choice is invariant (up to a constant).
+* [[Context-free grammar]]s (Type-2) as defined in [35], 
+* [[linear-bounded nondeterministic Turing machines|Linear-bounded automaton]] (Type-1) as approximations to bounded Kolmogorov-Chaitin complexity 
+* and a universal procedure from an enumeration of [[Turing machine]]s (Type-0) as defined in [5, 21].
+
+We report the results of the experiments and comparisons, showing the gradual coding-theorem-like behaviour at the boundary between decidable and undecidable systems. <small>We also explore the consequences of relaxing the halting configuration (e.g.
+halting state) in models of universal computation (Type-0) when it comes to
+comparing their output distributions.</small>
+
+[[Finite-state complexity|https://arxiv.org/pdf/1711.01711.pdf#page=6]] (see [[Automata-based descriptional complexity]]). See [[definitions here|https://arxiv.org/pdf/1711.01711.pdf#page=7]]. <mark>Check out the invariance theorem for finite-state complextity</mark>
+
+(''Finite-state Algorithmic Probability'') Let $$S$$ be the set of encodings
+of all transducers by a binary string in the form of $$\sigma$$. We then define
+the algorithmic probability of a string $$s \in \mathcal{B}^*$$ as follows:
+
+:$$AP_S(s) = \sum\limits_{(\sigma,p):T_\sigma^S=s} 2^{-(|\sigma|+|p|)}$$
+
+''Finite-state distribution'' ([[def 2.4|https://arxiv.org/pdf/1711.01711.pdf#page=8]]. //Typo//)
+
+In [[algorithm to enumerate context-free grammars|https://arxiv.org/pdf/1711.01711.pdf#page=9]] in [[Chomsky normal form]]. <small>Why does `generateSetN[{n, p}]` depend on `p`? I can see that not all n are allowed for given p. But then..., how is this done to not generate same grammars twice..? Also, can't there be terminals in the LHS too? NO, because this algorithm is for __context-free grammars!__</small>. [[CYK algorithm|https://arxiv.org/pdf/1711.01711.pdf#page=10]] to decide if a string s is generated by a grammar G.
+
+[[Context-free Algorithmic Probability|https://arxiv.org/pdf/1711.01711.pdf#page=10]]. Actually, a ''CFG empirical distribution''.
+
+[[Linear-bounded complexity|https://arxiv.org/pdf/1711.01711.pdf#page=10]]
+
+> What is the justification of using these "empirical distributions", as they seem to be quite different from algorithmic probability ($$2^{-K}$$)? Well, I guess the universal distribution dominates all other distributions.., and also at least this captures the intuition of how easy it is to produce $$s$$.. The difference between the two is that in AP, one is typing symbols sequentially, while in the empirical distribution, one gives equal probability to all inputs.... Hmmmmm. Yeah, but coding-theorem and its domination properties (which I guess are related to [[Simplicity bias]]) maybe causes them to be similar..?  Hmm yeah. The ''universal distribution'' (even if it only applies asymptotically), is rather amazing. <mark>But I should probably read their paper on sampling Turing Machines, because I think it's the same idea...</mark>
+
+<mark>Check</mark>[[Numerical Evaluation of Algorithmic Complexity for Short Strings: A Glance into the Innermost Structure of Randomness|https://arxiv.org/abs/1101.4795]]
+
+[[Calculating Kolmogorov Complexity from the Output Frequency Distributions of Small Turing Machines|http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096223]]
+
+We use the same Turing Machine formalism as [5, 21], which is that of the
+Busy Beaver introduced by Rado [[[8|http://onlinelibrary.wiley.com/doi/10.1002/j.1538-7305.1962.tb00480.x/full]]], and we use the known values of the [[Busy beaver]] functions.
+
+Time-bounded. Non-Halting
+
+[[Results|https://arxiv.org/pdf/1711.01711.pdf#page=13]]
+
+They have many typos. For instance, [[here|https://arxiv.org/pdf/1711.01711.pdf#page=15]], caption and figure axis labels don't agree.
+
+[[Figure 4|https://arxiv.org/pdf/1711.01711.pdf#page=21]] not really clear..
 
 ---------------
 

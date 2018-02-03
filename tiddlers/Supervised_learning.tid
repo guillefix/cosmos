@@ -1,6 +1,6 @@
 created: 20160327021039036
 creator: guillefix
-modified: 20161104134332678
+modified: 20171129131649578
 modifier: cosmos
 tags: [[Machine learning]]
 title: Supervised learning
@@ -14,7 +14,11 @@ The goal is to learn a mapping from inputs $$x$$ to outputs $$y$$, given a label
 Training data consisting on ''inputs and outputs''.
 <small>Other names for inputs: predictors, independent variables, features, attributes, covariates. Other names for outputs: responses, response variables, dependent variables.</small>
 
-In supervised learning, we want to find function relating inputs to outputs, to then be able to predict new outputs from new inputs. Often, we need ''a way to represent the function approximation'', with some parameters (the ''model''; with some subtleties for [[non-parametric|Nonparametric statistics]] ones) and a ''learning algorithm'' to find best parameters for the data, so that the model can predict well. See [[Learning theory]], to learn about the way learning algorithms work, overfitting, underfitting, ''model selection'', etc.. New paradigm: [[Deep learning]]
+In supervised learning, we want to find function relating inputs to outputs, to then be able to predict new outputs from new inputs. Often, we need ''a way to represent the function approximation'', with some parameters (the ''model''; with some subtleties for [[non-parametric|Nonparametric statistics]] ones) and a ''learning algorithm'' to find best parameters for the data, so that the model can predict well. 
+
+-- See [[Learning theory]], to learn about the way learning algorithms work, overfitting, underfitting, generalization  ''model selection'', etc.. 
+
+New paradigm: [[Deep learning]]
 
 !!__Types of supervised learning algorithms__
 
@@ -49,7 +53,9 @@ Learning the function $$p(\text{output}|\text{input})$$. See [[notes|http://cs22
 
 !!__Structured learning__
 
-[[wiki|https://www.wikiwand.com/en/Structured_prediction]]
+[[wiki|https://www.wikiwand.com/en/Structured_prediction]].
+
+Often this actually deals with problems where input space has a different structure than a vector space ([[video|https://youtu.be/SFxypsvhhMQ?t=28m17s]])
 
 !!!__General methods__
 

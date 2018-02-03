@@ -1,6 +1,6 @@
 created: 20170618113542226
 creator: cosmos
-modified: 20171109122530659
+modified: 20171127123335937
 modifier: cosmos
 tags: [[Exterior calculus]]
 title: Exterior form
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 //aka form, linear form, differential form//
 
-Exterior forms or $$k$$-forms are elements of an [[exterior power|Wedge product]] of the [[Cotangent bundle]] over [[manifold|Differentiable manifold]] $$X$$, denoted $$\Omega(k)$$ for a $$k$$th power. The direct sum of $$\Omega(k)$$ from $$k=0$$ to $$k=dim(X)$$ is an [[Exterior algebra]] over vector bundles. The max $$k=dim(X)$$ is because $$k$$-forms for $$k > dim(X)$$ are $$0$$.
+Exterior forms or $$k$$-forms are sections of an [[exterior power|Wedge product]] of the [[Cotangent bundle]] over [[manifold|Differentiable manifold]] $$X$$, called the [[Bundle of k-forms]]. The set of $$k$$-forms is denoted $$\Omega(k)$$. The direct sum of $$\Omega(k)$$ from $$k=0$$ to $$k=dim(X)$$ is an [[Exterior algebra]] over vector bundles. The max $$k=dim(X)$$ is because $$k$$-forms for $$k > dim(X)$$ are $$0$$.
 
 : $$\Omega(k) = \Gamma^\infty (\wedge^k T^* X)$$
 

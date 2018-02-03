@@ -1,6 +1,6 @@
 created: 20160221181117472
 creator: guillefix
-modified: 20170930120404133
+modified: 20171128232227647
 modifier: cosmos
 tags: Engineering [[Scientific computing]] [[Operations research]] [[Mathematical methods]]
 title: Optimization
@@ -131,4 +131,6 @@ Many applications in [[Science]], [[Engineering]], [[Statistics]]...
 
 * [[Computational geometry]]
 
+----------------------
 
+[[Can we measure the difficulty of an optimization problem?|http://ieeexplore.ieee.org/abstract/document/6970853/]]

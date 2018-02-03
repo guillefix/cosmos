@@ -1,0 +1,14 @@
+created: 20171127125839606
+creator: cosmos
+modified: 20171127130022425
+modifier: cosmos
+tags: Isometry [[Vector field]]
+title: Killing vector field
+tmap.id: 3f19c052-d5ac-4fe6-b634-e086df90804a
+type: text/vnd.tiddlywiki
+
+//an infinitesimal isometry//
+
+A vector field corresponding to the infinitesimal flow of a [[One-parameter group of diffeomorphisms]] which are [[isometries|Isometry]].
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=78]]

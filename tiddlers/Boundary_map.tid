@@ -1,6 +1,6 @@
 created: 20171017130022830
 creator: cosmos
-modified: 20171029103741686
+modified: 20171115133756756
 modifier: cosmos
 tags: Homology
 title: Boundary map
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 //aka boundary homomorphism//
 
 A [[Homomorphism]] from a [[Group]] of chain to the group formed boundaries of chains, where a chain is mapped to its boundary.
+
+[[video for boundary map for singular chain complexes|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=51m10s]]
 
 For [[chains of n-simplices|Chain group]]es, in [[Simplicial homology]], it is defined as:
 
@@ -28,3 +30,7 @@ See the figure [ext[here|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=11
 [img[boundary_map.png]]
 
 So common boundaries cancel out, as they should (similarly to how is done in derivations of [[Stoke's theorem]] for instance)
+
+!!!__[[Chain complex]]__
+
+The boundary map, together with the [[Chain group]]s form a [[Chain complex]]. this is becaus the composition of two boundary maps is $$0$$ ([[Proof|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=56m28s]])

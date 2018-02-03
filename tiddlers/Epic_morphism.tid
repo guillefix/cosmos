@@ -1,6 +1,6 @@
 created: 20171012175954009
 creator: cosmos
-modified: 20171014202212425
+modified: 20171118183140735
 modifier: cosmos
 tags: [[Category theory]]
 title: Epic morphism
@@ -14,3 +14,5 @@ A [[Morphism]] $$f$$ is ''monic'' if $$\forall g,h. g \circ f = h \circ f \Right
 In the case of functions, this is equivalent to it being [[Surjective]]
 
 It is the [[dual|Opposite category]] to [[Monic morphism]]
+
+[[Video|https://www.youtube.com/watch?v=O2lZkr-aAqk&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=3]]

@@ -1,0 +1,12 @@
+created: 20171130205050288
+creator: cosmos
+modified: 20171130205146571
+modifier: cosmos
+tags: [[Loss function]]
+title: Logistic loss
+tmap.id: b5ce09a2-8bf4-446a-9606-04b9882f799a
+type: text/vnd.tiddlywiki
+
+A [[Loss function]] commonly used in binary [[Classification]] (with extensions for more general classification).
+
+It has the form $$L(y,f(x))=\log\left(1+e^{-yf(x)}\right)$$

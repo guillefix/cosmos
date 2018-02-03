@@ -1,0 +1,12 @@
+created: 20180116112030990
+creator: cosmos
+modified: 20180116112323722
+modifier: cosmos
+tags: [[Probability theory]]
+title: Union bound
+tmap.id: 17dc5d7a-9118-48fe-a177-3f1a16fbcbe6
+type: text/vnd.tiddlywiki
+
+if $$A_1$$ and $$A_2$$ are two events, then $$P(A_1 | A_2) \leq P(A_1) + P(A_2)$$. $$A_1 \cup A_2$$ and $$A_1 \vee A_2$$ both denote the union of the events $$A_1$$ and $$A_2$$, i.e., the event that $$A_1$$ or $$A_2$$ holds, or both.) More generally, 
+
+$$P(A_1 \cup ... \cup A_n) \leq \sum\limits_{i=1}^n P(A_i)$$

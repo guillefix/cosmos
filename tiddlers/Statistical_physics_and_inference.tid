@@ -1,13 +1,15 @@
 created: 20170420161906055
 creator: cosmos
-modified: 20170512230334476
+modified: 20171205185359222
 modifier: cosmos
-tags: [[Information, computation and physics]]
+tags: [[Information, computation and physics]] [[Statistical inference]]
 title: Statistical physics and inference
 tmap.id: f0895bdf-2a7f-4109-ab3a-02f58b7cfd51
 type: text/vnd.tiddlywiki
 
 [[The thermodynamics of prediction|https://arxiv.org/abs/1203.3271]]
+
+[[A correspondence between thermodynamics and inference|https://arxiv.org/abs/1706.01428]] (hypothesis annotations)
 
 See lectures on statistical physics of inference:
 
@@ -28,6 +30,30 @@ Nice [[Gauge transformation]] of the hamiltonian, makes it into a ferromagnetic 
 And book on "mathematics of generalization"
 
 [[Solvable Model of Unsupervised Feature Learning|https://www.youtube.com/watch?v=BzbhXnLQ22s]]
+
+[ext[Learning to generalize|http://www.ki.tu-berlin.de/fileadmin/fg135/publikationen/opper/Op01.pdf]]
+
+----------------
+
+[[Learning with Boolean Threshold Functions, a Statistical Physics Perspective - Raemi Monasson|https://www.youtube.com/watch?v=_q5twKE9Jeo]]
+
+[[Perceptron]] -- [[Connection of VC dimension and capacity|https://www.youtube.com/watch?v=_q5twKE9Jeo#t=25m]] (see [[here|https://youtu.be/_q5twKE9Jeo?t=26m12s]]) Capacity refers basically to probability that a random input/output set is realizable by our hypothesis class (See [[here|https://youtu.be/_q5twKE9Jeo?t=21m30s]] for case with hyperplanes). [[For more complicated architectures is harder to calculate this..|https://youtu.be/_q5twKE9Jeo?t=28m24s]]. 
+
+__Calculating the alpha critical ($$\alpha_c$$) for +/-1 weight vectors__ (that is number of patterns (over dimensionality of system) at which the probability of there existing a solution drops to zero). To do this he has to calculate the probability of a certain number of solutions existing, and assume there is a limit with a large peak taking almost all probability ([[Large deviation theory]], see [[here|https://youtu.be/_q5twKE9Jeo?t=36m38s]]). This peak depends on alpha. When the peak > 1 then with high probability there is >1 solution. When the peak reaches zero, there is no solution with high probability. This is the point defining $$\alpha_c$$. He starts by defining [[Number of solutions for +/-1 weight vectors|https://www.youtube.com/watch?v=_q5twKE9Jeo#t=34m]]. Then, [[writting an expression for the probability of the number of solutions being in a certain interval|https://youtu.be/_q5twKE9Jeo?t=36m38s]] . We can find the peak of this quantity using [[Replica method]], assume [[Replica symmetry]]. If the number of solutions is expressed as $$\mathcal{N}_{sol}=2^{N\omega}$$, then peak [[is calculated to occur at this omega|https://youtu.be/_q5twKE9Jeo?t=1h15m36s]] (written as a maximum over a complicated expression, depending on typical overlap of solutions). [[This gives us alpha critical|https://youtu.be/_q5twKE9Jeo?t=1h18m36s]] Can extend to case with finite temperature (where we allow approximate solutions, with probability weighted by how good they are).
+
+[[Adaptation of methods for the |https://youtu.be/_q5twKE9Jeo?t=1h28m45s]] [[Tempotron]]
+
+--------------------
+
+__[[Renormalization group]]__
+
+See [[here|https://www.youtube.com/watch?v=hfBHELbk2Yw#t=43m]] for how one can use RG to show that fractal-like [[Committee machines]] have universal [[Learning curve]]s.
+
+[[Statistical mechanics of learning|https://www.youtube.com/watch?v=hfBHELbk2Yw]] -- [[Universality of optimal learning curve|https://www.youtube.com/watch?v=hfBHELbk2Yw#t=51m35s]] using RG! ([[Generalization Error in a Self-Similar Committee Machine|https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.71.2355]])
+
+!!__[[Statistical mechanics of neural networks]]__
+
+[ext[Nonequilibrium analysis of simple neural nets|http://pcteserver.mi.infn.it/~caraccio/Lauree/Amelio.pdf]]
 
 ------------------------
 

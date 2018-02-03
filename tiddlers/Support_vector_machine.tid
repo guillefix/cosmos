@@ -1,14 +1,17 @@
 created: 20160709020641282
 creator: guillefix
-modified: 20170104204755826
+modified: 20171130211536764
 modifier: cosmos
+tags: [[Kernel method]]
 title: Support vector machine
 tmap.id: de46d9cf-ac43-41a3-9643-77b35dc44df8
 type: text/vnd.tiddlywiki
 
 //aka SVM//
 
-A method for discriminative [[Supervised learning]], that is for [[Classification]], and [[Regression analysis]]. It allows to [[learn|Machine learning]] non-linear functions, like [[Artificial neural network]]s. I think they generalize [[Nearest-neighbour classification]]
+A method for discriminative [[Supervised learning]], that is for [[Classification]], and [[Regression analysis]]. It allows to [[learn|Machine learning]] non-linear functions, like [[Artificial neural network]]s.
+
+They correspond to [[Kernel method]]s which use the [[Hinge loss]] function. See [[this video|https://youtu.be/Vm5QE54y6mw?t=1h1m50s]]. Because loss function is non-differentiable we use the [[Subgradient method]] (See [[here|https://youtu.be/Vm5QE54y6mw?t=1h3m28s]]).
 
 [[Andrew Ng lec intro|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=44m05s]] -- [[Notes|http://cs229.stanford.edu/notes/cs229-notes3.pdf]] -- 
 [[Wiki|https://www.wikiwand.com/en/Support_vector_machine]]
@@ -63,6 +66,8 @@ Prediction can be written down using inner products: see [[here|https://www.yout
 --[[Summary|https://www.youtube.com/watch?v=bUv9bfMPMb4&index=8&list=PLA89DCFA6ADACE599#t=1m]]
 
 !!__Kernels__
+
+See [[Kernel methods]]
 
 ,,[[Kernels Introduction - Practical Machine Learning Tutorial with Python p.29|https://www.youtube.com/watch?v=9IfT8KXX_9c&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&index=29]],,
 

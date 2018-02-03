@@ -1,0 +1,12 @@
+created: 20171115135937154
+creator: cosmos
+modified: 20171115140050698
+modifier: cosmos
+tags: n-chain
+title: n-cycle
+tmap.id: 860963ee-e17c-4cf8-83dd-2ef0aa5b00ea
+type: text/vnd.tiddlywiki
+
+An [[n-chain]] $$z$$ such that [[d|Boundary map]]$$z$$ = $$0$$ (belongs to kernel).
+
+[[They form a group|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=1h9m]], the group of $$n$$-cycles

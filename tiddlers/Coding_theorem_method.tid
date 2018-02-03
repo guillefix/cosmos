@@ -1,7 +1,7 @@
 created: 20160426165616553
 creator: guillefix
-modified: 20161104134327481
-modifier: guillefix
+modified: 20180117164918917
+modifier: cosmos
 title: Coding theorem method
 tmap.id: 5065217a-bb21-44b4-947e-36c28e0c3910
 type: text/vnd.tiddlywiki
@@ -20,12 +20,16 @@ where $$(n,k)$$ is the set of [[Turing machine]]s with $$n$$ states and $$k$$ le
 
 An extension to $$N$$-dimensional arrays has been developed using the [[Block decomposition method]]
 
+Hector Zenil
+
+New paper investigating its compression properties: https://www.hindawi.com/journals/complexity/2017/7208216/  -- better than ohter methods, but I think not much..
+
 ----------------------
 
 See [[this paper|http://singmann.org/download/publications/2015_gauvrit_et_al_brm.pdf]] and [[this one|http://www.ncbi.nlm.nih.gov/pubmed/24311059]] For some reason this seems to be a popular idea in [[Psychology]].
 
 Using these methods the people at [[Algorithmic nature group|http://algorithmicnature.org/]] made [[The Online Algorithmic Complexity Calculator|http://www.complexitycalculator.com/index.php]]
 
-More: [[Numerical evaluation of algorithmic complexity for short strings: A glance into the innermost structure of randomness|http://cristal.univ-lille.fr/~jdelahay/dnalor/DelahayeZenilNumerical.pdf]]
+More: [ext[Numerical evaluation of algorithmic complexity for short strings: A glance into the innermost structure of randomness|http://cristal.univ-lille.fr/~jdelahay/dnalor/DelahayeZenilNumerical.pdf]]
 
 [[Calculating Kolmogorov Complexity from the Output Frequency Distributions of Small Turing Machines|http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096223]]

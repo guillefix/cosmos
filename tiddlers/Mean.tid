@@ -1,0 +1,11 @@
+created: 20180116121019618
+creator: cosmos
+modified: 20180116121110252
+modifier: cosmos
+title: Mean
+tmap.id: 009d3fd0-fee4-4a6c-9c8e-039ff5ce98d0
+type: text/vnd.tiddlywiki
+
+//aka 1st moment or expectation//
+
+$$E[X] = \sum\limits_x x\mathbb{P}[X=x]

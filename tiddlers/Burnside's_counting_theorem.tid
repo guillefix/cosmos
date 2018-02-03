@@ -1,0 +1,12 @@
+created: 20171116123531507
+creator: cosmos
+modified: 20171116124411831
+modifier: cosmos
+tags: [[Group theory]]
+title: Burnside's counting theorem
+tmap.id: 27d14f4e-377a-4f49-983a-227bd408efba
+type: text/vnd.tiddlywiki
+
+$$|X/G| = \frac{1}{|G|} \sum\limits_{g\in G} |X^g|$$
+
+See [[Proof|https://en.wikipedia.org/wiki/Burnside%27s_lemma#Proof]]. We can rewrite $$\sum\limits_{g\in G} |X^g| = \sum\limits_{x\in X} |G_x|$$, where $$G_x$$ is the [[Stabilizer subgroup]] of $$x$$. This can be seen by noting that both sums count the number of elements in the same subset of $$X \times G$$. Then we can use the [[Orbit-stabilizer theorem]].

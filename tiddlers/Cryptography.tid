@@ -1,6 +1,6 @@
 created: 20160623231414781
 creator: guillefix
-modified: 20170706132533985
+modified: 20171123104752410
 modifier: cosmos
 tags: Cryptology
 title: Cryptography
@@ -14,6 +14,8 @@ type: text/vnd.tiddlywiki
 [[Modular arithmetic]], [[Ring]]s is used a lot
 
 Most [[PRNG|Pseudorandom number generator]]s, [[we cannot use in cryptography|https://www.youtube.com/watch?v=AELVJL0axRs#t=50m30s]], instead we need [[Cryptographically secure PRNG]]s
+
+[[paper|https://arxiv.org/abs/1710.05984]] relating mutual information to longest shared secret established over public channel
 
 !!__Symmetric cryptosystem__
 

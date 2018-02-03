@@ -1,25 +1,46 @@
 created: 20160916172144391
 creator: cosmos
-modified: 20161104134329435
+modified: 20171129131721998
 modifier: cosmos
+tags: [[Machine learning]]
 title: Loss function
 tmap.id: 7ad3d861-b031-4f74-81dd-eb3e117e70ba
 type: text/vnd.tiddlywiki
 
 //aka risk, cost, loss; or its opposite, utility, reward,... depending on the area or context//.
 
-A ''loss function'' refers to a [[Function]] that one wishes to [[minimize|Optimization]], in some [[decision theoretic|Decision theory]] framework, like in [[learning|Learning theory]], [[Operations research]], mathematical [[Ethics]], etc.
+A ''loss function'' refers to a [[Function]] that one wishes to [[minimize|Optimization]], in some [[decision theoretic|Decision theory]] framework, like in [[learning|Learning theory]], [[Operations research]], mathematical [[Ethics]], etc., [[Optimization]]
 
 [[Loss function for learning|https://www.youtube.com/watch?v=PpFTODTztsU&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=8]]
 
-!!__Loss functions__
+!!__Loss functions in [[Regression analysis]]__
+
+[[Video|https://www.youtube.com/watch?v=SFxypsvhhMQ#t=54m]]
+
+[[Squared loss]]
+
+Absolute value loss
+
+Epsilon insensitive loss function
+
+!!__Loss functions in [[Classification]]__
+
+[[Video|https://youtu.be/SFxypsvhhMQ?t=56m45s]]
+
+__Training error__
+[[The problem is that this is not convex|https://youtu.be/SFxypsvhhMQ?t=59m26s]]. That is why Hinge loss is better.
 
 __[[Hinge loss]]__
+[[Video|https://www.youtube.com/watch?v=SFxypsvhhMQ&feature=youtu.be&t=1h19s]]
 
 __[[Cross entropy]]__
 
 __Negative log [[likelihood|Likelihood function]]__
 
-__Training error__
+[[Squared loss|https://www.youtube.com/watch?v=SFxypsvhhMQ&feature=youtu.be&t=1h3m]]
+
+-------------
 
 See [[Empirical risk minimization]]
+
+[[Expected loss|https://www.youtube.com/watch?v=SFxypsvhhMQ&feature=youtu.be&t=1h10m]], defined over [[Measurable function]]s

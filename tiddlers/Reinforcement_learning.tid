@@ -1,6 +1,6 @@
 created: 20160428203926307
 creator: guillefix
-modified: 20170901180140955
+modified: 20180107151602857
 modifier: cosmos
 tags: [[Machine learning]] Optimization
 title: Reinforcement learning
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 See [[Machine learning]], [[Decision theory]]
 
-[[Andrew Ng intro lecture|https://www.youtube.com/watch?v=RtxI449ZjSc&index=16&list=PLA89DCFA6ADACE599#t=20s]] -- [ext[book|https://sites.ualberta.ca/~szepesva/RLBook.html]] [[which proves several important theorems|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=10m30]]. -- [[good github repo with sources|https://github.com/dennybritz/reinforcement-learning]]
+[[Andrew Ng intro lecture|https://www.youtube.com/watch?v=RtxI449ZjSc&index=16&list=PLA89DCFA6ADACE599#t=20s]] -- [ext[book|https://sites.ualberta.ca/~szepesva/RLBook.html]] [[which proves several important theorems|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=10m30]]. -- [[good github repo with sources|https://github.com/dennybritz/reinforcement-learning]] -- [[Sutton&Barto book|http://incompleteideas.net/book/bookdraft2017nov5.pdf]]
 
 -- [[Credit assignment problem|https://www.youtube.com/watch?v=RtxI449ZjSc&list=PLA89DCFA6ADACE599&index=16#t=6m30s]]
 
@@ -28,6 +28,8 @@ See [[Machine learning]], [[Decision theory]]
 
 [img width=300 [RL_taxonomy.png]]
 [img width=300 [reinforcement_learning_venn_diagram.png]]
+
+__[[Software for reinforcement learning]]__
 
 !!!__Environment, observation, and [[State|https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT#t=36m30s]]__:
 

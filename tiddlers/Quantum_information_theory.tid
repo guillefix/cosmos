@@ -1,6 +1,6 @@
 created: 20160228222030153
 creator: guillefix
-modified: 20161206172208039
+modified: 20180117145947384
 modifier: cosmos
 tags: [[Quantum mechanics]]
 title: Quantum information theory
@@ -14,3 +14,16 @@ type: text/vnd.tiddlywiki
 https://medium.com/@geoff.bradway/a-primer-on-quantum-computing-and-algorithms-d64033abfb52#.i4oihul75
 
 [[Quantum machine learning]]
+
+[[Quantum computation]],
+
+Interference is the main difference between quantum theory and classical probability theory.
+
+[[Decoherence]]. Kinda: phases are instable, and so the interference terms usually average out to zero. [[Quantum error-correction]] is a way to fight this problem.
+
+[[Hadamard gate]] 1 1 1 -1
+
+Phase gate 1 0 0 $$e^{i\phi}$$
+
+-------------------
+

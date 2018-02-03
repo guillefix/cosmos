@@ -1,0 +1,36 @@
+created: 20171128121014938
+creator: cosmos
+draft.of: Sensitivity
+draft.title: Sensitivity
+modified: 20171128200559308
+modifier: cosmos
+tags: Function [[Boolean function]]
+title: Draft of 'Sensitivity'
+tmap.id: d611ce0f-7761-40b3-9b18-f350004f2eb4
+type: text/vnd.tiddlywiki
+
+The sensitivity of a function refers to a measure of how sensitive its outputs are to its inputs. In particular, "how much do the outputs change when we make a small change of the inputs"?
+
+There are a variety of precise notions, mostly defined for [[Boolean function]]s. See [[here|http://theorycenter.cs.uchicago.edu/REU/2014/final-papers/tsang.pdf]]
+
+''Average sensitivity'': the average {number of bits that change the output} over all inputs. This is the same as the //total influence// which is the sum of the influences of input bits, where the ''influence'' of input bit i, is the probability that changing that bit changes the output, when uniformly sampling inputs.
+
+[[Average sensitivity for linear threshold functions|https://youtu.be/HIKTt9vaElM?t=10m9s]] is $$O(\sqrt{n})$$ (can be seen I think by asking the question of when does changing bit i change the output? This happens when the weights for the other n-1 bits times the corresponding input bits sum to less than the weight of the ith bit. This sum can be analyzed using the [[Central limit theorem]], and one can conclude that this occurs with probability $$O(1/\sqrt{n})$$. This was for one bit. Then the average sensitivity is the sum of this over bits, so we multiply by $$n$$, giving the result) -- [[Average sensitivity for degree d polynomial threshold functions (PTF) is still open|https://www.youtube.com/watch?v=HIKTt9vaElM#t=11m53s]], but it was conjectured that it is $$O(d\sqrt{n})$$. He has some proven bounds (which are not as good though). See [[this paper|https://arxiv.org/abs/0909.5011]].
+
+''Noise sensitivity''. Probability that output changes for a uniformly random input, when changing each bit with probability $$\epsilon$$ (called //noise rate//). This is like the mutation model in the [[Wright-Fisher model]].
+
+[[Upper bounds on noise sensitivity gives upper bounds on average sensitivity|https://www.youtube.com/watch?v=HIKTt9vaElM#t=14m55s]]. [[The converse is true for degree d PTFs|https://youtu.be/HIKTt9vaElM?t=15m23s]]
+
+[[This has applications to learning|https://www.youtube.com/watch?v=HIKTt9vaElM&feature=youtu.be&t=16m35s]]. Upper bound on noise sensitivity implies Fourier concentration, kind of smoothness.. And this is related to learning algorithms. Their results implies that the class of degree d PTFs is [[agnostic lernable|Agnostic learning]] in polynomial time.
+
+[[Regularity lemma and pseudorandom generators for PTFs|https://www.youtube.com/watch?v=HIKTt9vaElM&feature=youtu.be&t=29m10s]] -- [[PRG|https://youtu.be/HIKTt9vaElM?t=34m48s]]. version of central limit theorem still holds for weakly indpedenent random variables. They show that these weakly dependent distributions (generated from PRGs) fools the class of linear threshold functions. Meaning that the expectation of the linear threshold function when inputs are under this pseudorandom distribution, this expectation is epsilon-close to the expectation when inputs are truly unfiromly distributed (see [[here|https://youtu.be/HIKTt9vaElM?t=38m12s]]). They then use this to show that CLT also holds for these weakly dependent PR distributions. Results of this kind are called [[Derandomization]].
+
+These PR distributions have small support (seeds are much smaller than output space).
+
+-----------------
+
+This notion can be seen as an extension of "smoothness" in [[Analysis]] to functions on discrete/finite domains
+
+This is essentially the same notion [[Mutational robustness]]
+
+It is also the basis for the definition [[Generalization complexity]] by L Franco. In fact the 0th complexity is just the average sensitivity.

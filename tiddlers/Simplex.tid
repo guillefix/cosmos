@@ -1,6 +1,6 @@
 created: 20171015202730911
 creator: cosmos
-modified: 20171024230616162
+modified: 20171115122644368
 modifier: cosmos
 title: Simplex
 tmap.id: e20ca887-5d1e-4383-96fe-2bfd83325279
@@ -14,6 +14,8 @@ If we delete one of the n + 1 vertices of an n simplex [v 0 , ··· , v n ] , t
 remaining n vertices span an (n − 1) simplex, called a ''face'' of [v 0 , ··· , v n ]
 
 The union of all the faces of ∆ n is the boundary of ∆ n , written ∂∆ n . The ''open simplex'' $$\Delta^{\circ n}$$ (actually $$\circ$$ should be on top..) is $$\Delta^n - \partial \Delta^n$$, the [[interior|Interior of a set]] of $$\Delta^n$$.
+
+[[Video|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=18m15s]]
 
 --------------------
 

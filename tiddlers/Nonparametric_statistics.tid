@@ -1,9 +1,10 @@
 created: 20160327165844855
 creator: guillefix
-modified: 20161104134331151
+modified: 20171130195635782
 modifier: cosmos
+tags: Statistics
 title: Nonparametric statistics
-tmap.id: 723ba0cf-b13a-450a-b9d7-464f328629e8
+tmap.id: a84cae09-b4f8-4d7e-ab3a-45a1e693897d
 type: text/vnd.tiddlywiki
 
 Formally, the number of "parameters" grows with the training set. Here number of parameters basically refers to "amount of information in learned  function". For example, in neares-neighbour models, the parameters are the position of the neighbourhoods, and the categories to which those regions map. The number of these parameters clearly grows as more data points are added.. A more intuitive way of looking at it is that the algorithm doesn't fit parameters, and instead uses some other method to generate the function it is trying to learn. See [[Nonparametric statistics]] An example is [[Nearest-neighbour classification]] (note that the model has parameters, but they are not fitting parameters, instead they are chosen before using the algorithm, and then are fixed)
@@ -17,5 +18,6 @@ __Nonparametric models__
 
 * [[Nearest-neighbour classification]] 
 * [[Locally-weighted linear regression]]
+* Infinite-dimensional [[Kernel method]]s
 
 They are both based on looking at local neighbours near points for which we are going to make the prediction.

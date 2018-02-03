@@ -1,0 +1,12 @@
+created: 20171128124423518
+creator: cosmos
+modified: 20171128124510878
+modifier: cosmos
+tags: Generalization
+title: Algorithmic stability
+tmap.id: 6f9993f5-bdaf-43bc-aac1-2ef37fba2e9f
+type: text/vnd.tiddlywiki
+
+is then a notion of how much its output differs in loss upon being presented with two datasets, Ξ and Ξ', that differ in at most one sample
+
+O. Bousquet and A. Elisseeff. Stability and generalization. JMLR, 2(Mar):499–526, 2002.

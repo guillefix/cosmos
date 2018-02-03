@@ -1,6 +1,6 @@
 created: 20160704164449084
 creator: guillefix
-modified: 20170824131752012
+modified: 20171228233941599
 modifier: cosmos
 tags: [[Machine learning]] [[Probabilistic model]]
 title: Graphical model
@@ -107,3 +107,5 @@ They can often be represented as kinds of [[Artificial neural network]]s
 [[Energy minimization|http://mpawankumar.info/teaching/cdt-optimization/lecture2_2.pdf]]
 
 !!![[Composing graphical models with neural networks|https://www.youtube.com/watch?v=btr1poCYIzw]]
+
+https://www.vicarious.com/2017/10/26/common-sense-cortex-and-captcha/

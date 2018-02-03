@@ -1,6 +1,6 @@
 created: 20160807224959210
 creator: cosmos
-modified: 20170413101459329
+modified: 20171113001111752
 modifier: cosmos
 tags: [[Convex analysis]]
 title: Convex function
@@ -27,7 +27,9 @@ __Equivalent conditions for differentiable functions__
 
 __Relations to [[Convex set]]s__
 
-All the points above the function (the function's [[Epigraph]]) form a convex set.
+All the points above the function (the function's [[Epigraph]]) form a convex set ([[vid|https://www.youtube.com/watch?v=8YwP3Hr1cXg#t=15m]])
+
+Also [[Level set]]s of convex functions [[are convex|https://www.youtube.com/watch?v=8YwP3Hr1cXg#t=5m15s]]
 
 __Operations that preserve convexity__
 

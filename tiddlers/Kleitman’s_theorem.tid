@@ -1,0 +1,19 @@
+created: 20171117001700582
+creator: cosmos
+modified: 20171117002012776
+modifier: cosmos
+tags: Combinatorics
+title: Kleitman’s theorem
+tmap.id: dc41f496-1188-4f50-81c6-e95bca2fb1ab
+type: text/vnd.tiddlywiki
+
+//aka “Harris’ Lemma” or “Harris-Kleitman
+Lemma”//
+
+Let $$\mathcal{A},\mathcal{B} \subseteq \mathcal{P}(n)$$ be //downsets//. Then
+
+$$|A \cap B| \geq \frac{|A||B|}{2^n}$$
+
+A family of sets $$\mathcal{A} \subseteq \mathcal{P}(n)$$ is called a downset if $$A \in \mathcal{A}$$ and $$A \supset B$$ implies $$B \in \mathcal{A}$$. //Upset//s are defined similarly.
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/34133#page=29]] for proof.

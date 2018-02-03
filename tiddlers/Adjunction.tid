@@ -1,6 +1,6 @@
 created: 20171111010405304
 creator: cosmos
-modified: 20171111114819744
+modified: 20171116220022348
 modifier: cosmos
 tags: [[Category theory]]
 title: Adjunction
@@ -20,3 +20,5 @@ https://ncatlab.org/nlab/show/adjunction
 !!!__Examples__
 
 [[Free functors are left ajdoints to forgetful functors|https://www.youtube.com/watch?v=2i_PpYsl8b8&index=3&list=PL54B49729E5102248#t=1m]]
+
+[[Every adjunction gives rise to a monad|https://www.youtube.com/watch?v=2i_PpYsl8b8&index=3&list=PL54B49729E5102248#t=3m]] ([[Monad]]) [[and every monad gives an adjunction|https://www.youtube.com/watch?v=xqLgGB7Hv7g&list=PL54B49729E5102248&index=5]]

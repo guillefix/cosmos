@@ -1,6 +1,6 @@
 created: 20170624121126419
 creator: cosmos
-modified: 20170624121300337
+modified: 20180115232427826
 modifier: cosmos
 tags: [[Unitary normal vector field]]
 title: Gauss map
@@ -12,3 +12,5 @@ type: text/vnd.tiddlywiki
 The map from a [[Surface]] to its [[Unitary normal vector field]], when expressed as points on a [[Sphere]]
 
 [[Differential of Gauss map|https://www.youtube.com/watch?v=VELPA0I5MGg#t=49m]]
+
+More generally, For a K dimensional manifold M embedded in R N , the Gauss map (Fig. 4B) maps a point  2 M to its K dimensional tangent plane TM 2 GK;N, where GK;N is the Grassmannian manifold of all K dimensional subspaces in R N

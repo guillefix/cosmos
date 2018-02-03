@@ -1,6 +1,6 @@
 created: 20170820204947162
 creator: cosmos
-modified: 20170820205859427
+modified: 20171127130040012
 modifier: cosmos
 tags: [[Complex analysis]]
 title: Moebius transformation
@@ -17,4 +17,4 @@ They are invertible in the upper half-plane.
 
 The inverse is $$w \rightarrow \frac{dw-b}{-cw+a}$$, another Moebius transformation, which can be get as a 2x2 inverse matrix
 
-[[They are|https://www.youtube.com/watch?v=bv3gwMdYlNo&t=150#t=7m0s]] [[Isometry]]es of the upper half-plane model of [[Hyperbolic geometry]]
+[[They are|https://www.youtube.com/watch?v=bv3gwMdYlNo&t=150#t=7m0s]] [[Isometry]]es of the upper half-plane model of [[Hyperbolic geometry]] (see [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=77]] for another proof)

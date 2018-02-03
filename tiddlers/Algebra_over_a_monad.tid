@@ -1,0 +1,16 @@
+created: 20171111173340449
+creator: cosmos
+modified: 20171116220833085
+modifier: cosmos
+tags: Monad
+title: Algebra over a monad
+tmap.id: 31899b4d-ed5c-4fc2-ad19-dfd2a2174b8f
+type: text/vnd.tiddlywiki
+
+An ''algebra over a [[Monad]]'' is an object of the category over which the monad is defined $$A$$ equipped with a morphism $$\theta: TA \to A$$
+
+See [[here|https://www.youtube.com/watch?v=eBQnysX7oLI&list=PL0E91279846EC843E&index=3]]
+
+[[Algebras over a monad form a category|https://www.youtube.com/watch?v=Cm-O_ZWEIGY&list=PL0E91279846EC843E&index=5]] called the [[Elienberg-Moore category|https://ncatlab.org/nlab/show/Eilenberg-Moore+category]]
+
+[[A category D is called monadic over a category C if D can be expressed as a category of algebra of a monad over category C|https://www.youtube.com/watch?v=Cm-O_ZWEIGY&list=PL0E91279846EC843E&index=5#t=8m]]

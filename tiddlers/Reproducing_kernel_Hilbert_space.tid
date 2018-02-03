@@ -1,0 +1,46 @@
+created: 20171129120946988
+creator: cosmos
+modified: 20171129200356998
+modifier: cosmos
+tags: [[Hilbert space]] [[Function space]]
+title: Reproducing kernel Hilbert space
+tmap.id: 75efb19c-bda0-4729-adec-e3445b36275d
+type: text/vnd.tiddlywiki
+
+//aka RKHS//
+
+[[Video|https://www.youtube.com/watch?v=9-oxo_k69qs]] -- [[Video2|https://www.youtube.com/watch?v=e1ittn0B2iQ]] -- [[video3|https://www.youtube.com/watch?v=bBRX3OqNC9c]]
+
+[[Definition|https://www.youtube.com/watch?v=9-oxo_k69qs#t=51m50s]] A Hilbert space with a condition: [[Evaluation functional is continuous|https://www.youtube.com/watch?v=9-oxo_k69qs#t=53m]] for being a reproducing kernel Hilbert space (he missplaced the x, and missed the for all f. See [[here|https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space]] for right definition. Written correctly in [[next lecture|https://www.youtube.com/watch?v=e1ittn0B2iQ]]).
+
+[[Properties of RKHS and connections|https://youtu.be/e1ittn0B2iQ?t=47m7s]]
+
+__[[Reproducing kernel]] perspective__
+
+It turns out that it is equivalent to having a [[Reproducing kernel]] ([[this is why it's called reproducing kernel|https://youtu.be/9-oxo_k69qs?t=1h14s]]). see [[Theorem|https://youtu.be/9-oxo_k69qs?t=1h14s]]
+
+Examples: space of functions in [[Dictionary learning]]
+
+[[Band-limited function]]s, and some relaxations of it where kernel is gaussian or exponential.. [[These generalizations are just RKHS with translational invariance kernels|https://www.youtube.com/watch?v=e1ittn0B2iQ#t=37m30s]], very common in signal analysis, etc. These are [[Sobolev space]]s!
+
+[[Spline]]s are also a special case! noice
+
+__[[Feature map]]s perspective__
+
+[[Video|https://youtu.be/bBRX3OqNC9c?t=19m48s]]
+
+In [[Quantum mechanics]], I think the reproducing kernel would be the delta function. Yeah but there one has to work with distributions and harder things.
+
+Indeed these reproducing kernels can be seen as essentially the inner products of a basis of of functions, which are just the kernels, with one argument fixed.
+
+Feature maps are like the features in [[Dictionary learning]], but we can have infinitely many, as many as one per point in the input space!
+
+__Connection with [[Regularization]]__
+
+---> __Nice__. This whole class of RKHS turn out to be basically spaces where we bound a norm different from the L^2, and which basically can be interpreted as [[Regularization]]! (see [[video|https://www.youtube.com/watch?v=e1ittn0B2iQ#t=41m30s]]). The regularization term can be, for instance the norm of the derviative!
+
+Norm of a function in the space is like a measure of "[[Complexity]]" of that function
+
+------------
+
+Applied to [[Kernel method]]s

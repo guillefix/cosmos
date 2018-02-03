@@ -1,6 +1,6 @@
 created: 20161019173818091
 creator: cosmos
-modified: 20170715183911627
+modified: 20171208012607347
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Temporal difference learning
@@ -11,7 +11,9 @@ An approach to [[Reinforcement learning]] (particularly [[Model-free reinforceme
 
 TD learning is a combination of [[Monte Carlo]] ideas and [[Dynamic programming]] (DP) ideas. Like Monte Carlo methods, TD methods can learn directly from raw experience without a model of the environment's dynamics. Like DP, TD methods update estimates based in part on other learned estimates, without waiting for a final outcome (they bootstrap).
 
-Here we discuss the basic [[On-policy learning]]s. See [[Off-policy learning]] for their extensions to off-policy learning
+Here we discuss the basic [[On-policy learning]]s. See [[Off-policy learning]] for their extensions to off-policy learning.
+
+[[Sutton -- TD learning|http://videolectures.net/deeplearning2017_sutton_td_learning/]]
 
 !__TD [[Policy evaluation]]__
 

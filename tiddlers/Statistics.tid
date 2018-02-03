@@ -1,6 +1,6 @@
 created: 20160204135706346
 creator: guillefix
-modified: 20170309161436945
+modified: 20180117164718460
 modifier: cosmos
 tags: [[Data & Knowledge]]
 title: Statistics
@@ -63,3 +63,5 @@ See [[Machine learning]], [[Learning theory]]
 [[Train, validation, test|http://stats.stackexchange.com/questions/19048/what-is-the-difference-between-test-set-and-validation-set]]
 
 [[http://colorfulengineering.org/SCICOMP.html]]
+
+[[Error propagation|http://www.clayton.edu/portals/498/Content/PHYS%202211%20Labs/AveragesAndErrors.pdf]]

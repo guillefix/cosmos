@@ -1,6 +1,6 @@
 created: 20160217192202310
 creator: guillefix
-modified: 20171111120336054
+modified: 20171118220741658
 modifier: cosmos
 tags: [[Mathematical logic]]
 title: Category theory
@@ -8,9 +8,11 @@ tmap.id: 3f3ab7ee-3ec8-48bb-875d-f8f12db20f79
 type: text/vnd.tiddlywiki
 
 The mathematical study of [[categories|Category]], which are basically a collection of objects and [[arrows|Morphism]], and a composition operation, satisfying some basic properties.  
-[[Lecture notes|https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/LNPnotes.pdf]]
+[[Lecture notes|https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/LNPnotes.pdf]] --[[Very nice lecture videos|https://www.youtube.com/playlist?list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_]]
 
 It can be used as a foundation of mathematics, as an alternative to [[Set theory]] and has relations to [[Functional programming]], [[Lambda calculus]], [[Logic]], etc.
+
+[[Functoriality, Naturality, Universality|https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/LNPnotes.pdf#page=40]]
 
 !!__[[Dual]]ity__
 
@@ -18,13 +20,13 @@ It can be used as a foundation of mathematics, as an alternative to [[Set theory
 
 ''Duality principle'': every property/theorem has a corresponding dual property/theorem, by applying the theorem in the opposite category and interpreting it in the original category. In other words, a statement S is true about C if and only if its dual (i.e. the one obtained from S by reversing all the arrows) is true about C op
 
-!!__Properties and theorems__
-
 [[Monic morphism]], [[Epic morphism]], [[Isomorphism]]
 
 [[Initial object]], [[Terminal object]]
 
 ''unique isomorphism property'': There is a unique isomorphism between any pair of initial objects; thus initial objects are ‘unique up to (unique) isomorphism’, and we can (and do) speak of the initial object (if any such exists). By [[Dual]]ity, any terminal object also satisfies this, because isommorphism is self-dual.
+
+''Universal construction'': See [[Category Theory 4.1: Terminal and initial objects|https://www.youtube.com/watch?v=zer1aFgj4aU&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=7#t=10m20s]]
 
 [[Cartesian closed category]]
 
@@ -33,8 +35,6 @@ It can be used as a foundation of mathematics, as an alternative to [[Set theory
 [[Yoneda lemma]]
 
 [[2-category]]
-
-!!__Constructions__
 
 !!!__[[Limit of a diagram]]__
 
@@ -53,6 +53,8 @@ things which are isomorphic in a category tend to be //undistinguishable// that 
 [[Representable functor]] and [[Yoneda embedding]]
 
 !!![[Adjunction]]
+
+!!![[Monad]]
 
 ---------------
 

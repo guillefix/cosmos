@@ -1,6 +1,6 @@
 created: 20160726121357937
 creator: guillefix
-modified: 20161104134331959
+modified: 20171209140706972
 modifier: cosmos
 title: Randomness deficit
 tmap.id: 68681190-a05a-4867-a32d-b52db63c83c0
@@ -15,3 +15,36 @@ A measure of randomness deficit is given by
 $$\frac{P_0(\langle K \rangle_s)}{P_0(\langle K \rangle_0)}$$
 
 where $$P_0$$ is the expected distribution of complexities for the uniformly random set of strings, $$\langle K \rangle_s$$ is the mean complexity of the set, and $$\langle K \rangle_0$$ is the mean complexity for the uniformly random set.
+
+----------------
+
+!!!See "Why the world is simple paper"
+
+I can prove that a for l an integer, there exists an f with $$K(f)=l*n$$, and $$l\ll N_O\ll 2^n$$ (so that function has medium complexity), and which has $$K(y|x)> n-2\log(N_O)$$.
+
+I think one can also have medium complexity maps with less K(y|x). Think of constructing the set of outputs starting from a complex one, and then taking outputs which have low K(y|x) w.r.t. to it... But this doesn't ensure it..
+
+[[Hamming code]]....
+
+Btw, I have been thinking about medium complexity maps. I think, in general, we can't say anything about their conditional complexity. I have thought of a medium comp map, which I think I can prove has conditional complexity arbitrarily close to n. On the other hand, I think I can make medium comp maps with conditional complexity very low as well
+
+To construct an example of the second type which could work with LZ, I'm thinking:
+Imagine an map which takes inputs of size, 20, and produces output of size 50, defined as follows:
+The map has internally, a complex string of size 50, x. It also partitions this string into blocks of size 5
+It takes the input of size 20 and interprets it as a permutation of 10 objects (log_2(10!) \approx 20). Then it outputs the concatenation of the 10 size5 blocks of x, permuted according to the input.
+Guillermo
+Then outputs will all be complex, $$<K(x)>=50$$, but $$<K(y|x)>=20$$
+
+---------------
+
+[[Conditional Kolmogorov complexity]] bounds. For k(f)<2n  cond comp has to be < n use my original bound
+
+Classification of maps
+
+Too many big programs could produce x, to identify f from x effectively.
+If you can prove K(f|x) is small, then this is another way.
+What ive done is try to find a general bound for K(f|x)..
+
+I intuit K(y|x1,x2,...) could be bounded better.. Hmm. 
+
+!!!See emaisl, fb chat with Chico, etc..

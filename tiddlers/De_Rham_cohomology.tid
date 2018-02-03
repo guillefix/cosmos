@@ -1,0 +1,14 @@
+created: 20171113131344741
+creator: cosmos
+modified: 20171113131802998
+modifier: cosmos
+tags: Cohomology
+title: De Rham cohomology
+tmap.id: f31cd9f1-0c3e-4f93-90e1-8df37cb28ef2
+type: text/vnd.tiddlywiki
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=50]]
+
+The ''$$p$$th de Rham cohomology group of a manifold $$M$$'' is the [[Quotient vector space|Quotient group]]:
+
+: $$H^p(M) = \frac{\text{Ker} \: d: \Omega^p(M) \to \Omega^{p+1}(M)}{\text{Im}\:d: \Omega^{p-1}(M) \to \omega^p(M)}$$

@@ -1,6 +1,6 @@
 created: 20160523212100569
 creator: guillefix
-modified: 20161104134332827
+modified: 20171130234241486
 modifier: cosmos
 title: Thermodynamics
 tmap.id: 3b2d012b-f402-4876-9c84-fb58d4cdfbd1
@@ -12,8 +12,14 @@ See [[Statistical physics]] for now
 
 [[Thermodynamic state]]
 
+See [[here|https://www.youtube.com/watch?v=LXcQx6Bu3OQ]] for some intro.
+
+[[Theromodynamic process|https://youtu.be/LXcQx6Bu3OQ?t=10m2s]]
+
 !!__Laws of thermodynamics__
 
 * [[First law of thermodynamics]]
 * [[Second law of thermodynamics]]
 * [[Third law of thermodynamics]]
+
+!!__[[Nonequilibrium thermodynamics]]__

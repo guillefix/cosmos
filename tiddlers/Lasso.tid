@@ -1,13 +1,14 @@
 created: 20161024162904170
 creator: cosmos
-modified: 20161104134329285
+modified: 20180119160748293
 modifier: cosmos
+tags: [[L1 regularization]] [[Kernel method]]
 title: Lasso
 tmap.id: 6ccf48fa-1e2c-4c9f-b06d-1f70ddde5713
 type: text/vnd.tiddlywiki
 
 //aka least absolute shrinkage and selection operator//
 
-Like [[Ridge regression]], but using l1 norm, it gives sparse models. It's a form of [[Feature selection]]
+Like [[Ridge regression]], but using [[l1 norm|L1 regularization]], it gives sparse models. It's a form of [[Feature selection]]
 
 Lasso can be optimized by using [[Sub-gradient descent]]

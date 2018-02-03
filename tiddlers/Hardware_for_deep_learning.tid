@@ -1,12 +1,16 @@
 created: 20160709022127356
 creator: guillefix
-modified: 20170404102533674
+modified: 20171210162345471
 modifier: cosmos
 title: Hardware for deep learning
 tmap.id: 582d6ffb-bced-4f07-a47b-9e371058be60
 type: text/vnd.tiddlywiki
 
 [[GPU computing]]
+
+tensor processing units 
+
+https://www.intelnervana.com/intel-nervana-neural-network-processor-architecture-update/
 
 http://timdettmers.com/2017/03/19/which-gpu-for-deep-learning/
 

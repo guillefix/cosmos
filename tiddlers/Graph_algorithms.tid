@@ -1,6 +1,6 @@
 created: 20170926223402735
 creator: cosmos
-modified: 20171011221409963
+modified: 20180118172131462
 modifier: cosmos
 tags: Algorithms
 title: Graph algorithms
@@ -20,3 +20,5 @@ Use [[Graph (data structure)]]s
 [[Breadth-first search]]
 
 [[Depth-first search]]
+
+[[Min-cut]]

@@ -1,13 +1,15 @@
 created: 20170426172534994
 creator: cosmos
-modified: 20170426173000314
+modified: 20171130202638988
 modifier: cosmos
-tags: 
+tags: [[Kernel method]]
 title: Kernel trick
 tmap.id: 98b54bb6-acbd-4b51-8bbd-2cf81845f822
 type: text/vnd.tiddlywiki
 
+See [[Kernel method]], and [[here|https://youtu.be/Vm5QE54y6mw?t=51m59s]]
 
+The idea of generalizing [[Dictionary learning]] to learning over [[Reproducing kernel Hilbert space]], where function evaluation can be substituted with an inner product.  Operationally, one often just has to substitute inner products between input vectors with a Kernel function evaluated at these input vectors, and one gets a new learning algorithm. This learning algorithm actually can now have an infinite dimensional hypothesis class (refering to dimension of [[Hilbert space]] of functions), while it was finite dimensional for dictionary learning.
 
 See a derivation here: https://arxiv.org/pdf/1611.03530.pdf , and original reference
 

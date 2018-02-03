@@ -1,6 +1,6 @@
 created: 20160920162847134
 creator: cosmos
-modified: 20161104134328411
+modified: 20171130232719804
 modifier: cosmos
 title: First law of thermodynamics
 tmap.id: fafba6eb-af02-45fb-a680-6b9de43d0eea
@@ -9,3 +9,5 @@ type: text/vnd.tiddlywiki
 The [[Energy]] of the [[Universe]] is constant.
 
 //Energy is neither created nor destroyed, it is only transformed//
+
+[[Video|https://youtu.be/LXcQx6Bu3OQ?t=11m19s]]. In a [[Thermodynamic process]], the change in energy of a system is equal to the [[Work]] done on it plus the [[Heat]] it receives. $$\Delta U = W + Q$$

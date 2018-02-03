@@ -1,6 +1,6 @@
 created: 20160516121923549
 creator: guillefix
-modified: 20161104134327203
+modified: 20171204151219557
 modifier: cosmos
 tags: 
 title: C/C++
@@ -26,3 +26,7 @@ See Lynda.com videos.
 http://eigen.tuxfamily.org/index.php?title=Main_Page
 
 Armadillo
+
+!!!cling 
+
+c++ REPL, also for jupyter now

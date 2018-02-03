@@ -1,0 +1,14 @@
+created: 20180118171928848
+creator: cosmos
+modified: 20180118172119461
+modifier: cosmos
+tags: [[Graph algorithms]]
+title: Min-cut
+tmap.id: 53263f37-8de8-403a-80ca-2ca154c4351b
+type: text/vnd.tiddlywiki
+
+There are $$O(n^3)$$ deterministic algorithm, and $$O(n^2 \log^3 n)$$ [[Randomized algorithm]]
+
+See [[here|https://www.cs.ox.ac.uk/people/elias.koutsoupias/pc2017-18/lectures.html#Lecture 2]] it's quite nice
+
+See also [[Max-flow min-cut theorem]]

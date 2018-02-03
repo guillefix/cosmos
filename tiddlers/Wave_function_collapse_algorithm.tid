@@ -1,8 +1,8 @@
 created: 20170822223803744
 creator: cosmos
-modified: 20170823182028215
+modified: 20171126123418309
 modifier: cosmos
-tags: [[Procedural generation]]
+tags: [[Procedural generation]] [[Constraint satisfaction problem]]
 title: Wave function collapse algorithm
 tmap.id: 0bbcae83-3320-4fab-8c18-cfe0202853c6
 type: text/vnd.tiddlywiki
@@ -14,3 +14,5 @@ https://adamsmith.as/papers/wfc_is_constraint_solving_in_the_wild.pdf
 https://www.youtube.com/watch?v=Te2ek89EEUs&feature=youtu.be&t=7810
 
 https://github.com/mxgmn/WaveFunctionCollapse
+
+[[Finding proper colorings on random graph by decimation|https://www.youtube.com/watch?v=Wwj8rO9FLKc&index=9&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu#t=10m35s]]

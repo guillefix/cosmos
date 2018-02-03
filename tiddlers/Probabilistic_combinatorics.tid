@@ -1,0 +1,20 @@
+created: 20180116110712590
+creator: cosmos
+modified: 20180116121738596
+modifier: cosmos
+tags: Combinatorics [[Probability theory]]
+title: Probabilistic combinatorics
+tmap.id: 472f702e-81c6-41ee-9a51-a7fa8fd5f17e
+type: text/vnd.tiddlywiki
+
+[[Lecture notes|https://courses.maths.ox.ac.uk/node/view_material/34859]] ([[course page|https://courses.maths.ox.ac.uk/node/4978]])
+
+this is combinatorics with ran-domness involved. It can mean two things: (a) the use of randomness (e.g., random graphs) to solve deterministic combinatorial problems, or (b) the study of random combinatorial objects for their own sake. Historically, the main focus was initially on (a), but after a while, the same objects (e.g., random graphs) come up again and again, and one realizes that it is not only important, but also interesting, to study these in themselves, as well as their applications. Random graphs have also been intensively studied as mathematical models for disordered networks in the real world. Probabilis-tic combinatorics has also led to new developments in probability theory, and interacts strongly with theoretical computer science. 
+
+[[Method of moments]]
+
+* [[First-moment method]]
+
+The [[Probabilistic method]] is the main idea in probabilistic combinatorics (for the objective (a) above). It involves the following idea, if the probability of event {we get some structure X} under a random process defined on a set of combinatorial structures is greater than $$0$$, then that X structure must exist. So one way of showing the existence of a structure is by proving that the probability of getting it is $$>0$$ for some random process! Very simple but powerful idea! 
+
+Erdos

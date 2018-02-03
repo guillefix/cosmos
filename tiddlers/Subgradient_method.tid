@@ -1,0 +1,13 @@
+created: 20171130205915813
+creator: cosmos
+modified: 20171130211205686
+modifier: cosmos
+title: Subgradient method
+tmap.id: 7cf7d16b-d682-4849-a171-792f6a763b04
+type: text/vnd.tiddlywiki
+
+Extension of [[Gradient descent]] for [[Convex function]]s which may not be [[Differentiable]]. It uses the [[Subderivative]] (and subgradient), instead of derivative/gradient
+
+See here: [[Analogous of gradient descent for convex functions|https://youtu.be/Vm5QE54y6mw?t=1h8m25s]]
+
+[[Subgradient of hinge loss|https://youtu.be/Vm5QE54y6mw?t=1h18m6s]]

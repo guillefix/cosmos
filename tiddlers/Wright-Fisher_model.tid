@@ -1,7 +1,8 @@
 created: 20160407195634148
 creator: guillefix
-modified: 20161104134333167
-modifier: guillefix
+modified: 20171206122622670
+modifier: cosmos
+tags: [[Population genetics]]
 title: Wright-Fisher model
 tmap.id: 4842bc27-8949-4c85-ab44-29204217e7df
 type: application/x-tiddler
@@ -60,3 +61,5 @@ See [[page 326 in here|http://evolution.gs.washington.edu/pgbook/pgbook.pdf]] fo
 ---------
 
 See [[this question|http://math.stackexchange.com/questions/1735065/mean-time-time-until-fixation-in-the-wright-fisher-model]]
+
+https://link.springer.com/chapter/10.1007/978-3-319-52045-2_2

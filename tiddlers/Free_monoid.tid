@@ -1,0 +1,12 @@
+created: 20171111184241109
+creator: cosmos
+modified: 20171111184302455
+modifier: cosmos
+tags: Monoid
+title: Free monoid
+tmap.id: 6202bb4e-f668-4133-bc11-28303c2e8eb6
+type: text/vnd.tiddlywiki
+
+See [[here|https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/handout_8.pdf]]
+
+They can be defined with an [[Universal mapping property]]

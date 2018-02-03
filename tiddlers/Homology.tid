@@ -1,11 +1,13 @@
 created: 20171015200435442
 creator: cosmos
-modified: 20171101110057172
+modified: 20171115123630905
 modifier: cosmos
 tags: [[Algebraic topology]]
 title: Homology
 tmap.id: 730f8341-eaa6-48f9-9dfe-efa337dc7982
 type: text/vnd.tiddlywiki
+
+The theory of [[Homology group]]s of [[Chain complex]]es derived from [[Topological space]]s, often generalizing concepts of cycles and boundaries. These groups are algebraic quantities which are [[Topological invariant]]s. [[Video intro|https://www.youtube.com/watch?v=-4M7qJK2ShQ]]
 
 Basically the fundamental homology group for topological space $$X$$ is $$H_1(X) = \text{1-cycles of }X$$ / $$\text{1-boundaries of } X$$.
 

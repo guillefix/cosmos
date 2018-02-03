@@ -1,6 +1,6 @@
 created: 20171014203752978
 creator: cosmos
-modified: 20171014204127445
+modified: 20171118220717843
 modifier: cosmos
 tags: [[Category theory]]
 title: Initial object
@@ -13,3 +13,5 @@ An object $$i$$ is ''initial'' if for every $$A$$ there is a unique $$i_A: i \to
 
 
 For [[Vector space]]s the zero-vector space is both initial and terminal.
+
+[[Category Theory 4.1: Terminal and initial objects|https://www.youtube.com/watch?v=zer1aFgj4aU&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=7#t=10m20s]]

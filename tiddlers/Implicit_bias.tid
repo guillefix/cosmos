@@ -1,0 +1,21 @@
+created: 20171127134327532
+creator: cosmos
+modified: 20171204234400287
+modifier: cosmos
+tags: [[Deep learning theory]] Regularization
+title: Implicit bias
+tmap.id: 893cfa4f-fab0-44c4-9eb1-64ef08feb5bc
+type: text/vnd.tiddlywiki
+
+
+See [[Deep learning theory]], [[Generalization in deep learning]]
+
+[[THE IMPLICIT BIAS OF GRADIENT DESCENT ON SEPARABLE DATA|https://arxiv.org/pdf/1710.10345.pdf]] --  in deep learning we often benefit from implicit bias even when optimizing the (unregularized) training error to convergence, using stochastic or batch methods. For loss functions with attainable, finite, minimizers, such as the squared loss, we have some understanding of this: In particular, when minimizing an underdetermined least squares problem using gradient descent starting from the origin, we know we will ''converge to the minimum Euclidean norm solution''. But the logistic loss, and its generalization the cross-entropy loss which is often used in deep learning, do not admit a finite minimizer on separable problems. Instead, to drive the loss toward zero and thus minimize it, the predictor must diverge toward infinity.
+
+[[Implicit regularization in deep learning|https://arxiv.org/pdf/1709.01953.pdf]]
+
+----------
+
+But we didn't tell the network to minimize the path norm (complexity). [[So where is the regularization coming from?|https://www.youtube.com/watch?v=ACdjYP0-cMw#t=39m5s]]. He thinks it's the [[Optimization]] algorithm that is biasing us towards simple global optima (work on this for convex opti?), but couldn't it be a [[GP map|Genotype-phenotype map]]-like [[Simplicity bias]]. He approaches it from [[Geometry]]. I think he is right in that the algorithm plays a role in biasing. But GP bias probably does also, or it could at least be seized (as in [[Neuroevolution]] with indirect encodings..)
+
+--------

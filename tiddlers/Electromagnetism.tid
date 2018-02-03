@@ -1,7 +1,7 @@
 created: 20160121195337551
 creator: guillefix
-modified: 20161104134328177
-modifier: guillefix
+modified: 20171212130251881
+modifier: cosmos
 tags: Physics Relativity
 title: Electromagnetism
 tmap.id: e43389cf-d57b-435d-9c63-d8301420f6a9
@@ -12,6 +12,8 @@ type: text/vnd.tiddlywiki
 !!__Magnetostatics__
 
 !!__Electromagnetism__
+
+https://physics874.files.wordpress.com/2016/03/feynman-lectures-em-equation1.pdf
 
 [[Electric motor]]
 

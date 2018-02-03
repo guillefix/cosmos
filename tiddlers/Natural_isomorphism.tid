@@ -1,6 +1,6 @@
 created: 20171111112549107
 creator: cosmos
-modified: 20171111112609957
+modified: 20171111224936065
 modifier: cosmos
 tags: [[Natural transformation]]
 title: Natural isomorphism
@@ -9,4 +9,8 @@ type: text/vnd.tiddlywiki
 
 A [[Natural transformation]] that is an [[Isomorphism]]
 
+ a natural isomorphism is precisely an isomorphism in the [[Functor category]]
+
 [[Meaning of "natural isomorphism in variables" when not specifying functor explicitely|https://www.youtube.com/watch?v=JEJim3t-N9A&list=PL54B49729E5102248&index=2#t=2m15s]]
+
+https://math.stackexchange.com/questions/622589/in-categorical-terms-why-is-there-no-canonical-isomorphism-from-a-finite-dimens

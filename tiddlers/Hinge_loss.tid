@@ -1,12 +1,13 @@
 created: 20161001170354365
 creator: cosmos
-modified: 20161108094751863
+modified: 20171129114651821
 modifier: cosmos
+tags: [[Loss function]] Classification
 title: Hinge loss
 tmap.id: 77e16209-20e5-4f1e-bb73-51bcce6bf5eb
 type: text/vnd.tiddlywiki
 
-https://en.m.wikipedia.org/wiki/Hinge_loss
+https://en.m.wikipedia.org/wiki/Hinge_loss [[Video|https://www.youtube.com/watch?v=SFxypsvhhMQ&feature=youtu.be&t=1h19s]]
 
 A [[Loss function]] that appears in [[Max-margin learning]] classifiers, such as soft [[Support vector machine]]s. It has the form:
 

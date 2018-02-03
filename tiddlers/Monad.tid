@@ -1,0 +1,37 @@
+created: 20171111173123777
+creator: cosmos
+modified: 20171118210650415
+modifier: cosmos
+tags: [[Category theory]]
+title: Monad
+tmap.id: b8083cf6-802c-4ecf-a801-6706289bd340
+type: text/vnd.tiddlywiki
+
+//Informally, it is a general way of describing algebraic structures.//
+
+A ''monad'' is a [[Category]] $$\mathcal{C}$$, together with a [[Functor]] $$T: \mathcal{C} \to \mathcal{C}$$ from that category to itself, equipped with two [[Natural transformation]]s $$ \eta: 1_\mathcal{C} \Rightarrow T$$ and $$\mu: T^2 \Rightarrow T$$ satsifying ''unit'' and ''associativity'' axioms.
+
+An important construction is an [[Algebra over a monad]]
+
+See [[here|https://www.youtube.com/watch?v=9fohXBj2UEI&list=PL0E91279846EC843E&index=1]]
+
+__Examples__
+
+* [[Monad for monoids]] where $$T$$ maps sets to their [[Kleene star]], and its [[algebra|Algebra over a monad]] is a [[Monoid]]
+
+* [[Monad for small categories]]
+
+!!!__[[Free functor]]__
+
+!!!__[[Distributive law]]s__
+
+https://www.youtube.com/watch?v=mw4IhOLhDwY
+
+[[The 2-category of monads inside any 2-category|https://www.youtube.com/watch?v=g-SCYArh5RY&list=PL0E91279846EC843E&index=6]], with a [[Monad functor]]
+
+[[Every adjunction gives rise to a monad|https://www.youtube.com/watch?v=2i_PpYsl8b8&index=3&list=PL54B49729E5102248#t=3m]] ([[Adjunction]]) [[and every monad gives an adjunction|https://www.youtube.com/watch?v=xqLgGB7Hv7g&list=PL54B49729E5102248&index=5]] between the underlying set of the monad, and the category of [[algebras over that monad|Algebra over a monad]]. Also every monad gives an adjunction to the [[Kleisli category]].
+
+------------
+
+[[video that explains|https://www.youtube.com/watch?v=i9CU4CuHADQ&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=6]] [[Kleisli category]]
+. [[Next vid|https://www.youtube.com/watch?v=zer1aFgj4aU&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=7]] (good intro to understand monads too)

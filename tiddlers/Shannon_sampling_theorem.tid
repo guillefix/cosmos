@@ -1,0 +1,18 @@
+created: 20171213170943910
+creator: cosmos
+modified: 20171213172507184
+modifier: cosmos
+tags: Sampling
+title: Shannon sampling theorem
+tmap.id: 8127fca9-8718-4694-ab7e-39bdbf0a8c13
+type: text/vnd.tiddlywiki
+
+[[Video|https://youtu.be/Uefd59s5R90?t=8m59s]]
+
+A theorem that says that [[Band-limited function]]s only need to be sampled on a discrete set of points (finite if the function has bounded support) to be reconstructed //exactly//! This is because the space of band-limited functions is spanned by the set of $$sinc$$ functions translated by discrete amounts (the amount depending on the max freq of the band-limited funs, as [[here|https://youtu.be/Uefd59s5R90?t=24m27s]]).
+
+[[Interpretation and example|https://www.youtube.com/watch?v=Uefd59s5R90&list=PLMn2aW3wpAtOqo0g0OnHndXB1LnYBeMaX&index=19#t=20m]]
+
+[[The basis of analog to digital conversion|https://youtu.be/Uefd59s5R90?t=25m7s]]
+
+This also is related to the [[Discrete Fourier transform]]

@@ -1,0 +1,20 @@
+created: 20171116220721373
+creator: cosmos
+modified: 20171118210024587
+modifier: cosmos
+tags: Monad
+title: Kleisli category
+tmap.id: f74f7b4d-f5a0-4dd5-818c-1ff44fbaf179
+type: text/vnd.tiddlywiki
+
+[[video|https://www.youtube.com/watch?v=Ht1mQ97Zq2k&list=PL54B49729E5102248&index=6]] --[[another video|https://www.youtube.com/watch?v=i9CU4CuHADQ&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=6]]: [[problem intro|https://www.youtube.com/watch?v=i9CU4CuHADQ&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=6#t=9m]] -- [[Next vid|https://www.youtube.com/watch?v=zer1aFgj4aU&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=7]]
+
+The ''Kleisli category'' of a [[Monad]] $$T$$ on $$\mathcal{C}$$, denoted $$Kl T$$ or $$\mathcal{C}_T$$, is the category:
+
+* Objects are the objects of $$\mathcal{C}$$
+
+* Morphisms are $$\mathcal{C}_T(A,B) := \mathcal{C}(A,TB)$$
+
+* [[Composition|https://www.youtube.com/watch?v=Ht1mQ97Zq2k&list=PL54B49729E5102248&index=6#t=2m]].
+
+* [[Identity|https://www.youtube.com/watch?v=Ht1mQ97Zq2k&list=PL54B49729E5102248&index=6#t=3m10s]]

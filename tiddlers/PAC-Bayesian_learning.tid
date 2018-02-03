@@ -1,6 +1,6 @@
 created: 20170510213348476
 creator: cosmos
-modified: 20170623121209963
+modified: 20171220021111862
 modifier: cosmos
 tags: [[Learning theory]]
 title: PAC-Bayesian learning
@@ -25,3 +25,5 @@ This seems to be very related to [[Structural risk minimization]]
 [[PAC-Bayesian Theory|https://link.springer.com/chapter/10.1007/978-3-642-41136-6_10]]
 
 [[video lecture on PAC-Bayesian learning|https://www.youtube.com/watch?v=OkftNAp1_Fg]]
+
+Nonvacuous bounds for stochastic DNNs paper: https://arxiv.org/pdf/1703.11008.pdf

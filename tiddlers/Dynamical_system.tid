@@ -1,7 +1,7 @@
 created: 20160329132546762
 creator: guillefix
 list-after: Topology
-modified: 20161206173819700
+modified: 20180203014223328
 modifier: cosmos
 tags: Mathematics
 title: Dynamical system
@@ -35,6 +35,8 @@ A dynamical system, whether continuous or discrete, can be partitioned (''coarse
 Dynamical systems generally describe deterministic processes. Probabilistic processes are described as [[Stochastic processes]]. However, these can sometimes be described as deterministic dynamics of probability distributions, or as a probability measure over a deterministic process (i.e. a [[Probabilistic dynamical system]]).
 
 --------------------------
+
+Dynamical system software: https://dsweb.siam.org/Software
 
 [[See Wiki page for good intro and different kinds|https://en.wikipedia.org/wiki/Dynamical_system_(definition)#Geometrical_cases]]
 

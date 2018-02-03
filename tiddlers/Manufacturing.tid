@@ -1,6 +1,6 @@
 created: 20160128171952770
 creator: guillefix
-modified: 20161104134329522
+modified: 20171124153835139
 modifier: cosmos
 tags: Engineering
 title: Manufacturing
@@ -12,3 +12,17 @@ Production of goods, by processing of [[raw materials|Raw material extraction]].
 When manufacturing is done in the context of an [[economy|Economics]], it's called [[Industry]].
 
 [img[https://upload.wikimedia.org/wikipedia/commons/7/7b/Robocrane_Project.jpg]]
+
+!!__[[Substractive manufacturing]]__
+
+[[Sculpture]]
+
+[[Etching]] -- for [[Integrated circuit]]s for instance
+
+!!__[[Additive manufacturing]]__
+
+Brick building
+
+[[3D printing]]
+
+[[Self-assembly]]

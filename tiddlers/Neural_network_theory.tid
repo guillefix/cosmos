@@ -1,6 +1,6 @@
 created: 20160913110136500
 creator: cosmos
-modified: 20170525213555382
+modified: 20171128215515260
 modifier: cosmos
 tags: [[Artificial neural network]]
 title: Neural network theory
@@ -30,7 +30,15 @@ See talk at ICLR2017 by [[Riccardo Zecchina|http://staff.polito.it/riccardo.zecc
 
 [[Subdominant Dense Clusters Allow for Simple Learning and High Computational Performance in Neural Networks with Discrete Synapses|https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.115.128101]]
 
+Computational efficiency and optimization: [[Unreasonable effectiveness of learning neural nets: Accessible states and robust ensembles|https://pdfs.semanticscholar.org/a13e/ab6052cc9f85054d70d3ba395b0d77652172.pdf]]
+
+!!__Generalization__
+
 [[Theory of Deep Learning III: Generalization Properties of SGD|https://dspace.mit.edu/handle/1721.1/107841]]
+
+See [[Generalization]], [[Generalization in deep learning]], [[Statistical physics and inference]]
+
+<small>[[Statistical mechanics of learning|https://www.youtube.com/watch?v=hfBHELbk2Yw]] </small>
 
 -----------------
 

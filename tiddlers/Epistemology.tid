@@ -1,6 +1,6 @@
 created: 20160516234517836
 creator: guillefix
-modified: 20170910140831287
+modified: 20180101210115124
 modifier: cosmos
 tags: Philosophy
 title: Epistemology
@@ -48,3 +48,30 @@ http://www.theopensociety.net/2013/10/the-thousand-fold-experience-of-induction/
 See [[Philosophy of science]]
 
 [[Argument]]. The myth of the closed mind
+
+---------------------
+
+This is an example of the kind of puzzles one encounters in learning theory (expressed in terms of people, instead of functions). One ends up confronting fundamental philosophical things always..
+
+Imagine we have a very very large number of people. They are all trying to guess the outcome of a random process, like a series of coin tosses. They all guess deterministically. Assume that the vast majority produce a random (though deterministic) sequence. However, a few very clever ones actually work out the physics and are able to predict quite accurately.
+The experiment is run. You are then given a person, and this person happens to have correctly predicted the 100 coin tosses.
+
+Is this person one of the clever ones?
+Well, if you assume you were given the person uniformly at random, you can work out the conditional probability of it being a clever one, given you got one that guessed it right. And most probably you got one of the non-clever ones, as there are so many of them (even if each has a minute probability of guessing the 100 guesses right).
+
+But this assumption, makes the whole situation very unlikely. Getting a person, uniformly at random, makes it extremely unlikely to get a right-guessing one. So perhaps, it's more rational to assume something else. Assume that the person-selecting process is done before/independently of the experiment (coin toss). We can say that the person-selecting process selects uniformly at random from the ones that happened to guess the 100 tosses correctly in this experiment. Or we could say, that the person-selecting process actually just gives us one of the clever ones. Or one at random from the clever ones, and a few of the non-clever but right-guessers ones.
+Can we rationally prefer one of these person-selecting processes over another? Note that each of these will give us a different conclusion for the question "Is this person one of the clever ones?" Well, objectively, we can't.. With uniform prior over person-selecting processes, each of these is as probable. This is because the likelihood of the data given each is 1/2^n for each of them. Note that the data (all that we know) here is the sequence of coin tosses, and the fact that the person we got guessed it right.
+Note that if you consider the data as only {the fact that the person we got guessed it right}, we need to marginalize over coin tosses. Then, the person-selecting process {give me one of the clever ones} is much more likely than the other ones.
+However, the rational Bayesian thing to do is to include all the data that you actually have!
+
+Of course, if we repeat the whole experiment several times, and we get different sequences, we would see if we really are getting clever ones (which will guess right all/most of the time). Although technically, to conclude that we are really only getting clever ones, we should repeat it enough times to get all possible sequences.
+
+This is all basically the idea behind the No-Free-Lunch theorem, that basically says that if you don't assume anything, you can't conclude anything else beyond what you have observed.
+
+You can't say the sun will rise tomorrow, unless you assume space-time homogeneity of the laws of physics, etc.
+
+Every time I go through the learning theory rabbit hole I conclude that the most important thing for AI is finding the right priors.
+
+What are the right priors? It is clear that priors informed by data are better. But why is the prior that the laws of physics will be the same tomorrow be better than its opposite? Well, I guess that fundamental assumptions that the universe is explicable or Occam's razor or something are pretty good. I'll let philosophy go from here...
+
+Btw the reason for all this is that most learning theory literature talks about it as if they are able to get something from nothing, being able to learn functions, with no assumptions. However, this is not true. You need to assume stuff, and they are often not clear about this. Wolpert's work (the guy behind the NFL theorem) is the exception to this...

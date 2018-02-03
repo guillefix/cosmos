@@ -1,6 +1,6 @@
 created: 20171027231817188
 creator: cosmos
-modified: 20171029104046250
+modified: 20171115145801087
 modifier: cosmos
 tags: Homology
 title: Singular homology
@@ -8,11 +8,34 @@ tmap.id: e17f6203-b655-4caf-ac3c-4ac22b349ee3
 type: text/vnd.tiddlywiki
 
 
-See [ext[book|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=117]] for definition, etc.
+[[Definition|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=36m20s]]. For a [[Topological space]] $$X$$, we consider the set of all [[Singular simplex]]es, the corresponding [[Chain group]], the [[Boundary map]]s ([[vid|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=51m10s]]) between them, giving rise to a [[Chain complex]] (called [[Singular chain complex|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=37m55s]]). Then ''singular homology'' is defined as the [[Singular homology group]]s, which are the [[quotient|Quotient group]] of the kernel of the outgoing map by the image of the incoming map (that is the [[Homology group]]s).
 
-We define a [[Singular simplex]], their corresponding [[Chain group]], the [[Boundary map]]s between them, and the [[Singular homology group]] as the [[quotient|Quotient group]] of the kernel of the outgoing map by the image of the incoming map.
+Note that the set of singular simplices (continuous functions from simplex to space) is most often uncountably [[Infinite]], and so the Chain groups are also infinite. However, the quotient groups defining the singular homology turn out to be finite. (see [[here|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=1h11m50s]]).
 
-[[Video|https://www.youtube.com/watch?v=DE9NqVYUKew&list=PL7BFF10190F42006E&index=20]]
+See [ext[book|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=117]] --
+[[video intro|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=15m30s]]
+ -- other [[Video|https://www.youtube.com/watch?v=DE9NqVYUKew&list=PL7BFF10190F42006E&index=20]] 
+
+[[Intuition|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=1h12m50s]]
+
+------------------
+
+!!!__[[Homology is functorial|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=1h15m30s]]__
+
+ If we have a [[Continuous function]] between topological spaces, this gives us a [[Group homomorphism]] between the corresponding homology groups. This will mean that Homology is a [[Topological invariant]], and so can be used to study if two spaces are [[homeomorphic|Homeomorphism]].
+
+[[Formal definition|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=1h16m29s]] of induced [[Chain map]] $$f_\#$$, defined as 
+[[the pushforward of singular simplex|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=1h28m20s]], [[and extending linearly|https://www.youtube.com/watch?v=wyWebCsTVGI&index=7&list=PLLq_gUfXAnkkdRttylq7Svmob1gxDgcDZ#t=8m]], and it is easy to check directly that it commutes with boundary map (by using its definition), so it is indeed a chain map.
+
+This chain map [[induces a map on homology|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=1h20m35s]] (see below also), [[defined by lifting f_* to the homology classes|https://www.youtube.com/watch?v=wyWebCsTVGI&index=7&list=PLLq_gUfXAnkkdRttylq7Svmob1gxDgcDZ#t=10m40s]], and it is called the ''pushforward'' by $$f$$.
+
+[[Functorial]]ity under composition: [[vid|https://www.youtube.com/watch?v=wyWebCsTVGI&index=7&list=PLLq_gUfXAnkkdRttylq7Svmob1gxDgcDZ#t=12m20s]]
+
+!!!__[[Homotopy]] invariance__
+
+[[Video1|https://www.youtube.com/watch?v=HIJ1aoMpRR4&index=21&list=PL7BFF10190F42006E#t=7m]]/[[Video2|https://www.youtube.com/watch?v=A1ljIoXKAzE&list=PL7BFF10190F42006E&index=22]] [[Homotopy equivalent]] spaces have [[isomorphic|Group isomorphism]] [[Homology group]]s. See also [ext[Hatcher|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=119]]. We define a [[Functor]] by finding an induced function $$f_\#$$ between [[Chain group]]s which is a [[Group homomorphism]], which itself induces a function $$f_*$$ between [[Homology group]]s by lifting $$f_\#$$ to the [[Coset]]s defining the homology groups, and showing it's well defined because it maps cycles to cycles and boundaries to boundaries. Finally, there is a theorem that shows that homotopic maps lead to equal $$f_*$$, from which one can conclude (after showing [[Functorial]]ity) that homotopy equivalences induce group isomorphisms between the homology groups.
+
+-------------------
 
 [[Proposition|https://www.youtube.com/watch?v=DE9NqVYUKew&list=PL7BFF10190F42006E&index=20#t=2m]]. If you decompose the space into [[Path-connected]] components, then the homology group of the space is the [[Direct sum]] of the homology groups of the components.
 
@@ -22,6 +45,6 @@ We define a [[Singular simplex]], their corresponding [[Chain group]], the [[Bou
 
 It is often very convenient to have a slightly modified version of homology for which a point has trivial homology groups in all dimensions, including zero. This is e n (X) to be the homology groups done by defining the [[Reduced homology group]]s
 
-!!!__[[Homotopy]] invariance__
+------------------
 
-[[Video1|https://www.youtube.com/watch?v=HIJ1aoMpRR4&index=21&list=PL7BFF10190F42006E#t=7m]]/[[Video2|https://www.youtube.com/watch?v=A1ljIoXKAzE&list=PL7BFF10190F42006E&index=22]] [[Homotopy equivalent]] spaces have [[isomorphic|Group isomorphism]] [[Homology group]]s. See also [ext[Hatcher|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=119]]. We define a [[Functor]] by finding an induced function $$f_\#$$ between [[Chain group]]s which is a [[Group homomorphism]], which itself induces a function $$f_*$$ between [[Homology group]]s by lifting $$f_\#$$ to the [[Coset]]s defining the homology groups, and showing it's well defined because it maps cycles to cycles and boundaries to boundaries. Finally, there is a theorem that shows that homotopic maps lead to equal $$f_*$$, from which one can conclude (after showing [[Functorial]]ity) that homotopy equivalences induce group isomorphisms between the homology groups.
+[[Cohomology can be computed using differential forms!|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=1h30m]].

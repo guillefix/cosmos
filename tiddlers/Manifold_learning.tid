@@ -1,6 +1,6 @@
 created: 20170825095913465
 creator: cosmos
-modified: 20170831224215818
+modified: 20171129113226823
 modifier: cosmos
 tags: [[Dimensionality reduction]]
 title: Manifold learning
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 //aka nonlinear dimensionality reduction//
 
 nonlinear dimensionality reduction consist of two steps: first, they start with con - structing a representation of local affinity of the data points (typically, a sparsely connected graph). Second, the data points are embedded into a low-dimensional space, trying to preserve some criterion of the original affinity. For example, spectral embeddings tend to map points with many connec- tions between them to nearby locations, and multidimension- al scaling (MDS)-type methods try to preserve global information, such as graph geodesic distances. Examples of manifold learning include different flavors of MDS [26] , locally linear embedding [27] , sto- chastic neighbor embedding [28 ], spectral embeddings, such as Laplacian eigenmaps [29] and diffusion maps [30] , and deep models [31] . Instead of embedding the vertices, the graph structure can be pro - cessed by decomposing it into small subgraphs called motifs [36] or graphlets [37]. Finally, most recent approaches [32]– [34] tried to apply the successful word-embedding model [35] to graphs.
+
+[[Input distribution lies in a manifold when there is structure/correlations in high dimensional space|https://www.youtube.com/watch?v=SFxypsvhhMQ#=44m]] -- like [[Sloppy model]]s
 
 https://en.wikipedia.org/wiki/Nonlinear_dimensionality_reduction#Laplacian_eigenmaps
 

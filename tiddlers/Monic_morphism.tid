@@ -1,6 +1,6 @@
 created: 20171012175648096
 creator: cosmos
-modified: 20171020152649287
+modified: 20171118183155591
 modifier: cosmos
 tags: [[Category theory]]
 title: Monic morphism
@@ -16,3 +16,5 @@ In the case of functions, this is equivalent to it being [[injective|Injective f
 It is the [[dual|Opposite category]] to [[Epic morphism]]
 
 Monics which are [[Equalizer (category theory)]] are called ''regular monics''
+
+[[Video|https://www.youtube.com/watch?v=NcT7CGPICzo&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=4]]

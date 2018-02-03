@@ -1,8 +1,8 @@
 created: 20160915182124591
 creator: cosmos
-modified: 20161104134332625
+modified: 20171128215728234
 modifier: cosmos
-tags: [[Artificial neural network]]
+tags: [[Artificial neural network]] [[Statistical physics and inference]]
 title: Statistical mechanics of neural networks
 tmap.id: 7ec059ec-3460-4def-99a5-4a337533c757
 type: text/vnd.tiddlywiki
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 See also [[Neural network theory]] (mostly about [[Artificial neural network]] [[Learning theory]]), [[Deep learning theory]], [[Hopfield network]], [[Spin glass]]
 
 [[Thouless-Anderson-Palmer equations for neural networks|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.61.1839]]
+
+[ext[Nonequilibrium analysis of simple neural nets|http://pcteserver.mi.infn.it/~caraccio/Lauree/Amelio.pdf]]
 
 !!__Neural networks and [[Spin glass]]es__
 
@@ -31,6 +33,8 @@ randomly composed patterns resembles a spin glass.
 [[Temperature based RBM]]s
 
 [[Statistical Mechanics of Neural Networks near Saturation |http://sci-hub.cc/10.1016/0003-4916(87)90092-3]]
+
+[[Statistical mechanics of learning|https://www.youtube.com/watch?v=hfBHELbk2Yw]] 
 
 ----------------
 

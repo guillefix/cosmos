@@ -1,0 +1,12 @@
+created: 20171130191606772
+creator: cosmos
+modified: 20171130191654365
+modifier: cosmos
+tags: [[Convex function]]
+title: Strongly convex
+tmap.id: 7b902501-61cc-4136-a351-011d48b80b32
+type: text/vnd.tiddlywiki
+
+A [[Convex function]] where we substitute the $$\leq$$ with $$<$$.
+
+If there a function has a minimum, and is strongly convex, then the minimum is unique

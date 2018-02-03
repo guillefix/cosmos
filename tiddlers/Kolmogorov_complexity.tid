@@ -1,6 +1,6 @@
 created: 20160629171233090
 creator: guillefix
-modified: 20171002173704348
+modified: 20171128224746761
 modifier: cosmos
 tags: Complexity
 title: Kolmogorov complexity
@@ -9,7 +9,9 @@ type: text/vnd.tiddlywiki
 
 ,,//aka algorithmic complexity, although that term may refer to some generalizations of Kolmogorov complexity too, I think//,,
 
-One of the main kinds of [[Descriptional complexity]], based on the minimum size of a program (interpreted by a [[Turing machine]]) that produces (//describes//) the object.
+One of the main kinds of [[Descriptional complexity]], based on the minimum size of a program (interpreted by a [[Turing machine]]) that produces (//describes//) the object. The Kolmogorov complexity of an object is the minimal number of bits required to effectively describe the object.
+
+Algorithmic information theory is an alternative formalization for the notion of information to that of standard Shannon information theory. It defines information as the size of a compressed representation of an object. In principle, a compressed representation depends on the function one uses to decode the representation. However, it turns out that if one uses a universal Turing machine (UTM) as a decoder, where representations correspond to input programs which produces the object of interest, then these representations are additively optimal. This means that if we take the shortest such program for the UTM, any other computable decoder function can only improve the compression by at most an additive constant which is independent of the program [8]. The size of such shortest program is called the Kolmogorov complexity of the object, and represents how much information it is needed to describe the object.
 
 Kolmogorov complexity is central in [[Algorithmic information theory]]. __See more in that page__
 

@@ -1,7 +1,8 @@
 created: 20160426170942691
 creator: guillefix
-modified: 20170517101529962
+modified: 20171203211120986
 modifier: cosmos
+tags: Statistics
 title: Sloppy model
 tmap.id: 1916d0b4-1a65-4e6d-b658-ec4e15548620
 type: text/vnd.tiddlywiki
@@ -11,6 +12,9 @@ type: text/vnd.tiddlywiki
 the [[Fisher information matrix]] (FIM) can be used to estimate the uncer- tainty in each parameter in our model.
 
 [[Sloppiness and Parameter Identifiability, Information Geometry by Mark Transtrum|https://www.youtube.com/watch?v=BWpkM5eJJEU&index=13&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu]]
+
+[[Input distribution lies in a manifold when there is structure/correlations in high dimensional space|https://www.youtube.com/watch?v=SFxypsvhhMQ#=44m]]
+
 
 ----------------
 
@@ -32,3 +36,5 @@ We describe the possible system behaviors as points in a 'behavior' space, and w
 [[Sloppy-model universality class and the Vandermonde matrix|http://www.lassp.cornell.edu/sethna/pubPDF/Vandermonde.pdf]]
 
 !!!<mark>[[James Sethna: Sloppy models and how science works (video)|https://www.youtube.com/watch?v=MEmrcYBVSJA]]</mark>
+
+[[Model reduction by manifold boundaries|https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.098701]]

@@ -1,6 +1,6 @@
 created: 20171110111013456
 creator: cosmos
-modified: 20171111112547024
+modified: 20171111141051883
 modifier: cosmos
 tags: [[Category theory]]
 title: Natural transformation
@@ -22,3 +22,5 @@ If each $$t_A$$ is an [[Isomorphism]], we say that $$t$$ is a [[Natural isomorph
 [[Meaning of "natural transformation/isomorphism in variables" when not specifying functor explicitely|https://www.youtube.com/watch?v=JEJim3t-N9A&list=PL54B49729E5102248&index=2#t=2m15s]]
 
 [[Notes|https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/handout_7.pdf]]
+
+[[Vertical and horizontal composition of natural transformations|https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/LNPnotes.pdf#page=39]]

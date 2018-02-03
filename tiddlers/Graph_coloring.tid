@@ -1,6 +1,6 @@
 created: 20170309120533836
 creator: cosmos
-modified: 20170503123846640
+modified: 20180118172603532
 modifier: cosmos
 tags: [[Graph theory]] [[Constraint satisfaction problem]]
 title: Graph coloring
@@ -12,3 +12,5 @@ type: text/vnd.tiddlywiki
 !!![[Connection between random graph colorability phase transition and computational complexity|https://www.youtube.com/watch?v=nfB4Ucccws0&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu&index=7#t=39m]]!
 
 [[Planted coloring and stochastic block model|https://www.youtube.com/watch?v=Wwj8rO9FLKc&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu&index=9]], [[Stochastic block model]]
+
+Connections between [[Chromatic number]], and a number called graph independence, I think (see pic from lecture).

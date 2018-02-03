@@ -1,6 +1,6 @@
 created: 20160628134549643
 creator: guillefix
-modified: 20171014201052946
+modified: 20171118202218019
 modifier: cosmos
 tags: Semigroup Category
 title: Monoid
@@ -9,6 +9,10 @@ type: text/vnd.tiddlywiki
 
 In abstract algebra, a branch of mathematics, a monoid is an algebraic structure with a single associative binary operation and an identity element. They are a [[Semigroup]] with identity.
 
-They are also a one-object [[Category]], with arrows corresponding to elements in the monoid, and composition corresponding to monoid multiplication
+They are also a one-object [[Category]], with arrows corresponding to elements in the monoid, and composition corresponding to monoid multiplication. [[Video|https://www.youtube.com/watch?v=aZjhqkD6k6w&index=5&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_#t=32m50s]]
 
-There is also the category of all monoids, with arrows corresponding to [[Monoid homomorphism]] (defined in the natural way)
+There is also the category of all monoids, with arrows corresponding to [[Monoid homomorphism]] (defined in the natural way).
+
+It can also be constructed as an [[Algebra over a monad]]
+
+!!![[Free monoid]]

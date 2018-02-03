@@ -1,6 +1,6 @@
 created: 20160709025157181
 creator: guillefix
-modified: 20171007215215021
+modified: 20180107154416831
 modifier: cosmos
 tags: [[Digital art]]
 title: Deep art
@@ -8,6 +8,8 @@ tmap.id: 74aed97c-fa0c-4b43-93a3-165f0874dae6
 type: text/vnd.tiddlywiki
 
 [[Digital art]] based on [[Deep learning]]
+
+https://nips2017creativity.github.io/
 
 Machine-learning extrapolation of art: http://extrapolated-art.com/
 
@@ -18,6 +20,8 @@ https://deepart.io/
 Neural doodle
 
 Colorize B&W pictures: http://demos.algorithmia.com/colorize-photos/
+
+Make photo from segmentation: http://prostheticknowledge.tumblr.com/post/169038480796/uncanny-rd-project-by-anastasis-germanidis-and
 
 !!!__[[Neural Style]]: A Neural Algorithm of Artistic Style__
 

@@ -1,0 +1,14 @@
+created: 20171127122655665
+creator: cosmos
+modified: 20171127123334021
+modifier: cosmos
+tags: [[Exterior form]]
+title: Bundle of k-forms
+tmap.id: c89eefd7-d04b-42c1-8cd2-a5f94eccc9c0
+type: text/vnd.tiddlywiki
+
+The [[Vector bundle]] formed as an [[exterior power|Wedge product]] of the [[Cotangent bundle]] over [[manifold|Differentiable manifold]] $$X$$. This is defined to be the [[Vector bundle]] formed by the union of {the exterior power of the [[Cotangent space]] at $$x$$} over all $$x \in X$$.
+
+$$\wedge^k T^* X$$
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=38]]

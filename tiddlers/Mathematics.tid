@@ -1,6 +1,6 @@
 created: 20160117160303798
 creator: guillefix
-modified: 20170627163921785
+modified: 20171130214700928
 modifier: cosmos
 tags: TableOfContents
 title: Mathematics
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 Mathematics is the study of ''structures'' themselves. These are necessary in [[Science]] and in [[Art]], as both require the invention of structures to either explain (and thus //understand//) the world, or for any other purpose (in the case of Art).
 
 Mathematics, however, doesn't concern itself with the purposes or details of particular structures; rather, it commits itself with the abstract properties common among many structures. 
+
+Math is just what happens when one decides to think logically. It is the study of the logical consequences of arbitrary axioms.
 
 It is both the Art and Science of the ''structure of structures''. It studies many structures in the world, and creates an abstract structure to understand them. In this sense it is a Science. It also creates new unobserved abstract structures, often, generalizing observed ones. In this sense it is an Art.
 
@@ -136,3 +138,7 @@ https://www.risc.jku.at/research/theorema/software/
 https://mir.fi.muni.cz/webmias-ntcir-12-100/ps
 
 [ext[http://www.cs.kun.nl/~freek/]]
+
+Solve common equations: https://www.fxsolver.com/
+
+http://mathstud.io/

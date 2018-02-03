@@ -1,0 +1,68 @@
+created: 20180112174718129
+creator: cosmos
+modified: 20180112192031376
+modifier: cosmos
+tags: [[Neutral theory of evolution]] [[Genotype-phenotype map]]
+title: Neutral network
+tmap.id: e36a9e74-8f0b-4f5f-a398-b9b5424cf8d3
+type: text/vnd.tiddlywiki
+
+ a ''neutral set'' is a set of
+genotypes with the same phenotype. A neutral set is called
+a ''neutral network'' if all genotypes in it can be connected
+through series of single mutations that do not leave this
+set. 
+
+Relevant in the study of the [[Genotype-phenotype map]] and its effect in [[Evolution]], and other search problems. See also [[Simplicity bias]]
+
+!!__Neutral network size estimator__
+
+//from Chico's thesis//
+
+we adapted Jörg et al’s Neutral Network Size Estimator (NNSE) [111] for Boolean
+threshold networks. The NNSE algorithm falls within a class of Monte Carlo methods used
+in statistical physics to investigate complex energy landscapes for which direct enumeration
+techniques are too inneficient [165, 164]. The NNSE algorithm was originally developed to
+study the RNA map, presented in Chapter 1, but Jörg et al. also note that their approach
+should work “not only for RNA genotypes, but for any genotype space (discrete or contin-
+uous) as long as a distance metric between phenotypes exists.”
+
+The NNSE algorithm follows a nested Monte Carlo approach: given a discrete genotype
+space, and the goal of estimating the number of genotypes that produce a given phenotype
+x, one defines V (r) as the number of genotypes which map to phenotypes x 0 which are within
+a distance d(x, x 0 ) ≤ r of phenotype x. The distance d(x, x 0 ) is defined in phenotype space,
+ranging from d = 0 for identical phenotypes to d = d max for maximally different phenotypes.
+In this way, V (r) can be seen as the “volume” inside a shell in phenotype space, centered
+in x and with radius equal to r. Here we will be using V (r) to refer not only to the volume
+of this shell, but to the shell itself, and to the set of genotypes mapping to phenotypes in
+the shell. These concentric shells of radius r are – hence “nested Monte Carlo”.
+
+The smallest shell is V (0), corresponding to the neutral network that maps to phenotype
+x. Its volume can be expressed as a product of fraction of volumes of the concentric shells. These fractions are computed as follows: we perform a random walk in genotype space,
+starting at a random genotype G 1 in V (r + 1) and adding one mutation to G t at every step
+t. For Boolean networks, this mutation means changing one of the elements in its adjacency
+matrix w ij , thus producing a new genotype G 0 . If G 0 is still within V (r + 1), G t+1 is set to
+G 0 , otherwise G t+1 is set to G t . If this random walk is long enough, it will sample V (r + 1)
+uniformly. Given that a fraction of V (r + 1) is also in V (r), the ratio
+V (r)
+V (r+1)
+can then be
+estimated from this sample.
+
+[[Neutral network sizes of biological RNA molecules can be computed and are not atypically small|https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-464]]
+
+See wavenotebook for estimation of error of NSS using this method versus plain MonteCarlo estimation. https://www.desmos.com/calculator/1p5vv90hmq
+
+__[[Neutral theory of evolution]]__
+
+Evolutionary innovations arise when mutations that
+explore variants of a functional phenotype strike a molecule
+with a new and useful function. A large neutral network
+can be of advantage in this process, because the
+immediate neighborhood of a large neutral network in
+sequence space contains many more phenotypic variants
+than that of a smaller neutral network. Through neutral
+evolution on large neutral networks, molecules can thus
+get access to many molecular variants. This is why high
+abundance of a phenotype can be argued to be beneficial
+for evolutionary innovation [7]. 

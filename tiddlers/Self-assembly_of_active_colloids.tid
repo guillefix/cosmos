@@ -1,7 +1,8 @@
 created: 20160609220156618
 creator: guillefix
-modified: 20161104134332323
-modifier: guillefix
+modified: 20171124162049691
+modifier: cosmos
+tags: [[Active matter]] Self-assembly
 title: Self-assembly of active colloids
 tmap.id: 4f41b849-4823-4087-bab3-406dcf44da40
 type: text/vnd.tiddlywiki
@@ -57,3 +58,7 @@ The motion of the internal degrees of freedom is again derived using d'Alembert'
 By simplifying the dynamics to the line where the two angles are equal (because both equilibria lie on it), one can obtain a single-variable [[Langevin equation]] and a corresponding [[Fokker-Planck equation]] to study the probability distribution of the system, which can be used to find, for instance, how much time is spent on run vs tumble behaviour. This was measured from the Brownian dynamics simulations. The residence times in the run-and-tumble phases exhibit an exponential dependence on the value of $$\tilde{\mu}_A$$. The measured behaviours are consistent with what we expect from [[Kramers’s first-passage time theory|Kramers rate theory]]
 
 !!!__[[D'Alembert's principle in overdamped dynamics]]__
+
+-----------------
+
+William Poon. Painting with bacteria. Reconfigurable acive manufacuring with light-controlled bacteria

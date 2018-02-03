@@ -1,9 +1,12 @@
 created: 20171028173456589
 creator: cosmos
-modified: 20171028173602934
+modified: 20171115140353253
 modifier: cosmos
+tags: Homology
 title: Homology group
 tmap.id: e346464c-f1a9-48cf-b5a0-4189e4dc999a
 type: text/vnd.tiddlywiki
 
-See [[Simplicial homology]] for definition (which also applies for [[Singular homology]], etc)
+[[Definition|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=11m45s]]. Kernel of outgoing map quotient Image of incoming map, for a [[Chain complex]]
+
+See [[Simplicial homology]] for definition (which also applies for [[Singular homology]], etc). [[Definition of homology group for homology|https://www.youtube.com/watch?v=-4M7qJK2ShQ#t=1h10m12s]]

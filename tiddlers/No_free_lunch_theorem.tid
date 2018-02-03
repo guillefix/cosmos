@@ -1,6 +1,6 @@
 created: 20170104134853688
 creator: cosmos
-modified: 20171002173756120
+modified: 20180101131445569
 modifier: cosmos
 tags: [[Computational learning theory]]
 title: No free lunch theorem
@@ -20,6 +20,25 @@ that works well in one domain may work poorly in another.
 [[The supervised learning no-free-lunch theorems.|https://link.springer.com/chapter/10.1007%2F978-1-4471-0123-9_3]]
 
 [[No free lunch theorems for optimization.|http://ieeexplore.ieee.org/document/585893/]]
+
+----------------
+
+Given data, most probably test error is not indicative of off-given-data error.
+Given real function, most probably test error is indicative.
+
+Cross-validation doesnt work because on-training error doesn't tell you anything about off-training-set error
+
+symmetry between hypothesis class and class of possible real functions.
+
+if realizability assumption is not satisfied then pac theorem doesnt work
+
+(1-e)^m/(H/F +(F-H)/F*(1-e)^m)
+
+for algo that can only produce 1 function.
+
+pac Bayes needs matching P(f)?
+
+draw.io things
 
 -----------------
 

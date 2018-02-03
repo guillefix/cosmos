@@ -1,9 +1,11 @@
 created: 20160713225152615
 creator: guillefix
-modified: 20161104134331800
-modifier: guillefix
+modified: 20171118202241341
+modifier: cosmos
 title: Pre-order
 tmap.id: 8e845f17-bf72-4efb-a262-3af12bae16b6
 type: text/vnd.tiddlywiki
 
 A ''pre-order'' on a [[Set]] $$X$$ is a (binary) [[Relation]] on $$X$$, that is [[reflexive|Reflexivity]] and [[transitive|Transitivity]].
+
+They correspond to [[thin categories|Thin category]]

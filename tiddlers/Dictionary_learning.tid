@@ -1,0 +1,12 @@
+created: 20171129165733783
+creator: cosmos
+modified: 20171129165806142
+modifier: cosmos
+tags: [[Machine learning]]
+title: Dictionary learning
+tmap.id: 49b425c4-6610-4619-bfa2-65411ebe7319
+type: text/vnd.tiddlywiki
+
+[[Video|https://youtu.be/9-oxo_k69qs?t=41m22s]]
+
+Basically [[Linear regression]] over finite set of [[Feature]]s

@@ -1,6 +1,6 @@
 created: 20171012173527779
 creator: cosmos
-modified: 20171012174046876
+modified: 20171118210857470
 modifier: cosmos
 tags: Function [[Category theory]]
 title: Function composition
@@ -14,3 +14,5 @@ $$g \circ f: X \to Z$$
 as $$(g \circ f)(x) = g(f(x))$$
 
 Function composition satisfies [[Associativity]] so that $$h \circ (g \circ f) = (h \circ g) \circ f := h \circ g \circ f$$
+
+More generally, we define the same thing for [[Morphism]]s/Arrows in a [[Category]]

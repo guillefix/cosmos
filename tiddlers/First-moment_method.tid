@@ -1,0 +1,14 @@
+created: 20180116120741848
+creator: cosmos
+modified: 20180116121118480
+modifier: cosmos
+tags: [[Method of moments]]
+title: First-moment method
+tmap.id: d1b81db7-09cd-4f1c-a726-9e49c13fe63e
+type: text/vnd.tiddlywiki
+
+A method in [[Probabilistic combinatorics]], where we use the [[Mean]] of a random variable, often the mean of an [[Indicator function]] (which is just a sum of probabilities of events, as appearing in the very useful [[Union bound]]).
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/34859#page=4]] for examples.
+
+However, one can also use other results from probability theory relating to the first moment.
