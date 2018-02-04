@@ -1,8 +1,8 @@
 created: 20160810174239855
 creator: cosmos
-modified: 20170524165413407
+modified: 20180203162657068
 modifier: cosmos
-tags: [[Local optimization]]
+tags: [[Local optimization]] [[Convex optimization]]
 title: Gradient descent
 tmap.id: b5d1a094-7a95-4550-b130-55a793cacbb3
 type: text/vnd.tiddlywiki
@@ -34,3 +34,7 @@ Gradient step and project on the surface of the constraint area..
 [[Original NIPS paper|https://papers.nips.cc/paper/1248-neural-learning-in-structured-parameter-spaces-natural-riemannian-gradient.pdf]]
 
 [[Natural gradients for deep learning|https://arxiv.org/pdf/1301.3584v7.pdf]]
+
+!!__Convergence__
+
+https://twitter.com/gabrielpeyre/status/959715154937221120
