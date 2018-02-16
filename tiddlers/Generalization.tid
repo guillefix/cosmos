@@ -1,6 +1,6 @@
 created: 20160918174304853
 creator: cosmos
-modified: 20171204235155058
+modified: 20180215104211503
 modifier: cosmos
 tags: [[Learning theory]]
 title: Generalization
@@ -24,6 +24,7 @@ Basically, anything that restricts/controls the capacity. That is, gives an indu
 * [[Statistical physics framework|Statistical physics and inference]]
 
 * [[Algorithmic robustness]] and [[Algorithmic stability]]. [[Continuity of loss functions implies algorithmic stability|https://arxiv.org/pdf/1611.01838.pdf#page=8]]
+** [[Uniform stability|https://pdfs.semanticscholar.org/4b7c/12945532833289ba7449dfc103f7f7993337.pdf]]
 
 * Norm-based bounds (see [[Generalization in deep learning]] for examples).
 
