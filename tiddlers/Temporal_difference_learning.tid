@@ -1,6 +1,6 @@
 created: 20161019173818091
 creator: cosmos
-modified: 20171208012607347
+modified: 20180217133140217
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Temporal difference learning
@@ -13,7 +13,7 @@ TD learning is a combination of [[Monte Carlo]] ideas and [[Dynamic programming]
 
 Here we discuss the basic [[On-policy learning]]s. See [[Off-policy learning]] for their extensions to off-policy learning.
 
-[[Sutton -- TD learning|http://videolectures.net/deeplearning2017_sutton_td_learning/]]
+[[Sutton -- TD learning|http://videolectures.net/deeplearning2017_sutton_td_learning/]] -- [[DeepMind's Richard Sutton - The Long-term of AI & Temporal-Difference Learning|https://www.youtube.com/watch?v=EeMCEQa85tw]]
 
 !__TD [[Policy evaluation]]__
 
