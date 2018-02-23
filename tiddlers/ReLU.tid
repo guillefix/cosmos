@@ -1,0 +1,10 @@
+created: 20180222233053824
+creator: cosmos
+modified: 20180222233057477
+modifier: cosmos
+tags: [[Activation function]]
+title: ReLU
+tmap.id: 849d1bdb-66cc-4ccd-a96f-bb2239633557
+type: text/vnd.tiddlywiki
+
+ReLUs don't really suffer from the vanishing gradient problem (at least not in its standard form), as their gradient is either 0 or 1. See discussion here: https://stats.stackexchange.com/questions/176794/how-does-rectilinear-activation-function-solve-the-vanishing-gradient-problem-in

@@ -1,6 +1,6 @@
 created: 20160124143800337
 creator: guillefix
-modified: 20171008002039229
+modified: 20180222233032575
 modifier: cosmos
 tags: [[Neuronal network]] [[Artificial intelligence]]
 title: Artificial neural network
@@ -27,7 +27,7 @@ Neuron has:
 
 3) ''bias'', that is added to result
 
-4) ''activation function'' takes as argument the result of the above (called pre-activation or input activation)
+4) [[Activation function]] takes as argument the result of the above (called pre-activation or input activation)
 
 5) The result (called ''activation'') may be the input of other neurons in the next ''layer'', in a ''multilayer feedforward neural network''.
 
