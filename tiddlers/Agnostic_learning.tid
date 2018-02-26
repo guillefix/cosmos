@@ -1,6 +1,6 @@
 created: 20170306114139469
 creator: cosmos
-modified: 20170426225928502
+modified: 20180225152743893
 modifier: cosmos
 tags: [[Computational learning theory]]
 title: Agnostic learning
@@ -8,6 +8,8 @@ tmap.id: d10f44c4-8d64-4b95-abe9-c938ed7174fb
 type: text/vnd.tiddlywiki
 
 So far in all the learning frameworks we’ve studied, we’ve made an assumption that there is some “ground truth” target function that we attempt to learn. Our goal has been to identify a hypothesis that is close to this target, with respect to the target distribution. Learning algorithms are given access to the target function in the form of labelled observations, which in some cases may be noisy. In this lecture, we’ll drop the assumption of a ground-truth target completely; it is for this reason that the framework is called agnostic learning. As there is no longer a well-defined notion of target, ''our goal will be to identify a hypothesis that is competitive with respect to the best concept from a particular class''
+
+See Wolpert's "The relationship between PAC, the Statistical Physics Framework, and Bayesian Framework, and the VC Framework" (by VC framework, they essentially refer to what is now called agnostic PAC learning). He points out something, I also realized after thinking about it: "In general, VC results say it is unlikely for empirical error and true error to differ greatly. By themsleves, without information about P(true error), they do not say that it is unlikely that true error is large in those cases where empirical error is small".
 
 !!!-->[[notes|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture09.pdf]]
 

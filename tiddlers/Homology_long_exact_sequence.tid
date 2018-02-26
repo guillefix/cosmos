@@ -1,6 +1,6 @@
 created: 20171029104417997
 creator: cosmos
-modified: 20171101110332035
+modified: 20180225192230670
 modifier: cosmos
 tags: [[Exact sequence]] Homology
 title: Homology long exact sequence
@@ -8,6 +8,9 @@ tmap.id: b78bba15-a6b5-4805-93b7-d6e8da8f4c27
 type: text/vnd.tiddlywiki
 
 //aka long exact sequence, or LES//
+
+[[Long exact sequence relates relative homology to absolute homologies|https://youtu.be/KA9es01P5y4?t=1h21m20s]] ~ if you know two of them you know the third
+
 
 [ext[book|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=125]]
 

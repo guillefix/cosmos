@@ -1,6 +1,6 @@
 created: 20171015200435442
 creator: cosmos
-modified: 20171115123630905
+modified: 20180225191140543
 modifier: cosmos
 tags: [[Algebraic topology]]
 title: Homology
@@ -52,6 +52,10 @@ __[[Homotopy]] invariance__: [[Video1|https://www.youtube.com/watch?v=HIJ1aoMpRR
 Homology defined on [[CW complex]]es
 
 !!__[[Bordism]] and [[Cobordism]]__
+
+-------------
+
+[[Relation between fundamental group and homology|https://www.youtube.com/watch?v=KA9es01P5y4&list=PLLq_gUfXAnkkdRttylq7Svmob1gxDgcDZ&index=8#t=35m25s]] -- [[Proposition|https://www.youtube.com/watch?v=KA9es01P5y4&list=PLLq_gUfXAnkkdRttylq7Svmob1gxDgcDZ&index=8#t=47m]]: there is a [[Group homomorphism]] from the [[Fundamental group]] to the 1st [[Homology group]]. [[More precise relation|https://www.youtube.com/watch?v=KA9es01P5y4&list=PLLq_gUfXAnkkdRttylq7Svmob1gxDgcDZ&index=8#t=1h8m40s]]
 
 ---------------
 

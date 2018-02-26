@@ -1,17 +1,19 @@
 created: 20171028224528148
 creator: cosmos
-modified: 20171101115758676
+modified: 20180225192140448
 modifier: cosmos
 tags: Homology
 title: Relative homology
 tmap.id: 13bfb922-4fde-4ccc-bfbd-805553cd1668
 type: text/vnd.tiddlywiki
 
-See [ext[here|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=124]] for definition of ''relative homology group''. Making precise the idea of ‘homology of X modulo A.’
+See [ext[here|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=124]] for definition of ''relative homology group''. Making precise the idea of ‘homology of X modulo A.’ -- [[video|https://www.youtube.com/watch?v=KA9es01P5y4&list=PLLq_gUfXAnkkdRttylq7Svmob1gxDgcDZ&index=8#t=1h13m40s]]
 
 [[Definition of relative homology|https://www.youtube.com/watch?v=P2DNkoSPzPI&list=PL7BFF10190F42006E&t=369]], denoted $$H_n(X,A)$$ See also [ext[here|https://www.math.cornell.edu/~hatcher/AT/AT.pdf#page=124]]. See [ext[here|http://homepage.divms.uiowa.edu/~jsimon/COURSES/M201Fall05/ClassNotes/LongExactSeqPair_v2.pdf]]. Defined on ''relative chain group''s, for which we need to give the subset $$A$$ a [[Singular complex]] (or other complex) structure, and maybe change $$X$$'s structure to make $$A$$'s complex a subcomplex, and the [[Chain group]] of $$A$$ be a [[Subgroup]] of the chain group of $$X$$, so that we can define their quotient. Note that different complexes on the same space give the same homology, so this arbitrary choice doesn't affect the answer, and relative homology is thus well-defined.
 
 !!!__[[Homology long exact sequence]]__
+
+[[Long exact sequence relates relative homology to absolute homologies|https://youtu.be/KA9es01P5y4?t=1h21m20s]]
 
 Main way to compute relative homologies.
 

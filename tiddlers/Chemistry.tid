@@ -1,7 +1,7 @@
 created: 20160507151341315
 creator: guillefix
 list-before: Biology
-modified: 20171119112624265
+modified: 20180225181248405
 modifier: cosmos
 tags: Science [[Materials science]]
 title: Chemistry
@@ -19,6 +19,8 @@ Chemistry is a branch of physical science that studies the composition, structur
 [[Experimental chemistry]]
 
 [[Dynamic periodic table|http://www.ptable.com/]]
+
+JS library to draw molecules: https://chemaxon.com/products/marvin-js
 
 [[Virtual museum of minerals and molecules|https://virtual-museum.soils.wisc.edu/
 
