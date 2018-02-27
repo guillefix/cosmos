@@ -1,6 +1,6 @@
 created: 20160328182624640
 creator: guillefix
-modified: 20171128224525165
+modified: 20180226134230294
 modifier: cosmos
 tags: [[Machine learning]]
 title: Deep learning
@@ -8,6 +8,8 @@ tmap.id: 6c429899-5ef7-49f2-9b8e-9dd84cd593cb
 type: text/vnd.tiddlywiki
 
 Deep learning [[Machine learning]] in a modular way using ''layers'', like in [[Torch|Torch (Deep learning framework)]]. [[Artificial neural network]]s, with many layers..
+
+http://www.abigailsee.com/2018/02/21/deep-learning-structure-and-innate-priors.html
 
 [[Two+ Minute Papers - How Does Deep Learning Work?|https://www.youtube.com/watch?v=He4t7Zekob0&index=5&list=PLujxSBD-JXglGL3ERdDOhthD3jTlfudC2]]
 -- 

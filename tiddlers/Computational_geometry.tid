@@ -1,6 +1,6 @@
 created: 20170629191430309
 creator: cosmos
-modified: 20170629192252716
+modified: 20180226111310451
 modifier: cosmos
 tags: Geometry [[Computer graphics]]
 title: Computational geometry
@@ -11,3 +11,5 @@ type: text/vnd.tiddlywiki
 [ext[http://www.cc.gatech.edu/~turk/math_gr.html]]
 
 See also [[Discrete geometry]], and [[Discrete exterior calculus]]
+
+http://wykobi.com/tutorial0.html
