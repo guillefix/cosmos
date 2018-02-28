@@ -1,6 +1,6 @@
 created: 20170311201524127
 creator: cosmos
-modified: 20170311210941381
+modified: 20180227224325094
 modifier: cosmos
 tags: [[Game theory]]
 title: Algorithmic game theory
@@ -23,3 +23,7 @@ type: text/vnd.tiddlywiki
 [[Applications|https://www.youtube.com/watch?v=TM_QFmQU_VA#t=34m40s]]
 
 when are other [[behavioural models|Behavioural sciences]] needed? beyond shortsighted selfishness. See [[Game theory]], [[weakened assumptions|https://www.youtube.com/watch?v=TM_QFmQU_VA#t=37m45s]] __In a sense, a weak interpretation of selfishness appears tautological: an agent will do what it thinks it should be best to do.__
+
+!!__[[Auction theory]]__
+
+[[General approach for some problems|https://youtu.be/z1QZqYuiGa8?t=1h5m40s]]

@@ -1,0 +1,20 @@
+created: 20180227194600749
+creator: cosmos
+modified: 20180227194750050
+modifier: cosmos
+tags: Analysis
+title: Approximation theory
+tmap.id: 71b24cfc-bc57-4235-8ba3-a478b43559a5
+type: text/vnd.tiddlywiki
+
+Lectures: https://www.youtube.com/watch?v=sfdXkdOp-Eg
+
+Approximate by polynomials, trigonometric polynomials (Lagrange, Lagerre, etc), [[Spline]]s
+
+[[Fourier analysis]], [[Machine learning]] -- [[Signal processing]] -- [[Sampling theory]]
+
+[[Nyquist-Shannon sampling theorem]]
+
+[[Interpolation]], [[Computer graphics]]
+
+[[Kernel method]]s

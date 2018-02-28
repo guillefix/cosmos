@@ -1,6 +1,6 @@
 created: 20160913070239061
 creator: cosmos
-modified: 20180116122113129
+modified: 20180227202417017
 modifier: cosmos
 tags: [[Deep learning]] [[Learning theory]]
 title: Deep learning theory
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 [[Neural network theory]] -- [[Learning theory]]
 
 //Better understanding the shortcomings and potential of deep learning may suggest ways of improving it, both to make it more capable and to make it more robust [2].//
+
+Nice lecture videos: https://www.researchgate.net/project/Theories-of-Deep-Learning
 
 [[A Theoretical Framework for Deep Learning Networks|https://www.youtube.com/watch?v=YVjvRvvVn4w]]
 
@@ -25,8 +27,13 @@ The approximation of functions with a compositional structure – can be achieve
 
 See [[Generalization in deep learning]]
 
+Connections to [[Signal processing]]: https://arxiv.org/abs/1707.00372
+
 !!!__[[Expressibility of neural networks]]__
 
+[[Universal Function Approximation by Deep Neural Nets with Bounded Width and ReLU Activations|https://arxiv.org/abs/1708.02691]]
+
+[[Exponential expressivity in deep neural networks through transient chaos|http://papers.nips.cc/paper/6322-exponential-expressivity-in-deep-neural-networks-through-transient-chaos]]
 
 -----------------------
 
@@ -89,6 +96,8 @@ In any case the experiments where more hidden units allow for better generalizat
 -- [ext[Energy landscapes of deep networks|http://vision.ucla.edu/~pratikac/pub/chaudhari.cs269.16.pdf]]
 
 </div>
+
+[[A Correspondence Between Random Neural Networks and Statistical Field Theory|https://arxiv.org/abs/1710.06570]]
 
 |The primary argument about the funnel is that these learning systems are strongly correlated, and therefore not readily treated by mean field theory. Specifically, the classical idea was that strongly correlated random models lie in a different universality class. So they behave completely differently than a spin glass , and this gives rise to the convexity .|
 

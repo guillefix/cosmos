@@ -1,6 +1,6 @@
 created: 20160121195127284
 creator: guillefix
-modified: 20170905223643122
+modified: 20180227194533217
 modifier: cosmos
 tags: [[Computer Science and IT]]
 title: Computer graphics
@@ -22,6 +22,8 @@ Graphics and [[Image processing]] on [[Python (programming language)]]: https://
 https://vvvv.org/ <i class="fa fa-thumbs-up"></i>  <i class="fa fa-thumbs-up"></i> [[Visual programming language]]
 
 [ext[http://mrl.nyu.edu/~perlin/courses/spring2016/]]
+
+Online live-coding shader: https://hexler.net/software/kodelife
 
 -------------------
 
