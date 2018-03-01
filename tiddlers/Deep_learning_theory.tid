@@ -1,6 +1,6 @@
 created: 20160913070239061
 creator: cosmos
-modified: 20180227202417017
+modified: 20180228141729373
 modifier: cosmos
 tags: [[Deep learning]] [[Learning theory]]
 title: Deep learning theory
@@ -169,3 +169,30 @@ As someone who is just entering the field of deep learning theory (coming from p
 When one goes deep into theory it's easy to loose track of that empirical grounding. Of course it's perfectly fine to do pure maths. But I do find many theorists who actually wanted to approach some real-world problem (like why deep learning works, or whatever), and ended up just proving a bunch of theorems which don't really say much about the real thing.. I have to keep reminding myself to stay in touch with real applied ML, because I am interested in theory about the real thing!
 
 In any case, I do like a lot one thing that Ali says. He puts emphasis on pedagogy, and the value of simple theorems and experiments for that. At the end of the day, a "proof" 's objective (even mathematicians say so) is to convince someone else of something. It's all about communication. Simple proofs, simple experiments, simple explanations, are not very useful for engineering, on a vacuum. But put those things amongst people, and it fosters collaboration, understanding, etc. To me that is that is the biggest value of theory :)
+
+------------------
+
+!!!__[[Do Deep Nets Really Need to be Deep?|https://arxiv.org/abs/1312.6184]]__
+
+<small>see my annotated version in Kami</small>
+
+The introduction is nice. It basically says "yes, in practice deep nets tend to work better than shallow ones, but why?":
+
+You are given a training set with 1M labeled points. When you train a shallow neural net with one
+fully connected feed-forward hidden layer on this data you obtain 86% accuracy on test data. When
+you train a deeper neural net as in [1] consisting of a convolutional layer, pooling layer, and three
+fully connected feed-forward layers on the same data you obtain 91% accuracy on the same test set.
+
+What is the source of this improvement? Is the 5% increase in accuracy of the deep net over the
+shallow net because: 
+  a) the deep net has more parameters;
+  b) the deep net can learn more complex functions given the same number of parameters;
+  c) the deep net has better inductive bias and thus learns more interesting/useful functions (e.g., because the deep net is deeper it learns hierarchical representations [5]);
+  d) nets without convolution can’t easily learn what nets with convolution can learn;
+  e) current learning algorithms and regularization methods work better with deep architectures than  shallow architectures[8];
+  f) all or some of the above;
+  g) none of the above?
+
+They basically show that a) and b) are not the case, at least not often. They are basically arguing for reason e) in this paper, by showing that shallow nets can implement the same functions that deep nets learn (in a series of experiments and task they try at least..), however, they just don't find them when trained with the algorithms we have.
+
+If deep nets really do have more simplicity bias (still need to run more experiments on that!), then it could be a reason for them working better in this way.
