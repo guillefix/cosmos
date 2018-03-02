@@ -1,6 +1,6 @@
 created: 20170325144453634
 creator: cosmos
-modified: 20170325144638424
+modified: 20180301231728889
 modifier: cosmos
 tags: [[Artificial intelligence]]
 title: Natural language understanding
@@ -14,3 +14,7 @@ https://rasa.ai/?ref=producthunt
 https://github.com/allenai/deep_qa
 
 Many of the methods use [[Augmented RNN]]s, which have [[Memory]], and [[Attention]] features. I think that multi-sensory integration should also be a crucial feature. So this would need to be related to [[Video understanding]] and [[Image understanding]]
+
+!!__Dialogue systems__
+
+https://github.com/deepmipt/DeepPavlov?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=The%20Wild%20Week%20in%20AI
