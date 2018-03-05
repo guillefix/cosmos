@@ -1,6 +1,6 @@
 created: 20160228222030153
 creator: guillefix
-modified: 20180117145947384
+modified: 20180305105924340
 modifier: cosmos
 tags: [[Quantum mechanics]]
 title: Quantum information theory
@@ -27,3 +27,4 @@ Phase gate 1 0 0 $$e^{i\phi}$$
 
 -------------------
 
+http://arturekert.org/quantum/
