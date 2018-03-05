@@ -1,0 +1,47 @@
+created: 20180304195759880
+creator: cosmos
+modified: 20180304210437061
+modifier: cosmos
+tags: [[Deep learning theory]]
+title: Energy landscape
+tmap.id: 506dc1bf-866b-4e1d-921c-7f8cf16cd91f
+type: text/vnd.tiddlywiki
+
+//also [[loss|Loss function]] landscapes/surfaces in [[Machine learning]]//
+
+[[Topology and Geometry of Half-Rectified Network Optimization|https://arxiv.org/abs/1611.01540]]
+
+[[Stats 385 - Theories of Deep Learning - Joan Bruna - Lecture 8|https://www.youtube.com/watch?v=rBxoRQODJdM&feature=em-upload_owner]]
+
+The loss surface F() of a given model can be expressed in terms of its level sets , which contain for each energy levelall parameters yielding a loss smaller or equal than. A first question we address concerns the topology of these level sets, i.e. under which conditions they are connected. Connected level sets imply that one can always find a descent direction at each energy level, and therefore that no poor local minima can exist.
+
+We then move to the half-rectified case and show that the topology is intrinsically different and clearly dependent on the interplay between data distribution and model architecture. Our main theoretical contribution is to prove that half-rectified single layer networks are asymptotically connected, and we provide explicit bounds that reveal the aforementioned interplay.
+
+Beyond the question of whether the loss contains poor local minima or not, the immediate follow-up question that determines the convergence of algorithms in practice is the local conditioning of the loss surface. It is thus related not to the topology but to the shape or geometry of the level sets. As the energy level decays, one expects the level sets to exhibit more complex irregular structures, which correspond to regions where F() has small curvature. In order to verify this intuition, we introduce an efficient algorithm to estimate the geometric regularity of these level sets by approximating geodesics of each level set starting at two random boundary points. Our algorithm uses dynamic programming and can be efficiently deployed to study mid-scale CNN architectures on MNIST, CIFAR-10 and RNN models on Penn Treebank next word prediction. Our empirical results show that these models have a nearly convex behavior up until their lowest test errors, with a single connected component that becomes more elongated as the energy decays. The rest of the paper is structured as follows. Section 2 presents our theoretical results on the topological connectedness of multilayer networks. Section 3 presents our path discovery algorithm and Section 4 covers the numerical experiments. 
+
+!!__Poor local minima, topology of level sets__
+
+[[Deep linear networks|https://youtu.be/rBxoRQODJdM?t=42m52s]] -- [[The Loss Surfaces of Multilayer Networks |http://www.jmlr.org/proceedings/papers/v38/choromanska15.pdf]] -- [[overparametrization gives connected sublevel-sets|https://youtu.be/rBxoRQODJdM?t=44m39s]] (Proposition 2.2) -- [[can't work in general with nonlinearities|https://youtu.be/rBxoRQODJdM?t=46m18s]]. [[Proof ideas|https://youtu.be/rBxoRQODJdM?t=47m20s]]
+
+[[Case for quadratic and finitely kernelizable nonlinearities|https://youtu.be/rBxoRQODJdM?t=52m41s]]
+
+[[The case for ReLUs|https://youtu.be/rBxoRQODJdM?t=52m41s]], can show a kind of asymptotic connectedness, where we only need to go outside of the sublevel set by an amount of energy that decreases as we increase the number of neurons.
+
+----------
+
+The fact that these results work indpendent of the loss function mean that they must be a property of the parameter-function map, so that all functions are connected to each other with enough overparametrization/redundancy!
+
+[[Relations to https://youtu.be/rBxoRQODJdM?t=58m40s]] [[Kernel method]]s
+
+!!__Geometry of level sets__
+
+[[are they round and convex or like "tentacles"/spagetti?|https://youtu.be/rBxoRQODJdM?t=1h1m42s]] -- [[algorithm to explore this|https://youtu.be/rBxoRQODJdM?t=1h3m10s]]
+
+-- [[Open questions|https://youtu.be/rBxoRQODJdM?t=1h8m]]
+
+
+!!__Other connections__
+
+[[video|https://youtu.be/rBxoRQODJdM?t=1h12m55s]]
+
+[[Regularity of level sets <> Difficulty of training <> generaliation <> dependence on target function|https://youtu.be/rBxoRQODJdM?t=1h33m55s]]

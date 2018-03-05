@@ -1,6 +1,6 @@
 created: 20160726111430716
 creator: guillefix
-modified: 20161110114615156
+modified: 20180304134357641
 modifier: cosmos
 tags: Statistics [[Signal processing]]
 title: Sampling
@@ -14,6 +14,8 @@ The act or process of selecting a [[Sample]] for testing, analyzing, etc.
 Sampling from univariate discrete distribution: put probabilities on real line
 
 Sampling from continuous distribution: use CDF and uniform dist.
+
+[[HarlMCMC shake|https://www.youtube.com/watch?v=Vv3f0QNWvWQ]]
 
 
 !__[[Signal|Signal processing]] sampling__

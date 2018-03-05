@@ -1,0 +1,23 @@
+created: 20180304210023752
+creator: cosmos
+modified: 20180304210105570
+modifier: cosmos
+tags: [[Infinite series]]
+title: Basel problem
+tmap.id: 9752fe54-0b6f-48dc-a2cb-69e330fc87b7
+type: text/vnd.tiddlywiki
+
+[[The stunning geometry behind this surprising equation (the Basel problem)|https://www.youtube.com/watch?v=d-o3eB9sfls]]
+
+Amazing video!
+I only have one criticism (which should be interesting to think about):
+I actually was a bit confused between the statement at 6:10 that "the brightness the observer experiences from the first lighthouse is equal to the combined brightness experienced from lighthouse A and B" and your proof at 8:00
+After thinking about I realized the following:
+
+Given a fixed screen (let's say the scaled down hypothenuse), it is not true that the brightness that that screen receives from lighthouse H is equal to the sum of brightnesses from lighthouses A and B, on that screen! The inverse pythagorean theorem doesn't imply that, because although the brightness per unit area is 1/r^2, given the fixed screen area, one needs to multiply by the cosine of the angle between the screen normal and position vector of the lighthouse to get the brightness incident on the screen!
+
+Now, why did this confuse me? Because the demonstration at 8:00 (which I checked using some geometry) said that the angle subtended by the screen from lighthouse H equals the sum of angles suspended from lighthouse A and B. Furthermore, the video makes you think that angle subtended == brightness on screen (at least infinitesimaly). This is true! But only in 2D and when brightness decreases like 1/r. In, 3D, with brightness decreasing like 1/r^2, it is the subtended solid angle that matters, and in this same setup, but extended to 3D, the solid angle subtended by the fixed screen at lighthouse H is not the same as the sum of solid angles subtended at lighthouses A and B!
+
+In summary, I think the demonstration at 8:00, inspired by the thing said at 6:10, actually makes things more confusing, because it is not true that the Inverse Pythagorean theorem is equivalent to the thing said at 6:10, when taken as a statement in 3D. It is true, when taken as a statement in 2D (demonstration at 8:00), but when assuming light intensity decays as 1/r, which goes against what's said in the rest of the video!﻿
+
+https://en.wikipedia.org/wiki/Basel_problem

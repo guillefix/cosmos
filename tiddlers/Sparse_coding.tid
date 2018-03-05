@@ -1,0 +1,11 @@
+created: 20180304202918296
+creator: cosmos
+modified: 20180304203034086
+modifier: cosmos
+tags: 
+title: Sparse coding
+tmap.id: 15acc4a0-c353-4a3f-b25f-bde7d6e2e4ff
+type: text/vnd.tiddlywiki
+
+
+[[connections to energy landscapes|https://youtu.be/rBxoRQODJdM?t=1h14m56s]], mathematically the same as [[Lasso]]/[[L1 regularization]], but often interpredted as [[Signal reconstruction]] in this case.

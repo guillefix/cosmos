@@ -1,7 +1,8 @@
 created: 20170528184032996
 creator: cosmos
-modified: 20170528184746821
+modified: 20180304220724871
 modifier: cosmos
+tags: [[Projective plane]]
 title: Crosscap
 tmap.id: ad3c3dd1-4041-45e5-bdf9-9c7c6ccdd58f
 type: text/vnd.tiddlywiki
@@ -10,3 +11,9 @@ type: text/vnd.tiddlywiki
 https://www.youtube.com/watch?v=W-sKLN0VBkk
 
 I think it is a model of the [[Projective plane]]
+
+Technically the crosscaped-disk: http://mathforum.org/mathimages/index.php/Cross-cap
+
+The cross-cap just refers the feature of identifying the sides of a circle in a manner like in the [[Projective plane]].
+
+It is like a [[Moebius strip]] (whose width can be made arbitrarily small, even 0), because a Moebius strip with a disk attached to its boundary gives a [[Projective plane]]
