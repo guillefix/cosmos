@@ -1,6 +1,6 @@
 created: 20180304195759880
 creator: cosmos
-modified: 20180304210437061
+modified: 20180305155623229
 modifier: cosmos
 tags: [[Deep learning theory]]
 title: Energy landscape
@@ -8,6 +8,8 @@ tmap.id: 506dc1bf-866b-4e1d-921c-7f8cf16cd91f
 type: text/vnd.tiddlywiki
 
 //also [[loss|Loss function]] landscapes/surfaces in [[Machine learning]]//
+
+[[Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs|https://arxiv.org/abs/1802.10026]]
 
 [[Topology and Geometry of Half-Rectified Network Optimization|https://arxiv.org/abs/1611.01540]]
 
@@ -31,7 +33,7 @@ Beyond the question of whether the loss contains poor local minima or not, the i
 
 The fact that these results work indpendent of the loss function mean that they must be a property of the parameter-function map, so that all functions are connected to each other with enough overparametrization/redundancy!
 
-[[Relations to https://youtu.be/rBxoRQODJdM?t=58m40s]] [[Kernel method]]s
+[[Relations to|https://youtu.be/rBxoRQODJdM?t=58m40s]] [[Kernel method]]s
 
 !!__Geometry of level sets__
 

@@ -1,0 +1,15 @@
+created: 20180306005053373
+creator: cosmos
+modified: 20180306005253439
+modifier: cosmos
+tags: [[Reinforcement learning]]
+title: Hierarchical reinforcement learning
+tmap.id: 6aba8d09-1998-44a4-a856-4bd1104eed64
+type: text/vnd.tiddlywiki
+
+
+[[Learning by Playing – Solving Sparse Reward Tasks from Scratch|https://arxiv.org/abs/1802.10567]]. good for sparse reward environments.
+
+See some of my work on summer 2016 on action inference.. Macro-actions, etc.
+
+See also [[Model-based reinforcement learning]]
