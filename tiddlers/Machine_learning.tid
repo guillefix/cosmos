@@ -1,6 +1,6 @@
 created: 20160226112409331
 creator: guillefix
-modified: 20180225131651624
+modified: 20180308232123396
 modifier: cosmos
 tags: [[Artificial intelligence]] Learning [[Data science]]
 title: Machine learning
@@ -12,6 +12,7 @@ type: text/vnd.tiddlywiki
 A part of [[Artificial intelligence]] that uses many methods from [[Computer science]] to [[Statistics]] to create automated (machine) learners: systems that can extract [[Knowledge]] and insight from [[Information]] and data.
 
  http://bit.do/oxtorch
+
 
 [[Good discussion panel on current ML research (2017)|https://www.youtube.com/watch?v=uyZOcUDhIbY&index=22&list=PLgKuh-lKre12eXz4dnvc8oervo2_Af4iU]]
 
@@ -30,6 +31,9 @@ http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
 [[No free lunch theorem]]
 
 [[lecture series|https://www.youtube.com/watch?v=zcMnu-3wkWo&list=PLTB9VQq8WiaCBK2XrtYn5t9uuPdsNm7YE]] -- [[another one, focusing on theory|https://www.youtube.com/watch?v=b5NlRg8SjZg&t=2557s]]
+
+[[Searching programs by Wolfram|https://www.youtube.com/watch?v=P7kX7BuHSFI#t=1h22m10s]]
+
 
 !!__Design factors in machine learning__
 
