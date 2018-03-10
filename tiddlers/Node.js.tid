@@ -1,0 +1,13 @@
+created: 20180309220458711
+creator: cosmos
+modified: 20180309220549063
+modifier: cosmos
+tags: [[Backend web development]]
+title: Node.js
+tmap.id: e6b2205f-74bd-4501-9143-c3f8b5fee170
+type: text/vnd.tiddlywiki
+
+
+https://nodejs.org/en/
+
+[[Basic intro into how it works|https://www.youtube.com/watch?v=hYNO23nR5sI]] -- [[more detail into how event loop really works (better talk)|https://www.youtube.com/watch?v=PNa9OMajw9w]]
