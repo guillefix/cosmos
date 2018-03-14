@@ -1,6 +1,6 @@
 created: 20161013203153755
 creator: cosmos
-modified: 20170908135542335
+modified: 20180313200543381
 modifier: cosmos
 tags: [[Signal processing]] [[Data analysis]]
 title: Image processing
@@ -10,3 +10,5 @@ type: text/vnd.tiddlywiki
 [[Image classification]]
 
 https://www.xda-developers.com/qualcomm-spectra-2nd-generation-cameras/
+
+https://stats.stackexchange.com/questions/117427/what-is-the-difference-between-zca-whitening-and-pca-whitening

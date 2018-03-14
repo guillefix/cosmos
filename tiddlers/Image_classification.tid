@@ -1,6 +1,6 @@
 created: 20161013203022042
 creator: cosmos
-modified: 20170104115605530
+modified: 20180313200521486
 modifier: cosmos
 tags: [[Computer vision]] Classification
 title: Image classification
@@ -14,3 +14,5 @@ See [[Convolutional neural network]] and [[Computer vision]]
 __Special cases__
 
 * [[Handwriting recognition]]
+
+[ext[https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf]]

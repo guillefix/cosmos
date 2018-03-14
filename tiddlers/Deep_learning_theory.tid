@@ -1,6 +1,6 @@
 created: 20160913070239061
 creator: cosmos
-modified: 20180304200248888
+modified: 20180313181558840
 modifier: cosmos
 tags: [[Deep learning]] [[Learning theory]]
 title: Deep learning theory
@@ -14,6 +14,8 @@ type: text/vnd.tiddlywiki
 Nice lecture videos: https://www.researchgate.net/project/Theories-of-Deep-Learning
 
 [[A Theoretical Framework for Deep Learning Networks|https://www.youtube.com/watch?v=YVjvRvvVn4w]]
+
+[[The mathematics of deep learning|https://arxiv.org/abs/1712.04741]]
 
 !!![[Learning theory and neural networks gingko tree|https://gingkoapp.com/vehvff]]
 
