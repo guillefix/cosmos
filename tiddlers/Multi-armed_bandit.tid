@@ -1,12 +1,19 @@
 created: 20170715170318031
 creator: cosmos
-modified: 20170715170344148
+modified: 20180316153953006
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Multi-armed bandit
 tmap.id: 539e8056-2ab6-4790-a6c8-5bcfcd1e6b06
 type: text/vnd.tiddlywiki
 
-See Sutton and Barto
+Choosing among a series of actions, each of which has a certain probability distribution of rewards (normally a [[Bernoulli distribution]]). It's like a [[Markov decision process]] with only 1 state).
 
-[[Contextual bandit]]
+[[Contextual bandits]]
+
+[[Thompson sampling]]
+
+See Sutton and Barto.
+See here: https://github.com/damaru2/optimization17/
+
+[[Stochastic bandits]]

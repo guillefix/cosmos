@@ -1,0 +1,10 @@
+created: 20180316153953892
+creator: cosmos
+modified: 20180316154022959
+modifier: cosmos
+tags: [[Multi-armed bandit]]
+title: Thompson sampling
+tmap.id: d40a29a1-997b-4616-b2be-f31b815b5c5b
+type: text/vnd.tiddlywiki
+
+[[Thompsom sampling|https://en.wikipedia.org/wiki/Thompson_sampling]] is a heuristic for choosing actions that addresses the exploration-exploitation dilemma in the multi-armed bandit problem. It consists in choosing the action that maximizes the expected reward with respect to a randomly drawn belief.

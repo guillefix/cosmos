@@ -1,7 +1,8 @@
 created: 20161113180442328
 creator: cosmos
-modified: 20161128184842214
+modified: 20180316154134756
 modifier: cosmos
+tags: Brain
 title: Neural system
 tmap.id: c4273f68-361b-498b-803c-e7fce0317d48
 type: text/vnd.tiddlywiki
@@ -10,7 +11,7 @@ Circuits that subserve similar functions are grouped in neural systems that serv
 
 https://www.ncbi.nlm.nih.gov/books/NBK11061/
 
-!!__[[Decision-making]] and reward systems__
+!!__[[Decision-making]] and [[reward systems|Reward system]]__
 
 [[Reinforcement learning]]
 

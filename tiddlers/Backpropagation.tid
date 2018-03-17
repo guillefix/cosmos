@@ -1,7 +1,8 @@
 created: 20160918153744509
 creator: cosmos
-modified: 20170325145957990
+modified: 20180316164827871
 modifier: cosmos
+tags: [[Artificial neural network]]
 title: Backpropagation
 tmap.id: 0894b5a7-2a44-4f4c-ba13-5157e44831e2
 type: text/vnd.tiddlywiki
@@ -9,6 +10,8 @@ type: text/vnd.tiddlywiki
 [[backpropagation|https://www.youtube.com/watch?v=_KoWTD8T45Q&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=13]]. An algorithm to compute the derivatives, needed for [[Gradient descent]], for [[Artificial neural network]]s.
 
 ''Backpropagaion''. It effectively uses the chain rule to compute the gradient w.r.t. parameters at one layer with the values of the gradients w.r.t. parameters at the layer above (deeper).
+
+[[intro chapter|http://neuralnetworksanddeeplearning.com/chap2.html]]
 
 !!![[Backpropagation with shared weights|http://stats.stackexchange.com/questions/74327/training-a-convolution-neural-network]]
 
