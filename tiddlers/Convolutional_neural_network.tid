@@ -1,6 +1,6 @@
 created: 20160328184231393
 creator: guillefix
-modified: 20180303130945779
+modified: 20180320230216071
 modifier: cosmos
 tags: [[Artificial neural network]]
 title: Convolutional neural network
@@ -22,6 +22,8 @@ See [[this review|http://sci-hub.io/10.1109/msp.2017.2693418]] of [[Geometric de
 [[[MISS 2016] Andrea Vedaldi - Advanced Convolutional Neural Networks|https://www.youtube.com/watch?v=SceY4Xnz104]]
 
 [[Spatial transformer network|https://arxiv.org/abs/1506.02025]] -- a variant to allow for more general invariances to spatial transformations of the data
+
+[[ConvNet tute in PyTorch|http://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html]]
 
 -----------------------
 
