@@ -1,12 +1,13 @@
 created: 20170715173651232
 creator: cosmos
-modified: 20170715174144420
+modified: 20180321180907050
 modifier: cosmos
 tags: [[Policy gradient method]]
 title: Actor-critic method
 tmap.id: f2206165-7917-4bf4-81d7-fdfbdd40429e
 type: text/vnd.tiddlywiki
 
+Comic: https://hackernoon.com/intuitive-rl-intro-to-advantage-actor-critic-a2c-4ff545978752
  
 ----------
 
