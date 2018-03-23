@@ -1,6 +1,6 @@
 created: 20160623203037516
 creator: guillefix
-modified: 20170328214431058
+modified: 20180322105540313
 modifier: cosmos
 tags: [[Artificial neural network]] [[Neuronal network]]
 title: Spiking neural network
@@ -75,3 +75,5 @@ __Software to simulate SNNs__
 [[Software from Polychronization: Computation With Spikes|http://www.izhikevich.org/publications/spnet.htm]]
 
 [[PyNN|http://neuralensemble.org/PyNN/]]
+
+[[NEST|http://nest-simulator.org/]] -- [[article|http://www.kurzweilai.net/new-algorithm-will-allow-for-simulating-neural-connections-of-entire-brain-on-future-exascale-supercomputers/comment-page-1#comment-279739]]

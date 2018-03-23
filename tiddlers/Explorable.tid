@@ -1,13 +1,13 @@
 created: 20161216133336201
 creator: cosmos
-modified: 20171217205844433
+modified: 20180322105827986
 modifier: cosmos
-tags: [[Game development]] Communication [[Data & Knowledge]]
+tags: [[Game development]] Communication [[Data & Knowledge]] [[Human-computer interaction]]
 title: Explorable
 tmap.id: 2cd0d128-f2a7-4aba-a728-b554dddfc2c6
 type: text/vnd.tiddlywiki
 
-//Explorable explanations//
+//Explorable explanations, interactive computing//
 
 http://vitor.io/on-dynamicland
 
@@ -32,3 +32,11 @@ http://bl.ocks.org/blacki/ebba08223eba20b56b62
 [[AugMath]]
 
 http://1023.io/p5-inspector/
+
+[[REPL]]
+
+[[IPython]], [[Hydrogem (Atom plugin)]]
+
+[[Observable|https://beta.observablehq.com/]] -- [[video|https://www.youtube.com/watch?v=MmRmxzrr4lk]]
+
+These last few are quite useful for [[Data science]] and [[Data visualization]]
