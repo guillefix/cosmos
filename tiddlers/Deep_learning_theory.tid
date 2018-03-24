@@ -1,6 +1,6 @@
 created: 20160913070239061
 creator: cosmos
-modified: 20180313181558840
+modified: 20180323174711155
 modifier: cosmos
 tags: [[Deep learning]] [[Learning theory]]
 title: Deep learning theory
@@ -49,6 +49,11 @@ Connections to [[Signal processing]]: https://arxiv.org/abs/1707.00372
 
 See more at [[Information bottleneck]]
 
+!!![[Deep Information Propagation|https://arxiv.org/abs/1611.01232]]
+[[Exponential expressivity in deep neural networks through transient chaos|http://papers.nips.cc/paper/6322-exponential-expressivity-in-deep-neural-networks-through-transient-chaos]]
+
+[[Resurrecting the sigmoid in deep learning through dynamical isometry: theory and practice|https://arxiv.org/abs/1711.04735]]
+
 --------------------------------
 
 [[Empirical Analysis of the Hessian of Over-Parametrized Neural Networks|https://arxiv.org/abs/1706.04454]]
@@ -85,6 +90,8 @@ In any case the experiments where more hidden units allow for better generalizat
 ----------------------
 
 !!__Deep learning, [[Spin glass]]es, [[Protein folding]], [[Energy landscape]]s__
+
+[[Rethinking generalization requires revisiting old ideas: statistical mechanics approaches and complex learning behavior|https://openreview.net/forum?id=SkPoRg10b]]
 
 <div style="display:inline-block; width:350px;">[img width=350 [deep_learning_random_energy_model_glass_transition.png]]</div>
 <div style="display:inline-block;width:300px;">

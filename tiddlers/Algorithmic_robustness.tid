@@ -1,11 +1,13 @@
 created: 20171027131944733
 creator: cosmos
-modified: 20171027181656071
+modified: 20180323192008318
 modifier: cosmos
 tags: Generalization
 title: Algorithmic robustness
 tmap.id: a112e11d-2700-4b14-aae3-2272ff245437
 type: text/vnd.tiddlywiki
+
+robustness: the property that if a testing sample is "similar" to a training sample, then the testing error is close to the training error.
 
 [[Robustness and generalization|https://arxiv.org/pdf/1005.2243.pdf]]
 

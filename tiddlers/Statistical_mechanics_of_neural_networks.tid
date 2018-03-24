@@ -1,6 +1,6 @@
 created: 20160915182124591
 creator: cosmos
-modified: 20171128215728234
+modified: 20180323171856024
 modifier: cosmos
 tags: [[Artificial neural network]] [[Statistical physics and inference]]
 title: Statistical mechanics of neural networks
@@ -35,6 +35,8 @@ randomly composed patterns resembles a spin glass.
 [[Statistical Mechanics of Neural Networks near Saturation |http://sci-hub.cc/10.1016/0003-4916(87)90092-3]]
 
 [[Statistical mechanics of learning|https://www.youtube.com/watch?v=hfBHELbk2Yw]] 
+
+[ext[Learning to generalize|http://www.ki.tu-berlin.de/fileadmin/fg135/publikationen/opper/Op01.pdf]]
 
 ----------------
 
