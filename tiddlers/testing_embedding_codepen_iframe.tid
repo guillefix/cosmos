@@ -1,0 +1,13 @@
+created: 20180324130318916
+creator: cosmos
+modified: 20180324130744632
+modifier: cosmos
+tags: 
+title: testing embedding codepen iframe
+tmap.id: bebdb016-a60f-4aed-a373-8f347df42e3d
+type: text/vnd.tiddlywiki
+
+<div style="height:200px; overflow : hidden; position : relative;" overflow="scroll">
+<iframe height="265" scrolling="no" title="Waving Text CSS3" src="//codepen.io/guillefix/embed/gexvwp/?height=265&theme-id=0&default-tab=result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;position : absolute;top: -105px; height   : 1200px;">
+</iframe>
+</div>

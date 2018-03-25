@@ -1,0 +1,18 @@
+created: 20180324233106268
+creator: cosmos
+modified: 20180325000509643
+modifier: cosmos
+tags: [[Riemannian geometry]]
+title: Holonomy group
+tmap.id: 2b5c60b2-2d6c-4cc8-b43c-b734a4f54dde
+type: text/vnd.tiddlywiki
+
+
+
+[img[holonomy_group_definition.png]]
+[[Holonomy groups in Riemannian geometry|https://impa.br/wp-content/uploads/2017/04/PM_39.pdf]]
+
+The curvature tensor generates the infinitesimal holonomy transformations. 
+One can define a [[Surjective]] [[Group homomorphism]] from the [[Fundamental group]] of the manifold onto the [[quotient|Quotient group]] of the holonomy group by its connected component. The holonomy group detects the local re-ducibility of the manifold, and also whether the metric is locally symmetric. 
+
+In a certain sense, the ''classification theorem of Berger'' is the climax of these notes. It shows that in the riemannian context, all of the study that we have made of holonomy groups can be reduced to a short list of cases. 

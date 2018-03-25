@@ -1,6 +1,6 @@
 created: 20170506202343052
 creator: cosmos
-modified: 20171217213423430
+modified: 20180324234748098
 modifier: cosmos
 tags: [[Differential geometry]]
 title: Connection (Geometry)
@@ -12,3 +12,5 @@ type: text/vnd.tiddlywiki
 [[video|https://www.youtube.com/watch?v=Mcal5Cy7r4E&t=19m]]
 
 [[Trivial Connections on Discrete Surfaces - Talk (1/2)|https://www.youtube.com/watch?v=S-Pwwui1daE]]
+
+[[Holonomy]] and [[Parallel]]ism

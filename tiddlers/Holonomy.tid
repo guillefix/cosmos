@@ -1,0 +1,12 @@
+created: 20180324234805170
+creator: cosmos
+modified: 20180324234938589
+modifier: cosmos
+tags: [[Connection (Geometry)]]
+title: Holonomy
+tmap.id: fbe348cc-f97f-450c-8a85-8679770b014b
+type: text/vnd.tiddlywiki
+
+The fact that parallel transporting a [[vector|Tangent vector]] in a [[Riemannian manifold]] with [[connection|Connection (Geometry)]] around a closed loop can lead to different vectors; thus there is not a unique notion of "parallel" vectors at two different points in a general manifold.
+
+[[Holonomy group]]
