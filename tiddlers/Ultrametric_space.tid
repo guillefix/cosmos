@@ -1,6 +1,6 @@
 created: 20160916161449707
 creator: cosmos
-modified: 20161104134332986
+modified: 20180326172407774
 modifier: cosmos
 title: Ultrametric space
 tmap.id: dfa8a5e1-41f7-4279-b348-90a20b4bd3af
@@ -13,3 +13,5 @@ $$d(x,y) \leq \max{(d(x,z), d(z,y))}$$
 This is equivalent to saying that //any three points in the space form an acute isosceles or equilateral triangle//. This can be deduced by applying the above inequality to all sides of a triangle. The equilateral case corresponds to equality.
 
 What kind of space has this structure? The answer: a nested (or treelike, or hierarchical) structure. Consider a [[Tree (combinatorial structure)]], where the distance between the leafs (points in our space) is defined to be the number of levels one must go up until their branches merge.
+
+See page 20-23 of "an introduction to the theory of spin glasses and neural networks -- Dotsenko" for application to [[Spin glass]]es.

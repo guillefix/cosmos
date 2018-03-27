@@ -1,7 +1,7 @@
 created: 20160712105706697
 creator: guillefix
-modified: 20161104134332322
-modifier: guillefix
+modified: 20180326152117788
+modifier: cosmos
 title: Self-averaging
 tmap.id: 56e4f97f-cba7-47db-940d-4bc9a21db25b
 type: text/vnd.tiddlywiki
@@ -9,3 +9,35 @@ type: text/vnd.tiddlywiki
 A quantity is ''self-averaging'' if its sample to sample fluctuations vanish in the thermodynamic limit.
 
 Non-self-averaging quantities are characteristic of [[Disordered system]]s
+
+[[Statistical physics - How can a statistical description be right? (thermodynamic limit)|https://www.youtube.com/watch?v=LyQkDemP67A]]
+
+--------------
+
+Selfaveraging explanation in the context of [[Spin glass]]es (from book Theory of Spin Glasses and Neural Networks)
+
+Traditional way of speculations, why the selfaveraging phenomenon should
+be expected to take place, is in the folbwing. The free energy of the system
+is known to be proportional to the volume of the system, which in our case is
+N. Therefore, in the thermodynamic limit $$N\to \infty$$ the main contribution to
+the free energy in such macroscopic system must come from the volume, and
+not from the boundary, which usually produces the effects of the next orders in the small parameter 1/N.
+
+Any macroscopic system could be divided into, again, macroscopic number
+of macroscopic subsystems. Then the total free energy of the system would
+consist of the sum of the free energies of the subsystems, plus the contribution
+which comes from the interactions of the subsystems, on their boundaries. If
+all the interactions in the system are short range (which takes place in any
+normal system), then the contributions from the mutual interactions of the
+subsystems are just the boundary effects which are vanishing in the thermo-
+dynamic limit. Therefore, the total free energy could be represented as a sum
+of the macroscopic number of terms. Each of these terms would be a random
+quenched quantity since it contains as the parameters the elements of the ran-
+random spin-spin interaction matrix. Next, in accordance with the law of large
+numbers, the sum of many random quantities can be represented as their aver-
+average value, obtained from their statistical distribution, times their number (all
+this is true, of course, only under certain requirements on the characteristics
+of the statistical distribution in the limit $$N\to \infty$$). Therefore, the conclusion
+which comes out from such speculations is that the free energy of a macroscopic
+system must be selfaveraging over the realizations of the random interactions
+in accordance with their statistical distribution.

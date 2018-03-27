@@ -1,6 +1,6 @@
 created: 20160611125205456
 creator: guillefix
-modified: 20170417212712534
+modified: 20180326150255430
 modifier: cosmos
 title: Spin glass
 tmap.id: 368bab49-39f9-4082-9acb-d79c67aa7bdc
@@ -20,6 +20,12 @@ type: text/vnd.tiddlywiki
 !!!__[[Frustration]]__
 
 Any real lattice in two or more dimensions will have a complicated network of interpenetrating [[frustrated|Frustration]] loops. How does one then find the ground state? Which couplings should be chosen to be unsatisfied? Or are there possiblymanyground states not connected by any simple symmetry transformation? ,,this is an open question.,,
+
+<small>An important point is that not any disorder appears to be relevant for the
+thermodynamic properties of the system. It is the frustrations, which are that
+relevant part of the disorder, which essentially changes the behavior of the system in comparison with the corresponding one without disorder. In other
+words, if the disorder does not produce frustrations, then it is not relevant for
+the basic properties of the ground state of the system.</small>
 
 !!!__[[Spin glass phase transition]]__
 

@@ -1,6 +1,6 @@
 created: 20160915182124591
 creator: cosmos
-modified: 20180323171856024
+modified: 20180326165957991
 modifier: cosmos
 tags: [[Artificial neural network]] [[Statistical physics and inference]]
 title: Statistical mechanics of neural networks
@@ -37,6 +37,16 @@ randomly composed patterns resembles a spin glass.
 [[Statistical mechanics of learning|https://www.youtube.com/watch?v=hfBHELbk2Yw]] 
 
 [ext[Learning to generalize|http://www.ki.tu-berlin.de/fileadmin/fg135/publikationen/opper/Op01.pdf]]
+
+[[Rethinking generalization requires revisiting old ideas: statistical mechanics approaches and complex learning behavior|https://openreview.net/forum?id=SkPoRg10b]]
+
+----------------
+
+There is a hierarchical fragmentation of the state space as more local minima appear in the free energy as one decreases the temperature in a [[Spin glass]]
+
+[img[spin_glass_free_energy_continuous_phase_transition.png]]
+
+This seems related qualitatively to how the sublevel sets become more irregular as one decreases the energy level for neural network loss landscapes, see [[Topology and Geometry of Deep Rectified Network Optimization Landscapes|https://pdfs.semanticscholar.org/76fe/7cce8f8d28e35536f53b41308eb5e074f5e3.pdf]]
 
 ----------------
 

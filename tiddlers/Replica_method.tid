@@ -1,6 +1,6 @@
 created: 20160916151320256
 creator: cosmos
-modified: 20171016140859024
+modified: 20180326175848299
 modifier: cosmos
 title: Replica method
 tmap.id: d8f5d3a9-5b91-4873-b10f-1bf37229dbd9
@@ -17,3 +17,7 @@ Imagining many identical but independent copies, or replicas, of the system; com
 See [[Replica symmetry breaking]]
 
 [[silent video|https://www.youtube.com/watch?v=fZ8WCic5u2I&index=2&list=PLYq7WW565SZgC_0OqyRjTcWKH3odod3j5#t=36m55s]]
+
+--> See chapter 3 of "An introduction to the theory of spin glasses and neural networks – Dotsenko"
+
+See example in [[Learning with Boolean Threshold Functions, a Statistical Physics Perspective - Raemi Monasson|https://www.youtube.com/watch?v=_q5twKE9Jeo]] (see [[Statistical physics and inference]])

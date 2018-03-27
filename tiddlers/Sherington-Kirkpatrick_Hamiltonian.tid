@@ -1,14 +1,15 @@
 created: 20160916150236313
 creator: cosmos
-modified: 20161104134332379
+modified: 20180326151230648
 modifier: cosmos
+tags: [[Spin glass]]
 title: Sherington-Kirkpatrick Hamiltonian
 tmap.id: eb979658-1965-4567-8243-ea96c5de0621
 type: text/vnd.tiddlywiki
 
 //aka Sherington-Kirkpatrick model//
 
-Introduced in [[Solvable Model of a Spin-Glass|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.35.1792]], it is an infinite-range version of the [[EA Hamiltonian|Edwards-Anderson Hamiltonian]], and corresponds to a [[Mean field theory]]. Note that the interactions are now between all pairs. The Hamiltonian is:
+Introduced in [[Solvable Model of a Spin-Glass|http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.35.1792]], it is an infinite-range version of the [[EA Hamiltonian|Edwards-Anderson Hamiltonian]]; equivalently a Spin glass in infinite dimensions. It's exact solution agrees with the [[Mean field theory]] solution. Note that the interactions are now between all pairs. The Hamiltonian is:
 
 |$$\mathcal{H}_\mathcal{J}=-\frac{1}{\sqrt{N}} \sum\limits_{1 \leq i \leq j \leq N} J_{ij} \sigma_i \sigma_j - h \sum\limits_{1 \leq i \leq N} \sigma_i$$|
 
