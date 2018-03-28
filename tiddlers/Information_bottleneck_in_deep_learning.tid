@@ -1,11 +1,20 @@
 created: 20171007235557741
 creator: cosmos
-modified: 20171010103049908
+modified: 20180327125046357
 modifier: cosmos
 tags: [[Deep learning theory]] [[Information bottleneck]]
 title: Information bottleneck in deep learning
 tmap.id: 1d4cd140-41a2-4724-abd5-9482fbeb0ba1
 type: text/vnd.tiddlywiki
+
+[[newer video|https://youtu.be/EQTtBRM0sIs?t=41m19s]]
+
+Back when you shared this (https://mail.google.com/mail/u/0/#search/quanta+magazine/15ed4a519541bcdd) I already made some analysis which made me skeptical of many claims in the Tishby information bottleneck paper.
+
+Now  recently accepted paper to ICML2018 makes a detailed theoretical and empirical analysis showing that Tishby's claims do not hold true in general. https://openreview.net/forum?id=ry_WPG-A-&noteId=ry_WPG-A- 
+There is still debate going on, but I think this new paper is basically right.
+
+------------
 
 [[Information Theory of Deep Learning. Naftali Tishby|https://www.youtube.com/watch?v=bLqJHjXihK8&feature=youtu.be]]
 

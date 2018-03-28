@@ -1,0 +1,12 @@
+created: 20180327164859625
+creator: cosmos
+modified: 20180327165015793
+modifier: cosmos
+tags: [[Functional analysis]]
+title: L^2
+tmap.id: b9c95925-9b29-4b7a-809a-3ae9e8485d6b
+type: text/vnd.tiddlywiki
+
+The [[Function space]] of square-integrable functions.
+
+A subspace is [[Paley-Wiener space]], which corresponds to those with limited Fourier transform support.

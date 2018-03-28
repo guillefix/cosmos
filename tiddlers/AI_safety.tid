@@ -1,6 +1,6 @@
 created: 20160622143140539
 creator: guillefix
-modified: 20170209193727028
+modified: 20180327160252410
 modifier: cosmos
 tags: [[AI ethics]]
 title: AI safety
@@ -12,3 +12,5 @@ type: text/vnd.tiddlywiki
 [[OpenAI - Concrete AI safety problems|https://openai.com/blog/concrete-ai-safety-problems/]] [[paper|https://arxiv.org/abs/1606.06565]]
 
 [[AI ethics]]
+
+See here for David Dustch comment (linked to specific time): https://vimeo.com/22099396#t=2758s

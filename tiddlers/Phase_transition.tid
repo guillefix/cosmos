@@ -1,6 +1,6 @@
 created: 20160128012650775
 creator: guillefix
-modified: 20161217165548913
+modified: 20180327113608675
 modifier: cosmos
 tags: [[Condensed matter physics]]
 title: Phase transition
@@ -71,3 +71,5 @@ __Order of transition__
 [[Percolation phase transition]]
 
 [[Spin glass phase transition]]
+
+[[Phase transitions in machine learning]]

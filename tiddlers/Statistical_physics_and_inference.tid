@@ -1,6 +1,6 @@
 created: 20170420161906055
 creator: cosmos
-modified: 20180326175831967
+modified: 20180327113655524
 modifier: cosmos
 tags: [[Information, computation and physics]] [[Statistical inference]]
 title: Statistical physics and inference
@@ -14,6 +14,8 @@ type: text/vnd.tiddlywiki
 See lectures on statistical physics of inference:
 
 [[From information theory to learning via Statistical Physics: Introduction: by Florent Krzakala|https://www.youtube.com/watch?v=i0N6mn9L-GA&index=6&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu]]
+
+!!!__[[Phase transitions in machine learning]]__
 
 [[Phase Transitions in the Coloring of Random Graphs|https://arxiv.org/pdf/0704.1269.pdf]], See [[Graph coloring]].
 
