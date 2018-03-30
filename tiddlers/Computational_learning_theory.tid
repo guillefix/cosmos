@@ -1,6 +1,6 @@
 created: 20170116162522626
 creator: cosmos
-modified: 20171101163009229
+modified: 20180329144402984
 modifier: cosmos
 tags: [[Learning theory]]
 title: Computational learning theory
@@ -69,6 +69,12 @@ with respect to the best concept from a particular class
 [[notes|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture09.pdf]]
 
 [[proof that finite classes are agnostic learnable|https://www.youtube.com/watch?v=Lyz4ewLefpE]]
+
+[ext[https://www.cs.bgu.ac.il/~asml162/Class_Material]]
+
+----------
+
+See "Understanding machine learning" by Shai and Shai for more
 
 !![[General losses and more general definition of the learning problem|https://www.youtube.com/watch?v=iknI2iga9ps#t=36m]]
 

@@ -1,6 +1,6 @@
 created: 20160130002757424
 creator: guillefix
-modified: 20180107152316311
+modified: 20180329122246748
 modifier: cosmos
 tags: [[Web development]]
 title: Frontend web development
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 Frontend web development
 
 !![[JavaScript]]
+
+https://codesandbox.io/
 
 https://medium.freecodecamp.com/angular-2-versus-react-there-will-be-blood-66595faafd51#.4bc9n0ott [[ReactJS]] seems better
 

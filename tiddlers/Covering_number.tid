@@ -1,0 +1,13 @@
+created: 20180329124626875
+creator: cosmos
+modified: 20180329140659660
+modifier: cosmos
+title: Covering number
+tmap.id: 57939f45-5d5b-47a8-b71f-78b7f4269110
+type: text/vnd.tiddlywiki
+
+The ''$$\epsilon$$-covering number'' of $$B \subseteq \chi$$, denoted by $$N(\epsilon;B)$$, is the size of the smallest set $$A \subseteq B $$ such that for every $$ b \in B$$ there is an $$ a \in A$$ such that $$\rho(a;b) < \epsilon$$, where $$\rho$$ is a [[Metric]] on $$\chi$$.
+
+The $$\epsilon$$-[[Packing number]] gives an upper bound, and the $$2\epsilon$$-packing number gives a lower bound (this is because removing a point from a $$2\epsilon$$ packing would result in something that isn't an $$\epsilon$$ cover, as can be shown using the [[Triangle inequality]]) 
+
+See [ext[here|https://www.cs.bgu.ac.il/~asml162/wiki.files/dudley-pollard.pdf]]
