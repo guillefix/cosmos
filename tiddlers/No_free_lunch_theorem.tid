@@ -1,6 +1,6 @@
 created: 20170104134853688
 creator: cosmos
-modified: 20180101131445569
+modified: 20180330140243740
 modifier: cosmos
 tags: [[Computational learning theory]]
 title: No free lunch theorem
@@ -20,6 +20,10 @@ that works well in one domain may work poorly in another.
 [[The supervised learning no-free-lunch theorems.|https://link.springer.com/chapter/10.1007%2F978-1-4471-0123-9_3]]
 
 [[No free lunch theorems for optimization.|http://ieeexplore.ieee.org/document/585893/]]
+
+[[The mathematics of generalization|https://books.google.co.uk/books?id=6GdQDwAAQBAJ&pg=PA139&lpg=PA139&dq=pac+and+the+statistical+physics+framework+bayesian+and+vc+frameworks&source=bl&ots=H2ZrlVhGko&sig=MZxydUEmFpt7YJYVErXp9xteKPM&hl=en&sa=X&ved=0ahUKEwjOifKFmpTaAhWGD8AKHV56CIkQ6AEIQzAF#v=onepage&q&f=false]]
+
+[[The Relationship between PAC, the Statistical Physics framework, the Bayesian framework, and the VC framework (1994)|http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.49.1549]]
 
 ----------------
 
