@@ -1,6 +1,6 @@
 created: 20160122231418635
 creator: guillefix
-modified: 20170118193433306
+modified: 20180331173657939
 modifier: cosmos
 tags: [[Systems engineering]] Software
 title: Software engineering
@@ -26,6 +26,10 @@ __[[Web development]]__
 __Mobile app development__
 
 https://appetize.io/
+
+----------
+
+[[AI|Artificial intelligene]] that writes code (using conditional [[Generative model]]s, see [[Natural language understanding]]): https://thenextweb.com/syndication/2018/02/11/can-train-ai-convert-design-mockups-html-css/
 
 --------------------
 
