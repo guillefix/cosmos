@@ -1,0 +1,18 @@
+created: 20180401224350473
+creator: cosmos
+modified: 20180401225702793
+modifier: cosmos
+tags: [[Explainable artificial intelligence]] [[Artificial neural network]]
+title: Neural network interpretability
+tmap.id: 684bc406-9efa-4ea9-842d-8143b77b007f
+type: text/vnd.tiddlywiki
+
+https://distill.pub/2018/building-blocks/
+
+[[Feature visualization]]
+
+[[Feature attribution]], saliency map. We do attribution by linear approximation in all of our interfaces. That is, we estimate the effect of a neuron on the output is its activation times the rate at which increasing its activation increases the output. 
+
+----------
+
+ There also may exist abstractions which are visually familiar, yet that we lack good natural language descriptions for: for example, take the particular column of shimmering light where sun hits rippling water. Moreover, the network may learn new abstractions that appear alien to us — here, natural language would fail us entirely!

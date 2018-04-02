@@ -1,6 +1,6 @@
 created: 20160124143839436
 creator: guillefix
-modified: 20180225131644124
+modified: 20180401224512465
 modifier: cosmos
 tags: Intelligence [[Computer Science and IT]]
 title: Artificial intelligence
@@ -168,3 +168,87 @@ Best reward mechanisms unclear. Also, amount of pre-existing structure for syste
 [[The AI awakening|http://www.nytimes.com/2016/12/14/magazine/the-great-ai-awakening.html?mwrsm=Facebook&_r=0]]
 
 https://www.vicarious.com/2017/10/26/common-sense-cortex-and-captcha/
+
+
+----------------
+
+more notes from GKeep....
+
+--> Try DeepGA for supervised learning problem! Check how robust they are against adversarial examples
+
+-- try actinf code combining the loss function! -- use World models models/code perhaps, https://worldmodels.github.io/  -- "We can now use our trained V model to pre-process each frame at time tt into z_tz ​to train our M model." -- They train the models one after the other, given dependences... Makes sense. "In principle, we can train both models together in an end-to-end manner, although we found that training each separately is more practical, and also achieves satisfactory results. Training each model only required less than an hour of computation time using a single NVIDIA P100 GPU. We can also train individual VAE and MDN-RNN models without having to exhaustively tune hyperparameters."
+
+"Furthermore, we see that in making these fast reflexive driving decisions during a car race, the agent does not need to plan ahead and roll out hypothetical scenarios of the future. Since h_th  contain information about the probability distribution of the future, the agent can just query the RNN instinctively to guide its action decisions. Like a seasoned Formula One driver or the baseball player discussed earlier, the agent can instinctively predict when and where to navigate in the heat of the moment. "
+
+"In this simulation, we don’t need the V model to encode any real pixel frames during the hallucination process, so our agent will therefore only train entirely in a latent space environment."
+
+Avoiding catastrophic forgetting by learning loss functions with a neural net, for each of the tasks, and using them as part of the loss when doing new tasks.. Hmm probably won't work.. Could just save the networks trained on the previous tasks and using them as extra labels.. Nah, because inputs likely to be from different distribution..
+
+Best way of evolving hypernets?
+
+Evolve GANs!!
+
+----
+
+Mutar los seeds (tipo 1 por mutacion, y mutar preferentemente los más recientes). 
+
+self-referential nets..
+
+Capsule networks functional maps manifolds. capsule networks inverse graphics <> DrawRNN
+
+codewords to learn text representations
+
+predictive learning. LeCun agreed that reward needs to be intrinsic, and rich – rather than learning from occasional task-specific rewards, AI systems should learn by constantly predicting “everything from everything”, without requiring training labels or a task definition. Once you understand the world (unsupervised/predictive learning) it's much easier to learn how to act (policy/RL)
+
+Measure complexity of policies.
+
+deform graph and reuse spectral representations, to navigate in similar graphs?
+
+param-fun map in rnns Turing complete? Hmm. No, But with hyperrecurrent networks, maybe yes! Giving input to the network, and giving it parameters, merge into a single thing! --> hyperrecurrent network
+
+Evolutionary algos for GANs.
+They are very unstable, indicating gradient information perhaps not that useful..
+Mutations that change only generator or discriminator. Unsupervised learning, is often about self-supervision, but because of lack of external supervision, probably gradients not as useful, and exploration+Occam's razor is better? Hmm. Wolfram agrees that something closer to random search (on program space!) may be better. Demis thinks AGI solutions may be very sparse, better to get as much headway from brain.
+
+Evolutionary strategies with spiking or more general nets. neuroevolution
+
+easily programmable nets. They need to learn concepts/abstract knowledge first #DeepMind
+
+Try random GANs
+RNNs, RL
+
+RG..
+
+supervised learning, can use gradients very effecitvely because of supervision.
+
+try pluggin trained gan to trained cnn to optimize to generate images of particular categories --> seems to work for MNIST. Try multi-objective. Otherwise, just randomly search GAN inputs, as there aren't that many outputs, so easy to find any by random search.. so not that interesting. But with multi-objective (cat+bicycle or whatever) the space grows combinatorially
+
+-----------
+
+When you start making a list of successively harder tasks for AI, and you realize you are writting about the history of life
+
+Tasks
+* Navigate (change location). Need basic understanding of space. Follow gradients, for instance, chemotaxis..
+• Forage. Find food/water. Need memory for this. Need more understanding of space and time. Grid and place cells, hippocampus.
+• Flee. Need very good perception, outlier detection, super good navigation, basics of causality. Attention mechanicsms.
+• Attack/hunt. Need even better navigation. Stealth, super basic theory of mind (I don't want to be heard).
+• Build (change arrangement of objects). Basic world modeling
+• Socialize. More advanced world modeling, and theory of mind
+• Communicate. More advanced socialization
+• Make tools. More advanced world modeling, planning-oriented
+• Make more tools.
+• Make art. Tools for thinking. Thoughts that cause actions that change the world in ways that evoke new thoughts. You start seeing your own thoughts. Metacognition. Self-awareness. Because you realize you can control thoughts, you starting becoming aware of them!
+• Writing. Realize the above can be useful for communication.
+• First technological singularity
+• ..."history"...
+• Try to overcome the limits of biology by reverse engineering yourself.
+
+DeepMind's idea is that you can't just make AI by working on natural language processing (akin to jumping to the communicate, or writting parts), because that thing is built on top of the previous machinery.
+My attempt above was to make a list of things that only rely on things before, so that it makes sense to work on them in that order.
+
+-- make mini brain RL nn, plug to the web
+
+
+----------
+
+why is training when input is +/-1 instead of 0/1 so much worse??
