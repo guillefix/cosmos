@@ -1,13 +1,13 @@
 created: 20171006214632043
 creator: cosmos
-modified: 20171016214555788
+modified: 20180402232943727
 modifier: cosmos
 tags: [[Quotient set]] Coset
 title: Quotient group
 tmap.id: ddcd5834-f433-4dc7-b83f-b457d2cf17b4
 type: text/vnd.tiddlywiki
 
-[[Def|https://www.youtube.com/watch?v=7ou-_sXqatk&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=2#t=36m]]. The set of [[Coset]]s of a [[Group]] $$G$$
+[[Def|https://www.youtube.com/watch?v=7ou-_sXqatk&list=PLLq_gUfXAnknLXjNSnKKLT4LI1AfTy9PS&index=2#t=36m]]. The set of [[Coset]]s of a [[Group]] $$G$$, w.r.t. a [[Normal subgroup]]
 
 Its [[order|Group order]] defines what is caled [[Index of a subgroup]].
 
