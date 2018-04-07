@@ -1,7 +1,7 @@
 created: 20160122225336984
 creator: guillefix
 list-after: Analysis
-modified: 20180313112835825
+modified: 20180406142517906
 modifier: cosmos
 tags: Mathematics
 title: Geometry
@@ -62,3 +62,6 @@ See pages 88 and forth in [[GEB|Godel, Escher, Bach]].
 http://www.engare.design/
 
 http://www.geometrygames.org/
+
+Algorithm to convert a polygon into another one by cutting/folding: 
+https://dmsm.github.io/scissors-congruence/

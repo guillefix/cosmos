@@ -1,6 +1,6 @@
 created: 20160117213221659
 creator: guillefix
-modified: 20161228193037968
+modified: 20180406144719248
 modifier: cosmos
 tags: Blockchain
 title: Ethereum
@@ -26,3 +26,5 @@ Tutorial for a contract example:  https://ethereum.org/token#the-code
 http://www.ethereumoxford.org/tutorials/Tutorial3.html
 
 ''The Wallet: https://github.com/ethereum/mist/releases''
+
+Plasma (possible solution to scalability problem): https://www.google.co.uk/amp/s/www.coindesk.com/ethereum-lightning-buterin-poon-unveil-plasma-scaling-plan/amp/
