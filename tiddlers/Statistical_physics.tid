@@ -1,6 +1,6 @@
 created: 20160117160137931
 creator: guillefix
-modified: 20170914140110145
+modified: 20180410203819254
 modifier: cosmos
 tags: Physics
 title: Statistical physics
@@ -30,6 +30,8 @@ There are two main branches of statistical physics:
 *For a large system which is only slightly out of equilibrium, so that relevant macroscopic averages analogous to those used in thermodynamics can still be defined, one can describe the system using [[Non-equilibrium thermodynamics]]
 
 *For a large system that is considerably out of equilibrium, one has to use the tools of [[Kinetic theory]] to describe it. However, if the system is //very// far from equilibrium, even these may be inappropriate, and finding an appropriate description may be extremely hard. An example of this are systems with strong [[Turbulence]]. Our only approaches to understand these systems are often [[phenomenological]].
+
+[[Intro vid to modern stat phys |https://www.youtube.com/watch?v=ov4KJwX2us0&list=PL04QVxpjcnjhtL3IIVyFRMOgdhWtPn7YJ&index=3]]
 
 ------------------
 

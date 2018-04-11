@@ -1,6 +1,6 @@
 created: 20170517184816964
 creator: cosmos
-modified: 20170717130452749
+modified: 20180410122732930
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Model-free reinforcement learning
@@ -10,6 +10,10 @@ type: text/vnd.tiddlywiki
 See more at [[Reinforcement learning]]
 
 [[summary|https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5#t=1h34m10s]]
+
+[[Simple random search provides a competitive approach to reinforcement learning|https://arxiv.org/pdf/1803.07055.pdf]] -- Our findings contradict the common belief that policy gradient techniques,
+which rely on exploration in the action space, are more sample efficient than methods based on
+finite-differences [25, 26]. In more detail, our contributions are as follows:
 
 
 !__[[Prediction|Policy evaluation]]__
