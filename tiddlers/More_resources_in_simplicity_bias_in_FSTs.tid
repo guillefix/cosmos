@@ -1,7 +1,7 @@
 created: 20160711224637776
 creator: guillefix
-modified: 20161104134329763
-modifier: guillefix
+modified: 20180411133708099
+modifier: cosmos
 title: More resources in simplicity bias in FSTs
 tmap.id: 9ec7ec22-c5c4-4273-984d-174a20ac026a
 type: text/vnd.tiddlywiki
@@ -67,7 +67,7 @@ See [[Random deterministic automata]]
 
 [[On the entropy of a hidden Markov process|http://sci-hub.cc/10.1016/j.tcs.2008.01.012]] -- [[citations|https://scholar.google.co.uk/scholar?cites=15970945639303496057&as_sdt=2005&sciodt=0,5&hl=en]]
 
-[[lempel ziv complexity finite state channel|https://scholar.google.co.uk/scholar?hl=en&q=lempel+ziv+complexity+finite+state+channel&btnG=&as_sdt=1%2C5&as_sdtp=]]
+[ext[lempel ziv complexity finite state channel|https://scholar.google.co.uk/scholar?hl=en&q=lempel+ziv+complexity+finite+state+channel&btnG=&as_sdt=1%2C5&as_sdtp=]]
 [[lempel ziv complexity markov model|https://scholar.google.co.uk/scholar?q=lempel+ziv+complexity+markov+model&btnG=&hl=en&as_sdt=0%2C5]]
 
 <mark>Check what these are!</mark> [[epsilon machines|https://scholar.google.co.uk/scholar?hl=en&q=epsilon+machines&btnG=&as_sdt=1%2C5&as_sdtp=]]

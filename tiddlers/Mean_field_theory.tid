@@ -1,7 +1,8 @@
 created: 20160209154912836
 creator: guillefix
-modified: 20161104134329603
+modified: 20180411120831738
 modifier: cosmos
+tags: [[Statistical field theory]]
 title: Mean field theory
 tmap.id: e4ff52d8-2652-4970-924e-20adcde6e936
 type: text/vnd.tiddlywiki
@@ -9,6 +10,8 @@ type: text/vnd.tiddlywiki
 [[Statistical field theory]] that ignores spatial fluctuations. I.e. just describes the behaviour of the //mean// quantities of interest. Can get such behaviour by applying the method of steepest descents to the partition function.
 
 A mean field model is essentially a simplified model in which ''every degree of freedom finds itself in the same environment as every other''; in other words, ''local spatial fluctuations have been discarded''. It is precisely these fluctuations that drive much of the interesting behavior of many phase transitions, so mean field models are often a poor guide to understanding behavior (called the [[critical behavior|Critical phenomena]])at or near a transition. On the other hand, they’re often fairly reliable at providing insights into thelow-temperature properties of a system—its order parameter and broken symmetry, and the low-energy excitations that determine its thermal properties. 
+
+[[Video|https://youtu.be/ov4KJwX2us0?t=52m11s]]. [[Mean field is typically exact for systems with infinite range interactions|https://youtu.be/ov4KJwX2us0?t=1h1m3s]]
 
 !!!__Approaches__
 

@@ -1,6 +1,6 @@
 created: 20160623202141721
 creator: guillefix
-modified: 20171014161857421
+modified: 20180411133954162
 modifier: cosmos
 tags: [[Simplicity bias]]
 title: Simplicity bias in finite-state transducers
@@ -52,6 +52,22 @@ If we average this quantity for $$n=7,8,9$$, we get $$(4.8+2+1.55)/3 \approx 2.8
 See [[this paper|http://arxiv.org/pdf/1311.0822v1.pdf]] about maximum LZ complexity, which goes like $$l/\log{l}$$ where $$l$$ is length of string.
 
 See [[here|https://www.desmos.com/calculator/2wdnnubk30]] for desmos graph.
+
+-------------
+
+!!__From [[Data compression]] literature__
+
+[[On point-wise redundancy rate of Bender-Wolf's variant of SWLZ algorithm|http://ieeexplore.ieee.org/abstract/document/7606807/]]
+
+[[On the pointwise redundancy of the LZ78 algorithm|http://ieeexplore.ieee.org/abstract/document/1523384/]]
+
+[[Upper bounds on the probability of sequences emitted by finite-state sources and on the redundancy of the Lempel-Ziv algorithm|http://ieeexplore.ieee.org/document/108250/]]
+
+They give results similar to [[Simplicity bias]]/[[Coding theorem method]], but for [[Finite-state source]]s.
+
+[[Universal redundancy rates do not exist|http://ieeexplore.ieee.org/document/212281/]]
+
+[[Redundancy of the Lempel-Ziv codes|http://ieeexplore.ieee.org/abstract/document/613233/]]
 
 -------------------------
 

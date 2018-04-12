@@ -1,13 +1,13 @@
 created: 20160915233608531
 creator: cosmos
-modified: 20161104134328123
+modified: 20180411121455757
 modifier: cosmos
 tags: [[Spin glass]]
 title: Edwards-Anderson Hamiltonian
 tmap.id: 086d1eec-0db5-471b-8e23-5474e701c6c9
 type: text/vnd.tiddlywiki
 
-[[Theory of spin glasses|http://iopscience.iop.org/article/10.1088/0305-4608/5/5/017/meta]] -- [[Theory of spin glasses. II|http://iopscience.iop.org/article/10.1088/0305-4608/6/10/022/meta]] asserted that the essential mechanism underlying spin glass behavior was the presence of both ferromagnetic and antiferromagnetic interactions that were quenched randomly in place.
+[[Theory of spin glasses|http://iopscience.iop.org/article/10.1088/0305-4608/5/5/017/meta]] -- [[Theory of spin glasses. II|http://iopscience.iop.org/article/10.1088/0305-4608/6/10/022/meta]] asserted that the essential mechanism underlying spin glass behavior was the presence of both ferromagnetic and antiferromagnetic interactions that were quenched randomly in place. [[video|https://youtu.be/ov4KJwX2us0?t=1h13m35s]]
 
 place all the spins on a three-dimensional cubic lattice. Then the Edwards-Anderson (hereafter EA) Hamiltonian is 
 

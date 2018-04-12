@@ -1,6 +1,6 @@
 created: 20171023130235008
 creator: cosmos
-modified: 20171218145659050
+modified: 20180411173130660
 modifier: cosmos
 tags: [[Boolean function]]
 title: Threshold Boolean function
@@ -20,3 +20,7 @@ The number of threshold Boolean functions for a given input dimension $$n$$ is n
 ----------------
 
 [[A New Constructive Approach for Creating All Linearly Separable (Threshold) Functions|http://ieeexplore.ieee.org/abstract/document/1716765/]]
+
+---------------------
+
+polynomial threshold boolean function https://arxiv.org/abs/1803.10868
