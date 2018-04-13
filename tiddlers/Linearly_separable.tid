@@ -1,6 +1,6 @@
 created: 20171023125946411
 creator: cosmos
-modified: 20171031145350452
+modified: 20180412104223097
 modifier: cosmos
 tags: [[Linear algebra]]
 title: Linearly separable
@@ -12,6 +12,8 @@ A pair of sets of points in R^n are called linearly separable if there exists a 
 A function from R^n to {0,1} is called linearly separable, if its [[Level set]]s $$f^{-1}(1)$$ and $$f^{-1}(0)$$ are linearly separable. Such a function is also called a ''linear threshold function''
 
 A particular class of these are [[Threshold Boolean function]]
+
+Connections to Assumability etc [[here|http://mailman.srv.cs.cmu.edu/pipermail/connectionists/1990-March/012252.html]]
 
 https://en.wikipedia.org/wiki/Linear_separability
 
