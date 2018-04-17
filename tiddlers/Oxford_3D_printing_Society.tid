@@ -1,15 +1,17 @@
 created: 20160117214235024
 creator: guillefix
-modified: 20170822192949407
+modified: 20180416224300525
 modifier: cosmos
 tags: 3Dprinting Oxford
 title: Oxford 3D printing Society
 tmap.id: 8f2a1a17-6968-4394-b883-804723e08aea
 type: text/vnd.tiddlywiki
 
+now OxRAM
+
 [[Slack channel|https://ox3dp.slack.com]]
 
-[[Website|http://oxford3dprintingsociety.com/]]
+[[Website|http://oxramsociety.com/]]
 
 [[Github repo|https://github.com/guillefix/ox3dp/tree/gh-pages]] Using [[Jekyll]]
 

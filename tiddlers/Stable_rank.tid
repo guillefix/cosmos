@@ -1,0 +1,10 @@
+created: 20180416133805749
+creator: cosmos
+modified: 20180416133919731
+modifier: cosmos
+tags: 
+title: Stable rank
+tmap.id: cf632f4d-b9de-4635-bf09-1830b3c565e5
+type: text/vnd.tiddlywiki
+
+The ''stable rank'' of a matrix is the ratio of its [[Frobenius norm]] squared, and its [[Spectral norm]] squared. Note that it is at most its (linear algebraic) [[rank|Matrix rank]]

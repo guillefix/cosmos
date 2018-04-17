@@ -1,6 +1,6 @@
 created: 20170512224700922
 creator: cosmos
-modified: 20171223193323600
+modified: 20180416110745540
 modifier: cosmos
 tags: [[Deep learning theory]] Generalization
 title: Generalization in deep learning
@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 
 
 See gingkoapp tree: [[Kolmogorov complexity and generalization in deen neural networks|https://gingkoapp.com/app#7abe722f5a31aa3e1000001b]]
+
+https://www.offconvex.org/2018/02/17/generalization2/ -- [[Stronger generalization bounds for deep nets via a compression approach|https://arxiv.org/abs/1802.05296]]. See stability analysis from "Threshold logic and its applications book"
 
 [ext[High-dimensional dynamics of generalization error in neural networks|http://www.people.fas.harvard.edu/~asaxe/papers/Advani,%20Saxe%20-%202017%20-%20High-dimensional%20dynamics%20of%20generalization%20error%20in%20neural%20networks.pdf]] Using random matrix theory and exact so-
 lutions in deep linear models, we derive the generalization error and training error dynamics of
