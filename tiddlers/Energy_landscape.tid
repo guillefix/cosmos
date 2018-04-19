@@ -1,6 +1,6 @@
 created: 20180304195759880
 creator: cosmos
-modified: 20180305155623229
+modified: 20180418124843548
 modifier: cosmos
 tags: [[Deep learning theory]]
 title: Energy landscape
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 //also [[loss|Loss function]] landscapes/surfaces in [[Machine learning]]//
 
 [[Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs|https://arxiv.org/abs/1802.10026]]
+
+[[Loss landscape of neural networks video|https://www.youtube.com/watch?v=78vq6kgsTa8&index=18&list=PLHyI3Fbmv0SdM0zXj31HWjG9t9Q0v2xYN]]
 
 [[Topology and Geometry of Half-Rectified Network Optimization|https://arxiv.org/abs/1611.01540]]
 
