@@ -1,13 +1,13 @@
 created: 20161204145140659
 creator: cosmos
-modified: 20161204153643034
+modified: 20180425215505952
 modifier: cosmos
 tags: Logic
 title: Propositional logic
 tmap.id: e83914aa-3a06-46d4-a443-80418a2ae4fb
 type: text/vnd.tiddlywiki
 
-//propositional calculus//
+//a.k.a. propositional calculus//
 
 A [[Formal system]] that implements working with the logical notions of ''and'' ($$\wedge$$), ''or'' ($$\vee$$), ''not'' $$\sim$$, ''if ... then ...'' ($$\subset$$) (implication), and [[Deduction]] (from propositions to consequences, using ''rules of inference'' encapsulated within $$[...]$$). derived propostions are put within angle brackets $$<$$ and $$>$$.
 

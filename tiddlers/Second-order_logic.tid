@@ -1,0 +1,18 @@
+created: 20180425215307494
+creator: cosmos
+modified: 20180425224911680
+modifier: cosmos
+tags: Logic
+title: Second-order logic
+tmap.id: 8315f128-a1ba-46f6-bc53-ccd3ab1833a9
+type: text/vnd.tiddlywiki
+
+Second-order logic is an extension of [[First-order logic]] where, in addition to variables which can range over objects (elements of the domain class), there are variables which can take [[Predicate]]s as values. This means we can [[quantify|Quantifier]] over predicates too.  //Predicate//s are also called //Properties//, and in set-theoretic [[Semantics]] (see [[Model theory]]), it means subsets of the domain class.
+
+https://math.stackexchange.com/questions/2483821/differentiating-first-second-order-logic
+
+https://plato.stanford.edu/entries/logic-higher-order/
+
+https://math.stackexchange.com/questions/108415/what-is-the-relationship-between-zfc-and-first-order-logic
+
+https://www.lesswrong.com/posts/SWn4rqdycu83ikfBa/second-order-logic-the-controversy

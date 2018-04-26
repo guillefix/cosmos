@@ -1,0 +1,11 @@
+created: 20180425215810211
+creator: cosmos
+modified: 20180425215833175
+modifier: cosmos
+title: Predicate
+tmap.id: 9b6cd4c7-9d83-4730-9b0e-e0f1d8a516ff
+type: text/vnd.tiddlywiki
+
+A predicate takes an entity or entities in the domain of discourse as input and outputs either True or False.
+
+Studied in [[Predicate logic|First-order logic]]

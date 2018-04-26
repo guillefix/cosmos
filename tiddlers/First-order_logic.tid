@@ -1,0 +1,16 @@
+created: 20180425215141658
+creator: cosmos
+modified: 20180425215850664
+modifier: cosmos
+tags: Logic
+title: First-order logic
+tmap.id: cf93d392-aa4b-410b-a20d-2edda9f2455f
+type: text/vnd.tiddlywiki
+
+//aka predicate logic//
+
+An extension of [[Propositional logic]], which adds [[Object]]s, [[Predicate]]s, [[Function]]s, and [[Quantifier]]s
+
+https://www.wikiwand.com/en/First-order_logic
+
+https://www.youtube.com/watch?v=73AUBVOW-sM

@@ -1,10 +1,18 @@
 created: 20160329130937616
 creator: guillefix
-modified: 20161104134329754
-modifier: guillefix
+modified: 20180425224804160
+modifier: cosmos
 tags: [[Mathematical logic]]
 title: Model theory
 tmap.id: 46b178bd-7b8f-418c-a8e6-8bed930ee033
 type: text/vnd.tiddlywiki
+
+//The study of interpretations of language.//
+
+In mathematical model theory, a set of [ext[sentences|https://www.wikiwand.com/en/Sentence_(mathematical_logic)]] in a [[Formal language]] is called a ''theory''; a ''model'' of a theory is a structure (e.g. an interpretation, i.e. //something//) that satisfies the sentences of that theory. By definition of //sentences//, we are considering formal languages which are [[Formal system]]s, typically [[Logic]]s
+
+The nonlogical symbols in the formal system (variables, constants, functions, operators, etc) are called the ''signature''. A [[model|Model (Model theory)]] for the system should have the same signature, that is, give an interpretation to the symbols in the signature of the language.
+
+https://plato.stanford.edu/entries/model-theory/
 
 See also finite model theory
