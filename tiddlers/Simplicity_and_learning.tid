@@ -1,6 +1,6 @@
 created: 20160913070651215
 creator: cosmos
-modified: 20171030154228267
+modified: 20180427161650935
 modifier: cosmos
 tags: Simplicity Learning
 title: Simplicity and learning
@@ -8,6 +8,8 @@ tmap.id: b40144fd-dc54-449a-b6b5-a13c27b3354f
 type: text/vnd.tiddlywiki
 
 See [[Learning theory]], [[Order]] and [[Simplicity bias]]. The simplicity and structure in signals in the real-world is often seized to make the learning problem easier to solve. Can be formalized via [[Learning theory]], [[PAC-Bayesian learning]]
+
+See my paper on [[Simplicity bias in the parameter-function map]]
 
 Applications in [[Inverse problem]]s. For instance, see [[Convex optimization heuristics for linear inverse problems]] and [[Linear inverse problem]]
 

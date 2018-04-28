@@ -1,6 +1,6 @@
 created: 20160913070239061
 creator: cosmos
-modified: 20180418124848350
+modified: 20180427161731562
 modifier: cosmos
 tags: [[Deep learning]] [[Learning theory]]
 title: Deep learning theory
@@ -53,6 +53,12 @@ See more at [[Information bottleneck]]
 [[Exponential expressivity in deep neural networks through transient chaos|http://papers.nips.cc/paper/6322-exponential-expressivity-in-deep-neural-networks-through-transient-chaos]]
 
 [[Resurrecting the sigmoid in deep learning through dynamical isometry: theory and practice|https://arxiv.org/abs/1711.04735]]
+
+!!!__[[Gradients problems in deep learning]]__
+
+[[Vanishing gradients problem]]
+
+[[Exploding gradients problem]]
 
 --------------------------------
 
