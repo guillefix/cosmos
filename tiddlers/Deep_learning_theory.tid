@@ -1,6 +1,6 @@
 created: 20160913070239061
 creator: cosmos
-modified: 20180427161731562
+modified: 20180430144640272
 modifier: cosmos
 tags: [[Deep learning]] [[Learning theory]]
 title: Deep learning theory
@@ -40,6 +40,8 @@ Connections to [[Signal processing]]: https://arxiv.org/abs/1707.00372
 -----------------------
 
 !!__[[Information bottleneck in deep learning]]__
+
+See [[gingkoapp tree|https://gingkoapp.com/app#72f84d34b9dce3b61f00003d]]
 
 [[Information Theory of Deep Learning. Naftali Tishby|https://www.youtube.com/watch?v=bLqJHjXihK8&feature=youtu.be]]
 

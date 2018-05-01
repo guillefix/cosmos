@@ -1,6 +1,6 @@
 created: 20180427161738016
 creator: cosmos
-modified: 20180427163823226
+modified: 20180430140716294
 modifier: cosmos
 tags: [[Deep learning theory]]
 title: Exploding gradients problem
@@ -18,3 +18,5 @@ type: text/vnd.tiddlywiki
 # By using the [[residual trick|https://youtu.be/5v41xjKauY0?t=31m59s]], and then doing [[a Taylor expansion|https://youtu.be/5v41xjKauY0?t=37m42s]] (where we assume residual terms are small), we can reduce the number of layers, while still approximating well, giving a notion of ''effective depth'' (note: depending on for how many layers we do the Taylor expansion, we get different number of layers in the approximate network). [[The effective depth decreases if the residuals are smaller|https://youtu.be/5v41xjKauY0?t=38m42s]].
 
 # [[Therefore error is large|https://youtu.be/5v41xjKauY0?t=39m5s]]. Although for the nets with exploding gradients (and thus small residuals), the depth of the approximate nets is small, they have a lot of layers of nonliearities (with fixed parameters, that's why they are not counted for in the effective depth). These __needlessly randomize the features__, they argue
+
+See [[summary|https://youtu.be/5v41xjKauY0?t=48m16s]]

@@ -1,6 +1,6 @@
 created: 20160130002757424
 creator: guillefix
-modified: 20180329122246748
+modified: 20180430134804239
 modifier: cosmos
 tags: [[Web development]]
 title: Frontend web development
@@ -70,3 +70,7 @@ For microphone input: https://en.wikipedia.org/wiki/WebRTC
 !!!__CMS__
 
 [[Jekyll]]
+
+------------
+
+http://craftyjs.com/
