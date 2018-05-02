@@ -1,13 +1,13 @@
 created: 20180427161738016
 creator: cosmos
-modified: 20180430140716294
+modified: 20180501120701625
 modifier: cosmos
 tags: [[Deep learning theory]]
 title: Exploding gradients problem
 tmap.id: c6075ff4-bc7f-4e2b-927a-5d8249895b46
 type: text/vnd.tiddlywiki
 
-[[video|https://www.youtube.com/watch?v=5v41xjKauY0]]
+[[video|https://www.youtube.com/watch?v=5v41xjKauY0]] -- [[The exploding gradient problem demystified - definition, prevalence, impact, origin, tradeoffs, and solutions|https://arxiv.org/abs/1712.05577]] ([[openreview|https://openreview.net/forum?id=HkpYwMZRb]])
 
 # For some types of nonlinearities/layers, the gradients w.r.t. to parameters at different layers increase with the number of layers (it increases as we go from output to input). ([[See visualization of decision surfaces on parameter space for fixed input|https://youtu.be/5v41xjKauY0?t=21m51s]]
 
@@ -20,3 +20,5 @@ type: text/vnd.tiddlywiki
 # [[Therefore error is large|https://youtu.be/5v41xjKauY0?t=39m5s]]. Although for the nets with exploding gradients (and thus small residuals), the depth of the approximate nets is small, they have a lot of layers of nonliearities (with fixed parameters, that's why they are not counted for in the effective depth). These __needlessly randomize the features__, they argue
 
 See [[summary|https://youtu.be/5v41xjKauY0?t=48m16s]]
+
+[[gingkotree|https://gingkoapp.com/app#72f84d34b9dce3b61f00003d]]
