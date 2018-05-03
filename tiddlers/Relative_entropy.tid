@@ -1,6 +1,6 @@
 created: 20160919220735827
 creator: cosmos
-modified: 20161104134332015
+modified: 20180502130735246
 modifier: cosmos
 tags: [[Information measures]]
 title: Relative entropy
@@ -19,3 +19,5 @@ $$D_{\mathrm{KL}}(P\|Q) = \sum_i P(i) \, \log\frac{P(i)}{Q(i)}.$$
 https://www.wikiwand.com/en/Kullback%E2%80%93Leibler_divergence
 
 https://www.youtube.com/watch?v=QPkb5VcgXAM#t=20m55
+
+the Kullback–Leibler divergence is not a true metric. It does not obey the triangle inequality, and in general DKL(P‖Q) does not equal DKL(Q‖P). However, its infinitesimal form, specifically its Hessian, gives a metric tensor known as the [[Fisher information metric|Fisher information matrix]].
