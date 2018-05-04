@@ -1,6 +1,6 @@
 created: 20160627202335121
 creator: guillefix
-modified: 20180411133928856
+modified: 20180503164558445
 modifier: cosmos
 title: Lempel-Ziv complexity
 tmap.id: 25fe6ed4-4f7b-4e82-90a4-cc76e14bebad
@@ -28,7 +28,9 @@ See also [[Descriptional complexity]]
 
 [[Lempel-Ziv |http://www-math.mit.edu/~shor/PAM/lempel_ziv_notes.pdf]]
 
-!!__Redundancy__
+!!__[[Redundancy|Code redundancy]]__
+
+See [[Universal source coding]]
 
 [[On point-wise redundancy rate of Bender-Wolf's variant of SWLZ algorithm|http://ieeexplore.ieee.org/abstract/document/7606807/]]
 
