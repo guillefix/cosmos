@@ -1,6 +1,6 @@
 created: 20170926105310195
 creator: cosmos
-modified: 20180503164909933
+modified: 20180507135414751
 modifier: cosmos
 tags: [[Data compression]]
 title: Universal source coding
@@ -12,6 +12,8 @@ Methods for data compression, which asymptotically achieve [[optimality|Source c
 [[Lempel-Ziv algorithms]] achieve the [[entropy limit|Source coding theorem]] asymptotically for [[Stationary ergodic process]], as well as for [[Finite-state source]]s (finite stationary [[Markov chain]]s)
 
 See chapter 13 of [[Cover&Thomas]]
+
+[[Universal source coding of binary sources|https://www.youtube.com/watch?v=IDB9DuRPXJU&list=PL23EAE33127972461&index=0]] (see ...)
 
 ---------------------
 
@@ -26,6 +28,13 @@ This minimax redundancy is achieved by a distribution $$q$$ that is at the "cent
 One can construct a [[Communication channel]] {θ, p θ (x), X } with the rows of the transition matrix equal to the different $$p_\theta$$’s, the possible distributions of the source. We will show that the minimax redundancy $$R^*$$ is equal to the [[capacity|Channel capacity]] of this channel, and the corresponding optimal coding distribution $$q^*$$ is the output distribution of this channel induced by the capacity-achieving input distribution! (Theorem by Gallager and Ryabko).
 
 ---------------------------
+
+"In the original paper of Ziv and Lempel [603], the authors described the
+basic LZ77 algorithm and proved that it compressed any string as well
+as any finite-state compressor acting on that string."
+
+So LZ is an optimal compressor over the set of finite state compressors, just like UTMs are over the set of all computable compressors!
+
 
 [[Upper Bounds on the Probability of Sequences Emitted by Finite-State Sources and on the Redundancy of the Lempel- Ziv Algorithm|http://sci-hub.tw/10.1109/18.108250]]
 

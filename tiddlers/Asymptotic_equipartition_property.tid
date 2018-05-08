@@ -1,6 +1,6 @@
 created: 20170418111213772
 creator: cosmos
-modified: 20170421101104390
+modified: 20180507104627665
 modifier: cosmos
 tags: [[Information theory]]
 title: Asymptotic equipartition property
@@ -8,17 +8,17 @@ tmap.id: c07c7597-2d7f-4aa6-8292-095145d3d088
 type: text/vnd.tiddlywiki
 
 
-Uses [[Convergence of random variables]]
+Uses [[Convergence of random variables]]. [[Video|https://www.youtube.com/watch?v=0PJMGIsMW2U&list=PLB39457109F61D4C6&index=1]]
 
 !!__Asymptotic equipartition property for i.i.d. processes__
 
 [img[asymptotic_equipartition_property.jpg]]
 
-[img[asymptotic_equipartition_property_proof.jpg]], using the [[Law of large numbers]]
+[img[asymptotic_equipartition_property_proof.jpg]], using the [[Law of large numbers]] (the [[Weak law of large numbers]] in particular)
 
 We can also define a [[Typical set]]
 
-This can also be understood using the proof I did of the entropy for non-uniform distributions, and using the law of large numbers
+This can also be understood using the proof I did of the entropy for non-uniform distributions, and using [[the law of large numbers|Weak law of large numbers]]
 
 !__For more general stochastic processes__
 

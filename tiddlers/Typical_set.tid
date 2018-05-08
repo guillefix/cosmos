@@ -1,7 +1,8 @@
 created: 20170419195234420
 creator: cosmos
-modified: 20170419203332241
+modified: 20180507110028699
 modifier: cosmos
+tags: [[Information theory]]
 title: Typical set
 tmap.id: df55c21f-4864-4d53-b2b0-68d2bf5443da
 type: text/vnd.tiddlywiki
@@ -25,3 +26,7 @@ See equations 3.7-16 in Els. of info theory book for proofs.
 __High-probability set__
 
 A ''high-probability set'' is defined as the smallest set of strings $$B$$
+
+-----------------------
+
+[[video|https://www.youtube.com/watch?v=HfYvI0mI5fA&index=3&list=PLB39457109F61D4C6]]

@@ -1,10 +1,17 @@
 created: 20170419203511731
 creator: cosmos
-modified: 20170419203550130
+modified: 20180507125149772
 modifier: cosmos
-tags: 
+tags: [[Stochastic process]]
 title: Ergodic process
 tmap.id: d05a01dd-9479-4b45-bd00-aa7c4feab417
 type: text/vnd.tiddlywiki
 
 https://www.wikiwand.com/en/Ergodic_process
+
+In a sense, an ergodic process is the most general dependent process for
+which the [[Strong law of large numbers]] holds. For finite alphabet processes,
+ergodicity is equivalent to the convergence of the kth-order empirical
+distributions to their marginals for all k.
+
+See section 16.8 from Cover&Thomas
