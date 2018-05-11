@@ -1,10 +1,12 @@
 created: 20160911100516584
 creator: cosmos
-modified: 20161104134328845
+modified: 20180510180704407
 modifier: cosmos
 title: Hoeffding's inequality
 tmap.id: ca12d64b-18c3-4991-bf9c-37ff84845ddb
 type: text/vnd.tiddlywiki
+
+concentration inequality
 
 Let $$Z_1, Z_2, ..., Z_m$$ be $$m$$ [[i.i.d.]] Bernoulli($$\phi$$) random variables ($$P(Z_i = 1) = \phi)$$.
 
@@ -15,3 +17,5 @@ $$P(|\phi - \hat{\phi} |> \gamma) \leq 2 \exp{(-2\gamma^2 m)}$$
 [[Video|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=22m30s]] -- [[Intuition|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=24m35s]], similar to [[Central limit theorem]], but this isn't an asymptotic result!
 
 https://www.wikiwand.com/en/Hoeffding's_inequality
+
+[[video|https://www.youtube.com/watch?v=Lyz4ewLefpE&t=50m47s]], where it is applied to proving [[agnostic lernability|Agnostic learning]]
