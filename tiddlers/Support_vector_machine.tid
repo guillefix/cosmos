@@ -1,6 +1,6 @@
 created: 20160709020641282
 creator: guillefix
-modified: 20171130211536764
+modified: 20180511184319567
 modifier: cosmos
 tags: [[Kernel method]]
 title: Support vector machine
@@ -20,6 +20,8 @@ They correspond to [[Kernel method]]s which use the [[Hinge loss]] function. See
 [[Support Vector Machine Intro and Application - Practical Machine Learning Tutorial with Python p.20|https://www.youtube.com/watch?v=mA5nwGoRAOo&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&index=20]]
 
 See page 39 [[here|http://mpawankumar.info/teaching/cdt-optimization/lecture1_2.pdf]], and [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/ML-MT2016/slides/slides09.pdf]], and [[these notes|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/ML-MT2016/lectures/lecture09.pdf]]
+
+[[Generalization bounds|https://youtu.be/T4T63TT-Hy4?list=PL04QVxpjcnjhtL3IIVyFRMOgdhWtPn7YJ&t=21m44s]] -- These bounds seem to not apply to what we observe (see [[Deep learning theory]])
 
 !!__Maximum/Optimal margin classifier__
 

@@ -1,6 +1,6 @@
 created: 20171129120946988
 creator: cosmos
-modified: 20171129200356998
+modified: 20180511183917994
 modifier: cosmos
 tags: [[Hilbert space]] [[Function space]]
 title: Reproducing kernel Hilbert space
@@ -11,29 +11,40 @@ type: text/vnd.tiddlywiki
 
 [[Video|https://www.youtube.com/watch?v=9-oxo_k69qs]] -- [[Video2|https://www.youtube.com/watch?v=e1ittn0B2iQ]] -- [[video3|https://www.youtube.com/watch?v=bBRX3OqNC9c]]
 
-[[Definition|https://www.youtube.com/watch?v=9-oxo_k69qs#t=51m50s]] A Hilbert space with a condition: [[Evaluation functional is continuous|https://www.youtube.com/watch?v=9-oxo_k69qs#t=53m]] for being a reproducing kernel Hilbert space (he missplaced the x, and missed the for all f. See [[here|https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space]] for right definition. Written correctly in [[next lecture|https://www.youtube.com/watch?v=e1ittn0B2iQ]]).
+[[Definition|https://www.youtube.com/watch?v=9-oxo_k69qs#t=51m50s]] A [[Hilbert space]] with a condition: [[Evaluation linear functional at point x is continuous|https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space]]. [[Properties of RKHS and connections|https://youtu.be/e1ittn0B2iQ?t=47m7s]]
 
-[[Properties of RKHS and connections|https://youtu.be/e1ittn0B2iQ?t=47m7s]]
+<small>[[video|https://www.youtube.com/watch?v=9-oxo_k69qs#t=53m]] for being a reproducing kernel Hilbert space (he missplaced the x, and missed the for all f. See [[here|https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space]] for right definition. Written correctly in [[next lecture|https://www.youtube.com/watch?v=e1ittn0B2iQ]]).</small>
 
-__[[Reproducing kernel]] perspective__
 
-It turns out that it is equivalent to having a [[Reproducing kernel]] ([[this is why it's called reproducing kernel|https://youtu.be/9-oxo_k69qs?t=1h14s]]). see [[Theorem|https://youtu.be/9-oxo_k69qs?t=1h14s]]
+!!!__[[Reproducing kernel]] perspective__
 
-Examples: space of functions in [[Dictionary learning]]
+The above condition is equivalent to having a [[Reproducing kernel]]. That is, the Hilbert space has a kernel (that is a function from two copies of the input space to the reals), such that 
 
-[[Band-limited function]]s, and some relaxations of it where kernel is gaussian or exponential.. [[These generalizations are just RKHS with translational invariance kernels|https://www.youtube.com/watch?v=e1ittn0B2iQ#t=37m30s]], very common in signal analysis, etc. These are [[Sobolev space]]s!
+*  the function you get from fixing one argument of the kernel must be a member of the Hilbert space we are considering
 
-[[Spline]]s are also a special case! noice
+* the kernel is reproducing, that is Evaluation is done by inner producting with the kernel function with one argument fixed. see [[Theorem|https://youtu.be/9-oxo_k69qs?t=1h14s]]. 
 
-__[[Feature map]]s perspective__
+Note: feature vectors (see below) and functions in the RKHS are in 1-to-1 correspondence (so they can be seen to be the //same//). They can thus both be seen as the elements of the Hilbert space that is the RKHS.
 
-[[Video|https://youtu.be/bBRX3OqNC9c?t=19m48s]]
+!!!__Positive definite kernel perspective__
 
-In [[Quantum mechanics]], I think the reproducing kernel would be the delta function. Yeah but there one has to work with distributions and harder things.
+An RKHS can be constructed given a kernel, defined to be just a function with two arguments from an input space, to the Reals, with some properties (positive definitiness). See [[here|https://youtu.be/e1ittn0B2iQ?t=1h5m59s]] and [[here|https://youtu.be/e1ittn0B2iQ?t=1h41s]]
 
-Indeed these reproducing kernels can be seen as essentially the inner products of a basis of of functions, which are just the kernels, with one argument fixed.
+!!!__[[Feature map]]s perspective__
 
-Feature maps are like the features in [[Dictionary learning]], but we can have infinitely many, as many as one per point in the input space!
+A feature map is just a map from an input set to a [[Hilbert space]]!
+
+[[Video|https://youtu.be/bBRX3OqNC9c?t=19m48s]] -- [ext[notes|http://www.gatsby.ucl.ac.uk/~gretton/coursefiles/lecture4_introToRKHS.pdf#page=3]]
+
+''Idea'': you map inputs to a feature space (vector of numbers, which could be a function..). This is the feature map. Then you can define functions on inputs by defining them to be vectors in this same space, and defining their evaluation at x to be this vector inner producted with $$\phi(x)$$. The kernel function just tells you the value of the feature map at a point, with the feature map at another point.
+
+>This means that: by just giving an input map, we get an induced RKHS, where the functions are represented (in 1-to-1 correspondence) with linear combinations of feature vectors. The function is really defined by taking the inner product of the feature vector of x with the feature vector representing the function.
+
+See here: [[The RKHS is taken by taking linear combinations of feature functions|https://youtu.be/bBRX3OqNC9c?t=27m29s]] -- see also [ext[here|http://www.gatsby.ucl.ac.uk/~gretton/coursefiles/lecture4_introToRKHS.pdf#page=9]]
+
+A typical kernel is the [[Gaussian kernel]], and in that case the feature map $$\phi(a)$$ is just a [[Gaussian]] centered around $$a$$, namely the function $$Ae^{-(x-a)^2}$$.
+
+Indeed the reproducing kernels can be seen as the inner products of a basis functions/vectors. So the basis functions can be seen as just the kernels, with one argument fixed. One can easily check that the inner product of two Gaussian functions (defined using the usual inner product for functions, which can be gotten by looking at functions as vectors..) is the Gaussian kernel, one can also check that this is a reproducing kernel.
 
 __Connection with [[Regularization]]__
 
@@ -44,3 +55,15 @@ Norm of a function in the space is like a measure of "[[Complexity]]" of that fu
 ------------
 
 Applied to [[Kernel method]]s
+
+!!!__Examples__
+
+Space of functions in [[Dictionary learning]]
+
+[[Band-limited function]]s, and some relaxations of it where kernel is gaussian or exponential.. [[These generalizations are just RKHS with translational invariance kernels|https://www.youtube.com/watch?v=e1ittn0B2iQ#t=37m30s]], very common in signal analysis, etc. These are [[Sobolev space]]s!
+
+[[Spline]]s are also a special case! noice
+
+!!!__Properties of [[Kernel]]s__
+
+[ext[Sums and products of kernels are still kernels|http://www.gatsby.ucl.ac.uk/~gretton/coursefiles/lecture4_introToRKHS.pdf#page=5]]

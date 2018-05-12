@@ -1,0 +1,10 @@
+created: 20180512004715572
+creator: cosmos
+modified: 20180512004955170
+modifier: cosmos
+tags: Mesh
+title: Dual mesh
+tmap.id: 73588ccb-abb3-43ba-93af-15318be543f9
+type: text/vnd.tiddlywiki
+
+A (topological) [[Mesh]] ([[Simplicial complex]]+[[data structure|Geometric data structures]]), in which (n-k)-simplicies become k-simplices connected in a well-defined way that preserves the topology/connectivity of simplices..

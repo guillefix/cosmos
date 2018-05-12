@@ -1,6 +1,6 @@
 created: 20170624130954720
 creator: cosmos
-modified: 20170624131045899
+modified: 20180511235540070
 modifier: cosmos
 tags: [[Normal curvature]]
 title: Euler's formula
@@ -8,3 +8,7 @@ tmap.id: 51756359-3074-45cb-97d2-e3df0ef795d1
 type: text/vnd.tiddlywiki
 
 [[derivation|https://www.youtube.com/watch?v=N569p-maOvM#t=37m]] -- [[final result|https://www.youtube.com/watch?v=N569p-maOvM#t=40m15s]]
+
+------
+
+See also [[Euler characteristic]] for the famous formula called Euler's formula

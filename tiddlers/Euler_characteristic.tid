@@ -1,6 +1,6 @@
 created: 20170804195433126
 creator: cosmos
-modified: 20171024190625934
+modified: 20180512000154505
 modifier: cosmos
 tags: Topology
 title: Euler characteristic
@@ -9,7 +9,11 @@ type: text/vnd.tiddlywiki
 
 number of vertices - number of edges + number of faces
 
-[[Intro|https://www.youtube.com/watch?v=lB6wZFzscOY#t=56m25s]], relating it to the  [[Gauss-Bonnet theorem]] 
+[img width=350 [Euler_formula.png]]
+
+This is called ''Euler's formula''
+
+[ext[Intro|https://www.youtube.com/watch?v=lB6wZFzscOY#t=56m25s]], relating it to the  [[Gauss-Bonnet theorem]] 
 
 It is a [[Topological invariant]].
 
@@ -18,3 +22,9 @@ For a [[CW complex]], it is defined as the number of even-dimensional cells minu
 is since m S 1 has Euler characteristic 1−m . But it
 is a rather nontrivial theorem that the Euler characteristic of a space depends only on
 its [[Homotopy]] type
+
+!!__Euler's formula for triangle meshes__
+
+Each edge is adjacent to two faces.  Each face has three edges. Think of half-edges, etc. For a closed surface, every face has 3 half-edges, so it has 3/2 edges, so $$2E = 3F$$. Often $$E, F, V \gg \chi$$, so that we can use Euler's formula to find that $$F \approx 2V$$, and $$E \approx 3V$$. Average valence of a vertex $$\approx 3$$
+
+See [[here|http://groups.csail.mit.edu/gdpgroup/assets/6838_spring_2017/4_surfaces.pdf#page=41]]

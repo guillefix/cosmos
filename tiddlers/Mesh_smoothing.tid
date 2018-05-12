@@ -1,0 +1,16 @@
+created: 20180512001259046
+creator: cosmos
+modified: 20180512001333992
+modifier: cosmos
+tags: [[Computational geometry]]
+title: Mesh smoothing
+tmap.id: c68d52b2-0f02-46fd-8ec3-c9609c6519bd
+type: text/vnd.tiddlywiki
+
+
+```
+for i=1 to n
+for each vertex v
+v = .5*v +
+.5*(average of neighbors);
+```

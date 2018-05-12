@@ -1,6 +1,6 @@
 created: 20170512224700922
 creator: cosmos
-modified: 20180416110745540
+modified: 20180511193148418
 modifier: cosmos
 tags: [[Deep learning theory]] Generalization
 title: Generalization in deep learning
@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 
 
 See gingkoapp tree: [[Kolmogorov complexity and generalization in deen neural networks|https://gingkoapp.com/app#7abe722f5a31aa3e1000001b]]
+
+--> Even for [[Kernel method]]s, the classical learning theory doesn't predict what we observe (-- [[see here|https://youtu.be/T4T63TT-Hy4?list=PL04QVxpjcnjhtL3IIVyFRMOgdhWtPn7YJ&t=21m44s]]). [[Overparametrization in deep learning|https://youtu.be/T4T63TT-Hy4?list=PL04QVxpjcnjhtL3IIVyFRMOgdhWtPn7YJ&t=53m10s]]
 
 https://www.offconvex.org/2018/02/17/generalization2/ -- [[Stronger generalization bounds for deep nets via a compression approach|https://arxiv.org/abs/1802.05296]]. See stability analysis from "Threshold logic and its applications book"
 
