@@ -1,6 +1,6 @@
 created: 20170617084905179
 creator: cosmos
-modified: 20170927201156144
+modified: 20180512165034515
 modifier: cosmos
 tags: Manifold
 title: Surface
@@ -22,6 +22,8 @@ Examples:
 * [[Sphere]]
 
 Useful theorem to proof things are  regular surfaces: [[Implicit function theorem]]
+
+''Fundamental theorem of surfaces'' ([[Uniqueness result|https://youtu.be/8R9cynsENCw?t=1h41s]]): A smooth surface is determined up to [[Rigid motion]] by its [[first|First fundamental form]] and [[second|Second fundamental form]] fundamental forms.
 
 !!__General 2d [[Manifold]]s__
 

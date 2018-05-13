@@ -1,6 +1,6 @@
 created: 20170629191430309
 creator: cosmos
-modified: 20180512004922522
+modified: 20180512104438729
 modifier: cosmos
 tags: Geometry [[Computer graphics]]
 title: Computational geometry
@@ -42,4 +42,7 @@ Design software ([[Computer-aided design]]).  . Half-edge is a good data structu
 
 [[Volumetric extraction]]. Marching cubes: isosurface extraction
 
-[[Point cloud]]s
+[[Point cloud]]s --
+
+* [[Delaunay triangulation]], "Delaunay Triangulation Based Surface Reconstruction: Ideas and Algorithms"
+* Poisson reconstruction

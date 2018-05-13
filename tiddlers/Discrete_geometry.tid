@@ -1,11 +1,13 @@
 created: 20170506203656327
 creator: cosmos
-modified: 20180512000233885
+modified: 20180512174316040
 modifier: cosmos
 tags: Geometry
 title: Discrete geometry
 tmap.id: 04c64683-2a09-4416-990a-c94d69222536
 type: text/vnd.tiddlywiki
+
+[[Discrete differential geometry]]
 
 
 [ext[http://www.cs.cmu.edu/~kmcrane/]]

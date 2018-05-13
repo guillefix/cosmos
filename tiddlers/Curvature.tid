@@ -1,6 +1,6 @@
 created: 20170506193326682
 creator: cosmos
-modified: 20170629194445932
+modified: 20180512164913608
 modifier: cosmos
 tags: [[Differential geometry]]
 title: Curvature
@@ -18,7 +18,7 @@ __Curvatures of [[curves on surfaces|Curve on a surface]]__
 
 !!__Curvature of [[Surface]]s__
 
-[[Introduction to curvature of surfaces|https://www.youtube.com/watch?v=VELPA0I5MGg#t=45m47s]]
+[[Introduction to curvature of surfaces|https://www.youtube.com/watch?v=VELPA0I5MGg#t=45m47s]] -- [[video from shape analysis course|https://youtu.be/8R9cynsENCw?t=31m3s]]
 
 Definition of the [[Gauss map]]: [[video|https://www.youtube.com/watch?v=VELPA0I5MGg#t=47m]]. 
 
@@ -34,7 +34,7 @@ It is a symmetric endomorphism. It also gives the [[Second fundamental form]]
 
 * [[Line of curvature]]
 
-[[vid|https://www.youtube.com/watch?v=VELPA0I5MGg#t=1h8m55s]]
+[[vid|https://www.youtube.com/watch?v=VELPA0I5MGg#t=1h8m55s]], [[mean and Gaussian curvature|https://www.youtube.com/watch?v=8R9cynsENCw#t=57m40s]]
 
 [[Smoothness properties of these curavtures|https://www.youtube.com/watch?v=N569p-maOvM#t=1h10m]]
 
