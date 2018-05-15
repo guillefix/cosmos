@@ -1,6 +1,6 @@
 created: 20170926105310195
 creator: cosmos
-modified: 20180507135414751
+modified: 20180514155007625
 modifier: cosmos
 tags: [[Data compression]]
 title: Universal source coding
@@ -14,6 +14,8 @@ Methods for data compression, which asymptotically achieve [[optimality|Source c
 See chapter 13 of [[Cover&Thomas]]
 
 [[Universal source coding of binary sources|https://www.youtube.com/watch?v=IDB9DuRPXJU&list=PL23EAE33127972461&index=0]] (see ...)
+
+[[book|http://library1.org/_ads/4027E453F2EAD4359718E8CAB22FD89D]]
 
 ---------------------
 
