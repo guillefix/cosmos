@@ -1,12 +1,12 @@
 created: 20180330145708428
 creator: cosmos
-modified: 20180330145839521
+modified: 20180517213755021
 modifier: cosmos
 tags: [[Statistical learning theory]]
 title: Covering-number generalization error bounds
 tmap.id: 5ea4552e-25cc-4b71-b152-c4fee2a57e15
 type: text/vnd.tiddlywiki
 
-See [[here|https://cstheory.stackexchange.com/questions/40472/pac-learning-bound-with-epsilon-cover-of-hypothesis-class]], proof [ext[here|http://www.cs.berkeley.edu/~bartlett/courses/281b-sp06/lecture23.ps]], uses [[Massat's lemma]] for the [[Rademacher complexity]] of finite [[classes|Hypothesis class]]
+See [[here|https://cstheory.stackexchange.com/questions/40472/pac-learning-bound-with-epsilon-cover-of-hypothesis-class]], proof [ext[here|http://www.cs.berkeley.edu/~bartlett/courses/281b-sp06/lecture23.ps]], uses [[Massat's lemma]] for the [[Rademacher complexity]] of finite [[classes|Hypothesis class]]. See [ext[here|http://www.cs.berkeley.edu/~bartlett/courses/281b-sp06/lecture24.ps]] for version which uses Dudley's entropy/chaining integral.
 
 See also "Generalizations of the PAC model"  by Haussler in the "Mathematics of generalization" book, Theorem 2, for a version of this.
