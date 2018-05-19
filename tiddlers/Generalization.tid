@@ -1,6 +1,6 @@
 created: 20160918174304853
 creator: cosmos
-modified: 20180323191920009
+modified: 20180518174511616
 modifier: cosmos
 tags: [[Learning theory]]
 title: Generalization
@@ -58,3 +58,7 @@ Entropy dependence of generalization in matrix map, learned via [[Logistic regre
 After looking back at some learning theory, I think this pattern can be understood if, for some reason, there are more functions (in the class of matrix map functions) which disagree significantly with the functions with row entropy 0.9, than with other functions. In technical jargon: the VC dimension of the set of epsilon-bad functions relative to functions with entropy 0.9 is larger than for other functions..
 
 See WWIS, emails, etc..
+
+-----------
+
+[[NIPS 2017-Variance-based Regularization with Convex Objectives|https://www.youtube.com/watch?v=2j0rrgr4bUc]] -- //optimal// bias/variance tradeoff, [[Variance-based regularization with convex objectives|https://arxiv.org/abs/1610.02581]]
