@@ -1,12 +1,14 @@
 created: 20170512224700922
 creator: cosmos
-modified: 20180511193148418
+modified: 20180523002345548
 modifier: cosmos
 tags: [[Deep learning theory]] Generalization
 title: Generalization in deep learning
 tmap.id: 3ae55414-1998-44f0-8fb4-9f318db105f7
 type: text/vnd.tiddlywiki
 
+
+[[Deep learning generalizes because the parameter-function map is biased towards simple functions|https://arxiv.org/abs/1805.08522]]
 
 See gingkoapp tree: [[Kolmogorov complexity and generalization in deen neural networks|https://gingkoapp.com/app#7abe722f5a31aa3e1000001b]]
 
