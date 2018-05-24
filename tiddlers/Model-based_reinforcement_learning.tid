@@ -1,6 +1,6 @@
 created: 20170715170752924
 creator: cosmos
-modified: 20170728163057043
+modified: 20180523103952629
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Model-based reinforcement learning
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 
 Solving the [[Bellman equation]]s
 
-
+https://worldmodels.github.io
 
 !!__[[Linear programming]]__
 

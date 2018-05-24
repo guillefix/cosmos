@@ -1,6 +1,6 @@
 created: 20170627174952567
 creator: cosmos
-modified: 20170702115837752
+modified: 20180523221212849
 modifier: cosmos
 tags: [[Differential geometry]]
 title: Theorema Egregium
@@ -18,3 +18,15 @@ That is, if you have two [[Surface]]s $$S$$ and $$S'$$, with Gauss curvatures $$
 |Basically, knowledge of [[Distance]]s determines curvature!|
 
 [[Particular case|https://www.youtube.com/watch?v=j4fLmI0MlnU#t=26m]] of the formula of Gauss curvature in terms of metric coefficients
+
+-----------------
+
+THOREMA EGREGIUM ( https://www.wikiwand.com/en/Theorema_Egregium ). The Moment when our understanding of geometry changed forever. In the 1800s, Gauss was asked to make a perfect map of the Earth (one that preserved angles and distances) by the King of some country. He ended up proving that that was impossible. But the journey to the proof was what really mattered. Because in that journey, he discovered concepts that made him realize that the way people were thinking about geometry were wrong. That proving the V postulate of Euclides from the rest was futile. That *fundamentally different* geometries are possible. But, he was too afraid of the consequences of such revolutionary idea, that he didn't want to push much further. It took Bolya and Lobachevsky, and then Riemann, to have the courage to publish what was came to be known as Non-Euclidean geometry.
+
+In the age of computers, geometry is now taking new forms, graphs, discrete structure. Ephemeral clouds of triangles and tetrahedra, like the Fire of Democritus ( https://en.wikipedia.org/wiki/Atomism#Geometry_and_atoms ). The other mathematical Genius, Euler, founder of the theory of Graphs, comes at us, with his Formula. A clean view on the Theorema Egregium, without a taint of Infinity. A rendition to Finitism, and greek Atomism. But then came Gauss and Bonnet, whose theorem proclaimed their deep relation. Euler's characteristic is but Gauss' infinitesimal curvature integrated over a smooth surface. But what is Euler's characteristic really? For the infinite collection of points that form a continuous surface... Algebraic Topology is the fundamental study of extracting discrete finite structure out of continuous infinite substrate. Infinity is one way or another, the source of most mathematical mystery, it seems.
+
+You may have heard about topology being about studying surface "up to continuous deformations", but how does one get a grasp of the infinite space of possible deformations of a coffee mug? The discrete structures of algebraic topology, like Euler's characteristic are often the answer.
+
+But things go much further, in myriad wonderful diretions...
+
+https://www.youtube.com/watch?v=ztAg643gJBA
