@@ -1,6 +1,6 @@
 created: 20160709004653144
 creator: guillefix
-modified: 20180329144314737
+modified: 20180524180030314
 modifier: cosmos
 tags: [[Statistical inference]] Learning [[Artificial intelligence]] [[Machine learning]]
 title: Learning theory
@@ -10,6 +10,9 @@ type: text/vnd.tiddlywiki
 //the general field of computational learning theory, statistical learning theory, etc; note that these have slightly different connotations/focus//
 
 Mathematical theory of learning, and learning algorithms. See [[Machine learning]], [[Deep learning theory]], [[wiki|https://www.wikiwand.com/en/Computational_learning_theory]].
+
+See [[these notes|https://github.com/damaru2/optimization17/]]. See book and lectures "Understanding machine learning" by Shia
+
 
 [[Statistical learning theory]] -- [[Computational learning theory]]
 

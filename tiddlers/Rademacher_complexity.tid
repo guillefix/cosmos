@@ -1,12 +1,21 @@
 created: 20180518174237094
 creator: cosmos
-modified: 20180518174318056
+modified: 20180524175916721
 modifier: cosmos
 tags: [[Learning theory]]
 title: Rademacher complexity
 tmap.id: 770661b1-76c7-4902-8c7e-eb44dd6a5619
 type: text/vnd.tiddlywiki
 
+The ''Rademacher complexity'' of a set $$T \subseteq \mathbb{R}^m$$ is
+
+$$\mathcal{R}(T) := \mathbf{E}\sup_{t \in T} \frac{1}{m} \sum_{i=1}^m \epsilon_i t_i$$
+
+where $$\epsilon_1, ..., \epsilon_m$$ are [[i.i.d.]] [[Random variable]]s [[uniform|Uniform distribution]] in $$\{-1,1\}$$
+
+An important tool to bound the mean of a supremum of a random process is the Rademacher complexity. 
+
+[img[Rademacher_complexity_and_Lipschitz_function.png]]
 
 [[Video|https://www.youtube.com/watch?v=gR9Q8pS03ZE]]
 
