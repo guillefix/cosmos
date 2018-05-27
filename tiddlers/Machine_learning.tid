@@ -1,6 +1,6 @@
 created: 20160226112409331
 creator: guillefix
-modified: 20180524175958001
+modified: 20180526204103553
 modifier: cosmos
 tags: [[Artificial intelligence]] Learning [[Data science]]
 title: Machine learning
@@ -152,6 +152,10 @@ Other forms of [[Artificial intelligence]], particularly symbolist AI, can be us
 Promising approaches combine several of the paradigms: [[Integrating symbols into deep learning]]
 
 Learning as the inverse of deduction, going from instances to generals. see [[vid|https://www.youtube.com/watch?v=B8J4uefCQMc]]
+
+-----------
+
+[[Mathematics of machine learning|https://ocw.mit.edu/courses/mathematics/18-657-mathematics-of-machine-learning-fall-2015/lecture-notes/]]
 
 ----------------
 

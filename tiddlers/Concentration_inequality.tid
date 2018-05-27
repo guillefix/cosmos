@@ -1,0 +1,18 @@
+created: 20180526183256344
+creator: cosmos
+modified: 20180526183724647
+modifier: cosmos
+tags: [[Probability theory]]
+title: Concentration inequality
+tmap.id: 0467e593-181e-4c70-b12c-2c1ac8e33cdf
+type: text/vnd.tiddlywiki
+
+//aka concentration bound//
+
+Inequalities that tell you that most probability mass in some event space is //concentrated// in some region, so that something in that region occurs [[w.h.p.]]
+
+* [[Markov's inequality]] -- you know the mean
+* [[Chebyshev's inequality]] -- you know the standard deviation
+* [[Hoeffding's inequality]] -- you know it's a sum of independent things
+** See extensions in [[Martingale]]s, where you have a sequence (stochastic process) where things can depend on past things, but the expecation of the future is always the same as the present, and other conditions.
+* [[Bounded differences inequality]]

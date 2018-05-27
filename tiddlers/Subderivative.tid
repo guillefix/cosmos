@@ -1,12 +1,14 @@
 created: 20161026164018316
 creator: cosmos
-modified: 20171130210003281
+modified: 20180526210224126
 modifier: cosmos
 title: Subderivative
 tmap.id: ecaffbab-e9a7-40ff-94a7-f27a90051c19
 type: text/vnd.tiddlywiki
 
 Generalization of the [[Derivative]] where the linear approximation is defined to lie below the function, for [[Convex function]]s, at least..
+
+[img[definition_of_subgradient.PNG]]
 
 See [[here|https://youtu.be/Vm5QE54y6mw?t=1h3m28s]]
 

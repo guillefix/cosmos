@@ -1,0 +1,11 @@
+created: 20180526203327844
+creator: cosmos
+modified: 20180526203502498
+modifier: cosmos
+tags: [[Gradient descent]]
+title: Projected gradient descent
+tmap.id: 98a6e7b1-f5d3-47be-bfb3-45695add8bff
+type: text/vnd.tiddlywiki
+
+
+A version of [[Gradient descent]] to solve [[Constrained optimization]] problems, by applying gradient descent, and projecting to the feasible region (only provably works on convex feasible regions (and with convex objective functions of course..))
