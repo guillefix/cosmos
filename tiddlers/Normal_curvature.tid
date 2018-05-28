@@ -1,12 +1,12 @@
 created: 20170624125327345
 creator: cosmos
-modified: 20170629194223398
+modified: 20180527124042281
 modifier: cosmos
 tags: [[Curvature of a curve]] [[Curve on a surface]]
 title: Normal curvature
 tmap.id: 01cf0295-5477-471f-a627-1f09b7a28969
 type: text/vnd.tiddlywiki
 
-[[definition|https://www.youtube.com/watch?v=N569p-maOvM#t=15m55s]]. Projection of the [[Normal vector of a curve]] into the [[Normal vector to a surface]]. Note that this is an extrinsic notion of the surface, so it needs to be embedded
+[[definition|https://www.youtube.com/watch?v=N569p-maOvM#t=15m55s]]. Projection of the [[Curvature of a curve]] into the [[Normal vector to a surface]]. Note that this is an extrinsic notion of the surface, so it needs to be embedded
 
 [[Euler's formula]]
