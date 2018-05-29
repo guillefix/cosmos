@@ -1,6 +1,6 @@
 created: 20180411124017986
 creator: cosmos
-modified: 20180411124045478
+modified: 20180528132553967
 modifier: cosmos
 tags: Statistics
 title: High-dimensional statistics
@@ -10,3 +10,5 @@ type: text/vnd.tiddlywiki
 [[video|https://youtu.be/Y7BNln2uoEU?t=5m]]
 
 See [[Deep learning]], [[Bayesian deep learning]]
+
+Good [ext[lecture notes|https://www.princeton.edu/~rvan/ORF570.pdf]]

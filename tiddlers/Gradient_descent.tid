@@ -1,6 +1,6 @@
 created: 20160810174239855
 creator: cosmos
-modified: 20180203162657068
+modified: 20180528132801451
 modifier: cosmos
 tags: [[Local optimization]] [[Convex optimization]]
 title: Gradient descent
@@ -13,21 +13,27 @@ Take steps of a size given by the learning rate along the [[Gradient]].
 
 Can prove convergence for [[Convex function]]s
 
-!!![[Newton's method]]
+!!!__[[Stochastic gradient descent]]__
 
-* [[Quasi-Newton method]]
+[[Convergence conditions for gradient descent|https://www.youtube.com/watch?v=Bver7Ttgb9M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=17#t=8m]], to determine ''learning rate''
 
-!!![[Stochastic gradient descent]]
-
-!!![[Convergence conditions for gradient descent|https://www.youtube.com/watch?v=Bver7Ttgb9M&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=17#t=8m]], to determine ''learning rate''
+!!!__Accelerated gradient descent__
 
 Nesterov's accelerated gradient
 
 line-search to find step-size
 
-__Constrained optimization with projection based methods__
+!!!__Second-order method__
 
-Gradient step and project on the surface of the constraint area..
+Methods which use information of second derivative
+
+* [[Newton's method]]
+
+* [[Quasi-Newton method]]
+
+!!!__[[Constrained optimization]] with projection based methods__
+
+[[Projected gradient descent]]: Gradient step and project on the surface of the constraint area..
 
 !!!__Natural gradients__
 
@@ -35,6 +41,40 @@ Gradient step and project on the surface of the constraint area..
 
 [[Natural gradients for deep learning|https://arxiv.org/pdf/1301.3584v7.pdf]]
 
+!!!__[[Subgradient method]]s__
+
+Used when the function is non-[[differentiable|Differentiable function]]
+
+!!!__[[Mirror descent]]__
+
+Used when the space is [[non-Eculidean|Non-Euclidean geometry]]
+
+!!!__[[Coordinate descent]]__
+
+------------
+
 !!__Convergence__
 
+See [[this video|https://www.youtube.com/watch?v=f0qQsz4-o68&list=PLgKuh-lKre11GbZWneln-VZDLHyejO7YD]]
+
+Can prove convergence for [[Convex function]]s
+
 https://twitter.com/gabrielpeyre/status/959715154937221120
+
+See [[these notes|https://github.com/damaru2/optimization17/]]. See end of Chapter 1, and Chapter 2. 
+
+__Black-box model__
+
+Assuming there is an [[Oracle]] that gives you the subgradient of the function.
+
+Here are the convergence rates for [[Projected subgradient descent]]:
+
+[img[convergence_rates_for_projected_subgradient_descent.png]]
+
+[img[Convergence_of_projected_subgradient_descent_for_L_Lipschitz_functions.png]]
+
+These are the lower bounds in the black-box models:
+
+[img[lower_bounds_black_box_model_convex_optimization.png]]
+
+Subgradient descent reaches the lower bound for Lipschitz functions, but not for smooth ones. One need accelarated methods to reach the lower bound for smooth ones.

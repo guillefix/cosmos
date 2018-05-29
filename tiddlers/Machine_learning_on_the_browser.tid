@@ -1,0 +1,12 @@
+created: 20180528182147229
+creator: cosmos
+modified: 20180528182218575
+modifier: cosmos
+tags: 
+title: Machine learning on the browser
+tmap.id: fcfe6905-35ff-415b-989f-d24ea5ee641f
+type: text/vnd.tiddlywiki
+
+Keras.js, deeplearning.js
+
+tensorflow.js (see example [[here|https://glitch.com/edit/#!/hello-tensorflow?path=script.js:26:21]])

@@ -1,6 +1,6 @@
 created: 20161026164018316
 creator: cosmos
-modified: 20180526210224126
+modified: 20180528115602669
 modifier: cosmos
 title: Subderivative
 tmap.id: ecaffbab-e9a7-40ff-94a7-f27a90051c19
@@ -8,8 +8,16 @@ type: text/vnd.tiddlywiki
 
 Generalization of the [[Derivative]] where the linear approximation is defined to lie below the function, for [[Convex function]]s, at least..
 
-[img[definition_of_subgradient.PNG]]
-
 See [[here|https://youtu.be/Vm5QE54y6mw?t=1h3m28s]]
 
 [[Subgradient method]]
+
+-------------
+
+__Subgradient__
+
+[img[definition_of_subgradient.PNG]]
+
+
+Note that here they define the subgradient as a vector that defines a tangent plane (note that a hyperplane can always be uniquely specified by its gradient (and a point on it)).
+This is not a local definition (unlike the definition of subderivative above), and so existence of subgradient at every point implies convexity
