@@ -1,0 +1,20 @@
+created: 20180529145745591
+creator: cosmos
+modified: 20180529150013128
+modifier: cosmos
+tags: Martingale
+title: Doob martingale
+tmap.id: 83882488-bfcc-40ec-b9de-e5f05e5cbea3
+type: text/vnd.tiddlywiki
+
+''Doob martingales''
+
+The [[Balls and bins]] example is a typical Doob martingale. In general, Doob martingales are processes in which we obtain a sequence of improved estimates of the value of a random variable as information about it is revealed progressively. More precisely, suppose that $$Y$$ is a random variable that is a function of random variables $$X_0,X_1,\ldots$$. As we observe the sequence of random variables $$X_0,\ldots,X_n$$, we improve our estimates of $$Y$$. The sequence of the mean estimates
+
+$$ Z_t=E[Y\,|\, X_0,\ldots,X_t], $$
+
+form a martingale with respect to the sequence $$X_0,\ldots,X_n$$ (provided that the $$Z_t$$’s are bounded). Indeed, when we argued that the balls and bins process is a martingale, we used no property of the experiment, therefore the following holds in general
+
+$$ E[Z_{t+1} \,|\, X_0,\ldots,X_t] =E[E[Y\,|\, X_0,\ldots,X_t,X_{t+1}] \,|\, $$ $$X_0,\ldots,X_t]] =E[Y\,|\, X_0,\ldots,X_t] =Z_t. $$
+
+[[Balls and bins]]

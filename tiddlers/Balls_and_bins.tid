@@ -1,0 +1,20 @@
+created: 20180529150014458
+creator: cosmos
+modified: 20180529150023485
+modifier: cosmos
+tags: [[Doob martingale]]
+title: Balls and bins
+tmap.id: 73ca08bb-1a3c-4259-97d4-5086224edd34
+type: text/vnd.tiddlywiki
+
+An example of a [[Doob martingale]]. Suppose that we throw $$m$$ balls into $$n$$ bins independently and uniformly at random. This is one of the most-studied random experiments and we usually ask questions about the expected maximum load or the expected number of empty bins.
+
+Here we consider the expected number of empty bins. Let $$X_i$$ be the random variable representing the bin into which the $$i$$-th ball falls. Let $$Y$$ be a random variable representing the number of empty bins. Then the sequence of random variables
+
+$$ Z_i=E[Y \,|\, X_1,\ldots,X_i] $$
+
+is a martingale. Clearly $$Z_i$$ is a function of the $$X_1,\ldots,X_i$$’s and has bounded expectation. Furthermore
+
+$$ E[Z_{i+1} \,|\, X_1,\ldots,X_i] =E[E[Y \,|\, X_1,\ldots,X_i,X_{i+1}] \,|\, $$ $$X_1,\ldots,X_i] = E[Y \,|\, X_1,\ldots,X_i] = Z_i. $$
+
+We can view $$Z_i$$ as an estimate of $$Y$$ after having observed the outcomes $$X_1,\ldots,X_i$$. At the beginning $$Z_0$$ is a crude estimate, simply the expectation of $$Y$$. As we add more balls to the bins, $$Z_i$$’s give improved estimates of $$Y$$, and at the end we get the exact value $$Z_m=Y$$.

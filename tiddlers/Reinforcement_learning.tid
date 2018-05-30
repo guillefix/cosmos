@@ -1,6 +1,6 @@
 created: 20160428203926307
 creator: guillefix
-modified: 20180301225855529
+modified: 20180529231119885
 modifier: cosmos
 tags: [[Machine learning]] Optimization
 title: Reinforcement learning
@@ -171,6 +171,14 @@ Policy search is usually best when the policy is a simple function of the state 
 Policy search often works well, but is very slow, and is stochastic. Also, because one needs to simulate the MDP, it is trained most often using simulation.
 
 See [[here|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=48m]] for ''Pegasus policy search'', using "scenarios", which look like [[Quenched disorder]]
+
+!!__[[Evolutionary methods|Evolutionary computing]]__
+
+[[Neuroevolution]]
+
+See papers from Uber AI and OpenAI, [[Deep GA]], [[Evolutionary strategies]]
+
+[[Evolutionary Reinforcement Learning|https://arxiv.org/abs/1805.07917]]
 
 ---------------------------------
 
