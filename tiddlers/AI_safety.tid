@@ -1,6 +1,6 @@
 created: 20160622143140539
 creator: guillefix
-modified: 20180522234129987
+modified: 20180530233202316
 modifier: cosmos
 tags: [[AI ethics]]
 title: AI safety
@@ -10,6 +10,10 @@ type: text/vnd.tiddlywiki
 [[Artificial intelligence]]
 
 Read about interesting models and framings for AI safety here: https://docs.google.com/document/d/145yJBoNTYHOJ_FMOO2hO-x2KnJQT45hxhtd0I84HVLE/edit
+
+https://blog.openai.com/debate/
+
+https://maliciousaireport.com 
 
 [[OpenAI - Concrete AI safety problems|https://openai.com/blog/concrete-ai-safety-problems/]] [[paper|https://arxiv.org/abs/1606.06565]]
 

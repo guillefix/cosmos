@@ -1,6 +1,6 @@
 created: 20160117213755457
 creator: guillefix
-modified: 20170710150745678
+modified: 20180530213014863
 modifier: cosmos
 tags: Welcome
 title: Cyberself
@@ -118,3 +118,16 @@ Just as a general reminder, if you haven't watched some of these documentaries, 
 * The Mechanical Universe ... and Beyond
 * Civilization, by Kenneth Clark.
 These (together with Feynman, and GITS) have shaped my philosophy and knowledge very much. One dream of mine is to make something that approaches these in terms of ability to inspire and teach. The world should be fuller of such thoughtful inspiration.
+
+---------------
+
+If you were to PCA me you'd probably get something like
+{Carl Sagan, Richard Feynman, Family, Jason Silva, Jacques Fresco, Ghost in the Shell, Bret Victor, Paco Criado, Jonathan Blow, Jacob Bronowski, Michael Stephens (VSAUCE),...}
+
+And many many more components, with eigenvalues following some sort of power law..
+
+Hmm, no women on the top ones (well... except in Family) :/ The top on the list would probably be Kanno Yoko, a bit later down the list.
+
+--Also, take into account that self-PCA is well-known to be somewhat faulty (as self-introspection generally).
+
+--Also note that the list doesn't necessarily mean these have been the people who have individually influenced me most, but they may just represent a bunch of ideas, not found on the rest, and who have influenced me. Just like PCA

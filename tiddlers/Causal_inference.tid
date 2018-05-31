@@ -1,13 +1,21 @@
 created: 20160808103732379
 creator: cosmos
-modified: 20170905193513637
+modified: 20180530232910811
 modifier: cosmos
-tags: [[Statistical inference]]
+tags: [[Statistical inference]] Causality
 title: Causal inference
 tmap.id: 69a04c16-86e6-4706-af08-858d218254b7
 type: text/vnd.tiddlywiki
 
 [[Causal Inference and Statistical Learning!|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/schoelkopf.pdf]]
+
+[[ML beyond Curve Fitting: An Intro to Causal Inference and do-Calculus|http://www.inference.vc/untitled/]]. you can attempt to perform full causal discovery: attempting to infer the causal model or at least aspects of it, from empirical data.
+
+But the bottom line is: a full causal model is a form of prior knowledge that you have to add to your analysis in order to get answers to causal questions without actually carrying out interventions. 
+
+
+
+---------------
 
 //Learning theory and [[Algorithmic information theory]]//
 
