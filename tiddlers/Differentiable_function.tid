@@ -1,6 +1,6 @@
 created: 20170922150526346
 creator: cosmos
-modified: 20170922150725393
+modified: 20180531143413045
 modifier: cosmos
 tags: Function
 title: Differentiable function
@@ -9,3 +9,7 @@ type: text/vnd.tiddlywiki
 
 
 [[Definition of differentiability of function between differentiable manifolds|https://www.youtube.com/watch?v=PwqmE50hJFY#t=1m55s]]
+
+---------------
+
+[img[Frechet_differentiability.png]]

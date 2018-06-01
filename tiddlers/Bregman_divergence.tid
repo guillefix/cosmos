@@ -1,0 +1,11 @@
+created: 20180531170623119
+creator: cosmos
+modified: 20180531170635696
+modifier: cosmos
+title: Bregman divergence
+tmap.id: c7e50eb2-f12c-4aa3-8b6a-c68debeeb0fc
+type: text/vnd.tiddlywiki
+
+see [ext[here|https://www.stats.ox.ac.uk/~lienart/blog_opti_mda.html]]
+
+used in [[Mirror descent]]

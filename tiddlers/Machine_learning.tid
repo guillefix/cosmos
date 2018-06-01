@@ -1,6 +1,6 @@
 created: 20160226112409331
 creator: guillefix
-modified: 20180526204103553
+modified: 20180531142139404
 modifier: cosmos
 tags: [[Artificial intelligence]] Learning [[Data science]]
 title: Machine learning
@@ -14,6 +14,7 @@ A part of [[Artificial intelligence]] that uses many methods from [[Computer sci
  http://bit.do/oxtorch.
 
 [[Good discussion panel on current ML research (2017)|https://www.youtube.com/watch?v=uyZOcUDhIbY&index=22&list=PLgKuh-lKre12eXz4dnvc8oervo2_Af4iU]]
+-- https://blog.google/topics/machine-learning/introducing-machine-learning-practica/
 
 --[[Book recommendations|https://www.quora.com/Machine-Learning/How-do-I-learn-machine-learning-1]] -- [[another list|http://www.statsblogs.com/2014/12/30/machine-learning-books-suggested-by-michael-i-jordan-from-berkeley/]]
 
@@ -173,3 +174,5 @@ See https://www.youtube.com/watch?v=DHspIG64CVM#t=45m40s
 [ext[http://www.robots.ox.ac.uk/~az/lectures/index.html]]
 
 https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html
+
+https://www.wikiwand.com/en/Transduction_(machine_learning)

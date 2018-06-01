@@ -1,12 +1,18 @@
 created: 20171129165652692
 creator: cosmos
-modified: 20171129170040552
+modified: 20180531143318487
 modifier: cosmos
 tags: [[Vector space]] [[Functional analysis]]
 title: Hilbert space
 tmap.id: 2ce68f28-237a-432a-a365-6afa9bc9fffd
 type: text/vnd.tiddlywiki
 
+http://mathworld.wolfram.com/HilbertSpace.html
+
 [[Definition|https://www.youtube.com/watch?v=9-oxo_k69qs#t=51m50s]]
 
 [[Reproducing kernel Hilbert space]]
+
+------------------
+
+ the [[Riesz representation theorem]] implies that the dual of a Hilbert space is isometrically isomorph to its primal.

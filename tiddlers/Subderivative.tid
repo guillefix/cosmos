@@ -1,6 +1,6 @@
 created: 20161026164018316
 creator: cosmos
-modified: 20180528115602669
+modified: 20180531172517725
 modifier: cosmos
 title: Subderivative
 tmap.id: ecaffbab-e9a7-40ff-94a7-f27a90051c19
@@ -21,3 +21,5 @@ __Subgradient__
 
 Note that here they define the subgradient as a vector that defines a tangent plane (note that a hyperplane can always be uniquely specified by its gradient (and a point on it)).
 This is not a local definition (unlike the definition of subderivative above), and so existence of subgradient at every point implies convexity
+
+[ext[https://www.stats.ox.ac.uk/~lienart/blog_opti_basics.html]]

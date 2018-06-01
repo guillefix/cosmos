@@ -1,6 +1,6 @@
 created: 20160807002358280
 creator: cosmos
-modified: 20180528131122436
+modified: 20180531173843831
 modifier: cosmos
 tags: Optimization [[Convex analysis]]
 title: Convex optimization
@@ -12,6 +12,8 @@ type: text/vnd.tiddlywiki
 ''Convex optimization'' refers to an [[Optimization]] problem in which the objective and constraint functions are both [[convex|Convex function]]. This implies that the domain of the optimization variable is a convex set. The convexity property can make optimization in some sense "easier" than the general case - for example, any local minimum must be a global minimum. It is a generalization of [[Linear programming]]
 
 See [[slides|http://mpawankumar.info/teaching/cdt-optimization/lecture1_2.pdf]], and [[these notes|https://github.com/damaru2/optimization17/]] (in particular Part I)
+
+[ext[https://www.stats.ox.ac.uk/~lienart/blog_optimization.html]]
 
 https://www.wikiwand.com/en/Convex_optimization
 
