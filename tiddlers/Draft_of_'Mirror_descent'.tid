@@ -1,0 +1,34 @@
+created: 20180531143519234
+creator: cosmos
+draft.of: Mirror descent
+draft.title: Mirror descent
+modified: 20180602113357236
+modifier: cosmos
+tags: [[Gradient descent]]
+title: Draft of 'Mirror descent'
+tmap.id: 136af359-630e-4e6e-a687-376df1be629d
+type: text/vnd.tiddlywiki
+
+[ext[https://www.stats.ox.ac.uk/~lienart/blog_opti_mda.html]]
+
+Mirror descent can be derived as GD with a different norm over the domain (where this can be seen when rearranging the usual form of projected GD to isolate a term that depends on the norm, see [ext[here|https://www.stats.ox.ac.uk/~lienart/blog_opti_mda.html]])
+
+Going back to our gradient descent algorithm this means that in general the equation $$x-\eta\nabla f(x)$$ doesn’t make sense, because $$\nabla f(x)$$ is an element of the dual and $$x$$ is an element of the primal. Note that the exception in case of the euclidean norm arises because we can write linear functionals as an appropriate scalar product, see Remark 5.0.1. (More generally, the Riesz representation theorem implies that the dual of a Hilbert space is isometrically isomorph to its primal.) 
+
+''Mirror descent'' allows us to circumvent this problem by mapping the current point of our descent algorithm to its dual, perform the gradient descent step and map back to our primal space. In general there is no guarantee that our new point in the primal space is in our restriction set X and, hence, an additional projection may be required. Summarised we get the following algorithm. 
+
+[img[Mirror_descent.png]]
+
+Uses [[Bregman divergence]]
+
+.......
+
+-----------------
+
+One can apply normal GD on the parameter space of a manifold
+
+One can ask the question of what if I want to take a step of a certain fixed size (what size? Well a natural notion is the size given by the metric, of course), but maximize how much the function changes. 
+
+use Lagrange multipliers
+
+convert covariant vector to contravariant by multipling by metric...

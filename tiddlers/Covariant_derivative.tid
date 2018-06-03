@@ -1,0 +1,14 @@
+created: 20180602105731313
+creator: cosmos
+modified: 20180602112600193
+modifier: cosmos
+tags: [[Differential geometry]]
+title: Covariant derivative
+tmap.id: 6acfa8bb-f715-42f4-963b-ecda79d2ac07
+type: text/vnd.tiddlywiki
+
+Problem: How do we differentiate a vector or tensor field and preserve the tensor property?
+
+[ext[http://www.math.ku.edu/~lerner/GR/Connections.pdf]]
+
+For differentiating scalars, one just the [[Derivative]]. For vector or tensor fields, one needs a [[connection|Connection (Geometry)]].
