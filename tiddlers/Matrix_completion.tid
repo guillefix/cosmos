@@ -1,14 +1,17 @@
 created: 20170104122840361
 creator: cosmos
-modified: 20170104123312178
+modified: 20180608164748036
 modifier: cosmos
+tags: [[Machine learning]]
 title: Matrix completion
 tmap.id: 5a4a30ad-8a6c-42c3-8a0f-939a8ddaa772
 type: text/vnd.tiddlywiki
 
 //aka imputation//
 
-Inferring values of missing entries in data
+Inferring values of missing entries in a matrix of data.
+
+See [ext[here|http://sbubeck.com/BubeckLectureNotes.pdf#page=7]] for definition
 
 !!__[[Image inpainting]]__
 

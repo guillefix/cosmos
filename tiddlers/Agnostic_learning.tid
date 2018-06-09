@@ -1,6 +1,6 @@
 created: 20170306114139469
 creator: cosmos
-modified: 20180225152743893
+modified: 20180608175312998
 modifier: cosmos
 tags: [[Computational learning theory]]
 title: Agnostic learning
@@ -38,3 +38,11 @@ See Wolpert's "The relationship between PAC, the Statistical Physics Framework, 
 We want to bound the sample complexity of uniform convergence
 
 See more at [[Computational learning theory]]
+
+-------------
+
+''Relevance of purely agnostic learning?''
+
+Given that we really care in practice, mostly, about when we will have small training error, so we are close to [[PAC learning|Probably approximately correct]].
+
+It can be useful as a way to prove general bounds (that are still applicable in PAC learning), and also to guarantee that if we have small training error, our hypothesis class is probably not appropriate

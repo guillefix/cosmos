@@ -1,6 +1,6 @@
 created: 20170104115041390
 creator: cosmos
-modified: 20170325151236877
+modified: 20180608233859758
 modifier: cosmos
 tags: [[Computer vision]]
 title: Object detection
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 Finding whether certain objects are present in images, and also where they are in the image.
 
 [[CS231n Lecture 8 - Localization and Detection|https://www.youtube.com/watch?v=_GfPYLNQank&index=8&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg]]
+
+http://zoey4ai.com/2018/05/12/deep-learning-object-detection/
 
 !!__Applications__
 

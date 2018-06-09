@@ -1,14 +1,16 @@
 created: 20170306160617394
 creator: cosmos
-modified: 20171101154530456
+modified: 20180608170634571
 modifier: cosmos
-tags: [[Computational learning theory]]
+tags: [[Learning theory]]
 title: Online learning
 tmap.id: 4c8d5d4b-c22d-4eb0-9e6a-9dd206b45c01
 type: text/vnd.tiddlywiki
 
 
-[[lecture notes|http://courses.cs.washington.edu/courses/cse599s/12sp/scribes.html]]
+This takes the distribution-free bounds of [[Statistical learning theory]] and goes one step further, by assuming that the data does not necessarily follow a distribution at all. Instead we consider it //arbitrary// so that to obtain bounds on the [[Regret (Online learning)]], we need to consider the worst-case data.
+
+[[lecture notes|http://courses.cs.washington.edu/courses/cse599s/12sp/scribes.html]] -- [ext[intro notes|http://sbubeck.com/BubeckLectureNotes.pdf]]
 
 [[Other notes|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/mistakebound-online.pdf]]
 
@@ -16,6 +18,8 @@ Bandit/expert problems
 
 [[Multiarmed Bandits With Limited Expert Advice|http://www.jmlr.org/proceedings/papers/v35/kale14a.pdf]]
 
-[ext[Prediction with Expert Advice|http://www.mit.edu/~9.520/spring08/Classes/online_learning_2008.pdf]]
+[[Prediction with expert advice]]
 
 Can relate to [[Learning boosting]]
+
+he essential difference be-tween online learning and statistical learning, in addition to the sequential aspect,is the fact that no probabilistic assumption is made on the dataset

@@ -1,6 +1,6 @@
 created: 20160726112543988
 creator: guillefix
-modified: 20161104134327496
+modified: 20180608164715401
 modifier: cosmos
 tags: [[Data compression]] Sampling
 title: Compressed sensing
@@ -14,6 +14,8 @@ type: text/vnd.tiddlywiki
 * Sparsity which requires the signal to be sparse in some domain.
 
 * Incoherence which is applied through the isometric property which is sufficient for sparse signals.
+
+See [ext[here|http://sbubeck.com/BubeckLectureNotes.pdf#page=6]] for definition
 
 Basically, as in [[Data compression]], it takes advantage of the order, or [[Randomness deficit]] in the data to sample below the Nyquist-Shannon limit
 
