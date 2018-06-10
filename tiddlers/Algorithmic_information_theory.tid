@@ -1,6 +1,6 @@
 created: 20160308171001447
 creator: guillefix
-modified: 20171128224755161
+modified: 20180609155244657
 modifier: cosmos
 tags: [[Information theory]] Algorithms [[Theoretical computer science]]
 title: Algorithmic information theory
@@ -12,6 +12,8 @@ Algorithmic information theory is an alternative formalization for the notion of
 See [[Descriptional complexity]] and [[MMathPhys oral presentation]]. See also [[Information theory]], [[Theory of computation]], [[Complexity theory]], and [[Computational complexity]]
 
 <mark>Good lecture notes for AIT</mark>: http://www.cse.iitk.ac.in/users/satyadev/a10/a10.html
+
+[[Algorithmic probability and friends|https://link.springer.com/content/pdf/10.1007%2F978-3-642-44958-1.pdf]]
 
 good review: [[ALGORITHMIC INFORMATION THEORY: REVIEW FOR PHYSICISTS AND NATURAL SCIENTISTS|http://algoinfo4u.com/AlgoInfo4u.pdf]]
 

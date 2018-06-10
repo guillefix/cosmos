@@ -1,0 +1,12 @@
+created: 20180609111044483
+creator: cosmos
+modified: 20180609112938432
+modifier: cosmos
+tags: [[Gradient descent]]
+title: Accelerated gradient descent
+tmap.id: 990dc9b7-b474-40bc-bff5-beb2a7f61a00
+type: text/vnd.tiddlywiki
+
+
+
+Achieves lower bounds in time complexity for [[Convex optimization]]

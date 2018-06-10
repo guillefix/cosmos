@@ -1,6 +1,6 @@
 created: 20160825164804507
 creator: cosmos
-modified: 20161104134328676
+modified: 20180609155204623
 modifier: cosmos
 tags: [[Universal AI]]
 title: Godel machine
@@ -10,6 +10,8 @@ type: application/x-tiddler
 The Gödel Machine (Schmidhuber, 2006) is a general paradigm for solving arbitrary problems, including optimization problems and reinforcement learning.
 
 Gödel machines: self-referential universal problem solvers making provably optimal self- improvements.
+
+[ext[paper|ftp://ftp.idsia.ch/pub/juergen/gmAGI.pdf]]
 
 [[Video|https://www.youtube.com/watch?v=mF5-tr7qAF4#t=12m34s]]
 

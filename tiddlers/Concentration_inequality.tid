@@ -1,6 +1,6 @@
 created: 20180526183256344
 creator: cosmos
-modified: 20180529102800685
+modified: 20180609223651411
 modifier: cosmos
 tags: [[Probability theory]]
 title: Concentration inequality
@@ -17,3 +17,9 @@ Inequalities that tell you that most probability mass in some event space is //c
 ** See extensions in [[Martingale]]s, where you have a sequence (stochastic process) where things can depend on past things, but the expecation of the future is always the same as the present, and other conditions.
 * [[Bernstein inequalities]]
 * [[Bounded differences inequality]]
+
+-----------
+
+See [ext[here|https://www.princeton.edu/~rvan/ORF570.pdf#page=9]] for description of the general phenomenon of concentration
+
+[img[concentration_principle_informal.png]]

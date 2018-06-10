@@ -1,6 +1,6 @@
 created: 20160916172705813
 creator: cosmos
-modified: 20180102232219895
+modified: 20180609115731617
 modifier: cosmos
 tags: [[Gradient descent]]
 title: Stochastic gradient descent
@@ -13,7 +13,7 @@ To calculate gradients, for [[Artificial neural network]]s, we use [[Backpropaga
 
 [[Nando's vid|https://www.youtube.com/watch?v=0qUAb94CpOw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=6#t=35m05s]] -- [[Hugo's vid|https://www.youtube.com/watch?v=5adNQvSlF50&index=7&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=6m50s]]
 
-See [[Learning theory]] for more on optimization for learning.
+See [[Learning theory]] for more on optimization for learning. See [[these notes|https://github.com/damaru2/optimization17/]] chapter 8 for convergence uarantees
 
 ,,
 (//Online algorithm//, you process the data sequentially, by chunks. You need this if you do not access to all of it at the same time, or you have so much data that not all of it fits on your RAM..)

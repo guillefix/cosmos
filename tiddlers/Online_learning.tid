@@ -1,6 +1,6 @@
 created: 20170306160617394
 creator: cosmos
-modified: 20180608170634571
+modified: 20180609110205069
 modifier: cosmos
 tags: [[Learning theory]]
 title: Online learning
@@ -14,12 +14,16 @@ This takes the distribution-free bounds of [[Statistical learning theory]] and g
 
 [[Other notes|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/mistakebound-online.pdf]]
 
-Bandit/expert problems
-
-[[Multiarmed Bandits With Limited Expert Advice|http://www.jmlr.org/proceedings/papers/v35/kale14a.pdf]]
-
 [[Prediction with expert advice]]
 
 Can relate to [[Learning boosting]]
 
-he essential difference be-tween online learning and statistical learning, in addition to the sequential aspect,is the fact that no probabilistic assumption is made on the dataset
+he essential difference be-tween online learning and statistical learning, in addition to the sequential aspect,is the fact that no probabilistic assumption is made on the dataset.
+
+Online learnability (worst-case regret) is stronger (it implies) [[PAC learnability|Probably approximately correct]]
+
+__[[Bandit problem]]__
+
+An example of an online learning problem with //limited feedback//: instead of observing the adversary's action, we observe only the incurred loss in the case of bandits.
+
+[[Multiarmed Bandits With Limited Expert Advice|http://www.jmlr.org/proceedings/papers/v35/kale14a.pdf]]

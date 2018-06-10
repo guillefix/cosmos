@@ -1,6 +1,6 @@
 created: 20160810174239855
 creator: cosmos
-modified: 20180528132801451
+modified: 20180609115711984
 modifier: cosmos
 tags: [[Local optimization]] [[Convex optimization]]
 title: Gradient descent
@@ -78,3 +78,7 @@ These are the lower bounds in the black-box models:
 [img[lower_bounds_black_box_model_convex_optimization.png]]
 
 Subgradient descent reaches the lower bound for Lipschitz functions, but not for smooth ones. One need accelarated methods to reach the lower bound for smooth ones.
+
+__Stochastic oracle__
+
+Assume that the oracle yields a random variable which is an unbiased estimator of the gradient (so its expectaction equals the gradient).

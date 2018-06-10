@@ -1,6 +1,6 @@
 created: 20180531143519234
 creator: cosmos
-modified: 20180531184212469
+modified: 20180609111031959
 modifier: cosmos
 tags: [[Gradient descent]]
 title: Mirror descent
@@ -20,3 +20,14 @@ Going back to our gradient descent algorithm this means that in general the equa
 Uses [[Bregman divergence]]
 
 .......
+
+Mirror descent works exponentially better (w.r.t. dimension of solution space) than projected gradient descent, when optimizing on a probability simplex. Can take advantage of [[KL divergence|Relative entropy]] as a good metric.
+
+-----------------
+
+One can apply normal GD on the parameter space of a manifold
+
+But then, one can ask the question of what if I want to take a step of a certain fixed size (how to measure the size of the step? Well a natural notion is the size given by the metric, of course), but maximize how much the function changes. 
+
+can then solve this constrained maximization problem using Lagrange multipliers. The result would be a direction given by the inverse metric tensor multiplied by the gradient. This makes sense because the inverse metric tensor converts covariant vectors to contravariant ones..
+

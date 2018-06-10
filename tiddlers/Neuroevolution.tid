@@ -1,6 +1,6 @@
 created: 20170315220423706
 creator: cosmos
-modified: 20180529231144768
+modified: 20180609160229816
 modifier: cosmos
 tags: [[Evolutionary computing]] Neuroscience Evolution [[Reinforcement learning]]
 title: Neuroevolution
@@ -11,6 +11,9 @@ type: text/vnd.tiddlywiki
 [[HyperNEAT]]
 
 [[Evolving Regular, Modular Neural Networks|https://www.youtube.com/watch?v=Tx1G4BNd4dw]] [[another|https://www.youtube.com/watch?v=Kd6XmR_UePY]]
+
+https://eng.uber.com/accelerated-neuroevolution/ -- 
+"Accelerating Deep Neuroevolution: Train Atari in Hours on a Single Personal Computer! What took ~1 hour on 720 CPUs now takes only ~4 hours on a *single* modern desktop. Code is open source. Awesome work by @felipesuch with @kenneth0stanley "
 
 ------------------------
 
