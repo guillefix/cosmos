@@ -1,6 +1,6 @@
 created: 20180526183735131
 creator: cosmos
-modified: 20180526184540061
+modified: 20180610182529402
 modifier: cosmos
 tags: [[Concentration inequality]]
 title: Bounded differences inequality
@@ -18,3 +18,5 @@ $$\mathbf{P}(h(Z_1,...,Z_m) \geq \mathbf{E}h(Z_1,...,Z_m)+t) \leq \exp{\left(-\f
 or, equivalently, with probability at least $$1-\delta$$ we have
 
 :$$h(Z_1,...,Z_m) \leq \mathbf{E}h(Z_1,...,Z_m) + c\sqrt{\frac{m}{2}\log{\frac{1}{\delta}}}$$
+
+See version using variance [ext[here|https://www.princeton.edu/~rvan/ORF570.pdf#page=22]]

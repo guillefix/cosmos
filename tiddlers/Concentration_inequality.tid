@@ -1,6 +1,6 @@
 created: 20180526183256344
 creator: cosmos
-modified: 20180609223651411
+modified: 20180610192019071
 modifier: cosmos
 tags: [[Probability theory]]
 title: Concentration inequality
@@ -14,9 +14,11 @@ Inequalities that tell you that most probability mass in some event space is //c
 * [[Markov's inequality]] -- you know the mean
 * [[Chebyshev's inequality]] -- you know the standard deviation
 * [[Hoeffding's inequality]], [[Chernoff bound]] -- you know it's a sum of independent things
-** See extensions in [[Martingale]]s, where you have a sequence (stochastic process) where things can depend on past things, but the expecation of the future is always the same as the present, and other conditions.
+** See extensions in [[Martingale]]s ([[Azuma-Hoeffding inequality]]), where you have a sequence (stochastic process) where things can depend on past things, but the expecation of the future is always the same as the present, and other conditions.
 * [[Bernstein inequalities]]
-* [[Bounded differences inequality]]
+* [[Poincare inequalities]] (of the general form $$variance(f) \lesssim \mathbf{E}[||gradient(f)||^2]$$, see [ext[here|https://www.princeton.edu/~rvan/ORF570.pdf#page=25]])
+** [[Bounded differences inequality]]
+** [[Tensorization of variance]]
 
 -----------
 
