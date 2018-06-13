@@ -1,6 +1,6 @@
 created: 20160122231301724
 creator: guillefix
-modified: 20180308232159937
+modified: 20180612225830456
 modifier: cosmos
 tags: [[Mathematical software]] [[Philosophy of mathematics]] Explorable [[Concrete mathematics]]
 title: AugMath
@@ -9,7 +9,8 @@ type: text/vnd.tiddlywiki
 
 Interactive computer algebra system. http://guillefix.me/augmath
 
-Nice related software: https://github.com/trebor/algebranch#algebranch
+Nice similar software: https://graspablemath.com/canvas --
+ https://github.com/trebor/algebranch#algebranch 
 
 __Get examples from here__: https://brilliant.org/
 
