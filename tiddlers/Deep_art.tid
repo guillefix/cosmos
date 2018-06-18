@@ -1,6 +1,6 @@
 created: 20160709025157181
 creator: guillefix
-modified: 20180107154416831
+modified: 20180617105311444
 modifier: cosmos
 tags: [[Digital art]]
 title: Deep art
@@ -12,6 +12,8 @@ type: text/vnd.tiddlywiki
 https://nips2017creativity.github.io/
 
 Machine-learning extrapolation of art: http://extrapolated-art.com/
+
+ASCII art with deep CNN https://github.com/OsciiArt/DeepAA
 
 https://deepart.io/
 
