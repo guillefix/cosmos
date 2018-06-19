@@ -1,14 +1,15 @@
 created: 20170426232727642
 creator: cosmos
-modified: 20180112121627274
+modified: 20180618101741687
 modifier: cosmos
 tags: [[Machine learning]] [[Nonparametric regression]]
 title: Kernel method
 tmap.id: 65458cd1-01c6-486c-8e93-3abccb5c32b0
 type: text/vnd.tiddlywiki
 
-
 [[intro video|https://www.youtube.com/watch?v=6AWZS4Ho2Z8&list=PLyGKBDfnk-iDj3FBd0Avr_dLbrU8VG73O#t=31m25s]]
+
+Here we are looking at kernel classification, there is also kernel regression...
 
 [[Machine learning]] methods which use a [[Hypothesis space]] (set of functions it considers as an output) which is a [[Reproducing kernel Hilbert space]]. These can be quite expresive. They are often used in conjunction with regularization, which makes their training/optimization linear! (by the representer theorem). They are also nonparametric (when chosing infinite dimensional function/feature spaces), which has nice properties.
 
@@ -57,3 +58,7 @@ Kernel methods can be seen as generalizations of  [[Nearest-neighbour classifica
 [[Spline]]s
 
 https://en.wikipedia.org/wiki/Kernel_method
+
+------------
+
+[img[connection_between_kernel_based_methods.png]]
