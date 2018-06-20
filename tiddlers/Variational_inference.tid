@@ -1,9 +1,22 @@
 created: 20170105190631185
 creator: cosmos
-modified: 20170105191000447
+modified: 20180619192612201
 modifier: cosmos
+tags: [[Statistical inference]]
 title: Variational inference
 tmap.id: 804f87d9-8036-4bb6-a49c-9fe26cd60be4
 type: text/vnd.tiddlywiki
 
-Reduces inference to an optimization problem. Inference (short of [[Statistical inference]]), refers to finding some value depending on an a-posteriori distribution in a probabilistic model, like a [[Graphical model]]. However, posterior distributions are often hard to compute explicitly, and an approximate method is needed. One such method consists on finding an approximate representation of the distribution, and minimizing the [[KL divergence|Relative entropy]] with the real distribution, in some way.
+Reduces inference to an optimization problem. Inference (short of [[Statistical inference]]), refers to finding some value depending on an a-posteriori distribution in a probabilistic model, like a [[Graphical model]]. However, posterior distributions are often hard to compute explicitly, and an approximate method is needed. One such method consists on finding an approximate representation of the distribution, and minimizing the [[KL divergence|Relative entropy]] with the real distribution, in some way, usually via the [[Evidence lower bound]] (ELBO)
+
+See [ext[here|https://arxiv.org/pdf/1601.00670.pdf]].
+
+when used for [[Bayesian inference]] (typically the case), it's often specified as Bayesian variational inference
+
+The interesting thing is that the KL divergence/ELBO is defined via a in integral over the latent/hidden variables, which is precisely the thing that we assumed was hard, and the reason to use variational inference! However, we can use samples instead of the integation and use [[Stochastic optimization]] (like [[Stochastic gradient descent]]). But we could have used sampling for the original integral! Or we could have used [[Monte Carlo]] methods ([[MCMC|Markov Chain Monte Carlo]]! The nontrivial thing here is that using stochastic optimization gives good answer in with much fewer samples than when approximating the integral in naive Bayesian inference (the denominator..). It is also typically more scalable (efficient for large datasets) than MCMC methods. 
+
+To understand this would require analysis of MCMC, Monte Carlo integration, and stochastic optimization.
+
+!!__Applications__
+
+[[Variational autoencoder]]

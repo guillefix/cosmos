@@ -1,6 +1,6 @@
 created: 20170325144453634
 creator: cosmos
-modified: 20180329122321593
+modified: 20180619204339054
 modifier: cosmos
 tags: [[Artificial intelligence]]
 title: Natural language understanding
@@ -20,6 +20,8 @@ Automatically make timelines from unsttructured text http://www.cs.ubc.ca/labs/i
 !!__Dialogue systems__
 
 https://github.com/deepmipt/DeepPavlov?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=The%20Wild%20Week%20in%20AI
+
+https://www.research.ibm.com/artificial-intelligence/project-debater/research.html
 
 ------------------
 

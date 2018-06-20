@@ -1,6 +1,6 @@
 created: 20160130233608424
 creator: guillefix
-modified: 20171128215102924
+modified: 20180619195819125
 modifier: cosmos
 tags: Algorithms [[Complexity theory]]
 title: Computational complexity
@@ -55,6 +55,8 @@ Turns out that #P is //at least// as powerful as NP, and BQP.
 BPP = P ?
 
 !!__Computational complexity of [[Quantum algorithm]]s__
+
+https://blog.computationalcomplexity.org/2018/06/bqp-not-in-polynomial-time-hierarchy-in.html?m=1
 
 BQP ? 
 
