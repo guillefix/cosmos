@@ -1,6 +1,6 @@
 created: 20171023143453623
 creator: cosmos
-modified: 20180619205115848
+modified: 20180620094710569
 modifier: cosmos
 tags: [[Probabilistic model]] [[Regression analysis]]
 title: Gaussian process
@@ -16,3 +16,9 @@ Efficient up to about 100,000 data points
 https://en.wikipedia.org/wiki/Gaussian_process
 
 See section 4.3 in Murphy's book (Machine learning - a probabilistic perspective) to see the derivation of the fact that the marginal distribution of a subset of variables from a larger set of random variables which have a [[Gaussian joint distribution|Multivariate Gaussian]]. This is why the Gaussian process property (that the values at any set of points have joint Gaussian distribution) corresponds to a Gaussian prior over functions ([[Gaussian random field]]; [[field|Physical field]] with quadratic energy functional..; see [[Path integral]] )
+
+----------------
+
+[[Deep Neural Networks as Gaussian Processes|https://arxiv.org/abs/1711.00165]]
+
+[[Gaussian Process Behaviour in Wide Deep Neural Networks|https://arxiv.org/abs/1804.11271]]

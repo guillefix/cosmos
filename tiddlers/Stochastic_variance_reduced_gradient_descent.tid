@@ -1,0 +1,12 @@
+created: 20180620083950947
+creator: cosmos
+modified: 20180620085140726
+modifier: cosmos
+tags: [[Stochastic gradient descent]]
+title: Stochastic variance reduced gradient descent
+tmap.id: 817ca3fa-0263-4e0b-b74d-bd3c6f3be5de
+type: text/vnd.tiddlywiki
+
+A version of [[Stochastic gradient descent]] that has faster convergence guarantees
+
+[ext[https://cs.stanford.edu/~ppasupat/a9online/1321.html]] -- https://github.com/damaru2/optimization17/
