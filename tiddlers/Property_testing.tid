@@ -1,0 +1,12 @@
+created: 20180622102815381
+creator: cosmos
+modified: 20180622102841881
+modifier: cosmos
+tags: [[Theoretical computer science]]
+title: Property testing
+tmap.id: 22e951b7-64c1-469d-8772-74dafb8f630d
+type: text/vnd.tiddlywiki
+
+//aka sublinear time algorithms//
+
+[[Linearity testing]]

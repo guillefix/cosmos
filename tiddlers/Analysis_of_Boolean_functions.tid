@@ -1,0 +1,18 @@
+created: 20180622100218816
+creator: cosmos
+modified: 20180622100435530
+modifier: cosmos
+tags: [[Boolean function]]
+title: Analysis of Boolean functions
+tmap.id: 9a892319-bd66-4c34-add5-3834fb61fdc4
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=JIruJ8edYYM&index=1&list=PLm3J0oaFux3YypJNaF6sRAf2zC1QzMuTA
+
+[[Fourier decomposition of Boolean functions]] ([[Harmonic analysis of Boolean functions]]) -- decomposition as a [[Multilinear polynomial]], which always exists and is unique. 
+
+[[Parseval's theorem]], [[Plancherel theorem]]
+
+[[Convolution theorem]] also generalizes, etc.
+
+[[Linearity testing]]
