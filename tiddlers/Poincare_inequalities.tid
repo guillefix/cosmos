@@ -1,0 +1,15 @@
+created: 20180628133656367
+creator: cosmos
+modified: 20180628155622910
+modifier: cosmos
+tags: [[Concentration inequality]]
+title: Poincare inequalities
+tmap.id: 59c1ac59-2945-430b-85bd-ee5357dda18f
+type: text/vnd.tiddlywiki
+
+(of the general form $$variance(f) \lesssim \mathbf{E}[||gradient(f)||^2]$$, see [ext[here|https://www.princeton.edu/~rvan/ORF570.pdf#page=25]])
+* [[Bounded differences inequality]]
+* [[Tensorization of variance]]
+
+
+See [[this video|https://www.youtube.com/watch?v=tT00oKP4lk4&list=PLm3J0oaFux3YypJNaF6sRAf2zC1QzMuTA&index=4#t=6m]] for simple derivation of the Poincare inequality for [[Boolean function]]s and also funcitons from the hypercube to the reals. This is like a discrete [[Isoperimetric inequality]]

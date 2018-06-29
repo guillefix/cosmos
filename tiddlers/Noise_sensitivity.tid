@@ -1,0 +1,22 @@
+created: 20180628140002328
+creator: cosmos
+modified: 20180628155533740
+modifier: cosmos
+tags: Sensitivity
+title: Noise sensitivity
+tmap.id: 1a95fd2d-abc8-481f-8557-ce43dbda3f78
+type: text/vnd.tiddlywiki
+
+Probability that output changes for a uniformly random input, when changing each bit with probability $$\epsilon$$ (called //noise rate//). This is like the mutation model in the [[Wright-Fisher model]]. See [[this video|https://youtu.be/tT00oKP4lk4?t=10m29s]]
+
+[[Upper bounds on noise sensitivity gives upper bounds on average sensitivity|https://www.youtube.com/watch?v=HIKTt9vaElM#t=14m55s]]. [[The converse is true for degree d PTFs|https://youtu.be/HIKTt9vaElM?t=15m23s]]
+
+[[This has applications to learning|https://www.youtube.com/watch?v=HIKTt9vaElM&feature=youtu.be&t=16m35s]]. Upper bound on noise sensitivity implies Fourier concentration, kind of smoothness.. And this is related to learning algorithms. Their results implies that the class of degree d PTFs is [[agnostic lernable|Agnostic learning]] in polynomial time.
+
+[[Regularity lemma and pseudorandom generators for PTFs|https://www.youtube.com/watch?v=HIKTt9vaElM&feature=youtu.be&t=29m10s]] -- [[PRG|https://youtu.be/HIKTt9vaElM?t=34m48s]]. version of central limit theorem still holds for weakly indpedenent random variables. They show that these weakly dependent distributions (generated from PRGs) fools the class of linear threshold functions. Meaning that the expectation of the linear threshold function when inputs are under this pseudorandom distribution, this expectation is epsilon-close to the expectation when inputs are truly unfiromly distributed (see [[here|https://youtu.be/HIKTt9vaElM?t=38m12s]]). They then use this to show that CLT also holds for these weakly dependent PR distributions. Results of this kind are called [[Derandomization]].
+
+These PR distributions have small support (seeds are much smaller than output space).
+
+Also related quantity is the ''noise stability''  ([[def|https://www.youtube.com/watch?v=tT00oKP4lk4&list=PLm3J0oaFux3YypJNaF6sRAf2zC1QzMuTA&index=4#t=20m]])
+
+[[Fourier formula for noise stability|https://youtu.be/tT00oKP4lk4?t=47m58s]]
