@@ -1,0 +1,26 @@
+created: 20180630205748721
+creator: cosmos
+modified: 20180630205820874
+modifier: cosmos
+tags: Internet
+title: Mobile broadband
+tmap.id: 21dcbdda-2145-4630-a5f8-bb4d72b3b300
+type: text/vnd.tiddlywiki
+
+https://www.wikiwand.com/en/Mobile_broadband
+
+-----------
+
+Decided to look a bit into the reasons for bad mobile signal in UK.  https://www.theguardian.com/technology/2016/dec/16/why-is-the-uks-mobile-phone-coverage-so-bad 
+
+" Lower-frequency bands, particularly under 1GHz, travel further and are better at penetrating buildings, while higher-frequency bands carry more data. The ideal situation for any mobile phone company (and its customers) is to have a range of bands so it can provide both wide coverage and fast speeds. However, the UK government has been criticised for not doing enough to make sure each operator got a large slice of lower-frequency bands."
+
+"the other big issue for improving coverage is even more thorny – the UK’s planning laws.
+
+The closer to a mobile mast you are, the better and more reliable your connection, and the more masts an operator has, the better the coverage they can offer. But rules such as how high a mast can be, and where it can be built, make life difficult for operators and the companies they pay to manage their network.
+
+Add in local concerns about the (unproven) health impacts of living near a mast, and occasionally belligerent landowners charging fees for access or denying it altogether, and the process of putting up more masts can be lengthy and costly."
+
+NIC has recommended universal service obligation for operators for no later than 2025.
+
+I wonder how things have changed since 2016. Also, I wonder how other countries compare

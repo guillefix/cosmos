@@ -1,0 +1,46 @@
+created: 20180630215625318
+creator: cosmos
+modified: 20180630230525677
+modifier: cosmos
+tags: [[Reinforcement learning]]
+title: Advances in reinforcement learning
+tmap.id: 2f247bea-32bb-47b6-ab61-1fd2e5d375c4
+type: text/vnd.tiddlywiki
+
+
+
+[[Deep reinforcement learning]]
+
+!!__[[Curiosity-driven RL]]__
+
+!!__[[Model-based reinforcement learning]]__
+
+!!__Theory of RL__
+
+[[Comparing humans with the best Reinforcement Learning algorithms|https://www.youtube.com/watch?v=Ol0-c9OE3VQ]] -- this demonstrates that our RL algorithms don't have the same priors that we humans use for learning
+
+AlphaZero
+
+-----------
+
+
+https://blog.openai.com/openai-five/
+
+This is quite impressive. Could they beat the top pro players by this August?
+
+"OpenAI Five plays 180 years worth of games against itself every day, learning via self-play. It trains using a scaled-up version of Proximal Policy Optimization running on 256 GPUs and 128,000 CPU cores" 
+２５６ ＧＰＵｓ ａｎｄ １２８，０００ ＣＰＵ ｃｏｒｅｓ
+
+This indicates that reinforcement learning can yield long-term planning with large but achievable scale — without fundamental advances
+
+Each of OpenAI Five’s networks contain a single-layer, 1024-unit LSTM that sees the current game state (extracted from Valve’s Bot API) and emits actions through several possible action heads. Each head has semantic meaning, for example, the number of ticks to delay this action, which action to select, the X or Y coordinate of this action in a grid around the unit, etc. Action heads are computed independently.
+
+"To avoid “strategy collapse”, the agent trains 80% of its games against itself and the other 20% against its past selves." This sounds similar to the "double learning" used in DQN, which enhances exploration.
+
+To force exploration in strategy space, during training (and only during training) we randomized the properties (health, speed, start level, etc.) of the units, and it began beating humans/
+
+We postprocess each agent’s reward by subtracting the other team’s average reward to prevent the agents from finding positive-sum situations.
+
+Teamwork is controlled by a hyperparameter we dubbed “team spirit”. Team spirit ranges from 0 to 1, putting a weight on how much each of OpenAI Five’s heroes should care about its individual reward function versus the average of the team’s reward functions. We anneal its value from 0 to 1 over training.
+
+Our system is implemented as a general-purpose RL training system called Rapid

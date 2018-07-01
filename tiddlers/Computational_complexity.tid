@@ -1,6 +1,6 @@
 created: 20160130233608424
 creator: guillefix
-modified: 20180619195819125
+modified: 20180630214105595
 modifier: cosmos
 tags: Algorithms [[Complexity theory]]
 title: Computational complexity
@@ -77,3 +77,5 @@ See [[Algorithmic information theory]]
 https://www.wikiwand.com/en/Structural_complexity_theory
 
 [[Computational complexity and philosophy]]
+
+https://www.wikiwand.com/en/PCP_theorem
