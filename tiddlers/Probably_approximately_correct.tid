@@ -1,6 +1,6 @@
 created: 20170116162816600
 creator: cosmos
-modified: 20170311120935775
+modified: 20180704125231217
 modifier: cosmos
 tags: [[Computational learning theory]]
 title: Probably approximately correct
@@ -181,6 +181,16 @@ Get an ensemble of hypotheses, by changing our input data to the algorithm in di
 See [[Computational learning theory]] for variations on the basic PAC learning framework.
 
 [[Uniform convergence|https://www.youtube.com/watch?v=iknI2iga9ps#t=56m45s]], main tool to proving results about PAC learnability
+
+------------
+
+!!!__Learning band-limited Boolean functions__
+
+See [[Analysis of Boolean functions]]
+
+See [[this video|https://www.youtube.com/watch?v=khdENXBe1tM]] for how to learn Boolean functions which have their Fourier coefficients concentrated in some terms.
+
+[[Similar result to Occam algorithms|https://www.youtube.com/watch?v=khdENXBe1tM&list=PLm3J0oaFux3YypJNaF6sRAf2zC1QzMuTA&index=5#t=46m]]
 
 ---------
 

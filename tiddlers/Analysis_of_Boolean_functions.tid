@@ -1,6 +1,6 @@
 created: 20180622100218816
 creator: cosmos
-modified: 20180622100435530
+modified: 20180704142836405
 modifier: cosmos
 tags: [[Boolean function]]
 title: Analysis of Boolean functions
@@ -16,3 +16,13 @@ https://www.youtube.com/watch?v=JIruJ8edYYM&index=1&list=PLm3J0oaFux3YypJNaF6sRA
 [[Convolution theorem]] also generalizes, etc.
 
 [[Linearity testing]]
+
+!!__[[Learning Boolean functions]]__
+
+See [[Probably approximately correct]] and [[Learning theory]]
+
+See [[this video|https://www.youtube.com/watch?v=khdENXBe1tM]] for how to learn Boolean functions which have their Fourier coefficients concentrated in some terms.
+
+[[Similar result to Occam algorithms|https://www.youtube.com/watch?v=khdENXBe1tM&list=PLm3J0oaFux3YypJNaF6sRAf2zC1QzMuTA&index=5#t=46m]] (learning functions with spectrum concentrated at low degree).
+
+Proposition: A Boolean function is $$\epsilon$$ concentrated up to degree [[total influence|Sensitivity]] of f / $$\epsilon$$ -- [[Every monotone functions is concentrated on degree up to O(sqrt(n))|https://youtu.be/khdENXBe1tM?t=51m43s]]

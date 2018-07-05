@@ -1,6 +1,6 @@
 created: 20171128121014938
 creator: cosmos
-modified: 20180628135954425
+modified: 20180704130207392
 modifier: cosmos
 tags: Function [[Boolean function]]
 title: Sensitivity
@@ -24,6 +24,12 @@ There are a variety of precise notions, mostly defined for [[Boolean function]]s
 [[Regularity lemma and pseudorandom generators for PTFs|https://www.youtube.com/watch?v=HIKTt9vaElM&feature=youtu.be&t=29m10s]] -- [[PRG|https://youtu.be/HIKTt9vaElM?t=34m48s]]. version of central limit theorem still holds for weakly indpedenent random variables. They show that these weakly dependent distributions (generated from PRGs) fools the class of linear threshold functions. Meaning that the expectation of the linear threshold function when inputs are under this pseudorandom distribution, this expectation is epsilon-close to the expectation when inputs are truly unfiromly distributed (see [[here|https://youtu.be/HIKTt9vaElM?t=38m12s]]). They then use this to show that CLT also holds for these weakly dependent PR distributions. Results of this kind are called [[Derandomization]].
 
 These PR distributions have small support (seeds are much smaller than output space).
+
+!!![[Fourier formula for the total influence|https://youtu.be/tT00oKP4lk4?t=3m27s]]
+
+[[Fourier formula for the total influence for monotone functions|https://youtu.be/42ofUBEozzQ?t=1h11m10s]]!
+
+[[Poincare inequalities]]
 
 -----------------
 
