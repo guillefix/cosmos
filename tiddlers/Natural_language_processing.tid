@@ -1,6 +1,6 @@
 created: 20160405190342383
 creator: guillefix
-modified: 20171001204837781
+modified: 20180708011319117
 modifier: cosmos
 tags: Language
 title: Natural language processing
@@ -44,6 +44,8 @@ Word vectors: see [[Processing our own Data - Deep Learning with Neural Networks
 ---------------------------
 
 [[Visual question/answering system|http://iamaaditya.github.io/2016/04/visual_question_answering_demo_notebook]]
+
+http://foldr.moe/wordpet/
 
 !!__Software for NLP__
 
