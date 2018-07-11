@@ -1,6 +1,6 @@
 created: 20180628133656367
 creator: cosmos
-modified: 20180628155622910
+modified: 20180710172029044
 modifier: cosmos
 tags: [[Concentration inequality]]
 title: Poincare inequalities
@@ -8,6 +8,7 @@ tmap.id: 59c1ac59-2945-430b-85bd-ee5357dda18f
 type: text/vnd.tiddlywiki
 
 (of the general form $$variance(f) \lesssim \mathbf{E}[||gradient(f)||^2]$$, see [ext[here|https://www.princeton.edu/~rvan/ORF570.pdf#page=25]])
+
 * [[Bounded differences inequality]]
 * [[Tensorization of variance]]
 

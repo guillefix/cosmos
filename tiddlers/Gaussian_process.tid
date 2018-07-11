@@ -1,6 +1,6 @@
 created: 20171023143453623
 creator: cosmos
-modified: 20180620094710569
+modified: 20180710120228889
 modifier: cosmos
 tags: [[Probabilistic model]] [[Regression analysis]]
 title: Gaussian process
@@ -19,6 +19,8 @@ See section 4.3 in Murphy's book (Machine learning - a probabilistic perspective
 
 ----------------
 
-[[Deep Neural Networks as Gaussian Processes|https://arxiv.org/abs/1711.00165]]
+[[Relationships between Gaussian processes, Support Vector machines and Smoothing Splines|https://pdfs.semanticscholar.org/3e38/092b962bcb430fdcebf1407d1299adb1a10b.pdf]] -- [[Support vector machine]] --[[Spline]]s
+
+[[Deep Neural Networks as Gaussian Processes|https://arxiv.org/abs/1711.00165]] -- Extensions for [[CNN|Convolutional neural network]]s
 
 [[Gaussian Process Behaviour in Wide Deep Neural Networks|https://arxiv.org/abs/1804.11271]]

@@ -1,6 +1,6 @@
 created: 20160825115715029
 creator: cosmos
-modified: 20161104134328983
+modified: 20180710115604669
 modifier: cosmos
 tags: Learning
 title: Induction
@@ -22,3 +22,5 @@ __Principles__
 * [[Principle of multiple explanations]]
 
 See more at [[Universal inductive inference]]
+
+See also [[Deduction]], [[Transduction]]

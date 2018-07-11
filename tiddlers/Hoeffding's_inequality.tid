@@ -1,7 +1,8 @@
 created: 20160911100516584
 creator: cosmos
-modified: 20180510180704407
+modified: 20180710172457134
 modifier: cosmos
+tags: [[Concentration inequality]]
 title: Hoeffding's inequality
 tmap.id: ca12d64b-18c3-4991-bf9c-37ff84845ddb
 type: text/vnd.tiddlywiki
@@ -19,3 +20,5 @@ $$P(|\phi - \hat{\phi} |> \gamma) \leq 2 \exp{(-2\gamma^2 m)}$$
 https://www.wikiwand.com/en/Hoeffding's_inequality
 
 [[video|https://www.youtube.com/watch?v=Lyz4ewLefpE&t=50m47s]], where it is applied to proving [[agnostic lernability|Agnostic learning]]
+
+Very similar to the [[Chernoff bound]]
