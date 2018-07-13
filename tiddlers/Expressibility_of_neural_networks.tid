@@ -1,11 +1,13 @@
 created: 20170430130643047
 creator: cosmos
-modified: 20180116122337231
+modified: 20180712174715216
 modifier: cosmos
 tags: [[Neural network theory]]
 title: Expressibility of neural networks
 tmap.id: 921d2a77-eb19-48a0-bb1a-c616a0e4aa78
 type: text/vnd.tiddlywiki
+
+[[Universal approximation theorem|https://youtu.be/Zq2PiNys6fs]]
 
 !!!__Neural networks are can approximate any smooth function__
 

@@ -1,6 +1,6 @@
 created: 20170418111213772
 creator: cosmos
-modified: 20180507104627665
+modified: 20180712145710122
 modifier: cosmos
 tags: [[Information theory]]
 title: Asymptotic equipartition property
@@ -14,7 +14,7 @@ Uses [[Convergence of random variables]]. [[Video|https://www.youtube.com/watch?
 
 [img[asymptotic_equipartition_property.jpg]]
 
-[img[asymptotic_equipartition_property_proof.jpg]], using the [[Law of large numbers]] (the [[Weak law of large numbers]] in particular)
+[img[asymptotic_equipartition_property_proof.jpg]], using the [[Law of large numbers]] (the [[Weak law of large numbers]] in particular). See also [[Hoeffding's inequality]] for a non asymptotic result
 
 We can also define a [[Typical set]]
 

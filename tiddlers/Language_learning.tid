@@ -1,6 +1,6 @@
 created: 20160909073728650
 creator: cosmos
-modified: 20161104134329276
+modified: 20180712232357532
 modifier: cosmos
 tags: Language Learning
 title: Language learning
@@ -22,3 +22,10 @@ Usage-based theories are far from offering a complete ac­­count of how languag
 http://www.scientificamerican.com/article/evidence-rebuts-chomsky-s-theory-of-language-learning/
 
 http://groups.csail.mit.edu/mac/users/gjs/yip/learning-2col.pdf
+
+[[Word learning as Bayesian inference|http://web.mit.edu/cocosci/Papers/cogsci00_FINAL.pdf]]
+
+--------------------
+
+Yep I think that AI research is and will be shinning light on how language works / is developed. I liked this one from DeepMind: https://www.youtube.com/watch?v=wJjdu1bPJ04&feature=youtu.be (paper: https://arxiv.org/pdf/1706.06551.pdf ). Where an agent learns from scratch to associate symbols (words) to things and properties of things (like color, position, shape). Methods for clustering like the one on the high-dimensionality video are also very interesting, as they show how one can learn to group things together into "concepts".
+Very interesting research about this is mentioned in this talk by Joshua Tenenbaum https://youtu.be/97MYJ7T0xXU?t=9m18s

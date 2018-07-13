@@ -1,0 +1,16 @@
+created: 20180712145740972
+creator: cosmos
+modified: 20180712150248124
+modifier: cosmos
+tags: [[Statistical inference]]
+title: Maximum entropy principle
+tmap.id: 4d6f9c2b-660b-4c36-825a-ecb97c6a6b15
+type: text/vnd.tiddlywiki
+
+[[Video|https://www.youtube.com/watch?v=PVirThf1iyY#t=1h20m]]
+
+A principle of statistical inference for [[inferring probability distributions|Density estimation]] when we know [[moments|Moment (mathematics)]] of the distribution. It states that we should look for the distribution which maximizes [[Entropy]] while satisfying the moment contraints. This problem has an analytic solution in terms of [[Lagrange multiplier]]s, as a [[Gibbs distribution|Boltzmann distribution]].
+
+https://www.wikiwand.com/en/Principle_of_maximum_entropy
+
+[[The key problem is to find the appropriate moments to measure/estimate|https://www.youtube.com/watch?v=PVirThf1iyY#t=1h31m30s]]
