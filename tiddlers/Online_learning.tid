@@ -1,6 +1,6 @@
 created: 20170306160617394
 creator: cosmos
-modified: 20180609110205069
+modified: 20180713205218466
 modifier: cosmos
 tags: [[Learning theory]]
 title: Online learning
@@ -27,3 +27,12 @@ __[[Bandit problem]]__
 An example of an online learning problem with //limited feedback//: instead of observing the adversary's action, we observe only the incurred loss in the case of bandits.
 
 [[Multiarmed Bandits With Limited Expert Advice|http://www.jmlr.org/proceedings/papers/v35/kale14a.pdf]]
+
+-------------------
+----------------------
+
+Adversarial online learning is about being probability-free, but solution requires stochastic agent, so needs probability at the end..
+
+Is the usefulness of adversarial/agnostic analyses that they tend to imply non-worst case learnability often..?
+
+Adversarial analysis of the agent. we have control over it. Doesn't make so much sense

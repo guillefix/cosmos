@@ -1,6 +1,6 @@
 created: 20170818162808470
 creator: cosmos
-modified: 20170818162834908
+modified: 20180713210443156
 modifier: cosmos
 tags: [[Machine learning]]
 title: Curriculum learning
@@ -14,3 +14,5 @@ We used an adaptive curriculum in which training examples for each mini-batch ar
 quency proportional to the model’s current prediction error for the corresponding program. Specif-
 ically, we set the sampling frequency using a softmax over average prediction error across all pro-
 grams, with configurable temperature.  In [[here|https://arxiv.org/pdf/1511.06279.pdf]]. This is exactly my advSGD idea...
+
+Related to [[Game level design]]

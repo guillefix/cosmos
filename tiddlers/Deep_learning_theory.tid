@@ -1,6 +1,6 @@
 created: 20160913070239061
 creator: cosmos
-modified: 20180511184327808
+modified: 20180713212153161
 modifier: cosmos
 tags: [[Deep learning]] [[Learning theory]]
 title: Deep learning theory
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 
 //Better understanding the shortcomings and potential of deep learning may suggest ways of improving it, both to make it more capable and to make it more robust [2].//
 
-Nice lecture videos: https://www.researchgate.net/project/Theories-of-Deep-Learning
+Nice lecture videos: https://www.researchgate.net/project/Theories-of-Deep-Learning -- https://stats385.github.io/readings
 
 [[A Theoretical Framework for Deep Learning Networks|https://www.youtube.com/watch?v=YVjvRvvVn4w]]
 
@@ -26,6 +26,8 @@ Nice lecture videos: https://www.researchgate.net/project/Theories-of-Deep-Learn
 [[Why and when can deep - but not shallow - networks avoid the curse of dimensionality: a review|https://arxiv.org/pdf/1611.00740.pdf]], see also [[Expressibility of neural networks]]
 
 The approximation of functions with a compositional structure – can be achieved with the same degree of accuracy by deep and shallow networks but that the number of parameters are much smaller for the deep networks than for the shallow network with equivalent approximation accuracy.
+
+[[Lectures from Beg Rohu 2018 summer school|https://www.youtube.com/channel/UCuuXUxfZlPTfvKxGdzXLEIw]]
 
 See [[Generalization in deep learning]]
 
@@ -158,11 +160,15 @@ See also [[Simplicity and learning]]
 
 !!!-->[[Theoretical neuroscience and deep learning theory|http://videolectures.net/deeplearning2016_ganguli_theoretical_neuroscience/]]
 
+--> Francois Chollet. Ablation studies are a good idea when we don't have much theory.. For world models, apparently LSTM even with random weights work well <<--
+
 ---------------------
 
 [[Integrating symbols into deep learning]]
 
 ---------------------------
+
+[img[deep_learning_autoencdoer_thonk_emoji.jpg]]
 
 //More resources//
 

@@ -1,0 +1,25 @@
+created: 20180713210444905
+creator: cosmos
+modified: 20180713212051230
+modifier: cosmos
+tags: [[Game development]]
+title: Game level design
+tmap.id: 7387db4a-21e8-4d31-81ce-1eaaaa026685
+type: text/vnd.tiddlywiki
+
+Particularly, [[Puzzle design]]
+
+Can use [[Deep learning]] approaches..
+
+-------------
+
+Automatic curriculum learning looks very cool. Sounds like automatic game level generation too.
+"The automatic curriculum we propose is based on the observation that the goals that provide the best learning signal are the ones that can be reached sometimes but not always. " https://sites.google.com/view/goalgeneration4rl
+
+--------------
+
+Related to [[Curriculum learning]]
+
+--------
+
+https://twitter.com/yindie?lang=en (game level design with deep learning)

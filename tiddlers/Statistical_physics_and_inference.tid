@@ -1,6 +1,6 @@
 created: 20170420161906055
 creator: cosmos
-modified: 20180327113655524
+modified: 20180713203605737
 modifier: cosmos
 tags: [[Information, computation and physics]] [[Statistical inference]]
 title: Statistical physics and inference
@@ -13,7 +13,7 @@ type: text/vnd.tiddlywiki
 
 See lectures on statistical physics of inference:
 
-[[From information theory to learning via Statistical Physics: Introduction: by Florent Krzakala|https://www.youtube.com/watch?v=i0N6mn9L-GA&index=6&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu]]
+[[From information theory to learning via Statistical Physics: Introduction: by Florent Krzakala|https://www.youtube.com/watch?v=i0N6mn9L-GA&index=6&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu]] . [[Lectures from Beg Rohu 2018 school|https://www.youtube.com/channel/UCuuXUxfZlPTfvKxGdzXLEIw]]
 
 !!!__[[Phase transitions in machine learning]]__
 
@@ -34,6 +34,8 @@ And book on "mathematics of generalization"
 [[Solvable Model of Unsupervised Feature Learning|https://www.youtube.com/watch?v=BzbhXnLQ22s]]
 
 [ext[Learning to generalize|http://www.ki.tu-berlin.de/fileadmin/fg135/publikationen/opper/Op01.pdf]]
+
+[[Statistical physics of learning from examples: a brief introduction|https://inis.iaea.org/search/search.aspx?orig_q=RN:28022292]]
 
 ----------------
 

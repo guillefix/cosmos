@@ -1,6 +1,6 @@
 created: 20180630215625318
 creator: cosmos
-modified: 20180630230525677
+modified: 20180713211916130
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Advances in reinforcement learning
@@ -15,13 +15,23 @@ type: text/vnd.tiddlywiki
 
 !!__[[Model-based reinforcement learning]]__
 
+https://buff.ly/2KOUbFO -- MCTS approaches really seem like the best we have for AI problems beyond perception.
+
 !!__Theory of RL__
 
 [[Comparing humans with the best Reinforcement Learning algorithms|https://www.youtube.com/watch?v=Ol0-c9OE3VQ]] -- this demonstrates that our RL algorithms don't have the same priors that we humans use for learning
 
 AlphaZero
 
+--------
+
+
+https://www.youtube.com/watch?v=Ol0-c9OE3VQ Interesting. This research quite undeniably demonstrates that our RL algorithms lack the priors that we use for learning. And that is bad when learning human-related tasks, but can be good in other cases (No Free Lunch!!). Most future AGIs will have rather different priors than us, and will specialize at things like quantum mechanics, relativity, algebraic geometry. They will dream in those things, and they will find our world very unintuitive :) Perhaps there will also be superintelligences which while being slightly worse at some things than us, will be much better at most relevant things than us.
+Also, nice channel
+
 -----------
+
+[[Evolving Multimodal Robot Behavior via Many Stepping Stones with the Combinatorial Multi-Objective Evolutionary Algorithm|https://arxiv.org/abs/1807.03392]]
 
 
 https://blog.openai.com/openai-five/

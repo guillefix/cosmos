@@ -1,6 +1,6 @@
 created: 20160622143140539
 creator: guillefix
-modified: 20180609160322602
+modified: 20180713212303597
 modifier: cosmos
 tags: [[AI ethics]]
 title: AI safety
@@ -35,3 +35,9 @@ https://medium.com/@francois.chollet/what-worries-me-about-ai-ed9df072b704
 -----------
 
 https://aiimpacts.org/likelihood-of-discontinuous-progress-around-the-development-of-agi/
+
+------------------
+
+!!__[[Adversarial example]]s__
+
+What is the simplest way to attack a model. Justin Glimer. Security of ML model is about test error basically. Defend against attackers trying random stuff to fool model. [[VIDEO|https://www.youtube.com/watch?v=kgTocVLNvYI]]

@@ -1,6 +1,6 @@
 created: 20170820184957625
 creator: cosmos
-modified: 20170821094821085
+modified: 20180713211635146
 modifier: cosmos
 tags: [[Deep learning]]
 title: Symbolic deep learning
@@ -11,6 +11,10 @@ type: text/vnd.tiddlywiki
 See [[Integrating symbols into deep learning]], [[Augmented RNN]]s, [[Neural programmer-interpreter]]
 
 [[Neural Programming by Example|https://arxiv.org/abs/1703.04990]]
+
+https://deepmind.com/blog/measuring-abstract-reasoning/
+
+[[RAAIS 2018 - François Chollet, Software Engineer at Google Brain|https://www.youtube.com/watch?v=2L2u303FAs8]]
 
 -----------
 

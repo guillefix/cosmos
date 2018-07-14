@@ -1,11 +1,13 @@
 created: 20160406164853743
 creator: guillefix
-modified: 20180322105913948
+modified: 20180713211845928
 modifier: cosmos
 tags: [[Artificial intelligence innovation]]
 title: New advances in deep learning
 tmap.id: e02512fa-e9cf-4761-abd6-5be637f3ea17
 type: text/vnd.tiddlywiki
+
+review/position paper on giving neural nets the right biases -- https://arxiv.org/abs/1806.01261
 
 2017 updates: http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/
 
@@ -13,7 +15,9 @@ DeepMind publications: https://deepmind.com/research/publications/
 
 Conferences: [[ICLR|http://iclr.cc/doku.php?id=iclr2017:schedule]], NIPS
 
-Transformer networks. https://research.googleblog.com/2017/08/transformer-novel-neural-network.html
+Transformer networks. https://research.googleblog.com/2017/08/transformer-novel-neural-network.html -- New: Universal Transformers networks
+
+[[Attention is all you need]]..
 
 [[Generative adversarial network]]s, etc.
 

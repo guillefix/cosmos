@@ -1,6 +1,6 @@
 created: 20170104134853688
 creator: cosmos
-modified: 20180330140243740
+modified: 20180713211257147
 modifier: cosmos
 tags: [[Computational learning theory]]
 title: No free lunch theorem
@@ -60,3 +60,9 @@ To give a description of the training set (which elements are in the training se
 
 >All models are wrong, but some models are useful. — George Box (Box and Draper 1987,
 p424).12
+
+------------------
+
+Just like I blame the 2nd law for my room being messy, now I blame the No Free Lunch theorem whenever I'm not good at something: "No Free Lunch! One can't be good at everything!" "I'm just good at other things", "in average we are just as good", etc
+
+#mathematicallyjustifiedexcuses

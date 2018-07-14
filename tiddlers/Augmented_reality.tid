@@ -1,8 +1,8 @@
 created: 20161102001339743
 creator: cosmos
-modified: 20180608222733491
+modified: 20180713231539906
 modifier: cosmos
-tags: [[Virtual reality]]
+tags: [[Human-computer interaction]]
 title: Augmented reality
 tmap.id: 2e2ddb05-26f4-4255-a119-653731cef38c
 type: text/vnd.tiddlywiki
@@ -21,9 +21,13 @@ http://prostheticknowledge.tumblr.com/post/165272325616/world-brush-app-being-de
 
 Mira Prism
 
-!!!__Hardware__
+!!__Hardware__
 
 https://www.xda-developers.com/qualcomm-spectra-2nd-generation-cameras/
+
+!!![[Leap Motion NorthStar]] 
+
+http://blog.leapmotion.com/north-star-open-source/?utm_source=Leap+Motion+Newsletter&utm_campaign=e32958f3ec-Newsletter_192_COPY_01&utm_medium=email&utm_term=0_f0a6fbd89e-e32958f3ec-68507613 -- https://github.com/leapmotion/ProjectNorthStar -- https://developer.leapmotion.com/northstar
 
 !!__Software__
 
@@ -43,10 +47,17 @@ Multiuser AR: https://twitter.com/jesseringrose/status/1004909833001160704
 
 -------------------
 
+!!![[Niantic real world platform|https://www.youtube.com/watch?v=SCWa4OtSS4g&index=7&list=PLht6tyws1YpSOGz2k6bUC1PibVG7ZiRFB]] -- Mapping the Real World to the centimeter resolution is a requirement for an AR world. Machine Understanding is also a big part. 
+
+Matri. Matrix mill. Escher reality.
+MonoDepth
+DeepAR.ai
+
 https://www.youtube.com/watch?v=QVgiHOmYqZc
 
 http://mashable.com/2017/07/27/apple-ar-glasses-patent/#qQn0U8bchmqA
 
+See also [[Virtual reality]]
 
 ----------------
 

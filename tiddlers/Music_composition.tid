@@ -1,6 +1,6 @@
 created: 20161122230034271
 creator: cosmos
-modified: 20171126201418707
+modified: 20180713211041210
 modifier: cosmos
 tags: Music
 title: Music composition
@@ -13,10 +13,10 @@ Also, [[Music production]]
 
 https://www.audiotool.com/
 
-!!__Assisted music composition__
+!!__[[Assisted music composition]]__
 
 [[NSynth|https://magenta.tensorflow.org/nsynth]]
 
-!!__Algorithmic music composition__
+!!__[[Algorithmic music composition|Music generation]]__
 
 http://tinyrave.com/

@@ -1,6 +1,6 @@
 created: 20160130233509868
 creator: guillefix
-modified: 20170926230233660
+modified: 20180713211122146
 modifier: cosmos
 tags: [[Computer Science and IT]] [[Theoretical computer science]]
 title: Algorithms
@@ -8,6 +8,8 @@ tmap.id: 34ff2654-81dd-4c3d-8133-79e68d230563
 type: text/vnd.tiddlywiki
 
 Also called //imperative knowledge// in [[Computer science]]
+
+[[Arcane Algorithm Archive Introduction|https://www.youtube.com/watch?v=Er6opt2yJWw]]
 
 [[Analysis of algorithms]]
 
