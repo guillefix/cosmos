@@ -1,13 +1,13 @@
 created: 20170426232727642
 creator: cosmos
-modified: 20180618101741687
+modified: 20180720142756828
 modifier: cosmos
 tags: [[Machine learning]] [[Nonparametric regression]]
 title: Kernel method
 tmap.id: 65458cd1-01c6-486c-8e93-3abccb5c32b0
 type: text/vnd.tiddlywiki
 
-[[intro video|https://www.youtube.com/watch?v=6AWZS4Ho2Z8&list=PLyGKBDfnk-iDj3FBd0Avr_dLbrU8VG73O#t=31m25s]]
+[[intro video|https://www.youtube.com/watch?v=6AWZS4Ho2Z8&list=PLyGKBDfnk-iDj3FBd0Avr_dLbrU8VG73O#t=31m25s]], [[lecture notes|https://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/lecture-notes/MIT15_097S12_lec13.pdf]]
 
 Here we are looking at kernel classification, there is also kernel regression...
 
