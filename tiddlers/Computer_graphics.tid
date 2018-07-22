@@ -1,6 +1,6 @@
 created: 20160121195127284
 creator: guillefix
-modified: 20180227194533217
+modified: 20180722012743271
 modifier: cosmos
 tags: [[Computer Science and IT]]
 title: Computer graphics
@@ -24,6 +24,11 @@ https://vvvv.org/ <i class="fa fa-thumbs-up"></i>  <i class="fa fa-thumbs-up"></
 [ext[http://mrl.nyu.edu/~perlin/courses/spring2016/]]
 
 Online live-coding shader: https://hexler.net/software/kodelife
+
+http://graphicscodex.com/
+
+four distinct and related areas: modeling, visualization, analysis and processing of graphical
+object https://pdfs.semanticscholar.org/1123/579e01563e7732fd91cfd4afa029c4fdbd50.pdf , relations to [[Computer vision]], [[Visualization]], etc
 
 -------------------
 
@@ -60,3 +65,7 @@ https://en.wikipedia.org/wiki/Normal_mapping
 ------------------
 
 often just //graphics//
+
+!!![[Computational geometry]]
+
+[img[3d_coordinate_transformations.png]]

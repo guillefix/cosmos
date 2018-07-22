@@ -1,6 +1,6 @@
 created: 20160403134855690
 creator: guillefix
-modified: 20170830135231260
+modified: 20180722012818156
 modifier: cosmos
 tags: Vision [[Artificial intelligence]]
 title: Computer vision
@@ -21,6 +21,7 @@ http://www.movidius.com/
 * [[Object detection]]
 * [[Image segmentation]]
 * [[Video understanding]]
+* [[Camera callibration]]
 
 
 [[Multi-scale networks|Deep multi-scale video prediction beyond mean square error|http://arxiv.org/abs/1511.05440]] and [[an application|http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf]].
@@ -32,6 +33,8 @@ http://www.clement.farabet.net/research.html#parsing
 ''Hand-eye coordination''. See work on grabbing objects in [[Robotics]]
 
 http://opencv.org/
+
+[[Nice notes on mathematical optimization for computer graphics and computer vision|https://pdfs.semanticscholar.org/1123/579e01563e7732fd91cfd4afa029c4fdbd50.pdf]]
 
 !!__[[Spiking neural network]] models__
 

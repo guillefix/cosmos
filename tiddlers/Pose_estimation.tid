@@ -1,0 +1,21 @@
+created: 20180722012507093
+creator: cosmos
+modified: 20180722014123071
+modifier: cosmos
+tags: [[Computer vision]]
+title: Pose estimation
+tmap.id: f5f4e92c-8d0e-4f75-aff8-200bbc284e47
+type: text/vnd.tiddlywiki
+
+
+A particular instance of feature-based alignment, which occurs very often, is estimating an object’s 3D [[Pose]] from a set of 2D point projections (via something like a [[Camera transform]]. This pose estimation problem is also known as extrinsic calibration, as opposed to the intrinsic calibration of internal camera pa- rameters such as focal length, which we discuss in Section 6.3. The problem of recovering pose from three correspondences, which is the minimal amount of information necessary, is known as the perspective-3-point-problem (P3P), with extensions to larger numbers of points collectively known as PnP (Haralick, Lee, Ottenberg et al. 1994; Quan and Lan 1999; Moreno-Noguer, Lepetit, and Fua 2007).
+
+https://www.wikiwand.com/en/Perspective-n-Point
+
+[ext[analysis and solutions of the three point perspective pose estimation problem|http://haralick.org/conferences/Analysis_and_Solutions_Perspective.pdf]]
+
+-------------
+
+See [[Camera callibration]]
+
+[ext[Nice explanation of some related things|https://www.ics.uci.edu/~majumder/VC/new-lectures/cameracalib.pdf]] like camera callibration, and depth estimation

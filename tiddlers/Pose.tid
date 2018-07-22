@@ -1,0 +1,15 @@
+created: 20180721215515041
+creator: cosmos
+modified: 20180721215614415
+modifier: cosmos
+title: Pose
+tmap.id: 1f943f54-088c-4e84-b39a-4217f09555d2
+type: text/vnd.tiddlywiki
+
+Position and orientation of objects.
+
+Estimating pose from an image of an object with known geometry is a classic [[Computer vision]] problem.
+
+With three points (a triangel with known sides) one can already solve it :)
+
+[ext[https://www.wikiwand.com/en/Pose_(computer_vision)]]

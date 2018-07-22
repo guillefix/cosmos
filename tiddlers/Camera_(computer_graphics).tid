@@ -1,6 +1,6 @@
 created: 20170702114923275
 creator: cosmos
-modified: 20170702204505346
+modified: 20180722012700349
 modifier: cosmos
 tags: [[Computer graphics]]
 title: Camera (computer graphics)
@@ -29,3 +29,4 @@ __[[properties|https://www.youtube.com/watch?v=og7hOFypKpQ&index=6&list=PL_w_qWA
 
 In [[OpenGL]], one sets it up with [[gluPerspective|https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/gluPerspective.xml]]
 
+[ext[Nice explanation pdf|https://www.ics.uci.edu/~majumder/VC/new-lectures/cameracalib.pdf]] of things related to [[Camera callibration]] in [[Computer vision]]

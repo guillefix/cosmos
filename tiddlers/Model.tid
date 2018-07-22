@@ -1,6 +1,6 @@
 created: 20160918223952118
 creator: cosmos
-modified: 20170717112950717
+modified: 20180722012714332
 modifier: cosmos
 tags: Simulation
 title: Model
@@ -8,6 +8,18 @@ tmap.id: 85197ba0-159b-4ea7-a300-44b130892e74
 type: text/vnd.tiddlywiki
 
 A [[System]], often a [[mathematical|Mathematics]] or [[computational|Computer science]] one, that [[simulates|Simulation]] another system, i.e. it represents features of the original system, both structural, and behavioural.
+
+---------------
+
+[[See these notes on computer graphics|https://pdfs.semanticscholar.org/1123/579e01563e7732fd91cfd4afa029c4fdbd50.pdf]]: 
+
+> In [[Computational mathematics]] a very useful abstraction paradigm consists of devising four abstraction levels, called universes: the physical universe, the mathematical universe, the representation universe and the implementation universe (Figure 1.4). 
+> The physical universe contains the objects from the real (physical) world which we intend to study; the mathematical universe contain the abstract mathematical description of the objects from the physical world; the representation universe contains discrete descriptions of the objects from the mathematical universe; and the implementation universe contains data structures and machine models of computation so that objects from the representation universe can be associated with algorithms in order to obtain an implementation in the computer.
+>Note that using this paradigm we associate to each object from the real (physical) world three mathematical models: a continuous model in the mathematical universe, a discrete model in the representation universe and a finite model in the implementation universe. This abstraction paradigm is called the four-universe paradigm (Gomes & Velho, 1995).
+
+Basically, we go from the physical world back to the physical world, going through a peak of abstraction reached at the mind..
+
+> The modeling process consists in choosing an object from the physical world, associate to it a mathematical model, discretize it and implement it. This implementation should provide solutions to properly posed problems involving the initial physical object. Note that the loss of information we mentioned above is a critical factor in this chain.
 
 ------------------------
 
