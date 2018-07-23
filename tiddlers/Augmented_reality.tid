@@ -1,11 +1,16 @@
 created: 20161102001339743
 creator: cosmos
-modified: 20180721181835320
+modified: 20180722135850302
 modifier: cosmos
 tags: [[Human-computer interaction]]
 title: Augmented reality
 tmap.id: 2e2ddb05-26f4-4255-a119-653731cef38c
 type: text/vnd.tiddlywiki
+
+
+!!![[Niantic real world platform|https://www.youtube.com/watch?v=SCWa4OtSS4g&index=7&list=PLht6tyws1YpSOGz2k6bUC1PibVG7ZiRFB]] -- Mapping the Real World to the centimeter resolution is a requirement for an AR world. Machine Understanding is also a big part. [[video|https://www.youtube.com/watch?v=SCWa4OtSS4g]]
+
+https://www.6d.ai/product-new/
 
 https://unity3d.com/ar?utm_source=facebook&utm_medium=cpc&utm_campaign=ar_global_generalpromo_2016-11-Global-OS-AR&utm_content=AR_ads_2_1200x630-ARINTGDGP-FB_A-newsfeed_desktop
 
@@ -49,8 +54,6 @@ https://gometa.io/
 Multiuser AR: https://twitter.com/jesseringrose/status/1004909833001160704
 
 -------------------
-
-!!![[Niantic real world platform|https://www.youtube.com/watch?v=SCWa4OtSS4g&index=7&list=PLht6tyws1YpSOGz2k6bUC1PibVG7ZiRFB]] -- Mapping the Real World to the centimeter resolution is a requirement for an AR world. Machine Understanding is also a big part. 
 
 Matri. Matrix mill. Escher reality.
 MonoDepth

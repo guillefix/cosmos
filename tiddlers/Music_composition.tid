@@ -1,6 +1,6 @@
 created: 20161122230034271
 creator: cosmos
-modified: 20180713211041210
+modified: 20180722231156344
 modifier: cosmos
 tags: Music
 title: Music composition
@@ -16,6 +16,8 @@ https://www.audiotool.com/
 !!__[[Assisted music composition]]__
 
 [[NSynth|https://magenta.tensorflow.org/nsynth]]
+
+http://www.wekinator.org/
 
 !!__[[Algorithmic music composition|Music generation]]__
 

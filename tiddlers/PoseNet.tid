@@ -1,0 +1,11 @@
+created: 20180722135446757
+creator: cosmos
+modified: 20180722135506905
+modifier: cosmos
+title: PoseNet
+tmap.id: dffd0e43-3004-4227-a798-29b3b73fb4a5
+type: text/vnd.tiddlywiki
+
+https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5 tensorflowjs , [[paper|https://arxiv.org/pdf/1803.08225.pdf]]
+
+https://beta.observablehq.com/@lorenries/estimating-pose-in-the-browser-with-posenet-and-tensorflow-

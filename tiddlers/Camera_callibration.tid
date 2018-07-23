@@ -1,12 +1,13 @@
 created: 20180721215430532
 creator: cosmos
-modified: 20180722012638270
+modified: 20180722123541771
 modifier: cosmos
 tags: [[Computer vision]]
 title: Camera callibration
 tmap.id: 8dd3ec11-44fe-4aa9-8700-5ae71626c9a9
 type: text/vnd.tiddlywiki
 
+//aka camera resectioning//
 
 Finding the parameters (including the [[position and rotation|Pose]], so called extrinsic parameters) of the [[camera|Camera (computer graphics)]] from images of objects with known geometries. The extrinsic part of the estimation is an instance of [[Pose estimation]]
 
@@ -17,3 +18,5 @@ https://www.wikiwand.com/en/Camera_resectioning
 OpenCV implementation: https://docs.opencv.org/3.0-beta/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html
 
 [ext[Nice explanation pdf|https://www.ics.uci.edu/~majumder/VC/new-lectures/cameracalib.pdf]]
+
+__DLT algorithm__

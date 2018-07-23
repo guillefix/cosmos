@@ -1,7 +1,7 @@
 created: 20160122225336984
 creator: guillefix
 list-after: Analysis
-modified: 20180608230528315
+modified: 20180722123637002
 modifier: cosmos
 tags: Mathematics
 title: Geometry
@@ -69,3 +69,5 @@ https://dmsm.github.io/scissors-congruence/
 [[4D toys|https://www.youtube.com/watch?v=0t4aKJuKP0Q]]
 
 [[How to make the Minecraft world look spherical|https://www.youtube.com/watch?v=joFWr3JzBOI]]
+
+[[Ritt-Wu's decomposition algorithm|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.132.741&rep=rep1&type=pdf]] used in some modern proofs in geometry

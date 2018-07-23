@@ -1,6 +1,6 @@
 created: 20160406164853743
 creator: guillefix
-modified: 20180722000020083
+modified: 20180722135445326
 modifier: cosmos
 tags: [[Artificial intelligence innovation]]
 title: New advances in deep learning
@@ -10,8 +10,6 @@ type: text/vnd.tiddlywiki
 review/position paper on giving neural nets the right biases -- https://arxiv.org/abs/1806.01261
 
 2017 updates: http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/
-
-posenet https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5 tensorflowjs
 
 DeepMind publications: https://deepmind.com/research/publications/
 
@@ -40,6 +38,8 @@ WaveNet, PixelRNN, SampleRNN
 Avoiding catastrophic forgetting..
 
 Capsules. [[Dynamic Routing Between Capsules|https://nips.cc/Conferences/2017/Schedule?showEvent=9167]]
+
+.. [[PoseNet]]
 
 ---------------
 

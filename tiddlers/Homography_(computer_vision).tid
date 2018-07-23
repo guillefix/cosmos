@@ -1,0 +1,16 @@
+created: 20180722134957471
+creator: cosmos
+modified: 20180722135159065
+modifier: cosmos
+tags: [[Computer vision]]
+title: Homography (computer vision)
+tmap.id: 5e8101c0-06e0-4632-a6e8-b01eebea177f
+type: text/vnd.tiddlywiki
+
+Formula relating the 2d projection onto a camera A with the 2d projection onto a camera B, of a set of points on a plane in the 3D scene.
+
+Part of [[Epipolar geometry]].
+
+[ext[https://www.wikiwand.com/en/Homography_(computer_vision)]] <-- note the first formula given there and the one [ext[here|https://www.ics.uci.edu/~majumder/VC/new-lectures/cameracalib.pdf]] is valid if the first camera has no rotation and translation..
+
+See also: https://www.wikiwand.com/en/Homography in [[Projective geometry]]

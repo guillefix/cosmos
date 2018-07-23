@@ -1,6 +1,6 @@
 created: 20170702125251381
 creator: cosmos
-modified: 20170927230407291
+modified: 20180722120525529
 modifier: cosmos
 tags: [[Camera (computer graphics)]] [[Viewing pipeline]]
 title: Camera transform
@@ -9,15 +9,13 @@ type: text/vnd.tiddlywiki
 
 [[Video|https://www.youtube.com/watch?v=mpTl003EXCY&index=5&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=12m50s]] -- [[vid2|https://www.youtube.com/watch?v=og7hOFypKpQ&index=6&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=9m30s]]
 
-# [[First|https://www.youtube.com/watch?v=og7hOFypKpQ&index=6&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=5m50s]] place the camera at origin, and rotates it so that the direction vector coincides with the negative z axis, and the up vector coincides with the y axis.
+# [[First|https://www.youtube.com/watch?v=og7hOFypKpQ&index=6&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=5m50s]] place the camera at origin, and rotates it so that the direction vector coincides with the negative z axis, and the up vector coincides with the y axis. This bit of the transformation is done via the [[Camera matrix]]
 
 # Convert things in the viewing volume of the [[camera|Camera (computer graphics)]] (which is a [[Truncated pyramid]])  to [[Image space]] (which is a [[Cube]]) in homogeneous coordinates. This is the [[Viewing transformation]]
 
 # Divide by the fourth component in homogeneous coordinates to get back to [[Cartesian coordinate]]s in [[Image space]]
 
 The camera transform corresponds to these steps ([[vid|https://www.youtube.com/watch?v=og7hOFypKpQ&index=6&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=9m30s]])
-
-https://en.wikipedia.org/wiki/Camera_matrix
 
 See [[Vertex shader]], for more, about how it fits into the graphics pipeline
 

@@ -1,6 +1,6 @@
 created: 20180722012507093
 creator: cosmos
-modified: 20180722014123071
+modified: 20180722142527064
 modifier: cosmos
 tags: [[Computer vision]]
 title: Pose estimation
@@ -8,14 +8,34 @@ tmap.id: f5f4e92c-8d0e-4f75-aff8-200bbc284e47
 type: text/vnd.tiddlywiki
 
 
-A particular instance of feature-based alignment, which occurs very often, is estimating an object’s 3D [[Pose]] from a set of 2D point projections (via something like a [[Camera transform]]. This pose estimation problem is also known as extrinsic calibration, as opposed to the intrinsic calibration of internal camera pa- rameters such as focal length, which we discuss in Section 6.3. The problem of recovering pose from three correspondences, which is the minimal amount of information necessary, is known as the perspective-3-point-problem (P3P), with extensions to larger numbers of points collectively known as PnP (Haralick, Lee, Ottenberg et al. 1994; Quan and Lan 1999; Moreno-Noguer, Lepetit, and Fua 2007).
+''Pose estimation'' refers to estimating an object’s 3D [[Pose]] from a set of 2D point projections (via something like a [[Camera transform]]. This pose estimation problem is also known as extrinsic calibration, as opposed to the intrinsic calibration of internal camera pa- rameters such as focal length, which we discuss in Section 6.3. The problem of recovering pose from three correspondences, which is the minimal amount of information necessary, is known as the perspective-3-point-problem (P3P), with extensions to larger numbers of points collectively known as PnP (Haralick, Lee, Ottenberg et al. 1994; Quan and Lan 1999; Moreno-Noguer, Lepetit, and Fua 2007).
+
+It is a particular instance of feature-based alignment.
 
 https://www.wikiwand.com/en/Perspective-n-Point
 
 [ext[analysis and solutions of the three point perspective pose estimation problem|http://haralick.org/conferences/Analysis_and_Solutions_Perspective.pdf]]
+
+Implementation using [[OpenCV]]: https://github.com/supasorn/CardboardPositionalHack/blob/master/tracker/glcv3.cpp can use for [[google cardboard 6DOF positional tracking|https://www.youtube.com/watch?v=jo1gkpodrDU]]
 
 -------------
 
 See [[Camera callibration]]
 
 [ext[Nice explanation of some related things|https://www.ics.uci.edu/~majumder/VC/new-lectures/cameracalib.pdf]] like camera callibration, and depth estimation
+
+https://www.wikiwand.com/en/3D_pose_estimation
+
+[ext[http://users.ics.forth.gr/~lourakis/posest/]]
+
+__Using [[RANSAC]]__
+
+PnP is prone to errors if there are outliers in the set of point correspondences. Thus, RANSAC can be used in conjunction with existing solutions to make the final solution for the camera pose more robust to outliers. An open source implementation of PnP methods with RANSAC can be found in OpenCV's Camera Calibration and 3D Reconstruction module in the solvePnPRansac function, and in [ext[posest|http://users.ics.forth.gr/~lourakis/posest/]]
+
+It is also used here: https://inspirit.github.io/jsfeat/#multiview
+
+See also [[3D reconstruction from multiple images]], a harder problem corresponding to when the geometry of the imaged object is unknown!
+
+-------------
+
+https://www.wikiwand.com/en/Direct_linear_transformation ,  [[Homography]]

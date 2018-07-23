@@ -1,0 +1,18 @@
+created: 20180722123213558
+creator: cosmos
+modified: 20180722123428947
+modifier: cosmos
+tags: [[Computer vision]]
+title: 3D reconstruction from multiple images
+tmap.id: fdb35688-107f-44bb-abf9-81485b9cd841
+type: text/vnd.tiddlywiki
+
+//aka scene reconstruction//
+
+https://www.wikiwand.com/en/3D_reconstruction_from_multiple_images
+
+See book about [[Multiple view geometry]] in [[Computer vision]] by Hartley and Zisserman -- [[lectures|https://www.youtube.com/watch?v=RDkwklFGMfo]]
+
+Uses [[Homography]], [[Fundamental martix]].
+
+Also [[Camera callibration]]
