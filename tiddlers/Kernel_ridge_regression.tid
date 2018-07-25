@@ -1,0 +1,14 @@
+created: 20180724181003025
+creator: cosmos
+modified: 20180724181439250
+modifier: cosmos
+tags: [[Kernel method]]
+title: Kernel ridge regression
+tmap.id: b02c3dda-0f35-4fe2-a166-a6c461dba8af
+type: text/vnd.tiddlywiki
+
+The version of [[Ridge regression]] (regularized [[Least-squares]] for a linear model), which uses [[Kernel]]s.
+
+If treated [[probabilistically|Bayesian inference]], and the weights have a Gaussian prior, it is equivalent to a [[Gaussian process]], as the values of the function at a collection of points are distributed with a joint [[Gaussian]] (and so is the posterior, and the predictive distribution, when using a Gaussian model for the error (difference between observed y, and the value of the function f(x)) ).
+
+See [[here|http://www.gaussianprocess.org/gpml/chapters/RW2.pdf]]

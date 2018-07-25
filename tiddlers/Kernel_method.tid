@@ -1,6 +1,6 @@
 created: 20170426232727642
 creator: cosmos
-modified: 20180720142756828
+modified: 20180724181558330
 modifier: cosmos
 tags: [[Machine learning]] [[Nonparametric regression]]
 title: Kernel method
@@ -9,9 +9,7 @@ type: text/vnd.tiddlywiki
 
 [[intro video|https://www.youtube.com/watch?v=6AWZS4Ho2Z8&list=PLyGKBDfnk-iDj3FBd0Avr_dLbrU8VG73O#t=31m25s]], [[lecture notes|https://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/lecture-notes/MIT15_097S12_lec13.pdf]]
 
-Here we are looking at kernel classification, there is also kernel regression...
-
-[[Machine learning]] methods which use a [[Hypothesis space]] (set of functions it considers as an output) which is a [[Reproducing kernel Hilbert space]]. These can be quite expresive. They are often used in conjunction with regularization, which makes their training/optimization linear! (by the representer theorem). They are also nonparametric (when chosing infinite dimensional function/feature spaces), which has nice properties.
+[[Machine learning]] methods which use a [[Hypothesis space]] (set of functions it considers as an output) which is a [[Reproducing kernel Hilbert space]] (or a hypothesis space based on one, for kernel classification, which passes the function through some nonlinearity for classificaiton, typically). These can be quite expresive. They are often used in conjunction with regularization, which makes their training/optimization linear! (by the [[Representer theorem]]). They are also nonparametric (when chosing infinite dimensional function/feature spaces), which has nice properties.
 
 The loss functions that we choose are [[coercive|https://youtu.be/Vm5QE54y6mw?t=8m21s]] [[Strongly convex]] [[Functional]]s. This implies it has a minimum, and it is unique
 
@@ -31,15 +29,17 @@ All of this allows to use linear learning algorithms to learn a nonlinear functi
 
 [[See more in this video|https://www.youtube.com/watch?v=Vm5QE54y6mw]]
 
+[[Interpretation of the norm of a function (used for regularization) for RKHSs with different regularizations|https://www.youtube.com/watch?v=bBRX3OqNC9c&index=6&list=PLyGKBDfnk-iCXhuP9W-BQ9q2RkEIA5I5f#t=1h2m]]
+
 --------------
 
-Main reason kernel methods aren't used so much nowadays I think is because of high computational cost, compared to alternatives, for high dimensional data, and more importantly big data sets. See [[here|https://stats.stackexchange.com/questions/73944/what-are-the-limitations-of-kernel-methods-and-when-to-use-kernel-methods]]. This is because [[linear methods (and non-kernel gradient descent methods in general) run in time linear in the size of the data set|https://youtu.be/Vm5QE54y6mw?t=35m11s]], while [[kernel methods are quadratic|https://youtu.be/Vm5QE54y6mw?t=1h8s]] (as they effectively substitute the dimension of the data with the size of the training set!)
+Main reason kernel methods aren't used so much nowadays I think is because of ''high computational cost'', compared to alternatives (like [[Artificial neural network]]s), for high dimensional data, and more importantly big data sets. See [[here|https://stats.stackexchange.com/questions/73944/what-are-the-limitations-of-kernel-methods-and-when-to-use-kernel-methods]]. This is because [[linear methods (and non-kernel gradient descent methods in general) run in time linear in the size of the data set|https://youtu.be/Vm5QE54y6mw?t=35m11s]], while [[kernel methods are quadratic|https://youtu.be/Vm5QE54y6mw?t=1h8s]] (as they effectively substitute the dimension of the data with the size of the training set!)
 
 -----------
 
 [[Why is this better than just choosing a linear model with p features|https://youtu.be/Vm5QE54y6mw?t=14m23s]] (because the features and number of parameters are chosen by the data!) -- nonparametrics!
 
-[[Gaussian process]]es [[are basically a probabilistic interpretation of kernel methods|https://www.youtube.com/watch?v=bBRX3OqNC9c#t=1h17m30s]]. They are both [[nonparametric methods|Nonparametric statistics]], because the number of parameters grows with the data (linearly)
+[[Gaussian process]]es [[are basically a probabilistic interpretation of kernel methods|https://www.youtube.com/watch?v=bBRX3OqNC9c#t=1h17m30s]]. They are both [[nonparametric methods|Nonparametric statistics]], because the number of parameters grows with the data (linearly). See [[Gaussian Processes for Machine Learning|http://www.gaussianprocess.org/gpml/chapters/]]
 
 Kernel methods can be seen as generalizations of  [[Nearest-neighbour classification]] where the notion of "closeness" is given by the specific kernel we are using
 
@@ -49,7 +49,7 @@ Kernel methods can be seen as generalizations of  [[Nearest-neighbour classifica
 
 [[Support vector machine]], when we use the [[Hinge loss]] function.
 
-[[Least-squares]], when we use [[Squared error]] loss function
+[[Kernel ridge regression]], when we use [[Squared error]] loss function (for [[Regression]])
 
 !!!__[[Random features]]__
 

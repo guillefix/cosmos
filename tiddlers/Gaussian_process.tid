@@ -1,13 +1,13 @@
 created: 20171023143453623
 creator: cosmos
-modified: 20180710120228889
+modified: 20180724155952050
 modifier: cosmos
 tags: [[Probabilistic model]] [[Regression analysis]]
 title: Gaussian process
 tmap.id: 7fb2e34a-cd15-4583-ac08-44d368808763
 type: text/vnd.tiddlywiki
 
-[ext[Good quick intro|https://www.robots.ox.ac.uk/~mebden/reports/GPtutorial.pdf]]
+[ext[Good quick intro|https://www.robots.ox.ac.uk/~mebden/reports/GPtutorial.pdf]]. See [[Gaussian Processes for Machine Learning|http://www.gaussianprocess.org/gpml/chapters/]]
 
 Basically assume a certain model $$p(\mathbf{y}|\mathbf{x})$$ where the $$y$$s correspond to the $$x$$s in these vectors. With this, then given some $$y$$s for some $$x$$s, we can have a marginal distribution for the $$y$$s corresponding to unobserved $$x$$s. The  model assumes that $$y$$s of nearby $$x$$s are more likely to be similar. This can be interpreted as a kind of Gaussian prior on the space of functions, which prefers smoothness..
 

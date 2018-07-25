@@ -1,6 +1,6 @@
 created: 20160709011226683
 creator: guillefix
-modified: 20180109221226019
+modified: 20180724231946720
 modifier: cosmos
 tags: [[Statistical inference]] [[Bayesian statistics]]
 title: Bayesian inference
@@ -89,3 +89,8 @@ from $$\theta | X$$ to $$\tilde{X}|X$$. Find probability distribution over new o
 https://www.wikiwand.com/en/Bayesian_inference
 
 [[Bayesian inference exercises]]
+
+--------
+
+Bayes: what's the optimal predictor for a given prior. What is the optimal prior?
+[[Learning theory]]: is your prior good enough for the data you have? What is a good enough predictor?
