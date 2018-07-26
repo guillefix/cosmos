@@ -1,6 +1,6 @@
 created: 20160709020525444
 creator: guillefix
-modified: 20171130195653606
+modified: 20180725135507527
 modifier: cosmos
 tags: [[Supervised classification]] [[Kernel method]]
 title: Logistic regression
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 A type of [[Classification]] method.
 
 [[Logistic regression|https://www.youtube.com/watch?v=FYgsztDxSvE&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=7]] [[Definition|https://www.youtube.com/watch?v=FYgsztDxSvE&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=7#t=14m42s]]
+
+[[pdf|http://www.gaussianprocess.org/gpml/chapters/RW3.pdf#page=5]]
 
 See [[also here|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6ADACE599#t=50m]] for intro
 

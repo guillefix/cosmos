@@ -1,6 +1,6 @@
 created: 20171023143453623
 creator: cosmos
-modified: 20180724155952050
+modified: 20180725122805326
 modifier: cosmos
 tags: [[Probabilistic model]] [[Regression analysis]]
 title: Gaussian process
@@ -9,13 +9,17 @@ type: text/vnd.tiddlywiki
 
 [ext[Good quick intro|https://www.robots.ox.ac.uk/~mebden/reports/GPtutorial.pdf]]. See [[Gaussian Processes for Machine Learning|http://www.gaussianprocess.org/gpml/chapters/]]
 
-Basically assume a certain model $$p(\mathbf{y}|\mathbf{x})$$ where the $$y$$s correspond to the $$x$$s in these vectors. With this, then given some $$y$$s for some $$x$$s, we can have a marginal distribution for the $$y$$s corresponding to unobserved $$x$$s. The  model assumes that $$y$$s of nearby $$x$$s are more likely to be similar. This can be interpreted as a kind of Gaussian prior on the space of functions, which prefers smoothness..
+Basically assume a certain model $$p(\mathbf{y}|\mathbf{x})$$ where the $$y$$s correspond to the $$x$$s in these vectors. With this, then given some $$y$$s for some $$x$$s, we can have a marginal distribution for the $$y$$s corresponding to unobserved $$x$$s. A ''Gaussian process'' models $$p(\mathbf{y}|\mathbf{x})$$ as a [[Multivariate Gaussian distribution]] with a covariance matrix that is given by a [[Kernel]] function (ensuring consistency via what's called the marginaliation property).  This can be interpreted as a Gaussian prior on the space of functions.
+
+> Formally it is defined as a [[Stochastic process]] where any finite set of [[Random variable]]s is [[Gaussian]] distributed.
+
+Typically one chooses kernels that prefers smoothness, so that that $$y$$s of nearby $$x$$s are more likely to be similar..
 
 Efficient up to about 100,000 data points
 
-https://en.wikipedia.org/wiki/Gaussian_process
+They are equivalent to Bayesian [[Kernel ridge regression]]! (what they call the "weight-space view" in [[here|http://www.gaussianprocess.org/gpml/chapters/RW2.pdf]])
 
-See section 4.3 in Murphy's book (Machine learning - a probabilistic perspective) to see the derivation of the fact that the marginal distribution of a subset of variables from a larger set of random variables which have a [[Gaussian joint distribution|Multivariate Gaussian]]. This is why the Gaussian process property (that the values at any set of points have joint Gaussian distribution) corresponds to a Gaussian prior over functions ([[Gaussian random field]]; [[field|Physical field]] with quadratic energy functional..; see [[Path integral]] )
+See section 4.3 in Murphy's book (Machine learning - a probabilistic perspective) to see the derivation of the fact that the marginal distribution of a subset of variables from a larger set of random variables which have a [[Gaussian joint distribution|Multivariate Gaussian]]. This is why the Gaussian process property (that the values at any set of points have joint Gaussian distribution) corresponds to a Gaussian prior over functions ([[Gaussian random field]]; [[field|Physical field]] with quadratic energy functional..; see [[Path integral]] ).
 
 ----------------
 
@@ -24,3 +28,16 @@ See section 4.3 in Murphy's book (Machine learning - a probabilistic perspective
 [[Deep Neural Networks as Gaussian Processes|https://arxiv.org/abs/1711.00165]] -- Extensions for [[CNN|Convolutional neural network]]s
 
 [[Gaussian Process Behaviour in Wide Deep Neural Networks|https://arxiv.org/abs/1804.11271]]
+
+https://en.wikipedia.org/wiki/Gaussian_process
+
+---------------
+
+!!__Gaussian processes with non-Gaussian likelihood__
+
+Usually the observed labels / $$y$$ are assumed to be either equal to the function modelled by the GP, or have a Gaussian distribution around it (what's called a [[Gaussian]] [[likelihood|Likelihood function]] -- note that here the function $$f$$ works like the parameters in [[Bayesian inference]]).
+
+If one assumes a non-Gaussian likelihood, then the problem is not [[Analytically tractable]] any more..
+
+The most common case is in [[Gaussian process classification]]. See [[here|http://www.gaussianprocess.org/gpml/chapters/RW3.pdf]]
+

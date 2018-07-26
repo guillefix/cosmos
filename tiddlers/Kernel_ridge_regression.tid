@@ -1,14 +1,17 @@
 created: 20180724181003025
 creator: cosmos
-modified: 20180724181439250
+modified: 20180725121431339
 modifier: cosmos
 tags: [[Kernel method]]
 title: Kernel ridge regression
 tmap.id: b02c3dda-0f35-4fe2-a166-a6c461dba8af
 type: text/vnd.tiddlywiki
 
-The version of [[Ridge regression]] (regularized [[Least-squares]] for a linear model), which uses [[Kernel]]s.
+
+The version of [[Ridge regression]] (regularized [[Least-squares]] for a linear model), which uses [[Feature map]]s / [[Kernel]]s. The regularization is typically [[the norm of the function in the|https://www.youtube.com/watch?v=bBRX3OqNC9c&index=6&list=PLyGKBDfnk-iCXhuP9W-BQ9q2RkEIA5I5f#t=1h1m]] [[Reproducing kernel Hilbert space]], but it can be other things I think
 
 If treated [[probabilistically|Bayesian inference]], and the weights have a Gaussian prior, it is equivalent to a [[Gaussian process]], as the values of the function at a collection of points are distributed with a joint [[Gaussian]] (and so is the posterior, and the predictive distribution, when using a Gaussian model for the error (difference between observed y, and the value of the function f(x)) ).
 
 See [[here|http://www.gaussianprocess.org/gpml/chapters/RW2.pdf]]
+
+By [[Mercer's theorem]], any symmetric PSD [[Kernel]] can be expressed as a (possibly infinite) sum of product of [[Eigenfunction]]s. One can then see that the vector space spanned by the eigenfunctions is the same as that spanned by the functions $$k(x,\cdot)$$, where $$k$$ is the kernel (although the latter is an overcomplete basis). Furthermore, it turns out that randomly sampling weights for the kernel regression case (where the weights are the coefficients in the linear combination of (a linear transformation of) the vector of eigenfunctions --  the linear transformation depending on the distribution over weights, see [[here|http://www.gaussianprocess.org/gpml/chapters/RW2.pdf#page=6]]), with a Gaussian distribution, gives the same distribution over functions, as a [[GP|Gaussian process]] with kernel $$k$$.. See [[here|http://www.gaussianprocess.org/gpml/chapters/RW2.pdf]]. This is why kernel ridge regression (which just finds the MAP estimate), when treated in fully Bayesian manner is the same as a Gaussian process.. Note that, as mentioned above, the feature / basis functions in the kernel regression (which just takes linear combinations of these functions), are not the same as the eigenfunctions of the kernel, but rather are linear combinations of them, which depend on the distribution over weights. The reason is that a kernel determines the distribution over functions for a GP. And it also determines the egienfunctions of the kernel. If we take the eigenfunctions of the kerne as basis functions for the kernel regressor, then the kernel regressor has an extra degree of freedom that affects the distribution over functions: the distribution over weights. To make them equivalent, therefore, we "cancel" this degree of freedom in this way: no matter what distribution over weights we choose, we can transform the feature vector in a way that the resulting distribution over functions is that same as the GP. This is what gives the 1-to-1 equivalence..

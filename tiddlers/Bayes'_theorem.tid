@@ -1,13 +1,11 @@
 created: 20160825123322375
 creator: cosmos
-modified: 20170417114140814
+modified: 20180725122351235
 modifier: cosmos
 tags: [[Bayesian statistics]]
-title: Baye's theorem
+title: Bayes' theorem
 tmap.id: 37995600-eaa5-47bf-a8d3-a9eae44dc69d
 type: application/x-tiddler
-
-//actually it is Bayes' theorem....//
 
 |$$P(A|B) = \frac{P(B | A) \, P(A)}{P(B)}$$|
 

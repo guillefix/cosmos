@@ -1,6 +1,6 @@
 created: 20160709011226683
 creator: guillefix
-modified: 20180724231946720
+modified: 20180725122455627
 modifier: cosmos
 tags: [[Statistical inference]] [[Bayesian statistics]]
 title: Bayesian inference
@@ -16,7 +16,7 @@ http://approximateinference.org/
 
 !!__Method__
 
-|Likelihood + prior -- [[Baye's theorem]] --> posterior|
+|Likelihood + prior -- [[Bayes' theorem]] --> posterior|
 
 # Define variables
 
@@ -24,7 +24,7 @@ http://approximateinference.org/
 
 # We first choose a [[Prior distribution]] over the set of hypotheses, for instance favouring simple ones (see regularization below), which defines the parametrized family of [[Likelihood function]]s
 
-# We then [[calculate posterior from prior|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=5m]] using [[Baye's theorem]]
+# We then [[calculate posterior from prior|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=5m]] using [[Bayes' theorem]]
 
 # And we can then [[make a new prediction|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=6m07s]] by weighting over all hypothesis to calculate the ''expected value'' of the output for a new input. I think one can show (see Elements of statistical learning book) that if we knew the real distribution of output given input, the expectation value is the prediction that minimizes the [[Generalization error]]
 
@@ -89,6 +89,10 @@ from $$\theta | X$$ to $$\tilde{X}|X$$. Find probability distribution over new o
 https://www.wikiwand.com/en/Bayesian_inference
 
 [[Bayesian inference exercises]]
+
+--------
+
+As exemplified by [[Gaussian process]]es, one can also apply [[Bayes' theorem]] by modeling the joint Data + parameter (or thing to be inferred) distribution, which appears in the numerator.
 
 --------
 
