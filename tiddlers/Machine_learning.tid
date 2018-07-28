@@ -1,6 +1,6 @@
 created: 20160226112409331
 creator: guillefix
-modified: 20180722141736899
+modified: 20180727124800000
 modifier: cosmos
 tags: [[Artificial intelligence]] Learning [[Data science]]
 title: Machine learning
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 
 A part of [[Artificial intelligence]] that uses many methods from [[Computer science]] to [[Statistics]] to create automated (machine) learners: systems that can extract [[Knowledge]] and insight from [[Information]] and data.
 
- http://bit.do/oxtorch. -- http://ml4a.github.io/guides/
+ http://bit.do/oxtorch. -- http://ml4a.github.io/guides/ -- https://developers.google.com/machine-learning/crash-course/
 
 [[Good discussion panel on current ML research (2017)|https://www.youtube.com/watch?v=uyZOcUDhIbY&index=22&list=PLgKuh-lKre12eXz4dnvc8oervo2_Af4iU]]
 -- https://blog.google/topics/machine-learning/introducing-machine-learning-practica/
