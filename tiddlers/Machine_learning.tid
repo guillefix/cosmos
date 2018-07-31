@@ -1,6 +1,6 @@
 created: 20160226112409331
 creator: guillefix
-modified: 20180727124800000
+modified: 20180730130202265
 modifier: cosmos
 tags: [[Artificial intelligence]] Learning [[Data science]]
 title: Machine learning
@@ -33,6 +33,8 @@ http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
 [[lecture series|https://www.youtube.com/watch?v=zcMnu-3wkWo&list=PLTB9VQq8WiaCBK2XrtYn5t9uuPdsNm7YE]] -- [[another one, focusing on theory|https://www.youtube.com/watch?v=b5NlRg8SjZg&t=2557s]]
 
 [[Searching programs by Wolfram|https://www.youtube.com/watch?v=P7kX7BuHSFI#t=1h22m10s]]
+
+[[Inductive logic programming|https://www.wikiwand.com/en/Inductive_logic_programming]]
 
 
 !!__Design factors in machine learning__
