@@ -1,6 +1,6 @@
 created: 20170302153958029
 creator: cosmos
-modified: 20180722231140207
+modified: 20180731234532882
 modifier: cosmos
 tags: [[Spatial representation in the brain]]
 title: Grid cell
@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 [[Are New Place Representations Independent of Theta and Path Integration?|http://www.cell.com/neuron/abstract/S0896-6273(14)00397-3?_returnURL=http%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0896627314003973%3Fshowall%3Dtrue]]
  -- [[omnity|https://www.omnity.io/?files=571c397e5f906b800ab454bf&top_node=571c397e5f906b800ab454bf]]
 
-[[Vector-based navigation using grid-like representations in artificial agents|https://www.nature.com/articles/s41586-018-0102-6.epdf?author_access_token=BjM-5BdGxd14c17YFA6PsdRgN0jAjWel9jnR3ZoTv0OEfySMT4t78PpPpCS7uExW3njb8Q4UlgcwRM32WwBCKZs73SThwkfI42wHhFEtJM-Y7sQxDsR1cR7_C9Kq1GwuxGJn46kzRnujvrDMGzc4TQ%3D%3D]] , https://openreview.net/forum?id=B17JTOe0-
+[[Vector-based navigation using grid-like representations in artificial agents|https://www.nature.com/articles/s41586-018-0102-6.epdf?author_access_token=BjM-5BdGxd14c17YFA6PsdRgN0jAjWel9jnR3ZoTv0OEfySMT4t78PpPpCS7uExW3njb8Q4UlgcwRM32WwBCKZs73SThwkfI42wHhFEtJM-Y7sQxDsR1cR7_C9Kq1GwuxGJn46kzRnujvrDMGzc4TQ%3D%3D]] , https://openreview.net/forum?id=B17JTOe0- -- https://f1000.com/prime/733198068?key=nvlnlWetE8dlZTy
 
 [[The neural encoding of space in parahippocampal cortices|http://journal.frontiersin.org/article/10.3389/fncir.2012.00053/full]]
 

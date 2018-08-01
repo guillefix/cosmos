@@ -1,13 +1,15 @@
 created: 20160623203037516
 creator: guillefix
-modified: 20180322105540313
+modified: 20180801000546300
 modifier: cosmos
 tags: [[Artificial neural network]] [[Neuronal network]]
 title: Spiking neural network
 tmap.id: 0c99f481-6a1a-4393-aab3-646b71696c5c
 type: text/vnd.tiddlywiki
 
-A more biologically plausibl kind of [[Artificial neural network]], which takes direct inspiration on biologial [[Neuronal network]]s. It is a model that is the basis for the design of [[Neuromorphic computing]] systems. It models the time-dependent spikes of real [[Neuron]]s. These spikes correspond to [[Action potential]] spikes that travel through the neuron's axons, dendrites, and soma (bodies).
+A more biologically plausible kind of [[Artificial neural network]], which takes direct inspiration on biologial [[Neuronal network]]s. It is a model that is the basis for the design of [[Neuromorphic computing]] systems. It models the time-dependent spikes of real [[Neuron]]s. These spikes correspond to [[Action potential]] spikes that travel through the neuron's axons, dendrites, and soma (bodies).
+
+http://jackterwilliger.com/biological-neural-networks-part-i-spiking-neurons/
 
 [[CS-DC'15: From Spikes to Cognitive Agents with Neural Assembly Computing|https://www.youtube.com/watch?v=P6ysScmb9hY&t=279s]]
 
