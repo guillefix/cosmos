@@ -1,7 +1,7 @@
 created: 20160405132636360
 creator: guillefix
-modified: 20161104134329092
-modifier: guillefix
+modified: 20180801233420972
+modifier: cosmos
 tags: [[Computer networks]]
 title: Internet
 tmap.id: b6fa663f-67aa-488a-bdc6-40370e9c3f02
@@ -10,3 +10,7 @@ type: text/vnd.tiddlywiki
 [[HTTP vs IPFS: is Peer-to-Peer Sharing the Future of the Web?|http://www.sitepoint.com/http-vs-ipfs-is-peer-to-peer-sharing-the-future-of-the-web/?utm_content=bufferb4aaf&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer]]
 
 Find websites with certain TLD (top level domain): https://domainpunch.com/tlds/topm.php
+
+https://www.itsnicethat.com/articles/geocities-before-the-internet-was-cool
+
+https://medium.com/glitch/1-million-apps-on-glitch-the-creative-web-is-back-bf3ffe8053fa
