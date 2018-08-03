@@ -1,6 +1,6 @@
 created: 20161215093318866
 creator: cosmos
-modified: 20180522234042980
+modified: 20180803000748268
 modifier: cosmos
 tags: Geometry
 title: Euclidean geometry
@@ -10,4 +10,4 @@ type: text/vnd.tiddlywiki
 
 http://codepen.io/shiffman/full/KNLvyx/
 
-[[how to make every sctrictly convex deltahedron|https://www.youtube.com/watch?v=FqCZhSIXcv4]]
+[[Polyhedron]]

@@ -1,6 +1,6 @@
 created: 20170116162522626
 creator: cosmos
-modified: 20180330150045010
+modified: 20180803002226051
 modifier: cosmos
 tags: [[Learning theory]]
 title: Computational learning theory
@@ -113,3 +113,5 @@ There are relations to [[Game theory]]
 -----------------------
 
 [[Nice classical experiment about supervision|https://www.youtube.com/watch?v=b5NlRg8SjZg&t=19m30s]] (1st lecture of lecture seires on ML)
+
+https://simons.berkeley.edu/workshops/schedule/9161

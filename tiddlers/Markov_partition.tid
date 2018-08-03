@@ -1,0 +1,16 @@
+created: 20180802174325951
+creator: cosmos
+modified: 20180802174530218
+modifier: cosmos
+tags: [[Qualitative dynamics]] [[Symbolic dynamics]]
+title: Markov partition
+tmap.id: 5d817a42-078a-4580-b187-9849ebfdfb9b
+type: text/vnd.tiddlywiki
+
+[img[markov_partition_def.png]]  
+
+Given that I am in partition M_i, knowledge of in which partitions I was previously, shouldn't tell me more information about where in state space I am (so that knowledge can't constrain me to some subset of M_i).
+
+ [[vid|https://www.youtube.com/embed/E3H38Y6fvZc]]
+
+[[chapter|http://chaosbook.org/chapters/knead.pdf]]

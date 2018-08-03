@@ -1,6 +1,6 @@
 created: 20180630215625318
 creator: cosmos
-modified: 20180713211916130
+modified: 20180803002519057
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Advances in reinforcement learning
@@ -17,11 +17,22 @@ type: text/vnd.tiddlywiki
 
 https://buff.ly/2KOUbFO -- MCTS approaches really seem like the best we have for AI problems beyond perception.
 
+[ext[Adances in StarCraft RL|https://yobibyte.github.io/starcraft-research.html#Stabilising-Experience-Replay-for-Deep-Multi-Agent-Reinforcement-Learning,-2017-[21]]
+
 !!__Theory of RL__
 
 [[Comparing humans with the best Reinforcement Learning algorithms|https://www.youtube.com/watch?v=Ol0-c9OE3VQ]] -- this demonstrates that our RL algorithms don't have the same priors that we humans use for learning
 
+https://arxiv.org/abs/1807.09647
+
+-------------
+
 AlphaZero
+
+https://machinethoughts.wordpress.com/2018/04/14/rl-and-the-game-of-mathematics/
+
+https://arxiv.org/abs/1806.02426
+
 
 --------
 

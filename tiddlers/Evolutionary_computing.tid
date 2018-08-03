@@ -1,13 +1,17 @@
 created: 20160303224214410
 creator: guillefix
-modified: 20161104134328223
+modified: 20180803001754480
 modifier: cosmos
 tags: Evolution [[Bio-inspired computing]]
 title: Evolutionary computing
 tmap.id: d85b12c2-e659-4221-aea7-0377a9d3eb2d
 type: text/vnd.tiddlywiki
 
+//aka Evolutionary computation//
+
 https://en.wikipedia.org/wiki/Evolutionary_computation
+
+[[Evo computing Beastiary|https://fcampelo.github.io/EC-Bestiary/]]
 
 See [[Evolution]]
 
@@ -33,7 +37,7 @@ https://en.wikipedia.org/wiki/Reconfigurable_computing
 
 [[Automated Antenna Design with Evolutionary Algorithms|https://ti.arc.nasa.gov/m/pub-archive/1244h/1244%20(Hornby).pdf]]
 
-!!__Artifical life__
+!!__[[Artifical life]]__
 
 http://www.framsticks.com/
 
