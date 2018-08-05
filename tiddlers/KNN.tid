@@ -1,0 +1,38 @@
+created: 20180804233218424
+creator: cosmos
+modified: 20180804233811747
+modifier: cosmos
+tags: [[Regression analysis]]
+title: KNN
+tmap.id: 620307ec-b406-4ca0-8f7c-3f5fc258f18b
+type: text/vnd.tiddlywiki
+
+k-Nearest neighbours
+
+!!![[Main result of error rate analysis of k-NN regression|https://youtu.be/i2bt4vt908g?t=39m5s]]
+
+[[Nearest-neighbour classification]]
+
+Nearest-neighbor methods: To get the prediction Ŷ for a point $$x$$, use [those observations ($$k$$ of them) in the training set T, closest in input space to point x]. Remember training set is a set of pairs $$(x,y)$$. Closest often refers to Euclidean distance.
+
+[[Lecture about theoretical analysis and understanding of k-NN|https://www.youtube.com/watch?v=i2bt4vt908g&index=4&list=PLhuJd8bFXYJtxv2Y9ZoX7vClP96M28VnW]]
+
+Can alsu use for [[Regression]] [[KNN]]
+
+It turns out that the //effective number of parameters// of k-nearest neighbors is $$N/k$$, even if technically there is only one parameter, $$k$$.
+
+Interactive app: https://github.com/lettier/interactiveknn
+
+[[Unbounded capacity but it generalizes at non-trivial rate|https://youtu.be/i2bt4vt908g]]. Indeed in [[Nonparametric statistics]], <mark>overparametrization isn't incompatible with [[Generalization]]</mark>!
+
+[[Of course|No free lunch theorem]], we need to assume something about the target function, typically [[Lipschitz continuity|Lipschitz]], [[but also other assumptions|https://youtu.be/i2bt4vt908g]]
+
+[[Curse of dimensionality]]
+
+-------------
+
+ --> To me it seems more like a method in [[Nonparametric statistics]]! Indeed it is (see [[Wiki|https://en.wikipedia.org/wiki/Nonparametric_statistics#Non-parametric_models]]).
+
+[[Classification w/ K Nearest Neighbors Intro - Practical Machine Learning Tutorial with Python p.13|https://www.youtube.com/watch?v=44jq6ano5n0&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&index=13]]
+
+A KNN classifier with K=1 induces a [[Voronoi tessellation]]

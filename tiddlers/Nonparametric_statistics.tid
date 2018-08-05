@@ -1,6 +1,6 @@
 created: 20160327165844855
 creator: guillefix
-modified: 20171130195635782
+modified: 20180804233551665
 modifier: cosmos
 tags: Statistics
 title: Nonparametric statistics
@@ -16,8 +16,9 @@ not based on parameterized families of probability distributions
 
 __Nonparametric models__
 
-* [[Nearest-neighbour classification]] 
+* [[KNN]] -- [[Nearest-neighbour classification]] 
 * [[Locally-weighted linear regression]]
 * Infinite-dimensional [[Kernel method]]s
+* [[Gaussian process]]es
 
 They are both based on looking at local neighbours near points for which we are going to make the prediction.

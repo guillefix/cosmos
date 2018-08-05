@@ -1,7 +1,8 @@
 created: 20161015101744053
 creator: cosmos
-modified: 20170516185104731
+modified: 20180804233121535
 modifier: cosmos
+tags: Statistics
 title: Curse of dimensionality
 tmap.id: 003c34ef-050a-429c-b8bf-36b92f6732ce
 type: text/vnd.tiddlywiki
@@ -28,3 +29,5 @@ certain restrictions. In fact, when the data follows a mixture of distributions,
 the concentration effect is not always observed; in such cases, distances between
 members of different distributions may not necessarily tend to the global mean
 as the dimensionality increases.
+
+[[Curse of dimensionality in k-NN|https://youtu.be/i2bt4vt908g?t=25m43s]]
