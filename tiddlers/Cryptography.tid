@@ -1,6 +1,6 @@
 created: 20160623231414781
 creator: guillefix
-modified: 20171123104752410
+modified: 20180806141544754
 modifier: cosmos
 tags: Cryptology
 title: Cryptography
@@ -16,6 +16,13 @@ type: text/vnd.tiddlywiki
 Most [[PRNG|Pseudorandom number generator]]s, [[we cannot use in cryptography|https://www.youtube.com/watch?v=AELVJL0axRs#t=50m30s]], instead we need [[Cryptographically secure PRNG]]s
 
 [[paper|https://arxiv.org/abs/1710.05984]] relating mutual information to longest shared secret established over public channel
+
+Based on the structure of the algorithm, cryptosystem can be classified into two categories, block ciphers and stream
+ciphers. Block ciphers tend to simultaneously encrypt groups of characters, whereas stream ciphers operate on individual
+characters of a plaintext message one at a time. In another classification, which is based on the method of distribution
+of secret key, one classifies cryptosystem into two classes, the ''symmetric'' (private) key and the ''asymmetric''
+(public) key cryptosystems. In a symmetric key cryptosystem, the key used in the decryption process is the same as
+(or can be easily obtained from) the key used in the encryption process.
 
 !!__Symmetric cryptosystem__
 

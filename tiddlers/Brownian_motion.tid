@@ -1,6 +1,6 @@
 created: 20160123001419047
 creator: guillefix
-modified: 20180203014149549
+modified: 20180806104852740
 modifier: cosmos
 tags: Diffusion
 title: Brownian motion
@@ -44,6 +44,8 @@ See also probability distribution for random walk (same as for polymer) [For exa
 One can also find __probability of //ever// coming back__, and this [[can be related to|https://www.youtube.com/watch?v=Ut9tv2O87Vk&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l&index=5#t=1h12m30s]] __the expected number of times to come back__. [[This can also be derived heuristically for the asymptotic limit of large times|https://www.youtube.com/watch?v=hHciEDpm1sE&index=9&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l#t=30m42s]].
 
 __First passage time__: [[First passage time calculation using generating functions.|https://www.youtube.com/watch?v=hHciEDpm1sE&index=9&list=PL04QVxpjcnjjDk2ESwBZ1sEcKu91wDV5l#t=38m32s]]. The generating functions also give the {survival probability}, which is the same as {probability of ever coming back}.
+
+Mean first passage time for an ergodic Markov chain equals the reciprocal of the stationary probability. [ext[Intuition|http://www.math.wisc.edu/~valko/courses/331/MC3.pdf]]
 
 [img[https://67.media.tumblr.com/394b4aa4c602b5b869a0ccc0b273c63d/tumblr_o6oafpio971ruo6jxo1_500.png]]
 

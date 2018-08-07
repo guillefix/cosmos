@@ -1,0 +1,45 @@
+created: 20180806223744152
+creator: cosmos
+modified: 20180806233647721
+modifier: cosmos
+tags: Simulation
+title: Shadowing (dynamical system)
+tmap.id: 4d4e94c5-301c-47e8-9a3a-7f62116f9503
+type: text/vnd.tiddlywiki
+
+ [[Using chaos to shadow the quadratic map for alltime|https://www.tandfonline.com/doi/pdf/10.1080/00207169808804740?needAccess=true]] --  We show that by introducing a small noise on the control
+parameter a, we will be able to shadow a true orbit for all time. At each time
+when the shadowing method fails (I think they refer to computaional methods developed by Hammel to determine if numerical orbit is shadowing a real one), we perturb a by fi and continue the
+process. 
+
+Chaotic processes are well known of its sensitive dependence on initial
+conditions. So given a chaotic process, one can ask whether the orbit of this
+chaotic process is a true orbit or not? The answer to this question depends
+on many factors. One of these factors is the computer round off error which
+is the main source of destroying the ability to correctly predict the true trajectories of these chaotic processes. Therefore, if two trajectories starting
+with a distance equal to the computer round off error apart, then these two
+trajectories will be more than one unit apart after just 50 iterates assuming
+that the distance doubles on every iterate.
+Since a great deal of research on chaotic processes relies heavily on
+computer simulation [l-91 and since the study of the dynamics of these
+chaotic processes involve thousands if not millions of iterate, one therefore
+questions how much we see in the computer-generated pictures of chaotic
+attractors is real and how much is due to the computer round off error.
+Recent work has applied the idea of shadowing [lo- 121 and demonstrated
+that some numerically generated chaotic orbits can be shadowed by
+true orbits for long time periods.
+
+https://www.wikiwand.com/en/Shadowing_lemma
+
+[img[shadowing_lemma_Anosov_Bowen.png]]
+
+See definitions in [[Using chaos to shadow the quadratic map for alltime|https://www.tandfonline.com/doi/pdf/10.1080/00207169808804740?needAccess=true]]
+
+For those chaotic processes that are not of this hyperbolic type, the
+shadowing Lemma of Anosov and Bowen is no longer valid. Coven [17],
+Nusse 1181 and Hammel [lo, 111 were able to show that for some nonlinear
+maps and under some conditions true orbits can shadow numerical orbits. 
+
+[[Geodesic flows on closed Riemannian manifolds of negative curvature |http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=tm&paperid=2795&option_lang=eng]]
+
+[[ω-Limit sets for Axiom A diffeomorphisms|https://www.sciencedirect.com/science/article/pii/0022039675900650]]
