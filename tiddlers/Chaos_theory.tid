@@ -1,6 +1,6 @@
 created: 20160308170111605
 creator: guillefix
-modified: 20171002191616737
+modified: 20180807214119349
 modifier: cosmos
 tags: [[Nonlinear systems]]
 title: Chaos theory
@@ -18,6 +18,8 @@ type: text/vnd.tiddlywiki
 * Sensitive dependence on initial conditions. See Lyapunov exponents in [[Nonlinear dynamical systems]]
 
 * A dense orbit, which comes arbitrarily close to all periodic orbits.
+
+http://mathworld.wolfram.com/Chaos.html ([[Topological transitivity]])
 
 __Chaotic [[maps|Nonlinear maps]]__
 
