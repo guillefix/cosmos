@@ -1,0 +1,21 @@
+created: 20180821220431416
+creator: cosmos
+modified: 20180821220757215
+modifier: cosmos
+tags: [[Optical illusion]] [[Natural phenomenon]]
+title: Moon terminator illusion
+tmap.id: 7fe05d6e-13cb-4810-9132-fe34e7a98a0f
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=Y2gTSjoEExc
+
+http://chrisjones.id.au/MoonIllusion/
+
+[[Equidistant cylindrical projection]]
+ -- http://maps.unomaha.edu/Peterson/gis/notes/MapProjCoord.html -- http://www.progonos.com/furuti/MapProj/Normal/ProjCyl/projCyl.html#Rectangular
+
+-------
+
+Basically, the issue is that humans can't trace straight lines well in the absence of appropriate cues (like in the sky) -- they have systematic errors.
+
+We are good at perceiving foreshortening towards the horizontal horizon, but not for things that go towards infinity in other directions, like for [[Crepuscular ray]]s
