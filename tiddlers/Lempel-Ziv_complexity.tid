@@ -1,7 +1,8 @@
 created: 20160627202335121
 creator: guillefix
-modified: 20180503164558445
+modified: 20180822141312432
 modifier: cosmos
+tags: [[Complexity measures based on data compression]]
 title: Lempel-Ziv complexity
 tmap.id: 25fe6ed4-4f7b-4e82-90a4-cc76e14bebad
 type: text/vnd.tiddlywiki
@@ -45,3 +46,7 @@ They give results similar to [[Simplicity bias]]/[[Coding theorem method]], but 
 [[Redundancy of the Lempel-Ziv codes|http://ieeexplore.ieee.org/abstract/document/613233/]]
 
 [ext[A Simple Technique for Bounding the Pointwise Redundancy of the 1978 Lempel-Ziv Algorithm|http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=2EB47F0538F0CDAC926D4539BD101E12?doi=10.1.1.12.1605&rep=rep1&type=pdf]]
+
+-------------------
+
+[ext[Universal prediction|https://www.eng.tau.ac.il/~meir/articles/32%20Universal%20Prediction.pdf]]

@@ -1,6 +1,6 @@
 created: 20160823182558318
 creator: cosmos
-modified: 20180511194308018
+modified: 20180822141219574
 modifier: cosmos
 tags: [[Universal AI]]
 title: Universal inductive inference
@@ -53,6 +53,8 @@ An inductive inference machine (paper where he introduced the idea).
 See also [[Grammar learning]].
 
 !!__Practical induction__
+
+[ext[Universal prediction|https://www.eng.tau.ac.il/~meir/articles/32%20Universal%20Prediction.pdf]]
 
 !!!__Optimal approxiamations__
 

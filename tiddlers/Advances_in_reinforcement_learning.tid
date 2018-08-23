@@ -1,6 +1,6 @@
 created: 20180630215625318
 creator: cosmos
-modified: 20180803002519057
+modified: 20180822122235184
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Advances in reinforcement learning
@@ -32,6 +32,8 @@ AlphaZero
 https://machinethoughts.wordpress.com/2018/04/14/rl-and-the-game-of-mathematics/
 
 https://arxiv.org/abs/1806.02426
+
+[["Solving" Montezuma's revenge|https://medium.com/@awjuliani/on-solving-montezumas-revenge-2146d83f0bc3]] -- They make the RL problem easier by mapping it to a supervised learning problem. However, that way they allow the algorithm to just solve by memorization, rather than having it generalize because of better priors. Learning from demonstrations is interesting though because it could allow the algorithms, for instance, to learn the priors from humans which already have them! However, the algorithms presented in the research discussed in this paper don't seem to do this, and just learn the particular trajectory/policy for solving this game..
 
 
 --------

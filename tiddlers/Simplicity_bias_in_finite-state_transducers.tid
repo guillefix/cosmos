@@ -1,6 +1,6 @@
 created: 20160623202141721
 creator: guillefix
-modified: 20180411133954162
+modified: 20180822141227188
 modifier: cosmos
 tags: [[Simplicity bias]]
 title: Simplicity bias in finite-state transducers
@@ -13,7 +13,7 @@ See [[Redundancy]] calculations in papers in [[Lempel-Ziv complexity]]
 
 See [[Random automata]] and  [[Evolving automata]]
 
-
+[ext[Universal prediction|https://www.eng.tau.ac.il/~meir/articles/32%20Universal%20Prediction.pdf]]
 
 [[Numerical experiments on the simplicity bias in finite-state transducers]]
 

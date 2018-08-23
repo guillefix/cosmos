@@ -1,6 +1,6 @@
 created: 20170926105310195
 creator: cosmos
-modified: 20180514155007625
+modified: 20180822141246047
 modifier: cosmos
 tags: [[Data compression]]
 title: Universal source coding
@@ -43,3 +43,5 @@ So LZ is an optimal compressor over the set of finite state compressors, just li
 [img[finite-state-source_prob_upperbound_LZ.png]]
 
 [img[FSM_source_pointwise_redundancy_LZ.png]]
+
+[ext[Universal prediction|https://www.eng.tau.ac.il/~meir/articles/32%20Universal%20Prediction.pdf]]

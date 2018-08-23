@@ -1,6 +1,6 @@
 created: 20160626192507621
 creator: guillefix
-modified: 20170402230818715
+modified: 20180822141239093
 modifier: cosmos
 tags: [[Information theory]]
 title: Data compression
@@ -34,6 +34,9 @@ Because real-world data very often has [[Order]] (i.e. structure), and is thus c
 --------
 
 //Related//
+
+[ext[Universal prediction|https://www.eng.tau.ac.il/~meir/articles/32%20Universal%20Prediction.pdf]]
+
 
 [[Algorithmics on compressed objects]]
 
