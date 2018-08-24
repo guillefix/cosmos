@@ -1,0 +1,14 @@
+created: 20180823144401828
+creator: cosmos
+modified: 20180823150957244
+modifier: cosmos
+tags: [[Map projection]]
+title: Cylindrical projection
+tmap.id: 80079063-480d-4bfd-8fcf-3e67d8626a3e
+type: text/vnd.tiddlywiki
+
+http://www.progonos.com/furuti/MapProj/Normal/ProjCyl/projCyl.html#Rectangular 
+
+[[Parallel|Circle of latitude]]s and [[Meridian]]s are straight lines, and [[Great circle]] are [[Sinusoidal]] lines
+
+All cylindrical projections are remarkably similar, being in fact only distinguished by parallel spacing. The very important, unique conformal cylindrical projection is named after [[Mercator|Mercator projection]] 

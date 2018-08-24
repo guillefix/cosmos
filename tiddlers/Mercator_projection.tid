@@ -1,0 +1,12 @@
+created: 20180823151008119
+creator: cosmos
+modified: 20180823152714013
+modifier: cosmos
+tags: [[Cylindrical projection]] [[Conformal chart]]
+title: Mercator projection
+tmap.id: eb9609e2-4c38-4929-a748-35dd6a74c95f
+type: text/vnd.tiddlywiki
+
+http://www.progonos.com/furuti/MapProj/Normal/ProjNav/projNav.html#Mercator
+
+The unique [[conformal|Confromal map]] [[Cylindrical projection]]. As angles with respect to meridians are preserved, and meridians are straight lines, [[Loxodrome]]s are straight lines!
