@@ -1,0 +1,12 @@
+created: 20180905184517189
+creator: cosmos
+modified: 20180905184612974
+modifier: cosmos
+tags: [[Goldreich-Levin theorem]]
+title: One-way permutation
+tmap.id: 2511c63e-b1e1-465f-b651-682a5bc2f2e3
+type: text/vnd.tiddlywiki
+
+See [[Goldreich-Levin theorem]]
+
+A [[bijective|Bijection]] [[Boolean function]] that is [[easy to compute|Computational efficiency]], but whose [[inverse|Inverse function]] is hard to compute.

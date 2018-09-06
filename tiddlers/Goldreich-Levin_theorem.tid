@@ -1,0 +1,12 @@
+created: 20180905184016962
+creator: cosmos
+modified: 20180905185541977
+modifier: cosmos
+tags: Cryptography [[Analysis of Boolean functions]]
+title: Goldreich-Levin theorem
+tmap.id: 6cc11ee7-dae8-4117-b6a5-7c6653fbdf56
+type: text/vnd.tiddlywiki
+
+[[video|https://youtu.be/nYlTzGWi3h8?t=31m40s]]
+
+It shows that from a [[One-way permutation]], you can build a [[Pseudorandom generator]]
