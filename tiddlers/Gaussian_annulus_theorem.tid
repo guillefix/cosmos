@@ -1,0 +1,20 @@
+created: 20180906130316420
+creator: cosmos
+modified: 20180906145728268
+modifier: cosmos
+tags: 
+title: Gaussian annulus theorem
+tmap.id: 289cf419-7646-4815-9ac5-ccfbc2f63c3f
+type: text/vnd.tiddlywiki
+
+Used to prove [[Johnson-Lindenstrauss lemma]]
+
+---------------
+
+[[vid|https://youtu.be/9GMT3FnQTGM?t=24m40s]] proving it from a general [[Concentration inequality]] based on bounding moments
+
+http://www.cs.cornell.edu/courses/cs4850/2017sp/Chapter2-ReviewSession.pdf
+
+https://www.wikiwand.com/en/Chi-squared_distribution
+
+https://www.wikiwand.com/en/N-sphere#/Volume_and_surface_area

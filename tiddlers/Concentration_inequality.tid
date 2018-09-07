@@ -1,8 +1,8 @@
 created: 20180526183256344
 creator: cosmos
-modified: 20180628133733616
+modified: 20180906133756953
 modifier: cosmos
-tags: [[Probability theory]]
+tags: [[Probability theory]] [[High-dimensional statistics]]
 title: Concentration inequality
 tmap.id: 0467e593-181e-4c70-b12c-2c1ac8e33cdf
 type: text/vnd.tiddlywiki
@@ -11,12 +11,15 @@ type: text/vnd.tiddlywiki
 
 Inequalities that tell you that most probability mass in some event space is //concentrated// in some region, so that something in that region occurs [[w.h.p.]]
 
-* [[Markov's inequality]] -- you know the mean
-* [[Chebyshev's inequality]] -- you know the standard deviation
-* [[Hoeffding's inequality]], [[Chernoff bound]] -- you know it's a sum of independent things
-** See extensions in [[Martingale]]s ([[Azuma-Hoeffding inequality]]), where you have a sequence (stochastic process) where things can depend on past things, but the expecation of the future is always the same as the present, and other conditions.
+* [[Markov's inequality]] -- you know the ''mean, for a nonnegative r.v''
+* [[Chebyshev's inequality]] -- you know the [[Standard deviation]] (which intuitively gives a notion of being close to the mean)
+* Inequalities for sum of r.v.s
+** [[Hoeffding's inequality]], [[Chernoff bound]] -- for a ''sum of independent things'' (and having some sort of control over their variance/range!). As we use [[Exponential moments]], the distribution of the individual r.v.s should have at least exponential tails. For heavier tails, we need other methods, like that using normal moments described below.
+*** See extensions in [[Martingale]]s ([[Azuma-Hoeffding inequality]]), where you have a sequence (stochastic process) where things can depend on past things (so ''non-independent r.v.s!''), but the expecation of the future is always the same as the present, and other conditions.
+** For r.v.s with heavier tails (although it also works in general) [[[video|https://youtu.be/9GMT3FnQTGM?t=13m50s]]], we can use the method of bounding moments [[moments|Moment (mathematics)]] rather than exponential moments, as is done for deriving Hoeffding-Chernoff bounds. So if we can bound the moments of the individual r.v.s (they don't vary too much!) in the sum, we can then bound the corresponding moments of the sum. It also gives a concentration bound that decays quadratic-exponentially (like for Hoeffding-Chernoff bounds), ''but not for too large deviations!'' <small>(there is a version that works for larger deviations),</small>. [[Under the assumptions of the theorem, the moments of the sum are sub-Gaussian|https://youtu.be/9GMT3FnQTGM?t=15m36s]]. ''See notes [ext[here|https://web.math.princeton.edu/~rvan/APC550.pdf#page=53]]''
+*** [[for sum of independent exponential or power law distributed r.v.|https://youtu.be/9GMT3FnQTGM?t=25m15s]]
 * [[Bernstein inequalities]]
-* [[Poincare inequalities]] (of the general form $$variance(f) \lesssim \mathbf{E}[||gradient(f)||^2]$$, see [ext[here|https://www.princeton.edu/~rvan/ORF570.pdf#page=25]])
+* [[Poincare inequalities]] Gives bound on variance <small>(measure of how concentrated around mean r.v. is)</small> (of the general form $$variance(f) \lesssim \mathbf{E}[||gradient(f)||^2]$$, see [ext[here|https://www.princeton.edu/~rvan/ORF570.pdf#page=25]]). Useful when you can calculate the expected value of the gradient squared. From the variance, we can then use Chebysev's inequality to obtain probabilities.
 ** [[Bounded differences inequality]]
 ** [[Tensorization of variance]]
 
