@@ -1,6 +1,6 @@
 created: 20160705111418197
 creator: guillefix
-modified: 20171023125511933
+modified: 20180908013128290
 modifier: cosmos
 tags: Algorithms
 title: Procedural generation
@@ -8,6 +8,8 @@ tmap.id: 1bba2fd1-3514-4b83-93c1-953fcf289d51
 type: text/vnd.tiddlywiki
 
 https://en.wikipedia.org/wiki/Procedural_generation
+
+http://pcgbook.com/
 
 [[Procedural graphics]]
 

@@ -1,6 +1,6 @@
 created: 20171129120946988
 creator: cosmos
-modified: 20180511183917994
+modified: 20180907160620355
 modifier: cosmos
 tags: [[Hilbert space]] [[Function space]]
 title: Reproducing kernel Hilbert space
@@ -18,7 +18,7 @@ type: text/vnd.tiddlywiki
 
 !!!__[[Reproducing kernel]] perspective__
 
-The above condition is equivalent to having a [[Reproducing kernel]]. That is, the Hilbert space has a kernel (that is a function from two copies of the input space to the reals), such that 
+The above condition (<small>Evaluation linear functional at point x is continuous</small>) is equivalent to having a [[Reproducing kernel]]. That is, the Hilbert space has a kernel (that is a function from two copies of the input space to the reals), such that 
 
 *  the function you get from fixing one argument of the kernel must be a member of the Hilbert space we are considering
 
@@ -45,6 +45,8 @@ See here: [[The RKHS is taken by taking linear combinations of feature functions
 A typical kernel is the [[Gaussian kernel]], and in that case the feature map $$\phi(a)$$ is just a [[Gaussian]] centered around $$a$$, namely the function $$Ae^{-(x-a)^2}$$.
 
 Indeed the reproducing kernels can be seen as the inner products of a basis functions/vectors. So the basis functions can be seen as just the kernels, with one argument fixed. One can easily check that the inner product of two Gaussian functions (defined using the usual inner product for functions, which can be gotten by looking at functions as vectors..) is the Gaussian kernel, one can also check that this is a reproducing kernel.
+
+> Consider a weird example of the above explanation. We can map elements of R^2 to functions on R^2 which look like pyramids centered around the input point. The space of functions has a standard inner product. Then we define a new function on R^2 given by taking the inner product of the function associated with point x with the function associated with point y for any y. Then we define the inner product of two such functions to be the inner product of the original pyramids, which makes them work like evaluating functionals. Therefore, we have defined an RKHS (the space of functions over R^2 with the inner product defined as later), via an intermediate not-necessarily-RK [[HS|Hilbert space]].
 
 __Connection with [[Regularization]]__
 
