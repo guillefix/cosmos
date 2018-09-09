@@ -1,7 +1,7 @@
 created: 20160122173130595
 creator: guillefix
-modified: 20161104134333156
-modifier: guillefix
+modified: 20180908233759564
+modifier: cosmos
 tags: Programming
 title: Web development
 tmap.id: 0a552fd6-f955-4618-8f90-31fe1e77cad2
@@ -12,3 +12,5 @@ type: text/vnd.tiddlywiki
 [[Backend web development]]
 
 http://electron.atom.io/
+
+[[Intro to web architecture|https://engineering.videoblocks.com/web-architecture-101-a3224e126947]]

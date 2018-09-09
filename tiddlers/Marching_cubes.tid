@@ -1,0 +1,16 @@
+created: 20180909000656887
+creator: cosmos
+modified: 20180909001113197
+modifier: cosmos
+tags: [[Computer graphics]]
+title: Marching cubes
+tmap.id: 832ab4d5-e253-4304-8ca8-f06b9927f645
+type: text/vnd.tiddlywiki
+
+Marching cubes is a simple algorithm for creating a triangle mesh from an implicit function (one of the form f(x, y, z) = 0). It works by iterating ("marching") over a uniform grid of cubes superimposed over a region of the function.
+
+[ext[https://graphics.stanford.edu/~mdfisher/MarchingCubes.html]]
+
+https://www.youtube.com/watch?v=LfttaAepYJ8
+
+The triangles match up because adjacent cubes share faces, and the edges of triangles on each face are only determined by the pattern in the face!

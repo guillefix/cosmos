@@ -1,6 +1,6 @@
 created: 20170824130553111
 creator: cosmos
-modified: 20180722221355551
+modified: 20180908160226655
 modifier: cosmos
 tags: Robotics
 title: Spatial navigation
@@ -12,3 +12,8 @@ type: text/vnd.tiddlywiki
 
 [[Grid cell]]s, [[Vector-based navigation using grid-like representations in artificial agents|https://www.nature.com/articles/s41586-018-0102-6.epdf?author_access_token=BjM-5BdGxd14c17YFA6PsdRgN0jAjWel9jnR3ZoTv0OEfySMT4t78PpPpCS7uExW3njb8Q4UlgcwRM32WwBCKZs73SThwkfI42wHhFEtJM-Y7sQxDsR1cR7_C9Kq1GwuxGJn46kzRnujvrDMGzc4TQ%3D%3D]]
 
+----------------
+
+[[Computer vision]]
+
+[[Leveraging Deep Visual Descriptors for Hierarchical Efficient Localization|https://arxiv.org/abs/1809.01019]]

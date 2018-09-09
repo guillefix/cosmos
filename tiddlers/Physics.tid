@@ -1,7 +1,7 @@
 created: 20160117160004150
 creator: guillefix
 list-before: Chemistry
-modified: 20180724231453725
+modified: 20180908225539535
 modifier: cosmos
 tags: Science
 title: Physics
@@ -14,7 +14,7 @@ type: text/vnd.tiddlywiki
 
 Play with (simulated) physics: http://www.algodoo.com/
 
-[[Play]] with (real) physics: go [[Outside]]
+> [[Play]] with (real) physics: go [[Outside]] <!-- But the sun is a deadly lazerr -->
 
 !!!Nice map of physics: http://scimaps.org/maps/map/being_a_map_of_physi_171/detail
 
@@ -47,3 +47,5 @@ See DB\Cosmos, etc....
 https://journals.aps.org/prx/issues/6/2
 
 http://eman-physics.net/wiki/
+
+https://physicstravelguide.com/

@@ -1,6 +1,6 @@
 created: 20180906130316420
 creator: cosmos
-modified: 20180906145728268
+modified: 20180908160004940
 modifier: cosmos
 tags: 
 title: Gaussian annulus theorem
@@ -17,4 +17,6 @@ http://www.cs.cornell.edu/courses/cs4850/2017sp/Chapter2-ReviewSession.pdf
 
 https://www.wikiwand.com/en/Chi-squared_distribution
 
-https://www.wikiwand.com/en/N-sphere#/Volume_and_surface_area
+https://www.wikiwand.com/en/N-sphere#/Volume_and_surface_area -- http://scipp.ucsc.edu/~haber/ph116A/volume_11.pdf
+
+[[Asymptotics of Gamma function|https://dlmf.nist.gov/5.6]]
