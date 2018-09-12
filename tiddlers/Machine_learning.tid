@@ -1,6 +1,6 @@
 created: 20160226112409331
 creator: guillefix
-modified: 20180730130202265
+modified: 20180911145344999
 modifier: cosmos
 tags: [[Artificial intelligence]] Learning [[Data science]]
 title: Machine learning
@@ -178,3 +178,5 @@ See https://www.youtube.com/watch?v=DHspIG64CVM#t=45m40s
 https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html
 
 https://www.wikiwand.com/en/Transduction_(machine_learning)
+
+Good collection of tutorials https://medium.com/machine-learning-in-practice/over-200-of-the-best-machine-learning-nlp-and-python-tutorials-2018-edition-dd8cf53cb7dc
