@@ -1,6 +1,6 @@
 created: 20170507001620403
 creator: cosmos
-modified: 20180609113632413
+modified: 20180920002450512
 modifier: cosmos
 tags: [[Non-Euclidean geometry]] [[Video game]]
 title: Azimuth (Game)
@@ -11,9 +11,33 @@ type: text/vnd.tiddlywiki
 
 [[Repository|https://github.com/damaru2/azimuth-design/tree/master/code]]
 
-Telegram group
+Telegram group. A2 Electric boogalu
 
-.......
+----------
+
+ZenoRogue
+
+---------------
+
+Azimuth level designer (now in VR!): https://www.youtube.com/watch?time_continue=17&v=sCv591MyXD4
+
+!!!__Azimuth mirrors!!__
+
+You won't notice you've swapped, if you go through a mirror. Here is one way to think about it, the thing you are seeing in the mirror, is what you would do if they swapped your particles (if the laws of physics are mirror-reflection-invariant).
+
+This follows the same logic as for rotations, but we are just more used to things rotating, than to things mirror-reflecting! You can't meaningfully reflect, unless it's relative to something!
+
+More geometrically, it's clear that a pure change of coordinates shouldn't change any behaviour, and should therefore not be noticeable to an observer. Just geometrically swapping the particles is just the same as changing the coordinate system to a mirror-reflected one, from a purely geometric (what the coordinates are) perspective. Note that actually swapping your atoms by mirror transformation would be equivalent to just a coordinate change only if the laws of physics are mirror symmetric. To be equivalent to a coordinate transformation in the case where the laws of physcis aren't mirror symmetric, you'd need to change the intrinsic orientation of the laws as well :)
+
+Note that mirror symmetry breaking means our universe has to be orientable, if we assume smoothness. So it can't be a [[Moebius strip]]!
+
+Geometrically, any coordinate transformation is imperceptible of course! What does it mean to rotate/transform? There several intepretations (like those discussed above). As well for Azimuth and for real world. You could imagine a door in Azimuth which makes you look extremely deformed for everyone, but for you it is everyone else who looks extremely deformed! Cool stuff `^^`
+
+----------
+
+World design
+
+------------
 
 __[[Isometries|Isometry]]__
 
