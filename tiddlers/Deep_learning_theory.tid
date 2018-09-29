@@ -1,6 +1,6 @@
 created: 20160913070239061
 creator: cosmos
-modified: 20180803234547762
+modified: 20180928193352914
 modifier: cosmos
 tags: [[Deep learning]] [[Learning theory]]
 title: Deep learning theory
@@ -10,6 +10,9 @@ type: text/vnd.tiddlywiki
 [[Neural network theory]] -- [[Learning theory]]
 
 //Better understanding the shortcomings and potential of deep learning may suggest ways of improving it, both to make it more capable and to make it more robust [2].//
+
+* [[Generalization]] -- [[Generalization in deep learning]]
+* Optimization -- [[Optimization for learning]], [[Optimization for training deep models]]
 
 Nice lecture videos: https://www.researchgate.net/project/Theories-of-Deep-Learning -- https://stats385.github.io/readings
 

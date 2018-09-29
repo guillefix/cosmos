@@ -1,7 +1,7 @@
 created: 20160117173422909
 creator: guillefix
 list-after: Cognitive science
-modified: 20170911124731763
+modified: 20180928171744779
 modifier: cosmos
 tags: Mathematics [[Systems science]]
 title: Computer Science and IT
@@ -11,6 +11,8 @@ type: text/vnd.tiddlywiki
 Computer science and [[Information technology]] (IT).
 
 ''Computer science'' is what came out of asking: <b>what kind of [[maths|Mathematics]] can actually be //effectively// carried out in the [[physical|Physics]] world?</b>
+
+> Computer science is the science of holism. Unlike in the standard natural sciences, we know the fundamental building blocks perfectly, by assumption. Therefore, reductionism doesn't give you anything. All the questions is about what emergent behhaviour occurs.
 
 [[Map of computer science|https://www.youtube.com/watch?v=SzJ46YA_RaA]]
 
