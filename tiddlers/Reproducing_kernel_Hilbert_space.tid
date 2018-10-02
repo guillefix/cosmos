@@ -1,6 +1,6 @@
 created: 20171129120946988
 creator: cosmos
-modified: 20180907160620355
+modified: 20181001142909456
 modifier: cosmos
 tags: [[Hilbert space]] [[Function space]]
 title: Reproducing kernel Hilbert space
@@ -36,9 +36,9 @@ A feature map is just a map from an input set to a [[Hilbert space]]!
 
 [[Video|https://youtu.be/bBRX3OqNC9c?t=19m48s]] -- [ext[notes|http://www.gatsby.ucl.ac.uk/~gretton/coursefiles/lecture4_introToRKHS.pdf#page=3]]
 
-''Idea'': you map inputs to a feature space (vector of numbers, which could be a function..). This is the feature map. Then you can define functions on inputs by defining them to be vectors in this same space, and defining their evaluation at x to be this vector inner producted with $$\phi(x)$$. The kernel function just tells you the value of the feature map at a point, with the feature map at another point.
+''Idea'': you map inputs to an [[Inner product space]] feature space (vector of numbers, which could be a function..). This is the feature map. Then you can define functions on inputs by defining them to be vectors in this same space, and defining their evaluation at x to be this vector inner producted with $$\phi(x)$$. The kernel function just tells you the value of the feature map at a point, with the feature map at another point.
 
->This means that: by just giving an input map, we get an induced RKHS, where the functions are represented (in 1-to-1 correspondence) with linear combinations of feature vectors. The function is really defined by taking the inner product of the feature vector of x with the feature vector representing the function.
+>This means that: by just giving an feature map, we get an induced RKHS, where the functions are represented (in 1-to-1 correspondence) with linear combinations of feature vectors. The function is really defined by taking the inner product of the feature vector of x with the feature vector representing the function.
 
 See here: [[The RKHS is taken by taking linear combinations of feature functions|https://youtu.be/bBRX3OqNC9c?t=27m29s]] -- see also [ext[here|http://www.gatsby.ucl.ac.uk/~gretton/coursefiles/lecture4_introToRKHS.pdf#page=9]]
 
