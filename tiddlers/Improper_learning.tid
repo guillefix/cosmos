@@ -1,15 +1,22 @@
 created: 20171031150224508
 creator: cosmos
-modified: 20171101154124878
+modified: 20181004164647052
 modifier: cosmos
-tags: [[Computational learning theory]]
+tags: [[Learning theory]]
 title: Improper learning
 tmap.id: 475a36a7-ac0f-4788-9354-f5aeb60da02b
 type: text/vnd.tiddlywiki
 
 //a.k.a. representation independent learning//
 
-''Improper learning'' refers to a learning algorithm which outputs hypotheses from a class different from the concept class (which in PAC learning, one assumes contains the true concept, or in agnostic learning, one is trying to do as well as)
+''Improper learning'' refers to a learning algorithm which outputs hypotheses from a class different from the concept class
+
+We define //concept class// as the set of possible [[Target function]]s. We define //hypothesis class// as the set of possible outputs for the [[Learning algorithm]]. 
+
+<small>
+(In [[PAC learning|Probably approximately correct]], one typically assumes that the hypothesis and concept classes are the same (although not always; technically one just assumes [[realizability|Realizability assumption]], see [[UML|Understanding machine learning]], [[Wolpert]]'s [[No free lunch theorem]] article),
+ in [[Agnostic learning]], one is trying to do as well as any hypothesis in a given hypothesis class, while one doesn't assume anything about the concept class). I suppose one can make an extension of agnostic PAC where one can output things from a hypothesis class, and then compare with things in a different class and/or assume something about the concept class.
+</small>
 
 See [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture01.pdf#page=11]]
 
@@ -17,7 +24,7 @@ See [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectur
 
 https://stats.stackexchange.com/questions/152181/what-does-improper-learning-mean-in-the-context-of-statistical-learning-theory-a
 
- One may wonder, whether this is always the case, i.e., can we always identify a larger
+... One may wonder, whether this is always the case, i.e., can we always identify a larger
 hypothesis class from which we can identify a consistent learner?
 In [[this lecture|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture05.pdf]], we’ll answer this question in the negative, provided a certain widely believed
 assumption in cryptography holds. We will show that there are concept classes that cannot
