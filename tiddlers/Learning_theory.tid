@@ -1,6 +1,6 @@
 created: 20160709004653144
 creator: guillefix
-modified: 20181004163443472
+modified: 20181005153257269
 modifier: cosmos
 tags: [[Statistical inference]] Learning [[Artificial intelligence]] [[Machine learning]]
 title: Learning theory
@@ -32,6 +32,12 @@ Some important types:
 
 See more at [[Machine learning]], and [[Computational learning theory]]
 
+__Design factors in supervised machine learning__
+
+[img width=350 [machine_learning_design_factors.png]]
+
+Also named: [[Expressibility]], [[Optimization for learning]], [[Generalization]]
+
 ----------------
 
 <b>Learning theory focuses mostly on [[Supervised learning]], which is one of the most common learning problems in practice.</b>, and provides a general foundation for many other learning problems. 
@@ -53,7 +59,16 @@ Given the previous abstract definition, the solution to expected risk minimizati
 Some answers: 
 [[Consistency of a learning algorithm|https://www.youtube.com/watch?v=9-oxo_k69qs#t=16m50s]] and other notions of goodness (one common one is also [[Probably approximately correct]] learning. See also Walport's chapter on boon "Mathematics of generalization") . A learning algorithm that has low expected risk with high probability (or related notions) is said to predict well, and if we do this even when we were given a training set much smaller than the test set, we say the algorithm is able to generalize.
 
-!!__[[Generalization]]/prediction__
+!!!__[[Empirical risk minimization]]__
+
+Risk minimization, requires knowing the joint probability distribution $$P(x,y)$$, so one often uses the sample mean of the risk as an estimator for the expected value of the risk. Minimizing this empirical quantity is called empirical risk minimization.
+
+The empirical risk, for a 0-1 loss function is also known as ''training error'' $$\hat{\epsilon}$$, which is just the fraction of training points that your hypothesis missclassifies. See [[Training error (vid)|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=11m]].
+
+Sometimes, the difference between the empirical risk and the true risk is called the ''generalization gap''. Many learning algorithms are about doing approximate ERM while ensuring low generalization gap (and thus ensuring subsequent generalization/good prediction). This is approached with [[Regularization]]. This is a tradeoff whose extremes are called overfitting and underfitting.
+
+
+!!!__[[Generalization]]/prediction__
 
 [[Making good generalizations is the goal of predictive/supervised learning|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=17m45s]], where ''generalization'' means 
 making predictions about unseen data from seen data, and good generalization means these predictions agree with the actual results, as often as possible. See also [[Induction]].
@@ -62,19 +77,11 @@ For the case of 0-1 loss functions, the expected risk is also known as ''general
 
 [[No free lunch theorem]] -- [[Wolpert article on No Free Lunch and the different learning theory frameworks|http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=1A58309E5BB673000B0A0AA9E69BD559?doi=10.1.1.49.1549&rep=rep1&type=pdf]]
 
-!!__[[Empirical risk minimization]]__
-
-Risk minimization, requires knowing the joint probability distribution $$P(x,y)$$, so one often uses the sample mean of the risk as an estimator for the expected value of the risk. Minimizing this empirical quantity is called empirical risk minimization.
-
-The empirical risk, for a 0-1 loss function is also known as ''training error'' $$\hat{\epsilon}$$, which is just the fraction of training points that your hypothesis missclassifies. See [[Training error (vid)|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=11m]].
-
-Sometimes, the difference between the empirical risk and the true risk is called the ''generalization gap''. Many learning algorithms are about doing approximate ERM while ensuring low generalization gap (and thus ensuring subsequent generalization/good prediction). This is approached with [[Regularization]]. This is a tradeoff whose extremes are called overfitting and underfitting.
-
-!!!__[[Overfitting and underfitting]]__
+__[[Overfitting and underfitting]]__
 
 Overfitting and underfitting refer to ways of misstraining a model, i.e., making it have poor generalization error, compared to the optimal model. [[Bias-variance tradeoff|https://www.youtube.com/watch?v=tojaGtMPo5U&list=PLA89DCFA6ADACE599&index=9#t=4m1.5s]]
 
-!!__[[Regularization]]__
+!!!__[[Regularization]]__
 
 A way to avoid overfitting, while keeping all parameters in your model.
 [[Intro vid|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=1m]]
@@ -83,7 +90,7 @@ We use the [[Prior distribution]] from [[Bayesian statistics]], to make [[simple
 
 [[Intuition|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=12m]]
 
-!!__[[Model selection/assessment|Model selection]]__
+!!!__[[Model selection/assessment|Model selection]]__
 
 Model selection algorithms provide methods to automatically choose optimal bias/variance tradeoffs. 
 
@@ -93,9 +100,33 @@ Model selection algorithms provide methods to automatically choose optimal bias/
 
 !!__Learning theory__
 
-Mostly studies ways of ensuring good generalization for learning algorithms. See [[Probably approximately correct]]
+Mostly studies ways of ensuring good generalization for learning algorithms. See more at [[Computational learning theory]] and [[Probably approximately correct]]
 
-See more at [[Computational learning theory]]!
+We have several approaches:
+
+* ''Realizable learning'', where we assume the hypothesis class and data distribution (e.g. target function) are such that we can reach $$0$$ [[Empirical risk]]. This leads to [[PAC learning|Probably approximately correct]]
+* ''Data-dependent realizable learning''
+** Depends on data distribution.
+*** Depends on target function. Analysis of [[Occam algorithm]]s.
+** Depends on distribution over data distributions. See analysis when assuming distribution overt target functions follows the [[Universal probability]] distribution. Can also do [[Bayesian|Bayesian statistics]] analysis in this case.
+** Dependent on training sample.
+*** [[Rademacher complexity]] analysis. Depends on hypothesis class and training sample S
+*** Elementary PAC-Bayes bound. Depends on the output of the learning algorithm, $$h$$.
+*** Realizable PAC-Bayes bound. Depends on likelihood of training sample
+*** Realizable [[Structural risk minimization]]. Depends on the class to which output belongs. Occam algorithms can be analyzed like this also I think.
+**** [[Minimum description length]] is a special case.
+* ''[[Agnostic learning]]'', where we don't assume anything about the data distribution, and just ask: how well can I do relative to the function that does best (has lowest true risk) in a given hypothesis class. It has a related formulation, where we instead ask how much does the true risk differ from the empirical risk. The error in the former can be shown to be at most twice the error in the later.
+* ''Data-dependent agnostic learning''
+** Depends on data distribution.
+*** Depends on target function.
+** Depends on distribution over data distributions.
+** Dependent on training sample.
+*** [[Rademacher complexity]] analysis. Depends on hypothesis class and training sample S
+*** Agnostic PAC-Bayes bounds
+*** Agnostic [[Structural risk minimization]]. Depends on the class to which output belongs.
+**** [[Minimum description length]] is a special case.
+
+(well technically, what's called "realizability" tends to be that the true risk is 0, while here I am using it as meaning that the empirical risk is 0)
 
 !!!__[[Convergence and performance results in learning theory]]__
 
@@ -107,13 +138,10 @@ $$|\epsilon(h)-\hat{\epsilon}(h)|\leq O\left(\sqrt{\frac{d}{m}\log{\frac{m}{d}}+
 
 where $$m$$ is the size of the training set. A corollary is that for ERM, the number of training samples needed for a particular performance is roughly linear on the [[VC dimension]] of the hypothesis class (see [[video|https://www.youtube.com/watch?v=0kWZoyNRxTY&index=10&list=PLA89DCFA6ADACE599#t=22m]]). ''Sample complexity is upper bounded by VC dimension''.
 
-!!__Design factors in machine learning__
-
-[img[machine_learning_design_factors.png]]
-
 !!__[[Deep learning theory]]__
 
 [[Neural network theory]], [[Generalization in deep learning]]
+
 
 --------------------
 
