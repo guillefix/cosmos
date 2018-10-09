@@ -1,11 +1,13 @@
 created: 20180526183735131
 creator: cosmos
-modified: 20180610182529402
+modified: 20181008131650367
 modifier: cosmos
 tags: [[Concentration inequality]]
 title: Bounded differences inequality
 tmap.id: 0aef0470-5a3d-4fb6-b8c1-201678a6c851
 type: text/vnd.tiddlywiki
+
+//a.k.a. ''McDiarmid's inequality''//
 
 Let $$Z_1,...,Z_m \in \mathcal{Z}$$ (<small>remember for random variables $$\in$$ is interpreted as they take values in, or the codomain of the r.v. is </small>) be $$m$$ [[i.i.d.]] [[Random variable]]s, and let $$h: \mathcal{Z}^m \to \mathbb{R}$$ be a function satisfying, for every $$k \in \{1,...,m\}$$ and for all $$z_1,...,z_m,z'_k \in \mathcal{Z}$$:
 

@@ -1,6 +1,6 @@
 created: 20180518174237094
 creator: cosmos
-modified: 20180524175916721
+modified: 20181008190636701
 modifier: cosmos
 tags: [[Learning theory]]
 title: Rademacher complexity
@@ -13,6 +13,8 @@ $$\mathcal{R}(T) := \mathbf{E}\sup_{t \in T} \frac{1}{m} \sum_{i=1}^m \epsilon_i
 
 where $$\epsilon_1, ..., \epsilon_m$$ are [[i.i.d.]] [[Random variable]]s [[uniform|Uniform distribution]] in $$\{-1,1\}$$
 
+See [ext[here|https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf#page=375]] for book chapter (UML), also notes on LectureNotes on tablet (ML-AI/Learning theory)
+
 An important tool to bound the mean of a supremum of a random process is the Rademacher complexity. 
 
 [img[Rademacher_complexity_and_Lipschitz_function.png]]
@@ -20,3 +22,25 @@ An important tool to bound the mean of a supremum of a random process is the Rad
 [[Video|https://www.youtube.com/watch?v=gR9Q8pS03ZE]]
 
 See [[Learning theory]] 
+
+multiplying a set of vectors by a constant, and translating them by a constant vector (a kind of affine transformation) doesn't change the Rademacher complexity. This demonstrates the fact that Rademacher is not only about how well the vectors match the signs of the sigmas. They may only encode this if we limit the norm of the vectors (for e.g. when working with a bounded loss)
+
+taking the convex hull of a set of vectors doesn't change the Rademacher complexity. This is because  the suppremum over a set of a linear objective doesn't change when we take the sup over the convex hull of the set.
+
+__[[Massart lemma]]__
+
+the Rademacher complexity of a finite set grows logarithmically with the size of the set.
+
+Let $$A=\{\mathbf{a}_1,...,\mathbf{a}_N\}$$ be a finite set of vectors in $$\mathcal{R}^m$$. Define $$\bar{\mathbf{a}} = \frac{1}{N}\sum_{i=1}^N \mathbf{a}_i$$. Then,
+
+$$R(A) \leq \max\limits_{\mathbf{a}\in A} ||\mathbf{a}-\bar{\mathbf{a}}|| \frac{\sqrt{2\log{(N)}}}{m}$$
+
+!!!__[[Rademacher complexity of linear classes]]__
+
+!!!__[[Generalization bounds for SVM]]__
+
+[[Margin-based generalization bound]]
+
+!!!__[[Norm-based generalization bound]]__
+
+Together with margin-based, these are used in [[Deep learning theory]]
