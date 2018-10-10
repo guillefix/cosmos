@@ -1,0 +1,16 @@
+created: 20181009120403271
+creator: cosmos
+modified: 20181009120354637
+modifier: cosmos
+tags: [[Rademacher complexity]]
+title: Massart lemma
+tmap.id: d7d8b30a-c9ee-4838-98dc-39ae3570c58f
+type: text/vnd.tiddlywiki
+
+the Rademacher complexity of a finite set grows logarithmically with the size of the set.
+
+Let $$A=\{\mathbf{a}_1,...,\mathbf{a}_N\}$$ be a finite set of vectors in $$\mathcal{R}^m$$. Define $$\bar{\mathbf{a}} = \frac{1}{N}\sum_{i=1}^N \mathbf{a}_i$$. Then,
+
+$$R(A) \leq \max\limits_{\mathbf{a}\in A} ||\mathbf{a}-\bar{\mathbf{a}}|| \frac{\sqrt{2\log{(N)}}}{m}$$
+
+Tricks for proof: exponentiating, [[Jensen's inequality]], [[Sum is greater than max]], making the bound for scaled version of the set of vectors, Lemma A.^ on UML (bound on [[Cosh]])

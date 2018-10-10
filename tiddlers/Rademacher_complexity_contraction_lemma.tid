@@ -1,0 +1,16 @@
+created: 20181009144957546
+creator: cosmos
+modified: 20181009144947836
+modifier: cosmos
+tags: [[Rademacher complexity]]
+title: Rademacher complexity contraction lemma
+tmap.id: f3ce0ee8-9f10-4af4-a6c2-bb395b339b4b
+type: text/vnd.tiddlywiki
+
+
+composing A with a [[Lipschitz]] function does not
+blow up the Rademacher complexity.
+
+[img[Rademacher_complexity_and_Lipschitz_function.png]]
+
+See Lemma 26.9 in [[UML]]

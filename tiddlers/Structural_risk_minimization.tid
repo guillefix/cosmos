@@ -1,13 +1,25 @@
 created: 20170516120241177
 creator: cosmos
-modified: 20170623123505018
+modified: 20181009144426979
 modifier: cosmos
 tags: [[Model selection]]
 title: Structural risk minimization
 tmap.id: 89e170d4-ca1a-467d-adc2-e50e633716a3
 type: text/vnd.tiddlywiki
 
+//aka SRM//
+
 
 See [ext[here|http://www.cs.tufts.edu/~roni/Teaching/CLT/LN/lecture9.pdf]]
 
 Very related to [[PAC-Bayesian learning]]
+
+---------------
+
+Some intuition for //Agnostic structural risk minimization//: I can either do really close to the best among a small set of expert, but they all do pretty badly anyways, or I can do somewhat worse than the best among a bigger set of experts, but as the best does significantly better, I will do better. This tradeoff is what structural risk minimization does. 
+
+Assuming realizability, SRM would just choose the smallest class that has zero training error, as that would give the best bound on generalization error!
+
+-------------
+
+What about the algorithm: Check the size of the training set, $$m$$, and see what is the largest $$H$$ in the collection such that $$m$$ guarantees generalization gap smaller than $$\epsilon$$. Then just do ERM with that $$H$$? Would that work for [[Nonuniform learnability]]?

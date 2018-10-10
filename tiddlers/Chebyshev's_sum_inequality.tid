@@ -1,0 +1,36 @@
+created: 20181009112157898
+creator: cosmos
+modified: 20181009113223669
+modifier: cosmos
+tags: Inequality
+title: Chebyshev's sum inequality
+tmap.id: b6480ac9-3cb2-4142-b8c6-dfa618a1c538
+type: text/vnd.tiddlywiki
+
+If
+
+:$$>a_1 \geq a_2 \geq \cdots \geq a_n$$
+
+and
+
+:$$b_1 \geq b_2 \geq \cdots \geq b_n,$$
+
+then
+
+:$${1\over n} \sum_{k=1}^n a_k \cdot b_k \geq \left({1\over n}\sum_{k=1}^n a_k\right)\left({1\over n}\sum_{k=1}^n b_k\right).$$
+
+Similarly, if
+
+:$$a_1 \leq a_2 \leq \cdots \leq a_n$$
+
+and
+
+:$$b_1 \geq b_2 \geq \cdots \geq b_n,$$
+
+then
+
+:$${1\over n} \sum_{k=1}^n a_kb_k \leq \left({1\over n}\sum_{k=1}^n a_k\right)\left({1\over n}\sum_{k=1}^n b_k\right).$$
+
+If you move $$\left({1\over n}\sum_{k=1}^n a_k\right)$$ for e.g., you can see it as saying that a prob distribution more skewed to higher values results in a higher expectation. See LectureNotes (ML-AI/Learning theory) for proof. It's related to the fact that the [[Correlation]] of variables which are function of each other being positive or negative. 
+
+https://www.wikiwand.com/en/Chebyshev%27s_sum_inequality <-- See there for a nice proof!

@@ -1,0 +1,24 @@
+created: 20181009115810488
+creator: cosmos
+modified: 20181009115941666
+modifier: cosmos
+tags: Inequality
+title: Rearrangement inequality
+tmap.id: 47325f7b-62e8-48e5-8a51-1c18653103f9
+type: text/vnd.tiddlywiki
+
+:$$x_ny_1 + \cdots + x_1y_n
+\le x_{\sigma (1)}y_1 + \cdots + x_{\sigma (n)}y_n
+\le x_1y_1 + \cdots + x_ny_n$$
+
+for every choice of [[Real number]]s
+
+:$$x_1\le\cdots\le x_n\quad\text{and}\quad y_1\le\cdots\le y_n$$
+
+and every [[Permutation]]
+
+:$$x_{\sigma(1)},...,x_{\sigma(n)}$$
+
+of ''x''<sub>1</sub>, .&nbsp;.&nbsp;., ''x<sub>n</sub>''
+
+https://www.wikiwand.com/en/Rearrangement_inequality

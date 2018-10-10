@@ -1,9 +1,11 @@
 created: 20180518174237094
 creator: cosmos
-modified: 20181009144916110
+draft.of: Rademacher complexity
+draft.title: Rademacher complexity
+modified: 20181009144954848
 modifier: cosmos
 tags: [[Learning theory]]
-title: Rademacher complexity
+title: Draft of 'Rademacher complexity'
 tmap.id: 770661b1-76c7-4902-8c7e-eb44dd6a5619
 type: text/vnd.tiddlywiki
 
@@ -49,14 +51,10 @@ __[[Massart lemma]]__
 
 __[[Rademacher complexity contraction lemma]]__
 
-composing A with a [[Lipschitz]] function does not
-blow up the Rademacher complexity.
-
-[img[Rademacher_complexity_and_Lipschitz_function.png]]
-
-See Lemma 26.9 in [[UML]]
 
 !!!__[[Rademacher complexity of linear classes]]__
+
+
 
 !!!__[[Generalization bounds for SVM]]__
 

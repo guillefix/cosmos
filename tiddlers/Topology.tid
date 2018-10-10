@@ -1,7 +1,7 @@
 created: 20160122225300021
 creator: guillefix
 list-after: Geometry
-modified: 20171031103021378
+modified: 20181009203126913
 modifier: cosmos
 tags: Mathematics Geometry
 title: Topology
@@ -17,6 +17,8 @@ It's like a generalization of [[Analysis]]
 [[definition of a topology|https://www.youtube.com/watch?v=PXIcas22MtQ&list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=6m8s]] on a [[Set]] $$X$$ (see [[Topological space]])
 
 !!__[[Point-set topology]]__
+
+analytic topology notes https://courses.maths.ox.ac.uk/node/view_material/39341
 
 !!__[[Algebraic topology]]__
 

@@ -1,6 +1,6 @@
 created: 20181004201623751
 creator: cosmos
-modified: 20181004201634148
+modified: 20181009144509269
 modifier: cosmos
 tags: [[Learning theory]]
 title: Nonuniform learnability
@@ -9,3 +9,7 @@ type: text/vnd.tiddlywiki
 
 
 [[Agnostic kind of nonuniform learnability|https://www.youtube.com/watch?v=kYyeqQIh1iU&list=PLFze15KrfxbH8SE4FgOHpMSY1h5HiRLMm&index=13]]
+
+[[Structural risk minimization]] is an algorithm that can nonuniform learn nonuniform learnable classes.
+
+What about the algorithm: Check the size of the training set, $$m$$, and see what is the largest $$H$$ in the collection such that $$m$$ guarantees generalization gap smaller than $$\epsilon$$. Then just do ERM with that $$H$$? Would that work for nonuniform learnability?
