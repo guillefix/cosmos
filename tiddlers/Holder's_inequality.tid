@@ -1,0 +1,10 @@
+created: 20181010114320952
+creator: cosmos
+modified: 20181010114407154
+modifier: cosmos
+tags: Inequality
+title: Holder's inequality
+tmap.id: 7b321f0d-e342-47ac-bc5f-01181b44f105
+type: text/vnd.tiddlywiki
+
+For two vectors $$w,v$$ in an [[Inner product space]], we have $$\langle w,v \rangle \leq ||w||_1 ||w||_\infty$$

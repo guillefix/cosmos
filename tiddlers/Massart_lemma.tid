@@ -1,6 +1,6 @@
 created: 20181009120403271
 creator: cosmos
-modified: 20181009120354637
+modified: 20181010120701558
 modifier: cosmos
 tags: [[Rademacher complexity]]
 title: Massart lemma
@@ -13,4 +13,4 @@ Let $$A=\{\mathbf{a}_1,...,\mathbf{a}_N\}$$ be a finite set of vectors in $$\mat
 
 $$R(A) \leq \max\limits_{\mathbf{a}\in A} ||\mathbf{a}-\bar{\mathbf{a}}|| \frac{\sqrt{2\log{(N)}}}{m}$$
 
-Tricks for proof: exponentiating, [[Jensen's inequality]], [[Sum is greater than max]], making the bound for scaled version of the set of vectors, Lemma A.^ on UML (bound on [[Cosh]])
+Tricks for proof: exponentiating, [[Jensen's inequality]], [[Sum is greater than max]], making the bound for scaled version of the set of vectors, Lemma A.6 on UML (bound on [[Cosh]])
