@@ -1,6 +1,6 @@
 created: 20170510213348476
 creator: cosmos
-modified: 20181008184901039
+modified: 20181011182546231
 modifier: cosmos
 tags: [[Learning theory]]
 title: PAC-Bayesian learning
@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 
 An extension of [[Probably approximately correct]] learning to the cases where not all concepts in the concept class are equally likely, but instead have a general probability distribution over them, which can be interpreted as a [[Prior distribution]].
 
-See <big>[ext[here for proof|https://courses.cs.washington.edu/courses/cse522/11wi/scribes/lecture13.pdf]]</big> of general (KL) version. See derivation on blackboard (pic) for connection with Gibbs learner version
+See <big>[ext[here for proof|https://courses.cs.washington.edu/courses/cse522/11wi/scribes/lecture13.pdf]]</big> of general (KL) version. See derivation on blackboard (pic) for connection with Gibbs learner version ([[graph of bounds for KL of binary variables|https://www.desmos.com/calculator/hr4qquya5e]])
 
 This seems to be very related to [[Structural risk minimization]]
 

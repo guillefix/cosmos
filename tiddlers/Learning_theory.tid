@@ -1,6 +1,6 @@
 created: 20160709004653144
 creator: guillefix
-modified: 20181010114710625
+modified: 20181011182102182
 modifier: cosmos
 tags: [[Statistical inference]] Learning [[Artificial intelligence]] [[Machine learning]]
 title: Learning theory
@@ -15,6 +15,8 @@ See [[these notes|https://github.com/damaru2/optimization17/]]. See book and lec
 
 
 [[Statistical learning theory]] -- [[Computational learning theory]]
+
+[[Understanding machine learning (book)|https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf]] -- Foundations of machine learning
 
 ''Learning problem'': Design a system that improves on its ability to perform task T, as measured by performance measure P, by going through experience E.
 
