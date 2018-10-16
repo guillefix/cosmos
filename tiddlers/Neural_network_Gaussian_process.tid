@@ -1,0 +1,15 @@
+created: 20181015155040178
+creator: cosmos
+modified: 20181015155257146
+modifier: cosmos
+tags: [[Gaussian process]]
+title: Neural network Gaussian process
+tmap.id: 74a0ca34-6691-44d9-8efb-0bed0976629e
+type: text/vnd.tiddlywiki
+
+
+See [[Deep Neural Networks as Gaussian Processes|https://arxiv.org/abs/1711.00165]], [[Gaussian Process Behaviour in Wide Deep Neural Networks|https://arxiv.org/abs/1804.11271]]
+
+[[Deep Convolutional Networks as shallow Gaussian Processes|https://openreview.net/forum?id=Bklfsi0cKm]]
+
+[[Deep learning generalizes because the parameter-function map is biased towards simple functions|https://openreview.net/forum?id=rye4g3AqFm]]
