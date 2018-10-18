@@ -1,0 +1,19 @@
+created: 20181017161736872
+creator: cosmos
+modified: 20181017164848750
+modifier: cosmos
+tags: [[Two-sample test]]
+title: Maximum mean discrepancy
+tmap.id: d0999425-044e-4b8c-8880-d0651afa6afd
+type: text/vnd.tiddlywiki
+
+We test whether distributionspandqare different on the basis of samples drawn from each ofthem, by finding a well behaved (e.g., smooth) function which is large on the points drawn fromp,and small (as negative as possible) on the points fromq.  We use as our test statistic the differencebetween the mean function values on the two samples; when this is large, the samples are likelyfrom different distributions. We call this test statistic the ''Maximum Mean Discrepancy (MMD)''.
+
+paper: [[A kernel two-sample test|http://www.jmlr.org/papers/volume13/gretton12a/gretton12a.pdf]]
+
+
+Clearly the quality of the MMD as a statistic depends on the classFof smooth functions thatdefine it. On one hand,Fmust be “rich enough” so that the population MMD vanishes if and onlyifp=q. On the other hand, for the test to be consistent in power,Fneeds to be “restrictive” enoughfor the empirical estimate of the MMD to converge quickly to its expectation as the sample sizeincreases. We will use the unit balls in characteristic [[Reproducing kernel Hilbert space]]s (Fukumizuet al., 2008; Sriperumbudur et al., 2010b) as our function classes, since these will be shown to satisfyboth  of  the  foregoing  properties. 
+
+Looks very similar to the definition of [[Rademacher complexity]] (see Understanding machine learning)
+
+I think probably the way they calculate the sup, is by optimizing, and this is tractable because the the [[Representer theorem]]

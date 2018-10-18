@@ -1,0 +1,26 @@
+created: 20181017161535046
+creator: cosmos
+modified: 20181017162613051
+modifier: cosmos
+tags: [[Statistical hypothesis testing]]
+title: Two-sample test
+tmap.id: 410c43a9-1a6a-4126-9ffb-7280a9f7bb50
+type: text/vnd.tiddlywiki
+
+to compare whether two samples come from the same distribution
+
+> The problem of comparing samples from two probability distributions,  by proposingstatistical tests of the null hypothesis that these distributions are equal against the alternative hy-pothesis that these distributions are different (this is called the two-sample problem). 
+
+!!!__Methods__
+
+__integral probability metrics (Muller, 1997)__
+
+* [[Maximum mean discrepancy]]
+* [[Kolmogorov-Smirnov distance]]
+*  [[Earth-Mover’s distance]]
+
+ ( other [[Divergence]]s that can be used on finite samples, and converge sufficiently fast as the sample size grows, I guess)
+
+!!!__Applications__
+
+Such tests have application in a variety of areas.   In bioinformatics,  it is of interest to compare microarraydata from identical tissue types as measured by different laboratories, todetect whether the datamay be analysed jointly, or whether differences in experimental procedure have caused systematicdifferences in the data distributions.  Equally of interest are comparisons between microarray datafrom different tissue types, either to determine whether two subtypes of cancer may be treated asstatistically indistinguishable from a diagnosis perspective, or to detect differences in healthy andcancerous tissue. In database attribute matching, it is desirable to merge databases containing mul-tiple fields, where it is not known in advance which fields correspond:  thefields are matched bymaximising the similarity in the distributions of their entries.
