@@ -1,6 +1,6 @@
 created: 20170510213348476
 creator: cosmos
-modified: 20181011182546231
+modified: 20181021143431588
 modifier: cosmos
 tags: [[Learning theory]]
 title: PAC-Bayesian learning
@@ -19,6 +19,8 @@ This seems to be very related to [[Structural risk minimization]]
 
 [[Some PAC-Bayesian Theorems|https://link.springer.com/article/10.1023/A:1007618624809]]
 
+To see how the Theorem 1 from 
+<small>[[Some PAC-Bayesian Theorems|https://link.springer.com/article/10.1023/A:1007618624809]]</small> follows from the general theorem below ( <small>[[PAC-Bayes model averaging|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.46.6957&rep=rep1&type=pdf]]</small> ), see picture of blackboard derivation, or see [[here|https://youtu.be/mxc3jqz2gBE?t=1396]].
 
 [[PAC-Bayes model averaging|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.46.6957&rep=rep1&type=pdf]]
 
