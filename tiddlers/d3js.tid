@@ -1,7 +1,7 @@
 created: 20160720113931293
 creator: guillefix
-modified: 20161104134327725
-modifier: guillefix
+modified: 20181023231104345
+modifier: cosmos
 title: d3js
 tmap.id: 8f7f2725-8d98-4331-85ea-d90b3a4b47ba
 type: text/vnd.tiddlywiki
@@ -9,3 +9,7 @@ type: text/vnd.tiddlywiki
 A [[graphics and visualization web library|Graphics and visualization web libraries]]
 
 [[D3.js tutorial - 6 - Groups and axes|https://www.youtube.com/watch?v=SYuFy1j8SGs&list=PL6il2r9i3BqH9PmbOf5wA5E1wOG3FT22p&index=6]]
+
+https://beta.observablehq.com/@ajayjayayy/introduction-to-d3-js-data-visualization-magic-dev-days-201
+
+https://bost.ocks.org/mike/selection/
