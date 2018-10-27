@@ -1,6 +1,6 @@
 created: 20161022220906732
 creator: cosmos
-modified: 20170831211029604
+modified: 20181026113707817
 modifier: cosmos
 tags: Intelligence
 title: Memory
@@ -12,6 +12,8 @@ Memory is how information is encoded, stored, and retrieved. ([[wiki|https://www
 [[Neuroscience of memory and learning|https://www.youtube.com/watch?v=wtu-yAm4xik]]
 
 [[David Foster: Neuronal sequences in the hippocampus for memory and imagination|https://www.youtube.com/watch?v=smPSjL_JcEg]]
+
+http://augmentingcognition.com/ltm.html
 
 !!__Types of memory__
 
@@ -69,3 +71,4 @@ hippocampus role in associative retrieval.
 memory consolidation.
 
 [img[hippocampus-associative-memory.jpg]]
+
