@@ -1,6 +1,6 @@
 created: 20160217192202310
 creator: guillefix
-modified: 20171118220741658
+modified: 20181027135957842
 modifier: cosmos
 tags: [[Mathematical logic]]
 title: Category theory
@@ -13,6 +13,8 @@ The mathematical study of [[categories|Category]], which are basically a collect
 It can be used as a foundation of mathematics, as an alternative to [[Set theory]] and has relations to [[Functional programming]], [[Lambda calculus]], [[Logic]], etc.
 
 [[Functoriality, Naturality, Universality|https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/LNPnotes.pdf#page=40]]
+
+http://chalkdustmagazine.com/features/an-invitation-to-category-theory/
 
 !!__[[Dual]]ity__
 

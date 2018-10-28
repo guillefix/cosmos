@@ -1,7 +1,7 @@
 created: 20160122230216280
 creator: guillefix
 list-after: Topology
-modified: 20170521153316423
+modified: 20181028020354322
 modifier: cosmos
 tags: Mathematics
 title: Number theory
@@ -11,6 +11,8 @@ type: text/vnd.tiddlywiki
 //Things can often be counted//
 
 [[The LMFDB is an extensive database of mathematical objects arising in Number Theory|http://www.lmfdb.org/]]
+
+https://www.springer.com/gb/book/9780387973296
 
 [[RSA cryptography]] uses results from number theory
 
