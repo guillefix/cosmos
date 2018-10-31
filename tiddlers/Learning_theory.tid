@@ -1,15 +1,17 @@
 created: 20160709004653144
 creator: guillefix
-modified: 20181011182102182
+modified: 20181031010439724
 modifier: cosmos
 tags: [[Statistical inference]] Learning [[Artificial intelligence]] [[Machine learning]]
 title: Learning theory
 tmap.id: fde229eb-00fc-4002-98bb-ad7a1dcce373
 type: text/vnd.tiddlywiki
 
-//the general field of computational learning theory, statistical learning theory, etc; note that these have slightly different connotations/focus//
+//the general field of machine learning theory (computational learning theory, statistical learning theory, optimization for learning, etc); note that these have slightly different connotations/focus//
 
 Mathematical theory of learning, and learning algorithms. See [[Machine learning]], [[Deep learning theory]], [[wiki|https://www.wikiwand.com/en/Computational_learning_theory]].
+
+[[Learn in theory|https://medium.com/@guillefix/learn-in-theory-3c88086ab388]]
 
 See [[these notes|https://github.com/damaru2/optimization17/]]. See book and lectures "Understanding machine learning" by Shia (found [ext[here|http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/]] for free)
 
@@ -20,7 +22,7 @@ See [[these notes|https://github.com/damaru2/optimization17/]]. See book and lec
 
 ''Learning problem'': Design a system that improves on its ability to perform task T, as measured by performance measure P, by going through experience E.
 
-!!__Types of learning problem__
+!!__Types of learning problems__
 
 Some important types:
 
@@ -100,35 +102,10 @@ Model selection algorithms provide methods to automatically choose optimal bias/
 
 * [[Feature selection]]
 
-!!__Learning theory__
+!!__[[Statistical learning theory]]__
 
-Mostly studies ways of ensuring good generalization for learning algorithms. See more at [[Computational learning theory]] and [[Probably approximately correct]]
+See post: [[Learn in theory|https://medium.com/@guillefix/learn-in-theory-3c88086ab388]]
 
-We have several approaches for [[Generalization error bound]]s (see more detail [[here|https://gingkoapp.com/app#5bb786ea4176d5035eafbfb9]]):
-
-* ''Realizable learning'', where we assume the hypothesis class and data distribution (e.g. target function) are such that we can reach $$0$$ [[Empirical risk]]. This leads to [[PAC learning|Probably approximately correct]]
-* ''Data-dependent realizable learning''
-** Depends on data distribution.
-*** Depends on target function. Analysis of [[Occam algorithm]]s.
-** Depends on distribution over data distributions. See analysis when assuming distribution overt target functions follows the [[Universal probability]] distribution. Can also do [[Bayesian|Bayesian statistics]] analysis in this case.
-** Dependent on training sample.
-*** [[Rademacher complexity]] analysis. Depends on hypothesis class and training sample S
-*** Elementary PAC-Bayes bound. Depends on the output of the learning algorithm, $$h$$.
-*** Realizable PAC-Bayes bound. Depends on likelihood of training sample
-*** Realizable [[Structural risk minimization]]. Depends on the class to which output belongs. Occam algorithms can be analyzed like this also I think.
-**** [[Minimum description length]] is a special case.
-* ''[[Agnostic learning]]'', where we don't assume anything about the data distribution, and just ask: how well can I do relative to the function that does best (has lowest true risk) in a given hypothesis class. It has a related formulation, where we instead ask how much does the true risk differ from the empirical risk. The error in the former can be shown to be at most twice the error in the later.
-* ''Data-dependent agnostic learning''
-** Depends on data distribution.
-*** Depends on target function.
-** Depends on distribution over data distributions.
-** Dependent on training sample.
-*** [[Rademacher complexity]] analysis. Depends on hypothesis class and training sample S
-*** Agnostic PAC-Bayes bounds
-*** Agnostic [[Structural risk minimization]]. Depends on the class to which output belongs.
-**** [[Minimum description length]] is a special case.
-
-(well technically, what's called "realizability" tends to be that the true risk is 0, while here I am using it as meaning that the empirical risk is 0)
 
 !!!__[[Convergence and performance results in learning theory]]__
 
@@ -161,11 +138,12 @@ Minimize the negative log [[likelihood|Likelihood function]] (similar to entropy
 
 !__[[Reinforcement learning]]__
 
---------------------
-
 !__[[Optimization for learning]]__
 
-!__[[Statistical physics and inference]]__
+
+--------------------
+
+!!__[[Statistical physics and inference]]__
 
 -------------------
 

@@ -1,6 +1,6 @@
 created: 20180329124626875
 creator: cosmos
-modified: 20180329140659660
+modified: 20181030162940216
 modifier: cosmos
 title: Covering number
 tmap.id: 57939f45-5d5b-47a8-b71f-78b7f4269110
@@ -10,4 +10,6 @@ The ''$$\epsilon$$-covering number'' of $$B \subseteq \chi$$, denoted by $$N(\ep
 
 The $$\epsilon$$-[[Packing number]] gives an upper bound, and the $$2\epsilon$$-packing number gives a lower bound (this is because removing a point from a $$2\epsilon$$ packing would result in something that isn't an $$\epsilon$$ cover, as can be shown using the [[Triangle inequality]]) 
 
-See [ext[here|https://www.cs.bgu.ac.il/~asml162/wiki.files/dudley-pollard.pdf]]
+See [ext[here|https://www.cs.bgu.ac.il/~asml162/wiki.files/dudley-pollard.pdf]] and [ext[here|http://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/18/material/lecture4.pdf]]
+
+See also [[UML]]

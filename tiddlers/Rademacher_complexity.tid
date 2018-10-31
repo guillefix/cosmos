@@ -1,6 +1,6 @@
 created: 20180518174237094
 creator: cosmos
-modified: 20181011102201021
+modified: 20181031011629988
 modifier: cosmos
 tags: [[Learning theory]]
 title: Rademacher complexity
@@ -13,7 +13,7 @@ $$\mathcal{R}(T) := \mathbf{E}\sup_{t \in T} \frac{1}{m} \sum_{i=1}^m \epsilon_i
 
 where $$\epsilon_1, ..., \epsilon_m$$ are [[i.i.d.]] [[Random variable]]s [[uniform|Uniform distribution]] in $$\{-1,1\}$$
 
-See [ext[here|https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf#page=375]] for book chapter (UML), also notes on LectureNotes on tablet (ML-AI/Learning theory)
+See [ext[here|https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf#page=375]] for book chapter (UML), <mark>also notes on LectureNotes on tablet (ML-AI/Learning theory)</mark>
 
 An important tool to bound the mean of a supremum of a random process is the Rademacher complexity. 
 

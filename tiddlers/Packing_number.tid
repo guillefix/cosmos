@@ -1,6 +1,6 @@
 created: 20180329123833043
 creator: cosmos
-modified: 20180329124911951
+modified: 20181030162954842
 modifier: cosmos
 tags: 
 title: Packing number
@@ -15,4 +15,4 @@ It is the same as the size of the largest number of centers of balls of size $$\
 
 Note that if a point in $$B$$ is further from all points in $$A$$ than $$\epsilon$$, we can always add one more point to $$A$$, therefore the maximal packing set (of size $$\mathcal{M}(\epsilon;B)$$), has all points in $$B$$ within less than distance $$\epsilon$$ of points in $$A$$, and it is therefore a covering set. Therefore, $$\mathcal{M}(\epsilon;B)$$ is an upper bound on the [[Covering number]]
 
-See [ext[here|https://www.cs.bgu.ac.il/~asml162/wiki.files/dudley-pollard.pdf]]
+See [ext[here|https://www.cs.bgu.ac.il/~asml162/wiki.files/dudley-pollard.pdf]] and [ext[here|http://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/18/material/lecture4.pdf]] and UML
