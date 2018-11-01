@@ -1,0 +1,14 @@
+created: 20181031221123327
+creator: cosmos
+modified: 20181031221527231
+modifier: cosmos
+tags: [[Complex analysis]]
+title: Mittag-Leffer's theorem
+tmap.id: f5bacad7-d6bb-4730-a5db-8944e38004a7
+type: text/vnd.tiddlywiki
+
+https://blogs.scientificamerican.com/roots-of-unity/nalini-joshis-favorite-theorem/
+
+A theorem that says that you can describe a [[Meromorphic function]] with only information about where the [[pole|Pole (Complex analysis)]]s are, and their degree.
+
+It is one of the most powerful ways to describe [[Transcendental functions]], and it is applied in many areas including [[Random matrix theory]]. There are now connections, through something called "doubly periodic functions", with curves and [[Algebraic geometry]]

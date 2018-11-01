@@ -1,0 +1,24 @@
+created: 20181031132406100
+creator: cosmos
+modified: 20181031135557232
+modifier: cosmos
+tags: [[Rademacher complexity]] [[Covering number]] Chaining
+title: Dudley entropy integral
+tmap.id: 3f1daeed-77ee-4174-88f7-f4b41658728a
+type: text/vnd.tiddlywiki
+
+See [ext[here|http://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/18/material/lecture5.pdf]]. It provides a bound on [[Rademacher complexity]] from an integral of the [[Covering number]], via a technique called [[Chaining]]
+
+See also LectureNotes on tablet
+
+You can think about it like this:
+
+The simple RadComp bound from Covering number doesn't distinguish clustering at coarser length scales. For example, imagine you chose a fine-grained covering (a covering for a small $$\epsilon$$). Then, the simple CovNum RadComp bound would be the same whether the set of functions $$\mathcal{A}$$ is very spread out a lot into clusters of size $$\epsilon$$ (blue clusters):
+
+[img[function_space_epsilon_cover_spread.png]]
+
+or if the clusters of size $$\epsilon$$  (blue clusters) are all close to each other:
+
+[img[function_space_epsilon_cover_clustered.png]]
+
+However, intuitively, the [[Rademacher complexity]] of the second situation should be lower, because all the functions are more similar to each other. We can see that clustering at the small scale, didn't capture this difference. However, we can see that the covering with a bigger epsilon (red circles) does capture the difference (the second case has a smaller red-circle covering). Similarly, only considering the coarser covering would miss information, and not distinguish cases which would have different RadComp. Therefore, it's best to consider several scales at the same time, which is what [[Chaning]] does, resulting in the Dudley entropy integral!
