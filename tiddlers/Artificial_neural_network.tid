@@ -1,6 +1,6 @@
 created: 20160124143800337
 creator: guillefix
-modified: 20180222233032575
+modified: 20181102202639331
 modifier: cosmos
 tags: [[Neuronal network]] [[Artificial intelligence]]
 title: Artificial neural network
@@ -13,7 +13,7 @@ A particularly useful way of representing nonlinear functions, for problems in [
 
 [[But what *is* a Neural Network? -- Deep learning, Part 1|https://www.youtube.com/watch?v=aircAruvnKk]]
 
-[[Hugo Larochelle class videos|https://www.youtube.com/watch?v=apPiZd-qnZ8&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=4]] ([[website|http://info.usherbrooke.ca/hlarochelle/neural_networks/content.html]]). [[Andrew Ng intro|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=26m]]. [[NN|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=29m]]. Learning parameters in a NN is generally a [[non-convex optimization problem|Convex optimization]], which makes it very hard to reach global optima.
+[[Hugo Larochelle class videos|https://www.youtube.com/watch?v=apPiZd-qnZ8&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=4]] ([[website|http://info.usherbrooke.ca/hlarochelle/neural_networks/content.html]]). [[Andrew Ng intro|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=26m]]. [[NN|https://www.youtube.com/watch?v=qyyJKd-zXRE&index=6&list=PLA89DCFA6ADACE599#t=29m]]. Learning parameters in a NN is generally a [[non-convex optimization problem|Convex optimization]], which makes it very hard to reach global optima. -- [[book|https://archive.org/details/NeuralNetworks_201810/page/n11]]
 
 [[nice visualization|https://www.youtube.com/watch?v=3JQ3hYko51Y]]
 

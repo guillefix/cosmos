@@ -1,0 +1,16 @@
+created: 20181102164113940
+creator: cosmos
+modified: 20181102164123969
+modifier: cosmos
+tags: Inequality
+title: Max-min inequality
+tmap.id: 76617190-b206-4aee-93d3-24f1392eeaae
+type: text/vnd.tiddlywiki
+
+https://www.wikiwand.com/en/Max%E2%80%93min_inequality
+
+(note that operators are written in the opposite order in which they act..)
+What inequality says is:
+If sup acts first and then inf, we get smaller or equal value than if inf acts first and then sup
+basically whoever acts last sup or inf wins (whoever laughs last laughs the best)
+this is because after sup act, and then inf acts, what we get is a lower bound on how good sup could act no matter what inf did. No matter what inf does, doing what sup does in the first case gives a value at least as big as sup inf, so that what sup can do after inf (inf sup) is at least that
