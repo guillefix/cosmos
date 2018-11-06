@@ -1,6 +1,6 @@
 created: 20160913070239061
 creator: cosmos
-modified: 20180928193352914
+modified: 20181105153434944
 modifier: cosmos
 tags: [[Deep learning]] [[Learning theory]]
 title: Deep learning theory
@@ -43,6 +43,8 @@ Connections to [[Signal processing]]: https://arxiv.org/abs/1707.00372
 [[Universal Function Approximation by Deep Neural Nets with Bounded Width and ReLU Activations|https://arxiv.org/abs/1708.02691]]
 
 [[Exponential expressivity in deep neural networks through transient chaos|http://papers.nips.cc/paper/6322-exponential-expressivity-in-deep-neural-networks-through-transient-chaos]]
+
+[ext[slides|http://www.mit.edu/~rakhlin/papers/myths.pdf]]
 
 -----------------------
 

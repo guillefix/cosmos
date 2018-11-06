@@ -1,6 +1,6 @@
 created: 20170702114803034
 creator: cosmos
-modified: 20171103135920664
+modified: 20181105170046957
 modifier: cosmos
 tags: Kinetmatics [[Spatial transformation]]
 title: Rotation
@@ -14,3 +14,5 @@ type: text/vnd.tiddlywiki
 see here: [[Rotation about an arbitrary axis|https://www.youtube.com/watch?v=gRVxv8kWl0Q&index=4&list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g]] (video)
 
 !!__[[Quaternion]]__
+
+http://marctenbosch.com/quaternions/
