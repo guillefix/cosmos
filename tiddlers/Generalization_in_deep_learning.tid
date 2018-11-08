@@ -1,6 +1,6 @@
 created: 20170512224700922
 creator: cosmos
-modified: 20181001173928481
+modified: 20181107180408985
 modifier: cosmos
 tags: [[Deep learning theory]] Generalization
 title: Generalization in deep learning
@@ -10,11 +10,15 @@ type: text/vnd.tiddlywiki
 
 [[Deep learning generalizes because the parameter-function map is biased towards simple functions|https://arxiv.org/abs/1805.08522]]
 
+[[Exploring generalization in deep learning|https://arxiv.org/pdf/1706.08947.pdf]]
+
 See gingkoapp tree: [[Kolmogorov complexity and generalization in deen neural networks|https://gingkoapp.com/app#7abe722f5a31aa3e1000001b]]
 
 --> Even for [[Kernel method]]s, the classical learning theory doesn't predict what we observe (-- [[see here|https://youtu.be/T4T63TT-Hy4?list=PL04QVxpjcnjhtL3IIVyFRMOgdhWtPn7YJ&t=21m44s]]). [[Overparametrization in deep learning|https://youtu.be/T4T63TT-Hy4?list=PL04QVxpjcnjhtL3IIVyFRMOgdhWtPn7YJ&t=53m10s]]
 
 <small>[[Current state of generalization theory for deep learning (2018)|https://youtu.be/KDRN-FyyqK0?t=52m22s]])</small>
+
+[ext[slides on myths about generalization in deep learning|http://www.mit.edu/~rakhlin/papers/myths.pdf]]
 
 https://www.offconvex.org/2018/02/17/generalization2/ -- [[Stronger generalization bounds for deep nets via a compression approach|https://arxiv.org/abs/1802.05296]]. See stability analysis from "Threshold logic and its applications book"
 
