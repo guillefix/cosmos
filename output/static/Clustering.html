@@ -1,8 +1,26 @@
-<p><a name="Clustering">
-<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Unsupervised%20learning " data-tags="[[Unsupervised learning]]" data-tiddler-title="Clustering"><div class="tc-tiddler-title">
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.17" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>Clustering: Cosmos — Everything there was, there is, and there will be</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Unsupervised%20learning " data-tags="[[Unsupervised learning]]" data-tiddler-title="Clustering"><div class="tc-tiddler-title">
 <div class="tc-titlebar">
 <span class="tc-tiddler-controls">
-<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class="tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
 
 
 </button></span>
@@ -28,7 +46,7 @@ Clustering
 </div><div class=" tc-reveal" hidden="true"></div>
 <div class=" tc-reveal">
 <div class="tc-subtitle">
-<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="cosmos.html">
 cosmos
 </a> 4th November 2016 at 9:43am
 </div>
@@ -37,15 +55,24 @@ cosmos
 <div class="tc-tags-wrapper"><span class="tc-tag-list-item">
 
 
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#333333;
+color:#333333;">
+ Unsupervised learning
+</span>
+
 <span class="tc-drop-down tc-reveal" hidden="true"></span>
 
 </span>
 </div>
 </div>
-<div class="tc-tiddler-body tc-reveal"><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=ZueoXMgCd1c&amp;index=34&amp;list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v" rel="noopener noreferrer" target="_blank">Clustering Introduction - Practical Machine Learning Tutorial with Python p.34</a></p><h2 class=""><u>Types</u></h2><p><u>Flat clustering</u></p><p><u>Hierarchical clustering</u></p><h2 class=""><u>Algorithms</u></h2><h3 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#K-means%20algorithm">K-means algorithm</a></u></h3><h3 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Mixture%20model">Mixture model</a></u></h3><h3 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Mean%20shift">Mean shift</a></u> (for hierachical clustering)</h3><h3 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#UPGMA">UPGMA</a></u></h3><hr><p><u>Community clustering in networks</u></p><p>Q measure..</p></div>
+<div class="tc-tiddler-body tc-reveal"><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=ZueoXMgCd1c&amp;index=34&amp;list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v" rel="noopener noreferrer" target="_blank">Clustering Introduction - Practical Machine Learning Tutorial with Python p.34</a></p><h2 class=""><u>Types</u></h2><p><u>Flat clustering</u></p><p><u>Hierarchical clustering</u></p><h2 class=""><u>Algorithms</u></h2><h3 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="K-means%2520algorithm.html">K-means algorithm</a></u></h3><h3 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="Mixture%2520model.html">Mixture model</a></u></h3><h3 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="Mean%2520shift.html">Mean shift</a></u> (for hierachical clustering)</h3><h3 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="UPGMA.html">UPGMA</a></u></h3><hr><p><u>Community clustering in networks</u></p><p>Q measure..</p></div>
 
 
 </div>
 
+</p>
 
-</a></p>
+</section>
+</body>
+</html>

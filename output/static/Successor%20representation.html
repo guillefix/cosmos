@@ -1,8 +1,26 @@
-<p><a name="Successor representation">
-<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Reinforcement%20learning " data-tags="[[Reinforcement learning]]" data-tiddler-title="Successor representation"><div class="tc-tiddler-title">
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.17" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>Successor representation: Cosmos — Everything there was, there is, and there will be</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Reinforcement%20learning " data-tags="[[Reinforcement learning]]" data-tiddler-title="Successor representation"><div class="tc-tiddler-title">
 <div class="tc-titlebar">
 <span class="tc-tiddler-controls">
-<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class="tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
 
 
 </button></span>
@@ -28,7 +46,7 @@ Successor representation
 </div><div class=" tc-reveal" hidden="true"></div>
 <div class=" tc-reveal">
 <div class="tc-subtitle">
-<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="cosmos.html">
 cosmos
 </a> 13th September 2017 at 12:06pm
 </div>
@@ -37,15 +55,24 @@ cosmos
 <div class="tc-tags-wrapper"><span class="tc-tag-list-item">
 
 
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#333333;
+color:#333333;">
+ Reinforcement learning
+</span>
+
 <span class="tc-drop-down tc-reveal" hidden="true"></span>
 
 </span>
 </div>
 </div>
-<div class="tc-tiddler-body tc-reveal"><p>See <a class="tc-tiddlylink-external" href="http://biorxiv.org/content/biorxiv/early/2016/12/28/097170.full.pdf" rel="noopener noreferrer" target="_blank">The hippocampus as a predictive map</a>. <a class="tc-tiddlylink-external" href="http://gershmanlab.webfactional.com/pubs/Stachenfeld14.pdf" rel="noopener noreferrer" target="_blank">Design principles of Hippocampal cognitive map</a></p><p>It has some of the advantages of both model-based and model-free <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Reinforcement%20learning">Reinforcement learning</a></p></div>
+<div class="tc-tiddler-body tc-reveal"><p>See <a class="tc-tiddlylink-external" href="http://biorxiv.org/content/biorxiv/early/2016/12/28/097170.full.pdf" rel="noopener noreferrer" target="_blank">The hippocampus as a predictive map</a>. <a class="tc-tiddlylink-external" href="http://gershmanlab.webfactional.com/pubs/Stachenfeld14.pdf" rel="noopener noreferrer" target="_blank">Design principles of Hippocampal cognitive map</a></p><p>It has some of the advantages of both model-based and model-free <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Reinforcement%2520learning.html">Reinforcement learning</a></p></div>
 
 
 </div>
 
+</p>
 
-</a></p>
+</section>
+</body>
+</html>

@@ -1,8 +1,26 @@
-<p><a name="GPU computing">
-<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Scientific%20computing " data-tags="[[Scientific computing]]" data-tiddler-title="GPU computing"><div class="tc-tiddler-title">
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.17" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>GPU computing: Cosmos — Everything there was, there is, and there will be</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Scientific%20computing " data-tags="[[Scientific computing]]" data-tiddler-title="GPU computing"><div class="tc-tiddler-title">
 <div class="tc-titlebar">
 <span class="tc-tiddler-controls">
-<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class="tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
 
 
 </button></span>
@@ -28,7 +46,7 @@ GPU computing
 </div><div class=" tc-reveal" hidden="true"></div>
 <div class=" tc-reveal">
 <div class="tc-subtitle">
-<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="cosmos.html">
 cosmos
 </a> 31st March 2017 at 7:30am
 </div>
@@ -37,15 +55,24 @@ cosmos
 <div class="tc-tags-wrapper"><span class="tc-tag-list-item">
 
 
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#333333;
+color:#333333;">
+ Scientific computing
+</span>
+
 <span class="tc-drop-down tc-reveal" hidden="true"></span>
 
 </span>
 </div>
 </div>
-<div class="tc-tiddler-body tc-reveal"><p>Computing (like <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Scientific%20computing">Scientific computing</a>) which seizes the power of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#GPU">GPU</a>s for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Parallel%20computing">parallel computation</a>. aka <strong>GPGPU</strong> (general purpose GPU programming)</p><h2 class=""><u>GPU programming</u></h2><h3 class=""><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#CUDA">CUDA</a></h3><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?time_continue=13&amp;v=v-gSOY9-RgI" rel="noopener noreferrer" target="_blank">Minimize time spent on memory</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?time_continue=10&amp;v=Jo6RnEi6eHE" rel="noopener noreferrer" target="_blank">Some GPU algorithms</a></p><h2 class=""><u>GPU hardware</u></h2><p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Computer%20hardware">Computer hardware</a> and <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Cloud%20computing">Cloud computing</a></p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#External%20GPU">External GPU</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=io6Ajf5XkaM&amp;list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&amp;index=52" rel="noopener noreferrer" target="_blank">Installing the GPU version of TensorFlow for making use of your CUDA GPU</a> – <a class="tc-tiddlylink-external" href="https://pythonprogramming.net/how-to-cuda-gpu-tensorflow-deep-learning-tutorial/" rel="noopener noreferrer" target="_blank">more details</a></p><p>Useful for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Data%20science">Data science</a>/big data</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?time_continue=6&amp;v=3krWI5_RuFk" rel="noopener noreferrer" target="_blank">GPU hardware</a></p></div>
+<div class="tc-tiddler-body tc-reveal"><p>Computing (like <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Scientific%2520computing.html">Scientific computing</a>) which seizes the power of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="GPU.html">GPU</a>s for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Parallel%2520computing.html">parallel computation</a>. aka <strong>GPGPU</strong> (general purpose GPU programming)</p><h2 class=""><u>GPU programming</u></h2><h3 class=""><a class="tc-tiddlylink tc-tiddlylink-resolves" href="CUDA.html">CUDA</a></h3><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?time_continue=13&amp;v=v-gSOY9-RgI" rel="noopener noreferrer" target="_blank">Minimize time spent on memory</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?time_continue=10&amp;v=Jo6RnEi6eHE" rel="noopener noreferrer" target="_blank">Some GPU algorithms</a></p><h2 class=""><u>GPU hardware</u></h2><p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Computer%2520hardware.html">Computer hardware</a> and <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Cloud%2520computing.html">Cloud computing</a></p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="External%2520GPU.html">External GPU</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=io6Ajf5XkaM&amp;list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&amp;index=52" rel="noopener noreferrer" target="_blank">Installing the GPU version of TensorFlow for making use of your CUDA GPU</a> – <a class="tc-tiddlylink-external" href="https://pythonprogramming.net/how-to-cuda-gpu-tensorflow-deep-learning-tutorial/" rel="noopener noreferrer" target="_blank">more details</a></p><p>Useful for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Data%2520science.html">Data science</a>/big data</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?time_continue=6&amp;v=3krWI5_RuFk" rel="noopener noreferrer" target="_blank">GPU hardware</a></p></div>
 
 
 </div>
 
+</p>
 
-</a></p>
+</section>
+</body>
+</html>

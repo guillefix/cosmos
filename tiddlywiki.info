@@ -5,7 +5,12 @@
         "tiddlywiki/filesystem",
         "tiddlywiki/highlight",
 	"tiddlywiki/codemirror",
-	"tiddlywiki/railroad"
+	"tiddlywiki/railroad",
+      "felixhayashi/tiddlymap",
+      "felixhayashi/vis",
+      "felixhayashi/hotzone",
+      "felixhayashi/topstoryview"
+
     ],
     "themes": [
         "tiddlywiki/vanilla",

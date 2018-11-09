@@ -1,8 +1,26 @@
-<p><a name="Draft of 'Stochastic simulation'">
-<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Simulation " data-tags="Simulation" data-tiddler-title="Draft of 'Stochastic simulation'"><div class="tc-tiddler-title">
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.17" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>Draft of 'Stochastic simulation': Cosmos — Everything there was, there is, and there will be</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Simulation " data-tags="Simulation" data-tiddler-title="Draft of 'Stochastic simulation'"><div class="tc-tiddler-title">
 <div class="tc-titlebar">
 <span class="tc-tiddler-controls">
-<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class="tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
 
 
 </button></span>
@@ -28,7 +46,7 @@ Draft of 'Stochastic simulation'
 </div><div class=" tc-reveal" hidden="true"></div>
 <div class=" tc-reveal">
 <div class="tc-subtitle">
-<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="cosmos.html">
 cosmos
 </a> 2nd March 2017 at 6:13am
 </div>
@@ -37,15 +55,24 @@ cosmos
 <div class="tc-tags-wrapper"><span class="tc-tag-list-item">
 
 
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#333333;
+color:#333333;">
+ Simulation
+</span>
+
 <span class="tc-drop-down tc-reveal" hidden="true"></span>
 
 </span>
 </div>
 </div>
-<div class="tc-tiddler-body tc-reveal"><p>Simulation of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Stochastic%20process">Stochastic process</a>es, often based on <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Master%20equation">Master equation</a>s</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Gillespie's%20algorithm">Gillespie's algorithm</a>. Calculate next time for a reaction to occur (from <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Exponential%20distribution">Exponential distribution</a> with rate = sum of rates of all reactions), and then decide which of the possible reactions occurs according to their probabilities, which are proportional to their <strong>propensity functions</strong>, which are basically reaction rates (the probability of a particular reaction occuring on an infinitesimal time interval, which depends on the state of the system, often a set of species concentrations). </p><p><a class="tc-tiddlylink tc-tiddlylink-missing" href="#Tau-leap%20method">Tau-leap method</a>. Poission distribution for number of reactions within time <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>τ</mi></mrow><annotation encoding="application/x-tex">\tau</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.1132em;">τ</span></span></span></span></span>. Assume propensity functions don't change. If the number of reactions become large enough, can approximate with <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Normal%20distribution">Normal distribution</a>, getting a chemical <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Langevin%20equation">Langevin equation</a></p><p><a class="tc-tiddlylink tc-tiddlylink-missing" href="#Next%20reaction%20method">Next reaction method</a>. Calculate next time for each of the reactions, and then choose the reaction that will happen next, that is with the earliest next time, and make that reaction happen. Repeat. This produces a</p></div>
+<div class="tc-tiddler-body tc-reveal"><p>Simulation of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Stochastic%2520process.html">Stochastic process</a>es, often based on <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Master%2520equation.html">Master equation</a>s</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="Gillespie's%2520algorithm.html">Gillespie's algorithm</a>. Calculate next time for a reaction to occur (from <a class="tc-tiddlylink tc-tiddlylink-missing" href="Exponential%2520distribution.html">Exponential distribution</a> with rate = sum of rates of all reactions), and then decide which of the possible reactions occurs according to their probabilities, which are proportional to their <strong>propensity functions</strong>, which are basically reaction rates (the probability of a particular reaction occuring on an infinitesimal time interval, which depends on the state of the system, often a set of species concentrations). </p><p><a class="tc-tiddlylink tc-tiddlylink-missing" href="Tau-leap%2520method.html">Tau-leap method</a>. Poission distribution for number of reactions within time <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>τ</mi></mrow><annotation encoding="application/x-tex">\tau</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.1132em;">τ</span></span></span></span></span>. Assume propensity functions don't change. If the number of reactions become large enough, can approximate with <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Normal%2520distribution.html">Normal distribution</a>, getting a chemical <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Langevin%2520equation.html">Langevin equation</a></p><p><a class="tc-tiddlylink tc-tiddlylink-missing" href="Next%2520reaction%2520method.html">Next reaction method</a>. Calculate next time for each of the reactions, and then choose the reaction that will happen next, that is with the earliest next time, and make that reaction happen. Repeat. This produces a</p></div>
 
 
 </div>
 
+</p>
 
-</a></p>
+</section>
+</body>
+</html>

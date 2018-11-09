@@ -1,8 +1,26 @@
-<p><a name="Model selection">
-<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Statistical%20inference " data-tags="[[Statistical inference]]" data-tiddler-title="Model selection"><div class="tc-tiddler-title">
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.17" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>Model selection: Cosmos — Everything there was, there is, and there will be</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Statistical%20inference " data-tags="[[Statistical inference]]" data-tiddler-title="Model selection"><div class="tc-tiddler-title">
 <div class="tc-titlebar">
 <span class="tc-tiddler-controls">
-<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class="tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
 
 
 </button></span>
@@ -28,7 +46,7 @@ Model selection
 </div><div class=" tc-reveal" hidden="true"></div>
 <div class=" tc-reveal">
 <div class="tc-subtitle">
-<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="cosmos.html">
 cosmos
 </a> 16th May 2017 at 8:05am
 </div>
@@ -37,15 +55,24 @@ cosmos
 <div class="tc-tags-wrapper"><span class="tc-tag-list-item">
 
 
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#333333;
+color:#333333;">
+ Statistical inference
+</span>
+
 <span class="tc-drop-down tc-reveal" hidden="true"></span>
 
 </span>
 </div>
 </div>
-<div class="tc-tiddler-body tc-reveal"><p>This includes <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Model%20evaluation">Model evaluation</a>, which is the way models are selected...</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=0kWZoyNRxTY&amp;index=10&amp;list=PLA89DCFA6ADACE599#t=36m40s" rel="noopener noreferrer" target="_blank">Introduction</a>, see overfitting and underfitting below. Model selection algorithms provide methods to automatically choose optimal bias/variance tradeoffs. <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=0kWZoyNRxTY&amp;index=10&amp;list=PLA89DCFA6ADACE599#t=40m10s" rel="noopener noreferrer" target="_blank">Explanation</a></p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-missing" href="#Predictive%20posterior">Predictive posterior</a></u></h2><p>Predictive posterior checks. Likelihood of data, mostly on test data (see <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Cross-validation">Cross-validation</a>).</p><p>Check distribution of extreme values</p><h2 class=""><u>Information criteria</u></h2><ul><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Akaike%20information%20criterion">Akaike information criterion</a> (AIC)</li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Bayesian%20information%20criterion">Bayesian information criterion</a> (BIC)</li><li><a class="tc-tiddlylink tc-tiddlylink-missing" href="#Widely%20applicable%20information%20criterion">Widely applicable information criterion</a> (WAIC)</li><li><a class="tc-tiddlylink tc-tiddlylink-missing" href="#Approximate%20leave-one-out%20cross-validation">Approximate leave-one-out cross-validation</a> (LOO) using Pareto smoothed importance sampling (PSIS), a new procedure for regularizing importance weights. (<a class="tc-tiddlylink-external" href="https://cran.r-project.org/web/packages/loo/index.html" rel="noopener noreferrer" target="_blank">R package</a>)</li></ul><p><a class="tc-tiddlylink-external" href="http://www.stat.columbia.edu/~gelman/research/unpublished/loo_stan.pdf" rel="noopener noreferrer" target="_blank">Paper</a></p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Cross-validation">Cross-validation</a></u></h2><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Feature%20selection">Feature selection</a></u></h2><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Structural%20risk%20minimization">Structural risk minimization</a></u></h2><hr><p>A lot of these methods are very much related to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Regularization">Regularization</a> methods, as both try to make our model better. Often we want the model to be better at generalizing, and this is done by reducing model complexity.</p><p>Using cross-validation for regularization can be done using <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Early%20stopping">Early stopping</a> using the validation set</p><hr><p><u>Model selection for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Artificial%20neural%20network">Artificial neural network</a>s</u>: <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=Fs-raHUnF2M&amp;list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&amp;index=16" rel="noopener noreferrer" target="_blank">Neural networks [2.10] : Training neural networks - model selection</a></p><p><sub><em>Old comment</em>: One can show (maybe technical details I don't know..) that given the real distribution of the data, and a sample used for training, one is likely to underestimate the error. So I think cross-validation can be shown rigorously to be good for assessing a model's predictive power (i.e. probability of predicting rightly). See Elements of Statistical Learning book for all details..</sub></p><p>It is a way to find out if you are overfitting</p><p>Related: <a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Testing_hypotheses_suggested_by_the_data" rel="noopener noreferrer" target="_blank">https://en.wikipedia.org/wiki/Testing_hypotheses_suggested_by_the_data</a></p></div>
+<div class="tc-tiddler-body tc-reveal"><p>This includes <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Model%2520evaluation.html">Model evaluation</a>, which is the way models are selected...</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=0kWZoyNRxTY&amp;index=10&amp;list=PLA89DCFA6ADACE599#t=36m40s" rel="noopener noreferrer" target="_blank">Introduction</a>, see overfitting and underfitting below. Model selection algorithms provide methods to automatically choose optimal bias/variance tradeoffs. <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=0kWZoyNRxTY&amp;index=10&amp;list=PLA89DCFA6ADACE599#t=40m10s" rel="noopener noreferrer" target="_blank">Explanation</a></p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-missing" href="Predictive%2520posterior.html">Predictive posterior</a></u></h2><p>Predictive posterior checks. Likelihood of data, mostly on test data (see <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Cross-validation.html">Cross-validation</a>).</p><p>Check distribution of extreme values</p><h2 class=""><u>Information criteria</u></h2><ul><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="Akaike%2520information%2520criterion.html">Akaike information criterion</a> (AIC)</li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="Bayesian%2520information%2520criterion.html">Bayesian information criterion</a> (BIC)</li><li><a class="tc-tiddlylink tc-tiddlylink-missing" href="Widely%2520applicable%2520information%2520criterion.html">Widely applicable information criterion</a> (WAIC)</li><li><a class="tc-tiddlylink tc-tiddlylink-missing" href="Approximate%2520leave-one-out%2520cross-validation.html">Approximate leave-one-out cross-validation</a> (LOO) using Pareto smoothed importance sampling (PSIS), a new procedure for regularizing importance weights. (<a class="tc-tiddlylink-external" href="https://cran.r-project.org/web/packages/loo/index.html" rel="noopener noreferrer" target="_blank">R package</a>)</li></ul><p><a class="tc-tiddlylink-external" href="http://www.stat.columbia.edu/~gelman/research/unpublished/loo_stan.pdf" rel="noopener noreferrer" target="_blank">Paper</a></p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="Cross-validation.html">Cross-validation</a></u></h2><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="Feature%2520selection.html">Feature selection</a></u></h2><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="Structural%2520risk%2520minimization.html">Structural risk minimization</a></u></h2><hr><p>A lot of these methods are very much related to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Regularization.html">Regularization</a> methods, as both try to make our model better. Often we want the model to be better at generalizing, and this is done by reducing model complexity.</p><p>Using cross-validation for regularization can be done using <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Early%2520stopping.html">Early stopping</a> using the validation set</p><hr><p><u>Model selection for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Artificial%2520neural%2520network.html">Artificial neural network</a>s</u>: <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=Fs-raHUnF2M&amp;list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&amp;index=16" rel="noopener noreferrer" target="_blank">Neural networks [2.10] : Training neural networks - model selection</a></p><p><sub><em>Old comment</em>: One can show (maybe technical details I don't know..) that given the real distribution of the data, and a sample used for training, one is likely to underestimate the error. So I think cross-validation can be shown rigorously to be good for assessing a model's predictive power (i.e. probability of predicting rightly). See Elements of Statistical Learning book for all details..</sub></p><p>It is a way to find out if you are overfitting</p><p>Related: <a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Testing_hypotheses_suggested_by_the_data" rel="noopener noreferrer" target="_blank">https://en.wikipedia.org/wiki/Testing_hypotheses_suggested_by_the_data</a></p></div>
 
 
 </div>
 
+</p>
 
-</a></p>
+</section>
+</body>
+</html>

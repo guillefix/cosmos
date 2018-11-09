@@ -1,8 +1,26 @@
-<p><a name="Viterbi algorithm">
-<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Hidden%20Markov%20model " data-tags="[[Hidden Markov model]]" data-tiddler-title="Viterbi algorithm"><div class="tc-tiddler-title">
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.17" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>Viterbi algorithm: Cosmos — Everything there was, there is, and there will be</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Hidden%20Markov%20model " data-tags="[[Hidden Markov model]]" data-tiddler-title="Viterbi algorithm"><div class="tc-tiddler-title">
 <div class="tc-titlebar">
 <span class="tc-tiddler-controls">
-<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class="tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
 
 
 </button></span>
@@ -28,7 +46,7 @@ Viterbi algorithm
 </div><div class=" tc-reveal" hidden="true"></div>
 <div class=" tc-reveal">
 <div class="tc-subtitle">
-<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="cosmos.html">
 cosmos
 </a> 9th January 2017 at 5:57am
 </div>
@@ -37,15 +55,24 @@ cosmos
 <div class="tc-tags-wrapper"><span class="tc-tag-list-item">
 
 
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#333333;
+color:#333333;">
+ Hidden Markov model
+</span>
+
 <span class="tc-drop-down tc-reveal" hidden="true"></span>
 
 </span>
 </div>
 </div>
-<div class="tc-tiddler-body tc-reveal"><p><a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/Viterbi_algorithm" rel="noopener noreferrer" target="_blank">https://www.wikiwand.com/en/Viterbi_algorithm</a></p><p>A <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Dynamic%20programming">Dynamic programming</a> algorithm used to calculate the most likely path through a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Hidden%20Markov%20model">Hidden Markov model</a> (or a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Markov%20information%20source">Markov information source</a>), given the hidden-state-dependent observations.</p><h2 class=""><u>Description of the algorithm</u></h2><p>Iteration step: at point i in the sequence, and two possible states,</p><p>then we can store</p><ul><li>{the maximum likelihood over all paths up to point i, given point i is state 1} and</li><li>{the maximum likelihood over all paths up to point i, given point i is state 2}, </li></ul><p>by computing these recursively as</p><dl><dd>{the maximum likelihood over all paths up to point i, given point i is state k} = <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>max</mi><mi>l</mi></msub></mrow><annotation encoding="application/x-tex">\max\limits_l</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43055999999999994em;"></span><span class="strut bottom" style="height:1.182668em;vertical-align:-0.752108em;"></span><span class="base textstyle uncramped"><span class="mop op-limits"><span class="vlist"><span style="top:0.652108em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord mathit" style="margin-right:0.01968em;">l</span></span></span><span style="top:8.326672684688674e-17em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span><span class="mop">max</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span></span> {the maximum likelihood over all paths up to point i-1, given point i-1 is state l, and point i is state k}</dd></dl><p>When we reach the end, the we choose the state at the end of the sequence that has the most potential likelihood, and then proceed backwards following the optimal path.</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=RwwfUICZLsA" rel="noopener noreferrer" target="_blank">vid</a></p><p><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Viterbi_animated_demo.gif"></p></div>
+<div class="tc-tiddler-body tc-reveal"><p><a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/Viterbi_algorithm" rel="noopener noreferrer" target="_blank">https://www.wikiwand.com/en/Viterbi_algorithm</a></p><p>A <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Dynamic%2520programming.html">Dynamic programming</a> algorithm used to calculate the most likely path through a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Hidden%2520Markov%2520model.html">Hidden Markov model</a> (or a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Markov%2520information%2520source.html">Markov information source</a>), given the hidden-state-dependent observations.</p><h2 class=""><u>Description of the algorithm</u></h2><p>Iteration step: at point i in the sequence, and two possible states,</p><p>then we can store</p><ul><li>{the maximum likelihood over all paths up to point i, given point i is state 1} and</li><li>{the maximum likelihood over all paths up to point i, given point i is state 2}, </li></ul><p>by computing these recursively as</p><dl><dd>{the maximum likelihood over all paths up to point i, given point i is state k} = <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>max</mi><mi>l</mi></msub></mrow><annotation encoding="application/x-tex">\max\limits_l</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43055999999999994em;"></span><span class="strut bottom" style="height:1.182668em;vertical-align:-0.752108em;"></span><span class="base textstyle uncramped"><span class="mop op-limits"><span class="vlist"><span style="top:0.652108em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord mathit" style="margin-right:0.01968em;">l</span></span></span><span style="top:8.326672684688674e-17em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span><span class="mop">max</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span></span> {the maximum likelihood over all paths up to point i-1, given point i-1 is state l, and point i is state k}</dd></dl><p>When we reach the end, the we choose the state at the end of the sequence that has the most potential likelihood, and then proceed backwards following the optimal path.</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=RwwfUICZLsA" rel="noopener noreferrer" target="_blank">vid</a></p><p><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Viterbi_animated_demo.gif"></p></div>
 
 
 </div>
 
+</p>
 
-</a></p>
+</section>
+</body>
+</html>

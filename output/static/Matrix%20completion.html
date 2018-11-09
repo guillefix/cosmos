@@ -1,8 +1,26 @@
-<p><a name="Matrix completion">
-<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Machine%20learning " data-tags="[[Machine learning]]" data-tiddler-title="Matrix completion"><div class="tc-tiddler-title">
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.17" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>Matrix completion: Cosmos — Everything there was, there is, and there will be</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Machine%20learning " data-tags="[[Machine learning]]" data-tiddler-title="Matrix completion"><div class="tc-tiddler-title">
 <div class="tc-titlebar">
 <span class="tc-tiddler-controls">
-<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class="tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
 
 
 </button></span>
@@ -28,7 +46,7 @@ Matrix completion
 </div><div class=" tc-reveal" hidden="true"></div>
 <div class=" tc-reveal">
 <div class="tc-subtitle">
-<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="cosmos.html">
 cosmos
 </a> 8th June 2018 at 12:47pm
 </div>
@@ -37,24 +55,33 @@ cosmos
 <div class="tc-tags-wrapper"><span class="tc-tag-list-item">
 
 
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#333333;
+color:#333333;">
+ Machine learning
+</span>
+
 <span class="tc-drop-down tc-reveal" hidden="true"></span>
 
 </span>
 </div>
 </div>
-<div class="tc-tiddler-body tc-reveal"><p><em>aka imputation</em></p><p>Inferring values of missing entries in a matrix of data.</p><p>See <a class="tc-tiddlylink-external" href="http://sbubeck.com/BubeckLectureNotes.pdf#page=7" rel="noopener noreferrer" target="_blank">here</a> for definition</p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-missing" href="#Image%20inpainting">Image inpainting</a></u></h2><p>An interesting example of an imputation-like task is known as image inpainting. The goal is
+<div class="tc-tiddler-body tc-reveal"><p><em>aka imputation</em></p><p>Inferring values of missing entries in a matrix of data.</p><p>See <a class="tc-tiddlylink-external" href="http://sbubeck.com/BubeckLectureNotes.pdf#page=7" rel="noopener noreferrer" target="_blank">here</a> for definition</p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-missing" href="Image%2520inpainting.html">Image inpainting</a></u></h2><p>An interesting example of an imputation-like task is known as image inpainting. The goal is
 to “fill in” holes (e.g., due to scratches or occlusions) in an image with realistic texture</p><p>This can be tackled by building a joint probability model of the pixels, given a
 set of clean images, and then inferring the unknown variables (pixels) given the known variables
 (pixels). This is somewhat like masket basket analysis, except the data is real-valued and spatially
 structured, so the kinds of probability models we use are quite different. See Sections 19.6.2.7
-and 13.8.4 for some possible choices.</p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-missing" href="#Collaborative%20filtering">Collaborative filtering</a></u></h2><p>Another interesting example of an imputation-like task is known as collaborative filtering. A
+and 13.8.4 for some possible choices.</p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-missing" href="Collaborative%2520filtering.html">Collaborative filtering</a></u></h2><p>Another interesting example of an imputation-like task is known as collaborative filtering. A
 common example of this concerns predicting which movies people will want to watch based
 on how they, and other people, have rated movies which they have already seen. The key idea
 is that the prediction is not based on features of the movie or user (although it could be), but
-merely on a ratings matrix.</p><p>This is often used in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Recommender%20system">Recommender system</a>s</p></div>
+merely on a ratings matrix.</p><p>This is often used in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Recommender%2520system.html">Recommender system</a>s</p></div>
 
 
 </div>
 
+</p>
 
-</a></p>
+</section>
+</body>
+</html>

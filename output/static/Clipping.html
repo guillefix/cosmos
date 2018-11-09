@@ -1,8 +1,26 @@
-<p><a name="Clipping">
-<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Viewing%20pipeline " data-tags="[[Viewing pipeline]]" data-tiddler-title="Clipping"><div class="tc-tiddler-title">
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.17" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>Clipping: Cosmos — Everything there was, there is, and there will be</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Viewing%20pipeline " data-tags="[[Viewing pipeline]]" data-tiddler-title="Clipping"><div class="tc-tiddler-title">
 <div class="tc-titlebar">
 <span class="tc-tiddler-controls">
-<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class="tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
 
 
 </button></span>
@@ -28,7 +46,7 @@ Clipping
 </div><div class=" tc-reveal" hidden="true"></div>
 <div class=" tc-reveal">
 <div class="tc-subtitle">
-<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="cosmos.html">
 cosmos
 </a> 2nd July 2017 at 4:14pm
 </div>
@@ -37,15 +55,24 @@ cosmos
 <div class="tc-tags-wrapper"><span class="tc-tag-list-item">
 
 
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#333333;
+color:#333333;">
+ Viewing pipeline
+</span>
+
 <span class="tc-drop-down tc-reveal" hidden="true"></span>
 
 </span>
 </div>
 </div>
-<div class="tc-tiddler-body tc-reveal"><p><em>Not show things which are not in the camera's view (and also things which are too far or too close</em></p><p>Finding which points are going to lie inside the cube of<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Image%20space">Image space</a>, and so one should bother applying the rest of the graphics pipeline to, and will appear on the screen.</p><p>It involves finding whether points line in the right side of the planes defining the image <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Camera%20(computer%20graphics)">camera</a> viewing pyramid.</p><p>One often does clipping in image space itself because its easier computationally as the planes are aligned to the axes (see <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=Xks1v4GNUiY&amp;index=7&amp;list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=4m37s" rel="noopener noreferrer" target="_blank">here</a> )</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=og7hOFypKpQ&amp;index=6&amp;list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=20m43s" rel="noopener noreferrer" target="_blank">video</a>.</p><p>We actually do clipping in <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Homogeneous%20coordinates">Homogeneous coordinates</a>, before dividing by w, which actually means we have to do an extra clipping.. (see <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=Xks1v4GNUiY&amp;index=7&amp;list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=10m20s" rel="noopener noreferrer" target="_blank">here</a>)</p><p>In <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Computer%20graphics">Computer graphics</a>, we generally want <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Polygon">Polygon</a>s to be:</p><ul><li>Planar</li><li>Convex</li></ul><p>If you break any arbitrary polygon into <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Triangle">Triangle</a>s, it's fine because triangles are planar and convex</p></div>
+<div class="tc-tiddler-body tc-reveal"><p><em>Not show things which are not in the camera's view (and also things which are too far or too close</em></p><p>Finding which points are going to lie inside the cube of<a class="tc-tiddlylink tc-tiddlylink-resolves" href="Image%2520space.html">Image space</a>, and so one should bother applying the rest of the graphics pipeline to, and will appear on the screen.</p><p>It involves finding whether points line in the right side of the planes defining the image <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Camera%2520(computer%2520graphics).html">camera</a> viewing pyramid.</p><p>One often does clipping in image space itself because its easier computationally as the planes are aligned to the axes (see <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=Xks1v4GNUiY&amp;index=7&amp;list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=4m37s" rel="noopener noreferrer" target="_blank">here</a> )</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=og7hOFypKpQ&amp;index=6&amp;list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=20m43s" rel="noopener noreferrer" target="_blank">video</a>.</p><p>We actually do clipping in <a class="tc-tiddlylink tc-tiddlylink-missing" href="Homogeneous%2520coordinates.html">Homogeneous coordinates</a>, before dividing by w, which actually means we have to do an extra clipping.. (see <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=Xks1v4GNUiY&amp;index=7&amp;list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g#t=10m20s" rel="noopener noreferrer" target="_blank">here</a>)</p><p>In <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Computer%2520graphics.html">Computer graphics</a>, we generally want <a class="tc-tiddlylink tc-tiddlylink-missing" href="Polygon.html">Polygon</a>s to be:</p><ul><li>Planar</li><li>Convex</li></ul><p>If you break any arbitrary polygon into <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Triangle.html">Triangle</a>s, it's fine because triangles are planar and convex</p></div>
 
 
 </div>
 
+</p>
 
-</a></p>
+</section>
+</body>
+</html>
