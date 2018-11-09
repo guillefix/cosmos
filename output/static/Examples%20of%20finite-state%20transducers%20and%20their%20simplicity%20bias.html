@@ -1,60 +1,4 @@
-<p><code>&lt;!doctype html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
-&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
-&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
-&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
-&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
-&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
-&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
-&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
-&lt;title&gt;</code>Examples of finite-state transducers and their simplicity bias: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
-&lt;/head&gt;
-&lt;body class=&quot;tc-body&quot;&gt;
-</code><code>
-&lt;section class=&quot;tc-story-river&quot;&gt;
-</code>
-&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists    &quot; data-tags=&quot;&quot; data-tiddler-title=&quot;Examples of finite-state transducers and their simplicity bias&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
-&lt;div class=&quot;tc-titlebar&quot;&gt;
-&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
-&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
-
-
-&lt;/button&gt;&lt;/span&gt;
-&lt;/span&gt;
-
-&lt;span&gt;
-
-&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
-
-&lt;/span&gt;
-
-
-
-&lt;h2 class=&quot;tc-title&quot;&gt;
-Examples of finite-state transducers and their simplicity bias
-&lt;/h2&gt;
-
-&lt;/span&gt;
-
-&lt;/div&gt;
-
-&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
-&lt;div class=&quot; tc-reveal&quot;&gt;
-&lt;div class=&quot;tc-subtitle&quot;&gt;
-&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;guillefix.html&quot;&gt;
-guillefix
-&lt;/a&gt; 4th November 2016 at 9:43am
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot; tc-reveal&quot;&gt;
-&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;See &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Simplicity%2520bias%2520in%2520finite-state%2520transducers.html&quot;&gt;Simplicity bias in finite-state transducers&lt;/a&gt;&lt;/p&gt;&lt;p&gt;You need to be able to loop around the non-coding region, and around the coding region to get non-trivial designability/complexity plots.&lt;/p&gt;&lt;p&gt;This FST shows a good example of an approximately absorbing region with two non-coding states. The fact that the region is approximately non-absorbing, and as there is a cycle outside that region, means we will get variety in output.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/yoA3f19.jpg&quot;&gt;&lt;/p&gt;&lt;p&gt;FST table:&lt;/p&gt;&lt;p&gt;&lt;code&gt;0 2 1 1
+<p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Simplicity%20bias%20in%20finite-state%20transducers">Simplicity bias in finite-state transducers</a></p><p>You need to be able to loop around the non-coding region, and around the coding region to get non-trivial designability/complexity plots.</p><p>This FST shows a good example of an approximately absorbing region with two non-coding states. The fact that the region is approximately non-absorbing, and as there is a cycle outside that region, means we will get variety in output.</p><p><img src="http://i.imgur.com/yoA3f19.jpg"></p><p>FST table:</p><p><code>0 2 1 1
 0 1 0 1
 1 4 1 0
 1 3 0 0
@@ -69,14 +13,4 @@ guillefix
 2
 3
 4
-&lt;/code&gt;&lt;/p&gt;&lt;p&gt;In this example there is clear bias towards a &lt;span&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;.&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;.&lt;/mi&gt;&lt;mi mathvariant=&quot;normal&quot;&gt;.&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;000000...&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.64444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:0.64444em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base textstyle uncramped&quot;&gt;&lt;span class=&quot;mord mathrm&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mord mathrm&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mord mathrm&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mord mathrm&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mord mathrm&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mord mathrm&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mord mathrm&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mord mathrm&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mord mathrm&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; sequence, as there is an absorbing region made entirely of &lt;span&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;0&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.64444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:0.64444em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base textstyle uncramped&quot;&gt;&lt;span class=&quot;mord mathrm&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;-noncoding states. However, the rest of the fst does not have any loop, so there's barely any possibility for variety of outpus, and the designability/complexity plot is trivial.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/IlQBqBy.jpg&quot;&gt;&lt;/p&gt;&lt;p&gt;Here is an example of a FST with an approximately absorbing region with non-coding states that is the whole fst.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/tZ18ciy.jpg&quot;&gt;&lt;/p&gt;&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;/p&gt;
-<code>
-&lt;/section&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></p>
+</code></p><p>In this example there is clear bias towards a <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn><mn>0</mn><mn>0</mn><mn>0</mn><mn>0</mn><mn>0</mn><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex">000000...</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.64444em;"></span><span class="strut bottom" style="height:0.64444em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">.</span><span class="mord mathrm">.</span></span></span></span></span> sequence, as there is an absorbing region made entirely of <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.64444em;"></span><span class="strut bottom" style="height:0.64444em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathrm">0</span></span></span></span></span>-noncoding states. However, the rest of the fst does not have any loop, so there's barely any possibility for variety of outpus, and the designability/complexity plot is trivial.</p><p><img src="http://i.imgur.com/IlQBqBy.jpg"></p><p>Here is an example of a FST with an approximately absorbing region with non-coding states that is the whole fst.</p><p><img src="http://i.imgur.com/tZ18ciy.jpg"></p>
