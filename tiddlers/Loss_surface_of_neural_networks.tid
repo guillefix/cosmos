@@ -1,0 +1,96 @@
+created: 20181108195032667
+creator: cosmos
+modified: 20181108231038112
+modifier: cosmos
+tags: [[Deep learning theory]] [[Loss surface]]
+title: Loss surface of neural networks
+tmap.id: 98111ffb-24a5-413b-8c38-e7a03dfd1692
+type: text/vnd.tiddlywiki
+
+//[[loss|Loss function]] landscapes/surfaces in [[Deep learning]]/[[Machine learning]]//
+
+[[Perspective: Energy Landscapes for Machine Learning|https://arxiv.org/abs/1703.07915]]
+
+[[Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs|https://arxiv.org/abs/1802.10026]] The loss functions of deep neural networks are complex and their geometric properties are not well understood. We show that the optima of these complex loss functions are in fact connected by simple curves over which training and test accuracy are nearly constant. 
+
+[[Loss surface of neural networks video|https://www.youtube.com/watch?v=78vq6kgsTa8&index=18&list=PLHyI3Fbmv0SdM0zXj31HWjG9t9Q0v2xYN]]
+
+[[Topology and Geometry of Half-Rectified Network Optimization|https://arxiv.org/abs/1611.01540]] -- [[EMPIRICAL ANALYSIS OF THE HESSIAN OF OVERPARAMETRIZED NEURAL NETWORKS|https://arxiv.org/pdf/1706.04454.pdf]] (''most directions are nearly flat'')
+
+<small> the observations in Keskar et al. [2016], in that, it appears that the LB solution and SB solutions are separated by a barrier, and that the latter of which generalizes better. Moreover, the line interpolations extending away from either end points appear to be confirming the sharpness of LB solution.</small> However, we find the line interpolation connecting the end points of Part I and Part II turns out to not contain any barriers (Figure 8). This suggests that ''while the small and large batch method converge to different solutions, these solutions have been in the same basin all along''. This raises the striking possibility that that other seemingly different solutions may be similarly connected by a flat region to form a larger basin.
+
+[[QUALITATIVELY CHARACTERIZING NEURAL NETWORK OPTIMIZATION PROBLEMS|https://arxiv.org/pdf/1412.6544.pdf]] -- Running the linear interpolation experiment on this problem, we find in Fig. 1 that the
+1-D subspace spanning the initial parameters and final parameters is very well-behaved, and that
+SGD spends most of its time exploring the flat region at the bottom of the valley See Figure below (visualization_SGD_trajectory_flat_basin)
+
+@@float:left;[img[visualization_SGD_trajectory_flat_basin.png]]@@
+
+[[Essentially No Barriers in Neural Network Energy Landscape|https://arxiv.org/pdf/1803.00885.pdf]]  Minima are not located in isolated finite-width valleys, but there are paths through the parameter space
+along which the loss remains very close to the value at the
+minima. (<-- these results are for ResNets and DenseNets which are known to have smoother loss landscapes) -- <small>[[Using Mode Connectivity for Loss Landscape Analysis|https://arxiv.org/abs/1806.06977]] These results are indicative of the connectedness of deep learning los</small>
+
+[[VISUALIZING THE LOSS LANDSCAPE OF NEURAL NETS|https://openreview.net/pdf?id=HkmaTz-0W]] .
+
+[[Deep Learning without Poor Local Minima|https://arxiv.org/abs/1605.07110]] <small>" 1) the function is non-convex and non-concave, 2) every local minimum is a global minimum, 3) every critical point that is not a global minimum is a saddle point, and 4) there exist "bad" saddle points (where the Hessian has no negative eigenvalue) for the deeper networks (with more than three layers), whereas there is no bad saddle point for the shallow networks (with three layers)." Note that the saddles have no negative eigenvalue, but they have decreasing directions (by definition of saddle), they are just of a higher order (higher order derivative will be negative)</small>
+
+[[AN EMPIRICAL ANALYSIS OF DEEP NETWORK LOSS SURFACES|https://pdfs.semanticscholar.org/815a/e2909fd7fc536afa9773228dab40872d5cb7.pdf]] The work of [[Dauphin et al. (2014)|https://arxiv.org/abs/1406.2572]] empirically investigated properties of the critical points of neural network loss functions and demonstrated that their critical points behave similarly to the critical points of random Gaussian error functions in high dimensional space. We will expose further evidence along this trajectory.
+
+[[On the Quality of the Initial Basin in Overspecified Neural Networks|https://arxiv.org/abs/1511.04210]]
+
+--------------
+
+[[Stats 385 - Theories of Deep Learning - Joan Bruna - Lecture 8|https://www.youtube.com/watch?v=rBxoRQODJdM&feature=em-upload_owner]]
+
+The loss surface F() of a given model can be expressed in terms of its level sets , which contain for each energy levelall parameters yielding a loss smaller or equal than. A first question we address concerns the topology of these level sets, i.e. under which conditions they are connected. Connected level sets imply that one can always find a descent direction at each energy level, and therefore that no poor local minima can exist.
+
+We then move to the half-rectified case and show that the topology is intrinsically different and clearly dependent on the interplay between data distribution and model architecture. Our main theoretical contribution is to prove that half-rectified single layer networks are asymptotically connected, and we provide explicit bounds that reveal the aforementioned interplay.
+
+Beyond the question of whether the loss contains poor local minima or not, the immediate follow-up question that determines the convergence of algorithms in practice is the local conditioning of the loss surface. It is thus related not to the topology but to the shape or geometry of the level sets. As the energy level decays, one expects the level sets to exhibit more complex irregular structures, which correspond to regions where F() has small curvature. In order to verify this intuition, we introduce an efficient algorithm to estimate the geometric regularity of these level sets by approximating geodesics of each level set starting at two random boundary points. Our algorithm uses dynamic programming and can be efficiently deployed to study mid-scale CNN architectures on MNIST, CIFAR-10 and RNN models on Penn Treebank next word prediction. Our empirical results show that these models have a nearly convex behavior up until their lowest test errors, with a single connected component that becomes more elongated as the energy decays. The rest of the paper is structured as follows. Section 2 presents our theoretical results on the topological connectedness of multilayer networks. Section 3 presents our path discovery algorithm and Section 4 covers the numerical experiments. 
+
+!!__Poor local minima, topology of level sets__
+
+[[Deep linear networks|https://youtu.be/rBxoRQODJdM?t=42m52s]] -- [[The Loss Surfaces of Multilayer Networks |http://www.jmlr.org/proceedings/papers/v38/choromanska15.pdf]] -- [[overparametrization gives connected sublevel-sets|https://youtu.be/rBxoRQODJdM?t=44m39s]] (Proposition 2.2) -- [[can't work in general with nonlinearities|https://youtu.be/rBxoRQODJdM?t=46m18s]]. [[Proof ideas|https://youtu.be/rBxoRQODJdM?t=47m20s]]
+
+[[Case for quadratic and finitely kernelizable nonlinearities|https://youtu.be/rBxoRQODJdM?t=52m41s]]
+
+[[The case for ReLUs|https://youtu.be/rBxoRQODJdM?t=52m41s]], can show a kind of asymptotic connectedness, where we only need to go outside of the sublevel set by an amount of energy that decreases as we increase the number of neurons.
+
+
+----------
+
+The fact that these results work indpendent of the loss function mean that they must be a property of the parameter-function map, so that all functions are connected to each other with enough overparametrization/redundancy!
+
+[[Relations to|https://youtu.be/rBxoRQODJdM?t=58m40s]] [[Kernel method]]s
+
+!!__Geometry of level sets__
+
+[[TOPOLOGY AND GEOMETRY OF HALF-RECTIFIED NETWORK OPTIMIZATION|https://arxiv.org/abs/1611.01540]]
+
+[[are they round and convex or like "tentacles"/spagetti?|https://youtu.be/rBxoRQODJdM?t=1h1m42s]] -- [[algorithm to explore this|https://youtu.be/rBxoRQODJdM?t=1h3m10s]]
+
+-- [[Open questions|https://youtu.be/rBxoRQODJdM?t=1h8m]]
+
+
+!!__Others__
+
+[[Adding One Neuron Can Eliminate All Bad Local Minima|https://arxiv.org/abs/1805.08671]]
+
+[[video|https://youtu.be/rBxoRQODJdM?t=1h12m55s]]
+
+[[Regularity of level sets <> Difficulty of training <> generaliation <> dependence on target function|https://youtu.be/rBxoRQODJdM?t=1h33m55s]]
+
+[[Mollifying Networks|https://arxiv.org/abs/1608.04980]] and smoothening landscapes
+
+Song Mei, Yu Bai, and Andrea Montanari. The landscape of empirical risk for non-convex losses.
+arXiv preprint arXiv:1607.06534, 2016.
+
+Levent Sagun, V. Ugur Güney, Gérard Ben Arous, and Yann LeCun. Explorations on high dimensional landscapes. ICLR 2015 Workshop Contribution, arXiv:1412.6615, 2014.
+
+Levent Sagun, Léon Bottou, and Yann LeCun. Singularity of the hessian in deep learning. arXiv
+preprint arXiv:1611.07476, 2016.
+
+Soudry, Daniel, & Carmon, Yair. 2016. No bad local minima: Data independent training error guarantees
+for multilayer neural networks. arXiv preprint arXiv:1605.08361.
+
+<small>Swirszcz, Grzegorz, Czarnecki, Wojciech Marian, & Pascanu, Razvan. 2016. Local minima in training of
+neural networks. arXiv preprint arXiv:1611.06310</small>

@@ -1,0 +1,60 @@
+created: 20181108184923244
+creator: cosmos
+modified: 20181108201046308
+modifier: cosmos
+tags: Regularization
+title: Optimization algorithms and regularization
+tmap.id: 41dde51f-fae4-4d8f-9f76-52afec1c149d
+type: text/vnd.tiddlywiki
+
+!!![[Implicit regularization in deep learning|https://arxiv.org/pdf/1709.01953.pdf]]
+
+Regularization caused by optimization algorithm.. "we investigate the transformations under which the function computed by a network remains the same and therefore argue for complexity measures and optimization algorithms that have similar invariances. We find complexity measures that have similar invariances to neural networks and optimization algorithms that implicitly regularize them". [[Path-norm]] a metric in parameter space, that is closer to model distance? [[Sloppy systems]]?
+
+* We prove generalization bounds for the class of fully connected feedforward networks with the bounded norm. We further show that for some norms, this bound is independent of the number of hidden units.
+
+* We show how PAC-Bayes framework can be employed to obtain generalization bounds for neural networks by making a connection between sharpness and PAC-Bayes theory.
+
+* Implicit Regularization by SGD (Chapter 6): We show that networks learned by SGD satisfy several conditions that lead to flat minima. (Hmm, doesn't seem to be in chapter 6)
+
+[28] proved that the Rademacher complexity of fully connected feedforward networks on set S can be bounded based on the 1 norm of the weights of hidden units in each layer  In [[Chapter 5|https://arxiv.org/pdf/1709.01953.pdf#page=31]] we show
+how the capacity can be controlled for a large family of norms. See [[Learning real-valued functions]]
+
+[[Algorithmic robustness]], similar to [[Algorithmic stability]]
+
+<small>[[Sharpness|https://arxiv.org/pdf/1709.01953.pdf#page=22]]. we advocate viewing a related notion of expected sharpness in the context of the PAC-Bayesian framework. Viewed this way, it becomes clear that sharpness controls only one of two relevant terms, and must be balanced with some other measure such as norm. Together, sharpness and norm do provide capacity control and can explain many of the observed phenomena. This connection between sharpness and the PAC-Bayes framework was also recently noted by Dziugaite and Roy [32].</small>
+
+<small>[[On the Role of Implicit Regularization in Generalization|https://arxiv.org/pdf/1709.01953.pdf#page=25]] we draw an analogy to matrix
+factorization and understand dimensionality versus norm control there. Based on this analogy we suggest that implicit norm regularization might be central also for deep learning, and also there we should think of bounded-norm models with capacity independent of number of hidden units. See also [[Deep learning theory]]</small>
+
+Focusing on networks with RELU activations in this section, we observe that scaling down the incoming
+edges to a hidden unit and scaling up the outgoing edges by the same factor yields an equivalent network
+computing the same function. Since predictions are invariant to such rescalings, it is natural to seek a
+geometry, and corresponding optimization method, that is similarly invariant. In this chapter, we study
+invariances in feedforward networks with shared weights. --- [[Sloppy systems]]!
+
+<small>Revisiting the choice of gradient descent, we recall that optimization is also inherently tied to a choice
+of geometry or measure of distance, norm or divergence. Gradient descent for example is tied to the l2
+norm as it is the steepest descent with respect to l2 norm in the parameter space, while coordinate descent
+corresponds to steepest descent with respect to the l1 norm and exp-gradient (''multiplicative weight'')
+updates is tied to an entropic divergence.</small>
+
+[[Sensitivity]]-based bounds
+
+------
+
+[[Three Factors Influencing Minima in SGD|https://arxiv.org/abs/1711.04623]] -- Characterizing the relation between learning rate, batch size and the properties of the final minima, such as width or generalization
+
+[[Subgradient Descent Learns Orthogonal Dictionaries|https://arxiv.org/abs/1810.10702]]
+
+[[Stochastic gradient descent]]
+
+[[A Bayesian Perspective on Generalization and Stochastic Gradient Descent|https://openreview.net/forum?id=BJij4yg0Z]]
+
+[[SGD Learns Over-parameterized Networks that Provably Generalize on Linearly Separable Data|https://arxiv.org/abs/1710.10174]]
+
+[[Learning Overparameterized Neural Networks via Stochastic Gradient Descent on Structured Data|https://arxiv.org/abs/1808.01204]]
+
+[[Gradient descent with identity initialization efficiently learns positive definite linear transformations by deep residual networks|http://proceedings.mlr.press/v80/bartlett18a.html]] -- [[Algorithmic Regularization in Over-parameterized Matrix Sensing and Neural Networks with Quadratic Activations|http://proceedings.mlr.press/v75/li18a.html]] -- [[Learning ReLU Networks on Linearly Separable Data: Algorithm, Optimality, and Generalization|https://arxiv.org/abs/1808.04685]] -- [[The Anisotropic Noise in Stochastic Gradient Descent: Its Behavior of Escaping from Minima and Regularization Effects|https://arxiv.org/abs/1803.00195]]
+
+[[Towards Understanding the Generalization Bias of Two Layer Convolutional Linear Classifiers with Gradient Descent|https://arxiv.org/abs/1802.04420]]

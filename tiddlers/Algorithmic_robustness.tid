@@ -1,6 +1,6 @@
 created: 20171027131944733
 creator: cosmos
-modified: 20180323192008318
+modified: 20181108230130595
 modifier: cosmos
 tags: Generalization
 title: Algorithmic robustness
@@ -20,3 +20,6 @@ Uses [[Lipschitz]] continuity
 simply bounding the Lipschitz constant of
 the network is not enough to get a reasonable capacity control and the capacity bounds of the previous
 Section are not merely a consequence of bounding the Lipschitz constant.
+
+[[ Distance-based classification with lipschitz functions|http://www.jmlr.org/papers/volume5/luxburg04b/luxburg04b.pdf]]
+

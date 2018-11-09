@@ -1,6 +1,6 @@
 created: 20160915182124591
 creator: cosmos
-modified: 20180326165957991
+modified: 20181108185702145
 modifier: cosmos
 tags: [[Artificial neural network]] [[Statistical physics and inference]]
 title: Statistical mechanics of neural networks
@@ -12,6 +12,15 @@ See also [[Neural network theory]] (mostly about [[Artificial neural network]] [
 [[Thouless-Anderson-Palmer equations for neural networks|http://journals.aps.org/pre/abstract/10.1103/PhysRevE.61.1839]]
 
 [ext[Nonequilibrium analysis of simple neural nets|http://pcteserver.mi.infn.it/~caraccio/Lauree/Amelio.pdf]]
+
+!!![[Sompolinsky II Beg Rohu 2018|https://www.youtube.com/watch?v=c_ez2O2QnCM]]
+
+[[High-dimensional dynamics of generalization error in neural networks|https://arxiv.org/abs/1710.03667]] Generalization error diverges when number of examples equals number of dimensions, for target function with noise 
+
+To understand phenomenon described by Saxe and in the video at 43:00, we can think of this:
+Low eigenvalues in XX^T correspond to directions with little variations in the input. However, by the random fluctuation eta, the output could have an O(1) variation, even for arbitrarily small input variation, which requires a large weight to fit, and produces large generalization error.
+
+for $\alpha<1$ the probability of this directions in input space with low variation decreases, as we get less directions overall with points I think (directions with no points/variation are ignored for the algorithm which projects weight into input subspace, and these are the 0 eigenvalue parts of the Marchenko-Pastur distr)
 
 !!__Neural networks and [[Spin glass]]es__
 

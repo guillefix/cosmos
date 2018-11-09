@@ -1,8 +1,8 @@
 created: 20160916172705813
 creator: cosmos
-modified: 20180919124356786
+modified: 20181108204012259
 modifier: cosmos
-tags: [[Gradient descent]]
+tags: [[Gradient descent]] [[Deep learning]] Optimization
 title: Stochastic gradient descent
 tmap.id: 1f8d98d6-522b-4e48-aaa8-20c50243e55f
 type: text/vnd.tiddlywiki
@@ -40,7 +40,7 @@ Downpour -- Asynchronous SGD
 
 [[Don't Decay the Learning Rate, Increase the Batch Size|https://arxiv.org/abs/1711.00489]]
 
-Proof of convergence of Adam is wrong paper
+Proof of convergence of Adam is wrong paper (David worked on that)
 
 ----------------
 
@@ -49,3 +49,59 @@ Proof of convergence of Adam is wrong paper
 Idea I had of adversarial mini-batches (make examples which are classified wrong more likely)
 
 [[Coupling Adaptive Batch Sizes with Learning Rates|https://arxiv.org/abs/1612.05086]]
+
+!!!__Papers__
+
+...
+
+Léon Bottou. Stochastic gradient learning in neural networks. Proceedings of Neuro-Nımes, 91(8),
+1991.
+
+Léon Bottou. Large-scale machine learning with stochastic gradient descent. In Proceedings of
+COMPSTAT’2010, pp. 177–186. Physica-Verlag HD, 2010.
+
+Yann LeCun, Léon Bottou, GB Orr, and K-R Müller. Efficient backprop. Lecture notes in computer
+science, pp. 9–50, 1998.
+
+Dauphin, Yann N, Pascanu, Razvan, Gulcehre, Caglar, Cho, Kyunghyun, Ganguli, Surya, & Bengio, Yoshua.
+2014. Identifying and attacking the saddle point problem in high-dimensional non-convex optimization.
+Pages 2933–2941 of: Advances in Neural Information Processing Systems.
+
+Saddles in deep learning https://arxiv.org/abs/1605.07110
+Identifying and attacking the saddle point problem in high-dimensional non-convex optimization.
+''How much of a problem are saddle points?''
+
+<small>Duchi, John, Hazan, Elad, & Singer, Yoram. 2011. Adaptive subgradient methods for online learning and
+stochastic optimization. Journal of Machine Learning Research, 12(Jul), 2121–2159.</small>
+
+Jason D Lee, Max Simchowitz, Michael I Jordan, and Benjamin Recht. Gradient descent converges
+to minimizers. University of California, Berkeley, 1050:16, 2016.
+
+James Martens. Deep learning via hessian-free optimization. In Proceedings of the 27th International
+Conference on Machine Learning (ICML-10), pp. 735–742, 2010.
+James Martens. New insights and perspectives on the natural gradient method. arXiv preprint
+arXiv:1412.1193, 2014.
+
+Hossein Mobahi. Training recurrent neural networks by diffusion. arXiv preprint arXiv:1601.04114,
+2016.
+
+Ioannis Panageas and Georgios Piliouras. Gradient descent only converges to minimizers: Nonisolated
+critical points and invariant regions. arXiv preprint arXiv:1605.00405, 2016.
+
+Panos M Pardalos, David Shalloway, and Guoliang Xue. Optimization methods for computing global
+minima of nonconvex potential energy functions. Journal of Global Optimization, 4(2):117–133,
+1994.
+
+Barak A Pearlmutter. Fast exact multiplication by the hessian. Neural computation, 6(1):147–160,
+1994.
+
+<small>Tom Schaul, Sixin Zhang, and Yann LeCun. No more pesky learning rates. ICML (3), 28:343–351,
+2013. --> [[newer methods now|https://www.reddit.com/r/MachineLearning/comments/2qrje1/did_anyone_here_use_no_more_pesky_learning_rates/]]</small>
+
+[[The Marginal Value of Adaptive Gradient Methods in Machine Learning|https://arxiv.org/abs/1705.08292]] See also [[Zhang et al|https://arxiv.org/abs/1611.03530]]
+
+We finally observe that both the gradient descent and the stochastic gradient descent methods can reach this level within the same number of steps. -- https://arxiv.org/abs/1412.6615
+
+-----------
+
+See also [[Loss surface of neural networks]]

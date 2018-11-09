@@ -1,117 +1,165 @@
 created: 20170512224700922
 creator: cosmos
-modified: 20181107180408985
+modified: 20181108234319151
 modifier: cosmos
 tags: [[Deep learning theory]] Generalization
 title: Generalization in deep learning
 tmap.id: 3ae55414-1998-44f0-8fb4-9f318db105f7
 type: text/vnd.tiddlywiki
 
+[[Deep learning generalizes because the parameter-function map is biased towards simple functions|https://arxiv.org/abs/1805.08522]] -- [[Deep learning theory]]
 
-[[Deep learning generalizes because the parameter-function map is biased towards simple functions|https://arxiv.org/abs/1805.08522]]
+[[Exploring generalization in deep learning|https://arxiv.org/pdf/1706.08947.pdf]] -- [[Generalization in Deep Learning|https://arxiv.org/abs/1710.05468]] -- <small>[[Current state of generalization theory for deep learning (2018)|https://youtu.be/KDRN-FyyqK0?t=52m22s]])</small> -- [ext[slides on myths about generalization in deep learning|http://www.mit.edu/~rakhlin/papers/myths.pdf]]
 
-[[Exploring generalization in deep learning|https://arxiv.org/pdf/1706.08947.pdf]]
+[[Generalization Error in Deep Learning|https://arxiv.org/abs/1808.01174]]
+
+[[Towards Understanding Generalization of Deep Learning: Perspective of Loss Landscapes|https://arxiv.org/abs/1706.10239]] -- [[A Closer Look at Memorization in Deep Networks|https://arxiv.org/abs/1706.05394]]
 
 See gingkoapp tree: [[Kolmogorov complexity and generalization in deen neural networks|https://gingkoapp.com/app#7abe722f5a31aa3e1000001b]]
 
 --> Even for [[Kernel method]]s, the classical learning theory doesn't predict what we observe (-- [[see here|https://youtu.be/T4T63TT-Hy4?list=PL04QVxpjcnjhtL3IIVyFRMOgdhWtPn7YJ&t=21m44s]]). [[Overparametrization in deep learning|https://youtu.be/T4T63TT-Hy4?list=PL04QVxpjcnjhtL3IIVyFRMOgdhWtPn7YJ&t=53m10s]]
 
-<small>[[Current state of generalization theory for deep learning (2018)|https://youtu.be/KDRN-FyyqK0?t=52m22s]])</small>
+[[Understanding deep learning requires rethinking generalization|https://arxiv.org/abs/1611.03530]]
 
-[ext[slides on myths about generalization in deep learning|http://www.mit.edu/~rakhlin/papers/myths.pdf]]
+!!!__Other approaches__
+
+[[Towards Understanding Generalization via Analytical Learning Theory|https://dspace.mit.edu/handle/1721.1/118307]]
+
+[[On the Spectral Bias of Neural Networks|https://arxiv.org/abs/1806.08734]] .... LOWER FREQUENCIES ARE MORE ROBUST (like [[Wu et al.|https://arxiv.org/abs/1706.10239]] find also!).
+
+[[Fisher-Rao Metric, Geometry, and Complexity of Neural Networks|https://arxiv.org/abs/1711.01530]]
+
+!!__[[Flat minima]]__
+
+[[FLAT MINIMA|http://www.bioinf.jku.at/publications/older/3304.pdf]]
+
+[[ On large-batch train-ing for deep learning: Generalization gap and sharp minima.|https://arxiv.org/abs/1609.04836]]
+
+[[Computing Nonvacuous Generalization Bounds for Deep (Stochastic) Neural Networks with Many More Parameters than Training Data|https://arxiv.org/abs/1703.11008]] -- Sharpness + norm bounds (as an alternative to margin + norm bounds, but similar as margin is similar to sharpness; robustness of the training loss to changes in weights; see [[Exploring generalization in deep learning|https://arxiv.org/pdf/1706.08947.pdf]])
+
+[[Sharp Minima Can Generalize For Deep Nets|https://arxiv.org/abs/1703.04933]] -- maybe it's not sharp, but ''frequent''! ([[Arrival of the frequent]])
+
+Entropy-SGD -- [[Entropy-SGD optimizes the prior of a PAC-Bayes bound: Generalization properties of Entropy-SGD and data-dependent priors|https://arxiv.org/abs/1712.09376]]
+
+[[Three Factors Influencing Minima in SGD|https://arxiv.org/abs/1711.04623]] -- Characterizing the relation between learning rate, batch size and the properties of the final minima, such as width or generalization
+
+!!__[[PAC-Bayesian learning]] approach__
+
+[[Deep learning generalizes because the parameter-function map is biased towards simple functions|https://openreview.net/forum?id=rye4g3AqFm]] :)
+
+[[(video) Karolina Dziugaite on Nonvacuous Generalization Bounds for Deep Neural Networks via PAC-Bayes|https://www.youtube.com/watch?v=dHUH0hmKvs8]] -- [[Data-dependent PAC-Bayes priors via differential privacy|https://arxiv.org/abs/1802.09583]] -- [[Entropy-SGD optimizes the prior of a PAC-Bayes bound: Generalization properties of Entropy-SGD and data-dependent priors|https://arxiv.org/abs/1712.09376]]
+
+
+!!__Norm/[[Margin-based generalization bound]]__
+
+See {{UML}} for SVM bounds; they arell all based on [[Structural risk minimization]] and bounding [[Rademacher complexity]] by bounding norms of the parameters <small>(sometimes refered to as //scale-sensitive bound/analysis//)</small>
+
+[[For valid generalization the size of the weights is more important than the size of thenetwork|https://papers.nips.cc/paper/1204-for-valid-generalization-the-size-of-the-weights-is-more-important-than-the-size-of-the-network.pdf]] -- [[The sample complexity of pattern classification with neural networks: the size ofthe weights is more important than the size of the network.|https://pdfs.semanticscholar.org/9f1e/b4445219fbc994eb3e47e76cf1428d99815c.pdf]]
+
+[[Regularization Networks and Support Vector Machines|http://cbcl.mit.edu/publications/ps/evgeniou-reviewall.pdf]] -- [[Rademacher and gaussian complexities: Risk bounds andstructural results (2002)|http://www.jmlr.org/papers/volume3/bartlett02a/bartlett02a.pdf]] -- ([ext[pdf from oxford course|http://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/18/material/lecture3.pdf#page=4]], [[Rademacher complexity of neural networks]]
+
+[[Norm-based capacity control in neural networks|https://arxiv.org/abs/1503.00036]]
+
+[[In search of the real inductive bias:  On the roleof implicit regularization in deep learning.|https://arxiv.org/abs/1412.6614]]
+
+[[Spectrally-normalized margin bounds for neural networks|https://arxiv.org/abs/1706.08498]], allow for use of a variety of norms. Further work explores which choices of norm are better! (comments on need for upper and lower bounds) They use [[Covering number]] bounds based on those in Neural Network Learning: Theoretical Foundations by Anthony and Barlett,1999, itself based on fat-shattering analsyis in [[Barlett 1996|https://papers.nips.cc/paper/1204-for-valid-generalization-the-size-of-the-weights-is-more-important-than-the-size-of-the-network.pdf]]
+
+[[  PAC-bayesian  approach  to spectrally-normalized margin bounds for neural networks.|https://arxiv.org/abs/1707.09564]]
+
+[[Implicit regularization in deep learning|https://arxiv.org/pdf/1709.01953.pdf]]
+
+[[On the Margin Theory of Feedforward Neural Networks|https://arxiv.org/abs/1810.05369]]
+
+[[Exploring Generalization in Deep Learning|https://arxiv.org/pdf/1706.08947.pdf]]
+They are very related to sharpness/robustness analysis. They look at how many of the ReLU activations are changed by small changes to the weights, to bound what they call the //sharpness//, which bounds the generalization error via a [[PAC-Bayes]] bound (on parameter space, of course..). Similar for some of the compression-based bounds, although in that case they use a [[Covering number]] argument rather than a PAC-Bayes one
+
+[[Towards Understanding the Role of Over-Parametrization in Generalization of Neural Networks|https://arxiv.org/abs/1805.12076]] (new margin bounds which work better)
+
+[[Predicting the Generalization Gap in Deep Networks with Margin Distributions|https://arxiv.org/abs/1810.00113]]
+
+''Lower bounds?''
+
+!!__[[Compression-based generalization bound]]__
+
+See {{UML}}, Chap 30
 
 https://www.offconvex.org/2018/02/17/generalization2/ -- [[Stronger generalization bounds for deep nets via a compression approach|https://arxiv.org/abs/1802.05296]]. See stability analysis from "Threshold logic and its applications book"
 
-[ext[High-dimensional dynamics of generalization error in neural networks|http://www.people.fas.harvard.edu/~asaxe/papers/Advani,%20Saxe%20-%202017%20-%20High-dimensional%20dynamics%20of%20generalization%20error%20in%20neural%20networks.pdf]] Using random matrix theory and exact so-
-lutions in deep linear models, we derive the generalization error and training error dynamics of
-learning and analyze how they depend on the dimensionality of data and signal to noise
-ratio of the learning problem.  
+[[Non-vacuous Generalization Bounds at the ImageNet Scale: a PAC-Bayesian Compression Approach|https://openreview.net/forum?id=BJgqqsAct7]] -- [[blog|https://severelytheoretical.wordpress.com/2018/06/25/why-do-neural-networks-generalize-well/]]
 
-We find that the dynamics of gradient descent learning naturally protect against overtraining and overfitting in large networks.
+[[Compressibility and Generalization in Large-Scale Deep Learning|https://arxiv.org/abs/1804.05862]]
 
-Overtraining is worst at intermediate network sizes. For both linear and nonlinear nets, catastrophic overtraining is a symp- tom of a model whose complexity is exactly matched to the size of the training set, and can be combated either by making the model smaller or larger .
+!!__[[Robustness|Algorithmic robustness]], [[stability|Algorithmic stability]], <small>[[continuity|Continuous function]]/[[smoothness|Smooth function]]</small>__
 
-We then turn to non-linear neural networks, and show that making networks very large does not harm their generalization performance. On the contrary, it can in fact reduce overtraining, even without early stopping or regularization of any sort. We identify two novel phenomena underlying this behavior in overcomplete models:
+Robustness relative to changes in inputs (and to training set), for example by measured by [[Lipschitz]] continuitiy. Bounds are not very good usually, as they suffer from exponential dependence on dimension ([[Curse of dimensionality]]). I think results are probably proved using [[Covering number]]s which bound [[Rademacher complexity]] (via [[Massart's lemma]]..)
 
-* first, there is a frozen subspace of the weights in which no learning occurs under gradient descent; [[Singular learning theory]], [[Sloppy model]]s. These subspaces, are spaces are the ''neutral spaces'' of the parameter--function GP map!
+[[ Distance-based classification with lipschitz functions|http://www.jmlr.org/papers/volume5/luxburg04b/luxburg04b.pdf]]
 
-* and second, the statistical properties of the high-dimensional regime yield better-conditioned input correlations which protect against overtraining
+[[Robustness and generalization|https://arxiv.org/pdf/1005.2243.pdf]] However, the covering number of the input domain and thus the capacity can be exponential in the input dimension
 
- derive a generalization error bound
-which incorporates the frozen subspace and conditioning effects and qualitatively matches
-the behavior observed in simulation.
+[[Generalization Error of Invariant Classifiers|https://arxiv.org/abs/1610.04574]]
 
-the optimal stopping time (for minimizing generalization error) in these
-systems growths with the signal to noise ratio (SNR), and we provide arguments that this
-growth is approximately logarithmic.  When the quality of the data is higher (high SNR),
-we expect the algorithm to weigh the data more heavily and thus run gradient descent for
-longer. 
+<small>Related to arguments for generaliztion used in [[Information bottleneck]] approaches..</small>
 
-"while a large
-deep network can indeed fit random labels, gradient-trained DNNs initialized with small-
-norm weights learn simpler functions first and hence generalize well if there is a consistent
-rule to be learned."
 
-Remarkably,  even  without  early  stopping,  generalization  can  still  be  better  in  larger
-networks.  To understand this, we derive an alternative bound on the Rademacher complex-
-ity of a two layer non-linear neural network with fixed first layer weights that incorporates
-the dynamics of gradient descent.  We show that complexity is limited because of a frozen
-subspace in which no learning occurs, and overtraining is prevented by a larger gap in the
-eigenspectrum of the data in the hidden layer in overcomplete models 
+!!__[[VC dimension]] bounds__
 
-[[A Closer Look at Memorization in Deep Networks|https://arxiv.org/abs/1706.05394]]
+Also [[Fat-shattering dimension]] (and [[Natarajan dimension]]?)
 
-See emails with Ard
+[[What Size Net Gives Valid Generalization?|https://papers.nips.cc/paper/154-what-size-net-gives-valid-generalization]]
+
+M. Anthony and P. L. Bartlett.Neural network learning: Theoretical foundations. cambridgeuniversity press, 2009. -- Discrete mathematics of neural networks
+
+[[Lower bounds on the Vapnik-Chervonenkis dimension of multi-layer threshold networks|https://dl.acm.org/citation.cfm?doid=168304.168322]]
+
+ [[The sample complexity of pattern classification with neural networks: the size ofthe weights is more important than the size of the network.|https://pdfs.semanticscholar.org/9f1e/b4445219fbc994eb3e47e76cf1428d99815c.pdf]]
+
+[[neural networks with quadratic vc dimension|https://papers.nips.cc/paper/1051-neural-networks-with-quadratic-vc-dimension.pdf]] -- [[almost linear vc-dimension bounds for piecewise polynomial networks|https://papers.nips.cc/paper/1515-almost-linear-vc-dimension-bounds-for-piecewise-polynomial-networks.pdf]] -- [[Neural Nets with Superlinear VC-Dimension|https://link.springer.com/chapter/10.1007/978-1-4471-2097-1_136]]
+
+[[VC Dimension of Neural Networks|http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.49.8669]]
+
+[[Nearly-tight VC-dimension and pseudodimension bounds for piecewise linear neural networks|https://arxiv.org/abs/1703.02930]]
+
+[[bounds for the computational power and learning complexity of analog neural nets|https://epubs.siam.org/doi/pdf/10.1137/S0097539793256041]]
+
+-------------------
+
+!!![[Generalization dynamics]] (also ''interaction between generalization and noise'' <small>[[counterintuitive behavior|https://www.youtube.com/watch?v=c_ez2O2QnCM#t=42m50s]], see discussion [[here|Statistical mechanics of neural networks]]</small>)
+
+[ext[High-dimensional dynamics of generalization error in neural networks|http://www.people.fas.harvard.edu/~asaxe/papers/Advani,%20Saxe%20-%202017%20-%20High-dimensional%20dynamics%20of%20generalization%20error%20in%20neural%20networks.pdf]] (see [[Statistical mechanics of neural networks]] also) Using random matrix theory and exact solutions in deep linear models, we derive the generalization error and training error dynamics of learning and analyze how they depend on the dimensionality of data and signal to noise ratio of the learning problem.  
 
 ----------------
+
+!!__[[Optimization algorithms and regularization]]__
 
 !!![[Implicit regularization in deep learning|https://arxiv.org/pdf/1709.01953.pdf]]
 
 Regularization caused by optimization algorithm.. "we investigate the transformations under which the function computed by a network remains the same and therefore argue for complexity measures and optimization algorithms that have similar invariances. We find complexity measures that have similar invariances to neural networks and optimization algorithms that implicitly regularize them". [[Path-norm]] a metric in parameter space, that is closer to model distance? [[Sloppy systems]]?
 
-* We prove generalization bounds for the class of fully connected feedforward networks with the bounded norm. We further show that for some norms, this bound is independent of the number of hidden units.
+[[Stochastic gradient descent]]
 
-* We show how PAC-Bayes framework can be employed to obtain generalization bounds for neural networks by making a connection between sharpness and PAC-Bayes theory.
+[[A Bayesian Perspective on Generalization and Stochastic Gradient Descent|https://openreview.net/forum?id=BJij4yg0Z]]
 
-* Implicit Regularization by SGD (Chapter 6): We show that networks learned by SGD satisfy several conditions that lead to flat minima. (Hmm, doesn't seem to be in chapter 6)
+[[SGD Learns Over-parameterized Networks that Provably Generalize on Linearly Separable Data|https://arxiv.org/abs/1710.10174]]
 
-[28] proved that the Rademacher complexity of fully connected feedforward networks on set S can be bounded based on the 1 norm of the weights of hidden units in each layer  In [[Chapter 5|https://arxiv.org/pdf/1709.01953.pdf#page=31]] we show
-how the capacity can be controlled for a large family of norms. See [[Learning real-valued functions]]
+[[Learning Overparameterized Neural Networks via Stochastic Gradient Descent on Structured Data|https://arxiv.org/abs/1808.01204]]
 
-[[Algorithmic robustness]], similar to [[Algorithmic stability]]
+[[Gradient descent with identity initialization efficiently learns positive definite linear transformations by deep residual networks|http://proceedings.mlr.press/v80/bartlett18a.html]] -- [[Algorithmic Regularization in Over-parameterized Matrix Sensing and Neural Networks with Quadratic Activations|http://proceedings.mlr.press/v75/li18a.html]] -- [[Learning ReLU Networks on Linearly Separable Data: Algorithm, Optimality, and Generalization|https://arxiv.org/abs/1808.04685]] -- [[The Anisotropic Noise in Stochastic Gradient Descent: Its Behavior of Escaping from Minima and Regularization Effects|https://arxiv.org/abs/1803.00195]]
 
-<small>[[Sharpness|https://arxiv.org/pdf/1709.01953.pdf#page=22]]. we advocate viewing a related notion of expected sharpness in the context of the PAC-Bayesian framework. Viewed this way, it becomes clear that sharpness controls only one of two relevant terms, and must be balanced with some other measure such as norm. Together, sharpness and norm do provide capacity control and can explain many of the observed phenomena. This connection between sharpness and the PAC-Bayes framework was also recently noted by Dziugaite and Roy [32].</small>
+[[Towards Understanding the Generalization Bias of Two Layer Convolutional Linear Classifiers with Gradient Descent|https://arxiv.org/abs/1802.04420]]
 
-<small>[[On the Role of Implicit Regularization in Generalization|https://arxiv.org/pdf/1709.01953.pdf#page=25]] we draw an analogy to matrix
-factorization and understand dimensionality versus norm control there. Based on this analogy we suggest that implicit norm regularization might be central also for deep learning, and also there we should think of bounded-norm models with capacity independent of number of hidden units. See also [[Deep learning theory]]</small>
+[[Three Factors Influencing Minima in SGD|https://arxiv.org/abs/1711.04623]] -- Characterizing the relation between learning rate, batch size and the properties of the final minima, such as width or generalization
 
-Focusing on networks with RELU activations in this section, we observe that scaling down the incoming
-edges to a hidden unit and scaling up the outgoing edges by the same factor yields an equivalent network
-computing the same function. Since predictions are invariant to such rescalings, it is natural to seek a
-geometry, and corresponding optimization method, that is similarly invariant. In this chapter, we study
-invariances in feedforward networks with shared weights. --- [[Sloppy systems]]!
-
-<small>Revisiting the choice of gradient descent, we recall that optimization is also inherently tied to a choice
-of geometry or measure of distance, norm or divergence. Gradient descent for example is tied to the l2
-norm as it is the steepest descent with respect to l2 norm in the parameter space, while coordinate descent
-corresponds to steepest descent with respect to the l1 norm and exp-gradient (''multiplicative weight'')
-updates is tied to an entropic divergence.</small>
-
-[[Sensitivity]]-based bounds
 
 ----------------
 
 [[Generalization in deep learning|https://arxiv.org/pdf/1710.05468.pdf]] (Bengio et al) -- en general, no me parecio tan interesante, excepto un bound de [[Rademacher complexity]], q tampoco es q le permita decir mucho per bueno. val just tells us that we generalize. It doesn't tells us why. Just like PAC bounds don't tells us why the target function lies within our test set, for e.g.. 
 
+[[A Modern Take on the Bias-Variance Tradeoff in Neural Networks|https://arxiv.org/abs/1810.08591]]
+
 [[On Generalization and Regularization in Deep Learning|https://arxiv.org/abs/1704.01312]]
 
-[[FLAT MINIMA|http://www.bioinf.jku.at/publications/older/3304.pdf]]
-
-[[Computing Nonvacuous Generalization Bounds for Deep (Stochastic) Neural Networks with Many More Parameters than Training Data|https://arxiv.org/abs/1703.11008]]
-
 [[Unreasonable Effectiveness of Learning Neural Nets: Accessible States and Robust Ensembles|https://pdfs.semanticscholar.org/a13e/ab6052cc9f85054d70d3ba395b0d77652172.pdf]]
-
-[[Sharp Minima Can Generalize For Deep Nets|https://arxiv.org/abs/1703.04933]] -- maybe it's not sharp, but ''frequent''! ([[Arrival of the frequent]])
 
 [[Data-Dependent Stability of Stochastic Gradient Descent|https://arxiv.org/abs/1703.01678]]
 
@@ -120,6 +168,14 @@ updates is tied to an entropic divergence.</small>
 [[What size network is good for generalization of a specific task of interest|http://www.sciencedirect.com/science/article/pii/0893608094900264]] -- We show that for some tasks increasing network size leads to worse generalization. This is not surprising. The striking feature is that there exist other tasks for which increasing network size improves generalization. We give an explanation of this phenomenon in terms of the information entropy. I think what this paper is missing is the concept of universal complexity measures. You can see that tasks of “medium complexity” are the hardest to learn, because their measure of complexity isn’t very good. Even just entropy, would be better (as highest entropy corresponds to medium complexity in their case)
 
 [[related paper|http://www.inderscienceonline.com/doi/abs/10.1504/IJAACS.2014.065198]], [[pdf|http://sci-hub.cc/10.1504/ijaacs.2014.065198]]
+
+[[Do Deep Nets Really Need to be Deep?|https://arxiv.org/abs/1312.6184]]
+
+[[On the Depth of Deep Neural Networks: A Theoretical View|https://arxiv.org/abs/1506.05232]]
+
+[[Diagnosing Convolutional Neural Networks using their Spectral Response|https://arxiv.org/abs/1810.03241]] observe that the best models are also the most sensitive to perturbations of their input.. ??
+
+[[How Many Samples are Needed to Learn a Convolutional Neural Network?|https://arxiv.org/abs/1805.07883]]
 
 ----------------------
 
@@ -144,4 +200,4 @@ Flat minima good to help fight catastrophic forgetting.
 
 !!!__[[Simplicity bias]] in neural networks__
 
-See [[this gingko tree|https://gingkoapp.com/app#7abe722f5a31aa3e1000001b]] and [[this overleaf document|https://www.overleaf.com/9939721prrtpqvjmdxd#/36478572/]] (from my short project in summer 2017 with [[Ard Louis]]
+See [[this gingko tree|https://gingkoapp.com/app#7abe722f5a31aa3e1000001b]] and [[this overleaf document|https://www.overleaf.com/9939721prrtpqvjmdxd#/36478572/]] (from my short project in summer 2017 with [[Ard Louis]]. See emails with Ard

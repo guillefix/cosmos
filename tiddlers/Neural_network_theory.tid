@@ -1,6 +1,6 @@
 created: 20160913110136500
 creator: cosmos
-modified: 20171128215515260
+modified: 20181108191751490
 modifier: cosmos
 tags: [[Artificial neural network]]
 title: Neural network theory
@@ -14,7 +14,7 @@ The theory (mainly [[Learning theory]]) of [[Artificial neural network]]s. See a
 <small>Note that the notation in [[this paper|http://arxiv.org/abs/1608.08225]] is opposite to that standard in [[Machine learning]]. __In the paper, $$y$$ is the input, and $$x$$ is the output.__
 </small>
 
-!!__[[Expressibility of neural networks]]__
+!!__[[Expressivity of neural networks]]__
 
 !!__Learning of neural networks__
 

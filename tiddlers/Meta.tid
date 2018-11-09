@@ -1,13 +1,13 @@
 created: 20160117211501086
 creator: guillefix
-modified: 20180102164818361
+modified: 20181108211153714
 modifier: cosmos
 tags: Welcome
 title: Meta
 tmap.id: 4502aaa7-4288-4367-b4ee-9d0d7f1ef715
 type: text/vnd.tiddlywiki
 
-This tiddler is about this ~TiddlyWiki itself.
+This tiddler is about this ~TiddlyWiki itself, and also offers some [[Help]]
 
 [[BACKUPS|http://kosmos.tiddlyspot.com/backup/]]
 
@@ -92,3 +92,7 @@ To use it, do `<<testMacro>>` in any tiddler, where this isn't the name of the t
 ~LaTeX test: $$x^2=3$$
 
 Font Awesome Test: Waving flag: <i class="fa fa-flag"></i>
+
+The reason I use this rather than wikipedia is because of the freedom of a personal wiki of course (there are several) :)
+
+See [[Loss surface of neural networks]] for example of flating images. You use <mark>inline CSS</mark> `@@float:left;[img[...]]@@` (see [[here|https://groups.google.com/forum/#!topic/tiddlywiki/84H215zoG2s]])

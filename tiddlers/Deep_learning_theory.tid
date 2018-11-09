@@ -1,6 +1,6 @@
 created: 20160913070239061
 creator: cosmos
-modified: 20181105153434944
+modified: 20181108195717853
 modifier: cosmos
 tags: [[Deep learning]] [[Learning theory]]
 title: Deep learning theory
@@ -28,17 +28,17 @@ Nice lecture videos: https://www.researchgate.net/project/Theories-of-Deep-Learn
 
 [[Understanding deep learning requires rethinking generalization|https://openreview.net/forum?id=Sy8gdB9xx&noteId=Sy8gdB9xx]]
 
-[[Why and when can deep - but not shallow - networks avoid the curse of dimensionality: a review|https://arxiv.org/pdf/1611.00740.pdf]], see also [[Expressibility of neural networks]]
+[[Why and when can deep - but not shallow - networks avoid the curse of dimensionality: a review|https://arxiv.org/pdf/1611.00740.pdf]], see also [[Expressivity of neural networks]]
 
 The approximation of functions with a compositional structure – can be achieved with the same degree of accuracy by deep and shallow networks but that the number of parameters are much smaller for the deep networks than for the shallow network with equivalent approximation accuracy.
 
 [[Lectures from Beg Rohu 2018 summer school|https://www.youtube.com/channel/UCuuXUxfZlPTfvKxGdzXLEIw]]
 
-See [[Generalization in deep learning]]
+!!__[[Generalization in deep learning]]__
 
-Connections to [[Signal processing]]: https://arxiv.org/abs/1707.00372
+[[Deep learning generalizes because the parameter-function map is biased towards simple functions|https://openreview.net/forum?id=rye4g3AqFm]]
 
-!!!__[[Expressibility of neural networks]]__
+!!__[[Expressibility of neural networks]]__
 
 [[Universal Function Approximation by Deep Neural Nets with Bounded Width and ReLU Activations|https://arxiv.org/abs/1708.02691]]
 
@@ -46,9 +46,15 @@ Connections to [[Signal processing]]: https://arxiv.org/abs/1707.00372
 
 [ext[slides|http://www.mit.edu/~rakhlin/papers/myths.pdf]]
 
+[[bounds for the computational power and learning complexity of analog neural nets|https://epubs.siam.org/doi/pdf/10.1137/S0097539793256041]]
+
+[[On the Depth of Deep Neural Networks: A Theoretical View|https://arxiv.org/abs/1506.05232]]
+
 -----------------------
 
-!!__[[Information bottleneck in deep learning]]__
+!!__Information propagation in deep networks__
+
+!!!__[[Information bottleneck in deep learning]]__
 
 See [[gingkoapp tree|https://gingkoapp.com/app#72f84d34b9dce3b61f00003d]]
 
@@ -60,7 +66,7 @@ See [[gingkoapp tree|https://gingkoapp.com/app#72f84d34b9dce3b61f00003d]]
 
 See more at [[Information bottleneck]]
 
-!!![[Deep Information Propagation|https://arxiv.org/abs/1611.01232]]
+!!!__[[Deep Information Propagation|https://arxiv.org/abs/1611.01232]]__
 [[Exponential expressivity in deep neural networks through transient chaos|http://papers.nips.cc/paper/6322-exponential-expressivity-in-deep-neural-networks-through-transient-chaos]]
 
 [[Resurrecting the sigmoid in deep learning through dynamical isometry: theory and practice|https://arxiv.org/abs/1711.04735]]
@@ -71,13 +77,17 @@ See more at [[Information bottleneck]]
 
 [[Exploding gradients problem]]
 
+[[Residual neural networks]]s -- [[Highway network]]s
+
 --------------------------------
 
 [[Empirical Analysis of the Hessian of Over-Parametrized Neural Networks|https://arxiv.org/abs/1706.04454]]
 
 [[On the Expressive Power of Deep Neural Networks|https://2017.icml.cc/Conferences/2017/Schedule?showEvent=841]]
 
-!!__Optimization dynamics, generalization__
+!!__[[Optimization]] dynamics, generalization__
+
+[[A Convergence Analysis of Gradient Descent for Deep Linear Neural Networks|https://arxiv.org/abs/1810.02281]]
 
 [[Backprop minimizes the free energy|https://calculatedcontent.com/2017/02/24/why-deep-learning-works-3-backprop-minimizes-the-free-energy/?utm_content=buffer2f5bd&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer]]
 
@@ -104,9 +114,11 @@ But we didn't tell the network to minimize the path norm (complexity). [[So wher
 
 In any case the experiments where more hidden units allow for better generalization means that more hidden units allow to drive the complexity measure lower (so rank isn't the right complexity measure. See [[here|https://www.youtube.com/watch?v=ACdjYP0-cMw#t=27m50s]])
 
+[[Mollifying Networks|https://arxiv.org/abs/1608.04980]] and smoothening landscapes
+
 ----------------------
 
-!!__Deep learning, [[Spin glass]]es, [[Protein folding]], [[Energy landscape]]s__
+!!__Deep learning, [[Spin glass]]es, [[Protein folding]], [[Loss surface|Loss surface of neural networks]]s__
 
 [[Rethinking generalization requires revisiting old ideas: statistical mechanics approaches and complex learning behavior|https://openreview.net/forum?id=SkPoRg10b]]
 
@@ -191,6 +203,9 @@ See also [[Simplicity and learning]]
  -- [[Accelerated Learning in Layered Neural Networks|http://www.complex-systems.com/pdf/02-6-1.pdf]]
  -- [[Yann LeCun: "Deep Learning, Graphical Models, Energy-Based Models, Structured Prediction, Pt. 1"|https://www.youtube.com/watch?v=oOB4evKlEmQ#t=35m]]
  -- [[Why does Deep Learning work? - A perspective from Group Theory|https://arxiv.org/abs/1412.6621]]
+
+Connections to [[Signal processing]]: https://arxiv.org/abs/1707.00372
+
 
 -------------------
 

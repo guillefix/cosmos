@@ -1,11 +1,13 @@
 created: 20180427161738016
 creator: cosmos
-modified: 20180715231316637
+modified: 20181108193757063
 modifier: cosmos
 tags: [[Deep learning theory]]
 title: Exploding gradients problem
 tmap.id: c6075ff4-bc7f-4e2b-927a-5d8249895b46
 type: text/vnd.tiddlywiki
+
+also [[Vanishing gradients problem]]
 
 [[video|https://www.youtube.com/watch?v=5v41xjKauY0]] -- [[The exploding gradient problem demystified - definition, prevalence, impact, origin, tradeoffs, and solutions|https://arxiv.org/abs/1712.05577]] ([[openreview|https://openreview.net/forum?id=HkpYwMZRb]])
 
@@ -28,3 +30,13 @@ __Other problems discussed in the video__
 Apart from exploding gradients, networks can fail by 
 
 * pseudolinearity (which means that as the variance of activations decreases, for certain nonlinearities, the nonlinearity effectively looks more and more linear). This causes ineffective layers, and low effective depth (and then potentially high error). For some nonlinearities, the pseudolinearity effect only happens if domain bias also occurs. [[ReLU]] is one example.
+
+!!! --> [[Residual neural network]]s seem to alliviate these problems! (see also [[this video|https://youtu.be/78vq6kgsTa8?t=17m10s]])
+
+!!![[Exponential expressivity in deep neural networks through transient chaos|https://arxiv.org/abs/1606.05340]]
+
+!!![[Deep Information Propagation|https://arxiv.org/abs/1611.01232]]
+
+[[Information bottleneck]]
+
+[[Mean field theory of neural networks]] -- [[Neural network Gaussian process]]es!
