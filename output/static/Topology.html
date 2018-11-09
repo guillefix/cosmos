@@ -1,1 +1,91 @@
-<p><em>Things often have a shape</em> (continued from <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Geometry">Geometry</a>). Topology looks at the &quot;raw&quot; shape, the shape that is invariant under continuous transformations. The standard notion of &quot;shape&quot; is really <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Geometry">Geometry</a> (which includes topology).</p><p>Topology looks at neighbourhoods, <em>what things are close to each other</em></p><p>It's like a generalization of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Analysis">Analysis</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=PXIcas22MtQ&amp;list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=6m8s" rel="noopener noreferrer" target="_blank">definition of a topology</a> on a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Set">Set</a> <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>X</mi></mrow><annotation encoding="application/x-tex">X</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.68333em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.07847em;">X</span></span></span></span></span> (see <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Topological%20space">Topological space</a>)</p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Point-set%20topology">Point-set topology</a></u></h2><p>analytic topology notes <a class="tc-tiddlylink-external" href="https://courses.maths.ox.ac.uk/node/view_material/39341" rel="noopener noreferrer" target="_blank">https://courses.maths.ox.ac.uk/node/view_material/39341</a></p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Algebraic%20topology">Algebraic topology</a></u></h2><p><a class="tc-tiddlylink-external" href="https://courses.maths.ox.ac.uk/node/view_material/33583" rel="noopener noreferrer" target="_blank">Topology and groups notes</a></p><hr><h2 class=""><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=WIp63sPMNpc&amp;index=5&amp;list=PL7BFF10190F42006E" rel="noopener noreferrer" target="_blank">Classification of surfaces</a></h2><hr><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=SXHHvoaSctc&amp;list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ" rel="noopener noreferrer" target="_blank">Topology &amp; Geometry - LECTURE 01 Part 01/02 - by Dr Tadashi Tokieda</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=k8Rxep2Mkp8&amp;feature=autoshare" rel="noopener noreferrer" target="_blank">A Hole in a Hole in a Hole - Numberphile</a></p><hr>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Topology: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Mathematics tc-tagged-Geometry &quot; data-tags=&quot;Mathematics Geometry&quot; data-tiddler-title=&quot;Topology&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Topology
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 9th October 2018 at 4:31pm
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Geometry
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Mathematics
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;&lt;em&gt;Things often have a shape&lt;/em&gt; (continued from &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Geometry.html&quot;&gt;Geometry&lt;/a&gt;). Topology looks at the &amp;quot;raw&amp;quot; shape, the shape that is invariant under continuous transformations. The standard notion of &amp;quot;shape&amp;quot; is really &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Geometry.html&quot;&gt;Geometry&lt;/a&gt; (which includes topology).&lt;/p&gt;&lt;p&gt;Topology looks at neighbourhoods, &lt;em&gt;what things are close to each other&lt;/em&gt;&lt;/p&gt;&lt;p&gt;It's like a generalization of &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Analysis.html&quot;&gt;Analysis&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=PXIcas22MtQ&amp;amp;list=PLLq_gUfXAnkl8bjQh-hGQ9u24xZP9x0dx#t=6m8s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;definition of a topology&lt;/a&gt; on a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Set.html&quot;&gt;Set&lt;/a&gt; &lt;span&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;X&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;X&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.68333em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:0.68333em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base textstyle uncramped&quot;&gt;&lt;span class=&quot;mord mathit&quot; style=&quot;margin-right:0.07847em;&quot;&gt;X&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; (see &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Topological%2520space.html&quot;&gt;Topological space&lt;/a&gt;)&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Point-set%2520topology.html&quot;&gt;Point-set topology&lt;/a&gt;&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;analytic topology notes &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://courses.maths.ox.ac.uk/node/view_material/39341&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://courses.maths.ox.ac.uk/node/view_material/39341&lt;/a&gt;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Algebraic%2520topology.html&quot;&gt;Algebraic topology&lt;/a&gt;&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://courses.maths.ox.ac.uk/node/view_material/33583&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Topology and groups notes&lt;/a&gt;&lt;/p&gt;&lt;hr&gt;&lt;h2 class=&quot;&quot;&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=WIp63sPMNpc&amp;amp;index=5&amp;amp;list=PL7BFF10190F42006E&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Classification of surfaces&lt;/a&gt;&lt;/h2&gt;&lt;hr&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=SXHHvoaSctc&amp;amp;list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Topology &amp;amp; Geometry - LECTURE 01 Part 01/02 - by Dr Tadashi Tokieda&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=k8Rxep2Mkp8&amp;amp;feature=autoshare&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;A Hole in a Hole in a Hole - Numberphile&lt;/a&gt;&lt;/p&gt;&lt;hr&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

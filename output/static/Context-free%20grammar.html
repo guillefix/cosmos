@@ -1,1 +1,91 @@
-<p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=7axUgepqCFc&amp;list=PL601FC994BDD963E4&amp;index=36&amp;spfreload=1#t=5.819361" rel="noopener noreferrer" target="_blank">intro video</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=nlWCOMvDIZ4&amp;list=PL601FC994BDD963E4&amp;index=36&amp;spfreload=1#t=59.738068" rel="noopener noreferrer" target="_blank">Ambiguity in parsing</a>! Finding out if a grammar is ambiguous or not, is <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Undecidable">Undecidable</a>! (see <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=nlWCOMvDIZ4&amp;list=PL601FC994BDD963E4&amp;index=36&amp;spfreload=1#t=3m55s" rel="noopener noreferrer" target="_blank">here</a>). Also <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Undecidable">Undecidable</a> to know if two grammars are the same.</p><p><a class="tc-tiddlylink tc-tiddlylink-missing" href="#Parse%20tree">Parse tree</a>s are used to give a string some <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Meaning">Meaning</a> in a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Compiler">Compiler</a> (like that of a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Programming%20language">Programming language</a>)</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=urwX97TULKw&amp;index=41&amp;list=PL601FC994BDD963E4#t=6m" rel="noopener noreferrer" target="_blank">Ideas for designing grammars</a></p><p>Single-tree grammars: <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=vhcWjh7sFNQ&amp;index=41&amp;list=PL601FC994BDD963E4#t=7m30s" rel="noopener noreferrer" target="_blank">Grammars that only have one choice with non-terminals on the RHS</a></p><h2 class=""><u>Deterministic push-down machines </u></h2><p>(less powerful than context free languages, and equivalent to <strong>LRK grammars</strong>). Most <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Compiler">Compiler</a>s are described with LRK grammars.</p><h2 class=""><u>Non-deterministic push-down machines </u></h2><p>(equivalent to <strong>Context free grammars</strong>)</p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Context-free grammar: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Chomsky%20hierarchy tc-tagged-Formal%20grammar &quot; data-tags=&quot;[[Chomsky hierarchy]] [[Formal grammar]]&quot; data-tiddler-title=&quot;Context-free grammar&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Context-free grammar
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 14th February 2017 at 9:35am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Chomsky hierarchy
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Formal grammar
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=7axUgepqCFc&amp;amp;list=PL601FC994BDD963E4&amp;amp;index=36&amp;amp;spfreload=1#t=5.819361&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;intro video&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=nlWCOMvDIZ4&amp;amp;list=PL601FC994BDD963E4&amp;amp;index=36&amp;amp;spfreload=1#t=59.738068&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Ambiguity in parsing&lt;/a&gt;! Finding out if a grammar is ambiguous or not, is &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Undecidable.html&quot;&gt;Undecidable&lt;/a&gt;! (see &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=nlWCOMvDIZ4&amp;amp;list=PL601FC994BDD963E4&amp;amp;index=36&amp;amp;spfreload=1#t=3m55s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;). Also &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Undecidable.html&quot;&gt;Undecidable&lt;/a&gt; to know if two grammars are the same.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Parse%2520tree.html&quot;&gt;Parse tree&lt;/a&gt;s are used to give a string some &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Meaning.html&quot;&gt;Meaning&lt;/a&gt; in a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Compiler.html&quot;&gt;Compiler&lt;/a&gt; (like that of a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Programming%2520language.html&quot;&gt;Programming language&lt;/a&gt;)&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=urwX97TULKw&amp;amp;index=41&amp;amp;list=PL601FC994BDD963E4#t=6m&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Ideas for designing grammars&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Single-tree grammars: &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=vhcWjh7sFNQ&amp;amp;index=41&amp;amp;list=PL601FC994BDD963E4#t=7m30s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Grammars that only have one choice with non-terminals on the RHS&lt;/a&gt;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;Deterministic push-down machines &lt;/u&gt;&lt;/h2&gt;&lt;p&gt;(less powerful than context free languages, and equivalent to &lt;strong&gt;LRK grammars&lt;/strong&gt;). Most &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Compiler.html&quot;&gt;Compiler&lt;/a&gt;s are described with LRK grammars.&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;Non-deterministic push-down machines &lt;/u&gt;&lt;/h2&gt;&lt;p&gt;(equivalent to &lt;strong&gt;Context free grammars&lt;/strong&gt;)&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

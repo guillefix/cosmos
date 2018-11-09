@@ -1,9 +1,87 @@
-<p><em>a.k.a. representation independent learning</em></p><p><strong>Improper learning</strong> refers to a learning algorithm which outputs hypotheses from a class different from the concept class</p><p>We define <em>concept class</em> as the set of possible <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Target%20function">Target function</a>s. We define <em>hypothesis class</em> as the set of possible outputs for the <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Learning%20algorithm">Learning algorithm</a>. </p><p><small>
-(In <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Probably%20approximately%20correct">PAC learning</a>, one typically assumes that the hypothesis and concept classes are the same (although not always; technically one just assumes <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Realizability%20assumption">realizability</a>, see <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Understanding%20machine%20learning">UML</a>, <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Wolpert">Wolpert</a>'s <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#No%20free%20lunch%20theorem">No free lunch theorem</a> article),
- in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Agnostic%20learning">Agnostic learning</a>, one is trying to do as well as any hypothesis in a given hypothesis class, while one doesn't assume anything about the concept class). I suppose one can make an extension of agnostic PAC where one can output things from a hypothesis class, and then compare with things in a different class and/or assume something about the concept class.
-</small></p><p>See <a class="tc-tiddlylink-external" href="http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture01.pdf#page=11" rel="noopener noreferrer" target="_blank">here</a></p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1311.2272" rel="noopener noreferrer" target="_blank">From average case complexity to improper learning complexity</a></p><p><a class="tc-tiddlylink-external" href="https://stats.stackexchange.com/questions/152181/what-does-improper-learning-mean-in-the-context-of-statistical-learning-theory-a" rel="noopener noreferrer" target="_blank">https://stats.stackexchange.com/questions/152181/what-does-improper-learning-mean-in-the-context-of-statistical-learning-theory-a</a></p><p>... One may wonder, whether this is always the case, i.e., can we always identify a larger
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Improper learning: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Learning%20theory &quot; data-tags=&quot;[[Learning theory]]&quot; data-tiddler-title=&quot;Improper learning&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Improper learning
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 4th October 2018 at 12:46pm
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Learning theory
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;&lt;em&gt;a.k.a. representation independent learning&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Improper learning&lt;/strong&gt; refers to a learning algorithm which outputs hypotheses from a class different from the concept class&lt;/p&gt;&lt;p&gt;We define &lt;em&gt;concept class&lt;/em&gt; as the set of possible &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Target%2520function.html&quot;&gt;Target function&lt;/a&gt;s. We define &lt;em&gt;hypothesis class&lt;/em&gt; as the set of possible outputs for the &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Learning%2520algorithm.html&quot;&gt;Learning algorithm&lt;/a&gt;. &lt;/p&gt;&lt;p&gt;&lt;small&gt;
+(In &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Probably%2520approximately%2520correct.html&quot;&gt;PAC learning&lt;/a&gt;, one typically assumes that the hypothesis and concept classes are the same (although not always; technically one just assumes &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Realizability%2520assumption.html&quot;&gt;realizability&lt;/a&gt;, see &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Understanding%2520machine%2520learning.html&quot;&gt;UML&lt;/a&gt;, &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Wolpert.html&quot;&gt;Wolpert&lt;/a&gt;'s &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;No%2520free%2520lunch%2520theorem.html&quot;&gt;No free lunch theorem&lt;/a&gt; article),
+ in &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Agnostic%2520learning.html&quot;&gt;Agnostic learning&lt;/a&gt;, one is trying to do as well as any hypothesis in a given hypothesis class, while one doesn't assume anything about the concept class). I suppose one can make an extension of agnostic PAC where one can output things from a hypothesis class, and then compare with things in a different class and/or assume something about the concept class.
+&lt;/small&gt;&lt;/p&gt;&lt;p&gt;See &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture01.pdf#page=11&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://arxiv.org/abs/1311.2272&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;From average case complexity to improper learning complexity&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://stats.stackexchange.com/questions/152181/what-does-improper-learning-mean-in-the-context-of-statistical-learning-theory-a&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://stats.stackexchange.com/questions/152181/what-does-improper-learning-mean-in-the-context-of-statistical-learning-theory-a&lt;/a&gt;&lt;/p&gt;&lt;p&gt;... One may wonder, whether this is always the case, i.e., can we always identify a larger
 hypothesis class from which we can identify a consistent learner?
-In <a class="tc-tiddlylink-external" href="http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture05.pdf" rel="noopener noreferrer" target="_blank">this lecture</a>, we’ll answer this question in the negative, provided a certain widely believed
+In &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture05.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;this lecture&lt;/a&gt;, we’ll answer this question in the negative, provided a certain widely believed
 assumption in cryptography holds. We will show that there are concept classes that cannot
 be efficiently PAC-learnt, even in the case improper learning where the output hypothesis is
-allowed to come from any polynomially evaluatable hypothesis class.</p>
+allowed to come from any polynomially evaluatable hypothesis class.&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

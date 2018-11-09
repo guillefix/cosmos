@@ -1,1 +1,103 @@
-<p><em>aka text-to-speech , TTS</em></p><p>The counterpart to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Speech%20recognition">Speech recognition</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=qyyJKd-zXRE&amp;list=PLA89DCFA6ADACE599&amp;index=6#t=41m23s" rel="noopener noreferrer" target="_blank">Early video that created about TTS</a> using <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Artificial%20neural%20network">Artificial neural network</a>s (NetTalk)</p><p><a class="tc-tiddlylink-external" href="https://deepmind.com/blog/wavenet-generative-model-raw-audio/" rel="noopener noreferrer" target="_blank">WaveNet: A Generative Model for Raw Audio</a></p><p>&quot;Interestingly, we found that training on many speakers made it better at modelling a single speaker than training on that speaker alone, suggesting a form of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Transfer%20learning">Transfer learning</a>.&quot; Reminds me of the idea of <em>contrasting cases</em></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=vEAq_sBf1CA" rel="noopener noreferrer" target="_blank">Deep Generative Models for Speech and Images</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=nsrSrYtKkT8" rel="noopener noreferrer" target="_blank">Generative Model-Based Text-to-Speech Synthesis</a>, novel idea (at the end): train to minimize listener error</p><p><a class="tc-tiddlylink-external" href="https://google.github.io/tacotron/publications/tacotron2/" rel="noopener noreferrer" target="_blank">https://google.github.io/tacotron/publications/tacotron2/</a></p><hr><p>Baidu's deep voice</p><p><a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/Speech_synthesis" rel="noopener noreferrer" target="_blank">https://www.wikiwand.com/en/Speech_synthesis</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Speech synthesis: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Speech tc-tagged-Human-computer%20interaction tc-tagged-Artificial%20intelligence &quot; data-tags=&quot;Speech [[Human-computer interaction]] [[Artificial intelligence]]&quot; data-tiddler-title=&quot;Speech synthesis&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Speech synthesis
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 20th December 2017 at 9:22pm
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Artificial intelligence
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Human-computer interaction
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Speech
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;&lt;em&gt;aka text-to-speech , TTS&lt;/em&gt;&lt;/p&gt;&lt;p&gt;The counterpart to &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Speech%2520recognition.html&quot;&gt;Speech recognition&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=qyyJKd-zXRE&amp;amp;list=PLA89DCFA6ADACE599&amp;amp;index=6#t=41m23s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Early video that created about TTS&lt;/a&gt; using &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Artificial%2520neural%2520network.html&quot;&gt;Artificial neural network&lt;/a&gt;s (NetTalk)&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://deepmind.com/blog/wavenet-generative-model-raw-audio/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;WaveNet: A Generative Model for Raw Audio&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&amp;quot;Interestingly, we found that training on many speakers made it better at modelling a single speaker than training on that speaker alone, suggesting a form of &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Transfer%2520learning.html&quot;&gt;Transfer learning&lt;/a&gt;.&amp;quot; Reminds me of the idea of &lt;em&gt;contrasting cases&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=vEAq_sBf1CA&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Deep Generative Models for Speech and Images&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=nsrSrYtKkT8&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Generative Model-Based Text-to-Speech Synthesis&lt;/a&gt;, novel idea (at the end): train to minimize listener error&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://google.github.io/tacotron/publications/tacotron2/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://google.github.io/tacotron/publications/tacotron2/&lt;/a&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;Baidu's deep voice&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.wikiwand.com/en/Speech_synthesis&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://www.wikiwand.com/en/Speech_synthesis&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

@@ -1,2 +1,92 @@
-<p><em>also called metric or measure-theoretical entropy</em></p><p><a class="tc-tiddlylink-external" href="http://www.scholarpedia.org/article/Kolmogorov-Sinai_entropy" rel="noopener noreferrer" target="_blank">Kolmogorov-Sinai entropy</a></p><p>See the related <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Topological%20entropy">Topological entropy</a></p><p>For a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Measure-theoretical%20dynamical%20system">Measure-theoretical dynamical system</a>, the metric entropy of the system with respect to a partition <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>α</mi></mrow><annotation encoding="application/x-tex">\alpha</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.0037em;">α</span></span></span></span></span> is defined to be the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Entropy%20rate">Entropy rate</a> of the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Stochastic%20processes">stochastic process</a> resulting from the partition.</p><p>The metric entropy (aka (Kolmogorov–Sinai or measure-theoretical) is then the supremum of {the metric entropy with respect to <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>α</mi></mrow><annotation encoding="application/x-tex">\alpha</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.0037em;">α</span></span></span></span></span>} over all finite partitions <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>α</mi></mrow><annotation encoding="application/x-tex">\alpha</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.0037em;">α</span></span></span></span></span>.</p><p>Metric entropy provides
-the maximum average information per unit of time obtainable per unit of time, from the dynamical system.</p><p>See Amigo's book for details. He also gives a good example with the tent map.</p><p>Note his notation <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∨</mo></mrow><annotation encoding="application/x-tex">\vee</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.55556em;"></span><span class="strut bottom" style="height:0.55556em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord">∨</span></span></span></span></span> refers to the <a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/Join_and_meet" rel="noopener noreferrer" target="_blank">join</a> of two sigma-algebras. See <a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/Join_(sigma_algebra)" rel="noopener noreferrer" target="_blank">here</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Kolmogorov-Sinai entropy: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Entropy tc-tagged-Dynamical%20system &quot; data-tags=&quot;Entropy [[Dynamical system]]&quot; data-tiddler-title=&quot;Kolmogorov-Sinai entropy&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Kolmogorov-Sinai entropy
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;guillefix.html&quot;&gt;
+guillefix
+&lt;/a&gt; 4th November 2016 at 9:43am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Dynamical system
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Entropy
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;&lt;em&gt;also called metric or measure-theoretical entropy&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.scholarpedia.org/article/Kolmogorov-Sinai_entropy&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Kolmogorov-Sinai entropy&lt;/a&gt;&lt;/p&gt;&lt;p&gt;See the related &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Topological%2520entropy.html&quot;&gt;Topological entropy&lt;/a&gt;&lt;/p&gt;&lt;p&gt;For a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Measure-theoretical%2520dynamical%2520system.html&quot;&gt;Measure-theoretical dynamical system&lt;/a&gt;, the metric entropy of the system with respect to a partition &lt;span&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.43056em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:0.43056em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base textstyle uncramped&quot;&gt;&lt;span class=&quot;mord mathit&quot; style=&quot;margin-right:0.0037em;&quot;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; is defined to be the &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Entropy%2520rate.html&quot;&gt;Entropy rate&lt;/a&gt; of the &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Stochastic%2520processes.html&quot;&gt;stochastic process&lt;/a&gt; resulting from the partition.&lt;/p&gt;&lt;p&gt;The metric entropy (aka (Kolmogorov–Sinai or measure-theoretical) is then the supremum of {the metric entropy with respect to &lt;span&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.43056em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:0.43056em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base textstyle uncramped&quot;&gt;&lt;span class=&quot;mord mathit&quot; style=&quot;margin-right:0.0037em;&quot;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;} over all finite partitions &lt;span&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;α&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\alpha&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.43056em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:0.43056em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base textstyle uncramped&quot;&gt;&lt;span class=&quot;mord mathit&quot; style=&quot;margin-right:0.0037em;&quot;&gt;α&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;Metric entropy provides
+the maximum average information per unit of time obtainable per unit of time, from the dynamical system.&lt;/p&gt;&lt;p&gt;See Amigo's book for details. He also gives a good example with the tent map.&lt;/p&gt;&lt;p&gt;Note his notation &lt;span&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo&gt;∨&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\vee&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.55556em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:0.55556em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base textstyle uncramped&quot;&gt;&lt;span class=&quot;mord&quot;&gt;∨&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; refers to the &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.wikiwand.com/en/Join_and_meet&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;join&lt;/a&gt; of two sigma-algebras. See &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.wikiwand.com/en/Join_(sigma_algebra)&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

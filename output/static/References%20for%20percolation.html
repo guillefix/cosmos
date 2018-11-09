@@ -1,1 +1,67 @@
-<p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Percolation">Percolation</a></p><p>Section on percolations on Mason and Gleeson's book on Dynamical processes on networks, and on Newman's networks book. In particular, see Newman's book chapters 12, 13, and 17, for detailed calculations of GCC sizes, and other ones. Note that the standard calculation determines whether a GCC exists for an infinite network (for instance, the locally tree-like assumption is valid for infinite networks, and other parts of his calculations assume infintie size). Finite size effects should be interesting to explore.</p><p><a class="tc-tiddlylink-external" href="http://www.sciencedirect.com/science/article/pii/S0370157315002008" rel="noopener noreferrer" target="_blank">Recent advances in percolation theory and its applications</a></p><p><a class="tc-tiddlylink-external" href="http://pages.physics.cornell.edu/~myers/teaching/ComputationalMethods/ComputerExercises/Percolation/Percolation.html" rel="noopener noreferrer" target="_blank"> Percolation Exercises</a></p><p><a class="tc-tiddlylink-external" href="http://www.mit.edu/~levitov/8.334/notes/percol_notes.pdf" rel="noopener noreferrer" target="_blank">Percolation Theory notes</a></p><p>See Complex systems LectureNotes.</p><p><a class="tc-tiddlylink-external" href="http://pages.physics.cornell.edu/~myers/teaching/ComputationalMethods/ComputerExercises/Percolation/PercolationLecture.pdf" rel="noopener noreferrer" target="_blank">Percolation slides</a></p><p><a class="tc-tiddlylink-external" href="http://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3217/12/percolation-scanned-notes.pdf" rel="noopener noreferrer" target="_blank">Scanned Notes on Percolation</a></p><p><a class="tc-tiddlylink-external" href="http://www.statslab.cam.ac.uk/~grg/papers/perc/perc.html" rel="noopener noreferrer" target="_blank">Percolation, Second Edition by Geoffrey Grimmett </a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>References for percolation: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists    &quot; data-tags=&quot;&quot; data-tiddler-title=&quot;References for percolation&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+References for percolation
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;guillefix.html&quot;&gt;
+guillefix
+&lt;/a&gt; 4th November 2016 at 9:43am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;See &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Percolation.html&quot;&gt;Percolation&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Section on percolations on Mason and Gleeson's book on Dynamical processes on networks, and on Newman's networks book. In particular, see Newman's book chapters 12, 13, and 17, for detailed calculations of GCC sizes, and other ones. Note that the standard calculation determines whether a GCC exists for an infinite network (for instance, the locally tree-like assumption is valid for infinite networks, and other parts of his calculations assume infintie size). Finite size effects should be interesting to explore.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.sciencedirect.com/science/article/pii/S0370157315002008&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Recent advances in percolation theory and its applications&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://pages.physics.cornell.edu/~myers/teaching/ComputationalMethods/ComputerExercises/Percolation/Percolation.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt; Percolation Exercises&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.mit.edu/~levitov/8.334/notes/percol_notes.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Percolation Theory notes&lt;/a&gt;&lt;/p&gt;&lt;p&gt;See Complex systems LectureNotes.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://pages.physics.cornell.edu/~myers/teaching/ComputationalMethods/ComputerExercises/Percolation/PercolationLecture.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Percolation slides&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3217/12/percolation-scanned-notes.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Scanned Notes on Percolation&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.statslab.cam.ac.uk/~grg/papers/perc/perc.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Percolation, Second Edition by Geoffrey Grimmett &lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

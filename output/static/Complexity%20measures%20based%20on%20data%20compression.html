@@ -1,1 +1,79 @@
-<p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Descriptional%20complexity">Descriptional complexity</a>, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Data%20compression">Data compression</a></p><p>Some measures of descriptional complexity are based on <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Data%20compression">Data compression</a> techniques, like the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Lempel-Ziv%20complexity">Lempel-Ziv complexity</a>.</p><p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Universal%20source%20coding">Universal source coding</a></p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1702.04779" rel="noopener noreferrer" target="_blank">Compression Complexity</a></p><p>Related to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Entropy-based%20complexity%20measures">Entropy-based complexity measures</a> by <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Brudno's%20theorem">Brudno's theorem</a></p><p><u>Relations to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Grammar-based%20compression">Grammar-based compression</a>s used in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Data%20compression">Data compression</a></u></p><p><a class="tc-tiddlylink-external" href="http://www.cs.ucr.edu/~stelo/papers/extra/rytter2.pdf" rel="noopener noreferrer" target="_blank">Application of Lempel–Ziv factorization to the approximation of grammar-based compression</a> Relations between LZ-factorizations and grammar-based factorizations (G-factorization). The G-factorization gives an upper bound for the LZ complexity.</p><p>See <a class="tc-tiddlylink-external" href="https://books.google.co.uk/books?id=OlqrCAAAQBAJ&amp;pg=PA23&amp;lpg=PA23&amp;dq=chomsky+normal+form+g+factorization&amp;source=bl&amp;ots=3vF4ZgeE8o&amp;sig=jJuYvlN0xjsJe2Hd5IWI0JQrVrE&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjLp-DNncvNAhXjIsAKHSRpBn0Q6AEILDAC#v=onepage&amp;q=chomsky%20normal%20form%20g%20factorization&amp;f=false" rel="noopener noreferrer" target="_blank">this book</a> too (same article), and this: <a class="tc-tiddlylink-external" href="http://dlx.booksc.org/21200000/libgen.scimag21244000-21244999.zip/browse/10.1007/978-3-540-27836-8_5.pdf" rel="noopener noreferrer" target="_blank">Grammar Compression, LZ-Encodings, and String Algorithms with Implicit Input</a>.</p><p><a class="tc-tiddlylink-external" href="http://bactra.org/notebooks/cep-gzip.html" rel="noopener noreferrer" target="_blank">Complexity, Entropy and the Physics of gzip</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Complexity measures based on data compression: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Complexity &quot; data-tags=&quot;Complexity&quot; data-tiddler-title=&quot;Complexity measures based on data compression&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Complexity measures based on data compression
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 22nd August 2018 at 10:20am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Complexity
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;See &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Descriptional%2520complexity.html&quot;&gt;Descriptional complexity&lt;/a&gt;, &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Data%2520compression.html&quot;&gt;Data compression&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Some measures of descriptional complexity are based on &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Data%2520compression.html&quot;&gt;Data compression&lt;/a&gt; techniques, like the &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Lempel-Ziv%2520complexity.html&quot;&gt;Lempel-Ziv complexity&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;See &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Universal%2520source%2520coding.html&quot;&gt;Universal source coding&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://arxiv.org/abs/1702.04779&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Compression Complexity&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Related to &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Entropy-based%2520complexity%2520measures.html&quot;&gt;Entropy-based complexity measures&lt;/a&gt; by &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Brudno's%2520theorem.html&quot;&gt;Brudno's theorem&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;u&gt;Relations to &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Grammar-based%2520compression.html&quot;&gt;Grammar-based compression&lt;/a&gt;s used in &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Data%2520compression.html&quot;&gt;Data compression&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.cs.ucr.edu/~stelo/papers/extra/rytter2.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Application of Lempel–Ziv factorization to the approximation of grammar-based compression&lt;/a&gt; Relations between LZ-factorizations and grammar-based factorizations (G-factorization). The G-factorization gives an upper bound for the LZ complexity.&lt;/p&gt;&lt;p&gt;See &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://books.google.co.uk/books?id=OlqrCAAAQBAJ&amp;amp;pg=PA23&amp;amp;lpg=PA23&amp;amp;dq=chomsky+normal+form+g+factorization&amp;amp;source=bl&amp;amp;ots=3vF4ZgeE8o&amp;amp;sig=jJuYvlN0xjsJe2Hd5IWI0JQrVrE&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ved=0ahUKEwjLp-DNncvNAhXjIsAKHSRpBn0Q6AEILDAC#v=onepage&amp;amp;q=chomsky%20normal%20form%20g%20factorization&amp;amp;f=false&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;this book&lt;/a&gt; too (same article), and this: &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://dlx.booksc.org/21200000/libgen.scimag21244000-21244999.zip/browse/10.1007/978-3-540-27836-8_5.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Grammar Compression, LZ-Encodings, and String Algorithms with Implicit Input&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://bactra.org/notebooks/cep-gzip.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Complexity, Entropy and the Physics of gzip&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

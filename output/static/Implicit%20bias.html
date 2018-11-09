@@ -1,1 +1,91 @@
-<p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Deep%20learning%20theory">Deep learning theory</a>, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Generalization%20in%20deep%20learning">Generalization in deep learning</a></p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/pdf/1710.10345.pdf" rel="noopener noreferrer" target="_blank">THE IMPLICIT BIAS OF GRADIENT DESCENT ON SEPARABLE DATA</a> –  in deep learning we often benefit from implicit bias even when optimizing the (unregularized) training error to convergence, using stochastic or batch methods. For loss functions with attainable, finite, minimizers, such as the squared loss, we have some understanding of this: In particular, when minimizing an underdetermined least squares problem using gradient descent starting from the origin, we know we will <strong>converge to the minimum Euclidean norm solution</strong>. But the logistic loss, and its generalization the cross-entropy loss which is often used in deep learning, do not admit a finite minimizer on separable problems. Instead, to drive the loss toward zero and thus minimize it, the predictor must diverge toward infinity.</p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/pdf/1709.01953.pdf" rel="noopener noreferrer" target="_blank">Implicit regularization in deep learning</a></p><hr><p>But we didn't tell the network to minimize the path norm (complexity). <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=ACdjYP0-cMw#t=39m5s" rel="noopener noreferrer" target="_blank">So where is the regularization coming from?</a>. He thinks it's the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Optimization">Optimization</a> algorithm that is biasing us towards simple global optima (work on this for convex opti?), but couldn't it be a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Genotype-phenotype%20map">GP map</a>-like <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Simplicity%20bias">Simplicity bias</a>. He approaches it from <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Geometry">Geometry</a>. I think he is right in that the algorithm plays a role in biasing. But GP bias probably does also, or it could at least be seized (as in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Neuroevolution">Neuroevolution</a> with indirect encodings..)</p><hr>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Implicit bias: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Deep%20learning%20theory tc-tagged-Regularization &quot; data-tags=&quot;[[Deep learning theory]] Regularization&quot; data-tiddler-title=&quot;Implicit bias&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Implicit bias
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 4th December 2017 at 6:44pm
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Deep learning theory
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Regularization
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;See &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Deep%2520learning%2520theory.html&quot;&gt;Deep learning theory&lt;/a&gt;, &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Generalization%2520in%2520deep%2520learning.html&quot;&gt;Generalization in deep learning&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://arxiv.org/pdf/1710.10345.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;THE IMPLICIT BIAS OF GRADIENT DESCENT ON SEPARABLE DATA&lt;/a&gt; –  in deep learning we often benefit from implicit bias even when optimizing the (unregularized) training error to convergence, using stochastic or batch methods. For loss functions with attainable, finite, minimizers, such as the squared loss, we have some understanding of this: In particular, when minimizing an underdetermined least squares problem using gradient descent starting from the origin, we know we will &lt;strong&gt;converge to the minimum Euclidean norm solution&lt;/strong&gt;. But the logistic loss, and its generalization the cross-entropy loss which is often used in deep learning, do not admit a finite minimizer on separable problems. Instead, to drive the loss toward zero and thus minimize it, the predictor must diverge toward infinity.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://arxiv.org/pdf/1709.01953.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Implicit regularization in deep learning&lt;/a&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;But we didn't tell the network to minimize the path norm (complexity). &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=ACdjYP0-cMw#t=39m5s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;So where is the regularization coming from?&lt;/a&gt;. He thinks it's the &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Optimization.html&quot;&gt;Optimization&lt;/a&gt; algorithm that is biasing us towards simple global optima (work on this for convex opti?), but couldn't it be a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Genotype-phenotype%2520map.html&quot;&gt;GP map&lt;/a&gt;-like &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Simplicity%2520bias.html&quot;&gt;Simplicity bias&lt;/a&gt;. He approaches it from &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Geometry.html&quot;&gt;Geometry&lt;/a&gt;. I think he is right in that the algorithm plays a role in biasing. But GP bias probably does also, or it could at least be seized (as in &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Neuroevolution.html&quot;&gt;Neuroevolution&lt;/a&gt; with indirect encodings..)&lt;/p&gt;&lt;hr&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

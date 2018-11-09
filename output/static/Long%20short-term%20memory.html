@@ -1,8 +1,74 @@
-<p>A kind of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Recurrent%20neural%20network">Recurrent neural network</a>, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Neural%20networks%20with%20memory">Neural networks with memory</a></p><h3 class=""><a class="tc-tiddlylink-external" href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/" rel="noopener noreferrer" target="_blank">Understanding LSTMs</a></h3><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=56TYLaQN4N8#t=25m30s" rel="noopener noreferrer" target="_blank">Video</a>
-<a class="tc-tiddlylink-external" href="http://blog.aidangomez.ca/2016/04/17/Backpropogating-an-LSTM-A-Numerical-Example/" rel="noopener noreferrer" target="_blank">Backpropogating an LSTM: A Numerical Example</a></p><p>Introduced in <a class="tc-tiddlylink-external" href="http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97_lstm.pdf" rel="noopener noreferrer" target="_blank">Hochreiter &amp; Schmidhuber (1997)</a></p><p><img src="http://blog.aidangomez.ca/assets/lstm.png"></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=hWgGJeAvLws#t=10m20s" rel="noopener noreferrer" target="_blank">video</a></p><p><a class="tc-tiddlylink-external" href="https://pythonprogramming.net/recurrent-neural-network-rnn-lstm-machine-learning-tutoria" rel="noopener noreferrer" target="_blank">explanation</a> <a class="tc-tiddlylink-external" href="https://pythonprogramming.net/rnn-tensorflow-python-machine-learning-tutorial/" rel="noopener noreferrer" target="_blank">implementing in tensorflow</a></p><p><a class="tc-tiddlylink-external" href="http://stackoverflow.com/questions/37901047/what-is-num-units-in-tensorflow-basiclstmcell" rel="noopener noreferrer" target="_blank">Number of hidden units</a></p><p>A crucial innovation to recurrent networks was the Long Short-Term Memory (LSTM)
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Long short-term memory: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists    &quot; data-tags=&quot;&quot; data-tiddler-title=&quot;Long short-term memory&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Long short-term memory
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 4th November 2016 at 11:50am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;A kind of &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Recurrent%2520neural%2520network.html&quot;&gt;Recurrent neural network&lt;/a&gt;, &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Neural%2520networks%2520with%2520memory.html&quot;&gt;Neural networks with memory&lt;/a&gt;&lt;/p&gt;&lt;h3 class=&quot;&quot;&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://colah.github.io/posts/2015-08-Understanding-LSTMs/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Understanding LSTMs&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=56TYLaQN4N8#t=25m30s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Video&lt;/a&gt;
+&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://blog.aidangomez.ca/2016/04/17/Backpropogating-an-LSTM-A-Numerical-Example/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Backpropogating an LSTM: A Numerical Example&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Introduced in &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97_lstm.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Hochreiter &amp;amp; Schmidhuber (1997)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://blog.aidangomez.ca/assets/lstm.png&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=hWgGJeAvLws#t=10m20s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;video&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://pythonprogramming.net/recurrent-neural-network-rnn-lstm-machine-learning-tutoria&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;explanation&lt;/a&gt; &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://pythonprogramming.net/rnn-tensorflow-python-machine-learning-tutorial/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;implementing in tensorflow&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://stackoverflow.com/questions/37901047/what-is-num-units-in-tensorflow-basiclstmcell&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Number of hidden units&lt;/a&gt;&lt;/p&gt;&lt;p&gt;A crucial innovation to recurrent networks was the Long Short-Term Memory (LSTM)
 (Hochreiter and Schmidhuber, 1997).  This very general architecture was developed for a
 specific purpose, to address the “vanishing and exploding gradient” problem (Hochreiter
 et al., 2001a), which we might relabel the problem of “vanishing and exploding sensitivity.”
 LSTM ameliorates the problem by embedding perfect integrators (Seung, 1998) for mem-
 ory storage in the network.  The simplest example of a perfect integrator is the equation x(t+ 1) =x(t) +i(t), where i(t) is an input to the system.  The implicit identity matrix Ix(t) means that signals do not dynamically vanish or explode. If we attach a mechanism to this integrator that allows an enclosing network to choose when the integrator listens to inputs, namely, a programmable gate depending on context, we have an equation of the
-form x(t+ 1) =x(t) +g(context)i(t). We can now selectively store information for an 	indefinite length of time.</p><p>From <a class="tc-tiddlylink-external" href="https://arxiv.org/pdf/1410.5401v2.pdf" rel="noopener noreferrer" target="_blank">here</a></p>
+form x(t+ 1) =x(t) +g(context)i(t). We can now selectively store information for an 	indefinite length of time.&lt;/p&gt;&lt;p&gt;From &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://arxiv.org/pdf/1410.5401v2.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

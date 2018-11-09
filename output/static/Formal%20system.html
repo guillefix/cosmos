@@ -1,1 +1,79 @@
-<p>A <strong>Formal system</strong> is a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Set">Set</a> of rules you can apply to a set of objects.</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Formal%20language">Formal language</a></p><p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Formal_grammar" rel="noopener noreferrer" target="_blank">https://en.wikipedia.org/wiki/Formal_grammar</a></p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Formal%20systems%20and%20semantics">Formal systems and semantics</a></p><p>MU-puzzle</p><h2 class=""><u>Rewrite systems</u></h2><p>The most common type of formal system. (Are there other types actually?)</p><p><u>(Abstract) Rewrite systems</u></p><p>A set of objects, and a binary operation, <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.36687em;"></span><span class="strut bottom" style="height:0.36687em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mrel">→</span></span></span></span></span>, that tells us how we are allowed to transforms expressions. If these rules act on <em>terms</em> out of which an expression can be built, then this is a term rewrite system.</p><p>They are non-deterministic Markov algorithms, and they are Turing complete. They are related to normal forms, lambda calculus, and combinatory logic</p><p><a class="tc-tiddlylink-external" href="http://www.cs.tau.ac.il/~nachum/papers/survey-draft.pdf" rel="noopener noreferrer" target="_blank">http://www.cs.tau.ac.il/~nachum/papers/survey-draft.pdf</a></p><p>Initial strings in a formal theorem are called <em>axioms</em>, while any string producible by its rules are konwn as <em>theorem</em>s.</p><p>The rules themselves are knwon as production rules or rules of inference.</p><p>A series of production rules that leads to a theorem is known as a derivation of that theorem.</p><h3 class=""><u>Decision procedure and <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Decidable">Decidability</a></u></h3><p>A <strong>decision procedure</strong> is a <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Computable">Computable</a> procedure (i.e. one that is guaranteed to finish in a finite amount of time) that determines whether a theorem will be reached by the production rules of the formal system, or not.</p><p>A theorem is <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Decidable">Decidable</a> if it has a decision procedure for it.</p><p>The axioms must always be decidable. Their decision procedure is often in the form of an <em>axiom schema</em>, with substitutable variables which are clearly defined.</p><p>Formal systems with only <em>lengthening</em> rules always have a decision procedure for all strings. See page 48 of GEB.</p><p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Computability%20theory">Computability theory</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Formal system: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Mathematical%20logic &quot; data-tags=&quot;[[Mathematical logic]]&quot; data-tiddler-title=&quot;Formal system&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Formal system
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 6th November 2016 at 12:10pm
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Mathematical logic
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;A &lt;strong&gt;Formal system&lt;/strong&gt; is a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Set.html&quot;&gt;Set&lt;/a&gt; of rules you can apply to a set of objects.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Formal%2520language.html&quot;&gt;Formal language&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://en.wikipedia.org/wiki/Formal_grammar&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://en.wikipedia.org/wiki/Formal_grammar&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Formal%2520systems%2520and%2520semantics.html&quot;&gt;Formal systems and semantics&lt;/a&gt;&lt;/p&gt;&lt;p&gt;MU-puzzle&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;Rewrite systems&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;The most common type of formal system. (Are there other types actually?)&lt;/p&gt;&lt;p&gt;&lt;u&gt;(Abstract) Rewrite systems&lt;/u&gt;&lt;/p&gt;&lt;p&gt;A set of objects, and a binary operation, &lt;span&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\rightarrow&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.36687em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:0.36687em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base textstyle uncramped&quot;&gt;&lt;span class=&quot;mrel&quot;&gt;→&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, that tells us how we are allowed to transforms expressions. If these rules act on &lt;em&gt;terms&lt;/em&gt; out of which an expression can be built, then this is a term rewrite system.&lt;/p&gt;&lt;p&gt;They are non-deterministic Markov algorithms, and they are Turing complete. They are related to normal forms, lambda calculus, and combinatory logic&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.cs.tau.ac.il/~nachum/papers/survey-draft.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://www.cs.tau.ac.il/~nachum/papers/survey-draft.pdf&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Initial strings in a formal theorem are called &lt;em&gt;axioms&lt;/em&gt;, while any string producible by its rules are konwn as &lt;em&gt;theorem&lt;/em&gt;s.&lt;/p&gt;&lt;p&gt;The rules themselves are knwon as production rules or rules of inference.&lt;/p&gt;&lt;p&gt;A series of production rules that leads to a theorem is known as a derivation of that theorem.&lt;/p&gt;&lt;h3 class=&quot;&quot;&gt;&lt;u&gt;Decision procedure and &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Decidable.html&quot;&gt;Decidability&lt;/a&gt;&lt;/u&gt;&lt;/h3&gt;&lt;p&gt;A &lt;strong&gt;decision procedure&lt;/strong&gt; is a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Computable.html&quot;&gt;Computable&lt;/a&gt; procedure (i.e. one that is guaranteed to finish in a finite amount of time) that determines whether a theorem will be reached by the production rules of the formal system, or not.&lt;/p&gt;&lt;p&gt;A theorem is &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Decidable.html&quot;&gt;Decidable&lt;/a&gt; if it has a decision procedure for it.&lt;/p&gt;&lt;p&gt;The axioms must always be decidable. Their decision procedure is often in the form of an &lt;em&gt;axiom schema&lt;/em&gt;, with substitutable variables which are clearly defined.&lt;/p&gt;&lt;p&gt;Formal systems with only &lt;em&gt;lengthening&lt;/em&gt; rules always have a decision procedure for all strings. See page 48 of GEB.&lt;/p&gt;&lt;p&gt;See &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Computability%2520theory.html&quot;&gt;Computability theory&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

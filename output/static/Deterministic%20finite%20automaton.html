@@ -1,2 +1,68 @@
-<p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Deterministic_finite_automaton" rel="noopener noreferrer" target="_blank">Deterministic finite automaton</a> (DFA) is a deterministic <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Finite-state%20machine">Finite-state machine</a>. See <strong><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=jb_H7SGOyyI&amp;index=2&amp;list=PL601FC994BDD963E4#t=4m24.7s" rel="noopener noreferrer" target="_blank">Deterministic machine</a></strong></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=ceNNyyELhu4&amp;list=PL601FC994BDD963E4&amp;index=6" rel="noopener noreferrer" target="_blank">Reversing deterministic machines</a> </p><p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Deterministic_finite_automaton#Complete_and_incomplete_deterministic_finite_automata" rel="noopener noreferrer" target="_blank">Complete and incomplete deterministic finite automata</a></p><p>See also <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Random%20deterministic%20automata">Random deterministic automata</a></p><h2 class=""><u>Minimizing DFA</u></h2><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=CLuuWJPBZXA&amp;index=29&amp;list=PL601FC994BDD963E4" rel="noopener noreferrer" target="_blank">vid</a> - 
-<a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=1GZOzTJOBuM&amp;t=0s" rel="noopener noreferrer" target="_blank">vid2</a> - <a class="tc-tiddlylink-external" href="http://pages.cs.wisc.edu/~shuchi/courses/520-S08/handouts/Lec7.pdf" rel="noopener noreferrer" target="_blank">doc</a> - <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=UiXkJUTkp44" rel="noopener noreferrer" target="_blank">vid4</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Deterministic finite automaton: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists    &quot; data-tags=&quot;&quot; data-tiddler-title=&quot;Deterministic finite automaton&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Deterministic finite automaton
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 13th June 2017 at 9:11pm
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://en.wikipedia.org/wiki/Deterministic_finite_automaton&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Deterministic finite automaton&lt;/a&gt; (DFA) is a deterministic &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Finite-state%2520machine.html&quot;&gt;Finite-state machine&lt;/a&gt;. See &lt;strong&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=jb_H7SGOyyI&amp;amp;index=2&amp;amp;list=PL601FC994BDD963E4#t=4m24.7s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Deterministic machine&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=ceNNyyELhu4&amp;amp;list=PL601FC994BDD963E4&amp;amp;index=6&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Reversing deterministic machines&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://en.wikipedia.org/wiki/Deterministic_finite_automaton#Complete_and_incomplete_deterministic_finite_automata&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Complete and incomplete deterministic finite automata&lt;/a&gt;&lt;/p&gt;&lt;p&gt;See also &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Random%2520deterministic%2520automata.html&quot;&gt;Random deterministic automata&lt;/a&gt;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;Minimizing DFA&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=CLuuWJPBZXA&amp;amp;index=29&amp;amp;list=PL601FC994BDD963E4&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;vid&lt;/a&gt; - 
+&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=1GZOzTJOBuM&amp;amp;t=0s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;vid2&lt;/a&gt; - &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://pages.cs.wisc.edu/~shuchi/courses/520-S08/handouts/Lec7.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;doc&lt;/a&gt; - &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=UiXkJUTkp44&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;vid4&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

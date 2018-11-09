@@ -1,1 +1,67 @@
-<p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Topography">Topography</a> studies features of the surface of the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Planet%20Earth">Earth</a>, as well as other planets. These can be described as <em>landscapes</em> <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Percolation">Percolation</a> models and <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Percolation%20theory">Percolation theory</a> have been applied to understand these.</p><p>A landscape is a height profile usually defined on a square lattice where each cell’s elevation value at position x represents the average elevation over the entire footprint of the cell (site). Now imagine that the water is dripping uniformly over the landscape and fills it from the valleys to the mountains, letting the water flow out through the open boundaries. During the raining, watershed lines may also form which divide the landscape into different drainage basins. These are important in geomorphology in e.g., water management [113] and landslide and flood prevention [114]</p><p>it is possible to determine the watershed lines based on the iterative application of invasion percolation [115].</p><p>Another kind of percolation that can occur: Raising the water level makes lakes join together, and eventually a lake that spans the whole landscape may form. However, whether the percolation transition is critical or not depends on the properties of the surface landscape (in particular on correlation functions).</p><p>These ideas have been applied to study the topography of the Earth, where they found that the present sea level is a critical level in their model. This finding elucidates the origins of the appearance of ubiquitous scaling relations observed in the various terrestrial features on Earth.</p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Application of percolation models in topography: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists    &quot; data-tags=&quot;&quot; data-tiddler-title=&quot;Application of percolation models in topography&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Application of percolation models in topography
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;guillefix.html&quot;&gt;
+guillefix
+&lt;/a&gt; 4th November 2016 at 9:43am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Topography.html&quot;&gt;Topography&lt;/a&gt; studies features of the surface of the &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Planet%2520Earth.html&quot;&gt;Earth&lt;/a&gt;, as well as other planets. These can be described as &lt;em&gt;landscapes&lt;/em&gt; &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Percolation.html&quot;&gt;Percolation&lt;/a&gt; models and &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Percolation%2520theory.html&quot;&gt;Percolation theory&lt;/a&gt; have been applied to understand these.&lt;/p&gt;&lt;p&gt;A landscape is a height profile usually defined on a square lattice where each cell’s elevation value at position x represents the average elevation over the entire footprint of the cell (site). Now imagine that the water is dripping uniformly over the landscape and fills it from the valleys to the mountains, letting the water flow out through the open boundaries. During the raining, watershed lines may also form which divide the landscape into different drainage basins. These are important in geomorphology in e.g., water management [113] and landslide and flood prevention [114]&lt;/p&gt;&lt;p&gt;it is possible to determine the watershed lines based on the iterative application of invasion percolation [115].&lt;/p&gt;&lt;p&gt;Another kind of percolation that can occur: Raising the water level makes lakes join together, and eventually a lake that spans the whole landscape may form. However, whether the percolation transition is critical or not depends on the properties of the surface landscape (in particular on correlation functions).&lt;/p&gt;&lt;p&gt;These ideas have been applied to study the topography of the Earth, where they found that the present sea level is a critical level in their model. This finding elucidates the origins of the appearance of ubiquitous scaling relations observed in the various terrestrial features on Earth.&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

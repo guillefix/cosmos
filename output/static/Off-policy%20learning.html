@@ -1,1 +1,79 @@
-<p>When we sample with a policy which can be different to the one which are trying to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Optimal%20control">optimize</a> / <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Policy%20evaluation">evaluate</a>, called the <strong>target policy</strong>. If the target policy is the same as the sampling policy, it becomes <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#On-policy%20learning">On-policy learning</a>, so off-policy methods are more general.</p><p>Useful for the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Exploration-exploitation%20trade-off">Exploration-exploitation trade-off</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=0g4j2k_Ggc4&amp;list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&amp;index=5#t=1h19m55s" rel="noopener noreferrer" target="_blank">intro video</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=0g4j2k_Ggc4&amp;list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&amp;index=5#t=1h25m33s" rel="noopener noreferrer" target="_blank">Can use</a> <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Importance%20sampling">Importance sampling</a>, with weights which are the ratio of probability of trajectories for sampling and target policy</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=0g4j2k_Ggc4&amp;list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&amp;index=5#t=1h28m45s" rel="noopener noreferrer" target="_blank">The idea that works best</a> is <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Q-learning">Q-learning</a>. <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=0g4j2k_Ggc4&amp;list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&amp;index=5#t=1h31m45s" rel="noopener noreferrer" target="_blank">Most well-known Q-learning type</a>, where we allow both behaviour and target policies to improve</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Per-reward%20importance%20sampling">Per-reward importance sampling</a> (sec 5.9 in Sutton-Barto), Off-policy Returns. </p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Expected%20Sarsa">Expected Sarsa</a></p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Maximization%20bias">Maximization bias</a> and <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Double%20learning">Double learning</a></p><p><a class="tc-tiddlylink tc-tiddlylink-missing" href="#Afterstate">Afterstate</a>s</p><h3 class=""><u><a class="tc-tiddlylink tc-tiddlylink-missing" href="#Tree%20Backup%20Algorithm">Tree Backup Algorithm</a></u></h3><h3 class=""><u><a class="tc-tiddlylink tc-tiddlylink-missing" href="#Q(sigma)%20algorithm">Q(sigma) algorithm</a></u></h3><h1 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Value%20function%20approximation">Value function approximation</a></u></h1>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Off-policy learning: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Model-free%20reinforcement%20learning &quot; data-tags=&quot;[[Model-free reinforcement learning]]&quot; data-tiddler-title=&quot;Off-policy learning&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Off-policy learning
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 15th July 2017 at 2:36pm
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Model-free reinforcement learning
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;When we sample with a policy which can be different to the one which are trying to &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Optimal%2520control.html&quot;&gt;optimize&lt;/a&gt; / &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Policy%2520evaluation.html&quot;&gt;evaluate&lt;/a&gt;, called the &lt;strong&gt;target policy&lt;/strong&gt;. If the target policy is the same as the sampling policy, it becomes &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;On-policy%2520learning.html&quot;&gt;On-policy learning&lt;/a&gt;, so off-policy methods are more general.&lt;/p&gt;&lt;p&gt;Useful for the &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Exploration-exploitation%2520trade-off.html&quot;&gt;Exploration-exploitation trade-off&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=0g4j2k_Ggc4&amp;amp;list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&amp;amp;index=5#t=1h19m55s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;intro video&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=0g4j2k_Ggc4&amp;amp;list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&amp;amp;index=5#t=1h25m33s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Can use&lt;/a&gt; &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Importance%2520sampling.html&quot;&gt;Importance sampling&lt;/a&gt;, with weights which are the ratio of probability of trajectories for sampling and target policy&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=0g4j2k_Ggc4&amp;amp;list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&amp;amp;index=5#t=1h28m45s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;The idea that works best&lt;/a&gt; is &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Q-learning.html&quot;&gt;Q-learning&lt;/a&gt;. &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=0g4j2k_Ggc4&amp;amp;list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&amp;amp;index=5#t=1h31m45s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Most well-known Q-learning type&lt;/a&gt;, where we allow both behaviour and target policies to improve&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Per-reward%2520importance%2520sampling.html&quot;&gt;Per-reward importance sampling&lt;/a&gt; (sec 5.9 in Sutton-Barto), Off-policy Returns. &lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Expected%2520Sarsa.html&quot;&gt;Expected Sarsa&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Maximization%2520bias.html&quot;&gt;Maximization bias&lt;/a&gt; and &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Double%2520learning.html&quot;&gt;Double learning&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Afterstate.html&quot;&gt;Afterstate&lt;/a&gt;s&lt;/p&gt;&lt;h3 class=&quot;&quot;&gt;&lt;u&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Tree%2520Backup%2520Algorithm.html&quot;&gt;Tree Backup Algorithm&lt;/a&gt;&lt;/u&gt;&lt;/h3&gt;&lt;h3 class=&quot;&quot;&gt;&lt;u&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Q(sigma)%2520algorithm.html&quot;&gt;Q(sigma) algorithm&lt;/a&gt;&lt;/u&gt;&lt;/h3&gt;&lt;h1 class=&quot;&quot;&gt;&lt;u&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Value%2520function%2520approximation.html&quot;&gt;Value function approximation&lt;/a&gt;&lt;/u&gt;&lt;/h1&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

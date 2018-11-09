@@ -1,3 +1,93 @@
-<p>Measures of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Complexity">Complexity</a> of a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Graph">Graph</a> or <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Network">Network</a></p><p><a class="tc-tiddlylink-external" href="http://link.springer.com/chapter/10.1007%2F0-387-25871-X_5" rel="noopener noreferrer" target="_blank">Quantitative Measures of Network Complexity</a></p><p><a class="tc-tiddlylink-external" href="http://www.sciencedirect.com/science/article/pii/S0378437108000319" rel="noopener noreferrer" target="_blank">What is a complex graph?</a></p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Kolmogorov%20complexity">Algorithmic complexity</a> of a graph</u></h2><p><a class="tc-tiddlylink-external" href="file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/complexity-of-graphs.pdf" rel="noopener noreferrer" target="_blank">Correlation of automorphism group size and topological properties with program-size complexity evaluations of graphs and complex networks</a> 
-They show that: <span style="color:pink;"><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Kolmogorov%20complexity">Kolmogorov complexity</a> can capture group-theoretic and topological properties</span> of abstract and empirical networks, ranging from metabolic to social networks, to small synthetic networks. </p><p>We derive these results via <span style="color:aqua;">two different Kolmogorov complexity approximation methods</span> applied to the adjacency matrices of the graphs and networks. The methods used are the traditional lossless <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Data%20compression">compression</a> approach to Kolmogorov complexity, and a normalised version of a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Block%20decomposition%20method">Block decomposition method</a> (<a class="tc-tiddlylink-external" href="http://arxiv.org/pdf/1212.6745v4.pdf" rel="noopener noreferrer" target="_blank">BDM</a>) based on algorithmic probability theory. </p><h3 class=""><u>Complexity and edge density</u></h3><p>Complexity is minimal for
-empty or complete graphs</p><p><img src="http://i.imgur.com/v2sXtc3.png"></p><p><a class="tc-tiddlylink-external" href="http://epubs.siam.org/doi/abs/10.1137/S0097539797327805" rel="noopener noreferrer" target="_blank">Kolmogorov Random Graphs and the Incompressibility Method</a></p><h3 class=""><u>Complexity vs symmetry of the graph</u></h3><p>The symmetry is measured by the cardinality of the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Graph%20automorphism">Graph automorphism</a> group. The following plot from empirical complex networks shows that they are indeed negatively correlated. The graph automorphism is normalized, and NBDM refers to the normalized <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Block%20decomposition%20method">BDM</a>.</p><p><img src="http://i.imgur.com/H1mbIzL.png"></p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Information">Information</a> content in a graph</u></h2><p><a class="tc-tiddlylink-external" href="http://www.mdpi.com/1099-4300/14/3/559" rel="noopener noreferrer" target="_blank">Entropy and the Complexity of Graphs Revisited</a></p><p><a class="tc-tiddlylink-external" href="http://www.mitpressjournals.org/doi/abs/10.1162/artl_a_00045#.V4aO-O02fCI" rel="noopener noreferrer" target="_blank">Information Content of Colored Motifs in Complex Networks</a></p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Symmetry">Symmetry</a> of grahs</u></h2><p><a class="tc-tiddlylink-external" href="http://journals.aps.org/pre/abstract/10.1103/PhysRevE.77.066108" rel="noopener noreferrer" target="_blank">Emergence of symmetry in complex networks</a></p><p><a class="tc-tiddlylink-external" href="http://journals.aps.org/pre/abstract/10.1103/PhysRevE.78.046102" rel="noopener noreferrer" target="_blank">Network quotients: Structural skeletons of complex systems</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Network complexity: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Complexity tc-tagged-Network%20science &quot; data-tags=&quot;Complexity [[Network science]]&quot; data-tiddler-title=&quot;Network complexity&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Network complexity
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;guillefix.html&quot;&gt;
+guillefix
+&lt;/a&gt; 4th November 2016 at 9:43am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Complexity
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Network science
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;Measures of &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Complexity.html&quot;&gt;Complexity&lt;/a&gt; of a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Graph.html&quot;&gt;Graph&lt;/a&gt; or &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Network.html&quot;&gt;Network&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://link.springer.com/chapter/10.1007%2F0-387-25871-X_5&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Quantitative Measures of Network Complexity&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.sciencedirect.com/science/article/pii/S0378437108000319&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;What is a complex graph?&lt;/a&gt;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Kolmogorov%2520complexity.html&quot;&gt;Algorithmic complexity&lt;/a&gt; of a graph&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/complexity-of-graphs.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Correlation of automorphism group size and topological properties with program-size complexity evaluations of graphs and complex networks&lt;/a&gt; 
+They show that: &lt;span style=&quot;color:pink;&quot;&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Kolmogorov%2520complexity.html&quot;&gt;Kolmogorov complexity&lt;/a&gt; can capture group-theoretic and topological properties&lt;/span&gt; of abstract and empirical networks, ranging from metabolic to social networks, to small synthetic networks. &lt;/p&gt;&lt;p&gt;We derive these results via &lt;span style=&quot;color:aqua;&quot;&gt;two different Kolmogorov complexity approximation methods&lt;/span&gt; applied to the adjacency matrices of the graphs and networks. The methods used are the traditional lossless &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Data%2520compression.html&quot;&gt;compression&lt;/a&gt; approach to Kolmogorov complexity, and a normalised version of a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Block%2520decomposition%2520method.html&quot;&gt;Block decomposition method&lt;/a&gt; (&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://arxiv.org/pdf/1212.6745v4.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;BDM&lt;/a&gt;) based on algorithmic probability theory. &lt;/p&gt;&lt;h3 class=&quot;&quot;&gt;&lt;u&gt;Complexity and edge density&lt;/u&gt;&lt;/h3&gt;&lt;p&gt;Complexity is minimal for
+empty or complete graphs&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/v2sXtc3.png&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://epubs.siam.org/doi/abs/10.1137/S0097539797327805&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Kolmogorov Random Graphs and the Incompressibility Method&lt;/a&gt;&lt;/p&gt;&lt;h3 class=&quot;&quot;&gt;&lt;u&gt;Complexity vs symmetry of the graph&lt;/u&gt;&lt;/h3&gt;&lt;p&gt;The symmetry is measured by the cardinality of the &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Graph%2520automorphism.html&quot;&gt;Graph automorphism&lt;/a&gt; group. The following plot from empirical complex networks shows that they are indeed negatively correlated. The graph automorphism is normalized, and NBDM refers to the normalized &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Block%2520decomposition%2520method.html&quot;&gt;BDM&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/H1mbIzL.png&quot;&gt;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Information.html&quot;&gt;Information&lt;/a&gt; content in a graph&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.mdpi.com/1099-4300/14/3/559&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Entropy and the Complexity of Graphs Revisited&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.mitpressjournals.org/doi/abs/10.1162/artl_a_00045#.V4aO-O02fCI&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Information Content of Colored Motifs in Complex Networks&lt;/a&gt;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Symmetry.html&quot;&gt;Symmetry&lt;/a&gt; of grahs&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://journals.aps.org/pre/abstract/10.1103/PhysRevE.77.066108&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Emergence of symmetry in complex networks&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://journals.aps.org/pre/abstract/10.1103/PhysRevE.78.046102&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Network quotients: Structural skeletons of complex systems&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

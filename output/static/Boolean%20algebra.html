@@ -1,1 +1,91 @@
-<p>A <strong>Boolean algebra</strong> is an <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Algebraic%20structure">Algebraic structure</a> that models the relations between elements which can be either true or false. It is important in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Mathematical%20logic">Mathematical logic</a> and in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Computer%20science">Computer science</a>.</p><p>It has the structure of an orthocomplemented, distributed <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Lattice%20(algebraic%20structure)">Lattice (algebraic structure)</a>.</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=h_9WjWENWV8#t=1h7m35s" rel="noopener noreferrer" target="_blank">Basic rules</a></p><p>-----------—Main operators (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Logic%20gate">Logic gate</a>s in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Circuit%20design">Circuit design</a>):</p><ul><li>and</li><li>or</li><li>not</li><li>xor</li><li>nand, nor...</li><li>implies</li></ul><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=h_9WjWENWV8#t=54m10s" rel="noopener noreferrer" target="_blank">Truth table</a>, and, or, and not <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=h_9WjWENWV8#t=56m40s" rel="noopener noreferrer" target="_blank">are a complete set for logical formulas</a>, because <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=BrDto0heyaQ#t=17m40s" rel="noopener noreferrer" target="_blank">can get</a> <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Disjunctive%20normal%20form">Disjunctive normal form</a> Boolean formulas from the any truth table.</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=BrDto0heyaQ#t=22m" rel="noopener noreferrer" target="_blank">nor is complete on its own</a></p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Disjunctive%20normal%20form">Disjunctive normal form</a> </p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Conjunctive%20normal%20form">Conjunctive normal form</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Boolean algebra: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Lattice%20(algebraic%20structure) tc-tagged-Mathematical%20logic &quot; data-tags=&quot;[[Lattice (algebraic structure)]] [[Mathematical logic]]&quot; data-tiddler-title=&quot;Boolean algebra&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Boolean algebra
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 18th March 2017 at 10:31pm
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Lattice (algebraic structure)
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Mathematical logic
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;A &lt;strong&gt;Boolean algebra&lt;/strong&gt; is an &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Algebraic%2520structure.html&quot;&gt;Algebraic structure&lt;/a&gt; that models the relations between elements which can be either true or false. It is important in &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Mathematical%2520logic.html&quot;&gt;Mathematical logic&lt;/a&gt; and in &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Computer%2520science.html&quot;&gt;Computer science&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;It has the structure of an orthocomplemented, distributed &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Lattice%2520(algebraic%2520structure).html&quot;&gt;Lattice (algebraic structure)&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=h_9WjWENWV8#t=1h7m35s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Basic rules&lt;/a&gt;&lt;/p&gt;&lt;p&gt;-----------—Main operators (&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Logic%2520gate.html&quot;&gt;Logic gate&lt;/a&gt;s in &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Circuit%2520design.html&quot;&gt;Circuit design&lt;/a&gt;):&lt;/p&gt;&lt;ul&gt;&lt;li&gt;and&lt;/li&gt;&lt;li&gt;or&lt;/li&gt;&lt;li&gt;not&lt;/li&gt;&lt;li&gt;xor&lt;/li&gt;&lt;li&gt;nand, nor...&lt;/li&gt;&lt;li&gt;implies&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=h_9WjWENWV8#t=54m10s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Truth table&lt;/a&gt;, and, or, and not &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=h_9WjWENWV8#t=56m40s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;are a complete set for logical formulas&lt;/a&gt;, because &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=BrDto0heyaQ#t=17m40s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;can get&lt;/a&gt; &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Disjunctive%2520normal%2520form.html&quot;&gt;Disjunctive normal form&lt;/a&gt; Boolean formulas from the any truth table.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=BrDto0heyaQ#t=22m&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;nor is complete on its own&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Disjunctive%2520normal%2520form.html&quot;&gt;Disjunctive normal form&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Conjunctive%2520normal%2520form.html&quot;&gt;Conjunctive normal form&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

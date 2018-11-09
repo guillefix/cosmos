@@ -1,1 +1,79 @@
-<p>heliodon</p><p>a great circle on the celestial sphere representing the sun's apparent path during the year, so called because lunar and solar eclipses can only occur when the moon crosses it.</p><p>1. Empieza con el plano del suelo del observador.</p><p>2. desde el punto del observador levanta una linea hacia el norte con altura igual a latitud</p><p>3. haz un cono con respecto a la linea con angulo igual al angulo entre el eje terrestre y el plano de la orbita</p><p>4. y projecta el circulo del cono sobre el plano</p><p>Hay varios tipos de proyeccion:</p><ul><li><a class="tc-tiddlylink tc-tiddlylink-missing" href="#Equidistant%20azimuthal%20projection">Proyeccion azimutal equidistante</a></li><li><a class="tc-tiddlylink tc-tiddlylink-missing" href="#Gnomonic%20projection">Proyeccion gnomonica</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Stereographic%20projection">Proyeccion estereografica</a></li><li>Proyeccion perpendicular</li></ul><p>Solo en en la azimutal equidistante, de estas, la proyeccion del ciruculo de la ecliptica <em>no</em> produce un elipse. </p><p>Nice app para ver la ecliptica: <a class="tc-tiddlylink-external" href="http://www.suncalc.net/#/13.4953,14.8604,5/2017.06.21/23:06" rel="noopener noreferrer" target="_blank">http://www.suncalc.net/#/13.4953,14.8604,5/2017.06.21/23:06</a></p><p>Solo en los <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Tropic">tropicos</a>, el sol a veces, cambia su direccion norte a sur, y empieza a ir sur a norte, en ciertos momentos (cuando el circulo interseca con el plano del observador de tal forma que su diametro este visible (por encima del plano)).</p><p>Los tropicos se definen de por ser puntos con latitud menor que la mayor inclinacion del eje terrestre</p><p><img src="http://ipfs.io/ipfs/QmNSCDBSZmMK9TovQmoc3GgPfguXYHrSXoWRA1Lorog1mY"></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Ecliptic: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Sun &quot; data-tags=&quot;Sun&quot; data-tiddler-title=&quot;Ecliptic&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Ecliptic
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 21st June 2017 at 6:11pm
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Sun
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;heliodon&lt;/p&gt;&lt;p&gt;a great circle on the celestial sphere representing the sun's apparent path during the year, so called because lunar and solar eclipses can only occur when the moon crosses it.&lt;/p&gt;&lt;p&gt;1. Empieza con el plano del suelo del observador.&lt;/p&gt;&lt;p&gt;2. desde el punto del observador levanta una linea hacia el norte con altura igual a latitud&lt;/p&gt;&lt;p&gt;3. haz un cono con respecto a la linea con angulo igual al angulo entre el eje terrestre y el plano de la orbita&lt;/p&gt;&lt;p&gt;4. y projecta el circulo del cono sobre el plano&lt;/p&gt;&lt;p&gt;Hay varios tipos de proyeccion:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Equidistant%2520azimuthal%2520projection.html&quot;&gt;Proyeccion azimutal equidistante&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Gnomonic%2520projection.html&quot;&gt;Proyeccion gnomonica&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Stereographic%2520projection.html&quot;&gt;Proyeccion estereografica&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Proyeccion perpendicular&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Solo en en la azimutal equidistante, de estas, la proyeccion del ciruculo de la ecliptica &lt;em&gt;no&lt;/em&gt; produce un elipse. &lt;/p&gt;&lt;p&gt;Nice app para ver la ecliptica: &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.suncalc.net/#/13.4953,14.8604,5/2017.06.21/23:06&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://www.suncalc.net/#/13.4953,14.8604,5/2017.06.21/23:06&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Solo en los &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Tropic.html&quot;&gt;tropicos&lt;/a&gt;, el sol a veces, cambia su direccion norte a sur, y empieza a ir sur a norte, en ciertos momentos (cuando el circulo interseca con el plano del observador de tal forma que su diametro este visible (por encima del plano)).&lt;/p&gt;&lt;p&gt;Los tropicos se definen de por ser puntos con latitud menor que la mayor inclinacion del eje terrestre&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://ipfs.io/ipfs/QmNSCDBSZmMK9TovQmoc3GgPfguXYHrSXoWRA1Lorog1mY&quot;&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

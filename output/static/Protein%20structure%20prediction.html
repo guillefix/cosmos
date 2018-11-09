@@ -1,1 +1,79 @@
-<p>See <a class="tc-tiddlylink-external" href="https://www.dropbox.com/s/tkpa58yp2my8gkc/DTC_StructBio_ProteinStructurePrediction_2017.pdf?dl=0" rel="noopener noreferrer" target="_blank">this presentation</a>, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Protein%20structure%20analysis">Protein structure analysis</a></p><p><a class="tc-tiddlylink-external" href="https://moalquraishi.wordpress.com/2018/02/15/protein-linguistics/" rel="noopener noreferrer" target="_blank">Linguistic hypothesis in protein structure prediction</a> (proteins are built out of building blocks, recursively). <small>The basic idea is as follows: there is evidence that today’s proteins emerged out of an ancient peptidic soup, one that may have left its mark on the evolutionary record. I.e., the proteins we see today may in some sense be formed out of primordial peptides. As proteins grew in size and complexity, it would have been advantageous to reuse existing components, to build bigger proteins from existing protein parts. We already know this is true on the level of protein domains, in that larger proteins are often comprised from chaining together smaller globular domains. But the phenomenon of reuse may go further, where even smaller protein fragments (handful of residues to dozens) may reflect an underlying evolutionary pressure to reuse working parts, fragments that fold in tried-and-tested ways (from the perspective of evolution.) If this is the case, then the space of naturally occurring proteins may occupy a very special “manifold”, one that exhibits a hierarchical organization spanning small fragments to entire domains. </small></p><p>Two main methods:</p><ul><li><strong>Template-based methods</strong>. Based on finding homologous sequences (sequences which are similar/evolutionarily related).</li><li><strong>Template-free methods</strong>. Based on empirically determined potentials, and using some clever stochastic search. Also, physics-based predictions (but these don't seem to work well yet, due to inaccuracies in our potentials..)</li></ul><p><img src="http://www.proteinmodelportal.org/101/model101.png"> <em>source</em>: <a class="tc-tiddlylink-external" href="http://www.proteinmodelportal.org/?pid=101" rel="noopener noreferrer" target="_blank">http://www.proteinmodelportal.org/?pid=101</a></p><p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Protein%20folding">Protein folding</a></p><p><a class="tc-tiddlylink-external" href="https://www.dropbox.com/s/krtqjq7s6gvrnoo/HomologyModellingPractical2017.pdf?dl=0" rel="noopener noreferrer" target="_blank">How to use BLAST, clustal, MODELLER, for homology modelling</a></p><p>Nice online software: <a class="tc-tiddlylink-external" href="https://swissmodel.expasy.org/" rel="noopener noreferrer" target="_blank">Swissmodel</a> <a class="tc-tiddlylink-external" href="https://swissmodel.expasy.org/docs/help" rel="noopener noreferrer" target="_blank">info</a>, <a class="tc-tiddlylink-external" href="http://zhanglab.ccmb.med.umich.edu/MUSTER/" rel="noopener noreferrer" target="_blank">other one</a>. Another nice one: <a class="tc-tiddlylink-external" href="http://www.sbg.bio.ic.ac.uk/phyre2/html/page.cgi?id=index" rel="noopener noreferrer" target="_blank">Phyre2</a> <a class="tc-tiddlylink-external" href="http://www.nature.com/nprot/journal/v10/n6/full/nprot.2015.053.html" rel="noopener noreferrer" target="_blank">paper</a></p><p><img src="http://www.nature.com/nprot/journal/v10/n6/images/nprot.2015.053-F1.jpg"></p><p>Loop modelling algo: Poing</p><p><img src="http://www.nature.com/nprot/journal/v10/n6/images/nprot.2015.053-F2.jpg"></p><p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/List_of_protein_structure_prediction_software" rel="noopener noreferrer" target="_blank">https://en.wikipedia.org/wiki/List_of_protein_structure_prediction_software</a></p><p><a class="tc-tiddlylink-external" href="http://www.proteinmodelportal.org/?pid=modelling_interactive" rel="noopener noreferrer" target="_blank">http://www.proteinmodelportal.org/?pid=modelling_interactive</a></p><p>See also here: <a class="tc-tiddlylink-external" href="http://www.dtc.ox.ac.uk/people/11/oliveiras/miniCASP/miniCASP2.html" rel="noopener noreferrer" target="_blank">http://www.dtc.ox.ac.uk/people/11/oliveiras/miniCASP/miniCASP2.html</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Protein structure prediction: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Protein%20structure &quot; data-tags=&quot;[[Protein structure]]&quot; data-tiddler-title=&quot;Protein structure prediction&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Protein structure prediction
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 15th March 2018 at 7:37am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Protein structure
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;See &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.dropbox.com/s/tkpa58yp2my8gkc/DTC_StructBio_ProteinStructurePrediction_2017.pdf?dl=0&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;this presentation&lt;/a&gt;, &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Protein%2520structure%2520analysis.html&quot;&gt;Protein structure analysis&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://moalquraishi.wordpress.com/2018/02/15/protein-linguistics/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Linguistic hypothesis in protein structure prediction&lt;/a&gt; (proteins are built out of building blocks, recursively). &lt;small&gt;The basic idea is as follows: there is evidence that today’s proteins emerged out of an ancient peptidic soup, one that may have left its mark on the evolutionary record. I.e., the proteins we see today may in some sense be formed out of primordial peptides. As proteins grew in size and complexity, it would have been advantageous to reuse existing components, to build bigger proteins from existing protein parts. We already know this is true on the level of protein domains, in that larger proteins are often comprised from chaining together smaller globular domains. But the phenomenon of reuse may go further, where even smaller protein fragments (handful of residues to dozens) may reflect an underlying evolutionary pressure to reuse working parts, fragments that fold in tried-and-tested ways (from the perspective of evolution.) If this is the case, then the space of naturally occurring proteins may occupy a very special “manifold”, one that exhibits a hierarchical organization spanning small fragments to entire domains. &lt;/small&gt;&lt;/p&gt;&lt;p&gt;Two main methods:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Template-based methods&lt;/strong&gt;. Based on finding homologous sequences (sequences which are similar/evolutionarily related).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Template-free methods&lt;/strong&gt;. Based on empirically determined potentials, and using some clever stochastic search. Also, physics-based predictions (but these don't seem to work well yet, due to inaccuracies in our potentials..)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;http://www.proteinmodelportal.org/101/model101.png&quot;&gt; &lt;em&gt;source&lt;/em&gt;: &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.proteinmodelportal.org/?pid=101&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://www.proteinmodelportal.org/?pid=101&lt;/a&gt;&lt;/p&gt;&lt;p&gt;See &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Protein%2520folding.html&quot;&gt;Protein folding&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.dropbox.com/s/krtqjq7s6gvrnoo/HomologyModellingPractical2017.pdf?dl=0&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;How to use BLAST, clustal, MODELLER, for homology modelling&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Nice online software: &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://swissmodel.expasy.org/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Swissmodel&lt;/a&gt; &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://swissmodel.expasy.org/docs/help&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;info&lt;/a&gt;, &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://zhanglab.ccmb.med.umich.edu/MUSTER/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;other one&lt;/a&gt;. Another nice one: &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.sbg.bio.ic.ac.uk/phyre2/html/page.cgi?id=index&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Phyre2&lt;/a&gt; &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.nature.com/nprot/journal/v10/n6/full/nprot.2015.053.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;paper&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://www.nature.com/nprot/journal/v10/n6/images/nprot.2015.053-F1.jpg&quot;&gt;&lt;/p&gt;&lt;p&gt;Loop modelling algo: Poing&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://www.nature.com/nprot/journal/v10/n6/images/nprot.2015.053-F2.jpg&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://en.wikipedia.org/wiki/List_of_protein_structure_prediction_software&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://en.wikipedia.org/wiki/List_of_protein_structure_prediction_software&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.proteinmodelportal.org/?pid=modelling_interactive&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://www.proteinmodelportal.org/?pid=modelling_interactive&lt;/a&gt;&lt;/p&gt;&lt;p&gt;See also here: &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.dtc.ox.ac.uk/people/11/oliveiras/miniCASP/miniCASP2.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://www.dtc.ox.ac.uk/people/11/oliveiras/miniCASP/miniCASP2.html&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

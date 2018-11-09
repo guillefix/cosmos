@@ -1,1 +1,79 @@
-<p><em>aka phylogeny</em></p><h2 class=""><u>Inducing phylogenetic tree</u></h2><p>A <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Tree%20(combinatorial%20structure)">Tree (combinatorial structure)</a></p><p>Many algorithms don't find the root of the tree, but finding the root is important to find the time direction in the tree.</p><p>Phylogenetic trees are most often binary (aka bifurcating).</p><p>Edges can be labelled with <strong>time duration</strong> or <strong>amount of evolution</strong>. If the amount of evolution is proportional to time duration, we have a <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Molecular%20clock">Molecular clock</a>.</p><p>Enumerating trees..</p><p>Coelescent topologies. The time-ranking in time matters.</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Combinatorics">Combinatorics</a>, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Analytic%20combinatorics">Analytic combinatorics</a>...</p><h2 class=""><u>Principles for inference</u></h2><h3 class=""><u>Minimum parsimony</u></h3><p>Minimum number of changes in letters in the sequence.</p><h3 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Maximum%20likelihood">Maximum likelihood</a></u></h3><p>Using some <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Probabilistic%20model">Probabilistic model</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Phylogenetic tree: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Phylogenetics &quot; data-tags=&quot;Phylogenetics&quot; data-tiddler-title=&quot;Phylogenetic tree&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Phylogenetic tree
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 30th January 2017 at 6:57am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Phylogenetics
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;&lt;em&gt;aka phylogeny&lt;/em&gt;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;Inducing phylogenetic tree&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;A &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Tree%2520(combinatorial%2520structure).html&quot;&gt;Tree (combinatorial structure)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Many algorithms don't find the root of the tree, but finding the root is important to find the time direction in the tree.&lt;/p&gt;&lt;p&gt;Phylogenetic trees are most often binary (aka bifurcating).&lt;/p&gt;&lt;p&gt;Edges can be labelled with &lt;strong&gt;time duration&lt;/strong&gt; or &lt;strong&gt;amount of evolution&lt;/strong&gt;. If the amount of evolution is proportional to time duration, we have a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Molecular%2520clock.html&quot;&gt;Molecular clock&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Enumerating trees..&lt;/p&gt;&lt;p&gt;Coelescent topologies. The time-ranking in time matters.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Combinatorics.html&quot;&gt;Combinatorics&lt;/a&gt;, &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Analytic%2520combinatorics.html&quot;&gt;Analytic combinatorics&lt;/a&gt;...&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;Principles for inference&lt;/u&gt;&lt;/h2&gt;&lt;h3 class=&quot;&quot;&gt;&lt;u&gt;Minimum parsimony&lt;/u&gt;&lt;/h3&gt;&lt;p&gt;Minimum number of changes in letters in the sequence.&lt;/p&gt;&lt;h3 class=&quot;&quot;&gt;&lt;u&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Maximum%2520likelihood.html&quot;&gt;Maximum likelihood&lt;/a&gt;&lt;/u&gt;&lt;/h3&gt;&lt;p&gt;Using some &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Probabilistic%2520model.html&quot;&gt;Probabilistic model&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

@@ -1,1 +1,91 @@
-<p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=oBc_BHxw78s" rel="noopener noreferrer" target="_blank">Why learn control theory</a></p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Signal%20processing">Signal processing</a></p><h2 class=""><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Control%20theory">Control theory</a></h2><h2 class="">Control systems</h2><p>Normal control systems are usually classified as linear systems and nonlinear systems.</p><h3 class="">Switched systems</h3><p>A switched system consists of continuous-time=discrete-time dynamical subsystems and a rule (supervisor) that determines the switching among them. </p><p>Control techniques by switching among different controllers have been applied extensively in recent years. Indeed, a switched controller can provide a performance improvement over a fixed controller </p><p>Switched systems consist of a decision layer and a control layer. The former is logical, i.e., discrete, and decides at a given time, which subsystem is activated. The latter usually corresponds to a set of normal control systems.</p><p><a class="tc-tiddlylink-external" href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=186313&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D186313" rel="noopener noreferrer" target="_blank">Periodicity and chaos from switched Mow systems: Contrasting examples of discretely controlled continuous systems</a></p><p><a class="tc-tiddlylink-external" href="http://dx.doi.org/10.1016%2FS0005-1098(01)00267-9" rel="noopener noreferrer" target="_blank">Controllability and reachability criteria for switched linear systems</a></p><p>Switching in Systems and Control</p><p><a class="tc-tiddlylink-external" href="http://www.sciencedirect.com/science/article/pii/S000510980800383X" rel="noopener noreferrer" target="_blank">On partitioned controllability of switched linear systems</a></p><p><a class="tc-tiddlylink-external" href="http://www.sciencedirect.com/science/article/pii/S1751570X15000588" rel="noopener noreferrer" target="_blank">Finite automata approach to observability of switched Boolean control networks</a>. Boolean control networks I think are <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Boolean%20network">Boolean network</a>s with an external control.</p><p>It is pointed out that “One of the major goals of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Systems%20biology">Systems biology</a> is to develop a control theory for complex biological systems”  [14]</p><p>See also <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Robotics">Robotics</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Control theory and control systems: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Nonlinear%20systems tc-tagged-Systems%20engineering &quot; data-tags=&quot;[[Nonlinear systems]] [[Systems engineering]]&quot; data-tiddler-title=&quot;Control theory and control systems&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Control theory and control systems
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;guillefix.html&quot;&gt;
+guillefix
+&lt;/a&gt; 4th November 2016 at 9:43am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Nonlinear systems
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Systems engineering
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=oBc_BHxw78s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Why learn control theory&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Signal%2520processing.html&quot;&gt;Signal processing&lt;/a&gt;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Control%2520theory.html&quot;&gt;Control theory&lt;/a&gt;&lt;/h2&gt;&lt;h2 class=&quot;&quot;&gt;Control systems&lt;/h2&gt;&lt;p&gt;Normal control systems are usually classified as linear systems and nonlinear systems.&lt;/p&gt;&lt;h3 class=&quot;&quot;&gt;Switched systems&lt;/h3&gt;&lt;p&gt;A switched system consists of continuous-time=discrete-time dynamical subsystems and a rule (supervisor) that determines the switching among them. &lt;/p&gt;&lt;p&gt;Control techniques by switching among different controllers have been applied extensively in recent years. Indeed, a switched controller can provide a performance improvement over a fixed controller &lt;/p&gt;&lt;p&gt;Switched systems consist of a decision layer and a control layer. The former is logical, i.e., discrete, and decides at a given time, which subsystem is activated. The latter usually corresponds to a set of normal control systems.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;amp;arnumber=186313&amp;amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D186313&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Periodicity and chaos from switched Mow systems: Contrasting examples of discretely controlled continuous systems&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://dx.doi.org/10.1016%2FS0005-1098(01)00267-9&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Controllability and reachability criteria for switched linear systems&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Switching in Systems and Control&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.sciencedirect.com/science/article/pii/S000510980800383X&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;On partitioned controllability of switched linear systems&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.sciencedirect.com/science/article/pii/S1751570X15000588&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Finite automata approach to observability of switched Boolean control networks&lt;/a&gt;. Boolean control networks I think are &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Boolean%2520network.html&quot;&gt;Boolean network&lt;/a&gt;s with an external control.&lt;/p&gt;&lt;p&gt;It is pointed out that “One of the major goals of &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Systems%2520biology.html&quot;&gt;Systems biology&lt;/a&gt; is to develop a control theory for complex biological systems”  [14]&lt;/p&gt;&lt;p&gt;See also &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Robotics.html&quot;&gt;Robotics&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

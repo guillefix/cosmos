@@ -1,1 +1,91 @@
-<h2 class="">Inference based on motifs</h2><p>Compare relative to some null model, like the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Configuration%20model">Configuration model</a>, where –.–, and Y motifs are common,  but cycles are rare, for instance.</p><p>See <a class="tc-tiddlylink-external" href="https://www.dropbox.com/s/55cvuaj578c92z4/networklectures2017.pdf?dl=0" rel="noopener noreferrer" target="_blank">notes</a></p><p>Often a <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Polya-Aeppli%20distribution">Polya-Aeppli distribution</a> is suggested for motif counts, see Picard et al. 2008 . The Polya-Aeppli distribution is the distribution of W where W is the sum of a Poisson ( λ ) number of random variables, where each of the random variables follows a geometric(1 − a ) distribution, independently of each other (see the Monte Carlo example). In the random graph network, we can think of having a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Poisson%20distribution">Poisson</a> number of &quot;clumps&quot;, and each clump having a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Geometric%20distribution">geometric</a> size.</p><p>When assessing the significance of two or more motifs, their dependence has to be taken into account, or else we resort to the <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Bonferroni%20correction">Bonferroni correction</a>, dividing the significance level of our tests by the number of tests carried out and using this as new significance level for each individual test.</p><p><strong>Bonferroni correction</strong>: have 100 tests. I want a statistical significance (<a class="tc-tiddlylink tc-tiddlylink-missing" href="#p-value">p-value</a>) of 0.05. Then, each test should be performed with significance 0.05/100. Gets a lot of false negatives, but it really tries to prevent false positives. <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Metabolomics">Metabolomics</a> has a lot of tests, and so there are other alternatives..., but not an exact science..</p><p>Ego networks can be used to get replicas (samples) from same network. Need sparse networks for the egonets to be mostly independent.</p><p>Network motifs can be used to compare networks.</p><p><a class="tc-tiddlylink-external" href="http://snap.stanford.edu/nipsgraphs2010/Home_files/21_grimaldi_regnann-nips10-netwrkshop.pdf" rel="noopener noreferrer" target="_blank">RegnANN: network inference using Artificial Neural Networks</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Statistical inference for networks: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Statistical%20inference tc-tagged-Network%20science &quot; data-tags=&quot;[[Statistical inference]] [[Network science]]&quot; data-tiddler-title=&quot;Statistical inference for networks&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Statistical inference for networks
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 19th May 2017 at 3:46pm
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Network science
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Statistical inference
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;h2 class=&quot;&quot;&gt;Inference based on motifs&lt;/h2&gt;&lt;p&gt;Compare relative to some null model, like the &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Configuration%2520model.html&quot;&gt;Configuration model&lt;/a&gt;, where –.–, and Y motifs are common,  but cycles are rare, for instance.&lt;/p&gt;&lt;p&gt;See &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.dropbox.com/s/55cvuaj578c92z4/networklectures2017.pdf?dl=0&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;notes&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Often a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Polya-Aeppli%2520distribution.html&quot;&gt;Polya-Aeppli distribution&lt;/a&gt; is suggested for motif counts, see Picard et al. 2008 . The Polya-Aeppli distribution is the distribution of W where W is the sum of a Poisson ( λ ) number of random variables, where each of the random variables follows a geometric(1 − a ) distribution, independently of each other (see the Monte Carlo example). In the random graph network, we can think of having a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Poisson%2520distribution.html&quot;&gt;Poisson&lt;/a&gt; number of &amp;quot;clumps&amp;quot;, and each clump having a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Geometric%2520distribution.html&quot;&gt;geometric&lt;/a&gt; size.&lt;/p&gt;&lt;p&gt;When assessing the significance of two or more motifs, their dependence has to be taken into account, or else we resort to the &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Bonferroni%2520correction.html&quot;&gt;Bonferroni correction&lt;/a&gt;, dividing the significance level of our tests by the number of tests carried out and using this as new significance level for each individual test.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Bonferroni correction&lt;/strong&gt;: have 100 tests. I want a statistical significance (&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;p-value.html&quot;&gt;p-value&lt;/a&gt;) of 0.05. Then, each test should be performed with significance 0.05/100. Gets a lot of false negatives, but it really tries to prevent false positives. &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Metabolomics.html&quot;&gt;Metabolomics&lt;/a&gt; has a lot of tests, and so there are other alternatives..., but not an exact science..&lt;/p&gt;&lt;p&gt;Ego networks can be used to get replicas (samples) from same network. Need sparse networks for the egonets to be mostly independent.&lt;/p&gt;&lt;p&gt;Network motifs can be used to compare networks.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://snap.stanford.edu/nipsgraphs2010/Home_files/21_grimaldi_regnann-nips10-netwrkshop.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;RegnANN: network inference using Artificial Neural Networks&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

@@ -1,9 +1,87 @@
-<p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=LKdFTsM3hl4&amp;list=PLA89DCFA6ADACE599&amp;index=17#t=27m06s" rel="noopener noreferrer" target="_blank">video</a> – discretization scales poorly to high dimensional state spaces.</p><p>See Elements of Statistical learning</p><p>As can be seen by applying <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Nearest-neighbour%20classification">Nearest-neighbour classification</a>, the size of the neighbourhood to consider a certain fraction of the total populations for the choice, grows with dimension (linear size needs to be larger to have same fraction of total volume). The problem then is that we are making the choice based on points which are quite far in terms of linear distance, and thus need not be good predictors any more. This is the <strong>curse of dimensionality</strong>.</p><p>See page 18 in Murphy's book</p><p>The main way to combat the curse of dimensionality is to make some assumptions about
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Curse of dimensionality: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Statistics &quot; data-tags=&quot;Statistics&quot; data-tiddler-title=&quot;Curse of dimensionality&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Curse of dimensionality
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 4th August 2018 at 7:31pm
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Statistics
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=LKdFTsM3hl4&amp;amp;list=PLA89DCFA6ADACE599&amp;amp;index=17#t=27m06s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;video&lt;/a&gt; – discretization scales poorly to high dimensional state spaces.&lt;/p&gt;&lt;p&gt;See Elements of Statistical learning&lt;/p&gt;&lt;p&gt;As can be seen by applying &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Nearest-neighbour%2520classification.html&quot;&gt;Nearest-neighbour classification&lt;/a&gt;, the size of the neighbourhood to consider a certain fraction of the total populations for the choice, grows with dimension (linear size needs to be larger to have same fraction of total volume). The problem then is that we are making the choice based on points which are quite far in terms of linear distance, and thus need not be good predictors any more. This is the &lt;strong&gt;curse of dimensionality&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;See page 18 in Murphy's book&lt;/p&gt;&lt;p&gt;The main way to combat the curse of dimensionality is to make some assumptions about
 the nature of the data distribution (either p(y|x) for a supervised problem or p(x) for an
 unsupervised problem). These assumptions, known as inductive bias, are often embodied in
-the form of a parametric model, which is a statistical model with a fixed number of parameters.</p><p><a class="tc-tiddlylink-external" href="http://www.dbs.ifi.lmu.de/~zimek/publications/SSDBM2010/SNN-SSDBM2010-preprint.pdf" rel="noopener noreferrer" target="_blank">http://www.dbs.ifi.lmu.de/~zimek/publications/SSDBM2010/SNN-SSDBM2010-preprint.pdf</a>. See page 5 for some interesting comments (c.f. <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Sloppy%20systems">Sloppy systems</a>)</p><p>In many cases (for many distance measures) distances between pairs of points (distributed in some way) tend to their mean (i.e. their variance decreases) as we increase dimension. These well-known studies generally
+the form of a parametric model, which is a statistical model with a fixed number of parameters.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.dbs.ifi.lmu.de/~zimek/publications/SSDBM2010/SNN-SSDBM2010-preprint.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://www.dbs.ifi.lmu.de/~zimek/publications/SSDBM2010/SNN-SSDBM2010-preprint.pdf&lt;/a&gt;. See page 5 for some interesting comments (c.f. &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Sloppy%2520systems.html&quot;&gt;Sloppy systems&lt;/a&gt;)&lt;/p&gt;&lt;p&gt;In many cases (for many distance measures) distances between pairs of points (distributed in some way) tend to their mean (i.e. their variance decreases) as we increase dimension. These well-known studies generally
 assumed that the full data set followed a single data distribution, subject to
 certain restrictions. In fact, when the data follows a mixture of distributions,
 the concentration effect is not always observed; in such cases, distances between
 members of different distributions may not necessarily tend to the global mean
-as the dimensionality increases.</p><p><a class="tc-tiddlylink-external" href="https://youtu.be/i2bt4vt908g?t=25m43s" rel="noopener noreferrer" target="_blank">Curse of dimensionality in k-NN</a></p>
+as the dimensionality increases.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://youtu.be/i2bt4vt908g?t=25m43s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Curse of dimensionality in k-NN&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

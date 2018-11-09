@@ -1,2 +1,80 @@
-<p><strong>Universal Artificial intelligence</strong></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=F2bQ5TSB-cE" rel="noopener noreferrer" target="_blank">Marcus Hutter - What is Intelligence? AIXI &amp; Induction</a></p><p><a class="tc-tiddlylink-external" href="http://people.idsia.ch/~juergen/unilearn.html" rel="noopener noreferrer" target="_blank">THEORY OF UNIVERSAL LEARNING MACHINES &amp; UNIVERSAL AI</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=mF5-tr7qAF4#t=15m55s" rel="noopener noreferrer" target="_blank">How to learn an algorithm</a></p><p><a class="tc-tiddlylink-external" href="https://www.quora.com/What-are-the-differences-between-Machine-Learning-and-AIXI-G%C3%B6del-Machine-regarding-the-feasibility-of-AGI" rel="noopener noreferrer" target="_blank">https://www.quora.com/What-are-the-differences-between-Machine-Learning-and-AIXI-G%C3%B6del-Machine-regarding-the-feasibility-of-AGI</a></p><p><u>Methods/ideas</u></p><p>see <a class="tc-tiddlylink-external" href="http://www.scholarpedia.org/article/Universal_search" rel="noopener noreferrer" target="_blank">here</a></p><ul><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Levin%20search">Universal search</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Hutter%20search">Hutter search</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Optimal%20ordered%20problem%20solver">Optimal ordered problem solver</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Godel%20machine">Godel machine</a></li></ul><p>The fact that it can learn anything, reminds me a bit of how single-layer neural networks can approximate any function with enough neurons, but deep learning is much more effective. Maybe we need a more effective UAI? Or why are these ideas not catching up?</p><p><a class="tc-tiddlylink-external" href="http://www.hutter1.net/" rel="noopener noreferrer" target="_blank">http://www.hutter1.net/</a></p><p><a class="tc-tiddlylink-external" href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.11.8797&amp;rep=rep1&amp;type=pdf" rel="noopener noreferrer" target="_blank">A Gentle Introduction to the Universal Algorithmic Agent AIXI</a></p><p><a class="tc-tiddlylink-external" href="http://www.hutter1.net/ai/uaibook.htm" rel="noopener noreferrer" target="_blank">Universal Artificial Intelligence</a></p><p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/AIXI" rel="noopener noreferrer" target="_blank">AIXI</a></p><p><a class="tc-tiddlylink-external" href="http://link.springer.com/chapter/10.2991/978-94-91216-62-6_5#page-1" rel="noopener noreferrer" target="_blank">http://link.springer.com/chapter/10.2991/978-94-91216-62-6_5#page-1</a></p><p><a class="tc-tiddlylink-external" href="http://people.idsia.ch/~juergen/goedelmachine.html" rel="noopener noreferrer" target="_blank">http://people.idsia.ch/~juergen/goedelmachine.html</a></p><p><a class="tc-tiddlylink-external" href="http://pybrain.org/" rel="noopener noreferrer" target="_blank">http://pybrain.org/</a></p><p><a class="tc-tiddlylink-external" href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/" rel="noopener noreferrer" target="_blank">http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/</a></p><p><a class="tc-tiddlylink-external" href="https://blogs.microsoft.com/next/2016/07/07/project-malmo-lets-researchers-use-minecraft-ai-research-makes-public-debut/#sm.00001d4i2xwoqkfi5vv2d7q6j0asm" rel="noopener noreferrer" target="_blank">Project Malmo, which lets researchers use Minecraft for AI research, makes public debut</a></p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Ray%20Solomonoff">Solomonoff</a>'s <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Universal%20inductive%20inference">Universal inductive inference</a></u></h2><p>It is based on performing <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Levin%20search">Levin search</a> over candidate answers, to preferentially search simple ones. However, we should combine this with probabilistic heuristics that are learned from past experience (an example of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Incremental%20learning">Incremental learning</a>).
-</p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Universal AI: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Artificial%20intelligence &quot; data-tags=&quot;[[Artificial intelligence]]&quot; data-tiddler-title=&quot;Universal AI&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Universal AI
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 4th November 2016 at 9:43am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Artificial intelligence
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;&lt;strong&gt;Universal Artificial intelligence&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=F2bQ5TSB-cE&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Marcus Hutter - What is Intelligence? AIXI &amp;amp; Induction&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://people.idsia.ch/~juergen/unilearn.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;THEORY OF UNIVERSAL LEARNING MACHINES &amp;amp; UNIVERSAL AI&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=mF5-tr7qAF4#t=15m55s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;How to learn an algorithm&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.quora.com/What-are-the-differences-between-Machine-Learning-and-AIXI-G%C3%B6del-Machine-regarding-the-feasibility-of-AGI&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://www.quora.com/What-are-the-differences-between-Machine-Learning-and-AIXI-G%C3%B6del-Machine-regarding-the-feasibility-of-AGI&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;u&gt;Methods/ideas&lt;/u&gt;&lt;/p&gt;&lt;p&gt;see &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.scholarpedia.org/article/Universal_search&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Levin%2520search.html&quot;&gt;Universal search&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Hutter%2520search.html&quot;&gt;Hutter search&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Optimal%2520ordered%2520problem%2520solver.html&quot;&gt;Optimal ordered problem solver&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Godel%2520machine.html&quot;&gt;Godel machine&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The fact that it can learn anything, reminds me a bit of how single-layer neural networks can approximate any function with enough neurons, but deep learning is much more effective. Maybe we need a more effective UAI? Or why are these ideas not catching up?&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.hutter1.net/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://www.hutter1.net/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.11.8797&amp;amp;rep=rep1&amp;amp;type=pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;A Gentle Introduction to the Universal Algorithmic Agent AIXI&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.hutter1.net/ai/uaibook.htm&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Universal Artificial Intelligence&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://en.wikipedia.org/wiki/AIXI&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;AIXI&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://link.springer.com/chapter/10.2991/978-94-91216-62-6_5#page-1&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://link.springer.com/chapter/10.2991/978-94-91216-62-6_5#page-1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://people.idsia.ch/~juergen/goedelmachine.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://people.idsia.ch/~juergen/goedelmachine.html&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://pybrain.org/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://pybrain.org/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://blogs.microsoft.com/next/2016/07/07/project-malmo-lets-researchers-use-minecraft-ai-research-makes-public-debut/#sm.00001d4i2xwoqkfi5vv2d7q6j0asm&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Project Malmo, which lets researchers use Minecraft for AI research, makes public debut&lt;/a&gt;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Ray%2520Solomonoff.html&quot;&gt;Solomonoff&lt;/a&gt;'s &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Universal%2520inductive%2520inference.html&quot;&gt;Universal inductive inference&lt;/a&gt;&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;It is based on performing &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Levin%2520search.html&quot;&gt;Levin search&lt;/a&gt; over candidate answers, to preferentially search simple ones. However, we should combine this with probabilistic heuristics that are learned from past experience (an example of &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Incremental%2520learning.html&quot;&gt;Incremental learning&lt;/a&gt;).
+&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

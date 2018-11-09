@@ -1,3 +1,81 @@
-<p>Mathematical study of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Graph">Graph</a>s. These are very similar to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Network">Network</a>s studied in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Network%20theory">Network theory</a>.</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/playlist?list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg" rel="noopener noreferrer" target="_blank">Graph Theory by Sarada Herke</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=S1Zwhz-MhCs&amp;index=2&amp;list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg" rel="noopener noreferrer" target="_blank">Definition of a graph</a></p><p><a class="tc-tiddlylink-external" href="https://courses.maths.ox.ac.uk/node/view_material/1300" rel="noopener noreferrer" target="_blank">notes</a></p><p><a class="tc-tiddlylink-external" href="http://www.cs.yale.edu/homes/spielman/PAPERS/SGTChapter.pdf" rel="noopener noreferrer" target="_blank">Spectral graph theory</a> – <a class="tc-tiddlylink-external" href="https://arxiv.org/pdf/1011.2608.pdf" rel="noopener noreferrer" target="_blank">https://arxiv.org/pdf/1011.2608.pdf</a></p><h2 class="">See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Mathematics%20of%20networks">Mathematics of networks</a></h2><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Path%20(Graph%20theory)">Path (Graph theory)</a></p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Families%20of%20graphs">Families of graphs</a> and <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Network">Network</a>s. <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=BEyuUXQs5ko&amp;index=5&amp;list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg" rel="noopener noreferrer" target="_blank">Connected and Regular Graphs</a></p><h3 class=""><u>Graph isomorphism and automorphism</u></h3><p>Often we do not make a distinctio
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Graph theory: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Discrete%20mathematics &quot; data-tags=&quot;[[Discrete mathematics]]&quot; data-tiddler-title=&quot;Graph theory&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Graph theory
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 19th September 2017 at 6:52am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Discrete mathematics
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;Mathematical study of &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Graph.html&quot;&gt;Graph&lt;/a&gt;s. These are very similar to &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Network.html&quot;&gt;Network&lt;/a&gt;s studied in &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Network%2520theory.html&quot;&gt;Network theory&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/playlist?list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Graph Theory by Sarada Herke&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=S1Zwhz-MhCs&amp;amp;index=2&amp;amp;list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Definition of a graph&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://courses.maths.ox.ac.uk/node/view_material/1300&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;notes&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.cs.yale.edu/homes/spielman/PAPERS/SGTChapter.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Spectral graph theory&lt;/a&gt; – &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://arxiv.org/pdf/1011.2608.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://arxiv.org/pdf/1011.2608.pdf&lt;/a&gt;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;See &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Mathematics%2520of%2520networks.html&quot;&gt;Mathematics of networks&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Path%2520(Graph%2520theory).html&quot;&gt;Path (Graph theory)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Families%2520of%2520graphs.html&quot;&gt;Families of graphs&lt;/a&gt; and &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Network.html&quot;&gt;Network&lt;/a&gt;s. &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=BEyuUXQs5ko&amp;amp;index=5&amp;amp;list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Connected and Regular Graphs&lt;/a&gt;&lt;/p&gt;&lt;h3 class=&quot;&quot;&gt;&lt;u&gt;Graph isomorphism and automorphism&lt;/u&gt;&lt;/h3&gt;&lt;p&gt;Often we do not make a distinctio
 n between isomorphic
-graphs, treating them as the same.</p><p><a class="tc-tiddlylink-external" href="http://math.stackexchange.com/questions/790110/whats-the-difference-between-the-automorphism-and-isomorphism-of-graph" rel="noopener noreferrer" target="_blank">http://math.stackexchange.com/questions/790110/whats-the-difference-between-the-automorphism-and-isomorphism-of-graph</a></p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Graph%20isomorphism">Graph isomorphism</a> – <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=yFpRpxOry-A&amp;list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg&amp;index=10" rel="noopener noreferrer" target="_blank">video</a>. <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=z-GfKbzvtBA&amp;list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg&amp;index=11" rel="noopener noreferrer" target="_blank">Isomorphic and Non-Isomorphic Graphs</a></p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Graph%20automorphism">Graph automorphism</a></p><p>See <a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Graph_homomorphism" rel="noopener noreferrer" target="_blank">here</a> for definition of graph homomorphism.</p><h2 class=""><u>Graph colouring</u></h2><p><a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/List_coloring" rel="noopener noreferrer" target="_blank">https://www.wikiwand.com/en/List_coloring</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=RSSfO0lnEp8" rel="noopener noreferrer" target="_blank">Introduction to Graph Colouring</a></p><hr><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=Gc8emFk-2vc&amp;list=PLwygftUY318G_Yo5pp1UDU613ey0nNlIj" rel="noopener noreferrer" target="_blank">https://www.youtube.com/watch?v=Gc8emFk-2vc&amp;list=PLwygftUY318G_Yo5pp1UDU613ey0nNlIj</a></p>
+graphs, treating them as the same.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://math.stackexchange.com/questions/790110/whats-the-difference-between-the-automorphism-and-isomorphism-of-graph&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://math.stackexchange.com/questions/790110/whats-the-difference-between-the-automorphism-and-isomorphism-of-graph&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Graph%2520isomorphism.html&quot;&gt;Graph isomorphism&lt;/a&gt; – &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=yFpRpxOry-A&amp;amp;list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg&amp;amp;index=10&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;video&lt;/a&gt;. &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=z-GfKbzvtBA&amp;amp;list=PLoJC20gNfC2gmT_5WgwYwGMvgCjYVsIQg&amp;amp;index=11&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Isomorphic and Non-Isomorphic Graphs&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Graph%2520automorphism.html&quot;&gt;Graph automorphism&lt;/a&gt;&lt;/p&gt;&lt;p&gt;See &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://en.wikipedia.org/wiki/Graph_homomorphism&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; for definition of graph homomorphism.&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;Graph colouring&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.wikiwand.com/en/List_coloring&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://www.wikiwand.com/en/List_coloring&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=RSSfO0lnEp8&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Introduction to Graph Colouring&lt;/a&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=Gc8emFk-2vc&amp;amp;list=PLwygftUY318G_Yo5pp1UDU613ey0nNlIj&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://www.youtube.com/watch?v=Gc8emFk-2vc&amp;amp;list=PLwygftUY318G_Yo5pp1UDU613ey0nNlIj&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

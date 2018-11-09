@@ -1,2 +1,80 @@
-<p>A good <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Deep%20learning">Deep learning</a> library in <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Python">Python</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=pnSBZ6TEVjY&amp;index=45&amp;list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v" rel="noopener noreferrer" target="_blank">TensorFlow Basics - Deep Learning with Neural Networks p. 2</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/playlist?list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ" rel="noopener noreferrer" target="_blank">Very well done video tutorials</a></p><p>In tensor flow, you:</p><ol><li>Define a <strong>computational graph</strong>, that manipulates tensors, and data. <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=wuo4JdG3SvU&amp;list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ#t=3m43s" rel="noopener noreferrer" target="_blank">parts of the computational graph</a><ol><li><strong>Placeholder variables</strong> used to change the input to the graph. <code>x = tf.placeholder(tf.float32, [dimensions])</code>. Note <code>None</code> can be used as a dimension, that can take any value (calculated from input data..)</li><li><strong>Model variables</strong> that are going to be optimized so as to make the model perform better. <code>weights = tf.Variable(initializationValues)</code></li><li><strong>The model</strong> which is essentially just a mathematical function that calculates some output given the input in the placeholder variables and the model variables. Example@ <code>logits = tf.matmul(x, weights) + biases</code></li><li>A <strong>cost function</strong> that can be used to guide the optimization of the variables. Example: <code>cross_entropy = tf.nn.softmax_cross_entropy_with_logits(logits=logits,
-                                                        labels=y_true)</code>, <code>cost = tf.reduce_mean(cross_entropy)</code></li><li>An <strong>optimization method</strong> which updates the variables of the model. Example: <code>optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.5).minimize(cost)</code></li></ol></li><li>Begin a <strong>session</strong> (<code>tf.Session()</code>), and <code>train</code>, and <code>run</code> the computational graph, to get its result.<ol><li><code>session.run(tf.global_variables_initializer())</code></li><li><code>session.run(optimizer, feed_dict=feed_dict_train)</code>, where the keys in the feed_dict should match the placeholder variables.</li></ol></li></ol><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=bvHgESVuS6Q" rel="noopener noreferrer" target="_blank">Learning TensorFlow</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=2FmcHiLCwTU" rel="noopener noreferrer" target="_blank">TensorFlow in 5 Minutes</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=l4X-kZjl1gs" rel="noopener noreferrer" target="_blank">An Introduction to LSTMs in Tensorflow</a></p><hr><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=Lx8JUJROkh0&amp;index=4&amp;list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ&amp;spfreload=1#t=3m10s" rel="noopener noreferrer" target="_blank">How to save and restore model variables</a> – <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=Lx8JUJROkh0&amp;index=4&amp;list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ&amp;spfreload=1#t=5m55s" rel="noopener noreferrer" target="_blank">and here</a> – <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=Lx8JUJROkh0&amp;index=4&amp;list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ&amp;spfreload=1#t=11m30s" rel="noopener noreferrer" target="_blank">and restore</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>TensorFlow: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Deep%20learning &quot; data-tags=&quot;[[Deep learning]]&quot; data-tiddler-title=&quot;TensorFlow&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+TensorFlow
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 1st May 2017 at 5:20pm
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Deep learning
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;A good &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Deep%2520learning.html&quot;&gt;Deep learning&lt;/a&gt; library in &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Python.html&quot;&gt;Python&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=pnSBZ6TEVjY&amp;amp;index=45&amp;amp;list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;TensorFlow Basics - Deep Learning with Neural Networks p. 2&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/playlist?list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Very well done video tutorials&lt;/a&gt;&lt;/p&gt;&lt;p&gt;In tensor flow, you:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Define a &lt;strong&gt;computational graph&lt;/strong&gt;, that manipulates tensors, and data. &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=wuo4JdG3SvU&amp;amp;list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ#t=3m43s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;parts of the computational graph&lt;/a&gt;&lt;ol&gt;&lt;li&gt;&lt;strong&gt;Placeholder variables&lt;/strong&gt; used to change the input to the graph. &lt;code&gt;x = tf.placeholder(tf.float32, [dimensions])&lt;/code&gt;. Note &lt;code&gt;None&lt;/code&gt; can be used as a dimension, that can take any value (calculated from input data..)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Model variables&lt;/strong&gt; that are going to be optimized so as to make the model perform better. &lt;code&gt;weights = tf.Variable(initializationValues)&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;The model&lt;/strong&gt; which is essentially just a mathematical function that calculates some output given the input in the placeholder variables and the model variables. Example@ &lt;code&gt;logits = tf.matmul(x, weights) + biases&lt;/code&gt;&lt;/li&gt;&lt;li&gt;A &lt;strong&gt;cost function&lt;/strong&gt; that can be used to guide the optimization of the variables. Example: &lt;code&gt;cross_entropy = tf.nn.softmax_cross_entropy_with_logits(logits=logits,
+                                                        labels=y_true)&lt;/code&gt;, &lt;code&gt;cost = tf.reduce_mean(cross_entropy)&lt;/code&gt;&lt;/li&gt;&lt;li&gt;An &lt;strong&gt;optimization method&lt;/strong&gt; which updates the variables of the model. Example: &lt;code&gt;optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.5).minimize(cost)&lt;/code&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;li&gt;Begin a &lt;strong&gt;session&lt;/strong&gt; (&lt;code&gt;tf.Session()&lt;/code&gt;), and &lt;code&gt;train&lt;/code&gt;, and &lt;code&gt;run&lt;/code&gt; the computational graph, to get its result.&lt;ol&gt;&lt;li&gt;&lt;code&gt;session.run(tf.global_variables_initializer())&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;session.run(optimizer, feed_dict=feed_dict_train)&lt;/code&gt;, where the keys in the feed_dict should match the placeholder variables.&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=bvHgESVuS6Q&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Learning TensorFlow&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=2FmcHiLCwTU&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;TensorFlow in 5 Minutes&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=l4X-kZjl1gs&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;An Introduction to LSTMs in Tensorflow&lt;/a&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=Lx8JUJROkh0&amp;amp;index=4&amp;amp;list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ&amp;amp;spfreload=1#t=3m10s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;How to save and restore model variables&lt;/a&gt; – &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=Lx8JUJROkh0&amp;amp;index=4&amp;amp;list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ&amp;amp;spfreload=1#t=5m55s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;and here&lt;/a&gt; – &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=Lx8JUJROkh0&amp;amp;index=4&amp;amp;list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ&amp;amp;spfreload=1#t=11m30s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;and restore&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

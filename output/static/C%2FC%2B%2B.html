@@ -1,1 +1,67 @@
-<p><a class="tc-tiddlylink-external" href="http://c-faq.com/decl/spiral.anderson.html" rel="noopener noreferrer" target="_blank">The ``Clockwise/Spiral Rule''</a> for parsing C variable declarations!</p><p><u>Random numbers and probability distributions in C++</u></p><p><a class="tc-tiddlylink-external" href="https://channel9.msdn.com/Events/GoingNative/2013/rand-Considered-Harmful" rel="noopener noreferrer" target="_blank">rand-Considered-Harmful .. New functions in C++</a> See minute 15, for example.</p><p>Uses this library: <a class="tc-tiddlylink-external" href="http://www.cplusplus.com/reference/random/" rel="noopener noreferrer" target="_blank">http://www.cplusplus.com/reference/random/</a>. rand() considered deprecated for most uses..</p><p><a class="tc-tiddlylink-external" href="http://www.cplusplus.com/doc/tutorial/" rel="noopener noreferrer" target="_blank">C++ tutorial</a></p><p><a class="tc-tiddlylink-external" href="http://stackoverflow.com/questions/4437527/why-do-we-use-volatile-keyword-in-c" rel="noopener noreferrer" target="_blank">volatile qualifier</a></p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Reference%20(computer%20science)">References</a> are nothing but constant pointers in C++ (see <a class="tc-tiddlylink-external" href="http://www.codeproject.com/Articles/13363/An-Insight-to-References-in-C" rel="noopener noreferrer" target="_blank">here</a>).</p><p>See Lynda.com videos.</p><p><a class="tc-tiddlylink-external" href="http://eigen.tuxfamily.org/index.php?title=Main_Page" rel="noopener noreferrer" target="_blank">http://eigen.tuxfamily.org/index.php?title=Main_Page</a></p><p>Armadillo</p><h3 class="">cling </h3><p>c++ REPL, also for jupyter now</p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>C/C++: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists    &quot; data-tags=&quot;&quot; data-tiddler-title=&quot;C/C++&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+C/C++
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 4th December 2017 at 10:12am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://c-faq.com/decl/spiral.anderson.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;The ``Clockwise/Spiral Rule''&lt;/a&gt; for parsing C variable declarations!&lt;/p&gt;&lt;p&gt;&lt;u&gt;Random numbers and probability distributions in C++&lt;/u&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://channel9.msdn.com/Events/GoingNative/2013/rand-Considered-Harmful&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;rand-Considered-Harmful .. New functions in C++&lt;/a&gt; See minute 15, for example.&lt;/p&gt;&lt;p&gt;Uses this library: &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.cplusplus.com/reference/random/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://www.cplusplus.com/reference/random/&lt;/a&gt;. rand() considered deprecated for most uses..&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.cplusplus.com/doc/tutorial/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;C++ tutorial&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://stackoverflow.com/questions/4437527/why-do-we-use-volatile-keyword-in-c&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;volatile qualifier&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Reference%2520(computer%2520science).html&quot;&gt;References&lt;/a&gt; are nothing but constant pointers in C++ (see &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.codeproject.com/Articles/13363/An-Insight-to-References-in-C&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;&lt;p&gt;See Lynda.com videos.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://eigen.tuxfamily.org/index.php?title=Main_Page&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://eigen.tuxfamily.org/index.php?title=Main_Page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Armadillo&lt;/p&gt;&lt;h3 class=&quot;&quot;&gt;cling &lt;/h3&gt;&lt;p&gt;c++ REPL, also for jupyter now&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

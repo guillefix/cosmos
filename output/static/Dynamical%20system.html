@@ -1,1 +1,79 @@
-<p><em>How things move</em></p><p>A space (in the mathematical sense, for a continuous space, one often uses a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Manifold">Manifold</a>, or a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Topological%20space">Topological space</a>), with a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Function">Function</a> (a.k.a. a map) that describes how a point in the space evolves (in &quot;time&quot;).</p><h2 class=""><u>Types of dynamical systems</u></h2><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Measure-theoretical%20dynamical%20system">Measure-theoretical dynamical system</a></p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Topological%20dynamical%20system">Topological dynamical system</a></p><p><strong><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Continuous%20dynamical%20system">Continuous dynamical system</a></strong> are dynamical systems where the space is continuous. It is often represented as a system of 1st order O.D.Es. Linear dynamical systems (O.D.E.s linear) are easy to analyze, and can be analyzed by looking at the eigenvalues of the Jacobian.</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Discrete%20dynamical%20system">Discrete dynamical system</a> are those where the space is discrete. They are often represented as systems of difference equations (see <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Nonlinear%20maps">Nonlinear maps</a>).</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Measure-theoretical%20dynamical%20system">Measure-theoretical dynamical system</a></p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Topological%20dynamical%20system">Topological dynamical system</a></p><p>The richest class of dynamical systems are <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Nonlinear%20system">Nonlinear system</a>s</p><p>A dynamical system, whether continuous or discrete, can be partitioned (<strong>coarse-grained</strong>), so that its dynamics can be studied as <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Symbolic%20dynamics">Symbolic dynamics</a>. If the system is a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Probabilistic%20dynamical%20system">Probabilistic dynamical system</a>, then the coarse-graining gives rise to a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Stochastic%20processes">stochastic process</a></p><h2 class=""><u>Deterministic vs probabilistic dynamics</u></h2><p>Dynamical systems generally describe deterministic processes. Probabilistic processes are described as <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Stochastic%20processes">Stochastic processes</a>. However, these can sometimes be described as deterministic dynamics of probability distributions, or as a probability measure over a deterministic process (i.e. a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Probabilistic%20dynamical%20system">Probabilistic dynamical system</a>).</p><hr><p>Dynamical system software: <a class="tc-tiddlylink-external" href="https://dsweb.siam.org/Software" rel="noopener noreferrer" target="_blank">https://dsweb.siam.org/Software</a></p><p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Dynamical_system_(definition)#Geometrical_cases" rel="noopener noreferrer" target="_blank">See Wiki page for good intro and different kinds</a></p><h3 class=""><a class="tc-tiddlylink-external" href="http://www.scholarpedia.org/article/Encyclopedia:Dynamical_systems" rel="noopener noreferrer" target="_blank">Encyclopedia:Dynamical systems</a></h3><p>Dynamical systems on complex space (particularly <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Discrete%20dynamical%20systems">discrete</a> ones): <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Complex%20dynamics">Complex dynamics</a></p><p><a class="tc-tiddlylink-external" href="http://chaosbook.org/course1/Syllabus.html" rel="noopener noreferrer" target="_blank">Nonlinear Dynamics 1: Geometry of Chaos by Predrag Cvitanović (ChaosBook course)</a></p><p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Floquet_theory" rel="noopener noreferrer" target="_blank">https://en.wikipedia.org/wiki/Floquet_theory</a></p><p><a class="tc-tiddlylink-external" href="http://www.math.lsa.umich.edu/~rauch/256/turingexample.pdf" rel="noopener noreferrer" target="_blank">Turing instability</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=csInNn6pfT4&amp;t=2s" rel="noopener noreferrer" target="_blank">Fixed Points</a></p><hr>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Dynamical system: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Mathematics &quot; data-tags=&quot;Mathematics&quot; data-tiddler-title=&quot;Dynamical system&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Dynamical system
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 2nd February 2018 at 8:42pm
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Mathematics
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;&lt;em&gt;How things move&lt;/em&gt;&lt;/p&gt;&lt;p&gt;A space (in the mathematical sense, for a continuous space, one often uses a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Manifold.html&quot;&gt;Manifold&lt;/a&gt;, or a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Topological%2520space.html&quot;&gt;Topological space&lt;/a&gt;), with a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Function.html&quot;&gt;Function&lt;/a&gt; (a.k.a. a map) that describes how a point in the space evolves (in &amp;quot;time&amp;quot;).&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;Types of dynamical systems&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Measure-theoretical%2520dynamical%2520system.html&quot;&gt;Measure-theoretical dynamical system&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Topological%2520dynamical%2520system.html&quot;&gt;Topological dynamical system&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Continuous%2520dynamical%2520system.html&quot;&gt;Continuous dynamical system&lt;/a&gt;&lt;/strong&gt; are dynamical systems where the space is continuous. It is often represented as a system of 1st order O.D.Es. Linear dynamical systems (O.D.E.s linear) are easy to analyze, and can be analyzed by looking at the eigenvalues of the Jacobian.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Discrete%2520dynamical%2520system.html&quot;&gt;Discrete dynamical system&lt;/a&gt; are those where the space is discrete. They are often represented as systems of difference equations (see &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Nonlinear%2520maps.html&quot;&gt;Nonlinear maps&lt;/a&gt;).&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Measure-theoretical%2520dynamical%2520system.html&quot;&gt;Measure-theoretical dynamical system&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Topological%2520dynamical%2520system.html&quot;&gt;Topological dynamical system&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The richest class of dynamical systems are &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Nonlinear%2520system.html&quot;&gt;Nonlinear system&lt;/a&gt;s&lt;/p&gt;&lt;p&gt;A dynamical system, whether continuous or discrete, can be partitioned (&lt;strong&gt;coarse-grained&lt;/strong&gt;), so that its dynamics can be studied as &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Symbolic%2520dynamics.html&quot;&gt;Symbolic dynamics&lt;/a&gt;. If the system is a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Probabilistic%2520dynamical%2520system.html&quot;&gt;Probabilistic dynamical system&lt;/a&gt;, then the coarse-graining gives rise to a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Stochastic%2520processes.html&quot;&gt;stochastic process&lt;/a&gt;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;Deterministic vs probabilistic dynamics&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;Dynamical systems generally describe deterministic processes. Probabilistic processes are described as &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Stochastic%2520processes.html&quot;&gt;Stochastic processes&lt;/a&gt;. However, these can sometimes be described as deterministic dynamics of probability distributions, or as a probability measure over a deterministic process (i.e. a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Probabilistic%2520dynamical%2520system.html&quot;&gt;Probabilistic dynamical system&lt;/a&gt;).&lt;/p&gt;&lt;hr&gt;&lt;p&gt;Dynamical system software: &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://dsweb.siam.org/Software&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://dsweb.siam.org/Software&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://en.wikipedia.org/wiki/Dynamical_system_(definition)#Geometrical_cases&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;See Wiki page for good intro and different kinds&lt;/a&gt;&lt;/p&gt;&lt;h3 class=&quot;&quot;&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.scholarpedia.org/article/Encyclopedia:Dynamical_systems&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Encyclopedia:Dynamical systems&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Dynamical systems on complex space (particularly &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Discrete%2520dynamical%2520systems.html&quot;&gt;discrete&lt;/a&gt; ones): &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Complex%2520dynamics.html&quot;&gt;Complex dynamics&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://chaosbook.org/course1/Syllabus.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Nonlinear Dynamics 1: Geometry of Chaos by Predrag Cvitanović (ChaosBook course)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://en.wikipedia.org/wiki/Floquet_theory&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://en.wikipedia.org/wiki/Floquet_theory&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.math.lsa.umich.edu/~rauch/256/turingexample.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Turing instability&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=csInNn6pfT4&amp;amp;t=2s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Fixed Points&lt;/a&gt;&lt;/p&gt;&lt;hr&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

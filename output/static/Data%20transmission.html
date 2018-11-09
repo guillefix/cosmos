@@ -1,1 +1,91 @@
-<p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Information%20theory">Information theory</a> for more details. See also <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Communication%20theory">Communication theory</a></p><p><strong>Data transmission</strong> refers to the transfer of information from one entity to another, by means of a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Data%20transmission%20system">Data transmission system</a> .</p><h2 class=""><u>Data transmission system</u></h2><p>See more here: <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Data%20transmission%20system">Data transmission system</a> </p><p><u>Properties of data transmission systems</u></p><ul><li><strong>Code</strong> used by the transmitter. See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Coding%20theory">Coding theory</a>.</li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Entropy%20rate">Entropy rate</a> of the transmitter (considered as an <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Information%20source">Information source</a>).</li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Channel%20capacity">Channel capacity</a> of the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Communication%20channel">Communication channel</a>. This quantity gives a limit to the rate at which information can be reliably sent through the channel, as established by the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Channel%20coding%20theorem">Channel coding theorem</a>.</li></ul><p><u>Types of communication channel</u></p><ul><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Finite%20state%20channel">Finite state channel</a></li></ul><p><u>Types of transmitter/receivers</u></p><p>These are mostly specified by the code they use. In data transmission systems, these are mostly <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Error-correcting%20code">Error-correcting code</a>s.</p><h2 class=""><u>Data transmission theory</u></h2><p>The main desired properties of a data transmission system, and thus the main subjects of study are:</p><ul><li><strong>Reliability</strong>. How unlikely is the receiver to interpret message wrongly?</li><li><strong>Speed</strong>. What is the maximum rate at which information can be sent over the channel? Measured in (bits decoded)/(channel bits sent)</li></ul><p>Thus the main problem of study is: for a particular communication channel, find code so that data transmission rate is as high as possible, while receiver receives the information with negligible probability of error.</p><p>This is sometimes called &quot;channel coding&quot; because the most reliable code depends on the properties of the channel. This is done by finding codewords (sequences of input values) such that their images are as disjoint as possible. This is equivalent to sphere packing in high dimensions.</p><p>The main result in data transmission theory is the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Channel%20coding%20theorem">Channel coding theorem</a>, which gives a <u>fundamental limit</u> to the data transmission rate that can be achieved by a code, while keeping error rates negligible. This limit turns out to be the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Channel%20capacity">Channel capacity</a>.</p><h2 class=""><u>Data transmission system engineering</u></h2><p>The goals stated above for a data transmission system are achieved in two main ways:</p><ul><li>Design and construction of optimal hardware (see <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Telecommunication">Telecommunication engineering</a>)</li><li>Design and use of optimal codes. This is one of the main goals of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Coding%20theory">Coding theory</a>, and in particular of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Error-correcting%20code">Error-correcting code</a>s.</li></ul><hr><p>See <a class="tc-tiddlylink-external" href="http://pfister.ee.duke.edu/thesis/chap1.pdf" rel="noopener noreferrer" target="_blank">http://pfister.ee.duke.edu/thesis/chap1.pdf</a>, and other chapters.</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=M5c_RFKVkko" rel="noopener noreferrer" target="_blank">Entropy in Compression - Computerphile</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Data transmission: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Information%20theory tc-tagged-Communication &quot; data-tags=&quot;[[Information theory]] Communication&quot; data-tiddler-title=&quot;Data transmission&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Data transmission
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;guillefix.html&quot;&gt;
+guillefix
+&lt;/a&gt; 4th November 2016 at 9:43am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Communication
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Information theory
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;See &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Information%2520theory.html&quot;&gt;Information theory&lt;/a&gt; for more details. See also &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Communication%2520theory.html&quot;&gt;Communication theory&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Data transmission&lt;/strong&gt; refers to the transfer of information from one entity to another, by means of a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Data%2520transmission%2520system.html&quot;&gt;Data transmission system&lt;/a&gt; .&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;Data transmission system&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;See more here: &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Data%2520transmission%2520system.html&quot;&gt;Data transmission system&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;u&gt;Properties of data transmission systems&lt;/u&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt; used by the transmitter. See &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Coding%2520theory.html&quot;&gt;Coding theory&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Entropy%2520rate.html&quot;&gt;Entropy rate&lt;/a&gt; of the transmitter (considered as an &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Information%2520source.html&quot;&gt;Information source&lt;/a&gt;).&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Channel%2520capacity.html&quot;&gt;Channel capacity&lt;/a&gt; of the &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Communication%2520channel.html&quot;&gt;Communication channel&lt;/a&gt;. This quantity gives a limit to the rate at which information can be reliably sent through the channel, as established by the &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Channel%2520coding%2520theorem.html&quot;&gt;Channel coding theorem&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;u&gt;Types of communication channel&lt;/u&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Finite%2520state%2520channel.html&quot;&gt;Finite state channel&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;u&gt;Types of transmitter/receivers&lt;/u&gt;&lt;/p&gt;&lt;p&gt;These are mostly specified by the code they use. In data transmission systems, these are mostly &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Error-correcting%2520code.html&quot;&gt;Error-correcting code&lt;/a&gt;s.&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;Data transmission theory&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;The main desired properties of a data transmission system, and thus the main subjects of study are:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Reliability&lt;/strong&gt;. How unlikely is the receiver to interpret message wrongly?&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Speed&lt;/strong&gt;. What is the maximum rate at which information can be sent over the channel? Measured in (bits decoded)/(channel bits sent)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Thus the main problem of study is: for a particular communication channel, find code so that data transmission rate is as high as possible, while receiver receives the information with negligible probability of error.&lt;/p&gt;&lt;p&gt;This is sometimes called &amp;quot;channel coding&amp;quot; because the most reliable code depends on the properties of the channel. This is done by finding codewords (sequences of input values) such that their images are as disjoint as possible. This is equivalent to sphere packing in high dimensions.&lt;/p&gt;&lt;p&gt;The main result in data transmission theory is the &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Channel%2520coding%2520theorem.html&quot;&gt;Channel coding theorem&lt;/a&gt;, which gives a &lt;u&gt;fundamental limit&lt;/u&gt; to the data transmission rate that can be achieved by a code, while keeping error rates negligible. This limit turns out to be the &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Channel%2520capacity.html&quot;&gt;Channel capacity&lt;/a&gt;.&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;Data transmission system engineering&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;The goals stated above for a data transmission system are achieved in two main ways:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Design and construction of optimal hardware (see &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Telecommunication.html&quot;&gt;Telecommunication engineering&lt;/a&gt;)&lt;/li&gt;&lt;li&gt;Design and use of optimal codes. This is one of the main goals of &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Coding%2520theory.html&quot;&gt;Coding theory&lt;/a&gt;, and in particular of &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Error-correcting%2520code.html&quot;&gt;Error-correcting code&lt;/a&gt;s.&lt;/li&gt;&lt;/ul&gt;&lt;hr&gt;&lt;p&gt;See &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://pfister.ee.duke.edu/thesis/chap1.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://pfister.ee.duke.edu/thesis/chap1.pdf&lt;/a&gt;, and other chapters.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=M5c_RFKVkko&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Entropy in Compression - Computerphile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

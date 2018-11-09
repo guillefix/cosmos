@@ -1,11 +1,89 @@
-<p>Found in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Residual%20neural%20network">Residual neural network</a>s, and <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Highway%20network">Highway network</a>s.</p><p>See connections to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Spiking%20neural%20network">Spiking neural network</a>s <a class="tc-tiddlylink-external" href="https://gingkoapp.com/app#7887cb3f9b23d73d7600001f" rel="noopener noreferrer" target="_blank">here</a>. See also <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Time-delay%20neural%20network">Time-delay neural network</a></p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1604.03640" rel="noopener noreferrer" target="_blank">Bridging the Gaps Between Residual Learning, Recurrent Neural Networks and Visual Cortex</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=x1kf4Zojtb0#t=16m52.5s" rel="noopener noreferrer" target="_blank">Skip connections</a></p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1701.09175" rel="noopener noreferrer" target="_blank">Skip Connections as Effective Symmetry-Breaking</a>. We argue that skip connections help break symmetries inherent in the loss landscapes of deep networks, leading to drastically simplified landscapes. We find, however, that skip connections confer additional benefits over and above symmetry-breaking, such as the ability to deal effectively with the vanishing gradients problem.</p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/pdf/1612.07771.pdf" rel="noopener noreferrer" target="_blank">HIGHWAY AND RESIDUAL NETWORKS LEARN UNROLLED ITERATIVE ESTIMATION</a></p><p><a class="tc-tiddlylink-external" href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Bell_Inside-Outside_Net_Detecting_CVPR_2016_paper.pdf" rel="noopener noreferrer" target="_blank">Inside-Outside Net: Detecting Objects in Context with Skip Pooling and Recurrent Neural Networks</a> . Contextual information outside
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Skip-connection: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Artificial%20neural%20network &quot; data-tags=&quot;[[Artificial neural network]]&quot; data-tiddler-title=&quot;Skip-connection&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Skip-connection
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 20th August 2017 at 2:11pm
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Artificial neural network
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;Found in &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Residual%2520neural%2520network.html&quot;&gt;Residual neural network&lt;/a&gt;s, and &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Highway%2520network.html&quot;&gt;Highway network&lt;/a&gt;s.&lt;/p&gt;&lt;p&gt;See connections to &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Spiking%2520neural%2520network.html&quot;&gt;Spiking neural network&lt;/a&gt;s &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://gingkoapp.com/app#7887cb3f9b23d73d7600001f&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. See also &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Time-delay%2520neural%2520network.html&quot;&gt;Time-delay neural network&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://arxiv.org/abs/1604.03640&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Bridging the Gaps Between Residual Learning, Recurrent Neural Networks and Visual Cortex&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=x1kf4Zojtb0#t=16m52.5s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Skip connections&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://arxiv.org/abs/1701.09175&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Skip Connections as Effective Symmetry-Breaking&lt;/a&gt;. We argue that skip connections help break symmetries inherent in the loss landscapes of deep networks, leading to drastically simplified landscapes. We find, however, that skip connections confer additional benefits over and above symmetry-breaking, such as the ability to deal effectively with the vanishing gradients problem.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://arxiv.org/pdf/1612.07771.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;HIGHWAY AND RESIDUAL NETWORKS LEARN UNROLLED ITERATIVE ESTIMATION&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Bell_Inside-Outside_Net_Detecting_CVPR_2016_paper.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Inside-Outside Net: Detecting Objects in Context with Skip Pooling and Recurrent Neural Networks&lt;/a&gt; . Contextual information outside
 the region of interest is integrated using spatial recurrent
 neural networks. Inside, we use skip pooling to extract
-information at multiple scales and levels of abstraction – <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=-QNDu_8Q7_A&amp;feature=youtu.be" rel="noopener noreferrer" target="_blank">video</a> –<a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=-QNDu_8Q7_A&amp;feature=youtu.be#t=2m" rel="noopener noreferrer" target="_blank">SKIP CONNECTIONS -- what and where</a></p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1611.05552" rel="noopener noreferrer" target="_blank">DelugeNets: Deep Networks with Massive and Flexible Cross-layer Information Inflows</a>
- – <a class="tc-tiddlylink-external" href="https://arxiv.org/pdf/1608.06993.pdf" rel="noopener noreferrer" target="_blank">Densely Connected Convolutional Networks</a>
- – <a class="tc-tiddlylink-external" href="https://arxiv.org/pdf/1411.5752.pdf" rel="noopener noreferrer" target="_blank">Hypercolumns for Object Segmentation and Fine-grained Localization</a> – </p><p>See applications in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Image%20segmentation">Image segmentation</a>, and <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Object%20detection">Object detection</a></p><p>I think skip-connections can simulate <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Polychronization">Polychronization</a></p><p><a class="tc-tiddlylink-external" href="https://pdfs.semanticscholar.org/1a6b/8d832037f1565f6b81e3743fdacd227c6009.pdf" rel="noopener noreferrer" target="_blank">Recurrent Residual Learning for Sequence Classification</a> – We show that
+information at multiple scales and levels of abstraction – &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=-QNDu_8Q7_A&amp;amp;feature=youtu.be&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;video&lt;/a&gt; –&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=-QNDu_8Q7_A&amp;amp;feature=youtu.be#t=2m&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;SKIP CONNECTIONS -- what and where&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://arxiv.org/abs/1611.05552&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;DelugeNets: Deep Networks with Massive and Flexible Cross-layer Information Inflows&lt;/a&gt;
+ – &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://arxiv.org/pdf/1608.06993.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Densely Connected Convolutional Networks&lt;/a&gt;
+ – &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://arxiv.org/pdf/1411.5752.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Hypercolumns for Object Segmentation and Fine-grained Localization&lt;/a&gt; – &lt;/p&gt;&lt;p&gt;See applications in &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Image%2520segmentation.html&quot;&gt;Image segmentation&lt;/a&gt;, and &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Object%2520detection.html&quot;&gt;Object detection&lt;/a&gt;&lt;/p&gt;&lt;p&gt;I think skip-connections can simulate &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Polychronization.html&quot;&gt;Polychronization&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://pdfs.semanticscholar.org/1a6b/8d832037f1565f6b81e3743fdacd227c6009.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Recurrent Residual Learning for Sequence Classification&lt;/a&gt; – We show that
 for sequence classification tasks, incorporating
 residual connections into recurrent structures
 yields similar accuracy to Long Short
 Term Memory (LSTM) RNN with much fewer
-model parameters. – <a class="tc-tiddlylink-external" href="https://publish.illinois.edu/yirenwang/home/emnlp16source/" rel="noopener noreferrer" target="_blank">Code</a></p><p><a class="tc-tiddlylink-external" href="http://papers.nips.cc/paper/6303-architectural-complexity-measures-of-recurrent-neural-networks.pdf" rel="noopener noreferrer" target="_blank">Architectural complexity of RNNs</a></p><p>Deep transition RNN - <a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1312.6026" rel="noopener noreferrer" target="_blank">How to Construct Deep Recurrent Neural Networks</a></p>
+model parameters. – &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://publish.illinois.edu/yirenwang/home/emnlp16source/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Code&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://papers.nips.cc/paper/6303-architectural-complexity-measures-of-recurrent-neural-networks.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Architectural complexity of RNNs&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Deep transition RNN - &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://arxiv.org/abs/1312.6026&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;How to Construct Deep Recurrent Neural Networks&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

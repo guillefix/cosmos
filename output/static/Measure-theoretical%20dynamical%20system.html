@@ -1,1 +1,67 @@
-<p>A <strong>Measure-theoretical dynamical system</strong> is comprised of:</p><ul><li>a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Measurable%20space">Measurable space</a></li><li>a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Measurable%20function">measurable map</a></li><li>a non-singular <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Measure">Measure</a></li></ul><p>This space can be considered, without restriction to be a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Probability%20space">Probability space</a>. See Amigo's book.</p><p>See <a class="tc-tiddlylink-external" href="https://www.dropbox.com/s/fv3fc6jawf9oswl/%5BManfred_Denker%5D_Ergodic_Theory_on_Compact_Spaces%28BookZZ.org%29.djvu?dl=0" rel="noopener noreferrer" target="_blank">here</a> (<a class="tc-tiddlylink-external" href="file:///home/guillefix/Dropbox/COSMOS/Mathematics/Ergodic%20theory/%5BManfred_Denker%5D_Ergodic_Theory_on_Compact_Spaces(BookZZ.org).djvu" rel="noopener noreferrer" target="_blank">local</a>).</p><p>A <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Dynamical%20system">Dynamical system</a> on a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Measurable%20space">Measurable space</a> has a <em>natural</em> or <em>physical invariant measure</em>, corresponding to the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Probability%20measure">Probability measure</a> that numerical simulations of the system would produce asymptotically.</p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Measure-theoretical dynamical system: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists    &quot; data-tags=&quot;&quot; data-tiddler-title=&quot;Measure-theoretical dynamical system&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Measure-theoretical dynamical system
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;guillefix.html&quot;&gt;
+guillefix
+&lt;/a&gt; 4th November 2016 at 9:43am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;A &lt;strong&gt;Measure-theoretical dynamical system&lt;/strong&gt; is comprised of:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Measurable%2520space.html&quot;&gt;Measurable space&lt;/a&gt;&lt;/li&gt;&lt;li&gt;a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Measurable%2520function.html&quot;&gt;measurable map&lt;/a&gt;&lt;/li&gt;&lt;li&gt;a non-singular &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Measure.html&quot;&gt;Measure&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;This space can be considered, without restriction to be a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Probability%2520space.html&quot;&gt;Probability space&lt;/a&gt;. See Amigo's book.&lt;/p&gt;&lt;p&gt;See &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.dropbox.com/s/fv3fc6jawf9oswl/%5BManfred_Denker%5D_Ergodic_Theory_on_Compact_Spaces%28BookZZ.org%29.djvu?dl=0&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; (&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;file:///home/guillefix/Dropbox/COSMOS/Mathematics/Ergodic%20theory/%5BManfred_Denker%5D_Ergodic_Theory_on_Compact_Spaces(BookZZ.org).djvu&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;local&lt;/a&gt;).&lt;/p&gt;&lt;p&gt;A &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Dynamical%2520system.html&quot;&gt;Dynamical system&lt;/a&gt; on a &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Measurable%2520space.html&quot;&gt;Measurable space&lt;/a&gt; has a &lt;em&gt;natural&lt;/em&gt; or &lt;em&gt;physical invariant measure&lt;/em&gt;, corresponding to the &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Probability%2520measure.html&quot;&gt;Probability measure&lt;/a&gt; that numerical simulations of the system would produce asymptotically.&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

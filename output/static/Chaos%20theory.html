@@ -1,1 +1,79 @@
-<p>–&gt; See <a class="tc-tiddlylink-external" href="https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3082/141/main_4.pdf" rel="noopener noreferrer" target="_blank">Oxford course notes</a>, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Chaos">Chaos</a></p><h2 class=""><u>Characteristics of chaos</u></h2><ul><li>Countable infinity of periodic orbits</li><li>Uncountable infinity of aperiodic orbits</li><li>Sensitive dependence on initial conditions. See Lyapunov exponents in <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Nonlinear%20dynamical%20systems">Nonlinear dynamical systems</a></li><li>A dense orbit, which comes arbitrarily close to all periodic orbits.</li></ul><p><a class="tc-tiddlylink-external" href="http://mathworld.wolfram.com/Chaos.html" rel="noopener noreferrer" target="_blank">http://mathworld.wolfram.com/Chaos.html</a> (<a class="tc-tiddlylink tc-tiddlylink-missing" href="#Topological%20transitivity">Topological transitivity</a>)</p><p><u>Chaotic <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Nonlinear%20maps">maps</a></u></p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Symbolic%20dynamics">Symbolic dynamics</a> can be used to analyze them</p><ul><li>Logistic map</li><li>Binary shift map</li><li>Skinny baker map</li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Smale%20horseshoe%20map">Smale horseshoe map</a></li></ul><p><u>Chaotic <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Nonlinear%20dynamical%20systems">Nonlinear dynamical systems</a></u></p><ul><li>Lorenz system</li><li>Rossler system</li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Duffing%20oscillator">Duffing oscillator</a></li></ul><h2 class=""><u>Routes to chaos</u></h2><h3 class=""><u>Period doubling</u></h3><p><strong>Sarkovskii's theorem</strong></p><p>Period 3 implies chaos</p><h3 class=""><u>Intermittency</u></h3><h3 class=""><u>Blue sky catastrophe</u></h3><hr><p>Every chaotic dynamical system is a fractal-manufacturing machine</p><p><img src="https://pbs.twimg.com/media/Cgg8HmqXIAAn42P.jpg:large"></p><p><a class="tc-tiddlylink-external" href="http://www.nehudlit.ru/books/detail5822.html" rel="noopener noreferrer" target="_blank">An Introduction to chaotic dynamical systems. Second edition</a></p><p><a class="tc-tiddlylink-external" href="https://bl.ocks.org/gcalmettes/2097c8e3e077bbd1b30dce3dbb93ac58" rel="noopener noreferrer" target="_blank">animation of rossler attractor</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Chaos theory: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Nonlinear%20systems &quot; data-tags=&quot;[[Nonlinear systems]]&quot; data-tiddler-title=&quot;Chaos theory&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Chaos theory
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 7th August 2018 at 5:41pm
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Nonlinear systems
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;–&amp;gt; See &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3082/141/main_4.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Oxford course notes&lt;/a&gt;, &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Chaos.html&quot;&gt;Chaos&lt;/a&gt;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;Characteristics of chaos&lt;/u&gt;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Countable infinity of periodic orbits&lt;/li&gt;&lt;li&gt;Uncountable infinity of aperiodic orbits&lt;/li&gt;&lt;li&gt;Sensitive dependence on initial conditions. See Lyapunov exponents in &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Nonlinear%2520dynamical%2520systems.html&quot;&gt;Nonlinear dynamical systems&lt;/a&gt;&lt;/li&gt;&lt;li&gt;A dense orbit, which comes arbitrarily close to all periodic orbits.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://mathworld.wolfram.com/Chaos.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://mathworld.wolfram.com/Chaos.html&lt;/a&gt; (&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Topological%2520transitivity.html&quot;&gt;Topological transitivity&lt;/a&gt;)&lt;/p&gt;&lt;p&gt;&lt;u&gt;Chaotic &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Nonlinear%2520maps.html&quot;&gt;maps&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Symbolic%2520dynamics.html&quot;&gt;Symbolic dynamics&lt;/a&gt; can be used to analyze them&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Logistic map&lt;/li&gt;&lt;li&gt;Binary shift map&lt;/li&gt;&lt;li&gt;Skinny baker map&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Smale%2520horseshoe%2520map.html&quot;&gt;Smale horseshoe map&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;u&gt;Chaotic &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Nonlinear%2520dynamical%2520systems.html&quot;&gt;Nonlinear dynamical systems&lt;/a&gt;&lt;/u&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Lorenz system&lt;/li&gt;&lt;li&gt;Rossler system&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Duffing%2520oscillator.html&quot;&gt;Duffing oscillator&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;Routes to chaos&lt;/u&gt;&lt;/h2&gt;&lt;h3 class=&quot;&quot;&gt;&lt;u&gt;Period doubling&lt;/u&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Sarkovskii's theorem&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Period 3 implies chaos&lt;/p&gt;&lt;h3 class=&quot;&quot;&gt;&lt;u&gt;Intermittency&lt;/u&gt;&lt;/h3&gt;&lt;h3 class=&quot;&quot;&gt;&lt;u&gt;Blue sky catastrophe&lt;/u&gt;&lt;/h3&gt;&lt;hr&gt;&lt;p&gt;Every chaotic dynamical system is a fractal-manufacturing machine&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/Cgg8HmqXIAAn42P.jpg:large&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://www.nehudlit.ru/books/detail5822.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;An Introduction to chaotic dynamical systems. Second edition&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://bl.ocks.org/gcalmettes/2097c8e3e077bbd1b30dce3dbb93ac58&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;animation of rossler attractor&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

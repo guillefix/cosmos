@@ -1,1 +1,67 @@
-<p>Keywords: <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Network%20science">Network science</a>, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Epidemiology">Epidemiology</a></p><p><a class="tc-tiddlylink-external" href="https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3127/22/soc-influence-dynamics_on_networks.pdf" rel="noopener noreferrer" target="_blank">Cascades on Networks</a>. There <em>Watt's cascade model</em> is described, among other things.</p><p>See Mason and Gleeson &quot;Dynamical systems on networks&quot;</p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Types%20of%20contagions">Types of contagions</a></u></h2><p>For <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Simple%20contagion">Simple contagion</a>s, a node can get infected by simple exposure to another infected node (possibly with a certain probability or rate). These are mostly <em>compartmental models</em>, and their extensions are used to model mostly biological contagions (like infectious diseases), as well as some IT contagions (like computer viruses)</p><p>For <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Complex%20contagion">Complex contagion</a>s, nodes get infected by more complex processes, often involving several other nodes. These are often used to model more complicated social contagions and phenomena. See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Social%20dynamics">Social dynamics</a></p><p>See also wiki page: <a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Complex_contagion" rel="noopener noreferrer" target="_blank">Complex contagion</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Epidemics on networks: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists    &quot; data-tags=&quot;&quot; data-tiddler-title=&quot;Epidemics on networks&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Epidemics on networks
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;guillefix.html&quot;&gt;
+guillefix
+&lt;/a&gt; 4th November 2016 at 9:43am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;Keywords: &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Network%2520science.html&quot;&gt;Network science&lt;/a&gt;, &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Epidemiology.html&quot;&gt;Epidemiology&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3127/22/soc-influence-dynamics_on_networks.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Cascades on Networks&lt;/a&gt;. There &lt;em&gt;Watt's cascade model&lt;/em&gt; is described, among other things.&lt;/p&gt;&lt;p&gt;See Mason and Gleeson &amp;quot;Dynamical systems on networks&amp;quot;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Types%2520of%2520contagions.html&quot;&gt;Types of contagions&lt;/a&gt;&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;For &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Simple%2520contagion.html&quot;&gt;Simple contagion&lt;/a&gt;s, a node can get infected by simple exposure to another infected node (possibly with a certain probability or rate). These are mostly &lt;em&gt;compartmental models&lt;/em&gt;, and their extensions are used to model mostly biological contagions (like infectious diseases), as well as some IT contagions (like computer viruses)&lt;/p&gt;&lt;p&gt;For &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Complex%2520contagion.html&quot;&gt;Complex contagion&lt;/a&gt;s, nodes get infected by more complex processes, often involving several other nodes. These are often used to model more complicated social contagions and phenomena. See &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Social%2520dynamics.html&quot;&gt;Social dynamics&lt;/a&gt;&lt;/p&gt;&lt;p&gt;See also wiki page: &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://en.wikipedia.org/wiki/Complex_contagion&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Complex contagion&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

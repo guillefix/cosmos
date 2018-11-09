@@ -1,1 +1,91 @@
-<p><strong>Analytic combinatorics</strong> is a calculus (set of mathematical tools) for analyzing properties of large combinatorial structures.</p><p><a class="tc-tiddlylink-external" href="http://algo.inria.fr/flajolet/Publications/book.pdf" rel="noopener noreferrer" target="_blank">Book</a> <a class="tc-tiddlylink-external" href="http://ac.cs.princeton.edu/10ogf/" rel="noopener noreferrer" target="_blank">website of book</a> <a class="tc-tiddlylink-external" href="https://www.youtube.com/playlist?list=PLhsb6tmzSpiwyQCl4jmVPZymDs1MYIa8o" rel="noopener noreferrer" target="_blank">videocourse</a></p><p><img class="img-centered" src="http://i.imgur.com/VMuVMA8.png" width="400"></p><h2 class=""><u>Symbolic method</u></h2><ul><li>Define a <strong>combinatorial class</strong>:<ul><li>Define a <em>class</em> of combinatorial objects</li><li>Define a notion of <em>size</em> (and an associated generating function)</li></ul></li><li>Use standard operations to develop a <em>specification</em> of the structure</li></ul><p>Result: A direct derivation of a <strong>GF equation</strong> (implicit of explicit), i.e. an equation that the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Generating%20function">Generating function</a> must satisfy.</p><p>Classic next steps:</p><ul><li>Extract coefficients</li><li>Use classic asymptotics to estimate coefficients</li></ul><p>Result: Asymptotic estimates that quantify the desired properties.</p><h3 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Symbolic%20method%20for%20unlabelled%20structures">Symbolic method for unlabelled structures</a> (Ordinary generating function)</u></h3><h3 class=""><u><a class="tc-tiddlylink tc-tiddlylink-missing" href="#Symbolic%20method%20for%20labelled%20structures">Symbolic method for labelled structures</a> (Exponential generating function)</u></h3><hr><p><u>Video course</u></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/playlist?list=PLhsb6tmzSpiwyQCl4jmVPZymDs1MYIa8o" rel="noopener noreferrer" target="_blank">Analytic Combinatorics, Part II (Analytic Combinatorics)</a></p><p>In Coursera: <a class="tc-tiddlylink-external" href="https://www.coursera.org/course/ac" rel="noopener noreferrer" target="_blank">Analytic Combinatorics</a></p><p>Applications: <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Analysis%20of%20algorithms">Analysis of algorithms</a>, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Random%20deterministic%20automata">Random deterministic automata</a>, ...</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Enumerative%20combinatorics%20of%20maps">Enumerative combinatorics of maps</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Analytic combinatorics: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Combinatorics tc-tagged-Analysis &quot; data-tags=&quot;Combinatorics Analysis&quot; data-tiddler-title=&quot;Analytic combinatorics&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Analytic combinatorics
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 12th March 2017 at 6:56am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Analysis
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Combinatorics
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;&lt;strong&gt;Analytic combinatorics&lt;/strong&gt; is a calculus (set of mathematical tools) for analyzing properties of large combinatorial structures.&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://algo.inria.fr/flajolet/Publications/book.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Book&lt;/a&gt; &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://ac.cs.princeton.edu/10ogf/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;website of book&lt;/a&gt; &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/playlist?list=PLhsb6tmzSpiwyQCl4jmVPZymDs1MYIa8o&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;videocourse&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;img class=&quot;img-centered&quot; src=&quot;http://i.imgur.com/VMuVMA8.png&quot; width=&quot;400&quot;&gt;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;Symbolic method&lt;/u&gt;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Define a &lt;strong&gt;combinatorial class&lt;/strong&gt;:&lt;ul&gt;&lt;li&gt;Define a &lt;em&gt;class&lt;/em&gt; of combinatorial objects&lt;/li&gt;&lt;li&gt;Define a notion of &lt;em&gt;size&lt;/em&gt; (and an associated generating function)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Use standard operations to develop a &lt;em&gt;specification&lt;/em&gt; of the structure&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Result: A direct derivation of a &lt;strong&gt;GF equation&lt;/strong&gt; (implicit of explicit), i.e. an equation that the &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Generating%2520function.html&quot;&gt;Generating function&lt;/a&gt; must satisfy.&lt;/p&gt;&lt;p&gt;Classic next steps:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Extract coefficients&lt;/li&gt;&lt;li&gt;Use classic asymptotics to estimate coefficients&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Result: Asymptotic estimates that quantify the desired properties.&lt;/p&gt;&lt;h3 class=&quot;&quot;&gt;&lt;u&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Symbolic%2520method%2520for%2520unlabelled%2520structures.html&quot;&gt;Symbolic method for unlabelled structures&lt;/a&gt; (Ordinary generating function)&lt;/u&gt;&lt;/h3&gt;&lt;h3 class=&quot;&quot;&gt;&lt;u&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;Symbolic%2520method%2520for%2520labelled%2520structures.html&quot;&gt;Symbolic method for labelled structures&lt;/a&gt; (Exponential generating function)&lt;/u&gt;&lt;/h3&gt;&lt;hr&gt;&lt;p&gt;&lt;u&gt;Video course&lt;/u&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/playlist?list=PLhsb6tmzSpiwyQCl4jmVPZymDs1MYIa8o&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Analytic Combinatorics, Part II (Analytic Combinatorics)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;In Coursera: &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.coursera.org/course/ac&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Analytic Combinatorics&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Applications: &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Analysis%2520of%2520algorithms.html&quot;&gt;Analysis of algorithms&lt;/a&gt;, &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Random%2520deterministic%2520automata.html&quot;&gt;Random deterministic automata&lt;/a&gt;, ...&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Enumerative%2520combinatorics%2520of%2520maps.html&quot;&gt;Enumerative combinatorics of maps&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

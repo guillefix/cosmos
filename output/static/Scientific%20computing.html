@@ -1,1 +1,103 @@
-<p><a class="tc-tiddlylink-external" href="https://www0.maths.ox.ac.uk/courses/course/28839" rel="noopener noreferrer" target="_blank">Oxford course</a> – <a class="tc-tiddlylink-external" href="https://weblearn.ox.ac.uk/portal/hierarchy/mpls/maths/sci_comp" rel="noopener noreferrer" target="_blank">Online lectures</a> – <a class="tc-tiddlylink-external" href="http://colorfulengineering.org/SCICOMP.html" rel="noopener noreferrer" target="_blank">http://colorfulengineering.org/SCICOMP.html</a></p><p>Mostly <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Numerical%20method">Numerical method</a>s, but also other <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Mathematical%20methods">Mathematical methods</a>, such as <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Computer%20algebra">Computer algebra</a></p><h2 class="">Linear algebra</h2><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Numerical%20linear%20algebra">Numerical linear algebra</a></p><h2 class="">Optimization</h2><h2 class="">Differential Equations</h2><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Numerical%20methods%20for%20differential%20equations">Numerical methods for differential equations</a></p><hr><h2 class=""><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Monte%20Carlo">Monte Carlo</a></h2><hr><p><a class="tc-tiddlylink-external" href="https://github.com/gentoo-science/sci" rel="noopener noreferrer" target="_blank">Gentoo Science Overlay</a> has a nice collection of scientific computing software</p><p><a class="tc-tiddlylink-external" href="https://www.enthought.com/" rel="noopener noreferrer" target="_blank">https://www.enthought.com/</a></p><p><a class="tc-tiddlylink-external" href="http://scipy.org/" rel="noopener noreferrer" target="_blank">http://scipy.org/</a></p><p><a class="tc-tiddlylink-external" href="https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks" rel="noopener noreferrer" target="_blank">A gallery of interesting IPython Notebooks</a></p>
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Scientific computing: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Computer%20Science%20and%20IT tc-tagged-MMathPhys tc-tagged-Science &quot; data-tags=&quot;[[Computer Science and IT]] MMathPhys Science&quot; data-tiddler-title=&quot;Scientific computing&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Scientific computing
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 4th January 2017 at 7:10pm
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Computer Science and IT
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ MMathPhys
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;span class=&quot;tc-tag-list-item&quot;&gt;
+
+
+&lt;span class=&quot;tc-tag-label tc-btn-invisible&quot; draggable=&quot;true&quot; style=&quot;background-color:;
+fill:#333333;
+color:#333333;&quot;&gt;
+ Science
+&lt;/span&gt;
+
+&lt;span class=&quot;tc-drop-down tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www0.maths.ox.ac.uk/courses/course/28839&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Oxford course&lt;/a&gt; – &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://weblearn.ox.ac.uk/portal/hierarchy/mpls/maths/sci_comp&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Online lectures&lt;/a&gt; – &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://colorfulengineering.org/SCICOMP.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://colorfulengineering.org/SCICOMP.html&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Mostly &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Numerical%2520method.html&quot;&gt;Numerical method&lt;/a&gt;s, but also other &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Mathematical%2520methods.html&quot;&gt;Mathematical methods&lt;/a&gt;, such as &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Computer%2520algebra.html&quot;&gt;Computer algebra&lt;/a&gt;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;Linear algebra&lt;/h2&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Numerical%2520linear%2520algebra.html&quot;&gt;Numerical linear algebra&lt;/a&gt;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;Optimization&lt;/h2&gt;&lt;h2 class=&quot;&quot;&gt;Differential Equations&lt;/h2&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Numerical%2520methods%2520for%2520differential%2520equations.html&quot;&gt;Numerical methods for differential equations&lt;/a&gt;&lt;/p&gt;&lt;hr&gt;&lt;h2 class=&quot;&quot;&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Monte%2520Carlo.html&quot;&gt;Monte Carlo&lt;/a&gt;&lt;/h2&gt;&lt;hr&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://github.com/gentoo-science/sci&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Gentoo Science Overlay&lt;/a&gt; has a nice collection of scientific computing software&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.enthought.com/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://www.enthought.com/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://scipy.org/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://scipy.org/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;A gallery of interesting IPython Notebooks&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>

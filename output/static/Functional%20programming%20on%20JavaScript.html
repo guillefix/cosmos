@@ -1,6 +1,72 @@
-<p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Functional%20programming">Functional programming</a> in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#JavaScript">JavaScript</a>. <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=1DMolJ2FrNY&amp;list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84#t=71.591166" rel="noopener noreferrer" target="_blank">Functional programming in Javascript</a></p><p><a class="tc-tiddlylink-external" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map" rel="noopener noreferrer" target="_blank">Array.prototype.map()</a></p><p><a class="tc-tiddlylink-external" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce" rel="noopener noreferrer" target="_blank">Array.prototype.reduce()</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?annotation_id=d3718aa0-5465-403b-bd56-2d603793ba62&amp;feature=cards&amp;src_vid=UD2dZw9iHCc&amp;v=2d7s3spWAzo" rel="noopener noreferrer" target="_blank">Promises</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=BMUiFMZr7vk&amp;list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84" rel="noopener noreferrer" target="_blank">Higher-order functions - Part 1 of Functional Programming in JavaScript</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=UD2dZw9iHCc&amp;index=11&amp;list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84" rel="noopener noreferrer" target="_blank">Streams - FunFunFunction #13</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=9QveBbn7t_c" rel="noopener noreferrer" target="_blank">Monad</a></p><p>map, filter, reduce. Nice game to explain map, reduce, filter: <a class="tc-tiddlylink-external" href="http://david-peter.de/cube-composer/" rel="noopener noreferrer" target="_blank">http://david-peter.de/cube-composer/</a><img src="https://hsto.org/files/fbc/33e/2b2/fbc33e2b26894055b3a2c8d5d272aebb.jpg"></p><h2 class=""><u>Libraries</u></h2><p><a class="tc-tiddlylink-external" href="http://elm-lang.org/" rel="noopener noreferrer" target="_blank">http://elm-lang.org/</a>
-<a class="tc-tiddlylink-external" href="http://cycle.js.org/" rel="noopener noreferrer" target="_blank">http://cycle.js.org/</a>
-<a class="tc-tiddlylink-external" href="https://baconjs.github.io/" rel="noopener noreferrer" target="_blank">https://baconjs.github.io/</a> (also reactive)
+<p><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;TiddlyWiki&quot; /&gt;
+&lt;meta name=&quot;tiddlywiki-version&quot; content=&quot;</code>5.1.17<code>&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot; /&gt;
+&lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;/&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;link id=&quot;faviconLink&quot; rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static.css&quot;&gt;
+&lt;title&gt;</code>Functional programming on JavaScript: Cosmos — Everything there was, there is, <span class="subtitle-dark">and there will be</span><code>&lt;/title&gt;
+&lt;/head&gt;
+&lt;body class=&quot;tc-body&quot;&gt;
+</code><code>
+&lt;section class=&quot;tc-story-river&quot;&gt;
+</code>
+&lt;p&gt;&lt;div class=&quot;tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists    &quot; data-tags=&quot;&quot; data-tiddler-title=&quot;Functional programming on JavaScript&quot;&gt;&lt;div class=&quot;tc-tiddler-title&quot;&gt;
+&lt;div class=&quot;tc-titlebar&quot;&gt;
+&lt;span class=&quot;tc-tiddler-controls&quot;&gt;
+&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;more&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions&quot; title=&quot;More actions&quot;&gt;&lt;/button&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;edit&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit&quot; title=&quot;Edit this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;close&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose&quot; title=&quot;Close this tiddler&quot;&gt;&lt;/button&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;span class=&quot; tc-reveal&quot;&gt;&lt;button aria-label=&quot;tiddlymap&quot; class=&quot;tc-btn-invisible tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton &quot; title=&quot;Toggle TiddlyMap actions&quot;&gt;
+
+
+&lt;/button&gt;&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span&gt;
+
+&lt;span class=&quot;tc-tiddler-title-icon&quot; style=&quot;fill:;&quot;&gt;
+
+&lt;/span&gt;
+
+
+
+&lt;h2 class=&quot;tc-title&quot;&gt;
+Functional programming on JavaScript
+&lt;/h2&gt;
+
+&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;tc-tiddler-info tc-popup-handle tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot; tc-reveal&quot; hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;cosmos.html&quot;&gt;
+cosmos
+&lt;/a&gt; 4th November 2016 at 9:43am
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot; tc-reveal&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tc-tiddler-body tc-reveal&quot;&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Functional%2520programming.html&quot;&gt;Functional programming&lt;/a&gt; in &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;JavaScript.html&quot;&gt;JavaScript&lt;/a&gt;. &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=1DMolJ2FrNY&amp;amp;list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84#t=71.591166&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Functional programming in Javascript&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Array.prototype.map()&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Array.prototype.reduce()&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?annotation_id=d3718aa0-5465-403b-bd56-2d603793ba62&amp;amp;feature=cards&amp;amp;src_vid=UD2dZw9iHCc&amp;amp;v=2d7s3spWAzo&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Promises&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=BMUiFMZr7vk&amp;amp;list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Higher-order functions - Part 1 of Functional Programming in JavaScript&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=UD2dZw9iHCc&amp;amp;index=11&amp;amp;list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Streams - FunFunFunction #13&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=9QveBbn7t_c&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Monad&lt;/a&gt;&lt;/p&gt;&lt;p&gt;map, filter, reduce. Nice game to explain map, reduce, filter: &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://david-peter.de/cube-composer/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://david-peter.de/cube-composer/&lt;/a&gt;&lt;img src=&quot;https://hsto.org/files/fbc/33e/2b2/fbc33e2b26894055b3a2c8d5d272aebb.jpg&quot;&gt;&lt;/p&gt;&lt;h2 class=&quot;&quot;&gt;&lt;u&gt;Libraries&lt;/u&gt;&lt;/h2&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://elm-lang.org/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://elm-lang.org/&lt;/a&gt;
+&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://cycle.js.org/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;http://cycle.js.org/&lt;/a&gt;
+&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://baconjs.github.io/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://baconjs.github.io/&lt;/a&gt; (also reactive)
 lodash – 
 underscore – 
-ramdajs</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=e-5obm1G_FY&amp;t=644s" rel="noopener noreferrer" target="_blank">Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016</a>. Another useful concepts: <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Immutable%20type">Immutability</a> (and <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Persistent%20data%20structure">Persistent data structure</a>s to make them feasible). <a class="tc-tiddlylink-external" href="https://slidr.io/vakila/learning-functional-programming-with-javascript#31" rel="noopener noreferrer" target="_blank">slides</a></p><p>lodash – underscore – ramdajs</p><h3 class=""><a class="tc-tiddlylink-external" href="http://redux.js.org/docs/basics/Store.html" rel="noopener noreferrer" target="_blank">Redux</a> is a nice functional programming-like framework for <a class="tc-tiddlylink-external" href="https://facebook.github.io/react/" rel="noopener noreferrer" target="_blank">React</a>. Learn <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?annotation_id=d112cc03-a081-455c-99e4-4f6a60460b90&amp;feature=cards&amp;list=PLuykYQ1am9zY9-O-Y8w7uISxLjQLcPmN4&amp;src_vid=j5a9l1Td2Lo&amp;v=hmwBow1PUuo" rel="noopener noreferrer" target="_blank">redux</a>.</h3>
+ramdajs&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?v=e-5obm1G_FY&amp;amp;t=644s&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016&lt;/a&gt;. Another useful concepts: &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Immutable%2520type.html&quot;&gt;Immutability&lt;/a&gt; (and &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;Persistent%2520data%2520structure.html&quot;&gt;Persistent data structure&lt;/a&gt;s to make them feasible). &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://slidr.io/vakila/learning-functional-programming-with-javascript#31&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;slides&lt;/a&gt;&lt;/p&gt;&lt;p&gt;lodash – underscore – ramdajs&lt;/p&gt;&lt;h3 class=&quot;&quot;&gt;&lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;http://redux.js.org/docs/basics/Store.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Redux&lt;/a&gt; is a nice functional programming-like framework for &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://facebook.github.io/react/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;React&lt;/a&gt;. Learn &lt;a class=&quot;tc-tiddlylink-external&quot; href=&quot;https://www.youtube.com/watch?annotation_id=d112cc03-a081-455c-99e4-4f6a60460b90&amp;amp;feature=cards&amp;amp;list=PLuykYQ1am9zY9-O-Y8w7uISxLjQLcPmN4&amp;amp;src_vid=j5a9l1Td2Lo&amp;amp;v=hmwBow1PUuo&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;redux&lt;/a&gt;.&lt;/h3&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;/p&gt;
+<code>
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></p>
