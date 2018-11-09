@@ -1,9 +1,9 @@
 created: 20160901105912827
 creator: cosmos
-modified: 20181109144038182
+modified: 20181109152450845
 modifier: cosmos
 module-type: macro
-tags: 
+tags: norender
 title: $:/core/modules/macros/3Dmol
 type: application/javascript
 
