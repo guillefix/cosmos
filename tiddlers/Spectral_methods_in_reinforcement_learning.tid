@@ -1,13 +1,45 @@
 created: 20170901180147589
 creator: cosmos
-modified: 20170901180217312
+modified: 20181109220616018
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Spectral methods in reinforcement learning
 tmap.id: d6a8f67a-6de0-4962-b1f4-3e9c2eeaa73a
 type: text/vnd.tiddlywiki
 
+//aka spectral reinforcement learning//
 
 [[Proto-value Functions: A Laplacian Framework for Learning Representation and Control in Markov Decision Processes|http://www.jmlr.org/papers/volume8/mahadevan07a/mahadevan07a.pdf]]
 
 [[Reinforcement Learning of POMDP's using Spectral Methods|https://www.youtube.com/watch?v=w7QCLFR8hJU]]
+
+
+The theory of spectral reinforcement learning has some beautiful results that I wasn't aware of, which we discussed in the last deep rl reading group, as there was a guy there who wrote his whole thesis about it.
+
+Given a policy, a Markov decision process (the set up of any Reinforcement Learning problem) is a Markov chain. A Markov chain is a weighted graph. For weighted graphs (and their infinite generalizations) one can define a matrix (operator, generally) whose eigenvectors (egienfunctions) give a basis in which one can represent/embed the states (each eigenvector gives a number to each state. For each state therefore one has a vector of numbers, one per eigenvector (one can multiply the numbers by the corresponding eigenvalues for extra benefit)).
+
+If one chooses the uniform policy, this state representation has some impressive theoretical properties. If one embeds states in this space, then the Euclidean distance to a goal state can be used as a proto-value function. More generally one can consider the weighted sum of distances if each state has some reward. If one considers the set of all possible reward functions, then this proto-value function is optimal in the sense of being closest in average square distance to all possible value functions.
+
+Basically, what this means is this: if you don't know what your task is, then there is an optimal way to represent/embed states, so that any future task can be solved by just walking in a straight line in this embedding space (which you can think as the way states are represented in your brain).
+
+If you know something more about the task, then there is apparently extensions of this result based on "successor representations" which use the optimal policy, but I don't know much about those yet.
+
+The way these representations look is very natural. Eigenfunctions of the Laplacian are the same as the modes in which the graph/space would vibrate if you hit it, and basically cluster things, so that one eigenfunction may represent "this room", another "that wing of the building", another "the top of the desk", etc. which are nice and meaningful.
+
+The issue is that for some reason, not well understood yet, the representation seems quite sensitive to the policy chosen in defining the Markov chain not being quite right, so that it unfortunately turned out to be quite unstable in realistic situations. The poor guy told me: "it's all theoretical beautiful, but not useful, don't recommend it, just go with VAEs" (one could feel the PhD pain in his words...) Still, I find the idea captivating, and in fact it turns out that I was working on a simple version of this in my summer project, and found out that for solving fully-known mazes, the system worked super well (much better than I could get a neural network to learn)
+
+Recently, there was this paper which is proposing a way to scale up the method, and they say it's promising. The story is not over yet... Also grid cells in the brain seem to behave in similar ways, and a neuroscientist I met believes they take part in key elements of human cognition, currently laking in AI systems.
+
+We'll see
+
+Some refs: http://www.jmlr.org/papers/v14/boehmer13a.html
+https://arxiv.org/abs/1810.04586
+
+https://arxiv.org/pdf/1606.05312.pdf spectral RL
+https://arxiv.org/pdf/1706.04859.pdf
+spectral RL https://arxiv.org/abs/1806.02215
+cognitive map https://www.biorxiv.org/content/early/2018/07/10/365593
+
+..........
+
+https://arxiv.org/abs/1806.02813

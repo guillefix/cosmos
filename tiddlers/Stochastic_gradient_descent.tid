@@ -1,6 +1,6 @@
 created: 20160916172705813
 creator: cosmos
-modified: 20181108204012259
+modified: 20181109214352318
 modifier: cosmos
 tags: [[Gradient descent]] [[Deep learning]] Optimization
 title: Stochastic gradient descent
@@ -41,6 +41,8 @@ Downpour -- Asynchronous SGD
 [[Don't Decay the Learning Rate, Increase the Batch Size|https://arxiv.org/abs/1711.00489]]
 
 Proof of convergence of Adam is wrong paper (David worked on that)
+
+See also [[Loss surface]]
 
 ----------------
 
@@ -101,6 +103,8 @@ Barak A Pearlmutter. Fast exact multiplication by the hessian. Neural computatio
 [[The Marginal Value of Adaptive Gradient Methods in Machine Learning|https://arxiv.org/abs/1705.08292]] See also [[Zhang et al|https://arxiv.org/abs/1611.03530]]
 
 We finally observe that both the gradient descent and the stochastic gradient descent methods can reach this level within the same number of steps. -- https://arxiv.org/abs/1412.6615
+
+[[A Walk with SGD|https://arxiv.org/abs/1802.08770]]
 
 -----------
 

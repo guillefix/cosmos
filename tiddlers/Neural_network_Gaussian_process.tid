@@ -1,6 +1,6 @@
 created: 20181015155040178
 creator: cosmos
-modified: 20181015155257146
+modified: 20181109220146905
 modifier: cosmos
 tags: [[Gaussian process]]
 title: Neural network Gaussian process
@@ -13,3 +13,10 @@ See [[Deep Neural Networks as Gaussian Processes|https://arxiv.org/abs/1711.0016
 [[Deep Convolutional Networks as shallow Gaussian Processes|https://openreview.net/forum?id=Bklfsi0cKm]]
 
 [[Deep learning generalizes because the parameter-function map is biased towards simple functions|https://openreview.net/forum?id=rye4g3AqFm]]
+
+[[BAYESIAN CONVOLUTIONAL NEURAL NETWORKS WITH MANY CHANNELS ARE GAUSSIAN PROCESSES|https://arxiv.org/pdf/1810.05148.pdf]]
+
+"The results indicate that on this dataset (Delf yatch hydrodynamics dataset) the Bayesian deep network and theGaussian process do not make similar predictions.  Of the two, the Bayesian neural networkachieves  signi cantly  better  log  likelihoods  on  average,  indicating  that  a   nite  networkperforms better than its in nite analogue in this case."
+(https://arxiv.org/pdf/1804.11271.pdf)
+
+[img width=500 [yatch_dataset_likelihood_NN_vs_NNGP.jpg]]

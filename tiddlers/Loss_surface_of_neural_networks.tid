@@ -1,6 +1,6 @@
 created: 20181108195032667
 creator: cosmos
-modified: 20181108231038112
+modified: 20181109220838061
 modifier: cosmos
 tags: [[Deep learning theory]] [[Loss surface]]
 title: Loss surface of neural networks
@@ -12,6 +12,8 @@ type: text/vnd.tiddlywiki
 [[Perspective: Energy Landscapes for Machine Learning|https://arxiv.org/abs/1703.07915]]
 
 [[Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs|https://arxiv.org/abs/1802.10026]] The loss functions of deep neural networks are complex and their geometric properties are not well understood. We show that the optima of these complex loss functions are in fact connected by simple curves over which training and test accuracy are nearly constant. 
+
+[[Geometry of energy landscapes and the optimizability of deep neural networks|https://arxiv.org/abs/1808.00408]]
 
 [[Loss surface of neural networks video|https://www.youtube.com/watch?v=78vq6kgsTa8&index=18&list=PLHyI3Fbmv0SdM0zXj31HWjG9t9Q0v2xYN]]
 
@@ -94,3 +96,5 @@ for multilayer neural networks. arXiv preprint arXiv:1605.08361.
 
 <small>Swirszcz, Grzegorz, Czarnecki, Wojciech Marian, & Pascanu, Razvan. 2016. Local minima in training of
 neural networks. arXiv preprint arXiv:1611.06310</small>
+
+[[A jamming transition from under- to over-parametrization affects loss landscape and generalization|https://arxiv.org/abs/1810.09665?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+arxiv%2FQSXk+%28ExcitingAds%21+cs+updates+on+arXiv.org%29]]
