@@ -1,1 +1,51 @@
-<p>The Gödel Machine (Schmidhuber, 2006) is a general paradigm for solving arbitrary problems, including optimization problems and reinforcement learning.</p><p>Gödel machines: self-referential universal problem solvers making provably optimal self- improvements.</p><p><a class="tc-tiddlylink-external" href="ftp://ftp.idsia.ch/pub/juergen/gmAGI.pdf" rel="noopener noreferrer" target="_blank">paper</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=mF5-tr7qAF4#t=12m34s" rel="noopener noreferrer" target="_blank">Video</a></p><p><a class="tc-tiddlylink-external" href="http://www.scholarpedia.org/article/Universal_search#G.C3.B6del_machine" rel="noopener noreferrer" target="_blank">http://www.scholarpedia.org/article/Universal_search#G.C3.B6del_machine</a></p><p><a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/G%C3%B6del_machine" rel="noopener noreferrer" target="_blank">https://www.wikiwand.com/en/G%C3%B6del_machine</a></p><p><a class="tc-tiddlylink-external" href="http://people.idsia.ch/~juergen/goedelmachine.html" rel="noopener noreferrer" target="_blank">http://people.idsia.ch/~juergen/goedelmachine.html</a></p><p><a class="tc-tiddlylink-external" href="http://people.idsia.ch/~juergen/gmsummary.html" rel="noopener noreferrer" target="_blank">GÖDEL MACHINE SUMMARY</a></p><p><a class="tc-tiddlylink-external" href="https://storagemojo.com/2016/01/13/godel-machines-deep-learning-and-the-limits-of-ai/" rel="noopener noreferrer" target="_blank">Gödel Machines, deep learning and the limits of AI</a></p><p>Any utility function (such as expected future reward in the remaining lifetime) can be plugged in as an axiom stored in initial program p. Among other things, p systematically makes pairs (switchprog, proof) until it finds a proof of: &quot;the rewrite of p through current program switchprog implies higher utility than leaving p as is.&quot; Since the utility of 'leaving p as is' implicitly evaluates all possible alternative switchprogs which an unmodified p might find later, we obtain a globally optimal self-change by executing the current switchprog.</p><p>The switchprog holds a potentially unrestricted program whose execution could completely rewrite any part of the Gödel machine's current software. Normally the current switchprog is not executed. However, proof techniques may invoke a special subroutine check() which tests whether proof currently holds a proof showing that the utility of stopping the systematic proof searcher and transferring control to the current switchprog at a precisely defined point in the near future exceeds the utility of continuing the search until some alternative switchprog is found. Such proofs are derivable from the proof searcher's axiom scheme which formally describes the utility function to be maximized (typically the expected future reward in the expected remaining lifetime of the Gödel machine), the computational costs of hardware instructions (from which all programs are composed), and the effects of hardware instructions on the Gödel machine's state.</p><p><a class="tc-tiddlylink-external" href="https://www.semanticscholar.org/paper/Goedel-Machines-Self-Referential-Universal-Problem-Schmidhuber/2e45fd58329558b0c9e73cbc1fb9f4f60dbb5ca7/pdf" rel="noopener noreferrer" target="_blank">https://www.semanticscholar.org/paper/Goedel-Machines-Self-Referential-Universal-Problem-Schmidhuber/2e45fd58329558b0c9e73cbc1fb9f4f60dbb5ca7/pdf</a></p><p><img src="http://people.idsia.ch/~juergen/robohorsegm1.jpg" width="300"></p>
+<p><a name="Godel machine">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Universal%20AI " data-tags="[[Universal AI]]" data-tiddler-title="Godel machine"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Godel machine
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 9th June 2018 at 11:52am
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>The Gödel Machine (Schmidhuber, 2006) is a general paradigm for solving arbitrary problems, including optimization problems and reinforcement learning.</p><p>Gödel machines: self-referential universal problem solvers making provably optimal self- improvements.</p><p><a class="tc-tiddlylink-external" href="ftp://ftp.idsia.ch/pub/juergen/gmAGI.pdf" rel="noopener noreferrer" target="_blank">paper</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=mF5-tr7qAF4#t=12m34s" rel="noopener noreferrer" target="_blank">Video</a></p><p><a class="tc-tiddlylink-external" href="http://www.scholarpedia.org/article/Universal_search#G.C3.B6del_machine" rel="noopener noreferrer" target="_blank">http://www.scholarpedia.org/article/Universal_search#G.C3.B6del_machine</a></p><p><a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/G%C3%B6del_machine" rel="noopener noreferrer" target="_blank">https://www.wikiwand.com/en/G%C3%B6del_machine</a></p><p><a class="tc-tiddlylink-external" href="http://people.idsia.ch/~juergen/goedelmachine.html" rel="noopener noreferrer" target="_blank">http://people.idsia.ch/~juergen/goedelmachine.html</a></p><p><a class="tc-tiddlylink-external" href="http://people.idsia.ch/~juergen/gmsummary.html" rel="noopener noreferrer" target="_blank">GÖDEL MACHINE SUMMARY</a></p><p><a class="tc-tiddlylink-external" href="https://storagemojo.com/2016/01/13/godel-machines-deep-learning-and-the-limits-of-ai/" rel="noopener noreferrer" target="_blank">Gödel Machines, deep learning and the limits of AI</a></p><p>Any utility function (such as expected future reward in the remaining lifetime) can be plugged in as an axiom stored in initial program p. Among other things, p systematically makes pairs (switchprog, proof) until it finds a proof of: &quot;the rewrite of p through current program switchprog implies higher utility than leaving p as is.&quot; Since the utility of 'leaving p as is' implicitly evaluates all possible alternative switchprogs which an unmodified p might find later, we obtain a globally optimal self-change by executing the current switchprog.</p><p>The switchprog holds a potentially unrestricted program whose execution could completely rewrite any part of the Gödel machine's current software. Normally the current switchprog is not executed. However, proof techniques may invoke a special subroutine check() which tests whether proof currently holds a proof showing that the utility of stopping the systematic proof searcher and transferring control to the current switchprog at a precisely defined point in the near future exceeds the utility of continuing the search until some alternative switchprog is found. Such proofs are derivable from the proof searcher's axiom scheme which formally describes the utility function to be maximized (typically the expected future reward in the expected remaining lifetime of the Gödel machine), the computational costs of hardware instructions (from which all programs are composed), and the effects of hardware instructions on the Gödel machine's state.</p><p><a class="tc-tiddlylink-external" href="https://www.semanticscholar.org/paper/Goedel-Machines-Self-Referential-Universal-Problem-Schmidhuber/2e45fd58329558b0c9e73cbc1fb9f4f60dbb5ca7/pdf" rel="noopener noreferrer" target="_blank">https://www.semanticscholar.org/paper/Goedel-Machines-Self-Referential-Universal-Problem-Schmidhuber/2e45fd58329558b0c9e73cbc1fb9f4f60dbb5ca7/pdf</a></p><p><img src="http://people.idsia.ch/~juergen/robohorsegm1.jpg" width="300"></p></div>
+
+
+</div>
+
+
+</a></p>

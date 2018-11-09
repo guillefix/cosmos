@@ -1,8 +1,52 @@
-<p>A kind of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Recurrent%20neural%20network">Recurrent neural network</a>, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Neural%20networks%20with%20memory">Neural networks with memory</a></p><h3 class=""><a class="tc-tiddlylink-external" href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/" rel="noopener noreferrer" target="_blank">Understanding LSTMs</a></h3><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=56TYLaQN4N8#t=25m30s" rel="noopener noreferrer" target="_blank">Video</a>
+<p><a name="Long short-term memory">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists    " data-tags="" data-tiddler-title="Long short-term memory"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Long short-term memory
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 4th November 2016 at 11:50am
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"></div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>A kind of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Recurrent%20neural%20network">Recurrent neural network</a>, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Neural%20networks%20with%20memory">Neural networks with memory</a></p><h3 class=""><a class="tc-tiddlylink-external" href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/" rel="noopener noreferrer" target="_blank">Understanding LSTMs</a></h3><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=56TYLaQN4N8#t=25m30s" rel="noopener noreferrer" target="_blank">Video</a>
 <a class="tc-tiddlylink-external" href="http://blog.aidangomez.ca/2016/04/17/Backpropogating-an-LSTM-A-Numerical-Example/" rel="noopener noreferrer" target="_blank">Backpropogating an LSTM: A Numerical Example</a></p><p>Introduced in <a class="tc-tiddlylink-external" href="http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97_lstm.pdf" rel="noopener noreferrer" target="_blank">Hochreiter &amp; Schmidhuber (1997)</a></p><p><img src="http://blog.aidangomez.ca/assets/lstm.png"></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=hWgGJeAvLws#t=10m20s" rel="noopener noreferrer" target="_blank">video</a></p><p><a class="tc-tiddlylink-external" href="https://pythonprogramming.net/recurrent-neural-network-rnn-lstm-machine-learning-tutoria" rel="noopener noreferrer" target="_blank">explanation</a> <a class="tc-tiddlylink-external" href="https://pythonprogramming.net/rnn-tensorflow-python-machine-learning-tutorial/" rel="noopener noreferrer" target="_blank">implementing in tensorflow</a></p><p><a class="tc-tiddlylink-external" href="http://stackoverflow.com/questions/37901047/what-is-num-units-in-tensorflow-basiclstmcell" rel="noopener noreferrer" target="_blank">Number of hidden units</a></p><p>A crucial innovation to recurrent networks was the Long Short-Term Memory (LSTM)
 (Hochreiter and Schmidhuber, 1997).  This very general architecture was developed for a
 specific purpose, to address the “vanishing and exploding gradient” problem (Hochreiter
 et al., 2001a), which we might relabel the problem of “vanishing and exploding sensitivity.”
 LSTM ameliorates the problem by embedding perfect integrators (Seung, 1998) for mem-
 ory storage in the network.  The simplest example of a perfect integrator is the equation x(t+ 1) =x(t) +i(t), where i(t) is an input to the system.  The implicit identity matrix Ix(t) means that signals do not dynamically vanish or explode. If we attach a mechanism to this integrator that allows an enclosing network to choose when the integrator listens to inputs, namely, a programmable gate depending on context, we have an equation of the
-form x(t+ 1) =x(t) +g(context)i(t). We can now selectively store information for an 	indefinite length of time.</p><p>From <a class="tc-tiddlylink-external" href="https://arxiv.org/pdf/1410.5401v2.pdf" rel="noopener noreferrer" target="_blank">here</a></p>
+form x(t+ 1) =x(t) +g(context)i(t). We can now selectively store information for an 	indefinite length of time.</p><p>From <a class="tc-tiddlylink-external" href="https://arxiv.org/pdf/1410.5401v2.pdf" rel="noopener noreferrer" target="_blank">here</a></p></div>
+
+
+</div>
+
+
+</a></p>

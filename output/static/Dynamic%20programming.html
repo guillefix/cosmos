@@ -1,1 +1,51 @@
-<p><em>aka <a class="tc-tiddlylink-external" href="http://arcanesentiment.blogspot.co.uk/2010/04/why-dynamic-programming.html" rel="noopener noreferrer" target="_blank">memoization</a></em></p><p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Dynamic_programming" rel="noopener noreferrer" target="_blank">https://en.wikipedia.org/wiki/Dynamic_programming</a></p><h3 class=""><u><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=Nd1-UUMVfz4&amp;list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&amp;index=3#t=4m" rel="noopener noreferrer" target="_blank">Properties we need</a></u></h3><ul><li>Overlapping subproblems -&gt; memorization: record value 1st time it's computed, then look it up subsequently. Table lookup</li><li>Optimal substructure: global optimal solution can be constructed from optimal solutions to sub-problems.</li></ul><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=Nd1-UUMVfz4&amp;list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&amp;index=3#t=2m30s" rel="noopener noreferrer" target="_blank">video</a></p><hr><p>One of the main applications is to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Model-based%20reinforcement%20learning">Model-based reinforcement learning</a> (also where the name originally arised, by Bellman)</p>
+<p><a name="Dynamic programming">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Software%20engineering " data-tags="[[Software engineering]]" data-tiddler-title="Dynamic programming"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Dynamic programming
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 4th March 2018 at 3:22pm
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p><em>aka <a class="tc-tiddlylink-external" href="http://arcanesentiment.blogspot.co.uk/2010/04/why-dynamic-programming.html" rel="noopener noreferrer" target="_blank">memoization</a></em></p><p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Dynamic_programming" rel="noopener noreferrer" target="_blank">https://en.wikipedia.org/wiki/Dynamic_programming</a></p><h3 class=""><u><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=Nd1-UUMVfz4&amp;list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&amp;index=3#t=4m" rel="noopener noreferrer" target="_blank">Properties we need</a></u></h3><ul><li>Overlapping subproblems -&gt; memorization: record value 1st time it's computed, then look it up subsequently. Table lookup</li><li>Optimal substructure: global optimal solution can be constructed from optimal solutions to sub-problems.</li></ul><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=Nd1-UUMVfz4&amp;list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&amp;index=3#t=2m30s" rel="noopener noreferrer" target="_blank">video</a></p><hr><p>One of the main applications is to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Model-based%20reinforcement%20learning">Model-based reinforcement learning</a> (also where the name originally arised, by Bellman)</p></div>
+
+
+</div>
+
+
+</a></p>

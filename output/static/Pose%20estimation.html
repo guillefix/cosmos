@@ -1,1 +1,51 @@
-<p><strong>Pose estimation</strong> refers to estimating an object’s 3D <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Pose">Pose</a> from a set of 2D point projections (via something like a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Camera%20transform">Camera transform</a>. This pose estimation problem is also known as extrinsic calibration, as opposed to the intrinsic calibration of internal camera pa- rameters such as focal length, which we discuss in Section 6.3. The problem of recovering pose from three correspondences, which is the minimal amount of information necessary, is known as the perspective-3-point-problem (P3P), with extensions to larger numbers of points collectively known as PnP (Haralick, Lee, Ottenberg et al. 1994; Quan and Lan 1999; Moreno-Noguer, Lepetit, and Fua 2007).</p><p>It is a particular instance of feature-based alignment.</p><p><a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/Perspective-n-Point" rel="noopener noreferrer" target="_blank">https://www.wikiwand.com/en/Perspective-n-Point</a></p><p><a class="tc-tiddlylink-external" href="http://haralick.org/conferences/Analysis_and_Solutions_Perspective.pdf" rel="noopener noreferrer" target="_blank">analysis and solutions of the three point perspective pose estimation problem</a></p><p>Implementation using <a class="tc-tiddlylink tc-tiddlylink-missing" href="#OpenCV">OpenCV</a>: <a class="tc-tiddlylink-external" href="https://github.com/supasorn/CardboardPositionalHack/blob/master/tracker/glcv3.cpp" rel="noopener noreferrer" target="_blank">https://github.com/supasorn/CardboardPositionalHack/blob/master/tracker/glcv3.cpp</a> can use for <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=jo1gkpodrDU" rel="noopener noreferrer" target="_blank">google cardboard 6DOF positional tracking</a></p><hr><p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Camera%20callibration">Camera callibration</a></p><p><a class="tc-tiddlylink-external" href="https://www.ics.uci.edu/~majumder/VC/new-lectures/cameracalib.pdf" rel="noopener noreferrer" target="_blank">Nice explanation of some related things</a> like camera callibration, and depth estimation</p><p><a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/3D_pose_estimation" rel="noopener noreferrer" target="_blank">https://www.wikiwand.com/en/3D_pose_estimation</a></p><p><a class="tc-tiddlylink-external" href="http://users.ics.forth.gr/~lourakis/posest/" rel="noopener noreferrer" target="_blank">http://users.ics.forth.gr/~lourakis/posest/</a></p><p><u>Using <a class="tc-tiddlylink tc-tiddlylink-missing" href="#RANSAC">RANSAC</a></u></p><p>PnP is prone to errors if there are outliers in the set of point correspondences. Thus, RANSAC can be used in conjunction with existing solutions to make the final solution for the camera pose more robust to outliers. An open source implementation of PnP methods with RANSAC can be found in OpenCV's Camera Calibration and 3D Reconstruction module in the solvePnPRansac function, and in <a class="tc-tiddlylink-external" href="http://users.ics.forth.gr/~lourakis/posest/" rel="noopener noreferrer" target="_blank">posest</a></p><p>It is also used here: <a class="tc-tiddlylink-external" href="https://inspirit.github.io/jsfeat/#multiview" rel="noopener noreferrer" target="_blank">https://inspirit.github.io/jsfeat/#multiview</a></p><p>See also <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#3D%20reconstruction%20from%20multiple%20images">3D reconstruction from multiple images</a>, a harder problem corresponding to when the geometry of the imaged object is unknown!</p><hr><p><a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/Direct_linear_transformation" rel="noopener noreferrer" target="_blank">https://www.wikiwand.com/en/Direct_linear_transformation</a> ,  <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Homography">Homography</a></p>
+<p><a name="Pose estimation">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Computer%20vision " data-tags="[[Computer vision]]" data-tiddler-title="Pose estimation"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Pose estimation
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 22nd July 2018 at 10:25am
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p><strong>Pose estimation</strong> refers to estimating an object’s 3D <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Pose">Pose</a> from a set of 2D point projections (via something like a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Camera%20transform">Camera transform</a>. This pose estimation problem is also known as extrinsic calibration, as opposed to the intrinsic calibration of internal camera pa- rameters such as focal length, which we discuss in Section 6.3. The problem of recovering pose from three correspondences, which is the minimal amount of information necessary, is known as the perspective-3-point-problem (P3P), with extensions to larger numbers of points collectively known as PnP (Haralick, Lee, Ottenberg et al. 1994; Quan and Lan 1999; Moreno-Noguer, Lepetit, and Fua 2007).</p><p>It is a particular instance of feature-based alignment.</p><p><a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/Perspective-n-Point" rel="noopener noreferrer" target="_blank">https://www.wikiwand.com/en/Perspective-n-Point</a></p><p><a class="tc-tiddlylink-external" href="http://haralick.org/conferences/Analysis_and_Solutions_Perspective.pdf" rel="noopener noreferrer" target="_blank">analysis and solutions of the three point perspective pose estimation problem</a></p><p>Implementation using <a class="tc-tiddlylink tc-tiddlylink-missing" href="#OpenCV">OpenCV</a>: <a class="tc-tiddlylink-external" href="https://github.com/supasorn/CardboardPositionalHack/blob/master/tracker/glcv3.cpp" rel="noopener noreferrer" target="_blank">https://github.com/supasorn/CardboardPositionalHack/blob/master/tracker/glcv3.cpp</a> can use for <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=jo1gkpodrDU" rel="noopener noreferrer" target="_blank">google cardboard 6DOF positional tracking</a></p><hr><p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Camera%20callibration">Camera callibration</a></p><p><a class="tc-tiddlylink-external" href="https://www.ics.uci.edu/~majumder/VC/new-lectures/cameracalib.pdf" rel="noopener noreferrer" target="_blank">Nice explanation of some related things</a> like camera callibration, and depth estimation</p><p><a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/3D_pose_estimation" rel="noopener noreferrer" target="_blank">https://www.wikiwand.com/en/3D_pose_estimation</a></p><p><a class="tc-tiddlylink-external" href="http://users.ics.forth.gr/~lourakis/posest/" rel="noopener noreferrer" target="_blank">http://users.ics.forth.gr/~lourakis/posest/</a></p><p><u>Using <a class="tc-tiddlylink tc-tiddlylink-missing" href="#RANSAC">RANSAC</a></u></p><p>PnP is prone to errors if there are outliers in the set of point correspondences. Thus, RANSAC can be used in conjunction with existing solutions to make the final solution for the camera pose more robust to outliers. An open source implementation of PnP methods with RANSAC can be found in OpenCV's Camera Calibration and 3D Reconstruction module in the solvePnPRansac function, and in <a class="tc-tiddlylink-external" href="http://users.ics.forth.gr/~lourakis/posest/" rel="noopener noreferrer" target="_blank">posest</a></p><p>It is also used here: <a class="tc-tiddlylink-external" href="https://inspirit.github.io/jsfeat/#multiview" rel="noopener noreferrer" target="_blank">https://inspirit.github.io/jsfeat/#multiview</a></p><p>See also <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#3D%20reconstruction%20from%20multiple%20images">3D reconstruction from multiple images</a>, a harder problem corresponding to when the geometry of the imaged object is unknown!</p><hr><p><a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/Direct_linear_transformation" rel="noopener noreferrer" target="_blank">https://www.wikiwand.com/en/Direct_linear_transformation</a> ,  <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Homography">Homography</a></p></div>
+
+
+</div>
+
+
+</a></p>

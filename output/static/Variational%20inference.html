@@ -1,1 +1,51 @@
-<p>Reduces inference to an optimization problem. Inference (short of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Statistical%20inference">Statistical inference</a>), refers to finding some value depending on an a-posteriori distribution in a probabilistic model, like a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Graphical%20model">Graphical model</a>. However, posterior distributions are often hard to compute explicitly, and an approximate method is needed. One such method consists on finding an approximate representation of the distribution, and minimizing the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Relative%20entropy">KL divergence</a> with the real distribution, in some way, usually via the <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Evidence%20lower%20bound">Evidence lower bound</a> (ELBO)</p><p>See <a class="tc-tiddlylink-external" href="https://arxiv.org/pdf/1601.00670.pdf" rel="noopener noreferrer" target="_blank">here</a>.</p><p>when used for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Bayesian%20inference">Bayesian inference</a> (typically the case), it's often specified as Bayesian variational inference</p><p>The interesting thing is that the KL divergence/ELBO is defined via a in integral over the latent/hidden variables, which is precisely the thing that we assumed was hard, and the reason to use variational inference! However, we can use samples instead of the integation and use <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Stochastic%20optimization">Stochastic optimization</a> (like <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Stochastic%20gradient%20descent">Stochastic gradient descent</a>). But we could have used sampling for the original integral! Or we could have used <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Monte%20Carlo">Monte Carlo</a> methods (<a class="tc-tiddlylink tc-tiddlylink-missing" href="#Markov%20Chain%20Monte%20Carlo">MCMC</a>! The nontrivial thing here is that using stochastic optimization gives good answer in with much fewer samples than when approximating the integral in naive Bayesian inference (the denominator..). It is also typically more scalable (efficient for large datasets) than MCMC methods. </p><p>To understand this would require analysis of MCMC, Monte Carlo integration, and stochastic optimization.</p><h2 class=""><u>Applications</u></h2><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Variational%20autoencoder">Variational autoencoder</a></p>
+<p><a name="Variational inference">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Statistical%20inference " data-tags="[[Statistical inference]]" data-tiddler-title="Variational inference"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Variational inference
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 19th June 2018 at 3:26pm
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>Reduces inference to an optimization problem. Inference (short of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Statistical%20inference">Statistical inference</a>), refers to finding some value depending on an a-posteriori distribution in a probabilistic model, like a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Graphical%20model">Graphical model</a>. However, posterior distributions are often hard to compute explicitly, and an approximate method is needed. One such method consists on finding an approximate representation of the distribution, and minimizing the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Relative%20entropy">KL divergence</a> with the real distribution, in some way, usually via the <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Evidence%20lower%20bound">Evidence lower bound</a> (ELBO)</p><p>See <a class="tc-tiddlylink-external" href="https://arxiv.org/pdf/1601.00670.pdf" rel="noopener noreferrer" target="_blank">here</a>.</p><p>when used for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Bayesian%20inference">Bayesian inference</a> (typically the case), it's often specified as Bayesian variational inference</p><p>The interesting thing is that the KL divergence/ELBO is defined via a in integral over the latent/hidden variables, which is precisely the thing that we assumed was hard, and the reason to use variational inference! However, we can use samples instead of the integation and use <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Stochastic%20optimization">Stochastic optimization</a> (like <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Stochastic%20gradient%20descent">Stochastic gradient descent</a>). But we could have used sampling for the original integral! Or we could have used <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Monte%20Carlo">Monte Carlo</a> methods (<a class="tc-tiddlylink tc-tiddlylink-missing" href="#Markov%20Chain%20Monte%20Carlo">MCMC</a>! The nontrivial thing here is that using stochastic optimization gives good answer in with much fewer samples than when approximating the integral in naive Bayesian inference (the denominator..). It is also typically more scalable (efficient for large datasets) than MCMC methods. </p><p>To understand this would require analysis of MCMC, Monte Carlo integration, and stochastic optimization.</p><h2 class=""><u>Applications</u></h2><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Variational%20autoencoder">Variational autoencoder</a></p></div>
+
+
+</div>
+
+
+</a></p>

@@ -1,4 +1,48 @@
-<p>Stabilizing in RL &lt;&gt; catastrophic forgetting</p><h1 class=""><a class="tc-tiddlylink-external" href="http://www.pnas.org/content/114/13/3521.full.pdf" rel="noopener noreferrer" target="_blank">Elastic weight consolidation</a></h1><p>A recently proposed way of avoiding it.</p><p>Use <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Fisher%20information%20matrix">Fisher information matrix</a> of log likelihood of previous tasks to give a prior when learning new tasks, to ensure that new tasks are learned while remembering previously learned tasks.</p><p><a class="tc-tiddlylink-external" href="http://www.pnas.org/content/suppl/2017/03/14/1611835114.DCSupplemental/pnas.201611835SI.pdf#nameddest=STXT" rel="noopener noreferrer" target="_blank">Supplementary information</a></p><p>Any performance gains w.r.t. to the shuffled way of &quot;multi-task&quot; training.</p><p><a class="tc-tiddlylink-external" href="http://www.inference.vc/comment-on-overcoming-catastrophic-forgetting-in-nns-are-multiple-penalties-needed-2/" rel="noopener noreferrer" target="_blank">nice blog post with detail</a></p><h2 class=""><u>EWC on <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Reinforcement%20learning">Reinforcement learning</a></u></h2><p>In the primate brain,
+<p><a name="Catastrophic forgetting">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Artificial%20neural%20network " data-tags="[[Artificial neural network]]" data-tiddler-title="Catastrophic forgetting"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Catastrophic forgetting
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 30th March 2017 at 12:07pm
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>Stabilizing in RL &lt;&gt; catastrophic forgetting</p><h1 class=""><a class="tc-tiddlylink-external" href="http://www.pnas.org/content/114/13/3521.full.pdf" rel="noopener noreferrer" target="_blank">Elastic weight consolidation</a></h1><p>A recently proposed way of avoiding it.</p><p>Use <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Fisher%20information%20matrix">Fisher information matrix</a> of log likelihood of previous tasks to give a prior when learning new tasks, to ensure that new tasks are learned while remembering previously learned tasks.</p><p><a class="tc-tiddlylink-external" href="http://www.pnas.org/content/suppl/2017/03/14/1611835114.DCSupplemental/pnas.201611835SI.pdf#nameddest=STXT" rel="noopener noreferrer" target="_blank">Supplementary information</a></p><p>Any performance gains w.r.t. to the shuffled way of &quot;multi-task&quot; training.</p><p><a class="tc-tiddlylink-external" href="http://www.inference.vc/comment-on-overcoming-catastrophic-forgetting-in-nns-are-multiple-penalties-needed-2/" rel="noopener noreferrer" target="_blank">nice blog post with detail</a></p><h2 class=""><u>EWC on <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Reinforcement%20learning">Reinforcement learning</a></u></h2><p>In the primate brain,
 the prefrontal cortex is widely viewed as supporting these capabilities
 by sustaining neural representations of task context that
 exert top–down gating influences on sensory processing, working
@@ -45,4 +89,10 @@ of sampling from a posterior here, our work aligns with
 the notion that <strong>weight uncertainty should inform learning rates</strong></p><p>With EWC, three values have to be stored for each
 synapse: the weight itself, its variance, and its mean. Interestingly,
 synapses in the brain also carry more than one piece of
-information.</p>
+information.</p></div>
+
+
+</div>
+
+
+</a></p>

@@ -1,1 +1,51 @@
-<p>The <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Left-adjoint">Left-adjoint</a> of a <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Forgetful%20functor">Forgetful functor</a> <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>U</mi><mo>:</mo><mrow><mi mathvariant="script">C</mi></mrow><mo>→</mo><mrow><mi mathvariant="bold">S</mi><mi mathvariant="bold">e</mi><mi mathvariant="bold">t</mi></mrow></mrow><annotation encoding="application/x-tex">U: \mathcal{C} \to \mathbf{Set}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68611em;"></span><span class="strut bottom" style="height:0.68611em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.10903em;">U</span><span class="mrel">:</span><span class="mord textstyle uncramped"><span class="mord mathcal" style="margin-right:0.05834em;">C</span></span><span class="mrel">→</span><span class="mord textstyle uncramped"><span class="mord mathbf">S</span><span class="mord mathbf">e</span><span class="mord mathbf">t</span></span></span></span></span></span> w.r.t. a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Monad">Monad</a> (or other things) over category <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="script">C</mi></mrow></mrow><annotation encoding="application/x-tex">\mathcal{C}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.68333em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord mathcal" style="margin-right:0.05834em;">C</span></span></span></span></span></span>.</p><p>See <a class="tc-tiddlylink-external" href="https://ncatlab.org/nlab/show/free+functor" rel="noopener noreferrer" target="_blank">https://ncatlab.org/nlab/show/free+functor</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=2i_PpYsl8b8&amp;index=3&amp;list=PL54B49729E5102248#t=2m" rel="noopener noreferrer" target="_blank">Video</a></p><p><a class="tc-tiddlylink-external" href="https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/handout_8.pdf" rel="noopener noreferrer" target="_blank">https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/handout_8.pdf</a></p><p>For the monad and algebra of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Monoid">Monoid</a>s, this maps sets to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Free%20monoid">Free monoid</a>s.</p><p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Free_object#Free_functor" rel="noopener noreferrer" target="_blank">https://en.wikipedia.org/wiki/Free_object#Free_functor</a></p>
+<p><a name="Free functor">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Monad " data-tags="Monad" data-tiddler-title="Free functor"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Free functor
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 11th November 2017 at 4:54pm
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>The <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Left-adjoint">Left-adjoint</a> of a <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Forgetful%20functor">Forgetful functor</a> <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>U</mi><mo>:</mo><mrow><mi mathvariant="script">C</mi></mrow><mo>→</mo><mrow><mi mathvariant="bold">S</mi><mi mathvariant="bold">e</mi><mi mathvariant="bold">t</mi></mrow></mrow><annotation encoding="application/x-tex">U: \mathcal{C} \to \mathbf{Set}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68611em;"></span><span class="strut bottom" style="height:0.68611em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.10903em;">U</span><span class="mrel">:</span><span class="mord textstyle uncramped"><span class="mord mathcal" style="margin-right:0.05834em;">C</span></span><span class="mrel">→</span><span class="mord textstyle uncramped"><span class="mord mathbf">S</span><span class="mord mathbf">e</span><span class="mord mathbf">t</span></span></span></span></span></span> w.r.t. a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Monad">Monad</a> (or other things) over category <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="script">C</mi></mrow></mrow><annotation encoding="application/x-tex">\mathcal{C}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.68333em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord mathcal" style="margin-right:0.05834em;">C</span></span></span></span></span></span>.</p><p>See <a class="tc-tiddlylink-external" href="https://ncatlab.org/nlab/show/free+functor" rel="noopener noreferrer" target="_blank">https://ncatlab.org/nlab/show/free+functor</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=2i_PpYsl8b8&amp;index=3&amp;list=PL54B49729E5102248#t=2m" rel="noopener noreferrer" target="_blank">Video</a></p><p><a class="tc-tiddlylink-external" href="https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/handout_8.pdf" rel="noopener noreferrer" target="_blank">https://www.cs.ox.ac.uk/teaching/materials17-18/catsproofsprocs/handout_8.pdf</a></p><p>For the monad and algebra of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Monoid">Monoid</a>s, this maps sets to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Free%20monoid">Free monoid</a>s.</p><p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Free_object#Free_functor" rel="noopener noreferrer" target="_blank">https://en.wikipedia.org/wiki/Free_object#Free_functor</a></p></div>
+
+
+</div>
+
+
+</a></p>

@@ -1,4 +1,60 @@
-<p>An stochastic version of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Gradient%20descent">Gradient descent</a>, which can be used for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Online%20learning">Online learning</a></p><p>To calculate gradients, for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Artificial%20neural%20network">Artificial neural network</a>s, we use <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Backpropagation">Backpropagation</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=0qUAb94CpOw&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=6#t=35m05s" rel="noopener noreferrer" target="_blank">Nando's vid</a> – <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=5adNQvSlF50&amp;index=7&amp;list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=6m50s" rel="noopener noreferrer" target="_blank">Hugo's vid</a></p><p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Learning%20theory">Learning theory</a> for more on optimization for learning. See <a class="tc-tiddlylink-external" href="https://github.com/damaru2/optimization17/" rel="noopener noreferrer" target="_blank">these notes</a> chapter 8 for convergence uarantees</p><p><a class="tc-tiddlylink-external" href="https://youtu.be/5mpU_IA6qho?t=17m48s" rel="noopener noreferrer" target="_blank">Stochastic gradient descent is not Gibbsian</a></p><p><sub>
+<p><a name="Stochastic gradient descent">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Gradient%20descent tc-tagged-Deep%20learning tc-tagged-Optimization " data-tags="[[Gradient descent]] [[Deep learning]] Optimization" data-tiddler-title="Stochastic gradient descent"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Stochastic gradient descent
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 8th November 2018 at 3:40pm
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+<span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+<span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>An stochastic version of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Gradient%20descent">Gradient descent</a>, which can be used for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Online%20learning">Online learning</a></p><p>To calculate gradients, for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Artificial%20neural%20network">Artificial neural network</a>s, we use <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Backpropagation">Backpropagation</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=0qUAb94CpOw&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=6#t=35m05s" rel="noopener noreferrer" target="_blank">Nando's vid</a> – <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=5adNQvSlF50&amp;index=7&amp;list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH#t=6m50s" rel="noopener noreferrer" target="_blank">Hugo's vid</a></p><p>See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Learning%20theory">Learning theory</a> for more on optimization for learning. See <a class="tc-tiddlylink-external" href="https://github.com/damaru2/optimization17/" rel="noopener noreferrer" target="_blank">these notes</a> chapter 8 for convergence uarantees</p><p><a class="tc-tiddlylink-external" href="https://youtu.be/5mpU_IA6qho?t=17m48s" rel="noopener noreferrer" target="_blank">Stochastic gradient descent is not Gibbsian</a></p><p><sub>
 (<em>Online algorithm</em>, you process the data sequentially, by chunks. You need this if you do not access to all of it at the same time, or you have so much data that not all of it fits on your RAM..)
 </sub>
 You only use a mini-batch (a small sample) of input data at a time, in practice</p><p>There're theorems that show that this converges well.</p><p>Downpour – Asynchronous SGD</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=0qUAb94CpOw&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=6#t=49m30s" rel="noopener noreferrer" target="_blank">Polyak averaging</a>. Running average over the parameter values at all time steps performed up to now.</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=0qUAb94CpOw&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=6#t=50m40s" rel="noopener noreferrer" target="_blank">Momentum</a>. You add inertia to the particle so that the gradient descent is not just velocity = gradient (as it'd be in viscous fluid), but it is acceleration = (viscosity) + gradient.</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=0qUAb94CpOw&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=6#t=52m40s" rel="noopener noreferrer" target="_blank">Adagrad</a>: Put more weight on rare features [Duchi et al]. <b> Very useful </b> Rare features (i.e. value along a dimension for example) tend to have more information, i.e., they are able to tell you more about what the output <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>y</mi></mrow><annotation encoding="application/x-tex">y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.03588em;">y</span></span></span></span></span> should be. This seems maybe related to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Algorithmic%20information%20theory">AIT</a>. Compensate for underrepresetantion in gradient descent of rare features</p><p><strong>AdamOptimizer</strong></p><p><a class="tc-tiddlylink-external" href="http://climin.readthedocs.io/en/latest/rmsprop.html" rel="noopener noreferrer" target="_blank">rmsprop</a> is an optimizer that utilizes the magnitude of recent gradients to normalize the gradients</p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1703.04782" rel="noopener noreferrer" target="_blank">Online Learning Rate Adaptation with Hypergradient Descent</a></p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1711.00489" rel="noopener noreferrer" target="_blank">Don't Decay the Learning Rate, Increase the Batch Size</a></p><p>Proof of convergence of Adam is wrong paper (David worked on that)</p><hr><p><a class="tc-tiddlylink-external" href="https://mirror2image.wordpress.com/2013/11/13/deriving-gibbs-distribution-from-stochastic-gradients/" rel="noopener noreferrer" target="_blank">Deriving Gibbs distribution from stochastic gradients</a></p><p>Idea I had of adversarial mini-batches (make examples which are classified wrong more likely)</p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1612.05086" rel="noopener noreferrer" target="_blank">Coupling Adaptive Batch Sizes with Learning Rates</a></p><h3 class=""><u>Papers</u></h3><p>...</p><p>Léon Bottou. Stochastic gradient learning in neural networks. Proceedings of Neuro-Nımes, 91(8),
@@ -19,4 +75,10 @@ critical points and invariant regions. arXiv preprint arXiv:1605.00405, 2016.</p
 minima of nonconvex potential energy functions. Journal of Global Optimization, 4(2):117–133,
 1994.</p><p>Barak A Pearlmutter. Fast exact multiplication by the hessian. Neural computation, 6(1):147–160,
 1994.</p><p><small>Tom Schaul, Sixin Zhang, and Yann LeCun. No more pesky learning rates. ICML (3), 28:343–351,
-2013. –&gt; <a class="tc-tiddlylink-external" href="https://www.reddit.com/r/MachineLearning/comments/2qrje1/did_anyone_here_use_no_more_pesky_learning_rates/" rel="noopener noreferrer" target="_blank">newer methods now</a></small></p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1705.08292" rel="noopener noreferrer" target="_blank">The Marginal Value of Adaptive Gradient Methods in Machine Learning</a> See also <a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1611.03530" rel="noopener noreferrer" target="_blank">Zhang et al</a></p><p>We finally observe that both the gradient descent and the stochastic gradient descent methods can reach this level within the same number of steps. – <a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1412.6615" rel="noopener noreferrer" target="_blank">https://arxiv.org/abs/1412.6615</a></p><hr><p>See also <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Loss%20surface%20of%20neural%20networks">Loss surface of neural networks</a></p>
+2013. –&gt; <a class="tc-tiddlylink-external" href="https://www.reddit.com/r/MachineLearning/comments/2qrje1/did_anyone_here_use_no_more_pesky_learning_rates/" rel="noopener noreferrer" target="_blank">newer methods now</a></small></p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1705.08292" rel="noopener noreferrer" target="_blank">The Marginal Value of Adaptive Gradient Methods in Machine Learning</a> See also <a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1611.03530" rel="noopener noreferrer" target="_blank">Zhang et al</a></p><p>We finally observe that both the gradient descent and the stochastic gradient descent methods can reach this level within the same number of steps. – <a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1412.6615" rel="noopener noreferrer" target="_blank">https://arxiv.org/abs/1412.6615</a></p><hr><p>See also <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Loss%20surface%20of%20neural%20networks">Loss surface of neural networks</a></p></div>
+
+
+</div>
+
+
+</a></p>

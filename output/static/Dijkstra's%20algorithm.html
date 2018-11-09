@@ -1,1 +1,57 @@
-<p>finding shortest path between two nodes in a graph</p><p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm" rel="noopener noreferrer" target="_blank">https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=DiedsPsMKXc&amp;list=PL6ED884C7AEE68027&amp;index=#t=1h21m" rel="noopener noreferrer" target="_blank">video</a></p><p>Basically, use <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Dynamic%20programming">Dynamic programming</a>/<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Recursion">Recursion</a>.</p><p>We have a set of visited nodes which we (recursively) know we have found their shortest distance to the start node. Note that set of visited nodes includes the start node, because that is where we start the algorithm.</p><p>Also, we have the tentative distances of all neighbours to visited nodes. – These are computed as the minimum distance yet proposed for {that node}, where each proposition is done whenever a neighbouring node is visited and proposes its distance + the distance between it and {that node}. </p><p>The next visited node is the node with smallest tentative distance. This is because we know this tentative distance is actually the true shortest distance. This is because any other path from that node to the start node will pass through some edge at the boundary of the set of visited nodes. Therefore that path will include [the distance of that edge + {(at least) the shortest distance from the visiting node that edge reaches}]. [This distance] is equal or larger than the tentative distance of the unvisited node from which that edge starts, and this is equal or larger than the tentative distance of the unvisited node with the smallest tentative distance. Therefore, this node's tentative distance is its true shortest distance.</p>
+<p><a name="Dijkstra's algorithm">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Spatial%20navigation tc-tagged-Shortest%20path " data-tags="[[Spatial navigation]] [[Shortest path]]" data-tiddler-title="Dijkstra's algorithm"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Dijkstra's algorithm
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 15th October 2017 at 6:53pm
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+<span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>finding shortest path between two nodes in a graph</p><p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm" rel="noopener noreferrer" target="_blank">https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=DiedsPsMKXc&amp;list=PL6ED884C7AEE68027&amp;index=#t=1h21m" rel="noopener noreferrer" target="_blank">video</a></p><p>Basically, use <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Dynamic%20programming">Dynamic programming</a>/<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Recursion">Recursion</a>.</p><p>We have a set of visited nodes which we (recursively) know we have found their shortest distance to the start node. Note that set of visited nodes includes the start node, because that is where we start the algorithm.</p><p>Also, we have the tentative distances of all neighbours to visited nodes. – These are computed as the minimum distance yet proposed for {that node}, where each proposition is done whenever a neighbouring node is visited and proposes its distance + the distance between it and {that node}. </p><p>The next visited node is the node with smallest tentative distance. This is because we know this tentative distance is actually the true shortest distance. This is because any other path from that node to the start node will pass through some edge at the boundary of the set of visited nodes. Therefore that path will include [the distance of that edge + {(at least) the shortest distance from the visiting node that edge reaches}]. [This distance] is equal or larger than the tentative distance of the unvisited node from which that edge starts, and this is equal or larger than the tentative distance of the unvisited node with the smallest tentative distance. Therefore, this node's tentative distance is its true shortest distance.</p></div>
+
+
+</div>
+
+
+</a></p>

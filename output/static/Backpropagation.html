@@ -1,2 +1,52 @@
-<p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=_KoWTD8T45Q&amp;list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&amp;index=13" rel="noopener noreferrer" target="_blank">backpropagation</a>. An algorithm to compute the derivatives, needed for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Gradient%20descent">Gradient descent</a>, for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Artificial%20neural%20network">Artificial neural network</a>s.</p><p><strong>Backpropagaion</strong>. It effectively uses the chain rule to compute the gradient w.r.t. parameters at one layer with the values of the gradients w.r.t. parameters at the layer above (deeper).</p><h3 class=""><a class="tc-tiddlylink-external" href="https://google-developers.appspot.com/machine-learning/crash-course/backprop-scroll/" rel="noopener noreferrer" target="_blank">Nice explanation</a></h3><p><a class="tc-tiddlylink-external" href="http://neuralnetworksanddeeplearning.com/chap2.html" rel="noopener noreferrer" target="_blank">intro chapter</a></p><h3 class=""><a class="tc-tiddlylink-external" href="http://stats.stackexchange.com/questions/74327/training-a-convolution-neural-network" rel="noopener noreferrer" target="_blank">Backpropagation with shared weights</a></h3><p><a class="tc-tiddlylink-external" href="http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf" rel="noopener noreferrer" target="_blank">Efficient BackProp</a></p><p><img src="https://lh3.googleusercontent.com/meJWmYC_T9cKaz8S8k2j6jmtl1etx-hIwqUN_zl-zgvcGRr1egcKaV_zOzwtIXeKQfyDvTjw51awxmEMwd8iJhN4m9ObNRTPCTNlppjfbrIFGo3ieepSq4EIjx9f4xRPrgpjuHo5PaMCsaM8_weYjQ868FpSHcGcGR5L2IsTgJHiI-AwapSYqofABQYhctmN1-QQTeUSUMM6xui7uX0b9WsTQtyrIPHtwWNczcsYy2vedasGcSOLpP8_8vecJ6hCN_PnkpRa2U8KxhdNiGGshcWeFCvJ48CKQfc_JjLoNDB4D8lDPq8KYnPqzW3zAVzTy6ebBFEXvXnMjwF0vun-j9uJsjadbv3XjJscF2Vw1LkA-msoTk7QBDrfdDy1Sp5l15Kug98zDwvsR-14h5Pv4QmIEm5wlGQfaT9vo7kCYP_b40HMu9umj3gGtMcMNiB1hZ56KWj92hF-PlSYLBA3BRsCuGZlhrON8JMvrYpjHOxf6m5ZVv_XmwJKd8EhoZqozIlQVQssZA8SWqBAAGB8KOsSlElGtmlekDxu6MpiEMMRSYVivwkQAWEKBDPDmVVSWWyZ=w943-h661-no">
-<small>[image above, wait until it loads, you also need to be signed into google]</small></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=-YRB0eFxeQA&amp;index=8&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=24m00s" rel="noopener noreferrer" target="_blank">Video</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=NUKp0c4xb8w&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=9#t=35m25s" rel="noopener noreferrer" target="_blank">See this too</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=NUKp0c4xb8w&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=9#t=41m50s" rel="noopener noreferrer" target="_blank">Why backprop is more efficient than naive approach</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=-YRB0eFxeQA&amp;index=8&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=43m47s" rel="noopener noreferrer" target="_blank">Derivatives wrt the input</a> give you a way of knowing which part of the input is determining the classification, i.e. where is the cat in the image, for example</p><hr><p>Backprop in the brain (see Geoff Hinton vid) and this paper: <a class="tc-tiddlylink-external" href="http://biorxiv.org/content/early/2016/12/23/035451" rel="noopener noreferrer" target="_blank">http://biorxiv.org/content/early/2016/12/23/035451</a></p><p><a class="tc-tiddlylink-external" href="http://www.mitpressjournals.org/doi/full/10.1162/NECO_a_00934" rel="noopener noreferrer" target="_blank">STDP-Compatible Approximation of Backpropagation in an Energy-Based Model</a></p>
+<p><a name="Backpropagation">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Artificial%20neural%20network " data-tags="[[Artificial neural network]]" data-tiddler-title="Backpropagation"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Backpropagation
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 30th June 2018 at 4:59pm
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=_KoWTD8T45Q&amp;list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&amp;index=13" rel="noopener noreferrer" target="_blank">backpropagation</a>. An algorithm to compute the derivatives, needed for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Gradient%20descent">Gradient descent</a>, for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Artificial%20neural%20network">Artificial neural network</a>s.</p><p><strong>Backpropagaion</strong>. It effectively uses the chain rule to compute the gradient w.r.t. parameters at one layer with the values of the gradients w.r.t. parameters at the layer above (deeper).</p><h3 class=""><a class="tc-tiddlylink-external" href="https://google-developers.appspot.com/machine-learning/crash-course/backprop-scroll/" rel="noopener noreferrer" target="_blank">Nice explanation</a></h3><p><a class="tc-tiddlylink-external" href="http://neuralnetworksanddeeplearning.com/chap2.html" rel="noopener noreferrer" target="_blank">intro chapter</a></p><h3 class=""><a class="tc-tiddlylink-external" href="http://stats.stackexchange.com/questions/74327/training-a-convolution-neural-network" rel="noopener noreferrer" target="_blank">Backpropagation with shared weights</a></h3><p><a class="tc-tiddlylink-external" href="http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf" rel="noopener noreferrer" target="_blank">Efficient BackProp</a></p><p><img src="https://lh3.googleusercontent.com/meJWmYC_T9cKaz8S8k2j6jmtl1etx-hIwqUN_zl-zgvcGRr1egcKaV_zOzwtIXeKQfyDvTjw51awxmEMwd8iJhN4m9ObNRTPCTNlppjfbrIFGo3ieepSq4EIjx9f4xRPrgpjuHo5PaMCsaM8_weYjQ868FpSHcGcGR5L2IsTgJHiI-AwapSYqofABQYhctmN1-QQTeUSUMM6xui7uX0b9WsTQtyrIPHtwWNczcsYy2vedasGcSOLpP8_8vecJ6hCN_PnkpRa2U8KxhdNiGGshcWeFCvJ48CKQfc_JjLoNDB4D8lDPq8KYnPqzW3zAVzTy6ebBFEXvXnMjwF0vun-j9uJsjadbv3XjJscF2Vw1LkA-msoTk7QBDrfdDy1Sp5l15Kug98zDwvsR-14h5Pv4QmIEm5wlGQfaT9vo7kCYP_b40HMu9umj3gGtMcMNiB1hZ56KWj92hF-PlSYLBA3BRsCuGZlhrON8JMvrYpjHOxf6m5ZVv_XmwJKd8EhoZqozIlQVQssZA8SWqBAAGB8KOsSlElGtmlekDxu6MpiEMMRSYVivwkQAWEKBDPDmVVSWWyZ=w943-h661-no">
+<small>[image above, wait until it loads, you also need to be signed into google]</small></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=-YRB0eFxeQA&amp;index=8&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=24m00s" rel="noopener noreferrer" target="_blank">Video</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=NUKp0c4xb8w&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=9#t=35m25s" rel="noopener noreferrer" target="_blank">See this too</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=NUKp0c4xb8w&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&amp;index=9#t=41m50s" rel="noopener noreferrer" target="_blank">Why backprop is more efficient than naive approach</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=-YRB0eFxeQA&amp;index=8&amp;list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=43m47s" rel="noopener noreferrer" target="_blank">Derivatives wrt the input</a> give you a way of knowing which part of the input is determining the classification, i.e. where is the cat in the image, for example</p><hr><p>Backprop in the brain (see Geoff Hinton vid) and this paper: <a class="tc-tiddlylink-external" href="http://biorxiv.org/content/early/2016/12/23/035451" rel="noopener noreferrer" target="_blank">http://biorxiv.org/content/early/2016/12/23/035451</a></p><p><a class="tc-tiddlylink-external" href="http://www.mitpressjournals.org/doi/full/10.1162/NECO_a_00934" rel="noopener noreferrer" target="_blank">STDP-Compatible Approximation of Backpropagation in an Energy-Based Model</a></p></div>
+
+
+</div>
+
+
+</a></p>

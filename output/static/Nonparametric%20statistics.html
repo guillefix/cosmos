@@ -1,2 +1,52 @@
-<p>Formally, the number of &quot;parameters&quot; grows with the training set. Here number of parameters basically refers to &quot;amount of information in learned  function&quot;. For example, in neares-neighbour models, the parameters are the position of the neighbourhoods, and the categories to which those regions map. The number of these parameters clearly grows as more data points are added.. A more intuitive way of looking at it is that the algorithm doesn't fit parameters, and instead uses some other method to generate the function it is trying to learn. See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Nonparametric%20statistics">Nonparametric statistics</a> An example is <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Nearest-neighbour%20classification">Nearest-neighbour classification</a> (note that the model has parameters, but they are not fitting parameters, instead they are chosen before using the algorithm, and then are fixed)</p><p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Nonparametric_statistics" rel="noopener noreferrer" target="_blank">https://en.wikipedia.org/wiki/Nonparametric_statistics</a></p><p>not based on parameterized families of probability distributions</p><p><u>Nonparametric models</u></p><ul><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#KNN">KNN</a> – <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Nearest-neighbour%20classification">Nearest-neighbour classification</a> </li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Locally-weighted%20linear%20regression">Locally-weighted linear regression</a></li><li>Infinite-dimensional <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Kernel%20method">Kernel method</a>s</li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Gaussian%20process">Gaussian process</a>es</li></ul><p>They are both based on looking at local neighbours near points for which we are going to make the prediction.
-</p>
+<p><a name="Nonparametric statistics">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Statistics " data-tags="Statistics" data-tiddler-title="Nonparametric statistics"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Nonparametric statistics
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 4th August 2018 at 7:35pm
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>Formally, the number of &quot;parameters&quot; grows with the training set. Here number of parameters basically refers to &quot;amount of information in learned  function&quot;. For example, in neares-neighbour models, the parameters are the position of the neighbourhoods, and the categories to which those regions map. The number of these parameters clearly grows as more data points are added.. A more intuitive way of looking at it is that the algorithm doesn't fit parameters, and instead uses some other method to generate the function it is trying to learn. See <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Nonparametric%20statistics">Nonparametric statistics</a> An example is <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Nearest-neighbour%20classification">Nearest-neighbour classification</a> (note that the model has parameters, but they are not fitting parameters, instead they are chosen before using the algorithm, and then are fixed)</p><p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Nonparametric_statistics" rel="noopener noreferrer" target="_blank">https://en.wikipedia.org/wiki/Nonparametric_statistics</a></p><p>not based on parameterized families of probability distributions</p><p><u>Nonparametric models</u></p><ul><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#KNN">KNN</a> – <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Nearest-neighbour%20classification">Nearest-neighbour classification</a> </li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Locally-weighted%20linear%20regression">Locally-weighted linear regression</a></li><li>Infinite-dimensional <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Kernel%20method">Kernel method</a>s</li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Gaussian%20process">Gaussian process</a>es</li></ul><p>They are both based on looking at local neighbours near points for which we are going to make the prediction.
+</p></div>
+
+
+</div>
+
+
+</a></p>

@@ -1,1 +1,51 @@
-<p>Probability that output changes for a uniformly random input, when changing each bit with probability <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ϵ</mi></mrow><annotation encoding="application/x-tex">\epsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit">ϵ</span></span></span></span></span> (called <em>noise rate</em>). This is like the mutation model in the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Wright-Fisher%20model">Wright-Fisher model</a>. See <a class="tc-tiddlylink-external" href="https://youtu.be/tT00oKP4lk4?t=10m29s" rel="noopener noreferrer" target="_blank">this video</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=HIKTt9vaElM#t=14m55s" rel="noopener noreferrer" target="_blank">Upper bounds on noise sensitivity gives upper bounds on average sensitivity</a>. <a class="tc-tiddlylink-external" href="https://youtu.be/HIKTt9vaElM?t=15m23s" rel="noopener noreferrer" target="_blank">The converse is true for degree d PTFs</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=HIKTt9vaElM&amp;feature=youtu.be&amp;t=16m35s" rel="noopener noreferrer" target="_blank">This has applications to learning</a>. Upper bound on noise sensitivity implies Fourier concentration, kind of smoothness.. And this is related to learning algorithms. Their results implies that the class of degree d PTFs is <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Agnostic%20learning">agnostic lernable</a> in polynomial time.</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=HIKTt9vaElM&amp;feature=youtu.be&amp;t=29m10s" rel="noopener noreferrer" target="_blank">Regularity lemma and pseudorandom generators for PTFs</a> – <a class="tc-tiddlylink-external" href="https://youtu.be/HIKTt9vaElM?t=34m48s" rel="noopener noreferrer" target="_blank">PRG</a>. version of central limit theorem still holds for weakly indpedenent random variables. They show that these weakly dependent distributions (generated from PRGs) fools the class of linear threshold functions. Meaning that the expectation of the linear threshold function when inputs are under this pseudorandom distribution, this expectation is epsilon-close to the expectation when inputs are truly unfiromly distributed (see <a class="tc-tiddlylink-external" href="https://youtu.be/HIKTt9vaElM?t=38m12s" rel="noopener noreferrer" target="_blank">here</a>). They then use this to show that CLT also holds for these weakly dependent PR distributions. Results of this kind are called <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Derandomization">Derandomization</a>.</p><p>These PR distributions have small support (seeds are much smaller than output space).</p><p>Also related quantity is the <strong>noise stability</strong>  (<a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=tT00oKP4lk4&amp;list=PLm3J0oaFux3YypJNaF6sRAf2zC1QzMuTA&amp;index=4#t=20m" rel="noopener noreferrer" target="_blank">def</a>)</p><p><a class="tc-tiddlylink-external" href="https://youtu.be/tT00oKP4lk4?t=47m58s" rel="noopener noreferrer" target="_blank">Fourier formula for noise stability</a></p>
+<p><a name="Noise sensitivity">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Sensitivity " data-tags="Sensitivity" data-tiddler-title="Noise sensitivity"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Noise sensitivity
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 4th July 2018 at 8:57am
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>Probability that output changes for a uniformly random input, when changing each bit with probability <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ϵ</mi></mrow><annotation encoding="application/x-tex">\epsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit">ϵ</span></span></span></span></span> (called <em>noise rate</em>). This is like the mutation model in the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Wright-Fisher%20model">Wright-Fisher model</a>. See <a class="tc-tiddlylink-external" href="https://youtu.be/tT00oKP4lk4?t=10m29s" rel="noopener noreferrer" target="_blank">this video</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=HIKTt9vaElM#t=14m55s" rel="noopener noreferrer" target="_blank">Upper bounds on noise sensitivity gives upper bounds on average sensitivity</a>. <a class="tc-tiddlylink-external" href="https://youtu.be/HIKTt9vaElM?t=15m23s" rel="noopener noreferrer" target="_blank">The converse is true for degree d PTFs</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=HIKTt9vaElM&amp;feature=youtu.be&amp;t=16m35s" rel="noopener noreferrer" target="_blank">This has applications to learning</a>. Upper bound on noise sensitivity implies Fourier concentration, kind of smoothness.. And this is related to learning algorithms. Their results implies that the class of degree d PTFs is <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Agnostic%20learning">agnostic lernable</a> in polynomial time.</p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=HIKTt9vaElM&amp;feature=youtu.be&amp;t=29m10s" rel="noopener noreferrer" target="_blank">Regularity lemma and pseudorandom generators for PTFs</a> – <a class="tc-tiddlylink-external" href="https://youtu.be/HIKTt9vaElM?t=34m48s" rel="noopener noreferrer" target="_blank">PRG</a>. version of central limit theorem still holds for weakly indpedenent random variables. They show that these weakly dependent distributions (generated from PRGs) fools the class of linear threshold functions. Meaning that the expectation of the linear threshold function when inputs are under this pseudorandom distribution, this expectation is epsilon-close to the expectation when inputs are truly unfiromly distributed (see <a class="tc-tiddlylink-external" href="https://youtu.be/HIKTt9vaElM?t=38m12s" rel="noopener noreferrer" target="_blank">here</a>). They then use this to show that CLT also holds for these weakly dependent PR distributions. Results of this kind are called <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Derandomization">Derandomization</a>.</p><p>These PR distributions have small support (seeds are much smaller than output space).</p><p>Also related quantity is the <strong>noise stability</strong>  (<a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=tT00oKP4lk4&amp;list=PLm3J0oaFux3YypJNaF6sRAf2zC1QzMuTA&amp;index=4#t=20m" rel="noopener noreferrer" target="_blank">def</a>)</p><p><a class="tc-tiddlylink-external" href="https://youtu.be/tT00oKP4lk4?t=47m58s" rel="noopener noreferrer" target="_blank">Fourier formula for noise stability</a></p></div>
+
+
+</div>
+
+
+</a></p>

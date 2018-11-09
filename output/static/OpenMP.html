@@ -1,1 +1,45 @@
-<p><a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/OpenMP" rel="noopener noreferrer" target="_blank">Open Multi-Processing</a> is a standard found in most modern C compilers..</p><p><a class="tc-tiddlylink tc-tiddlylink-missing" href="#Parallel%20programming">Parallel programming</a> with several processors with shared memory.</p><p>One process with multiple threads of execution.</p><p>OpenMP API components:</p><ul><li>C ompiler directives </li><li>R untime library routines </li><li>E nvironment variable</li></ul><p>To create several threads for a block of code with openMP use: <code># pragma omp parallel default( none ) private( my_thread ) { /* my parallel code*/</code></p><p>The <a class="tc-tiddlylink-external" href="http://jakascorner.com/blog/2016/07/omp-default-none-and-const.html" rel="noopener noreferrer" target="_blank">default(none)</a> clause forces a programmer to explicitly specify the data-sharing attributes of all variables in a parallel region. Using this clause then forces the programmer to think about data-sharing attributes.</p><p><code>omp_get_thread_num()</code> gives a unique thread ID</p><p><code>gcc -fopenmp</code> (flag to link OpenMP runtime library)</p><p>Environment variable <code>OMP_NUM_THREADS</code> determines number of threads created by OMP</p><p><code>shared( a, b, c ) private(i)</code>: means that the variables a,b,c are on shared memory. i are on each thread's local memory</p><p><code>#pragma omp for</code>: separate for loop into threads</p><h3 class=""><u>Synchronising Threads</u></h3><p>Barrier : a given thread can only proceed once all threads have reached the barrier</p><p>Critical region : Only 1 thread can be executing codes within a critical region. </p><p>Reduction : Combining multiple private values into a single shared value</p>
+<p><a name="OpenMP">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists    " data-tags="" data-tiddler-title="OpenMP"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+OpenMP
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 4th April 2017 at 5:30am
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"></div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p><a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/OpenMP" rel="noopener noreferrer" target="_blank">Open Multi-Processing</a> is a standard found in most modern C compilers..</p><p><a class="tc-tiddlylink tc-tiddlylink-missing" href="#Parallel%20programming">Parallel programming</a> with several processors with shared memory.</p><p>One process with multiple threads of execution.</p><p>OpenMP API components:</p><ul><li>C ompiler directives </li><li>R untime library routines </li><li>E nvironment variable</li></ul><p>To create several threads for a block of code with openMP use: <code># pragma omp parallel default( none ) private( my_thread ) { /* my parallel code*/</code></p><p>The <a class="tc-tiddlylink-external" href="http://jakascorner.com/blog/2016/07/omp-default-none-and-const.html" rel="noopener noreferrer" target="_blank">default(none)</a> clause forces a programmer to explicitly specify the data-sharing attributes of all variables in a parallel region. Using this clause then forces the programmer to think about data-sharing attributes.</p><p><code>omp_get_thread_num()</code> gives a unique thread ID</p><p><code>gcc -fopenmp</code> (flag to link OpenMP runtime library)</p><p>Environment variable <code>OMP_NUM_THREADS</code> determines number of threads created by OMP</p><p><code>shared( a, b, c ) private(i)</code>: means that the variables a,b,c are on shared memory. i are on each thread's local memory</p><p><code>#pragma omp for</code>: separate for loop into threads</p><h3 class=""><u>Synchronising Threads</u></h3><p>Barrier : a given thread can only proceed once all threads have reached the barrier</p><p>Critical region : Only 1 thread can be executing codes within a critical region. </p><p>Reduction : Combining multiple private values into a single shared value</p></div>
+
+
+</div>
+
+
+</a></p>

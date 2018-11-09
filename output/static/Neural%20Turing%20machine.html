@@ -1,4 +1,48 @@
-<p>A differentiable <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Turing%20machine">Turing machine</a> the internal program of which can thus be <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Machine%20learning">learned</a>. The program can be represented using <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Artificial%20neural%20network">Artificial neural network</a>s. A Neural Turing Machine (NTM) architecture contains two basic components: a neural
+<p><a name="Neural Turing machine">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Augmented%20RNN " data-tags="[[Augmented RNN]]" data-tiddler-title="Neural Turing machine"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Neural Turing machine
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 19th August 2017 at 4:26pm
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>A differentiable <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Turing%20machine">Turing machine</a> the internal program of which can thus be <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Machine%20learning">learned</a>. The program can be represented using <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Artificial%20neural%20network">Artificial neural network</a>s. A Neural Turing Machine (NTM) architecture contains two basic components: a neural
 network controller and a memory bank</p><p><img src="http://image.slidesharecdn.com/neuralturingmachines-150104010840-conversion-gate01/95/neural-turing-machines-7-638.jpg?cb=1420333769"></p><p><img src="http://image.slidesharecdn.com/nndl2-150804165908-lva1-app6892/95/neural-turing-machine-tutorial-60-638.jpg?cb=1458368226"></p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1410.5401" rel="noopener noreferrer" target="_blank"> Neural Turing Machines</a>. It emulates working <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Memory">Memory</a> in the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Brain">Brain</a></p><p><u>Key aspects</u></p><ul><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Recurrent%20neural%20network">Recurrent neural network</a>s for the controller, and read write heads. Often <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Long%20short-term%20memory">Long short-term memory</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Memory">Memory</a></li><li>Addressing system that implements <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Attention">Attention</a>, and is differentiable.</li></ul><p>It can learn basic <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Algorithms">Algorithms</a>, and thus it's a form of <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Program%20induction">Program induction</a>. It also addresses the <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Binding%20problem">Binding problem</a> and the problem of computing with variable-length structures, both of which had been studied before. These are important steps to address towards creating <a class="tc-tiddlylink tc-tiddlylink-missing" href="#General%20artificial%20intelligence">General artificial intelligence</a>.</p><p>Crucially, every component of the architecture is <strong>differentiable</strong>, making it straightfor-
 ward to train with gradient descent.  We achieved this by defining ‘blurry’ read and write
 operations that interact to a greater or lesser degree with all the elements in memory (rather
@@ -413,4 +457,10 @@ of each write. T</p><p><small>Note that eight parallel
 read and write heads were needed for best performance with a feedforward controller on
 this task; this may reflect the difficulty of sorting vectors using only unary vector operations
 (see Section 3.4).
-</small></p><p>What <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Sorting%20algorithm">Sorting algorithm</a> is it using? From pictures I think it sorts while writing, and then reads in sequence. But how does it sort it anyway?</p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1505.00521" rel="noopener noreferrer" target="_blank">https://arxiv.org/abs/1505.00521</a></p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/pdf/1702.04649.pdf" rel="noopener noreferrer" target="_blank">https://arxiv.org/pdf/1702.04649.pdf</a></p>
+</small></p><p>What <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Sorting%20algorithm">Sorting algorithm</a> is it using? From pictures I think it sorts while writing, and then reads in sequence. But how does it sort it anyway?</p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/abs/1505.00521" rel="noopener noreferrer" target="_blank">https://arxiv.org/abs/1505.00521</a></p><p><a class="tc-tiddlylink-external" href="https://arxiv.org/pdf/1702.04649.pdf" rel="noopener noreferrer" target="_blank">https://arxiv.org/pdf/1702.04649.pdf</a></p></div>
+
+
+</div>
+
+
+</a></p>

@@ -1,1 +1,51 @@
-<p>A pair of sets of points in R^n are called linearly separable if there exists a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Hyperplane">Hyperplane</a> which separates them (that is one set is on one side, and the other is in the other side of the hyperplane).</p><p>A function from R^n to {0,1} is called linearly separable, if its <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Level%20set">Level set</a>s <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>f</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>(</mo><mn>1</mn><mo>)</mo></mrow><annotation encoding="application/x-tex">f^{-1}(1)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.8141079999999999em;"></span><span class="strut bottom" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord mathit" style="margin-right:0.10764em;">f</span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord">−</span><span class="mord mathrm">1</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mopen">(</span><span class="mord mathrm">1</span><span class="mclose">)</span></span></span></span></span> and <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>f</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>(</mo><mn>0</mn><mo>)</mo></mrow><annotation encoding="application/x-tex">f^{-1}(0)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.8141079999999999em;"></span><span class="strut bottom" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord mathit" style="margin-right:0.10764em;">f</span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord">−</span><span class="mord mathrm">1</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mopen">(</span><span class="mord mathrm">0</span><span class="mclose">)</span></span></span></span></span> are linearly separable. Such a function is also called a <strong>linear threshold function</strong></p><p>A particular class of these are <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Threshold%20Boolean%20function">Threshold Boolean function</a></p><p>Connections to Assumability etc <a class="tc-tiddlylink-external" href="http://mailman.srv.cs.cmu.edu/pipermail/connectionists/1990-March/012252.html" rel="noopener noreferrer" target="_blank">here</a></p><p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Linear_separability" rel="noopener noreferrer" target="_blank">https://en.wikipedia.org/wiki/Linear_separability</a></p><p><u>A <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Consistent%20learner">Consistent learner</a> for linear threshold functions</u></p><p>See <a class="tc-tiddlylink-external" href="http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture03.pdf#page=7" rel="noopener noreferrer" target="_blank">here</a>. Basically a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Linear%20programming">linear program</a> to check if a set of points are linearly separable</p>
+<p><a name="Linearly separable">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Linear%20algebra " data-tags="[[Linear algebra]]" data-tiddler-title="Linearly separable"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Linearly separable
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 12th April 2018 at 6:42am
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>A pair of sets of points in R^n are called linearly separable if there exists a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Hyperplane">Hyperplane</a> which separates them (that is one set is on one side, and the other is in the other side of the hyperplane).</p><p>A function from R^n to {0,1} is called linearly separable, if its <a class="tc-tiddlylink tc-tiddlylink-missing" href="#Level%20set">Level set</a>s <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>f</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>(</mo><mn>1</mn><mo>)</mo></mrow><annotation encoding="application/x-tex">f^{-1}(1)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.8141079999999999em;"></span><span class="strut bottom" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord mathit" style="margin-right:0.10764em;">f</span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord">−</span><span class="mord mathrm">1</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mopen">(</span><span class="mord mathrm">1</span><span class="mclose">)</span></span></span></span></span> and <span><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>f</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>(</mo><mn>0</mn><mo>)</mo></mrow><annotation encoding="application/x-tex">f^{-1}(0)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.8141079999999999em;"></span><span class="strut bottom" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord mathit" style="margin-right:0.10764em;">f</span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord">−</span><span class="mord mathrm">1</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mopen">(</span><span class="mord mathrm">0</span><span class="mclose">)</span></span></span></span></span> are linearly separable. Such a function is also called a <strong>linear threshold function</strong></p><p>A particular class of these are <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Threshold%20Boolean%20function">Threshold Boolean function</a></p><p>Connections to Assumability etc <a class="tc-tiddlylink-external" href="http://mailman.srv.cs.cmu.edu/pipermail/connectionists/1990-March/012252.html" rel="noopener noreferrer" target="_blank">here</a></p><p><a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Linear_separability" rel="noopener noreferrer" target="_blank">https://en.wikipedia.org/wiki/Linear_separability</a></p><p><u>A <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Consistent%20learner">Consistent learner</a> for linear threshold functions</u></p><p>See <a class="tc-tiddlylink-external" href="http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture03.pdf#page=7" rel="noopener noreferrer" target="_blank">here</a>. Basically a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Linear%20programming">linear program</a> to check if a set of points are linearly separable</p></div>
+
+
+</div>
+
+
+</a></p>

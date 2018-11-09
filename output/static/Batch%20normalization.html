@@ -1,1 +1,45 @@
-<p>A method to increase learning rate for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Deep%20learning">deep</a> <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Artificial%20neural%20network">neural networks</a>, as well as <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Regularization">regularize</a> them.</p><p><a class="tc-tiddlylink-external" href="http://arxiv.org/abs/1502.03167" rel="noopener noreferrer" target="_blank">Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift</a></p><p><a class="tc-tiddlylink-external" href="https://standardfrancis.wordpress.com/2015/04/16/batch-normalization/" rel="noopener noreferrer" target="_blank">an explanation</a></p><p>They suggest that a change in the distribution of activations because of parameter updates slows learning.  They call this change the internal covariate shift. They propose to normalize the activations (to have zero mean and unit variance) to avoid this.</p><p>These have been found to work better for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Convolutional%20neural%20network">Convolutional neural network</a>s for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Image%20classification">Image classification</a>. I think this may be because for images, you care more about relative differences between pixel values, and so normalizing helps remove unimportant information.</p>
+<p><a name="Batch normalization">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists    " data-tags="" data-tiddler-title="Batch normalization"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Batch normalization
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 4th November 2016 at 9:43am
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"></div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>A method to increase learning rate for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Deep%20learning">deep</a> <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Artificial%20neural%20network">neural networks</a>, as well as <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Regularization">regularize</a> them.</p><p><a class="tc-tiddlylink-external" href="http://arxiv.org/abs/1502.03167" rel="noopener noreferrer" target="_blank">Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift</a></p><p><a class="tc-tiddlylink-external" href="https://standardfrancis.wordpress.com/2015/04/16/batch-normalization/" rel="noopener noreferrer" target="_blank">an explanation</a></p><p>They suggest that a change in the distribution of activations because of parameter updates slows learning.  They call this change the internal covariate shift. They propose to normalize the activations (to have zero mean and unit variance) to avoid this.</p><p>These have been found to work better for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Convolutional%20neural%20network">Convolutional neural network</a>s for <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Image%20classification">Image classification</a>. I think this may be because for images, you care more about relative differences between pixel values, and so normalizing helps remove unimportant information.</p></div>
+
+
+</div>
+
+
+</a></p>

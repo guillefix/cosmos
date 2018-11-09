@@ -1,2 +1,52 @@
-<p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Parallel%20computing">Parallel computing</a>, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Distributed%20computing">Distributed computing</a>, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#GPU%20computing">GPU computing</a>, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Neuromorphic%20computing">Neuromorphic computing</a></p><h2 class=""><u>Roofline model</u></h2><p>Value of the <em>computational intensity</em> of an algorithm versus its floating-point operations per second, usually plotted in a 2D graph. It gives an idea of how the data bandwidth affects flops. </p><p><em>computational/arithmetic intensity</em> (AI): arithmetic operations (ao) per byte <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=-40jMw4HN-o" rel="noopener noreferrer" target="_blank">AI in parallel comp</a></p><p>Low AI means we do few aos per bit of data, and so data bandwidth is important. As soon as we do enough aos per byte, then the blottleneck is our actual processing unit (depending on hardware/architecture), whether CPU or GPU.</p><p><a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/Roofline_model" rel="noopener noreferrer" target="_blank">https://www.wikiwand.com/en/Roofline_model</a></p><h2 class=""><u>High-performance computing with <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Matlab">Matlab</a></u></h2><h3 class=""><u>Code profiling</u></h3><p>Identify bottlenecks in the code.</p><p><code>tic</code>, <code>toc</code></p><p><code>profile</code></p><p>code analyzer</p><p><u>Vector preallocation</u>. Arrays which dynamically change size can be slow, because array memory has to be reallocated.</p><p>Use backlash, and store sparse matrices in sparse format.</p><p>vectorization</p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Parallel%20computing">Parallel computing</a></u></h2><p>parfor: parallel for loops. <a class="tc-tiddlylink-external" href="https://uk.mathworks.com/help/distcomp/classification-of-variables-in-parfor-loops.html" rel="noopener noreferrer" target="_blank">Variable types in parfors</a></p><p>Multithreading. Several execution threads, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Concurrent%20computing">Concurrent computing</a>. </p><p>MEX functions</p><p>Parallel computing with <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Computer%20cluster">Computer cluster</a>s</p><p>spmd mode:	single	program	multiple	data. <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Concurrent%20computing">Concurrent computing</a>.</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#GPU%20computing">GPU computing</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?time_continue=13&amp;v=v-gSOY9-RgI" rel="noopener noreferrer" target="_blank">Minimize time spent on memory</a>
-</p>
+<p><a name="High-performance computing">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Computer%20engineering " data-tags="[[Computer engineering]]" data-tiddler-title="High-performance computing"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+High-performance computing
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 30th March 2017 at 7:49am
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Parallel%20computing">Parallel computing</a>, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Distributed%20computing">Distributed computing</a>, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#GPU%20computing">GPU computing</a>, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Neuromorphic%20computing">Neuromorphic computing</a></p><h2 class=""><u>Roofline model</u></h2><p>Value of the <em>computational intensity</em> of an algorithm versus its floating-point operations per second, usually plotted in a 2D graph. It gives an idea of how the data bandwidth affects flops. </p><p><em>computational/arithmetic intensity</em> (AI): arithmetic operations (ao) per byte <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=-40jMw4HN-o" rel="noopener noreferrer" target="_blank">AI in parallel comp</a></p><p>Low AI means we do few aos per bit of data, and so data bandwidth is important. As soon as we do enough aos per byte, then the blottleneck is our actual processing unit (depending on hardware/architecture), whether CPU or GPU.</p><p><a class="tc-tiddlylink-external" href="https://www.wikiwand.com/en/Roofline_model" rel="noopener noreferrer" target="_blank">https://www.wikiwand.com/en/Roofline_model</a></p><h2 class=""><u>High-performance computing with <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Matlab">Matlab</a></u></h2><h3 class=""><u>Code profiling</u></h3><p>Identify bottlenecks in the code.</p><p><code>tic</code>, <code>toc</code></p><p><code>profile</code></p><p>code analyzer</p><p><u>Vector preallocation</u>. Arrays which dynamically change size can be slow, because array memory has to be reallocated.</p><p>Use backlash, and store sparse matrices in sparse format.</p><p>vectorization</p><h2 class=""><u><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Parallel%20computing">Parallel computing</a></u></h2><p>parfor: parallel for loops. <a class="tc-tiddlylink-external" href="https://uk.mathworks.com/help/distcomp/classification-of-variables-in-parfor-loops.html" rel="noopener noreferrer" target="_blank">Variable types in parfors</a></p><p>Multithreading. Several execution threads, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Concurrent%20computing">Concurrent computing</a>. </p><p>MEX functions</p><p>Parallel computing with <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Computer%20cluster">Computer cluster</a>s</p><p>spmd mode:	single	program	multiple	data. <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Concurrent%20computing">Concurrent computing</a>.</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#GPU%20computing">GPU computing</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?time_continue=13&amp;v=v-gSOY9-RgI" rel="noopener noreferrer" target="_blank">Minimize time spent on memory</a>
+</p></div>
+
+
+</div>
+
+
+</a></p>

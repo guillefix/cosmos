@@ -1,1 +1,45 @@
-<p>See discussion in comments <a class="tc-tiddlylink-external" href="https://charlesmartin14.wordpress.com/2016/09/24/mmds-video-presentation/" rel="noopener noreferrer" target="_blank">here</a> and <a class="tc-tiddlylink-external" href="https://charlesmartin14.wordpress.com/2016/10/21/improving-rbms-with-physical-chemistry/" rel="noopener noreferrer" target="_blank">here</a></p><p>Following from the comments in <a class="tc-tiddlylink-external" href="https://charlesmartin14.wordpress.com/2016/10/21/improving-rbms-with-physical-chemistry/#comment-1499" rel="noopener noreferrer" target="_blank">https://charlesmartin14.wordpress.com/2016/10/21/improving-rbms-with-physical-chemistry/#comment-1499</a>, which are more relevant here.</p><p>“This is the standard ‘picture’. Now this may or may not be a good model for what is going on. ” Ok, I see. Do you know of any other proposed alternatives to the standard “picture which explains how the energy landscape corresponds to overfitting”? Hm, I suppose that in the paper where “It is suggested that having too many Hidden nodes–at a fixed Temp.–leads to a glassy state prone to overtraining small data sets.”, there may a way of looking at overfitting as a glassy state, but I haven’t finished reading the paper yet.</p><p>Hm, thinking a bit more, if the spin-glass state has minima which are quite deep, then getting stuck in them would coincide with overfitting/small trainning error. I suppose this could be a kind of overfitting that you get if you have no regularization (or if it isn’t working properly), while the no-early-stopping overfitting is related to global minima in the funnel.. Though, I think I’m now seeing why the whole thing could be more complicated..</p><p>Anyway I think I’m starting to get how regularization is a proxy for temperature. Basically, regularization helps either remove bad minima by changing the free energy landscape, or helps escaping from them by adding fluctuations, like dropout. Actually, even dropout can be seen as changing the energy landscape I think, as adding fluctuations is like increasing temperature, which makes entropy matter more (when writting free energy as F=U-TS). Does this sound right?</p><p>This last thought made me remember the “survival of the flattest” idea in evolution ( <a class="tc-tiddlylink-external" href="http://www.nature.com/nature/journal/v412/n6844/abs/412331a0.html" rel="noopener noreferrer" target="_blank">http://www.nature.com/nature/journal/v412/n6844/abs/412331a0.html</a> ) . Let’s say we have a wide funnel, even if it’s not that deep, a system with high mutation rate/temperature will actually end up there over an isolated minimum even if its deeper (say corresponding to overtraining)!</p>
+<p><a name="Comments on why deep learning works: perspectives from theoretical chemistry">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists    " data-tags="" data-tiddler-title="Comments on why deep learning works: perspectives from theoretical chemistry"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Comments on why deep learning works: perspectives from theoretical chemistry
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 4th November 2016 at 9:43am
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"></div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p>See discussion in comments <a class="tc-tiddlylink-external" href="https://charlesmartin14.wordpress.com/2016/09/24/mmds-video-presentation/" rel="noopener noreferrer" target="_blank">here</a> and <a class="tc-tiddlylink-external" href="https://charlesmartin14.wordpress.com/2016/10/21/improving-rbms-with-physical-chemistry/" rel="noopener noreferrer" target="_blank">here</a></p><p>Following from the comments in <a class="tc-tiddlylink-external" href="https://charlesmartin14.wordpress.com/2016/10/21/improving-rbms-with-physical-chemistry/#comment-1499" rel="noopener noreferrer" target="_blank">https://charlesmartin14.wordpress.com/2016/10/21/improving-rbms-with-physical-chemistry/#comment-1499</a>, which are more relevant here.</p><p>“This is the standard ‘picture’. Now this may or may not be a good model for what is going on. ” Ok, I see. Do you know of any other proposed alternatives to the standard “picture which explains how the energy landscape corresponds to overfitting”? Hm, I suppose that in the paper where “It is suggested that having too many Hidden nodes–at a fixed Temp.–leads to a glassy state prone to overtraining small data sets.”, there may a way of looking at overfitting as a glassy state, but I haven’t finished reading the paper yet.</p><p>Hm, thinking a bit more, if the spin-glass state has minima which are quite deep, then getting stuck in them would coincide with overfitting/small trainning error. I suppose this could be a kind of overfitting that you get if you have no regularization (or if it isn’t working properly), while the no-early-stopping overfitting is related to global minima in the funnel.. Though, I think I’m now seeing why the whole thing could be more complicated..</p><p>Anyway I think I’m starting to get how regularization is a proxy for temperature. Basically, regularization helps either remove bad minima by changing the free energy landscape, or helps escaping from them by adding fluctuations, like dropout. Actually, even dropout can be seen as changing the energy landscape I think, as adding fluctuations is like increasing temperature, which makes entropy matter more (when writting free energy as F=U-TS). Does this sound right?</p><p>This last thought made me remember the “survival of the flattest” idea in evolution ( <a class="tc-tiddlylink-external" href="http://www.nature.com/nature/journal/v412/n6844/abs/412331a0.html" rel="noopener noreferrer" target="_blank">http://www.nature.com/nature/journal/v412/n6844/abs/412331a0.html</a> ) . Let’s say we have a wide funnel, even if it’s not that deep, a system with high mutation rate/temperature will actually end up there over an isolated minimum even if its deeper (say corresponding to overtraining)!</p></div>
+
+
+</div>
+
+
+</a></p>

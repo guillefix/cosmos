@@ -1,1 +1,51 @@
-<p><a class="tc-tiddlylink-external" href="https://en.bitcoin.it/wiki/Protocol_documentation" rel="noopener noreferrer" target="_blank">https://en.bitcoin.it/wiki/Protocol_documentation</a></p><p><a class="tc-tiddlylink-external" href="https://bitcoin.org/bitcoin.pdf" rel="noopener noreferrer" target="_blank">https://bitcoin.org/bitcoin.pdf</a></p><p><a class="tc-tiddlylink-external" href="http://www.michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/" rel="noopener noreferrer" target="_blank">http://www.michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/</a></p><p><a class="tc-tiddlylink-external" href="https://en.bitcoin.it/wiki/Transaction" rel="noopener noreferrer" target="_blank">https://en.bitcoin.it/wiki/Transaction</a></p><p>To verify that inputs are authorized to collect the values of referenced outputs, Bitcoin uses a custom Forth-like scripting system. The input's scriptSig and the <em>referenced</em> output's scriptPubKey are evaluated (in that order), with scriptPubKey using the values left on the stack by scriptSig. The input is authorized if scriptPubKey returns true. Through the scripting system, the sender can create very complex conditions that people have to meet in order to claim the output's value. For example, it's possible to create an output that can be claimed by anyone without any authorization. It's also possible to require that an input be signed by ten different keys, or be redeemable with a password instead of a key.</p><p>scriptPubKey basically performs a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Digital%20signature">Digital signature</a> check of the digital signature in scritpSig of the referenced output (the previous transaction whose bitcoins we want to spend) with the private key corresponding to the pubKey that that previous transaction's scriptPubKey specifies.</p><hr><p><u>SegWit</u></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=QYZv92F2kCw" rel="noopener noreferrer" target="_blank">https://www.youtube.com/watch?v=QYZv92F2kCw</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=HCcRO8jpvrM" rel="noopener noreferrer" target="_blank">https://www.youtube.com/watch?v=HCcRO8jpvrM</a></p><p><a class="tc-tiddlylink-external" href="https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki#cite_ref-3-0" rel="noopener noreferrer" target="_blank">https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki#cite_ref-3-0</a></p><p><a class="tc-tiddlylink-external" href="https://medium.com/@jimmysong/understanding-segwit-block-size-fd901b87c9d4" rel="noopener noreferrer" target="_blank">https://medium.com/@jimmysong/understanding-segwit-block-size-fd901b87c9d4</a></p><p><a class="tc-tiddlylink-external" href="https://bitcoincore.org/en/2016/01/26/segwit-benefits/" rel="noopener noreferrer" target="_blank">https://bitcoincore.org/en/2016/01/26/segwit-benefits/</a></p><p><a class="tc-tiddlylink-external" href="https://blockchaintraining.org/wp-content/uploads/2016/06/Lombrozo-SegregatedWitness.pdf" rel="noopener noreferrer" target="_blank">https://blockchaintraining.org/wp-content/uploads/2016/06/Lombrozo-SegregatedWitness.pdf</a></p><p><u>Lightning network</u></p><hr><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=FkYw6RrvqEU" rel="noopener noreferrer" target="_blank">https://www.youtube.com/watch?v=FkYw6RrvqEU</a></p>
+<p><a name="Bitcoin">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Blockchain " data-tags="Blockchain" data-tiddler-title="Bitcoin"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class=" tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="tiddlymap" class=" tc-btn-%24%3A%2Fplugins%2Ffelixhayashi%2Ftiddlymap%2Fmisc%2FquickConnectButton " title="Toggle TiddlyMap actions">
+
+
+</button></span>
+</span>
+
+<span>
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+Bitcoin
+</h2>
+
+</span>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="#cosmos">
+cosmos
+</a> 12th November 2017 at 7:40am
+</div>
+</div>
+<div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+
+
+<span class="tc-drop-down tc-reveal" hidden="true"></span>
+
+</span>
+</div>
+</div>
+<div class="tc-tiddler-body tc-reveal"><p><a class="tc-tiddlylink-external" href="https://en.bitcoin.it/wiki/Protocol_documentation" rel="noopener noreferrer" target="_blank">https://en.bitcoin.it/wiki/Protocol_documentation</a></p><p><a class="tc-tiddlylink-external" href="https://bitcoin.org/bitcoin.pdf" rel="noopener noreferrer" target="_blank">https://bitcoin.org/bitcoin.pdf</a></p><p><a class="tc-tiddlylink-external" href="http://www.michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/" rel="noopener noreferrer" target="_blank">http://www.michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/</a></p><p><a class="tc-tiddlylink-external" href="https://en.bitcoin.it/wiki/Transaction" rel="noopener noreferrer" target="_blank">https://en.bitcoin.it/wiki/Transaction</a></p><p>To verify that inputs are authorized to collect the values of referenced outputs, Bitcoin uses a custom Forth-like scripting system. The input's scriptSig and the <em>referenced</em> output's scriptPubKey are evaluated (in that order), with scriptPubKey using the values left on the stack by scriptSig. The input is authorized if scriptPubKey returns true. Through the scripting system, the sender can create very complex conditions that people have to meet in order to claim the output's value. For example, it's possible to create an output that can be claimed by anyone without any authorization. It's also possible to require that an input be signed by ten different keys, or be redeemable with a password instead of a key.</p><p>scriptPubKey basically performs a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Digital%20signature">Digital signature</a> check of the digital signature in scritpSig of the referenced output (the previous transaction whose bitcoins we want to spend) with the private key corresponding to the pubKey that that previous transaction's scriptPubKey specifies.</p><hr><p><u>SegWit</u></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=QYZv92F2kCw" rel="noopener noreferrer" target="_blank">https://www.youtube.com/watch?v=QYZv92F2kCw</a></p><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=HCcRO8jpvrM" rel="noopener noreferrer" target="_blank">https://www.youtube.com/watch?v=HCcRO8jpvrM</a></p><p><a class="tc-tiddlylink-external" href="https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki#cite_ref-3-0" rel="noopener noreferrer" target="_blank">https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki#cite_ref-3-0</a></p><p><a class="tc-tiddlylink-external" href="https://medium.com/@jimmysong/understanding-segwit-block-size-fd901b87c9d4" rel="noopener noreferrer" target="_blank">https://medium.com/@jimmysong/understanding-segwit-block-size-fd901b87c9d4</a></p><p><a class="tc-tiddlylink-external" href="https://bitcoincore.org/en/2016/01/26/segwit-benefits/" rel="noopener noreferrer" target="_blank">https://bitcoincore.org/en/2016/01/26/segwit-benefits/</a></p><p><a class="tc-tiddlylink-external" href="https://blockchaintraining.org/wp-content/uploads/2016/06/Lombrozo-SegregatedWitness.pdf" rel="noopener noreferrer" target="_blank">https://blockchaintraining.org/wp-content/uploads/2016/06/Lombrozo-SegregatedWitness.pdf</a></p><p><u>Lightning network</u></p><hr><p><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=FkYw6RrvqEU" rel="noopener noreferrer" target="_blank">https://www.youtube.com/watch?v=FkYw6RrvqEU</a></p></div>
+
+
+</div>
+
+
+</a></p>
