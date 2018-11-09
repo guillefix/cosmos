@@ -1,4 +1,4 @@
-<p>&lt;h2 class=&quot;&quot;&gt;Algorithm to compute &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;#LZ%20complexity%20measure&quot;&gt;LZ complexity measure&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;written in &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-resolves&quot; href=&quot;#Python%20(programming%20language)&quot;&gt;Python&lt;/a&gt;&lt;/p&gt;&lt;pre&gt;&lt;code&gt;def KC_LZ(string):
+<h2 class="">Algorithm to compute <a class="tc-tiddlylink tc-tiddlylink-missing" href="#LZ%20complexity%20measure">LZ complexity measure</a></h2><p>written in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Python%20(programming%20language)">Python</a></p><pre><code>def KC_LZ(string):
     n=len(string)
     s = '0'+string
     c=1
@@ -10,16 +10,16 @@
 
     while stop==0:
         if s[i+k] != s[l+k]:
-            if k&amp;gt;k_max:
+            if k&gt;k_max:
                 k_max=k # k_max stores the length of the longest pattern in the LA that has been matched somewhere in the SB
 
-            i=i+1 # we increase i while the bit doesn't match, looking for a previous occurence of a pattern. s[i+k] is scanning the &amp;quot;search buffer&amp;quot; (SB)
+            i=i+1 # we increase i while the bit doesn't match, looking for a previous occurence of a pattern. s[i+k] is scanning the &quot;search buffer&quot; (SB)
 
-            if i==l: # we stop looking when i catches up with the first bit of the &amp;quot;look-ahead&amp;quot; (LA) part.
+            if i==l: # we stop looking when i catches up with the first bit of the &quot;look-ahead&quot; (LA) part.
                 c=c+1 # If we were actually compressing, we would add the new token here. here we just count recounstruction STEPs
                 l=l+k_max # we move the beginning of the LA to the end of the newly matched pattern.
 
-                if l+1&amp;gt;n: # if the LA surpasses length of string, then we stop.
+                if l+1&gt;n: # if the LA surpasses length of string, then we stop.
                     stop=1
 
                 else: #after STEP,
@@ -29,10 +29,10 @@
             else:
                 k=1 #we've finished matching a pattern in the SB, and we reset the matched pattern length counter.
 
-        else: # I increase k as long as the pattern matches, i.e. as long as s[l+k] bit string can be reconstructed by s[i+k] bit string. Note that the matched pattern can &amp;quot;run over&amp;quot; l because the pattern starts copying itself (see LZ 76 paper). This is just what happens when you apply the cloning tool on photoshop to a region where you've already cloned...
+        else: # I increase k as long as the pattern matches, i.e. as long as s[l+k] bit string can be reconstructed by s[i+k] bit string. Note that the matched pattern can &quot;run over&quot; l because the pattern starts copying itself (see LZ 76 paper). This is just what happens when you apply the cloning tool on photoshop to a region where you've already cloned...
             k=k+1
 
-            if l+k&amp;gt;n: # if we reach the end of the string while matching, we need to add that to the tokens, and stop.
+            if l+k&gt;n: # if we reach the end of the string while matching, we need to add that to the tokens, and stop.
                 c=c+1
                 stop=1
 
@@ -44,4 +44,4 @@
     complexity=c;
 
     #b=n*1.0/np.log2(n)
-    #complexity=c/b;&lt;/code&gt;&lt;/pre&gt;</p>
+    #complexity=c/b;</code></pre>

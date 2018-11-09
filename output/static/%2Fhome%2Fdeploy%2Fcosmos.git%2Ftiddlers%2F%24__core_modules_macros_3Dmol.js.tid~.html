@@ -1,51 +1,51 @@
-<p>&lt;p&gt;created: 20160901105912827
+<p>created: 20160901105912827
 modified: 20160901121115957
 module-type: macro
 tags: 
-title: &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;#%24%3A%2Fcore%2Fmodules%2Fmacros%2F3Dmol&quot;&gt;$:/core/modules/macros/3Dmol&lt;/a&gt;
-type: application/javascript&lt;/p&gt;&lt;p&gt;/*\
-title: &lt;a class=&quot;tc-tiddlylink tc-tiddlylink-missing&quot; href=&quot;#%24%3A%2Fcore%2Fmodules%2Fmacros%2F3Dmol&quot;&gt;$:/core/modules/macros/3Dmol&lt;/a&gt;
+title: <a class="tc-tiddlylink tc-tiddlylink-missing" href="#%24%3A%2Fcore%2Fmodules%2Fmacros%2F3Dmol">$:/core/modules/macros/3Dmol</a>
+type: application/javascript</p><p>/*\
+title: <a class="tc-tiddlylink tc-tiddlylink-missing" href="#%24%3A%2Fcore%2Fmodules%2Fmacros%2F3Dmol">$:/core/modules/macros/3Dmol</a>
 type: application/javascript
 module-type: macro
 Macro to return a formatted version of the current time
 \*/
-(function(){&lt;/p&gt;&lt;p&gt;/*jslint node: true, browser: true */
+(function(){</p><p>/*jslint node: true, browser: true */
 /*global $tw: false */
-&amp;quot;use strict&amp;quot;;&lt;/p&gt;&lt;p&gt;/*
+&quot;use strict&quot;;</p><p>/*
 Information about this macro
-*/&lt;/p&gt;&lt;p&gt;exports.name = &amp;quot;3Dmol&amp;quot;;&lt;/p&gt;&lt;p&gt;exports.params = [
-	{name: &amp;quot;mol&amp;quot;},
-        {name: &amp;quot;id&amp;quot;}
-];&lt;/p&gt;&lt;p&gt;/*
+*/</p><p>exports.name = &quot;3Dmol&quot;;</p><p>exports.params = [
+	{name: &quot;mol&quot;},
+        {name: &quot;id&quot;}
+];</p><p>/*
 Run the macro
 */
-exports.run = function(mol, id) {&lt;/p&gt;&lt;p&gt;&lt;em&gt; Assume there exists an HTML div with id &amp;quot;id&amp;quot;
-var element = $(&amp;quot;#&amp;quot;+id);
+exports.run = function(mol, id) {</p><p><em> Assume there exists an HTML div with id &quot;id&quot;
+var element = $(&quot;#&quot;+id);
 
 console.log(element)
 
-&lt;/em&gt; Viewer config - properties 'defaultcolors' and 'callback'
-var config = {defaultcolors: $3Dmol.rasmolElementColors };&lt;/p&gt;&lt;p&gt;&lt;em&gt; Create GLViewer within 'gldiv' 
+</em> Viewer config - properties 'defaultcolors' and 'callback'
+var config = {defaultcolors: $3Dmol.rasmolElementColors };</p><p><em> Create GLViewer within 'gldiv' 
 var myviewer = $3Dmol.createViewer(element, config);
-&lt;/em&gt;'data' is a string containing molecule data in pdb format  
-&lt;em&gt;myviewer.addModel(data, &amp;quot;pdb&amp;quot;);
-&lt;/em&gt;myviewer.zoomTo();
-&lt;em&gt;myviewer.render(); 
+</em>'data' is a string containing molecule data in pdb format  
+<em>myviewer.addModel(data, &quot;pdb&quot;);
+</em>myviewer.zoomTo();
+<em>myviewer.render(); 
 
 myviewer.setBackgroundColor('white');     
 
 viewer.setStyle({}, {sphere:{} })                  
                        
-&lt;/em&gt; GLModel 'm' created and loaded into glviewer for PDB id 2POR
-&lt;em&gt; Note that m will not contain the atomic data until after the network request is completed
+</em> GLModel 'm' created and loaded into glviewer for PDB id 2POR
+<em> Note that m will not contain the atomic data until after the network request is completed
 var m = $3Dmol.download('pdb:'+mol, myviewer, {format:'cif'});
 
 console.log(m)
 
-	return &amp;quot;&amp;quot;
-&lt;/em&gt;return mol
-&lt;em&gt;$tw.utils.formatDateString(new Date(),format || &amp;quot;0hh:0mm, DDth MMM YYYY&amp;quot;);
+	return &quot;&quot;
+</em>return mol
+<em>$tw.utils.formatDateString(new Date(),format || &quot;0hh:0mm, DDth MMM YYYY&quot;);
 };
 
 })();
-&lt;/em&gt;&lt;/p&gt;</p>
+</em></p>
