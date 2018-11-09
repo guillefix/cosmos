@@ -1,0 +1,14 @@
+<p>In commercial data mining, there is much interest in a task called market basket analysis. The
+data consists of a (typically very large but sparse) binary matrix, where each column represents
+an item or product, and each row represents a transaction. We set xij = 1 if item j was
+purchased on the i’th transaction. Many items are purchased together (e.g., bread and butter),
+so there will be correlations amongst the bits. Given a new partially observed bit vector,
+representing a subset of items that the consumer has bought, the goal is to predict which other
+bits are likely to turn on, representing other items the consumer might be likely to buy. (Unlike
+collaborative filtering, we often assume there is no missing data in the training data, since we
+know the past shopping behavior of each customer.)</p><p>This task arises in other domains besides modeling purchasing patterns. For example, similar
+techniques can be used to model dependencies between files in complex software systems. In
+this case, the task is to predict, given a subset of files that have been changed, which other ones
+need to be updated to ensure consistency (see e.g., (Hu et al. 2010)).</p><p>It is common to solve such tasks using frequent itemset mining, which create association
+rules (see e.g., (Hastie et al. 2009, sec 14.2) for details). Alternatively, we can adopt a probabilistic
+approach, and fit a joint density model p(x1,...,xD) to the bit vectors, see e.g., (Hu et al.</p>
