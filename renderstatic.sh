@@ -9,7 +9,7 @@ tiddlywiki $COSMOS --rendertiddlers [!is[system]] $:/core/templates/static.tiddl
 
 mv ${COSMOS}/\$__core_modules_macros_3Dmol.js.tid ${COSMOS}/tiddlers
 
-rename  's/%20/\ /g' ${COSMOS}/output/static/*
+#rename  's/%20/\ /g' ${COSMOS}/output/static/* # MESSES UP THE LINKS :P
 
 tiddlywiki $COSMOS --rendertiddler $:/core/templates/static.template.html static.html text/plain
 
