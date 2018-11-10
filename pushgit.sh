@@ -3,4 +3,4 @@
 
 git add -A
 git commit -m "\"updated cosmos\""
-git push github laptop-master
+git push origin laptop-master
