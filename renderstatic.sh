@@ -1,7 +1,7 @@
 #!/bin/bash
 
-COSMOS="/home/guillefix/cosmos/cosmos"
-GUILLEFIX="/home/guillefix/cosmos/guillefix.me"
+COSMOS="/home/guillefix/web/cosmos"
+GUILLEFIX="/home/guillefix/web/guillefix.me"
 
 mv ${COSMOS}/tiddlers/\$__core_modules_macros_3Dmol.js.tid $COSMOS
 
