@@ -1,6 +1,6 @@
 created: 20160117153324960
 creator: guillefix
-modified: 20180128121242341
+modified: 20181111013418940
 modifier: cosmos
 tags: $:/tags/Stylesheet
 title: Custom stylesheet
@@ -101,9 +101,12 @@ overflow: auto;
 }
 
 @media (min-width: 1400px) {
+
 .tc-story-river {
 width: 60vw;
 /*margin-right:200px;*/
+min-height: 100vh;
+height: 100%;
 }
 .tc-sidebar-scrollable {
  width: 35vw;
@@ -111,6 +114,8 @@ left: 65vw;
 }
 .tc-tiddler-frame {
 width: 60vw;
+}
+
 }
 
 </pre>
