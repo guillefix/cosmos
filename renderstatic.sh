@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#COSMOS="/home/deploy/cosmos.git"
+#GUILLEFIX="/home/deploy/guillefix.me"
 COSMOS="/home/guillefix/web/cosmos"
 GUILLEFIX="/home/guillefix/web/guillefix.me"
 
