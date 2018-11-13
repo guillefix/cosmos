@@ -1,6 +1,6 @@
 created: 20160121195337551
 creator: guillefix
-modified: 20171212130251881
+modified: 20181112141611831
 modifier: cosmos
 tags: Physics Relativity
 title: Electromagnetism
@@ -12,6 +12,10 @@ type: text/vnd.tiddlywiki
 !!__Magnetostatics__
 
 !!__Electromagnetism__
+
+aka [[Electrodynamics]]
+
+https://physics.stackexchange.com/questions/139238/deriving-heaviside-feynman-formula-for-the-electric-field-of-an-arbitrarily-movi/145423#145423
 
 https://physics874.files.wordpress.com/2016/03/feynman-lectures-em-equation1.pdf
 

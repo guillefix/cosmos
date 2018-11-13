@@ -1,6 +1,6 @@
 created: 20170512224700922
 creator: cosmos
-modified: 20181109224151871
+modified: 20181113134836009
 modifier: cosmos
 tags: [[Deep learning theory]] Generalization
 title: Generalization in deep learning
@@ -72,6 +72,8 @@ Entropy-SGD -- [[Entropy-SGD optimizes the prior of a PAC-Bayes bound: Generaliz
 [[Deep learning generalizes because the parameter-function map is biased towards simple functions|https://openreview.net/forum?id=rye4g3AqFm]] :)
 
 [[(video) Karolina Dziugaite on Nonvacuous Generalization Bounds for Deep Neural Networks via PAC-Bayes|https://www.youtube.com/watch?v=dHUH0hmKvs8]] -- [[Data-dependent PAC-Bayes priors via differential privacy|https://arxiv.org/abs/1802.09583]] -- [[Entropy-SGD optimizes the prior of a PAC-Bayes bound: Generalization properties of Entropy-SGD and data-dependent priors|https://arxiv.org/abs/1712.09376]]
+
+<small>[[  PAC-bayesian  approach  to spectrally-normalized margin bounds for neural networks.|https://arxiv.org/abs/1707.09564]] -- [[Exploring Generalization in Deep Learning|https://arxiv.org/pdf/1706.08947.pdf]]</small>
 
 @@.fancy-title
 !!__Norm/[[Margin-based generalization bound]]__

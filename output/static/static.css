@@ -4105,9 +4105,12 @@ overflow: auto;
 }
 
 @media (min-width: 1400px) {
+
 .tc-story-river {
 width: 60vw;
 /*margin-right:200px;*/
+min-height: 100vh;
+height: 100%;
 }
 .tc-sidebar-scrollable {
  width: 35vw;
@@ -4115,6 +4118,8 @@ left: 65vw;
 }
 .tc-tiddler-frame {
 width: 60vw;
+}
+
 }
 
 Color pickerOpacity of background
