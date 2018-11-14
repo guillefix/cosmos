@@ -20,3 +20,6 @@ tiddlywiki $COSMOS  --rendertiddler $:/core/templates/static.template.css static
 tiddlywiki --rendertiddler $:/core/save/all index.html text/plain
 
 cp -r ${COSMOS}/output/* ${GUILLEFIX}/cosmos/
+
+mv ${GUILLEFIX}/cosmos/index.html ${GUILLEFIX}/cosmos/cosmos.html
+mv ${GUILLEFIX}/cosmos/static.html ${GUILLEFIX}/cosmos/index.html
