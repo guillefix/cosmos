@@ -1,6 +1,6 @@
 created: 20160624010152080
 creator: guillefix
-modified: 20170117175218249
+modified: 20181115011100955
 modifier: cosmos
 tags: Programming
 title: Programming language
@@ -34,11 +34,13 @@ Most programming languages are context-free. http://stackoverflow.com/questions/
 
 !!__Programming languages__
 
+__[[C-family programming language]]__
+
 !!![[C/C++]]
 
-!!![[Python|Python (programming language)]]
-
 !!![[JavaScript]]
+
+!!![[Python|Python (programming language)]]
 
 [[Assembly (programming language)]]
 

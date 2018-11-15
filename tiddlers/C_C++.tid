@@ -1,8 +1,8 @@
 created: 20160516121923549
 creator: guillefix
-modified: 20171204151219557
+modified: 20181115011009671
 modifier: cosmos
-tags: 
+tags: [[C-family programming language]]
 title: C/C++
 tmap.id: 0de3675e-37a0-4f24-8f44-3f47f3037157
 type: text/vnd.tiddlywiki
@@ -30,3 +30,13 @@ Armadillo
 !!!cling 
 
 c++ REPL, also for jupyter now
+
+----------------
+
+Bitsets in C++
+
+https://www.geeksforgeeks.org/c-bitset-and-its-application/ -- things like all() any()
+
+https://owlcation.com/stem/C-bitset-with-example -- set individual bits
+
+http://www.cplusplus.com/reference/bitset/bitset/operators/ -- LOGICAL operators on bits
