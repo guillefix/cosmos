@@ -1,6 +1,6 @@
 created: 20160711225450798
 creator: guillefix
-modified: 20161104134326680
+modified: 20181116030140751
 modifier: cosmos
 tags: [[Artificial intelligence innovation]] Medicine [[Artificial intelligence]]
 title: AI in medicine
@@ -11,9 +11,7 @@ type: text/vnd.tiddlywiki
 
 [[Artificial Intelligence Could Help Catch Alzheimer's Early|http://www.livescience.com/55313-artificial-intelligence-alzheimers-early-detection.html]]
 
-http://insilicomedicine.com/
-
-https://www.wikiwand.com/en/Alex_Zhavoronkov
+[[UK biobank|http://biobank.ctsu.ox.ac.uk/crystal/]]
 
 ----------------
 
@@ -24,3 +22,7 @@ Mamography ROI. CNN. Can't use all of the mamography data.
 [[Oncology]] CT. 3D seg
 
 Peter. Tobias. PhD, high performance computing for genetics. Chris. Combining data. Half-labelled data set. Semi-supervised learning.
+
+http://insilicomedicine.com/
+
+https://www.wikiwand.com/en/Alex_Zhavoronkov

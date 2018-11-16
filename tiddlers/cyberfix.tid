@@ -1,0 +1,44 @@
+created: 20181116023645654
+creator: cosmos
+modified: 20181116025817943
+modifier: cosmos
+tags: Cyberself
+title: cyberfix
+type: text/vnd.tiddlywiki
+
+
+//Current substrate//: Dell Precision M6700 (aquired in Dubai in 2012)
+
+__Finger interface (aka Keyboard)__
+
+<small>"key" refers to physical buttons. By convention, we map Software functions to Keys</small>
+
+`~/.Xmodmap` -- we map control to Alt key; We map Alt to Windows key; We map Window(Meta) to Control Key. We map Escape to Caps Lock key.
+
+```
+clear control
+clear mod1
+clear mod4
+keycode 37 = Super_L
+keycode 64 = Control_L
+keycode 133 = Alt_L Meta_L
+keycode 66 = Escape 
+add control = Control_L Control_R
+add mod1 = Alt_L Meta_L
+add mod4 = Super_L
+add lock = Escape 
+clear lock 
+```
+
+\\why does `clear lock` have to be at the end for CapsLock to stop being CapsLock??
+
+Command to activate `xmodmap ~/.Xmodmap` . Haven't yet figured out how to run it automatically. Should try to make service using [[Systemd]] as in [[evevo]].
+
+mapped ctrl+[Page_up] to ctrl+q and ctrl+[Page_down] to ctrl+d using Ubuntu's own ability to create shortcuts (Settings>Keyboard>Shortcuts>Custom shortcuts -- see conversation with Paco on 26/1/2018 on Telegram 7pm) (and alternative to achieve the same thing is --  https://askubuntu.com/questions/105224/ctrl-page-down-ctrl-page-up . We link the shortcuts to "virutal keypresses" using xvkbd, in particular the commands `xvkbd -xsendevent -text "\C\[Next]"` and `xvkbd -xsendevent -text "\C\[Prior]"`
+
+Also now mapped Ctrl+D to Alt+D via Ubuntu settings also, linking Alt+d to command `xvkbd -xsendevent -text "\Cd"`... becuase I need to use ctrl+D in several cases, like in terminal..
+
+We map alt+tab to ctrl+tab using `compizconfig-settings-manager` (that's the name of the package to install, but then seems to only be available on app menu, not on bash) --  https://askubuntu.com/questions/288378/cannot-remap-alt-tab-combination-after-switching-ctrl-and-alt 
+
+map alt+grave (&#x60;) to ctrl+grave using compiz also --
+ https://askubuntu.com/questions/132304/how-to-disable-alt-backtick-grave 
