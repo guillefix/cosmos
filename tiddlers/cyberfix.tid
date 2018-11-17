@@ -1,6 +1,6 @@
 created: 20181116023645654
 creator: cosmos
-modified: 20181116025817943
+modified: 20181116154719950
 modifier: cosmos
 tags: Cyberself
 title: cyberfix
@@ -42,3 +42,13 @@ We map alt+tab to ctrl+tab using `compizconfig-settings-manager` (that's the nam
 
 map alt+grave (&#x60;) to ctrl+grave using compiz also --
  https://askubuntu.com/questions/132304/how-to-disable-alt-backtick-grave 
+
+__Servers__
+
+
+__crontab__
+
+`crontab -e`
+
+crontab can't write to log unless the non-root user chowns it..
+this seems to agree with what this guy says: https://forums.freebsd.org/threads/cron-gets-permission-denied-writing-in-var-log.36308/ (unless what some other people said in other formus)
