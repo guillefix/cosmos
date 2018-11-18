@@ -1,0 +1,17 @@
+created: 20181118022811888
+creator: cosmos
+modified: 20181118024051477
+modifier: cosmos
+tags: [[Computer hardware]]
+title: Output device
+type: text/vnd.tiddlywiki
+
+Any device designed to transport [[Information]] generated or stored withing a [[Computer]] (or some information processing system) to a system outside the computer. Often this external "receiver" is also an information processing system, so that the whole process is an instance of [[Communication]].
+
+Commonly, the receiver system are [[Human]]s, so that the information is transformed into "human-readable form" for this transmission, by manifesting the information into physical forms that excite the [[Sense]]s in the appropriate ways.
+
+* [[Display device]]s use [[Light]] fields to excite [[Vision]]
+* [[Sound device]]s use [[Sound]] fields to excite [[Hearing]]
+* [[Haptic]] devices use physical [[contact|Solid-solid interface]] to excite [[Touch]]
+
+etc
