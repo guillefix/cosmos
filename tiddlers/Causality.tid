@@ -1,6 +1,6 @@
 created: 20161022121529399
 creator: cosmos
-modified: 20170808110003384
+modified: 20181119193839241
 modifier: cosmos
 tags: Inference
 title: Causality
@@ -10,8 +10,9 @@ type: text/vnd.tiddlywiki
 Cause --> Effect
 
 [[Bayesian network]]s
+-- [[Causal inference]]
 
-[[Causal inference]]
+''Causality'' refers to structural properties (e.g. [[Independence]] relations) of a [[Bayesian network]] modeling a system, which includes variables relevant to any possible experiment which involves that system, specially experiments involving //intervention//. The issue is that one can't in general infer the whole Bayesian network from a single, or even many experiments, unless one makes assumptions. A common assumption is the "effective [[Free will]]" assumption, which assumes that the choice of the experimenter is independent of any relevant variables; this rules out [[superdeterminist|Superdeterminism]] explanations. This assumption is often not quite true, and to correct it, we use methods such as double-blindness in trials, etc.
 
 [[Judea Pearl|https://www.wikiwand.com/en/Judea_Pearl]]
 
@@ -20,6 +21,8 @@ Cause --> Effect
 http://bayes.cs.ucla.edu/PRIMER/
 
 [[[Коллоквиум]: Causal inference and Kolmogorov complexity|https://www.youtube.com/watch?v=uzDUc8xmYYY]]
+
+[[Randomized controlled trial]]s are used to infer causal relations.
 
 ----------------
 

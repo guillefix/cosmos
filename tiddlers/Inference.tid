@@ -1,6 +1,6 @@
 created: 20160911094210800
 creator: cosmos
-modified: 20170419114831756
+modified: 20181119193906201
 modifier: cosmos
 tags: Epistemology Learning
 title: Inference
@@ -13,7 +13,7 @@ type: text/vnd.tiddlywiki
 
 [[Deductive inference|Deduction]], when we find a statement that [[logically|Logic]] follows from observed data.
 
-[[Abductive inference]], starts with an observation then seeks to find the simplest and most likely explanation. See [[Causal inference]]
+[[Abductive inference]], starts with an observation then seeks to find the simplest and most likely explanation. See [[Causal inference]], [[Causality]]
 
 [[Complexity, Phase Transitions, and Inference by Cristopher Moore (part 1)|https://www.youtube.com/watch?v=asw9M8RBcsU]]
 
