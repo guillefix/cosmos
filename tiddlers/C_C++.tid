@@ -1,6 +1,6 @@
 created: 20160516121923549
 creator: guillefix
-modified: 20181115011009671
+modified: 20181120141017523
 modifier: cosmos
 tags: [[C-family programming language]]
 title: C/C++
@@ -30,6 +30,8 @@ Armadillo
 !!!cling 
 
 c++ REPL, also for jupyter now
+
+[[Typename|http://pages.cs.wisc.edu/~driscoll/typename.html]]
 
 ----------------
 
