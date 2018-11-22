@@ -1,9 +1,102 @@
 created: 20170430130643047
 creator: cosmos
-modified: 20181114225257381
+modified: 20181122001708559
 modifier: cosmos
 tags: [[Neural network theory]]
 title: Expressivity of neural networks
 tmap.id: 3157ca22-dbcb-4eca-b80a-f656c2e0fbec
 type: text/vnd.tiddlywiki
 
+[[Universal approximation theorem|https://youtu.be/Zq2PiNys6fs]]
+
+ !!!__Neural networks are can approximate any smooth function__
+
+ Even single-layer ones. Find papers
+
+ __Universal approximator theorem__
+
+ See paper mentioned in Hugo's vid, //single hidden layer ANNs can approximate any continuous function with sufficiently many neurons in the hidden layer//. There may not be a //learning algorithm// to find the right parameter set though.
+
+ For deep nets, [[Why and when can deep - but not shallow - networks avoid the curse of dimensionality: a review|https://arxiv.org/pdf/1611.00740.pdf]]
+
+ __Universality of [[Recurrent neural network]]s__
+
+ !!!__[[Bayes' theorem as a softmax]]__
+
+
+ !!!__What Hamiltonians (and thus $$p(y|x)$$) can be approximated by feasible neural networks? __
+
+ __--> Neural networks can efficiently simulate multiplication__
+
+ [img[Selection_612.png]]
+
+ See [[paper|http://arxiv.org/pdf/1608.08225v1.pdf]] for proof.
+
+ [img[Selection_614.png]]
+
+ __--> This means they can efficiently simulate polynomials__
+
+ [img[Selection_613.png]]
+
+ In the case of a polynomial of degree $$d$$, there are $$(n+d)!/(n!d!)$$ terms (and thus parameters), which corresponds to the [[Number of ways to put n+1 objects in d bins|Number of ways to put n objects in k bins]], where the n+1 objects correspond to the n variables, and an object corresponding to "empty".
+
+ In the case of $$n$$ binary input variables (with possible values $$0$$ or $$1$$), any function can be written as a polynomial of degree $$n$$, and only $$2^n$$ terms (as repeating a factor doesn't change the function as $$y_i ^2 = y_i$$. 
+
+ Furthermore bit variables allow an accurate multiplication approximator that takes the product of an arbitrary number of bits at once. This implies that any function of a bit-variable $$\mathbf{y}$$ can be simulated with just three layers, the middle of which does the appropriate multiplications (so we need $$2^n$$ neurons here), and the last of which sums the terms with appropriate weights to create the polynomial.
+
+ !!__Expressivity of Deep neural networks__
+
+ See [[Deep learning theory]]
+
+ [[On the Number of Linear Regions of Deep Neural Networks|https://arxiv.org/abs/1402.1869]]
+
+ [[Exponential expressivity in deep neural networks through transient chaos|https://arxiv.org/abs/1606.05340]]
+
+ One thing they find is that if you randomly sample parameters for a deep net, the functions that you tend to get get much more complex, as the depth of the network increases.
+
+ This doesn't necessarily contradict simplicity bias, as frequency could still correlate with complexity. But it does show that typical functions for a deep net are quite complex.
+ They also find that for parameters vectors close to the origin (small norm), the typical functions are simple, and the typical function becomes complex once you sample larger norm parameter.
+ This maybe means that most of the neutral set for simple functions lies close to the origin.. At the end they actually show also that for parameters close to the origin, perturbing the parameters doesn't change the function much (here be a neutral set of simple functions?), while for far from the origin, perturbations do change the function a lot (here be dragons? i.e.highly entangled mess of the neutral sets of (mostly) complex functions).
+
+ P.D.: they use Riemannian geometry ideas <> connections to sloppiness perhaps
+
+ [[On the Expressive Power of Deep Neural Networks|https://arxiv.org/abs/1606.05336]]
+
+ [[ResNet with one-neuron hidden layers is a Universal Approximator|https://arxiv.org/abs/1806.10909]]
+
+ -------------------
+
+ Relations with [[Universal inductive inference]] (from emails to Ard)
+
+ Regarding that result about the Boolean functions that you can implement with 2 layers, which you asked me about. There are some more detail in here: http://www.iro.umontreal.ca/~lisa/publications2/index.php/attachments/single/17#page=5 Basically, it's not hard to see that any Boolean function can be expressed in "disjunctive normal form", which is as a Boolean expression of the form f(x) = (term) OR (term) OR (term) ..., where each term has the form x_i AND x_i' AND .., where each x_i is an input. Each (term) can be computed by a neuron in the hidden layer by connecting it to each of the x_is for that term. Then the final f(x) can be computed as an OR over the hidden layer neurons, which can also be done by connecting all these neurons to that output neuron, so that if any one fires, the output fires (thus implementing an OR).
+
+ What (Bengio & Le Cun, 2007) apparently showed is that one needs an exponential number of (term)s in the size of the input N, for the majority of all possible Boolean function with N inputs. So for the majority of functions you need about 2^N neurons in the hidden layer.
+
+ For N=7, I find that with 20 neurons (which is not 2^7=128), the network can do almost all possible functions. This could be because 1) Their result is only asymptotic, and so the 2^N is only about the growth with N. Will check their paper for this. 2) perhaps their result only works for a certain activation funciton, different from mine 3) perhaps, there is something wrong with my experiment.. Not sure, I'll have to think about this.
+
+ I was thinking about this efficiency of representation, and actually thought of some ideas rather similar to those discussed in  http://yann.lecun.com/exdb/publis/pdf/bengio-lecun-07.pdf  (which i mentioned on the other email). Here is the idea:
+
+ We can consider descriptions of functions. For instance, you can have some c code to compute sin, and that describes the function sin (very simply in fact). Or you can perhaps use a description of some shallow and wide neural network architecture plus the right parameters which computes sin (well a discrete version of sin, for a finite number of inputs, lets say..). These are all descriptions of functions, similar to how standard AIT talks about descriptions of strings.
+
+ Now, I think we can interpret the fact that some functions which can be expressed with deep networks using a polynomial* number of neurons need an exponential number of neurons for a shallow net, as saying that the class of deep neural networks is a better compressed representation of the function.
+ *(here poly or exponential always refers to the size of the input, say n, let's say now we just talk about Boolean functions for simplicity)
+
+ Is there an optimal representation/compressor of functions? Well, yeah. It's easy to see that UTMs give it just like they do for strings. One such additively optimal representation would be given by C for instance.
+ In fact, recurrent neural networks have been shown to be Turing complete, and so they should be optimal function representators too!
+
+ So, it seems we have something analogous to the chomsky hierarchy (which can be seen basically as a hierarchy of increasingly more powerful ways of representing languages), but with function representators. In particular we have shallow models ⊂ deep models ⊂ recurrent models. Where each higher level is able to express all things below efficiently, but some new ones more efficiently.
+
+ Now, for these hierarchies, each level represents a certain kind of "bias". This is something I've noticed in the above paper. They basically use simple/high-probability interachangeably. This is not really a formal thing. But it comes from the intuition of an algorithm that works like the monkey typing to a turing machine. But instead it types to a less powerful compressor, where there are indeed shorter and longer descriptions, but it's just a suboptimal compression (there will be some things which the UTM can express in a few bits, but you need to describe in exponentially many bits with this machine). Clearly though, the fact that shorter descriptions are more likely still holds in this case.
+
+ So we can interpret each level of the hierarchy as encoding a kind of bias. Now, they argue in different ways, that the bias of deep models is better suited for the kinds of tasks in AI. And their arguments are quite nice. However, in a more general way, I think just the fact that the bias is approaching the universal distribution more and more, as we go up the hierarchy, may be enough to see why the models higher in the hierarchy tend to work better. This is close to what they argue on the paper. But they don't really frame it in these AIT terms (although they do give a little example of how you can describe functions with something like C, and thus bias low Kolmogorov complexity ones).
+
+ Finally, this all relies on the idea that as you go up the hierarchy, the distribution approaches the universal distribution. I think that makes sense if you think about it. But also is basically what Hector tries to show empirically in his paper with FSTs etc.
+
+ Sorry for the long text, but I think these are interesting ideas :)
+
+ Btw, there is an alternative way to talk about "bias" for these different function representators, that doesn't need the monkey.
+ Just consider an algorithm, which only considers functions with a shortest description up to a maximum length K (this is the case for instance if you use a deep net with a fixed architecture, where the most complex functions can't be more complex than what you can represent with that size of net). 
+ Then the more powerful models will include in this set more of the functions which are actually simple (i.e. simple as determined by the UTM), and so these functions are available to be learned by this fixed-size model..
+
+ This is kinda hard to explain well. But hopefully some of it made sense. The general intuition is that somehow climbing up this hierarchy is taking us closer to universal induction. 
+View file   

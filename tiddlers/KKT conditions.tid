@@ -1,9 +1,16 @@
 created: 20181113161658901
 creator: cosmos
-modified: 20181114225257372
+modified: 20181122001626306
 modifier: cosmos
 tags: [[Constrained optimization]] [[Nonlinear programming]]
 title: KKT conditions
 tmap.id: eddffded-530e-4fe1-b477-ca66de44ed4d
 type: text/vnd.tiddlywiki
 
+A method for [[Constrained optimization]], which generalizes [[Lagrange multiplier]]s to [[Inequality]] constraints, rather than just equality ones
+
+ See [ext[here|http://www1.maths.leeds.ac.uk/~cajones/math2640/notes4.pdf]]
+
+ https://www.wikiwand.com/en/Karush%E2%80%93Kuhn%E2%80%93Tucker_conditions
+
+ Imagine we add Lagrange multipliers but with conditions that must be greater than or equal to 0 (w.l.o.g.), then at the optimum these conditions are either greater than zero, in which case the multiplier is 0, or are 0 in which case the multiplier is non-zero, and enforces the solution to stay within the condition=0 contour.

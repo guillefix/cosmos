@@ -1,9 +1,10 @@
 created: 20181109220037591
 creator: cosmos
-modified: 20181114225257365
+modified: 20181122001601799
 modifier: cosmos
 tags: 
 title: Spectral reinforcement learning
 tmap.id: 488fc821-5192-4fb3-998c-46d348ad0b07
 type: text/vnd.tiddlywiki
 
+See [[Spectral methods in reinforcement learning]]
