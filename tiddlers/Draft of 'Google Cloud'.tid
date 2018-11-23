@@ -1,0 +1,39 @@
+created: 20181122234503848
+creator: cosmos
+draft.of: Google Cloud
+draft.title: Google Cloud
+modified: 20181123000339081
+modifier: cosmos
+tags: [[Cloud computing]]
+title: Draft of 'Google Cloud'
+type: text/vnd.tiddlywiki
+
+Set up Google Compute
+
+https://www.reidatcheson.com/c/programming/hpc/mpi/cloud/2015/12/27/mpi-on-gcompute.html
+
+Download and install google-sdk (here installed in /google-cloud-sdk/bin, later added to PATH)
+
+Created ssk key via ssh-keygen then added it to instance via web gui: click on instance, then "Edit", then add SSH keys (public key) on bottom. https://cloud.google.com/compute/docs/instances/connecting-to-instance
+
+can connect to ssh either via web gui or `./google-cloud-sdk/bin/gcloud compute ssh --project annular-reef-684 --zone us-central1-c instance-1`
+
+Copying files is easy: https://cloud.google.com/compute/docs/instances/transfer-files
+
+------------
+
+After creating instance which I like, I can create snapshot: `gcloud compute --project "annular-reef-684" disks snapshot "instance-1" --zone "us-central1-c" --snapshot-names "pytorch` , where "instance-1" is name of instance and "annular-reef-684" is id of project  (see here https://blog.spokaneits.com/2015/12/13/create-share-image-gcloud/)
+
+create "persistent disk":
+
+`gcloud compute --project "annular-reef-684" disks create "pytorch-disk" --zone "us-central1-c" --source-snapshot "pytorch" --type "pd-standard" --size "30"` (https://cloud.google.com/sdk/gcloud/reference/compute/disks/create)
+
+create image from that disk
+
+`gcloud compute --project "annular-reef-684" images create "pytorch-image" --source-disk-zone "us-central1-c" --source-disk "pytorch-disk"` (https://cloud.google.com/sdk/gcloud/reference/compute/images/create)
+
+--> Hmm well, apparently there are many public images already created: https://console.cloud.google.com/compute/images?project=annular-reef-684 , I guess I could have just used one of those...
+
+Create instances
+
+https://serverfault.com/questions/923120/create-multiple-instances-with-one-snapshots 
