@@ -1,6 +1,6 @@
 created: 20160913070239061
 creator: cosmos
-modified: 20181109220844784
+modified: 20181123152045799
 modifier: cosmos
 tags: [[Deep learning]] [[Learning theory]]
 title: Deep learning theory
@@ -49,6 +49,10 @@ The approximation of functions with a compositional structure – can be achieve
 [[bounds for the computational power and learning complexity of analog neural nets|https://epubs.siam.org/doi/pdf/10.1137/S0097539793256041]]
 
 [[On the Depth of Deep Neural Networks: A Theoretical View|https://arxiv.org/abs/1506.05232]]
+
+!!__[[Optimization for training deep models]]__
+
+!!![[Loss surface of neural networks]]
 
 -----------------------
 

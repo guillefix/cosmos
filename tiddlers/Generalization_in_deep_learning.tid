@@ -1,6 +1,6 @@
 created: 20170512224700922
 creator: cosmos
-modified: 20181113134836009
+modified: 20181123151906107
 modifier: cosmos
 tags: [[Deep learning theory]] Generalization
 title: Generalization in deep learning
@@ -47,6 +47,8 @@ See gingkoapp tree: [[Kolmogorov complexity and generalization in deen neural ne
 <small>[[Fisher-Rao Metric, Geometry, and Complexity of Neural Networks|https://arxiv.org/abs/1711.01530]] -- [[A jamming transition from under- to over-parametrization affects loss landscape and generalization|https://arxiv.org/abs/1810.09665?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+arxiv%2FQSXk+%28ExcitingAds%21+cs+updates+on+arXiv.org%29]] -- [[Implicit Self-Regularization in Deep Neural Networks: Evidence from Random Matrix Theory and Implications for Learning|https://arxiv.org/abs/1810.01075]]</small>
 
 [[An analytic theory of generalization dynamics and transfer learning in deep linear networks |https://openreview.net/forum?id=ryfMLoCqtQ]]
+
+[[Learning and Generalization in Overparameterized Neural Networks, Going Beyond Two Layers|https://arxiv.org/pdf/1811.04918v1.pdf]]
 
 
 @@.fancy-title
@@ -173,6 +175,8 @@ M. Anthony and P. L. Bartlett.Neural network learning: Theoretical foundations. 
 @@
 
 !!![[Implicit regularization in deep learning|https://arxiv.org/pdf/1709.01953.pdf]]
+
+[[Learning and Generalization in Overparameterized Neural Networks, Going Beyond Two Layers|https://arxiv.org/pdf/1811.04918v1.pdf]]
 
 Regularization caused by optimization algorithm.. "we investigate the transformations under which the function computed by a network remains the same and therefore argue for complexity measures and optimization algorithms that have similar invariances. We find complexity measures that have similar invariances to neural networks and optimization algorithms that implicitly regularize them". [[Path-norm]] a metric in parameter space, that is closer to model distance? [[Sloppy systems]]?
 

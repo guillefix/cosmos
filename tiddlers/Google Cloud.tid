@@ -1,6 +1,6 @@
 created: 20181122234503848
 creator: cosmos
-modified: 20181123000120207
+modified: 20181123151548571
 modifier: cosmos
 tags: [[Cloud computing]]
 title: Google Cloud
@@ -32,4 +32,6 @@ create image from that disk
 
 --> Hmm well, apparently there are many public images already created: https://console.cloud.google.com/compute/images?project=annular-reef-684 , I guess I could have just used one of those...
 
-gcloud compute --project "annular-reef-684" instances create 
+Create instances
+
+https://serverfault.com/questions/923120/create-multiple-instances-with-one-snapshots 

@@ -1,6 +1,6 @@
 created: 20161026163416578
 creator: cosmos
-modified: 20161104134331252
+modified: 20181123152006336
 modifier: cosmos
 tags: [[Learning theory]] [[Deep learning]]
 title: Optimization for training deep models
@@ -8,3 +8,11 @@ tmap.id: 833db46d-78c0-4dc3-b9bd-6b6423810e1f
 type: text/vnd.tiddlywiki
 
 [ext[pdf|www.deeplearningbook.org/contents/optimization.html]]
+
+__[[Deep learning theory]]__
+
+[[Loss surface of neural networks]]
+
+https://arxiv.org/pdf/1811.03962.pdf
+
+https://arxiv.org/pdf/1810.12065.pdf
