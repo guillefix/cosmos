@@ -1,6 +1,6 @@
 created: 20170419194656694
 creator: cosmos
-modified: 20170419194758039
+modified: 20181125000419729
 modifier: cosmos
 tags: [[Random variable]] Convergence
 title: Convergence of random variables
@@ -8,3 +8,5 @@ tmap.id: 796e74dc-7184-4712-84c5-6e6c227819b0
 type: text/vnd.tiddlywiki
 
 [img[convergence_of_random_variables.jpg]]
+
+See also [[Convergence of measures]]
