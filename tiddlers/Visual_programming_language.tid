@@ -1,6 +1,6 @@
 created: 20161022215020943
 creator: cosmos
-modified: 20170822155312961
+modified: 20181127135528242
 modifier: cosmos
 tags: [[Programming language]]
 title: Visual programming language
@@ -10,6 +10,10 @@ type: text/vnd.tiddlywiki
 https://github.com/witheve/eve-experiments/blob/a82f3411f541cf99c223ecd30a5cd3e80ea3dd2f/design/visualProgramming.md
 
 https://vvvv.org/
+
+https://puredata.info/
+
+[[NeosVR]] -- https://twitter.com/qualmist/status/1067323275234004992
 
 For [[Music]]: https://cycling74.com/products/max/
 

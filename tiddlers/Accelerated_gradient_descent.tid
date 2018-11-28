@@ -1,6 +1,6 @@
 created: 20180609111044483
 creator: cosmos
-modified: 20180609112938432
+modified: 20181127104200243
 modifier: cosmos
 tags: [[Gradient descent]]
 title: Accelerated gradient descent
@@ -10,3 +10,21 @@ type: text/vnd.tiddlywiki
 
 
 Achieves lower bounds in time complexity for [[Convex optimization]]
+
+!!__[[Gradient descent with momentum]]__
+
+[img width=680 [momentum_gradient_descent.jpg]] (from https://twitter.com/SebastienBubeck/status/1065024570309042176)
+
+[[Momentum]] from physics, case whem $$\gamma=1$$:
+
+<pre>
+x_{t+1} = x_t +dt*v_t
+v_t = v_{t-1} - dt*grad/m
+v_{t-1} = (x_t - x_{t-1})/dt
+v_t = (x_t - x_{t-1})/dt - dt*grad/m
+x_{t+1} = x_t + (x_t - x_{t-1}) - dt^2*grad/m <-- this is just saying second derivative is force/m
+</pre>
+
+[[A short proof of Nesterov's momentum|https://blogs.princeton.edu/imabandit/2018/11/21/a-short-proof-for-nesterovs-momentum/]]
+
+[[Why momentum really works (distill)|https://distill.pub/2017/momentum/]]
