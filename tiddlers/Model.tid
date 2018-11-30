@@ -1,13 +1,13 @@
 created: 20160918223952118
 creator: cosmos
-modified: 20180722012714332
+modified: 20181129130129550
 modifier: cosmos
 tags: Simulation
 title: Model
 tmap.id: 85197ba0-159b-4ea7-a300-44b130892e74
 type: text/vnd.tiddlywiki
 
-A [[System]], often a [[mathematical|Mathematics]] or [[computational|Computer science]] one, that [[simulates|Simulation]] another system, i.e. it represents features of the original system, both structural, and behavioural.
+A [[System]], often a [[mathematical|Mathematics]] or [[computational|Computer science]] one, that [[simulates|Simulation]]/[[represents|Representation]] another system, i.e. it represents features of the original system, both structural, and behavioural/dynamic.
 
 ---------------
 

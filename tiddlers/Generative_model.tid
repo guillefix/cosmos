@@ -1,13 +1,15 @@
 created: 20161018180930085
 creator: cosmos
-modified: 20180101223957914
+modified: 20181129131611741
 modifier: cosmos
 tags: [[Probabilistic model]] [[Unsupervised learning]]
 title: Generative model
 tmap.id: a9a7c8fb-30e9-4408-a358-a42ffffb6276
 type: text/vnd.tiddlywiki
 
-A class of [[Unsupervised learning]], where given a data set of $$x$$s, the task is to build a [[Probabilistic model]] $$P(x)$$, for the training data. This model is then able to //generate// new data by sampling new $$x$$s from $$P$$
+In general, a generative model is just a [[Probabilistic model]]. Technically, we call a probabilistic model a generative model, when used as the model of the "data-generating process" in the context of [[Unsupervised learning]], or in [[Supervised learning]]. Here we will focus on their application in unsupervised learning (which is somehow more fundamental). For their application in supervised learning, see [[Generative supervised learning]].
+
+Generative modeling is a class of [[Unsupervised learning]] tasks, where given a data set of $$x$$s, the task is to find/build a ''Generative model'' ([[Probabilistic model]]) $$P(x)$$, for the training data. This model is then able to //generate// new data by sampling new $$x$$s from $$P$$; but it can also be used for many kinds of [[Inference]] of unknown quantities, including prediction as in [[Generative supervised learning]].
 
 [[Vid|https://www.youtube.com/watch?v=ZZGTuAkF-Hw&index=12&list=PLA89DCFA6ADACE599#t=18m20s]], can be used for [[Anomaly detection]].
 

@@ -1,15 +1,19 @@
 created: 20181108173901591
 creator: cosmos
-modified: 20181108181655405
+modified: 20181129103601476
 modifier: cosmos
 tags: [[Rademacher complexity]] Generalization [[Structural risk minimization]]
 title: Margin-based generalization bound
 tmap.id: 918cd741-ce85-4e46-83aa-73d9a9e624df
 type: text/vnd.tiddlywiki
 
+//aka Margin theory//
+
 See {{UML}} for [[SVM|Support vector machine]] bounds; they arell all based on [[Structural risk minimization]] and bounding [[Rademacher complexity]] by bounding norms of the parameters/
 
 [[Theory of classification: A survey of some recent advances.|https://www.esaim-ps.org/articles/ps/pdf/2005/01/ps0420.pdf]]
+
+[[Video about margin theory|https://youtu.be/8wFMkMI7J1U?t=1331]]
 
 [[Estimation of Dependences Based on Empirical Data|https://www.springer.com/gb/book/9780387308654]] -- [[a training algorithm for optimal margin classifiers|http://www.svms.org/training/BOGV92.pdf]] -- [[Support-vector networks.|https://link.springer.com/article/10.1007/BF00994018]] --  [[The Nature of Statistical Learning Theory|https://www.springer.com/gb/book/9780387987804]]
 

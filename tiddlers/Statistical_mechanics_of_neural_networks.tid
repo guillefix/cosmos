@@ -1,6 +1,6 @@
 created: 20160915182124591
 creator: cosmos
-modified: 20181108185702145
+modified: 20181130011823727
 modifier: cosmos
 tags: [[Artificial neural network]] [[Statistical physics and inference]]
 title: Statistical mechanics of neural networks
@@ -48,6 +48,15 @@ randomly composed patterns resembles a spin glass.
 [ext[Learning to generalize|http://www.ki.tu-berlin.de/fileadmin/fg135/publikationen/opper/Op01.pdf]]
 
 [[Rethinking generalization requires revisiting old ideas: statistical mechanics approaches and complex learning behavior|https://openreview.net/forum?id=SkPoRg10b]]
+
+!!__[[Mean field theory of neural networks]]__
+
+[[A Correspondence Between Random Neural Networks and Statistical Field Theory|https://arxiv.org/pdf/1710.06570.pdf]]
+
+!!!__[[Deep Information Propagation|https://arxiv.org/abs/1611.01232]]__
+[[Exponential expressivity in deep neural networks through transient chaos|http://papers.nips.cc/paper/6322-exponential-expressivity-in-deep-neural-networks-through-transient-chaos]]
+
+[[Resurrecting the sigmoid in deep learning through dynamical isometry: theory and practice|https://arxiv.org/abs/1711.04735]]
 
 ----------------
 

@@ -1,13 +1,15 @@
 created: 20160918223934834
 creator: cosmos
-modified: 20170312160838415
+modified: 20181129130446943
 modifier: cosmos
 tags: [[Probability theory]]
 title: Probabilistic model
 tmap.id: df0ed99c-e6a6-4a1c-86f9-141891ff170c
 type: text/vnd.tiddlywiki
 
-[[Model]]s for [[Probability distribution]]s. These models relate [[Random variable]]s, using some more or less general assumptions about the nature of the data.
+A [[Probability distribution]], which is used to [[model|Model]] some system, often with [[Uncertainty]]/[[Randomness]].
+
+These models relate [[Random variable]]s, using some more or less general assumptions about the nature of the data.
 
 [[Graphical model]]
 
@@ -18,3 +20,5 @@ See [[Machine learning]]
 [[Generative model]]
 
 [[Random-cluster model]]
+
+One can also talk about a //model of a probability distribution// which is a particular way of representing a probability distribution, or a family of them.

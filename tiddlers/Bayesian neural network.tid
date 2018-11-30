@@ -1,0 +1,13 @@
+created: 20181130004741153
+creator: cosmos
+modified: 20181130010618546
+modifier: cosmos
+tags: [[Bayesian deep learning]]
+title: Bayesian neural network
+type: text/vnd.tiddlywiki
+
+A parametric [[Probabilistic model]] of functions, given by a [[neural network|Artificial neural network]]. That is, a ''Bayesian neural network'' is a probability distribution over a set of functions (all functions implementable by a given neural network architecture $$N$$), induced by a probability distribution on the weights/[[Parameter]]s of the neural network $$N$$.
+
+Given the architecture, we can just focus on the distribution over parameters $$P(\theta)$$. This is the [[Prior distribution]]. As per [[Bayes' theorem]], the posterior distribution over parameters is given by the normalized product of the prior and the [[Likelihood]] (the probability of the data (input output pairs) given a parameter $$\theta$$).
+
+http://mlg.eng.cam.ac.uk/yarin/blog_2248.html

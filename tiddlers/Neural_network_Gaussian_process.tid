@@ -1,20 +1,43 @@
 created: 20181015155040178
 creator: cosmos
-modified: 20181109220146905
+modified: 20181130013041977
 modifier: cosmos
 tags: [[Gaussian process]]
 title: Neural network Gaussian process
 tmap.id: 74a0ca34-6691-44d9-8efb-0bed0976629e
 type: text/vnd.tiddlywiki
 
+[[Gaussian process]] that approximates the [[Prior]] over functions in a [[Bayesian neural network]] ([[Bayesian deep learning]]). The approximation is exact in the limit of infinitely wide layers (infinitely many neurons per hidden layer), and under the assumption that the distribution over weights in the Bayesian neural network is i.i.d. (and often [[Gaussian]])
 
-See [[Deep Neural Networks as Gaussian Processes|https://arxiv.org/abs/1711.00165]], [[Gaussian Process Behaviour in Wide Deep Neural Networks|https://arxiv.org/abs/1804.11271]]
+It may also approximate the prior over functions when training with [[SGD|Stochastic gradient descent]].
+
+The kernel function of the Gaussian process depends on the choice of architecture, and properties of the parameter distribution, in particular the weight variance $$\sigma_w^2/n$$ (where $$n$$ is the size of the input to the layer) and the bias variance $$\sigma_b^2$$. The kernel for fully connected ReLU networks has a well known analytical form known as the arccosine kernel [[[ref|http://papers.nips.cc/paper/3628-kernel-methods-for-deep-learning]]], while for convolutional and residual networks it can be efficiently computed (see e.g. [[here|https://arxiv.org/pdf/1808.05587.pdf]]) 
+
+--> For a derivation and more detailed introduction of the main results (for [[Fully connected network]]s) 
+
+For an even more rigorous.careful treatment, and further results see: [[Deep Neural Networks as Gaussian Processes|https://arxiv.org/abs/1711.00165]], [[Gaussian Process Behaviour in Wide Deep Neural Networks|https://arxiv.org/abs/1804.11271]]
+
+!!!__Convolutional neural network Gaussian processes__
+
+It turns out that [[Convolutional neural network]]s (CNNs) with infinitely many filters per layer are also Gaussian processes, with a different, and more complex, kernel function (so that in effect CNNs "see" different inputs as being "similar" to each other than fully connected nets).
 
 [[Deep Convolutional Networks as shallow Gaussian Processes|https://openreview.net/forum?id=Bklfsi0cKm]]
 
+[[BAYESIAN CONVOLUTIONAL NEURAL NETWORKS WITH MANY CHANNELS ARE GAUSSIAN PROCESSES|https://arxiv.org/pdf/1810.05148.pdf]]
+
+[[A Gaussian Process perspective on Convolutional Neural Networks|https://arxiv.org/abs/1810.10798]]
+
+!!!__Applications to [[Generalization]]__
+
 [[Deep learning generalizes because the parameter-function map is biased towards simple functions|https://openreview.net/forum?id=rye4g3AqFm]]
 
-[[BAYESIAN CONVOLUTIONAL NEURAL NETWORKS WITH MANY CHANNELS ARE GAUSSIAN PROCESSES|https://arxiv.org/pdf/1810.05148.pdf]]
+!!__[[Mean field theory of neural networks]]__
+
+These papers study in more detail the properties of the kernel of neural networks, and even explore some ideas related to robustness of the outputs of the neural network to changes of the weight (see SI of this paper: [[Exponential expressivity in deep neural networks through transient chaos|http://papers.nips.cc/paper/6322-exponential-expressivity-in-deep-neural-networks-through-transient-chaos]] in particular). <-- Here is an <span style="color:#13BAAD">idea</span>: Given their analysis of the effect of a change on weights $$w$$, $$\Delta w$$, on the corresponding change on the outputs of the network $$\Delta f(x,w)$$, for some given input point $$x$$, one can perhaps find a formula for the Hessian of the loss (which is a sum of functions of $$f(x;w)$$ over a set of $$x$$ corresponding to the training set). If we are lucky, it may be possible to relate that formula with the formula for $$P(f)$$ given by the Gaussian process analysis (which is rather similar in nature, as the calculation of the kernel is what they explore in that paper, in terms of how the correlation between two points changes as you propagate through layers, see comments in [[Deep Neural Networks as Gaussian Processes|https://arxiv.org/abs/1711.00165]] and [[the paper itself|http://papers.nips.cc/paper/6322-exponential-expressivity-in-deep-neural-networks-through-transient-chaos]] for this to make more sense!)
+
+{{Mean field theory of neural networks}}
+
+----------------
 
 "The results indicate that on this dataset (Delf yatch hydrodynamics dataset) the Bayesian deep network and theGaussian process do not make similar predictions.  Of the two, the Bayesian neural networkachieves  signi cantly  better  log  likelihoods  on  average,  indicating  that  a   nite  networkperforms better than its in nite analogue in this case."
 (https://arxiv.org/pdf/1804.11271.pdf)
