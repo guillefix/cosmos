@@ -1,21 +1,15 @@
 created: 20160825115741224
 creator: cosmos
-modified: 20171129131120323
+modified: 20181130163952630
 modifier: cosmos
 tags: Intelligence Psychology
 title: Learning
 tmap.id: fa646be2-082f-4d7f-8456-4090746db050
 type: application/x-tiddler
 
+Many natural and engineered systems adapt or are optimizing for some objective. In the case the objective is not fully known a priori, and is only accessible through examples, we typically call this process ''learning''. Examples include: learning to classify images from a finite set of labelled examples, learning to play basketball from a finite number of matches, learning to solve physics problems from a finite set of problem sheets, learning to survive in a habitat from a finite set of experiences, and even a non-equilibrium physical system "learning" to minimize energy in a finite time\footnote{this is actually at the intersection of learning proper, and stochastic optimization.}. If from an incomplete number of examples, a system is able to optimize the true objective, we say that it [[generalizes|Generalization]]
+
 See [[Machine learning]], [[Human learning]].
-
-[[Learning how to learn|https://kat.cr/learning-how-to-learn-powerful-mental-tools-to-help-you-master-tough-subjects-pis20l-t9786468.html]]
-
-See article on how Elon Musk learns, etc.
-
-http://scholarpedia.org/article/Adaptive_resonance_theory
-
-[[How experts differ from novices|https://www.nap.edu/read/9853/chapter/5]] --  the idea of pro- moting fluent access to knowledge (principle 4) must be approached with an eye toward helping students develop an understanding of the subject matter (principle 2), learn when, where and why to use information (prin- ciple 3), and learn to recognize meaningful patterns of information (prin- ciple 1). Furthermore, all these need to be approached from the perspective of helping students develop adaptive expertise (principle 6), which includes helping them become metacognitive about their learning so that they can assess their own progress and continually identify and pursue new learning goals. Metacognition can help students develop personally rel- evant pedagogical content knowledge, analogous to the pedagogical con- tent knowledge available to effective teachers (principle 5). In short, stu- dents need to develop the ability to teach themselves. ([[learning to learn|Meta-learning]])
 
 ------------------------
 
@@ -34,6 +28,14 @@ Blocking, higher-order conditioning, conditional reinforcement
 !!__[[Learning theory]]__
 
 ---------------
+
+[[Learning how to learn|https://kat.cr/learning-how-to-learn-powerful-mental-tools-to-help-you-master-tough-subjects-pis20l-t9786468.html]]
+
+See article on how Elon Musk learns, etc.
+
+[[How experts differ from novices|https://www.nap.edu/read/9853/chapter/5]] --  the idea of pro- moting fluent access to knowledge (principle 4) must be approached with an eye toward helping students develop an understanding of the subject matter (principle 2), learn when, where and why to use information (prin- ciple 3), and learn to recognize meaningful patterns of information (prin- ciple 1). Furthermore, all these need to be approached from the perspective of helping students develop adaptive expertise (principle 6), which includes helping them become metacognitive about their learning so that they can assess their own progress and continually identify and pursue new learning goals. Metacognition can help students develop personally rel- evant pedagogical content knowledge, analogous to the pedagogical con- tent knowledge available to effective teachers (principle 5). In short, stu- dents need to develop the ability to teach themselves. ([[learning to learn|Meta-learning]])
+
+http://scholarpedia.org/article/Adaptive_resonance_theory
 
 [[Adaptive resonance theory|https://en.wikipedia.org/wiki/Adaptive_resonance_theory]]
 The primary intuition behind the ART model is that object identification and recognition generally occur as a result of the interaction of 'top-down' observer expectations with 'bottom-up' sensory information. The model postulates that <b>'top-down' expectations take the form of a memory template or prototype that is then compared with the actual features of an object as detected by the senses</b>. This comparison gives rise to a measure of category belongingness. As long as this difference between sensation and expectation does not exceed a set threshold called the 'vigilance parameter', the sensed object will be considered a member of the expected class. The system thus offers a solution to the 'plasticity/stability' problem, i.e. the problem of acquiring new knowledge without disrupting existing knowledge.

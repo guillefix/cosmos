@@ -1,0 +1,52 @@
+created: 20181130185045133
+creator: cosmos
+modified: 20181201030503369
+modifier: cosmos
+tags: [[Variational inference]]
+title: Evidence lower bound
+type: text/vnd.tiddlywiki
+
+//aka ELBO//
+
+An objective function which is maximized in [[Variational inference]]. We are interested in minimizing the [[KL divergence]] between the variational distribution $$q(w)$$ and the true [[Posterior]] $$p(w|\mathcal{D})$$ of some paramters $$w$$ given the data $$\mathcal{D}$$, so we can maximize
+
+$$\mathcal{L}_{VI}(q) = \log{p(\mathcal{D})}-\mathbb{D}_{KL}[q(w)||p(w|\mathcal{D})]$$
+
+with respect to $$q$$ (as the first term doesn't depend on $$q$$). Note that because the KL divergence is $$0$$ if and only if $$q(w)=p(w|\mathcal{D})$$, if the set of $$q$$ over which we are optimizing contains the posterior, then the unique minimizer of $$\mathcal{L}_{VI}(q)$$ is the posterior.
+
+Note that because KL divergence is always nonnegative 
+
+$$\mathcal{L}_{VI}(q) \leq \log{p(\mathcal{D})}$$
+
+with equality iff $$q$$ is the posterior. $$\log{p(\mathcal{D})}$$ is the [[Bayesian evidence|Marginal likelihood]]. This is why we call $$\mathcal{L}_{VI}(q)$$ the ''evidence lower bound''
+
+The issue is that evaluating the posterior $$p(w|\mathcal{D})$$ is hard, by assumption, so we can't compute $$\mathbb{D}_{KL}[q(w)||p(w|\mathcal{D})]$$, so the above form is not very useful. Instead we rewrite it as:
+
+$$\mathcal{L}_{VI}(q) =-\mathbb{D}_{KL}[q(w)|| p(\mathcal{D})p(w|\mathcal{D})] =-\mathbb{D}_{KL}[q(w)||p(w,\mathcal{D})]$$
+$$  =-\mathbb{D}_{KL}[q(w)||p(\mathcal{D}|w)p(w)]$$
+
+|$$  =\mathbb{E}_{q(w)}[\log{p(\mathcal{D}|w)}]-\mathbb{D}_{KL}[q(w)||p(w)]$$|
+
+which can also be written in terms of the joint probability and the entropy of the variational distribution:
+
+$$  =\mathbb{E}_{q(w)}[\log{p(\mathcal{D},w)}]-\mathbb{E}_{q(w)}[\log{q(w)}]$$
+
+the last form is the one used for the optimization!
+
+Overall we have shown that 
+
+
+$$\log{p(\mathcal{D})} \geq \mathcal{L}_{VI}(q) = \mathbb{E}_{q(w)}[\log{p(\mathcal{D}|w)}]-\mathbb{D}_{KL}[q(w)||p(w)]$$
+
+Now, $$\log{p(\mathcal{D})} $$ is what appears in the Gibbs posterior version of the [[PAC-Bayes]] theorem. On the other hand if we substitute the right hand side in place of $$\log{p(\mathcal{D})} $$, we get the general version of the PAC-Bayes theorem, which shows us that the Gibbs posterior gives the tightest PAC-Bayes bound! (remember that  $$\mathbb{E}_{q(w)}[\log{p(\mathcal{D}|w)}] = - \mathbb{E}_{q(w)}[\sum_i l(x_i;w)]$$, where $$l$$ is the loss function and $$x_i$$ are the data).
+
+|Therefore, maximizing the ELBO is like minimizing the PAC-Bayesian bound!|
+
+(note that under right relation between loss function and likelihood, Gibbs posterior is just the Bayes [[Posterior]])
+
+--------------------
+
+
+[img width=500 [VI_derivation_on_Chinese_restaurant_tablecloth.png]] courtesy of Adria Garriga Alonso.
+
+http://users.umiacs.umd.edu/~xyang35/files/understanding-variational-lower.pdf

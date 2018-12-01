@@ -1,0 +1,71 @@
+created: 20181130220601448
+creator: cosmos
+modified: 20181130234653431
+modifier: cosmos
+tags: Mean
+title: Harmonic mean
+type: text/vnd.tiddlywiki
+
+The ''harmonic mean'' of $$n$$ [[Real number]]s $$a_1,...,a_n$$ is defined as:
+
+<center style="font-size:1.5em">
+$$\frac{n}{\frac{1}{a_1}+...+\frac{1}{a_n}}$$
+</center>
+
+!!__Relations with other means__
+
+!!!__The harmonic mean is at most the [[Arithmetic mean]]__
+
+I was trying to prove this for the case $$n=2$$, using algebra, and I didn't manage. 
+
+So I went back to basics. What does division mean? Dividing cakes among a group of people of course
+
+We want to show that
+
+<center style="font-size:1.5em">
+$$\frac{\frac{1}{a}+\frac{1}{b}}{2} \geq \frac{2}{a+b}$$
+</center>
+
+So we consider two groups of people. The harmonic group is locally cooperative; the second arithmetic group is globally cooperative!
+
+Here is what the harmonic group does. They are actually two tribes, one larger than the other. Within the tribes, they all decide to split equally. But, each person in the larger tribe gets a smaller piece of cake :(. The people in the smaller tribe, decide, individually, to help their only big-tribe friends (each of them only has one friend). So they meet with their friend, and split the cake equally between them. Each of them gets an amount equal to the reciprocal of the harmonic mean of the sizes of the groups. This results in a group of $$2b$$ people to have an equal share among them. But there are $$a-b$$ unfortunate people with no friends, who have a smaller piece of cake still!
+
+[img[harmonic_local_cooperative_1.png]]
+
+[img[harmonic_local_cooperative_2.png]]
+
+Here is what the arithmetic group does. Much simpler: they just decide to come together, and split the two cakes equally! Each of them gets an amount equal to the reciprocal of the
+
+[img[arithmetic_global_cooperative_1.png]]
+
+[img[arithmetic_global_cooperative_2.png]]
+
+Now here is the thing. If the first group wanted to re-split their cake and become like the second group, then the fortunate people with friends would need to give some of their cake to the unfortunate ones, until everyone had the same (the mean has to be in between their two values).
+
+Therefore the reciprocal harmonic mean is larger than the reciprocal arithmetic mean.
+
+Now that I got the intuition, I could translate it back to formulas (let $$A$$ be reciprocal arithmetic mean and $$H$$ be the reciprocal harmonic mean, and $$a\geq b$$):
+
+<center style="font-size:1.5em">
+$$A=\frac{2}{a+b} = \frac{2bH+\frac{1}{a}(a-b)}{a+b} \leq H$$
+</center>
+
+where the inequality follows because $$\frac{\frac{1}{a}+\frac{1}{b}}{2} \geq \frac{\frac{1}{a}+\frac{1}{a}}{2} = \frac{1}{a}$$ for $$a\geq b$$. Note that this is a [[Convex combination]] of $$H$$ and $$\frac{1}{a}$$, where $$H$$ is the largest. This expresses mathematically the intuitive description of the conversion from the last step of the harmonics story to the arithmetic's
+
+It is now also easy to generalize this idea to $$n$$ groups. Where instead of the harmonics meeting in disjoint pairs, they meet in disjoint groups of $$n$$. They can only do this only as many times as there are people in the smallest group. We will then get a formula of the form (if $$a_1 \geq ... \geq a_n$$):
+
+<center style="font-size:1.5em">
+$$A=\frac{n}{a_1+...+a_n} = \frac{na_nH+\frac{1}{a_1}(a_1-a_n) + ... +\frac{1}{a_{n-1}}(a_{n-1}-a_n) }{a_1+...+a_n} \leq H$$
+</center>
+
+Note that just like in the case of $$n=2$$, this is a convex combination of $$H$$ and things smaller than it, which is why it's smaller than $$H$$
+
+I wonder if there is any economic interpretation.
+
+We consider many groups of different sizes, where the smallest group get the most cake per member, and the largest group get the least cake per member, representing [[Economic inequality]]. Then, if we imagine that each of the members in the rich group have only one friend at each tier, then we get the process above. And even if the rich group want to split evenly between their friends, they just can't reach everyone!
+
+This type of friendship structure could come about by a [[Preferential attachment]] process which makes having a friend at each of the tiers equally likely, so you expect, if you have as many friends as tiers, to have about one friend per tier. However, it doesn't create the cliques that are required for the above. I guess we could promote that by having preferential attachment to friends of friends. Some people will not have rich people as their friends, but they will still have friends, sharing the pie among a group that spans less tiers. So the above process would need to be generalized.
+
+It seems plausible however, that under the above type of assumptions, one would still obtain a result with considerably more inequality than the equal sharing solution. Perhaps there is some generalization of the harmonic mean to consider here.
+
+I wonder if this could be related to some model of [[Trickle-down economics]]

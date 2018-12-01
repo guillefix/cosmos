@@ -1,6 +1,6 @@
 created: 20160919220735827
 creator: cosmos
-modified: 20180502130735246
+modified: 20181130180100254
 modifier: cosmos
 tags: [[Information measures]]
 title: Relative entropy
@@ -9,15 +9,22 @@ type: text/vnd.tiddlywiki
 
 //aka Kullback–Leibler divergence, KL divergence//
 
-[[video|https://www.youtube.com/watch?v=fc5FyE41zeo#t=3m15s]]
-
-[[Mutual information]] is a special case. Defines a measure of "distance" between probabiliy distributions. Applications in estimating hypothesis testing errors and in large deviation theory.
+The ''relative entropy'' between distribution $$P$$ and $$Q$$ is defined as:
 
 $$D_{\mathrm{KL}}(P\|Q) = \sum_i P(i) \, \log\frac{P(i)}{Q(i)}.$$
+
+Defines a measure of "distance" between probabiliy distributions. However, note that it is not a [[Metric]], as it is not symmetric, and it doesn't obey the [[Triangle inequality]]. On the other hand, it is $$0$$ if and only if $$P=Q$$, and in its infinitesimal form, specifically its [[Hessian]], gives a metric tensor known as the [[Fisher information metric|Fisher information matrix]].
+
+It can be interpreted as the average (under $$P$$) of the difference in code length, when assigning code lengths in an optimal way (as per Shannon [[Source coding theorem]]) for distribution $$P$$ and $$Q$$.
+
+[[video|https://www.youtube.com/watch?v=fc5FyE41zeo#t=3m15s]]
+
+[[Mutual information]] is a special case where $$P$$ is a joint distribution and $$Q$$ is the product of the [[marginals|Marginal probability]].
+
+ Applications in estimating hypothesis testing errors and in large deviation theory. Also in [[PAC-Bayesian learning]]
+
 
 
 https://www.wikiwand.com/en/Kullback%E2%80%93Leibler_divergence
 
 https://www.youtube.com/watch?v=QPkb5VcgXAM#t=20m55
-
-the Kullback–Leibler divergence is not a true metric. It does not obey the triangle inequality, and in general DKL(P‖Q) does not equal DKL(Q‖P). However, its infinitesimal form, specifically its Hessian, gives a metric tensor known as the [[Fisher information metric|Fisher information matrix]].

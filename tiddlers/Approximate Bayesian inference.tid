@@ -1,0 +1,19 @@
+created: 20181130174809304
+creator: cosmos
+modified: 20181201023153042
+modifier: cosmos
+tags: [[Bayesian inference]]
+title: Approximate Bayesian inference
+type: text/vnd.tiddlywiki
+
+Methods to approximate [[Bayesian inference]]; mainly approximating [[Posterior]]s
+
+https://emtiyaz.github.io/teaching/ds3_2018/approxBayesInference.pdf
+
+* [[Laplacian approximation]] (see [[Laplace method]])
+* [[Expectation-propagation]]
+* [[Variational inference]]
+* [[Sampling]]
+* [[Approximate Bayesian computation]]
+
+https://www.cs.cmu.edu/~epxing/Class/10708-17/notes-17/10708-scribe-lecture13.pdf

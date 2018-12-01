@@ -1,0 +1,8 @@
+created: 20181130163108981
+creator: cosmos
+modified: 20181130163144044
+modifier: cosmos
+title: Amortization
+type: text/vnd.tiddlywiki
+
+Techniques to (potentially) increase the cost at some iterations of a procedure, so that the total/average cost over all iterations may be reduced.

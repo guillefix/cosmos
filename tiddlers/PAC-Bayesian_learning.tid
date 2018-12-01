@@ -1,6 +1,6 @@
 created: 20170510213348476
 creator: cosmos
-modified: 20181021143431588
+modified: 20181130191958440
 modifier: cosmos
 tags: [[Learning theory]]
 title: PAC-Bayesian learning
@@ -10,21 +10,32 @@ type: text/vnd.tiddlywiki
 
 An extension of [[Probably approximately correct]] learning to the cases where not all concepts in the concept class are equally likely, but instead have a general probability distribution over them, which can be interpreted as a [[Prior distribution]].
 
-See <big>[ext[here for proof|https://courses.cs.washington.edu/courses/cse522/11wi/scribes/lecture13.pdf]]</big> of general (KL) version. See derivation on blackboard (pic) for connection with Gibbs learner version ([[graph of bounds for KL of binary variables|https://www.desmos.com/calculator/hr4qquya5e]])
+''PAC-Bayes theorem (Gibbs posterior version)'' ([[Some PAC-Bayesian Theorems|https://link.springer.com/article/10.1023/A:1007618624809]])
 
-This seems to be very related to [[Structural risk minimization]]
+>For any measure $$P$$ on any concept space and any measure on a space of instances we have, for $$0< \delta \leq 1 $$, that with probability at least $$1-\delta$$ over the choice of sample of $$m$$ instances all measurable subsets $$U$$ of the concepts such that every element of $$U$$ is consistent with the sample and with $$P(U) > 0$$ satisfies the following:
 
-[img[PAC-Bayesian model selection.jpg]]
+> $$\epsilon(U) \leq \frac{\ln{\frac{1}{P(U)}}+\ln{\frac{1}{\delta}} + 2\ln{m} + 1}{m}$$
 
+> where $$P(U)=\sum_{c\in U} P(c)$$, and where $$\epsilon(U) := E_{c\in U} \epsilon(c)$$, i.e. the expected value of the generalization errors over concepts $$c$$ in $$U$$ with probability given by the posterior $$\frac{P(c)}{P(U)}$$. Here, $$\epsilon(c)$$ is the generalization error (probability of the concept $$c$$ disagreeing with the target concept, when sampling inputs).
 
-[[Some PAC-Bayesian Theorems|https://link.springer.com/article/10.1023/A:1007618624809]]
+See proof [[Some PAC-Bayesian Theorems|https://link.springer.com/article/10.1023/A:1007618624809]] and also in my notebook in the office.
+
+The Gibbs posterior version is a special case of the ''General PAC-Bayes theorem'' ([[PAC-Bayes model averaging|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.46.6957&rep=rep1&type=pdf]]):
+
+[img[PAC-Bayesian model averaging.jpg]]
+
+See <big>[ext[here for proof|https://courses.cs.washington.edu/courses/cse522/11wi/scribes/lecture13.pdf]]</big> of general (KL) version. See derivation on blackboard (pic..) for connection with Gibbs learner version ([[graph of bounds for KL of binary variables|https://www.desmos.com/calculator/hr4qquya5e]])
 
 To see how the Theorem 1 from 
 <small>[[Some PAC-Bayesian Theorems|https://link.springer.com/article/10.1023/A:1007618624809]]</small> follows from the general theorem below ( <small>[[PAC-Bayes model averaging|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.46.6957&rep=rep1&type=pdf]]</small> ), see picture of blackboard derivation, or see [[here|https://youtu.be/mxc3jqz2gBE?t=1396]].
 
-[[PAC-Bayes model averaging|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.46.6957&rep=rep1&type=pdf]]
+One can also show that the Gibbs posterior gives the optimal bound of the form given by the general theorem. See discussion in [[Evidence lower bound]]. 
 
-[img[PAC-Bayesian model averaging.jpg]]
+-----------
+
+There is a version that is essentially just [[Structural risk minimization]]/Weighted Union bound:
+
+[img[PAC-Bayesian model selection.jpg]]
 
 [[PAC-Bayesian Theory|https://link.springer.com/chapter/10.1007/978-3-642-41136-6_10]]
 

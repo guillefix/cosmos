@@ -1,19 +1,48 @@
 created: 20160625130504322
 creator: guillefix
-modified: 20170625104505730
+modified: 20181130214112965
 modifier: cosmos
+tags: [[Information geometry]]
 title: Fisher information matrix
 tmap.id: 59357645-7df2-4803-93e0-61c2ddb3a76b
 type: text/vnd.tiddlywiki
 
-The ''Fisher information matrix'' (FIM) is the Hessian of the $$\log$$ [[Likelihood function]].
+The ''Fisher information matrix'' (FIM) is the expected value of the [[Hessian]] (w.r.t. parameters) of the $$\log$$ [[Likelihood function]], under the distribution over data given by the likelihood function at a fixed parameter.
 
-If one [[Taylor expands|Taylor series]] the log-likelihood around a maximum, and keeps only terms up to second-order, we are approximating the peak by a Gaussian peak, and this is what is done to find the FIM
+$$\mathcal{I}(\theta) = - \mathbb{E}_{x\sim p(x|\theta)} \left[ \frac{\partial^2}{\partial \theta^2}\log{p(x|\theta)}\right]$$ $$= - \int p(x|\theta) \frac{\partial^2}{\partial \theta^2} \log{p(x|\theta)} dx$$ 
 
-See [[here|https://www.youtube.com/watch?v=c0O2XxHUG-A&index=14&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu]] for derivation using [[Relative entropy]]. See [[wiki|https://www.wikiwand.com/en/Fisher_information#/Matrix_form]] for more definitions
+If one [[Taylor expands|Taylor series]] the log-likelihood around a maximum, and keeps only terms up to second-order, we are approximating the peak by a Gaussian peak, and this is what is done to find the FIM.
+
+It can also be seen as the Hessian of the [[Relative entropy]] between the likelihood at one parameter and the likelihood at a nearby parameter. See [[here|https://www.youtube.com/watch?v=c0O2XxHUG-A&index=14&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu]] for derivation using [[Relative entropy]].
+
+It can also be seen as the [[Covariance matrix]] of the [[Gradient]]s of the likelihood function:
+
+$$ \mathcal{I}(\theta)= \mathbb{E}_{x\sim p(x|\theta)} \left[ \left(\frac{\partial}{\partial \theta}\log{p(x|\theta)}\right)^2\right] $$
+
+ $$=\int p(x|\theta) \left(\frac{\partial}{\partial \theta} \log{p(x|\theta)} \right)^2 dx$$  
+
+$$=  \int \left(\frac{\partial}{\partial \theta} \log{p(x|\theta)} \right) \frac{\partial}{\partial \theta} p(x|\theta) dx$$
+
+<div style="width:35em;">
+$$= - \int \left(\frac{\partial^2}{\partial \theta^2} \log{p(x|\theta)}\right) p(x|\theta) dx$$ $$+\int \frac{\partial}{\partial \theta} \left( \left(\frac{\partial}{\partial \theta} \log{p(x|\theta)} \right) p(x|\theta)  \right)dx$$ 
+$$= - \int \left(\frac{\partial^2}{\partial \theta^2} \log{p(x|\theta)}\right) p(x|\theta) dx$$ $$+\int \frac{\partial}{\partial \theta} \left( \frac{\partial}{\partial \theta} \log{p(x|\theta)} \right)dx$$
+$$= - \int \left(\frac{\partial^2}{\partial \theta^2} \log{p(x|\theta)}\right) p(x|\theta) dx$$ $$+ \frac{\partial^2}{\partial \theta^2} \int \log{p(x|\theta)}dx$$
+$$= - \int \left(\frac{\partial^2}{\partial \theta^2} \log{p(x|\theta)}\right) p(x|\theta) dx$$ $$+ \frac{\partial^2}{\partial \theta^2} 1$$
+$$= - \int \left(\frac{\partial^2}{\partial \theta^2} \log{p(x|\theta)}\right) p(x|\theta) dx$$
+</div>
+
+So this definition is equivalent!
+
+See [[wiki|https://www.wikiwand.com/en/Fisher_information#/Matrix_form]].
 
 [[Intro to Fisher Matrices|https://www.youtube.com/watch?v=m62I5_ow3O8]]
 
 The [[Covariance matrix]] is the inverse of the Fisher matrix.
 
 $$\chi^2$$ can be calculated as $$\chi^2 = \delta F \delta^T$$, where $$F$$ is the FIM, and $$\delta$$ is a small step in parameter space from the maximum of the likelihood.
+
+!!!__Reparametrization__
+
+https://www.wikiwand.com/en/Fisher_information#/Reparametrization
+
+Note that the likelihood function is not a probability density over the parameters $$\theta$$, but over $$x$$. Therefore, when we reparametrize, the likelihood function only changes by changing its argument according to the reparametrization, but it doesn't get any [[Jacobian]] factor. The derivative with respect of the parameter does get a Jacobian factor, so that ''Fisher information is dependent on reparametrization''. The [[Metric tensor]] it encodes is, of course, invariant, by definition of tensor.

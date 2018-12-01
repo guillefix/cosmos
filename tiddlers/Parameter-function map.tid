@@ -1,0 +1,9 @@
+created: 20181130164034301
+creator: cosmos
+modified: 20181130164124468
+modifier: cosmos
+tags: [[Parametrized model]]
+title: Parameter-function map
+type: text/vnd.tiddlywiki
+
+A well-known fact in [[Learning theory]] is that successful generalization requires assumptions about the form of the true solution, which follows from the [[No free lunch theorem]]. These assumptions are called [[Inductive bias]]es in the context of [[Supervised learning]]. One way of implementing inductive biases is via the choice of [[Representation]]. For instance, to each possible solution we assign a parameter, or set of parameters, which represent the solution. In the choice of mapping from parameters to solutions, we can induce biases, by having many parameters map to some solutions, while very few or none map to other solutions. Intuitively, we can think of parameter-solution maps as offering an interface to the space of solutions for the algorithm. Just like good user interfaces increase the likelihood of doing the right thing for non-experts, so do appropriate parameter-solution maps increase the likelihood of success for learning and optimization algorithms.

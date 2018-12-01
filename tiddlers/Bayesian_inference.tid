@@ -1,6 +1,6 @@
 created: 20160709011226683
 creator: guillefix
-modified: 20180725122455627
+modified: 20181130181223674
 modifier: cosmos
 tags: [[Statistical inference]] [[Bayesian statistics]]
 title: Bayesian inference
@@ -16,7 +16,7 @@ http://approximateinference.org/
 
 !!__Method__
 
-|Likelihood + prior -- [[Bayes' theorem]] --> posterior|
+|[[Likelihood]] + [[Prior]] -- [[Bayes' theorem]] --> [[Posterior]]|
 
 # Define variables
 
@@ -24,7 +24,7 @@ http://approximateinference.org/
 
 # We first choose a [[Prior distribution]] over the set of hypotheses, for instance favouring simple ones (see regularization below), which defines the parametrized family of [[Likelihood function]]s
 
-# We then [[calculate posterior from prior|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=5m]] using [[Bayes' theorem]]
+# We then calculate the [[posterior distribution|Posterior]] using [[Bayes' theorem]]
 
 # And we can then [[make a new prediction|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=6m07s]] by weighting over all hypothesis to calculate the ''expected value'' of the output for a new input. I think one can show (see Elements of statistical learning book) that if we knew the real distribution of output given input, the expectation value is the prediction that minimizes the [[Generalization error]]
 
@@ -52,7 +52,9 @@ __Ways of dealing with the problem of integrating prior to find normalization__
 
 * Sampling
 
-!!__Sampling__
+!__[[Approximate Bayesian inference]]__
+
+!!__[[Sampling]]__
 
 [[slides|https://benlambertdotcom.files.wordpress.com/2016/05/bayesian-course-4-v1-handout.pdf]]. Often, we can't calculate the posterior distritbution directly, and so we [[sample|Sampling]], using [[Monte Carlo]] methods (basically just sampling methods).
 
@@ -64,6 +66,12 @@ __Ways of dealing with the problem of integrating prior to find normalization__
 ** [[Gibbs sampling]]
 ** [[Hamiltonian Monte Carlo]]
 
+!!__[[Variational inference]]__
+
+!!__[[Approximate Bayesian computation]]__
+
+----------------
+
 !!__Hierarchical models__
 
 !!__[[Differential equations]] models__
@@ -71,10 +79,6 @@ __Ways of dealing with the problem of integrating prior to find normalization__
 Estimating ODE/PDE parameters. Add random noise around DE solution
 
 Can use random walk [[Metropolis-Hastings algorithm]]..
-
-!!__[[Approximate Bayesian computation]]__
-
-----------------
 
 !!__Posterior predictive distribution__
 

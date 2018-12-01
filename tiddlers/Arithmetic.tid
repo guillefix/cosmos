@@ -1,6 +1,6 @@
 created: 20161204200658659
 creator: cosmos
-modified: 20161204202628552
+modified: 20181130234824047
 modifier: cosmos
 tags: [[Number theory]]
 title: Arithmetic
@@ -15,3 +15,7 @@ Typographical number theory, see chapter VIII of GEB
 $$\omega $$-incompleteness., $$\omega $$-inconsistency 
 
 ''Rule of induction''
+
+!!__Interesting quantities__
+
+[[Mean]]
