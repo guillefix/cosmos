@@ -1,0 +1,46 @@
+created: 20160211003327172
+creator: guillefix
+draft.of: Music theory
+draft.title: Music theory
+modified: 20181202033619444
+modifier: cosmos
+tags: Music
+title: Draft of 'Music theory'
+tmap.id: 8c3443f8-a20c-443f-9218-e801eb7fc91d
+type: text/vnd.tiddlywiki
+
+Melody 
+Harmony 
+Rhythm 
+
+See [[Human hearing]].
+
+Equal temperment and just intonation:
+
+https://www.youtube.com/watch?v=VRlp-OH0OEA
+
+See also xenharmonic music..
+
+https://musiclab.chromeexperiments.com/Technology
+
+[[What is up with Noises? (The Science and Mathematics of Sound, Frequency, and Pitch)|https://www.youtube.com/watch?v=i_0DXxNeaQ0]]
+
+!!![[Twelve Tones|https://www.youtube.com/watch?v=4niz8TfY794]]
+
+http://www.lightnote.co/
+
+[[Venn Piano|https://www.youtube.com/watch?v=W4r_ql2e9S4]]
+
+https://books.google.co.uk/books?id=2gYVpfr9C8QC&pg=PA13&lpg=PA13&dq=algebraic+topology+self-assembly&source=bl&ots=HkZONnJC7Y&sig=78G5cZc-mNKmKcnFUqTPqq4Z_PA&hl=en&sa=X&ved=0ahUKEwjm4bS3oeTWAhXPalAKHRYFC8sQ6AEIPzAD#v=onepage&q=algebraic%20topology%20self-assembly&f=false
+
+!!!__Why are there twelve notes?__
+
+[[video|https://www.youtube.com/watch?v=IT9CPoe5LnM]]
+
+In [[Pythagorean tuning]], we build the notes via the two ratios 2:1 and 3:2 (or equivalently 2:1 and 3:1)
+
+That is, we take ratios of the form $$\left(\frac{3}{2}\right)^m 2^n$$, for integers $$m$$ and $$n$$. How many notes fall inside an [[Octave]] as we do this? The power of $$n$$ just moves us between one octave and the next, so we can safely take all powers of $$n$$, and just focus on what happens as we increase powers of $$m$$. If we take the $$\log_2$$ of the ratio, then the first octave lies between $$\log_2(1)=0$$ and $$\log_2(2)=1$$. Ratios in the first octave will lie somewhere in between. We can find these by doing $$\log_2{\left(\left(\frac{3}{2}\right)^m 2^n\right)} \text{ mod } 1$$ $$=m\log_2{\left(\frac{3}{2}\right)}\text{ mod } 1$$. It turns out that if we take $$m=0,...,11$$, we get $$12$$ well-spaced notes, which is what led Pythagoras and all of western music to use these $$12$$ notes as our chromatic scale! The fundamental reason is that $$\log_2{\left(\frac{3}{2}\right)}\approx \frac{7}{12}$$, so that after adding $$\log_2{\left(\frac{3}{2}\right)}$$ $$12$$ times we are close to an integer, and thus to a beggining of an octave, that is the base note. This is the approximate period. If it was 7/12 exactly, then we would have $$m\frac{7}{12}\text{ mod } 1$$, which we can recast as $$7m \text{ mod }12$$, which will visit all points $$0,...,11$$ as $$7$$ and $$12$$ are [[Coprime]], so that $$12$$ iterations are needed to come back; period of periodic [[orbit|Group orbit]] is $$12$$. Therefore it can't visit the same point twice in these $$12$$ iterates, so that it visits $$12$$ points. But there are only $$12$$ integers here, so that it visits them all! This is fundamentally why it is so well spread out after twelve iterations.
+
+See [[Modular arithmetic]]
+
+!!!__

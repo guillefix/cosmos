@@ -1,11 +1,15 @@
 created: 20170705201124448
 creator: cosmos
-modified: 20170705220547823
+modified: 20181202033608994
 modifier: cosmos
 tags: [[Discrete mathematics]]
 title: Modular arithmetic
 tmap.id: ceb08c9f-2cae-426b-a8cd-94cd8eea603b
 type: text/vnd.tiddlywiki
+
+The study of finite [[Number system]] where if we keep adding $$1$$ (successor function), we eventually come back to the first number, $$0$$.
+
+They are related to some [[Finite group]]s
 
 [[intro|https://www.youtube.com/watch?v=W1SY6qKZrUk#t=1m16s]]
 
@@ -14,3 +18,5 @@ type: text/vnd.tiddlywiki
 [[equivalence classes|https://www.youtube.com/watch?v=W1SY6qKZrUk#t=27m21s]] -- [[how to use them|https://www.youtube.com/watch?v=W1SY6qKZrUk#t=38m40s]]
 
 [[applications|https://www.youtube.com/watch?v=W1SY6qKZrUk#t=44m]]
+
+You can "push" the mod to the factors in a product if the factors are all integers (but keeping a mod over the new product also)

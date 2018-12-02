@@ -1,6 +1,6 @@
 created: 20170105190631185
 creator: cosmos
-modified: 20181201015832598
+modified: 20181202025952012
 modifier: cosmos
 tags: [[Approximate Bayesian inference]] [[Statistical inference]]
 title: Variational inference
@@ -34,6 +34,13 @@ I guess variational inference can be used to estimate the [[Marginal likelihood]
 !!__Mean field VI__
 
 A choice for the space of distributions over which to optimize, is distributions where the individual parameters are independent. This is known as a [[mean field approximation|Mean field theory]] (as we ignore statistical dependences).
+
+See [[here|https://www.cs.cmu.edu/~epxing/Class/10708-17/notes-17/10708-scribe-lecture13.pdf]]
+
+[img[
+mean_field_variational_inference_derivation.jpg]]
+
+In the above we show what the optimal $$q_i(w_i)$$ is, when only optimizing $$q_i$$ and keeping the rest of $$q_j$$ fixed. This is a [[Coordinate descent]] update. So if this update is easy to calculate, we can use coordinate descent to optimize the mean field ELBO
 
 !!__Applications__
 
