@@ -1,6 +1,6 @@
 created: 20170705201124448
 creator: cosmos
-modified: 20181202033608994
+modified: 20181202045613355
 modifier: cosmos
 tags: [[Discrete mathematics]]
 title: Modular arithmetic
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 The study of finite [[Number system]] where if we keep adding $$1$$ (successor function), we eventually come back to the first number, $$0$$.
 
-They are related to some [[Finite group]]s
+They are related to some [[Finite group]]s and [[Finite field]]s
 
 [[intro|https://www.youtube.com/watch?v=W1SY6qKZrUk#t=1m16s]]
 

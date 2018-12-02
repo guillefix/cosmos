@@ -1,0 +1,44 @@
+created: 20181202044208987
+creator: cosmos
+modified: 20181202045840322
+modifier: cosmos
+tags: [[Music theory]]
+title: Why are there twelve notes?
+type: text/vnd.tiddlywiki
+
+Why are there twelve musical notes?
+Long time ago, a guy called Pythagoras really liked [[Music]] and [[math|Mathematics]]. He found that two strings with length ratio of two [[sounded|Hearing]] essentially "the same". He then tried a ratio of three, and found a new sound, but which sounded nice, harmonic. So what happens if we keep dividing the length of the string by three, he wondered? He found more and more sounds, all harmonic with the previous (and still somewhat harmonic with the one of the original string). But, after thirding the length of the string 12 times, surprise! He found something that sounded the same as the original one again! He found that in fact $$3^{12}$$ is very close to $$2^{19}$$ (a power of two, thus sounding "the same" as the original, as all powers of two). He thus concluded, that <span style="color: DeepPink">these must be all the notes harmonic with a given base note</span>. Thus "all" the notes one needs to play nice-sounding music!
+
+__Engineering interlude__
+
+Actually he didn't quite third the string 12 times, as the string would have been about the size of a [[bacterium|Bacteria]] by then. But as doubling the length of the string keeps the sound fundamentally the same, he would third the length, and then double it. Sometimes even doubling it twice. In fact, by doing this, he could always make a string which was of a length between 1 and 2. So he fit all the strings he thus constructed between a string of 1m and 2m, to make a harp. And guess what? Every string and the next had a ratio which was almost the same for every pair of consecutive strings! If you analyze an exponential curve, every time the y value increases by a certain *factor* the x value goes up by a constant additive amount. Therefore, he placed the strings at equal intervals in a sound box horizontal on the floor and was pleased to find that he could hold the top by a wooden frame shaped like an exponential curve. In fact this is how harps would look like, if it weren't because tension also affected pitch, so that you can avoid exponential growth in your harp's size by compensating with increased string tension. However, you can't tense a wind tube, so that no-one can avoid exponential growth in church organs (which is why they've grown to be so massive). Indeed if you like at a certain pipe section the top of the organ pipes follow exponential curves!
+
+> For each stop—each timbre, or type of sound, that the organ could make (viz. blockflöte, trumpet, piccolo)—there was a separate row of pipes, arranged in a line from long to short. Long pipes made low notes, short high. The tops of the pipes defined a graph: not a straight line but an upward-tending curve. The organist/math teacher sat down with a few loose pipes, a pencil, and paper, and helped Lawrence figure out why. When Lawrence understood, it was as if the math teacher had suddenly played the good part of Bach’s Fantasia and Fugue in G Minor on a pipe organ the size of the Spiral Nebula in Andromeda—the part where Uncle Johann dissects the architecture of the Universe in one merciless descending ever-mutating chord, as if his foot is thrusting through skidding layers of garbage until it finally strikes bedrock. In particular, the final steps of the organist’s explanation were like a falcon’s dive through layer after layer of pretense and illusion, thrilling or sickening or confusing depending on what you were. ''The heavens were riven open. Lawrence glimpsed choirs of angels ranking off into geometrical infinity''. (Cryptonomicon, Neal Stephenson)
+
+
+__Back to maths__
+
+But wait, why is it that he found the 12 notes so neatly arranged? I mean finding just 12 harmonic notes is nice enough, but why the neat arrangement?
+
+Previously we found that, approx. $$3^{12}\approx 2^{19}$$. So that $$\log_2(3^{12})\approx19$$, so that $$\log_2(3)=19/12$$. In logscale dividing by two is substracting $$1$$, so we can substract $$1$$ to this. Before I said, Pythagoras doubled the length of the string enough times to fit it between lengths 1 and 2. In logscale that's like substracting 1s until it is between 0 and 1. This is the [[modulo|Modular arithmetic]] 1 operation! So the lengths of strings he is finding are $$k*log_2(3) \text{ mod } 1 \approx k\cdot19/12 \text{ mod }1 = k\cdot7/12\text{ mod }1$$ approx. This is the same as asking what happens as you increase a $$12$$ hour clock by $$7$$h at a time! Well, as $$7$$ and $$12$$ are coprime. You can only come back to where you started after adding $$7$$h $$12$$ times, so that you must visit $$12$$ different points. As you are only adding integer number of hours, you can only visit integer number of hours, so that you *must* visit every hour mark in the clock! Just like the clock, in Pythagora's process of tripling the frequency (thirding the length of string) and halving if necessary, he visited every $$1/12$$th point in between the two end strings, thus ''having them equally spaced!'' (this is the [[Group orbit]] in the [[Quotient group]] $$\mathbb{Z}/n\mathbb{Z}$$)
+
+__Pythagorean comma__
+
+Let us assume for a moment that $$3^{12} = 2^{19}$$ exactly (which can't be true as 3 and 2 are prime). Then he would have found the strings spaced out at precisely equal intervals. Every string and the next having lengths with equal ratios. Then, if the base string and the 7th string had a nice harmonic ratio of 1:3. Then the 2nd and the 8th had the same ratio, and so on. Chords and arpeggios would be perfectly harmonic no matter where you started.
+
+But this isn't the case. The Pythagorean tuning doesn't have perfect spacing. You can enforce perfect spacing, a system known as equal temperement, used almost universally in music today. But then the harmonic ratios between notes that Pythagoras found are not perfect any more. But are close enough, and basically allows chords to be more consistent (consistently imperfect) across base notes.
+
+But ultimately the reason we have 12 notes comes from the Pythagorean tuning process. Having, say 11 or 13 notes equally spaced in an octave would be far enough from the harmonic Pythagorean tuning that it would be jarring to the ears. Adding more notes via the Pythagorean process would not keep them equally spaced, until one added too many to be useful ( https://www.youtube.com/watch?v=IT9CPoe5LnM )
+
+So we have 12 notes because math is almost nice enough that {3^12 = 2^19, where 12 and 19 are coprime}. That approximate mathematical fact makes Pythagorean tuning almost "perfect" :)
+
+[[Video demonstration|https://www.youtube.com/watch?v=6NlI4No3s0M]] with [[Lissajous curve]]s
+
+__Why we have 8 notes?__
+
+Well we have 12 notes in the chromatic scale. But why do we have 8 notes in the "main" scale, namely the [[Major scale]]. I haven't given this enough thought yet. But I think, basically, it stats from questioning: what is so special about powers of 3 anyway? Isn't it more interesting (rather, doesn't it sound better, a question that requires understanding of the biology of hearing) to have nice simple fractions as ratios between the strings/notes?
+Well start enumerating simple fractions: 1,1/2,1/3,2/3,1/4,3/4,1/5,2/5,3/5,4/5. Add these to the length of the string. You get nice sounding notes, but some of them are relative close together, and others are rather far apart. We would like something that had notes more equally spaced, but consisted of simpler ratios. So I think the major scale is a compromise, where we take the notes in the chromatic scale, but choosing the ones which are closer to simple ratios. We add the 2nd and 7th note even though their ratio is not quite so simple, simply to "fill" out the scale, and have an evenly spaced scale.
+
+----------------
+
+See more at [[Music theory]]

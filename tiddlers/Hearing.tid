@@ -1,6 +1,6 @@
 created: 20170212133513031
 creator: cosmos
-modified: 20170212133533805
+modified: 20181202044355713
 modifier: cosmos
 tags: Sense
 title: Hearing
@@ -8,5 +8,7 @@ tmap.id: 90f29f63-b485-442f-8a7f-24d722021885
 type: text/vnd.tiddlywiki
 
 //aka audition//
+
+[[Human hearing]]
 
 [[Sound representation in the brain]]
