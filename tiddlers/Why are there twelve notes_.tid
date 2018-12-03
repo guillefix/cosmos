@@ -1,6 +1,6 @@
 created: 20181202044208987
 creator: cosmos
-modified: 20181202045840322
+modified: 20181202052253193
 modifier: cosmos
 tags: [[Music theory]]
 title: Why are there twelve notes?
@@ -42,3 +42,5 @@ Well start enumerating simple fractions: 1,1/2,1/3,2/3,1/4,3/4,1/5,2/5,3/5,4/5. 
 ----------------
 
 See more at [[Music theory]]
+
+*Note. Why do we care about having notes equally spaced in [[log|Logarithm]]scale? It has to do with [[Human hearing]], which is able to resolve notes according to their distance in log scale; this in turn probably has to do with [[Evolution]], as Nature is rife with sounds over many orders of magnitude of frequency, which may all be relevant for survival. However, for something like [[Light]] there appears to be only about one order of magnitude which is significant in Nature (thus [[our eyes|Human vision]] detects linear changes in frequency). Why is this? Molecules typically interact with frequencies from microwave to high UV. Hmmm, actually not true. There is also significant interactions with higher and lower frequency waves.., but in other ways.. Perhaps, there's also the fact that most molecules interact with this range means that its hard to evolve a sensor outside this range.. Well, there's also the relative brightness of the Sun for different wavelengths.. Well, I think that for sound there is a bigger range of frequencies commonly found in Nature... (Hmmm, not so convinced now; radiowaves, etc may be relatively common? Sharks detect slow EM waves from prey's muscles and heart..)This may be one reason for the logscale
