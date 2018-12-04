@@ -1,6 +1,6 @@
 created: 20170117145129762
 creator: cosmos
-modified: 20180315113741167
+modified: 20181204000209345
 modifier: cosmos
 tags: [[Protein structure]]
 title: Protein structure prediction
@@ -8,6 +8,10 @@ tmap.id: e22a9714-217b-4145-bd60-6f9fda1f097d
 type: text/vnd.tiddlywiki
 
 See [[this presentation|https://www.dropbox.com/s/tkpa58yp2my8gkc/DTC_StructBio_ProteinStructurePrediction_2017.pdf?dl=0]], [[Protein structure analysis]]
+
+New paper by deep mind ''Alpha Fold''!
+
+http://www.predictioncenter.org/index.cgi
 
 [[Linguistic hypothesis in protein structure prediction|https://moalquraishi.wordpress.com/2018/02/15/protein-linguistics/]] (proteins are built out of building blocks, recursively). <small>The basic idea is as follows: there is evidence that today’s proteins emerged out of an ancient peptidic soup, one that may have left its mark on the evolutionary record. I.e., the proteins we see today may in some sense be formed out of primordial peptides. As proteins grew in size and complexity, it would have been advantageous to reuse existing components, to build bigger proteins from existing protein parts. We already know this is true on the level of protein domains, in that larger proteins are often comprised from chaining together smaller globular domains. But the phenomenon of reuse may go further, where even smaller protein fragments (handful of residues to dozens) may reflect an underlying evolutionary pressure to reuse working parts, fragments that fold in tried-and-tested ways (from the perspective of evolution.) If this is the case, then the space of naturally occurring proteins may occupy a very special “manifold”, one that exhibits a hierarchical organization spanning small fragments to entire domains. </small>
 

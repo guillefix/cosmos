@@ -1,6 +1,6 @@
 created: 20181108195032667
 creator: cosmos
-modified: 20181109220838061
+modified: 20181204000240492
 modifier: cosmos
 tags: [[Deep learning theory]] [[Loss surface]]
 title: Loss surface of neural networks
@@ -38,6 +38,8 @@ minima. (<-- these results are for ResNets and DenseNets which are known to have
 [[AN EMPIRICAL ANALYSIS OF DEEP NETWORK LOSS SURFACES|https://pdfs.semanticscholar.org/815a/e2909fd7fc536afa9773228dab40872d5cb7.pdf]] The work of [[Dauphin et al. (2014)|https://arxiv.org/abs/1406.2572]] empirically investigated properties of the critical points of neural network loss functions and demonstrated that their critical points behave similarly to the critical points of random Gaussian error functions in high dimensional space. We will expose further evidence along this trajectory.
 
 [[On the Quality of the Initial Basin in Overspecified Neural Networks|https://arxiv.org/abs/1511.04210]]
+
+https://arxiv.org/abs/1611.06310
 
 --------------
 
