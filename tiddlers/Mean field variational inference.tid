@@ -1,0 +1,16 @@
+created: 20181204170419625
+creator: cosmos
+modified: 20181204170552947
+modifier: cosmos
+tags: [[Variational inference]]
+title: Mean field variational inference
+type: text/vnd.tiddlywiki
+
+A method of [[Variational inference]] where the space of distributions over which we optimize the variational distribution is distributions where the individual parameters are [[independent|Statistical independence]]. This is known as a [[mean field approximation|Mean field theory]] (as we ignore statistical dependences).
+
+See [[here|https://www.cs.cmu.edu/~epxing/Class/10708-17/notes-17/10708-scribe-lecture13.pdf]]
+
+[img[
+mean_field_variational_inference_derivation.jpg]]
+
+In the above we show what the optimal $$q_i(w_i)$$ is, when only optimizing $$q_i$$ and keeping the rest of $$q_j$$ fixed. This is a [[Coordinate descent]] update. So if this update is easy to calculate, we can use coordinate descent to optimize the mean field ELBO

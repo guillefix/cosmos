@@ -1,6 +1,6 @@
 created: 20161015101744053
 creator: cosmos
-modified: 20180804233121535
+modified: 20181204171840383
 modifier: cosmos
 tags: Statistics
 title: Curse of dimensionality
@@ -31,3 +31,15 @@ members of different distributions may not necessarily tend to the global mean
 as the dimensionality increases.
 
 [[Curse of dimensionality in k-NN|https://youtu.be/i2bt4vt908g?t=25m43s]]
+
+-------------------
+
+!!__[[Bias|Inductive bias]] and the curse of dimensionality__
+
+We have argued that the main reason deep neural networks are able to generalize is because their implicit prior over functions is heavily biased. We base this claim on PAC-Bayes theory, which tells us that enough bias implies generalization. The contrapositive of this claim is that bad generalization implies small bias. In other words, models which perform poorly on certain tasks relative to deep learning, should show little bias. Here we describe some examples of this, connecting them to the curse of dimensionality. In future work, we plan to explore the converse statement, that small bias implies bad generalization --- one way of approaching this would be via lower bounds matching the PAC-Bayes upper bound.
+
+Complex machine learning tasks require models which are expressive enough to be able to learn the target function. For this reason, before deep learning, the main approach to complex tasks was to use non-parametric models which are infinitely expressible. These include Gaussian processes and other kernel methods. However, unlike deep learning, these models were not successful when applied to tasks where the dimensionality of the input space was very large. We therefore expect that these models show little bias, as they generalize poorly.
+
+Many of these models use kernels which encode some notion of local continuity. For example, the Gaussian kernel ensures that points within a ball of radius $$\lambda$$ are highly correlated. On the other hand, points separated by a distance greater than $$\lambda$$ can be very different. Intuitively, we can divide the space into regions of length scale $$\lambda$$. If the input domain we re considering has $$O(1)$$ volume, and has dimensionality $$d$$ (is a subset of $$\mathbb{R}^d$$), then the volume of each of these regions is of order $$\lambda^d$$, and the number of these regions is of order $$1/\lambda^d$$. In the case of binary classification, we can estimate the effective number of functions which the kernel "prefers" by constraining the function to take label $$0$$ or $$1$$ within each region, but with no further constraint. The number of such functions is $$2^{a^d}$$, where we let $$a:=1/\lambda$$. Each of these functions is equally likely, and together they take the bulk of the total probability, so that they have probability close to $$2^{-a^d}$$, which decreases very quickly with dimension.
+
+Kernels like the Gaussian kernel are biased towards functions which are locally continuous. However, for high dimension $$d$$, they are not biased \emph{enough}. In particular, as the the probability of the most likely functions grows doubly exponentially with $$d$$, we expect PAC-Bayes-like bounds to grow exponentially with $$d$$, quickly becoming vacuous. This argument is essentially a way of understanding the curse of dimensionality from the persective of priors over functions.

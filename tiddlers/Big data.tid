@@ -1,0 +1,9 @@
+created: 20181204171505891
+creator: cosmos
+modified: 20181204171728249
+modifier: cosmos
+tags: [[Data science]]
+title: Big data
+type: text/vnd.tiddlywiki
+
+[[Data science]] applied to [[Dataset]]s with "many" data points, so that many traditional [[inference|Statistical inference]] and [[Machine learning]] methods don't work. See [[Curse of dimensionality]]

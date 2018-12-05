@@ -1,0 +1,12 @@
+created: 20181204173038600
+creator: cosmos
+modified: 20181204173954611
+modifier: cosmos
+title: Input
+type: text/vnd.tiddlywiki
+
+In general, [[mathematically|Mathematics]], ''input'' refers to an element of the [[Domain]] of a [[Function]].
+
+In [[Supervised learning]], an input refers to an input of the function the learning algorithm outputs. That is an input is an element of the {//input space// which the algorithm is learning to map to an output space (a label in the case of classification)}.
+
+In [[Engineering]], particularly [[Electronic engineering]] and [[Signal processing]], input refers to either [[Signal]]s fed into a certain engineering system, or this part of the system itself, whose full name is [[Input device]].

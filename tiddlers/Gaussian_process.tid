@@ -1,21 +1,17 @@
 created: 20171023143453623
 creator: cosmos
-modified: 20181130012228851
+modified: 20181204181411945
 modifier: cosmos
 tags: [[Generative supervised learning]] [[Probabilistic model]]
 title: Gaussian process
 tmap.id: 7fb2e34a-cd15-4583-ac08-44d368808763
 type: text/vnd.tiddlywiki
 
-[ext[Good quick intro|https://www.robots.ox.ac.uk/~mebden/reports/GPtutorial.pdf]]. See [[Gaussian Processes for Machine Learning|http://www.gaussianprocess.org/gpml/chapters/]]
+''Gaussian processes'' are [[Probabilistic model]]s, defined as a probability distribution over a set of random variables (i.e. a [[Stochastic process]]) where any finite set of [[Random variable]]s in the process is [[jointly|Joint probability distribution]] [[Gaussian]] distributed. This set of random variables is usually interpreted as the output values of a function on an input space, so that we say that Gaussian processes define a //distribution over functions//, as we repeat below.
 
-Gaussian processes are [[Probabilistic model]]s, which define a probability distribution over a set of random variables (i.e. a [[Stochastic process]]); this set of random variables usually corresponds to the values of a function over a set of inputs.
+[ext[Good quick intro|https://www.robots.ox.ac.uk/~mebden/reports/GPtutorial.pdf]]. See [[Gaussian Processes for Machine Learning|http://www.gaussianprocess.org/gpml/chapters/]]. Also intro [[here|http://publications.aston.ac.uk/1305/1/NCRG_2001_014.pdf#page=1]]
 
-<small>Gaussian processes are usually used in [[Generative supervised learning]]. In brief, generative supervised learning works as follows: Basically assume a certain model $$p(\mathbf{y}|\mathbf{x})$$ where the $$y$$s correspond to the $$x$$s in these vectors. For prediction, we do the following: given output $$y$$s for some inputs $$x$$s as data, we can have a [[Predictive distribution]] for the outputs $$y$$s corresponding to unobserved inputs $$x$$s.</small>
-
-A ''Gaussian process'' models $$p(\mathbf{y}|\mathbf{x})$$ as a [[Multivariate Gaussian distribution]] with a covariance matrix that is given by a [[Kernel]] function (ensuring consistency via what's called the marginaliation property).  This can be interpreted as ''a Gaussian prior on the space of functions'' (i.e. a [[Gaussian random field]])
-
-> Formally we define a Gaussian process as a [[Stochastic process]] where any finite set of [[Random variable]]s in the process is [[jointly|Joint probability distribution]] [[Gaussian]] distributed.
+A Gaussian process is thus a ''distribution over functions'' such as the values of the functions at a finite set of points are jointly distributed by a [[Multivariate Gaussian distribution]] with a [[Covariance matrix]] that is given by a [[Kernel]] function (ensuring consistency via what's called the marginaliation property), which is a function of two [[Input]]s.  This is also called a [[Gaussian random field]].
 
 In terms of equations, the values of the function at any finite set of  $$n$$ inputs $$(x_1,...,x_n)$$, are jointly distributed with a Gaussian distribution:,
 
@@ -26,6 +22,14 @@ $$
 where $$\mathbf{\tilde{y}}=(\tilde{y}_1,...,\tilde{y}_n)$$. The entries of the covariance matrix $\mathbf{K}$ are given by the [[Kernel]] function $$k$$ as $$K_{ij}=k(x_i,x_j)$$.
 
 Kernels encode how "similar" two points $$x_i$$ and $$x_j$$  in the input [[Domain]] of the distribution over functions are. What this means precisely is that the kernel at these two points, $$k(x_i,x_j)$$ is high, the the function is more likely to have similar values at these two points. This allows to encode a wide variety of prior knowledge/assumptions about the functions one is trying to learn, like [[Invariance]]s/[[symmetries|Symmetry]]. Often, one chooses kernels that prefers smoothness, so that that $$y$$s which are close $$x$$s under some [[Metric]] (often [[Euclidean metric]]) are more likely to be similar... To see more on choice of kernels, see discussion in the page of [[Reproducing kernel Hilbert space]]s.
+
+!!!__Application in [[Generative supervised learning]]__
+
+Gaussian processes are usually used in [[Generative supervised learning]]. In brief, generative supervised learning works as follows: assume a certain model $$p(\mathbf{y}|\mathbf{x})$$ where the $$y$$s correspond to the $$x$$s in these vectors. To learn a predictor from a set of data, we do the following: given output $$y$$s for some inputs $$x$$s as data, we can compute a [[Predictive distribution]] for the outputs $$y$$s corresponding to unobserved inputs $$x$$s (see [[Bayesian inference]]). 
+
+A ''Gaussian process model'' models $$p(\mathbf{y}|\mathbf{x})$$ as $$p(\mathbf{y}|\mathbf{f})p(\mathbf{f}|\mathbf{x})$$, where $$p(\mathbf{y}|\mathbf{f})$$ is a [[Likelihood function]] connecting outputs to the values of a "latent function" $$f$$. This latent function is distributed according to a Gaussian process, as described above, which can now be interpreted as a //prior over functions//.
+
+They are [[Bayesian|Bayesian inference]] [[Kernel method]]s
 
 Using Gaussian processes for can be efficiently done up to datasets of about 100,000 data points, with current techniques and computers.
 
@@ -47,7 +51,19 @@ https://en.wikipedia.org/wiki/Gaussian_process
 
 ---------------
 
-!!__Gaussian processes with non-Gaussian likelihood__
+!!__[[Approximate inference|Approximate Bayesian inference]] for Gaussian processes__
+
+!!!__Gaussian processes with non-Gaussian likelihood__
+
+two major obstacles: non-Gaussianity
+of the posterior process and the size of the kernel matrix K0(xi,xj). A first obvious problem stems from the fact
+that the posterior process is usually non-Gaussian (except when the likelihood itself is Gaussian in the fx). Hence,
+in many important cases its analytical form precludes an exact evaluation of the multidimensional integrals that
+occur in posterior averages. Nevertheless, various methods have been introduced to approximate these averages. A
+variety of such methods may be understood as approximations of the non-Gaussian posterior process by a Gaussian
+one (Jaakkola and Haussler 1999; Seeger 2000), for instance in (Williams and Barber 1998) the posterior mean
+is replaced by the posterior maximum (MAP) and information about the fluctuations are derived by a quadratic
+expansion around this maximum
 
 Usually the observed labels / $$y$$ are assumed to be either equal to the function modelled by the GP, or have a Gaussian distribution around it (what's called a [[Gaussian]] [[likelihood|Likelihood function]] -- note that here the function $$f$$ works like the parameters in [[Bayesian inference]]).
 
@@ -61,3 +77,10 @@ There are several approximations which are used then
 
 The most common case is in [[Gaussian process classification]]. See [[here|http://www.gaussianprocess.org/gpml/chapters/RW3.pdf]]
 
+!!!__Further techniques__
+
+One approach is to partition the data set into separate groups [e.g. Snelsonand  Ghahramani,  2007,  Urtasun  and  Darrell,  2008]. An  alternative  is  to  build  a  low  rank  approximationto the covariance matrix based around 'inducing vari-ables' [see e.g. [[Csato and Opper, 2002|http://publications.aston.ac.uk/1305/1/NCRG_2001_014.pdf]], Seeger et al.,2003, [[Quinonero Candela and Rasmussen, 2005|http://www.jmlr.org/papers/volume6/quinonero-candela05a/quinonero-candela05a.pdf]], [[Titsias, 2009|http://proceedings.mlr.press/v5/titsias09a.html]]].  These approaches lead to a [[Computational complexity]] of $$O(nm^2)$$ and storage demands of $$O(nm)$$ where $$n$$ is number of data points and $$m$$ is  a  user  selected  parameter  governing  the number  of  inducing  variables. 
+
+In [[this paper|https://arxiv.org/pdf/1309.6835.pdf]], they then introduced [[Variational inference for Gaussian processes]].
+
+[[Sparse On-Line Gaussian Processes|http://publications.aston.ac.uk/1305/1/NCRG_2001_014.pdf]]

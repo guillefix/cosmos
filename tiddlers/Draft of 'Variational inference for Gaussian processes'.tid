@@ -1,0 +1,23 @@
+created: 20181204170833304
+creator: cosmos
+draft.of: Variational inference for Gaussian processes
+draft.title: Variational inference for Gaussian processes
+modified: 20181204172755742
+modifier: cosmos
+tags: [[Gaussian process]] [[Variational inference]]
+title: Draft of 'Variational inference for Gaussian processes'
+type: text/vnd.tiddlywiki
+
+[[Variational inference]] for [[Gaussian process]]es
+
+[[Gaussian Processes for Big Data|https://arxiv.org/abs/1309.6835]]
+
+[[Variational Learning of Inducing Variables in Sparse Gaussian Processes|http://proceedings.mlr.press/v5/titsias09a.html]]
+
+__stochastic variational inference for Gaussian process models__
+
+GPs can be variationally
+decomposed to depend on a set
+of globally relevant inducing variables which
+factorize the model in the necessary manner
+to perform variational inference.

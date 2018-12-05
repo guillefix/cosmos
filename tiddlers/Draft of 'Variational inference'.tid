@@ -1,0 +1,47 @@
+created: 20170105190631185
+creator: cosmos
+draft.of: Variational inference
+draft.title: Variational inference
+modified: 20181204170800848
+modifier: cosmos
+tags: [[Approximate Bayesian inference]] [[Statistical inference]]
+title: Draft of 'Variational inference'
+tmap.id: 804f87d9-8036-4bb6-a49c-9fe26cd60be4
+type: text/vnd.tiddlywiki
+
+//aka VI, variational Bayes, [[Ensemble learning]], [[Minimum description length]]//
+
+Variational inference <span style="color: DarkMagenta">is based on reducing inference to an [[Optimization]] problem</span>. In [[Statistical inference]], we are often interested in finding a [[Posterior]] distribution, defined via a [[Probabilistic model]], like a [[Graphical model]], and some observed data. However, posterior distributions are often hard to compute explicitly, and an [[approximate method|Approximate Bayesian inference]] is needed.
+
+> ''Variational inference'' consists on finding an approximate representation of the posterior distribution (the ''variational distribution''), minimizing the [[KL divergence|Relative entropy]] with the real [[Posterior]] distribution. This is often done by choosing a tractable family of distributions $$\mathcal{P}$$ and maximizing a ''variational objective'' function like the [[Evidence lower bound]] (ELBO) over this family.
+
+See [ext[here|https://arxiv.org/pdf/1601.00670.pdf]].
+
+The interesting thing is that the KL divergence/ELBO is defined via a in integral over the latent/hidden variables, which is precisely the thing that we assumed was hard, and the reason to use variational inference! However, the variational distribution $$q(w)$$ may be much easier to integrate than the posterior!
+
+Otherwise, we can use samples instead of the integation and use [[Stochastic optimization]] (like [[Stochastic gradient descent]]) [[[ref|https://arxiv.org/abs/1309.6835]]]. But we could also have used sampling for the original integral! Or we could have used [[Monte Carlo]] methods ([[MCMC|Markov Chain Monte Carlo]]! In that case, the nontrivial thing is that using stochastic optimization can give good answer with much fewer samples than when approximating the integral in naive Bayesian inference (the denominator..). It is also typically more scalable (efficient for large datasets) than MCMC methods. See examples in [[Variational inference for Gaussian processes]]
+
+To understand this would require analysis of MCMC, Monte Carlo integration, and stochastic optimization.
+
+!!!__Zero-avoidance property__
+
+<span style="color: blue">Zero-avoidance property</span> of variational inference.  In $$\mathbb{D}_{KL}[q||p]$$  there  is  a  large  positive contribution  from  regions  in  which $$p$$ is near zero unless $$q$$ is also close to zero.  On the other hand, $$\mathbb{D}_{KL}[p||q]$$ is  minimized  by $$q$$ that  covers  the mass of $$p$$. You want the first distribution to be like a "subset" of the second; because the first is "testing" the second one's code. So you don't want it to test it in a place which will utterly surprise the second one, as it'll have an infinite code length there, and KL divergence, would diverge^^badum tss^^
+
+The above implies that variational inference via the ELBO overconcentrates the posterior. Minimizing $$\mathbb{D}_{KL}[p(w|D)||q(w)]$$ leads to a different type of method ,e.g.,  [[Expectation-propagation]].  This is then expected to underconcentrate the posterior.The two  methods  obtain  very  different approximations. See [Bishop, 2006] Figure 10.3
+
+<small>See [[here|https://emtiyaz.github.io/teaching/ds3_2018/approxBayesInference.pdf]]</small>
+
+I guess variational inference can be used to estimate the [[Marginal likelihood]], by inverting Bayes' theorem to get $$p(D) = \frac{p(D|w)p(w)}{p(w|D)}\approx \frac{p(D|w)p(w)}{q(w)}$$, which can be evaluated at any $$w$$, but preferentially at $$w$$ sampled from variational distribution, as in those $$w$$ the variational approximation is likely better. The numerator is tractable to compute in cases where VI is applied. Using this formula we can see that a method (such as ELBO) which tends to overconcentrate the posterior (resulting in larger $$q(w)$$), will give a smaller likelihood (the intuition being that if this data is less likely is because there are fewer $$w$$ which produce it, so we give more weight to this one); on the other hand methods (such as EP) which tend to underconcentrate posterior, will give a larger likelihood. This probably explains why we obtain lower values for the PAC-Bayes bounds when using EP, when compared to VI.
+
+
+!!__[[Mean field VI|Mean field variational inference]]__
+
+A choice for the space of distributions over which to optimize, is distributions where the individual parameters are independent. This is known as a [[mean field approximation|Mean field theory]] (as we ignore statistical dependences).
+
+!!__Applications__
+
+[[Variational autoencoder]]
+
+------------
+
+It is typically applied for [[Bayesian inference]], but to be more specific it may be specified as Bayesian variational inference.

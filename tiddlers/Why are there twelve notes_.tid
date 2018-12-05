@@ -1,6 +1,6 @@
 created: 20181202044208987
 creator: cosmos
-modified: 20181202052253193
+modified: 20181204211550874
 modifier: cosmos
 tags: [[Music theory]]
 title: Why are there twelve notes?
@@ -20,23 +20,23 @@ __Back to maths__
 
 But wait, why is it that he found the 12 notes so neatly arranged? I mean finding just 12 harmonic notes is nice enough, but why the neat arrangement?
 
-Previously we found that, approx. $$3^{12}\approx 2^{19}$$. So that $$\log_2(3^{12})\approx19$$, so that $$\log_2(3)=19/12$$. In logscale dividing by two is substracting $$1$$, so we can substract $$1$$ to this. Before I said, Pythagoras doubled the length of the string enough times to fit it between lengths 1 and 2. In logscale that's like substracting 1s until it is between 0 and 1. This is the [[modulo|Modular arithmetic]] 1 operation! So the lengths of strings he is finding are $$k*log_2(3) \text{ mod } 1 \approx k\cdot19/12 \text{ mod }1 = k\cdot7/12\text{ mod }1$$ approx. This is the same as asking what happens as you increase a $$12$$ hour clock by $$7$$h at a time! Well, as $$7$$ and $$12$$ are coprime. You can only come back to where you started after adding $$7$$h $$12$$ times, so that you must visit $$12$$ different points. As you are only adding integer number of hours, you can only visit integer number of hours, so that you *must* visit every hour mark in the clock! Just like the clock, in Pythagora's process of tripling the frequency (thirding the length of string) and halving if necessary, he visited every $$1/12$$th point in between the two end strings, thus ''having them equally spaced!'' (this is the [[Group orbit]] in the [[Quotient group]] $$\mathbb{Z}/n\mathbb{Z}$$)
+Previously we found that, $$3^{12}\approx 2^{19}$$. So that $$\log_2(3^{12})\approx19$$, so that $$\log_2(3)\approx 19/12$$. In logscale dividing by two is substracting $$1$$, so we can substract $$1$$ to this. Before I said, Pythagoras doubled the length of the string enough times to fit it between lengths 1 and 2. In logscale that's like substracting 1s until it is between 0 and 1. This is the [[modulo|Modular arithmetic]] 1 operation! So the lengths of strings he is finding are $$k\cdot log_2(3) \text{ mod } 1 \approx k\cdot19/12 \text{ mod }1 = k\cdot7/12\text{ mod }1$$. This is the same as asking what happens as you increase a $$12$$ hour clock by $$7$$h at a time! Well, as $$7$$ and $$12$$ are coprime (so that their [[Minimum common multiple]] is their product), you can only come back to where you started after adding $$7$$h $$12$$ times, so that you must visit $$12$$ different points. As you are only adding integer numbers of hours, you can only visit integer numbers of hours, so that you *must* visit every hour mark in the clock! Just like the clock, in Pythagora's process of tripling the frequency (thirding the length of string) and halving if necessary, he visited every $$1/12$$th point in between the two end strings, thus ''having them equally spaced!'' (this is the [[Group orbit]] in the [[Quotient group]] $$\mathbb{Z}/n\mathbb{Z}$$)
 
 __Pythagorean comma__
 
 Let us assume for a moment that $$3^{12} = 2^{19}$$ exactly (which can't be true as 3 and 2 are prime). Then he would have found the strings spaced out at precisely equal intervals. Every string and the next having lengths with equal ratios. Then, if the base string and the 7th string had a nice harmonic ratio of 1:3. Then the 2nd and the 8th had the same ratio, and so on. Chords and arpeggios would be perfectly harmonic no matter where you started.
 
-But this isn't the case. The Pythagorean tuning doesn't have perfect spacing. You can enforce perfect spacing, a system known as equal temperement, used almost universally in music today. But then the harmonic ratios between notes that Pythagoras found are not perfect any more. But are close enough, and basically allows chords to be more consistent (consistently imperfect) across base notes.
+But this isn't the case. The Pythagorean tuning doesn't have perfect spacing. You can enforce perfect spacing, a system known as [[Equal temperement]], used almost universally in music today. But then the harmonic ratios between notes that Pythagoras found are not perfect any more. But are close enough, and basically allows chords to be more consistent (consistently imperfect) across base notes.
 
-But ultimately the reason we have 12 notes comes from the Pythagorean tuning process. Having, say 11 or 13 notes equally spaced in an octave would be far enough from the harmonic Pythagorean tuning that it would be jarring to the ears. Adding more notes via the Pythagorean process would not keep them equally spaced, until one added too many to be useful ( https://www.youtube.com/watch?v=IT9CPoe5LnM )
+But ultimately the reason we have 12 notes comes from the Pythagorean tuning process. Having, say 11 or 13 notes equally spaced in an octave would be far enough from the harmonic Pythagorean tuning that it would be jarring to the ears. Adding more notes via the Pythagorean process would not keep them equally spaced (which is arguably quite useful for making music), until one added too many to be useful ( https://www.youtube.com/watch?v=IT9CPoe5LnM )
 
-So we have 12 notes because math is almost nice enough that {3^12 = 2^19, where 12 and 19 are coprime}. That approximate mathematical fact makes Pythagorean tuning almost "perfect" :)
+So we have 12 notes because math is almost nice enough that {3^12 = 2^19, where 12 and 19 are coprime}. That approximate mathematical fact makes Pythagorean tuning with 12 notes almost "perfect" :)
 
 [[Video demonstration|https://www.youtube.com/watch?v=6NlI4No3s0M]] with [[Lissajous curve]]s
 
 __Why we have 8 notes?__
 
-Well we have 12 notes in the chromatic scale. But why do we have 8 notes in the "main" scale, namely the [[Major scale]]. I haven't given this enough thought yet. But I think, basically, it stats from questioning: what is so special about powers of 3 anyway? Isn't it more interesting (rather, doesn't it sound better, a question that requires understanding of the biology of hearing) to have nice simple fractions as ratios between the strings/notes?
+Well we have 12 notes in the chromatic scale. But why do we have 8 notes in the "main" scale, namely the [[Major scale]]. I haven't given this enough thought yet. But I think, basically, it stats from questioning: what is so special about powers of 3 anyway? Isn't it more interesting (rather, doesn't it sound better, a question that requires understanding of the biology of [[Hearing]]) to have nice simple fractions as ratios between the strings/notes?
 Well start enumerating simple fractions: 1,1/2,1/3,2/3,1/4,3/4,1/5,2/5,3/5,4/5. Add these to the length of the string. You get nice sounding notes, but some of them are relative close together, and others are rather far apart. We would like something that had notes more equally spaced, but consisted of simpler ratios. So I think the major scale is a compromise, where we take the notes in the chromatic scale, but choosing the ones which are closer to simple ratios. We add the 2nd and 7th note even though their ratio is not quite so simple, simply to "fill" out the scale, and have an evenly spaced scale.
 
 ----------------
