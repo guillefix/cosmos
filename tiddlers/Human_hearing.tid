@@ -1,13 +1,13 @@
 created: 20160206225701981
 creator: guillefix
-modified: 20181206040212821
+modified: 20181206043949816
 modifier: cosmos
 tags: [[Human physiology]]
 title: Human hearing
 tmap.id: 8fdaa2fe-ab45-4af5-a56f-47fabd621499
 type: text/vnd.tiddlywiki
 
-[[Intro video|https://www.youtube.com/watch?v=GGqfRvCkt-w]]
+[[Intro video|https://www.youtube.com/watch?v=GGqfRvCkt-w]]. <small>The hexagonal cells shown to vibrate and excite hair cells in the video are the [[Reticular lamina]] (aka membrana reticularis) from the [[Organ of Colti]]</small>
 
 http://www.open.edu/openlearn/science-maths-technology/science/biology/hearing/content-section-3.3
 
@@ -34,6 +34,16 @@ https://en.wikipedia.org/wiki/Music_psychology#Neural_correlates_of_musical_trai
 https://en.wikipedia.org/wiki/Psychoacoustics#Music
 
 [[Music and measure theory|https://www.youtube.com/watch?v=cyW5z-M2yzw]] The reason it works so well to have twelve notes in the chromatic scale is that powers of the twelveth root of two tend to be within a 1% margin of error of simple rational numbers. And it's good to have powers of the same factor for the notes, because the brain perceives separation between frequencies logarithmically not linearly.
+
+!!!__[[Basilar membrane]] and [[Organ of Colti]]__
+
+[img[distribution_of_frequencies_cochlea_basilar_membrane.jpg]]
+
+Travelling waves propagate through the choclea, causing [[Resonance]] of different spatial locations of the basilar membrane (tonotopy), which excited the [[Hair cell]]s, which send a signal via the [[Cochlear nerve]].
+
+The spatial location of excitation by different frequencies has been described via the empirical relation known as [[Greewood function|https://www.wikiwand.com/en/Greenwood_function]]
+
+------------
 
 !!!__[[Psychoacustics]]__
 
