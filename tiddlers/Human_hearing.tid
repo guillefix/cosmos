@@ -1,6 +1,6 @@
 created: 20160206225701981
 creator: guillefix
-modified: 20181206043949816
+modified: 20181206045958820
 modifier: cosmos
 tags: [[Human physiology]]
 title: Human hearing
@@ -39,9 +39,15 @@ https://en.wikipedia.org/wiki/Psychoacoustics#Music
 
 [img[distribution_of_frequencies_cochlea_basilar_membrane.jpg]]
 
-Travelling waves propagate through the choclea, causing [[Resonance]] of different spatial locations of the basilar membrane (tonotopy), which excited the [[Hair cell]]s, which send a signal via the [[Cochlear nerve]].
+Travelling waves propagate through the [[Cochlea]], causing [[Resonance]] of different spatial locations of the basilar membrane (tonotopy), which excited the [[Hair cell]]s, which send a signal via the [[Cochlear nerve]].
 
 The spatial location of excitation by different frequencies has been described via the empirical relation known as [[Greewood function|https://www.wikiwand.com/en/Greenwood_function]]
+
+The function of the organ of Corti is to transduce auditory signals and minimise the hair cells’ extraction of sound energy.[2] It is the auricle and middle ear that act as mechanical transformers and amplifiers so that the sound waves end up with amplitudes 22 times greater than when they entered the ear. Energy is conserved, so what we are basically doing is concentrating the energy of a large (in spatial extent) wave entering the ear, into a small space inside the cochlea, in an energy-efficient way. This concentration means that the amplitude of the [[Pressure wave]] is significanlty higher.
+
+<small> the stimulation can happen also via direct vibration of the cochlea from the skull. The latter is referred to as Bone Conduction (or BC) hearing, as complementary to the first one described, which is instead called Air Conduction (or AC) hearing. Both AC and BC stimulate the basilar membrane in the same way (Békésy, G.v., Experiments in Hearing. 1960).</small>
+
+There is also amplification within the [[Organ of Colti]]. The outer hair cells (OHCs) can amplify the signal through a process called electromotility where they increase movement of the basilar and tectorial membranes and therefore increase deflection of stereocilia in the inner hair cells (IHCs) (see [[here|https://www.wikiwand.com/en/Organ_of_Corti#/Cochlear_amplification]]).  I guess it "focuses" the signal even more to the inner hair cells, to increases sensitivity. __Do they alter/modulate the signal in some way?__
 
 ------------
 
