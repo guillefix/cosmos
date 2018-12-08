@@ -1,6 +1,6 @@
 created: 20181202044208987
 creator: cosmos
-modified: 20181204211550874
+modified: 20181207182121125
 modifier: cosmos
 tags: [[Music theory]]
 title: Why are there twelve notes?
@@ -30,7 +30,7 @@ But this isn't the case. The Pythagorean tuning doesn't have perfect spacing. Yo
 
 But ultimately the reason we have 12 notes comes from the Pythagorean tuning process. Having, say 11 or 13 notes equally spaced in an octave would be far enough from the harmonic Pythagorean tuning that it would be jarring to the ears. Adding more notes via the Pythagorean process would not keep them equally spaced (which is arguably quite useful for making music), until one added too many to be useful ( https://www.youtube.com/watch?v=IT9CPoe5LnM )
 
-So we have 12 notes because math is almost nice enough that {3^12 = 2^19, where 12 and 19 are coprime}. That approximate mathematical fact makes Pythagorean tuning with 12 notes almost "perfect" :)
+So we have 12 notes because math is almost nice enough that {$$3^{12} \approx 2^{19}$$, where $$12$$ and $$19$$ are coprime}. That approximate mathematical fact makes Pythagorean tuning with 12 notes almost "perfect" :)
 
 [[Video demonstration|https://www.youtube.com/watch?v=6NlI4No3s0M]] with [[Lissajous curve]]s
 

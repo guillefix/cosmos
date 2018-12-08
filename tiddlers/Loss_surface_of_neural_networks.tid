@@ -1,6 +1,6 @@
 created: 20181108195032667
 creator: cosmos
-modified: 20181204000240492
+modified: 20181207223517237
 modifier: cosmos
 tags: [[Deep learning theory]] [[Loss surface]]
 title: Loss surface of neural networks
@@ -17,7 +17,7 @@ type: text/vnd.tiddlywiki
 
 [[Loss surface of neural networks video|https://www.youtube.com/watch?v=78vq6kgsTa8&index=18&list=PLHyI3Fbmv0SdM0zXj31HWjG9t9Q0v2xYN]]
 
-[[Topology and Geometry of Half-Rectified Network Optimization|https://arxiv.org/abs/1611.01540]] -- [[EMPIRICAL ANALYSIS OF THE HESSIAN OF OVERPARAMETRIZED NEURAL NETWORKS|https://arxiv.org/pdf/1706.04454.pdf]] (''most directions are nearly flat'')
+[[Topology and Geometry of Half-Rectified Network Optimization|https://arxiv.org/abs/1611.01540]] -- [[EMPIRICAL ANALYSIS OF THE HESSIAN OF OVERPARAMETRIZED NEURAL NETWORKS|https://arxiv.org/pdf/1706.04454.pdf]] (''most directions are nearly flat'') [[in bigger nets|https://arxiv.org/abs/1811.07062]]
 
 <small> the observations in Keskar et al. [2016], in that, it appears that the LB solution and SB solutions are separated by a barrier, and that the latter of which generalizes better. Moreover, the line interpolations extending away from either end points appear to be confirming the sharpness of LB solution.</small> However, we find the line interpolation connecting the end points of Part I and Part II turns out to not contain any barriers (Figure 8). This suggests that ''while the small and large batch method converge to different solutions, these solutions have been in the same basin all along''. This raises the striking possibility that that other seemingly different solutions may be similarly connected by a flat region to form a larger basin.
 

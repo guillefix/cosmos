@@ -1,6 +1,6 @@
 created: 20171023143453623
 creator: cosmos
-modified: 20181204181411945
+modified: 20181207221414607
 modifier: cosmos
 tags: [[Generative supervised learning]] [[Probabilistic model]]
 title: Gaussian process
@@ -84,3 +84,11 @@ One approach is to partition the data set into separate groups [e.g. Snelsonand 
 In [[this paper|https://arxiv.org/pdf/1309.6835.pdf]], they then introduced [[Variational inference for Gaussian processes]].
 
 [[Sparse On-Line Gaussian Processes|http://publications.aston.ac.uk/1305/1/NCRG_2001_014.pdf]]
+
+----------------
+
+!!__Theory of Gaussian processess__
+
+__Gaussian processes where training data cover the whole input space__ (non trivial because the y values are still random samples according to likelihood, and our task is to esimate the latent $$f$$ (which we can use to estimate future $$y$$))
+
+[[paper|https://link.springer.com/content/pdf/10.1007%2F978-3-642-38886-6_17.pdf]]
