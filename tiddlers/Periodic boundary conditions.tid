@@ -1,0 +1,19 @@
+created: 20181208133628151
+creator: cosmos
+modified: 20181208134217194
+modifier: cosmos
+tags: [[Functional analysis]]
+title: Periodic boundary conditions
+type: text/vnd.tiddlywiki
+
+A trick to estimate the eigenvalues of operators whose kernel is only localized in a region small compared to the size of the input domain. Intuitively, if interactions are only local, then whether the boundaries are periodic or if the domain truly terminates there, doesn't affect the answer much.
+
+However, assuming periodicity of the functions allows for easier calculation of eigenvalues and eigenfunctions. If the kernel is translationally invariant assuming it is periodic and defined over the whole real line, rather than just defined on a finite domain, makes it diagnoalizable in the Fourier basis, and its eigenvalues be just its Fourier coefficients! If the periodic boundary condition is a good approximation (the case if the intuitive conditions of locality above are met), then this is a good approximation to the true eigenvalues and eigenfunctions!
+
+Note that e^iqx is an eigenfunction because c(x,x') is a function of x-x' only (translationally invariant)
+but this is over the whole real line as domain
+for this to hold over the [0,1] domain, c(x,x') should be periodic with period 1 (in particular it should have the same integral across any interval of size one for which x is in [0,1]). But it isn't exactly. But if the length scale of c(x,x') is much smaller than 1, then the condition of the invariant integral above is quite close to be true, and we can approximate the relevant integral as the integral of C(0,x') over x' from $$-\infty$$ to $$\infty$$
+
+Used often in [[Quantum mechanics]]
+
+[[example of use|https://pdfs.semanticscholar.org/7294/862e59c8c3a65167260c0156427f4757c67e.pdf]]
