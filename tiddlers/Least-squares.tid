@@ -1,6 +1,6 @@
 created: 20160807231439544
 creator: cosmos
-modified: 20171203172327421
+modified: 20181210203045518
 modifier: cosmos
 tags: Optimization [[Kernel method]] [[Loss function]]
 title: Least-squares
@@ -12,4 +12,16 @@ type: text/vnd.tiddlywiki
 
 [img[http://i.imgur.com/42yTLLV.jpg]]
 
-This has applications in [[Linear regression]], and in [[GPS]]
+These are called the ''normal equations''. They have applications in [[Linear regression]], and in [[GPS]]
+
+------------------
+
+__Intuition for why normal equations correspond to projection__ (apart from being derived by minimizing distance to column space!)
+
+$$X^T X w = X^T Y$$.
+
+$$X^T Y $$ is the correlation of the outputs with each of the features (also, the [[Dot product]] of the output with each of the vector of features (where each element correspond to a point from the sample).
+
+The above equation says that $$X w$$ should be such that it has the same dot products with the features as $$Y$$ does. Now $$X w$$ lies in the column space of $$X$$ (which in the undetermined case has less dimensionality than the space in which Y lives), and every element in this space is uniquely determined by its dot product with the basis given by the columns of $$X$$ (assume linear independent columns, full rank). Furthermore, projecting $$Y$$ into the column space doesn't change its dot products with the columns (decompose $$Y$$ into perpendicular and parallel component to the column space to see this; perp part has zero dot product with columns). Therefore this is finding $$X w$$ that is equal to the projection of $$Y$$ on column space, as we expect from the definition of the least squares problem!
+
+When we then take the inverse of the [[Covariance matrix]] $$X^T X$$, we are giving more weights to eigendirections of the Cov matrix with little variance, and less weight to directions with large variance, for fixed correlation with $$Y$$. This is because if there is smaller variance in some direction but changes in this direction cause equally big changes in the output, then the weight for this direction must be large (so that small changes in input cause large changes in output)
