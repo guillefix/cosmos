@@ -1,0 +1,55 @@
+created: 20181216015628348
+creator: cosmos
+modified: 20181216023906963
+modifier: cosmos
+tags: Biopsy
+title: Liquid biopsy
+type: text/vnd.tiddlywiki
+
+
+
+!!__CancerSEEK__
+
+[[Detection and localization of surgically resectable cancers with a multi-analyte blood test|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6080308/]]
+
+__Objectives__
+
+In a [[Medical test]], we want to ''maximize'' ''sensitivity'' (op. of [[False negative]]s) and ''specificity'' (op. of [[False positive]]s)
+
+__Procedure__
+
+# ''circulating tumor DNA (ctDNA) multiplex-[[PCR]]''. 61 amplicons... 1933 distinct genomic positions
+## First, the test must query a sufficient number of bases to allow detection of a large number of cancers.
+## Second, each base queried in the test must be sequenced thousands of times to detect low-prevalence mutations (11, 19, 21, 22).
+## Third, there must be a limit on the number of bases queried in the test because the more bases queried, the more likely that artifactual mutations would be identified, reducing the signal-to-noise ratio. 
+## And fourth, for implementation in a screening setting, the test must be cost effective and amenable to high throughput, factors that limit the amount of sequencing that can be performed.
+# ''protein biomarkers [[Immunoassay]]'' ,,(this was because initial studies demonstrated that the maximum sensitivity of plasma DNA-based tests—liquid biopsies—was limited for localized cancers (11)),,. 39 proteins considered, of which they only used 8 for cancerSEEK
+
+<small>
+We searched for the minimum number of short [[Amplicon]]s that would allow us to detect at least one driver gene mutation in each of the eight tumor types evaluated.  Once this plateau was reached, raising the number of amplicons would not increase sensitivity substantially but would decrease specificity (increase the probability of false-positive results). For instance that could happen if some mutations happen simultaneously when on cancer, but they may occur separately on non-cancer patients, so that by including both as indicators of cancer, we don't increase probability of detecting cancer when it's there, but we do increase probability of false positives.
+</small>
+
+Note that as far as the discussion of __which [[Biomarker]]s to use__, they seem to consider the diagnostic function consisting of: "if any of the markers is present, predict cancer", at least for the discussion about which markers they chose. I think they trained a ML model later, which can take into account more complicated dependencies. But why not take these dependencies into account when choosing the markers?
+
+__Experiment__
+
+We used CancerSEEK to study ''1005 patients who had been diagnosed with stage I to III cancers'' of the ovary, liver, stomach, pancreas, esophagus, colorectum, lung, or breast. The ''healthy control'' cohort consisted of ''812 individuals'' of median age 55 (range 17 to 88) with no known history of cancer, high-grade dysplasia, auto-immune disease, or chronic kidney disease.
+
+__[[Statistical|Statistics]] method__
+
+The presence of a mutation in an assayed gene or an elevation in the level of any of these proteins would classify a patient as positive. It was therefore imperative to use rigorous statistical methods to ensure the accuracy of the test. We used log ratios to evaluate mutations and incorporated them into a [[Logistic regression]] algorithm that took into account both mutation data and protein biomarker levels to score CancerSEEK test results (supplementary materials). 
+
+The mean sensitivities and specificities were determined by 10 iterations of 10-fold [[Cross-validation]]s. The receiver operating characteristic (ROC) curves for the entire cohort of cancer patients and controls in one representative iteration is shown in Fig. 2A.
+
+What's log ratios? Ah log [[Likelihood]] ratio. Then the ROC curve is probably obtained by sweeping the threshold to consider the ratio as indicative of the marker being "detected" or "undetected" <mark>Check this </mark>
+
+The median sensitivity of CancerSEEK among the eight cancer types evaluated was 70% (P < 10−96 one-sided binomial test) and ranged from 98% in ovarian cancers to 33% in breast cancers (Fig. 2C). At this sensitivity, the specificity was >99%
+
+<mark>Is the binomial test technically justified if the predictor has been obtained from the data?</mark> I mean just use cross-validation..., hmm (,,or [[PAC-Bayes]]... maybe,,)
+
+The importance ranking of the ctDNA and protein features used in CancerSEEK are provided in table S9, and a [[Principal component analysis]] displaying the clustering of individuals with and without cancer is shown in fig. S3.
+
+-----------
+
+GRAIL
+
