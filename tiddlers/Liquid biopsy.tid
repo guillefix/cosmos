@@ -1,12 +1,10 @@
 created: 20181216015628348
 creator: cosmos
-modified: 20181216023906963
+modified: 20181216144447804
 modifier: cosmos
 tags: Biopsy
 title: Liquid biopsy
 type: text/vnd.tiddlywiki
-
-
 
 !!__CancerSEEK__
 
@@ -37,11 +35,11 @@ We used CancerSEEK to study ''1005 patients who had been diagnosed with stage I 
 
 __[[Statistical|Statistics]] method__
 
-The presence of a mutation in an assayed gene or an elevation in the level of any of these proteins would classify a patient as positive. It was therefore imperative to use rigorous statistical methods to ensure the accuracy of the test. We used log ratios to evaluate mutations and incorporated them into a [[Logistic regression]] algorithm that took into account both mutation data and protein biomarker levels to score CancerSEEK test results (supplementary materials). 
+''[[Binary classification]] (detecting whether cancer is present or not)''. The presence of a mutation in an assayed gene or an elevation in the level of any of these proteins would classify a patient as positive. It was therefore imperative to use rigorous statistical methods to ensure the accuracy of the test. We used log ratios to evaluate mutations and incorporated them into a [[Logistic regression]] algorithm that took into account both mutation data and protein biomarker levels to score CancerSEEK test results (supplementary materials). 
 
 The mean sensitivities and specificities were determined by 10 iterations of 10-fold [[Cross-validation]]s. The receiver operating characteristic (ROC) curves for the entire cohort of cancer patients and controls in one representative iteration is shown in Fig. 2A.
 
-What's log ratios? Ah log [[Likelihood]] ratio. Then the ROC curve is probably obtained by sweeping the threshold to consider the ratio as indicative of the marker being "detected" or "undetected" <mark>Check this </mark>
+What's log ratios? Ah log [[Likelihood]] ratio. Then the ROC curve is probably obtained by sweeping the threshold to consider the ratio as indicative of the marker being "detected" or "undetected" <mark>Actually not quite </mark>:  Log ratios and omega scores. For each mutation, the log ratio of these two p-values (which are just cumulative distributions), p C / pN was then calculated, and the minimum and maximum of these log ratios across the six wells were eliminated so that the results would be less sensitive to outliers. We considered the log ratio of the p-values rather than the standard log-likelihood ratio because the relatively low number of data points available did not allow a robust estimation of the densities of the MAF distributions (particularly for p C ).
 
 The median sensitivity of CancerSEEK among the eight cancer types evaluated was 70% (P < 10−96 one-sided binomial test) and ranged from 98% in ovarian cancers to 33% in breast cancers (Fig. 2C). At this sensitivity, the specificity was >99%
 
@@ -49,7 +47,16 @@ The median sensitivity of CancerSEEK among the eight cancer types evaluated was 
 
 The importance ranking of the ctDNA and protein features used in CancerSEEK are provided in table S9, and a [[Principal component analysis]] displaying the clustering of individuals with and without cancer is shown in fig. S3.
 
+MAF normalization. All mutations that did not have >1 [[Supermutant]] in at least one well were excluded from the analysis. <mark>?</mark>
+
+The cancer training set included only those in which the same mutation was present in the plasma and in the corresponding primary tumor, with an MAF > 5% in the tumor. <mark>??</mark>
+
+''[[Multiclass classificaiton]] (detecting //which// cancer is present)''. Given that driver gene mutations are usually not tissue-specific, the vast majority of the localization information was derived from protein markers.
+
+Other cancer biomarkers—such as metabolites, mRNA transcripts, miRNAs, or methylated DNA sequences—could be similarly combined to increase sensitivity and localization of cancer site. 
+
+MAF: mutant allele frequency
+
 -----------
 
 GRAIL
-
