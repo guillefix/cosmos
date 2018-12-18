@@ -1,6 +1,6 @@
 created: 20161014133547080
 creator: cosmos
-modified: 20161104134331791
+modified: 20181218020931413
 modifier: cosmos
 tags: [[Experimental molecular biology]]
 title: Polymerase chain reaction
@@ -40,6 +40,8 @@ Plateau: No more product accumulates due to exhaustion of reagents and enzyme.
 [[Real-time PCR]]. Because PCR doesn't just follow a simple geometrical growth, because of dNTPs and primer depletion, it is impossible to accurately measure the initial concentration from the final concentration (end-point PCR). It can be estimated, but not accurately. For accurate measurements, we need to keep track of the growth in DNA concentration during the PCR process, to be able to extrapolate to the inital concentration accurately. This is what real-time or quantitative PCR achieves.
 
 [[Real-time RT PCR]]
+
+[[Multiplex PCR]]
 
 !!__Applications__
 
