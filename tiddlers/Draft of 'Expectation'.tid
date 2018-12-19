@@ -1,0 +1,16 @@
+created: 20181218205846077
+creator: cosmos
+draft.of: Expectation
+draft.title: Expectation
+modified: 20181218210239905
+modifier: cosmos
+title: Draft of 'Expectation'
+type: text/vnd.tiddlywiki
+
+The ''expectation'' of [[Random variable]] $$X$$ under distribution $$\mathbb{P}$$ is defined as
+
+$$\mathbf{E}[X] = \sum\limits_x x\mathbb{P}[X=x]$$
+
+If the random variable $$X$$ is a function of other random variables $$z_1,...,z_n$$, and these have [[Joint distribution]] $$\mathcal{D}$$, then we sometimes specify this in the subscript of the big $$\mathbf{E}$$, 
+
+$$\mathbf{E}_{z_1,...,z_n \sim \mathcal{D}}\left[X\right] = \sum\limits_{z_1,...,z_n} X(z_1,...,z_n)\mathcal{D}(z_1,...,z_n)$$

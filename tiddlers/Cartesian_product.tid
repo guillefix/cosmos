@@ -1,13 +1,14 @@
 created: 20160707163929482
 creator: guillefix
-modified: 20161104134327279
-modifier: guillefix
+modified: 20181218211811900
+modifier: cosmos
 title: Cartesian product
 tmap.id: 11a3916f-fed1-4898-9149-ac82bd77f586
 type: text/vnd.tiddlywiki
 
 An [[operation|Operation (Mathematics)]] between [[Set]]s that gives a new set composed of [[Tuple]]s of elements from the original sets.
 
+For instance $$A \times B$$ is the set of all pairs of elements, one from $$A$$ and one from $$B$$. $$A \times B \times C$$ is the set of all triplets of elements, one from $$A$$, the second from $$B$$, and the third from $$C$$. And so on.
 
 ----------------------
 

@@ -1,12 +1,15 @@
 created: 20160707163447085
 creator: guillefix
-modified: 20161104134328473
-modifier: guillefix
+modified: 20181218211621541
+modifier: cosmos
 title: Function
 tmap.id: 65689285-bb07-48fb-82b1-525586cb94e5
 type: text/vnd.tiddlywiki
 
-A type of [[Relation]] between two [[Set]]s, such that for each element belonging to the set called ''domain'', there is a unique element belonging to the set called ''co-domain''.
+A type of [[Relation]] between two [[Set]]s, such that for each element $$x$$  belonging to the set called ''domain'' (aka input set), there is a unique element 
+ $$y$$ belonging to the set called ''co-domain'' (aka output set, or range). We denote this notationally as $$x \mapsto y$$. We typically accompany this notation, with a notation declaring what are the domain and co-domain of the function. We denote that the function $$f$$ is between the domain $$\mathcal{X}$$ and the co-domain $$\mathcal{Y}$$ by:
+
+$$f: \mathcal{X} \to \mathcal{Y}$$
 
 !!__Types of function__
 

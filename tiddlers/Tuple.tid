@@ -1,12 +1,14 @@
 created: 20160707164751287
 creator: guillefix
-modified: 20161104134332961
-modifier: guillefix
+modified: 20181218212042404
+modifier: cosmos
 tags: [[Set theory]] [[Data structure]]
 title: Tuple
 tmap.id: 38ac96e9-011b-4189-821c-550b3e027a91
 type: text/vnd.tiddlywiki
 
-An ordered collection of objects.
+An ordered collection of objects
 
-Tuples are found, for instance, as elements of a [[Cartesian product]]
+"ordered" means, that the way the objects are listed "matters"; that is, two tuples which have the same objects, but in a different order, are different tuples. This is unlike [[Set]]s, which are simply a collection of objects, with no order attached to them. 
+
+Tuples are found, for instance, as elements of a [[Cartesian product]]. They are also a common [[Type]] in [[Programming language]]s (which is quite similar to the familiar type [[List]] or [[Array]]).

@@ -1,6 +1,6 @@
 created: 20160303224225485
 creator: guillefix
-modified: 20180630210448678
+modified: 20181219005615362
 modifier: cosmos
 tags: Self-organization [[Biodiversity & evolution]]
 title: Evolution
@@ -12,6 +12,8 @@ type: text/vnd.tiddlywiki
 Dawkins idea of replicators (see [[his article|http://www.stephenjaygould.org/library/dawkins_replicators.html]]) of course fits well, because replicators are just self-sustaining structures. See also [[Units of evolution: A metaphysical essay|http://philpapers.org/rec/HULUOE]] and [[this|http://innovation.ucdavis.edu/people/publications/22 Griesemer 2000 Selection-1.1-67-80.pdf]], and [[The Elementary Units of Heredity|https://books.google.es/books/about/The_Elementary_Units_of_Heredity.html?id=LQDjcQAACAAJ&redir_esc=y]] cited in his article)
 
 See [[MMathPhys oral presentation]],  [[Evolutionary computing]], [[Genetics]]
+
+<small>Very nice explanation of a simple evolution simulator! https://www.youtube.com/watch?v=GOFws_hhZs8&app=desktop</small>
 
 __Ingredients for evolution__
 

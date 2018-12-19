@@ -1,6 +1,6 @@
 created: 20160327021039036
 creator: guillefix
-modified: 20171129131649578
+modified: 20181218203911037
 modifier: cosmos
 tags: [[Machine learning]]
 title: Supervised learning
@@ -15,6 +15,8 @@ Training data consisting on ''inputs and outputs''.
 <small>Other names for inputs: predictors, independent variables, features, attributes, covariates. Other names for outputs: responses, response variables, dependent variables.</small>
 
 In supervised learning, we want to find function relating inputs to outputs, to then be able to predict new outputs from new inputs. Often, we need ''a way to represent the function approximation'', with some parameters (the ''model''; with some subtleties for [[non-parametric|Nonparametric statistics]] ones) and a ''learning algorithm'' to find best parameters for the data, so that the model can predict well. 
+
+<mark>See [[Introduction to supervised learning theory]] for a formal and precise introduction to supervised learning</mark>
 
 -- See [[Learning theory]], to learn about the way learning algorithms work, overfitting, underfitting, generalization  ''model selection'', etc.. 
 

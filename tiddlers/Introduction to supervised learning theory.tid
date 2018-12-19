@@ -1,0 +1,139 @@
+created: 20181218203938301
+creator: cosmos
+modified: 20181219000510005
+modifier: cosmos
+tags: [[Supervised learning]] [[Learning theory]]
+title: Introduction to supervised learning theory
+type: text/vnd.tiddlywiki
+
+<style>.custom-style-intro-to-supervised-learning-theory em {
+color: magenta;
+}
+</style>
+
+<div class="custom-style-intro-to-supervised-learning-theory">
+
+In [[Supervised learning]], we want to convert a set of example "input-output" pairs, into a procedure for predicting the outputs for new inputs (see [[Supervised learning]] for examples).
+
+::<small>~Get ready for a deluge of //jargon//~</small>
+
+''Input and output sets''. To be precise we define two [[Set]]s, the //domain// (or //input space//, or set of instances) $$\mathcal{X}$$, and the //range// (or //output space//, or //co-domain//; or set of labels, or classes, if the space is finite) $$\mathcal{Y}$$.
+
+!!!__Informal intro to the supervised learning problem <small>(plus some definitions)</small>__
+
+What we are given in an instatiation of a supervised learning problem is a //training set// <small>(which is actually a [[Tuple]])</small> $$S= ((x_1,y_1),...,(x_m,y_m))$$, consisting of $$m$$ pairs $$(x_i,y_i)$$, $$i=1,...,m$$, where for each $$i$$, $$x_i \in \mathcal{X}$$ and $$y_i \in \mathcal{Y}$$. <small>($$\in$$ means "belongs to the set")</small> These pairs are called //examples// <small>(or sometimes //example pairs//)</small>
+
+What we want in a supervised learning problem is to find a procedure for converting a training set $$S$$ into a //predictor// $$f: \mathcal{X} \to \mathcal{Y}$$ (a [[Function]] from the input space to the output space), which is "good". A good predictor has guarantees about its generalization on new examples, which we'll explain below <small>(on the section "The metric for assessing quality of predictors")</small>.
+
+!!!__The assumption of the data distribution__
+
+The point now is that to have any hope of //predicting//, we need to assume that new example pairs $$(x,y)$$, that we use to assess the quality of the predictor, are somehow related in a similar way to the examples in the training set, at least with high probability. The standard way to ensure this is that ''examples in the training set and test set are identically and independently distributed'' (if one considers examples which are more generally distributed, one has to start looking at [[Reinforcement learning]]). So for supervised learning we assume
+
+> $$(x_i,y_i) \sim \mathcal{D}$$ [[i.i.d.]] for all $$i=1,...,m$$, for some //data distribution// $$\mathcal{D}$$ <small>($$\sim$$ means that the left hand side is a [[Random variable]], and the right hand side is the [[Probability distribution]] describing it)</small>. We have a notation for saying that the $$m$$ examples are drawn i.i.d. which is $$S=\{(x_1,y_1),...,(x_m,y_m)\} \sim \mathcal{D}^m$$. 
+
+We also assume that new examples on which we test a predictor (sometimes called the //test set//) are also statistically distributed according to the same distribution $$(x,y) \sim \mathcal{D}$$.
+
+!!!__The metric for assessing quality of predictors__
+
+We are now ready to define what we formally mean by a "good" predictor. To do this, we define a measure of how bad the predictor is, called the [[Loss function]]. The //loss function// is a function which maps example pairs and a predictor to a [[Real number]], 
+
+$$\begin{aligned}l : \mathcal{F} \times \mathcal{X} \times \mathcal {Y} &\to \mathbb{R}\\ f,x,y &\mapsto l(f,x,y)\end{aligned}$$
+
+where $$\mathcal{F}$$ is just the set of all possible predictors, which we are considering, called the //hypothesis space//. <small>(see [[Function]] for an explanation of this notation; $$A \times B$$ is the [[Cartesian product]] of $$A$$ and $$B$$)</small>
+
+The interpretation is that a large value $$l(f,x,y)$$ means that the predictor $$f$$ does badly at predicting the output $$y$$ for this particular input $$x$$.
+
+But we don't care about a particular input, so we average (take the [[Expectation]]) over the data distribution $$\mathcal{D}$$. This is called the //risk// (or //true risk//, or //generalization error//, or //true loss//, or sometimes even simply //error//), 
+
+$$L_\mathcal{D}(f): = \mathbf{E}_{(x,y) \sim \mathcal{D}} \left[l(f,x,y)\right]$$
+
+$$\mathbf{E}_{(x,y) \sim \mathcal{D}}$$ just means the [[Expectation]] under sampling examples. We are taking the expectation of the loss function for a fixed predictor, so that the true risk is a function of (depends on) both the data distribution $$\mathcal{D}$$ and the predictor $$f$$.
+
+!!!__Formal definition of learning algorithm $$\mathcal{A}$$__
+
+~~We can~~ <span style="color: Green ;">almost</span> ~~now finally define a learning problem~~. Well, first let us define one last thing. A //learning algorithm// $$\mathcal{A}$$ is defined as a function mapping training sets to predictors. Formally,
+
+$$\mathcal{A}: (\mathcal{X} \times \mathcal{Y})^* \to \mathcal{F}$$
+
+The $$^*$$ is the [[Kleene star]]: $$A^*$$ means the set of all finite [[Tuple]]s of elements of $$A$$. Here we use it to encode "the set of all training sets of any size" in a concise way.  Using this notation, the predictor which the learning algorithm produces, for a training set $$S$$ is denoted $$\mathcal{A}(S)$$.
+
+!!!__Formal definition of a supervised learning problem__
+
+We can now finally define a learning problem.
+
+> A //''supervised learning problem''// is: Given some properties of the data distribution $$\mathcal{D}$$, and a loss function $$l$$, find a learning algorithm $$\mathcal{A}$$, such that 
+>: it is highly probable that upon sampling a training set $$S$$, the predictor $$\mathcal{A}(S)$$ which the learning algorithm produces, has low risk $$L_\mathcal{D}(\mathcal{A}(S))$$.
+
+In pseudo-math, $$\text{Prob}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right)\text{ is low}\right]\text{ is high}$$. <small>or $$\text{Prob}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right)\text{ is high}\right]\text{ is low}$$. lol</small> (here $$\text{Prob}_{S\sim\mathcal{D}^m}$$ is the probability of obtaining a particular value of the thing in the brackets, when sampling $$S$$ according to its distribution $$\mathcal{D}$$).
+
+Being less pseudo... and more rigorous: we can define "$$L_{\mathcal{D}}\left (\mathcal{A}(S)\right)\text{ is low}$$" as "$$L_{\mathcal{D}}\left (\mathcal{A}(S)\right)\text{ is at most } \epsilon$$" for some $$\epsilon > 0$$; and "$$\text{Prob}[\text{blah}]\text{ is high}$$" as "$$\text{Prob}[\text{blah}]\text{ is at least }1 - \delta$$", for some $$\delta > 0$$.
+
+-- So we want to find a learning algorithm $$\mathcal{A}$$ such that $$\text{Prob}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right) \leq \epsilon \right] \geq 1-\delta$$, for any $$\epsilon$$ and $$\delta$$ within some range of interest.
+
+//Supervised learning theory// is all about what we can say about $$\text{Prob}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right)\right]$$ under different assumptions on $$\mathcal{D}$$, and $$\mathcal{A}$$, and $$l$$.
+
+Above, we talked about properties of $$\text{Prob}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right)\right]$$, corresponding to bounding the cumulative distribution (because of the $$\leq$$).
+However, the most information we can hope to get is the exact distribution $$\text{Prob}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right)\right]$$. With that, we can say, what's the probability that our learning algorithm performs <i>this</i> badly under <i>this</i> data distribution, which would be very useful!
+
+Another quantity which is useful, is the mean of this distribution, that is $$\mathcal{E}_\mathcal{D} (\mathcal{A}):= \mathbf{E}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right)\right]$$. We will call this, the //expected generalization error// (or //expected error//, or //expected risk//). This is now a single quantity that only depends on the data distribution and the algorithm. This is the quantity that we study when calculating [[Learning curve]]s. A related quantity comes about when we assume some probability distribution $$P$$ over data distributions <small>(making [[Bayes|Bayesian statistics]]ians happy)</small>. This is meant to imply the prior probability of obtaining a particular learning task (which correspond to a particular data distribution). Perhaps we believe that learning tasks which give all images of dogs the same label, are more likely that those that don't. Or perhaps, we believe that it's more likely that the data is composed of images of actual things, rather than images of random noise. All of these, and more abstract mathematical assumptions, can be encoded on the prior $$P$$. If we have such a prior, then we can average the expected error, to obtain the //average expected error// $$\hat{\mathcal{E}}_P(\mathcal{A}):= \mathbf{E}_{\mathcal{D}\sim P}\left[ \mathbf{E}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right)\right]\right]$$ (which we will sometimes refer to as //average error// for short, at the risk of confusing it with the expected error, defined above).
+
+!!!__Stochastic predictors and stochastic learning algorithms__
+
+We have assumed that a predictor is a function from input to output space, $$f: \mathcal{X} \to \mathcal{Y}$$. However, one can easily generalize all the discussion above to stochastic predictors, which are distributions over the output space, dependent on the input, $$f: \mathcal{X} \to \mathcal{P}(\mathcal{Y})$$, where I used $$\mathcal{P}(\mathcal{Y})$$ to just mean the "set of probability distributions over $$\mathcal{Y}$$". One can interpret this as the probability of a particular output given (or [[conditioned|Conditional probability]] on) an input $$P(y|x)$$. 
+
+In a precisely analogous way, we can generalize our concept of learning algorithm to include stochastic learning algorithms which given a training set $$S$$, produce a probability distribution over predictors $$Q(f|S)$$.
+
+From now on, any statement we make about predictors and learning algorithms will typically apply to their stochastic versions, unless we specify they have to be deterministic.
+
+!__Supervised learning theory__
+
+!!!__[[No free lunch theorem]]: Average error with "no assumptions" on data distribution $$\mathcal{D}$$__
+
+What if make no assumptions about $$\mathcal{D}$$? Well, we can't say much then. There are several [[No free lunch theorem]]s formalizing this.
+
+One of them, by Wolpert 1995, says:
+
+> ''No free lunch theorem'' The average expected error $$\hat{\mathcal{E}}_P(\mathcal{A})$$, when the prior over data distributions $$P$$ is uniform <small>(assuming a uniform distribution can be defined for the choice of input and output spaces)</small> is independent of the learning algorithm $$\mathcal{A}$$.
+
+In particular, this most often implies that any algorithm will perform badly in average. For instance, this theorem is typically applied in the context of classification, where the risk is defined to be the probability of missclassification. The theorem then implies that any algorithm will have an expected risk, in average, which is the same as the dumbest algorithm which is: "guess randomly", which predicts rather poorly (has probability of success of $$0.5$$ for binary classification, for instance).
+
+<small> Btw, there are no free lunch theorems for optimization too, which say that all optimization algorithms to equally bad in average</small>
+
+Fortunately, we often have some prior knowledge that constraints the data distributions we care about. But before, let us see if we can get some cheap snack, even if we can't get a free lunch
+
+: Aside: Note that we put "no assumptions" in quotes on the title. This hints at a subtle issue, related to frequentist vs Bayesian approaches to probability, that I should discuss some other day.
+
+!!__[[Agnostic learning]]: No assumptions on data distribution $$\mathcal{D}$$ <small>(but assumptions on learning algorithm $$\mathcal{A}$$)</small>__
+
+It turns out that even without making no assumptions on the data distribution, we can say many things. This is studied in [[Agnostic learning]]. In particular, it turns out that we can give a bound on the generalization error, which depends on the sample $$S$$ we obtain, and hold with high probability, at least $$1-\delta$$ for $$\delta>0$$. That is, for algorithm $$\mathcal{A}$$, we can find a function $$\epsilon_\mathcal{A}(S,\delta)$$ such that, for any distribution $$\mathcal{D}$$ whatsoever, 
+
+: $$\text{Prob}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right) \leq \epsilon_\mathcal{A}(S,\delta) \right] \geq 1-\delta$$
+
+and the awesome thing is that now $$\epsilon_\mathcal{A}(S,\delta)$$ actually does depend on the algorithm $$\mathcal{A}$$. What this means is that even though all algorithms perform the same on average, some algorithms will perform very well in a few tasks, and pretty bad on most tasks; while other algorithms, like random guessing, will perform equally bad in all tasks. It is quite useful to distinguish these two types of algorithms. And what the above expression says is that if we find $$\epsilon_\mathcal{A}(S,\delta)$$ for some non-trivial algorithm, we can see from the data we have $$S$$ whether this is (with high probability) one of the instances in which this algorithm performs well ($$\epsilon_\mathcal{A}(S,\delta)$$ low) or bad ($$\epsilon_\mathcal{A}(S,\delta)$$ high), which quite a useful thing to be able to do!
+
+As an illustrative example, one common function $$\epsilon_\mathcal{A}(S,\delta)$$ that people (in [[Statistics]]) are familiar with is [[Cross-validation]]! It offers a function of the data, the algorithm, and the confidence parameter ($$\delta$$), that allows us to be confident of whether our algorithm will generalize well or badly. Indeed cross-validation (CV) can be analyzed within this whole formalism! <small>(<mark>which is something I wanna look at actually!</mark>)</small>. On the other hand, the approach here is more general, and we will see examples of $$\epsilon_\mathcal{A}(S,\delta)$$ which are much easier to calculate than the cross-validation (for instance, only dependent on the training error, see below, and some simple properties of the learning algorithm, which are easier to design than the raw cross-validation score!). In some cases, the bounds on the error given by other methods may be better than those given by CV <small>(<mark>not sure about this; would be nice to check!</mark>)</small>
+
+:__Aside__: There is a curious subtlety, which is that if one tries to look instead a t a function $$\epsilon'_\mathcal{A}(S,\delta)$$ such that, for some distribution $$P$$ over $$\mathcal{D}$$s,
+
+:$$\text{Prob}_{\mathcal{D} \sim P, S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right) \leq \epsilon'_\mathcal{A}(S,\delta) | S \right] \geq 1-\delta $$
+
+:the function one obtains is very different, and depends on $$P$$. For $$P$$ uniform the bound one obtains is much worse (higher) than $$\epsilon_\mathcal{A}(S,\delta)$$. This gets at the heart between Bayesian and frequentist statistics, and really is for another day... To me [[Agnostic learning]] is one of the most successful examples of the frequentist approach, suggesting that the frequenstist approach is better at encoding the notion of "no assumption on variable blah".
+
+The function $$\epsilon_\mathcal{A}(S,\delta)$$ is almost always expanded in two terms
+
+$$\epsilon_\mathcal{A}(S,\delta) = \hat{\epsilon}_\mathcal{A}(S) + \frac{f(\mathcal{A}, S, \delta)}{m^\alpha}$$
+
+where $$1/2 \leq \alpha \leq 1$$, and the first term is the //empirical risk// (aka //empirical error//, //empirical loss//, //training error//, //training loss//) and is defined as:
+
+
+$$ \hat{\epsilon}_\mathcal{A}(S) := \sum\limits_{i=1}^m l(\mathcal{A}(S), x_i,y_i)$$
+
+The numerator of the second term $$f(\mathcal{A}, S, \delta)$$ could be any function of its arguments. As the denominator $$m^\alpha$$ is determined by $$S$$, it's technically redundant, but we typically put it there, because then $$f(\mathcal{A}, S, \delta)$$ has the interpretation of //capacity// (aka //sample complexity//). This is a measure of how many training points we need ($$m$$) to get a small second term. 
+
+If the second term is small, we are then saying that the generalization error is basically bounded by the training error. $$L_{\mathcal{D}}\left (\mathcal{A}(S)\right) \lesssim \hat{\epsilon}_\mathcal{A}(S)$$ ([[w.h.p.]]). So that, in this case, if we get a small training error, we then get a small generalization error!
+
+Algorithms for which, for any $$\delta$$, the capacity measure $$f(\mathcal{A}, S, \delta)$$ is bounded, are called //Agnostic PAC learners//. They are characterized by the fact that for any $$\delta$$ and for any $$\epsilon$$, we can get enough data ($$m$$ sufficiently high), such that the second term is smaller than $$\epsilon$$ (i.e. $$\epsilon_\mathcal{A}(S,\delta) - \hat{\epsilon}_\mathcal{A}(S) \leq \epsilon$$).
+
+!!!__
+
+</div>
