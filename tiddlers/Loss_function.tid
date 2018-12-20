@@ -1,6 +1,6 @@
 created: 20160916172144391
 creator: cosmos
-modified: 20171129131721998
+modified: 20181219153756460
 modifier: cosmos
 tags: [[Machine learning]]
 title: Loss function
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 //aka risk, cost, loss; or its opposite, utility, reward,... depending on the area or context//.
 
-A ''loss function'' refers to a [[Function]] that one wishes to [[minimize|Optimization]], in some [[decision theoretic|Decision theory]] framework, like in [[learning|Learning theory]], [[Operations research]], mathematical [[Ethics]], etc., [[Optimization]]
+A ''loss function'' refers to a [[Function]] that one wishes to [[minimize|Optimization]], in some [[decision theoretic|Decision theory]] framework, like in [[learning|Learning theory]], [[Operations research]], mathematical [[Ethics]], etc., [[Optimization]]. Its oppositve (negative) is the [[Utility]] function, which one wishes to maximize.
 
 [[Loss function for learning|https://www.youtube.com/watch?v=PpFTODTztsU&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH&index=8]]
 

@@ -1,0 +1,8 @@
+created: 20181219204028851
+creator: cosmos
+modified: 20181219204014057
+modifier: cosmos
+title: Minimax regret
+type: text/vnd.tiddlywiki
+
+ the minimax //excess risk// where the data distributions are not constrained

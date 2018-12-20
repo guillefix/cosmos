@@ -1,13 +1,15 @@
 created: 20181004162657213
 creator: cosmos
-modified: 20181004162726923
+modified: 20181219180140949
 modifier: cosmos
 tags: [[Learning theory]]
 title: Realizability assumption
 tmap.id: 66b02721-6395-49b7-9cc5-7be296f58f25
 type: text/vnd.tiddlywiki
 
-There exists h ∈ H (hypothesis in the [[Hypothesis class]]) s.t.
-L ( D , f ) (h ) = 0 (the [[Empirical error]] is zero. Note that this assumption implies that with probability 1 over ran-
+In general, this is the assumption that the set of predictors for an [[Estimator]] or [[Learning algorithm]] contains the [[Bayes estimator]]. 
+
+In the case of deterministic predictors, and zero [[Bayes risk]], this is equivalent to: There exists h ∈ H (hypothesis in the [[Hypothesis class]]) s.t.
+L ( D , f ) (h ) = 0 (the [[Empirical error]] is zero). Note that this assumption implies that with probability 1 over ran-
 dom samples, S, where the instances of S are sampled according to D and are labeled
 by f , we have L S (h ) = 0.

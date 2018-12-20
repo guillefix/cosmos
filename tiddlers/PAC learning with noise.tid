@@ -1,0 +1,13 @@
+created: 20181219180308011
+creator: cosmos
+modified: 20181219201420500
+modifier: cosmos
+tags: [[Probably approximately correct]]
+title: PAC learning with noise
+type: text/vnd.tiddlywiki
+
+See https://arxiv.org/pdf/math/0702683.pdf and http://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/18/
+
+Work of Tsybako and Massart
+
+http://papers.nips.cc/paper/5073-learning-with-noisy-labels.pdf -- The case where there is noise on the training data, but not on the test data!

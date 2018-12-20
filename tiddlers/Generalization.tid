@@ -1,6 +1,6 @@
 created: 20160918174304853
 creator: cosmos
-modified: 20181218200709278
+modified: 20181219192612010
 modifier: cosmos
 tags: [[Learning theory]]
 title: Generalization
@@ -12,6 +12,8 @@ See [[Learning theory]], [[Generalization error]], [[Learning curve]]
 __Generalization bound techniques__
 
 Basically, anything that restricts/controls the capacity. That is, gives an inductive bias!
+
+* [[Minimax risk]]
 
 * [[VC dimension]]
 

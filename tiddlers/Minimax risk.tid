@@ -1,0 +1,64 @@
+created: 20181219153928227
+creator: cosmos
+modified: 20181219204214406
+modifier: cosmos
+tags: Risk
+title: Minimax risk
+type: text/vnd.tiddlywiki
+
+The [[Risk]] for the estimator/learning algorithm that ''performs best in the worst case''. If $$R _ { \theta } ( \hat { \theta } )$$ is the [[Risk]] of estimator $$\hat{\theta}$$ under data distribution $$\theta$$, then the minimax risk is defined as:
+
+$$R ^ { * } = \inf _ { \hat { \theta } } \sup _ { \theta \in \Theta } R _ { \theta } ( \hat { \theta } )$$
+
+http://www.stat.yale.edu/~yw562/teaching/598/lec02.pdf#page=2
+
+Often, "minimax risk" refers to the case where the data distributions are constrained to those that contain the [[Bayes estimator]]. If we don't specify the set of data distributions $$\Theta$$, we will typically assume this. <small>We do this, because the other natural choice, no assumption on the data distribution leads to trivial minimax values of the risk (due to [[No free lunch theorem]])</small>
+
+__Minimax risk bounds__
+
+$$\begin{array} { l l } { \text { Minimax upper bound: } } & { \exists \hat { \theta } , \forall \theta , R _ { \theta } ( \hat { \theta } ) \leq r \Leftrightarrow R ^ { * } \leq r } \\ { \text { Minimax lower bound: } } & { \forall \hat { \theta } , \exists \theta , R _ { \theta } ( \hat { \theta } ) \geq r \Leftrightarrow R ^ { * } \geq r } \end{array}$$
+
+We can also obtain lower bounds from the [[Bayes risk]] for any prior. This is becaue {it follows from the [[Min-max inequality]], that ''Minimax risk ≥ worst-case Bayes risk''}.
+
+In [[Probably approximately correct]] learning, one typically finds upper bounds  on the minimax risk, as one considers the risk worst-case over data distributions, and worst-case over families of learning algorithms / estimators (so in particular one finds an estimator such that for any data distribution the risk is bounded ([[w.h.p.]] at least)).
+
+''Minimax rate''... bounding up to constants (see http://www.stat.yale.edu/~yw562/teaching/598/lec02.pdf#page=2)
+
+http://www.stat.cmu.edu/~larry/=stat705/Lecture8.pdf: "For parametric models that satisfy weak regularity conditions, the [[Maximum likelihood]] estimator
+is approximately minimax."
+
+[[Admissibility|http://www.statslab.cam.ac.uk/~qb204/teaching/princip_stat_15.pdf]]
+
+!!__Minimax rates for different losses/learning scenarios__
+
+!!!__Classification__
+
+For [[Binary classification]]. See [[here|https://arxiv.org/pdf/math/0702683.pdf]]. VC bound ($$O(1/\sqrt{m})$$, for $$m$$ number of data points). gives minimax rate under [[Realizability assumption]], ''for binary classification and 0-1 [[Loss function]]s''!. If we furthermore constrain the [[Bayes risk]] to be bounded, we can get better bounds (see [[PAC learning with noise]]). In both of these cases, any [[ERM]] algorithm is a minimax algorithm (achieves the minimax rate!)
+
+For [[Multilabel classification]], I think that minimax rate is given by the [[Natarajan dimension]]. Minimax rates are achieved by some ERM algorithms (but not any ERM algorithm!)
+
+!!!__Regression__
+
+Info here mostly comes from reading [[this paper|https://arxiv.org/pdf/1308.1147.pdf]]
+
+For [[Regression]] (using [[Mean squared error]] as loss function for e.g.), one can obtain, in some cases,  $$O(1/m)$$ minimax rates! (or maybe logn / n , but still nice). And in these cases the minimax algorithm is not necessarily ERM -- for e.g. in some cases other algorithms like aggregation-of-leaders are minimax but not ERM. <mark>See [[here|https://arxiv.org/pdf/1308.1147.pdf]]</mark>! (<- discussion in Section 7). Lee, Bartlett and Williamson showed that, to achieve the logm/m rate with a selector ([[Proper learning]]) one needs the hypothesis class to be [[convex|Convex set]], and this particular case, ERM is a minimax algorithm! ([[Least-squares]] estimator). For the result finite [[Pseudo-dimension]] was also needed.
+
+However, optimality of ERM for certain problems is still an open question.
+
+They find an aggregation-of-leaders algorithm which is minimax (in both risk and regret) for regression, under assumptions on the empirical entropy of the hypothesis class (shouldn't be too large..). <small>Not clear if optimal or suboptimal for large classes? Has this been proven?</small>. To be more precise: the algorithm has minimax regret for regression with finite classes, and also for not-too-large empirical entropy. For minimax risk for regression, it is optimal for any class!? noice. From the paper, where they compare with [[ERM]], and an alternative method called skeletong aggregation:
+
+> for finite classFaggregation-of-leaders and skeleton aggregation achievethe excess risk ratelogMn, which is known to be optimal [41], whereas the global ERMhas a suboptimal rate. For a very massive classF, when the empirical entropy growspolynomially asε−pwithp≥2 both ERM and aggregation-of-leaders enjoy similar guar-antees of rates of ordern−1/pwhile the skeleton aggregation only gets a suboptimal rateofn−1/(p+1). For all other cases, while aggregation-of-leaders is optimal, bothERM andskeleton aggregation are suboptimal. Thus, in the misspecified case, skeleton aggregationis good only for very meager (finite) classes while ERM enjoys optimality only for theother extreme – massive nonparametric classes. Note also that, unlessFis finite, skeletonaggregation does not improve upon ERM in the misspecified case.Turning to the well-specified case, both aggregation-of-leaders and skeleton aggrega-tion achieve the optimal rate for the minimax risk while the global ERM is, in general,suboptimal.
+
+A cool thing they show is that in the regression setting, [[here|https://arxiv.org/pdf/1308.1147.pdf]] they found that the "minimax risk" and "minimax regret" (i.e. in our definitions, the minimax risk for the [[realizable|Realizability assumption]] and [[agnostic|Agnostic learning]] case) have the same rate with $$m$$ if the hypothesis class is not too big, using some empirical entropy measure!
+
+They also show, in the regression setting, minimax regret of order vlog(n/v)/n where v is the [[VC dimension]]
+
+!!!__Algorithms for both classification and regression__
+
+I think [[Nearest-neighbour regression]] and [[Nearest-neighbour classification]] are minimax risk (well-specified model) optimal under some assumptions on the hypothesis class
+
+[[Sample compression]]/Compression bounds https://arxiv.org/abs/1805.08140 -- https://arxiv.org/abs/1706.01124
+
+------------------
+
+The minimax //excess risk// for the case where the data distributions are not constrained, is called [[Minimax regret]]. See https://arxiv.org/pdf/1308.1147.pdf .

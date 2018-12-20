@@ -1,0 +1,18 @@
+created: 20181219153616418
+creator: cosmos
+modified: 20181219184708571
+modifier: cosmos
+title: Risk
+type: text/vnd.tiddlywiki
+
+Risk is the expected value of the [[loss|Loss function]] (see [[Introduction to supervised learning theory]]). Synonymous with [[Generalization error]]
+
+Sometimes, risk is actually defined as the expected value of the loss for some estimator, minus the expected value of the loss for the Bayes estimator (what we call [[Bayes risk]]).
+
+Excess risk is sometimes defined as the risk minus the minimum risk within some [[Hypothesis class]].
+
+-------------
+
+!!__Informal notion of risk__
+
+Danger, etc.

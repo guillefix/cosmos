@@ -1,0 +1,60 @@
+created: 20181031010300887
+creator: cosmos
+modified: 20181219193255648
+modifier: cosmos
+tags: [[Learning theory]]
+title: Statistical supervised learning theory
+tmap.id: 5f3e5ef4-3fc6-48a5-ae61-65d164b71fcc
+type: text/vnd.tiddlywiki
+
+See post: [[Learn in theory|https://medium.com/@guillefix/learn-in-theory-3c88086ab388]]
+
+The [[Statistical learning theory]] of [[Supervised learning]].  Mostly studies ways of ensuring good [[Generalization]] for learning algorithms. See more at [[Computational learning theory]] and [[Probably approximately correct]]
+
+We have several approaches for [[Generalization error bound]]s (see more detail [[here|https://gingkoapp.com/app#5bb786ea4176d5035eafbfb9]]). See below.
+
+General principle: The more that the bound depends on, the tighter it can be
+
+|Note that bounds dependent on training sample are basically bounds that depend on the [[Data distribution]], but where we estimate the data-distribution-dependent bound from the sample, using some [[Concentration inequality]]|
+
+!!__''Realizable learning''__
+
+where we assume the hypothesis class and data distribution (e.g. target function) are such that we can reach $$0$$ [[Empirical risk]]. This leads to [[PAC learning|Probably approximately correct]]
+__''Data-dependent realizable learning bounds''__
+
+* Depends on data distribution. (Deterministc case: Depends on target function. )
+** Analysis of [[Occam algorithm]]s. (for deterministic case)
+** [[Rademacher complexity]] analysis (average version)
+* Depends on distribution over data distributions. See analysis when assuming distribution overt target functions follows the [[Universal probability]] distribution. Can also do [[Bayesian|Bayesian statistics]] analysis in this case.
+* Dependent on training sample, but not on algorithm
+** [[Rademacher complexity]] analysis. Depends on hypothesis class and training sample S
+* Depends on training sample, and on algorithm
+** Elementary [[PAC-Bayes]] bound. Depends on the output of the learning algorithm, $$h$$.
+** Realizable [[PAC-Bayes]] bound. Depends on likelihood of training sample
+** Realizable [[Structural risk minimization]]. Depends on the class to which output belongs. Occam algorithms can be analyzed like this also I think.
+*** [[Minimum description length]] is a special case.
+
+
+!!__''[[Agnostic learning]]''__
+
+where we don't assume anything about the data distribution, and just ask: how well can I do relative to the function that does best (has lowest true risk) in a given hypothesis class. It has a related formulation, where we instead ask how much does the true risk differ from the empirical risk. The error in the former can be shown to be at most twice the error in the later.
+
+__''Data-dependent agnostic learning''__
+
+* Depends on data distribution (Deterministic case: Depends on target function.)
+** [[Rademacher complexity]] analysis (average version))
+* Depends on distribution over data distributions.
+* Dependent on training sample, but not on algorithm
+** [[Rademacher complexity]] analysis. Depends on hypothesis class and training sample S
+* Depends on the training sample and the algorithm
+** Agnostic [[PAC-Bayes]] bounds
+** Agnostic [[Structural risk minimization]]. Depends on the class to which output belongs.
+*** [[Minimum description length]] is a special case.
+** [[Sensitivity]]
+** [[Algorithmic robustness]]
+
+(well technically, what's called "realizability" tends to be that the true risk is 0, while here I am using it as meaning that the empirical risk is 0)
+
+--------
+
+[[Structural risk minimization]] is interesting because it only depends on the data distribution and algorithm kind of implicitly (well kinda how sample-dependent bounds depend on the data distribution implicitly.)

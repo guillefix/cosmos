@@ -1,0 +1,10 @@
+created: 20181219200557939
+creator: cosmos
+modified: 20181219200555768
+modifier: cosmos
+title: Pseudo-dimension
+type: text/vnd.tiddlywiki
+
+Generalization of [[VC dimension]] to classes of real-valued functions (used for [[Regression]])
+
+https://link.springer.com/chapter/10.1007/978-1-4471-3748-1_4

@@ -1,6 +1,6 @@
 created: 20160709015859880
 creator: guillefix
-modified: 20180804233337465
+modified: 20181219202650106
 modifier: cosmos
 tags: Classification
 title: Nearest-neighbour classification
@@ -10,3 +10,7 @@ type: text/vnd.tiddlywiki
 //aka KNN classifier//
 
 A kind [[KNN]] algorithm, for the case of [[Classification]]
+
+---------------
+
+https://arxiv.org/abs/1806.05161 -- " Moreover, the nearest neighbor schemes exhibit optimal rates under some standard statistical assumptions. ". I think it's minimax risk (well-specified model) optimal under some assumptions on the hypothesis class

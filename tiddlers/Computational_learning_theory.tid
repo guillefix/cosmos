@@ -1,6 +1,6 @@
 created: 20170116162522626
 creator: cosmos
-modified: 20180803002226051
+modified: 20181219193615623
 modifier: cosmos
 tags: [[Learning theory]]
 title: Computational learning theory
@@ -8,6 +8,8 @@ tmap.id: 97c2cf2e-d587-4c8e-84b1-de46778896ac
 type: text/vnd.tiddlywiki
 
 //actually a lot of this is statistical learning theory..//
+
+''Computational learning theory'' is [[Learning theory]], but taking into account the [[Computational complexity]] of the [[Learning algorithm]]s. There is a big overlap with topics studied in [[Statistical learning theory]]!
 
 See [[Machine learning]] for more general picture.
 

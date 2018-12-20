@@ -1,6 +1,6 @@
 created: 20170328212950837
 creator: cosmos
-modified: 20170621222827283
+modified: 20181219200700901
 modifier: cosmos
 tags: [[Machine learning]]
 title: Active learning
@@ -13,3 +13,7 @@ https://www.youtube.com/watch?v=8jR9DkXY_ZU#t=34m
 See also [[Active inference]]
 
 In [[this paper|http://sci-hub.cc/10.1162/089976600300014999]], active learning is framed as the algorithm selecting a set of examples from a pool of examples (instead of being fed examples by a predetermined distribution, as in supervised learning). Then he derives lower bounds for the number of examples needed, like the active analog of the same quantity in PAC supervised learning
+
+-----------
+
+[[Rates of convergence in active learning|https://projecteuclid.org/euclid.aos/1291388378]]

@@ -1,6 +1,6 @@
 created: 20160709004653144
 creator: guillefix
-modified: 20181031010439724
+modified: 20181219193620038
 modifier: cosmos
 tags: [[Statistical inference]] Learning [[Artificial intelligence]] [[Machine learning]]
 title: Learning theory
@@ -48,7 +48,9 @@ Also named: [[Expressibility]], [[Optimization for learning]], [[Generalization]
 
 [[Good course on statistical learning theory|https://www.youtube.com/watch?v=Q5itLKscYTA]]! ([[course webpage|http://www.mit.edu/~9.520/fall17/]])
 
-!__Supervised learning theory__
+!__[[Supervised learning theory]]__
+
+[[Introduction to supervised learning theory]]
 
 See [[Supervised learning]] for more details on practical algorithms and applications.
 
@@ -102,7 +104,7 @@ Model selection algorithms provide methods to automatically choose optimal bias/
 
 * [[Feature selection]]
 
-!!__[[Statistical learning theory]]__
+!!__[[Statistical supervised learning theory]]__
 
 See post: [[Learn in theory|https://medium.com/@guillefix/learn-in-theory-3c88086ab388]]
 

@@ -1,6 +1,6 @@
 created: 20170116162816600
 creator: cosmos
-modified: 20180704125231217
+modified: 20181219180240133
 modifier: cosmos
 tags: [[Computational learning theory]]
 title: Probably approximately correct
@@ -9,11 +9,11 @@ type: text/vnd.tiddlywiki
 
 //aka PAC//
 
-Main learning framework in [[Computational learning theory]], that studies the conditions under which an algorithm can perform learning tasks with confidence (high probability of success), and accuracy (low probability of error).
-
-See [[PAC book]]
+Main learning framework in [[Computational learning theory]], that studies the conditions under which an algorithm can perform learning tasks with confidence (high probability of success), and accuracy (low probability of error). See more at [[Learning theory]]. See also [[PAC book]]
 
 [[notes|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectures/lecture01.pdf]] -- [[nice lectures|https://www.youtube.com/watch?v=aILazXK059Y]]
+
+An informal set of notes and comments follows. See [[Learning theory]] for more rigorous formalizations, and further generalizations of the theory:
 
 Assume training data comes from distribution $$D$$. Test data from same distribution.
 
@@ -168,7 +168,9 @@ Size of class of 3-DNF $$\leq 2^{6n}$$, and for 3-CNF $$\geq 2^{n^3}$$
 
 !!__[[PAC learning with infinite concept classes]]__
 
---> [[VC dimension]]
+--> [[VC dimension]] (tight, [[Minimax risk]] under certain realizability assumptions), 
+
+[[Rademacher complexity]] for PAC learning with continuous functions, and also tighter bounds by making the bounds data-dependendent!
 
 !!__[[Learning boosting]]__
 
@@ -181,6 +183,10 @@ Get an ensemble of hypotheses, by changing our input data to the algorithm in di
 See [[Computational learning theory]] for variations on the basic PAC learning framework.
 
 [[Uniform convergence|https://www.youtube.com/watch?v=iknI2iga9ps#t=56m45s]], main tool to proving results about PAC learnability
+
+!!__[[PAC learning with noise]]__
+
+See https://arxiv.org/pdf/math/0702683.pdf and http://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/18/
 
 ------------
 
