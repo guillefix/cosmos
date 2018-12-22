@@ -1,6 +1,6 @@
 created: 20161024100519351
 creator: cosmos
-modified: 20161104134327176
+modified: 20181221193149969
 modifier: cosmos
 tags: Biophysics Electricity
 title: Bioelectricity
@@ -33,6 +33,46 @@ __Sodium-potassium pump__ pumps 3 sodium ions out per potassium ion in. There ar
 
 !!__History of bioelectricity__
 
-Luigi Galvani. Make muscle moves with tweezers, [[Electrochemistry]] involved. His nephew would reanimate certain parts of the human body --> inspired [[Frankestein]]. Galvanized corpse!
+[[Luigi Galvani]]. Make muscle moves with tweezers, [[Electrochemistry]] involved. His nephew would reanimate certain parts of the human body --> inspired [[Frankestein]]. Galvanized corpse! 
 
 [[Salt]] is actually enough to make muscle twitch, by changing ion balance in the nerves. Don't put salt in a [[Wound]]...
+
+-------------------------
+
+!!__Bioelectric patterns, [[Developmental biology]], biological cognition (see [[Unconventional computing]]), and [[Regenerative medicine]]__
+
+Bodies have bioelectrical patterns that store information "memories" separately from genomic, and anatomical states. These bioelectrical patterns play a huge role in developmental processes, so that being able to control them is basically like a holy grail of regenerative medicine. It also offers interesting new insights for AI and cognition. 
+
+https://www.youtube.com/watch?v=RjD1aLm4Thg
+
+Detailed notes:
+
+2:55 memories are preserved in metamorphosis/regeneration. 
+5:16 unicelular creatures "think"
+9:00 planarian can be cut into pieces and each will regrow to the correct full organism! Each piece knows about the whole (a bit like a hologram!), and can do collective decision-making to guide themselves to the correct structure (important to know when to stop 8:41).
+9:21 planarians have conquered aging! (new favourite animal here)
+10:00 further examples of pattern homeostasis (keeping its shape, robustly, to the programmed shape)
+14:40 biology is dealing with hardware right now; can we move to dealing with software?
+16:26 bioelectric mechanisms in brainn come from ancient mechanisms found in cells through the body
+20:00 seeing cancer via electrical signal anomaly
+20:20 how to control these bioelectric processes
+22:20 editing the morphology of organisms, without changing the genome, just by interacting with the developmental processes! wow!
+24:07 computational modeling
+24:30 altering pattern memory. Wow, an electrical memory that holds information, separately from anatomy and genome!
+27:34 extending connectionist models to understand this. Stable attractors (like Hopfield nets!)
+28:31 applications in *regenerative medicine*. Making frogs regrow their legs!
+29:20 and reversing birth defects. Hmm, it's really cool that you can bypass genomics, but this patterning only affects anatomy right? If a gene generating some protein essential for some biochemical pathway is missing, you can't fix it with bioelectrics right? See comments at 40:27 But still the applications seem awesome
+30:50. The endgame. A biological compiler to design organisms. As Freeman Dyson wrote: "a new generation of artists will be writing, composing genomes with the fluency that Blake and Byron wrote verses"
+31:40. The future. a highly-robust ML technology, based on non-neural architectures. I can smell our friend Physarum polycepharum appearing soon :P (didn't but would have been cool)
+32:52 "non-neural networks" lol. Robot scientist lol.
+33:36 Thank
+Q&A
+34:36 difference between behavioural and anatomical electrical patterns, and how to control the anatomical ones. Anatomy at low frequencies, behavior at high frequncies; they are pretty well-separated.
+37:18 best approach to create truly intelligent systems
+39:30 what about plants, and mechanical signaling. Plants independently evolved bioelectric control. Mechanical forces interact with electrical effects (and also with genetics ofcourse). Key question: "at what point in that control structure is it most efficient to intervene" (to me the hardware-software divide is just about identifying the parts of a system that are more suitable for control
+41:56 Consciousness.
+44:12 Timescale of control signals. Very short interventions, as you are basically just rewriting the electrical memory :)
+46:22 non-neural nets
+48:23 Ethical concerns
+49:42 relations to signal transduction networks and systems biology models 
+50:51 relation to reaction-diffusion models
