@@ -1,11 +1,13 @@
 created: 20160201144703653
 creator: guillefix
-modified: 20180117213058226
+modified: 20181229003209459
 modifier: cosmos
 tags: [[Computer Science and IT]]
 title: Software
 tmap.id: 2ae15a23-0180-4faa-99cf-71bf0f8a13c9
 type: text/vnd.tiddlywiki
+
+A hardware-software divide is just a way of describing a system that is optimized for human control of the system.
 
 https://github.com/sindresorhus/awesome
 
@@ -24,3 +26,14 @@ To open the keylogger log (which is very long), get part of the log only, using 
 https://gist.github.com/kelly-ry4n/44822005a02d9ff115c12e4075adb256
 
 https://www.facebook.com/groups/hackathonhackers/permalink/1232180336837449/?comment_id=1232200533502096
+
+!!!__Software-hardware divide and [[Abstraction]]__
+
+There miriads of ways of describing the same system (say making mathematical models of it).
+For example, we may fully (or almost fully) describe a particular computer in terms of either electrons, transistors, circuits, logic gates, boolean functions, turing machines, finite-state automata, machine code, high-level programming languages, or combinations of these. 
+
+We can choose some of these descriptions, say, as moving electrons, or as a huge finite-state automaton. These are not very useful for knowing how to control the computer. On the other extreme, we may choose the standard description of a hierarchy where at the low level are electrons moving, then transistors, gates, and so on until high level programming languages. This is much more useful for control by us. To be precise, the hardware-software hierarchical description distills the simplest description of the lower levels that maximizes our ability to control them.
+
+This is just the same as the thing we do to describe everyday objects. We think of a bus, say, at many levels of abstraction, which can be interpreted as a hardware-software divide, where software correspond the higher levels of abstraction, optimized for control/usefulness. You don't think, when you go into a bus "ok i'm going to use this bunch of atoms to change my position by a couple of kilometers; first I need to move the air molecules around me, and simultaneously create a light field of the appropriate form that will excite molecules in the so-called eyes of this lump of organic molecules in front of me, in a way that will cause a complicated chain reaction that will make it not obstruct my way, and subsequently cause changes in the appropriate molecules which will cause the so-called wheels to spin, and blah blah blah", instead you think "I'm just gonna step in, say "hi", pay the bus driver, and sit in a chair". The former is the hardware-description (which is complete, and valid), the later is the software description (which is not-quite-complete, but has the essence of what's going on for most common situations, and is particularly useful to actually use a bus!)
+
+(wrote it here: https://www.facebook.com/guillermovalleperez)

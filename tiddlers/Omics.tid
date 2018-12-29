@@ -1,0 +1,17 @@
+created: 20181229001341869
+creator: cosmos
+modified: 20181229014515233
+modifier: cosmos
+tags: Bioinformatics
+title: Omics
+type: text/vnd.tiddlywiki
+
+//aka -omics//
+
+An informal name encompasing the different branches of [[Bioinformatics]] and related fields, trying to identify features of living organisms which efficiently describe its state, in a way that is useful for understanding and control (its "[[Software]]")
+
+* [[Genomics]]
+* [[Proteomics]]
+* [[Transcriptomics]]
+* [[Metabolomics]]
+* [[Exosomics]], [[Secretomics]], 

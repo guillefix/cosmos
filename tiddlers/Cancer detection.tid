@@ -1,0 +1,35 @@
+created: 20181229002041878
+creator: cosmos
+modified: 20181229014459640
+modifier: cosmos
+title: Cancer detection
+type: text/vnd.tiddlywiki
+
+One of the most desirable applications of [[Omics]] in cancer has
+been the discovery of molecular markers ([[Biomarker]]s) that are
+capable of diagnosing tumours at early stages.
+
+Even prominent cases such as sarcosine, a glycine metabolic de-
+rivative, claimed to be a marker for prostate cancer progression
+(Sreekumar et  al., 2009), has later been questioned in its clinical
+usefulness (Issaq and Veenstra, 2011). One of the major reasons for
+this is the fact that most of these molecules (irrespective of these
+being proteins, nuclide acids or small molecule metabolites) are part
+of normal physiological processes and often fluctuate due to either
+normal homeostasis or other ‘confounding’ diseases, predominantly
+inflammation, infection, injury, food poisoning, and ageing. In add-
+ition, preanalytical variability due to inconsistent clinical sample
+handling remains a problem. For instance, collection of blood sam-
+ples and handling at 4 ° C leads to platelet activation and promotes
+blood clotting (Kaisar et al., 2016a; Kaisar et al., 2016b), and many
+blood markers may simply relate to these to common events irre-
+spective of the patient’s disease status. Consequently, a very small
+number of candidate molecules have made the cut and were taken
+forward towards the clinic (Swami, 2010; Henry and Hayes, 2012).
+
+[[Cancer multiomics]] Deep insights into cancer biology, in general, and biomarker dis-
+covery in particular, have more recently benefited from efforts
+to integrate -​omics data sets, such as transcriptomics, genomics,
+proteomics, and metabolomics data (Casado-​Vela et  al., 2011).
+
+!!__[[Early cancer detection]]__

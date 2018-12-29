@@ -1,7 +1,8 @@
 created: 20161012000554765
 creator: cosmos
-modified: 20161104134327188
+modified: 20181229024037597
 modifier: cosmos
+tags: Disease
 title: Cancer
 tmap.id: 9e1e5ca9-72f0-4e5a-83cd-e7f822659a0d
 type: text/vnd.tiddlywiki
@@ -20,3 +21,39 @@ https://www.wikiwand.com/en/Cancer
 * [[Melanoma]]
 * [[Lymphoma]]
 * [[Leukemia]]
+
+-------------
+
+!!__[[Detection|Cancer detection]]__
+
+__[[Early cancer detection]]__
+
+!!__[[Cancer biology]]__
+
+__[[Cell signaling]]__
+
+[[Phosphoproteomics]]. Protein [[Phosphorylation]] the quantification of phosphorylation offers the opportunity to quantify cell signalling comprehensively and without bias. However, the large number of phosphorylation sites means large number of samples are needed to obtain good statistically significant results.
+
+genes with roles in regulating intracellular signalling pathways are frequently mutated or otherwise dysregulated in tumour cells. On the other hand, tumour cells secrete factors that corrupt ‘normal’ untransformed cells in their vicinity.
+
+__Cancer-triggering mutations__
+
+essentially all cancers deregulate genes with roles in regulating intracellular signalling. See cancer dependency map from Achilles project.
+
+There are many parallel pathways and adaptation mechanisms, so that blocking one may not reduce its effect, as there may be parallel causes, or compensating mechanisms. Several of these have been found for melanoma and others by looking at phosphoproteomics, for e.g.
+
+Given the existence of a multitude of mechanism by which kinase
+signalling pathways may be aberrantly activated in cancer, inferring
+kinase pathway activation using proxies such as genetic mutations
+or protein expression is likely to result in erroneous conclusions. This is most relevant for treatment, maybe less for diagnosis (where correlations are fine, while in treatment causation is crucial)?
+
+Inferring signaling pathways from phosphorylation measurements. Ochoa
+et al. used KSEA to compile an atlas of kinase activation across dif-
+ferent tissues and to identify new hypotheses on kinase regulation
+(Ochoa et al., 2016)
+
+Oncogenes
+
+deactivation of Tumour suppressors
+
+__Oncometabolites__

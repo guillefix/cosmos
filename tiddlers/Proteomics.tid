@@ -1,0 +1,30 @@
+created: 20181229000853237
+creator: cosmos
+modified: 20181229005115780
+modifier: cosmos
+tags: Bioinformatics Omics
+title: Proteomics
+type: text/vnd.tiddlywiki
+
+The experimental and [[bioinformatic|Bioinformatic]] analysis of the [[Proteome]] of from living organisms.
+
+* [[Mass spectrometry]]. One of the most sensitive techniques, whereby mass-charge ratios are determined by accelerating charged proteins to known speeds into a magnetic field, so that the radius of their circular trajectory indicates the mass-charge ratio. Depending on where the proteins are detected on a screen, we can get information of the radius of its trajectories. We also get information of their concentration from the intensity of the signal.
+
+* [[Immunoassay]]
+
+* [[Chromatography]]
+
+------------
+
+For protein analysis, referred to as proteomics, the
+most relevant experimental approach is based on a shotgun ap-
+proach where proteins are proteolytically digested into peptides of
+~8–​30 amino acids in length, for which mass spectrometers have
+greatest sensitivity, and for which sequencing information can be
+obtained directly via tandem mass spectrometry (MS/​MS, Fig. 25.1).
+This in combination with refined sample preparation protocols cap-
+able of handling small cellular tissue or body fluid samples including
+prefractionation have resulted in wider proteome coverage.
+
+!!!__shotgun proteomics__
+

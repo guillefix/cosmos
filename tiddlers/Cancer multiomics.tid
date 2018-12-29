@@ -1,0 +1,25 @@
+created: 20181229014018213
+creator: cosmos
+modified: 20181229014303447
+modifier: cosmos
+title: Cancer multiomics
+type: text/vnd.tiddlywiki
+
+
+Deep insights into cancer biology, in general, and biomarker discovery in particular, have more recently benefited from efforts to integrate -​omics data sets, such as transcriptomics, genomics, proteomics, and metabolomics data (Casado-​Vela et al., 2011, Nagaraj et al., 2015; Proietti et al., 2016) see also Table 25.1).
+
+[[Proteogenomics]] approaches make use of available transcriptomics and genomics data that are then combined with cognate proteomics information. Many studies have made __correlative comparison__ such as matching mRNA and protein expression levels. This is found to be generally poor (R2~0.4) although there are conflicting reports (Schwanhausser et al., 2011).
+
+In addition, transcriptomics and proteomics data collected from the same biological sample has the potential to reveal much __more ‘individualized’ information__ (due to more complete measurements) such as isoforms, deletions, insertions, and single mutations that are not readily present in public data repositories such as Uniprot, trEMBL, and NCBInr. For instance, allosteric interactions between metabolites and enzymes, post-​ translational modifications of proteins that affect their function and stability of epigenetic regulations can often be revealed by the integration of -​omics data, revealing more than their sum (Fig. 25.2; see Buescher and Driggers, 2016). 
+
+Spurred by the availability of -​omics tools and analysis platforms, the number of studies in which integrative approaches are used to study cancer biology is increasing (Possemato et al., 2011; Shaw et al., 2013; Bansal et al., 2015; Valli et al., 2015). 
+
+* A particular example is the classification of breast cancer into four distinct subtypes using additional differen- tially expressed kinases and q5 chromosome loss, demonstrating the power of phosphoproteomics, proteomics and in-​depth RNA seq on 77 samples (Mertins et al., 2016).
+
+* Proteogenomic ap- proaches have also been applied to 
+
+** liver cancer (Kimhofer et al., 2015; Nie et al., 2016), 
+** bladder cancer (Bansal et al., 2015), 
+** and colorectal cancer (Ma et al., 2012). 
+
+One of the concepts emerging from these studies is the dependence of tumour growth, proliferation, and its metastatic properties on __nutrition availability__ through the tumour microenvironment (Possemato et al., 2011; Maddocks et al., 2017) that subsequently may affect therapeutic resistance by orchestrating changes in gene expression at the level of translation (Falletta et al., 2017).
