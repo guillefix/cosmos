@@ -1,6 +1,6 @@
 created: 20181229000853237
 creator: cosmos
-modified: 20181229005115780
+modified: 20181229140338999
 modifier: cosmos
 tags: Bioinformatics Omics
 title: Proteomics
@@ -13,6 +13,11 @@ The experimental and [[bioinformatic|Bioinformatic]] analysis of the [[Proteome]
 * [[Immunoassay]]
 
 * [[Chromatography]]
+
+Liquid chromatography–mass spectrometry (LC-MS) is an analytical chemistry technique that combines the physical separation capabilities of liquid chromatography (or HPLC) with the mass analysis capabilities of mass spectrometry (MS). Also used for [[Metabolomics]]
+
+Aebersold, R. & Mann, M. (2016). Mass-​spectrometric exploration of
+proteome structure and function. Nature, 537, 347–​55.
 
 ------------
 

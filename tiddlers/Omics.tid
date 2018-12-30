@@ -1,6 +1,6 @@
 created: 20181229001341869
 creator: cosmos
-modified: 20181229014515233
+modified: 20181229135310111
 modifier: cosmos
 tags: Bioinformatics
 title: Omics
@@ -15,3 +15,15 @@ An informal name encompasing the different branches of [[Bioinformatics]] and re
 * [[Transcriptomics]]
 * [[Metabolomics]]
 * [[Exosomics]], [[Secretomics]], 
+
+------------
+
+__Experimental techniques__
+
+[[Chromatography]]
+
+[[Mass spectrometry]]
+
+Liquid [[Chromatography]]–[[Mass spectrometry]] (LC-MS) is an analytical chemistry technique that combines the physical separation capabilities of liquid chromatography (or HPLC) with the mass analysis capabilities of mass spectrometry (MS). / 
+
+__Data analysis techniques__

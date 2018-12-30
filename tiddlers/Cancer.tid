@@ -1,6 +1,6 @@
 created: 20161012000554765
 creator: cosmos
-modified: 20181229024037597
+modified: 20181229193018144
 modifier: cosmos
 tags: Disease
 title: Cancer
@@ -8,6 +8,8 @@ tmap.id: 9e1e5ca9-72f0-4e5a-83cd-e7f822659a0d
 type: text/vnd.tiddlywiki
 
 Cancer is a group of diseases involving abnormal cell growth with the potential to invade or spread to other parts of the body, forming a [[Malignan tumor]]
+
+https://www.who.int/news-room/fact-sheets/detail/cancer
 
 https://www.wikiwand.com/en/Cancer
 
@@ -22,19 +24,74 @@ https://www.wikiwand.com/en/Cancer
 * [[Lymphoma]]
 * [[Leukemia]]
 
+__By overall global mortality__
+
+* Lung (1.76 million deaths)
+* Colorectal (862 000 deaths)
+* Stomach (783 000 deaths)
+* Liver (782 000 deaths)
+* * [[Hepatocellular carcinoma]] (HCC)
+* Breast (627 000 deaths)
+
+
 -------------
 
-!!__[[Detection|Cancer detection]]__
+!__[[Detection|Cancer detection]] and [[Diagnosis]]__
 
-__[[Early cancer detection]]__
+!!!__[[Early cancer detection]]__
 
-!!__[[Cancer biology]]__
+!__[[Cancer biology]]__
 
-__[[Cell signaling]]__
+!!__[[Intracellular signaling|Intracellular signal transduction]]__
 
-[[Phosphoproteomics]]. Protein [[Phosphorylation]] the quantification of phosphorylation offers the opportunity to quantify cell signalling comprehensively and without bias. However, the large number of phosphorylation sites means large number of samples are needed to obtain good statistically significant results.
+<big>[[Phosphoproteomics]]</big>. Protein [[Phosphorylation]] the quantification of phosphorylation offers the opportunity to quantify cell signalling comprehensively and without bias. However, the large number of phosphorylation sites means large number of samples are needed to obtain good statistically significant results.
 
 genes with roles in regulating intracellular signalling pathways are frequently mutated or otherwise dysregulated in tumour cells. On the other hand, tumour cells secrete factors that corrupt ‘normal’ untransformed cells in their vicinity.
+
+Creixell, P., Schoof, E. M., Simpson, C. D., et al. (2015). Kinome-​wide
+decoding of network-​attacking mutations rewiring cancer signaling.
+Cell, 163, 202–​17.
+
+Drake, J. M., Paull, E. O., Graham, N. A., et al. (2016). Phosphoproteome
+integration reveals patient-​specific networks in prostate cancer. Cell,
+166, 1041–​54.
+
+!!__[[Cell-to-cell communication|Cell signaling]]__
+
+In tumours, cell-​to-​cell communication allows cancer cells to recruit [[Stromal cell]]s to their vicinity which in turn provide an environment where cancer cells can proliferate and ultimately invade adjacent and distant tissue. This form of heterotypic communication is mediated by secreted factors, which may be soluble or embedded in vesicles, and by direct cell-​to-​cell contacts. Proteomics approaches are being fun- damental to our understanding of the protein composition of the tumour microenvironment, including those present in the soluble form (i.e. the secretome) and those that are present in vesicles (exosomes). Proteomic approaches are also contributing to the understanding of how cells to communicate by direct contact with each other.
+
+__Cancer [[Secretome]]__
+
+The protein composition of cancer secretomes has been exten-
+sively investigated in order to identify biomarkers of disease
+(Gronborg et al., 2006; Pavlou and Diamandis, 2010).
+
+secreted pro-
+teins, which include interleukins, VEGF, CCL2 and CCL20, in-
+duce inflammation and impact senescence in vivo (Acosta et al.,
+2013).
+
+KSEA identified the kinases mTORC1 and
+MAPK2K2 as being involved in the regulation of the oncogene-​
+induced secretome (Herranz et al., 2015) <small>thus providing a poten-
+tial rationale for the observed beneficial effects of mTOR inhibitors
+in preventing ageing and cancer (Zhuo et al., 2009; Hasty, 2010).</small>
+
+__Cancer [[Exosome]]__
+
+Welton et al. Bladder cancer secreted exosomes with antigens involved in immune modulation.
+
+__Heterotypic signalling__ (between different types of cells; cancer communicating with nearby cells mostly, paracrine signaling)
+
+good technique: cell type-​specific labelling using amino acid precursors (CTAP). See more at [[Cell signaling]].
+
+Crass in pancreas cancer. Tape et al.
+
+Tape, C. J., Ling, S., Dimitriadi, M., et  al. (2016). Oncogenic KRAS
+regulates tumor cell signaling via stromal reciprocation. Cell, 165,
+910–​20.
+
+!!__Cancer [[Genomics]]__
 
 __Cancer-triggering mutations__
 
@@ -56,4 +113,42 @@ Oncogenes
 
 deactivation of Tumour suppressors
 
+Mertins, P., Mani, D. R., Ruggles, K. V., et al. (2016). Proteogenomics
+connects somatic mutations to signalling in breast cancer. Nature,
+534,  55–​62.
+
+!!__Cancer [[Metabolomics]]__
+
+The reliance on [[anaerobic glycolytic metabolism|Anaerobic metabolism]] as a source of energy and enhanced lactate production relative to untransformed cells are well understood traits of cancer cells ([[Warburg effect]])
+
+Patti, G. J., Yanes, O., & Siuzdak, G. (2012). Innovation: metabolomics: the
+apogee of the omics trilogy. Nat Rev Mol Cell Biol, 13(4),  263–​9.
+
 __Oncometabolites__
+
+!!__Onco-​immunology__
+
+Looking for cancer-specific [[Antigen]]s (mostly surface molecules, like Major histocompatibility complex (MHC))
+
+Khodadoust, M. S., Olsson, N., Wagar, L. E., et  al. (2017). Antigen
+presentation profiling reveals recognition of lymphoma immuno-
+globulin neoantigens. Nature, 543,  723–​7.
+
+
+!!__[[Angiogenesis]] and [[Metastasis]]__
+
+Park et  al. (2010) found that [[Hypoxia]] promote the secretion of proteins and exosomes with potential roles in angiogenesis and metastasis
+
+a phosphoproteomic study of integrin signalling identified several potential kinases involved in metastasis, of which integrin-​regulated kinases, DBF4, PAK2, and GRK6, were validated by [[siRNA]] to have a role in cell adhesion and migration possibly through their regulation of actin cytoskeleton dynamics (Chen et al., 2009).
+
+Sciacovelli, M., Goncalves, E., Johnson, T. I., et al. (2016). Fumarate is
+an epigenetic modifier that elicits epithelial-​to-​mesenchymal transi-
+tion. Nature, 537,  544–​7.
+
+----------
+
+> The challenge now is to develop computational approaches capable of integrating the large volumes of data obtained with state-​of-​the-​ art mass spectrometry and with those from other -​omic data sets, such as those obtained by whole genome sequence and RNAseq gene expression analyses. E.g. proteogenomics!
+
+---------------
+
+!__[[Metastasis]]__

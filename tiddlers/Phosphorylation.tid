@@ -1,10 +1,12 @@
 created: 20161014121459724
 creator: cosmos
-modified: 20181229020211477
+modified: 20181229141947862
 modifier: cosmos
 tags: [[Protein-protein interaction network]] [[Cell signaling]]
 title: Phosphorylation
 tmap.id: 14669593-2a0b-467c-b847-8545688ba1a0
 type: text/vnd.tiddlywiki
 
-Addition of a [[Phosphate]] to a [[Protein]], which produces conformational changes. This can act as a signal/swicht, to regulate [[Metabolic network]]s, and [[Gene regulatory networks]]
+Addition of a [[Phosphate]] to a [[Protein]], which produces conformational changes. This can act as a signal/swicht, to regulate [[Metabolic network]]s, and [[Gene regulatory networks]]. This is done by [[Kinase]]s
+
+[[video|https://www.youtube.com/watch?v=xG2WOd_fWqo]]

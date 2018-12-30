@@ -1,6 +1,6 @@
 created: 20161018100914727
 creator: cosmos
-modified: 20181229021023390
+modified: 20181229142708708
 modifier: cosmos
 tags: [[Cell biology]]
 title: Cell signaling
@@ -21,8 +21,11 @@ type: text/vnd.tiddlywiki
 
 !!!__Forms of cell-cell signal transportation in vertebrates__
 
+https://www.wikiwand.com/en/Cell_signaling#/Classification
+
 * Juxtacrine. contact deoendent.
 * DIrect signalling -- gap junction. In [[Plant cell]]s, plasmodesmata. The fastest. milliseconds. Diffusion + potential.
+* Intracrine. Stay within the cell.
 * Autocrine
 ** Reinforces the signal
 ** Community (cooperative effect)
@@ -49,38 +52,37 @@ __Intracellular receptors__
 * [[Steroid hormone]] receptors
 * [[Estrogen]] receptors
 
-!!__Signal transduction__
+!!__[[Signal transduction|Intracellular signal transduction]]__
 
-Signalling [[pathway|Metabolic pathway]]s
+Intracellular (within a Cell) processes networks (of protein interactions) to respond and generate signals for Cell signaling
 
-* Molecular switches (activate protein). [[Kinase]]s can work as these
-* Second messengers.
+-------------
 
-__Molecular switches__
+!!__Experimental investigation of cell signaling__
 
+Main challenge: label the proteins with the cell from which they originate, so that, from the [[Proteomics]] analysis, we can know where each protein comes from in a multi-cellular culture (coculture), and study their individual responses to their mutual cell-cell signaling.
 
+* stable isotope labelling with Amino acids in Cell culture (SILAC), good for short term effects of cell-cell communication (Jorgensen et al., 2009).
 
-__[[Kinase]] signalling cascade__
+* a cross-​ species proteomics approach which involved comparing the prote- omes and phosphoproteomes of cancer cells grown in isolation in vitro with those of the same cells grown in mouse xenografts. Rajeeve et  al.
 
-amplification
+* cell type-​specific labelling using amino acid precursors (CTAP), exploits the well-​known inability of animal cells to synthesize essential amino acids, such as lysine. Transgenic ex- pression of amino acid synthesizing enzymes (from fungi or plants) in human or mouse cells allows these to incorporate labelled amino acid precursors into proteins. Expression of distinct amino acid synthesizing enzymes in different cell lines permits these to stably express labelled proteins with amino acids differing in mass, thus enabling the determination of relative abundance of proteins from different cell types growing in coculture (Gauthier et al., 2013). a limitation of CTAP is that, as cells need to be cultured with labelled amino acid precursor, it cannot easily be applied in in vivo studies. <mark>is the idea that one can substitute certain aminoacids in proteins with similar ones but with different mass, thus labeling the protein without significantly affecting its function?</mark>
 
-scaffolding. different signals with same molecules
+* Blocking Specific Kinases With Inhibitors
 
-__Second messengers__
+* Cell Behavior Assays
 
-Intermediary signals, that often ends with activate [[Kinase]]s
+* Visualizing Signal Transduction Events
 
-__Calcium signalling__
+* [[Western blot]]s
 
-Feedback generates [[Calcium]] ion waves and oscillatoions.
+* Immunoprecipitation
 
-!!!__Signal integration/convergence__
+* GST Binding or “Pull-Down” Assays
 
-!!!__Cell signalling networks__
+* Activity Assays
 
-!!!__Feedback__
-
-See [[Pathway regulation]]
-
+* Using a Combination of Western blots, Immunoprecipitation, and GST Pull-Down Assays
 
 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2862383/ (2002. I'm sure there are many new techinques by now)
