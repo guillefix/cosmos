@@ -1,0 +1,98 @@
+created: 20190101143126066
+creator: cosmos
+modified: 20190101183557326
+modifier: cosmos
+tags: [[Coordination game]]
+title: People on planet problem
+type: text/vnd.tiddlywiki
+
+The problem of: "You have two people stranded on a (spherical) planet, and they want to find each other. How long does it take them, given that previous collusion isn't allowed?"
+
+See discussion [[here|https://www.facebook.com/guillermovalleperez/posts/10156400196006223?notif_id=1537720389625012&notif_t=feedback_reaction_generic&ref=notif]] and [[here|https://twitter.com/fermatslibrary/status/1053655440507064320]]
+
+Solutions depend on what you assume are possible actions. I am assuming people can follow great circles, measure angles, and can leave different types of directional breadcrumbs. 
+I am assuming they don't have clocks to synchronize, can't measure distances, and need not walk at constant or equal speeds. (plus clearly they don't have compasses, GPSs, global coordinates, telecommunication, etc.)
+
+<small>If you allow for measuring distances, I can make other algorithms, but not sure they are better. Hmm, prob not much if anything</small>
+
+-------------
+
+!!!__Solution with directional breadcrumbs__
+
+> Further assumptions: (only one type per person), ability to follow [[Great circle]]s along given direction, simple vector algebra, and chiral notion of "left" (only needed in zero-measure cases)
+
+''Algorithm 1'':
+
+# Follow great circle along direction stored in memory (or arbitrary direction if allowing for [[Random number generator]]s), $$v_1$$ (unit vector). Leave directional breadcrumbs along the way
+# Upon intersecting directional breadcrumbs of the other player (assumed distinguishable for now), with direction $$v_2$$ (unit vector)
+## if $$v_2 \nparallel v_1 $$ (not parallel), begin following great circle along direction $$-v_1 + v_2$$ (and not putting any more breadcrumbs)
+## if $$v_2 \parallel v_1$$ (parallel), turn 90 degrees left and follow great circle (and not putting any more breadcrumbs)
+# Stop upon encountering other player (being in the same position)
+
+''Theorem 1''. If players have finite and bounded velocity, algorithm 1 halts in finite time for any initial position and direction for players 1 and 2.
+
+//Proof//
+
+In the general case, where the great circles do not coincide, the great circles  intersect in two places, which we may call Intersection 1 and Intersection 2, as seen in the video below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wqnq8pMvpX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+See Geogebra construction [[here|https://www.geogebra.org/3d/gffaybmj]] (video made with Geogebra AR app for Android and DU screen recorder; badly edited in kdenlive; ignore that colors are swapped lol)
+
+[img[people_on_planet_intersections.png]]
+
+In both intersections, we have drawn with dotted lines the great circle that the player (either blue or orange) will follow. 
+
+We can see that, in both cases, the two players will traverse the same great circle in opposite directions. As long as their velocities are finite and bounded, they will intersect in a finite amount of time.
+
+The only degenerate case for this algorithm is the case where they both begin walking along the same great circle in the same direction. In this case, the algorithm says that they should turn left upon encountering the other player's breadcrumbs for the first time. This ensures that they both begin walking along a great circle perpendicular to the original one, and in opposite direction, so that they also meet in a finite time.
+
+__Chiral symmetry__
+
+The notion of "left" is not invariant under mirror reflections (left is defined by an orientation of axes, or by any [[chiral|Chirality]] object, which by definition (or from their definition) changes orientation upon mirror reflection). 
+
+Indeed if the players where mirror symmetric (and thus not capable of having a notion of left), then the degenerate situation wouldn't be solvable (in general, at least) by a deterministic algorithm. This can be shown by noticing that in the degenerate case where they are in the antipodes, say, initial condition is symmetric under:
+
+ * mirror reflection along an axis perpendicular to both line joining the players, and their directions. 
+* and under mirror reflection along line connecting them followed by 190 degree rotation along line perp to both the line joining them and their directions.
+No point is invariant under both of these directions, implying that no deterministic algorithm under the stated assumptions would work. This elegant argument is [[thanks to Matthew Clayton|https://www.facebook.com/guillermovalleperez/posts/10156400196006223?comment_id=10156403326441223&reply_comment_id=10156404829406223&comment_tracking=%7B%22tn%22%3A%22R%22%7D]].
+
+The assumption that the agents have a chiral notion of left ([[Orientation]], see also discussion of mirrors in [[here|https://www.facebook.com/guillermovalleperez/posts/10156403220486223]]), breaks this argument, and allows Algorithm 1 to work. Matt's argument shows, however, that chirality (or at least asymmetry w.r.t. to the transformations in the argument, is necessary).
+
+__High probability non-chiral algorithm__
+
+If we want our agents to be non-chiral, then our algorithm will still work by choosing a random "left/right" turn where in Algorithm 1 we chose "left". This randomized algorithm will halt for all runs except for runs where the players keep choosing opposite directions (which means turning in the great circle along the same direction) over and over. This becomes exponentially unlikely, so the algo works almost surely in the limit of infinite time.
+
+
+
+!!!__Solution with essential chirality__
+
+> Further assumptions: (only one type per person), ability to follow [[Great circle]]s along given direction, angle bisectors, and chiral notion of "left", taking cross products. Note we ''don't'' require directional breadcrumbs!
+
+''Algorithm 2''
+
+# Follow great circle along direction stored in memory (or arbitrary direction if allowing for [[Random number generator]]s), $$v_1$$ (unit vector). Leave breadcrumbs along the way
+# Upon intersecting breadcrumbs of the other player (assumed distinguishable for now), with direction (up to a sign) $$v_2$$
+## if $$v_1 \nparallel v_2 $$ (not parallel)
+### if I haven't crossed my own breadcrumbs, then turn left by an angle equal to {half the angle between my path and the other player's path towards the left from my path}, and follow great circle without leaving more breadcrumbs
+### else, then the other player will have intersected my path first, and will have a different direction at the two sides of the intersection. To determine which is the before and after intersection, take cross product of the two directions, and see in which order it gives a vector pointing upwards. For that order, follow a great circle in the opposite direction of the second vector.
+## if $$v_2 \parallel v_1$$ (parallel), turn 90 degrees left and follow great circle.
+# Stop upon encountering other player (being in the same position)
+
+''Theorem 2''. If players have finite and bounded velocity, algorithm 2 halts in finite time for any initial position and direction for players 1 and 2.
+
+The idea of algorithm two is that (in the nondegenerate case) it ensures the two players walk along a great circle in opposite directions, if they intersect for the first time at antipodes. In the next diagram we can see what each player will do at each intersection:
+
+[img[people_on_planet_intersections_chiral_algo.png]]
+
+We see that if blue player turns at intersection one, and orange player, at intersection two; or viceversa, then they will follow great circle in opposite directions (remember that "same direction" when using orthogonal projection at the two antipodes, corresponds to opposite direction of turning along the same great circle).
+
+Therefore, the only issue is if they both intersect the other for the first time in the same point in the sphere (the same of the two intersections). However, in that case, one will always intersect before the other (otherwise, they will find themselves at the same point, and algorithm will halt). That can be identified in several ways: one you will have crossed your own breadcrumbs, two the other player will have turned at the intersection. From the way the other player has turned and given the fixed common algorithm 2, one can deduce which great circle, and in which direction it is following, and then just follow the same great circle in the opposite direction. This can be done using a [[Cross product]] as explained in the algo (basically if you see a turn, and you know the player "turned left", you can deduce in which direction the player was following the trajectory). Cross products are also chiral things just like the notion of "left", they change when reflecting on a mirror! (so that the algorithm needs to transform by substituting "cross product is upwards" to "cross product is downwards"; or if these are physical systems, we just need to mirror-reflect and chiral things will transform in the right ways :) )
+
+By following a great circle in opposite directions, it will halt in a finite time as in algorithm 1, in nondegenerate case.
+
+The degenerate case is treated in the same way as algo 1.
+
+__Symmetry for directionless trajectories__
+
+We can make similar arguments for the necessity of chirality here, when the breadcrumbs are directionless. In this case, we can think of the endpoint to be deterministically computed from one player (initial position and direciton), and the other player's initial great circle (no direction info). At the same time, we know that the endpoint shouldn't depend on this players direction, only great circle, by considering the same argument from the other player's perspective. The conclusion is that the end point should only depend on the two initial great circles. We can then look for symmetries which leave the great circles invariant, but not other points (like reflections along line connecting intersections, and 180 degree rotaitons around this same line; which are now symmetries not only in the degenerate case); and only way to break these symmetries is by having orientation/chirality!
