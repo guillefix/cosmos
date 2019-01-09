@@ -1,6 +1,6 @@
 created: 20160206004752074
 creator: guillefix
-modified: 20180731233628543
+modified: 20190109013102151
 modifier: cosmos
 tags: [[Augmented reality]] [[Digital art]]
 title: Virtual reality
@@ -14,6 +14,33 @@ See [[VRChat]], [[NeosVR]], [[Tiltbrush]], [[Google Blocks]]
 [[Open a portal to a new world. Crawl through space and time as if every event were adjacent|https://twitter.com/VoxelKei/status/1014258848532533248]]
 
 --------------------
+
+2019
+
+
+htc cosmos
+
+oculus quest
+
+-----------
+
+2018
+
+Introducing DeepFocus: The AI Rendering System Powering Half Dome | Oculus
+https://www.oculus.com/blog/introducing-deepfocus-the-ai-rendering-system-powering-half-dome/
+
+Oculus
+Introducing DeepFocus: The AI Rendering System Powering Half Dome
+Facebook Reality Labs has built DeepFocus, a new AI-powered framework for rendering natural, realistic focus effects in real time.
+
+Guillermo
+Why is it so difficult to render blur in real time?
+What a re multifocal and light field displays?
+Guillermo Valle
+Why is it so difficult to render blur in real time?
+Corner cases and artifacts. Like when there is blur from an object which is just occluded
+In which case we get only a bit of light from the Gaussian blob as some of the light rays are occluded
+It's easy to  see this could get quite computationally intensive
 
 https://twitter.com/highfidelityinc
 
