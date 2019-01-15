@@ -1,6 +1,6 @@
 created: 20160709025157181
 creator: guillefix
-modified: 20180908170157592
+modified: 20190114174516395
 modifier: cosmos
 tags: [[Digital art]]
 title: Deep art
@@ -8,6 +8,8 @@ tmap.id: 74aed97c-fa0c-4b43-93a3-165f0874dae6
 type: text/vnd.tiddlywiki
 
 [[Digital art]] based on [[Deep learning]]
+
+http://ml4a.github.io/classes/itp-F18/
 
 https://nips2017creativity.github.io/
 
@@ -30,6 +32,8 @@ Colorize B&W pictures: http://demos.algorithmia.com/colorize-photos/
 Make photo from segmentation: http://prostheticknowledge.tumblr.com/post/169038480796/uncanny-rd-project-by-anastasis-germanidis-and
 
 !!!__[[Generative adversarial network]]s__
+
+big gans https://mobile.twitter.com/neuroecology/status/1073291777321381888
 
 make.girls.moe / Crypko
 
@@ -81,6 +85,8 @@ https://twitter.com/bitcraftlab
 https://magenta.tensorflow.org/welcome-to-magenta
 
 !!__[[Deep learning]] for [[Music]]__
+
+https://mobile.twitter.com/chrisdonahuey/status/1073387592161193984
 
 [[Composing Music With Recurrent Neural Networks|http://www.hexahedria.com/2015/08/03/composing-music-with-recurrent-neural-networks/]] -- https://affinelayer.com/sidgen/
 
