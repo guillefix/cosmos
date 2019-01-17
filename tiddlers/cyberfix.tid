@@ -1,6 +1,6 @@
 created: 20181116023645654
 creator: cosmos
-modified: 20181116154719950
+modified: 20190117015613201
 modifier: cosmos
 tags: Cyberself
 title: cyberfix
@@ -38,10 +38,17 @@ mapped ctrl+[Page_up] to ctrl+q and ctrl+[Page_down] to ctrl+d using Ubuntu's ow
 
 Also now mapped Ctrl+D to Alt+D via Ubuntu settings also, linking Alt+d to command `xvkbd -xsendevent -text "\Cd"`... becuase I need to use ctrl+D in several cases, like in terminal..
 
-We map alt+tab to ctrl+tab using `compizconfig-settings-manager` (that's the name of the package to install, but then seems to only be available on app menu, not on bash) --  https://askubuntu.com/questions/288378/cannot-remap-alt-tab-combination-after-switching-ctrl-and-alt 
+__in ubuntu 16)__
+
+We map alt+tab to ctrl+tab using `compizconfig-settings-manager` (that's the name of the package to install, but then seems to only be available on app menu, not on bash) --  https://askubuntu.com/questions/288378/cannot-remap-alt-tab-combination-after-switching-ctrl-and-alt -- In compiz go to Ubuntu Unity Plugin > Switcher and set "Key to start the Switcher" to Ctrl+Tab
 
 map alt+grave (&#x60;) to ctrl+grave using compiz also --
- https://askubuntu.com/questions/132304/how-to-disable-alt-backtick-grave 
+ https://askubuntu.com/questions/132304/how-to-disable-alt-backtick-grave -- Change Key to flip through windows in the switcher from disabled to something else.
+
+__in ubuntu 18__
+
+it's all done through the keyboard shortcut settings
+
 
 __Servers__
 
