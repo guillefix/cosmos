@@ -1,6 +1,6 @@
 created: 20160709025157181
 creator: guillefix
-modified: 20190114174516395
+modified: 20190118191735260
 modifier: cosmos
 tags: [[Digital art]]
 title: Deep art
@@ -82,11 +82,15 @@ https://twitter.com/bitcraftlab
 
 [[Image based relighting using neural networks|http://dl.acm.org/citation.cfm?id=2766899]]
 
+pix2pix
+
 https://magenta.tensorflow.org/welcome-to-magenta
 
 !!__[[Deep learning]] for [[Music]]__
 
-https://mobile.twitter.com/chrisdonahuey/status/1073387592161193984
+https://mobile.twitter.com/chrisdonahuey/status/1073387592161193984 Music transformer https://magenta.tensorflow.org/music-transformer
+
+https://www.youtube.com/watch?v=HANeLG0l2GA
 
 [[Composing Music With Recurrent Neural Networks|http://www.hexahedria.com/2015/08/03/composing-music-with-recurrent-neural-networks/]] -- https://affinelayer.com/sidgen/
 
