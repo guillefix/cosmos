@@ -1,0 +1,21 @@
+created: 20190121225507541
+creator: cosmos
+modified: 20190121225502330
+modifier: cosmos
+tags: 
+title: Double-blind trial
+type: text/vnd.tiddlywiki
+
+Apparatus for a computer assisted double blind study
+You need a symmetric container, like a circular pill box like this https://ae01.alicdn.com/kf/HTB1y.sZPpXXXXX9XVXXq6xXFXXXv/1pcs-Toiletry-Tools-Pill-Case-7-Day-Weekly-Medicine-Boxes-Round-Drugs-Box-Protective-Container-Deft.jpg_640x640.jpg (but actually symmetric, and opaque).
+Then you input to the computer the three names of the pills, and ask it to generate a set of three random numbers, which it doesn't show you. Now you need to print them in a way, that you don't see the numbers. Safest way is invisible ink, but you could just print them, and make sure you don't see the number. You put the pills in the same order around a fixed orientation of the pill box than you inputed to the computer. Then you put the stickers with the random numbers (which you can't see) in the corresponding cells.
+You give the pill box a spin, before you give it to me.
+When I take the pills, I note down the random number (under UV light if using invisible ink). But even if spill over some info about the random number, the random number doesn't reveal any info to either you  or me
+For extra safety, spin the pillbox every time before use; and keep spinning until you get a pill. This is to avoid revealing potential information about contiguity of which pills were taken.
+
+Under the assumptions that the spins and the RNG of the computer are sufficiently random, and that the protocol is followed well, this seems to me to be provably secure 
+XD
+
+I've been wanting to design a cheap and simple double blind system, which can be conducted between two people (with more thought, or with better hardware, we could get it to one person even..) for a long time :P
+With some tricks to ensure that you are not aware in which cells you put the pills/label pairs, this could be done by a single person.
+And extra tricks are needed if pills are noticeably different
