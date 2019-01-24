@@ -1,6 +1,6 @@
 created: 20170104134853688
 creator: cosmos
-modified: 20181004163348540
+modified: 20190123221423460
 modifier: cosmos
 tags: [[Learning theory]]
 title: No free lunch theorem
@@ -8,6 +8,9 @@ tmap.id: e7d4c2fd-e07c-48fa-99fe-9c28cabb9933
 type: text/vnd.tiddlywiki
 
 [[video|https://www.youtube.com/watch?v=KlKe44dIYqU&index=6&list=PLFze15KrfxbH8SE4FgOHpMSY1h5HiRLMm#t=52m]]
+
+[img[kemono_friends_different_friends.jpg]]
+
 
 !!![[Wolpert article on No Free Lunch and the different learning theory frameworks|http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=1A58309E5BB673000B0A0AA9E69BD559?doi=10.1.1.49.1549&rep=rep1&type=pdf]]
 
