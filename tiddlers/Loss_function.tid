@@ -1,13 +1,18 @@
 created: 20160916172144391
 creator: cosmos
-modified: 20181219153756460
+modified: 20190124221902135
 modifier: cosmos
 tags: [[Machine learning]]
 title: Loss function
 tmap.id: 7ad3d861-b031-4f74-81dd-eb3e117e70ba
 type: text/vnd.tiddlywiki
 
-//aka risk, cost, loss; or its opposite, utility, reward,... depending on the area or context//.
+//aka        risk, cost, 
+loss; or   its 
+             opposite, 
+                  
+utility, reward,... 
+depending on the area or context//
 
 A ''loss function'' refers to a [[Function]] that one wishes to [[minimize|Optimization]], in some [[decision theoretic|Decision theory]] framework, like in [[learning|Learning theory]], [[Operations research]], mathematical [[Ethics]], etc., [[Optimization]]. Its oppositve (negative) is the [[Utility]] function, which one wishes to maximize.
 
@@ -44,3 +49,11 @@ __Negative log [[likelihood|Likelihood function]]__
 See [[Empirical risk minimization]]
 
 [[Expected loss|https://www.youtube.com/watch?v=SFxypsvhhMQ&feature=youtu.be&t=1h10m]], defined over [[Measurable function]]s
+
+
+<div style="color:white;">
+
+|I|Ii|
+|II|L|
+
+</div>
