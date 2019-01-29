@@ -1,6 +1,6 @@
 created: 20170129123140619
 creator: cosmos
-modified: 20170328142146501
+modified: 20190128231257665
 modifier: cosmos
 tags: [[Computer vision]]
 title: Image segmentation
@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 
 
 [[CS231n Lecture 13 - Segmentation, soft attention, spatial transformers|https://www.youtube.com/watch?v=Sb3b0ocD8mI&list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg&index=13]]
+
+See [[here|https://www.youtube.com/watch?v=53YvP6gdD7U#t=32m12s]] for state of the art in semantic segmentation (2019). See also [[Object detection]]
 
 [[ReSeg: A Recurrent Neural Network-based Model for Semantic Segmentation|https://www.youtube.com/watch?v=meGA1y8dTCA]]
 

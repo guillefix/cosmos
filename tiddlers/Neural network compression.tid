@@ -1,0 +1,14 @@
+created: 20190128231613174
+creator: cosmos
+modified: 20190128231849290
+modifier: cosmos
+tags: [[Artificial neural network]] [[Model compression]]
+title: Neural network compression
+type: text/vnd.tiddlywiki
+
+
+[[Optimal brain damage|http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf]]. Deletes weights which are expected to reduce the loss function not by much, by computing the Hessian, and seeing how much loss function would change when setting the weight to 0, under the simple quadratic approximation (ok for small weights I guess).
+
+[[Dynamic network surgery|https://arxiv.org/abs/1608.04493]]
+
+Application to [[PAC-Bayes]] [[Generalization]] bounds: [[Non-vacuous Generalization Bounds at the ImageNet Scale: a PAC-Bayesian Compression Approach|https://openreview.net/forum?id=BJgqqsAct7]]

@@ -1,6 +1,6 @@
 created: 20170104115041390
 creator: cosmos
-modified: 20180608233859758
+modified: 20190128231244977
 modifier: cosmos
 tags: [[Computer vision]]
 title: Object detection
@@ -55,6 +55,12 @@ Region proposals + CNN classifiers: [[R-CNN]], Fast R-CNNs, and Faster R-CNNs
 the region of interest is integrated using spatial recurrent
 neural networks. Inside, we use skip pooling to extract
 information at multiple scales and levels of abstraction -- [[video|https://www.youtube.com/watch?v=-QNDu_8Q7_A&feature=youtu.be]]
+
+YOLOv3
+
+[img[object_detection_state_of_the_art_2019.png]] (see [[here|https://www.youtube.com/watch?v=53YvP6gdD7U#t=32m12s]])
+
+[[Image segmentation]]
 
 -----------
 

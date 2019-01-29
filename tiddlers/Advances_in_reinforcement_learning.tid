@@ -1,6 +1,6 @@
 created: 20180630215625318
 creator: cosmos
-modified: 20180822122235184
+modified: 20190128230627530
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Advances in reinforcement learning
@@ -13,7 +13,11 @@ type: text/vnd.tiddlywiki
 
 !!__[[Curiosity-driven RL]]__
 
-!!__[[Model-based reinforcement learning]]__
+!!__[[Model-based reinforcement learning]] and hybrid model-based/model-free__
+
+!!![[AlphaStar|https://www.youtube.com/watch?v=UuhECwm31dM&feature=youtu.be]]
+
+!!![[AlphaZero]]
 
 https://buff.ly/2KOUbFO -- MCTS approaches really seem like the best we have for AI problems beyond perception.
 
@@ -26,8 +30,6 @@ https://buff.ly/2KOUbFO -- MCTS approaches really seem like the best we have for
 https://arxiv.org/abs/1807.09647
 
 -------------
-
-AlphaZero
 
 https://machinethoughts.wordpress.com/2018/04/14/rl-and-the-game-of-mathematics/
 

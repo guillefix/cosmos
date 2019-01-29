@@ -1,6 +1,6 @@
 created: 20170516120241177
 creator: cosmos
-modified: 20181009144426979
+modified: 20190128233243853
 modifier: cosmos
 tags: [[Model selection]]
 title: Structural risk minimization
@@ -9,6 +9,7 @@ type: text/vnd.tiddlywiki
 
 //aka SRM//
 
+I've been using SRM here to refer to the weighted version of the [[Union bound]]..., while //technically// SRM is a particular application of that.
 
 See [ext[here|http://www.cs.tufts.edu/~roni/Teaching/CLT/LN/lecture9.pdf]]
 
