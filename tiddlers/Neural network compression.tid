@@ -1,11 +1,12 @@
 created: 20190128231613174
 creator: cosmos
-modified: 20190128231849290
+modified: 20190129171010954
 modifier: cosmos
 tags: [[Artificial neural network]] [[Model compression]]
 title: Neural network compression
 type: text/vnd.tiddlywiki
 
+[[2018 review|http://cwww.ee.nctu.edu.tw/~cfung/docs/learning/cheng2018DNN_model_compression_accel.pdf]]
 
 [[Optimal brain damage|http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf]]. Deletes weights which are expected to reduce the loss function not by much, by computing the Hessian, and seeing how much loss function would change when setting the weight to 0, under the simple quadratic approximation (ok for small weights I guess).
 
