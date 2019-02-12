@@ -1,6 +1,6 @@
 created: 20180525152908885
 creator: cosmos
-modified: 20180525153002492
+modified: 20190211200837536
 modifier: cosmos
 tags: [[Simplicity bias]] [[Generalization in deep learning]]
 title: Simplicity bias in neural networks
@@ -8,6 +8,8 @@ tmap.id: 9ccb460c-9dce-4f70-a463-482421602514
 type: text/vnd.tiddlywiki
 
 [[Deep learning generalizes because the parameter-function map is biased towards simple functions|https://arxiv.org/abs/1805.08522]]
+
+[[Deep neural networks are biased towards simple functions|https://arxiv.org/pdf/1812.10156.pdf]]
 
 https://www.facebook.com/guillermovalleperez/posts/10156112403591223?comment_id=10156117816756223&notif_id=1527255728896180&notif_t=feedback_reaction_generic
 
