@@ -1,6 +1,6 @@
 created: 20181218203938301
 creator: cosmos
-modified: 20190308020458046
+modified: 20190309024105961
 modifier: cosmos
 tags: [[Supervised learning]] [[Learning theory]]
 title: Introduction to supervised learning theory
@@ -57,6 +57,8 @@ $$L_\mathcal{D}(f): = \mathbf{E}_{(x,y) \sim \mathcal{D}} \left[l(f,x,y)\right]$
 
 $$\mathbf{E}_{(x,y) \sim \mathcal{D}}$$ just means the [[Expectation]] under sampling examples. We are taking the expectation of the loss function for a fixed predictor, so that the true risk is a function of (depends on) both the data distribution $$\mathcal{D}$$ and the predictor $$f$$.
 
+A common loss function is the //0-1 loss// or //classification accuracy//, defined when the output space is finite, it is simply $$l(f,x,y) = \mathbf{1}_{f(x)\neq y}$$, <small> where $$\mathbf{1}_{A}$$ is the [[Indicator function]], which is equal to $$1$$ when the condition $$A$$ is satisfied, and to $$0$$ if it isn't.</small>
+
 !!!__Formal definition of learning algorithm $$\mathcal{A}$$__
 
 ~~We can~~ <span style="color: Green ;">almost</span> ~~now finally define a learning problem~~. Well, first let us define one last thing. A //learning algorithm// $$\mathcal{A}$$ is defined as a function mapping training sets to predictors. Formally,
@@ -80,7 +82,7 @@ Being less pseudo... and more rigorous: we can define "$$L_{\mathcal{D}}\left (\
 
 //Supervised learning theory// is all about what we can say about $$\text{Prob}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right)\right]$$ under different assumptions on $$\mathcal{D}$$, and $$\mathcal{A}$$, and $$l$$.
 
-Above, we talked about properties of $$\text{Prob}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right)\right]$$, corresponding to bounding the cumulative distribution (because of the $$\leq$$) <small>(bounds of these type are also called "bounds in probability", or "high-probability bounds")</small>.
+Above, we talked about properties of $$\text{Prob}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right)\right]$$, corresponding to bounding the cumulative distribution (because of the $$\leq$$) <small>(bounds of these type are also called "//bounds in probability//", or "//high-probability bounds//")</small>.
 However, the most information we can hope to get is the exact distribution $$\text{Prob}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right)\right]$$. With that, we can say, what's the probability that our learning algorithm performs <i>this</i> badly under <i>this</i> data distribution, which would be very useful!
 
 Another quantity which is useful, is the mean of this distribution, that is $$\mathcal{E}_\mathcal{D} (\mathcal{A}):= \mathbf{E}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right)\right]$$. We will call this, the //expected generalization error// (or //expected error//, or //expected risk//). This is now a single quantity that only depends on the data distribution and the algorithm. This is the quantity that we study when calculating [[Learning curve]]s. A related quantity comes about when we assume some probability distribution $$P$$ over data distributions <small>(making [[Bayes|Bayesian statistics]]ians happy ;) )</small>. This is meant to encode the prior probability of obtaining a particular learning task (which correspond to a particular data distribution). Perhaps we believe that learning tasks which give all images of dogs the same label, are more likely that those that don't. Or perhaps, we believe that it's more likely that the data is composed of images of actual things, rather than images of random noise. All of these, and more abstract mathematical assumptions, can be encoded on the prior $$P$$. If we have such a prior, then we can average the expected error, to obtain the //average expected error// $$\hat{\mathcal{E}}_P(\mathcal{A}):= \mathbf{E}_{\mathcal{D}\sim P}\left[ \mathbf{E}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right)\right]\right]$$ (which we will sometimes refer to as //average error// for short, at the risk of confusing it with the expected error, defined above).
@@ -113,7 +115,7 @@ Fortunately, we often have some prior knowledge that constraints the data distri
 
 !!__[[Agnostic learning]]: No assumptions on data distribution $$\mathcal{D}$$ <small>(but assumptions on learning algorithm $$\mathcal{A}$$)</small>__
 
-It turns out that even without making any assumptions on the data distribution, we can say many things. This is studied in [[Agnostic learning]]. In particular, it turns out that we can give a bound on the generalization error, which depends on the sample $$S$$ we obtain, and hold with high probability, at least $$1-\delta$$ for $$\delta>0$$. That is, for algorithm $$\mathcal{A}$$, we can find a function $$\epsilon_\mathcal{A}(S,\delta)$$ such that, for any distribution $$\mathcal{D}$$ whatsoever, 
+It turns out that even without making any assumptions on the data distribution, we can say many things. This is studied in [[Agnostic learning]]. In particular, it turns out that we can give a bound on the generalization error, which depends on the sample $$S$$ we obtain, and hold with high probability, at least $$1-\delta$$ for $$\delta>0$$. That is, for algorithm $$\mathcal{A}$$, we can find a function $$\epsilon_\mathcal{A}(S,\delta)$$ such that, for any distribution $$\mathcal{D}$$ whatsoever,and for any $$\delta>0$$ <small>(perhaps $$\delta$$ is allowed to {be required to be smaller than some number for the equation to hold})</small> 
 
 : $$\text{Prob}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right) \leq \epsilon_\mathcal{A}(S,\delta) \right] \geq 1-\delta$$
 
@@ -131,14 +133,14 @@ As an illustrative example, one common function $$\epsilon_\mathcal{A}(S,\delta)
 
 The function $$\epsilon_\mathcal{A}(S,\delta)$$ is almost always expanded in two terms
 
-$$\epsilon_\mathcal{A}(S,\delta) = \hat{\epsilon}_\mathcal{A}(S) + \frac{f(\mathcal{A}, S, \delta)}{m^\alpha}$$
+$$\epsilon_\mathcal{A}(S,\delta) = \hat{\epsilon}_\mathcal{A}(S) + \frac{\mathcal{C}(\mathcal{A}, S, \delta)}{m^\alpha}$$
 
 where $$1/2 \leq \alpha \leq 1$$, and the first term is the //empirical risk// (aka //empirical error//, //empirical loss//, //training error//, //training loss//) and is defined as:
 
 
 $$ \hat{\epsilon}_\mathcal{A}(S) := \sum\limits_{i=1}^m l(\mathcal{A}(S), x_i,y_i)$$
 
-The numerator of the second term $$f(\mathcal{A}, S, \delta)$$ could be any function of its arguments. As the denominator $$m^\alpha$$ is determined by $$S$$, it's technically redundant, but we typically put it there, because then $$f(\mathcal{A}, S, \delta)$$ has the interpretation of //capacity// (aka //sample complexity//). This is a measure of how many training points we need ($$m$$) to get a small second term.
+The numerator of the second term $$\mathcal{C}(\mathcal{A}, S, \delta)$$ could be any function of its arguments. As the denominator $$m^\alpha$$ is determined by $$S$$, it's technically redundant, but we typically put it there, because then $$\mathcal{C}(\mathcal{A}, S, \delta)$$ has the interpretation of //capacity// (aka //sample complexity//) [we will refer to it using that name]. This is a measure of how many training points we need ($$m$$) to get a small second term.
 
 If the second term is small, we are then saying that the generalization error is basically bounded by the training error. $$L_{\mathcal{D}}\left (\mathcal{A}(S)\right) \lesssim \hat{\epsilon}_\mathcal{A}(S)$$ ([[w.h.p.]]). So that, in this case, if we get a small training error, we then get a small generalization error!
 
@@ -146,19 +148,21 @@ __Doing well compared to the best in the hypothesis class__
 
 There is another popular expansion for $$\epsilon_\mathcal{A}(S,\delta)$$, which is 
 
-$$\epsilon_\mathcal{A}(S,\delta) = \min_{f\in \mathcal{F}} L_\mathcal{D}(f) + \frac{\tilde{f}(\mathcal{A}, S, \delta)}{m^\alpha}$$
+$$\epsilon_\mathcal{A}(S,\delta) = \min_{f\in \mathcal{F}} L_\mathcal{D}(f) + \frac{\tilde{\mathcal{C}}(\mathcal{A}, S, \delta)}{m^\alpha}$$
 
 where $$\min_{f\in \mathcal{F}} L_\mathcal{D}(f)$$ is just the minimum true error achievable by any algorithm in the hypothesis class
 
-If one proves bounds using the expansion in terms of empirical error, which hold for all functions in the hypothesis class, and one considers algorithms that minimize the empirical error (said to do [[Empirical risk minimization]] (//ERM// for short)), then by applying that bound twice, and using a simple argument, one obtains a bound of this second form, where $$\tilde{f}$$ is the same as $$f$$ except for some small constant (factor of $$2$$ basically). <small>Basically, one says that if we know that the true and empirical error are close, __for all functions in the class__, then they are close for both the function that minimizes the empirical error and the function that minimizes the true error. Then the true error of the former can't be much higher than that for the latter (note it has to be higher by definition of the latter being a minimizer of true error), because if it was higher (than $$2f/m$$) then the empirical error of the latter will be lower than the empirical error of the former (with high probability), contradicting the fact that the former was a minimizer of empirical error.</small>
+If one proves bounds using the expansion in terms of empirical error, which hold for all functions in the hypothesis class, and one considers algorithms that minimize the empirical error (said to do [[Empirical risk minimization]] (//ERM// for short)), then by applying that bound twice, and using a simple argument, one obtains a bound of this second form, where $$\tilde{\mathcal{C}}$$ is the same as $$\mathcal{C}$$ except for some small constant (factor of $$2$$ basically). <small>Basically, one says that if we know that the true and empirical error are close, __for all functions in the class__, then they are close for both the function that minimizes the empirical error and the function that minimizes the true error. Then the true error of the former can't be much higher than that for the latter (note it has to be higher by definition of the latter being a minimizer of true error), because if it was higher (than $$2f/m$$) then the empirical error of the latter will be lower than the empirical error of the former (with high probability), contradicting the fact that the former was a minimizer of empirical error.</small>
 
-Algorithms for which, for any $$\delta$$, the capacity measure $$\tilde{f}(\mathcal{A}, S, \delta)$$ is bounded <small>(or, more generally grows slower than $$m^\alpha$$, i.e. $$o(m^\alpha)$$, this is little-$$o$$ from [[Order notation]])</small> with high probability, are called //Agnostic PAC learners//. They are characterized by the fact that for any $$\delta$$ and for any $$\epsilon$$, we can get enough data ($$m$$ sufficiently high), such that the second term is smaller than $$\epsilon$$ (i.e. $$\epsilon_\mathcal{A}(S,\delta) - \min_{f\in \mathcal{F}} L_\mathcal{D}(f) \leq \epsilon$$) for any $$\epsilon > 0$$ arbitrarily close to $$0$$.
+Algorithms for which, for any $$\delta$$, the capacity measure $$\tilde{\mathcal{C}}(\mathcal{A}, S, \delta)$$ is bounded <small>(or, more generally grows slower than $$m^\alpha$$, i.e. $$o(m^\alpha)$$, this is little-$$o$$ from [[Order notation]])</small> with high probability, are called //Agnostic PAC learners//. They are characterized by the fact that for any $$\delta$$ and for any $$\epsilon$$, we can get enough data ($$m$$ sufficiently high), such that the second term is smaller than $$\epsilon$$ (i.e. $$\epsilon_\mathcal{A}(S,\delta) - \min_{f\in \mathcal{F}} L_\mathcal{D}(f) \leq \epsilon$$) for any $$\epsilon > 0$$ arbitrarily close to $$0$$.
 
 : Intuitively, agnostic PAC learners are algorithms that can do arbitrarily close to the best one within some restricted class, if given enough data. <small>This is assuming nothing about the data distribution (in the frequentist sense, i.e. looking at the worst case over data distributions).</small>
 
-Now we look at different approaches to bounding the generalization error, which vary on what they take $$f$$ to depend upon. The more you allow $$f$$ to depend on, the tighter the bound can be, because when $$f$$ doesn't depend on some quantity, then, if we make no assumptions on that quantity, the bound must be true, in particular, for the worst case over that quantity, i.e. for the value of that quantity that gives the biggest generalization error. Then for values of that quantity that actually give smaller generalization error, because our bound doesn't depend on that quantity, then our bound will not be very tight (it will be a true upper bound, but won't be very predictive, as it would be much higher than the true value).
+Now we look at different approaches to bounding the generalization error, which vary on what they take $$\mathcal{C}$$ to depend upon. The more you allow $$\mathcal{C}$$ to depend on, the tighter the bound can be, because when $$\mathcal{C}$$ doesn't depend on some quantity, then, if we make no assumptions on that quantity, the bound must be true, in particular, for the worst case over that quantity, i.e. for the value of that quantity that gives the biggest generalization error. Then for values of that quantity that actually give smaller generalization error, because our bound doesn't depend on that quantity, then our bound will not be very tight (it will be a true upper bound, but won't be very predictive, as it would be much higher than the true value).
 
-!!!__Training-set independent capacity: Agnostic [[PAC|Probably approximately correct]] bound__
+!!!__Capacity independent of training set__
+
+__Agnostic [[PAC|Probably approximately correct]] bound__
 
 A classic theory, initiated by a computer scientists called Leslie Valiant, is known as [[Probably approximately correct]] learning. Technically, it is just a name for the general {theory of computing high-probability bounds of the generalization error, i.e. equation ^^$$\star$$^^}. However, it is also often used to refer to a certain approach for such bounds, and we will use the term in that way, to refer to that approach. The approach assumes as little as is reasonable about the learning algorithm. It only assumes something about the cardinality of the set of predictors which the algorithm may output (hypothesis class), $$|\mathcal{F}|$$.
 
@@ -166,17 +170,112 @@ The ''Agnostic Occam theorem for finite hypothesis classes'' states:
 
 : For any $$\mathcal{D}$$, for any learning algorithm with hypothesis class $$\mathcal{F}$$, equation ^^$$\star$$^^ holds with $$\epsilon_\mathcal{A}(S,\delta) = \hat{\epsilon}_\mathcal{A}(S) + \sqrt{\frac{\ln{|\mathcal{F}|}+\ln{\frac{1}{\delta}}}{m}}$$.
 
-This algorithm bounds the difference between the true error and  the training error $$\hat{\epsilon}_\mathcal{A}(S) $$. This bound is of the training data. Therefore, as far as the bound is concerned, we should minimize the training error (doing that gives the best bound of this type). Namely, use empirical risk minimizers.
+This bound bounds the difference between the true error and  the training error $$\hat{\epsilon}_\mathcal{A}(S) $$. The second term is independent of the training data. Therefore, as far as the bound is concerned, we should minimize the training error (doing that gives the best bound of this type). Namely, use empirical risk minimizers.
 
 From this theorem, we can see that ERM algorithms with finite hypothesis classes are agnostic PAC learners! We will see next, that some algorithms with infinite hypothesis classes are also agnostic PAC learners!
 
-!!!__Tighter training-set independent capacity: Agnostic [[VC dimension]] bound__
+__Agnostic [[VC dimension]] bound (tighter version of the PAC bound)__
 
+A hypothesis class consisting of infinitely many functions may still allow an algorithm to generalize. If many of the functions are quite close to each other, we may expect that the number of functions could effectly finite! There are several quantities that mathematically express this notion. One, defined for hypothesis classes corresponding to //binary classification// (output space has to elements, $$\mathcal{Y}={0,1}$$), is the [[VC dimension]]. Given a set of functions, even if infinite, one can in principle calculate its VC dimension.
 
-!!!__Training-set-dependent capacity: Agnostic [[Rademacher complexity]] bound__
+The ''Agnostic Occam theorem for hypothesis classes with finite VC dimension'' 
 
-!!!__Training-set-dependent and algorithm-dependent capacity: weighted agnostic PAC bound (aka [[Structural risk minimization]])__
+: __For binary classification__, for the 0-1 loss function (classification accuracy), any $$\mathcal{D}$$, for any learning algorithm with hypothesis class $$\mathcal{F}$$, equation ^^$$\star$$^^ holds with $$\epsilon_\mathcal{A}(S,\delta) = \hat{\epsilon}_\mathcal{A}(S) + C_1\sqrt{\frac{VC(\mathcal{F})+\ln{\frac{1}{\delta}}}{m}}$$.
 
-!!!__Tighter training-set-dependent and algorithm-dependent capacity: [[PAC-Bayes]] bound__
+for some constant $$C_1$$ independent of the algorithm, or $$\mathcal{D}$$. So it's basically the same as the Occam theorem for finite classes but where the log of the cardinality of the hypothesis class is substituted by the VC dimension of the class (denoted $$VC(\mathcal{F})$$, which is always equal or smaller than $$\ln{|\mathcal{F}|}$$, so the bound is as good or better). Note also that this is only for binary classification
+
+This bound turns out to be ''optimal'' (up to multiplicative constants, independent of the hypothesis class, algorithm, etc) for the set of assumptions we are considering here <small>[well actaully, the independence on the algorithm can be relaxed, see below!]</small>. What that means is that it has a matching lower bound. What __that__ means is that one can prove that (''VC lower bound''):
+
+For binary classification, for the 0-1 loss function (classification accuracy), there exists a data distribution $$\mathcal{D}_{\text{bad}}$$ such that
+
+:  for any algorithm producing predictors in $$\mathcal{F}$$, 
+
+:: for any $$\delta$$
+
+::: $$\text{Prob}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right) \geq \hat{\epsilon}_\mathcal{A}(S) + C_2\sqrt{\frac{VC(\mathcal{F})+\ln{\frac{1}{\delta}}}{m}} \right] \geq \delta$$
+
+for some other constant $$C_2$$
+
+Therefore no agnostic bound which is independent of the training set can be better than the VC dimension bound, except up to a constant factor $$C$$. Any high-probability upper bound lower than that would say $$\text{Prob}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right) \geq \text{smaller bound}  \right] \leq \delta$$ which actually implies $$\text{Prob}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right) \geq\hat{\epsilon}_\mathcal{A}(S) + C_2\sqrt{\frac{VC(\mathcal{F})+\ln{\frac{1}{\delta}}}{m}}  \right] \leq \delta$$, thus being false in the case of $$\mathcal{D}_{\text{bad}}$$, as per the theorem above.
+
+The "for any algorithm" in the VC lower bound theorem above has told us something more than we may have anticipated. It has told us that even if we assume something more about the algorithm, but still don't assume or know anything about the data when computing the bound, the VC dimension bound is still optimal!
+
+|So if you are doing __binary classification__, and you know the hypothesis class of your algorithm, __if you assumme nothing else__ (about data for instance)! (in the frequentist sense, i.e. worst-case), then the __VC dimension bound__ is (up to a constant) the __best guarantee you can make about the generalization error of your algorithm__.|
+
+|You also know that for binary classification, the __algorithms that give the best bounds are ERM algorithms__ (minimize training error). But within those <small>(there may be many possible algorithms that minimize the training error; think that there could be many functions that all fit the data equally well)</small>, none gives you better worst-case VC dimension bounds than any other.|
+
+__What about [[Multiclass classification]]?__
+
+All the results above are about binary classification! There is an analogous quantity to VC dimension, for the case of multiclass classification. It is called the [[Natarajan dimension]]. Similar results to the Occam theorem, and the lower bound (optimality) hold.
+
+However, it turns out that not all ERM algorithms satisfy the optimal bound (or even are agnostic PAC learners), as was the case in binary classification. For multiclass classification, only a subset of ERM algorithms give the best possible agnostic bound (again, for the case of bounds that don't depend on the training set, like we are considering in this section).
+
+!!!__Capacity depends on the training set, but weakly on the algortihm__
+
+What if you allow the bound to depend on the training set. But you still don't want to assume anything about the algorithm, except its hypothesis class $$\mathcal{F}$$? Then it turns out we also have a bound that is optimal (up to multiplicative constants) for this case. As we want the bound to depend on the training set, we need something analogous to the VC dimension but which depends on the training set too, not just on the hypothesis class. That thing is the //Rademacher complexity//, $$\mathcal{R}(S,\mathcal{F}, L)$$ <small>(which actually depends on the loss function $$L$$ too; although one can define the Rademacher complexity of the hypothesis class on some data, without reference to the loss function too. That will make more sense when I put in the definition of Rademacher complexity)</small>
+
+[[Here|http://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/18/material/lecture2.pdf]] is a good introduction to the definition of Rademacher complexity. However, I plan to write things more in depth here in the future.
+
+__Agnostic [[Rademacher complexity]] bound__
+
+The basic version of the Rademacher complexity bound where instead of having a bound which depends on the training set ($$\epsilon_\mathcal{A}(S,\delta)$$), it depens on the data distribution (and also on $$m$$), i.e. we have:
+
+: $$\text{Prob}_{S\sim\mathcal{D}^m}\left[L_{\mathcal{D}}\left (\mathcal{A}(S)\right) \leq \epsilon_\mathcal{A}(\mathcal{D},m,\delta,L) \right] \geq 1-\delta$$
+
+where $$\epsilon_\mathcal{A}(\mathcal{D},m,\delta,L)$$ can be written as before as the training error plus some ratio of a capacity function and $$m$$, but now the capacity function $$\mathcal{C}(S,\mathcal{A},\delta,L)$$ depends, instead of on the VC dimension, on the //expected Rademacher complexity// $$\mathcal{R}(\mathcal{D},\mathcal{F},L,m):=\mathbf{E}_{S\sim \mathcal{D}^m}\left[\mathcal{R}(S,\mathcal{F},L) \right]$$
+
+This is called a //distribution-dependent bound//. Even if we know everything about $$\mathcal{D}$$, if we know something about it (some property of it) that allows us to calculate the bound, then a distribution-dependent bound may be useful. And in that case, we can predict generalization bounds before getting the training data <small>(just like we could for VC dimension, but here the bounds could be tigther/better because we are putting some assumptions on the data distribution, unlike for VC dimension)</small>. That can be quite useful, because via the dependence of $$m$$, we can find how many data points we need to train our algorithm to be able to guarantee a generalization error smaller than some value. Getting data can be quite expensive in the real world, so knowing this can be a critical piece of information for some company or project!
+
+Unfortunately, knowing things about $$\mathcal{D}$$ that allow us to compute a bound may be quite hard, or not possible. <small>[We will discuss this further later for bounds that depend on the algorithm as well as the data; but I leave it as an open question: <mark>Are there any nontrivial problems where we can predict the distribution-dependent Rademacher complexity bound?</mark>]</small>.Therefore, we may be more interested in a //data-dependent bound// that depends on $$S$$ rather than $$\mathcal{D}$$. Fortunately, there are [[Concentration inequality]]es ([[Bounded differences inequality]]) that guarantees that with high probability, the Rademacher complexity on a sample $$S$$, $$\mathcal{R}(S,\mathcal{F},L)$$ is close to its expected value, $$\mathcal{R}(\mathcal{D},\mathcal{F},L)$$. Their difference can be bounded, with high probability, and we can therefore obtain a data-dependent bound of the form ^^$$\star$$^^
+
+The ''Agnostic data-dependent Occam theorem using Rademacher complexity'' 
+
+: For any input or output spaces, any loss function which is bounded (has a maximum absolute value), any $$\mathcal{D}$$, for any learning algorithm with hypothesis class $$\mathcal{F}$$, equation ^^$$\star$$^^ holds with $$\epsilon_\mathcal{A}(S,\delta) = \hat{\epsilon}_\mathcal{A}(S) + 2 \mathcal{R}(S,\mathcal{F},L) +4c\sqrt{\frac{2\ln{\frac{4}{\delta}}}{m}}$$.
+
+for some universal constant $$c$$. See {{UML}} for the proof (until I put it here or something lol)
+
+Note this is a bound that works not just for binary classification, but for any supervised learning task!
+
+It also turns out that the Rademacher bound is optimal under its assumptions. Meaning that we can find a matching lower bound, by which:
+
+there exists a data distribution, for which 
+
+: there exists a learning algorithm with hypothesis class $$\mathcal{F}$$, such that
+
+:: the error is higher than {something like the above upper bound but with some different constant} with high probability.
+
+Notice, that unlike for VC dimension, we don't have "for all learning algorithms" in the middle, but "there exists a learning algorithm". This means that the Rademacher complexity bound is only the optimal data-dependent bound, if we assume nothing about the algorithm, except that it has a certain hypothesis class! This is different than what happened for the VC dimension data-independent bounds. It means that we can expect to get tighter data-dependet bouns, if we use some more information about the learning algorithm. We will explore that in the sections below.
+
+__Particular cases of Rademacher complexity__
+
+The theory of Rademacher complexity is quite ritch. If one specializes to the case of binary classification, one can obtain a bound on the Rademacher complexity that depends on something called the growth function. One can in turn bound the growth function with the VC dimension using [[Sauer's lemma]]. We can therefore derive the VC dimension bound from the Rademacher bound.
+
+One can also have bounds on the Rademacher complexity which depend on the [[Covering number]]s and [[Packing number]]s of the hypothesis class. One can also relate these to VC dimension. In fact to derive the tightest version of the VC bound, this is the only way to derive it, as far as I know is using a trick with covering numbers known as chaining.
+
+!!!__Capacity depends on the training set and on the learning algorithm__
+
+As we saw above, the Rademacher complexity bound could potentially be improved if we make the bound depend, not just on the data $$S$$ and the hypothesis class $$\mathcal{F}$$, but also on further properties of the algorithm $$\mathcal{A}$$. Here we explore approaches to do that. <mark>__As far as I am aware__, it is not known what are the optimal bounds for this most general case</mark>, which explains why there is a bigger variety of approaches here. There are also different ways of defining "optimal" bound, some frequentist, some Bayesian, some a mixture of the two. And I will try to discuss them here [up to now we have seem only frequentist notions of optimal bounds in the VC and Rademacher complexity cases]. data and algorithm dependent bounds is also where a lot of interesting current work is happening.
+
+__Weighted agnostic PAC bound__
+
+__Agnostic [[Structural risk minimization]]__
+
+__[[PAC-Bayes]] bound__
+
+Tighter than the weighted PAC
+
+__Algorithmic stability, robustness and sensitivity bounds__
+
+__[[Compression bound]]s__
+
+__Occam algorithm bound__
+
+General version
+
+[[Kolmogorov complexity]] version.
 
 </div>
+
+----------------
+
+TODO: Proofs, and checking rigorous statements of the different types of generalization bound theorems
