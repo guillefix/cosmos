@@ -1,15 +1,17 @@
 created: 20160703115637608
 creator: guillefix
-modified: 20170417212524457
+modified: 20190314185716883
 modifier: cosmos
 tags: [[Information measures]] [[Statistical physics]]
 title: Entropy
 tmap.id: 0436c842-b5e8-4f74-a418-713538650ad6
 type: text/vnd.tiddlywiki
 
-The entropy, $$H(X)$$, of a [[Random variable]], $$X$$, is defined as 
+The entropy, $$H(X)$$, of a [[Random variable]], $$X$$, with [[Probability distribution]] $$p$$ is defined as 
 
 $$H(X) = - \sum_x p(x) \log{p(x)}$$
+
+Intuitively, ''entropy'' is the number of yes/no questions you expect you need to ask to identify the state of the world, under a [[Model]] of the world ([[Probability distribution]] over states of the world). I.e. how ignorant I think I am about the world.
 
 [[video|https://www.youtube.com/watch?v=6RJP5m3m1XA&index=7&list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft]]
 

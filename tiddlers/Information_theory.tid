@@ -1,17 +1,32 @@
 created: 20160308170951305
 creator: guillefix
-modified: 20180507104646383
+modified: 20190314190053822
 modifier: cosmos
 tags: [[Information science]]
 title: Information theory
 tmap.id: 169d4c15-0cb5-49c2-8f4c-1cbdf98b29cf
 type: text/vnd.tiddlywiki
 
-''Information theory''
+''Information theory'' is the study of ''information'', which is formalized via entropy. Information is, roughly, the minimal number of yes/no questions needed to specify the state of a system (more precisely, the minimal expected number of such questions). Mathematically, the informaiton or entropy, is a property of a [[Probability distribution]]. Physically, it is a property of a physical system, when it is modelled with a probability distribution. In the simplest case, the probability distribution is uniform, in which case the entropy is just a measure of the number of possible states of the system! This is intuitive, a system holds lots of information if it can be in many possible states.
+
+The philosophy of information gets tricky, simply because the philosophy of probability gets tricky, as one is defined in terms of the other. I.e. is information subjective or objective, is a question of wether probability is subjective or objective.
 
 [[Information Theory|https://www.youtube.com/playlist?list=PLE125425EC837021F]], [[Information Theory (CUHK)|https://www.youtube.com/playlist?list=PLJfu_xpF92pvTfcJAILr5Kg1ptMvHUnft]]
 
 !! Entropy/Information
+
+[[Entropy]] is the number of yes/no questions you expect you need to ask to identify the state of the world, under a [[Model]] of the world ([[Probability distribution]] over states of the world). I.e. how ignorant I think I am about the world.
+
+: Btw "The ''information'' something has" is just its entropy, under a model of the something.
+
+If you then for some reason update your model of the world, your expectations change. Because of this, the expected number of yes/no questions using the previously optimal scheme can change. The new number, called [[Cross entropy]] represents how ignorant you think now that you *were* about the world.
+
+[[Relative entropy]] (aka KL divergence) is the difference between how ignorant I think I am *now* after the update (new value of entropy), versus how ignorant I think I was before. I.e. how much less ignorant about the world do I think I have become after the update -- how much information I think I have learned
+
+<small>I am calling -logP(x) "ignorance". It's more typically called "[[Surprise]]".</small>
+
+__Some basic results and quantities__:
+
   * ''Asymptotic equipartition property''
  * [[Information measures]]
  *  [[Data processing theorem]]

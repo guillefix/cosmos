@@ -1,6 +1,6 @@
 created: 20170926224337777
 creator: cosmos
-modified: 20170928214712369
+modified: 20190314212709281
 modifier: cosmos
 tags: [[Graph algorithms]]
 title: Topological sorting
@@ -27,6 +27,17 @@ For it to have a solution the graph must be a DAG, which can be more or less int
 [[How to implement in|https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PL6ED884C7AEE68027#t=28m42s]] [[Adjacency list]] data structure. [[More efficient implementation|https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PL6ED884C7AEE68027#t=28m42s]]
 
 [[An alternative|https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PL6ED884C7AEE68027#t=42m50s]]
+
+Another algorithm is to [[Depth-first search]] on the DAG with reversed edges <small>(i.e. so that we want to do first things which are "below")</small>, and follow the rule: {add a node to the list exactly after the DFS has visited all of its children}
+
+This algorithm works because of the following. Assume that {we add a node to the list exactly after we have visited all of its children}. Now, if for node n, its children c has already been visited, then either:
+
+* n is a descendent of c, in which case, there would be a cycle.
+* n is not a descendent of c. In DFS, after a node is visited, we always visit all of its descendants, before any other node. So in this case n must have been visited after all the descendents of c, and therefore after c has already been added to the list <small>This works whether the graph is a simple tree or DAG. This property of DFS still holds. No matter how we encountered, if we encounter a visited children in a DAG, we know it must have been added already.</small>
+
+Therefore if all children of n have been visited, then all of its children have been added.
+
+Therefore adding every node exactly after all its children have been visited implies that every node is added after all of its children have been added.
 
 -------------
 
