@@ -1,13 +1,13 @@
 created: 20160919220735827
 creator: cosmos
-modified: 20190314192309878
+modified: 20190315191917534
 modifier: cosmos
 tags: [[Information measures]]
 title: Relative entropy
 tmap.id: 4b28e036-d8eb-400e-9bcc-32f9a512593d
 type: text/vnd.tiddlywiki
 
-//aka Kullback–Leibler divergence, KL divergence//
+//aka relative information, Kullback–Leibler divergence, KL divergence//
 
 The ''relative entropy'' between distribution $$P$$ and $$Q$$ is defined as:
 

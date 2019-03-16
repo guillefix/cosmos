@@ -1,6 +1,6 @@
 created: 20160303224225485
 creator: guillefix
-modified: 20181219005615362
+modified: 20190315184618420
 modifier: cosmos
 tags: Self-organization [[Biodiversity & evolution]]
 title: Evolution
@@ -52,6 +52,10 @@ The ''unit of evolution'', I think, is the gene ,,(see the selfish gene),,, plus
 [[“The arrival of the fittest”: Toward a theory of biological organization|http://link.springer.com/article/10.1007/BF02458289]]
 
 [[Evolvability (learning theory)]]
+
+[[Replicator equation]]
+
+[[biology as information dynamics|http://math.ucr.edu/home/baez/bio_asu/]] -- [[The Replicator Equation as an Inference Dynamic|https://arxiv.org/abs/0911.1763]]
 
 !!!__[[Neutral theory of evolution]]__
 
@@ -110,6 +114,8 @@ Replicators at different levels.
 Multilevel selection may not be necessary. However, it may be useful, it is just different ways of looking at evolution at different levels, depending on which processes are most important: mostly which (approximate) replicators are being looked at
 
 Group, kin, individual, gene etc selections are just different proximate/ultimate levels of causation on the same evolutionary process
+
+!!!__Statistical physics of evolution__
 
 -------
 

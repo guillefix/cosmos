@@ -1,7 +1,7 @@
 created: 20160426234442187
 creator: guillefix
-modified: 20161104134328402
-modifier: guillefix
+modified: 20190315202001706
+modifier: cosmos
 title: First-passage time
 tmap.id: e2bb6c92-f67b-4078-a862-13060a6b6760
 type: text/vnd.tiddlywiki
@@ -11,3 +11,7 @@ type: text/vnd.tiddlywiki
 Can also calculate using survival probabilities. See notes!!
 
 See [[Backwards Fokker-Planck equation]]
+
+http://physics.bu.edu/~redner/542/book/rw.pdf#page=7
+
+See also https://www.wikiwand.com/en/Harmonic_measure
