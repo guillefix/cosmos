@@ -1,0 +1,38 @@
+created: 20190316130957930
+creator: cosmos
+modified: 20190316140420776
+modifier: cosmos
+tags: [[Computer hardware]]
+title: Input device
+type: text/vnd.tiddlywiki
+
+Any device designed to transport Information generated or stored withing a system outside the a [[Computer]] to the computer (or some information processing system). By virtue of being able to store information, this external "sender" is an information processing system (even if a trivial one). The whole process is an instance of [[Communication]].
+
+Commonly, the sender systems are Humans, so that the information is manifested in "human-writable form" and transformed into machine-readable form by the input device (which acts as a computer [[Sense]]). Human-writable form of communications include any physical change that can be caused by the human mind (the information stored in it), and mostly come about via [[Locomotion]], and typically via the dexterous use of the [[Hand]]s' many degrees of freedom ([[not as many as cyborg hands tho!|ghost_in_the_shell_cyborg_hands.gif]])
+
+-------------
+
+* [[Keyboard]] and [[Button]]s. Devices that transmit a continuous-time sequence of discrete symbols (continuous-time/discrete-space [[channel|Communication channel]]). The discrete symbols correspond to pressing [[Button]]s (aka keys), or combinations of them. This is often used to encode language, which has been tokenized as sequences of discrete symbols in most cultures already.
+* [[Pointing device]]. Devices that transmit 2D or 3D spatial information.
+* [[Motion controller]]. Spatial information of dimensionality greater than 3, corresponding to [[Pose]] and [[Movement]] of the sender's body (if it has one).
+* [[Audio input device]]. Transmit 1D wave information, coming from pressure waves produced by sender.
+* [[Visual input device]]. Transmit high dimensional data from [[Light field]]s produced by sender. I.e. [[Camera]]/[[Webcam]]
+* [[Radio receiver]]. Send data encoded in [[Electromagnetic wave]]s. For senders that can produce EM signals, like eels, or humans equiped with special devices, or computers with EM transmitters.
+* EM input device. Input devices that read quasi-static [[Electromagnetic field]]s (so not radio). 
+* [[Brain-computer interface]]. Transmits signals read directly from the activity of neurons. Most of the time these are EM signals, so they are EM input devices. However, they could be chemical, or even optical signals (if using [[Optogenetics]] for instance)
+* Chemical input device. [[Electronic nose]]/[[Electronic mouth]]
+* High-energy particle input device. Theoretically, one could communicate using high energy particles (X-rays, high energy baryons, etc), if a sender is able to control some aspect of them. Dunno of any example, <small>except perhaps the atomic bomb, if interpreted as a message....</small>
+* Gravitational input device. In case you can communicate using gravitational waves?
+* Others
+** Biological input device. In theory, one can send information //via// biological beings. Like how we send information to cells via viruses, or if you
+** Pretty much anything really, as long as it can hold [[Information]] can be used to make an input device :P
+
+<small>//even if not explicitly stated, almost all of these input devices actually transmit time sequences of their respective types of information//.</small>
+
+The classification can be done at many levels. If one looks at the most fundamental level, one can talk about which physical forces are being used. In this case, then almost all input devices are electromagnetic (EM) input devices! One can then divide this in many ways, according to the energy of the EM field. or its nature (does it come from molecular EM fields, or from EM waves?) If it comes from molecular EM fields, is it caused by direct contact (button/pointing device), or via pressure waves (audio), or via field patterns at the molecular scale (chemical input). If it comes from EM waves, is it low energy (radio), or high energy (visible). Etc.
+
+Also where to draw the distinction between sender receiver isn't necessarily clear either. For instance, when using a VR motion controller, is the controller part of the "sender" or the "receiver". You could instead consider a chain of sender/receivers, and an overall communication system. You could do this at many scales too. When you use your computer microphone, you can analyze, using communication theory, how each molecule, or little volume of air is transmitting information to the next. This may seem ridiculous but it could be a useful perspective, for instance to analyze the noise in the information transmission (why can't you speak arbitrarily softly, or from arbitrarily far to your microphone? What determines the distance at which it stops being effective for Siri to understand your commands? Many interconnected systems enter in the analysis of such simple to state questions.
+
+--------
+
+See also [[Human-computer interaction]]

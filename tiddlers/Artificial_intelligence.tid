@@ -1,6 +1,6 @@
 created: 20160124143839436
 creator: guillefix
-modified: 20190204184247525
+modified: 20190316130207148
 modifier: cosmos
 tags: Intelligence [[Computer Science and IT]]
 title: Artificial intelligence
@@ -116,6 +116,12 @@ Seems to be a result of:
 *Very large datasets
 *Increasing computing power
 *Flexibility of the models. Lots of parameters when lots of layers. Furthermore multiple layers avoide the curse of dimensionality
+
+----------------
+
+16/03/2019
+
+[[Thoughts on Sutton's bitter lesson]]
 
 --------
 

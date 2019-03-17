@@ -1,0 +1,31 @@
+created: 20190316130216073
+creator: cosmos
+modified: 20190316130151537
+modifier: cosmos
+title: Thoughts on Sutton's bitter lesson
+type: text/vnd.tiddlywiki
+
+"We want AI agents that can discover like we can, not which contain what we have discovered.". 
+http://www.incompleteideas.net/IncIdeas/BitterLesson.html
+I generally agree with most of this piece.
+
+However, let me complement it with the positive side of human knowledge (which this short opinion piece is too harsh on, imo).
+
+Human knowledge (90% stored in culture, 10% in biology <- made up numbers) has been and is tremendously useful to solve lots of problems. It's just that almost all of these are not in the news, because, well, they are solved problems.
+
+When will the next lunar eclipse happen? This is a solved problem (up to an unreasonable precision). It has taken us millennia to solve it. But it is. It wouldn't make to use deep learning for this.
+
+How do you land a rover in Mars? How do you catch fish? How do you build a good enough house? How do you walk? or move 20x faster than that? How can we fly? Or traverse the oceans? How can you communicate at the speed of light? What is the speed of light? How can you make a machine do basic maths, and not-so-basic math, and so-weird-math-that-its-not-even-math-any-more (i.e. computer programs)? How can you cure an infection? How can you make a lamp safe to use on a coal mine? Etc etc etc
+
+These and a million other, are problems humanity has successfully solved over the last millenia (some much before, like "how to walk"). So, of course, one doesn't need ML to solve these, or many of the million every-day subproblems that the solutions to the above problems also solve (like organizing a simple meet-up, cooking rice, deciding whether to take an umbrella, splitting the bill, etc).
+
+However, Sutton is focusing on problems which are very much unsolved, and for which it isn't clear whether our Knowledge can help. His argument is that of all unsolved problems, a fraction much larger than we expect benefits from our Knowledge much less than we expect.
+
+Examples of these problems are the standard ML bunch: playing chess, Go, speech and image recognition, etc., without strong computational limitations. And there are maany problems like this. And we have a wrong bias against this fact, which is why I agree with the intent of the article.
+
+Note that there are problems, even in ML, where human knowledge is useful. Like in robotics. This may be because of computational resources, effectively reframing today's problem of robotics as "locomotion with today's computers". Perhaps, once computers are faster, we will reframe the problem as "locomotion with {much faster computers}". And then it may be that human knowledge is much less useful, again. Simply because with arbitrarily much compute and data, the thing could just learn everything we know, and learn it better..
+
+So perhaps it is true that compute and search and learning win in the long term, while human knowledge may be useful in the short term. But, what is long and short term varies hugeeely between problems. This statement is similar to the notions of asymptotic optimality that Schmidhuber discusses. We have algorithms that given enough compute power, and large enough problems are provably optimal. However, what *enough* is could be pretty ridiculous for some problems.
+
+However, talking about math and general things. One also knows that there *are* problems for which human knowledge helps. In fact Sutton recognizes this in a few words in the article. Sometimes human knowledge and computationally scalable algorithms don't go against each other (so it isn't as if one wins and one looses). An example may be CNNs. CNNs are as scalable, or even more scalable, and as flexible as fully connected (FC) nets. So they are general purpose learners that aren't constrained by our knowledge. However, they do feed on our knowledge of spatial invariance, which biases them towards the right sort of solutions. This is a success story of __human knowledge being useful, but not constraining/limiting__. That is the kind of thing we want from AI.
+

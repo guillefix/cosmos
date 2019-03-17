@@ -1,0 +1,16 @@
+created: 20190316131010920
+creator: cosmos
+modified: 20190316131138976
+modifier: cosmos
+title: Pointing device
+type: text/vnd.tiddlywiki
+
+Any [[Input device]] which transmits spatial information. This is most often in 2D ($$\mathbb{R}^2$$) ([[Touchpad]]s, [[mice|Mouse (pointing device)]], etc), or sometimes in 3D ($$\mathbb{R}^3$$), [[VR controller]]s, [[Leap motion]]
+
+-----------
+
+See hmms about touchpads in facebook/telegram...
+
+osu! is a good benchmark for the effectiveness of your pointing device. If you are on your PC or laptop, go here: http://www.osu-web.com/ and try arabesque level Easy or Normal, and tell me how you did. I'm curious about people's responses. Trick that could help for some devices: make the browser window really small to not have to move the cursor too much around.
+
+As I guessed, I did really well in my old Dell, but really bad on my new MSI (and probably in 99.9% of all modern laptops) :(
