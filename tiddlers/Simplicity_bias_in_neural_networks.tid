@@ -1,6 +1,6 @@
 created: 20180525152908885
 creator: cosmos
-modified: 20190211200837536
+modified: 20190319181847978
 modifier: cosmos
 tags: [[Simplicity bias]] [[Generalization in deep learning]]
 title: Simplicity bias in neural networks
@@ -12,6 +12,8 @@ type: text/vnd.tiddlywiki
 [[Deep neural networks are biased towards simple functions|https://arxiv.org/pdf/1812.10156.pdf]]
 
 https://www.facebook.com/guillermovalleperez/posts/10156112403591223?comment_id=10156117816756223&notif_id=1527255728896180&notif_t=feedback_reaction_generic
+
+[[Learning in feedforward Boolean networks|https://journals.aps.org/pra/abstract/10.1103/PhysRevA.42.6210]] -- Zipf law distribution of functions
 
 --------------
 
