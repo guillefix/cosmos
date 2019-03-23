@@ -1,6 +1,6 @@
 created: 20160206172615546
 creator: guillefix
-modified: 20170926124647422
+modified: 20190322224227226
 modifier: cosmos
 tags: Analysis
 title: Limits and infinity
@@ -20,3 +20,5 @@ Another mathematical object defined as a limit are __space-filling curves__, des
 .....
 
 perhaps only those concepts to do with infinity which can be expressed as a a limit of finite concepts are useful
+
+> <small>(idea)</small>''Yeah, a single limit infinite corresponds to {thing is arbitrarily large}, an ordered sequence of limits corresponds to things like {thing2 is arbitrarily larg//er// than thing 1} etc''! See big Hmm at [[Borel-Cantelli lemmas]]

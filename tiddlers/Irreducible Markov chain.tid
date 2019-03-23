@@ -1,0 +1,11 @@
+created: 20190322231935063
+creator: cosmos
+modified: 20190322231932748
+modifier: cosmos
+tags: [[Markov chain]]
+title: Irreducible Markov chain
+type: text/vnd.tiddlywiki
+
+If it is possible to go with positive probability from any state of the
+[[Markov chain]] to any other state in a finite number of steps, the Markov
+chain is said to be ''irreducible''.

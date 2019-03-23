@@ -1,6 +1,6 @@
 created: 20160714005531377
 creator: guillefix
-modified: 20170924160013673
+modified: 20190322132206252
 modifier: cosmos
 tags: [[Examples of topologies]]
 title: Product topology
@@ -22,7 +22,7 @@ The sets forming the subbase are known as ''open cylinders'', while those formin
 
 Another equivalent way of defining the product topology is as the 'smallest' topology such that the projection functions $$\pi_j:\times_i X_i \rightarrow X_j$$, $$f \mapsto f(j)$$ are [[Continuous function]]s.
 
-A smaller subbase is given by the [[Cylinder set]]s
+<small>A smaller subbase (in the case of a product of finite sets) is given by the sets defined [[here|https://www.youtube.com/watch?v=dUofthrSolQ#t=6m0s]]. They are like open cylinders but where we require $$f(j)$$ to belong to the basis of $$X_i$$ instead of to its topology (<mark>Warning, nonstandard terminology</mark>: He calls them cylinder sets, but that doesn't agree with the standard terminology, used here. We call them [[Basic open cylinder]]).<small>
 
 -----------------
 

@@ -1,0 +1,10 @@
+created: 20190322124811974
+creator: cosmos
+modified: 20190322132104908
+modifier: cosmos
+title: Basic open cylinder
+type: text/vnd.tiddlywiki
+
+Open cylinders where the proper subset in the product of subsets is a singleton. They form a subbase of the [[Product topology]] for products of finite sets.
+
+<!--Wrong [[definition|https://youtu.be/dUofthrSolQ?t=643]]. He uses non-standard terminology though, this appears to be a subset of [[Cylinder set]]s for product of finite sets.-->

@@ -1,0 +1,15 @@
+created: 20190322232022763
+creator: cosmos
+modified: 20190322234853001
+modifier: cosmos
+tags: [[Markov chain]]
+title: Aperiodic Markov chain
+type: text/vnd.tiddlywiki
+
+If the [[largest common factor|Greatest common divisor]] of the lengths
+of different paths from any state to itself is 1, the [[Markov chain]] is said to
+''aperiodic''. That is they are [[Coprime]]. One can produce any number greater than the product of two coprimes, by summing multiples of the coprimes <small>(consider for coprimes a and b, writting any number c as a*m + r, where r<a. One can also see that k*a mod b visits every possible value of r as k ranges from 1 to b; this is enough to make any number greater than b*a).</small>  Therefore, after a time equal to the product of the smallest pair of coprimes in the duration of cycles, then for every time, there will be a path going back at that time, and so from that time on the probability of that state, if it was nonzero originally, will be nonzero.
+
+Without aperiodicity, if the paths had gcd 2 say, then if we started at time 0, then, if we assume that the initial distribution was supported only in this state, then at odd times, the probability of the state has to be 0, while at even times it will be positive. Therefore, from this initial distribution the state can't converge to a stationary distribution.
+
+Therefore, to prove convergence to a stationary distribution from any initial distribution, aperiodicity is a necessary condition. It is not necessary, however, for the //existence// of an stationary distribution <small>(consider, e.g. the Markov chain formed by a simple cycle between three states feeding to the next one with probability 1, which has stationary distribution 1/3, but also doesn't converge to it from any other distribution)</small>

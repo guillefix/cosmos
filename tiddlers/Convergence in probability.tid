@@ -1,0 +1,19 @@
+created: 20190322194827340
+creator: cosmos
+modified: 20190322195105696
+modifier: cosmos
+tags: [[Convergence of random variables]]
+title: Convergence in probability
+type: text/vnd.tiddlywiki
+
+We say that a [[Sequence]] of [[Random variable]]s $$(X_n)_{n\in \mathbb{N}}$$ ''converges in probability'' to random variable $$X$$, if: 
+
+For any $$\epsilon > 0$$, $$\delta > 0$$
+
+: there exists a sufficiently large $$n_0$$ such that
+
+:: For all $$n>n_0$$
+
+:::$$\text{Pr}\left[|X_n - X| > \epsilon\right] < \delta$$
+
+Remember that the random variables may not be "random". I.e. a deterministic value is a particular case of a random variable in the technical sense.

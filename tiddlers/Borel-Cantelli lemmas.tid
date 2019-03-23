@@ -1,0 +1,39 @@
+created: 20190322205809504
+creator: cosmos
+modified: 20190322224218561
+modifier: cosmos
+title: Borel-Cantelli lemmas
+type: text/vnd.tiddlywiki
+
+https://www.wikiwand.com/en/Borel%E2%80%93Cantelli_lemma#/Converse_result
+
+__Proof for 2nd Borel-Cantelli lemma__ (used for [[Recurrence]]): https://www.wikiwand.com/en/Borel%E2%80%93Cantelli_lemma#/Proof%5B5%5D what it is saying is "what is the probability that after some finite time $$N$$, I don't get any more of the events in $$\cup_{i=N}^\infty E_i$$" (which is just the event {I come back at the origin} in the case of studying recurrence). And that can be expressed as a product of the complement of probabilities, __when the events at different times are independent!__, which by bounding it with an exponential, you can see it's zero if the sum over the probability of the event, over all time is infinity. One then can show that the union of the sets {sequences such that the event doesn't occur any more after finite time $$N$$} for increasing $$N$$s (which are nested!) is the limit as $$N$$ gets to infinity of their probability. But we shown that to be $$0$$ therefore this limit is $$0$$. (actually we showed that to be zero by using $$\exp{(-\infty)} = 0$$, which is really a limit thing, and so we are taking two limits here... Hmm. But the limits in the proof are taken in the right order so that it works out.. This all amounts to how liWe sWeminfs and limsups work in measure theory :P Well also the other limit (that isn't $$N$$) is like the time horizon, and it makes sense to take that limit first.
+But it makes intuitive sense at least. If the probability that it won't happen again after time $$N$$ is $$0$$ for any $$N$$, then it will happen infinitely often with prob 1...
+
+If however, we asked the question what is the probability that event $$E$$ doesn't happen after time $$N$$ and before time $$M$$, we get a finite amount, and the limit of this amount depends on how $$N$$ and $$M$$ tend to infinity.
+
+We are taking $$M$$ to infinity first so that we can apply the argument that the intersections of $$E^c_i$$ are nested.. Yeah yeah I get that, but the above also makes sense.
+
+When we say "happens infinitely often" we are making an statement about an even twhere the time horizon $$M$$ has //already// been taken to infinity. Therefore that limit is taken first before any limit regarding the definition of the event!
+
+Yes, for any finite $$M$$, "happens infinitely often" isnt' even de defined! So we write down the definition of the event, whose probability may include some limit w.r.t to some variable (like $$N$$ in this case), but the probabilities of any basic event is computed by having taken the limit of $$M$$ to infinity already! That is our probability space!
+
+Ok, that makes sense. However, the infinite union becoming a limit of probabilities still requires some thought!
+
+Something happens infinitely often if the probability of {the complement of that something not happening after a finite time $$N$$} is zero, __no matter how large $$N$$__*. That "no matter how large $$N$$" is what the limit on $$N$$ is capturing. But in fact, we have shown it explicitely that it is true, no matter how large $$N$$ is, so we have shown it explicitly as the definition I just made in the first sentence of this paragraph. Therefore, the formal axioms of probabiliy theory, which the proof follows, give the same result as the formulation I just made here (which isn't made of complements of limsups etc. 
+
+,* this can be justified as: if it happens a finite number of times, there is a finite $$N$$ after which it doesn't happen. 
+
+Note that we formally define an infinite sum or an infinite product as the limit of that sum or of that product as we take the number of terms or factors going to infinity.
+
+-------
+
+Btw the notionf of limsup used in the proof can be read as {"event happens again after time $$1$$" and "event happens again after time $$2$$" and "event happens again after time $$3$$" and ...}, which agrees with my definition above. The negation of this is that there is some time $$N$$ after which event doesn't happen. The probability of each of these is exactly $$0$$, and therefore the infinite union over $$N$$ is $$0$$. In fact because the events are nested, we know that the infinite union over them is just the limit of the one for $$N$$ as $$N$$ tends to infinity (i.e. the probability of the largest one if the union was finite. Because it is infinite, we consider the limit. In fact in our case, all elements are 0 in the sequence of  unions...). Ok so the definitions make sense, and they agree with intuition. 
+
+In practice, however, where things are finite, what we need to consider is taking the limit of $$M$$ as far possible,  before taking the limit of $$N$$. It makes, sense however, that we would have these difficulties, because this theorem deals with infinity at the core of its statement. Translating the limits implied by the formal definition of the things in its statement, it means in practice to take $$M$$ as big as possible before considering $$N$$, and in fact $$N<<M$$ (<-- this corresponds to the practical approximation of taking limit of $$M$$ before taking limit of $$N$$*) would be the "practical/computable" version of this idealized theorem.
+
+, * This should be read as "M arbitrarily larger than N", <small>not the usual asymptotic meaning of the symbol $$<<$$, which here isn't defined</small>. This seems like a good general recipe for translating order of limits to finitist statements. One could maybe prove this intuition in general too! And prove approximation results to limit-based things, but I think it's likely to be quite generally true! ''Yeah, a single limit infinite corresponds to {thing is arbitrarily large}, an ordered sequence of limits corresponds to things like {thing2 is arbitrarily larg//er// than thing 1} etc''! See [[Limits and infinity]]
+
+: To make a finitist version of this statement, one needs to say basically: "the probability that something doesn't happen in a really long time", rather than "the probability that something doesn't happen infinitely often"
+
+: So "the probability that something doesn't happen in a really long time is very small if the sum of probabilities of the something (assuming independent) over that really long time is really large ", and if the longer that that really long time is made, the the sum of probabilities gets arbitrarily large, then the probability of it not happening gets arbitrarily small

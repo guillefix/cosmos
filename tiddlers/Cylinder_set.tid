@@ -1,15 +1,26 @@
 created: 20160714121048785
 creator: guillefix
-modified: 20161104134327735
-modifier: guillefix
+modified: 20190322132928632
+modifier: cosmos
 title: Cylinder set
 tmap.id: f20d14e8-2775-4dfb-846f-b3eef48c66ab
 type: text/vnd.tiddlywiki
 
-Natural [[Open set]]s forming a [[basis|Filter base]] a [[Product topology]]
+Natural [[Open set]]s forming a [[basis|Filter base]] a [[Product topology]]. See [[Product topology]] for definition.
 
+A //basic cylinder set// defined for products of finite sets with the discrete topology, is like a cylinder set but where we only consider singleton open sets ("basic open sets" for the discrete topology) (see [[here|https://www.wikiwand.com/en/Cylinder_set#/Cylinder_sets_in_products_of_discrete_sets]]) 
 
-,,[[Definition|https://www.youtube.com/watch?v=dUofthrSolQ#t=6m0s]]. This is not right I think, he is defining //open cylinders// which form a subbase (and he's not even defining all open cylinders). See [[Product topology]] for more.,,
+Cylinder sets are [[Clopen set]]s
+
+<!-- He uses nonstandard definition!
+,,[[Alternative definition?|https://www.youtube.com/watch?v=dUofthrSolQ#t=6m0s]].,, He calls "cylinder sets" a different thing a [[subbase|Filter subbase]] of the [[Product topology]] for a product of sets with the discrete topology, as it's the case for finite sets (called alphabet in the context of [[Sequence space]]s). Under these conditions, then:
+
+*  they form a subbase of the [[Product topology]]. 
+
+* they also generate the [[Open cylinders]] (which also give a subbase of the product topology, even in the case of infinite alphabets).
+
+*  they therefore also generate the [[Cylinder set]]s which form a basis of the product topology
+-->
 
 --------------
 

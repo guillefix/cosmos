@@ -1,0 +1,17 @@
+created: 20190322232136309
+creator: cosmos
+modified: 20190322232340011
+modifier: cosmos
+tags: [[Number theory]]
+title: Greatest common divisor
+type: text/vnd.tiddlywiki
+
+//aka greatest common factor (gcf), highest common factor (hcf), greatest common measure (gcm), or highest common divisor.//
+
+The ''greatest common divisor'' (denoted ''gcd'')of [[Integer]]s $$a$$ and $$b$$ is the largest positive integer that divides each of the integers, i.e. the largest $$c$$ such that
+
+: there exists an $$n$$ such that $$cn = a $$
+
+and
+
+: there exists an $$m$$ such that $$cm = b $$

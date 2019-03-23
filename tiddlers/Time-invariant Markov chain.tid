@@ -1,0 +1,9 @@
+created: 20190322231739033
+creator: cosmos
+modified: 20190322231814099
+modifier: cosmos
+tags: [[Markov chain]]
+title: Time-invariant Markov chain
+type: text/vnd.tiddlywiki
+
+A [[Markov chain]] is said to be ''time-invariant'' if its [[Transition matrix]] (i.e. matrix of transition probabilities, i.e. of conditional probabilities) does not depend on time.
