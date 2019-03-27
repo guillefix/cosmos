@@ -1,6 +1,6 @@
 created: 20170510213348476
 creator: cosmos
-modified: 20181219215040911
+modified: 20190326150524826
 modifier: cosmos
 tags: [[Learning theory]]
 title: PAC-Bayesian learning
@@ -24,12 +24,19 @@ The Gibbs posterior version is a special case of the ''General PAC-Bayes theorem
 
 [img[PAC-Bayesian model averaging.jpg]]
 
+This is actually a particular case of the ''Relative entropy general PAC-Bayes theorem'' from Langford which tightens the above bound, specially at large values of the bound (in particular the Langford one is automatically smaller than $$1$$). The theorem is here:
+
+: [[Bounds for Averaging Classifiers|http://hunch.net/~jl/projects/prediction_bounds/averaging/averaging_tech.pdf]]
+
+
 See <big>[ext[here for proof|https://courses.cs.washington.edu/courses/cse522/11wi/scribes/lecture13.pdf]]</big> of general (KL) version. See derivation on blackboard (pic..) for connection with Gibbs learner version ([[graph of bounds for KL of binary variables|https://www.desmos.com/calculator/hr4qquya5e]])
 
 To see how the Theorem 1 from 
 <small>[[Some PAC-Bayesian Theorems|https://link.springer.com/article/10.1023/A:1007618624809]]</small> follows from the general theorem below ( <small>[[PAC-Bayes model averaging|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.46.6957&rep=rep1&type=pdf]]</small> ), see picture of blackboard derivation, or see [[here|https://youtu.be/mxc3jqz2gBE?t=1396]].
 
 One can also show that the Gibbs posterior gives the optimal bound of the form given by the general theorem. See discussion in [[Evidence lower bound]]. 
+
+-- [[Tutorial on Practical Prediction Theory for Classification|http://www.jmlr.org/papers/volume6/langford05a/langford05a.pdf]]
 
 -----------
 

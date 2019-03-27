@@ -1,6 +1,6 @@
 created: 20180116121019618
 creator: cosmos
-modified: 20181218205819346
+modified: 20190326122415412
 modifier: cosmos
 tags: Arithmetic
 title: Mean
@@ -10,4 +10,5 @@ type: text/vnd.tiddlywiki
 
 * [[Harmonic mean]]
 * [[Arithmetic mean]]
-* 1st moment or [[Expectation]] of a [[Random variable]]: $$E[X] = \sum\limits_x x\mathbb{P}[X=x]
+* 1st moment or [[Expectation]] of a [[Random variable]]: $$E[X] = \sum\limits_x x\mathbb{P}[X=x]$$
+* [[Geometric mean]]
