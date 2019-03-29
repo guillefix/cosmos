@@ -1,6 +1,6 @@
 created: 20181218203938301
 creator: cosmos
-modified: 20190309024105961
+modified: 20190328192620848
 modifier: cosmos
 tags: [[Supervised learning]] [[Learning theory]]
 title: Introduction to supervised learning theory
@@ -186,9 +186,11 @@ for some constant $$C_1$$ independent of the algorithm, or $$\mathcal{D}$$. So i
 
 This bound turns out to be ''optimal'' (up to multiplicative constants, independent of the hypothesis class, algorithm, etc) for the set of assumptions we are considering here <small>[well actaully, the independence on the algorithm can be relaxed, see below!]</small>. What that means is that it has a matching lower bound. What __that__ means is that one can prove that (''VC lower bound''):
 
-For binary classification, for the 0-1 loss function (classification accuracy), there exists a data distribution $$\mathcal{D}_{\text{bad}}$$ such that
+For binary classification, for the 0-1 loss function (classification accuracy), 
 
-:  for any algorithm producing predictors in $$\mathcal{F}$$, 
+for any algorithm producing predictors in $$\mathcal{F}$$,
+
+: there exists a data distribution $$\mathcal{D}_{\text{bad}}$$ such that
 
 :: for any $$\delta$$
 

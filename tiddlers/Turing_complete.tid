@@ -1,10 +1,18 @@
 created: 20160904164309634
-modified: 20161104134332958
+creator: cosmos
+modified: 20190329021247366
+modifier: cosmos
 tags: [[Computability theory]]
 title: Turing complete
 tmap.id: 15eb7839-942f-48e1-a568-bee2dc462fa4
 type: text/vnd.tiddlywiki
 
+//aka Turing universality//
+
 https://www.wikiwand.com/en/Turing_completeness
 
 A [[machine|Automata theory]] that is universal is an [[Universal Turing machine]] is called ''Turing complete''
+
+---------------------------
+
+"[[Principle of computational equivalence|http://mathworld.wolfram.com/PrincipleofComputationalEquivalence.html]]". [[Stephen Wolfram]] [[conjectures that Turing universality is a typical property of simple computing systems|https://www.wolframscience.com/nks/p718--outline-of-the-principle/]] [[It asserts that no system can be super Turing in Nature|https://www.wolframscience.com/nks/p720--the-content-of-the-principle/]], isn't this just the [[Church-Turing thesis]]?
