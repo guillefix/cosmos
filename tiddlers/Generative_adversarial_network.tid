@@ -1,6 +1,6 @@
 created: 20161018183639198
 creator: cosmos
-modified: 20171106222616697
+modified: 20190331023956353
 modifier: cosmos
 tags: [[Generative model]]
 title: Generative adversarial network
@@ -15,9 +15,11 @@ https://deephunt.in/the-gan-zoo-79597dc8c347 -- https://github.com/wiseodd/gener
 
 [[GAN on browser|https://reiinakano.github.io/gan-playground/]]
 
+example of GANs for discrete data: https://arxiv.org/pdf/1611.08408.pdf (in area of semantic segmentation) It's funny how people in NLP literature keep talking about how GANs are hard to make work for discrete data. Then, people in image segmentation literature (oblivious of all this?) successfully apply vanilla GANs to discrete data..
+
 !!__Adversarial networks__
 
-The way the network is trained is by having the generative network produce images, while training a different discriminative network to discriminate between real and generated images. In this way, the discriminative network can be used as a very good cost function, which penalized generated images which are distinguishably different from the real images that the generative network is train to model.
+The way the network is trained is by having the generative network produce images, while training a different discriminative network to discriminate between real and generated images. In this way, the discriminative network can be used as a very good cost function, which penalized generated images which are distinguishably different from the real images that the generative network is train to model. E.g. for NLP literature stuff https://arxiv.org/abs/1611.04051?fbclid=IwAR0MOTB8nsV555rKdNb3EQ8pt-LbTKcxUHP_5ZC-of4zDGf_Et_uz1r39b4
 
 We are in effect learning the cost function
 

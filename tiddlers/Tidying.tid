@@ -1,0 +1,30 @@
+created: 20190331032038644
+creator: cosmos
+modified: 20190331032034073
+modifier: cosmos
+tags: Hygiene
+title: Tidying
+type: text/vnd.tiddlywiki
+
+https://www.facebook.com/guillermovalleperez/posts/10156793405136223
+
+Hmm. I really need to tidy my room. 
+So I started thinking about how tiding is similar to sorting
+So then I started thinking of formalizing the tiding problem, but it all got super complicated and NP-complete, and also my computer crashed, so I lost what I wrote
+So now I started thinking of heuristics, and inspired by merge sort, I came up with
+
+_merge tidy_
+
+1. Divide room into sensible regions
+2. For each region, divide objects into those that belong inside that region, and those that belong outside it.
+3. For those inside the region, tidy them. You are saving having to move too much around the room, by only tidying locally!
+4. After doing this for every region, in a spatial sequence, then merge two contiguous regions, one of them being the one you ended up in. A merge is defined by taking the "belong outside" objects from each of the two regions, and "tidying" them (i.e. divide them into "outside the union of the regions" and "inside it", and then tidy those inside).
+5. Keep merging until you have tidied the whole room.
+
+This has O(nlogn) running time in the worst case, like merge sort, but maybe it has better average case? Hmm maybe I'll analyze it more after I tidy my room.
+
+Also, whether it can be done in-place or not depends on physical constraints of the regions and the objects in them. Alternatively, if possible, one can use the floor as memory, and have O(n) memory in the worst case, but again, probably better for average room.
+
+Will report on how well it went.
+
+8
