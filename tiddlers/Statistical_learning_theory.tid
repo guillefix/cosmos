@@ -1,6 +1,6 @@
 created: 20181219193400996
 creator: cosmos
-modified: 20190309020108064
+modified: 20190331155027020
 modifier: cosmos
 tags: [[Learning theory]]
 title: Statistical learning theory
@@ -12,5 +12,7 @@ type: text/vnd.tiddlywiki
 * [[Statistical unsupervised learning theory]]
 
 The other major branch of learning theory is [[Computational learning theory]], which also studies [[Computational complexity]] of learning.
+
+See [[Generalization]]
 
 http://maxim.ece.illinois.edu/teaching/SLT/SLT.pdf -- http://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/18/

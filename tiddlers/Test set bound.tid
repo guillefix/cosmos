@@ -1,0 +1,12 @@
+created: 20190331155534995
+creator: cosmos
+modified: 20190331155652004
+modifier: cosmos
+title: Test set bound
+type: text/vnd.tiddlywiki
+
+Bounds which apply when testing on the [[Test set]] (aka hold out data) of some learning problem.
+
+Under the usual assumptions of independence, they can be derived using [[Hoeffding's inequality]], or tighter versions of it based on analyzing the tails of the [[Binomial distribution]]
+
+See [[here|http://www.jmlr.org/papers/volume6/langford05a/langford05a.pdf]]

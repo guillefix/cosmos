@@ -1,13 +1,13 @@
 created: 20160918174304853
 creator: cosmos
-modified: 20181219192612010
+modified: 20190331155609731
 modifier: cosmos
-tags: [[Learning theory]]
+tags: [[Statistical learning theory]]
 title: Generalization
 tmap.id: b1a2ad00-164d-4e16-a784-682652f169b1
 type: text/vnd.tiddlywiki
 
-See [[Learning theory]], [[Generalization error]], [[Learning curve]]
+See [[Learning theory]], [[Learning curve]]
 
 __Generalization bound techniques__
 
@@ -15,13 +15,24 @@ Basically, anything that restricts/controls the capacity. That is, gives an indu
 
 * [[Minimax risk]]
 
-* [[VC dimension]]
+* [[Bayes risk]]
+
+* [[Test set bound]]. See [[here|http://www.jmlr.org/papers/volume6/langford05a/langford05a.pdf]]
+
+* [[Cross-validation generalization error bounds]]
+
+* [[VC dimension]] (for binary classification)
 
 * [[PAC-Bayesian learning]]
 
 * Fourier concentration-based bounds (see [[Sensitivity]] ([[here|https://www.youtube.com/watch?v=HIKTt9vaElM&feature=youtu.be&t=16m35s]]), [[Wavelet]]s..)
 
 * [[Rademacher complexity]]
+
+** [[Covering-number generalization error bounds]]
+** [[Growth function]] generalization error bound (for binary classification)
+
+* [[Margin-based generalization bound]] (see [[Support vector machine]]s for instance)
 
 * [[Statistical physics framework|Statistical physics and inference]]
 
@@ -30,9 +41,7 @@ Basically, anything that restricts/controls the capacity. That is, gives an indu
 
 * Norm-based bounds (see [[Generalization in deep learning]] for examples).
 
-* [[Margin]]-based bounds (see [[Support vector machine]]s for instance).
-
-* [[Simplicity bias]] in the [[Parameter-function map]] (see my paper)
+* [[Occam razor bound]]s. See [[here|http://www.jmlr.org/papers/volume6/langford05a/langford05a.pdf]] for instance. Essentially the same as [[Structural risk minimization]]. [[Simplicity bias]] in the [[Parameter-function map]] (see my paper)
 
 * [[Kolmogorov complexity]]. See [[here|https://link.springer.com/chapter/10.1007/978-3-642-44958-1_17]] for instance.
 
@@ -46,6 +55,7 @@ Basically, anything that restricts/controls the capacity. That is, gives an indu
 
 [ext[Learning to generalize|http://www.ki.tu-berlin.de/fileadmin/fg135/publikationen/opper/Op01.pdf]]
 
+[img[Introduction to supervised learning theory]]
 
 ---------------
 

@@ -1,6 +1,6 @@
 created: 20160914085844404
 creator: cosmos
-modified: 20190331024411996
+modified: 20190331155124897
 modifier: cosmos
 tags: [[Model selection]]
 title: Cross-validation
@@ -56,6 +56,12 @@ k-fold CV, for whem k={number of training examples}, so for each iteration, you 
 
 Even more computationally expensive, but more accurate estimate of generalization error. Only done when the data is very scarce.
 
+!!__[[Cross-validation generalization error bounds]]__
+
+I have the feeling that one (not necessarily me xD) could maybe theoretically prove that something like cross-validation is an optimal way to estimate the generalization error of your algorithm (under some definitions of optimality).
+In a way that would be kinda annoying because CV is used all the time, so we won't get anything better. But, on the other hand it'd be pretty interesting and kinda useful to know...
+[insert thonk emoji]
+
 ---------------------
 
 //Some thoughts// when I misunderstood train/validation/test learning.
@@ -68,8 +74,3 @@ However, to choose the hyperparameters that are best, we can't just look at thei
 
 -------------
 
-Thoughts on [[Statistical learning theory]]
-
-I have the feeling that one (not necessarily me xD) could maybe theoretically prove that something like cross-validation is an optimal way to estimate the generalization error of your algorithm (under some definitions of optimality).
-In a way that would be kinda annoying because CV is used all the time, so we won't get anything better. But, on the other hand it'd be pretty interesting and kinda useful to know...
-[insert thonk emoji]
