@@ -1,11 +1,16 @@
 created: 20170103100144222
 creator: cosmos
-modified: 20170103124123099
+modified: 20190401181209484
 modifier: cosmos
 tags: [[Statistical estimation]]
 title: Confidence interval
 tmap.id: 8cc43df5-cf82-4130-859b-785e7e851f11
 type: text/vnd.tiddlywiki
+
+
+
+
+----------------------
 
 In this formulation (frequentists), a 95% confidence interfval means that 95% of the times we draw a sample of this type, 95% of the time this confidence interval will include the mean. 95% probability that our interval contains the real mean
 
