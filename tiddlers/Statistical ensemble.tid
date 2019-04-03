@@ -1,0 +1,9 @@
+created: 20190402225758698
+creator: cosmos
+modified: 20190402225853888
+modifier: cosmos
+tags: [[Statistical physics]] Population
+title: Statistical ensemble
+type: text/vnd.tiddlywiki
+
+The name given to an statistical [[Population]] in statistical physics. Used, most often to model physical systems (of particles in a gas for e.g.), where the set of particles could be in many possible configurations, and there is uncertainty of in which configuration they are.

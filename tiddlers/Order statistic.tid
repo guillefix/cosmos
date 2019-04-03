@@ -1,0 +1,14 @@
+created: 20190402214915899
+creator: cosmos
+modified: 20190402224056342
+modifier: cosmos
+tags: [[Extreme value theory]] Statistic
+title: Order statistic
+type: text/vnd.tiddlywiki
+
+[img[order_statistics_definition.png]]
+
+__Examples__
+
+* [[Maximum of a random variable]]
+* [[Minimum of a random variable]] (could be analyzed as the maximum of the opposite random variable)

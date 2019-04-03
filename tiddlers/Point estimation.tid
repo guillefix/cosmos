@@ -1,0 +1,85 @@
+created: 20190402230757881
+creator: cosmos
+modified: 20190403011745305
+modifier: cosmos
+tags: [[Parametric statistical inference]]
+title: Point estimation
+type: text/vnd.tiddlywiki
+
+//aka statistical estimation//
+
+An [[Estimator]] (aka ''point estimate'') for a [[Parameter]] is a [[Random variable]] that may be calculated from the sampled data (i.e. a [[Statistic]]), chosen so that it is "close to" the real parameter (in expectation, or with high probability, etc.), i.e. it helps estimate the value of the unknown parameter.
+
+!!__[[Unbiased estimator]]__
+
+An ''unbiased estimator'' is an estimator whose [[Expected value]] is equal to the real parameter.
+
+https://www.wikiwand.com/en/Unbiased_estimation_of_standard_deviation
+
+Mean: sample mean
+
+Variance: $$\frac{n}{n-1} \times$$ sample variance. see [[here|https://www.google.co.uk/search?client=ubuntu&channel=fs&q=unbiased+estimator+of+variance&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=xnhrWMeXM4r38Af80ZXgAg#safe=off&channel=fs&q=unbiased+estimator+of+variance+khanacademy]]
+
+!!__Uncertainty in estimator__
+
+Often, a good estimator is unbiased, and has the smallest uncertainty we can. See [[Minimum variance unbiased estimator|https://www.wikiwand.com/en/Minimum-variance_unbiased_estimator]]
+
+!!!__Uncertainty of mean estimator__
+
+Use [[Central limit theorem]]. Mean will follow approximately a [[Normal distribution]] with mean equal to the real mean, and variance equal to the real [[Standard deviation]]/$$\sqrt{N}$$, where $$N$$ is the number of samples. We can use the estimates of these quantities to find [[Confidence interval]]s for the real mean.
+
+The real mean: $$\mu = \bar{X} + Z \times \sigma_{\bar{X}}$$, where $$\bar{X}$$ is the sample mean. $$Z$$ is a [[Random variable]] which is distributed according to the [[Standard normal distribution]] (mean $$0$$ and variance $$1$$).
+
+In this formulation (frequentists), a 95% confidence interfval means that 95% of the times we draw a sample of this type, 95% of the time this confidence interval will include the mean.
+
+>Uncertain knowledge + knowledge about the uncertainty = useful knowledge
+
+Box model
+
+!!!__[[Mean squared error]]__
+
+Good measure of how good an estimator is
+
+MSE = $$E[(\hat{\mu}-\mu)^2] = E[\hat{\mu} -E[\hat{\mu}]] + E[(E[\hat{\mu}-\mu)^2]$$ = Variance($$\hat{\mu}$$) + BIAS$$^2$$
+
+!!!__[[Confidence interval]]s__
+
+Can be used to give [[High-probability]] guarantees on the estimator (like bounding how far the true value is from the estimate, with high probability, say with 95% confidence), but they may also be found on their own, without being tied to a point estimator.
+
+!!__Asymptotic properties__
+
+''[[Consistency|Estimator consistency]]''. An estimator is consistent if it tends to real value as the sample size goes to infinity.
+
+''CLT''. Asymptotically normally distributed
+
+''[[Asymptotic efficiency|Estimator asymptotic efficiency]]''. I think this means it is asymptotically the [[Minimum variance unbiased estimator|https://www.wikiwand.com/en/Minimum-variance_unbiased_estimator]].
+
+''Ancillarity''. An ancillary statistic is a measure of a sample whose distribution does not depend on the parameters of the model. (see [[wiki|https://www.wikiwand.com/en/Ancillary_statistic]])
+
+!!__Types of point estimators__
+
+* Minimum variance unbiased estimator
+* Equivariant estimator. See page 412 (section 8.9) in book Rohatgi, Saleh, An introduction to probability and statistics).
+** minimum risk equivariant estimator
+
+!__[[Bayesian inference]] for statistical estimation__
+
+//Good formalism//
+
+!!!__[[Maximum a posteriori]] (MAP) estimator__
+
+!!!__[[Maximum likelihood]] estimator (MLE)__
+
+same as MAP, when using a [[Uniform prior]].
+
+* Consistent
+* Asymptotically normally distributed
+* Asymptotically efficient, given by [[Cramer-Rao bound]]
+
+!!!__Uncertainty of maximum likelihood estimator__
+
+Variance can be computed asymptotically. [[Covariance matrix]] given by [[Fisher information matrix]]
+
+[[Cramer-Rao bound]]
+
+!!!__[[Credible intervall]]s__

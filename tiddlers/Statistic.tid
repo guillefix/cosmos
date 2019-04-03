@@ -1,0 +1,11 @@
+created: 20190402221530975
+creator: cosmos
+modified: 20190402223937893
+modifier: cosmos
+tags: Statistics [[Random variable]]
+title: Statistic
+type: text/vnd.tiddlywiki
+
+A function of a [[Sample]] from a [[Population]]. Because a sample is a random variable, a statistic (a function of a random variable) is thus also a random variable.
+
+More generally, any quantity intended to summarize properties of the population may be called a //statistic//

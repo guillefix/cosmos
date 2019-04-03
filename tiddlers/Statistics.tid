@@ -1,53 +1,72 @@
 created: 20160204135706346
 creator: guillefix
-modified: 20180117164718460
+modified: 20190403011858728
 modifier: cosmos
 tags: [[Data & Knowledge]]
 title: Statistics
 tmap.id: fd9980dd-3d72-4a8e-8430-8c6bc2a5837e
 type: text/vnd.tiddlywiki
 
-[[Wiki article|https://en.wikipedia.org/wiki/Statistics]]
 
-[[Understanding statistics through explorables|http://emilkirkegaard.dk/understanding_statistics/?app=Simpson_paradox]]
 
---> [[Seeing theory -- a visual introduction to probability and statistics|http://students.brown.edu/seeing-theory/index.html]]
+''Statistics'' is concerned with the study of collective properties of collections of objects (refered to as [[Population]]s). One can model properties of this set (like [[Frequency distribution]]s) as [[Probability distribution]]s, even though these don't have the interpretation of probabilities, as there isn't any randomness. Any quantity intended to summarize properties of the population may be called a //statistic//
 
-Mathematica foundation: [[Probability theory]]
+!!__[[Statistical inference]]__
 
-!!!__Statistics software__
+For reasons of time or cost we may not wish or be able to study each individual element of the population. In statistical //inference// <small>(probably the main area of study in statistics)</small>, the object is to draw conclusions ("infer") about the unknown population characteristics on the basis of information on some characteristics of a suitably selected sample.
 
-[[R language]]
+The combination of a population with a random [[Sampling]] procedure, defines [[Random variable]]s known as [[Sample]]s, and allows for a more mathematically-principled application of [[Probability]] ([[Probability theory]]). Functions of these samples are also known as [[Statistic]]s.
 
-!!!__[[Statistical inference]]__
+General approaches:
 
-[[Statistical estimation]], [[Statistical hypothesis testing]]
+* [[Bayesian inference]] ([[Bayesian statistics]], [[Credible interval]]s)
+* [[Frequentist inference]] ([[Frequentist statistics]], [[Confidence interval]]s)
 
-[[Bayesian inference]]
+Some types of statistical inference problems:
 
-!!!__Statistical measures__
+!!!__[[Parametric statistical inference]]__
 
-[[The D Statistic|http://mste.illinois.edu/patel/chisquare/dstat.html]]
+When one is trying to estimate a finite set of [[Parameter]]s, parametrizing a family of [[Probability distribution]]s, one of which one assumes describes the population being studied.
 
-$$\chi^2$$ statistic
+* [[Point estimation]], aka statistical estimation
+* [[Interval estimation]]
 
-t-test
+!!!__[[Statistical hypothesis testing]]__
 
-[[Kolmogorov–Smirnov test]] <i class="fa fa-check" aria-hidden="true"></i>
+!!!__[[Nonparametric statistics]]__
 
-!!!__Statistical learning__
+One doesn't make assumption that the population is described by a parametrized family of distributions, but by a more general class.
 
-See [[Machine learning]], [[Learning theory]]
+
+-------
+
+!!!__[[Statistic]]s__
+
+* [[The D Statistic|http://mste.illinois.edu/patel/chisquare/dstat.html]]
+
+* $$\chi^2$$ statistic ([[Chi-squared test]])
+
+* [[t-test]]
+
+* [[F-test]]
+
+* [[Kolmogorov–Smirnov test]] <i class="fa fa-check" aria-hidden="true"></i>
+
+* [[Sufficient statistic]]
 
 !!!__[[Sampling]]__
 
 [[Compressed sampling|file:///home/guillefix/Dropbox/Oxford/Systems%20Biology%20DPhil/Research/CompressiveSampling-Review.pdf]]
 
+__Sampling without replacement__
+
+This changes things if the sample size is close to the total population size. Now, samples are not totally independent!
+
 !!!__[[Resampling]]__
 
 * [[Bootstrap]]
 
-!!!__Mathematical statistics__
+!!!__[[Mathematical statistics]]__
 
 [[On the Mathematical Foundations of Theoretical Statistics|http://l.academicdirect.org/Horticulture/GAs/Refs/Fisher_1922_Estimation.pdf]]
 
@@ -56,12 +75,34 @@ See [[Machine learning]], [[Learning theory]]
 
 [[Mathematical Statistics Videos|http://stats.stackexchange.com/questions/485/mathematical-statistics-videos]] [[some YB videos|https://www.youtube.com/channel/UCL20lsbPlem4iMX3ySHtt3w]]
 
-[[Bayesian statistics]]
+!!!__Statistical learning__
+
+//aka [[predictive inference|https://www.wikiwand.com/en/Predictive_inference]]//
+
+Particular classes of statistical inference problems, where we attempt to infer ("learn") functions that allow one to make predictions about future data <small>(so we are interested in inferring things about the population that allow us to predict certain other things, while in other statistical inference problems, the aim of inferring the things may be different (for e.g. estimating a parameter as accurately as possible), and therefore the measure of success may be difference)</small>
+
+See [[Machine learning]], [[Statistical learning theory]]
+
+!!!__[[Decision theory]]__
 
 -------------------
+
+!!!__Resources__
+
+[[Wiki article|https://en.wikipedia.org/wiki/Statistics]]
+
+[[Understanding statistics through explorables|http://emilkirkegaard.dk/understanding_statistics/?app=Simpson_paradox]]
+
+--> [[Seeing theory -- a visual introduction to probability and statistics|http://students.brown.edu/seeing-theory/index.html]]
 
 [[Train, validation, test|http://stats.stackexchange.com/questions/19048/what-is-the-difference-between-test-set-and-validation-set]]
 
 [[http://colorfulengineering.org/SCICOMP.html]]
 
 [[Error propagation|http://www.clayton.edu/portals/498/Content/PHYS%202211%20Labs/AveragesAndErrors.pdf]]
+
+-------
+
+!!!__Statistics software__
+
+[[R language]]

@@ -1,0 +1,10 @@
+created: 20190403003343693
+creator: cosmos
+modified: 20190403003438560
+modifier: cosmos
+title: Pareto optimal
+type: text/vnd.tiddlywiki
+
+A thing that is "as good as possible over a set of cases". More precisely, the one can't uniformly improve on all cases, that is, there is no other thing that is at least as good as this thing in every case, and better in some case. 
+
+So other things that improve in some cases, must worsen in other cases.

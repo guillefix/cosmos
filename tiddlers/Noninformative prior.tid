@@ -1,0 +1,10 @@
+created: 20190403003604966
+creator: cosmos
+modified: 20190403003623894
+modifier: cosmos
+tags: 
+title: Noninformative prior
+type: text/vnd.tiddlywiki
+
+A PDF π(θ) is said to be a noninformative prior if it contains no information
+about θ, that is, the distribution does not favor any value of θ over others.
