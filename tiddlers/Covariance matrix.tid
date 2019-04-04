@@ -1,0 +1,12 @@
+created: 20190403140824630
+creator: cosmos
+modified: 20190403142144610
+modifier: cosmos
+title: Covariance matrix
+type: text/vnd.tiddlywiki
+
+For a [[Sequence]] of [[Random variable]]s $$(X_1,...,X_n)$$ (e.g. a random vector), the ''covariance matrix'' is the matrix of [[Covariance]]s, i.e. the $$(i,j)$$th element of the matrix is the covariance between variable $$X_i$$ and $$X_j$$.
+
+__Empirical covariance matrix__
+
+The matrix of empirical covariances (where the [[Expectation]] in the definition of the covariance is substituted by the [[Sample mean]])

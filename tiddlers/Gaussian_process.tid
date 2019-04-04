@@ -1,6 +1,6 @@
 created: 20171023143453623
 creator: cosmos
-modified: 20181207221414607
+modified: 20190403145714084
 modifier: cosmos
 tags: [[Generative supervised learning]] [[Probabilistic model]]
 title: Gaussian process
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 ''Gaussian processes'' are [[Probabilistic model]]s, defined as a probability distribution over a set of random variables (i.e. a [[Stochastic process]]) where any finite set of [[Random variable]]s in the process is [[jointly|Joint probability distribution]] [[Gaussian]] distributed. This set of random variables is usually interpreted as the output values of a function on an input space, so that we say that Gaussian processes define a //distribution over functions//, as we repeat below.
 
-[ext[Good quick intro|https://www.robots.ox.ac.uk/~mebden/reports/GPtutorial.pdf]]. See [[Gaussian Processes for Machine Learning|http://www.gaussianprocess.org/gpml/chapters/]]. Also intro [[here|http://publications.aston.ac.uk/1305/1/NCRG_2001_014.pdf#page=1]]
+[ext[Good quick intro|https://www.robots.ox.ac.uk/~mebden/reports/GPtutorial.pdf]].  [[Visual introudction (distill)|https://distill.pub/2019/visual-exploration-gaussian-processes/[[. See [[Gaussian Processes for Machine Learning|http://www.gaussianprocess.org/gpml/chapters/]] for a thorough introduction. Also intro [[here|http://publications.aston.ac.uk/1305/1/NCRG_2001_014.pdf#page=1]]
 
 A Gaussian process is thus a ''distribution over functions'' such as the values of the functions at a finite set of points are jointly distributed by a [[Multivariate Gaussian distribution]] with a [[Covariance matrix]] that is given by a [[Kernel]] function (ensuring consistency via what's called the marginaliation property), which is a function of two [[Input]]s.  This is also called a [[Gaussian random field]].
 
@@ -72,7 +72,7 @@ If one assumes a non-Gaussian likelihood, then the problem is not [[Analytically
 There are several approximations which are used then 
 
 * [[Laplacian approximation|Laplace method]]
-* [[Expectation-propagation]]
+* [[Expectation propagation]]
 * [[Variational inference]]
 
 The most common case is in [[Gaussian process classification]]. See [[here|http://www.gaussianprocess.org/gpml/chapters/RW3.pdf]]
@@ -92,3 +92,19 @@ In [[this paper|https://arxiv.org/pdf/1309.6835.pdf]], they then introduced [[Va
 __Gaussian processes where training data cover the whole input space__ (non trivial because the y values are still random samples according to likelihood, and our task is to esimate the latent $$f$$ (which we can use to estimate future $$y$$))
 
 [[paper|https://link.springer.com/content/pdf/10.1007%2F978-3-642-38886-6_17.pdf]]
+
+!!__Gaussian process [[Kernel]]s__
+
+See https://www.cs.toronto.edu/~duvenaud/cookbook/
+
+__Combination of kernels__
+
+See [[here|https://distill.pub/2019/visual-exploration-gaussian-processes/]] and [[here|https://www.cs.toronto.edu/~duvenaud/cookbook/]]
+
+Remember that kernel functions with one of its arguments evaluated are members of the reproducing kernel Hilbert space to which all the functions supported by a particular Gaussian process belong.
+
+Therefore adding kernels, amounts to adding the functions on these two spaces. That is why the resulting functions work like this when combining kernels!
+
+!!!__[[Automated statistician]]__
+
+Automatically chooses kernels, and does many other things: https://www.automaticstatistician.com/index/
