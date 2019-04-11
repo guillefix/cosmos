@@ -1,8 +1,9 @@
 created: 20190316131010920
 creator: cosmos
-modified: 20190316131138976
+modified: 20190410085850335
 modifier: cosmos
 title: Pointing device
+tmap.id: c3694c7f-da69-4ac3-8f02-312ac07d19c0
 type: text/vnd.tiddlywiki
 
 Any [[Input device]] which transmits spatial information. This is most often in 2D ($$\mathbb{R}^2$$) ([[Touchpad]]s, [[mice|Mouse (pointing device)]], etc), or sometimes in 3D ($$\mathbb{R}^3$$), [[VR controller]]s, [[Leap motion]]

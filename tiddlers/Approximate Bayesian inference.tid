@@ -1,9 +1,10 @@
 created: 20181130174809304
 creator: cosmos
-modified: 20181201023153042
+modified: 20190410085835424
 modifier: cosmos
 tags: [[Bayesian inference]]
 title: Approximate Bayesian inference
+tmap.id: e274cd28-3622-4fca-a155-623db5a11934
 type: text/vnd.tiddlywiki
 
 Methods to approximate [[Bayesian inference]]; mainly approximating [[Posterior]]s

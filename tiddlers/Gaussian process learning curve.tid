@@ -1,0 +1,13 @@
+created: 20190410170546575
+creator: cosmos
+modified: 20190410170606821
+modifier: cosmos
+tags: [[Learning curve]] [[Gaussian process]]
+title: Gaussian process learning curve
+type: text/vnd.tiddlywiki
+
+[[Learning curves for Gaussian processes|https://papers.nips.cc/paper/1501-learning-curves-for-gaussian-processes.pdf]]
+
+-------------
+
+Can apply, for instance to [[Neural network Gaussian process]]

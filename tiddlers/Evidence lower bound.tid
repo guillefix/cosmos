@@ -1,9 +1,10 @@
 created: 20181130185045133
 creator: cosmos
-modified: 20181201030503369
+modified: 20190410085846332
 modifier: cosmos
 tags: [[Variational inference]]
 title: Evidence lower bound
+tmap.id: c697684f-1f36-40cc-98a1-7bbc35da7534
 type: text/vnd.tiddlywiki
 
 //aka ELBO//

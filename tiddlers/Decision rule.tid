@@ -1,9 +1,10 @@
 created: 20190403005351294
 creator: cosmos
-modified: 20190403005313223
+modified: 20190410085846120
 modifier: cosmos
 tags: [[Decision theory]]
 title: Decision rule
+tmap.id: 8a6b0aea-873d-421a-9951-f4431675d330
 type: text/vnd.tiddlywiki
 
 See [[minimax_and_bayes_estimator.pdf]]  for definition

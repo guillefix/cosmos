@@ -1,8 +1,9 @@
 created: 20181219200557939
 creator: cosmos
-modified: 20181219200555768
+modified: 20190410085850410
 modifier: cosmos
 title: Pseudo-dimension
+tmap.id: ddf1fd61-d96a-4471-8820-0a0d910b1073
 type: text/vnd.tiddlywiki
 
 Generalization of [[VC dimension]] to classes of real-valued functions (used for [[Regression]])

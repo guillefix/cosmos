@@ -1,9 +1,10 @@
 created: 20190128231613174
 creator: cosmos
-modified: 20190129171010954
+modified: 20190410085850006
 modifier: cosmos
 tags: [[Artificial neural network]] [[Model compression]]
 title: Neural network compression
+tmap.id: 818a15b4-0796-4db5-8eea-fcb28df79bb0
 type: text/vnd.tiddlywiki
 
 [[2018 review|http://cwww.ee.nctu.edu.tw/~cfung/docs/learning/cheng2018DNN_model_compression_accel.pdf]]

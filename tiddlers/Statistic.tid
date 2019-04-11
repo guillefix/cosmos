@@ -1,9 +1,10 @@
 created: 20190402221530975
 creator: cosmos
-modified: 20190403142120636
+modified: 20190410085850545
 modifier: cosmos
 tags: Statistics [[Random variable]]
 title: Statistic
+tmap.id: 7397240a-ea2a-445a-aec7-fcc7ab8f43f9
 type: text/vnd.tiddlywiki
 
 A function of a [[Sample]] (an realization of a sample to be precise) from a [[Population]]. Because a sample is a random variable, a statistic (a function of a random variable) is thus also a random variable.

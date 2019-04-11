@@ -1,9 +1,10 @@
 created: 20190322231935063
 creator: cosmos
-modified: 20190322231932748
+modified: 20190410085847915
 modifier: cosmos
 tags: [[Markov chain]]
 title: Irreducible Markov chain
+tmap.id: 4ca2c914-94b5-4091-839f-167045a94249
 type: text/vnd.tiddlywiki
 
 If it is possible to go with positive probability from any state of the

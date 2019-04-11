@@ -1,9 +1,10 @@
 created: 20190109020305831
 creator: cosmos
-modified: 20190109020320650
+modified: 20190410085849800
 modifier: cosmos
 tags: [[Music composition]] [[Electronic music]]
 title: Modular synthesis
+tmap.id: b8d2707d-e20d-4741-b404-f976b0ec69a7
 type: text/vnd.tiddlywiki
 
 Some electronic musicians program computers, in a way very different from the norm. Rather than typing characters in a keyboard, they wire up variables together. A bit like the very earliest computers. But it's not all low-level; the field has evolved like in text-based computing, so that they have high level "modules" and emerging "languages". They have abstraction. The variables can have pretty high-level semantics like "verse/chorus", and low level too.

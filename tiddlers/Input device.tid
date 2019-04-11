@@ -1,9 +1,10 @@
 created: 20190316130957930
 creator: cosmos
-modified: 20190316140420776
+modified: 20190410085847820
 modifier: cosmos
 tags: [[Computer hardware]]
 title: Input device
+tmap.id: dd4af5c8-e2b6-47ff-b7f6-902fb0e28802
 type: text/vnd.tiddlywiki
 
 Any device designed to transport Information generated or stored withing a system outside the a [[Computer]] to the computer (or some information processing system). By virtue of being able to store information, this external "sender" is an information processing system (even if a trivial one). The whole process is an instance of [[Communication]].

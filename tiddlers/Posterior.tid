@@ -1,9 +1,10 @@
 created: 20181130181023756
 creator: cosmos
-modified: 20181130181211484
+modified: 20190410085850356
 modifier: cosmos
 tags: [[Bayesian inference]]
 title: Posterior
+tmap.id: 5bf6c413-6ec2-4438-bc55-1ed9e9b37535
 type: text/vnd.tiddlywiki
 
 The [[conditional|Conditional probability]] distribution of unknown quantities given (conditioned on) observed data, [[it is calculated|https://www.youtube.com/watch?v=sQ8T9b-uGVE&list=PLA89DCFA6ADACE599&index=11#t=5m]] from a [[prior|Prior distribution]] via [[Bayes' theorem]]

@@ -1,9 +1,10 @@
 created: 20190403003332713
 creator: cosmos
-modified: 20190403010730977
+modified: 20190410085834997
 modifier: cosmos
 tags: [[Decision rule]]
 title: Admissible decision rule
+tmap.id: 5a1a4bd6-d515-4896-8a9a-ed528b414b85
 type: text/vnd.tiddlywiki
 
 A [[Decision rule]] $$\delta$$ is inadmissible if there exists a $$\delta^* \in \mathcal{D}$$ such that $$R(\theta, \theta^*) \leq R(\theta, \delta)$$ where the inequality is strict for some $$\delta \in \Theta$$; otherwise $$\delta$$ is ''admissible''.

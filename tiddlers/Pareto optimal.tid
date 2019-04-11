@@ -1,8 +1,9 @@
 created: 20190403003343693
 creator: cosmos
-modified: 20190403003438560
+modified: 20190410085850241
 modifier: cosmos
 title: Pareto optimal
+tmap.id: 2a3dd6fd-fe09-4164-8d4a-b4009d677335
 type: text/vnd.tiddlywiki
 
 A thing that is "as good as possible over a set of cases". More precisely, the one can't uniformly improve on all cases, that is, there is no other thing that is at least as good as this thing in every case, and better in some case. 

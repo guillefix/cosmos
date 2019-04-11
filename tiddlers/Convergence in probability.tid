@@ -1,9 +1,10 @@
 created: 20190322194827340
 creator: cosmos
-modified: 20190322195105696
+modified: 20190410085845952
 modifier: cosmos
 tags: [[Convergence of random variables]]
 title: Convergence in probability
+tmap.id: 7f1400ef-0894-4066-9100-d579767acf70
 type: text/vnd.tiddlywiki
 
 We say that a [[Sequence]] of [[Random variable]]s $$(X_n)_{n\in \mathbb{N}}$$ ''converges in probability'' to random variable $$X$$, if: 

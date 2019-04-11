@@ -1,9 +1,10 @@
 created: 20181130004741153
 creator: cosmos
-modified: 20181130010618546
+modified: 20190410085835529
 modifier: cosmos
 tags: [[Bayesian deep learning]]
 title: Bayesian neural network
+tmap.id: 2e949e1c-d4d7-405f-9def-e98c1caaaa87
 type: text/vnd.tiddlywiki
 
 A parametric [[Probabilistic model]] of functions, given by a [[neural network|Artificial neural network]]. That is, a ''Bayesian neural network'' is a probability distribution over a set of functions (all functions implementable by a given neural network architecture $$N$$), induced by a probability distribution on the weights/[[Parameter]]s of the neural network $$N$$.

@@ -1,9 +1,10 @@
 created: 20181118022811888
 creator: cosmos
-modified: 20190316140423877
+modified: 20190410085850181
 modifier: cosmos
 tags: [[Computer hardware]]
 title: Output device
+tmap.id: f0f4e009-c1a3-4f6e-94ff-694443cd6e47
 type: text/vnd.tiddlywiki
 
 Any device designed to transport [[Information]] generated or stored withing a [[Computer]] (or some information processing system) to a system outside the computer. By virtue of being able to store information, this external "receiver" is an information processing system (even if a trivial one). The whole process is an instance of [[Communication]].

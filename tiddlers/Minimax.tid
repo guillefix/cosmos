@@ -1,9 +1,10 @@
 created: 20190403002957212
 creator: cosmos
-modified: 20190403004935258
+modified: 20190410085849742
 modifier: cosmos
 tags: [[Decision rule]]
 title: Minimax
+tmap.id: 11ade600-c891-4917-96bd-0b5319d85571
 type: text/vnd.tiddlywiki
 
 A thing that does best in {its worst case}.

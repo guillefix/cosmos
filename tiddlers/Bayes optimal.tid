@@ -1,8 +1,9 @@
 created: 20190403003138311
 creator: cosmos
-modified: 20190403003132605
+modified: 20190410085835494
 modifier: cosmos
 title: Bayes optimal
+tmap.id: a8e1ebc0-ae0b-451e-919b-7a9cddedfbac
 type: text/vnd.tiddlywiki
 
 A thing that does best in {its average case}.

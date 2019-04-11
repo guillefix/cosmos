@@ -1,9 +1,10 @@
 created: 20181130161711022
 creator: cosmos
-modified: 20190321040929859
+modified: 20190410085835014
 modifier: cosmos
 tags: [[Bayesian inference]]
 title: Amortized inference
+tmap.id: b52fab45-d080-449b-8eed-9cbe0251ca84
 type: text/vnd.tiddlywiki
 
 ''Amortized inference'' refers to methods which [[learn|Learning]] [[Posterior]] distributions, for a given [[Generative model]] (which may be known but very complicated, or learnt simultaneously as the posterior, as in [[VAE|Variational autoencoder]]s).

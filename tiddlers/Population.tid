@@ -1,9 +1,10 @@
 created: 20190402222531510
 creator: cosmos
-modified: 20190403141819363
+modified: 20190410085850346
 modifier: cosmos
 tags: Statistics
 title: Population
+tmap.id: 2491fd40-9109-4b3e-acaf-4c63c418ba74
 type: text/vnd.tiddlywiki
 
 A [[Set]] of things, whose collective properties we are interested in studying in [[Statistics]]. One can model properties of this set (like [[Frequency distribution]]s) as probability distributions, even though these don't have the interpretation of probabilities, as there isn't any randomness. A more rigorous analysis, usually combines a population with a random [[Sampling]] procedure, which defines [[Random variable]]s known as [[Sample]]s. Functions of these samples are known as [[Statistic]]s, which gives statistics its name.

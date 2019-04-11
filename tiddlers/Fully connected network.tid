@@ -1,8 +1,9 @@
 created: 20181130010935806
 creator: cosmos
-modified: 20181130011120114
+modified: 20190410085846424
 modifier: cosmos
 title: Fully connected network
+tmap.id: b25b1da5-35e2-440f-90d7-c28873fd8031
 type: text/vnd.tiddlywiki
 
 A [[Feedforward neural network]] where every weight between two neurons at adjacent layers is allowed to be non-zero. Such a layer is called a //densely connected layer// or //Dense layer// for short (`Dense`). So a fully connected (FC) network is a network composed of dense layers

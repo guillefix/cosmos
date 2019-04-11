@@ -1,9 +1,10 @@
 created: 20190403003604966
 creator: cosmos
-modified: 20190403003623894
+modified: 20190410085850018
 modifier: cosmos
 tags: 
 title: Noninformative prior
+tmap.id: 24b6d15f-15fd-465b-83d4-c66f32524bb4
 type: text/vnd.tiddlywiki
 
 A PDF π(θ) is said to be a noninformative prior if it contains no information

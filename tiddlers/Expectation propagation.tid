@@ -1,9 +1,10 @@
 created: 20190403145741714
 creator: cosmos
-modified: 20190405152007012
+modified: 20190410085846355
 modifier: cosmos
 tags: [[Message passing]] [[Approximate Bayesian inference]]
 title: Expectation propagation
+tmap.id: 90dd4f4e-39e6-4e52-9e97-7b3873eb6736
 type: text/vnd.tiddlywiki
 
 http://www.gaussianprocess.org/gpml/chapters/RW3.pdf

@@ -1,9 +1,10 @@
 created: 20181130220601448
 creator: cosmos
-modified: 20181130234653431
+modified: 20190410085847756
 modifier: cosmos
 tags: Mean
 title: Harmonic mean
+tmap.id: 39349faa-548b-4f56-95b3-435ea655ef14
 type: text/vnd.tiddlywiki
 
 The ''harmonic mean'' of $$n$$ [[Real number]]s $$a_1,...,a_n$$ is defined as:
