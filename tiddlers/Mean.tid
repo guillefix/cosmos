@@ -1,6 +1,6 @@
 created: 20180116121019618
 creator: cosmos
-modified: 20190326122415412
+modified: 20190416082214521
 modifier: cosmos
 tags: Arithmetic
 title: Mean
@@ -12,3 +12,5 @@ type: text/vnd.tiddlywiki
 * [[Arithmetic mean]]
 * 1st moment or [[Expectation]] of a [[Random variable]]: $$E[X] = \sum\limits_x x\mathbb{P}[X=x]$$
 * [[Geometric mean]]
+
+[[Visual proof that arithmetic mean is larger than geometric mean|https://mobile.twitter.com/fermatslibrary/status/1117071695054024704]]
