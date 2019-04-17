@@ -1,8 +1,8 @@
 created: 20160226112409331
 creator: guillefix
-modified: 20180920002914937
+modified: 20190410090432258
 modifier: cosmos
-tags: [[Artificial intelligence]] Learning [[Data science]]
+tags: [[Computer Science and IT]] [[Artificial intelligence]] Learning [[Data science]]
 title: Machine learning
 tmap.id: 47c58894-375c-4def-af28-994265d0697f
 type: text/vnd.tiddlywiki
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 //aka statistical learning//
 
 A part of [[Artificial intelligence]] that uses many methods from [[Computer science]] to [[Statistics]] to create automated (machine) learners: systems that can extract [[Knowledge]] and insight from [[Information]] and data.
+
+https://paperswithcode.com/sota
 
  http://bit.do/oxtorch. -- http://ml4a.github.io/guides/ -- https://developers.google.com/machine-learning/crash-course/
 

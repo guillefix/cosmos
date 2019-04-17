@@ -1,6 +1,6 @@
 created: 20170430130643047
 creator: cosmos
-modified: 20181122001708559
+modified: 20190318154806088
 modifier: cosmos
 tags: [[Neural network theory]]
 title: Expressivity of neural networks
@@ -18,6 +18,12 @@ type: text/vnd.tiddlywiki
  See paper mentioned in Hugo's vid, //single hidden layer ANNs can approximate any continuous function with sufficiently many neurons in the hidden layer//. There may not be a //learning algorithm// to find the right parameter set though.
 
  For deep nets, [[Why and when can deep - but not shallow - networks avoid the curse of dimensionality: a review|https://arxiv.org/pdf/1611.00740.pdf]]
+
+[[The Expressive Power of Neural Networks: A View from the Width|http://papers.nips.cc/paper/7203-the-expressive-power-of-neural-networks-a-view-from-the-width]]
+
+[[Understanding Deep Neural Networks with Rectified Linear Units|https://arxiv.org/abs/1611.01491]]
+
+[[Universal Function Approximation by Deep Neural Nets with Bounded Width and ReLU Activations|https://arxiv.org/abs/1708.02691]]
 
  __Universality of [[Recurrent neural network]]s__
 

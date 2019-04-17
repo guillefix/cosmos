@@ -1,12 +1,13 @@
 created: 20170418111213772
 creator: cosmos
-modified: 20180712145710122
+modified: 20190322225602996
 modifier: cosmos
 tags: [[Information theory]]
 title: Asymptotic equipartition property
 tmap.id: c07c7597-2d7f-4aa6-8292-095145d3d088
 type: text/vnd.tiddlywiki
 
+//aka Shannon–McMillan–Breiman theorem//
 
 Uses [[Convergence of random variables]]. [[Video|https://www.youtube.com/watch?v=0PJMGIsMW2U&list=PLB39457109F61D4C6&index=1]]
 
@@ -23,3 +24,17 @@ This can also be understood using the proof I did of the entropy for non-uniform
 !__For more general stochastic processes__
 
 We define [[Entropy rate]]
+
+------------
+
+The asymptotic equipartition property (AEP) was first stated by Shan-
+non in his original 1948 paper [472], where he proved the result for
+i.i.d. processes and stated the result for stationary ergodic processes.
+McMillan [384] and Breiman [74] proved the AEP for ergodic finite
+alphabet sources. The result is now referred to as the AEP or the Shan-
+non–McMillan–Breiman theorem. Chung [101] extended the theorem to
+the case of countable alphabets and Moy [392], Perez [417], and Kieffer
+[312] proved the L 1 convergence when {X i } is continuous valued and
+ergodic. Barron [34] and Orey [402] proved almost sure convergence for
+real-valued ergodic processes; a simple sandwich argument (Algoet and
+Cover [20]) will be used in Section 16.8 to prove the general AEP.

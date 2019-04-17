@@ -1,8 +1,9 @@
 created: 20181219204028851
 creator: cosmos
-modified: 20181219204014057
+modified: 20190410085849753
 modifier: cosmos
 title: Minimax regret
+tmap.id: 93230622-ebe8-4dbe-992a-c2cda450bac0
 type: text/vnd.tiddlywiki
 
  the minimax //excess risk// where the data distributions are not constrained

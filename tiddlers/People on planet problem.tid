@@ -1,9 +1,10 @@
 created: 20190101143126066
 creator: cosmos
-modified: 20190101183557326
+modified: 20190410085850268
 modifier: cosmos
 tags: [[Coordination game]]
 title: People on planet problem
+tmap.id: 889ba875-f5ff-4cc3-b010-4283fd219255
 type: text/vnd.tiddlywiki
 
 The problem of: "You have two people stranded on a (spherical) planet, and they want to find each other. How long does it take them, given that previous collusion isn't allowed?"

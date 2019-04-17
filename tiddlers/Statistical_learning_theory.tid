@@ -1,9 +1,10 @@
 created: 20181219193400996
 creator: cosmos
-modified: 20181219201641912
+modified: 20190410085850580
 modifier: cosmos
 tags: [[Learning theory]]
 title: Statistical learning theory
+tmap.id: 5db03ada-5ba7-4c45-a99a-cd48af0f0297
 type: text/vnd.tiddlywiki
 
 [[Statistical|Statistics]]/[[information-theoretic|Information theory]] aspects of [[learning|Learning theory]].
@@ -13,4 +14,6 @@ type: text/vnd.tiddlywiki
 
 The other major branch of learning theory is [[Computational learning theory]], which also studies [[Computational complexity]] of learning.
 
-http://maxim.ece.illinois.edu/teaching/SLT/SLT.pdf
+See [[Generalization]]
+
+http://maxim.ece.illinois.edu/teaching/SLT/SLT.pdf -- http://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/18/

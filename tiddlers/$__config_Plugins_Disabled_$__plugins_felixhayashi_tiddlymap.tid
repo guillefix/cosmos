@@ -1,8 +1,8 @@
 created: 20181109172305376
 creator: cosmos
-modified: 20181109173104193
+modified: 20190410090336126
 modifier: cosmos
 title: $:/config/Plugins/Disabled/$:/plugins/felixhayashi/tiddlymap
 type: text/vnd.tiddlywiki
 
-no
+yes

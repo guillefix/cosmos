@@ -1,6 +1,6 @@
 created: 20160124143839436
 creator: guillefix
-modified: 20180714135819710
+modified: 20190331032611186
 modifier: cosmos
 tags: Intelligence [[Computer Science and IT]]
 title: Artificial intelligence
@@ -12,6 +12,8 @@ See [[Machine learning]], [[Intelligence]]
 [[Computational intelligence - Scholarpedia|http://www.scholarpedia.org/article/Encyclopedia:Computational_intelligence]]
 
  http://bit.do/oxtorch
+
+Data on AI progress: http://aiindex.org/
 
 [[GoodAI roadmap|https://www.goodai.com/roadmap]]
 
@@ -114,6 +116,19 @@ Seems to be a result of:
 *Very large datasets
 *Increasing computing power
 *Flexibility of the models. Lots of parameters when lots of layers. Furthermore multiple layers avoide the curse of dimensionality
+
+-------
+
+I see many examples of trivial deep learning algorithms beating humans in "hard" scientific problems.
+Beating humans in videogames is really hard though
+Makes sense, games are designed for humans.
+The real world is much weirder, and so we humans and our biases aren't that special any more. https://www.facebook.com/guillermovalleperez/posts/10156790132406223 
+
+----------------
+
+16/03/2019
+
+[[Thoughts on Sutton's bitter lesson]]
 
 --------
 

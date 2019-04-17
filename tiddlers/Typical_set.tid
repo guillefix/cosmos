@@ -1,6 +1,6 @@
 created: 20170419195234420
 creator: cosmos
-modified: 20180507110028699
+modified: 20190322194542023
 modifier: cosmos
 tags: [[Information theory]]
 title: Typical set
@@ -15,7 +15,7 @@ $$2^{-n(H(X)+\epsilon)} \leq p(X) \leq 2^{-n(H(X)-\epsilon)}$$
 
 We can show that:
 
-* ''$$Pr\{A_\epsilon^{(n)}\} > 1 - \epsilon$$'', for $$n$$ sufficiently large.
+* ''$$Pr\{A_\epsilon^{(n)}\} > 1 - \epsilon$$'', for $$n$$ sufficiently large. This is just from the AEP theorem and the definition of [[Convergence in probability]]. However, this bound isn't tight. I think using [[Hoeffding's inequality]] one obtains an exponential decrease in the probability of not being in the typical set.
 
 * ''$$|A_\epsilon^{(n)}| \leq 2^{n(H(X)+\epsilon)}$$''
 
@@ -25,7 +25,9 @@ See equations 3.7-16 in Els. of info theory book for proofs.
 
 __High-probability set__
 
-A ''high-probability set'' is defined as the smallest set of strings $$B$$
+A ''high-probability set'' is defined as the smallest set of strings $$B$$ with $$Pr\{B\} \geq 1-\delta$$.
+
+One can show that $$A_\epsilon^{(n)}$$ and $$B$$ are about the same size.
 
 -----------------------
 

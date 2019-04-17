@@ -1,9 +1,10 @@
 created: 20181204170419625
 creator: cosmos
-modified: 20181204170552947
+modified: 20190410085849662
 modifier: cosmos
 tags: [[Variational inference]]
 title: Mean field variational inference
+tmap.id: 9dc6af9f-49a7-40e7-9b96-1ac39539e574
 type: text/vnd.tiddlywiki
 
 A method of [[Variational inference]] where the space of distributions over which we optimize the variational distribution is distributions where the individual parameters are [[independent|Statistical independence]]. This is known as a [[mean field approximation|Mean field theory]] (as we ignore statistical dependences).

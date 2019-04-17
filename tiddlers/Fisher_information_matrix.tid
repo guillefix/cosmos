@@ -1,21 +1,57 @@
 created: 20160625130504322
 creator: guillefix
-modified: 20181130214112965
+modified: 20190315195918926
 modifier: cosmos
 tags: [[Information geometry]]
 title: Fisher information matrix
 tmap.id: 59357645-7df2-4803-93e0-61c2ddb3a76b
 type: text/vnd.tiddlywiki
 
-The ''Fisher information matrix'' (FIM) is the expected value of the [[Hessian]] (w.r.t. parameters) of the $$\log$$ [[Likelihood function]], under the distribution over data given by the likelihood function at a fixed parameter.
+The ''Fisher information matrix'' (FIM) is the expected value of the [[Hessian]] (w.r.t. parameters) of the $$\log$$ [[Likelihood function]], under the distribution over data given by the likelihood function at a fixed parameter:
 
 $$\mathcal{I}(\theta) = - \mathbb{E}_{x\sim p(x|\theta)} \left[ \frac{\partial^2}{\partial \theta^2}\log{p(x|\theta)}\right]$$ $$= - \int p(x|\theta) \frac{\partial^2}{\partial \theta^2} \log{p(x|\theta)} dx$$ 
 
-If one [[Taylor expands|Taylor series]] the log-likelihood around a maximum, and keeps only terms up to second-order, we are approximating the peak by a Gaussian peak, and this is what is done to find the FIM.
+<small>Of course, it can be applied to any probability distribution, whether it has the interpretation of likelihood or not..</small>
 
-It can also be seen as the Hessian of the [[Relative entropy]] between the likelihood at one parameter and the likelihood at a nearby parameter. See [[here|https://www.youtube.com/watch?v=c0O2XxHUG-A&index=14&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu]] for derivation using [[Relative entropy]].
+<small>So, if one [[Taylor expands|Taylor series]] the log-likelihood around a maximum, and keeps only terms up to second-order, we are approximating the peak by a Gaussian peak, whose covariance is the Hessian. We then take the average of this to get the FIM</small>
 
-It can also be seen as the [[Covariance matrix]] of the [[Gradient]]s of the likelihood function:
+!!!__As Hessian of relative entropy__
+
+It can also be seen as the Hessian of {the [[Relative entropy]] between the likelihood at one parameter and the likelihood at a nearby parameter} w.r.t. the parameter displacement. See [[here|https://www.youtube.com/watch?v=c0O2XxHUG-A&index=14&list=PL04QVxpjcnjhe-E7LfEZ3SOvXSodbPNgu]] for derivation using [[Relative entropy]].
+
+Recall the relative entropy between $$P(x;\theta)$$ and $$P(x;\theta+\delta\theta)$$ (where $$\theta$$ is parametrizing these distributions, which are over $$x$$) is defined as 
+
+$$D_{\mathrm{KL}}\left[ P(\cdot;\theta)\|P(\cdot;\theta+\delta\theta)\right] = \sum_x P(x;\theta) \, \log\frac{P(x;\theta)}{P(x;\theta+\delta\theta)}.$$
+
+Now, let us [[Taylor expand|Taylor series]] $$P(x;\theta+\delta\theta) = P(x;\theta) + \delta\theta \frac{\partial}{\partial\theta}P(x;\theta)$$ $$ + \frac{\delta\theta^2}{2}\frac{\partial^2}{\partial\theta^2}P(x;\theta)+O(\delta\theta^3)$$ to get
+
+$$D_{\mathrm{KL}}\left[ P(\cdot;\theta)\|P(\cdot;\theta+\delta\theta)\right] $$
+$$= \sum_x P(x;\theta) \, \log{\left[\frac{P(x;\theta)}{ P(x;\theta) \left(1+\delta\theta \frac{ \frac{\partial}{\partial\theta}P(x;\theta)}{P(x;\theta)}+ \frac{\delta\theta^2}{2}\frac{\frac{\partial^2}{\partial\theta^2}P(x;\theta)}{P(x;\theta)}+O(\delta\theta^3)\right)}\right]}.$$
+
+<small>we expand this to second order (\recall [[the Taylor expansion of the natural logarithm|https://www.wikiwand.com/en/Taylor_series#/Natural_logarithm]]). There are contributions to second order from the first order in the log expansion, and from the secod order as well (coming from the $$O(\delta \theta)$$ term in its argument)</small>
+
+ $$ - \sum_x P(x;\theta) \, \left[ \delta\theta \frac{ \frac{\partial}{\partial\theta}P(x;\theta)}{P(x;\theta)}
+-\frac{1}{2}\left(\delta\theta \frac{ \frac{\partial}{\partial\theta}P(x;\theta)}{P(x;\theta)}\right)^2 
++ \frac{\delta\theta^2}{2}\frac{\frac{\partial^2}{\partial\theta^2}P(x;\theta)}{P(x;\theta)}
++O(\delta\theta^3)\right]$$
+$$ = - \sum_x \left[\delta\theta \frac{\partial}{\partial\theta}P(x;\theta) + \frac{\delta\theta^2}{2}\frac{\partial^2}{\partial\theta^2}P(x;\theta)\right] 
++ \sum_x P(x;\theta) \left[ \frac{1}{2}\left(\delta\theta \frac{ \frac{\partial}{\partial\theta}P(x;\theta)}{P(x;\theta)}\right)^2 +O(\delta\theta^3)\right]$$
+$$ = -\left(\delta\theta  \frac{\partial}{\partial\theta} +\frac{\delta\theta^2}{2} \frac{\partial^2}{\partial\theta^2} \right) \sum_x P(x;\theta) 
++ \sum_x P(x;\theta) \left[ \frac{1}{2}\left(\delta\theta \frac{ \frac{\partial}{\partial\theta}P(x;\theta)}{P(x;\theta)}\right)^2 +O(\delta\theta^3)\right]$$
+$$ = -\left(\delta\theta  \frac{\partial}{\partial\theta} +\frac{\delta\theta^2}{2} \frac{\partial^2}{\partial\theta^2} \right) 1 
++\sum_x P(x;\theta) \left[\frac{1}{2}\left(\delta\theta \frac{ \frac{\partial}{\partial\theta}P(x;\theta)}{P(x;\theta)}\right)^2 +O(\delta\theta^3)\right]$$
+$$ =\frac{\delta\theta ^2}{2} \sum_x P(x;\theta) \left[\left(\frac{ \frac{\partial}{\partial\theta}P(x;\theta)}{P(x;\theta)}\right)^2 +O(\delta\theta^3)\right]$$
+$$ =\frac{\delta\theta ^2}{2} \sum_x P(x;\theta) \left[\left( \frac{\partial}{\partial\theta}\log{P(x;\theta)}\right)^2 +O(\delta\theta^3)\right]$$
+$$=\frac{\delta\theta ^2}{2} \mathcal{I}(\theta) +O(\delta\theta^3)$$
+
+Therefore, the Hessian of {the Mutual information of a probability distribution and a nearby distribution in a parametrized family of distributions} equals the FIM of the distribution at that parameter!
+
+This is a clean way of thinking about FIM, because one is thinking about distributions directly, and functions of these distributions, like the relative entropy, and one doesn't need to think about averaging w.r.t. these distributions explicitly <small>(of course an average appears in the definition of relative entropy, but one can think of relative entropy as just an abstract function of two prob dists. )</small>
+
+
+!!!__As covariance of the gradients of likelihood__
+
+It can also be seen as the [[Covariance matrix]] of the [[Gradient]]s of the likelihood function <small>(sometimes called "scores")</small>:
 
 $$ \mathcal{I}(\theta)= \mathbb{E}_{x\sim p(x|\theta)} \left[ \left(\frac{\partial}{\partial \theta}\log{p(x|\theta)}\right)^2\right] $$
 
@@ -25,8 +61,8 @@ $$=  \int \left(\frac{\partial}{\partial \theta} \log{p(x|\theta)} \right) \frac
 
 <div style="width:35em;">
 $$= - \int \left(\frac{\partial^2}{\partial \theta^2} \log{p(x|\theta)}\right) p(x|\theta) dx$$ $$+\int \frac{\partial}{\partial \theta} \left( \left(\frac{\partial}{\partial \theta} \log{p(x|\theta)} \right) p(x|\theta)  \right)dx$$ 
-$$= - \int \left(\frac{\partial^2}{\partial \theta^2} \log{p(x|\theta)}\right) p(x|\theta) dx$$ $$+\int \frac{\partial}{\partial \theta} \left( \frac{\partial}{\partial \theta} \log{p(x|\theta)} \right)dx$$
-$$= - \int \left(\frac{\partial^2}{\partial \theta^2} \log{p(x|\theta)}\right) p(x|\theta) dx$$ $$+ \frac{\partial^2}{\partial \theta^2} \int \log{p(x|\theta)}dx$$
+$$= - \int \left(\frac{\partial^2}{\partial \theta^2} \log{p(x|\theta)}\right) p(x|\theta) dx$$ $$+\int \frac{\partial}{\partial \theta} \left( \frac{\partial}{\partial \theta} {p(x|\theta)} \right)dx$$
+$$= - \int \left(\frac{\partial^2}{\partial \theta^2} \log{p(x|\theta)}\right) p(x|\theta) dx$$ $$+ \frac{\partial^2}{\partial \theta^2} \int {p(x|\theta)}dx$$
 $$= - \int \left(\frac{\partial^2}{\partial \theta^2} \log{p(x|\theta)}\right) p(x|\theta) dx$$ $$+ \frac{\partial^2}{\partial \theta^2} 1$$
 $$= - \int \left(\frac{\partial^2}{\partial \theta^2} \log{p(x|\theta)}\right) p(x|\theta) dx$$
 </div>
@@ -46,3 +82,7 @@ $$\chi^2$$ can be calculated as $$\chi^2 = \delta F \delta^T$$, where $$F$$ is t
 https://www.wikiwand.com/en/Fisher_information#/Reparametrization
 
 Note that the likelihood function is not a probability density over the parameters $$\theta$$, but over $$x$$. Therefore, when we reparametrize, the likelihood function only changes by changing its argument according to the reparametrization, but it doesn't get any [[Jacobian]] factor. The derivative with respect of the parameter does get a Jacobian factor, so that ''Fisher information is dependent on reparametrization''. The [[Metric tensor]] it encodes is, of course, invariant, by definition of tensor.
+
+!!!__Fisher information as a [[Metric]]__
+
+https://youtu.be/IKetDJof8pk?t=2250

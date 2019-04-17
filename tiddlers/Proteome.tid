@@ -1,9 +1,10 @@
 created: 20181229001534894
 creator: cosmos
-modified: 20181229001627475
+modified: 20190410085850390
 modifier: cosmos
 tags: Proteomics
 title: Proteome
+tmap.id: f5608aea-9d13-4ed3-ab30-2d4547d47da9
 type: text/vnd.tiddlywiki
 
 The set of all [[Protein]]s in a living organism; in particular their types and concentrations present at different cell/tissues, or organism wide. The study and analysis of these is known as [[Proteomics]]

@@ -1,6 +1,6 @@
 created: 20170105190631185
 creator: cosmos
-modified: 20181202025952012
+modified: 20190331031538166
 modifier: cosmos
 tags: [[Approximate Bayesian inference]] [[Statistical inference]]
 title: Variational inference
@@ -15,10 +15,32 @@ Variational inference <span style="color: DarkMagenta">is based on reducing infe
 
 See [ext[here|https://arxiv.org/pdf/1601.00670.pdf]].
 
-The interesting thing is that the KL divergence/ELBO is defined via a in integral over the latent/hidden variables, which is precisely the thing that we assumed was hard, and the reason to use variational inference! However, the variational distribution $$q(w)$$ may be much easier to integrate than the posterior!
-<small>Otherwise, we can use samples instead of the integation and use [[Stochastic optimization]] (like [[Stochastic gradient descent]]). But we could also have used sampling for the original integral! Or we could have used [[Monte Carlo]] methods ([[MCMC|Markov Chain Monte Carlo]]! In that case, the nontrivial thing is that using stochastic optimization can give good answer with much fewer samples than when approximating the integral in naive Bayesian inference (the denominator..). It is also typically more scalable (efficient for large datasets) than MCMC methods. </small>
 
+__Why is variational inference more efficient than MCMC methods?__
+
+<small> but how does it compare in terms of accuracy?</small>
+
+<small>
+The interesting thing is that the KL divergence/ELBO is defined via a in integral over the latent/hidden variables, which is precisely the thing that we assumed was hard, and the reason to use variational inference! However, the variational distribution $$q(w)$$ may be much easier to integrate than the posterior!
+
+</small>
+
+<small>
+
+Otherwise, we can use samples instead of the integation and use [[Stochastic optimization]] (like [[Stochastic gradient descent]]) [[[ref|https://arxiv.org/abs/1309.6835]]]. But we could also have used sampling for the original integral! Or we could have used [[Monte Carlo]] methods ([[MCMC|Markov Chain Monte Carlo]]! In that case, the nontrivial thing is that using stochastic optimization can give good answer with much fewer samples than when approximating the integral in naive Bayesian inference (the denominator..)<- which I think is true, the difference in convergence rates of this two is quite big in high dimensional problems I think.. It is also typically more scalable (efficient for large datasets) than MCMC methods. See examples in [[Variational inference for Gaussian processes]]
+</small>
+
+
+<small>
 To understand this would require analysis of MCMC, Monte Carlo integration, and stochastic optimization.
+
+</small>
+
+!!!__''Relation to [[Maximum likelihood]] estimation''__
+
+The [[Evidence lower bound]] is, as its name suggest a lower bound on the [[Bayesian evidence]] (aka [[Marginal likelihood]] of the data). In fact if the global minimum (over all distributions) is the actual likelihood of the data. Therefore, we can do maximum likelihood estimation, optimizing the ELBO w.r.t. the parameters of a model of the data (a [[Generative model]] in the usual context). So if a model has a likelihood which is intractable to compute directly, we can instead optimize the ELBO w.r.t. to the model parameters as well as w.r.t. the variational distribution. If we optimized the variational distribution part first to convergence over a sufficiently expressive family then this becomes the same as direct maximum likelihood etimation of the parameters of the model. Optimizing both at the same time is usually more efficient, of course.
+
+This can be used even in supervised learning when one does [[Generative supervised learning]], and when doing that one can do [[Semi-supervised learning]] (see [[here|https://arxiv.org/abs/1406.5298]] for e.g.). One may have other benefits like more principled (and therefore potentially more accurate) uncertainty estimates, more types of inference one can do than in a simple discriminative model, and potentially being easier to incorporate prior knowledge into the generative model than in the discriminative one.
 
 !!!__Zero-avoidance property__
 
@@ -31,16 +53,9 @@ The above implies that variational inference via the ELBO overconcentrates the p
 I guess variational inference can be used to estimate the [[Marginal likelihood]], by inverting Bayes' theorem to get $$p(D) = \frac{p(D|w)p(w)}{p(w|D)}\approx \frac{p(D|w)p(w)}{q(w)}$$, which can be evaluated at any $$w$$, but preferentially at $$w$$ sampled from variational distribution, as in those $$w$$ the variational approximation is likely better. The numerator is tractable to compute in cases where VI is applied. Using this formula we can see that a method (such as ELBO) which tends to overconcentrate the posterior (resulting in larger $$q(w)$$), will give a smaller likelihood (the intuition being that if this data is less likely is because there are fewer $$w$$ which produce it, so we give more weight to this one); on the other hand methods (such as EP) which tend to underconcentrate posterior, will give a larger likelihood. This probably explains why we obtain lower values for the PAC-Bayes bounds when using EP, when compared to VI.
 
 
-!!__Mean field VI__
+!!__[[Mean field VI|Mean field variational inference]]__
 
 A choice for the space of distributions over which to optimize, is distributions where the individual parameters are independent. This is known as a [[mean field approximation|Mean field theory]] (as we ignore statistical dependences).
-
-See [[here|https://www.cs.cmu.edu/~epxing/Class/10708-17/notes-17/10708-scribe-lecture13.pdf]]
-
-[img[
-mean_field_variational_inference_derivation.jpg]]
-
-In the above we show what the optimal $$q_i(w_i)$$ is, when only optimizing $$q_i$$ and keeping the rest of $$q_j$$ fixed. This is a [[Coordinate descent]] update. So if this update is easy to calculate, we can use coordinate descent to optimize the mean field ELBO
 
 !!__Applications__
 

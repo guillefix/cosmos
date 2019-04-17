@@ -1,6 +1,6 @@
 created: 20160810172855247
 creator: cosmos
-modified: 20161104134329608
+modified: 20190331030846357
 modifier: cosmos
 title: Maximum likelihood
 tmap.id: bd6cfa1f-3612-4b06-b476-4b9cd490ba3d
@@ -19,3 +19,8 @@ See [[video|https://www.youtube.com/watch?v=HZ4cvaztQEs&index=3&list=PLA89DCFA6A
 Too see the application of this method in [[Supervised learning]] see [[Discriminative learning]], and [[Generative learning]]
 
 https://www.wikiwand.com/en/Maximum_likelihood_estimation
+
+!!!__MLE via [[Variational inference]]__
+
+See [[Variational inference]]
+

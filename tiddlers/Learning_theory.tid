@@ -1,6 +1,6 @@
 created: 20160709004653144
 creator: guillefix
-modified: 20181219193620038
+modified: 20190309020206902
 modifier: cosmos
 tags: [[Statistical inference]] Learning [[Artificial intelligence]] [[Machine learning]]
 title: Learning theory
@@ -13,8 +13,7 @@ Mathematical theory of learning, and learning algorithms. See [[Machine learning
 
 [[Learn in theory|https://medium.com/@guillefix/learn-in-theory-3c88086ab388]]
 
-See [[these notes|https://github.com/damaru2/optimization17/]]. See book and lectures "Understanding machine learning" by Shia (found [ext[here|http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/]] for free)
-
+See [[these notes|http://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/18/] <small>and [[these notes|https://github.com/damaru2/optimization17/]]</small>. See book and lectures "Understanding machine learning" by Shia (found [ext[here|http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/]] for free). See also [[Introduction to supervised learning theory]] for an introduction to supervised learning theory.
 
 [[Statistical learning theory]] -- [[Computational learning theory]]
 

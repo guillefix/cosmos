@@ -1,0 +1,66 @@
+created: 20190403145741714
+creator: cosmos
+modified: 20190410085846355
+modifier: cosmos
+tags: [[Message passing]] [[Approximate Bayesian inference]]
+title: Expectation propagation
+tmap.id: 90dd4f4e-39e6-4e52-9e97-7b3873eb6736
+type: text/vnd.tiddlywiki
+
+http://www.gaussianprocess.org/gpml/chapters/RW3.pdf
+
+https://tminka.github.io/papers/ep/roadmap.html
+
+The expectation propagation approach to [[Gaussian process classification]], where the [[Likelihood function]] is intractable, approximates the likelihood function (as a function of the latent variable $$f_i$$) as and unormalized [[Gaussian]]
+
+$$p\left(y_{i} | f_{i}\right) \simeq t_{i}\left(f_{i} | \tilde{Z}_{i}, \tilde{\mu}_{i}, \tilde{\sigma}_{i}^{2}\right) \triangleq \tilde{Z}_{i} \mathcal{N}\left(f_{i} | \overline{\mu}_{i}, \tilde{\sigma}_{i}^{2}\right)$$
+
+$$\tilde{Z}_{i}, \tilde{\mu}_{i}, \tilde{\sigma}_{i}^{2}$$ are the ''site parameters''. Note that even though the likelihood (for instance a probit or a Hevaiside likelihood) may look very different to a Gaussian the idea really is to approximate the value of the likelihood near the regions where the posterior places significant weight, and those regions are more concentrated (i.e. unlike the likelihood function which may be $$1$$ for $$f_i$$ aribitrarily big), due to the prior on $$f_i$$ (which is Gaussian in the case of Gaussian processes).
+
+The __approximation to the posterior__ is then:
+
+$$q(\mathbf{f} | X, \mathbf{y}) \triangleq \frac{1}{Z_{\mathrm{EP}}} p(\mathbf{f} | X) \prod_{i=1}^{n} t_{i}\left(f_{i} | \tilde{Z}_{i}, \tilde{\mu}_{i}, \tilde{\sigma}_{i}^{2}\right)=\mathcal{N}(\mathbf{\mu}, \Sigma)$$
+
+with $$\mathbf{\mu}=\Sigma \tilde{\Sigma}^{-1} \tilde{\mathbf{\mu}}, \quad \text { and } \quad \Sigma=\left(K^{-1}+\overline{\Sigma}^{-1}\right)^{-1}$$, where $$K$$ is the [[Kernel matrix]] of the GP.
+
+$$Z_{\mathrm{EP}}$$, the normalization constant, is therefore the approximation to the [[Marginal likelihood]] of the data.
+
+The __EP iterative procedure__
+
+After initializing the site parameters with some initial guess, we do this the following update the posterior approximation so that it becomes more accurate <small>(the following will be iterated several times every time becoming more accurate, hopefully until convergence to the best accuracy our approximate for of the posterior may perform)</small>
+
+: 1. We compute the ''cavity distribution'' for site $$i$$. This is the approximate marginal distribtion of the latent variable at site $$i$$, conditioned on the observations at {every site except $$i$$}. This can be obtained by dividing the approximate marginal of $$f_i$$ conditioned on every site (which is $$q\left(f_{i} | X, \mathbf{y}\right)=\mathcal{N}\left(f_{i} | \mu_{i}, \sigma_{i}^{2}\right)$$), by the approximate likelihood for site $$i$$ (the local approximation $$t$$), and then normalizing; this gives:
+
+: $$\begin{aligned} q_{-i}\left(f_{i}\right) & \triangleq \mathcal{N}\left(f_{i} | \mu_{-i}, \sigma_{-i}^{2}\right) \\ \text { where } \mu_{-i} &=\sigma_{-i}^{2}\left(\sigma_{i}^{-2} \mu_{i}-\tilde{\sigma}_{i}^{-2} \tilde{\mu}_{i}\right), \text { and } \sigma_{-i}^{2}=\left(\sigma_{i}^{-2}-\tilde{\sigma}_{i}^{-2}\right)^{-1} \end{aligned}$$
+
+: As Rasmussen says in <small>[[here|http://www.gaussianprocess.org/gpml/chapters/RW3.pdf#page=22]], we can also think of constructing $$q_{-i}\left(f_{i}\right)$$ by multiplying only the approximate likelihoods in $$q(\mathbf{f} | X, \mathbf{y})$$ that don't correspond to site $$i$$, and then integrating over all $$\mathbf{f}$$ except $$f_i$$</small>
+
+<br/> 
+
+: 2.  To proceed, we find the new (un-normalized) __Gaussian marginal which best approximates the product of the cavity distribution and the exact likelihood__:
+
+: $$\hat{q}\left(f_{i}\right) \triangleq \hat{Z}_{i} \mathcal{N}\left(\hat{\mu}_{i}, \hat{\sigma}_{i}^{2}\right) \simeq q_{-i}\left(f_{i}\right) p\left(y_{i} | f_{i}\right)$$
+
+: It is well known that when $$q(x)$$ is Gaussian, the distribution $$q(x)$$ which minimizes $$KL(p(x)||q(x))$$ is the one whose first and second moments match thatof $$p(x)$$, see eq. (A.24) in Rassmussen .  As $$\hat{q}(f_i)$$ is un-normalized we choose additionally to impose the condition that the zero-th moments (normalizing constants) should match. I mean, we could have just decided to match the normalized marginal, moving $$\hat{Z}_i$$ to the RHS, right? The parameters of the new marginal distribution:
+
+: $$\begin{array}{l}{\hat{Z}_{i}=\Phi\left(z_{i}\right), \quad \hat{\mu}_{i}=\mu_{-i}+\frac{y_{i} \sigma_{-i}^{2} \mathcal{N}\left(z_{i}\right)}{\Phi\left(z_{i}\right) \sqrt{1+\sigma_{-i}^{2}}}} \\ {\hat{\sigma}_{i}^{2}=\sigma_{-i}^{2}-\frac{\sigma_{-i}^{4} \mathcal{N}\left(z_{i}\right)}{\left(1+\sigma_{-i}^{2}\right) \Phi\left(z_{i}\right)}\left(z_{i}+\frac{\mathcal{N}\left(z_{i}\right)}{\Phi\left(z_{i}\right)}\right), \quad \text { where } \quad z_{i}=\frac{y_{i} \mu_{-i}}{\sqrt{1+\sigma_{-i}^{2}}}}\end{array}$$
+
+: where $$\mathcal{N}$$ is the standard Gaussian distribution and $$\Phi$$ is the standard Gaussain [[Cumulative distribution function]]
+
+: 3. Finally, we __update the local likelihood approximation at sitte $$i$$ to match the approximate marginal of $$f_i$$__. The site parameters in terms of the marginal distribution parameters are:
+
+: $$\begin{aligned} \tilde{\mu}_{i}&=\tilde{\sigma}_{i}^{2}\left(\hat{\sigma}_{i}^{-2} \hat{\mu}_{i}-\sigma_{-i}^{-2} \mu_{-i}\right),  \tilde{\sigma}_{i}^{2}=\left(\hat{\sigma}_{i}^{-2}-\sigma_{-i}^{-2}\right)^{-1} \\ \tilde{Z}_{i} &=\hat{Z}_{i} \sqrt{2 \pi} \sqrt{\sigma_{-i}^{2}+\tilde{\sigma}_{i}^{2}} \exp \left(\frac{1}{2}\left(\mu_{-i}-\tilde{\mu}_{i}\right)^{2} /\left(\sigma_{-i}^{2}+\tilde{\sigma}_{i}^{2}\right)\right) \end{aligned}$$
+
+So overall, we update the approximte posterior parameters by saying assume that the marginal of $$f_i$$ given all the observations other than $$i$$ is right. Then approximate the marginal of $$f_i$$ using the true likelihood $$p\left(y_{i} | f_{i}\right)$$, with a Gaussian. And finally, find an approximation to the likelihood at $$i$$ that gives this (optimal) Gaussian approximation to the marginal of $$f_i$$.  The idea is that this approximation to the likelihood, approximates the likelihood well in the regions where $$f_i$$ is likely (as determined by its marginal distribution $$q_{-i}\left(f_{i}\right)$$ determined by the other sites). We keep updating, and propagating the improved estimates of the marginals.
+
+Note that we use the $$-i$$ subscript for the parameters of the marginal (not conditioned on site $$i$$), $$q_{-i}\left(f_{i}\right)$$, which is Gaussian because the approximate posterior is Gaussian, and the likelihood approximations are Gaussian.
+
+!!!__Implementation__
+
+See http://www.gaussianprocess.org/gpml/chapters/RW3.pdf#page=26 for pseudocode, and here for real code https://gpy.readthedocs.io/en/deploy/_modules/GPy/likelihoods/bernoulli.html
+
+In implementing it, one typically defines the following variables:
+
+$$\tilde{\tau}_{i}=\tilde{\sigma}_{i}^{-2} \quad \tilde{S}=\text{diag}(\tilde{\tau}), \quad \tilde{\nu}=\tilde{S} \tilde{\mu}, \quad \tau_{-i}=\sigma_{-i}^{-2}, \quad \nu_{-i}=\tau_{-i} \mu_{-i}$$
+
+Also note that, as used in [[here|https://gpy.readthedocs.io/en/deploy/_modules/GPy/likelihoods/bernoulli.html]], $$\frac{\mathcal{N}\left(z_{i}\right)}{ \Phi\left(z_{i}\right)}$$ equals the derivative of $$\Phi\left(z_{i}\right)$$ w.r.t. its argument.

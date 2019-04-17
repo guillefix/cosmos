@@ -1,13 +1,13 @@
 created: 20160919220735827
 creator: cosmos
-modified: 20181130180100254
+modified: 20190315191917534
 modifier: cosmos
 tags: [[Information measures]]
 title: Relative entropy
 tmap.id: 4b28e036-d8eb-400e-9bcc-32f9a512593d
 type: text/vnd.tiddlywiki
 
-//aka Kullback–Leibler divergence, KL divergence//
+//aka relative information, Kullback–Leibler divergence, KL divergence//
 
 The ''relative entropy'' between distribution $$P$$ and $$Q$$ is defined as:
 
@@ -17,13 +17,31 @@ Defines a measure of "distance" between probabiliy distributions. However, note 
 
 It can be interpreted as the average (under $$P$$) of the difference in code length, when assigning code lengths in an optimal way (as per Shannon [[Source coding theorem]]) for distribution $$P$$ and $$Q$$.
 
-[[video|https://www.youtube.com/watch?v=fc5FyE41zeo#t=3m15s]]
+__Interpretation as information gained__
+
+Entropy is the number of yes/no questions you expect you need to ask to identify the state of the world, under a Model of the world (Probability distribution over states of the world). I.e. how ignorant I think I am about the world.
+
+If you then for some reason update your model of the world, your expectations change. Because of this, the expected number of yes/no questions using the previously optimal scheme can change. The new number, called Cross entropy represents how ignorant you think now that you *were* about the world.
+
+Relative entropy can then be interpreted as the difference between how ignorant* I think I am *now* after the update (new value of entropy), versus how ignorant I think I was before ([[Cross entropy]]. I.e. how much less ignorant about the world do I think I have become after the update – how much information I think I have learned [*here I am using "ignorance" as "expected number of yes/no questions I to ask, which is equivalent to the code length, of course!]
+
+One can show that a Bayesian update from data containing k bits, results in a relative entropy between before and after of k (or ignorance decrease). It's an easy exercise, specially if one uses 0-1 likelihood. The information in the data $$D$$ under the prior is just $$-\log{P(D)}$$ 
+
+|This is why it is good to interpret is as information gained, because ''one can go from distribution $$Q$$ to $$P$$ by means of $$D_{\mathrm{KL}}(P\|Q)$$ bits of evidence!''|
+
+-----
+
+!!!__Properties__
+
+[[video|https://www.youtube.com/watch?v=fc5FyE41zeo#t=3m15s]] introducing the concept and its properties.
 
 [[Mutual information]] is a special case where $$P$$ is a joint distribution and $$Q$$ is the product of the [[marginals|Marginal probability]].
 
  Applications in estimating hypothesis testing errors and in large deviation theory. Also in [[PAC-Bayesian learning]]
 
+------
 
+See [[this video|https://www.youtube.com/watch?v=IKetDJof8pk]] for connections with areas in physics and biology. [[In particular|https://youtu.be/IKetDJof8pk?t=487]], the mutual information between a non-equilibrium distribution and the equilibrium distribution in some [[Statistical physics]] system, equals the difference between the [[Free energy]]es of the non-equilibrium state and the equilibrium state
 
 https://www.wikiwand.com/en/Kullback%E2%80%93Leibler_divergence
 

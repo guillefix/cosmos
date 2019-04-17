@@ -1,9 +1,10 @@
 created: 20181208133628151
 creator: cosmos
-modified: 20181208134217194
+modified: 20190410085850312
 modifier: cosmos
 tags: [[Functional analysis]]
 title: Periodic boundary conditions
+tmap.id: 74637361-04c2-464e-892f-85d5debc1aad
 type: text/vnd.tiddlywiki
 
 A trick to estimate the eigenvalues of operators whose kernel is only localized in a region small compared to the size of the input domain. Intuitively, if interactions are only local, then whether the boundaries are periodic or if the domain truly terminates there, doesn't affect the answer much.

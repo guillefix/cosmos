@@ -1,13 +1,17 @@
 created: 20170824213253621
 creator: cosmos
-modified: 20170824213336418
+modified: 20190402214754399
 modifier: cosmos
 tags: Statistics
 title: Moment (mathematics)
 tmap.id: 176767af-0a76-4fdd-ac32-bddbe78601c1
 type: text/vnd.tiddlywiki
 
-[ext[https://en.wikipedia.org/wiki/Moment_(mathematics)]]
+A moment, in [[Probability theory]], refers to a quantity of the form $$\mathbf{E}[\prod_i^n X_i^{k_i}]$$ defined for a collection of [[Random variable]]s $$X_1, X_2,...,X_n$$, and the exponents $$k_i$$ determine the //order// of the moment. $$\mathbf{E}$$ refers to the [[Expectation]].
+
+Moments are also defined in other areas of mathematics, using analogous definitions, where in general we substitute the expectation with a similar sum-like operator. See [ext[https://en.wikipedia.org/wiki/Moment_(mathematics)]]
+
+__Examples__
 
 * [[Mean]]
 * [[Variance]]

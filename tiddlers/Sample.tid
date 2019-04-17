@@ -1,11 +1,18 @@
 created: 20160726111451369
 creator: guillefix
-modified: 20161104134332106
-modifier: guillefix
+modified: 20190403142140026
+modifier: cosmos
+tags: Statistics
 title: Sample
 tmap.id: c7b01134-ade1-4021-ad50-2246491a144c
 type: text/vnd.tiddlywiki
 
-A small part of anything or one of a number, intended to show the quality, style, or nature of the whole; specimen.
+In [[Statistics]], a //sample// refers to the outcome of a random experiment, which is typically intended to give information about a [[Population]]. The different methods to do this are known as [[Sampling]] techniques.
 
-See [[Sampling]]
+Samples are mathematically modelled as [[Random variable]]s which express the uncertainty in the sampling procedure. <small>at the end there are fuzzy areas, and one may find "sample" being formally applied to describe any random variable, interpreting its [[Sigma-algebra]] as a "population"</small>. A "sample" may refer to the random variable itself, or to a particular [[realization|Realization of a random variable]] of it, typically without risk of confusion.
+
+In general, a sample small part of anything or one of a number, intended to show the quality, style, or nature of the whole; specimen.
+
+__i.i.d. sample__
+
+The most common sampling technique models the sampling as a sequence of [[i.i.d.]] random variables, with some underlying distribution.

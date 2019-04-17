@@ -1,0 +1,36 @@
+created: 20170419195234420
+creator: cosmos
+draft.of: Typical set
+draft.title: Typical set
+modified: 20190322194056603
+modifier: cosmos
+tags: [[Information theory]]
+title: Draft of 'Typical set'
+tmap.id: df55c21f-4864-4d53-b2b0-68d2bf5443da
+type: text/vnd.tiddlywiki
+
+An $$\epsilon$$-typical set, $$A_\epsilon^{(n)}$$ [[Set]] of strings of length $$n$$ which have a //typical// probability in an [[Stochastic process]]. "Typical" refers to a probability close ($$\epsilon$$) to that defined in the [[Asymptotic equipartition property]]. This set is typical because most strings belong to this set, asymptotically all of them.
+
+It includes all strings $$X$$ such that:
+
+$$2^{-n(H(X)+\epsilon)} \leq p(X) \leq 2^{-n(H(X)-\epsilon)}$$
+
+We can show that:
+
+* ''$$Pr\{A_\epsilon^{(n)}\} > 1 - \epsilon$$'', for $$n$$ sufficiently large. This is just from the AEP theorem and the definition of [[Convergence in probability]]. However, this bound isn't tight. I think using [[Hoeffding's inequality]] one obtains an exponential decrease in the probability of not being in the typical set.
+
+* ''$$|A_\epsilon^{(n)}| \leq 2^{n(H(X)+\epsilon)}$$''
+
+* ''$$|A_\epsilon^{(n)}| \geq (1-\epsilon)2^{n(H(X)-\epsilon)}$$'', for $$n$$ sufficiently large.
+
+See equations 3.7-16 in Els. of info theory book for proofs.
+
+__High-probability set__
+
+A ''high-probability set'' is defined as the smallest set of strings $$B$$ with $$Pr\{B\} \geq 1-\delta$$.
+
+One can show that $$A_\epsilon^{(n)}$$ and $$B$$ are about the same size.
+
+-----------------------
+
+[[video|https://www.youtube.com/watch?v=HfYvI0mI5fA&index=3&list=PLB39457109F61D4C6]]

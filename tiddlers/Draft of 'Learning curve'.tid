@@ -1,0 +1,41 @@
+created: 20181218200738625
+creator: cosmos
+draft.of: Learning curve
+draft.title: Learning curve
+modified: 20190410171616026
+modifier: cosmos
+tags: [[Generalization error]]
+title: Draft of 'Learning curve'
+tmap.id: 9cc687c7-c735-48e9-b865-1813961be6c9
+type: text/vnd.tiddlywiki
+
+
+[[Learning curves for Gaussian processes |https://papers.nips.cc/paper/1501-learning-curves-for-gaussian-processes.pdf]]
+
+-------------
+
+The theory of learning curves seems to be not well-known enough, but it's very useful. For example, it provides a rigorous derivation of the optimal regularization coefficient for L2 regularized least squares.
+One can show the following. Assume data is generated as y=w_0*x + eta, where x are generated from Gaussian with unit correlation, and where eta is Gaussian noise with sigma^2 variance. Assume your task is: given training data {(x_1,y_1),...,(x_m,y_m)}, generated that way, find w that minimizes the regularized mean squared error
+
+(1/m)sum_{i=1}^m (w*x_i - y_i)^2 + lambda *|w|^2
+
+and you are interested in the generalization error
+
+Expectation[(w*x - y)^2] upon sampling a new pair (x,y) according to the data generating process. In particular, we consider the average of Expectation[(w*x - y)], over training data samples (which determine w).
+
+Then,
+
+for lambda between 0 and sigma^2/|w_0|^2, the generalization error decreases with increasing lambda.
+
+for lambda greater than sigma^2/|w_0|^2, the error increases with increasing lambda. However, it stays lower than for lambda = 0, until a certain point lambda_c. This point is determined by how aligned, in expectation, w_0 is with the principal components of the correlation matrix of the training data. If w_0 is aligned with principal components then lambda_c is close to sigma^2/|w_0|^2, and viceversa. So making lambda higher than the optimal (overregularization) is safer when the true weight vector is pointing along the non-principal components, where there is little data variance. The intuition is that if this is the case, then there is smaller signal-to-noise ratio, so regularization is more benefitial (as it makes the algo less sensitive to noise, damping down potential large variance in w).
+
+I find it pretty neat that one can have a well principled and quantitative justification of regularization! And now you know how big you need to make the reg coefficient (under some assumptions) :)
+
+See nice discussion in comments with Cristof here: https://www.facebook.com/guillermovalleperez/posts/10156593654876223
+
+-----------
+
+
+[ext[Learning to generalize|http://www.ki.tu-berlin.de/fileadmin/fg135/publikationen/opper/Op01.pdf]]
+
+[[Rigorous Learning Curve Bounds from Statistical Mechanics|https://www.cis.upenn.edu/~mkearns/papers/statmech.pdf]]

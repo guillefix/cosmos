@@ -1,0 +1,25 @@
+created: 20190314190456365
+creator: cosmos
+modified: 20190410085846401
+modifier: cosmos
+tags: [[Statistical physics]]
+title: Free energy
+tmap.id: 09db260d-ab12-4c6b-9821-a41cbaff43c9
+type: text/vnd.tiddlywiki
+
+The free energy $$F$$ is defined, for a physical system is
+
+$$F=U-TS$$
+
+=Expected value of [[Energy]] - [[Temperature]] $$\times$$ [[Entropy]]
+
+It captures the "amount of energy that can be usefully extracted from a system", roughly.
+
+The [[Second law of thermodynamics]] implies that non-equilibrium physical systems evolve in a way that decreases free energy (although the notion of free energy that is relevant depends on the constrains imposed on the system). [+ it only stays constant in equilibrium, so out of equilibrium it strictly decreases, although potentially very slowly, a situtation called [[metastable equilibrium|Metastability]])
+
+See [[here|https://youtu.be/IKetDJof8pk?t=487]] (and [[here|http://math.ucr.edu/home/baez/bio_asu/]])for definition and connection with [[Relative entropy]]. This immediately implies that the [[Boltzmann distribution]] is the unique minimizer of the free energy, which implies it is the equilibrium distribution as per the above free energy minimization principle.
+
+
+--------------
+
+[[Gibbs free energy]]

@@ -1,6 +1,6 @@
 created: 20181015155040178
 creator: cosmos
-modified: 20181130013041977
+modified: 20190315190535006
 modifier: cosmos
 tags: [[Gaussian process]]
 title: Neural network Gaussian process
@@ -9,6 +9,32 @@ type: text/vnd.tiddlywiki
 
 [[Gaussian process]] that approximates the [[Prior]] over functions in a [[Bayesian neural network]] ([[Bayesian deep learning]]). The approximation is exact in the limit of infinitely wide layers (infinitely many neurons per hidden layer), and under the assumption that the distribution over weights in the Bayesian neural network is i.i.d. (and often [[Gaussian]])
 
+[[Scaling Limits of Wide Neural Networks with Weight Sharing: Gaussian Process Behavior, Gradient Independence, and Neural Tangent Kernel Derivation|https://arxiv.org/abs/1902.04760]]
+
+!!!__[[Signal propagation in neural networks]]__
+
+!!!__[[Neural tangent kernel]]__
+
+For parametrized function $$f(f;\theta)$$, the ''neural tangent kernel'' is defined as 
+
+:$$K_\theta(x,x') = \langle \nabla_\theta f(x;\theta), \nabla_\theta f (x';\theta)\rangle$$
+
+where the angle brackets mean the standard [[Inner product]] in $$\mathbb{R}^p$$, $$p$$ number of parameters, <mark>I think (check)</mark>.
+
+When $$f$$ is a feedforward neural network, with a certain distribution over parameters, then in the limit of infinite width $$K_\theta$$ converges to a limit $$K_\infty$$
+
+This convergence allows one to predict the evolution of $$f$$ under gradient descent on $$\theta$$. For example, if we apply gradient flow (I think, GD in the limit of small step size) on a training set $$\mathcal{X}$$ and loss function $$\frac{1}{|\mathcal{X}|}\sum_{(x,y)\in \mathcal{X}}\frac{1}{2}(f(x)-y)^2$$, for codomain($$f$$) = $$\mathbb{R}$$, [[Jacot et al|https://arxiv.org/abs/1806.07572]] derived:
+
+: $$\frac{f_t}{\partial t} = -\frac{1}{|\mathcal{X}|}K_{\theta_t}(\mathcal{X},\mathcal{X})(f_t-f^*)$$
+
+where $$f^*$$ is the "ground truth" function that for each $$(x,y)\in \mathcal{X}$$ maps $$f^*(x) = y$$, and $$f$$ and $$f^*$$ are thought of as dimension-$$|\mathcal{X}|$$ vectors. Jacot proved that under suitable conditions<mark>(which?)</mark>, with training time $$T$$ fixed and width $$\to \infty$$, $$K_{\theta_t} \to K_\infty$$ for all $$0\leq t \leq T$$. This means that
+
+> in the large width regime, $$f$$ (in the function space) evolves approximately according to a linear differential equation under gradient flow! <mark>wow!</mark>. See more of this [[here|https://arxiv.org/abs/1902.06720]]!
+
+Turns out that the NTK is the transpose of the empirical [[Fisher information matrix]]
+
+-------------
+
 It may also approximate the prior over functions when training with [[SGD|Stochastic gradient descent]].
 
 The kernel function of the Gaussian process depends on the choice of architecture, and properties of the parameter distribution, in particular the weight variance $$\sigma_w^2/n$$ (where $$n$$ is the size of the input to the layer) and the bias variance $$\sigma_b^2$$. The kernel for fully connected ReLU networks has a well known analytical form known as the arccosine kernel [[[ref|http://papers.nips.cc/paper/3628-kernel-methods-for-deep-learning]]], while for convolutional and residual networks it can be efficiently computed (see e.g. [[here|https://arxiv.org/pdf/1808.05587.pdf]]) 
@@ -16,6 +42,8 @@ The kernel function of the Gaussian process depends on the choice of architectur
 --> For a derivation and more detailed introduction of the main results (for [[Fully connected network]]s) 
 
 For an even more rigorous.careful treatment, and further results see: [[Deep Neural Networks as Gaussian Processes|https://arxiv.org/abs/1711.00165]], [[Gaussian Process Behaviour in Wide Deep Neural Networks|https://arxiv.org/abs/1804.11271]]
+
+--------------
 
 !!!__Convolutional neural network Gaussian processes__
 
@@ -27,9 +55,14 @@ It turns out that [[Convolutional neural network]]s (CNNs) with infinitely many 
 
 [[A Gaussian Process perspective on Convolutional Neural Networks|https://arxiv.org/abs/1810.10798]]
 
+
+--------------
+
 !!!__Applications to [[Generalization]]__
 
 [[Deep learning generalizes because the parameter-function map is biased towards simple functions|https://openreview.net/forum?id=rye4g3AqFm]]
+
+--------
 
 !!__[[Mean field theory of neural networks]]__
 

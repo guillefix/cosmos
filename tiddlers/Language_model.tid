@@ -1,8 +1,8 @@
 created: 20170131161500537
 creator: cosmos
-modified: 20170419072458600
+modified: 20190216132057697
 modifier: cosmos
-tags: [[Natural language processing]]
+tags: [[Natural language understanding]] [[Natural language processing]]
 title: Language model
 tmap.id: 22f55e41-acd0-49a5-9605-cd36bc84083b
 type: text/vnd.tiddlywiki
@@ -85,3 +85,9 @@ Add breaks in the backpropagation, maybe between sentences.
 However, we do forward propagate!
 
 __Skip-thought vectors__
+
+!!__Attention-based models__
+
+See [[New advances in deep learning]] (BERT, Transformer, [[Attention]]
+
+https://blog.openai.com/better-language-models/#task6

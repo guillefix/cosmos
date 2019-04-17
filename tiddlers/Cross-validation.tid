@@ -1,6 +1,6 @@
 created: 20160914085844404
 creator: cosmos
-modified: 20161104134327773
+modified: 20190331155124897
 modifier: cosmos
 tags: [[Model selection]]
 title: Cross-validation
@@ -56,6 +56,12 @@ k-fold CV, for whem k={number of training examples}, so for each iteration, you 
 
 Even more computationally expensive, but more accurate estimate of generalization error. Only done when the data is very scarce.
 
+!!__[[Cross-validation generalization error bounds]]__
+
+I have the feeling that one (not necessarily me xD) could maybe theoretically prove that something like cross-validation is an optimal way to estimate the generalization error of your algorithm (under some definitions of optimality).
+In a way that would be kinda annoying because CV is used all the time, so we won't get anything better. But, on the other hand it'd be pretty interesting and kinda useful to know...
+[insert thonk emoji]
+
 ---------------------
 
 //Some thoughts// when I misunderstood train/validation/test learning.
@@ -65,3 +71,6 @@ What I describe here is some sort of hyperlearning where we have two steps, wher
 When we have trained the data using a method as hold-out CV, and with some fixed learning [[Hyperparameter]]s. If we want to learn the hyperparameters, we can do this whole training procedure with several values of the hyperparameter.
 
 However, to choose the hyperparameters that are best, we can't just look at their result at S,,CV,,, as that set has been by the algorithm to choose the final answer. As a result, the error on S,,CV,, is a biased estimator of generalization error (see [[Learning theory]]). To have an unbiased estimator, we need a test set, that is only used once the learning algorithm has finished completely. We can compare the results on the test set to choose the best set of hyperparameters. Note, that once we have done that, the test error is no longer an unbiased estimate of generalization error, as we have used it to output our very final answer; i.e. our final answer depended on it!! We'd need a hypertest set
+
+-------------
+

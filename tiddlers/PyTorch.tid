@@ -1,0 +1,26 @@
+created: 20190201152439278
+creator: cosmos
+modified: 20190410085850420
+modifier: cosmos
+tags: [[Deep learning framework]]
+title: PyTorch
+tmap.id: c7dbd225-fe06-4bf2-86e5-11ce63e9564c
+type: text/vnd.tiddlywiki
+
+
+
+Loading data as list of numpy arrrays into PyTorch (from numpy to Dataset to Dataloader, https://stackoverflow.com/questions/44429199/how-to-load-a-list-of-numpy-arrays-to-pytorch-dataset-loader)
+
+
+```
+import torch.utils.data as utils
+
+my_x = [np.array([[1.0,2],[3,4]]),np.array([[5.,6],[7,8]])] # a list of numpy arrays
+my_y = [np.array([4.]), np.array([2.])] # another list of numpy arrays (targets)
+
+tensor_x = torch.stack([torch.Tensor(i) for i in my_x]) # transform to torch tensors
+tensor_y = torch.stack([torch.Tensor(i) for i in my_y])
+
+my_dataset = utils.TensorDataset(tensor_x,tensor_y) # create your datset
+my_dataloader = utils.DataLoader(my_dataset) # create your dataloader
+```

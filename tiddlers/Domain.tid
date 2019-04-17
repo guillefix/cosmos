@@ -1,0 +1,11 @@
+created: 20190403140708654
+creator: cosmos
+modified: 20190410085846188
+modifier: cosmos
+title: Domain
+tmap.id: 7505c2e1-302e-4180-9828-ffa7ca5fd19a
+type: text/vnd.tiddlywiki
+
+In general, a domain refers to a [[Set]] over which something //is applicable//. 
+
+For a [[Function]] its ''domain'' is the set of inputs where the function is defined to have an output.

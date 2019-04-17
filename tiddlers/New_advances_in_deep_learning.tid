@@ -1,11 +1,14 @@
 created: 20160406164853743
 creator: guillefix
-modified: 20190128231534349
+modified: 20190402234719277
 modifier: cosmos
-tags: [[Artificial intelligence innovation]]
+tags: [[Deep learning]] [[Artificial intelligence innovation]]
 title: New advances in deep learning
 tmap.id: e02512fa-e9cf-4761-abd6-5be637f3ea17
 type: text/vnd.tiddlywiki
+
+https://paperswithcode.com/sota
+
 
 review/position paper on giving neural nets the right biases -- https://arxiv.org/abs/1806.01261
 
@@ -13,7 +16,7 @@ review/position paper on giving neural nets the right biases -- https://arxiv.or
 
 [[Advances in reinforcement learning]]
 
-[[Advances in NLP]], [[Transformer network]], [[BERT]] (see [[here|https://www.youtube.com/watch?v=53YvP6gdD7U#t=2m]])
+[[Advances in NLP]], [[Transformer network]], [[BERT]] (see [[here|https://www.youtube.com/watch?v=53YvP6gdD7U#t=2m]]) -- https://blog.openai.com/better-language-models/#task6
 
 2017 updates: http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/
 

@@ -1,0 +1,12 @@
+created: 20190405152112016
+creator: cosmos
+modified: 20190410085846436
+modifier: cosmos
+tags: Classification [[Gaussian process]]
+title: Gaussian process classification
+tmap.id: 5aaab655-f5a7-45cb-93ae-34339bffd2e7
+type: text/vnd.tiddlywiki
+
+
+
+Using a noise-free latent process combined with a [[Probit likelihood]] is equivalent to using a latent process with Gaussian noise combined with a step-function (Heaviside) likelihood

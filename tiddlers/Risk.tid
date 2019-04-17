@@ -1,8 +1,9 @@
 created: 20181219153616418
 creator: cosmos
-modified: 20181219184708571
+modified: 20190410085850473
 modifier: cosmos
 title: Risk
+tmap.id: be9a1ea2-132d-42f4-9507-ae63315673ea
 type: text/vnd.tiddlywiki
 
 Risk is the expected value of the [[loss|Loss function]] (see [[Introduction to supervised learning theory]]). Synonymous with [[Generalization error]]

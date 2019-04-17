@@ -1,6 +1,6 @@
 created: 20161026163416578
 creator: cosmos
-modified: 20181123152006336
+modified: 20190318153652701
 modifier: cosmos
 tags: [[Learning theory]] [[Deep learning]]
 title: Optimization for training deep models
@@ -13,6 +13,6 @@ __[[Deep learning theory]]__
 
 [[Loss surface of neural networks]]
 
-https://arxiv.org/pdf/1811.03962.pdf
+[[A Convergence Theory for Deep Learning via Over-Parameterization|https://arxiv.org/pdf/1811.03962.pdf]]
 
-https://arxiv.org/pdf/1810.12065.pdf
+[[On the Convergence Rate of Training Recurrent Neural Networks|https://arxiv.org/pdf/1810.12065.pdf]]

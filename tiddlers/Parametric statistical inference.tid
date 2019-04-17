@@ -1,0 +1,15 @@
+created: 20190402230708979
+creator: cosmos
+modified: 20190410085850229
+modifier: cosmos
+tags: [[Statistical inference]]
+title: Parametric statistical inference
+tmap.id: 12650721-091f-41cb-a307-281c46d67d20
+type: text/vnd.tiddlywiki
+
+https://www.wikiwand.com/en/Estimation_theory
+
+When one is trying to estimate a finite set of [[Parameter]]s, parametrizing a family of [[Probability distribution]]s, one of which one assumes describes the population being studied.
+
+* [[Point estimation]], aka statistical estimation
+* [[Interval estimation]]

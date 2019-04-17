@@ -1,6 +1,6 @@
 created: 20160711222935370
 creator: guillefix
-modified: 20170715171906462
+modified: 20190403003646318
 modifier: cosmos
 tags: [[Probability theory]] [[Game theory]]
 title: Decision theory
@@ -10,6 +10,12 @@ type: text/vnd.tiddlywiki
 The mathematical study of strategies for optimal decision-making between options involving different risks or expectations of gain or loss depending on the outcome.
 
 https://www.wikiwand.com/en/Decision_theory
+
+See [[minimax_and_bayes_estimator.pdf]] for a description of the formalism decision theory under uncertainty (using the framework [[Parametric statistical inference]] as the setting). This also defines the useful concepts of a 
+
+* [[Minimax]] decision rule
+* [[Bayes optimal]] decision rule
+* [[Admissible decision rule]] (related to [[Pareto optimal]]ity)
 
 See also [[Machine learning]], and [[Reinforcement learning]]
 

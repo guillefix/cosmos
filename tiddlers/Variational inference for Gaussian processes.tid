@@ -1,9 +1,10 @@
 created: 20181204170833304
 creator: cosmos
-modified: 20181204170912058
+modified: 20190410085851112
 modifier: cosmos
 tags: [[Gaussian process]] [[Variational inference]]
 title: Variational inference for Gaussian processes
+tmap.id: de6c9fb8-5224-4625-a3dc-19ab812081ac
 type: text/vnd.tiddlywiki
 
 [[Gaussian Processes for Big Data|https://arxiv.org/abs/1309.6835]]

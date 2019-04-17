@@ -1,6 +1,6 @@
 created: 20170420161906055
 creator: cosmos
-modified: 20180713203605737
+modified: 20190410170924453
 modifier: cosmos
 tags: [[Information, computation and physics]] [[Statistical inference]]
 title: Statistical physics and inference
@@ -36,6 +36,8 @@ And book on "mathematics of generalization"
 [ext[Learning to generalize|http://www.ki.tu-berlin.de/fileadmin/fg135/publikationen/opper/Op01.pdf]]
 
 [[Statistical physics of learning from examples: a brief introduction|https://inis.iaea.org/search/search.aspx?orig_q=RN:28022292]]
+
+[[Rigorous Learning Curve Bounds from Statistical Mechanics|https://www.cis.upenn.edu/~mkearns/papers/statmech.pdf]], see [[Learning curve]]
 
 ----------------
 

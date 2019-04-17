@@ -1,8 +1,9 @@
 created: 20181218205846077
 creator: cosmos
-modified: 20181218210248043
+modified: 20190410085846367
 modifier: cosmos
 title: Expectation
+tmap.id: e1f4b9ef-82e5-4d79-b327-79ccf46c54e9
 type: text/vnd.tiddlywiki
 
 The ''expectation'' of [[Random variable]] $$X$$ under distribution $$\mathbb{P}$$ is defined as

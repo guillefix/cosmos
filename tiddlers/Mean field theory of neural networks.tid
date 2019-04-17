@@ -1,10 +1,13 @@
 created: 20181130011848808
 creator: cosmos
-modified: 20181130012101851
+modified: 20190410085849655
 modifier: cosmos
 tags: [[Statistical mechanics of neural networks]]
 title: Mean field theory of neural networks
+tmap.id: 4a353548-84e4-4634-935e-42c67ebf4a6a
 type: text/vnd.tiddlywiki
+
+See [[Neural network Gaussian process]]
 
 [[A Correspondence Between Random Neural Networks and Statistical Field Theory|https://arxiv.org/pdf/1710.06570.pdf]]
 

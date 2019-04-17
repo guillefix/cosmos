@@ -1,6 +1,6 @@
 created: 20180427161738016
 creator: cosmos
-modified: 20181108193757063
+modified: 20190318155019113
 modifier: cosmos
 tags: [[Deep learning theory]]
 title: Exploding gradients problem
@@ -36,6 +36,8 @@ Apart from exploding gradients, networks can fail by
 !!![[Exponential expressivity in deep neural networks through transient chaos|https://arxiv.org/abs/1606.05340]]
 
 !!![[Deep Information Propagation|https://arxiv.org/abs/1611.01232]]
+
+!!![[Which Neural Net Architectures Give Rise to Exploding and Vanishing Gradients?|http://papers.nips.cc/paper/7339-which-neural-net-architectures-give-rise-to-exploding-and-vanishing-gradients]]
 
 [[Information bottleneck]]
 

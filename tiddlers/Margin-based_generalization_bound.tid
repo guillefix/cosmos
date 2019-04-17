@@ -1,15 +1,15 @@
 created: 20181108173901591
 creator: cosmos
-modified: 20181129103601476
+modified: 20190331154346142
 modifier: cosmos
 tags: [[Rademacher complexity]] Generalization [[Structural risk minimization]]
 title: Margin-based generalization bound
 tmap.id: 918cd741-ce85-4e46-83aa-73d9a9e624df
 type: text/vnd.tiddlywiki
 
-//aka Margin theory//
+//aka Margin theory, margin bound//
 
-See {{UML}} for [[SVM|Support vector machine]] bounds; they arell all based on [[Structural risk minimization]] and bounding [[Rademacher complexity]] by bounding norms of the parameters/
+See {{UML}} for [[SVM|Support vector machine]] bounds; they are mostly based on [[Structural risk minimization]] and bounding [[Rademacher complexity]] by bounding norms of the parameters/inputs. But some developed by Langford and others are based on [[PAC-Bayesian theory|PAC-Bayesian learning]], and may be tighter (see section below)
 
 [[Theory of classification: A survey of some recent advances.|https://www.esaim-ps.org/articles/ps/pdf/2005/01/ps0420.pdf]]
 
@@ -20,3 +20,15 @@ See {{UML}} for [[SVM|Support vector machine]] bounds; they arell all based on [
 The algorithmic idea of large margin classifiers was introduced in the linear case by [[Vapnik (1982)|https://www.springer.com/gb/book/9780387308654]] (see also ([[Boser et al., 1992|http://www.svms.org/training/BOGV92.pdf]]; [[Cortes and Vapnik, 1995|https://link.springer.com/article/10.1007/BF00994018]])). [[Vapnik (1995)|https://www.springer.com/gb/book/9780387987804]] gave an intuitive explanation ofthe performance of these methods based on a sample-dependent VC-dimension calculation, but withoutgeneralization bounds. The first rigorous generalization bounds for large margin linear classifiers ([[Shawe-Taylor et al., 1998|https://pdfs.semanticscholar.org/db5f/533d9f06d8d86e4e003478b3dc4bba15b848.pdf]]) required a scale-sensitive complexity analysis of real-valued function classes. At thesame time, a large margin analysis was developed for two-layer networks ([[Bartlett, 1996|https://papers.nips.cc/paper/1204-for-valid-generalization-the-size-of-the-weights-is-more-important-than-the-size-of-the-network.pdf]]), indeed with a proof technique that inspired the layer-wise induction used to prove Theorem 1.1 in the [[present work|https://arxiv.org/abs/1706.08498]] .Margin theory was quickly extended to many other settings (see for instance the survey by [[Boucheron et al.(2005)|https://www.esaim-ps.org/articles/ps/pdf/2005/01/ps0420.pdf]]), one major success being an explanation of the generalization ability of boosting methods, whichexhibit an explicit growth in the size of the function class over time, but a stable excess risk (Schapireet al., 1997)
 
 [[Structural risk minimization over data-dependent hierarchies|https://pdfs.semanticscholar.org/db5f/533d9f06d8d86e4e003478b3dc4bba15b848.pdf]] -- [[For valid generalization the size of the weights is more important than the size of thenetwork|https://papers.nips.cc/paper/1204-for-valid-generalization-the-size-of-the-weights-is-more-important-than-the-size-of-the-network.pdf]] -- [[The sample complexity of pattern classification with neural networks: the size ofthe weights is more important than the size of the network.|https://pdfs.semanticscholar.org/9f1e/b4445219fbc994eb3e47e76cf1428d99815c.pdf]]
+
+[[Boosting the margin: a new explanation for the effectiveness of voting methods|https://projecteuclid.org/euclid.aos/1024691352]]
+
+!!__[[PAC-Bayes]]ian approach to margin bounds__
+
+[[Bounds for Averaging Classifiers|http://hunch.net/~jl/projects/prediction_bounds/averaging/averaging_tech.pdf]]
+
+[[PAC-Bayes & Margins|https://papers.nips.cc/paper/2317-pac-bayes-margins.pdf]] (Langford and Shawe-Taylor). In this paper they show that if there exists a weight vector $$w$$ with a margin risk $$l_\gamma(w,S)$$ for margin $$\gamma$$ and training set $$S$$ (i.e. probability of sample having a margin larger than $$\gamma$$), then we can choose a certain posterior distribution $$Q$$ for the general [[PAC-Bayes]]ian theorem which depends on $$w$$. For this posterior we can compute the relative entropy, and bound the empirical risk by the margin irsk of $$w$$ plus a term which decreases with increasing margin. <small> The idea of this second term is that $$Q$$ is a distribution supported on $$w'$$ which lie on a halfplane parallel to $$w$$. The larger the margin, the more of these vectors that classify well, so the smaller the bound on the empirical risk.</small>
+
+[[Simplified PAC-Bayesian Margin Bounds|http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.129.6048]]
+
+.The fundamental idea behind the PAC-Bayesian approach to margin bounds is that a small error rate relative to a large safety margin ensures the existence of a posterior distribution (a Gibbs classifier) with a small training error and a small KL-divergence from the prior.

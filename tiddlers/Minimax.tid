@@ -1,0 +1,22 @@
+created: 20190403002957212
+creator: cosmos
+modified: 20190410085849742
+modifier: cosmos
+tags: [[Decision rule]]
+title: Minimax
+tmap.id: 11ade600-c891-4917-96bd-0b5319d85571
+type: text/vnd.tiddlywiki
+
+A thing that does best in {its worst case}.
+
+See [[minimax_and_bayes_estimator.pdf]] for a formal description of a ''minimax decision rule'' (in the context of [[Parametric statistical inference]] as an example), which underlies the general concept of minimax, as found in several areas of applications
+
+* [[Minimax risk]], [[Minimax regret]].
+
+Theorem 2. Let {f θ : θ ∈ Θ} be a family of PDFs (PMFs), and suppose that an estimator
+δ ∗ of θ is a Bayes estimator corresponding to an a priori distribution π on Θ. If the risk
+function R(θ, δ ∗ ) is constant on Θ, then δ ∗ is a minimax estimator for θ.
+
+From page 411, Rohagi, Sale, "An introduction to probability and statistics"
+
+Note that it's not hard to show that the Bayes risk is a lower bound of the minimax risk (which makes sense, as the worst case has to be worse than the average case..., and this is preserved after taking mins)

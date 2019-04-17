@@ -1,0 +1,21 @@
+created: 20190403003332713
+creator: cosmos
+modified: 20190410085834997
+modifier: cosmos
+tags: [[Decision rule]]
+title: Admissible decision rule
+tmap.id: 5a1a4bd6-d515-4896-8a9a-ed528b414b85
+type: text/vnd.tiddlywiki
+
+A [[Decision rule]] $$\delta$$ is inadmissible if there exists a $$\delta^* \in \mathcal{D}$$ such that $$R(\theta, \theta^*) \leq R(\theta, \delta)$$ where the inequality is strict for some $$\delta \in \Theta$$; otherwise $$\delta$$ is ''admissible''.
+
+Here $$R$$ is the [[Risk]] function, $$\mathcal{D}$$ is the space of possible decision rules, and $$\Theta$$ is the space of possibilities which we consider (for instance, [[Parameter]]s in the case of [[Parametric statistical inference]]).
+
+See [[minimax_and_bayes_estimator.pdf]] for explanation of the [[decision-theoretic]] formalism used here
+
+related to [[Pareto optimal]]ity
+
+------
+
+Let T be the unique Bayes estimator of θ with respect to the prior density π. Then
+T is admissible.

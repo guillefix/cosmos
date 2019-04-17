@@ -1,0 +1,13 @@
+created: 20190403003138311
+creator: cosmos
+modified: 20190410085835494
+modifier: cosmos
+title: Bayes optimal
+tmap.id: a8e1ebc0-ae0b-451e-919b-7a9cddedfbac
+type: text/vnd.tiddlywiki
+
+A thing that does best in {its average case}.
+
+See [[minimax_and_bayes_estimator.pdf]] for a formal description of a ''Bayes optimal decision rule'' (in the context of [[Parametric statistical inference]] as an example), which underlies the general concept of Bayes optimality, as found in several areas of applications.
+
+* [[Bayes risk]], [[Bayes regret]].

@@ -1,9 +1,10 @@
 created: 20181219153928227
 creator: cosmos
-modified: 20181219204214406
+modified: 20190410085849764
 modifier: cosmos
 tags: Risk
 title: Minimax risk
+tmap.id: 43ebab92-67d1-4dd0-ab55-2954f5bf7679
 type: text/vnd.tiddlywiki
 
 The [[Risk]] for the estimator/learning algorithm that ''performs best in the worst case''. If $$R _ { \theta } ( \hat { \theta } )$$ is the [[Risk]] of estimator $$\hat{\theta}$$ under data distribution $$\theta$$, then the minimax risk is defined as:

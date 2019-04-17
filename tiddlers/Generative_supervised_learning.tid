@@ -1,6 +1,6 @@
 created: 20160821081415623
 creator: cosmos
-modified: 20161104134328612
+modified: 20190331031558052
 modifier: cosmos
 tags: [[Supervised learning]]
 title: Generative supervised learning
@@ -53,3 +53,9 @@ See more at [[Generative vs discriminative models]]
 <span style="color:coral;">Generative models can be used for prediction with missing input features, because we can estimate them from their marginal distribution computed using the model. </span>
 
 Can also train with missing data. See chapter 8 in Murphy's book
+
+Can also train with unlabelled data: i.e. one can do [[Semi-supervised learning]] (see [[here|https://arxiv.org/abs/1406.5298]] for e.g.
+
+-----------
+
+Some other benefits like more principled (and therefore potentially more accurate) uncertainty estimates, more types of inference one can do than in a simple discriminative model, and potentially being easier to incorporate prior knowledge into the generative model than in the discriminative one.

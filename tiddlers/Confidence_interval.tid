@@ -1,11 +1,21 @@
 created: 20170103100144222
 creator: cosmos
-modified: 20170103124123099
+modified: 20190403012910116
 modifier: cosmos
-tags: [[Statistical estimation]]
+tags: [[Confidence estimation]] [[Interval estimation]]
 title: Confidence interval
 tmap.id: 8cc43df5-cf82-4130-859b-785e7e851f11
 type: text/vnd.tiddlywiki
+
+
+In many problems of statistical inference the experimenter is interested in constructing a family of sets that contain the true (unknown) parameter value with a specified (high) probability. If X, for example, represents the length of life of a piece of equipment, the experimenter is interested in a lower bound θ for the mean θ of X. Since θ = θ(X) will be a function of the observations, one cannot ensure with probability 1 that θ(X) ≤ θ. All that one can do is to choose a number 1 − α that is close to 1 so that P θ {θ(X) ≤ θ} ≥ 1 − α for all θ. Problems of this type are called problems of ''confidence estimation'', and the sets constructed are called ''confidence interval''s.
+
+
+[[Binomial confidence interval]]
+
+[[Bayes optimal]] confidence interval! (I call it Bayesian confidence interval; how close are [[PAC-Bayes]] intervals on the [[Generalization error]] to be Bayesian optimal? are they even [[Admissible]]?)
+
+----------------------
 
 In this formulation (frequentists), a 95% confidence interfval means that 95% of the times we draw a sample of this type, 95% of the time this confidence interval will include the mean. 95% probability that our interval contains the real mean
 
@@ -14,3 +24,7 @@ In this formulation (frequentists), a 95% confidence interfval means that 95% of
 Find p_est such that P(e<e_observed) is 0.05. That way, even if p is that high, p will fall within the confidence interval with 95% probability. For confidence intervals, imagine p fixed, and possible e_obs. Then find procedure, (like a fixed interval size, in the simplest case), so that p will fall in the interval with probability alpha
 
 https://docs.google.com/document/d/1QAz45x3maDrs7uVACsJb-wVre_M8GW1hKpjEworLcbI/edit
+
+------------
+
+For the [[Bayesian]] analogue see [[Credible interval]]

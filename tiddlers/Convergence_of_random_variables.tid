@@ -1,6 +1,6 @@
 created: 20170419194656694
 creator: cosmos
-modified: 20181125000419729
+modified: 20190322205745989
 modifier: cosmos
 tags: [[Random variable]] Convergence
 title: Convergence of random variables
@@ -10,3 +10,7 @@ type: text/vnd.tiddlywiki
 [img[convergence_of_random_variables.jpg]]
 
 See also [[Convergence of measures]]
+
+https://www.wikiwand.com/en/Proofs_of_convergence_of_random_variables#/propA1i
+
+https://math.stackexchange.com/questions/149775/convergence-of-random-variables-in-probability-but-not-almost-surely <- we want to show that the probability that I go to $$1$$ infinitely often (a sequence $$X_i$$ is said to visit $$1$$ infinitely often if for any $$n_0$$ I can always find an $$n>n_0$$ where $$X_n=1$$ in the sequence) is $$1$$. Uses [[Borel-Cantelli lemmas]]
