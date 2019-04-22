@@ -1,6 +1,6 @@
 created: 20170131161500537
 creator: cosmos
-modified: 20190216132057697
+modified: 20190421190604390
 modifier: cosmos
 tags: [[Natural language understanding]] [[Natural language processing]]
 title: Language model
@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 
 
 A [[Probabilistic model]] for [[Language]]: A [[Probability distribution]] over strings (sequence of tokens) in a [[Language]]
+
+[[Text generation]]
 
 !!__Uses of conditional/joint probability models__
 

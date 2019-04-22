@@ -1,6 +1,6 @@
 created: 20170325144453634
 creator: cosmos
-modified: 20180619204339054
+modified: 20190421190558414
 modifier: cosmos
 tags: [[Artificial intelligence]]
 title: Natural language understanding
@@ -8,6 +8,8 @@ tmap.id: 281b6970-a65d-43cc-9b4c-901bd2ad810f
 type: text/vnd.tiddlywiki
 
 Use [[Natural language processing]] and more [[Machine learning]]/[[Artificial intelligence]] methods to understand [[Natural language]].
+
+[[Language model]], [[Text generation]]
 
 https://rasa.ai/?ref=producthunt
 
