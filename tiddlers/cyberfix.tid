@@ -1,6 +1,6 @@
 created: 20181116023645654
 creator: cosmos
-modified: 20190410085846014
+modified: 20190427194233203
 modifier: cosmos
 tags: Cyberself
 title: cyberfix
@@ -11,6 +11,75 @@ type: text/vnd.tiddlywiki
 //Current substrate//: Dell Precision M6700 (aquired in Dubai in 2012)
 
 __Finger interface (aka Keyboard)__
+
+!!!__xkb version of keymapping__
+
+`git apply evdev.patch`
+
+evdev.patch
+
+```
+diff --git /usr/share/X11/xkb/keycodes/evdev /usr/share/X11/xkb/keycodes/evdev
+index 5d6701b..624ac68 100644
+--- /usr/share/X11/xkb/keycodes/evdev
++++ /usr/share/X11/xkb/keycodes/evdev
+@@ -65,18 +65,18 @@ default xkb_keycodes "evdev" {
+  <AB10> = 61;
+  <RTSH> = 62;
+
+- <LALT> = 64;
+- <LCTL> = 37;
++ <LALT> = 133;
++ <LCTL> = 64;
+  <SPCE> = 65;
+  <RCTL> = 105;
+  <RALT> = 108;
+  // Microsoft keyboard extra keys
+- <LWIN> = 133;
++ <LWIN> = 37;
+  <RWIN> = 134;
+  <COMP> = 135;
+  alias <MENU> = <COMP>;
+
+- <ESC> = 9;
++ <ESC> = 66;
+  <FK01> = 67;
+  <FK02> = 68;
+  <FK03> = 69;
+```
+
+genereted by doing `git diff [file1] [file2] > [patch_file].patch`
+
+__in ubuntu 18__
+
+all done through the keyboard shortcut settings:
+
+mapped ctrl+[Page_up] to ctrl+q and ctrl+[Page_down] to ctrl+d using Ubuntu's own ability to create shortcuts (Settings>Keyboard>Shortcuts>Custom shortcuts -- see conversation with Paco on 26/1/2018 on Telegram 7pm) (and alternative to achieve the same thing is --  https://askubuntu.com/questions/105224/ctrl-page-down-ctrl-page-up . We link the shortcuts to "virutal keypresses" using xvkbd, in particular the commands `xvkbd -xsendevent -text "\C\[Next]"` and `xvkbd -xsendevent -text "\C\[Prior]"`
+
+Also now mapped Ctrl+D to Alt+D via Ubuntu settings also, linking Alt+d to command `xvkbd -xsendevent -text "\Cd"`... becuase I need to use ctrl+D in several cases, like in terminal..
+
+We map alt+tab to ctrl+tab
+
+map alt+grave (&#x60;) to ctrl+grave
+
+
+
+__Servers__
+
+
+__crontab__
+
+`crontab -e`
+
+crontab can't write to log unless the non-root user chowns it..
+this seems to agree with what this guy says: https://forums.freebsd.org/threads/cron-gets-permission-denied-writing-in-var-log.36308/ (unless what some other people said in other formus)
+
+
+
+------------
+
+
+!!__old__
 
 <small>"key" refers to physical buttons. By convention, we map Software functions to Keys</small>
 
@@ -45,18 +114,3 @@ We map alt+tab to ctrl+tab using `compizconfig-settings-manager` (that's the nam
 
 map alt+grave (&#x60;) to ctrl+grave using compiz also --
  https://askubuntu.com/questions/132304/how-to-disable-alt-backtick-grave -- Change Key to flip through windows in the switcher from disabled to something else.
-
-__in ubuntu 18__
-
-it's all done through the keyboard shortcut settings
-
-
-__Servers__
-
-
-__crontab__
-
-`crontab -e`
-
-crontab can't write to log unless the non-root user chowns it..
-this seems to agree with what this guy says: https://forums.freebsd.org/threads/cron-gets-permission-denied-writing-in-var-log.36308/ (unless what some other people said in other formus)
