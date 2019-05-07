@@ -1,6 +1,6 @@
 created: 20170131161500537
 creator: cosmos
-modified: 20190421190604390
+modified: 20190506172734800
 modifier: cosmos
 tags: [[Natural language understanding]] [[Natural language processing]]
 title: Language model
@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 
 A [[Probabilistic model]] for [[Language]]: A [[Probability distribution]] over strings (sequence of tokens) in a [[Language]]
 
-[[Text generation]]
+[[Text generation]]. GPT2 https://mobile.twitter.com/Miles_Brundage/status/1115178488393154560
 
 !!__Uses of conditional/joint probability models__
 

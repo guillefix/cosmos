@@ -1,6 +1,6 @@
 created: 20160413185512030
 creator: guillefix
-modified: 20170515153957056
+modified: 20190506171805884
 modifier: cosmos
 tags: [[Theoretical computer science]] [[Mathematical logic]]
 title: Computability theory
@@ -8,6 +8,8 @@ tmap.id: 20517ca4-4649-47af-8617-2010a001ac5a
 type: text/vnd.tiddlywiki
 
 See [[Theory of computation]]. Here we are focusing on ''Turing computability''. This is because, according to the [[Church-Turing thesis]], [[Turing machine]]s are the most computationally powerful, and all other realizable models of computation, are either special cases (i.e. they will define subsets of Turing computable functions) or equivalent.
+
+https://mobile.twitter.com/_julesh_/status/1095540512168194048
 
 __Important concepts__
 
