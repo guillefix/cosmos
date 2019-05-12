@@ -1,12 +1,24 @@
 created: 20161017185815840
 creator: cosmos
-modified: 20170705222001607
+modified: 20190512012800324
 modifier: cosmos
 tags: Attention
 title: Attention in machine learning
 tmap.id: 8c34a1c7-b983-46fe-89a3-1a219acc08ab
 type: text/vnd.tiddlywiki
 
+
+
 [[Attention using RL|https://www.youtube.com/watch?v=kUiR0RLmGCo&index=15&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=15m33s]]
 
 [[Lecture 8 - Generating Language with Attention [Chris Dyer|https://www.youtube.com/watch?v=ah7_mfl7LD0&list=PL613dYIGMXoZBtZhbyiBqb0QtgK6oJbpm&index=10]]
+
+----------
+
+Pervasive attention: https://github.com/elbayadm/attn2d
+
+https://towardsdatascience.com/the-fall-of-rnn-lstm-2d1594c74ce0
+
+[[Transformer]]
+
+[[Attention is all you need]]

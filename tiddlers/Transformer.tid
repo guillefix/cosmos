@@ -1,0 +1,25 @@
+created: 20190512011926231
+creator: cosmos
+modified: 20190512020548880
+modifier: cosmos
+tags: [[Artificial neural network]]
+title: Transformer
+type: text/vnd.tiddlywiki
+
+[[Attention is all you need|https://arxiv.org/pdf/1706.03762.pdf]]. In this work we propose the Transformer, a model architecture eschewing recurrence and insteadrelying entirely on an attention mechanism to draw global dependencies between input and output.The Transformer allows for significantly more parallelization a
+
+Uses [[Attention]]
+
+The transformer basically does the following:
+
+# encode
+## appplies a simple element-wise transformation to the long sequence of features (easy to parallelize :)!) that gives key-value pairs, and queries
+## for n in NumberOfLayers
+###Attend to sequence of (key-value pairs, queries) using an [[Attention function]], transform the the sequence of outputs of attention, and output a new sequence of key-value pairs, and queries
+#decode. Works the same as the encoding, except that
+## we mask the attention, so that each output in the sequence can only attend to previous points in the sequence. This makes it an autoregressive model, that will take time linear on the sequence length, when generating, but can be trained in parallel, by feeding the target outputs all at the same time, as it's usually done when training autoregressive models. 
+## we have an "encoder-decoder attention" where the outputs of the first sublayer in the decoder give queries for the sequence of key-values at the output of the last layer of the encoder. The outptus of these are combined with the outputs of the first attention sublayer.
+
+Where do the first set of queries come from? As far as I understand (as per described above), they come from the input embedding layers right? Yeah this seems to be correct
+
+[img[transformer_model_architecture.png]]
