@@ -1,6 +1,6 @@
 created: 20170103094750007
 creator: cosmos
-modified: 20170103095142056
+modified: 20190513175051634
 modifier: cosmos
 tags: [[Probability theory]]
 title: Central limit theorem
@@ -10,3 +10,5 @@ type: text/vnd.tiddlywiki
 https://www.wikiwand.com/en/Central_limit_theorem
 
 See also [[Hoeffding's inequality]]
+
+---------------

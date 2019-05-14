@@ -1,0 +1,23 @@
+created: 20190513171730231
+creator: cosmos
+modified: 20190513180058474
+modifier: cosmos
+tags: [[Deep learning]]
+title: Weight initialization
+type: text/vnd.tiddlywiki
+
+
+
+[[Introductory article|https://towardsdatascience.com/weight-initialization-in-neural-networks-a-journey-from-the-basics-to-kaiming-954fb9b47c79]].
+
+> The aim of weight initialization is to prevent layer activation outputs from exploding or vanishing during the course of a forward pass through a deep neural network. <small>If either occurs, loss gradients will either be too large or too small to flow backwards beneficially, and the network will take longer to converge, if it is even able to do so at all.</small>.
+
+Initialization is very important for [[Training]], but it can also influence the inductive bias, and therefore affect [[Generalization]]. I think in practice, it seems to matter more for the former, though.
+
+Recipes on weight initialization, based on a [[Mean field theory]] analysis of neural networks: [[Exponential expressivity in deep neural networks through transient chaos|http://papers.nips.cc/paper/6322-exponential-expressivity-in-deep-neural-networks-through-transient-chaos]]. See [[here|https://arxiv.org/abs/1711.00165]] for extension to ReLU networks
+
+See [[Exploding gradients problem]]
+
+--------------
+
+Xavier, He, Lecun initializations..
