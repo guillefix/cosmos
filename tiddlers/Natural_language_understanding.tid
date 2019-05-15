@@ -1,6 +1,6 @@
 created: 20170325144453634
 creator: cosmos
-modified: 20190421190558414
+modified: 20190515012751170
 modifier: cosmos
 tags: [[Artificial intelligence]]
 title: Natural language understanding
@@ -18,6 +18,8 @@ https://github.com/allenai/deep_qa
 Many of the methods use [[Augmented RNN]]s, which have [[Memory]], and [[Attention]] features. I think that multi-sensory integration should also be a crucial feature. So this would need to be related to [[Video understanding]] and [[Image understanding]]
 
 Automatically make timelines from unsttructured text http://www.cs.ubc.ca/labs/imager/tr/2015/TimeLineCurator/
+
+https://openai.com/blog/unsupervised-sentiment-neuron/ -- https://openai.com/blog/language-unsupervised/
 
 !!__Dialogue systems__
 

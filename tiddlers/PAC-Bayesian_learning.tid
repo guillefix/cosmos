@@ -1,6 +1,6 @@
 created: 20170510213348476
 creator: cosmos
-modified: 20190326150524826
+modified: 20190514180743015
 modifier: cosmos
 tags: [[Learning theory]]
 title: PAC-Bayesian learning
@@ -37,6 +37,10 @@ To see how the Theorem 1 from
 One can also show that the Gibbs posterior gives the optimal bound of the form given by the general theorem. See discussion in [[Evidence lower bound]]. 
 
 -- [[Tutorial on Practical Prediction Theory for Classification|http://www.jmlr.org/papers/volume6/langford05a/langford05a.pdf]]
+
+__History__
+
+PAC-Bayes is inspired by [[Structural risk minimization]]. See [[this paper by Shaw and Taylor|https://pdfs.semanticscholar.org/58d0/7463298078bbb7c45faf6b26ab0e87fb0e6d.pdf]]
 
 -----------
 

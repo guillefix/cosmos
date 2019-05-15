@@ -1,27 +1,14 @@
-created: 20160918223934834
+created: 20190515013222724
 creator: cosmos
-modified: 20190515013308027
+modified: 20190515013305507
 modifier: cosmos
-tags: [[Probability theory]]
-title: Probabilistic model
-tmap.id: df0ed99c-e6a6-4a1c-86f9-141891ff170c
+tags: [[Probabilistic model]]
+title: Deep generative model
 type: text/vnd.tiddlywiki
 
-A [[Probability distribution]], which is used to [[model|Model]] some system, often with [[Uncertainty]]/[[Randomness]].
+[[Generative model]] (basically a [[Probabilistic model]]) using a [[Deep learning]] model (basically an advanced [[Deep neural network]])
 
-These models relate [[Random variable]]s, using some more or less general assumptions about the nature of the data.
-
-[[Graphical model]]
-
-[[Artificial neural network]]
-
-See [[Machine learning]]
-
-[[Generative model]] -- [[Deep generative model]]
-
-[[Random-cluster model]]
-
-----------------
+------------
 
 Example of probabilistic modeling (particulary in [[Deep learning]] paradigm), using the [[DeepSaber]] project as example.
 

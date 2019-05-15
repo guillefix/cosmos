@@ -1,0 +1,35 @@
+created: 20190515012238894
+creator: cosmos
+modified: 20190515012444260
+modifier: cosmos
+tags: [[Reinforcement learning]]
+title: Intrinsic motivation
+type: text/vnd.tiddlywiki
+
+
+------
+
+one of my favourite ICLR2019 talks. Learn to explore by using learning progress as reward. The idea makes so much sense, I don't know why I don't see it applied often? Maybe the devil is in the details?
+They demonstrate impressive results on many things I've wondered about like: learning to use tools, language development, effect of body morphology, action parametrization
+
+https://www.youtube.com/watch?v=L8li6vWPhwc
+
+https://scholar.google.com/citations?hl=en&user=gCqGj4sAAAAJ&view_op=list_works&sortby=pubdate . See more here in these iclr2019 notes: https://david-abel.github.io/notes/iclr_2019.pdf
+
+-----------------
+
+[[Intrinsic Motivation Systems for Autonomous Mental Development|https://ieeexplore.ieee.org/abstract/document/4141061]]
+
+[[Information-seeking, curiosity, and attention: computational and neural mechanisms|https://www.sciencedirect.com/science/article/pii/S1364661313002052]]
+
+Learning to play Mario by Curiosity
+
+Trying to visit parts of state/action space that are hard to predict, or that haven't been visited before (work by Lillycrap on iclr2019)
+
+[[Curiosity]] in RL
+
+PowerPlay
+
+https://www.sciencedirect.com/science/article/pii/S1364661313002052
+
+Relations to [[Metalearning]]

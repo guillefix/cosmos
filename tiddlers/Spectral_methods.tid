@@ -1,7 +1,8 @@
 created: 20160219171155815
 creator: guillefix
-modified: 20161104134332555
-modifier: guillefix
+modified: 20190515012115402
+modifier: cosmos
+tags: [[Functional analysis]]
 title: Spectral methods
 tmap.id: b657410d-cb52-4b80-8c43-7ff6753dc9ad
 type: text/vnd.tiddlywiki
@@ -60,3 +61,9 @@ Rootfinding: via eigenvalues of companion matrix
 !!!__Chebysev series__
 
 ...
+
+----------------
+
+Relations to [[Grid cell]]s and [[Spatial navigation]] (see my work on the second rotation of the SysBio DTC)
+
+[[Spectral Inference Networks: Unifying Deep and Spectral Learning|https://arxiv.org/abs/1806.02215]]
