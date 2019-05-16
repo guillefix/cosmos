@@ -1,0 +1,67 @@
+created: 20190515172334278
+creator: cosmos
+modified: 20190515172922019
+modifier: cosmos
+tags: [[VC dimension]]
+title: Sauer's lemma
+type: text/vnd.tiddlywiki
+
+Bounding the size of families of sets of $$n$$ distinct elemtns with bounded [[VC dimension]]. In particular, it can be used to bound the [[Growth function]] of sets with bounded VC dimension.
+
+See [[here|https://courses.maths.ox.ac.uk/node/view_material/34133#page=27]]
+
+Bounding the size of families of sets with bounded VC dimension.
+
+$$\Pi_C(m)=\max \{|\Pi(s)| \mid |S|=m\}$$
+
+Clearly if $$m \leq d$$ (d=VC dim of C), then $$\Pi_c(m) = 2^m$$
+
+|For $$m\geq d$$, $$\Pi_C(m) = O(m^d)$$|
+
+//Def//: $$\Phi_d(m) = \Phi_d(m-1)+\Phi_{d-1}(m-1)$$ if $$m \geq 1$$ and $$d \geq 1$$
+
+$$\Phi_0(m)=1, \forall m$$, $$\Phi_d(0)=1, \forall d$$
+
+__Lemma__: $$\Pi_C(m) \leq \Phi_d(m)$$ if VC dim(C) = d.
+
+$$\Phi_d(m) = \sum\limits_{i=0}^d \binom{m}{i}$$
+
+$$m=0$$, then $$\forall d, \Phi_d(0)=1$$, $$ \sum\limits_{i=0}^d \binom{0}{i} =1$$
+
+$$d=0$$, then $$\forall m \Phi_0(m)=1$$, $$ \sum\limits_{i=0}^0 \binom{m}{i} =1$$
+
+$$\Phi_d(m) = \Phi_d(m-1)+\Phi_{d-1}(m-1) = \sum\limits_{i=0}^d \binom{m-1}{i} +  \sum\limits_{i=0}^{d-1} \binom{m-1}{i}$$ 
+
+$$ = \binom{m-1}{0}+ \sum\limits_{i=1}^d (\binom{m-1}{i} +  \binom{m-1}{i-1})$$ 
+
+$$ = \binom{m}{0}+ \sum\limits_{i=1}^d (\binom{m}{i} ) = \sum\limits_{i=0}^d \binom{m}{i} $$ 
+
+$$\Phi_d(m) = (\frac{m}{d})^d\sum\limits_{i=0}^d \binom{m}{i} (\frac{d}{m})^d$$
+$$\leq (\frac{m}{d})^d\sum\limits_{i=0}^d \binom{m}{i} (\frac{d}{m})^i$$  $$\leq (\frac{m}{d})^d\sum\limits_{i=0}^m \binom{m}{i} (\frac{d}{m})^i$$  $$=(\frac{m}{d})^d(1+\frac{d}{m})^m \leq (\frac{m}{d})^d e^d = (\frac{me}{d})^d$$
+
+//Proof of// __lemma__: $$\Pi_C(m) \leq \Phi_d(m)$$ if VC dim(C) = d.
+
+$$\Phi_d(m) = \Phi_d(m-1)+\Phi_{d-1}(m-1)$$
+
+
+Let S be some set of size m. 
+
+$$\Pi_c(m)=1$$, if VC-dim(C)=0 (can't satisfy all asignemtns of one point -> must have only one hypothesis).
+
+$$\Pi_c(0)=1$$. For no points.
+
+$$x \in S$$, consider $$S \setminus \{x\}$$
+
+$$|\Pi_C(S \setminus \{x\})| \leq \Pi_c (m-1) \leq \Phi_d(m-1)$$
+
+$$|\Pi_c(s)|-|\Pi_c(S\setminus z)|$$: How many dichotomies over $$S \setminus \{x\}$$ using C that can be extended to S in 2 ways
+
+$$C'=\{c \in \Pi_C(s) \mid c(x)=0 \text{ and } \exists \tilde{c} \in \Pi(S) \text{ s.t. } \tilde{c}(x)=1 \text{ and for all other points z not equal to x, c(z)=tildec(z)}\}$$
+
+C' counts the number of concepts in C restricted to $$S \setminus \{x\}$$, which can be extended to $$S$$ in two possible ways (with x either 0 or 1).
+
+... etc see [[photo|20170130_163623.jpg]]. We need to show that c' has VC-dimension dimension at most d-1 ([[proved here|20170130_163836.jpg]])
+
+Let  T be a set $$T \subset S$$
+
+This shows that  if the VC dimension of a concept class is finite, then the growth on the size of the concept class is polynomial with the dimension of the input space (number of points, m). This restriction is what allows generalization.
