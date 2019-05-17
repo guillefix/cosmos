@@ -1,6 +1,6 @@
 created: 20170516120241177
 creator: cosmos
-modified: 20190515175243845
+modified: 20190516155134505
 modifier: cosmos
 tags: [[Probably approximately correct]] [[Model selection]]
 title: Structural risk minimization
@@ -21,7 +21,7 @@ One typically combines this with an algorithm that finds a hypothesis with the b
 
 See [ext[here|http://www.cs.tufts.edu/~roni/Teaching/CLT/LN/lecture9.pdf]] -- [[A framework for structural risk minimization|http://www.svms.org/survey/SBWA96.pdf]] -- chap 7 in {{UML}}
 
-One can have agnostic or realizable versions of SRM bounds.
+One can have [[agnostic|Agnostic learning]] or [[realizable|Realizable learning]] versions of SRM bounds.
 
 __Realizable VC dimension-based SRM generalization error bound__
 

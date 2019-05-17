@@ -1,6 +1,6 @@
 created: 20160707163447085
 creator: guillefix
-modified: 20181218211621541
+modified: 20190516180141194
 modifier: cosmos
 title: Function
 tmap.id: 65689285-bb07-48fb-82b1-525586cb94e5
@@ -16,6 +16,8 @@ $$f: \mathcal{X} \to \mathcal{Y}$$
 * [[Injective function]]
 * [[Surjective function]]
 * [[Bijection]] or bijective function.
+
+http://sinerider.com
 
 ----------------
 

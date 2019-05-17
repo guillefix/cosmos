@@ -1,6 +1,6 @@
 created: 20170512224700922
 creator: cosmos
-modified: 20181218212820882
+modified: 20190516153948161
 modifier: cosmos
 tags: [[Deep learning theory]] Generalization
 title: Generalization in deep learning
@@ -23,6 +23,8 @@ font-weight:bold;
 </style>
 
 -- [[Deep learning theory]]
+
+[ext[http://guillefix.me/nnbias]]
 
 [[Exploring generalization in deep learning|https://arxiv.org/pdf/1706.08947.pdf]] -- [[Generalization in Deep Learning|https://arxiv.org/abs/1710.05468]] -- <small>[[Current state of generalization theory for deep learning (2018)|https://youtu.be/KDRN-FyyqK0?t=52m22s]])</small> -- [ext[slides on myths about generalization in deep learning|http://www.mit.edu/~rakhlin/papers/myths.pdf]]
 
@@ -50,6 +52,8 @@ See gingkoapp tree: [[Kolmogorov complexity and generalization in deen neural ne
 
 [[Learning and Generalization in Overparameterized Neural Networks, Going Beyond Two Layers|https://arxiv.org/pdf/1811.04918v1.pdf]]
 
+[[Fine-Grained Analysis of Optimization and Generalization for Overparameterized Two-Layer Neural Networks|https://arxiv.org/abs/1901.08584]]
+
 
 @@.fancy-title
 !!__[[Flat minima]]__
@@ -76,6 +80,10 @@ Entropy-SGD -- [[Entropy-SGD optimizes the prior of a PAC-Bayes bound: Generaliz
 [[(video) Karolina Dziugaite on Nonvacuous Generalization Bounds for Deep Neural Networks via PAC-Bayes|https://www.youtube.com/watch?v=dHUH0hmKvs8]] -- [[Data-dependent PAC-Bayes priors via differential privacy|https://arxiv.org/abs/1802.09583]] -- [[Entropy-SGD optimizes the prior of a PAC-Bayes bound: Generalization properties of Entropy-SGD and data-dependent priors|https://arxiv.org/abs/1712.09376]]
 
 <small>[[  PAC-bayesian  approach  to spectrally-normalized margin bounds for neural networks.|https://arxiv.org/abs/1707.09564]] -- [[Exploring Generalization in Deep Learning|https://arxiv.org/pdf/1706.08947.pdf]]</small>
+
+[[Non-vacuous Generalization Bounds at the ImageNet Scale: a PAC-Bayesian Compression Approach|https://openreview.net/forum?id=BJgqqsAct7]]
+
+[[Deterministic PAC-Bayesian generalization bounds for deep networks via generalizing noise-resilience|https://openreview.net/forum?id=Hygn2o0qKX]]
 
 @@.fancy-title
 !!__Norm/[[Margin-based generalization bound]]__

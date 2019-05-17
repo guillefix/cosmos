@@ -1,6 +1,6 @@
 created: 20160915215043566
 creator: cosmos
-modified: 20161104134332760
+modified: 20190516233442418
 modifier: cosmos
 title: Tensor network
 tmap.id: 44962bb4-8c69-4af3-8b96-a9d0095ed572
@@ -9,3 +9,5 @@ type: text/vnd.tiddlywiki
 [[A Practical Introduction to Tensor Networks: Matrix Product States and Projected Entangled Pair States|https://arxiv.org/abs/1306.2164]]
 
 [[Garnet Chan "Matrix product states, DMRG, and tensor networks" (Part 1 of 2)|https://www.youtube.com/watch?v=Q8bFmV6tHBs]]
+
+[[Tensor network diagram]]

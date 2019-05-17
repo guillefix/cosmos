@@ -1,6 +1,6 @@
 created: 20171031144906053
 creator: cosmos
-modified: 20180710172343402
+modified: 20190516151804945
 modifier: cosmos
 tags: [[Probability theory]]
 title: Chernoff bound
@@ -12,3 +12,7 @@ See [[here|http://www.cs.ox.ac.uk/people/varun.kanade/teaching/AML-HT2017/lectur
 Let $$X_1,...,X_n$$ be independent random variables, where $$X_i=1$$ with probability $$p_i$$ and $$X_i=0$$ with probability $$1-p_i$$. Let $$X= \sum_{i=1}^n X_i$$ and $$\mu = E[X] = \sum_{i=1}^n p_i$$. Then for $$\alpha \in [0,1]$$,
 
 : $$\mathcal{P}[|X-\mu| \geq \alpha \mu] \leq 2\exp{\left(-\frac{\mu \alpha^2}{2}\right)}$$
+
+!!__[[Relative entropy Chernoff bound]]__
+
+{{Relative entropy Chernoff bound}}
