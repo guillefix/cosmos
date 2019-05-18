@@ -1,6 +1,6 @@
 created: 20170516120241177
 creator: cosmos
-modified: 20190516155134505
+modified: 20190517140955440
 modifier: cosmos
 tags: [[Probably approximately correct]] [[Model selection]]
 title: Structural risk minimization
@@ -23,9 +23,9 @@ See [ext[here|http://www.cs.tufts.edu/~roni/Teaching/CLT/LN/lecture9.pdf]] -- [[
 
 One can have [[agnostic|Agnostic learning]] or [[realizable|Realizable learning]] versions of SRM bounds.
 
-__Realizable VC dimension-based SRM generalization error bound__
+__Training error-dependent VC dimension-based SRM generalization error bound__
 
-[img[realizable_vcdim_structural_risk_minimization_theorem.png]] See [[here|http://www.svms.org/survey/SBWA96.pdf]] and [[here|https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=705570&tag=1#page=2]]
+[img[realizable_vcdim_structural_risk_minimization_theorem.png]] See [[here|http://www.svms.org/survey/SBWA96.pdf]] and [[here|https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=705570&tag=1#page=2]]. See more at [[Growth function]], and [[Agnostic learning]], and [[here|https://twitter.com/guillefix/status/1129156195992969216]]. <mark>I wonder how this bound quantitatively compares with standard training-error dependent bounds!</mark> At the very least, it allows putting a prior over training errors!
 
 !!!__The "unlukiness" framework__
 

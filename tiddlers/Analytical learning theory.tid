@@ -1,0 +1,38 @@
+created: 20190517210312199
+creator: cosmos
+modified: 20190517210911152
+modifier: cosmos
+title: Analytical learning theory
+type: text/vnd.tiddlywiki
+
+[[Towards Understanding Generalization via Analytical Learning Theory|https://dspace.mit.edu/handle/1721.1/118307]]
+
+[[arxiv|https://arxiv.org/pdf/1802.07426.pdf]]
+
+They offer bounds on the generalization error that depend on
+
+# the sample on which the empirical error is measured (could be different from the training sample)
+# the hypothesis outputted by the learning algorithm
+# the data distribution used to define the generalization error.
+
+So the main innovation, as far as I understand, is the fact that they allow the empirical error to be measured on a sample Z that may be different from the training set S, which would allow one to anlayze cases with [[Distributional drift]]. This effect comes into their bound via a term that measures the discrepancy between the sample Z and the true distribution. See theorem 1 on page 5. In particular, they use something called the ''star discrepancy''
+
+This term is multiplied by a certain measure of //variation// of the loss function, which is like a non-statistical version of variance. How much does the loss function vary as the input varies over the domain (which is basically the instances; although they make it more complicated/general by allowing an intermediate representation..).
+
+This variation could be very small, allowing very small bounds on generalization gap even with $$m=1$$, so they claim they can apply it to one-shot learning. However, I imagine the main difficulty really is how do you bound this loss variance? In particular, how do you bound it, outside the training set (where you don't know a priori the value of the loss, for the hypothesis outputed by the algorithm)..
+
+Their approach is about getting results which are "strongly instance-dependent", which means they depend on the three things I listed above, and nothing else (including not, on the behaviour of other possible training sets, so no average/sampling over training sets that isn't the one being used, is allowed). This is different from standard approaches in that it takes the true distribution directly into account. Standard approaches, go around this, by making statements that hold for any distribution (under few assumptions maybe), with high probability over training set samples.
+
+However, the purely Bayesian framework would fall within their definition I think. Specially, if one is willing to consider a prior with support on a single "true" distribution, then the results depend only on the output of the algorithm and the sample set Z. <mark>So pure Bayesian is strongly instance-dependent as far as I can tell!!</mark>
+
+----------
+
+They get more concrete bounds [[here|https://arxiv.org/pdf/1802.07426.pdf#page=11]]. However, they go like 1/sqrt(m). Thought the bounds can be much smaller, if the variation of f is controlled. The way the propose it can be controlled is if the intermediate representaiton has information about the output, and nothing else. Like in the [[Information bottleneck]] ideas. But, again, just like for the IB, I find this pretty tautological, and doesn't andwer the question of why and how can the network find such representaitons, that generalize well outside test data! Yeah, sure if the representation only allows functions that generalize, then, it's going to generalize... duh :P. But I mean, at least it's nice that they formalize this notion, I do give them that!
+
+But their ideas to get better generalization, don't really make much use of the theory, beyond what was already obvious
+
+> The above result provides a theoretical basis for a family of consistency-based regularization methods, including Π-Model (Laine and Aila, 2016), virtual adversarial training (Miyato et al., 2016) and regularization with stochastic transformations and perturbations (Sajjadi et al., 2016). These consistency-based regularization methods have been empirically successful heuristics. These methods are based on the intuition that perturbations of a data point x 7→ x˜ should not change the output of a model as yˆ(x) ≈ yˆ(˜x) if the true label is invariant under the perturbation; i.e., y ∗ (x) = y ∗ (˜x) where y ∗ outputs a correct label. This intuitive goal is achieved by minimizing d(ˆy(x), yˆ(˜x)) with respect to the trainable model yˆ, where d(,) measures a distance between the two outputs. In Equation 4, these methods can be viewed to control V [fy] by making the model yˆ more invariant over the space of z. Therefore, our theory formalizes the intuition of these regularization methods in terms of the generalization gap.
+
+They do propose an algorithm that makes improves a bit the generalization on CIFAR10, but it seems to be basically working on the same lines as the previous ones.
+
+------

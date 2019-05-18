@@ -1,0 +1,11 @@
+created: 20190517140450258
+creator: cosmos
+modified: 20190517140447310
+modifier: cosmos
+tags: [[VC dimension]]
+title: VC dimension of neural networks
+type: text/vnd.tiddlywiki
+
+See references at [[Generalization in deep learning]]
+
+See [[here|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.62.8106&rep=rep1&type=pdf]] for [[Natarajan dimension]] of thresold neural nets (for neural nets with multiple outputs!)

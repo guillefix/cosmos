@@ -1,0 +1,16 @@
+created: 20190517162043769
+creator: cosmos
+modified: 20190517162121484
+modifier: cosmos
+tags: 
+title: Symmetrization argument
+type: text/vnd.tiddlywiki
+
+//aka double sampling trick, etc//
+
+used in proofs of [[VC dimension]] and [[Rademacher complexity]] generalization bounds
+
+---------
+
+[img[double_sample_vapnik_bound.png]]
+

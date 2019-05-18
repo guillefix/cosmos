@@ -1,6 +1,6 @@
 created: 20160913225326135
 creator: cosmos
-modified: 20171031142937067
+modified: 20190517171527914
 modifier: cosmos
 tags: [[PAC learning with infinite concept classes]]
 title: VC dimension
@@ -18,6 +18,18 @@ In $$n$$-dimensions, the VC dimension of the set of all linear classifiers is $$
 See also [[Probably approximately correct]], [[Learning theory]],
 
 !!!Applied for [[PAC learning with infinite concept classes]]
+
+-------------
+
+VC dimension is about the following.
+
+You have a bunch of properties, like "being a policeman", "liking pineapple toppings on pizza", etc
+
+And you want to estimate the fraction of people with each property in large population, from a single sample.
+
+VC dimension tells you how much larger then sample needs to be, compared to when you are only estimating the fraction of people for a single property.
+
+If all the properties are very decorrelated, it's about {number of properties} times what you needed before, but if they are correlated it can be much less, and that's what VC dimension measures
 
 ...........
 
@@ -55,3 +67,7 @@ VC dimension is n+1 for n dimensional space, (in 2 dimensions, it is 3).
 https://www.wikiwand.com/en/VC_dimension
 
 https://en.wikipedia.org/wiki/Sauer%E2%80%93Shelah_lemma ; shows that for sets with finite number of elements, one can bound the cardinality of a family of sets with a finite VC dimension
+
+----------
+
+[[Symmetrization argument]]
