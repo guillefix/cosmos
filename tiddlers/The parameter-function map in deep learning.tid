@@ -1,0 +1,170 @@
+created: 20190520125233661
+creator: cosmos
+modified: 20190520125318150
+modifier: cosmos
+tags: DPhil [[Systems biology DTC]]
+title: The parameter-function map in deep learning
+type: text/vnd.tiddlywiki
+
+
+DPhil new
+
+Layer sweep (for max/avg pool)
+archsweep on new datasets
+archsweep with other sigmas
+msweep with other archs/datasets
+write short discussion/conclusion for ICML thing.
+Add refs
+Add iclr style
+
+-----
+HMC logP estimation using TFProb
+Bayesian average error formula for GP classification!
+Predict shape of learning curves?
+multiclass pacbayes
+Kernel sampling estimation is super parallelizable. Super parallelizable model selection algo :P
+highprob PAC Bayes, semisupervised bound. PAC Bayes tightness/admissibility ideas (prob can't prove much more here; pretty diff, gets into deep statistical Qs)
+ZIPF's LAW, in NN/GP bias. Read relevant papers!
+Other algorithms with/without the relevant simpbias
+Computable AIT theory. Extending LZ/finite-state-source bounds to sources with many states, which are simpler. Apply to understand the PvsLZ of NN/GPs. sequences which can be produced with little memory (that's the finite number of states), but there should be other conditions, because for the entropy-biased process which I designed, the memory grows with length of seq.. Hmm
+
+------------------
+Robustness, trainability, optimization
+
+-----------
+
+[[Generalization in deep learning]], http://guillefix.me/nnbias/ https://openreview.net/forum?id=rye4g3AqFm
+
+-----------
+
+-- BACKLOG -- (most of these I've carried on to new note, called "DPhil new" in GKeep)
+
+Beyond PAC-Bayes?
+LZ predictor? See work Kamal is doing on logistic map
+What properties of the net affect bias...?
+PAC-Bayes lower bound, lower bounds in general
+Changin m, explain why it scales like it does. how does PU change?
+Build on top of work on generalization in deep nets. Why do nets have low noise sensitivity (see compression approach paper)
+Compare our approach to existing ones
+paper on PAC-Bayes? change training error (new way of calculating PU). Multiclass PAC-Bayes.
+discretize spaghetti representation of the function from nn chaos paper to make phenotype
+Try grey code for ordering input space for nns
+
+Check PAC-Bayes predictions versus exact calculations I did for entropy-biased learner
+
+~ - shape space covering (functions appear to be at a distance of 1, when randomly initializing within a ball/cube of size 38)
+usefulness of adversarial approach to online learning.
+Bandits
+
+Fractal dimension of neutral sets
+
+• Read high dim prob notes, *and do exercises*
+• Explore Aleks idea for adversarial training (see other note here in GKeep)
+2) WWIS (see calculations I did for learning linearly separable funs). See paper on linear separability with 2-layer nets. See emails with Kamal etc, and rocketbook
+3) explore neutral sets (function-space covering, etc. See prelim experiments. Run for random functions..)
+4) Reinforcement learning
+
+Why does variance of gradient from minibatches decay much faster than expected? https://www.youtube.com/watch?v=iXBp0OeD02Y&list=PLgKuh-lKre11GbZWneln-VZDLHyejO7YD&index=2#t=21m26s 
+
+
+Could I use LZ bounds for FSTs? Any way of connecting neural nets to FSTs?
+
+Other complexity measures may be better for analysis?
+
+Explore other types of bias, CNN, etc. This is probably the kind of work which would give most pragmatic/useful results. (what Yarin Gal is also interested in, and I think it's also interesting and important)
+
+
+----------------
+----------------
+
+X - DONE - X
+Finished stuff below
+
+Long train
+Answer reviews! (deadline 23 nov for changes 5 dec for comments)
+
+you will be able to revise your paper now until November 23, if needed. Note that while revisions to the paper can now be made, a pdf diff will be done against the submission of the paper at the submission deadline. Area chairs and reviewers reserve the right to ignore changes which are significant from the original scope of the paper.
+
+Area chairs and reviewers will take into account discussions until December 5, when the process will turn to Area Chairs will make an accept/reject recommendation on each paper assigned to them. Therefore, do not wait too long to respond to your reviewers and to, eventually, revise your paper.
+
+ABI results! (Hydra! and analyze on officepc to compare with SGD)!
+
+Train ResNet. 
+1) Can I replicate Neyshabur's et al ResNet18 results? https://arxiv.org/abs/1805.12076 
+2) Ablation. Do I need the first maxpool / the last avgpool? For binary classification, the error should be smaller than for the multiclass classification they do!
+3) If it works, then check if bounds work
+4) Bounds for changing the number of layers
+
+Bounds for different minima found with confounding set added to the training set.
+
+
+-------------
+
+Diagram of early research https://www.draw.io/#G1ZWd0nC59GBgIbnjIpPGfSmMQli6aRNvL
+
+https://medium.com/@guillefix/learn-in-theory-3c88086ab388 
+learning theory
+
+x -- PB bound in probability
+
+Bias 
+
+People: http://andrewcropper.com/ -- Yarin Gal, Varun, Patrick, Stephen Robert, ...
+
+Boolean functions lectures: https://www.youtube.com/watch?v=khdENXBe1tM&list=PLm3J0oaFux3YypJNaF6sRAf2zC1QzMuTA&index=5 
+
+~ - What functions does SGD (or variants thereof) find? Does it approximate Bayesian inference!? Checked this a bit with simple experiments, but a lot more needed
+
+x - logPU vs complexity for bigger input spaces
+
+x - Dataset for which there is significant difference in test error for different architectures. Finite widths?
+
+x --- m vs k
+
+x - Try sampling (simpbias) for high variance neural net (in "chaotic regime") -- sampling now. -- Still shows simplicity bias!
+
+Meaning of Kernel only dependent on angle (on dot product to be precise) https://arxiv.org/pdf/1711.00165.pdf#page=12 .. For CNNs is more complicated (see convo with Adria!) GP for resnets?
+--> The fact that (for dense feedforward nets) the covariance only depends on dot product, means that the neighbourhoods of points that we consider must be similar are infinite along d-1 dimensions. So we are dividing the d-dimensional space into slabs of thickness epsilon, and the curse of dimensionality doesn't seem to matter that much then! https://youtu.be/i2bt4vt908g?t=28m4s 
+
+Effective VC dimension approach. 
+Building on work which uses low noise sensitivity of weight matrices.
+VC dim / RadComp for high-prob set of functions (typical functions)
+x -- calculation of effective VC dimension for hard threshold networks assuming that the number of activations decreases exponentially. See notebook. Doesn't grow with depth, but otherwise, it's not that much smaller.. Hmm and not quite sure how useful, but perhaps interesting
+See doc in overleaf. Conclusion: Basically, the fact that the number of activations decreases doesn't capture enough of the bias, as the generalizatio bounds we get are still proportional to the number of parameters. \texbf{Except when the number of activations becomes very small $m \lesssim n$, in which case extra layers don't really contribute. But I'm not sure how relevant this regime is in practice... I guess probably not much}}. So this doesn't seem like such a fruitful approach, except for the last caveat. Need to keep an eye to see if number of activations decreases significantly for realistic networks...
+
+x - Uniform distribution over number of 1s for perceptron. Hmm. Have some argument for it. See notebook. WE HAVE PROVEN IT!
+
+x - ~understand LZ-prob histogram / nn bias... I think it can be because of sampling variance causing estiamates of prob sometimes to be higher than true prob.. SEE relevant desmos plot, and uniform KL chernoff bounds!
+
+~ - Compute probabilities for perceptron! Use solid-angle formula. Same for GP prob. Not very computationally tractable with known algorithms. Using GP approximation methods like EP/Laplace/MCMC
+
+-------
+
+~ - What range of complexity do we expect from the coding theorem? The answer depends on the sample size! Large deviation theory.... relevant for WWIS
+Relations to dimensionality reduction. Constraints/correlations
+
+--------------------
+
+x- 1) bias in nn paper (organize what I have, think about theoretical explanation. How to bound probability with LZ. Get acquainted with current methods!) -- PUBLISHED IN ICLR, success :)
+x - • Read optimization reading group paper
+x~ - Understand generalization in deep learning
+_-_-_-_
+x• Simpbias in param-fun map
+x• distribution of Boolean complexities
+x - Try L1 norm of Fourier coefficients for measure of Boolean function complexity . Done
+
+--------
+
+X - -- learn low complexity low frequency
+
+__Results of learning low complexity low frequency functions: (LZ 21, Boolcomp 2-3, freq = 1e-8)__
+
+The mean generalization errors are between 0.6-0.11, compatible with functions with complexity 40-70. The PAC-Bayes predictor gives an upper bound of about 0.22, which is also the same as typical functions with complexities 40-70. Therefore, PAC-Bayes seems to capture the behaviour of these functions as well as for the previous functions tried.
+
+Note that what matters for PAC-Bayes is P(U) not P(f_target)
+
+The frequency of the functions found by P(U) is slightly lower but not really incompatible with those found for comp 40-70, I think. They are 1e-9 to 3e-7 while for comps 40-70 its 1e-8 to 1e-6 more or less. But these frequency estimates are probably not that accurate, and that's why we use the 2^(-aK) hoping that it is a more accurate estimate of the true probability (although we haven't quite demonstrated this).
+
+**Can I estimate error in empirical P(U)?
+
+High frequency functions with complexity 21, have mean generrors < 0.5 and closer to 0.3. This suggests that frequency estimates (or at least those estimates used in PAC-Bayes) are better predictors of which functions are going to generalize better than others, than complexity (i.e. from complexity you'd expect these to generalize better than comp 40-70.., but from PAC-Bayes, you'd expect them to be similar..)
