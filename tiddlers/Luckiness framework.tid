@@ -1,0 +1,39 @@
+created: 20190524165335330
+creator: cosmos
+modified: 20190524202930833
+modifier: cosmos
+tags: [[Statistical supervised learning theory]]
+title: Luckiness framework
+type: text/vnd.tiddlywiki
+
+See [[Introduction to supervised learning theory]]
+
+Inuition for the problem that probably smooth luckiness is trying to solve is this, I think. Think of the way I tried to extend the VC framework to get PAC-Bayes, and I tried to have epsilon depend on P(U) of the first half of the double-sample (aka [[Symmetrization argument]], used in the proof the [[VC dimension]] generalization error bound. See [[Growth function generalization error bound]]!). The problem was there could still be Growth-function(m) many dichotomies for a particular epsilon, because of the possible set of dichotomies in the second half of the double sample!) 
+
+A smooth luckiness guarantees that functions with high P(U) have few possible dichotomies in the second half.
+
+[img[unluckiness_framework_generalization_error_bound_theorem.png]]
+
+
+Relies on definition of ''probably smooth luckiness function''
+
+[img[probably_smooth_luckiness_function_definition.png]]
+
+> I don't really like the name "luckiness", because [[Frequentist statistics]] is all about assuming we are not lucky/unlucky (which makes sense, by definition of lucky/unlucky?). Rather, the intuition it captures is "correctness/goodness/agreement (between data and expectations)". But you haven't been "lucky" to get a good hypothesis. Lucky usually implies a low probability event, which could put you outside the confidence bounds... If you got the good function by "luck", then the framework doesn't guarantee good generalization, it only guarantees good generalization with high probability, meaning, assuming you are not unlucky (or "apparently lucky" as if you get a training set that just happens to fit a "lucky" function, while the ground truth doesn't agree much).
+> __The whole point of all this is that if you make a guess, and the guess is correct, then its unlikely that you got it correct because of luck, rather it's more likely you got it correct, because it is (at least approximately) correct. That is the essence of [[Probably approximately correct]]/[[frequentist|Frequentist statistics]] analyses.__
+
+!!![[Proof of main theorem|https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=705570&tag=1#page=9]]
+
+I don't think the first bit follows from Lemma 3.11, but yeah from its proof ([[Symmetrization argument]]).
+
+$$\phi(m,L(x,h),\delta) \leq 2^{i+1}$$, basically stratifies the functions $$h$$ in groups labelled by $$i$$, via the definition of $$\phi$$ and $$L$$.
+
+They then parition the double-sample "bad event" (for class $$i$$) $$J_i$$ into a part that is bounded in probability by $$\delta_i/2$$ by definition of "probably smooth luckiness function", and another part, which they want to bound the probability of. This second part is the event that $$J_i$$ happens (<small>i.e. zero error on first half of double sample, and large error on second half, the standard thing in symmetrizaion arguments for generalization bounds</small>), and $$S$$ doesn't happen, where $$S$$ is the event that there exists a function $$h$$ which has many dichotomies (where "many" is dependent on the class $$i$$, as per weighted [[Union bound]] kind of thing), more specifically, that has more dichotomies in $$\epsilon$$-samples of the double samples, than specified by the function $$\phi(m,L(x,h),\delta)$$. Remember that $$\phi(m,L(x,h),\delta) \leq 2^{i+1}$$ is part of the definition of $$J_i$$, that's precisely what makes $$J_i$$ about functions in class $$i$$! So J and not S being low probability is saying that high error discrepancy, and few extra dichotomies is rare, which is intuitively true because having few dichotomies makes the union bound small.
+
+Yeah and the whole $$\eta$$-subsample thing I don't think it's crucial, it's probably because it's easier to prove things are probably smooth, using that definition, than otherwise I guess.. So yeah the crux is being able to bound the number of dichotomies in the double-sample (or an $$\eta$$-subsample of it..) from the fact that the $$h$$ belongs to class $$i$$ (a class, defined only from the first half of the sample, which is important, to be able to prove the first bit! (which again, I don't think really follows from Lemma 3.11..). Once this bound on the number of dichotomies, dependent on the data-dependent "luckiness" is stablished (what probably smoothness is all about), then the rest is like the standard VC dimension proof. Well except the thing about $$\eta$$-subsamples. 
+
+Typo. I think the final line of Equation (2) in the proof, they forgot to carry throught the $$-(|\mathbf{y}|-|\mathbf{y'}|)$$. This term is the reason we get the extra $$+2\eta m$$ in the probability (two equations below that).
+
+-----------
+
+For deriving [[PAC-Bayes]]-like results, then, the crux is in proving the probably smoothness of the marginal likelihood, which is what they do in their next paper! [[https://pdfs.semanticscholar.org/58d0/7463298078bbb7c45faf6b26ab0e87fb0e6d.pdf]]

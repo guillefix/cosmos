@@ -1,6 +1,6 @@
 created: 20161102001339743
 creator: cosmos
-modified: 20181105153624074
+modified: 20190524204614760
 modifier: cosmos
 tags: [[Human-computer interaction]]
 title: Augmented reality
@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 
 
 !!![[Niantic real world platform|https://www.youtube.com/watch?v=SCWa4OtSS4g&index=7&list=PLht6tyws1YpSOGz2k6bUC1PibVG7ZiRFB]] -- Mapping the Real World to the centimeter resolution is a requirement for an AR world. Machine Understanding is also a big part. [[video|https://www.youtube.com/watch?v=SCWa4OtSS4g]]
+
+Open source AR for everyone! https://www.polaris-ar.com/
 
 [[Magic Leap keynote|https://www.youtube.com/watch?v=vV8oGahOSgc]]
 
