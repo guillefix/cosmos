@@ -1,0 +1,11 @@
+created: 20190602023931268
+creator: cosmos
+modified: 20190602023914959
+modifier: cosmos
+tags: [[Brownian ratchet]] [[Game theory]]
+title: Parrondo's paradox
+type: text/vnd.tiddlywiki
+
+Great explanation of Parrondo's paradox, or how two losing games with a shared state space can become a winning game, even with very simple random strategies. This is what allows your cell's thing-carriers to work! https://www.youtube.com/watch?v=PpvboBJEozM (btw vsauce2 is becoming such an awesome channel!)
+
+[[Brownian ratchet]]
