@@ -1,6 +1,6 @@
 created: 20160918223934834
 creator: cosmos
-modified: 20181129130446943
+modified: 20190515013308027
 modifier: cosmos
 tags: [[Probability theory]]
 title: Probabilistic model
@@ -17,8 +17,24 @@ These models relate [[Random variable]]s, using some more or less general assump
 
 See [[Machine learning]]
 
-[[Generative model]]
+[[Generative model]] -- [[Deep generative model]]
 
 [[Random-cluster model]]
 
-One can also talk about a //model of a probability distribution// which is a particular way of representing a probability distribution, or a family of them.
+----------------
+
+Example of probabilistic modeling (particulary in [[Deep learning]] paradigm), using the [[DeepSaber]] project as example.
+
+_technical outline of ML approach to beat saber problem_
+
+* Supervised learning: song -> level
+* But there are many levels that are good for a song
+* Learn the probability distribution over beat-saber levels, conditioned on song
+* We parametrize the distribution by a neural network with softmax output
+* Train by Max Likelihood: find set of parameters that make the training data most likely.
+* ''How do you even express a complicated distribution with a neural network?''
+   ** Insert noise into it: GANs, normalizing flows
+   ** Divide and conquer (autoregression)!. Decompose distribution into product of conditionals
+   ** State space
+* All of our approaches use autoregression over the sequence
+* For each point in the sequence, we tried both GAN, and state space approach to express distribution over block states.

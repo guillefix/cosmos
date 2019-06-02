@@ -1,6 +1,6 @@
 created: 20160705111418197
 creator: guillefix
-modified: 20180908013128290
+modified: 20190515005022513
 modifier: cosmos
 tags: Algorithms
 title: Procedural generation
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 https://en.wikipedia.org/wiki/Procedural_generation
 
 http://pcgbook.com/
+
+http://www.possibilityspace.org/tutorial-generative-possibility-space/
 
 [[Procedural graphics]]
 

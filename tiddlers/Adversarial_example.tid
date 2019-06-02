@@ -1,6 +1,6 @@
 created: 20170325141500997
 creator: cosmos
-modified: 20170607192921716
+modified: 20190519213543200
 modifier: cosmos
 tags: [[AI safety]]
 title: Adversarial example
@@ -18,3 +18,5 @@ type: text/vnd.tiddlywiki
 Numerical accuracy may help against adversarial attacks: https://arxiv.org/abs/1704.01547
 
 [[https://www.youtube.com/watch?v=hDlHpBBGaKs]]
+
+https://mobile.twitter.com/aleks_madry/status/1125430774767988736

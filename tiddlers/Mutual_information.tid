@@ -1,7 +1,7 @@
 created: 20160703121449051
 creator: guillefix
-modified: 20161104134329855
-modifier: guillefix
+modified: 20190516233546620
+modifier: cosmos
 tags: [[Information measures]]
 title: Mutual information
 tmap.id: 8581553e-d2be-476c-861a-67e0fcc8f40e
@@ -22,3 +22,7 @@ Some results ([[video|https://www.youtube.com/watch?v=6RJP5m3m1XA&index=7&list=P
 $$I(X;Y) = H(X) - H(X|Y) = H(Y) - H(Y|X)$$
 
 $$H(X|Y)$$ is the [[Conditional entropy]] and thus gives you the information about $$X$$ that $$Y$$ doesn't give you.
+
+---------
+
+estimating mutual info with neural nets: https://arxiv.org/abs/1801.04062

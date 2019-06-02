@@ -1,6 +1,6 @@
 created: 20170715170752924
 creator: cosmos
-modified: 20180523103952629
+modified: 20190515002226173
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Model-based reinforcement learning
@@ -12,6 +12,10 @@ type: text/vnd.tiddlywiki
 Solving the [[Bellman equation]]s
 
 https://worldmodels.github.io
+
+https://twitter.com/wgussml/status/1126984030090596354 
+
+World models for atari: https://arxiv.org/pdf/1903.00374.pdf . they train the world model on trajectories that the agent actually explores, rather than random ones. And they iterate several times
 
 !!__[[Linear programming]]__
 

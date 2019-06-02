@@ -1,6 +1,6 @@
 created: 20181106120026273
 creator: cosmos
-modified: 20181106123054711
+modified: 20190517140257586
 modifier: cosmos
 tags: [[Multiclass learnability]]
 title: Natarajan dimension
@@ -16,3 +16,7 @@ Therefore NdimOvA>=kd => VCdim>=d or VCdim <d => NdimOvA < kd
 
 
 UML 29.1 Consider the class of binary classifies that shatter a set X, but outside the set are uniformly 1. The corresponding OvA multilabel class has Ndim d also, irrespective of k
+
+------------
+
+See [[here|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.62.8106&rep=rep1&type=pdf]] for some discussion/results on extensions of VC dimension to multiclass classifiers (and even real-valued functions)

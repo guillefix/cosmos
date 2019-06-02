@@ -1,0 +1,9 @@
+created: 20190516151843875
+creator: cosmos
+modified: 20190516151803278
+modifier: cosmos
+tags: [[Chernoff bound]]
+title: Relative entropy Chernoff bound
+type: text/vnd.tiddlywiki
+
+A tighter version of the standard Chernoff bound, which uses the [[Relative entropy]]

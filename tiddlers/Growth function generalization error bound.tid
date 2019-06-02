@@ -1,0 +1,137 @@
+created: 20190516164751956
+creator: cosmos
+modified: 20190516223510917
+modifier: cosmos
+tags: [[Generalization error]] [[Growth function]]
+title: Growth function generalization error bound
+type: text/vnd.tiddlywiki
+
+So, in [[Supervised learning theory]] people are pretty obsesed with proving bounds on the [[Generalization error]], so let's try that.
+
+<mark>Check my [[Introduction to supervised learning theory]] for a more in-detail description of all the terms and things</mark>. But I don't actually mind repeating myself so let's see
+
+We want to model the idea of learning a pattern from a set of examples. What kind of pattern? Well, each of these examples is actually a pair of things. One thing, we call an input, and the other thing we call an output. The pattern we want to learn is a [[Function]], that is a procedure, for __predicting__ an output, when we are given an input. 
+
+Examples.
+
+* The inputs could be images, and the outputs could be labels. 
+* Inputs could be memes and the output could be haha / k
+* Inputs could be movies, and the output could be soundtracks
+* Input could be a bunch of lego pieces, and output could be lego castles. Yes, this also technically falls within supervised learning. The function could literally be a machine now (who says machine learning is about "software" haha). This is a very non-deterministic function because there are many lego castles that are possible with a given set of pieces, but that's fine, we allow for stochastic functions. To make it less stochastic, you could feed an instruction book as input too.
+
+As the last example goes to illustrate, in the general case, we assume that the output could be a (stochastic) probability distribution dependent on the input, rather than be deterministic. But actually, for simplicity, I'm going to assume a deterministic function for now.
+
+> Next assumption! We assume the __set of examples are sampled from a probability distribution $$\mathcal{D}$$__ identically and independently, like toin coses are.
+
+We want to predict whether a particular function will predict correctly in new independent samples from the same distribution. We call the probability that function (aka hypothesis) $$h$$ predicts incorrectly, generalization error, with symbol $$\mathcal{D}(h)$$.
+
+Now, I'm going to prove one of the more advanced results in this theory, so sorry, if it's a bit of a jump :P (it will be unless you already are familiar I guess)
+
+We call the set of $$m$$ examples, which makes our training set, $$S_0$$.
+
+!!__Agnostic growth function generalization bound__
+
+Trying to get a tight version as per discussion here: https://twitter.com/guillefix/status/1129103523092803584
+
+Now, we call the true function, that determines the outputs given inputs, in the set of examples, the __target function__. We assume the outputs in this case are just $$0$$ or $$1$$ (aka binary classification)). In this case we sometimes call a funciton, a __concept__, and they are 1-to-1 with sets <small>(the set corresponding to a function is the set of all inputs mapping to $$1$$)</small>
+
+Without loss of generality, we assume the target concept to be the empty set, or function with output uniformly $$0$$. You can think of this as an input-dependent relabelling of the outputs, which doesn't change anything information-theoretically (labels are just labels, I can call them duck/orange or whatever instead of 0/1, and the labelling can depend on the particular input too, as long as it's fixed).
+
+We now assume that the algorithm can only output functions within a certain set of functions, which we call hypothesis class, and denote $$\mathcal{H}$$.
+
+We will denote the fraction of examples in $$S_0$$ which the algorithm missclassifies (training error) by $$S_0(h)$$.
+
+Call {$$\mathcal{D}(h) - S_0(h) \geq \epsilon$$}, property $$P(h)$$.
+Let event $$A$$ be {$$\exists h\in \mathcal{H} : P(h)$$}, that is the event that there exists a function in $$\mathcal{H}$$ whose difference between generalization and training error is higher than some constant $$\epsilon$$
+
+If such function doesn't exists, then we can guarantee for our algorihtm (which can only produce funcitons in $$\mathcal{H}$$) that the generalization error is close (within $$\epsilon$$) to the training error, so that minimizing the training error approximately minimizes the generalization error. Proving that generror and trainerror are close is the goal of [[Agnostic learning]] theory at large.
+
+So the theorem we want to prove is that the probability of such function existing, that is the probability of $$A$$, is low.
+
+This is not too hard if $$\mathcal{H}$$ is a finite set, see [[Probably approximately correct]]. You just use the [[Union bound]], after bounding the probability that single function has the bad property ($$ \mathcal{D}(h) - S_0(h) \geq \epsilon$$). But we are hardcore, so let's consider the possibility of the set being infinite.  
+
+Aha, here's the most clever trick of all supervised learning theory. We can transform an statement about an infinite set into an statement about a finite one as follows.
+
+First, assume $$ \mathcal{D}(h) - S_0(h) \geq \epsilon$$ for some $$h$$, i.e. assume property $$P(h)$$. Then sample an extra $$m$$ samples, and call the new sample $$S_1$$. We can show that if the true error is $$\mathcal{D}(h)$$, then it's very unlikely that the error on the new sample, $$S_1(h)$$ is very different. In particular, using [[Chernoff bound]]s we can show that
+
+$$\text{Prob}[S_1(h) > \mathcal{D}(h)/2|P(h)] \geq 1/2$$
+
+(see page 348, sec 28.3, in {{UML}}) <!--and using that, given $$P(h)$$, $$\mathcal{D(h)}\geq\epsilon$$, and we are assuming some bounds on $$\epsilon$$)-->
+
+Now, Call {$$S_1(h) > \mathcal{D}(h)/2$$}, property $$Q(h)$$.
+
+<!--Clearly $$P[\exists h\in \mathcal{H}: P(h) \cap Q(h)] \leq P(A)$$ ($$\cap$$ means "and", and $$\cup$$ means "or"). This is because by requiring $$h$$ to have property $$P$$ and $$Q$$, then we are constraining it even more, so that probability has to be smaller or equal.-->
+
+Then
+
+$$\text{Prob}[\exists h\in \mathcal{H}: P(h) \cap Q(h)] = P(A)P[Q(h)|P(h)] \geq \frac{P(A)}{2}$$
+
+So
+
+$$\frac{P(A)}{2} \leq \text{Prob}[\exists h\in \mathcal{H}: P(h) \cap Q(h)] $$
+$$ \leq \text{Prob}[\exists h \in \mathcal{H}: hmm]$$
+
+$$2S_1(h) - S_0(h) > \mathcal{D}(h) - S_0(h) \geq \epsilon$$
+
+<!--
+
+$$\mu \geq 0 P(x\leq \mu) + \mu P(x>\mu)$$
+
+$$\mu \leq \mu P(x\leq \mu) + 1 P(x>\mu) = \mu(1-p)+p$$
+-->
+
+eeh not working. See below.
+
+-------------------
+
+Hmmm,
+
+ <mark>let us __assume__ for now that $$\text{Prob}[S_1(h) > \mathcal{D}(h)|P(h)] \geq 1/4$$</mark>. <mark>They say [[here|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.62.8106&rep=rep1&type=pdf#page=3]], that in fact this is true (assuming $$\mathcal{D}(h)>2/m$$)</mark> But how to show? Well, $$3/4 > e^{-2}+2e^{-2}+2e^{-2}$$ is an upper bound on the probability that $$S_1(h) < \mathcal{D}(h)$$ if the binomial probability is $$\mathcal{D}(h)=2/m$$. For $$\mathcal{D}(h)$$, the probability will only decrease as the [[Binomial distribution]] only becomes more right-skewed with increasing $$p$$, so the upper bound still works*. <small>Now, because of the condition $$P(h)$$, ensuring $$\mathcal{D}(h)>\epsilon$$, we can guarantee $$\mathcal{D}(h)>2/m$$, by guaranteeing $$\delta$$ is smaller than 1/2 or so, because in the actual statement of the theorem we define $$\epsilon$$ to be a certain function of $$\delta$$, $$m$$, etc. Alternatively, think of us putting a condition on $$\epsilon$$ that it has to be at least $$2/m$$.</small>
+
+''*''we still need to show that, to fully complete the proof.
+
+$$\frac{P(A)}{4} \leq \text{Prob}[\exists h \in \mathcal{H}: S_1(h) - S_0(h) > \epsilon]$$
+
+Call {$$S_1(h) - S_0(h) > \epsilon$$}, property $$T(h)$$.
+
+(we imagine first sampling a [[Set]] of instances, and then deciding its order to get the tuple $$S=S_0+S_1$$ (using python tuple sum :P)
+
+$$\leq \sum\limits_X \mathcal{D}(X) \sum\limits_{S|X} P(S|X) \max_{h\in \mathcal{H}} \mathbb{1}_{T(h)}$$ 
+
+__NOW__. This is the crucial moment. We notice, that property $$T(h)$$ only depends on the labelling that $$h$$ gives on the elements in $$X$$, so the max over $$\mathcal{H}$$ is the same as the max over $$\mathcal{\Delta(X)}$$, the set of labellings on $$X$$. This is now a finite set! Hurray! We can safely union bound the hecc out of this guy.
+
+using [[Union bound]] (which when expressing union as max of indicators, it's the same as [[Sum is greater than max]] for nonneg numbers)
+
+$$\leq \sum\limits_X \mathcal{D}(X) \sum_{l\in \mathcal{\Delta(X)}}  \sum\limits_{S|X} P(S|X) \mathbb{1}_{T(l)}$$ 
+
+Now, $$P(S|X) \mathbb{1}_{T(l)}$$ is the probability that a random suffle of $$a$$ things in a set of $$2m$$ things (where $$p=a/2m > \epsilon$$) gives us a shuffle such that $$S_1(h) - S_0(h) > \epsilon$$
+
+We can look at the random variable $$S_1(h) - S_0(h)$$ itself. It has mean $$0$$ and is a function of a series of binary variables which indicate whether a particular $$x \in X$$ is in $$S_0$$ say. These variables can be __approximately__ modelled as being i.i.d. with prob $$p$$ However, they are not really, we are doing a random shuffle of them. However, if they were i.i.d., then [[Bounded differences inequality]] would give us (the difference of flipping one of the variables is $$2/m$$.
+
+Actually, you can see [[here|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.62.8106&rep=rep1&type=pdf#page=4]] that we can convert it into an i.i.d. thing <mark>because they look at a different group. Rather than the full permutation group, only at a subgroup of this generated by sawps between the ith and the m+i th element (so between corresponding elements in the two halves of $$S$$</mark>. This is still measure preserving, but one can write the relevant event as dependent on a set of i.i.d. swap-related variables... Neato. Trick apparently comes from [[here|https://link.springer.com/book/10.1007/978-1-4612-5254-2]]?
+
+then the diff between value and mean ($$0$$) is with prob at least $$1-/delta$$ smaller than $$\frac{2}{m}\sqrt{\frac{m}{2}\log{\frac{1}{\delta}}} = \sqrt{\frac{2}{m}\log{\frac{1}{\delta}}} $$
+
+so that if $$\sqrt{\frac{2}{m}\log{\frac{1}{\delta}}} = \epsilon$$
+
+ $$\log{\frac{1}{\delta}} = m\frac{\epsilon^2}{2}$$
+
+ $$\delta = e^{-m\frac{\epsilon^2}{2}}$$
+
+So that under this approximation, $$\text{Prob}[S_1(h) - S_0(h) > \epsilon] \leq e^{-m\frac{\epsilon^2}{2}}$$
+
+So 
+
+$$\frac{P(A)}{4} \leq \Delta(H) e^{-m\frac{\epsilon^2}{2}}$$
+
+where $$\Delta(H)$$ is the [[Growth function]], a bound on $$\Delta(X)$$
+
+<mark>See good proof [[here|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.62.8106&rep=rep1&type=pdf]] and [[here|https://www.springer.com/gb/book/9780387308654]]</mark>
+
+> In [[here|http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.62.8106&rep=rep1&type=pdf#page=3]] they actually prove a tighter version of the [[Growth function generalization error bound]], which allows them to bound a sort of relative version of the generalization gap (divided by the square root of the true error, or by the actual true error, if they assume a bound on it too). 
+> The bound they get is not uniform over training error, it's more like a generalization of the realizable bound, it shows that with high probability, if training error is less than blah (this is fixed before drawing the sample), then the generalization error is less than blah (just like this other blah).
+> That is why they later do the weighted union bound in [[here|https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=705570#page=3]], because they don't really have an agnostic bound. They have a bound that holds can be applied to any training error, but doesn't work __uniformly__ over all training errors. It's a different kind of thing.
+
+-----------------
+
+Actually people seem to prove this using [[Rademacher complexity]] and [[Massart lemma]]

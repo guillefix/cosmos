@@ -1,6 +1,6 @@
 created: 20161101212213896
 creator: cosmos
-modified: 20170212154932244
+modified: 20190512014622272
 modifier: cosmos
 tags: Intelligence
 title: Attention
@@ -8,6 +8,10 @@ tmap.id: 39e83def-395f-4e31-90d2-43ca2ced522b
 type: text/vnd.tiddlywiki
 
 [[Attention in machine learning]]
+
+An attention function can be described as mapping a query and a set of key-value pairs to an output, where the query, keys, values, and output are all vectors. The output is computed as a weighted sumof the values, where the weight assigned to each value is computed by a compatibility function of thequery with the corresponding key.
+
+------------
 
 [[The frontal and parietal cortex: Eye movements and attention|https://www.youtube.com/watch?v=iyaktBk8AjU]]
 

@@ -1,6 +1,6 @@
 created: 20170512224700922
 creator: cosmos
-modified: 20181218212820882
+modified: 20190517210214405
 modifier: cosmos
 tags: [[Deep learning theory]] Generalization
 title: Generalization in deep learning
@@ -24,6 +24,8 @@ font-weight:bold;
 
 -- [[Deep learning theory]]
 
+[ext[http://guillefix.me/nnbias]]
+
 [[Exploring generalization in deep learning|https://arxiv.org/pdf/1706.08947.pdf]] -- [[Generalization in Deep Learning|https://arxiv.org/abs/1710.05468]] -- <small>[[Current state of generalization theory for deep learning (2018)|https://youtu.be/KDRN-FyyqK0?t=52m22s]])</small> -- [ext[slides on myths about generalization in deep learning|http://www.mit.edu/~rakhlin/papers/myths.pdf]]
 
 [[Generalization Error in Deep Learning|https://arxiv.org/abs/1808.01174]]
@@ -40,8 +42,6 @@ See gingkoapp tree: [[Kolmogorov complexity and generalization in deen neural ne
 
 !!!__Other approaches__
 
-[[Towards Understanding Generalization via Analytical Learning Theory|https://dspace.mit.edu/handle/1721.1/118307]]
-
 [[On the Spectral Bias of Neural Networks|https://arxiv.org/abs/1806.08734]] .... lower frequency functions (or components) are more robust! (like [[Wu et al.|https://arxiv.org/abs/1706.10239]] find also!).
 
 <small>[[Fisher-Rao Metric, Geometry, and Complexity of Neural Networks|https://arxiv.org/abs/1711.01530]] -- [[A jamming transition from under- to over-parametrization affects loss landscape and generalization|https://arxiv.org/abs/1810.09665?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+arxiv%2FQSXk+%28ExcitingAds%21+cs+updates+on+arXiv.org%29]] -- [[Implicit Self-Regularization in Deep Neural Networks: Evidence from Random Matrix Theory and Implications for Learning|https://arxiv.org/abs/1810.01075]]</small>
@@ -49,6 +49,8 @@ See gingkoapp tree: [[Kolmogorov complexity and generalization in deen neural ne
 [[An analytic theory of generalization dynamics and transfer learning in deep linear networks |https://openreview.net/forum?id=ryfMLoCqtQ]]
 
 [[Learning and Generalization in Overparameterized Neural Networks, Going Beyond Two Layers|https://arxiv.org/pdf/1811.04918v1.pdf]]
+
+[[Fine-Grained Analysis of Optimization and Generalization for Overparameterized Two-Layer Neural Networks|https://arxiv.org/abs/1901.08584]]
 
 
 @@.fancy-title
@@ -76,6 +78,10 @@ Entropy-SGD -- [[Entropy-SGD optimizes the prior of a PAC-Bayes bound: Generaliz
 [[(video) Karolina Dziugaite on Nonvacuous Generalization Bounds for Deep Neural Networks via PAC-Bayes|https://www.youtube.com/watch?v=dHUH0hmKvs8]] -- [[Data-dependent PAC-Bayes priors via differential privacy|https://arxiv.org/abs/1802.09583]] -- [[Entropy-SGD optimizes the prior of a PAC-Bayes bound: Generalization properties of Entropy-SGD and data-dependent priors|https://arxiv.org/abs/1712.09376]]
 
 <small>[[  PAC-bayesian  approach  to spectrally-normalized margin bounds for neural networks.|https://arxiv.org/abs/1707.09564]] -- [[Exploring Generalization in Deep Learning|https://arxiv.org/pdf/1706.08947.pdf]]</small>
+
+[[Non-vacuous Generalization Bounds at the ImageNet Scale: a PAC-Bayesian Compression Approach|https://openreview.net/forum?id=BJgqqsAct7]]
+
+[[Deterministic PAC-Bayesian generalization bounds for deep networks via generalizing noise-resilience|https://openreview.net/forum?id=Hygn2o0qKX]]
 
 @@.fancy-title
 !!__Norm/[[Margin-based generalization bound]]__
@@ -291,6 +297,10 @@ parameter space translate to the linear predictor learned from the model class?"
 [[Learning Invariances using the Marginal Likelihood|https://arxiv.org/abs/1808.05563]]
 
 [[To understand deep learning we need to understand kernel learning|https://arxiv.org/abs/1802.01396]]
+
+------------------
+
+!!![[Analytical learning theory]]
 
 ----------------------
 

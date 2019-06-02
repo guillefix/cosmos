@@ -1,6 +1,6 @@
 created: 20170306114139469
 creator: cosmos
-modified: 20180608175312998
+modified: 20190516223735860
 modifier: cosmos
 tags: [[Computational learning theory]]
 title: Agnostic learning
@@ -39,10 +39,24 @@ We want to bound the sample complexity of uniform convergence
 
 See more at [[Computational learning theory]]
 
+!!__Tighter agnostic bounds__
+
+One can obtain bounds which are tight both when the training error is high, or when it is low, by using tighter versions of the Chernoff bound on the Bernoulli probability. One can numerically compute optimal bounds in some cases. 
+
+See [[here|http://www.jmlr.org/papers/volume6/langford05a/langford05a.pdf]].
+
+If one wants more analytic expressions, the [[Relative entropy Chernoff bound]] is pretty tight for all the range of training errors.
+
+!!__More general training error-conditional bounds__
+
+Using the [[Weighted union bound]], as in [[Structural risk minimization]], one can give a non-uniform bound over training errors, which can allow to get better bounds if one has a prior belief over which training errors are more likely. <mark>Hmm, interesting. So does this mean that the relative entropy chernoff bound encodes a prior that favors smaler training error?</mark>
+
+[img[SRM_bound_with_prior_over_training_errors.png]] See [[here|https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=705570&tag=1#page=3]] for proof. See [[Growth function generalization error bound]] for result that is needed to prove this.
+
 -------------
 
 ''Relevance of purely agnostic learning?''
 
 Given that we really care in practice, mostly, about when we will have small training error, so we are close to [[PAC learning|Probably approximately correct]].
 
-It can be useful as a way to prove general bounds (that are still applicable in PAC learning), and also to guarantee that if we have small training error, our hypothesis class is probably not appropriate
+It can be useful as a way to prove general bounds (that are still applicable in PAC learning), and also to guarantee that if we have small training error, our hypothesis class is probably not appropriate. One can however, obtain better bounds that interpolate between the standard Chernoff agnostic bounds, and the realizable ones. See seciton above.

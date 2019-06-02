@@ -1,0 +1,27 @@
+created: 20190515013222724
+creator: cosmos
+modified: 20190515013305507
+modifier: cosmos
+tags: [[Probabilistic model]]
+title: Deep generative model
+type: text/vnd.tiddlywiki
+
+[[Generative model]] (basically a [[Probabilistic model]]) using a [[Deep learning]] model (basically an advanced [[Deep neural network]])
+
+------------
+
+Example of probabilistic modeling (particulary in [[Deep learning]] paradigm), using the [[DeepSaber]] project as example.
+
+_technical outline of ML approach to beat saber problem_
+
+* Supervised learning: song -> level
+* But there are many levels that are good for a song
+* Learn the probability distribution over beat-saber levels, conditioned on song
+* We parametrize the distribution by a neural network with softmax output
+* Train by Max Likelihood: find set of parameters that make the training data most likely.
+* ''How do you even express a complicated distribution with a neural network?''
+   ** Insert noise into it: GANs, normalizing flows
+   ** Divide and conquer (autoregression)!. Decompose distribution into product of conditionals
+   ** State space
+* All of our approaches use autoregression over the sequence
+* For each point in the sequence, we tried both GAN, and state space approach to express distribution over block states.

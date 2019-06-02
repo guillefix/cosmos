@@ -1,6 +1,6 @@
 created: 20180720222521835
 creator: cosmos
-modified: 20180720222621946
+modified: 20190513175106333
 modifier: cosmos
 tags: Concept [[Mathematical concepts]]
 title: Independence
@@ -8,3 +8,10 @@ tmap.id: 9f23b99e-747c-4a9f-83a6-22efd404a526
 type: text/vnd.tiddlywiki
 
 https://pointatinfinityblog.wordpress.com/2018/01/22/independence/comment-page-1/#comment-318
+
+
+the squared distance from the origin when taking independent steps in one dimension is the same as when taking dependent steps, where each step is in a new dimension.
+
+if you take as inner product the statistical expectation, then independent vectors are orthogonal. Independent things are formally analogous to orthogonal things! Nice
+
+[[Matroid]] theory?

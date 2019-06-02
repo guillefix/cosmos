@@ -1,6 +1,6 @@
 created: 20170825095716303
 creator: cosmos
-modified: 20170825163254011
+modified: 20190508045853846
 modifier: cosmos
 tags: [[Deep learning]]
 title: Geometric deep learning
@@ -12,6 +12,10 @@ type: text/vnd.tiddlywiki
 [ext[geometricdeeplearning.com]]
 
 See [[this review article|http://sci-hub.io/10.1109/msp.2017.2693418]]
+
+__Datasets__
+
+https://medium.com/ai%C2%B3-theory-practice-business/abc-free-datasets-for-geometric-deep-learning-5e2995768b37 https://deep-geometry.github.io/abc-dataset/
 
 !!__[[Supervised learning]] (learning functions) on Non-Euclidean domains__
 

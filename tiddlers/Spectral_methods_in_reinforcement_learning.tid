@@ -1,8 +1,8 @@
 created: 20170901180147589
 creator: cosmos
-modified: 20181109220616018
+modified: 20190515012104837
 modifier: cosmos
-tags: [[Reinforcement learning]]
+tags: [[Spectral methods]] [[Reinforcement learning]]
 title: Spectral methods in reinforcement learning
 tmap.id: d6a8f67a-6de0-4962-b1f4-3e9c2eeaa73a
 type: text/vnd.tiddlywiki
@@ -43,3 +43,9 @@ cognitive map https://www.biorxiv.org/content/early/2018/07/10/365593
 ..........
 
 https://arxiv.org/abs/1806.02813
+
+----------
+
+Relations to [[Grid cell]]s and [[Spatial navigation]] (see my work on the second rotation of the SysBio DTC)
+
+[[Spectral Inference Networks: Unifying Deep and Spectral Learning|https://arxiv.org/abs/1806.02215]]

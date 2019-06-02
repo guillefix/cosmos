@@ -1,6 +1,6 @@
 created: 20160921140754564
 creator: cosmos
-modified: 20161104134327104
+modified: 20190513171742950
 modifier: cosmos
 title: Batch normalization
 tmap.id: 517dba65-5b1b-428c-ab5a-480a15e0ded4
@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 A method to increase learning rate for [[deep|Deep learning]] [[neural networks|Artificial neural network]], as well as [[regularize|Regularization]] them.
 
 [[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift|http://arxiv.org/abs/1502.03167]]
+
+[[A mean field theory of batch normalization|https://arxiv.org/abs/1902.08129]]
 
 [[an explanation|https://standardfrancis.wordpress.com/2015/04/16/batch-normalization/]]
 
