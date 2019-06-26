@@ -1,9 +1,11 @@
 created: 20180725151244269
 creator: cosmos
-modified: 20190625204651652
+draft.of: Marginal likelihood
+draft.title: Marginal likelihood
+modified: 20190625220132626
 modifier: cosmos
 tags: [[Bayesian inference]]
-title: Marginal likelihood
+title: Draft of 'Marginal likelihood'
 tmap.id: a8a5b1ae-2a47-4ee9-9b24-5b3963ed5cf5
 type: text/vnd.tiddlywiki
 
@@ -48,4 +50,24 @@ This is literally THE WORST Monte Carlo estimate everr. See this: https://radfor
 What alternatives are there? See https://stats.stackexchange.com/questions/209810/computation-of-the-marginal-likelihood-from-mcmc-samples
 
 Instead consider $$\int_{A} \frac{1}{P(b|a)P(a)}\frac{P(b|a)P(a)}{P(b)}  da = \frac{1}{P(b)} V(A)$$, but actually we don't need to integrate over the whole of A, the identity holds for any region $$A' \subseteq A$$. Therefore we can choose the region cleverly. We want parts of $$A$$ that contribute to the sum to be sampled significantly. So let's choose $$A'$$ to be a region which is all of high posterior probability. This is called a high probability density (HPD) region of the posterior!
+
+!!__Variational approach__
+
+https://arxiv.org/pdf/1203.3506.pdf. Eq (7) gives the estimator:
+
+[img[variational_estimator_of_normalization_constant_of_probability_distribution.png]]
+
+The idea is that we find an objective functional such that when maximized, ensures that the optimum function is normalized and following the same distribution as some other distribution from which got samples.
+
+For applying this to the marginal likelihood, the distribution which we sample should be the posterior, which we can do with MCMC. p_0 should be the unormalized posterior, and p_n could be anything (the paper discuss good choices I guess). And in the case of marginal likelihood, the "x" are the parameters, and so really the only parameter over which we are optimizing is the marginal likelihood estimator itself! 
+
+For the case of [[Gaussian process]], we should consider the posterior over real-valued functions, for which we can compute the numerator of Bayes theorem easily, and which we can sample using MCMC, but for which we can't compute the marginal likelihood easily for non-Gaussian likelihoods.
+
+<small>This approach, of course only makes sense when the marginal likelihood is an integral over a large space, otherwise simple integration / sumation would suffice. This is why thinking of the posterior over discrete-valued functions on the case of GP classification doesn't make much sense; in that case the complication is in computing the numerator of Bayes' theorem itself (as the marginalization is over a single discrete function, which is the one that fits the data)..., so not a good framing for applying this technique which assumes the numerator is easy and the integration is the hard part.</small>
+
+__conditions on $$p_n$$__
+
+In Theorem 1 the condition on p_n is stated: the support of p_n must include the support of the "data distribution" (or the posterior distribution in the case of marginal likelihood). So for instance using the prior would work, or the posterior itself (but that can't be used because we need to evaluate it in the experssion of the objective function itself).
+
+!!__Linear regression approach__
 
