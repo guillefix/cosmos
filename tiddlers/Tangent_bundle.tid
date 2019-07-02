@@ -1,13 +1,13 @@
 created: 20170924095228542
 creator: cosmos
-modified: 20171026102953494
+modified: 20190701150313142
 modifier: cosmos
 tags: [[Vector bundle]]
 title: Tangent bundle
 tmap.id: 2d3cdc46-5142-4f4f-ab07-850913f9111b
 type: text/vnd.tiddlywiki
 
-A manifold formed from the disjoint union of all the [[Tangent space]]s of a manifold, given a natural differentiable structure. See definition [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=23]]
+A manifold formed from the [[Disjoint union]] of all the [[Tangent space]]s of a manifold, given a natural differentiable structure. See definition [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=23]]
 
 See [[here|https://courses.maths.ox.ac.uk/node/view_material/33094#page=24]] for definition of the ''projection map''. Of importance are its [[fibers|Fiber of a map]]
 
