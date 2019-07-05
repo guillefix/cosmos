@@ -1,0 +1,31 @@
+created: 20190704225154271
+creator: cosmos
+modified: 20190704225126848
+modifier: cosmos
+tags: [[Neural network theory]]
+title: Recent developments in overparametrized neural networks
+type: text/vnd.tiddlywiki
+
+See here: [[Recent Developments in Over-parametrized Neural Networks, Part I|https://youtu.be/uC2IGoTE2u4?t=1435]]
+
+https://youtu.be/uC2IGoTE2u4?t=2518 - should say Hessian negative?
+YouTube
+Recent Developments in Over-parametrized Neural Networks, Part I
+Jason Lee (University of Southern California) https://simons.berkeley.edu/talks/optimizations-i Deep Learning Boot Camp
+
+https://youtu.be/uC2IGoTE2u4?t=3231 - pero no siempre no? Si haces como yo por ejemplo que ejecuto SGD hasta que el classification error es 0, no estas necesariamente en un critical point del diffenertiable loss que uses; y el set de parametros con training classification error 0 no es measure 0 .
+Also tampoco dicen que SGD returnee critical points sino epsilon critical, aunq tampoco es suficiente que el Jacobian sea full rank, sino que su minimo eigenvalue sea suficientemente grande i guess.
+
+hmm, pero actually los puntos que puede encontrar SGD estan en un set de measure 0 xq utiliza un numero finito de random bits... La inicialization no, pero como demonstrar que no  converge a un numero finito de puntos posibles aun asi...
+
+[[SGD can scape second order saddle point|https://youtu.be/uC2IGoTE2u4?t=2280]]. But not higher order ones apparently. <mark>Why?</mark> //why doesn't SGD find higher order descent directions, by the same argument it finds second order ones?//
+
+[[One hidden layer with quadratic activation functions has no local minima of degree higher than two, so SGD can't get stuck|https://youtu.be/uC2IGoTE2u4?t=2624]]
+
+[[functional gradient descent and optimality conditions of nonlinear least squares|https://youtu.be/uC2IGoTE2u4?t=2938]]. If the Jacobian from parameters to predictions (on training set) is non-degenerate at a local optimum, then it is a global optimum! Sugoi!
+
+Almost all points (and apparently almost all critical points too?) have a non-degenerate Jacobian!
+
+no spurious local minima (can scape any critical point with a second order descent direction, which SGD can apparently find), but only for analytic activation functions, like quadratic, monomial etc.
+
+[[connections to Frank-Wolfe|https://youtu.be/uC2IGoTE2u4?t=3945]]

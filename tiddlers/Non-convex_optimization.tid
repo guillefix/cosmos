@@ -1,12 +1,11 @@
 created: 20161026165913202
 creator: cosmos
-modified: 20170807115726660
+modified: 20190704225147173
 modifier: cosmos
 tags: Optimization
 title: Non-convex optimization
 tmap.id: 34b39ba2-80dc-4a0d-9ba0-272431e1a822
 type: text/vnd.tiddlywiki
-
 
 See resources at [[Neural network theory]]
 
@@ -19,3 +18,19 @@ See resources at [[Neural network theory]]
 See [[Statistical physics and inference]]
 
 https://2017.icml.cc/Conferences/2017/Schedule?showEvent=777
+
+-----------
+
+
+__convexity-like notions__
+
+* [[Quasi-convex]]
+* [[Single-point convex]]
+
+"when the gradient vanishes something good happens."
+
+See here: [[Recent Developments in Over-parametrized Neural Networks, Part I|https://youtu.be/uC2IGoTE2u4?t=1435]]
+
+See [[Recent developments in overparametrized neural networks]]
+
+{{Recent developments in overparametrized neural networks}}
