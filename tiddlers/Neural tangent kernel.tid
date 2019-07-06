@@ -1,0 +1,28 @@
+created: 20190705161331441
+creator: cosmos
+modified: 20190705164315031
+modifier: cosmos
+tags: [[Deep learning theory]]
+title: Neural tangent kernel
+type: text/vnd.tiddlywiki
+
+
+[[Neural Tangent Kernel: Convergence and Generalization in Neural Networks|https://arxiv.org/abs/1806.07572]]
+
+[[Recent Developments in Over-parametrized Neural Networks, Part II|https://www.youtube.com/watch?v=NGon2JyjO6Y&list=PLgKuh-lKre12c2Il9mNX0Cmp9Z4oFNrQh&index=8]]
+
+* [[video|https://youtu.be/NGon2JyjO6Y?t=67]]. We are going to combine the ideas of random features (training last layer) with Polyak condition
+
+* [[Random features]]. [[video|https://youtu.be/NGon2JyjO6Y?t=141]]. Ali Rahimi show that for random features (whp i guess), there exists a weigting of the features that gives a function close to any function expressible in the RKHS. Is it for any function, whp, this is true, or whp this is true for any function? I guess the former. By "close" they prove it's within $$||f||/\sqrt{m}$$, where $$m$$ is the number of features, of the target function, in [[RKHS]] norm
+
+* Optimizing the last layer is a convex problem. If we __initialize right__, then optimizing the other weights, doesn't hurt much ([[vid|https://youtu.be/NGon2JyjO6Y?t=783]]) <small> [[what was the point of all of this polynomial stuff?|https://youtu.be/NGon2JyjO6Y?t=598]] </small>
+
+* To consider what happens when all the parameters are moving, roughly the same amount, then we [[move into the regime of neural tangent kernels|https://youtu.be/NGon2JyjO6Y?t=1314]]
+
+* [[Neural tangent kernel depends strongly on initialization|https://youtu.be/NGon2JyjO6Y?t=1676]]
+
+* [[NTK is given by a sum of layer-wise kernels, where the weights depend on initialization/learning rates|https://youtu.be/NGon2JyjO6Y?t=1763]]
+
+* Just like the [[NNGP]], NTK for fully connected  only depends on the angles and the norms (and if inputs are normalized, they only depend on angle), so they are dot product kernels [[vid|https://youtu.be/NGon2JyjO6Y?t=1886]]
+
+* [[computation of kernel|https://youtu.be/NGon2JyjO6Y?t=1925]]
