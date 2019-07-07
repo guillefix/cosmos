@@ -1,6 +1,6 @@
 created: 20190705161331441
 creator: cosmos
-modified: 20190705164315031
+modified: 20190706161323284
 modifier: cosmos
 tags: [[Deep learning theory]]
 title: Neural tangent kernel
@@ -26,3 +26,19 @@ type: text/vnd.tiddlywiki
 * Just like the [[NNGP]], NTK for fully connected  only depends on the angles and the norms (and if inputs are normalized, they only depend on angle), so they are dot product kernels [[vid|https://youtu.be/NGon2JyjO6Y?t=1886]]
 
 * [[computation of kernel|https://youtu.be/NGon2JyjO6Y?t=1925]]
+
+* GD~NTK needs initialization so that f_0 doesn't blow up
+
+* [[Heuristic argument for why GD stays close to NTK kernel GD|https://youtu.be/NGon2JyjO6Y?t=2291]]
+
+* [[these are all worst-case results|https://youtu.be/NGon2JyjO6Y?t=2708]]!
+
+* kernel-norm-based sample complexity [[vid|https://youtu.be/NGon2JyjO6Y?t=2779]], for learning polynomials
+
+* learning (generalization) for learning teacher networks (and generally functions in the RKHS) [[video|https://youtu.be/NGon2JyjO6Y?t=2989]], has been used to show learnability, and generalization bounds? Allen-Zhu et al used other arguments
+
+* [[don't get the last point about SGD|https://youtu.be/NGon2JyjO6Y?t=3310]]..., as in is this for any loss? Hmm, I guess, because it can never reach zero training error, as the training set keeps getting bigger; I think that's the point of that point.
+
+* [[Learning rate|https://youtu.be/NGon2JyjO6Y?t=3371]]. Has to be very small! Learning rate has to scale like $$1/m$$
+
+*[[Limitations of these kernel methods|https://youtu.be/NGon2JyjO6Y?t=3561]]
