@@ -1,6 +1,6 @@
 created: 20190705161331441
 creator: cosmos
-modified: 20190706161323284
+modified: 20190707133557228
 modifier: cosmos
 tags: [[Deep learning theory]]
 title: Neural tangent kernel
@@ -42,3 +42,6 @@ type: text/vnd.tiddlywiki
 * [[Learning rate|https://youtu.be/NGon2JyjO6Y?t=3371]]. Has to be very small! Learning rate has to scale like $$1/m$$
 
 *[[Limitations of these kernel methods|https://youtu.be/NGon2JyjO6Y?t=3561]]
+** [[For matrix completion NTK and GD appear to do very different things|https://youtu.be/NGon2JyjO6Y?t=4226]]
+
+* [[For logistic loss with small LR, it will converge to the NTK solution, but then after some time, it will do GD, and a question is what max-margin solution will it converge too, if starting from the NTK solution?|https://youtu.be/NGon2JyjO6Y?t=4355]]
