@@ -1,6 +1,6 @@
 created: 20190704225154271
 creator: cosmos
-modified: 20190704225126848
+modified: 20190709153956329
 modifier: cosmos
 tags: [[Neural network theory]]
 title: Recent developments in overparametrized neural networks
@@ -29,3 +29,5 @@ Almost all points (and apparently almost all critical points too?) have a non-de
 no spurious local minima (can scape any critical point with a second order descent direction, which SGD can apparently find), but only for analytic activation functions, like quadratic, monomial etc.
 
 [[connections to Frank-Wolfe|https://youtu.be/uC2IGoTE2u4?t=3945]]
+
+arxiv.org/abs/1605.08361 arxiv.org/abs/1710.10928 arxiv.org/abs/1803.02968
