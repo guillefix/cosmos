@@ -1,6 +1,6 @@
 created: 20160807002358280
 creator: cosmos
-modified: 20180609113216774
+modified: 20190710101812433
 modifier: cosmos
 tags: Optimization [[Convex analysis]]
 title: Convex optimization
@@ -40,6 +40,16 @@ bundle algorithms
 cutting-plane algorithz
 
 [[Interior-point method]]s, like in linear programming.
+
+!!__Theory__
+
+[img width=400 [optimization_algorithms_convergence_times_finite_sums.PNG]]
+
+See [[here|https://youtu.be/rQM5uh2EsHA?t=896]]
+
+See [[Stochastic gradient descent]] and [[Gradient descent]]
+
+---------
 
 !!!__Applications of convex optimazation to nonconvex optimization problems__
 
