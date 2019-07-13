@@ -1,6 +1,6 @@
 created: 20190403140824630
 creator: cosmos
-modified: 20190410085846002
+modified: 20190712193032392
 modifier: cosmos
 title: Covariance matrix
 tmap.id: d639f2b8-5948-4bcb-b650-22e0cdecb10d
@@ -11,3 +11,7 @@ For a [[Sequence]] of [[Random variable]]s $$(X_1,...,X_n)$$ (e.g. a random vect
 __Empirical covariance matrix__
 
 The matrix of empirical covariances (where the [[Expectation]] in the definition of the covariance is substituted by the [[Sample mean]])
+
+-----
+
+some properties of [[positive|Positive matrix]] covariance matrices: http://www.numdam.org/article/SAD_1988__13_1_8_0.pdf , using [[Perron-Frobenius theorem]]

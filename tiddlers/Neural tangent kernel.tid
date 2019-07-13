@@ -1,6 +1,6 @@
 created: 20190705161331441
 creator: cosmos
-modified: 20190707133557228
+modified: 20190712221322357
 modifier: cosmos
 tags: [[Deep learning theory]]
 title: Neural tangent kernel
@@ -9,7 +9,49 @@ type: text/vnd.tiddlywiki
 
 [[Neural Tangent Kernel: Convergence and Generalization in Neural Networks|https://arxiv.org/abs/1806.07572]]
 
-[[Recent Developments in Over-parametrized Neural Networks, Part II|https://www.youtube.com/watch?v=NGon2JyjO6Y&list=PLgKuh-lKre12c2Il9mNX0Cmp9Z4oFNrQh&index=8]]
+__Definition__
+
+[img[NTK_definition_Jacot.png]]
+
+It is basically defined as the product of the [[Jacobian]]s of the [[Parameter-function map]].
+
+------------
+
+!!__For infinite width, the NTK stochastically converges to a deterministic function, over initialization__
+
+This is similar to how the distribution over function converges to a [[certain Gaussian process|Neural network Gaussian process]] in the infinite width limit
+
+[img width=600 [NTK_infinite_width_limit_convergence_Jacot.png]]
+
+!!__For ''small learning rate'', and "increasing" Jacobian, NTK/linearized/lazy dynamics describes training dynamics, because parameters barely change, even though the function changes__
+
+Different papers take "increasing" the Jacobian to be different things, but which all have the same effect described above. In [[Jacot et al 2018|https://arxiv.org/abs/1806.07572]], they take the limit of infinite width, which means that even if the individual weights change infinitesimally, the total change in the function can O(1) (see intuitive explanation in section "Jacot et al." below). In [[Chizat et al. 2018|https://arxiv.org/abs/1812.07956]], they increase the Jacobian, by scaling the model output, but the effect is the same. Just like in Jacot et al. they need to choose the weight variances such that the network output doesn't blow up at initialization, Chizat et al., also need to assume that the network doesn't blow up at initialization. In fact, several of their theorems assume the network output is initialized at $$0$$.
+
+__Jacot et al.__
+
+[img width=600 [NTK_training_Jacot_theorem.png]]
+
+Under the NTK parametrization, which they use, this limit implies that the learning rate (for GD on the standard-parametrization) is $$O(1/\sqrt{n}$$ (where $$n$$ is layer size). So the parameters move less and less for a fixed $$T$$, in this limit, which is, intuitively, why the NTK stays constant for this period of time until $$T$$
+
+The interesting thing is that the function $$f$$ can change, as all the parameters "conspire" for it to change. Therefore it can potentially fit a function, and find a global minimum, while the parameters have almost not moved at all.
+
+I think the intuition for this "conspiracy" is that the total change in $$f$$ is given by a sum over all the parameters' individual gradients. The number of parameters grows like $$n^2$$. gradient w.r.t. last hidden layer activations is $$O(1/\sqrt{n})$$, w.r.t to second to last hidden layer activations is $$O(\sqrt{n}(1/\sqrt{n})^2) = O(1/\sqrt{n})$$, where the $$\sqrt{n}$$ comes from variance of summing over all the activations in last hidden layer. 
+This means that the gradient w.r.t. to a weight, in NTK parameterization, is $$O((1/\sqrt{n})^2)=O(1/n)$$
+In GD, each weight changes by an ammount of the same order as the gradient (assumin $$O(1)$$ learning rate, which we assume for NTK-parametrization learning rate), so each weight contributes to change $$f$$ by $$O(1/n^2)$$. Therefore the total contribution from all the weights is $$O(1)$$. Note that the contributions all have the same sign as they are essentially the gradient w.r.t. that weight, squared, so they add linearly, (and not growing like $$\sqrt{n}$$ if they were all randomly signed)
+
+__Chizat et al__
+
+[img[Chizat_et_al_lazy_training_1.png]]
+[img[Chizat_et_al_lazy_training_2.png]]
+
+How come it can find a minimum arbitrarily close to the initialization?
+
+Ah I see by the non-degenerate Jacobian assumption, you can find a local change that will fit $$y^*$$, and $$\alpha$$ large is just needed to reach the overall size/scale of $$y^*$$ with the local change
+
+
+-------------
+
+!![[Recent Developments in Over-parametrized Neural Networks, Part II|https://www.youtube.com/watch?v=NGon2JyjO6Y&list=PLgKuh-lKre12c2Il9mNX0Cmp9Z4oFNrQh&index=8]]
 
 * [[video|https://youtu.be/NGon2JyjO6Y?t=67]]. We are going to combine the ideas of random features (training last layer) with Polyak condition
 
