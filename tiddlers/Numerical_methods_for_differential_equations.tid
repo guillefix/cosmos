@@ -1,6 +1,6 @@
 created: 20160207143043578
 creator: guillefix
-modified: 20170306094424400
+modified: 20190720142732260
 modifier: cosmos
 tags: [[Scientific computing]]
 title: Numerical methods for differential equations
@@ -16,6 +16,8 @@ $$u' = f(u,t)$$
 could represent system of equations (i.e. $$u$$ vector).
 
 Discretize time in steps of size $$k$$ (//timestep//).
+
+See [[notes from Oxford course here|https://courses.maths.ox.ac.uk/node/41040/materials]]
 
 Numerical methods (//finite difference discretization// methods, similar to [[Finite element method]]s):
 
