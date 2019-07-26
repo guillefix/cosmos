@@ -1,0 +1,23 @@
+created: 20190725215936830
+creator: cosmos
+modified: 20190725220945186
+modifier: cosmos
+tags: 
+title: Orthant probabilities
+type: text/vnd.tiddlywiki
+
+Formula for the positive orthant probability of a multivariate Gaussian
+
+$$2^{2 n} P_{2 n}=1+\frac{2}{\pi} \sum_{i<j}^{2 n} \sin ^{-1}\left(\rho_{i j}\right)+\sum_{j=2}^{n}\left[\left(\frac{2}{\pi}\right)^{j}+\sum_{i_{1}<\ldots<i_{2 j}}^{2 n} I_{2 j}\left(\mathbf{R}^{i_{1}, \ldots, i_{2 j}}\right)\right]$$
+
+See http://93.174.95.29/_ads/C4E61B9E45DD69DE4F3164554687F2C3 page 19 in pdf
+
+$$2^{2 n} P_{1,2 n}=1+\frac{2}{\pi} \sum_{i<j}^{2 n} \sin ^{-1}\left(\rho_{i j}\right)+\sum_{j=2}^{n}\left[\left(\frac{2}{\pi}\right)^{j}+(2n-4j)\sum_{i_{1}<\ldots<i_{2 j}}^{2 n} I_{2 j}\left(\mathbf{R}^{i_{1}, \ldots, i_{2 j}}\right)\right]$$
+
+$$2^{2 n} (P_{1,2 n} - P_{2 n})=\sum_{j=2}^{n}(2n-4j-1)\sum_{i_{1}<\ldots<i_{2 j}}^{2 n} I_{2 j}\left(\mathbf{R}^{i_{1}, \ldots, i_{2 j}}\right)$$
+
+https://rss.onlinelibrary.wiley.com/doi/full/10.1111/1467-9868.00382
+
+https://www.jstor.org/stable/pdf/2332716.pdf?refreqid=excelsior%3Aefab3b3dac44908e27f5c2d0379b13ac
+
+https://www.tandfonline.com/doi/pdf/10.1080/03610928808829845?needAccess=true
