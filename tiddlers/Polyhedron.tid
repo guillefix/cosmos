@@ -1,6 +1,6 @@
 created: 20161107143729303
 creator: cosmos
-modified: 20180803001142060
+modified: 20190805221429275
 modifier: cosmos
 tags: [[Euclidean geometry]] Shape
 title: Polyhedron
@@ -8,9 +8,9 @@ tmap.id: cde0198f-8c65-4526-b1da-ed1fe8c5ad32
 type: text/vnd.tiddlywiki
 
 
-A polyhedron can be seen as an intersection of [[Half-space]]s.
+In 3 dimensions a ''polyhedron'' is defined as a bounded region of space where its boundaries are flat surfaces.
 
-* [[Polytope]]
+A polyhedron in higher dimensions is often as an intersection of [[Half-space]]s (which can be bounded or unbounded). In this case, a [[Polytope]] is defined as a bounded polyhedron. ( https://www.wikiwand.com/en/Polyhedron#/Higher-dimensional_polyhedra )
 
 !!!https://polyhedra.tessera.li/
 

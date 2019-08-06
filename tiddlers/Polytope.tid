@@ -1,10 +1,12 @@
 created: 20161107110702863
 creator: cosmos
-modified: 20171218141340105
+modified: 20190805221533639
 modifier: cosmos
 tags: Polyhedron
 title: Polytope
 tmap.id: 47392bf0-510c-4009-ba63-32ae2f13fb34
 type: text/vnd.tiddlywiki
 
-[[Polyhedron]] that is bounded (i.e. it lies within a sphere of finite radius).
+[[Polyhedron]] (the general $$n$$-dimensional definition, as an intersection of half-spaces) that is bounded (i.e. it lies within a sphere of finite radius). ( https://www.wikiwand.com/en/Polyhedron#/Higher-dimensional_polyhedra )
+
+There are related alternative definitions: https://www.wikiwand.com/en/Polytope#/Approaches_to_definition
