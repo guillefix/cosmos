@@ -1,0 +1,17 @@
+created: 20190808191628674
+creator: cosmos
+modified: 20190808191802107
+modifier: cosmos
+tags: 
+title: Gradient Descent Finds Global Minima of Deep Neural Networks
+type: text/vnd.tiddlywiki
+
+https://arxiv.org/pdf/1811.03804.pdf
+
+What are the conditions on the data? Are the results worst-case over data distributions?
+
+Proves global convergence of [[SGD]] for
+
+* [[ResNet]]s
+* [[CNN]]s
+* [[Fully connected network]]s
