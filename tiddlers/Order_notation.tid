@@ -1,6 +1,6 @@
 created: 20160611154626088
 creator: guillefix
-modified: 20180530160530294
+modified: 20190809071939330
 modifier: cosmos
 tags: [[Asymptotic analysis]]
 title: Order notation
@@ -13,19 +13,15 @@ See [[notes|https://www0.maths.ox.ac.uk/system/files/coursematerial/2015/3128/8/
 
 |see [ext[here|http://www2.cs.arizona.edu/classes/cs345/summer14/files/bigO.pdf]]|
 
-Big O: $$f=O(g)$$ as $$\epsilon \rightarrow 0$$
+*[[Big theta|https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-big-theta-notation]]
 
-[[Big Omega|https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-big-omega-notation]]
+* [[Big Omega|https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-big-omega-notation]]
 
- (f could be asymptotic to const*g, or much smaller)
+* Big O: $$f=O(g)$$ as $$\epsilon \rightarrow 0$$ - f could be asymptotic to const*g, or much smaller
 
-Small o: $$f=o(g)$$
+* Small o: $$f=o(g)$$ - f is strictly much less than g
 
-f is strictly much less than g
-
-Strict order: $$f=\text{ord}(g)$$
-
-f is strictly of order g, i.e. asymptotic to some constant times g.
+* Strict order: $$f=\text{ord}(g)$$ - f is strictly of order g, i.e. asymptotic to some constant times g.
 
 [img[http://i.imgur.com/GGsYuKB.png]]
 
