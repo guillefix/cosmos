@@ -1,6 +1,6 @@
 created: 20170325144453634
 creator: cosmos
-modified: 20190515012751170
+modified: 20190816211100466
 modifier: cosmos
 tags: [[Artificial intelligence]]
 title: Natural language understanding
@@ -20,6 +20,8 @@ Many of the methods use [[Augmented RNN]]s, which have [[Memory]], and [[Attenti
 Automatically make timelines from unsttructured text http://www.cs.ubc.ca/labs/imager/tr/2015/TimeLineCurator/
 
 https://openai.com/blog/unsupervised-sentiment-neuron/ -- https://openai.com/blog/language-unsupervised/
+
+https://venturebeat.com/2019/08/13/nvidia-trains-worlds-largest-transformer-based-language-model/amp/
 
 !!__Dialogue systems__
 

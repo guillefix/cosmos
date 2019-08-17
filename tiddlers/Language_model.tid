@@ -1,6 +1,6 @@
 created: 20170131161500537
 creator: cosmos
-modified: 20190508051246808
+modified: 20190816211114581
 modifier: cosmos
 tags: [[Natural language understanding]] [[Natural language processing]]
 title: Language model
@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 
 
 A [[Probabilistic model]] for [[Language]]: A [[Probability distribution]] over strings (sequence of tokens) in a [[Language]]
+
+https://venturebeat.com/2019/08/13/nvidia-trains-worlds-largest-transformer-based-language-model/amp/
 
 [[Text generation]]. GPT2 https://mobile.twitter.com/Miles_Brundage/status/1115178488393154560
 
