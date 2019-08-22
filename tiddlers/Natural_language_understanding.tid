@@ -1,6 +1,6 @@
 created: 20170325144453634
 creator: cosmos
-modified: 20190816211100466
+modified: 20190821234142651
 modifier: cosmos
 tags: [[Artificial intelligence]]
 title: Natural language understanding
@@ -12,6 +12,8 @@ Use [[Natural language processing]] and more [[Machine learning]]/[[Artificial i
 [[Language model]], [[Text generation]]
 
 https://rasa.ai/?ref=producthunt
+
+New benchmark task: SuperGLUE (2019): https://ai.facebook.com/blog/new-advances-in-natural-language-processing-to-better-connect-people/
 
 https://github.com/allenai/deep_qa
 

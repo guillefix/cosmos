@@ -1,6 +1,6 @@
 created: 20180713211447506
 creator: cosmos
-modified: 20180713211614361
+modified: 20190821231623592
 modifier: cosmos
 tags: [[Machine learning]] [[Software engineering]]
 title: Machine learning engineering
@@ -12,6 +12,8 @@ type: text/vnd.tiddlywiki
 https://twitter.com/hardmaru/status/1012035952187854849
 
 [[How to unit test machine learning code.|https://medium.com/@keeper6928/how-to-unit-test-machine-learning-code-57cf6fd81765]]
+
+ML and programming language design: https://julialang.org/blog/2017/12/ml&pl
 
 -----------
 
