@@ -1,6 +1,6 @@
 created: 20161026162838786
 creator: cosmos
-modified: 20161104134329793
+modified: 20190828140705477
 modifier: cosmos
 tags: Calculus
 title: Multivariate calculus
@@ -14,3 +14,7 @@ __Important quantities__
 
 * [[Gradient]]
 * [[Hessian]]
+
+-----
+
+Good resource with animated lectures:  https://mobile.twitter.com/robertghrist/status/1166650402189774850

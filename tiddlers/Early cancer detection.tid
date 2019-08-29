@@ -1,6 +1,6 @@
 created: 20181228173209604
 creator: cosmos
-modified: 20190410085846212
+modified: 20190828140818553
 modifier: cosmos
 tags: Diagnosis Cancer
 title: Early cancer detection
@@ -10,4 +10,4 @@ type: text/vnd.tiddlywiki
 
 One of the most desirable applications of -​omics in cancer has been the discovery of molecular markers (biomarkers) that are capable of diagnosing tumours at early stages, predicting disease outcome ([[Prognosis]]), or estimating success rates of particular treatment regimes ([[Treatment stratification]])
 
-A promising approach for many cancers is using [[Blood biopsy]]
+A promising approach for many cancers is using [[Blood biopsy]]. Can use AI or [[dogs sense of smell!|https://mobile.twitter.com/guillefix/status/1166680539249688576]] to analyze the sample
