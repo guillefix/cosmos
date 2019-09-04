@@ -1,6 +1,6 @@
 created: 20170512224700922
 creator: cosmos
-modified: 20190517210214405
+modified: 20190903142650086
 modifier: cosmos
 tags: [[Deep learning theory]] Generalization
 title: Generalization in deep learning
@@ -42,7 +42,9 @@ See gingkoapp tree: [[Kolmogorov complexity and generalization in deen neural ne
 
 !!!__Other approaches__
 
-[[On the Spectral Bias of Neural Networks|https://arxiv.org/abs/1806.08734]] .... lower frequency functions (or components) are more robust! (like [[Wu et al.|https://arxiv.org/abs/1706.10239]] find also!).
+[[On the Spectral Bias of Neural Networks|https://arxiv.org/abs/1806.08734]] .... lower frequency functions (or components) are more robust! (like [[Wu et al.|https://arxiv.org/abs/1706.10239]] find also!). See [[A Fine-Grained Spectral Perspective on Neural Networks|https://arxiv.org/abs/1907.10599]] for a more theoretically grounded look on the spectral simplicity bias of neural nets.
+
+[[Understanding Generalization through Visualizations|https://arxiv.org/abs/1906.03291]]
 
 <small>[[Fisher-Rao Metric, Geometry, and Complexity of Neural Networks|https://arxiv.org/abs/1711.01530]] -- [[A jamming transition from under- to over-parametrization affects loss landscape and generalization|https://arxiv.org/abs/1810.09665?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+arxiv%2FQSXk+%28ExcitingAds%21+cs+updates+on+arXiv.org%29]] -- [[Implicit Self-Regularization in Deep Neural Networks: Evidence from Random Matrix Theory and Implications for Learning|https://arxiv.org/abs/1810.01075]]</small>
 
@@ -52,6 +54,11 @@ See gingkoapp tree: [[Kolmogorov complexity and generalization in deen neural ne
 
 [[Fine-Grained Analysis of Optimization and Generalization for Overparameterized Two-Layer Neural Networks|https://arxiv.org/abs/1901.08584]]
 
+@@.fancy-title
+!!__[[Neural tangent kernel]]__
+@@
+
+Recently people are also using the [[Neural tangent kernel]] ([[paper|https://arxiv.org/abs/1806.07572]]) to understand generalization. See papers here: https://github.com/damaru2/ntk/blob/master/readme.md
 
 @@.fancy-title
 !!__[[Flat minima]]__

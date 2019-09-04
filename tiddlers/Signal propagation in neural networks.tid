@@ -1,0 +1,12 @@
+created: 20190903141947818
+creator: cosmos
+modified: 20190903142031310
+modifier: cosmos
+tags: [[Statistical mechanics of neural networks]]
+title: Signal propagation in neural networks
+type: text/vnd.tiddlywiki
+
+
+See [[Mean field theory of neural networks]] by work in math and computer science. Mainly tries to understand how to prevent pathological behaviors in randomly initialized neural networks when theyare deep [47,51,69,68,22,23,13,70,43,24,46]. [[Deep Information Propagation|https://arxiv.org/abs/1611.01232]]
+
+See [[Signal transmission and processing by neuronal networks]] for work in neuroscience
