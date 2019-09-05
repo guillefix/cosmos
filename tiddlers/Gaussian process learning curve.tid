@@ -1,6 +1,6 @@
 created: 20190410170546575
 creator: cosmos
-modified: 20190410170606821
+modified: 20190904173706893
 modifier: cosmos
 tags: [[Learning curve]] [[Gaussian process]]
 title: Gaussian process learning curve
@@ -11,3 +11,15 @@ type: text/vnd.tiddlywiki
 -------------
 
 Can apply, for instance to [[Neural network Gaussian process]]
+
+---------
+
+Need to find eigenfunctions of kernel, under some data distribution:
+
+See my thoughts (and initial confusion) in [[this paper|https://arxiv.org/pdf/1907.10599.pdf]] (see hypothes.is) (that paper also finds eigenfunctions of the [[NNGP]] kernel for some simple input distributions)
+
+How does this definition of the kernel as an integral operator fit in the rest of the story as a kernel of a Gaussian process? I thought a Gaussian process doesn't define an input over functions?
+
+No, but this still has implications. Clearly, the expected generalization behaviour depends on the input distribution. This can be seen in the langauge of GPs, by noticing that the orthogonal basis under different distributions, when restricted to the training set, would stay approximately orthogonal, and approximately diagonalize the empirical kernel, only if the training set is sampled from the input distribution defining the basis. So that if we don't use the right basis, then it will tell us what the bias is, but in a way that may not be very relevant for the data distribution we have. For example, imagine that we have input data distribution that is a Gaussian. We don't care about the fact that we may be biased towards functions that wiggle one way or the other, far away from the origin. We want to bundle together all functions that behave similarly near the origin. The right basis/inner product achieves by giving small inner product to "similar" functions, and making the basis vectors to be maximially dissimilar, therefore capturing the essence of functions, as they matter for the expected data distribution.
+
+A more quantitative version of the reason why they matter, is that the basis matching the input distribution, gives the simplest expression for the expected generalization error, as explained, e.g., here: https://papers.nips.cc/paper/1501-learning-curves-for-gaussian-processes.pdf
