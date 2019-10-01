@@ -1,9 +1,10 @@
 created: 20170721124907152
 creator: cosmos
-modified: 20170721124911505
+modified: 20191001000810146
 modifier: cosmos
-tags: [[Value function approximation]]
+tags: Q-learning [[Value function approximation]]
 title: Experience replay
 tmap.id: a045d77f-9264-453e-9490-96323b8ff3a3
 type: text/vnd.tiddlywiki
 
+http://incompleteideas.net/book/bookdraft2017nov5.pdf#page=382
