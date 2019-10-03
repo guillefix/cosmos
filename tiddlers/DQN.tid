@@ -1,6 +1,6 @@
 created: 20170719083952279
 creator: cosmos
-modified: 20170721125008980
+modified: 20191002150506857
 modifier: cosmos
 tags: [[Deep reinforcement learning]] [[Value function approximation]]
 title: DQN
@@ -8,6 +8,8 @@ tmap.id: e65aed64-fd0a-4c16-b7ce-3629699e0267
 type: text/vnd.tiddlywiki
 
  [[source code|https://sites.google.com/a/deepmind.com/dqn/]] ([[paper|https://www.nature.com/nature/journal/v518/n7540/full/nature14236.html]])
+
+Explanation: [[deep_q_learning.pdf]]
 
 __Main tricks__
 
