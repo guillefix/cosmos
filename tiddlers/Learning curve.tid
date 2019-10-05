@@ -1,6 +1,6 @@
 created: 20181218200738625
 creator: cosmos
-modified: 20190904170736211
+modified: 20191004170324824
 modifier: cosmos
 tags: [[Generalization error]]
 title: Learning curve
@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 
 
 [[Learning curves for Gaussian processes |https://papers.nips.cc/paper/1501-learning-curves-for-gaussian-processes.pdf]]
+
+[[Gaussian process learning curve]]
 
 -------------
 
