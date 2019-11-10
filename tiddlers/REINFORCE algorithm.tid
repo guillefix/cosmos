@@ -1,0 +1,17 @@
+created: 20191109221335273
+creator: cosmos
+modified: 20191109232703277
+modifier: cosmos
+tags: [[Policy gradient method]]
+title: REINFORCE algorithm
+type: text/vnd.tiddlywiki
+
+[img[REINFORCE_algorithm_derivation.png]]
+
+We can also add a baseline that won't change the expectation of the gradient, but can dramatically alter its variance
+
+[img[REINFORCE_algorithm_with_baseline.png]] 
+
+~~because baseline depends on S, it can reduce the variance from state to state (not the one from action to action). Waitt, but is the variance relative to the states even meaningful? Consider the tabular case, we are updating the policy for each state. Hmm, in the non-tabular case, I guess it could be meaningful. Hmm~~ WRONG: IT can reduce the action to action variance of the *gradient* (not the variance of the advantage!)
+
+Just imagine that all returns $$G_t$$ are quite positive, then you'll be increaseing the probabilties of all the actions, and it would all just depend on having enought updates that eventually, in average, we push more the one that has higher *advantage* (return relative to baseline, say [[State value]]). But if we update according to advantage directly, we are performing more meanigful updates to begin with.

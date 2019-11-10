@@ -1,6 +1,6 @@
 created: 20160428203926307
 creator: guillefix
-modified: 20180630215655708
+modified: 20191109143248496
 modifier: cosmos
 tags: [[Machine learning]] Optimization
 title: Reinforcement learning
@@ -158,9 +158,15 @@ Integrate learning and [[Planning]] processes. The most straightforward method i
 
 Methods which attempt to compute the exact value function are called [[Tabular method]]. The other alternative, which can be applied to larger and more difficult problems is to approximate the value function, for instance using a [[neural network|Artificial neural network]]
 
-!!__[[Policy search]]__
+!!__[[Policy gradient method]]s)__
 
-[[Policy gradient method]]s --> [[Actor-critic method]]
+<small>(aka [[Policy search]])</small>
+
+* [[REINFORCE algorithm]]
+ * [[Actor-critic method]]
+** [[AC3]]
+* [[Proximal policy optimization]]
+* [[Trust region policy optimization]]
 
 [[Stochastic gradient descent]] on the parameters determining (stochastic) policy, to maximize expected payoff.
 

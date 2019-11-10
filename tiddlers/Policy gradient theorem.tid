@@ -1,0 +1,14 @@
+created: 20191109144314423
+creator: cosmos
+modified: 20191109230340239
+modifier: cosmos
+tags: [[Policy gradient method]]
+title: Policy gradient theorem
+type: text/vnd.tiddlywiki
+
+Just looking at proof of policy gradient theorem.
+It's just backpropagation through time on the tree of rollouts, where "activations" correspond to value functions.
+
+https://twitter.com/guillefix/status/1193190931853389825
+
+[img[policy_gradient_theorem_proof.png]]

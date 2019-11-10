@@ -1,0 +1,85 @@
+created: 20191109143202735
+creator: cosmos
+modified: 20191109144144004
+modifier: cosmos
+tags: [[Reinforcement learning]]
+title: Policy gradient method
+type: text/vnd.tiddlywiki
+
+A class of [[Reinforcement learning]] algorithms. [[These are also known as direct search algorithms|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=9m]] or Policy search, in contrast with algorithms where our aim is to find the optimal value function.
+
+They directly optimize the [[Policy function]] to maximize expected reward. If the expected reward can be computed exactly, this is typically an instance of [[Model-based control]]. If the environment is unknown, or can't be integrated over, then we may approximate the expected reward with a [[Monte Carlo]] estimate (sum over samples). But this alone doesn't let us calculate the gradients! W need a Monte Carlo estimate of the gradients themselves. This isn't as easy as in supervised learning (where the cost is a sum over i.i.d. examples) because the distribution of states depends on the policy itself. The solution to this problem is the [[Policy gradient theorem]]
+
+With Monte Carlo estimates of the gradient of the expected reward, we can then use an [[Stochastic optimization]] algorithm like [[Stochastic gradient descent]] (when we parametrize the policy in a way such that the gradients with respect to the parameters exist).
+
+[[intro vid|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=6m25s]] -- 
+[[General aim|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=7m35s]] -- 
+''Stochastic policy'' [[Definition|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=11m23s]]
+
+__Classes of policy gradient algorithms__
+
+* [[REINFORCE algorithm]]
+ * [[Actor-critic method]]
+** [[AC3]]
+* [[Proximal policy optimization]]
+* [[Trust region policy optimization]]
+
+
+!!!__REINFORCE__
+
+Sometimes called the ''reinforce algorithm'', and is a form of [[Stochastic gradient descent]]
+
+[[Goal|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=23m]]
+
+[[Algorithm|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=27m]] -- [[explanation|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=28m45s]]
+
+[[Derivation|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=33m]], using the [[Product rule]]
+
+# [[Differentiation|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=36m05s]]
+# [[Factor out joint probability from terms in sum|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=38m]] 
+# Rewrite as expectation --> [[On expectation, reinforce algorithm updates parameters in the direction of the gradient of the expected payout|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=40m05s]]. This shows the algorithm is an [[Stochastic gradient descent]] algorithm!
+
+With direct policy search, [[rewards may be combined in other ways other than by summing them|https://www.youtube.com/watch?v=kUiR0RLmGCo&index=15&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=40m50s]]
+
+[[Derivation by Nando|https://www.youtube.com/watch?v=kUiR0RLmGCo&index=15&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=42m43s]] -- [[comment on reward function not being really needed|https://www.youtube.com/watch?v=kUiR0RLmGCo&index=15&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=46m50]] --> [[result|https://www.youtube.com/watch?v=kUiR0RLmGCo&index=15&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=49m05s]]
+
+What we use for the gradient descent is do a [[Monte Carlo]] estimate, which makes it stochastic.
+
+!!__[[Actor-critic method]]__
+
+!!__Policy optimization__
+
+[[Proximal policy optimization]]
+
+[[Trust region policy optimization]]
+
+!!__Pegasus__
+
+---->[[vid|https://www.youtube.com/watch?v=yCqPMD6coO8&index=20&list=PLA89DCFA6ADACE599#t=48m]]
+
+[[Nando's vid|https://www.youtube.com/watch?v=kUiR0RLmGCo&index=15&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw#t=52m]]
+
+!!__Direct policy gradient methods__
+
+!!!__Deterministic Policy Gradient Algorithms__
+
+[[paper|http://jmlr.org/proceedings/papers/v32/silver14.pdf]]
+
+!!!__Natural policy gradient__
+
+!!__Other variations__
+
+Can approach it as an [[Inference]] problem, or in other ways. See [[comment|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=1m47]]
+
+!!!__pair-wise policy comparisons__
+
+!!!__probabilistic policy search approaches__
+
+__based on EM __
+
+__based on probabilistic modeling __
+
+!!!__ Relative Entropy Policy Search __
+
+[[Hierarchical Relative Entropy Policy Search|https://is.tuebingen.mpg.de/fileadmin/user_upload/files/publications/2012/AISTATS-2012-Daniel.pdf]] -- [[extended version|http://jmlr.org/papers/volume17/15-188/15-188.pdf]]
+
