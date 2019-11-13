@@ -1,6 +1,6 @@
 created: 20160428203926307
 creator: guillefix
-modified: 20191109143248496
+modified: 20191113002307770
 modifier: cosmos
 tags: [[Machine learning]] Optimization
 title: Reinforcement learning
@@ -11,7 +11,7 @@ See [[Machine learning]], [[Decision theory]]
 
 [[Andrew Ng intro lecture|https://www.youtube.com/watch?v=RtxI449ZjSc&index=16&list=PLA89DCFA6ADACE599#t=20s]] -- [ext[book|https://sites.ualberta.ca/~szepesva/RLBook.html]] [[which proves several important theorems|https://www.youtube.com/watch?v=dV80NAlEins&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw&index=16#t=10m30]]. -- [[good github repo with sources|https://github.com/dennybritz/reinforcement-learning]] -- [[Sutton&Barto book|http://incompleteideas.net/book/bookdraft2017nov5.pdf]]
 
-[[Advances in reinforcement learning]]
+[[Advances in reinforcement learning]]. See my more recent notes on https://github.com/oxai/vrai/wiki
 
 https://www.alexirpan.com/2018/02/14/rl-hard.html
 

@@ -1,6 +1,6 @@
 created: 20180630215625318
 creator: cosmos
-modified: 20190128230627530
+modified: 20191113002315829
 modifier: cosmos
 tags: [[Reinforcement learning]]
 title: Advances in reinforcement learning
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 
 
 [[Deep reinforcement learning]]
+
+ See my more recent notes on https://github.com/oxai/vrai/wiki
 
 !!__[[Curiosity-driven RL]]__
 
