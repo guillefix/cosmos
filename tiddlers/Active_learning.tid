@@ -1,6 +1,6 @@
 created: 20170328212950837
 creator: cosmos
-modified: 20181219200700901
+modified: 20191119210435218
 modifier: cosmos
 tags: [[Machine learning]]
 title: Active learning
@@ -10,7 +10,9 @@ type: text/vnd.tiddlywiki
 
 https://www.youtube.com/watch?v=8jR9DkXY_ZU#t=34m
 
-See also [[Active inference]]
+See some discussion in http://www.ki.tu-berlin.de/fileadmin/fg135/publikationen/opper/Op01.pdf#page=8 for perceptrons and for general algorithms. A general algorithm has been proposed [[(Seung et al., 1992a)|https://dl.acm.org/citation.cfm?id=130417]] which uses the principle of maximal disagreement in a committee of several students as a selection process for training patterns. Using an appropriate randomized training strategy, different students are generated which all learn the same set of examples. Next, any new input vector is only accepted for training when the disagreement of its classification between the students is maximal. For a committee of two students it can be shown that when the number of examples is large, the information gain does not decrease but reaches a positive constant. This results in a much faster decrease of the generalization error. Instead of being inversely proportional to the number of examples, the decrease is now exponentially fast.
+
+See also [[Active inference]], [[Query learning]]
 
 In [[this paper|http://sci-hub.cc/10.1162/089976600300014999]], active learning is framed as the algorithm selecting a set of examples from a pool of examples (instead of being fed examples by a predetermined distribution, as in supervised learning). Then he derives lower bounds for the number of examples needed, like the active analog of the same quantity in PAC supervised learning
 
