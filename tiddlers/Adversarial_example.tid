@@ -1,6 +1,6 @@
 created: 20170325141500997
 creator: cosmos
-modified: 20190519213543200
+modified: 20191206120959739
 modifier: cosmos
 tags: [[AI safety]]
 title: Adversarial example
@@ -8,6 +8,8 @@ tmap.id: 9f36d2e2-dcf6-4dd2-8d80-0f65791b5251
 type: text/vnd.tiddlywiki
 
 [[Attacking Machine Learning with Adversarial Examples|https://blog.openai.com/adversarial-example-research/]]
+
+https://mobile.twitter.com/TheGregYang/status/1139205510475833346
 
 [[Are Accuracy and Robustness Correlated?|https://arxiv.org/abs/1610.04563]] We find that adversarial examples are mostly transferable across similar network topologies, and we demonstrate that better machine learning models are less vulnerable to adversarial examples.
 
