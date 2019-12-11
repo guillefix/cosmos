@@ -1,6 +1,6 @@
 created: 20181218200738625
 creator: cosmos
-modified: 20191004170324824
+modified: 20191210174704307
 modifier: cosmos
 tags: [[Generalization error]]
 title: Learning curve
@@ -11,6 +11,8 @@ type: text/vnd.tiddlywiki
 [[Learning curves for Gaussian processes |https://papers.nips.cc/paper/1501-learning-curves-for-gaussian-processes.pdf]]
 
 [[Gaussian process learning curve]]
+
+Learning curves for deep learning seem to follow [[Power law]]s: https://arxiv.org/abs/1712.00409
 
 -------------
 
@@ -39,6 +41,8 @@ See nice discussion in comments with Cristof here: https://www.facebook.com/guil
 [ext[Learning to generalize|http://www.ki.tu-berlin.de/fileadmin/fg135/publikationen/opper/Op01.pdf]]
 
 [[Rigorous Learning Curve Bounds from Statistical Mechanics|https://www.cis.upenn.edu/~mkearns/papers/statmech.pdf]]
+
+entropy bias learning curve https://www.desmos.com/calculator/mb7g8wpxou
 
 --------------
 

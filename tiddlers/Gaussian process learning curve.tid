@@ -1,12 +1,14 @@
 created: 20190410170546575
 creator: cosmos
-modified: 20190904173706893
+modified: 20191210174731029
 modifier: cosmos
 tags: [[Learning curve]] [[Gaussian process]]
 title: Gaussian process learning curve
 type: text/vnd.tiddlywiki
 
 [[Learning curves for Gaussian processes|https://papers.nips.cc/paper/1501-learning-curves-for-gaussian-processes.pdf]]
+
+Recent analysis for non-well specified case for traslationally-invariant kernels: https://arxiv.org/abs/1905.10843
 
 -------------
 

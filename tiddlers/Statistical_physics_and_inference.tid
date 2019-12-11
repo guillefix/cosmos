@@ -1,11 +1,13 @@
 created: 20170420161906055
 creator: cosmos
-modified: 20190410170924453
+modified: 20191210142628351
 modifier: cosmos
 tags: [[Information, computation and physics]] [[Statistical inference]]
 title: Statistical physics and inference
 tmap.id: f0895bdf-2a7f-4109-ab3a-02f58b7cfd51
 type: text/vnd.tiddlywiki
+
+A good review by Lenka Zdeborová, Florent Krzakala: [[Statistical physics of inference: Thresholds and algorithms|https://arxiv.org/abs/1511.02476]]
 
 [[The thermodynamics of prediction|https://arxiv.org/abs/1203.3271]]
 
