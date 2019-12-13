@@ -1,6 +1,6 @@
 created: 20181031010300887
 creator: cosmos
-modified: 20190309020053560
+modified: 20191212154146163
 modifier: cosmos
 tags: [[Learning theory]]
 title: Statistical supervised learning theory
@@ -11,7 +11,7 @@ See post: [[Learn in theory|https://medium.com/@guillefix/learn-in-theory-3c8808
 
 The [[Statistical learning theory]] of [[Supervised learning]].  Mostly studies ways of ensuring good [[Generalization]] for learning algorithms. See more at [[Computational learning theory]] and [[Probably approximately correct]]
 
-See [[Introduction to supervised learning theory]] for a more complete formal introduction, and [[these notes|http://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/18/]]
+See [[Introduction to supervised learning theory]] for a more complete formal introduction, and [[these notes|http://www.stats.ox.ac.uk/~rebeschi/teaching/AFoL/19/]]
 
 We have several approaches for [[Generalization error bound]]s (see more detail [[here|https://gingkoapp.com/app#5bb786ea4176d5035eafbfb9]]). See below.
 
