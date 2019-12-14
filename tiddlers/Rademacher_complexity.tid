@@ -1,6 +1,6 @@
 created: 20180518174237094
 creator: cosmos
-modified: 20190309020255806
+modified: 20191213173231923
 modifier: cosmos
 tags: [[Learning theory]]
 title: Rademacher complexity
@@ -38,6 +38,8 @@ The first result is that via McDiarmid's ''concentration inequality'' $$\text{Re
 > So for instance you could have a hypothesis class that has the vector of all $$1$$s, and then all vectors of half $$1$$s and half $$0$$s. For random target functions, this would have high expected Rad comp and generalize badly, but for the function with all $$1$$s it would have low expected Rad comp and generalize well. However, for the hypothesis class of all functions, Rad comp would be high for all targets!
 
 I think there are probably some ways to solve this.. and incorporate some bias within $$\mathcal{F}$$. This would require making the bound depend on $$f$$, like something based on [[Structural risk minimization]], with a set of classes (typically nested) which have different Rad comp.
+
+Paper with applications of Rademacher complexity to classes of margin classifiers: http://www.jmlr.org/papers/volume5/luxburg04b/luxburg04b.pdf
 
 ---------
 

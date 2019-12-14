@@ -1,6 +1,6 @@
 created: 20181108173901591
 creator: cosmos
-modified: 20190331154346142
+modified: 20191213173243344
 modifier: cosmos
 tags: [[Rademacher complexity]] Generalization [[Structural risk minimization]]
 title: Margin-based generalization bound
@@ -22,6 +22,9 @@ The algorithmic idea of large margin classifiers was introduced in the linear ca
 [[Structural risk minimization over data-dependent hierarchies|https://pdfs.semanticscholar.org/db5f/533d9f06d8d86e4e003478b3dc4bba15b848.pdf]] -- [[For valid generalization the size of the weights is more important than the size of thenetwork|https://papers.nips.cc/paper/1204-for-valid-generalization-the-size-of-the-weights-is-more-important-than-the-size-of-the-network.pdf]] -- [[The sample complexity of pattern classification with neural networks: the size ofthe weights is more important than the size of the network.|https://pdfs.semanticscholar.org/9f1e/b4445219fbc994eb3e47e76cf1428d99815c.pdf]]
 
 [[Boosting the margin: a new explanation for the effectiveness of voting methods|https://projecteuclid.org/euclid.aos/1024691352]]
+
+Paper with applications of Rademacher complexity to classes of margin classifiers: http://www.jmlr.org/papers/volume5/luxburg04b/luxburg04b.pdf
+
 
 !!__[[PAC-Bayes]]ian approach to margin bounds__
 
