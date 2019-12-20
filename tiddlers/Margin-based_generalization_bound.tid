@@ -1,6 +1,6 @@
 created: 20181108173901591
 creator: cosmos
-modified: 20191213173243344
+modified: 20191219180535544
 modifier: cosmos
 tags: [[Rademacher complexity]] Generalization [[Structural risk minimization]]
 title: Margin-based generalization bound
@@ -12,6 +12,8 @@ type: text/vnd.tiddlywiki
 See {{UML}} for [[SVM|Support vector machine]] bounds; they are mostly based on [[Structural risk minimization]] and bounding [[Rademacher complexity]] by bounding norms of the parameters/inputs. But some developed by Langford and others are based on [[PAC-Bayesian theory|PAC-Bayesian learning]], and may be tighter (see section below)
 
 [[Theory of classification: A survey of some recent advances.|https://www.esaim-ps.org/articles/ps/pdf/2005/01/ps0420.pdf]]
+
+[[section from UML|norm_based_generalization_error_bounds_UML.pdf]]
 
 [[Video about margin theory|https://youtu.be/8wFMkMI7J1U?t=1331]]
 
