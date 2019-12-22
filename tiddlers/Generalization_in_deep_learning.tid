@@ -1,6 +1,6 @@
 created: 20170512224700922
 creator: cosmos
-modified: 20190903142650086
+modified: 20191222004105225
 modifier: cosmos
 tags: [[Deep learning theory]] Generalization
 title: Generalization in deep learning
@@ -119,7 +119,9 @@ They are very related to sharpness/robustness analysis. They look at how many of
 
 [[Predicting the Generalization Gap in Deep Networks with Margin Distributions|https://arxiv.org/abs/1810.00113]] -- [[openreview|https://openreview.net/forum?id=HJlQfnCqKX]] (''new'')
 
-''Lower bounds?'' some [[here|https://arxiv.org/abs/1805.12076]], but they are just lower bounds on RadComp I think, so lower bounds on worst-case over algos..
+Tighter norm-based bounds|https://arxiv.org/pdf/1902.00800.pdf]]
+
+''Lower bounds?'' some [[here|https://arxiv.org/abs/1805.12076]] and [[here|https://arxiv.org/pdf/1902.00800.pdf]], but they are just lower bounds on RadComp I think, so lower bounds on worst-case over algos..
 
 @@.fancy-title
 !!__[[Compression-based generalization bound]]__
@@ -132,6 +134,8 @@ https://www.offconvex.org/2018/02/17/generalization2/ -- [[Stronger generalizati
 [[Non-vacuous Generalization Bounds at the ImageNet Scale: a PAC-Bayesian Compression Approach|https://openreview.net/forum?id=BJgqqsAct7]] -- [[blog|https://severelytheoretical.wordpress.com/2018/06/25/why-do-neural-networks-generalize-well/]]
 
 [[Compressibility and Generalization in Large-Scale Deep Learning|https://arxiv.org/abs/1804.05862]]
+
+[[Compression based bound for non-compressed network: unified generalization error analysis of large compressible deep neural network|https://arxiv.org/abs/1909.11274]]
 
 @@.fancy-title
 !!__[[Robustness|Algorithmic robustness]], [[stability|Algorithmic stability]], sensitivity, <small>[[continuity|Continuous function]]/[[smoothness|Smooth function]]</small>__
