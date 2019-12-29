@@ -1,6 +1,6 @@
 created: 20171128124423518
 creator: cosmos
-modified: 20171128124510878
+modified: 20191228132034762
 modifier: cosmos
 tags: Generalization
 title: Algorithmic stability
@@ -9,4 +9,4 @@ type: text/vnd.tiddlywiki
 
 is then a notion of how much its output differs in loss upon being presented with two datasets, Ξ and Ξ', that differ in at most one sample
 
-O. Bousquet and A. Elisseeff. Stability and generalization. JMLR, 2(Mar):499–526, 2002.
+[[O. Bousquet and A. Elisseeff. Stability and generalization. JMLR, 2(Mar):499–526, 2002.|http://www.jmlr.org/papers/volume2/bousquet02a/bousquet02a.pdf]]
