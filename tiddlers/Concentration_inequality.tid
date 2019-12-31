@@ -1,6 +1,6 @@
 created: 20180526183256344
 creator: cosmos
-modified: 20180906133756953
+modified: 20191230113500412
 modifier: cosmos
 tags: [[Probability theory]] [[High-dimensional statistics]]
 title: Concentration inequality
@@ -8,6 +8,8 @@ tmap.id: 0467e593-181e-4c70-b12c-2c1ac8e33cdf
 type: text/vnd.tiddlywiki
 
 //aka concentration bound//
+
+[img[concentration_inequalities_intuition.png]]
 
 Inequalities that tell you that most probability mass in some event space is //concentrated// in some region, so that something in that region occurs [[w.h.p.]]
 
