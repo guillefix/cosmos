@@ -1,7 +1,7 @@
 created: 20160918174304853
 creator: cosmos
-modified: 20190410170458874
-modifier: cosmos
+modified: 20200115213152229
+modifier: guillefix
 tags: [[Statistical learning theory]]
 title: Generalization
 tmap.id: b1a2ad00-164d-4e16-a784-682652f169b1
@@ -76,3 +76,7 @@ See WWIS, emails, etc..
 -----------
 
 [[NIPS 2017-Variance-based Regularization with Convex Objectives|https://www.youtube.com/watch?v=2j0rrgr4bUc]] -- //optimal// bias/variance tradeoff, [[Variance-based regularization with convex objectives|https://arxiv.org/abs/1610.02581]]
+
+----------------
+
+https://arxiv.org/abs/1801.04295
