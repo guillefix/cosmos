@@ -1,0 +1,47 @@
+created: 20200121173028257
+creator: guillefix
+modified: 20200121193417936
+modifier: guillefix
+tags: Emotion
+title: Emotion recognition
+type: text/vnd.tiddlywiki
+
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6069143/  In general, emotion recognition methods could be classified into two major categories. 
+
+* 
+One is using human physical signals such as facial expression [4], speech [5], gesture, posture, etc.,  which has the advantage of easy collection and have been studied for years. However, the reliability can’t be guaranteed, as it’s relatively easy for people to control the physical signals 
+
+*  The other category is using the internal signals—the physiological signals, which include the electroencephalogram (EEG), temperature (T), electrocardiogram (ECG), electromyogram (EMG), galvanic skin response (GSR), respiration (RSP), etc
+
+!![[Emotion model]]s
+
+!!!__Discrete__
+
+Eckman model: happy, sad, anger, fear, surprise, and disgust
+
+Plutchik: joy, trust, fear, surprise, sadness, disgust, anger and anticipation
+
+Izard: interest, joy, surprise, sadness, fear, shyness, guilt, angry, disgust, and contempt.
+
+!!!__Continuous__
+
+Lang (2D): valence and arousal
+
+Mehrabian (3D): dominance, valence, and arousal
+
+
+!![[Emotion elicitation]]
+
+National Institute of Mental Health [13] proposed the well-known International Affective Picture System (IAPS) in 1997, which provided a series of standardized, emotionally-evocative photographs that can be accessed by everyone. Additionally, in 2005, the Chinese Affective Picture System (CAPS) was proposed [14], which was an important tool for domestic researchers.
+
+Combining visual and auditory senses, movie stimulation has much progress.
+
+Zhang et al. proposed a novel emotion evocation system called Affective Virtual Reality System (AVRS, Figure 4b, [17]), which was composed of eight emotive VR scenes
+
+!![[External emotion recognition]]
+
+!!![[Facial emotion recognition]]
+
+https://www.ncbi.nlm.nih.gov/pubmed/29385749
