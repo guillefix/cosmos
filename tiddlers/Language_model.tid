@@ -1,7 +1,7 @@
 created: 20170131161500537
 creator: cosmos
-modified: 20190816211114581
-modifier: cosmos
+modified: 20200131153203021
+modifier: guillefix
 tags: [[Natural language understanding]] [[Natural language processing]]
 title: Language model
 tmap.id: 22f55e41-acd0-49a5-9605-cd36bc84083b
@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 
 
 A [[Probabilistic model]] for [[Language]]: A [[Probability distribution]] over strings (sequence of tokens) in a [[Language]]
+
+[[Language representation]]
 
 https://venturebeat.com/2019/08/13/nvidia-trains-worlds-largest-transformer-based-language-model/amp/
 
